@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <html>
 
@@ -47,28 +50,24 @@
            <li>get to work!</li>
          </ul>
 
-        <h3>Projects</h3>
-
-        <ul>
-          <li><a href="https://github.com/Glimpse/Glimpse/issues?labels=Jump+In">Glimpse</a></li>
-          <li><a href="https://github.com/libgit2/libgit2sharp/issues?labels=Up+for+grabs">LibGit2Sharp</a></li>
-          <li>NuGet <a href="http://nuget.codeplex.com/workitem/list/advanced?release=Up+for+Grabs">(client)</a> <a href="https://github.com/NuGet/NuGetGallery/issues?milestone=13&amp;state=open">(gallery)</a></li>
-          <li><a href="https://github.com/octokit/octokit.net/issues?labels=easy-fix">Octokit.NET</a></li>
-          <li><a href="https://github.com/scriptcs/scriptcs/issues?labels=you+take+it">scriptcs</a></li>
-          <li><a href="http://entityframework.codeplex.com/workitem/list/basic?keywords=UpForGrabs">Entity Framework</a></li>
-          <li><a href="https://github.com/AutoFixture/AutoFixture/issues?labels=jump+in">AutoFixture</a></li>
-          <li><a href="https://github.com/ploeh/Albedo/issues?labels=jump+in">Albedo</a></li>
-          <li><a href="https://github.com/ploeh/Hyprlinkr/issues?labels=jump+in">Hyprlinkr</a></li>
-          <li><a href="https://github.com/amirrajan/Oak/issues?labels=up-for-grabs&state=open">Oak MVC</a></li>
-          <li><a href="https://github.com/myget/MyGetDocs/issues?labels=Up+for+grabs&state=open">MyGet Docs</a> (free vouchers for each accepted PR)</li>
-          <li><a href="https://github.com/plioi/fixie/issues?labels=Jump+In&state=open">Fixie</a></li>
-          <li><a href="https://github.com/bundler/bundler-features/issues?labels=small&page=1&state=open">Bundler</a></li>
-          <li><a href="https://github.com/fsharp/fake/issues?labels=up-for-grabs&page=1&state=open">FAKE</a></li>
-          <li><a href="https://github.com/mexx/FeatureSwitcher/issues?labels=up-for-grabs&state=open">FeatureSwitcher</a></li>
-          <li><a href="https://github.com/fsharp/FSharp.Data/issues?labels=up-for-grabs&state=open">FSharp.Data</a></li>
-          <li><a href="https://github.com/dahlbyk/up-for-grabs.net/issues?labels=up-for-grabs&state=open">Up-For-Grabs.net</a></li>
-        </ul>
-         
+         <h3>Projects</h3>
+         <table>
+         {% for project in site.data.projects %}
+           <tr>
+             <td>
+                 <p><a class="proj" href="{{ project.site }}">{{ project.name }}</a></p>
+                 <p>Issues: <a class="label" href="{{ project.upforgrabs.link }}">{{ project.upforgrabs.name }}</a></p>
+             </td>
+             <td>
+                 <p class="desc">{{ project.desc }}</p>
+                 {% if project.tags %}
+                 <p class="tags">Tags: {{ project.tags }}</p>
+                 {% endif %}
+             </td>
+           </tr>
+         {% endfor %}
+         </table>
+     
          <h3>I maintain a project and want to participate!</h3>
 
          <p>

@@ -1,0 +1,160 @@
+- name: Glimpse
+  desc: Glimpse is a web debugging and diagnostics tool used to gain a better understanding of whats happening inside of your ASP.NET application.
+  site: https://github.com/Glimpse/Glimpse
+  tags: [ASP.NET, Web, WebForms, diagnostics, performance, profiling, timing]
+  upforgrabs:
+    name: Jump In
+    link: https://github.com/Glimpse/Glimpse/issues?labels=Jump+In
+
+- name: LibGit2Sharp
+  desc: LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed world of .Net and Mono.
+  site: https://github.com/libgit2/libgit2sharp
+  tags: [libgit2, git, wrapper, bindings, API, dvcs, vcs]
+  upforgrabs:
+    name: Up for grabs
+    link: https://github.com/libgit2/libgit2sharp/issues?labels=Up+for+grabs
+
+- name: NuGet client
+  desc:
+  site: http://nuget.codeplex.com
+  tags:
+  upforgrabs:
+    name: Up For Grabs
+    link: http://nuget.codeplex.com/workitem/list/advanced?release=Up+for+Grabs
+
+- name: NuGet gallery
+  desc:
+  site: https://github.com/NuGet/NuGetGallery
+  tags:
+  upforgrabs:
+    name: Up For Grabs
+    link: https://github.com/NuGet/NuGetGallery/issues?milestone=13&state=open
+
+- name: Octokit.NET
+  desc: An async-based GitHub API client library for .NET
+  site: https://github.com/octokit/octokit.net
+  tags: [GitHub, API, Octokit]
+  upforgrabs:
+    name: easy fix
+    link: https://github.com/octokit/octokit.net/issues?labels=easy-fix
+
+- name: scriptcs
+  desc: Write C# apps with a text editor, nuget and the power of Roslyn!
+  site: https://github.com/scriptcs/scriptcs
+  tags: [roslyn, csx, script, scriptcs]
+  upforgrabs:
+    name: you take it
+    link: https://github.com/scriptcs/scriptcs/issues?labels=you+take+it
+
+- name: Entity Framework
+  desc: Entity Framework is Microsoft's recommended data access technology for new applications.
+  site: http://entityframework.codeplex.com
+  tags: [Microsoft, EF, Database, Data, O/RM, ADO.NET]
+  upforgrabs:
+    name: UpForGrabs
+    link: http://entityframework.codeplex.com/workitem/list/basic?keywords=UpForGrabs
+
+- name: AutoFixture
+  desc:
+  site: https://github.com/AutoFixture/AutoFixture
+  tags:
+  upforgrabs:
+    name: jump in
+    link: https://github.com/AutoFixture/AutoFixture/issues?labels=jump+in
+
+- name: Albedo
+  desc:
+  site: https://github.com/ploeh/Albedo
+  tags:
+  upforgrabs:
+    name: jump in
+    link: https://github.com/ploeh/Albedo/issues?labels=jump+in
+
+- name: Hyprlinkr
+  desc: Hyprlinkr is a small and very focused helper library for the ASP.NET Web API. It does one thing only - it creates URIs according to the applications route configuration in a type-safe manner
+  site: https://github.com/ploeh/Hyprlinkr
+  tags:
+  upforgrabs:
+    name: jump in
+    link: https://github.com/ploeh/Hyprlinkr/issues?labels=jump+in
+
+- name: Oak MVC
+  desc:
+  site: https://github.com/amirrajan/Oak
+  tags:
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/amirrajan/Oak/issues?labels=up-for-grabs&state=open
+
+- name: MyGet Docs
+  desc:
+  site: https://github.com/myget/MyGetDocs
+  tags:
+  upforgrabs:
+    name: Up for grabs
+    link: https://github.com/myget/MyGetDocs/issues?labels=Up+for+grabs&state=open
+
+- name: Fixie
+  desc:
+  site: https://github.com/plioi/fixie
+  tags:
+  upforgrabs:
+    name: Jump In
+    link: https://github.com/plioi/fixie/issues?labels=Jump+In&state=open
+
+- name: Bundler
+  desc:
+  site: https://github.com/bundler/bundler-features
+  tags:
+  upforgrabs:
+    name: small
+    link: https://github.com/bundler/bundler-features/issues?labels=small&page=1&state=open
+
+- name: FAKE
+  desc:
+  site: https://github.com/fsharp/fake
+  tags:
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsharp/fake/issues?labels=up-for-grabs&page=1&state=open
+
+- name: FeatureSwitcher
+  desc:
+  site: https://github.com/mexx/FeatureSwitcher
+  tags:
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/mexx/FeatureSwitcher/issues?labels=up-for-grabs&state=open
+
+- name: FSharp.Data
+  desc:
+  site: https://github.com/fsharp/FSharp.Data
+  tags:
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsharp/FSharp.Data/issues?labels=up-for-grabs&state=open
+
+- name: Up-For-Grabs.net
+  desc:
+  site: https://github.com/dahlbyk/up-for-grabs.net
+  tags:
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/dahlbyk/up-for-grabs.net/issues?labels=up-for-grabs&state=open
+
+- name: Scala Poker
+  desc:
+  site: https://github.com/rafanoronha/scala-poker
+  tags:
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/rafanoronha/scala-poker/issues?labels=up-for-grabs&state=open
+
+- name: Nancy
+  desc:
+  site: https://github.com/NancyFx/Nancy
+  tags:
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/NancyFx/Nancy/issues?labels=Up+for+grabs&state=open
+

@@ -51,17 +51,19 @@ layout: default
          </ul>
 
          <h3>Projects</h3>
-         <table>
+         <table class="projects">
          {% for project in site.data.projects %}
            <tr>
              <td>
-                 <p><a class="proj" href="{{ project.site }}">{{ project.name }}</a></p>
-                 <p>Issues: <a class="label" href="{{ project.upforgrabs.link }}">{{ project.upforgrabs.name }}</a></p>
+                 <span class="proj"><a href="{{ project.site }}">{{ project.name }}</a></span>
+                 <p class="label"><a href="{{ project.upforgrabs.link }}" title="View open issues for {{ project.name }}">{{ project.upforgrabs.name }}</a></p>
              </td>
              <td>
-                 <p class="desc">{{ project.desc }}</p>
+                 {% if project.desc %}
+                 <span class="desc">{{ project.desc }}</span>
+                 {% endif %}
                  {% if project.tags %}
-                 <p class="tags">Tags: {{ project.tags | join: ', '}}</p>
+                 <p class="tags">{{ project.tags | join: ', '}}</p>
                  {% endif %}
              </td>
            </tr>

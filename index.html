@@ -61,7 +61,7 @@ layout: default
              <td>
                  <p class="desc">{{ project.desc }}</p>
                  {% if project.tags %}
-                 <p class="tags">Tags: {{ project.tags }}</p>
+                 <p class="tags">Tags: {{ project.tags | join: ', '}}</p>
                  {% endif %}
              </td>
            </tr>

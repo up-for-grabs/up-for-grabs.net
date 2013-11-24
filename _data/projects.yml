@@ -1,7 +1,7 @@
 - name: Glimpse
   desc: Glimpse is a web debugging and diagnostics tool used to gain a better understanding of whats happening inside of your ASP.NET application.
   site: https://github.com/Glimpse/Glimpse
-  tags: ASP.NET, Web, WebForms, Glimpse, diagnostics, performance, profiling, timing
+  tags: [ASP.NET, Web, WebForms, diagnostics, performance, profiling, timing]
   upforgrabs: 
     name: Jump In
     link: https://github.com/Glimpse/Glimpse/issues?labels=Jump+In
@@ -9,7 +9,7 @@
 - name: LibGit2Sharp
   desc: LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed world of .Net and Mono. 
   site: https://github.com/libgit2/libgit2sharp
-  tags: libgit2, git, wrapper, bindings, API, dvcs, vcs
+  tags: [libgit2, git, wrapper, bindings, API, dvcs, vcs]
   upforgrabs: 
     name: Up for grabs
     link: https://github.com/libgit2/libgit2sharp/issues?labels=Up+for+grabs
@@ -33,7 +33,7 @@
 - name: Octokit.NET
   desc: An async-based GitHub API client library for .NET 
   site: https://github.com/octokit/octokit.net
-  tags: GitHub, API, Octokit
+  tags: [GitHub, API, Octokit]
   upforgrabs: 
     name: easy fix
     link: https://github.com/octokit/octokit.net/issues?labels=easy-fix
@@ -41,7 +41,7 @@
 - name: scriptcs
   desc: Write C# apps with a text editor, nuget and the power of Roslyn!
   site: https://github.com/scriptcs/scriptcs 
-  tags: roslyn, csx, script, scriptcs
+  tags: [roslyn, csx, script, scriptcs]
   upforgrabs: 
     name: you take it
     link: https://github.com/scriptcs/scriptcs/issues?labels=you+take+it
@@ -49,7 +49,7 @@
 - name: Entity Framework
   desc: Entity Framework is Microsoft's recommended data access technology for new applications.
   site: http://entityframework.codeplex.com
-  tags: Microsoft, EF, Database, Data, O/RM, ADO.NET
+  tags: [Microsoft, EF, Database, Data, O/RM, ADO.NET]
   upforgrabs: 
     name: UpForGrabs
     link: http://entityframework.codeplex.com/workitem/list/basic?keywords=UpForGrabs

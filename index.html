@@ -114,6 +114,32 @@ layout: default
       </footer>
     </div>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+(function($){
+  // http://stackoverflow.com/questions/7620677/jquery-shuffle-table-rows
+  $.fn.shuffle = function() {
+    return this.each(function(){
+      var items = $(this).children();
+      return (items.length)
+        ? $(this).html($.shuffle(items))
+        : this;
+    });
+  }
+
+  $.shuffle = function(arr) {
+    for(
+      var j, x, i = arr.length; i;
+      j = parseInt(Math.random() * i),
+      x = arr[--i], arr[i] = arr[j], arr[j] = x
+    );
+    return arr;
+  }
+
+  $('.projects tbody').shuffle();
+})(jQuery);
+</script>
+
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

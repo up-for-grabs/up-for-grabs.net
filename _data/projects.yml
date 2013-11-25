@@ -95,12 +95,12 @@
     link: https://github.com/myget/MyGetDocs/issues?labels=Up+for+grabs&state=open
 
 - name: Fixie
-  desc:
+  desc: A convention-based .NET test framework
   site: https://github.com/plioi/fixie
-  tags:
+  tags: [testing, convention, .net]
   upforgrabs:
-    name: Jump In
-    link: https://github.com/plioi/fixie/issues?labels=Jump+In&state=open
+    name: up-for-grabs
+    link: https://github.com/plioi/fixie/issues?labels=up-for-grabs&state=open
 
 - name: Bundler
   desc:

@@ -87,9 +87,9 @@
     link: https://github.com/amirrajan/Oak/issues?labels=up-for-grabs&state=open
 
 - name: MyGet Docs
-  desc:
+  desc: Markdown based ASP.NET Web Pages documentation web site for MyGet.
   site: https://github.com/myget/MyGetDocs
-  tags:
+  tags: [MarkDown, .NET, docs, NuGet, convention, packaging, build]
   upforgrabs:
     name: Up for grabs
     link: https://github.com/myget/MyGetDocs/issues?labels=Up+for+grabs&state=open

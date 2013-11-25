@@ -15,9 +15,9 @@
     link: https://github.com/libgit2/libgit2sharp/issues?labels=Up+for+grabs
 
 - name: NuGet client
-  desc: 
+  desc: The NuGet Client tools. Includes 'nuget.exe' and the NuGet extensions for Microsoft Visual Studio and Microsoft WebMatrix
   site: http://nuget.codeplex.com
-  tags: 
+  tags: [nuget, visualstudio, nuget.exe, package]
   upforgrabs:
     name: Up For Grabs
     link: http://nuget.codeplex.com/workitem/list/advanced?release=Up+for+Grabs
@@ -25,7 +25,7 @@
 - name: NuGet gallery
   desc: The NuGet.org Website
   site: https://github.com/NuGet/NuGetGallery
-  tags: [nuget, nuget.org, packages]
+  tags: [nuget, nuget.org, package]
   upforgrabs:
     name: Up For Grabs
     link: https://github.com/NuGet/NuGetGallery/issues?milestone=13&state=open

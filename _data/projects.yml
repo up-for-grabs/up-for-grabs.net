@@ -167,7 +167,7 @@
     link: https://github.com/Code52/DownmarkerWPF/issues?labels=jump+in&state=open
 
 - name: GitHubFlowVersion
-  desc: Easy Semantic Versioning ([SemVer.org](http://SemVer.org)) for projects using GitHub flow
+  desc: Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>) for projects using GitHub flow
   site: https://github.com/JakeGinnivan/GitHubFlowVersion
   tags: [Git, Versioning, SemVer, GitHubFlow]
   upforgrabs:

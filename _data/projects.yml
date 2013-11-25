@@ -111,9 +111,9 @@
     link: https://github.com/bundler/bundler-features/issues?labels=small&page=1&state=open
 
 - name: FAKE
-  desc:
+  desc: FAKE - F# Make - is a build automation tool for .NET. Tasks and dependencies are specified in a DSL which is integrated in F#.
   site: https://github.com/fsharp/fake
-  tags:
+  tags: [.NET, build, F#]
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/fsharp/fake/issues?labels=up-for-grabs&page=1&state=open

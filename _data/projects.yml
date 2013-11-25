@@ -157,4 +157,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/NancyFx/Nancy/issues?labels=Up+for+grabs&state=open
-
+    
+- name: MarkPad by Code52
+  desc: A visual Markdown editor (inspired by the Downmarker project) 
+  site: https://github.com/Code52/DownmarkerWPF
+  tags: [Markdown, .NET, C#, WPF, Jekyll, MetaWebLog]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/Code52/DownmarkerWPF/issues?labels=jump+in&state=open

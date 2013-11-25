@@ -15,17 +15,17 @@
     link: https://github.com/libgit2/libgit2sharp/issues?labels=Up+for+grabs
 
 - name: NuGet client
-  desc:
+  desc: 
   site: http://nuget.codeplex.com
-  tags:
+  tags: 
   upforgrabs:
     name: Up For Grabs
     link: http://nuget.codeplex.com/workitem/list/advanced?release=Up+for+Grabs
 
 - name: NuGet gallery
-  desc:
+  desc: The NuGet.org Website
   site: https://github.com/NuGet/NuGetGallery
-  tags:
+  tags: [nuget, nuget.org, packages]
   upforgrabs:
     name: Up For Grabs
     link: https://github.com/NuGet/NuGetGallery/issues?milestone=13&state=open

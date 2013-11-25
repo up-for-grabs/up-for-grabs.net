@@ -119,9 +119,9 @@
     link: https://github.com/fsharp/fake/issues?labels=up-for-grabs&page=1&state=open
 
 - name: FeatureSwitcher
-  desc:
+  desc: FeatureSwitcher is little library for feature switches/toggles.
   site: https://github.com/mexx/FeatureSwitcher
-  tags:
+  tags: [feature, toggle, .net]
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/mexx/FeatureSwitcher/issues?labels=up-for-grabs&state=open

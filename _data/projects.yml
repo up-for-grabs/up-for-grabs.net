@@ -23,7 +23,7 @@
     link: http://nuget.codeplex.com/workitem/list/advanced?release=Up+for+Grabs
 
 - name: NuGet gallery
-  desc: The NuGet.org Website
+  desc: The NuGet Gallery. Powers the "NuGet.org" website, as well as other NuGet package galleries!
   site: https://github.com/NuGet/NuGetGallery
   tags: [nuget, nuget.org, package]
   upforgrabs:

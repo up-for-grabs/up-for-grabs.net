@@ -137,7 +137,7 @@
 - name: Up-For-Grabs.net
   desc: This site!
   site: https://github.com/dahlbyk/up-for-grabs.net
-  tags: oss, web, jekyll, javascript
+  tags: [oss, web, jekyll, javascript]
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/dahlbyk/up-for-grabs.net/issues?labels=up-for-grabs&state=open

@@ -55,9 +55,9 @@
     link: http://entityframework.codeplex.com/workitem/list/basic?keywords=UpForGrabs
 
 - name: AutoFixture
-  desc:
+  desc: Write maintainable unit tests, faster. AutoFixture makes it easier for developers to do Test-Driven Development by automating non-relevant Test Fixture Setup, allowing the Test Developer to focus on the essentials of each test case.
   site: https://github.com/AutoFixture/AutoFixture
-  tags:
+  tags: [TDD, Unit Testing, .NET, Auto-mocking, C#, F#]
   upforgrabs:
     name: jump in
     link: https://github.com/AutoFixture/AutoFixture/issues?labels=jump+in

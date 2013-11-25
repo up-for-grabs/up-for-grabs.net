@@ -79,9 +79,9 @@
     link: https://github.com/ploeh/Hyprlinkr/issues?labels=jump+in
 
 - name: Oak MVC
-  desc:
+  desc: Frictionless development for ASP.NET MVC single page web apps. Prototypical and dynamic capabilities brought to C#.
   site: https://github.com/amirrajan/Oak
-  tags:
+  tags: [SPA, ASP.NET, dynamic] 
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/amirrajan/Oak/issues?labels=up-for-grabs&state=open

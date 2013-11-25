@@ -165,3 +165,19 @@
   upforgrabs:
     name: jump in
     link: https://github.com/Code52/DownmarkerWPF/issues?labels=jump+in&state=open
+
+- name: GitHubFlowVersion
+  desc: Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>) for projects using GitHub flow
+  site: https://github.com/JakeGinnivan/GitHubFlowVersion
+  tags: [Git, Versioning, SemVer, GitHubFlow]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/JakeGinnivan/GitHubFlowVersion/issues?labels=up-for-grabs&state=open
+    
+- name: GitReleaseNotes
+  desc: Release notes generator for Git projects
+  site: https://github.com/JakeGinnivan/GitReleaseNotes
+  tags: [Git, SemanticReleaseNotes, Release Notes, GitHub]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/JakeGinnivan/GitReleaseNotes/issues?labels=up-for-grabs&state=open

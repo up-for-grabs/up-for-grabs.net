@@ -1,0 +1,201 @@
+- name: Glimpse
+  desc: Glimpse is a web debugging and diagnostics tool used to gain a better understanding of whats happening inside of your ASP.NET application.
+  site: https://github.com/Glimpse/Glimpse
+  tags: [ASP.NET, Web, WebForms, diagnostics, performance, profiling, timing]
+  upforgrabs:
+    name: Jump In
+    link: https://github.com/Glimpse/Glimpse/issues?labels=Jump+In
+
+- name: LibGit2Sharp
+  desc: LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed world of .Net and Mono.
+  site: https://github.com/libgit2/libgit2sharp
+  tags: [libgit2, git, wrapper, bindings, API, dvcs, vcs]
+  upforgrabs:
+    name: Up for grabs
+    link: https://github.com/libgit2/libgit2sharp/issues?labels=Up+for+grabs
+
+- name: NuGet client
+  desc: The NuGet Client tools. Includes 'nuget.exe' and the NuGet extensions for Microsoft Visual Studio and Microsoft WebMatrix
+  site: http://nuget.codeplex.com
+  tags: [nuget, visualstudio, nuget.exe, package]
+  upforgrabs:
+    name: Up For Grabs
+    link: http://nuget.codeplex.com/workitem/list/advanced?release=Up+for+Grabs
+
+- name: NuGet gallery
+  desc: The NuGet Gallery. Powers the "NuGet.org" website, as well as other NuGet package galleries.
+  site: https://github.com/NuGet/NuGetGallery
+  tags: [nuget, nuget.org, package]
+  upforgrabs:
+    name: Up For Grabs
+    link: https://github.com/NuGet/NuGetGallery/issues?milestone=13&state=open
+
+- name: Octokit.NET
+  desc: An async-based GitHub API client library for .NET
+  site: https://github.com/octokit/octokit.net
+  tags: [GitHub, API, Octokit]
+  upforgrabs:
+    name: easy fix
+    link: https://github.com/octokit/octokit.net/issues?labels=easy-fix
+
+- name: scriptcs
+  desc: Write C# apps with a text editor, nuget and the power of Roslyn!
+  site: https://github.com/scriptcs/scriptcs
+  tags: [roslyn, csx, script, scriptcs]
+  upforgrabs:
+    name: you take it
+    link: https://github.com/scriptcs/scriptcs/issues?labels=you+take+it
+
+- name: Entity Framework
+  desc: Entity Framework is Microsoft's recommended data access technology for new applications.
+  site: http://entityframework.codeplex.com
+  tags: [Microsoft, EF, Database, Data, O/RM, ADO.NET]
+  upforgrabs:
+    name: UpForGrabs
+    link: http://entityframework.codeplex.com/workitem/list/basic?keywords=UpForGrabs
+
+- name: AutoFixture
+  desc: Write maintainable unit tests, faster. AutoFixture makes it easier for developers to do Test-Driven Development by automating non-relevant Test Fixture Setup, allowing the Test Developer to focus on the essentials of each test case.
+  site: https://github.com/AutoFixture/AutoFixture
+  tags: [TDD, Unit Testing, .NET, Auto-mocking, C#, F#]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/AutoFixture/AutoFixture/issues?labels=jump+in
+
+- name: Albedo
+  desc: A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions and utilities.
+  site: https://github.com/ploeh/Albedo
+  tags: [Reflection, .NET, patterns, abstraction, interface]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/ploeh/Albedo/issues?labels=jump+in
+
+- name: Hyprlinkr
+  desc: Hyprlinkr is a small and very focused helper library for the ASP.NET Web API. It does one thing only - it creates URIs according to the applications route configuration in a type-safe manner
+  site: https://github.com/ploeh/Hyprlinkr
+  tags: [REST, ASP.NET Web API, URLs, C#, F#]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/ploeh/Hyprlinkr/issues?labels=jump+in
+
+- name: Oak MVC
+  desc: Frictionless development for ASP.NET MVC single page web apps. Prototypical and dynamic capabilities brought to C#.
+  site: https://amirrajan.github.com/Oak
+  tags: [SPA, ASP.NET, dynamic] 
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/amirrajan/Oak/issues?labels=up-for-grabs&state=open
+
+- name: MyGet Docs
+  desc: Markdown based ASP.NET Web Pages documentation web site for MyGet.
+  site: https://github.com/myget/MyGetDocs
+  tags: [MarkDown, .NET, docs, NuGet, convention, packaging, build]
+  upforgrabs:
+    name: Up for grabs
+    link: https://github.com/myget/MyGetDocs/issues?labels=Up+for+grabs&state=open
+
+- name: Fixie
+  desc: A convention-based .NET test framework
+  site: https://github.com/plioi/fixie
+  tags: [testing, convention, .net]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/plioi/fixie/issues?labels=up-for-grabs&state=open
+
+- name: Bundler
+  desc:
+  site: https://github.com/bundler/bundler-features
+  tags:
+  upforgrabs:
+    name: small
+    link: https://github.com/bundler/bundler-features/issues?labels=small&page=1&state=open
+
+- name: FAKE
+  desc: FAKE - F# Make - is a build automation tool for .NET. Tasks and dependencies are specified in a DSL which is integrated in F#.
+  site: https://github.com/fsharp/fake
+  tags: [.NET, build, F#]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsharp/fake/issues?labels=up-for-grabs&page=1&state=open
+
+- name: FeatureSwitcher
+  desc: FeatureSwitcher is little library for feature switches/toggles.
+  site: https://github.com/mexx/FeatureSwitcher
+  tags: [feature, toggle, .net]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/mexx/FeatureSwitcher/issues?labels=up-for-grabs&state=open
+
+- name: FSharp.Data
+  desc: The F# Data library implements type providers for working with structured file formats (CSV, JSON and XML) and for accessing the WorldBank and Freebase data. It also includes helpers for parsing JSON and CSV files and for sending HTTP requests.
+  site: https://github.com/fsharp/FSharp.Data
+  tags: [.NET, F#, data, typeprovider, WorldBank, Freebase, CSV, XML, JSON, HTTP]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsharp/FSharp.Data/issues?labels=up-for-grabs&state=open
+
+- name: Up-For-Grabs.net
+  desc: This site!
+  site: https://github.com/dahlbyk/up-for-grabs.net
+  tags: [oss, web, jekyll, javascript]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/dahlbyk/up-for-grabs.net/issues?labels=up-for-grabs&state=open
+
+- name: Scala Poker
+  desc: Scala Poker aims to be a whole online poker platform solution looking like attractive stuff to serious online poker businesses.
+  site: https://github.com/rafanoronha/scala-poker
+  tags: [scala, java, api, networking, javascript]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/rafanoronha/scala-poker/issues?labels=up-for-grabs&state=open
+
+- name: Nancy
+  desc:
+  site: https://github.com/NancyFx/Nancy
+  tags:
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/NancyFx/Nancy/issues?labels=Up+for+grabs&state=open
+    
+- name: MarkPad by Code52
+  desc: A visual Markdown editor (inspired by the Downmarker project) 
+  site: https://github.com/Code52/DownmarkerWPF
+  tags: [Markdown, .NET, C#, WPF, Jekyll, MetaWebLog]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/Code52/DownmarkerWPF/issues?labels=jump+in&state=open
+
+- name: GitHubFlowVersion
+  desc: Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>) for projects using GitHub flow
+  site: https://github.com/JakeGinnivan/GitHubFlowVersion
+  tags: [Git, Versioning, SemVer, GitHubFlow]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/JakeGinnivan/GitHubFlowVersion/issues?labels=up-for-grabs&state=open
+    
+    
+- name: GitFlowVersion
+  desc: Automatic versioning for projects using GitFlow
+  site: https://github.com/Particular/GitFlowVersion
+  tags: [Git, Versioning, SemVer, GitFlow]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/Particular/GitFlowVersion/issues?labels=up-for-grabs&milestone=&page=1&state=open
+    
+    
+- name: GitReleaseNotes
+  desc: Release notes generator for Git projects
+  site: https://github.com/JakeGinnivan/GitReleaseNotes
+  tags: [Git, SemanticReleaseNotes, Release Notes, GitHub]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/JakeGinnivan/GitReleaseNotes/issues?labels=up-for-grabs&state=open
+
+- name: SharpRepository
+  desc: Generic Repository with implementations for EF, RavenDb, MongoDB, Db4o and more
+  site: https://github.com/SharpRepository/SharpRepository
+  tags: [Repository, C#, EntityFramework]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/SharpRepository/SharpRepository/issues?labels=jump+in&page=1&state=open

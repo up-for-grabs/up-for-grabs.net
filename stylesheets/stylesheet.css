@@ -417,3 +417,46 @@ Small Device Styles
   }
 
 }
+
+/*******************************************************************************
+Custom Styles
+*******************************************************************************/
+.projects, .projects td {
+  border: 0 none;
+}
+
+.projects tr {
+  border-bottom: 1px solid;
+}
+
+.projects tr:last-child {
+  border-bottom: 0 none;
+}
+
+.projects .proj {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.projects .label {
+  background: #0090FF;
+  border-radius: 2px;
+  color: #FFF;
+  display: inline-block;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.projects .label a {
+  color: #FFF;
+  display: inline-block;
+  padding: 2px 8px;
+}
+
+.projects .tags {
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 0;
+}

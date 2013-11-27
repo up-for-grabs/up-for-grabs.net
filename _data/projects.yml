@@ -199,3 +199,11 @@
   upforgrabs:
     name: jump in
     link: https://github.com/SharpRepository/SharpRepository/issues?labels=jump+in&page=1&state=open
+
+- name: NEST
+  desc: .NET elasticsearch client
+  site: https://github.com/Mpdreamz/NEST
+  tags: [C#, elasticsearch, REST]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/Mpdreamz/NEST/issues?labels=up-for-grabs&page=1&state=open

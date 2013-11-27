@@ -174,6 +174,16 @@
     name: up-for-grabs
     link: https://github.com/JakeGinnivan/GitHubFlowVersion/issues?labels=up-for-grabs&state=open
     
+    
+- name: GitFlowVersion
+  desc: Automatic versioning for projects using GitFlow
+  site: https://github.com/Particular/GitFlowVersion
+  tags: [Git, Versioning, SemVer, GitFlow]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/Particular/GitFlowVersion/issues?labels=up-for-grabs&milestone=&page=1&state=open
+    
+    
 - name: GitReleaseNotes
   desc: Release notes generator for Git projects
   site: https://github.com/JakeGinnivan/GitReleaseNotes

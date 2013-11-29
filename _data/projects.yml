@@ -103,9 +103,9 @@
     link: https://github.com/plioi/fixie/issues?labels=up-for-grabs&state=open
 
 - name: Bundler
-  desc:
+  desc: Feature requests for the Bundler dependency management tool
   site: https://github.com/bundler/bundler-features
-  tags:
+  tags: [ruby, gems, packaging, packages]
   upforgrabs:
     name: small
     link: https://github.com/bundler/bundler-features/issues?labels=small&page=1&state=open

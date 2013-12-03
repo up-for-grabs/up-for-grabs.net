@@ -3,4 +3,5 @@ title: up-for-grabs.net
 exclude:
   - CNAME
   - Gemfile*
+  - tests
 

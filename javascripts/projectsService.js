@@ -23,17 +23,30 @@
   };
 
   var TagBuilder = function(){
-    var _tagsMap = {};
+    var _tagsMap = {},
+        _orderedTagsMap = null;
+    
     this.addTag = function(tag, projectName){
       var tagLowerCase = tag.toLowerCase();
       if(!_.has(_tagsMap, tagLowerCase)) {
-        _tagsMap[tagLowerCase] = [];
+        _tagsMap[tagLowerCase] = {
+          "name": tag,
+          "frequency": 0,
+          "projects": []
+        };
       }
-      _tagsMap[tagLowerCase].push(projectName);
+      var _entry = _tagsMap[tagLowerCase]; 
+      _entry.frequency++;
+      _entry.projects.push(projectName);
     };
 
     this.getTagsMap = function(){
-      return _tagsMap;
+      //http://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
+      return _orderedTagsMap = _orderedTagsMap || _(_tagsMap).chain().sortBy(function(tag, key){
+        return key;
+      }).sortBy(function(tag, key){
+        return tag.frequency * -1;
+      }).value();
     };
   }
 
@@ -58,11 +71,9 @@
 		var _projectsData = extractProjectsAndTags(projectsData);
     var projects = _.toArray(_.shuffle(_projectsData.projects));
 		var tagsMap = {};
-		_.each(_projectsData.tags, function(value, key){
-      tagsMap[key.toLowerCase()] = {
-        "name": key,
-        "projects": value
-      };
+    
+		_.each(_projectsData.tags, function(tag){
+      tagsMap[tag.name.toLowerCase()] = tag;
     });
 
 		this.get = function(tags){

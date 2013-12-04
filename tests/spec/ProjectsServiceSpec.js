@@ -29,6 +29,14 @@ describe("ProjectsService", function() {
       expect(tags.length).toBe(15);
     });
 
+    it("should sort the tags by the frequency of occurance and then by name", function() {
+      var tags = _.toArray(projectsService.getTags());
+      expect(tags[0].name).toBe("C#");
+      expect(tags[1].name).toBe("API");
+      expect(tags[2].name).toBe("ASP.NET");
+      
+    });
+
   });
 
   it("should return projects list when get method is called", function() {

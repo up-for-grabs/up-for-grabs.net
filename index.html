@@ -104,7 +104,7 @@ layout: default
     <h5>Filter by tags: </h5>
     <select class="tags-filter" multiple data-placeholder="Select a tag..." >
     <% _.each(tags, function(entry, key){ %>
-      <option value="<%=key%>"><%= entry.name%></option>
+      <option value="<%=key%>"><%= entry.name%>  (<%=entry.frequency%>)</option>
     <% }) %>
     </select>
   </div>

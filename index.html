@@ -10,6 +10,8 @@ layout: default
     <meta name="description" content="Up For Grabs : Jump in!" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/chosen.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Up For Grabs</title>
   </head>
@@ -51,25 +53,9 @@ layout: default
          </ul>
 
          <h3>Projects</h3>
-         <table class="projects">
-         {% for project in site.data.projects %}
-           <tr>
-             <td>
-                 <span class="proj"><a href="{{ project.site }}">{{ project.name }}</a></span>
-                 <p class="label"><a href="{{ project.upforgrabs.link }}" title="View open issues for {{ project.name }}">{{ project.upforgrabs.name }}</a></p>
-             </td>
-             <td>
-                 {% if project.desc %}
-                 <span class="desc">{{ project.desc }}</span>
-                 {% endif %}
-                 {% if project.tags %}
-                 <p class="tags">{{ project.tags | join: ', '}}</p>
-                 {% endif %}
-             </td>
-           </tr>
-         {% endfor %}
-         </table>
-     
+         <div id="projects-panel">
+         </div>
+        
          <h3>I maintain a project and want to participate!</h3>
 
          <p>
@@ -113,32 +99,44 @@ layout: default
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-(function($){
-  // http://stackoverflow.com/questions/7620677/jquery-shuffle-table-rows
-  $.fn.shuffle = function() {
-    return this.each(function(){
-      var items = $(this).children();
-      return (items.length)
-        ? $(this).html($.shuffle(items))
-        : this;
-    });
-  }
-
-  $.shuffle = function(arr) {
-    for(
-      var j, x, i = arr.length; i;
-      j = parseInt(Math.random() * i),
-      x = arr[--i], arr[i] = arr[j], arr[j] = x
-    );
-    return arr;
-  }
-
-  $('.projects tbody').shuffle();
-})(jQuery);
+<script type="text/html" id="projects-panel-template">
+  <div class="filters-panel cf">
+    <h5>Filter by tags: </h5>
+    <select class="tags-filter" multiple data-placeholder="Select a tag..." >
+    <% _.each(tags, function(entry, key){ %>
+      <option value="<%=key%>"><%= entry.name%>  (<%=entry.frequency%>)</option>
+    <% }) %>
+    </select>
+  </div>
+  <table class="projects">
+   <% _.each(projects, function(project){ %>
+    <tr>
+       <td>
+           <span class="proj"><a href="<%=project.site %>"><%=project.name %></a></span>
+           <p class="label"><a href="<%= project.upforgrabs.link %>" title="View open issues for <%=project.name %>"><%=project.upforgrabs.name %></a></p>
+       </td>
+       <td>
+           <% if (project.desc) { %>
+           <span class="desc"><%=project.desc%></span>
+           <% } %>
+           <% if (project.tags) { %>
+           <p class="tags"><%=project.tags && project.tags.join(", ")%></p>
+           <% } %>
+       </td>
+    </tr>
+   <% }) %>
+   </table>
 </script>
+<script type="text/javascript">
+  var projects = {{ site.data.projects | jsonify }};
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.4/sammy.min.js"></script>
+<script src="javascripts/vendor/chosen.jquery.min.js"></script>
+<script src="javascripts/projectsService.js"></script>
+<script src="javascripts/main.js"></script>
+
 
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

@@ -237,5 +237,5 @@
   site: https://github.com/NLog/NLog
   tags: [.NET, Silverlight, Logging]
   upforgrabs:
-    name: jump in
+    name: up-for-grabs
     link: https://github.com/NLog/NLog/issues?labels=up-for-grabs&state=open

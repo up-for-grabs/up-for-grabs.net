@@ -232,3 +232,10 @@
     name: jump in
     link: https://github.com/jagregory/fluent-nhibernate/issues?labels=jump-in&milestone=&page=1&state=open
     
+- name: NLog
+  desc: NLog - Advanced .NET and Silverlight Logging
+  site: https://github.com/NLog/NLog
+  tags: [.NET, Silverlight, Logging]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/NLog/NLog/issues?labels=up-for-grabs&state=open

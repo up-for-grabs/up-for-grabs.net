@@ -131,8 +131,8 @@
   site: https://github.com/fsharp/fsharpbinding
   tags: [.NET, F#, emacs, monodevelop, xamarin]
   upforgrabs:
-    name: You take it
-    link: https://github.com/fsharp/fsharpbinding/issues?labels=You+take+it&page=1&state=open
+    name: up-for-grabs
+    link: https://github.com/fsharp/fsharpbinding/issues?labels=up-for-grabs&state=open
 
 - name: FSharp.Data
   desc: The F# Data library implements type providers for working with structured file formats (CSV, JSON and XML) and for accessing the WorldBank and Freebase data. It also includes helpers for parsing JSON and CSV files and for sending HTTP requests.

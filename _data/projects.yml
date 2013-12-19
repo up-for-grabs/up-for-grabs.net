@@ -133,6 +133,14 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/fsharp/FSharp.Data/issues?labels=up-for-grabs&state=open
+    
+- name: FSharp.Management
+  desc: The FSharp.Management project contains various type providers for the management of the machine.
+  site: https://github.com/forki/FSharp.Management
+  tags: [.NET, F#, data, typeprovider, Powershell, Registry]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/forki/FSharp.Management/issues?labels=up-for-grabs&page=1&state=open
 
 - name: Up-For-Grabs.net
   desc: This site!

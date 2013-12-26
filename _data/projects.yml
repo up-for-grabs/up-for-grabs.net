@@ -255,3 +255,27 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/NLog/NLog/issues?labels=up-for-grabs&state=open
+
+- name: TestStack.Seleno
+  desc: Seleno helps you write automated UI tests in the right way by implementing Page Objects and Page Components and by reading from and writing to web pages using strongly typed view models.
+  site: https://github.com/TestStack/TestStack.Seleno
+  tags: [.NET, mvc, asp.net, testing, ui, selenium, webdriver]
+  upforgrabs:
+    name: Jump In
+    link: https://github.com/TestStack/TestStack.Seleno/issues?labels=Jump+In&state=open
+
+- name: TestStack.FluentMVCTesting
+  desc: Simple, terse, fluent unit testing for ASP.NET MVC Controllers.
+  site: https://github.com/TestStack/TestStack.FluentMVCTesting
+  tags: [.NET, mvc, asp.net, testing]
+  upforgrabs:
+    name: Jump in
+    link: https://github.com/TestStack/TestStack.FluentMVCTesting/issues?labels=Jump+in&state=open
+
+- name: ChameleonForms
+  desc: Shape-shifting your forms experience in ASP.NET MVC.
+  site: https://github.com/MRCollective/ChameleonForms
+  tags: [.NET, mvc, asp.net, forms, html helpers, template, bootstrap]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/MRCollective/ChameleonForms/issues?labels=up-for-grabs&state=open

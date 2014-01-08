@@ -278,7 +278,7 @@
   tags: [.NET, mvc, asp.net, forms, html helpers, template, bootstrap]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/MRCollective/ChameleonForms/issues?labels=up-for-grabs&state=
+    link: https://github.com/MRCollective/ChameleonForms/issues?labels=up-for-grabs&state=open
 
 - name: Cardinal IRC Bot
   desc: An easy-to-use, modular IRC bot written in Python with the Twisted library.

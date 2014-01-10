@@ -279,3 +279,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/MRCollective/ChameleonForms/issues?labels=up-for-grabs&state=open
+
+- name: Cardinal IRC Bot
+  desc: An easy-to-use, modular IRC bot written in Python with the Twisted library.
+  site: https://github.com/JohnMaguire2013/Cardinal/issues
+  tags: [Python, Twisted, IRC, IRC bot]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/JohnMaguire2013/Cardinal/issues?labels=up-for-grabs&state=open

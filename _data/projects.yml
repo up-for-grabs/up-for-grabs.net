@@ -144,11 +144,20 @@
     
 - name: FSharp.Management
   desc: The FSharp.Management project contains various type providers for the management of the machine.
-  site: https://github.com/forki/FSharp.Management
-  tags: [.NET, F#, data, typeprovider, Powershell, Registry]
+  site: https://github.com/fsprojects/FSharp.Management
+  tags: [.NET, F#, typeprovider, Powershell, Registry]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/forki/FSharp.Management/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/fsprojects/FSharp.Management/issues?labels=up-for-grabs&page=1&state=open
+    
+    
+- name: FSharp.Configuration
+  desc: The FSharp.Configuration project contains type providers for the configuration of .NET projects.
+  site: https://github.com/fsprojects/FSharp.Configuration
+  tags: [.NET, F#, typeprovider, Yaml, AppSettings, ResX]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsprojects/FSharp.Configuration/issues?labels=up-for-grabs&page=1&state=open
 
 - name: Up-For-Grabs.net
   desc: This site!

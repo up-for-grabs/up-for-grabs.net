@@ -1,3 +1,11 @@
+- name: Fredis
+  desc: Fredis is a BookSleeve wrapper for convenient usage from F#.
+  site: https://github.com/buybackoff/Fredis
+  tags: [F#, Redis, BookSleeve]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/buybackoff/Fredis/issues?labels=up-for-grabs
+    
 - name: Glimpse
   desc: Glimpse is a web debugging and diagnostics tool used to gain a better understanding of whats happening inside of your ASP.NET application.
   site: https://github.com/Glimpse/Glimpse

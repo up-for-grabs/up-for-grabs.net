@@ -149,6 +149,14 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/fsharp/FSharp.Data/issues?labels=up-for-grabs&state=open
+    
+- name: FSharpVSPowerTools
+  desc: F# Community Power Tools (for Visual Studio)
+  site: https://github.com/fsprojects/FSharpVSPowerTools
+  tags: [.NET, F#, refactoring, visual studio]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsprojects/FSharpVSPowerTools/issues?labels=up-for-grabs&page=1&state=open
 
 - name: FSharp.Formatting
   desc: F# tools for generating documentation using literate F# scripts and inline Markdown comments for libraries (Also includes stand-alone Markdown processor and F# code formatter)

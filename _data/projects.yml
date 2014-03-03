@@ -335,3 +335,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/stevehodgkiss/restful-routing/issues?labels=up-for-grabs&state=open
+
+- name: Akka.NET
+  desc: A .NET port of the popular Java/Scala Akka Toolkit.
+  site: https://github.com/rogeralsing/Pigeon
+  tags: [.NET, actormodel, akka, concurrency]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/rogeralsing/Pigeon/issues?labels=up+for+grabs&page=1&state=open

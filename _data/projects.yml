@@ -1,3 +1,11 @@
+- name: Fredis
+  desc: Fredis is a BookSleeve wrapper for convenient usage from F#.
+  site: https://github.com/buybackoff/Fredis
+  tags: [F#, Redis, BookSleeve]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/buybackoff/Fredis/issues?labels=up-for-grabs
+    
 - name: Glimpse
   desc: Glimpse is a web debugging and diagnostics tool used to gain a better understanding of whats happening inside of your ASP.NET application.
   site: https://github.com/Glimpse/Glimpse
@@ -125,6 +133,14 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/mexx/FeatureSwitcher/issues?labels=up-for-grabs&state=open
+    
+- name: fsharpbinding
+  desc: F# Language Bindings for Open Editors (Emacs, MonoDevelop)
+  site: https://github.com/fsharp/fsharpbinding
+  tags: [.NET, F#, emacs, monodevelop, xamarin]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsharp/fsharpbinding/issues?labels=up-for-grabs&state=open
 
 - name: FSharp.Data
   desc: The F# Data library implements type providers for working with structured file formats (CSV, JSON and XML) and for accessing the WorldBank and Freebase data. It also includes helpers for parsing JSON and CSV files and for sending HTTP requests.
@@ -133,6 +149,46 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/fsharp/FSharp.Data/issues?labels=up-for-grabs&state=open
+    
+- name: FSharpVSPowerTools
+  desc: F# Community Power Tools (for Visual Studio)
+  site: https://github.com/fsprojects/FSharpVSPowerTools
+  tags: [.NET, F#, refactoring, visual studio]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsprojects/FSharpVSPowerTools/issues?labels=up-for-grabs&page=1&state=open
+
+- name: FSharp.Formatting
+  desc: F# tools for generating documentation using literate F# scripts and inline Markdown comments for libraries (Also includes stand-alone Markdown processor and F# code formatter)
+  site: https://github.com/tpetricek/FSharp.Formatting
+  tags: [.NET, F#, documentation, literate, Markdown]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/tpetricek/FSharp.Formatting/issues?labels=up-for-grabs&state=open
+    
+- name: FSharp.Management
+  desc: The FSharp.Management project contains various type providers for the management of the machine.
+  site: https://github.com/fsprojects/FSharp.Management
+  tags: [.NET, F#, typeprovider, Powershell, Registry]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsprojects/FSharp.Management/issues?labels=up-for-grabs&page=1&state=open
+    
+- name: SQLProvider
+  desc: A general F# SQL database type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
+  site: https://github.com/fsprojects/SQLProvider
+  tags: [.NET, F#, typeprovider, SQL, MySQL, Oracle, SQL Server, SQLLite]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsprojects/SQLProvider/issues?labels=up-for-grabs&page=1&state=open
+    
+- name: FSharp.Configuration
+  desc: The FSharp.Configuration project contains type providers for the configuration of .NET projects.
+  site: https://github.com/fsprojects/FSharp.Configuration
+  tags: [.NET, F#, typeprovider, Yaml, AppSettings, ResX]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsprojects/FSharp.Configuration/issues?labels=up-for-grabs&page=1&state=open
 
 - name: Up-For-Grabs.net
   desc: This site!
@@ -200,6 +256,14 @@
     name: jump in
     link: https://github.com/SharpRepository/SharpRepository/issues?labels=jump+in&page=1&state=open
 
+- name: Approvals.NodeJS
+  desc: Approval Tests implementation in NodeJS
+  site: https://github.com/approvals/Approvals.NodeJS
+  tags: [node, JavaScript, testing]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/approvals/Approvals.NodeJS/issues?labels=up-for-grabs&page=1&state=open
+
 - name: NEST
   desc: .NET elasticsearch client
   site: https://github.com/Mpdreamz/NEST
@@ -207,3 +271,75 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/Mpdreamz/NEST/issues?labels=up-for-grabs&page=1&state=open
+
+- name: ZeroToNine
+  desc: A tool for maintaining .NET Assembly versions across multiple source files.
+  site: https://github.com/ploeh/ZeroToNine
+  tags: [.NET, Semantic Versioning, Versioning, Version, SemVer, Command-line, Library, F#]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/ploeh/ZeroToNine/issues?labels=jump+in
+    
+- name: FluentNHibernate
+  desc: Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate.
+  site: https://github.com/jagregory/fluent-nhibernate
+  tags: [.NET, ORM, DAL, Conventions]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/jagregory/fluent-nhibernate/issues?labels=jump-in&milestone=&page=1&state=open
+    
+- name: NLog
+  desc: NLog - Advanced .NET and Silverlight Logging
+  site: https://github.com/NLog/NLog
+  tags: [.NET, Silverlight, Logging]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/NLog/NLog/issues?labels=up-for-grabs&state=open
+
+- name: TestStack.Seleno
+  desc: Seleno helps you write automated UI tests in the right way by implementing Page Objects and Page Components and by reading from and writing to web pages using strongly typed view models.
+  site: https://github.com/TestStack/TestStack.Seleno
+  tags: [.NET, mvc, asp.net, testing, ui, selenium, webdriver]
+  upforgrabs:
+    name: Jump In
+    link: https://github.com/TestStack/TestStack.Seleno/issues?labels=Jump+In&state=open
+
+- name: TestStack.FluentMVCTesting
+  desc: Simple, terse, fluent unit testing for ASP.NET MVC Controllers.
+  site: https://github.com/TestStack/TestStack.FluentMVCTesting
+  tags: [.NET, mvc, asp.net, testing]
+  upforgrabs:
+    name: Jump in
+    link: https://github.com/TestStack/TestStack.FluentMVCTesting/issues?labels=Jump+in&state=open
+
+- name: ChameleonForms
+  desc: Shape-shifting your forms experience in ASP.NET MVC.
+  site: https://github.com/MRCollective/ChameleonForms
+  tags: [.NET, mvc, asp.net, forms, html helpers, template, bootstrap]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/MRCollective/ChameleonForms/issues?labels=up-for-grabs&state=open
+
+- name: Cardinal IRC Bot
+  desc: An easy-to-use, modular IRC bot written in Python with the Twisted library.
+  site: https://github.com/JohnMaguire2013/Cardinal/issues
+  tags: [Python, Twisted, IRC, IRC bot]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/JohnMaguire2013/Cardinal/issues?labels=up-for-grabs&state=open
+    
+- name: Restful Routing
+  desc: A Rails inspired restful routing API for ASP.NET MVC.
+  site: https://github.com/stevehodgkiss/restful-routing
+  tags: [.NET, mvc, asp.net, routing]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/stevehodgkiss/restful-routing/issues?labels=up-for-grabs&state=open
+
+- name: Akka.NET
+  desc: A .NET port of the popular Java/Scala Akka Toolkit.
+  site: https://github.com/rogeralsing/Pigeon
+  tags: [.NET, actormodel, akka, concurrency]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/rogeralsing/Pigeon/issues?labels=up+for+grabs&page=1&state=open

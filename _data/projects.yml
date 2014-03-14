@@ -1,3 +1,11 @@
+- name: TikaOnDotnet
+  desc: Use the Java Tika text extraction library on the .NET platform 
+  site: https://github.com/KevM/tikaondotnet
+  tags: [tika]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/KevM/tikaondotnet/issues?labels=up-for-grabs&page=1&state=open
+
 - name: Fredis
   desc: Fredis is a BookSleeve wrapper for convenient usage from F#.
   site: https://github.com/buybackoff/Fredis

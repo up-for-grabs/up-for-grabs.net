@@ -120,7 +120,11 @@ layout: default
            <span class="desc"><%=project.desc%></span>
            <% } %>
            <% if (project.tags) { %>
-           <p class="tags"><%=project.tags && project.tags.join(", ")%></p>
+           <p class="tags">
+               <% _.each(project.tags, function(tag, i) { %>
+                   <a href="#/tags/<%=tag%>"><%=tag%></a><%= i != project.tags.length-1 ? "," : "" %>
+               <% }) %>
+           </p>
            <% } %>
        </td>
     </tr>

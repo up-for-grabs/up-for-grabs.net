@@ -379,7 +379,6 @@ Small Device Styles
   }
 
   .inner {
-    min-width: 320px;
     max-width: 480px;
   }
 
@@ -410,11 +409,19 @@ Small Device Styles
   h6 {
     font-size: 12px;
   }
+  
+  input, select {
+	font-size: 16px;
+  }
 
   code, pre {
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
+  }
+  
+  table.projects td {
+    display: block;
   }
 
 }

@@ -15,7 +15,7 @@
   		no_results_text: "No tags found by that name.",
   		width: "95%"
   	}).val(tags).trigger('chosen:updated').change(function(e) {
-  		window.location.href = "#/tags/" + ($(this).val() || "");
+  		window.location.href = "#/tags/" + encodeURIComponent(($(this).val() || ""));
   	});
   };
 

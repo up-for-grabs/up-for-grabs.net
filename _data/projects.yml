@@ -351,3 +351,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/rogeralsing/Pigeon/issues?labels=up+for+grabs&page=1&state=open
+
+- name: phpDocumentor
+  desc: The documentation tool for PHP projects
+  site: https://github.com/phpDocumentor/phpDocumentor2
+  tags: [PHP, documentation, api, bootstrap, twig, apidocs, phpdoc]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/phpDocumentor/phpDocumentor2/issues?labels=Up-for-grabs&state=open

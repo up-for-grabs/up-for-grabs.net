@@ -165,6 +165,14 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/fsprojects/FSharpVSPowerTools/issues?labels=up-for-grabs&page=1&state=open
+    
+- name: Visual F# Tools
+  desc: Visual F# Compiler
+  site: https://visualfsharp.codeplex.com/
+  tags: [.NET, F#, compiler, visual studio]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://visualfsharp.codeplex.com/workitem/list/advanced?keyword=grabs&status=Open%20(not%20closed)&type=All&priority=All&release=All&assignedTo=All&component=All&sortField=LastUpdatedDate&sortDirection=Descending&page=0&reasonClosed=All
 
 - name: FSharp.Formatting
   desc: F# tools for generating documentation using literate F# scripts and inline Markdown comments for libraries (Also includes stand-alone Markdown processor and F# code formatter)

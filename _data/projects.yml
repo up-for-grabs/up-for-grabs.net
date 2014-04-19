@@ -367,3 +367,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/phpDocumentor/phpDocumentor2/issues?labels=Up-for-grabs&state=open
+
+- name: FluentSecurity
+  desc: Fluent Security configuration for ASP.NET MVC http://www.fluentsecurity.net/
+  site: https://github.com/kristofferahl/FluentSecurity
+  tags: [asp.net mvc, authentication, fluent]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/kristofferahl/FluentSecurity/issues?labels=up-for-grabs&state=open

@@ -375,3 +375,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/kristofferahl/FluentSecurity/issues?labels=up-for-grabs&state=open
+
+- name: AutoMapper
+  desc: A convention-based object-object mapper.
+  site: https://github.com/AutoMapper/AutoMapper
+  tags: [.NET, Conventions]
+  upforgrabs:
+    name: Up For Grabs
+    link: https://github.com/AutoMapper/AutoMapper/issues?labels=Up+For+Grabs&page=1&state=open

@@ -383,3 +383,11 @@
   upforgrabs:
     name: Up For Grabs
     link: https://github.com/AutoMapper/AutoMapper/issues?labels=Up+For+Grabs&page=1&state=open
+
+- name: mmbot
+  desc: A port of GitHub's Hubot to C# and ScriptCS.
+  site: https://github.com/mmbot/mmbot
+  tags: [.NET, HuBot, chat, C#]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/mmbot/mmbot/issues?labels=up-for-grabs&state=open

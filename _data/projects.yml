@@ -157,6 +157,14 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/fsharp/FSharp.Data/issues?labels=up-for-grabs&state=open
+
+- name: ApiaryProvider
+  desc: Type provider for Apiary.io
+  site: https://github.com/fsprojects/ApiaryProvider
+  tags: [.NET, F#, data, typeprovider, apiary]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsprojects/ApiaryProvider/issues?labels=up-for-grabs&state=open
     
 - name: FSharpVSPowerTools
   desc: F# Community Power Tools (for Visual Studio)

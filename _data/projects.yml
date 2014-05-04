@@ -399,3 +399,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/mmbot/mmbot/issues?labels=up-for-grabs&state=open
+
+- name: Bau
+  desc: The C# task runner. Write your build scripts in C#.
+  site: https://github.com/bau-build/bau
+  tags: [.NET, build, task, roslyn, csx, script, scriptcs, C#]
+  upforgrabs:
+    name: easyfix
+    link: https://github.com/bau-build/bau/issues?labels=easyfix&state=open

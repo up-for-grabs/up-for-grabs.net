@@ -407,3 +407,11 @@
   upforgrabs:
     name: easyfix
     link: https://github.com/bau-build/bau/issues?labels=easyfix&state=open
+    
+- name: HangFire
+  desc: Background job processing for ASP.NET
+  site: https://github.com/odinserj/HangFire
+  tags: [.NET, ASP.NET, C#, Background, Jobs, Tasks]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/odinserj/HangFire/issues?labels=jump+in&state=open

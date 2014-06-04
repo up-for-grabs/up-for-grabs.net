@@ -1,3 +1,11 @@
+- name: TikaOnDotnet
+  desc: Use the Java Tika text extraction library on the .NET platform 
+  site: https://github.com/KevM/tikaondotnet
+  tags: [tika]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/KevM/tikaondotnet/issues?labels=up-for-grabs&page=1&state=open
+
 - name: Fredis
   desc: Fredis is a BookSleeve wrapper for convenient usage from F#.
   site: https://github.com/buybackoff/Fredis
@@ -149,6 +157,14 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/fsharp/FSharp.Data/issues?labels=up-for-grabs&state=open
+
+- name: ApiaryProvider
+  desc: Type provider for Apiary.io
+  site: https://github.com/fsprojects/ApiaryProvider
+  tags: [.NET, F#, data, typeprovider, apiary]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/fsprojects/ApiaryProvider/issues?labels=up-for-grabs&state=open
     
 - name: FSharpVSPowerTools
   desc: F# Community Power Tools (for Visual Studio)
@@ -157,6 +173,14 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/fsprojects/FSharpVSPowerTools/issues?labels=up-for-grabs&page=1&state=open
+    
+- name: Visual F# Tools
+  desc: Visual F# Compiler
+  site: https://visualfsharp.codeplex.com/
+  tags: [.NET, F#, compiler, visual studio]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://visualfsharp.codeplex.com/workitem/list/advanced?keyword=grabs&status=Open%20(not%20closed)&type=All&priority=All&release=All&assignedTo=All&component=All&sortField=LastUpdatedDate&sortDirection=Descending&page=0&reasonClosed=All
 
 - name: FSharp.Formatting
   desc: F# tools for generating documentation using literate F# scripts and inline Markdown comments for libraries (Also includes stand-alone Markdown processor and F# code formatter)
@@ -335,3 +359,59 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/stevehodgkiss/restful-routing/issues?labels=up-for-grabs&state=open
+
+- name: Akka.NET
+  desc: A .NET port of the popular Java/Scala Akka Toolkit.
+  site: https://github.com/rogeralsing/Pigeon
+  tags: [.NET, actormodel, akka, concurrency]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/rogeralsing/Pigeon/issues?labels=up+for+grabs&page=1&state=open
+
+- name: phpDocumentor
+  desc: The documentation tool for PHP projects
+  site: https://github.com/phpDocumentor/phpDocumentor2
+  tags: [PHP, documentation, api, bootstrap, twig, apidocs, phpdoc]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/phpDocumentor/phpDocumentor2/issues?labels=Up-for-grabs&state=open
+
+- name: FluentSecurity
+  desc: Fluent Security configuration for ASP.NET MVC http://www.fluentsecurity.net/
+  site: https://github.com/kristofferahl/FluentSecurity
+  tags: [asp.net mvc, authentication, fluent]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/kristofferahl/FluentSecurity/issues?labels=up-for-grabs&state=open
+
+- name: AutoMapper
+  desc: A convention-based object-object mapper.
+  site: https://github.com/AutoMapper/AutoMapper
+  tags: [.NET, Conventions]
+  upforgrabs:
+    name: Up For Grabs
+    link: https://github.com/AutoMapper/AutoMapper/issues?labels=Up+For+Grabs&page=1&state=open
+
+- name: mmbot
+  desc: A port of GitHub's Hubot to C# and ScriptCS.
+  site: https://github.com/mmbot/mmbot
+  tags: [.NET, HuBot, chat, C#]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/mmbot/mmbot/issues?labels=up-for-grabs&state=open
+
+- name: Bau
+  desc: The C# task runner. Write your build scripts in C#.
+  site: https://github.com/bau-build/bau
+  tags: [.NET, build, task, roslyn, csx, script, scriptcs, C#]
+  upforgrabs:
+    name: easyfix
+    link: https://github.com/bau-build/bau/issues?labels=easyfix&state=open
+    
+- name: HangFire
+  desc: Background job processing for ASP.NET
+  site: https://github.com/odinserj/HangFire
+  tags: [.NET, ASP.NET, C#, Background, Jobs, Tasks]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/odinserj/HangFire/issues?labels=jump+in&state=open

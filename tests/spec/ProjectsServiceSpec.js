@@ -6,7 +6,7 @@ describe("ProjectsService", function() {
     projectsService = new ProjectsService(sampleProjects);
   });
 
-  it("should be not be undefined", function() {
+  it("should be defined", function() {
     expect(projectsService).toBeDefined();
   });
 

@@ -4,4 +4,5 @@ exclude:
   - CNAME
   - Gemfile*
   - tests
-
+  - README.md
+  

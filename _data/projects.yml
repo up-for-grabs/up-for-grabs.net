@@ -415,3 +415,11 @@
   upforgrabs:
     name: jump in
     link: https://github.com/odinserj/HangFire/issues?labels=jump+in&state=open
+    
+- name: Humanizer
+  desc: Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities
+  site: http://humanizr.net
+  tags: [.NET, Localization, human-readable, C#]
+  upforgrabs:
+    name: jump in
+    link: https://github.com/MehdiK/Humanizer/issues?labels=jump+in&state=open

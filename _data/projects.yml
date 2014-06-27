@@ -455,3 +455,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/theburningmonk/FSharp.Markdown.Pdf/issues?labels=up-for-grabs&state=open
+
+- name: AngularJS
+  desc: HTML enhanced for web apps
+  site: https://angularjs.org
+  tags: [JavaScript, web]
+  upforgrabs:
+    name: PRs plz!
+    link: https://github.com/angular/angular.js/issues?direction=desc&labels=PRs+plz%21&sort=created&state=open

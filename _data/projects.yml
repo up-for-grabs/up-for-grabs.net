@@ -423,3 +423,11 @@
   upforgrabs:
     name: jump in
     link: https://github.com/MehdiK/Humanizer/issues?labels=jump+in&state=open
+
+- name: AngularJS
+  desc: HTML enhanced for web apps
+  site: https://angularjs.org
+  tags: [JavaScript, web]
+  upforgrabs:
+    name: PRs plz!
+    link: https://github.com/angular/angular.js/issues?direction=desc&labels=PRs+plz%21&sort=created&state=open

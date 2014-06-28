@@ -480,3 +480,10 @@
     name: up-for-grabs
     link: https://github.com/steentottrup/NForum/issues?labels=up-for-grabs&milestone=&state=open
   
+- name: Make#
+  desc: Use C# scripts to automate the building process
+  site: https://github.com/sapiens/MakeSharp
+  tags: [.Net, C#, make, build, automation, tools]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/sapiens/MakeSharp/issues?labels=up-for-grabs&page=1&state=open

@@ -480,3 +480,10 @@
     name: up-for-grabs
     link: https://github.com/steentottrup/NForum/issues?labels=up-for-grabs&milestone=&state=open
   
+- name: SqlFu
+  desc: Fast and versatile .Net micro-orm
+  site: https://github.com/sapiens/SqlFu
+  tags: [.Net, C#, micro-orm, mapper, sql]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/sapiens/SqlFu/issues?labels=up-for-grabs&page=1&state=open

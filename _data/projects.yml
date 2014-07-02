@@ -480,3 +480,10 @@
     name: up-for-grabs
     link: https://github.com/steentottrup/NForum/issues?labels=up-for-grabs&milestone=&state=open
   
+- name: Cake
+  desc: Cake (C# Make) is a build automation system inspired by Fake.
+  site: https://github.com/cake-build/cake
+  tags: [.NET, C#, Build]
+  upforgrabs:
+    name: you take it
+    link: https://github.com/cake-build/cake/issues?labels=you+take+it&state=open

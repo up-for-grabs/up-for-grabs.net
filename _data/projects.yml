@@ -487,3 +487,11 @@
   upforgrabs:
     name: you take it
     link: https://github.com/cake-build/cake/issues?labels=you+take+it&state=open
+
+- name: Suave
+  desc: Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
+  site: https://github.com/SuaveIO/suave
+  tags: [.NET, F#, web, server]
+  upforgrabs:
+    name: you-take-it
+    link: https://github.com/SuaveIO/suave/issues?labels=you-take-it&state=open

@@ -495,3 +495,11 @@
   upforgrabs:
     name: you-take-it
     link: https://github.com/SuaveIO/suave/issues?labels=you-take-it&state=open
+
+- name: MahApps.Metro
+  desc: A toolkit for creating Metro styled WPF apps
+  site: https://github.com/MahApps/MahApps.Metro
+  tags: [.NET, C#, WPF]
+  upforgrabs:
+    name: Jump In
+    link: https://github.com/MahApps/MahApps.Metro/issues?labels=Jump+In&state=open

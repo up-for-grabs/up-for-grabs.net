@@ -7,7 +7,7 @@
   tags: [logging, nlog, zipkin, console, debugger, logstash, suave, graphite, database, F#]
   upforgrabs:
     name: help wanted
-    link: https://github.com/logary/logary/issues?labels=help+wanted&milestone=1&page=1&state=open
+    link: https://github.com/logary/logary/issues?labels=help+wanted&milestone=&page=1&state=open
 
 - name: TikaOnDotnet
   desc: Use the Java Tika text extraction library on the .NET platform 

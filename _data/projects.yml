@@ -514,3 +514,11 @@
   upforgrabs:
     name: Jump In
     link: https://github.com/MahApps/MahApps.Metro/issues?labels=Jump+In&state=open
+    
+- name: JSCS
+  desc: JavaScript Code Style checker
+  site: https://github.com/mdevils/node-jscs
+  tags: [JavaScript, node]
+  upforgrabs:
+    name: help-wanted
+    link: https://github.com/mdevils/node-jscs/issues?q=label%3Ahelp-wanted+is%3Aopen

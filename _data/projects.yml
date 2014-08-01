@@ -24,7 +24,7 @@
   tags: [tika]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/KevM/tikaondotnet/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/KevM/tikaondotnet/labels/up-for-grabs
 
 - name: Fredis
   desc: Fredis is a BookSleeve wrapper for convenient usage from F#.
@@ -32,7 +32,7 @@
   tags: [F#, Redis, BookSleeve]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/buybackoff/Fredis/issues?labels=up-for-grabs
+    link: https://github.com/buybackoff/Fredis/labels/up-for-grabs
     
 - name: Glimpse
   desc: Glimpse is a web debugging and diagnostics tool used to gain a better understanding of whats happening inside of your ASP.NET application.
@@ -40,7 +40,7 @@
   tags: [ASP.NET, Web, WebForms, diagnostics, performance, profiling, timing]
   upforgrabs:
     name: Jump In
-    link: https://github.com/Glimpse/Glimpse/issues?labels=Jump+In
+    link: https://github.com/Glimpse/Glimpse/labels/Jump%20In
 
 - name: LibGit2Sharp
   desc: LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed world of .Net and Mono.
@@ -48,7 +48,7 @@
   tags: [libgit2, git, wrapper, bindings, API, dvcs, vcs]
   upforgrabs:
     name: Up for grabs
-    link: https://github.com/libgit2/libgit2sharp/issues?labels=Up+for+grabs
+    link: https://github.com/libgit2/libgit2sharp/labels/Up%20for%20grabs
 
 - name: NuGet client
   desc: The NuGet Client tools. Includes 'nuget.exe' and the NuGet extensions for Microsoft Visual Studio and Microsoft WebMatrix
@@ -56,7 +56,7 @@
   tags: [nuget, visualstudio, nuget.exe, package]
   upforgrabs:
     name: Up For Grabs
-    link: http://nuget.codeplex.com/workitem/list/advanced?release=Up+for+Grabs
+    link: http://nuget.codeplex.com/workitem/list/advanced?release=Up%20for%20Grabs
 
 - name: NuGet gallery
   desc: The NuGet Gallery. Powers the "NuGet.org" website, as well as other NuGet package galleries.
@@ -64,7 +64,7 @@
   tags: [nuget, nuget.org, package]
   upforgrabs:
     name: Up For Grabs
-    link: https://github.com/NuGet/NuGetGallery/issues?milestone=13&state=open
+    link: https://github.com/NuGet/NuGetGallery/milestones/Up%20For%20Grabs
 
 - name: Octokit.NET
   desc: An async-based GitHub API client library for .NET
@@ -72,7 +72,7 @@
   tags: [GitHub, API, Octokit]
   upforgrabs:
     name: easy fix
-    link: https://github.com/octokit/octokit.net/issues?labels=easy-fix
+    link: https://github.com/octokit/octokit.net/labels/easy-fix
 
 - name: scriptcs
   desc: Write C# apps with a text editor, nuget and the power of Roslyn!
@@ -80,7 +80,7 @@
   tags: [roslyn, csx, script, scriptcs]
   upforgrabs:
     name: you take it
-    link: https://github.com/scriptcs/scriptcs/issues?labels=you+take+it
+    link: https://github.com/scriptcs/scriptcs/labels/you%20take%20it
 
 - name: Entity Framework
   desc: Entity Framework is Microsoft's recommended data access technology for new applications.
@@ -96,7 +96,7 @@
   tags: [TDD, Unit Testing, .NET, Auto-mocking, C#, F#]
   upforgrabs:
     name: jump in
-    link: https://github.com/AutoFixture/AutoFixture/issues?labels=jump+in
+    link: https://github.com/AutoFixture/AutoFixture/labels/jump%20in
 
 - name: Albedo
   desc: A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions and utilities.
@@ -104,7 +104,7 @@
   tags: [Reflection, .NET, patterns, abstraction, interface]
   upforgrabs:
     name: jump in
-    link: https://github.com/ploeh/Albedo/issues?labels=jump+in
+    link: https://github.com/ploeh/Albedo/labels/jump%20in
 
 - name: Hyprlinkr
   desc: Hyprlinkr is a small and very focused helper library for the ASP.NET Web API. It does one thing only - it creates URIs according to the applications route configuration in a type-safe manner
@@ -112,7 +112,7 @@
   tags: [REST, ASP.NET Web API, URLs, C#, F#]
   upforgrabs:
     name: jump in
-    link: https://github.com/ploeh/Hyprlinkr/issues?labels=jump+in
+    link: https://github.com/ploeh/Hyprlinkr/labels/jump%20in
 
 - name: Oak MVC
   desc: Frictionless development for ASP.NET MVC single page web apps. Prototypical and dynamic capabilities brought to C#.
@@ -120,7 +120,7 @@
   tags: [SPA, ASP.NET, dynamic] 
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/amirrajan/Oak/issues?labels=up-for-grabs&state=open
+    link: https://github.com/amirrajan/Oak/labels/up-for-grabs
 
 - name: MyGet Docs
   desc: Markdown based ASP.NET Web Pages documentation web site for MyGet.
@@ -128,7 +128,7 @@
   tags: [MarkDown, .NET, docs, NuGet, convention, packaging, build]
   upforgrabs:
     name: Up for grabs
-    link: https://github.com/myget/MyGetDocs/issues?labels=Up+for+grabs&state=open
+    link: https://github.com/myget/MyGetDocs/labels/Up%20for%20grabs
 
 - name: Fixie
   desc: A convention-based .NET test framework
@@ -136,7 +136,7 @@
   tags: [testing, convention, .net]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/plioi/fixie/issues?labels=up-for-grabs&state=open
+    link: https://github.com/plioi/fixie/labels/up-for-grabs
 
 - name: Bundler
   desc: Feature requests for the Bundler dependency management tool
@@ -144,7 +144,7 @@
   tags: [ruby, gems, packaging, packages]
   upforgrabs:
     name: small
-    link: https://github.com/bundler/bundler-features/issues?labels=small&page=1&state=open
+    link: https://github.com/bundler/bundler-features/labels/small
 
 - name: FAKE
   desc: FAKE - F# Make - is a build automation tool for .NET. Tasks and dependencies are specified in a DSL which is integrated in F#.
@@ -152,7 +152,7 @@
   tags: [.NET, build, F#]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsharp/fake/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/fsharp/fake/labels/up-for-grabs
 
 - name: FeatureSwitcher
   desc: FeatureSwitcher is little library for feature switches/toggles.
@@ -160,7 +160,7 @@
   tags: [feature, toggle, .net]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/mexx/FeatureSwitcher/issues?labels=up-for-grabs&state=open
+    link: https://github.com/mexx/FeatureSwitcher/labels/up-for-grabs
     
 - name: fsharpbinding
   desc: F# Language Bindings for Open Editors (Emacs, MonoDevelop)
@@ -168,7 +168,7 @@
   tags: [.NET, F#, emacs, monodevelop, xamarin]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsharp/fsharpbinding/issues?labels=up-for-grabs&state=open
+    link: https://github.com/fsharp/fsharpbinding/labels/up-for-grabs
 
 - name: FSharp.Data
   desc: The F# Data library implements type providers for working with structured file formats (CSV, JSON and XML) and for accessing the WorldBank and Freebase data. It also includes helpers for parsing JSON and CSV files and for sending HTTP requests.
@@ -176,7 +176,7 @@
   tags: [.NET, F#, data, typeprovider, WorldBank, Freebase, CSV, XML, JSON, HTTP]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsharp/FSharp.Data/issues?labels=up-for-grabs&state=open
+    link: https://github.com/fsharp/FSharp.Data/labels/up-for-grabs
 
 - name: ApiaryProvider
   desc: Type provider for Apiary.io
@@ -184,7 +184,7 @@
   tags: [.NET, F#, data, typeprovider, apiary]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsprojects/ApiaryProvider/issues?labels=up-for-grabs&state=open
+    link: https://github.com/fsprojects/ApiaryProvider/labels/up-for-grabs
     
 - name: FSharpVSPowerTools
   desc: F# Community Power Tools (for Visual Studio)
@@ -192,7 +192,7 @@
   tags: [.NET, F#, refactoring, visual studio]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsprojects/FSharpVSPowerTools/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/fsprojects/FSharpVSPowerTools/labels/up-for-grabs
     
 - name: Visual F# Tools
   desc: Visual F# Compiler
@@ -208,7 +208,7 @@
   tags: [.NET, F#, documentation, literate, Markdown]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/tpetricek/FSharp.Formatting/issues?labels=up-for-grabs&state=open
+    link: https://github.com/tpetricek/FSharp.Formatting/labels/up-for-grabs
     
 - name: FSharp.Management
   desc: The FSharp.Management project contains various type providers for the management of the machine.
@@ -216,7 +216,7 @@
   tags: [.NET, F#, typeprovider, Powershell, Registry]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsprojects/FSharp.Management/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/fsprojects/FSharp.Management/labels/up-for-grabs
     
 - name: SQLProvider
   desc: A general F# SQL database type provider, supporting LINQ queries, schema exploration, individuals and much more besides.
@@ -224,7 +224,7 @@
   tags: [.NET, F#, typeprovider, SQL, MySQL, Oracle, SQL Server, SQLLite]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsprojects/SQLProvider/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/fsprojects/SQLProvider/labels/up-for-grabs
     
 - name: FSharp.Configuration
   desc: The FSharp.Configuration project contains type providers for the configuration of .NET projects.
@@ -232,7 +232,7 @@
   tags: [.NET, F#, typeprovider, Yaml, AppSettings, ResX]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsprojects/FSharp.Configuration/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/fsprojects/FSharp.Configuration/labels/up-for-grabs
 
 - name: Up-For-Grabs.net
   desc: This site!
@@ -240,7 +240,7 @@
   tags: [oss, web, jekyll, javascript]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/dahlbyk/up-for-grabs.net/issues?labels=up-for-grabs&state=open
+    link: https://github.com/dahlbyk/up-for-grabs.net/labels/up-for-grabs
 
 - name: Scala Poker
   desc: Scala Poker aims to be a whole online poker platform solution looking like attractive stuff to serious online poker businesses.
@@ -248,7 +248,7 @@
   tags: [scala, java, api, networking, javascript]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/rafanoronha/scala-poker/issues?labels=up-for-grabs&state=open
+    link: https://github.com/rafanoronha/scala-poker/labels/up-for-grabs
 
 - name: Nancy
   desc: Lightweight, low-ceremony, framework for building HTTP based services on .Net and Mono
@@ -256,7 +256,7 @@
   tags: [.net, c#, web, mono]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/NancyFx/Nancy/issues?labels=Up+for+grabs&state=open
+    link: https://github.com/NancyFx/Nancy/labels/Up%20for%20grabs
     
 - name: MarkPad by Code52
   desc: A visual Markdown editor (inspired by the Downmarker project) 
@@ -264,7 +264,7 @@
   tags: [Markdown, .NET, C#, WPF, Jekyll, MetaWebLog]
   upforgrabs:
     name: jump in
-    link: https://github.com/Code52/DownmarkerWPF/issues?labels=jump+in&state=open
+    link: https://github.com/Code52/DownmarkerWPF/labels/jump%20in
 
 - name: GitHubFlowVersion
   desc: Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>) for projects using GitHub flow
@@ -272,7 +272,7 @@
   tags: [Git, Versioning, SemVer, GitHubFlow]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/JakeGinnivan/GitHubFlowVersion/issues?labels=up-for-grabs&state=open
+    link: https://github.com/JakeGinnivan/GitHubFlowVersion/labels/up-for-grabs
     
     
 - name: GitFlowVersion
@@ -281,7 +281,7 @@
   tags: [Git, Versioning, SemVer, GitFlow]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/Particular/GitFlowVersion/issues?labels=up-for-grabs&milestone=&page=1&state=open
+    link: https://github.com/Particular/GitFlowVersion/labels/up-for-grabs
     
     
 - name: GitReleaseNotes
@@ -290,7 +290,7 @@
   tags: [Git, SemanticReleaseNotes, Release Notes, GitHub]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/JakeGinnivan/GitReleaseNotes/issues?labels=up-for-grabs&state=open
+    link: https://github.com/JakeGinnivan/GitReleaseNotes/labels/up-for-grabs
 
 - name: SharpRepository
   desc: Generic Repository with implementations for EF, RavenDb, MongoDB, Db4o and more
@@ -298,7 +298,7 @@
   tags: [Repository, C#, EntityFramework]
   upforgrabs:
     name: jump in
-    link: https://github.com/SharpRepository/SharpRepository/issues?labels=jump+in&page=1&state=open
+    link: https://github.com/SharpRepository/SharpRepository/labels/jump%20in
 
 - name: Approvals.NodeJS
   desc: Approval Tests implementation in NodeJS
@@ -306,7 +306,7 @@
   tags: [node, JavaScript, testing]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/approvals/Approvals.NodeJS/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/approvals/Approvals.NodeJS/labels/up-for-grabs
 
 - name: NEST
   desc: .NET elasticsearch client
@@ -314,7 +314,7 @@
   tags: [C#, elasticsearch, REST]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/Mpdreamz/NEST/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/Mpdreamz/NEST/labels/up-for-grabs
 
 - name: ZeroToNine
   desc: A tool for maintaining .NET Assembly versions across multiple source files.
@@ -322,7 +322,7 @@
   tags: [.NET, Semantic Versioning, Versioning, Version, SemVer, Command-line, Library, F#]
   upforgrabs:
     name: jump in
-    link: https://github.com/ploeh/ZeroToNine/issues?labels=jump+in
+    link: https://github.com/ploeh/ZeroToNine/labels/jump%20in
     
 - name: FluentNHibernate
   desc: Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate.
@@ -330,7 +330,7 @@
   tags: [.NET, ORM, DAL, Conventions]
   upforgrabs:
     name: jump in
-    link: https://github.com/jagregory/fluent-nhibernate/issues?labels=jump-in&milestone=&page=1&state=open
+    link: https://github.com/jagregory/fluent-nhibernate/labels/jump-in
     
 - name: NLog
   desc: NLog - Advanced .NET and Silverlight Logging
@@ -338,7 +338,7 @@
   tags: [.NET, Silverlight, Logging]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/NLog/NLog/issues?labels=up-for-grabs&state=open
+    link: https://github.com/NLog/NLog/labels/up-for-grabs
 
 - name: TestStack.Seleno
   desc: Seleno helps you write automated UI tests in the right way by implementing Page Objects and Page Components and by reading from and writing to web pages using strongly typed view models.
@@ -346,7 +346,7 @@
   tags: [.NET, mvc, asp.net, testing, ui, selenium, webdriver]
   upforgrabs:
     name: Jump In
-    link: https://github.com/TestStack/TestStack.Seleno/issues?labels=Jump+In&state=open
+    link: https://github.com/TestStack/TestStack.Seleno/labels/Jump%20In
 
 - name: TestStack.FluentMVCTesting
   desc: Simple, terse, fluent unit testing for ASP.NET MVC Controllers.
@@ -354,7 +354,7 @@
   tags: [.NET, mvc, asp.net, testing]
   upforgrabs:
     name: Jump in
-    link: https://github.com/TestStack/TestStack.FluentMVCTesting/issues?labels=Jump+in&state=open
+    link: https://github.com/TestStack/TestStack.FluentMVCTesting/labels/Jump%20in
 
 - name: ChameleonForms
   desc: Shape-shifting your forms experience in ASP.NET MVC.
@@ -362,7 +362,7 @@
   tags: [.NET, mvc, asp.net, forms, html helpers, template, bootstrap]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/MRCollective/ChameleonForms/issues?labels=up-for-grabs&state=open
+    link: https://github.com/MRCollective/ChameleonForms/labels/up-for-grabs
 
 - name: Cardinal IRC Bot
   desc: An easy-to-use, modular IRC bot written in Python with the Twisted library.
@@ -370,7 +370,7 @@
   tags: [Python, Twisted, IRC, IRC bot]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/JohnMaguire2013/Cardinal/issues?labels=up-for-grabs&state=open
+    link: https://github.com/JohnMaguire2013/Cardinal/labels/up-for-grabs
     
 - name: Restful Routing
   desc: A Rails inspired restful routing API for ASP.NET MVC.
@@ -378,7 +378,7 @@
   tags: [.NET, mvc, asp.net, routing]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/stevehodgkiss/restful-routing/issues?labels=up-for-grabs&state=open
+    link: https://github.com/stevehodgkiss/restful-routing/labels/up-for-grabs
 
 - name: Akka.NET
   desc: A .NET port of the popular Java/Scala Akka Toolkit.
@@ -386,7 +386,7 @@
   tags: [.NET, actormodel, akka, concurrency]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/rogeralsing/Pigeon/issues?labels=up+for+grabs&page=1&state=open
+    link: https://github.com/rogeralsing/Pigeon/labels/up%20for%20grabs
 
 - name: phpDocumentor
   desc: The documentation tool for PHP projects
@@ -394,7 +394,7 @@
   tags: [PHP, documentation, api, bootstrap, twig, apidocs, phpdoc]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/phpDocumentor/phpDocumentor2/issues?labels=Up-for-grabs&state=open
+    link: https://github.com/phpDocumentor/phpDocumentor2/labels/Up-for-grabs
 
 - name: FluentSecurity
   desc: Fluent Security configuration for ASP.NET MVC http://www.fluentsecurity.net/
@@ -402,7 +402,7 @@
   tags: [asp.net mvc, authentication, fluent]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/kristofferahl/FluentSecurity/issues?labels=up-for-grabs&state=open
+    link: https://github.com/kristofferahl/FluentSecurity/labels/up-for-grabs
 
 - name: AutoMapper
   desc: A convention-based object-object mapper.
@@ -410,7 +410,7 @@
   tags: [.NET, Conventions]
   upforgrabs:
     name: Up For Grabs
-    link: https://github.com/AutoMapper/AutoMapper/issues?labels=Up+For+Grabs&page=1&state=open
+    link: https://github.com/AutoMapper/AutoMapper/labels/Up%20For%20Grabs
 
 - name: mmbot
   desc: A port of GitHub's Hubot to C# and ScriptCS.
@@ -418,7 +418,7 @@
   tags: [.NET, HuBot, chat, C#]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/mmbot/mmbot/issues?labels=up-for-grabs&state=open
+    link: https://github.com/mmbot/mmbot/labels/up-for-grabs
 
 - name: Bau
   desc: The C# task runner. Write your build scripts in C#.
@@ -426,7 +426,7 @@
   tags: [.NET, build, task, roslyn, csx, script, scriptcs, C#]
   upforgrabs:
     name: easyfix
-    link: https://github.com/bau-build/bau/issues?labels=easyfix&state=open
+    link: https://github.com/bau-build/bau/labels/easyfix
     
 - name: HangFire
   desc: Background job processing for ASP.NET
@@ -434,7 +434,7 @@
   tags: [.NET, ASP.NET, C#, Background, Jobs, Tasks]
   upforgrabs:
     name: jump in
-    link: https://github.com/odinserj/HangFire/issues?labels=jump+in&state=open
+    link: https://github.com/odinserj/HangFire/labels/jump%20in
     
 - name: Humanizer
   desc: Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities
@@ -442,7 +442,7 @@
   tags: [.NET, Localization, human-readable, C#]
   upforgrabs:
     name: jump in
-    link: https://github.com/MehdiK/Humanizer/issues?labels=jump+in&state=open
+    link: https://github.com/MehdiK/Humanizer/labels/jump%20in
 
 - name: DynamoDb.SQL
   desc: SQL-like external DSL for querying and scanning Amazon DynamoDB
@@ -450,7 +450,7 @@
   tags: [.NET, dynamodb, nosql, aws, F#, C#]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsprojects/DynamoDb.SQL/issues?labels=up-for-grabs&state=open
+    link: https://github.com/fsprojects/DynamoDb.SQL/labels/up-for-grabs
 
 - name: S3Provider
   desc: F# type provider for Amazon S3
@@ -458,7 +458,7 @@
   tags: [.Net, F#, S3, aws, typeprovider]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/fsprojects/S3Provider/issues?labels=up-for-grabs&state=open
+    link: https://github.com/fsprojects/S3Provider/labels/up-for-grabs
     
 - name: stream_ext
   desc: A port of the Rx functions to make Dart's Stream type even easier to use
@@ -466,7 +466,7 @@
   tags: [dart, rx]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/theburningmonk/stream_ext/issues?labels=up-for-grabs&state=open
+    link: https://github.com/theburningmonk/stream_ext/labels/up-for-grabs
 
 - name: FSharp.Markdown.Pdf
   desc: PDF formatting from FSharp.Markdown
@@ -474,7 +474,7 @@
   tags: [F#, markdown, PDF]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/theburningmonk/FSharp.Markdown.Pdf/issues?labels=up-for-grabs&state=open
+    link: https://github.com/theburningmonk/FSharp.Markdown.Pdf/labels/up-for-grabs
 
 - name: AngularJS
   desc: HTML enhanced for web apps
@@ -482,7 +482,7 @@
   tags: [JavaScript, web]
   upforgrabs:
     name: PRs plz!
-    link: https://github.com/angular/angular.js/issues?direction=desc&labels=PRs+plz%21&sort=created&state=open
+    link: https://github.com/angular/angular.js/labels/PRs%20plz%21
 
 - name: Xamarin Forms Labs
   desc: Xamarin Forms Labs is a open source project that aims to provide a powerfull and cross platform set of controls and helpers taylored to work with Xamarin Forms
@@ -490,7 +490,7 @@
   tags: [.NET, C#, Xamarin, Xamarin Forms, IOS, Android , Windows Phone]
   upforgrabs:
     name: up for grabs
-    link: https://github.com/XForms/Xamarin-Forms-Labs/issues?labels=up-for-grabs
+    link: https://github.com/XForms/Xamarin-Forms-Labs/labels/up-for-grabs
 
 - name: NForum
   desc: A generic forum engine for .NET
@@ -498,7 +498,7 @@
   tags: [.NET, C#, Forum]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/steentottrup/NForum/issues?labels=up-for-grabs&milestone=&state=open
+    link: https://github.com/steentottrup/NForum/labels/up-for-grabs
   
 - name: Make#
   desc: Use C# scripts to automate the building process
@@ -506,7 +506,7 @@
   tags: [.Net, C#, make, build, automation, tools]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/sapiens/MakeSharp/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/sapiens/MakeSharp/labels/up-for-grabs
   
 - name: SqlFu
   desc: Fast and versatile .Net micro-orm
@@ -514,7 +514,7 @@
   tags: [.Net, C#, micro-orm, mapper, sql]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/sapiens/SqlFu/issues?labels=up-for-grabs&page=1&state=open
+    link: https://github.com/sapiens/SqlFu/labels/up-for-grabs
   
 - name: Cake
   desc: Cake (C# Make) is a build automation system inspired by Fake.
@@ -522,7 +522,7 @@
   tags: [.NET, C#, Build]
   upforgrabs:
     name: you take it
-    link: https://github.com/cake-build/cake/issues?labels=you+take+it&state=open
+    link: https://github.com/cake-build/cake/labels/you%20take%20it
 
 - name: Suave
   desc: Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.
@@ -538,7 +538,7 @@
   tags: [.NET, C#, WPF]
   upforgrabs:
     name: Jump In
-    link: https://github.com/MahApps/MahApps.Metro/issues?labels=Jump+In&state=open
+    link: https://github.com/MahApps/MahApps.Metro/labels/Jump%20In
     
 - name: JSCS
   desc: JavaScript Code Style checker
@@ -546,4 +546,4 @@
   tags: [JavaScript, node]
   upforgrabs:
     name: help-wanted
-    link: https://github.com/mdevils/node-jscs/issues?q=label%3Ahelp-wanted+is%3Aopen
+    link: https://github.com/mdevils/node-jscs/labels/help-wanted

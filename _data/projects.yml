@@ -508,6 +508,14 @@
     name: up-for-grabs
     link: https://github.com/sapiens/MakeSharp/issues?labels=up-for-grabs&page=1&state=open
   
+- name: SqlFu
+  desc: Fast and versatile .Net micro-orm
+  site: https://github.com/sapiens/SqlFu
+  tags: [.Net, C#, micro-orm, mapper, sql]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/sapiens/SqlFu/issues?labels=up-for-grabs&page=1&state=open
+  
 - name: Cake
   desc: Cake (C# Make) is a build automation system inspired by Fake.
   site: https://github.com/cake-build/cake

@@ -78,6 +78,11 @@
       ordering = sessionStorage.getItem("projectOrder");
       if (ordering) {
         ordering = JSON.parse(ordering);
+
+        // This prevents anyone's page from crashing if a project is removed
+        if (ordering.length !== _projectsData.projects.length) {
+          ordering = null;
+        }
       }
     }
 

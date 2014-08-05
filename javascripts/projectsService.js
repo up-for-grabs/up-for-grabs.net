@@ -69,9 +69,32 @@
 
 	var ProjectsService = function (projectsData) {
 		var _projectsData = extractProjectsAndTags(projectsData);
-    var projects = _.toArray(_.shuffle(_projectsData.projects));
-		var tagsMap = {};
-    
+    var tagsMap = {};
+
+    var projects = [];
+    if (JSON && sessionStorage && sessionStorage.getItem
+        && sessionStorage.setItem) {
+      // JSON serialized list of project names
+      var ordering = sessionStorage.getItem("projectOrder");
+
+      if (ordering) {
+        ordering = JSON.parse(ordering);
+        var mapping = _.object(_.map(
+          _projectsData.projects,
+          function (proj) { return [proj.name, proj]}
+        ));
+        for (var i = 0; i < ordering.length; ++i) {
+          projects.push(mapping[ordering[i]]);
+        }
+      } else {
+        projects = _.toArray(_.shuffle(_projectsData.projects));
+        ordering = _.map(projects, function(proj) { return proj.name });
+        sessionStorage.setItem("projectOrder", JSON.stringify(ordering));
+      }
+    } else {
+      projects = _.toArray(_.shuffle(_projectsData.projects))
+    }
+
 		_.each(_projectsData.tags, function(tag){
       tagsMap[tag.name.toLowerCase()] = tag;
     });

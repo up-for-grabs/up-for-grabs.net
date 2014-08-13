@@ -1,8 +1,8 @@
 (function(host, _) {
-	var applyTagsFilter = function (projects, tagsMap, tags) {
-		if (typeof tags === "string") {
-			tags = tags.split(",");
-		}
+  var applyTagsFilter = function (projects, tagsMap, tags) {
+    if (typeof tags === "string") {
+      tags = tags.split(",");
+    }
 
     tags = _.map(tags, function(entry){
       return entry && entry.replace(/^\s+|\s+$/g, "");
@@ -67,8 +67,8 @@
     };
   };
 
-	var ProjectsService = function (projectsData) {
-		var _projectsData = extractProjectsAndTags(projectsData);
+  var ProjectsService = function (projectsData) {
+    var _projectsData = extractProjectsAndTags(projectsData);
     var tagsMap = {};
 
     var canStoreOrdering = (JSON && sessionStorage && sessionStorage.getItem
@@ -96,19 +96,19 @@
     var projects = _.map(ordering,
                          function(i) { return _projectsData.projects[i]; });
 
-		_.each(_projectsData.tags, function(tag){
+    _.each(_projectsData.tags, function(tag){
       tagsMap[tag.name.toLowerCase()] = tag;
     });
 
-		this.get = function(tags){
+    this.get = function(tags){
       return applyTagsFilter(projects, tagsMap, tags);
-		};
+    };
 
     this.getTags = function() {
       return tagsMap;
     };
-	};
+  };
 
-	host.ProjectsService = ProjectsService;
+  host.ProjectsService = ProjectsService;
 
 })(window, _);

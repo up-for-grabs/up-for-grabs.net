@@ -517,12 +517,12 @@
     link: https://github.com/sapiens/SqlFu/labels/up-for-grabs
   
 - name: Cake
-  desc: Cake (C# Make) is a build automation system inspired by Fake.
+  desc: Cake (C# Make) is a build automation system using C#.
   site: https://github.com/cake-build/cake
   tags: [.NET, C#, Build]
   upforgrabs:
-    name: you take it
-    link: https://github.com/cake-build/cake/labels/you%20take%20it
+    name: up-for-grabs
+    link: https://github.com/cake-build/cake/labels/up-for-grabs
 
 - name: Suave
   desc: Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.

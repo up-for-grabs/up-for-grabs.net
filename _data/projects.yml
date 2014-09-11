@@ -570,7 +570,7 @@
   tags: [C#, ETL, data, database]
   upforgrabs:
     name: please contribute
-    link: https://github.com/HeadspringLabs/bulk-writer/labels/please+contribute
+    link: https://github.com/HeadspringLabs/bulk-writer/labels/please%20contribute
 
 - name: bpython
   desc: A fancy interface to the Python interpreter

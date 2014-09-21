@@ -620,3 +620,11 @@
   upforgrabs:
     name: easy
     link: https://github.com/OpenRA/OpenRA/labels/Easy
+  
+- name: Better Explorer
+  desc: A Better Explorer filemanager repository
+  site: https://github.com/DimitarCC/BetterExplorer/
+  tags: [.NET, C#]
+  upforgrabs:
+    name: Contribute
+    link: https://github.com/DimitarCC/BetterExplorer/

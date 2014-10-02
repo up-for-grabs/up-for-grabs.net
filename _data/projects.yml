@@ -628,3 +628,19 @@
   upforgrabs:
     name: help wanted
     link: https://github.com/injoin/frontkit/labels/help%20wanted
+    
+- name: Thinktecture IdentityServer
+  desc: OpenID Connect and OAuth2 Security Token Service and Authorization Server
+  site: https://github.com/thinktecture/Thinktecture.IdentityServer.v3
+  tags: [.NET, Security, OAuth2, OpenID Connect, C#, OWIN, Katana]
+  upforgrabs:
+    name: Up for grabs
+    link: https://github.com/thinktecture/Thinktecture.IdentityServer.v3/labels/Up%20for%20grabs
+
+- name: Thinktecture IdentityServer Access Token Validation
+  desc: OWIN Middleware to validate access tokens from IdentityServer v3 
+  site: https://github.com/thinktecture/Thinktecture.IdentityServer.v3.AccessTokenValidation
+  tags: [.NET, Security, OAuth2, OpenID Connect, C#, OWIN, Katana]
+  upforgrabs:
+    name: up for grabs
+    link: https://github.com/thinktecture/Thinktecture.IdentityServer.v3.AccessTokenValidation/labels/up%20for%20grabs

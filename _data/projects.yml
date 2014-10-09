@@ -644,3 +644,11 @@
   upforgrabs:
     name: up for grabs
     link: https://github.com/thinktecture/Thinktecture.IdentityServer.v3.AccessTokenValidation/labels/up%20for%20grabs
+
+- name: Bash Git prompt
+  desc: A bash prompt that displays information about the current git repository. In particular the branch name, difference with remote branch, number of files staged, changed, etc.
+  site: https://github.com/magicmonty/bash-git-prompt
+  tags: [Shell, Bash, Git, Prompt]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/magicmonty/bash-git-prompt/labels/up-for-grabs

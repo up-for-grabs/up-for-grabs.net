@@ -668,3 +668,11 @@
   upforgrabs:
     name: Up for grabs
     link: https://github.com/code-cracker/code-cracker/labels/up-for-grabs
+
+- name: DotNetDoodle.Analyzers
+  desc: Some useful analyzers and refactoring for .NET Compiler Platform.
+  site: https://github.com/DotNetDoodle/DotNetDoodle.Analyzers
+  tags: [roslyn, csharp-analyzers, refactoring, C#, .NET]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/DotNetDoodle/DotNetDoodle.Analyzers/labels/up-for-grabs

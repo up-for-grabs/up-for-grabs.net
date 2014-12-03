@@ -692,3 +692,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/davetimmins/ArcGIS.PCL/labels/up-for-grabs
+
+- name: grunt-ts
+  desc: A Grunt task to manage your complete TypeScript development to production workflow
+  site: https://github.com/typestrong/grunt-ts
+  tags: [TypeScript, Grunt, GruntJS]
+  upforgrabs:
+    name: Jump In
+    link: https://github.com/TypeStrong/grunt-ts/labels/Jump%20In

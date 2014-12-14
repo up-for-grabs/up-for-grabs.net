@@ -471,7 +471,7 @@
     
 - name: Humanizer
   desc: Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities
-  site: http://humanizr.net
+  site: https://github.com/MehdiK/Humanizer
   tags: [.NET, Localization, human-readable, C#]
   upforgrabs:
     name: jump in

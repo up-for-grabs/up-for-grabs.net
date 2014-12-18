@@ -433,7 +433,15 @@ Custom Styles
   border: 0 none;
 }
 
-.projects tr {
+.projects td.title {
+  padding-bottom: 0px;
+}
+
+.projects td.details {
+  padding-top: 0px;
+}
+
+.projects tbody {
   border-bottom: 1px solid;
 }
 

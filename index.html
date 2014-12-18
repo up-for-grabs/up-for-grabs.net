@@ -127,12 +127,17 @@ layout: default
   </div>
   <table class="projects">
    <% _.each(projects, function(project){ %>
+    <tbody>
     <tr>
-       <td>
+       <td colspan="2" class="title">
            <span class="proj"><a href="<%=project.site %>"><%=project.name %></a></span>
-           <p class="label"><a href="<%= project.upforgrabs.link %>" title="View open issues for <%=project.name %>"><%=project.upforgrabs.name %></a></p>
        </td>
-       <td>
+    </tr>
+    <tr>
+       <td class="details">
+        <p class="label"><a href="<%= project.upforgrabs.link %>" title="View open issues for <%=project.name %>"><%=project.upforgrabs.name %></a></p>
+       </td>
+       <td class="details">
            <% if (project.desc) { %>
            <span class="desc"><%=project.desc%></span>
            <% } %>
@@ -145,6 +150,7 @@ layout: default
            <% } %>
        </td>
     </tr>
+    </tbody>
    <% }) %>
    </table>
 </script>

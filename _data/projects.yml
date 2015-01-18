@@ -724,3 +724,11 @@
   upforgrabs:
     name: help out!
     link: https://github.com/kellabyte/Haywire/labels/help%20out!
+    
+- name: .NET Core
+  desc: Contains the foundational libraries that make up the .NET Core development stack
+  site: https://github.com/dotnet/corefx/
+  tags: [ .NET ] 
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/dotnet/corefx/labels/up-for-grabs

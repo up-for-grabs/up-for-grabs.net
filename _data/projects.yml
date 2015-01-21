@@ -732,3 +732,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/dotnet/corefx/labels/up-for-grabs
+
+- name: DotNetOpenAuth
+  desc: Authentication and Authorisation stack for .NET Framework
+  site: https://github.com/dotnetopenauth
+  tags: [ .NET, OAuth, OpenID, OpenID Connect ] 
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/DotNetOpenAuth/DotNetOpenAuth/labels/up-for-grabs

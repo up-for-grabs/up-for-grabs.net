@@ -756,3 +756,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/npgsql/npgsql/labels/up-for-grabs
+
+- name: FluentMigrator
+  desc: Fluent Migrations framework for .net
+  site: https://github.com/schambers/fluentmigrator
+  tags: [ .NET, C#, Mono, Database, Postgresql, SqlServer, Oracle, SqlLite ]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/schambers/fluentmigrator/labels/up-for-grabs

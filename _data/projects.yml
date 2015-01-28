@@ -98,6 +98,14 @@
     name: you take it
     link: https://github.com/scriptcs/scriptcs/labels/you%20take%20it
 
+- name: .NET Compiler Platform ("Roslyn")
+  desc: The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code analysis APIs.
+  site: https://github.com/dotnet/roslyn
+  tags: [roslyn, csx, script, compiler, C#, VB.NET]
+  upforgrabs:
+    name: Up for Grabs
+    link: https://github.com/dotnet/roslyn/labels/Up%20for%20Grabs
+
 - name: Entity Framework
   desc: Entity Framework is Microsoft's recommended data access technology for new applications.
   site: http://entityframework.codeplex.com

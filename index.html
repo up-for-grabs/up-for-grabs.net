@@ -155,7 +155,12 @@ layout: default
    </table>
 </script>
 <script type="text/javascript">
-  var projects = {{ site.data.projects | jsonify }};
+  var files = {{ site.data.projects | jsonify }};
+  var projects = new Array();
+
+  for (var fileName in files) {
+    projects.push(files[fileName]);
+  }
 </script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

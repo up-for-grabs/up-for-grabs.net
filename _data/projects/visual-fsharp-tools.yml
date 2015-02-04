@@ -1,0 +1,7 @@
+name: Visual F# Tools
+desc: Visual F# Compiler
+site: https://visualfsharp.codeplex.com/
+tags: [.NET, F#, compiler, visual studio]
+upforgrabs:
+  name: up-for-grabs
+  link: https://visualfsharp.codeplex.com/workitem/list/advanced?keyword=grabs&status=Open%20(not%20closed)&type=All&priority=All&release=All&assignedTo=All&component=All&sortField=LastUpdatedDate&sortDirection=Descending&page=0&reasonClosed=All

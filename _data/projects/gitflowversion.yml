@@ -1,0 +1,7 @@
+name: GitFlowVersion
+desc: Automatic versioning for projects using GitFlow
+site: https://github.com/Particular/GitFlowVersion
+tags: [Git, Versioning, SemVer, GitFlow]
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Particular/GitFlowVersion/labels/up-for-grabs

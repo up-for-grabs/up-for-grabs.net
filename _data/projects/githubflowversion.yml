@@ -1,0 +1,7 @@
+name: GitHubFlowVersion
+desc: Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>) for projects using GitHub flow
+site: https://github.com/JakeGinnivan/GitHubFlowVersion
+tags: [Git, Versioning, SemVer, GitHubFlow]
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/JakeGinnivan/GitHubFlowVersion/labels/up-for-grabs

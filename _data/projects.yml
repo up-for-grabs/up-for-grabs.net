@@ -1,3 +1,11 @@
+- name: Platform
+  desc: A platform to create a scale-able and container-less application. The platform is built on OSGi, Vertx.io, Cassandra, Ehcache, SOLR, Spring data, LMAX disruptor and Quartz.
+  site: https://github.com/mcraken/platform
+  tags: [Java, OSGi, Vertx.io, Apache Cassandra, Ehcache, Spring data, Apache SOLR, Quartz, LMAX Disruptor]
+  upforgrabs:
+    name: help wanted
+    link: https://github.com/mcraken/platform/labels/help%20wanted
+
 - name: Validator
   desc: Port of validator.js
   site: https://github.com/ByteBlast/Validator

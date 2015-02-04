@@ -7,7 +7,17 @@ Visit the website: [up-for-grabs.net](http://up-for-grabs.net/)
 
 ## Testing the site locally
 
-Most of the changes should require updates to the [projects.yml](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects.yml) file.
+Each of the projects exists under the [projects](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - simply add a new file (the name isn't displayed in the UI, so don't stress about it) and fill out these values:
+
+```yaml
+name: *your project here*
+desc: *some details about the project*
+site: *home page or repository URL*
+tags: [ *tags*, *to*, *search*, *on* ]
+upforgrabs:
+  name: *the label associated with your tasks*
+  link: *link to the related tags*
+```
 
 If you want to run the site locally, after cloning it down to your machine just run these commands (requires Ruby installed):
 

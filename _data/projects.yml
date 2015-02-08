@@ -812,3 +812,11 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/concordion/concordion-logging-tooltip-extension/labels/up-for-grabs
+    
+- name: BugNET
+  desc: Open source issue tracker built with ASP.NET 
+  site: https://github.com/dubeaud/bugnet
+  tags: [ASP.NET, C#, issue tracking]
+  upforgrabs:
+    name: help wanted
+    link: https://github.com/dubeaud/bugnet/labels/help%20wanted

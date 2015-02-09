@@ -315,23 +315,14 @@
     name: jump in
     link: https://github.com/Code52/DownmarkerWPF/labels/jump%20in
 
-- name: GitHubFlowVersion
-  desc: Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>) for projects using GitHub flow
-  site: https://github.com/JakeGinnivan/GitHubFlowVersion
-  tags: [Git, Versioning, SemVer, GitHubFlow]
+- name: GitVersion
+  desc: Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>) for projects using Git
+  site: https://github.com/ParticularLabs/GitVersion
+  tags: [Git, Versioning, SemVer, GitHubFlow, GitFlow]
   upforgrabs:
     name: up-for-grabs
-    link: https://github.com/JakeGinnivan/GitHubFlowVersion/labels/up-for-grabs
-    
-    
-- name: GitFlowVersion
-  desc: Automatic versioning for projects using GitFlow
-  site: https://github.com/Particular/GitFlowVersion
-  tags: [Git, Versioning, SemVer, GitFlow]
-  upforgrabs:
-    name: up-for-grabs
-    link: https://github.com/Particular/GitFlowVersion/labels/up-for-grabs
-    
+    link: https://github.com/ParticularLabs/GitVersion/labels/up-for-grabs
+
     
 - name: GitReleaseNotes
   desc: Release notes generator for Git projects

@@ -42,12 +42,9 @@
     
       if (!count.length){
         count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(this);
-        setTimeout(function(){
-          $.getJSON(url, function(data, textStatus, jqXHR){
-            count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
-            console.log(jqXHR);
-          });
-        }, 2000);
+        $.getJSON(url, function(data){
+          count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
+        });
       }
     });
       

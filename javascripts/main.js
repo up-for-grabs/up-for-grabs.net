@@ -44,15 +44,13 @@
         count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(this);
         $.ajax(url)
         .done(function(data, textStatus, jqXHR){
-          var rateLimitRemaining = jqXHR.getResponseHeader('X-RateLimit-Remaining'),
-              rateLimitReset = jqXHR.getResponseHeader('X-RateLimit-Reset');
           count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
         })
         .fail(function(jqXHR, textStatus, errorThrown){
           var rateLimited = jqXHR.getResponseHeader('X-RateLimit-Remaining') === '0'
             , rateLimitReset = rateLimited && new Date(1000 * +jqXHR.getResponseHeader('X-RateLimit-Reset'))
             , message = rateLimitReset ? 'GitHub rate limit met. Reset at ' + rateLimitReset.toLocaleTimeString() + '.' :
-                        (jqXHR.responseJSON && jqXHR.responseJSON.message) || 'Could not get issue count from GitHub: ' + errorThrown + '.';
+                        'Could not get issue count from GitHub: ' + (jqXHR.responseJSON && jqXHR.responseJSON.message || + errorThrown) + '.';
           count.html('?');
           count.attr('title', message);
         });

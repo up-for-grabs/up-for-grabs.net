@@ -477,6 +477,33 @@ Custom Styles
   margin-bottom: 0;
 }
 
+.projects .label .count {
+  background: none white;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: #0090ff;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  margin: -2px -4px 0 4px;
+  text-align: center;
+  vertical-align: middle;
+  width: 16px;
+}
+
+.projects .label .count img {
+  background: none repeat scroll 0 0 white;
+  border: 1px solid;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  display: inline-block;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  width: 16px;
+}
+
 input, select, textarea, button {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }

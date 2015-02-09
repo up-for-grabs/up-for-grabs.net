@@ -35,13 +35,14 @@
   });
 
   $(function() {
-    $(document).on("mouseenter focus mouseleave", '.label a', function(){
-      var gh = this.href.match(/github.com(\/[^\/]+\/[^\/]+\/)labels\/([^\/]+)$/)
+    $(document).on("mouseenter focus mouseleave", '.projects tbody', function(){
+      var a = $(this).find('.label a')
+        , gh = a.attr('href').match(/github.com(\/[^\/]+\/[^\/]+\/)labels\/([^\/]+)$/)
         , url = gh && ('https://api.github.com/repos' + gh[1] + 'issues?labels=' + gh[2])
-        , count = $(this).find('.count');
+        , count = a.find('.count');
     
       if (gh && !count.length){
-        count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(this);
+        count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(a);
         $.ajax(url)
         .done(function(data, textStatus, jqXHR){
           count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');

@@ -493,7 +493,7 @@ Custom Styles
 
 .projects .label .count img {
   background: none repeat scroll 0 0 white;
-  border: 1px solid;
+  border: 0 none;
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;

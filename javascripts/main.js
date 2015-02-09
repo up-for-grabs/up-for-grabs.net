@@ -49,7 +49,10 @@
           count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
         })
         .fail(function(jqXHR, textStatus, errorThrown){
-          var message = (jqXHR.responseJSON && jqXHR.responseJSON.message) || 'Could not get issue count from GitHub: ' + errorThrown + '.';
+          var rateLimited = jqXHR.getResponseHeader('X-RateLimit-Remaining') === '0'
+            , rateLimitReset = rateLimited && new Date(1000 * +jqXHR.getResponseHeader('X-RateLimit-Reset'))
+            , message = rateLimitReset ? 'GitHub rate limit met. Reset at ' + rateLimitReset + '.' :
+                        (jqXHR.responseJSON && jqXHR.responseJSON.message) || 'Could not get issue count from GitHub: ' + errorThrown + '.';
           count.html('?');
           count.attr('title', message);
         });

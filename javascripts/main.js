@@ -43,7 +43,8 @@
       if (!count.length){
         count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(this);
         setTimeout(function(){
-          count.html((new Date().getSeconds() % 12).toString());
+          var n = new Date().getSeconds() % 20;
+          n < 12 && count.html(n.toString());
         }, 2000);
       }
     });

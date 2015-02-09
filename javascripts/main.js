@@ -49,9 +49,9 @@
           count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
         })
         .fail(function(jqXHR, textStatus, errorThrown){
-          console.log(jqXHR);
+          var message = (jqXHR.responseJSON && jqXHR.responseJSON.message) || 'Could not get issue count from GitHub: ' + errorThrown + '.';
           count.html('?');
-          count.attr('title','Could not get issue count from GitHub: ' + errorThrown);
+          count.attr('title', message);
         });
       }
     });

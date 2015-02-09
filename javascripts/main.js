@@ -40,7 +40,7 @@
         , url = gh && ('https://api.github.com/repos' + gh[1] + 'issues?labels=' + gh[2])
         , count = $(this).find('.count');
     
-      if (!count.length){
+      if (gh && !count.length){
         count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(this);
         $.getJSON(url, function(data){
           count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');

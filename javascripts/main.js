@@ -42,16 +42,16 @@
     
       if (gh && !count.length){
         count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(this);
-        $.ajax({
-          url: url,
-          success: function(data, textStatus, jqXHR){
-            var rateLimitRemaining = jqXHR.getResponseHeader('X-RateLimit-Remaining'),
-                rateLimitReset = jqXHR.getResponseHeader('X-RateLimit-Reset');
-            count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
-          },
-          error: function(){
-            count.html('?');
-          }
+        $.ajax(url)
+        .done(function(data, textStatus, jqXHR){
+          var rateLimitRemaining = jqXHR.getResponseHeader('X-RateLimit-Remaining'),
+              rateLimitReset = jqXHR.getResponseHeader('X-RateLimit-Reset');
+          count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
+        })
+        .fail(function(jqXHR, textStatus, errorThrown){
+          console.log(jqXHR);
+          count.html('?');
+          count.attr('title','Could not get issue count from GitHub: ' + errorThrown);
         });
       }
     });

@@ -51,7 +51,7 @@
         .fail(function(jqXHR, textStatus, errorThrown){
           var rateLimited = jqXHR.getResponseHeader('X-RateLimit-Remaining') === '0'
             , rateLimitReset = rateLimited && new Date(1000 * +jqXHR.getResponseHeader('X-RateLimit-Reset'))
-            , message = rateLimitReset ? 'GitHub rate limit met. Reset at ' + rateLimitReset + '.' :
+            , message = rateLimitReset ? 'GitHub rate limit met. Reset at ' + rateLimitReset.toLocaleTimeString() + '.' :
                         (jqXHR.responseJSON && jqXHR.responseJSON.message) || 'Could not get issue count from GitHub: ' + errorThrown + '.';
           count.html('?');
           count.attr('title', message);

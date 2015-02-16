@@ -819,3 +819,19 @@
   upforgrabs:
     name: Jump-In
     link: https://github.com/shouldly/shouldly/labels/Jump-In
+    
+- name: PHP Sockets
+  desc: OOP wrapper and library for working with PHP Sockets
+  site: https://github.com/navarr/Sockets
+  tags: [Sockets, PHP]
+  upforgrabs:
+    name: up for grabs
+    link: https://github.com/navarr/Sockets/labels/up%20for%20grabs
+    
+- name: MinecraftProfile
+  desc: PHP Library for retrieving information about Minecraft users
+  site: https://github.com/navarr/MinecraftProfile
+  tags: [PHP, Minecraft]
+  upforgrabs:
+    name: up for grabs
+    link: https://github.com/navarr/MinecraftProfile/labels/up%20for%20grabs

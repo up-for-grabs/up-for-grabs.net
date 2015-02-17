@@ -106,13 +106,21 @@
     name: Up for Grabs
     link: https://github.com/dotnet/roslyn/labels/Up%20for%20Grabs
 
-- name: Entity Framework
+- name: Entity Framework 6
   desc: Entity Framework is Microsoft's recommended data access technology for new applications.
   site: http://entityframework.codeplex.com
   tags: [Microsoft, EF, Database, Data, O/RM, ADO.NET]
   upforgrabs:
     name: UpForGrabs
     link: http://entityframework.codeplex.com/workitem/list/basic?keywords=UpForGrabs
+
+- name: Entity Framework 7
+  desc: Microsoft's recommended data access technology for new applications in .NET.
+  site: https://github.com/aspnet/EntityFramework
+  tags: [Microsoft, EF, Database, Data, O/RM, ADO.NET]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/aspnet/EntityFramework/labels/up-for-grabs
 
 - name: AutoFixture
   desc: Write maintainable unit tests, faster. AutoFixture makes it easier for developers to do Test-Driven Development by automating non-relevant Test Fixture Setup, allowing the Test Developer to focus on the essentials of each test case.

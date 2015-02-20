@@ -1,0 +1,7 @@
+name: BamPi
+desc: BamPi is a .NET library for quickly creating a REST API based on a existing model.
+site: https://github.com/BamPi/BamPi
+tags: [API, REST, C#, .NET]
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/BamPi/BamPi/labels/up-for-grabs

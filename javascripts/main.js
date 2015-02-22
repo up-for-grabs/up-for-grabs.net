@@ -34,28 +34,32 @@
     });
   });
 
+  var issueCount = function(project) {
+    var a = $(project).find('.label a')
+      , gh = a.attr('href').match(/github.com(\/[^\/]+\/[^\/]+\/)labels\/([^\/]+)$/)
+      , url = gh && ('https://api.github.com/repos' + gh[1] + 'issues?labels=' + gh[2])
+      , count = a.find('.count');
+
+    if (gh && !count.length){
+      count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(a);
+      $.ajax(url)
+      .done(function(data, textStatus, jqXHR){
+        count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
+      })
+      .fail(function(jqXHR, textStatus, errorThrown){
+        var rateLimited = jqXHR.getResponseHeader('X-RateLimit-Remaining') === '0'
+          , rateLimitReset = rateLimited && new Date(1000 * +jqXHR.getResponseHeader('X-RateLimit-Reset'))
+          , message = rateLimitReset ? 'GitHub rate limit met. Reset at ' + rateLimitReset.toLocaleTimeString() + '.' :
+                      'Could not get issue count from GitHub: ' + (jqXHR.responseJSON && jqXHR.responseJSON.message || + errorThrown) + '.';
+        count.html('?');
+        count.attr('title', message);
+      });
+    }
+  };
+
   $(function() {
     $(document).on("mouseenter focus mouseleave", '.projects tbody', function(){
-      var a = $(this).find('.label a')
-        , gh = a.attr('href').match(/github.com(\/[^\/]+\/[^\/]+\/)labels\/([^\/]+)$/)
-        , url = gh && ('https://api.github.com/repos' + gh[1] + 'issues?labels=' + gh[2])
-        , count = a.find('.count');
-    
-      if (gh && !count.length){
-        count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(a);
-        $.ajax(url)
-        .done(function(data, textStatus, jqXHR){
-          count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
-        })
-        .fail(function(jqXHR, textStatus, errorThrown){
-          var rateLimited = jqXHR.getResponseHeader('X-RateLimit-Remaining') === '0'
-            , rateLimitReset = rateLimited && new Date(1000 * +jqXHR.getResponseHeader('X-RateLimit-Reset'))
-            , message = rateLimitReset ? 'GitHub rate limit met. Reset at ' + rateLimitReset.toLocaleTimeString() + '.' :
-                        'Could not get issue count from GitHub: ' + (jqXHR.responseJSON && jqXHR.responseJSON.message || + errorThrown) + '.';
-          count.html('?');
-          count.attr('title', message);
-        });
-      }
+      issueCount(this);
     });
       
     compiledtemplateFn = _.template($("#projects-panel-template").html());

@@ -63,8 +63,25 @@
   };
 
   $(function() {
-    $(document).on("mouseenter focus mouseleave", '.projects tbody', function(){
-      issueCount(this);
+    var $window = $(window),
+        onScreen = function onScreen($elem) {
+          var docViewTop = $window.scrollTop()
+            , docViewBottom = docViewTop + $window.height()
+            , elemTop = $elem.offset().top
+            , elemBottom = elemTop + $elem.height();
+          return (docViewTop <= elemTop && elemTop <= docViewBottom) ||
+                 (docViewTop <= elemBottom && elemBottom <= docViewBottom);
+        };
+
+    $window.on('scroll', function() {
+      $('.projects tbody:not(.counted)')
+        .each(function() {
+          var project = $(this);
+          if (onScreen(project)) {
+            issueCount(project);
+            project.addClass('counted');
+          }
+        });
     });
       
     compiledtemplateFn = _.template($("#projects-panel-template").html());

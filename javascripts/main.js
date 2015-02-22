@@ -73,7 +73,7 @@
                  (docViewTop <= elemBottom && elemBottom <= docViewBottom);
         };
 
-    $window.on('scroll', function() {
+    $window.on('scroll chosen:updated', function() {
       $('.projects tbody:not(.counted)')
         .each(function() {
           var project = $(this);

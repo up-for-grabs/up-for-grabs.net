@@ -129,7 +129,7 @@
   upforgrabs:
     name: jump in
     link: https://github.com/AutoFixture/AutoFixture/labels/jump%20in
-
+    
 - name: Albedo
   desc: A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions and utilities.
   site: https://github.com/ploeh/Albedo
@@ -851,6 +851,14 @@
   upforgrabs:
     name: up-for-grabs
     link: https://github.com/thephpleague/commonmark/labels/up-for-grabs
+
+- name: StatePrinter
+  desc: Automating unittest asserts and ToString() coding.
+  site: https://github.com/kbilsted/StatePrinter
+  tags: [TDD, Unit Testing, TDD, .NET, C#, ToString, Debugging]
+  upforgrabs:
+    name: Help wanted
+    link: https://github.com/kbilsted/StatePrinter/labels/Help%20wanted
 
 - name: ColorSharp
   desc: A .NET/Mono library to handle color spaces and light spectrums

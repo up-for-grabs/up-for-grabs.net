@@ -883,3 +883,11 @@
   upforgrabs:
     name: help wanted
     link: https://github.com/Litipk/php-bignumbers/labels/help%20wanted
+
+- name: HuBoard
+  desc: Instant project management for your GitHub issues
+  site: https://github.com/rauhryan/huboard
+  tags: [kanban, issues, github]
+  upforgrabs:
+    name: Please contribute
+    link: https://github.com/rauhryan/huboard/labels/Please%20contribute

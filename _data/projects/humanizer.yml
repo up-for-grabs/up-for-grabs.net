@@ -1,0 +1,13 @@
+---
+name: Humanizer
+desc: Humanizer meets all your .NET needs for manipulating and displaying strings,
+  enums, dates, times, timespans, numbers and quantities
+site: https://github.com/MehdiK/Humanizer
+tags:
+- ".NET"
+- Localization
+- human-readable
+- C#
+upforgrabs:
+  name: jump in
+  link: https://github.com/MehdiK/Humanizer/labels/jump%20in

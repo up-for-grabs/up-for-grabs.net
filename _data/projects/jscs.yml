@@ -1,0 +1,10 @@
+---
+name: JSCS
+desc: JavaScript Code Style checker
+site: https://github.com/mdevils/node-jscs
+tags:
+- JavaScript
+- node
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/mdevils/node-jscs/labels/help-wanted

@@ -7,7 +7,7 @@ Visit the website: [up-for-grabs.net](http://up-for-grabs.net/)
 
 ## Testing the site locally
 
-Each of the projects exists under the [projects](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - simply add a new file (the name isn't displayed in the UI, so don't stress about it) and fill out these values:
+Each of the projects exists under the [projects](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - simply add a new file (the file name should be a machine-friendly version of the project name, and use `-` in place of spaces for readability) and fill out these values:
 
 ```yaml
 name: *your project here*

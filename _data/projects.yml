@@ -748,6 +748,14 @@
     name: up for grabs
     link: https://github.com/dotnet/coreclr/labels/up-for-grabs
 
+- name: MSBuild
+  desc: The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio.
+  site: https://github.com/Microsoft/msbuild
+  tags: [ .NET, build ]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/Microsoft/msbuild/labels/up-for-grabs
+
 - name: DotNetOpenAuth
   desc: Authentication and Authorisation stack for .NET Framework
   site: https://github.com/dotnetopenauth

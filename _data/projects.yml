@@ -915,3 +915,11 @@
   upforgrabs:
     name: help needed
     link: https://github.com/JimBobSquarePants/ImageProcessor/labels/help%20needed
+
+- name: ASP.NET MVC 6
+  desc: Model view controller framework for building dynamic web sites with clean separation of concerns, including the merged MVC, Web API, and Web Pages w/ Razor.
+  site: https://github.com/aspnet/Mvc
+  tags: [Microsoft, ASP.NET, MVC]
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/aspnet/Mvc/labels/up-for-grabs

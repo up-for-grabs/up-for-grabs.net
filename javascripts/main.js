@@ -34,6 +34,33 @@
     });
   });
 
+  var storage = (function(global) {
+       function set(name, value) {
+           try {
+               if (typeof (global.localStorage) !== "undefined") {
+                   global.localStorage.setItem(name, JSON.stringify(value));
+               }
+           } catch (exception) {
+               if ((exception != QUOTA_EXCEEDED_ERR) &&
+               (exception != NS_ERROR_DOM_QUOTA_REACHED)) {
+                   throw exception;
+               }
+           }
+       };
+
+       function get(name) {
+           if (typeof (global.localStorage) !== "undefined") {
+               return JSON.parse(global.localStorage.getItem(name));
+           }
+           return undefined;
+       };
+
+       return{
+          set : set,
+          get : get
+      };
+  })(window);
+
   var issueCount = function(project) {
     var a = $(project).find('.label a')
       , gh = a.attr('href').match(/github.com(\/[^\/]+\/[^\/]+\/)labels\/([^\/]+)$/)
@@ -48,9 +75,17 @@
     }
 
     count = $('<span class="count"><img src="images/octocat-spinner-32.gif" /></span>').appendTo(a);
+    var cached = storage.get(gh[1]);
+    if (cached && cached.date && new Date(cached.date) >= (new Date() - 1000 * 60 * 60 * 24)) {
+        count.html(cached.count);
+        return;
+    }
+
     $.ajax(url)
       .done(function(data, textStatus, jqXHR) {
-        count.html(data && typeof data.length === 'number' ? data.length.toString() : '?');
+        var resultCount = data && typeof data.length === 'number' ? data.length.toString() : '?';
+        count.html(resultCount);
+        storage.set(gh[1], { "count": resultCount, "date": new Date() });
       })
       .fail(function(jqXHR, textStatus, errorThrown) {
         var rateLimited = jqXHR.getResponseHeader('X-RateLimit-Remaining') === '0'

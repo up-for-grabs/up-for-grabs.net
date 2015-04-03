@@ -7,7 +7,7 @@ Visit the website: [up-for-grabs.net](http://up-for-grabs.net/)
 
 ## Add your project
 
-Each of the projects is a file in the [projects](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add yours, create a new file named after your project. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier.
+Each of the projects is a file in the [projects](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add yours, create a new file named after your project, ending in `.yml`. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier.
 
 The contents of the file are just some details about the project:
 
@@ -18,8 +18,10 @@ site: *home page or repository URL*
 tags: [ *tags*, *to*, *search*, *on* ]
 upforgrabs:
   name: *the label associated with your tasks*
-  link: *link to the related tags*
+  link: *URL which users can view the tasks*
 ```
+
+Check out the [up-for-grabs](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml) file for an example of this project structure.
 
 ## Testing the site locally
 

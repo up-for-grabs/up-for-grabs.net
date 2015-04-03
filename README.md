@@ -18,10 +18,8 @@ site: *home page or repository URL*
 tags: [ *tags*, *to*, *search*, *on* ]
 upforgrabs:
   name: *the label associated with your tasks*
-  link: *URL which users can view the tasks*
+  link: *link to the related tags*
 ```
-
-Check out the [up-for-grabs](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml) file for an example of this project structure.
 
 ## Testing the site locally
 

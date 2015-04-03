@@ -5,9 +5,11 @@ Run an open-source project? Submit a Pull Request to add yourself to the list!
 
 Visit the website: [up-for-grabs.net](http://up-for-grabs.net/)
 
-## Testing the site locally
+## Add your project
 
-Each of the projects exists under the [projects](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - simply add a new file (the file name should be a machine-friendly version of the project name, and use `-` in place of spaces for readability) and fill out these values:
+Each of the projects is a file in the [projects](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add yours, create a new file named after your project. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier.
+
+The contents of the file are just some details about the project:
 
 ```yaml
 name: *your project here*
@@ -19,9 +21,28 @@ upforgrabs:
   link: *link to the related tags*
 ```
 
-If you want to run the site locally, after cloning it down to your machine just run these commands (requires Ruby installed):
+## Testing the site locally
+
+If you haven't already done it, clone the repository to your machine:
+
+```
+git clone https://github.com/dahlbyk/up-for-grabs.net.git
+```
+
+If you have a fork of the repository, change `dahlbyk` for your GitHub account name above.
+
+You need Ruby and Bundler installed to test the site - you can confirm these are present by running these commands:
+
+```
+ruby -v
+bundle -v
+```
+
+If you're happy with that, run these commands in the directory where you cloned the up-for-grabs repository:
 
 ```
 bundle install
 jekyll serve --watch
 ```
+
+Then open your browser to `localhost:4000` to view the site.

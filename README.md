@@ -29,7 +29,7 @@ Check out the [up-for-grabs](https://github.com/dahlbyk/up-for-grabs.net/blob/gh
 
 ## Testing the site locally
 
-If you haven't already done it, clone the repository to your machine:
+If you haven't already, clone the repository to your machine:
 
 ```
 git clone https://github.com/dahlbyk/up-for-grabs.net.git

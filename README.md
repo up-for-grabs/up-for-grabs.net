@@ -15,7 +15,11 @@ The contents of the file are just some details about the project:
 name: *your project here*
 desc: *some details about the project*
 site: *home page or repository URL*
-tags: [ *tags*, *to*, *search*, *on* ]
+tags:
+- *tags*
+- *to*
+- *search*
+- *on*
 upforgrabs:
   name: *the label associated with your tasks*
   link: *URL which users can view the tasks*

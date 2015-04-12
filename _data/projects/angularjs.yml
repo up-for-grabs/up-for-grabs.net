@@ -1,0 +1,10 @@
+---
+name: AngularJS
+desc: HTML enhanced for web apps
+site: https://angularjs.org
+tags:
+- JavaScript
+- web
+upforgrabs:
+  name: PRs plz!
+  link: https://github.com/angular/angular.js/labels/PRs%20plz%21

@@ -1,0 +1,14 @@
+---
+name: Entity Framework 6
+desc: Entity Framework is Microsoft's recommended data access technology for new applications.
+site: http://entityframework.codeplex.com
+tags:
+- Microsoft
+- EF
+- Database
+- Data
+- O/RM
+- ADO.NET
+upforgrabs:
+  name: UpForGrabs
+  link: http://entityframework.codeplex.com/workitem/list/basic?keywords=UpForGrabs

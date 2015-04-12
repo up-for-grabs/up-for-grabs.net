@@ -1,0 +1,11 @@
+---
+name: BugNET
+desc: Open source issue tracker built with ASP.NET
+site: https://github.com/dubeaud/bugnet
+tags:
+- ASP.NET
+- C#
+- issue tracking
+upforgrabs:
+  name: help wanted
+  link: https://github.com/dubeaud/bugnet/labels/help%20wanted

@@ -52,9 +52,9 @@ layout: default
          <h3>I want to get involved!</h3>
 
          <p>
-          This is a list of projects which have curated tasks 
-          specifically for new contributors. These are a great 
-          way to get started with a project, or to help share 
+          This is a list of projects which have curated tasks
+          specifically for new contributors. These are a great
+          way to get started with a project, or to help share
           the load of working on open source projects.
          </p>
 
@@ -72,12 +72,12 @@ layout: default
          <h3>Projects</h3>
          <div id="projects-panel">
          </div>
-        
+
          <h3>I maintain a project and want to participate!</h3>
 
          <p>
-           We're looking for projects who can take the time out to 
-           help mentor developers as they get started with 
+           We're looking for projects who can take the time out to
+           help mentor developers as they get started with
            open source.
          </p>
 
@@ -90,7 +90,7 @@ layout: default
            <li>Tasks should be well described with pointers to help the implementer</li>
          </ul>
          </p>
-         
+
          <p>
            We suggest the tag <code>up-for-grabs</code>
            but using a different name is also acceptable.
@@ -102,7 +102,7 @@ layout: default
         <ol>
           <li>Tag bugs and feature requests that would be a good place to start</li>
           <li>Grab the URL to this list of tasks so that others can get to it easily</li>
-          <li><a href="https://github.com/login">Sign in to GitHub</a> and <a href="https://github.com/dahlbyk/up-for-grabs.net/edit/gh-pages/_data/projects.yml" title="Edit projects.yml">add the project to this list</a></li>
+          <li><a href="https://github.com/login">Sign in to GitHub</a> and <a href="https://github.com/dahlbyk/up-for-grabs.net#add-your-project">check out the README.</a></li>
         </ol>
         </p>
 
@@ -155,7 +155,12 @@ layout: default
    </table>
 </script>
 <script type="text/javascript">
-  var projects = {{ site.data.projects | jsonify }};
+  var files = {{ site.data.projects | jsonify }};
+  var projects = new Array();
+
+  for (var fileName in files) {
+    projects.push(files[fileName]);
+  }
 </script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

@@ -1,0 +1,11 @@
+---
+name: Fixie
+desc: A convention-based .NET test framework
+site: https://github.com/plioi/fixie
+tags:
+- testing
+- convention
+- ".net"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/plioi/fixie/labels/up-for-grabs

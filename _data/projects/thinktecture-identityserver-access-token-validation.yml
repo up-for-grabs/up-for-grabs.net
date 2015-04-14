@@ -1,4 +1,3 @@
----
 name: Thinktecture IdentityServer Access Token Validation
 desc: OWIN Middleware to validate access tokens from IdentityServer v3
 site: https://github.com/thinktecture/Thinktecture.IdentityServer.v3.AccessTokenValidation

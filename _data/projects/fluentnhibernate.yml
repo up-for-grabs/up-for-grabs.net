@@ -1,4 +1,3 @@
----
 name: FluentNHibernate
 desc: Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate.
 site: https://github.com/jagregory/fluent-nhibernate

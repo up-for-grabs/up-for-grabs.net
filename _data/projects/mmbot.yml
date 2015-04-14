@@ -1,4 +1,3 @@
----
 name: mmbot
 desc: A port of GitHub's Hubot to C# and ScriptCS.
 site: https://github.com/mmbot/mmbot

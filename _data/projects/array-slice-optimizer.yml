@@ -1,4 +1,3 @@
----
 name: Array Slice optimizer
 desc: ArraySlice allows to build shared memory array views without performance impact
   (a replacement for ArraySegment<T>). It uses IL manipulation to achieve the fastest

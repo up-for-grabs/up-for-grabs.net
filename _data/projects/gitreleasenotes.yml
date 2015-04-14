@@ -1,4 +1,3 @@
----
 name: GitReleaseNotes
 desc: Release notes generator for Git projects
 site: https://github.com/JakeGinnivan/GitReleaseNotes

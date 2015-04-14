@@ -1,4 +1,3 @@
----
 name: League\CommonMark
 desc: Markdown parser for PHP based on the CommonMark spec
 site: https://github.com/thephpleague/commonmark

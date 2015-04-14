@@ -1,4 +1,3 @@
----
 name: Code Cracker
 desc: An analyzer library for C# that uses Roslyn to produce refactorings, code analysis,
   and other niceties.

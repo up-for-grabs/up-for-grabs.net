@@ -1,4 +1,3 @@
----
 name: ".NET Core CLR"
 desc: Contains the .NET Core runtime, called CoreCLR, and the base library, called
   mscorlib. It includes the garbage collector, JIT compiler, base .NET data types

@@ -1,4 +1,3 @@
----
 name: Npgsql
 desc: ".Net data provider for Postgresql"
 site: https://github.com/npgsql/npgsql

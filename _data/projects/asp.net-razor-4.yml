@@ -1,4 +1,3 @@
----
 name: ASP.NET Razor 4
 desc: Parser and code generator for CSHTML files used in view pages for MVC web apps.
 site: https://github.com/aspnet/Razor

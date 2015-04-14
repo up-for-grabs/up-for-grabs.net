@@ -1,4 +1,3 @@
----
 name: SQLProvider
 desc: A general F# SQL database type provider, supporting LINQ queries, schema exploration,
   individuals and much more besides.

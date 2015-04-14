@@ -1,4 +1,3 @@
----
 name: SimpleMvcSitemap
 desc: A simple library for creating sitemap files inside ASP.NET MVC applications.
 site: https://github.com/uhaciogullari/SimpleMvcSitemap

@@ -1,4 +1,3 @@
----
 name: fsharpbinding
 desc: F# Language Bindings for Open Editors (Emacs, MonoDevelop)
 site: https://github.com/fsharp/fsharpbinding

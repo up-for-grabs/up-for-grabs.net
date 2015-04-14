@@ -1,4 +1,3 @@
----
 name: NuGet client
 desc: The NuGet Client tools. Includes 'nuget.exe' and the NuGet extensions for Microsoft
   Visual Studio and Microsoft WebMatrix

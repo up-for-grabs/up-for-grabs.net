@@ -1,4 +1,3 @@
----
 name: StatePrinter
 desc: Automating unittest asserts and ToString() coding.
 site: https://github.com/kbilsted/StatePrinter

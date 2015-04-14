@@ -1,4 +1,3 @@
----
 name: FSharp.Configuration
 desc: The FSharp.Configuration project contains type providers for the configuration
   of .NET projects.

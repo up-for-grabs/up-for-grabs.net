@@ -1,4 +1,3 @@
----
 name: JSCS
 desc: JavaScript Code Style checker
 site: https://github.com/mdevils/node-jscs

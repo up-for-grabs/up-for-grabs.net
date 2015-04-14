@@ -1,4 +1,3 @@
----
 name: grunt-ts
 desc: A Grunt task to manage your complete TypeScript development to production workflow
 site: https://github.com/typestrong/grunt-ts

@@ -1,4 +1,3 @@
----
 name: FSharp.Formatting
 desc: F# tools for generating documentation using literate F# scripts and inline Markdown
   comments for libraries (Also includes stand-alone Markdown processor and F# code

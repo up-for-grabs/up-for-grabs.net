@@ -1,4 +1,3 @@
----
 name: AutoFixture
 desc: Write maintainable unit tests, faster. AutoFixture makes it easier for developers
   to do Test-Driven Development by automating non-relevant Test Fixture Setup, allowing

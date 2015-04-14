@@ -1,4 +1,3 @@
----
 name: Bau
 desc: The C# task runner. Write your build scripts in C#.
 site: https://github.com/bau-build/bau

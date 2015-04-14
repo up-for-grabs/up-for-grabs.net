@@ -1,4 +1,3 @@
----
 name: TikaOnDotnet
 desc: Use the Java Tika text extraction library on the .NET platform
 site: https://github.com/KevM/tikaondotnet

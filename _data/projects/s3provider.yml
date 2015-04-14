@@ -1,4 +1,3 @@
----
 name: S3Provider
 desc: F# type provider for Amazon S3
 site: http://fsprojects.github.io/S3Provider/

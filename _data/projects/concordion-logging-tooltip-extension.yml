@@ -1,4 +1,3 @@
----
 name: Concordion Logging Tooltip Extension
 desc: An extension to Concordion that adds tooltips to the output to display logging
   information.

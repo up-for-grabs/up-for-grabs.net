@@ -1,4 +1,3 @@
----
 name: NuGet gallery
 desc: The NuGet Gallery. Powers the "NuGet.org" website, as well as other NuGet package
   galleries.

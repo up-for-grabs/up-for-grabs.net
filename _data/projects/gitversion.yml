@@ -1,4 +1,3 @@
----
 name: GitVersion
 desc: Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>) for projects
   using Git

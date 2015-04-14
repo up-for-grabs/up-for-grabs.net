@@ -1,4 +1,3 @@
----
 name: OpenRA
 desc: A modern Open Source cross-platform reimplementation of the Command & Conquer
   Red Alert engine written in C# using OpenGL.

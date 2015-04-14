@@ -1,4 +1,3 @@
----
 name: logary
 desc: |
   Logary is a high performance, multi-target logging, metric and health-check library for mono

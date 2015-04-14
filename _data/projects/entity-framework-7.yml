@@ -1,4 +1,3 @@
----
 name: Entity Framework 7
 desc: Microsoft's recommended data access technology for new applications in .NET.
 site: https://github.com/aspnet/EntityFramework

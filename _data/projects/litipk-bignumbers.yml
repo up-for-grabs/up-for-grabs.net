@@ -1,4 +1,3 @@
----
 name: Litipk\BigNumbers
 desc: An opensource library to handle immutable big numbers inside PHP applications
 site: https://github.com/Litipk/php-bignumbers

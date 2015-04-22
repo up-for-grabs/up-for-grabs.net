@@ -1,0 +1,13 @@
+name: Apache Lucene.Net
+desc: A port of the Lucene fulltext search engine library, written in C# and targeted at .NET runtime users.
+site: http://lucenenet.apache.org/
+tags:
+- .NET
+- C#
+- full-text
+- fulltext
+- lucene
+- search
+upforgrabs:
+- name: get involved
+- link: http://lucenenet.apache.org/community.html

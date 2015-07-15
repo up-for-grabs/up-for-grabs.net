@@ -5,6 +5,8 @@ tags:
 - ".NET"
 - Silverlight
 - Logging
+- mono
+- c#
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/NLog/NLog/labels/up-for-grabs

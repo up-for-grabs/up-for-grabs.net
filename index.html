@@ -121,7 +121,7 @@ layout: default
     <h5>Filter by tags: </h5>
     <select class="tags-filter" multiple data-placeholder="Select a tag..." >
     <% _.each(tags, function(entry, key){ %>
-      <option value="<%=key%>"><%= entry.name%>  (<%=entry.frequency%>)</option>
+      <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
     <% }) %>
     </select>
   </div>
@@ -130,21 +130,21 @@ layout: default
     <tbody>
     <tr>
        <td colspan="2" class="title">
-           <span class="proj"><a href="<%=project.site %>"><%=project.name %></a></span>
+           <span class="proj"><a href="<%-project.site %>"><%-project.name %></a></span>
        </td>
     </tr>
     <tr>
        <td class="details">
-        <p class="label"><a href="<%= project.upforgrabs.link %>" title="View open issues for <%=project.name %>"><%=project.upforgrabs.name %></a></p>
+        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>"><%-project.upforgrabs.name %></a></p>
        </td>
        <td class="details">
            <% if (project.desc) { %>
-           <span class="desc"><%=project.desc%></span>
+           <span class="desc"><%-project.desc%></span>
            <% } %>
            <% if (project.tags) { %>
            <p class="tags">
                <% _.each(project.tags, function(tag, i) { %>
-                   <a href="#/tags/<%=encodeURIComponent(tag)%>"><%=tag%></a><%= i != project.tags.length-1 ? "," : "" %>
+                   <a href="#/tags/<%-encodeURIComponent(tag)%>"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
                <% }) %>
            </p>
            <% } %>

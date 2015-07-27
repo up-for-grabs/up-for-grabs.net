@@ -1,0 +1,13 @@
+name: angular-formly
+desc: JavaScript powered forms for AngularJS
+site: http://angular-formly.com
+tags:
+- angular
+- forms
+- JavaScript
+- angularjs
+- angular-formly
+- formly
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/formly-js/angular-formly/labels/up-for-grabs

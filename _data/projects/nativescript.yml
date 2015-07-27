@@ -1,0 +1,10 @@
+name: NativeScript
+desc: Cross platform Native mobile apps with JavaScript
+site: https://nativescript.org
+tags:
+- JavaScript
+- mobile
+- native
+upforgrabs:
+  name: PRs plz!
+  link: https://github.com/nativescript/nativescript/labels/up-for-grabs

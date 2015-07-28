@@ -6,6 +6,12 @@
       <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
     <% }) %>
     </select>
+    <h5>Popular tags: </h5>
+    <ul class="popular-tags">
+    <% _.each(popularTags, function(entry, key){ %>
+      <li><a href="#/tags/<%-encodeURIComponent(entry.name)%>"><%-entry.name%></a> <%-entry.frequency%></li>
+    <% }) %>
+    </ul>
   </div>
   <table class="projects">
    <% _.each(projects, function(project){ %>

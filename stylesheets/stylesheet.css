@@ -504,6 +504,16 @@ Custom Styles
   width: 16px;
 }
 
+.popular-tags li {
+  display: inline-block;
+  font-size: 32px;
+  padding-left: 0;
+}
+.popular-tags li + li::before {
+  content: '–';
+  margin: 0 12px;
+}
+
 input, select, textarea, button {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }

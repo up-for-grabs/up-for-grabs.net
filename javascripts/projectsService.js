@@ -107,6 +107,10 @@
     this.getTags = function() {
       return tagsMap;
     };
+
+    this.getPopularTags = function (popularTagCount) {
+      return _.take(_.map(tagsMap, function (val) { return val; }), popularTagCount || 10);
+    }
   };
 
   host.ProjectsService = ProjectsService;

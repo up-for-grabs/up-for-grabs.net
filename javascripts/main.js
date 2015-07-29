@@ -8,7 +8,7 @@
     projectsPanel.html(compiledtemplateFn({
       "projects" : projectsSvc.get(tags),
       "tags" : projectsSvc.getTags(),
-      "popularTags" : projectsSvc.getPopularTags(4),
+      "popularTags" : projectsSvc.getPopularTags(6),
       "selectedTags": tags
     }));
 

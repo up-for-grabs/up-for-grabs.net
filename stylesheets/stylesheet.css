@@ -506,11 +506,11 @@ Custom Styles
 
 .popular-tags li {
   display: inline-block;
-  font-size: 32px;
+  font-size: 18px;
   padding-left: 0;
 }
 .popular-tags li + li::before {
-  content: '–';
+  content: ' ';
   margin: 0 12px;
 }
 

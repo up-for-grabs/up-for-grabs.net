@@ -109,7 +109,7 @@
     };
 
     this.getPopularTags = function (popularTagCount) {
-      return _.take(_.map(tagsMap, function (val) { return val; }), popularTagCount || 10);
+      return _.take(_.values(tagsMap), popularTagCount || 10);
     }
   };
 

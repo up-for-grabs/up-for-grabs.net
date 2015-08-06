@@ -509,9 +509,9 @@ Custom Styles
   font-size: 18px;
   padding-left: 0;
 }
-.popular-tags li + li::before {
+.popular-tags li::before {
   content: ' ';
-  margin: 0 12px;
+  margin-right: 12px;
 }
 
 input, select, textarea, button {

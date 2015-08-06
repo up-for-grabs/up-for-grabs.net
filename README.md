@@ -16,6 +16,7 @@ name: *your project here*
 desc: *some details about the project*
 site: *home page or repository URL*
 tags:
+# Note those are tags categorizing your project, not issue labels.
 - *tags*
 - *to*
 - *search*

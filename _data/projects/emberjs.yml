@@ -1,0 +1,12 @@
+name: EmberJS Guides
+desc: A JavaScript framework for creating **ambitious** web applications
+site: http://guides.emberjs.com
+tags:
+- JavaScript
+- Ember
+- EmberJS
+- Docs
+- Documentation
+upforgrabs:
+  name: help wanted
+  link: https://github.com/emberjs/guides/labels/help%20wanted

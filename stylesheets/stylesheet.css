@@ -409,7 +409,7 @@ Small Device Styles
   h6 {
     font-size: 12px;
   }
-  
+
   input, select {
 	font-size: 16px;
   }
@@ -419,7 +419,7 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
-  
+
   table.projects td {
     display: block;
   }

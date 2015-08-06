@@ -25,7 +25,7 @@
   var TagBuilder = function(){
     var _tagsMap = {},
         _orderedTagsMap = null;
-    
+
     this.addTag = function(tag, projectName){
       var tagLowerCase = tag.toLowerCase();
       if(!_.has(_tagsMap, tagLowerCase)) {
@@ -35,7 +35,7 @@
           "projects": []
         };
       }
-      var _entry = _tagsMap[tagLowerCase]; 
+      var _entry = _tagsMap[tagLowerCase];
       _entry.frequency++;
       _entry.projects.push(projectName);
     };

@@ -1,0 +1,15 @@
+name: Snowdrift.coop
+desc: Sustainable funding platform for free/libre/open works
+site: https://snowdrift.coop/
+tags:
+- oss
+- floss
+- web
+- yesod
+- haskell
+- javascript
+- html
+- css
+upforgrabs:
+  name: newbie-friendly
+  link: https://snowdrift.coop/p/snowdrift/t?_hasdata=&f1=newbie-friendly

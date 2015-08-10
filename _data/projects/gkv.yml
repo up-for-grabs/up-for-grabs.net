@@ -1,0 +1,12 @@
+name: Gkv
+desc: An open source, git-based key value store for small, simple projects
+site: https://github.com/ybur-yug/gkv
+tags:
+  - oss
+  - databases
+  - ruby
+  - db
+  - kv
+upforgrabs:
+  name: Gkv
+  link: https://github.com/ybur-yug/gkv

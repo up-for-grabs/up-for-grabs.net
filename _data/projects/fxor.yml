@@ -1,0 +1,12 @@
+name: fxor
+desc: A tool to encrypt/decrypt a file using XOR operation to do one-time pad.
+site: https://abderraouf-adjal.github.io/fxor
+tags:
+- C
+- Crypto
+- Files
+- Utils
+- Command-line
+upforgrabs:
+  name: fxor
+  link: https://github.com/abderraouf-adjal/fxor

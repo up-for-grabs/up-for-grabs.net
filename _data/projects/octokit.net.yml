@@ -6,5 +6,5 @@ tags:
 - API
 - Octokit
 upforgrabs:
-  name: easy fix
+  name: easy-fix
   link: https://github.com/octokit/octokit.net/labels/easy-fix

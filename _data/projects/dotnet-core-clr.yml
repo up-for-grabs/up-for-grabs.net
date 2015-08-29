@@ -6,5 +6,5 @@ site: https://github.com/dotnet/coreclr
 tags:
 - ".NET"
 upforgrabs:
-  name: up for grabs
+  name: up-for-grabs
   link: https://github.com/dotnet/coreclr/labels/up-for-grabs

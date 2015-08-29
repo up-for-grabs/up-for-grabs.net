@@ -1,6 +1,6 @@
 name: HangFire
 desc: Background job processing for ASP.NET
-site: https://github.com/odinserj/HangFire
+site: https://github.com/HangfireIO/Hangfire
 tags:
 - ".NET"
 - ASP.NET
@@ -10,4 +10,4 @@ tags:
 - Tasks
 upforgrabs:
   name: jump in
-  link: https://github.com/odinserj/HangFire/labels/jump%20in
+  link: https://github.com/HangfireIO/Hangfire/labels/jump%20in

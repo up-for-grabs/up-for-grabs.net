@@ -1,6 +1,6 @@
-name: FSharpVSPowerTools
-desc: F# Community Power Tools (for Visual Studio)
-site: https://github.com/fsprojects/FSharpVSPowerTools
+name: VisualFSharpPowerTools
+desc: Power commands for F# in Visual Studio
+site: https://github.com/fsprojects/VisualFSharpPowerTools
 tags:
 - ".NET"
 - F#
@@ -8,4 +8,4 @@ tags:
 - visual studio
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/fsprojects/FSharpVSPowerTools/labels/up-for-grabs
+  link: https://github.com/fsprojects/VisualFSharpPowerTools/labels/up-for-grabs

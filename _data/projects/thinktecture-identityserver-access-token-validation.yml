@@ -1,6 +1,6 @@
 name: Thinktecture IdentityServer Access Token Validation
 desc: OWIN Middleware to validate access tokens from IdentityServer v3
-site: https://github.com/thinktecture/Thinktecture.IdentityServer.v3.AccessTokenValidation
+site: https://github.com/IdentityServer/IdentityServer3.AccessTokenValidation
 tags:
 - ".NET"
 - Security
@@ -11,4 +11,4 @@ tags:
 - Katana
 upforgrabs:
   name: up for grabs
-  link: https://github.com/thinktecture/Thinktecture.IdentityServer.v3.AccessTokenValidation/labels/up%20for%20grabs
+  link: https://github.com/IdentityServer/IdentityServer3.AccessTokenValidation/labels/up%20for%20grabs

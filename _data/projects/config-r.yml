@@ -1,0 +1,13 @@
+name: ConfigR
+desc: Write your .NET configuration files in C#.
+site: https://github.com/config-r/config-r
+tags:
+- configuration
+- roslyn
+- csx
+- script
+- scriptcs
+- C#
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/config-r/config-r/labels/up-for-grabs

@@ -1,0 +1,10 @@
+name: Moment-Timezone
+desc: Time zone add-on for moment.js
+site: http://momentjs.com/timezone
+tags:
+- JavaScript
+- date
+- time
+upforgrabs:
+  name: Up-For-Grabs
+  link: https://github.com/moment/moment-timezone/labels/Up-For-Grabs

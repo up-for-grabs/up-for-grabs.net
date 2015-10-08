@@ -3,184 +3,25 @@ layout: default
 ---
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Up For Grabs : Jump in!" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="canonical" href="http://up-for-grabs.net/" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-    <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
-    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/chosen.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Up For Grabs</title>
-  </head>
-
+  {% include head.html %}
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/dahlbyk/up-for-grabs.net">View on GitHub</a>
-
-          <h1 id="project_title">Up For Grabs</h1>
-          <h2 id="project_tagline">explore open source projects and <a href="http://nikcodes.com/2013/05/10/new-contributor-jump-in">jump in!</a></h2>
-        </header>
-    </div>
+  {% include header.html %}
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
 
-         <h3>I want to get involved!</h3>
-
-         <p>
-          This is a list of projects which have curated tasks
-          specifically for new contributors. These are a great
-          way to get started with a project, or to help share
-          the load of working on open source projects.
-         </p>
-
-         <p>
-          Find a project you'd like to get involved with:
-
-         <ul>
-           <li>read the contributor guidelines for the project</li>
-           <li>get the project running locally</li>
-           <li>leave a message on a task you'd like to work on</li>
-           <li>get to work!</li>
-         </ul>
-         </p>
+        {% include before.html %}
 
          <h3>Projects</h3>
          <div id="projects-panel">
          </div>
 
-         <h3>I maintain a project and want to participate!</h3>
-
-         <p>
-           We're looking for projects who can take the time out to
-           help mentor developers as they get started with
-           open source.
-         </p>
-
-         <p>
-           What sort of tasks are a good fit?
-
-         <ul>
-           <li>Tasks should take no longer than a few nights' worth of work</li>
-           <li>Tasks should stand alone - avoid core functionality on which other tasks depend</li>
-           <li>Tasks should be well described with pointers to help the implementer</li>
-         </ul>
-         </p>
-
-         <p>
-           We suggest the tag <code>up-for-grabs</code>
-           but using a different name is also acceptable.
-         </p>
-
-         <p>
-           If this sounds like you, getting involved is simple:
-
-        <ol>
-          <li>Tag bugs and feature requests that would be a good place to start</li>
-          <li>Grab the URL to this list of tasks so that others can get to it easily</li>
-          <li><a href="https://github.com/login">Sign in to GitHub</a> and <a href="https://github.com/dahlbyk/up-for-grabs.net#add-your-project">check out the README.</a></li>
-        </ol>
-        </p>
+         {% include after.html %}
 
       </section>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Up For Grabs maintained by <a href="https://github.com/dahlbyk">dahlbyk</a>, <a href="https://github.com/shiftkey">shiftkey</a> &amp; <a href="https://github.com/jrusbatch">jrusbatch</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-<script type="text/html" id="projects-panel-template">
-  <div class="filters-panel cf">
-    <h5>Filter by tags: </h5>
-    <select class="tags-filter" multiple data-placeholder="Select a tag..." >
-    <% _.each(tags, function(entry, key){ %>
-      <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
-    <% }) %>
-    </select>
-  </div>
-  <table class="projects">
-   <% _.each(projects, function(project){ %>
-    <tbody>
-    <tr>
-       <td colspan="2" class="title">
-           <span class="proj"><a href="<%-project.site %>"><%-project.name %></a></span>
-       </td>
-    </tr>
-    <tr>
-       <td class="details">
-        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>"><%-project.upforgrabs.name %></a></p>
-       </td>
-       <td class="details">
-           <% if (project.desc) { %>
-           <span class="desc"><%-project.desc%></span>
-           <% } %>
-           <% if (project.tags) { %>
-           <p class="tags">
-               <% _.each(project.tags, function(tag, i) { %>
-                   <a href="#/tags/<%-encodeURIComponent(tag)%>"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
-               <% }) %>
-           </p>
-           <% } %>
-       </td>
-    </tr>
-    </tbody>
-   <% }) %>
-   </table>
-</script>
-<script type="text/javascript">
-  var files = {{ site.data.projects | jsonify }};
-  var projects = new Array();
-
-  for (var fileName in files) {
-    projects.push(files[fileName]);
-  }
-</script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.4/sammy.min.js"></script>
-<script src="javascripts/vendor/chosen.jquery.min.js"></script>
-<script src="javascripts/projectsService.js"></script>
-<script src="javascripts/main.js"></script>
-
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-45897756-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
+{% include footer.html %}
+{% include scripts.html %}
   </body>
 </html>

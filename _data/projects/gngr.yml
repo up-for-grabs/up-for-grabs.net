@@ -1,0 +1,10 @@
+name: gngr
+desc: a cross-platform browser that champions privacy
+site : https://github.com/UprootLabs/gngr
+tags:
+- java
+- browser
+- privacy
+upforgrabs:
+  name: need-code
+  link: https://github.com/UprootLabs/gngr/labels/need-code

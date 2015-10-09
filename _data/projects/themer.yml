@@ -1,0 +1,11 @@
+name: Themer
+desc: Themer is a colorscheme generator and manager for your desktop.
+site: https://github.com/S0lll0s/themer
+tags:
+- Python
+- Theme
+- Color
+- Colorscheme
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/S0lll0s/themer/labels/up-for-grabs

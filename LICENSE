@@ -1,6 +1,7 @@
 > Site theme and scripts are licensed under the MIT License (MIT)
 
 Copyright (c) 2015 Jason Costello
+Copyright (c) 2015 Up-For-Grabs Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,7 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 > User content (defined as under the _data folder of this repository) is
-licensed under Creative Commons Attribution-ShareAlike 4.0 International.
+licensed under the Creative Commons Attribution-ShareAlike 4.0 International
+(CC BY-SA 4.0) license.
 
 The license text can be found here:
 http://creativecommons.org/licenses/by-sa/4.0/legalcode

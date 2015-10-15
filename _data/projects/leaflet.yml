@@ -1,0 +1,10 @@
+name: Leaflet
+desc: JavaScript library for mobile-friendly interactive maps
+site: http://leafletjs.com
+tags:
+- Javascript
+- Maps
+- GIS
+upforgrabs:
+  name: easy-fix
+  link: https://github.com/Leaflet/Leaflet/labels/easy%20fix

@@ -5,7 +5,7 @@ tags:
 - ".NET"
 - C#
 - Ruby
-- log
+- logging
 upforgrabs:
   name: up_for_grabs
   link: https://github.com/wallymathieu/ElasticElmah/labels/up_for_grabs

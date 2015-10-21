@@ -1,5 +1,5 @@
 name: ElasticElmah
-desc: Logging log4net objects to elastic search from .net and log4r objects from ruby. The focus is on error logging, thus collecting as much information as possible when something is logged.
+desc: Logging log4net objects to ElasticSearch from .net and log4r objects from ruby. The focus is on error logging, thus collecting as much information as possible when something is logged.
 site: https://github.com/wallymathieu/ElasticElmah
 tags:
 - ".NET"

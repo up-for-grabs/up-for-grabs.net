@@ -1,0 +1,14 @@
+name: DevExpress-NuGet
+desc: NuGet specification files (nuspec) that can be used to generate NuGet packages for the .NET components developed by DevExpress and host in your own NuGet feed
+site: https://github.com/caioproiete/DevExpress-NuGet
+tags:
+- devexpress
+- nuget
+- nuspec
+- ".net"
+- c#
+- wpf
+- aspnetmvc
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/caioproiete/DevExpress-NuGet/labels/up-for-grabs

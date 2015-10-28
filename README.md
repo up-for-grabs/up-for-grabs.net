@@ -28,6 +28,17 @@ upforgrabs:
 
 Check out the [up-for-grabs](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml) file for an example of this project structure.
 
+## Use the Yeoman Generator
+
+If you'd like to use a generator to create your project's file, you can certainly do so!
+
+Install the generator, then run it and walk through the steps.
+
+```
+npm install -g generator-up-for-grabs
+yo up-for-grabs
+```
+
 ## Testing the site locally
 
 If you haven't already, clone the repository to your machine:

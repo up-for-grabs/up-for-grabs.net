@@ -223,53 +223,42 @@ footer {
   border-radius: 7px;
   border: 1px solid #eee;
   position: relative; }
-  #container:before, #container:after {
-    content: " ";
-    display: table; }
-  #container:after {
-    clear: both; }
-  #container .block {
-    border-top: 1px solid #efefef;
-    border-bottom: 1px solid #efefef;
-    padding: 30px 40px 24px; }
-    #container .block:first-child, #container .block + .block {
-      border-top: 0; }
-    #container .block:last-child {
-      border-bottom: 0; }
-    #container .block a.main {
-      display: inline-block;
-      vertical-align: baseline;
-      zoom: 1;
-      *display: inline;
-      *vertical-align: auto;
-      padding: 2px 2px;
-      margin-right: 12px;
-      margin-bottom: 6px; }
-      #container .block a.main:last-of-type {
-        margin-right: 0; }
-    #container .block .button {
-      display: inline-block;
-      vertical-align: baseline;
-      zoom: 1;
-      *display: inline;
-      *vertical-align: auto;
-      height: 20px;
-      overflow: hidden; }
-
-.content {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  position: relative;
-  width: 100%;
-  border-width: 0;
-  border-style: solid;
-  padding: 30px 60px;
-  margin: auto; }
+#container:before, #container:after {
+  content: " ";
+  display: table; }
+#container:after {
+  clear: both; }
+#container .block {
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding: 30px 40px 24px; }
+#container .block:first-child, #container .block + .block {
+  border-top: 0; }
+#container .block:last-child {
+  border-bottom: 0; }
+#container .block a.main {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  padding: 2px 2px;
+  margin-right: 12px;
+  margin-bottom: 6px; }
+#container .block a.main:last-of-type {
+  margin-right: 0; }
+#container .block .button {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  height: 20px;
+  overflow: hidden; }
 
 a, .as-link {
   text-decoration: none;
-  color: #4499cc;
+  color: #2E7BA9;
   line-height: 1.4em;
   display: inline-block;
   vertical-align: baseline;
@@ -282,7 +271,7 @@ a, .as-link {
   -o-transition: color 0.3s;
   transition: color 0.3s; }
   a.main, a:hover, .as-link.main, .as-link:hover {
-    color: #4499cc;
+    color: #2E7BA9;
     background-image: url(/images/line.png);
     background-repeat: repeat-x;
     background-position: left bottom; }
@@ -341,25 +330,6 @@ hr {
   border: 0;
   border-bottom: 1px dotted #CCC;
   margin: 25px 0; }
-
-ul.posts, ul.posts li {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-ul.posts li {
-  margin-bottom: 20px; }
-ul.posts .datetime {
-  display: inline-block;
-  vertical-align: baseline;
-  zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
-  width: 130px;
-  text-transform: uppercase;
-  float: right;
-  color: #999;
-  font-size: 10px;
-  text-align: right; }
 
 .highlight {
   margin: 0;
@@ -424,16 +394,95 @@ th {
   background: #373737;
   color: #fff;
  }
-
-td {
-  padding: 10px;
+ 
+ td {
+  padding: 10px 0;
   border: 1px solid #373737;
+ }
+ 
+ td:not(:last-child) {
+   padding-right: 10px;
  }
 
 form {
   background: #f2f2f2;
   padding: 20px;
 }
+
+/* https://css-tricks.com/snippets/css/ribbon/ */
+.ribbon {
+ font-size: 28px !important;
+ width: 50%;    
+ position: relative;
+ background: #2E7BA9;
+ color: #E4F0F8;
+ text-align: center;
+ padding: .5em 1em;
+ margin: 0 auto 0;
+}
+.ribbon-content {  
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+.ribbon a, .container-ribbon a {
+  color: #fff;
+}
+.ribbon:before, .ribbon:after, .container-ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #225B7D;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after, .container-ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after, 
+.container-ribbon .ribbon-content:before, .container-ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #163A50 transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before, .container-ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after, .container-ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+.container-ribbon {
+ font-size: 16px !important;
+ width: 30%;    
+ position: relative;
+ left: -258px;
+ background: #4499CC;
+ color: #fff;
+ text-align: left;
+ padding: 1em 2em;
+ margin: 0 auto 2em;
+}
+.container-ribbon:after {
+ border: 1.5em solid #2E7BA9;
+ border-right-color: transparent;
+}
+.container-ribbon .ribbon-content:before, .container-ribbon .ribbon-content:after {
+ border-color: #225B7D transparent transparent transparent;
+}
+
+.non-semantic-protector { position: relative; z-index: 1; }
   
 #downloads {
   position: absolute;
@@ -458,6 +507,10 @@ form {
   word-wrap: break-word;
 }
 
+.projects tbody {
+  padding-top: 12px;
+}
+
 .projects tbody:not(:last-child) {
   border-bottom: 1px solid #efefef;
 }
@@ -470,11 +523,11 @@ form {
   display: block;
   font-size: 20px;
   font-weight: bold;
-  white-space: nowrap;
+  word-break: break-all;
 }
 
 .projects .label {
-  background: #4499cc;
+  background: #2E7BA9;
   border-radius: 2px;
   color: #FFF;
   display: inline-block;
@@ -498,7 +551,7 @@ form {
   background: none white;
   border: 1px solid white;
   border-radius: 8px;
-  color: #4499cc;
+  color: #2E7BA9;
   display: inline-block;
   height: 16px;
   line-height: 16px;
@@ -532,7 +585,24 @@ form {
     border-left: none;
     border-radius: 0;
   }
+  #container .block {
+    padding: 20px; 
+  }
   table.projects td {
     display: block;
+    padding-right: 0;
+  }
+  .ribbon {
+    font-size: 16px !important;
+    padding: 1em 2em;
+  }
+  .container-ribbon {
+    left: -20px;
+    width: 60%;
+    margin: 0 0 2em;
+  }  
+  .container-ribbon .ribbon-content:before {
+    border: none;
+    display: none;
   }
 }

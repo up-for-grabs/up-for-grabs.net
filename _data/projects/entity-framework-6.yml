@@ -8,6 +8,7 @@ tags:
 - Data
 - O/RM
 - ADO.NET
+- EntityFramework
 upforgrabs:
   name: UpForGrabs
   link: http://entityframework.codeplex.com/workitem/list/basic?keywords=UpForGrabs

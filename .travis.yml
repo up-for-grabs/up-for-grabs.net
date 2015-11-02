@@ -8,7 +8,7 @@ install:
   - bundle install
 
 script:
-  - bundle exec jekyll build --trace
+  - bundle exec jekyll build
   - ruby scripts/cibuild.rb
 
 branches:

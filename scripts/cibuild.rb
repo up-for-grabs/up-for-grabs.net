@@ -21,10 +21,44 @@ def verify_file (f)
   begin
     contents = File.read(f)
     yaml = YAML.load(contents, :safe => true)
-    name = yaml[:name]
 
-    # TODO: check for other values
-    # TODO:
+    if yaml["name"].nil? then
+      error = "Required 'name' attribute is not defined"
+      return [f, error]
+    end
+
+    # TODO: validate URL
+    if yaml["site"].nil? then
+      error = "Required 'site' attribute is not defined"
+      return [f, error]
+    end
+
+    if yaml["desc"].nil? then
+      error = "Required 'desc' attribute is not defined"
+      return [f, error]
+    end
+
+    tags = yaml["tags"]
+    if tags.nil? || tags.empty? then
+      error = "No tags defined for file"
+      return [f, error]
+    end
+
+    if yaml["upforgrabs"].nil? then
+      error = "Required 'upforgrabs' attribute is not defined"
+      return [f, error]
+    end
+
+    if yaml["upforgrabs"]["name"].nil? then
+      error = "Required 'upforgrabs.name' attribute is not defined"
+      return [f, error]
+    end
+
+    if yaml["upforgrabs"]["link"].nil? then
+      error = "Required 'upforgrabs.link' attribute is not defined"
+      return [f, error]
+    end
+
   rescue Psych::SyntaxError
     error = "Unable to parse the contents of file"
     return [f, error]

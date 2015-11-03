@@ -14,6 +14,7 @@ def check_folder
   if (other_files > 0) then
     puts "#{other_files} files in directory which are not YAML files:"
     all_files.each { |f| puts " - " + f }
+    exit -1
   end
 end
 

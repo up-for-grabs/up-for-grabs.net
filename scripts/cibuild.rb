@@ -45,6 +45,14 @@ def verify_file (f)
       return [f, error]
     end
 
+    dups = tags.group_by{ |e| e }.keep_if{|_, e| e.length > 1 }
+
+    if dups.any? then
+      tags = dups.keys.join ", "
+      error = "Duplicate tags found: " + tags
+      return [f, error]
+    end
+
     if yaml["upforgrabs"].nil? then
       error = "Required 'upforgrabs' attribute is not defined"
       return [f, error]

@@ -1,0 +1,113 @@
+require 'safe_yaml'
+
+def check_folder
+  # i'm lazy
+  root = File.expand_path("..", __dir__)
+
+  all_files =  Dir[root + "/_data/projects/*"]
+  yaml_files =  Dir[root + "/_data/projects/*.yml"]
+
+  # i'm lazy, there's gotta be an easier way to do this!
+  yaml_files.each { |f| all_files.delete f }
+  other_files = all_files.count
+
+  if (other_files > 0) then
+    puts "#{other_files} files in directory which are not YAML files:"
+    all_files.each { |f| puts " - " + f }
+    exit -1
+  end
+end
+
+def verify_file (f)
+  begin
+    contents = File.read(f)
+
+    dotNetInQuote = contents.index("- .NET")
+
+    if dotNetInQuote then
+      error = "Please specify the .NET label in quotes"
+      return [f, error]
+    end
+
+    yaml = YAML.load(contents, :safe => true)
+
+    if yaml["name"].nil? then
+      error = "Required 'name' attribute is not defined"
+      return [f, error]
+    end
+
+    # TODO: validate URL
+    if yaml["site"].nil? then
+      error = "Required 'site' attribute is not defined"
+      return [f, error]
+    end
+
+    if yaml["desc"].nil? then
+      error = "Required 'desc' attribute is not defined"
+      return [f, error]
+    end
+
+    tags = yaml["tags"]
+    if tags.nil? || tags.empty? then
+      error = "No tags defined for file"
+      return [f, error]
+    end
+
+    dups = tags.group_by{ |e| e }.keep_if{|_, e| e.length > 1 }
+
+    if dups.any? then
+      tags = dups.keys.join ", "
+      error = "Duplicate tags found: " + tags
+      return [f, error]
+    end
+
+    if dups.any? then
+      tags = dups.keys.join ", "
+      error = "Duplicate tags found: " + tags
+      return [f, error]
+    end
+
+    if yaml["upforgrabs"].nil? then
+      error = "Required 'upforgrabs' attribute is not defined"
+      return [f, error]
+    end
+
+    if yaml["upforgrabs"]["name"].nil? then
+      error = "Required 'upforgrabs.name' attribute is not defined"
+      return [f, error]
+    end
+
+    if yaml["upforgrabs"]["link"].nil? then
+      error = "Required 'upforgrabs.link' attribute is not defined"
+      return [f, error]
+    end
+
+  rescue Psych::SyntaxError
+    error = "Unable to parse the contents of file"
+    return [f, error]
+  rescue
+    error = "Unknown exception for file: " + $!
+    return [f, error]
+  end
+
+  return [f, nil]
+end
+
+root = File.expand_path("..", __dir__)
+
+check_folder
+
+results = Dir[root + "/_data/projects/*.yml"].map { |f| verify_file(f) }
+
+files_with_errors = results.select { |file, error| error != nil }
+error_count = files_with_errors.count
+
+success = results.select { |file, error| error.nil? }.count
+
+if (error_count > 0) then
+  puts "#{success} files processed - #{error_count} errors found:"
+  files_with_errors.each { |path, error| puts path + " - " + error }
+  exit -1
+else
+  puts "#{success} files processed - no errors found!"
+end

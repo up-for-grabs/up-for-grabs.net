@@ -5,4 +5,5 @@ exclude:
   - Gemfile*
   - tests
   - README.md
-  
+  - scripts
+  - .travis.yml

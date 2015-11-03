@@ -21,6 +21,14 @@ end
 def verify_file (f)
   begin
     contents = File.read(f)
+
+    dotNetInQuote = contents.index("- .NET")
+
+    if dotNetInQuote then
+      error = "Please specify the .NET label in quotes"
+      return [f, error]
+    end
+
     yaml = YAML.load(contents, :safe => true)
 
     if yaml["name"].nil? then
@@ -46,6 +54,12 @@ def verify_file (f)
     end
 
     dups = tags.group_by{ |e| e }.keep_if{|_, e| e.length > 1 }
+
+    if dups.any? then
+      tags = dups.keys.join ", "
+      error = "Duplicate tags found: " + tags
+      return [f, error]
+    end
 
     if dups.any? then
       tags = dups.keys.join ", "

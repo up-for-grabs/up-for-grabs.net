@@ -1,0 +1,14 @@
+name: MvvmCross
+desc: MvvmCross is the .NET MVVM framework for cross-platform solutions, including Xamarin.iOS, Xamarin.Android, Windows and Mac. http://mvvmcross.com
+site: https://github.com/MvvmCross/MvvmCross
+tags:
+- ".NET"
+- "C#"
+- "MvvmCross"
+- "Mvvm"
+- "Xamarin"
+- "Android"
+- "iOS"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/MvvmCross/MvvmCross/labels/up-for-grabs

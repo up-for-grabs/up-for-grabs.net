@@ -9,7 +9,7 @@
     <h5>Popular tags: </h5>
     <ul class="popular-tags">
     <% _.each(popularTags, function(entry, key){ %>
-      <li><a href="#/tags/<%-encodeURIComponent(entry.name)%>"><%-entry.name%></a> <%-entry.frequency%></li>
+      <li><a href="#/tags/<%-encodeURIComponent(entry.name)%>"><%-entry.name%></a> (<%-entry.frequency%>)</li>
     <% }) %>
     </ul>
   </div>

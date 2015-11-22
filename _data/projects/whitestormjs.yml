@@ -1,0 +1,13 @@
+name: WhitestormJS
+desc: 3D Javascript engine based on three.js and cannon.js
+site: https://github.com/sasha240100/WhitestormJS
+tags:
+- webgl
+- threejs
+- cannonjs
+- javascript
+- 3d
+- wagnerjs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/sasha240100/WhitestormJS/labels/up-for-grabs

@@ -2,12 +2,12 @@ name: glportal
 desc: A free and open game and game engine with portals.
 site: https://github.com/GlPortal/glPortal
 tags:
-- C++
-- Python
-- JavaScript
+- c++
+- python
+- javascript
 - Game
-- Engine
-- 3D
+- engine
+- 3d
 upforgrabs:
   name: up-for-grabs
   link: https://bugs.glportal.de/

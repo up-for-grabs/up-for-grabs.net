@@ -9,5 +9,5 @@ tags:
 - engine
 - 3d
 upforgrabs:
-  name: up-for-grabs
-  link: https://bugs.glportal.de/
+  name: Simple Task
+  link: https://bugs.glportal.de/index.php?string=&project=1&type%5B%5D=5

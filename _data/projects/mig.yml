@@ -1,0 +1,10 @@
+name: Mozilla InvestiGator (MIG)
+desc: Mozilla's real-time digital forensics and investigation platform
+site: http://mig.mozilla.org
+tags:
+- Go
+- Security
+- Mozilla
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/mozilla/mig/labels/up-for-grabs

@@ -1,0 +1,10 @@
+name: Chocolatey CLI
+desc: "Chocolatey - like yum or apt-get, but for Windows"
+site: https://github.com/chocolatey/choco
+tags:
+- Chocolatey
+- C#
+- ".NET"
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/chocolatey/choco/labels/Up%20for%20grabs

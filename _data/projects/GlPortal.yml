@@ -1,0 +1,13 @@
+name: glportal
+desc: A free and open game and game engine with portals.
+site: https://github.com/GlPortal/glPortal
+tags:
+- c++
+- python
+- javascript
+- Game
+- engine
+- 3d
+upforgrabs:
+  name: Simple Task
+  link: https://bugs.glportal.de/index.php?project=1&type%5B%5D=5

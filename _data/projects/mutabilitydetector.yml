@@ -1,6 +1,6 @@
 name: Mutability Detector
 desc: Lightweight analysis tool for detecting mutability in Java classes
-site: mutabilitydetector.org
+site: http://mutabilitydetector.org
 tags:
 - java
 - immutability

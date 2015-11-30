@@ -2,7 +2,7 @@ name: Rebus
 desc: (Yet another) .NET durable messaging library, or "service bus" if you like
 site: https://github.com/rebus-org/Rebus
 tags:
-- "C#""
+- "C#"
 - ".NET"
 - "MSMQ"
 - "RabbitMQ"

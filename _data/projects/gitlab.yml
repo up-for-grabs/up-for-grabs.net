@@ -1,0 +1,10 @@
+name: GitLab 
+desc: Code, test, and deploy together
+site: https://about.gitlab.com
+tags:
+- oss
+- git
+- issues
+upforgrabs:
+  name: up-for-grabs
+  link: https://gitlab.com/gitlab-org/gitlab-ce/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=up-for-grabs

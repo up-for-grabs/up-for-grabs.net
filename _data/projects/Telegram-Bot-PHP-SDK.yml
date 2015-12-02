@@ -1,0 +1,10 @@
+name: Telegram Bot SDK
+desc: The (Unofficial) Telegram Bot API PHP SDK. Lets you develop Telegram Bots easily! Supports Laravel out of the box.
+site: https://github.com/irazasyed/telegram-bot-sdk
+tags:
+- web
+- php
+- sdk
+upforgrabs:
+  name: Up-For-Grabs
+  link: https://github.com/irazasyed/telegram-bot-sdk/labels/Up-For-Grabs

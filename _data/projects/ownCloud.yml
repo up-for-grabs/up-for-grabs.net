@@ -1,0 +1,19 @@
+name: ownCloud
+desc: A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any device, on your terms.
+site: https://owncloud.org
+tags:
+- javascript
+- web
+- php
+- design
+- html
+- css
+- database
+- privacy
+- android
+- ios
+- c++
+- qt
+upforgrabs:
+  name: junior-job
+  link: https://github.com/owncloud/core/labels/junior%20job

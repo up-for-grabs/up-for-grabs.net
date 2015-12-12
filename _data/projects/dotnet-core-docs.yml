@@ -3,6 +3,7 @@ desc: Documentation for .NET Core
 site: http://github.com/dotnet/core-docs
 tags:
 - ".NET"
+- "documentation"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/dotnet/core-docs/labels/up-for-grabs

@@ -4,6 +4,7 @@ desc: A modern Open Source cross-platform reimplementation of the Command & Conq
 site: http://www.openra.net
 tags:
 - ".NET"
+- Mono
 - C#
 - Lua
 - SDL
@@ -11,6 +12,7 @@ tags:
 - strategy
 - games
 - rts
+- A-Star
 upforgrabs:
   name: easy
   link: https://github.com/OpenRA/OpenRA/labels/Easy

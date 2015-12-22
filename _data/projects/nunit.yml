@@ -1,0 +1,12 @@
+name: NUnit
+desc: NUnit is the most popular and widely used unit test framework for .NET
+site: https://github.com/nunit/nunit
+tags:
+- ".NET"
+- C#
+- Testing
+- TDD
+
+upforgrabs:
+  name: easyfix
+  link: https://github.com/nunit/nunit/labels/easyfix

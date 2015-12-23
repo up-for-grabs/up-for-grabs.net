@@ -1,0 +1,13 @@
+name: NServiceBus
+desc: The most popular open-source service bus for .net
+site: http://particular.net/NServiceBus
+tags:
+- nservicebus
+- servicebus
+- msmq
+- cqrs
+- publish
+- subscribe
+upforgrabs:
+  name: "Tag: Up For Grabs"
+  link: https://github.com/Particular/NServiceBus/labels/Tag%3A%20Up%20For%20Grabs

@@ -1,6 +1,7 @@
 name: .NET Compiler Platform ("Roslyn")
-desc: The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic
-  compilers with rich code analysis APIs.
+desc: >
+  The .NET Compiler Platform ("Roslyn") provides open-source C# and
+  Visual Basic compilers with rich code analysis APIs.
 site: https://github.com/dotnet/roslyn
 tags:
 - roslyn

@@ -1,5 +1,6 @@
 name: ".NET Core Framework"
-desc: Contains the .NET Core foundational libraries, called CoreFX. It includes classes
+desc: >
+  Contains the .NET Core foundational libraries, called CoreFX. It includes classes
   for collections, file systems, console, XML, async and many others.
 site: https://github.com/dotnet/corefx/
 tags:

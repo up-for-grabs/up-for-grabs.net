@@ -537,6 +537,10 @@ form {
   padding: 2px 8px;
 }
 
+.projects .desc p {
+  margin: 0;
+}
+
 .projects .tags {
   font-size: 12px;
   font-style: italic;

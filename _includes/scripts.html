@@ -27,7 +27,7 @@
        </td>
        <td class="details">
            <% if (project.desc) { %>
-           <span class="desc"><%-project.desc%></span>
+           <span class="desc"><%=marked(project.desc)%></span>
            <% } %>
            <% if (project.tags) { %>
            <p class="tags">
@@ -52,6 +52,7 @@
 </script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.4/sammy.min.js"></script>
 <script src="javascripts/vendor/chosen.jquery.min.js"></script>
 <script src="javascripts/projectsService.js"></script>

@@ -1,0 +1,10 @@
+name: hapi
+desc: A rich framework for building applications and services
+site: http://hapijs.com/
+tags:
+- JavaScript
+- node.js
+- API
+upforgrabs:
+  name: Help Wanted
+  link: http://hapijs.com/contribute

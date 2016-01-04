@@ -5,6 +5,8 @@ tags:
 - JavaScript
 - database
 - distributed
+- extensions
+- modules
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/gundb/gun-extensions/labels/up-for-grabs

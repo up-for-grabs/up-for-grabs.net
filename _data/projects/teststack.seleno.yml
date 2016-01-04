@@ -1,7 +1,8 @@
 name: TestStack.Seleno
-desc: Seleno helps you write automated UI tests in the right way by implementing Page
-  Objects and Page Components and by reading from and writing to web pages using strongly
-  typed view models.
+desc: >
+  Seleno helps you write automated UI tests in the right way by
+  implementing Page Objects and Page Components and by reading from
+  and writing to web pages using strongly typed view models.
 site: https://github.com/TestStack/TestStack.Seleno
 tags:
 - ".NET"

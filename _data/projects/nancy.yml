@@ -1,6 +1,7 @@
 name: Nancy
-desc: Lightweight, low-ceremony, framework for building HTTP based services on .Net
-  and Mono
+desc: >
+  Lightweight, low-ceremony, framework for building HTTP based services
+  on .Net and Mono
 site: https://github.com/NancyFx/Nancy
 tags:
 - ".net"

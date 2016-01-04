@@ -1,5 +1,6 @@
 name: Haywire
-desc: Haywire is an asynchronous HTTP server framework written in C that's built using
+desc: >
+  Haywire is an asynchronous HTTP server framework written in C that's built using
   the event loop based libuv platform layer that node.js is built on top of.
 site: https://github.com/kellabyte/Haywire
 tags:

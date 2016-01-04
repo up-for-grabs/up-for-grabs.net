@@ -1,5 +1,6 @@
 name: Glimpse
-desc: Glimpse is a web debugging and diagnostics tool used to gain a better understanding
+desc: >
+  Glimpse is a web debugging and diagnostics tool used to gain a better understanding
   of whats happening inside of your ASP.NET application.
 site: https://github.com/Glimpse/Glimpse
 tags:

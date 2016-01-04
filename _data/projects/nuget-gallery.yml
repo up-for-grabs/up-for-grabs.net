@@ -1,6 +1,7 @@
 name: NuGet gallery
-desc: The NuGet Gallery. Powers the "NuGet.org" website, as well as other NuGet package
-  galleries.
+desc: >
+  The NuGet Gallery. Powers the "NuGet.org" website, as well as
+  other NuGet package galleries.
 site: https://github.com/NuGet/NuGetGallery
 tags:
 - nuget

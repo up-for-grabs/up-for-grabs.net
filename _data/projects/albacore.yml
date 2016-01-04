@@ -1,6 +1,7 @@
 name: albacore
-desc: Albacore is a professional quality suite of Rake tasks for building .NET or
-  Mono based systems.
+desc: >
+  Albacore is a professional quality suite of Rake tasks for
+  building .NET or Mono based systems.
 site: http://albacorebuild.net/
 tags:
 - F#

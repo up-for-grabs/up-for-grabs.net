@@ -1,6 +1,7 @@
 name: FSharp.Configuration
-desc: The FSharp.Configuration project contains type providers for the configuration
-  of .NET projects.
+desc: >
+  The FSharp.Configuration project contains type providers for the
+  configuration of .NET projects.
 site: https://github.com/fsprojects/FSharp.Configuration
 tags:
 - ".NET"

@@ -1,6 +1,7 @@
 name: GitVersion
-desc: Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>) for projects
-  using Git
+desc: >
+  Easy Semantic Versioning (<a href="http://semver.org">SemVer.org</a>)
+  for projects using Git
 site: https://github.com/GitTools/GitVersion
 tags:
 - Git

@@ -1,0 +1,22 @@
+ 
+name: AlaSQL
+desc: Javascript database for traditional SQL queries. Smaller and faster alternative to sql.js   
+site: https://github.com/agershun/alasql
+tags:
+- Meteor
+- Good vibes 
+- JISON
+- SQL
+- javascript
+- parser
+- database
+- browser
+- node
+- web
+- ETL
+- localStorage
+- IndexedDB
+- DOM-storage
+upforgrabs:
+  name: Up-for-grabs
+  link: https://github.com/agershun/alasql/labels/Up-for-grabs

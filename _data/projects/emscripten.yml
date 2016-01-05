@@ -1,0 +1,13 @@
+name: Emscripten
+desc: A compiler from C and C++ to JavaScript/asm.js
+site: http://emscripten.org
+tags:
+- oss
+- compiler
+- JavaScript
+- HTML5
+- C++
+- emscripten
+upforgrabs:
+  name: good first bug
+  link: https://github.com/kripken/emscripten/labels/good%20first%20bug

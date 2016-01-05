@@ -6,5 +6,5 @@ tags:
 - node.js
 - API
 upforgrabs:
-  name: Help Wanted
-  link: http://hapijs.com/contribute
+  name: New Contributor
+  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Ahapijs+label%3A%22new+contributor%22+

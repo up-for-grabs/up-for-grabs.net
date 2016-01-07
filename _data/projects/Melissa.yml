@@ -1,0 +1,12 @@
+name: Melissa
+desc: A lovely virtual assistant for OS X and Linux systems.
+site: https://github.com/Melissa-AI
+tags:
+- Python
+- Artificial Intelligence
+- Machine Learning
+- Virtual Assistant
+- Automation
+upforgrabs:
+  name: up_for_grabs
+  link: https://github.com/Melissa-AI/Melissa-Core/labels/up_for_grabs

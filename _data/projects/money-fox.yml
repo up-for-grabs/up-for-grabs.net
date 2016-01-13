@@ -1,0 +1,13 @@
+name: Money Manager*
+desc: A way to make budgeting easy. A basic idea for the community, made even better by the community.
+site: https://github.com/Apply-Solutions/MoneyManager
+tags:
+- ".net"
+- Xamarin
+- C#
+- mono
+- Android
+- UWP
+upforgrabs:
+  name: easy
+  link: https://github.com/Apply-Solutions/MoneyManager/labels/up-for-grabs

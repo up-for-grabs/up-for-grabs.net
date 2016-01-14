@@ -10,5 +10,5 @@ tags:
 - chakra
 - chakracore
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/Microsoft/ChakraCore/labels/up-for-grabs
+  name: Accepting PRs
+  link: https://github.com/Microsoft/ChakraCore/labels/Accepting%20PRs

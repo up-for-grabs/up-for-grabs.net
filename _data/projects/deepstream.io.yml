@@ -2,7 +2,6 @@ name: deepstream.io
 desc: A Scalable Server for Realtime Web Apps
 site: http://deepstream.io/
 tags:
-# Note those are tags categorizing your project, not issue labels.
 # ##############################################
 # Sorry for the large amount of tags. It's not Spam, we're genuinely looking for help writing clients in the languages below
 # ##############################################
@@ -13,15 +12,15 @@ tags:
 - Java
 - Android
 - C
-- C++
-- .NET
-- C#
+- "C++"
+- ".NET"
+- "C#"
 - Ruby
 - Python
 - Rust
 - Go
 - Erlang
-- React Native
+- "React Native"
 - Swift
 - iOS
 

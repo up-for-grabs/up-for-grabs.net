@@ -1,0 +1,8 @@
+name: Parameter Framework
+desc: Plugin-based and rule-based framework for describing and controlling parameters
+site: https://01.org/parameter-framework/
+tags:
+- C++
+upforgrabs:
+  name: trivial
+  link: https://github.com/01org/parameter-framework/issues/labels/trivial

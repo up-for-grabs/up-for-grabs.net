@@ -1,6 +1,7 @@
 name: ArcGIS.PCL
-desc: Use ArcGIS Server REST resources without an official SDK. You can also convert
-  between ArcGIS Features and GeoJSON.
+desc: >
+  Use ArcGIS Server REST resources without an official SDK.
+  You can also convert between ArcGIS Features and GeoJSON.
 site: https://github.com/davetimmins/ArcGIS.PCL
 tags:
 - ".NET"

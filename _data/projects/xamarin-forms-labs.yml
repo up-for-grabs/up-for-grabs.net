@@ -1,6 +1,8 @@
 name: Xamarin Forms Labs
-desc: Xamarin Forms Labs is a open source project that aims to provide a powerfull
-  and cross platform set of controls and helpers tailored to work with Xamarin Forms
+desc: >
+  Xamarin Forms Labs is a open source project that aims to provide a
+  powerfull and cross platform set of controls and helpers tailored
+  to work with Xamarin Forms
 site: https://github.com/XLabs/Xamarin-Forms-Labs
 tags:
 - ".NET"

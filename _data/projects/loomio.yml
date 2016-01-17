@@ -1,0 +1,15 @@
+name: loomio
+desc: |
+  Loomio is a collaborative decision-making tool that makes it easy for anyone to participate in decisions which affect them.
+  If you'd like to find out more, check out Loomio.org.
+site: https://github.com/loomio/loomio
+tags:
+- Ruby
+- Rails
+- Angular
+- Javascript
+- Civic Tech
+- Decision making
+upforgrabs:
+  name: easy win
+  link: https://github.com/loomio/loomio/labels/easy%20win

@@ -82,8 +82,8 @@ def verify_file (f)
       return [f, error]
     end
 
-  rescue Psych::SyntaxError
-    error = "Unable to parse the contents of file"
+  rescue Psych::SyntaxError => e
+    error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
     return [f, error]
   rescue
     error = "Unknown exception for file: " + $!

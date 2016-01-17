@@ -1,6 +1,7 @@
 name: FAKE
-desc: FAKE - F# Make - is a build automation tool for .NET. Tasks and dependencies
-  are specified in a DSL which is integrated in F#.
+desc: >
+  FAKE - F# Make - is a build automation tool for .NET. Tasks and
+  dependencies are specified in a DSL which is integrated in F#.
 site: https://github.com/fsharp/fake
 tags:
 - ".NET"

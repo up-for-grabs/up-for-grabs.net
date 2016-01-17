@@ -1,6 +1,7 @@
 name: Concordion Logging Tooltip Extension
-desc: An extension to Concordion that adds tooltips to the output to display logging
-  information.
+desc: >
+  An extension to Concordion that adds tooltips to the output to
+  display logging information.
 site: https://github.com/concordion/concordion-logging-tooltip-extension
 tags:
 - Java

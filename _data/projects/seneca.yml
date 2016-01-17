@@ -1,0 +1,11 @@
+name: seneca
+desc: A microservices toolkit for Node.js
+site: http://senecajs.org/
+tags:
+- JavaScript
+- node.js
+- API
+- microservices
+upforgrabs:
+  name: New Contributor
+  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Asenecajs+label%3A%22new+contributor%22+

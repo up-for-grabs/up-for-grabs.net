@@ -1,0 +1,10 @@
+name: hapi
+desc: A rich framework for building applications and services
+site: http://hapijs.com/
+tags:
+- JavaScript
+- node.js
+- API
+upforgrabs:
+  name: New Contributor
+  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Ahapijs+label%3A%22new+contributor%22+

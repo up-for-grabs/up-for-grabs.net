@@ -9,6 +9,7 @@ tags:
 - ecmascript
 - chakra
 - chakracore
+- compiler
 upforgrabs:
   name: Accepting PRs
   link: https://github.com/Microsoft/ChakraCore/labels/Accepting%20PRs

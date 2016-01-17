@@ -1,0 +1,13 @@
+name: Freya
+desc: Functional Web Programming for F#
+site: https://github.com/freya-fs/freya
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- F#
+- ".NET"
+- web
+- http
+- freya
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/freya-fs/freya/labels/up-for-grabs

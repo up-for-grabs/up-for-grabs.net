@@ -1,0 +1,12 @@
+name: Umbrella JS
+desc: A tiny javascript library to make your life easier. A jquery alternative; not a clone
+site: https://github.com/umbrellajs/umbrella
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- javascript
+- js
+- jquery
+- ajax
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/umbrellajs/umbrella/labels/up-for-grabs

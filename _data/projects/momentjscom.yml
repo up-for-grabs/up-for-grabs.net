@@ -1,0 +1,12 @@
+name: momentjs.com
+desc: Web site and documentation content for moment.js
+site: http://momentjs.com
+tags:
+- JavaScript
+- date
+- time
+- web
+- documentation
+upforgrabs:
+  name: Up-For-Grabs
+  link: https://github.com/moment/momentjs.com/labels/Up-For-Grabs

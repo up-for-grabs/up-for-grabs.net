@@ -1,0 +1,12 @@
+name: Open Source Event Manager
+desc: Event Management App Tailored to Free Software Conferences 
+site: http://osem.io/ 
+tags:
+- ruby
+- rails
+- html 
+- css
+- javascript
+upforgrabs:
+  name: Junior
+  link: https://github.com/openSUSE/osem/labels/Junior

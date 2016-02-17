@@ -1,0 +1,10 @@
+name: Grails
+desc: Grails Web Framework
+site: http://grails.org/
+tags:
+- Grails
+- Groovy
+- Web
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/grails/grails-core/labels/up-for-grabs

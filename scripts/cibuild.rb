@@ -1,4 +1,5 @@
 require 'safe_yaml'
+require 'uri'
 
 def check_folder
   # i'm lazy
@@ -15,6 +16,15 @@ def check_folder
     puts "#{other_files} files in directory which are not YAML files:"
     all_files.each { |f| puts " - " + f }
     exit -1
+  end
+end
+
+def valid_url? (url)
+   begin
+    uri = URI.parse(url)
+    uri.kind_of?(URI::HTTP) || uri.kind_of?(URI::HTTPS)
+  rescue URI::InvalidURIError
+    false
   end
 end
 
@@ -36,9 +46,13 @@ def verify_file (f)
       return [f, error]
     end
 
-    # TODO: validate URL
     if yaml["site"].nil? then
       error = "Required 'site' attribute is not defined"
+      return [f, error]
+    end
+
+    if !valid_url?(yaml["site"]) then
+      error = "Required 'site' attribute to be a valid url"
       return [f, error]
     end
 
@@ -79,6 +93,11 @@ def verify_file (f)
 
     if yaml["upforgrabs"]["link"].nil? then
       error = "Required 'upforgrabs.link' attribute is not defined"
+      return [f, error]
+    end
+
+    if !valid_url?(yaml["upforgrabs"]["link"]) then
+      error = "Required 'upforgrabs.link' attribute to be a valid url"
       return [f, error]
     end
 

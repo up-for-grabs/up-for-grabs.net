@@ -16,5 +16,5 @@ tags:
  - RSS
  -OPML
 upforgrabs:
-  name: "help wanted" 
+  name: helpwanted
   link: https://github.com/ignatandrei/Exporter/labels/help%20wanted

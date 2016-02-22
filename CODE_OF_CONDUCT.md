@@ -1,9 +1,11 @@
 # Up-For-Grabs Code of Conduct
 
-This code of conduct covers how contributors to the Up-For-Grabs project
-should interact with each other. Projects listed on Up-For-Grabs are not
-covered by this code of conduct, and you should refer to the documentation
-for a project to identify the governance rules it outlines.
+This document outlines how contributors to the Up-For-Grabs project
+should interact with each other, and the process for resolving issues.
+
+Projects listed on Up-For-Grabs are not covered by this code of conduct, and
+you should refer to the governance rules if you have enquiries about an issue
+with a specific project.
 
 ## Our Pledge
 

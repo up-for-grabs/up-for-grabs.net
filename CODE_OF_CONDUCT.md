@@ -7,6 +7,8 @@ Projects listed on Up-For-Grabs are not covered by this code of conduct, and
 you should refer to the governance rules if you have enquiries about an issue
 with a specific project.
 
+WORDS
+
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as

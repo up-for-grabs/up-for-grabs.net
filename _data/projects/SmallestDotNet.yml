@@ -7,5 +7,5 @@ tags:
 - csharp
 - oss
 upforgrabs:
-  name: Accepting PRs
-  link: https://github.com/shanselman/smallestdotnet/labels/firsttimersonly
+  name: First Timers Only
+  link: https://github.com/shanselman/smallestdotnet/labels/first-timers-only

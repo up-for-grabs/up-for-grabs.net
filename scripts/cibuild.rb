@@ -34,9 +34,16 @@ def verify_file (f)
 
     dotNetInQuote = contents.index("- .NET")
 
+    multiLineEntry = contents =~ /^\s?(?=.*\n)+\n?[^.!?]*[.!?]/
+
     if dotNetInQuote then
       error = "Please specify the .NET label in quotes"
-      return [f, error]
+        return [f, error]
+    end
+
+    if dotNetInQuote then
+      error = "Please check for multi line entries"
+        return [f, error]
     end
 
     yaml = YAML.load(contents, :safe => true)

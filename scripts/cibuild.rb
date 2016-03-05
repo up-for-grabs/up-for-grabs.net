@@ -34,7 +34,7 @@ def verify_file (f)
 
     dotNetInQuote = contents.index("- .NET")
 
-    multiLineEntry = contents =~ /^\s?(?=.*\n)+\n?[^.!?]*[.!?]/
+    multiLineEntry = contents =~ /(^\s?.*\n+$)/
 
     if dotNetInQuote then
       error = "Please specify the .NET label in quotes"

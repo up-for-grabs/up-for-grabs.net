@@ -41,7 +41,7 @@ def verify_file (f)
         return [f, error]
     end
 
-    if dotNetInQuote then
+    if multiLineEntry then
       error = "Please check for multi line entries"
         return [f, error]
     end

@@ -1,13 +1,10 @@
-name: Money Manager
+name: Money Fox
 desc: "A way to make budgeting easy. A basic idea for the community, made even better by the community."
-site: https://github.com/Apply-Solutions/MoneyManager
+site: https://github.com/MoneyFox/MoneyFox.Windows
 tags:
 - ".net"
-- Xamarin
 - C#
-- mono
-- Android
 - UWP
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Apply-Solutions/MoneyManager/labels/up-for-grabs
+  link: https://github.com/MoneyFox/MoneyFox.Windows/labels/up-for-grabs

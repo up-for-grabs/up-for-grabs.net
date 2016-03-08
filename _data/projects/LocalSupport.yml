@@ -1,0 +1,11 @@
+name: LocalSupport
+desc: Directory of non-profits and volunteer opportunities
+site: https://github.com/AgileVentures/LocalSupport
+tags:
+- rails
+- ruby
+- tdd
+- bdd
+upforgrabs:
+  name: LocalSupport
+  link: https://github.com/AgileVentures/LocalSupport/labels/up-for-grabs

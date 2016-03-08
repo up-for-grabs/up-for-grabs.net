@@ -1,0 +1,15 @@
+name: "CacheManager"
+desc: >
+  CacheManager is a common interface and abstraction layer for caching written in C#. 
+  It supports various cache providers and implements many advanced features.
+site: http://cachemanager.net
+tags:
+- "Caching"
+- "Distributed"
+- "Redis"
+- "Azure"
+- "C#"
+- ".NET"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/MichaCo/CacheManager/labels/up-for-grabs

@@ -1,0 +1,11 @@
+name: E2D
+desc: A lightweight 2D game engine
+site: https://github.com/E2D/e2d
+tags:
+- javascript
+- game
+- engine
+- 2d
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/E2D/e2d/labels/up-for-grabs

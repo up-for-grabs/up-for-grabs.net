@@ -1,0 +1,12 @@
+name: annyang
+desc: A popular JavaScript library for doing Speech Recognition
+site: https://www.talater.com/annyang/
+tags:
+- oss
+- web
+- javascript
+- speech-recognition
+- html5
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/TalAter/annyang/labels/up-for-grabs

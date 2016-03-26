@@ -1,0 +1,11 @@
+name: VisitMeet
+desc: VisitMeet is a cheapeast way to travel and develop 3rd world countries at the same time.
+site: https://github.com/VisitMeet/visitmeet
+tags:
+- oss
+- web
+- ruby on rails
+- javascript
+upforgrabs:
+  name: VisitMeet
+  link: https://github.com/VisitMeet/visitmeet/labels/up-for-grabs

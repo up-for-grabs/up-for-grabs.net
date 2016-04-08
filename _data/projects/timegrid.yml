@@ -1,0 +1,15 @@
+name: timegrid
+desc: Online appointments for freelancers and businesses made easy.
+site: https://github.com/timegridio/timegrid
+tags:
+- Appointment
+- Self-Service Online Reservation
+- Marketplace
+- MySQL
+- jQuery
+- Bootstrap
+- PHP
+- Laravel
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/timegridio/timegrid/labels/up-for-grabs

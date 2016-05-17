@@ -1,0 +1,15 @@
+name: Rang
+desc: A simple, modern & header only c++11 library for colors in your terminal
+site: https://github.com/agauniyal/rang
+tags:
+- c++
+- cpp
+- cmake
+- windows
+- linux
+- coverage
+- travis
+
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/agauniyal/rang/labels/help%20wanted

@@ -1,5 +1,5 @@
 name: Hoodie
-desc: Generic Backend for frontend Apps
+desc: Backend for Offline First Applications
 site: http://hood.ie
 tags:
 - javascript
@@ -7,5 +7,5 @@ tags:
 - offlinefirst
 - nobackend
 upforgrabs:
-  name: starter
-  link: http://go.hood.ie/hoodie-starter-issues
+  name: up for grabs
+  link: https://github.com/hoodiehq/camp/labels/up%20for%20grabs

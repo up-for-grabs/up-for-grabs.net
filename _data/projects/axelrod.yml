@@ -7,4 +7,4 @@ tags:
 - gametheory
 upforgrabs:
   name: easy_pull_request
-  link: https://github.com/Axelrod-Python/Axelrod/issues?q=is%3Aissue+is%3Aopen+label%3AEasy_pull_request
+  link: https://github.com/Axelrod-Python/Axelrod/labels/Easy_pull_request 

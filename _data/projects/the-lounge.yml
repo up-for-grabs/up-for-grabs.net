@@ -1,0 +1,14 @@
+name: The Lounge
+desc: Self-hosted web IRC client
+site: https://thelounge.github.io
+tags:
+- web
+- node
+- IRC
+- chat
+- JavaScript
+- CSS
+- HTML
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/thelounge/lounge/labels/up%20for%20grabs

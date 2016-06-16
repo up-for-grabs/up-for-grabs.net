@@ -4,6 +4,9 @@ site: https://gitlab.com/ArtOfCode/qpixel
 tags:
   - rails
   - ruby
+  - javascript
+  - html
+  - css
   - sqlite
   - q&a
 upforgrabs:

@@ -1,0 +1,11 @@
+name: qpixel
+desc: Rails Q&A website software.
+site: https://gitlab.com/ArtOfCode/qpixel
+tags:
+  - rails
+  - ruby
+  - sqlite
+  - q&a
+upforgrabs:
+  name: easy pickings
+  link: https://gitlab.com/ArtOfCode/qpixel/issues?label_name=easy+pickings

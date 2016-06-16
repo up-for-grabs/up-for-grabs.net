@@ -1,0 +1,10 @@
+name: Rubberduck
+desc: Rubberduck is a COM add-in that integrates with the VBE (VBA IDE) to enable the features every programmer wants to have in their IDE. From unit testing to source control, from code inspections to refactorings, programming in VBA will never be the same.
+site: https://github.com/rubberduck-vba/Rubberduck
+tags:
+- c#
+- vba
+- antlr
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/rubberduck-vba/Rubberduck/labels/up-for-grabs

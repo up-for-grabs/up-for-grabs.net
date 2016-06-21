@@ -1,0 +1,12 @@
+name: JMeta
+desc: JMeta is a free software project, written in Java, aiming to provide a search platform and a framework for building fully-decentralized P2P search applications.
+site: https://gitlab.ouahpiti.info/meta/jmeta
+tags:
+- p2p
+- "search engine"
+- DHT
+- metadata
+- up-for-grabs
+upforgrabs:
+  name: JMeta issues
+  link: https://gitlab.ouahpiti.info/meta/jmeta/issues

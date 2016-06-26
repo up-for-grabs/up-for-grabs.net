@@ -1,0 +1,11 @@
+name: Wealth Economy
+desc: Experimental ideas on improving how the economy works
+site: https://wealth.forcrowd.org
+tags:
+- C#
+- ASP.NET
+- AngularJS
+- MS SQL
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/forCrowd/WealthEconomy/labels/up-for-grabs

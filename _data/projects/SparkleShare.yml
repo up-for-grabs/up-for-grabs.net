@@ -2,7 +2,7 @@ name: SparkleShare
 desc: Share and collaborate by syncing with any Git repository instantly. Linux, macOS, and Windows
 site: https://www.sparkleshare.org/
 tags:
-- .NET
+- ".NET"
 - C#
 - sync
 - Linux
@@ -31,4 +31,4 @@ tags:
 - encrypt
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/hbons/SparkleShare/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs
+  link: https://github.com/hbons/SparkleShare/issues/labels/up-for-grabs

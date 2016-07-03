@@ -1,0 +1,34 @@
+name: SparkleShare
+desc: Share and collaborate by syncing with any Git repository instantly. Linux, macOS, and Windows
+site: https://www.sparkleshare.org/
+tags:
+- ".NET"
+- C#
+- sync
+- Linux
+- macOS
+- Windows
+- share
+- sharing
+- documents
+- files
+- Git
+- VCS
+- version control
+- Dropbox
+- Mono
+- GitHub
+- collaboration
+- collaborate
+- MonoMac
+- WPF
+- GTK
+- design
+- privacy
+- private
+- cloud
+- encryption
+- encrypt
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/hbons/SparkleShare/issues/labels/up-for-grabs

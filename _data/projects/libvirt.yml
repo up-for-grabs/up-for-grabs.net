@@ -1,0 +1,13 @@
+name: libvirt
+desc: The virtualization API
+site: https://libvirt.org/
+tags:
+- api
+- c
+- cross-platform
+- library
+- oss
+- virtualization
+upforgrabs:
+  name: up-for-grabs
+  link: http://wiki.libvirt.org/page/BiteSizedTasks

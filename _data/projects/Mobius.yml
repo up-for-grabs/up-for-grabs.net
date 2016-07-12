@@ -1,0 +1,21 @@
+name: Mobius
+desc: .NET binding and extensions to Apache Spark
+site: https://github.com/Microsoft/Mobius
+tags:
+- ".NET"
+- C#
+- F#
+- ApacheSpark
+- Spark
+- RDD
+- DataFrame
+- DStream
+- ML
+- data-science
+- Mobius
+- Scala
+- oss
+- bindings
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Microsoft/Mobius/labels/up%20for%20grabs

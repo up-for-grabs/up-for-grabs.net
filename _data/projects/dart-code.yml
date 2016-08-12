@@ -1,6 +1,6 @@
 name: Dart-Code
 desc: Dart integration for Visual Studio Code
-site: https://github.com/DanTup/Dart-Code/
+site: https://github.com/Dart-Code/Dart-Code/
 tags:
 - dart
 - typescript
@@ -9,4 +9,4 @@ tags:
 - editor
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/DanTup/Dart-Code/labels/up-for-grabs
+  link: https://github.com/Dart-Code/Dart-Code/labels/up-for-grabs

@@ -1,0 +1,12 @@
+name: rmw ReMove to Waste
+desc: CLI trash can for Linux that can interact with the desktop trash folder, and permanently delete files after x number of days
+site: https://github.com/andy5995/rmw/wiki
+tags:
+- c
+- Linux
+- Utilities
+- file management
+- cli
+upforgrabs:
+  name: help wanted
+  link: https://github.com/andy5995/rmw/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

@@ -1,0 +1,13 @@
+name: Fr8
+desc: Fr8 is the open platform for application integration. Fr8 users can create powerful workflows with simple point and click operations.
+site: http://fr8.co
+tags:
+- c#
+- javascript
+- typescript
+- web
+- distributed 
+- azure
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/Fr8org/Fr8Core/labels/help%20wanted

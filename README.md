@@ -63,4 +63,10 @@ bundle install
 jekyll serve --watch
 ```
 
+Alternatively, the application can be run in a [Docker](https://docker.com) container:
+
+```
+docker-compose up
+```
+
 Then open your browser to `localhost:4000` to view the site.

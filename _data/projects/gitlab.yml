@@ -5,6 +5,10 @@ tags:
 - oss
 - git
 - issues
+- ruby
+- rails
+- javascript
+- web
 upforgrabs:
   name: up-for-grabs
   link: https://gitlab.com/gitlab-org/gitlab-ce/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=up-for-grabs

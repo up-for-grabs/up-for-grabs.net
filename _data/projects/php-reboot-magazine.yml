@@ -1,0 +1,14 @@
+name: PHP reboot magazine
+desc: >
+  phpreboot.com is open source website of PHP community in Pune, India
+  and also host PHP Reboot magazine, a magazine with good articles
+  about PHP and related technologies.
+site: http://www.phpreboot.com
+tags:
+- php
+- magazine
+- laravel
+- web
+upforgrabs:
+  name: backlog-easy
+  link: https://github.com/phpreboot/website/labels/backlog-easy

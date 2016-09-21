@@ -1,0 +1,14 @@
+name: GitLab 
+desc: Code, test, and deploy together
+site: https://about.gitlab.com
+tags:
+- oss
+- git
+- issues
+- ruby
+- rails
+- javascript
+- web
+upforgrabs:
+  name: up-for-grabs
+  link: https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=up-for-grabs

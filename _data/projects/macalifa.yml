@@ -1,0 +1,11 @@
+name: Macalifa
+desc: A music player for UWP and Windows 10.
+site: https://github.com/theweavrs/Macalifa
+tags:
+- .NET
+- C#
+- UWP
+- .NET Core
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/theweavrs/Macalifa/labels/up-for-grabs

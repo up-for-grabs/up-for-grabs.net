@@ -8,7 +8,7 @@ site: https://github.com/aspnet/javascriptservices
 tags:
 - Microsoft
 - ASP.NET
-- .NET
+- ".NET"
 - C#
 - Javascript
 - oss

@@ -1,0 +1,23 @@
+name: ASP.NET Javascript Services
+desc: >
+  ASP.NET Javascript Services is a set of technologies for ASP.NET Core developers. 
+  It provides infrastructure that you'll find useful if you use Angular 2 / React / Knockout / etc. on the client, 
+  or if you build your client-side resources using Webpack, 
+  or otherwise want to execute JavaScript on the server at runtime.
+site: https://github.com/aspnet/javascriptservices
+tags:
+- Microsoft
+- ASP.NET
+- ".NET"
+- C#
+- Javascript
+- React
+- Angular
+- Knockout
+- SPA
+- Webpack
+- oss
+- web
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/aspnet/JavaScriptServices/labels/up-for-grabs

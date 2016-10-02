@@ -1,5 +1,5 @@
 name: Cookiecutter
-desc: A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
+desc: A command-line utility that creates projects from cookiecutters.
 site: https://github.com/audreyr/cookiecutter
 tags:
 - python

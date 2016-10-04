@@ -1,0 +1,12 @@
+name: Aton
+desc: Computer room administration made free
+site: http://camilosampedro.me/Aton
+tags:
+- scala
+- play-framework
+- slick
+- linux
+- web
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/camilosampedro/Aton/labels/up-for-grabs

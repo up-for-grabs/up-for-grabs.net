@@ -16,4 +16,4 @@ tags:
 - quiz
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/numbas/Numbas/issues?q=is%3Aopen+is%3Aissue+label%3Aup-for-grabs
+  link: https://github.com/numbas/Numbas/issues/labels/up-for-grabs

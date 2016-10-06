@@ -63,8 +63,9 @@
   })(window);
 
   var issueCount = function(project) {
+
     var a = $(project).find('.label a')
-      , gh = a.attr('href').match(/github.com(\/[^\/]+\/[^\/]+\/)labels\/([^\/]+)$/)
+      , gh = a.attr('href').match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/)
       , url = gh && ('https://api.github.com/repos' + gh[1] + 'issues?labels=' + gh[2])
       , count = a.find('.count');
 

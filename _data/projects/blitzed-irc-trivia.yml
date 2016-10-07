@@ -1,0 +1,14 @@
+name: Blitzed IRC Trivia
+desc: Blitzed IRC Trivia is an IRC bot that will connect to a server, join a channel, and ask trivia questions. Allows team or single-play, can use a phonetic pattern-matching algorithm (answers don't need to be exact), and has many other options. Originally developed by Eric Fears, now maintained by Andy Alt
+site: https://github.com/andy5995/blitzed-irc-trivia/wiki
+tags:
+- c
+- c++
+- IRC
+- games
+- trivia
+- cli
+- chat
+upforgrabs:
+  name: Blitzed-Irc-Trivia
+  link: https://github.com/andy5995/blitzed-irc-trivia/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

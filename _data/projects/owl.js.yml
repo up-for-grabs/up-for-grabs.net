@@ -8,4 +8,4 @@ tags:
 - REST
 upforgrabs:
   name: up for grabs
-  link: https://github.com/owljsorg/owl.js/issues?q=is%3Aissue+is%3Aopen+label%3A%22up+for+grabs%22
+  link: https://github.com/owljsorg/owl.js/issues/labels/up%20for%20grabs

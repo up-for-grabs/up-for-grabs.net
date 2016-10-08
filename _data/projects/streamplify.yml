@@ -1,0 +1,13 @@
+name: streamplify
+desc: Java 8 combinatorics-related streams and other utilities
+site: http://streamplify.beryx.org
+tags:
+- Java
+- streams
+- combinatorics
+- permutations
+- combinations
+- cartesian-product
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/beryx/streamplify/labels/up-for-grabs

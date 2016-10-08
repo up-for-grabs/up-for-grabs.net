@@ -28,6 +28,19 @@ def valid_url? (url)
   end
 end
 
+def github_link? (url)
+  begin
+    uri = URI.parse(url)
+    if !uri.kind_of?(URI::HTTPS) then
+      false
+    end
+    # being lazy here, don't care about subdomains
+    /[\w*\.]?github\.com/.match uri.host
+  rescue URI::InvalidURIError
+    false
+  end
+end
+
 def verify_file (f)
   begin
     contents = File.read(f)
@@ -103,6 +116,33 @@ def verify_file (f)
     if !valid_url?(link) then
       error = "Required 'upforgrabs.link' attribute to be a valid url"
       return [f, error]
+    end
+
+    if github_link?(link) then
+
+      if link.index('https://github.com/issues?q=') then
+        # search across many repos, disregard as encoding is different
+        return [f, nil]
+      end
+
+      if link.index('https://github.com/search?') then
+        # search across many repos, disregard as encoding is different
+        return [f, nil]
+      end
+
+      # lol, encoding is hard
+      encodedName = URI::encode(name)
+                        .sub('/', '%2F')
+                        .sub(':', '%3A')
+                        .sub('!', '%21')
+                        .downcase
+
+      link_down = link.downcase
+
+      if link_down.index(encodedName).nil? then
+        error = "The encoded attribute '#{encodedName}' doesn't exist on the 'upforgrabs.url' #{link_down}"
+        return [f, error]
+      end
     end
 
   rescue Psych::SyntaxError => e

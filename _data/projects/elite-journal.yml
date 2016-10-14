@@ -1,5 +1,5 @@
 name: Elite Journal
-desc: Parsing the Elite: Dangerous journal and putting it into a cool format.
+desc: Parsing the Elite Dangerous journal and putting it into a cool format.
 site: https://github.com/willyb321/elite-journal
 tags:
 - electron

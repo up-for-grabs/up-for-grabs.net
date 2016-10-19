@@ -20,9 +20,22 @@ def check_folder
 end
 
 def valid_url? (url)
-   begin
+  begin
     uri = URI.parse(url)
     uri.kind_of?(URI::HTTP) || uri.kind_of?(URI::HTTPS)
+  rescue URI::InvalidURIError
+    false
+  end
+end
+
+def github_link? (url)
+  begin
+    uri = URI.parse(url)
+    if !uri.kind_of?(URI::HTTPS) then
+      false
+    end
+    # being lazy here, don't care about subdomains
+    /[\w*\.]?github\.com/.match uri.host
   rescue URI::InvalidURIError
     false
   end
@@ -86,26 +99,57 @@ def verify_file (f)
       return [f, error]
     end
 
-    if yaml["upforgrabs"]["name"].nil? then
+    name = yaml["upforgrabs"]["name"]
+
+    if name.nil? then
       error = "Required 'upforgrabs.name' attribute is not defined"
       return [f, error]
     end
 
-    if yaml["upforgrabs"]["link"].nil? then
+    link = yaml["upforgrabs"]["link"]
+
+    if link.nil? then
       error = "Required 'upforgrabs.link' attribute is not defined"
       return [f, error]
     end
 
-    if !valid_url?(yaml["upforgrabs"]["link"]) then
+    if !valid_url?(link) then
       error = "Required 'upforgrabs.link' attribute to be a valid url"
       return [f, error]
+    end
+
+    if github_link?(link) then
+
+      if link.index('https://github.com/issues?q=') then
+        # search across many repos, disregard as encoding is different
+        return [f, nil]
+      end
+
+      if link.index('https://github.com/search?') then
+        # search across many repos, disregard as encoding is different
+        return [f, nil]
+      end
+
+      # lol, encoding is hard
+      encodedName = URI::encode(name)
+                        .sub('/', '%2F')
+                        .sub(':', '%3A')
+                        .sub('!', '%21')
+                        .downcase
+
+      link_down = link.downcase
+
+      if link_down.index(encodedName).nil? then
+        error = "The encoded attribute '#{encodedName}' doesn't exist on the 'upforgrabs.url' #{link_down}"
+        return [f, error]
+      end
     end
 
   rescue Psych::SyntaxError => e
     error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
     return [f, error]
   rescue
-    error = "Unknown exception for file: " + $!
+    error = "Unknown exception for file: " + $!.to_s
     return [f, error]
   end
 

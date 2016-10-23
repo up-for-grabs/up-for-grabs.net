@@ -1,0 +1,11 @@
+name: Kronos  
+desc: Distributed, in-memory cache system based on .NET Core and Docker. 
+site: https://github.com/lukasz-pyrzyk/Kronos
+tags:
+- C#
+- cache
+- memory
+- docker
+upforgrabs:
+  name: help wanted
+  link: https://github.com/lukasz-pyrzyk/Kronos/labels/Help%20wanted

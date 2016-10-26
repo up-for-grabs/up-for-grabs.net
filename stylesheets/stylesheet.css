@@ -522,6 +522,11 @@ form {
   word-break: break-all;
 }
 
+.projects .contribute {
+  font-size: 14px;
+  word-break: break-all;
+}
+
 .projects .label {
   background: #2E7BA9;
   border-radius: 2px;

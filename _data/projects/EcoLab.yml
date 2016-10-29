@@ -1,0 +1,9 @@
+name: EcoLab
+desc: Open plataform for automating computer labs oriented to energy saving
+site: https://github.com/basfom/EcoLab
+tags:
+- Python
+- Automation
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/basfom/EcoLab/labels/up-for-grabs

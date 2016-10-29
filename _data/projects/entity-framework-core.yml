@@ -1,5 +1,5 @@
-name: Entity Framework 7
-desc: Microsoft's recommended data access technology for new applications in .NET.
+name: Entity Framework Core
+desc: Entity Framework Core is a lightweight and extensible version of the popular Entity Framework data access technology.
 site: https://github.com/aspnet/EntityFramework
 tags:
 - Microsoft

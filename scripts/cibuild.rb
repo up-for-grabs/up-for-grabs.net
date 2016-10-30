@@ -105,7 +105,7 @@ def verify_file (f)
     error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
     return [f, error]
   rescue
-    error = "Unknown exception for file: " + $!
+    error = "Unknown exception for file: " + $!.to_s
     return [f, error]
   end
 

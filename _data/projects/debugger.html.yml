@@ -1,6 +1,6 @@
 name: debugger.html
 desc: Next generation JS debugger built for the web and Firefox
-site: https://github.com/jlongster/debugger.html
+site: https://github.com/devtools-html/debugger.html
 tags:
 - oss
 - web
@@ -11,4 +11,4 @@ tags:
 - mozilla
 upforgrabs:
   name: up for grabs
-  link: https://github.com/jlongster/debugger.html/labels/up%20for%20grabs
+  link: https://github.com/devtools-html/debugger.html/labels/up%20for%20grabs

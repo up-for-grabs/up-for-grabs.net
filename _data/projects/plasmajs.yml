@@ -1,0 +1,12 @@
+name: PlasmaJS
+desc: An isomorphic NodeJS framework powered with React for building web apps.
+site: https://github.com/phenax/plasmajs
+tags:
+- plasmajs
+- react
+- node
+- framework
+- isomorphic
+upforgrabs:
+  name: Need contributers
+  link: https://github.com/phenax/plasmajs

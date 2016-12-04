@@ -1,0 +1,10 @@
+name: Excalibur.js
+desc: A simple and free TypeScript-based HTML5 JavaScript game engine
+site: https://github.com/excaliburjs/Excalibur
+tags:
+- oss
+- typescript
+- javascript
+upforgrabs:
+  name: jump-in
+  link: https://github.com/excaliburjs/Excalibur/labels/jump-in

@@ -2,7 +2,6 @@ name: tldr-pages
 desc: A community-curated collection of simplified and example-driven man pages.
 site: http://tldr-pages.github.io/
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - reference
 - documentation
 - markdown

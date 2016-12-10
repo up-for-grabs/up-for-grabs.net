@@ -5,7 +5,7 @@ Do you run or participate in an open-source project? Submit a Pull Request to ad
 
 Visit the website: [up-for-grabs.net](http://up-for-grabs.net/)
 
-## Add your project
+## Add a project
 
 Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add a new one, create a new file named after the project, ending in `.yml`. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in the browser, without cloning the repository in the command line.
 

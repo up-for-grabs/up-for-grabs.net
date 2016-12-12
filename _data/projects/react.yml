@@ -1,0 +1,11 @@
+name: React
+desc: A declarative, efficient, and flexible JavaScript library for building user interfaces.
+site: https://facebook.github.io/react/
+tags:
+- react
+- javascript
+- user interface
+- UI
+upforgrabs:
+  name: good first bug
+  link: https://github.com/facebook/react/labels/good%20first%20bug

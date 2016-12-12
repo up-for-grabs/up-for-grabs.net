@@ -1,0 +1,10 @@
+name: ODK Briefcase
+desc: ODK Briefcase is a Java application for fetching and pushing forms and their contents. It helps make data from millions of ODK campaigns portable. Contribute and make the world a better place! 
+site: https://github.com/opendatakit/briefcase
+tags:
+- java
+- global-development
+- data-collection
+upforgrabs:
+  name: quick win
+  link: https://github.com/opendatakit/briefcase/labels/quick%20win

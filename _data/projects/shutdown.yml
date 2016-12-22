@@ -1,4 +1,4 @@
-naname: ShutDown
+name: ShutDown
 desc: Delay shutdown/restart/hibernate of you Windows PC + more
 site: https://github.com/stanac/shutdown
 tags:

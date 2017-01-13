@@ -1,5 +1,5 @@
-name: Free Code Camp
-desc: The http://FreeCodeCamp.com open source codebase and curriculum. Learn to code and help nonprofits.
+name: freeCodeCamp
+desc: The http://freeCodeCamp.com open source codebase and curriculum. Learn to code and help nonprofits.
 site: https://github.com/freecodecamp/freecodecamp
 tags:
 - javascript

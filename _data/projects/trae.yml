@@ -1,0 +1,12 @@
+name: trae
+desc: Minimalistic Fetch based HTTP client for the browser
+site: https://github.com/Huemul/trae
+tags:
+- oss
+- web
+- fetch
+- http
+- javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Huemul/trae/labels/up-for-grabs

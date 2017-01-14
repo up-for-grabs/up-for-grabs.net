@@ -1,0 +1,10 @@
+name: 42-cent
+desc: Node.js multi-gateway payment processing module
+site: https://github.com/continuous-software/42-cent
+tags:
+- oss
+- javascript
+- payment gateways
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/continuous-software/42-cent/labels/up-for-grabs

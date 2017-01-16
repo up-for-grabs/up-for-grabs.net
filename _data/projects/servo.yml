@@ -1,0 +1,10 @@
+name: Servo
+desc: The parallel browser engine project
+site: https://www.servo.org
+tags:
+- rust
+- browser
+- research
+upforgrabs:
+  name: E-easy
+  link: https://github.com/servo/servo/labels/E-easy

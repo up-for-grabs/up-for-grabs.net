@@ -1,8 +1,8 @@
 (function ($) {
 
   var projectsSvc = new ProjectsService(projects),
-    compiledtemplateFn = null
-  projectsPanel = null;
+    compiledtemplateFn = null,
+    projectsPanel = null;
 
   var renderProjects = function (tags) {
     projectsPanel.html(compiledtemplateFn({

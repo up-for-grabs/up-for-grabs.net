@@ -23,10 +23,12 @@
     </tr>
     <tr>
        <td class="details">
+
+        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>"><%-project.upforgrabs.name %></a></p>
+       <br>
        <% if (project.contribute) { %>
             <span class="contribute"><a href="<%-project.contribute %>">Contributing Guidelines</a></span>
            <% } %>
-        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>"><%-project.upforgrabs.name %></a></p>
        </td>
        <td class="details">
            <% if (project.desc) { %>

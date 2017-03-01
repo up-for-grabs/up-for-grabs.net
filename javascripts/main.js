@@ -5,12 +5,20 @@
     projectsPanel = null;
 
   var renderProjects = function (tags) {
-    projectsPanel.html(compiledtemplateFn({
-      "projects": projectsSvc.get(tags),
+    var included_projects = projectsSvc.get(tags);
+    $('#filter-panel').html(compiledtemplateFn({
+      "projects": included_projects,
       "tags": projectsSvc.getTags(),
       "popularTags": projectsSvc.getPopularTags(6),
       "selectedTags": tags
     }));
+
+    $('.project').hide();
+    _.each(included_projects,function(project,i) {
+      var elem = $('.project[data-name="'+project.name+'"]');
+      $('.projects').append(elem);
+      $(elem).show();
+    });
 
     projectsPanel.find("select.tags-filter").chosen({
       no_results_text: "No tags found by that name.",

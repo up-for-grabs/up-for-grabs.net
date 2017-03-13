@@ -1,0 +1,18 @@
+name: Rebus
+desc: (Yet another) .NET durable messaging library, or "service bus" if you like
+site: https://github.com/rebus-org/Rebus
+tags:
+- "C#"
+- ".NET"
+- "MSMQ"
+- "RabbitMQ"
+- "Azure"
+- "Azure Service Bus"
+- "Azure Storage Queues"
+- "distributed"
+- "messaging"
+- "service bus"
+- "soa"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/rebus-org/Rebus/labels/up-for-grabs

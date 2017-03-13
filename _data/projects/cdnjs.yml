@@ -1,0 +1,14 @@
+name: cdnjs 
+desc: The most famous free and open source web front-end libraries cdn
+site: https://cdnjs.com
+tags:
+- cdn
+- js
+- css
+- libraries
+- web
+- frontend
+- javascript
+upforgrabs:
+  name: BEGINNER
+  link: https://github.com/cdnjs/cdnjs/issues?q=is%3Aissue+is%3Aopen+-label%3A%22wait+for+response%22+-label%3A%22in+progress%22+label%3ABEGINNER

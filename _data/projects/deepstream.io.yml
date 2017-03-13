@@ -1,0 +1,29 @@
+name: deepstream.io
+desc: A Scalable Server for Realtime Web Apps
+site: http://deepstream.io/
+tags:
+# ##############################################
+# Sorry for the large amount of tags. It's not Spam, we're genuinely looking for help writing clients in the languages below
+# ##############################################
+- NodeJS
+- Node
+- TCP
+- Network
+- Java
+- Android
+- C
+- "C++"
+- ".NET"
+- "C#"
+- Ruby
+- Python
+- Rust
+- Go
+- Erlang
+- "React Native"
+- Swift
+- iOS
+
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/hoxton-one/deepstream.io/labels/help-wanted

@@ -1,6 +1,6 @@
 name: Up-For-Grabs.net
 desc: This site!
-site: https://github.com/dahlbyk/up-for-grabs.net
+site: https://github.com/up-for-grabs/up-for-grabs.net
 tags:
 - oss
 - web
@@ -8,4 +8,4 @@ tags:
 - javascript
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/dahlbyk/up-for-grabs.net/labels/up-for-grabs
+  link: https://github.com/up-for-grabs/up-for-grabs.net/labels/up-for-grabs

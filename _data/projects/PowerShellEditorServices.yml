@@ -1,0 +1,9 @@
+name: PowerShell Editor Services
+desc: Provides language and debugging services for developing PowerShell scripts in any code editor
+site: https://github.com/PowerShell/PowerShellEditorServices
+tags:
+- PowerShell
+- C#
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/PowerShell/PowerShellEditorServices/labels/help-wanted

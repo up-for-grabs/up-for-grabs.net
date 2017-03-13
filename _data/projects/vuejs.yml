@@ -1,0 +1,12 @@
+name: Vue.js
+desc: Simple yet powerful library for building modern web interfaces.
+site: http://vuejs.org
+tags:
+- javascript
+- user interface
+- UI
+- templating
+- vuejs
+upforgrabs:
+  name: contribution welcome
+  link: https://github.com/vuejs/vue/labels/contribution%20welcome

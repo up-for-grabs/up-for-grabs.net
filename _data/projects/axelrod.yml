@@ -1,0 +1,10 @@
+name: Axelrod-Python
+desc: A research tool to run Iterated Prisoner's Dilemma tournaments.
+site: http://axelrod.readthedocs.io/en/latest/
+tags:
+- oss
+- python
+- gametheory
+upforgrabs:
+  name: easy_pull_request
+  link: https://github.com/Axelrod-Python/Axelrod/labels/Easy_pull_request 

@@ -1,0 +1,12 @@
+name: Homebrew
+desc: Homebrew is a package manager for OS X.
+site: http://brew.sh/
+tags:
+- ruby
+- osx
+- apple
+- terminal
+- packaging
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Homebrew/brew/labels/help%20wanted

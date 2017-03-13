@@ -1,6 +1,7 @@
 name: Oak MVC
-desc: Frictionless development for ASP.NET MVC single page web apps. Prototypical
-  and dynamic capabilities brought to C#.
+desc: >
+  Frictionless development for ASP.NET MVC single page web apps.
+  Prototypical and dynamic capabilities brought to C#.
 site: https://amirrajan.github.com/Oak
 tags:
 - SPA

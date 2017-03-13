@@ -1,0 +1,14 @@
+---
+name: Raneto
+desc: Markdown powered Knowledgebase for Node.js
+site: https://github.com/gilbitron/Raneto
+tags:
+  - knowledgebase
+  - wiki
+  - documentation
+  - markdown
+  - node
+  - nodejs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/gilbitron/Raneto/issues/labels/up-for-grabs

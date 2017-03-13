@@ -1,0 +1,10 @@
+name: Open Live Writer
+desc: Open Live Writer makes it easy to write, preview, and post to your blog.
+site: http://openlivewriter.org/
+tags:
+- C#
+- WinForms
+- Desktop
+upforgrabs:
+  name: help wanted
+  link: https://github.com/OpenLiveWriter/OpenLiveWriter/labels/help%20wanted

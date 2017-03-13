@@ -1,0 +1,12 @@
+name: Homebrew-Cask
+desc: A CLI workflow for the administration of Mac applications distributed as binaries
+site: http://caskroom.io
+tags:
+- ruby
+- osx
+- apple
+- terminal
+- packaging
+upforgrabs:
+  name: ready to implement
+  link: https://github.com/caskroom/homebrew-cask/labels/ready%20to%20implement

@@ -1,0 +1,11 @@
+name: Solr Express
+desc: A simple and lightweight query .NET library for Solr, in a controlled, buildable and fail fast way.
+site: https://github.com/solr-express/solr-express
+tags:
+- SOLR
+- C#
+- .Net Framework
+- .Net Core
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/solr-express/solr-express/labels/up%20for%20grabs

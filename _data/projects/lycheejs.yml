@@ -1,0 +1,16 @@
+name: lycheeJS
+desc: Next-Gen Isomorphic Application Engine
+site: http://lychee.js.org
+tags:
+- javascript
+- isomorphic
+- sdl
+- opengl
+- webgl
+- canvas
+- node
+- node-sdl
+- nwjs
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Artificial-Engineering/lycheeJS/labels/help%20wanted

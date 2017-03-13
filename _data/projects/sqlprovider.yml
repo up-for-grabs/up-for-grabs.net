@@ -1,6 +1,7 @@
 name: SQLProvider
-desc: A general F# SQL database type provider, supporting LINQ queries, schema exploration,
-  individuals and much more besides.
+desc: >
+  A general F# SQL database type provider, supporting LINQ queries,
+  schema exploration, individuals and much more besides.
 site: https://github.com/fsprojects/SQLProvider
 tags:
 - ".NET"

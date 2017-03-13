@@ -1,0 +1,11 @@
+name: Hoodie
+desc: Backend for Offline First Applications
+site: http://hood.ie
+tags:
+- javascript
+- web
+- offlinefirst
+- nobackend
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/hoodiehq/camp/labels/up%20for%20grabs

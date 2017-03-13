@@ -1,0 +1,14 @@
+name: ACMESharp
+desc: .NET Library and PowerShell module for the ACME protocol used by Let's Encrypt
+site: https://github.com/ebekker/ACMESharp
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- ".NET"
+- C#
+- PowerShell
+- Security
+- AWS
+- IIS
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ebekker/ACMESharp/labels/up-for-grabs

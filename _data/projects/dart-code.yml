@@ -1,0 +1,12 @@
+name: Dart-Code
+desc: Dart integration for Visual Studio Code
+site: https://github.com/Dart-Code/Dart-Code/
+tags:
+- dart
+- typescript
+- oss
+- ide
+- editor
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Dart-Code/Dart-Code/labels/up%20for%20grabs

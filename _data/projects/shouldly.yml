@@ -4,6 +4,8 @@ site: https://github.com/shouldly/shouldly
 tags:
 - Testing
 - Assertions
+- ".NET"
+- C#
 upforgrabs:
   name: Jump-In
   link: https://github.com/shouldly/shouldly/labels/Jump-In

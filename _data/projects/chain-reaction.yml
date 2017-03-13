@@ -1,0 +1,9 @@
+name: Chain Reaction
+desc: Online version of the famous game "Chain Reaction"!
+site: https://github.com/ketanhwr/chain-reaction
+tags:
+- gamedev
+- javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ketanhwr/chain-reaction/labels/up-for-grabs

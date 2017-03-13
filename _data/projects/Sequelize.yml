@@ -1,0 +1,13 @@
+name: Sequelize
+desc: An ORM for node.js supporting PostgresQL, MySQL, sqlite and MSSQL
+site: https://github.com/sequelize/sequelize
+tags:
+- javascript
+- node
+- node.js
+- orm
+- sql
+- database
+upforgrabs:
+  name: good-first-pr
+  link: https://github.com/sequelize/sequelize/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-pr

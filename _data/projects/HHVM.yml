@@ -1,0 +1,13 @@
+name: HipHopVM
+desc: Compiler and Runtime for PHP and Hack languages
+site: http://hhvm.com
+tags:
+- C++
+- PHP
+- Hack
+- ASM
+- Compiler
+- Language
+upforgrabs:
+  name: Probably Easy
+  link: https://github.com/facebook/hhvm/labels/probably%20easy

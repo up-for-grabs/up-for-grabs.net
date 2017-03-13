@@ -1,0 +1,14 @@
+name: Terasology
+desc: Terasology - an open-source voxel world!
+site: https://github.com/MovingBlocks/Terasology
+tags:
+- oss
+- java
+- groovy
+- opengl
+- gamedev
+- game
+- engine
+upforgrabs:
+  name: Bite-size
+  link: https://github.com/movingblocks/terasology/labels/Bite-size

@@ -1,0 +1,12 @@
+name: Alda
+desc: A general-purpose, beginner-friendly music programming language
+site: https://github.com/alda-lang/alda
+tags:
+- music
+- language
+- clojure
+- java
+- zeromq
+upforgrabs:
+  name: low-hanging fruit
+  link: https://github.com/alda-lang/alda/labels/low-hanging%20fruit

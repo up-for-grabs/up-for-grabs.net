@@ -1,0 +1,11 @@
+name: Flarum
+desc: Forums made simple.
+site: http://flarum.org
+tags:
+- web
+- php
+- forum
+- community
+upforgrabs:
+  name: Good for New Contributors
+  link: https://github.com/flarum/core/labels/Good%20for%20New%20Contributors

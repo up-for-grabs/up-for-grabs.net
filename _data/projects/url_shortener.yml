@@ -1,0 +1,11 @@
+name: Urls.ml
+desc: Small set of PHP scripts that will help you in shortening your url by which you can get a more precised version of your url at ease.
+site: https://github.com/urls/url-shortener
+tags:
+- php
+- web
+- mysqli
+- css
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/urls/url-shortener/labels/up-for-grabs

@@ -1,0 +1,13 @@
+name: Material Design In XAML Toolkit
+desc: Google's Material Design in XAML & WPF, for C# & VB.Net.
+site: https://github.com/ButchersBoy/MaterialDesignInXamlToolkit
+tags:
+- Material Design
+- WPF
+- XAML
+- C#
+- UI
+- theme
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ButchersBoy/MaterialDesignInXamlToolkit/labels/up-for-grabs

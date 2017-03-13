@@ -1,0 +1,11 @@
+name: Web Opac App
+desc: The Web Opac App is an Android application that allows convenient access to the catalogues of public and scientific libraries from Germany, Austria, Switzerland and all over the world. Its core, libopac, can also be used as a standalone Java library.
+site: https://github.com/oapcapp/opacclient
+tags:
+- oss
+- android
+- libraries
+- java
+upforgrabs:
+  name: easy
+  link: https://github.com/opacapp/opacclient/labels/easy

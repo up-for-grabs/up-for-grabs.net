@@ -1,4 +1,5 @@
 require 'safe_yaml'
+require 'uri'
 
 def check_folder
   # i'm lazy
@@ -15,6 +16,15 @@ def check_folder
     puts "#{other_files} files in directory which are not YAML files:"
     all_files.each { |f| puts " - " + f }
     exit -1
+  end
+end
+
+def valid_url? (url)
+   begin
+    uri = URI.parse(url)
+    uri.kind_of?(URI::HTTP) || uri.kind_of?(URI::HTTPS)
+  rescue URI::InvalidURIError
+    false
   end
 end
 
@@ -36,9 +46,13 @@ def verify_file (f)
       return [f, error]
     end
 
-    # TODO: validate URL
     if yaml["site"].nil? then
       error = "Required 'site' attribute is not defined"
+      return [f, error]
+    end
+
+    if !valid_url?(yaml["site"]) then
+      error = "Required 'site' attribute to be a valid url"
       return [f, error]
     end
 
@@ -82,11 +96,16 @@ def verify_file (f)
       return [f, error]
     end
 
-  rescue Psych::SyntaxError
-    error = "Unable to parse the contents of file"
+    if !valid_url?(yaml["upforgrabs"]["link"]) then
+      error = "Required 'upforgrabs.link' attribute to be a valid url"
+      return [f, error]
+    end
+
+  rescue Psych::SyntaxError => e
+    error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
     return [f, error]
   rescue
-    error = "Unknown exception for file: " + $!
+    error = "Unknown exception for file: " + $!.to_s
     return [f, error]
   end
 

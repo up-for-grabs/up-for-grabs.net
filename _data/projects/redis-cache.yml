@@ -1,0 +1,14 @@
+name: Redis Object Cache
+desc: A persistent WordPress object cache backend powered by Redis. Supports Predis, PhpRedis, HHVM, replication and clustering.
+site: https://github.com/tillkruss/Redis-Object-Cache
+tags:
+- PHP
+- WordPress
+- Plugin
+- Redis
+- Predis
+- PhpRedis
+- HHVM
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/tillkruss/Redis-Object-Cache/labels/up-for-grabs

@@ -7,7 +7,7 @@ Visit the website: [up-for-grabs.net](http://up-for-grabs.net/)
 
 ## Add your project
 
-Each of the projects is a file in the [projects](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add yours, create a new file named after your project, ending in `.yml`. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in your browser without cloning the repository.
+Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add yours, create a new file named after your project, ending in `.yml`. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in your browser without cloning the repository.
 
 The contents of the file are just some details about the project:
 
@@ -26,7 +26,7 @@ upforgrabs:
   link: *URL which users can view the tasks*
 ```
 
-Check out the [up-for-grabs](https://github.com/dahlbyk/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml) file for an example of this project structure.
+Check out the [up-for-grabs](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml) file for an example of this project structure.
 
 ## Use the Yeoman Generator
 
@@ -44,10 +44,10 @@ yo up-for-grabs
 If you haven't already, clone the repository to your machine:
 
 ```
-git clone https://github.com/dahlbyk/up-for-grabs.net.git
+git clone https://github.com/up-for-grabs/up-for-grabs.net.git
 ```
 
-If you have a fork of the repository, change `dahlbyk` for your GitHub account name above.
+If you have a fork of the repository, change `up-for-grabs` for your GitHub account name above.
 
 You need Ruby and Bundler installed to test the site - you can confirm these are present by running these commands:
 
@@ -61,6 +61,12 @@ If you're happy with that, run these commands in the directory where you cloned 
 ```
 bundle install
 jekyll serve --watch
+```
+
+Alternatively, the application can be run in a [Docker](https://docker.com) container:
+
+```
+docker-compose up
 ```
 
 Then open your browser to `localhost:4000` to view the site.

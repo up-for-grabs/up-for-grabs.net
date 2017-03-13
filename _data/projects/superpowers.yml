@@ -1,0 +1,14 @@
+name: Superpowers
+desc: Extensible HTML5 app for real-time collaborative projects
+site: http://superpowers-html5.com/
+tags:
+- oss
+- web
+- gamedev
+- html5
+- collaboration
+- creative
+- typescript
+upforgrabs:
+  name: help wanted
+  link: https://github.com/superpowers/superpowers/labels/help%20wanted

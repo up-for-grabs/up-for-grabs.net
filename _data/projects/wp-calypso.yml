@@ -1,0 +1,12 @@
+name: wp-calypso
+desc: >
+  The new JavaScript- and API-powered WordPress.com.
+site: https://developer.wordpress.com/calypso/
+tags:
+- javascript
+- wordpress
+- react
+- redux
+upforgrabs:
+  name: Good First Change
+  link: https://github.com/Automattic/wp-calypso/labels/%5BType%5D%20Good%20First%20Change

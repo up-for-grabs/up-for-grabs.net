@@ -1,0 +1,11 @@
+name: Mutability Detector
+desc: Lightweight analysis tool for detecting mutability in Java classes
+site: http://mutabilitydetector.org
+tags:
+- java
+- immutability
+- testing
+- static analysis
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/MutabilityDetector/MutabilityDetector/labels/up-for-grabs

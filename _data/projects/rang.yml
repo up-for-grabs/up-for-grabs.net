@@ -1,5 +1,5 @@
 name: Rang
-desc: A simple, modern & header only c++11 library for colors in your terminal
+desc: A Minimal, Header only Modern c++ library for colors in your terminal
 site: https://github.com/agauniyal/rang
 tags:
 - c++

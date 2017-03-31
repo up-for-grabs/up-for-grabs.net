@@ -70,3 +70,13 @@ docker-compose up
 ```
 
 Then open your browser to `localhost:4000` to view the site.
+
+## How This All Works
+We use a few great features of Jekyll and Github Pages to host this entire site for free.
+
+* We are using a file called `scripts.html` which is an include file. When we publish the site, Jekyll uses this to concatenate generate the scripts that will actually be downloaded when a user visits the site.
+* Within the `scripts.html` template, we're referencing `site.data.projects`, which gives us access to the entire directory of `.yml` files as a set of variables. We combine this with the `jsonify` liquid transformer to turn them into a JSON object. This means that the raw data is generated once, so it downloads very quickly as static data.
+* When the web page is opened, our startup JS processes each project in the array of projects and pushes it into the array that the rest of the site uses.
+* We use [travis-ci](https://travis-ci.org/up-for-grabs/up-for-grabs.net) to run a custom ruby script, `cibuild`, that checks all the `.yml` files to make sure they can be appropriately parsed. This makes sure we don't merge any incorrectly formed project files.
+
+What this means is that, when a pull request is merged, Github Pages automatically builds the site via Jekyll and publishes it to our Github -- no database or hosting needed. (Thanks, Github!)

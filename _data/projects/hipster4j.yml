@@ -1,0 +1,17 @@
+name: Hipster4j
+desc: Hipster4j is a lightweight and powerful heuristic Java search library. It contains common, fully customizable algorithms such as Dijkstra, A* (A-Star), DFS, BFS, Bellman-Ford and more.
+site: https://github.com/citiususc/hipster
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- Java
+- Heuristic
+- Algorithm
+- Graph
+- Search
+- Dijkstra
+- A-Star
+- DFS
+- BFS
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/citiususc/hipster/issues/labels/up-for-grabs

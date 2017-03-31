@@ -1,0 +1,12 @@
+name: ApiaryProvider
+desc: Type provider for Apiary.io
+site: https://github.com/fsprojects/ApiaryProvider
+tags:
+- ".NET"
+- F#
+- data
+- typeprovider
+- apiary
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsprojects/ApiaryProvider/labels/up-for-grabs

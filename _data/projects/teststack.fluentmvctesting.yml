@@ -1,0 +1,11 @@
+name: TestStack.FluentMVCTesting
+desc: Simple, terse, fluent unit testing for ASP.NET MVC Controllers.
+site: https://github.com/TestStack/TestStack.FluentMVCTesting
+tags:
+- ".NET"
+- mvc
+- asp.net
+- testing
+upforgrabs:
+  name: Jump in
+  link: https://github.com/TestStack/TestStack.FluentMVCTesting/labels/Jump%20in

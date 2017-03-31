@@ -1,0 +1,10 @@
+name: Fredis
+desc: Fredis is a BookSleeve wrapper for convenient usage from F#.
+site: https://github.com/buybackoff/Ractor.CLR
+tags:
+- F#
+- Redis
+- BookSleeve
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/buybackoff/Ractor.CLR/labels/up-for-grabs

@@ -1,0 +1,14 @@
+name: IdentityServer3
+desc: OpenID Connect and OAuth2 Security Token Service and Authorization Server
+site: https://github.com/IdentityServer/IdentityServer3
+tags:
+- ".NET"
+- Security
+- OAuth2
+- OpenID Connect
+- C#
+- OWIN
+- Katana
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/IdentityServer/IdentityServer3/labels/Up%20for%20grabs

@@ -1,0 +1,10 @@
+name: FSharp.Data.DbPedia
+desc: FSharp.Data.DbPedia - An F# type provider for DBpedia
+site: https://github.com/fsprojects/FSharp.Data.DbPedia
+tags:
+- ".NET"
+- DbPedia
+- F#
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsprojects/FSharp.Data.DbPedia/labels/up-for-grabs

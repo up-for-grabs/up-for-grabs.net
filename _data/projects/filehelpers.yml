@@ -1,0 +1,12 @@
+name: FileHelpers Library
+desc: FileHelpers is a free and easy to use .NET library to import or export data from fixed length or delimited records in files, strings or streams.
+site: http://www.filehelpers.net
+tags:
+- CSV
+- FlatFiles
+- ETL
+- C#
+- ".NET"
+upforgrabs:
+  name: Jump In
+  link: https://github.com/MarcosMeli/FileHelpers/labels/Jump%20In

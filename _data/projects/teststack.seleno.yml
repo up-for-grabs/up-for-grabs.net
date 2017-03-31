@@ -1,0 +1,17 @@
+name: TestStack.Seleno
+desc: >
+  Seleno helps you write automated UI tests in the right way by
+  implementing Page Objects and Page Components and by reading from
+  and writing to web pages using strongly typed view models.
+site: https://github.com/TestStack/TestStack.Seleno
+tags:
+- ".NET"
+- mvc
+- asp.net
+- testing
+- ui
+- selenium
+- webdriver
+upforgrabs:
+  name: Jump In
+  link: https://github.com/TestStack/TestStack.Seleno/labels/Jump%20In

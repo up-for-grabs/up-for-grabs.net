@@ -1,0 +1,12 @@
+name: NuGet gallery
+desc: >
+  The NuGet Gallery. Powers the "NuGet.org" website, as well as
+  other NuGet package galleries.
+site: https://github.com/NuGet/NuGetGallery
+tags:
+- nuget
+- nuget.org
+- package
+upforgrabs:
+  name: Up For Grabs
+  link: https://github.com/NuGet/NuGetGallery/milestones/Up%20For%20Grabs

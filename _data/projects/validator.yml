@@ -1,0 +1,8 @@
+name: Validator
+desc: Port of validator.js
+site: https://github.com/AlexArchive/Validator
+tags:
+- C#
+upforgrabs:
+  name: help wanted
+  link: https://github.com/AlexArchive/Validator/labels/help%20wanted

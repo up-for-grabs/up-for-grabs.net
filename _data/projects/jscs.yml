@@ -1,0 +1,9 @@
+name: JSCS
+desc: JavaScript Code Style checker
+site: https://github.com/jscs-dev/node-jscs
+tags:
+- JavaScript
+- node
+upforgrabs:
+  name: beginner-friendly
+  link: https://github.com/jscs-dev/node-jscs/labels/beginner-friendly

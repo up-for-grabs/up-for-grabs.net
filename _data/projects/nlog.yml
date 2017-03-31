@@ -1,0 +1,13 @@
+name: NLog
+desc: NLog - Advanced .NET and Silverlight Logging
+site: https://github.com/NLog/NLog
+tags:
+- ".NET"
+- Silverlight
+- Logging
+- mono
+- c#
+- nlog
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/NLog/NLog/labels/up-for-grabs

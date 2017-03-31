@@ -1,0 +1,11 @@
+name: FakeItEasy
+desc: The easy mocking library for .NET
+site: http://fakeiteasy.github.io
+tags:
+- TDD
+- Unit Testing
+- Mocking
+- ".NET"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/FakeItEasy/FakeItEasy/labels/up-for-grabs

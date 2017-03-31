@@ -1,0 +1,17 @@
+name: elementary OS Website
+desc: The New elementary.io - A focused, minimum viable product (hence MVP) for a website that accompanied the release of elementary OS Freya.
+site: https://github.com/elementary/mvp
+tags:
+- elementary
+- web
+- website
+- php
+- html
+- css
+- javascript
+- jquery
+- sqlite
+- design
+upforgrabs:
+  name: Bitesize
+  link: https://github.com/elementary/mvp/labels/Bitesize

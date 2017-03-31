@@ -1,0 +1,13 @@
+name: fszmq
+desc: An F# binding for the ZeroMQ distributed computing library.
+site: https://github.com/zeromq/fszmq
+tags:
+- F#
+- fsharp
+- ZeroMQ
+- zmq
+- distributed
+- messaging
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/zeromq/fszmq/labels/up-for-grabs

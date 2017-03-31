@@ -1,0 +1,12 @@
+name: bunto
+desc: Bunto is a Web Application Framework which can be used as a simple, static site generator for personal, project, or organization sites.
+site: https://github.com/bunto/bunto
+tags:
+- web
+- CMS
+- static site generator
+- web application framework
+- Ruby
+upforgrabs:
+  name: error
+  link: https://github.com/bunto/bunto/labels/error

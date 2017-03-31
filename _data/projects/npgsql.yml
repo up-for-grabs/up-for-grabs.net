@@ -1,0 +1,15 @@
+name: Npgsql
+desc: ".Net data provider for Postgresql"
+site: https://github.com/npgsql/npgsql
+tags:
+- ".NET"
+- C#
+- Mono
+- Database
+- Postgresql
+- ADO.Net
+- data provider
+- sql
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/npgsql/npgsql/labels/up%20for%20grabs

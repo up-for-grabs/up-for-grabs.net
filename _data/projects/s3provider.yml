@@ -1,0 +1,12 @@
+name: S3Provider
+desc: F# type provider for Amazon S3
+site: http://fsprojects.github.io/S3Provider/
+tags:
+- ".Net"
+- F#
+- S3
+- aws
+- typeprovider
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsprojects/S3Provider/labels/up-for-grabs

@@ -1,0 +1,10 @@
+name: FSharp.Markdown.Pdf
+desc: PDF formatting from FSharp.Markdown
+site: https://github.com/theburningmonk/FSharp.Markdown.Pdf
+tags:
+- F#
+- markdown
+- PDF
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/theburningmonk/FSharp.Markdown.Pdf/labels/up-for-grabs

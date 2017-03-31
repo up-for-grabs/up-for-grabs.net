@@ -1,0 +1,15 @@
+name: libgit2
+desc: >
+  libgit2 is a portable, pure C implementation of the Git core methods provided
+  as a re-entrant linkable library with a solid API, allowing you to write native
+  speed custom Git applications in any language which supports C bindings.
+site: https://github.com/libgit2/libgit2
+tags:
+- C
+- git
+- library
+- dvcs
+- vcs
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/libgit2/libgit2/labels/Up%20for%20grabs

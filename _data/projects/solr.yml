@@ -1,0 +1,18 @@
+name: Apache Solr
+desc: "Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene™."
+site: http://lucene.apache.org/solr/
+tags:
+- solr
+- apache
+- lucene
+- java
+- search
+- angular
+- fulltext
+- realtime
+- enterprise
+- query
+- index
+upforgrabs:
+  name: Good First Task
+  link: https://issues.apache.org/jira/issues/?jql=project%20%3D%20SOLR%20AND%20status%20%3D%20Open%20AND%20labels%20%3D%20newdev%20ORDER%20BY%20created%20DESC

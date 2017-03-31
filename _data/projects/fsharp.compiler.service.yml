@@ -1,0 +1,10 @@
+name: FSharp.Compiler.Service
+desc: F# Compiler Service - core component for F# IDE and other tooling
+site: https://github.com/fsharp/FSharp.Compiler.Service
+tags:
+- ".NET"
+- build
+- F#
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsharp/FSharp.Compiler.Service/labels/up-for-grabs

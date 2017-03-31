@@ -1,0 +1,14 @@
+name: ".NET Core Framework Lab"
+desc: >
+  .NET Core Framework Lab is an open source project that aims to provide
+  a way to experiment and explore new ideas that may or may not make it
+  into the .NET Core foundational libraries, called CoreFX.
+site: https://github.com/dotnet/corefxlab/
+tags:
+- ".NET"
+- ".NET Core"
+- "cross-platform"
+- "C#"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dotnet/corefxlab/labels/up-for-grabs

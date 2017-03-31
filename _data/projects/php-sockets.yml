@@ -1,0 +1,9 @@
+name: PHP Sockets
+desc: OOP wrapper and library for working with PHP Sockets
+site: https://github.com/navarr/Sockets
+tags:
+- Sockets
+- PHP
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/navarr/Sockets/labels/up%20for%20grabs

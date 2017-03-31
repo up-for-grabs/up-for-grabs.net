@@ -1,0 +1,10 @@
+name: atom-typescript
+desc: The only TypeScript package you need when using Atom
+site: https://github.com/typestrong/atom-typescript
+tags:
+- TypeScript
+- Atom
+- JavaScript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/TypeStrong/atom-typescript/labels/up-for-grabs

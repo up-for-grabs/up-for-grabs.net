@@ -1,0 +1,19 @@
+name: Johnny-Five
+desc: JavaScript Robotics and IoT programming framework
+site: http://johnny-five.io
+tags:
+- js
+- javascript
+- IoT
+- arduino
+- robotics
+- tessel
+- intel
+- edison
+- "raspberry pi"
+- beaglebone
+- particle
+- photon
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/rwaldron/johnny-five/labels/help-wanted

@@ -1,0 +1,11 @@
+name: GitHub Extension for Visual Studio
+desc: The GitHub Extension for Visual Studio provides GitHub integration in Visual Studio 2015.
+site: https://visualstudio.github.com
+tags:
+- ".NET"
+- C#
+- GitHub
+- Visual Studio
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/github/VisualStudio/labels/Help%20Wanted

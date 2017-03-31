@@ -1,0 +1,16 @@
+name: Glimpse
+desc: >
+  Glimpse is a web debugging and diagnostics tool used to gain a better understanding
+  of whats happening inside of your ASP.NET application.
+site: https://github.com/Glimpse/Glimpse
+tags:
+- ASP.NET
+- Web
+- WebForms
+- diagnostics
+- performance
+- profiling
+- timing
+upforgrabs:
+  name: Jump In
+  link: https://github.com/Glimpse/Glimpse/labels/Jump%20In

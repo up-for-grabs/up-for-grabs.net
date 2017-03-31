@@ -1,0 +1,10 @@
+name: Octokit.NET
+desc: An async-based GitHub API client library for .NET
+site: https://github.com/octokit/octokit.net
+tags:
+- GitHub
+- API
+- Octokit
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/octokit/octokit.net/labels/up-for-grabs

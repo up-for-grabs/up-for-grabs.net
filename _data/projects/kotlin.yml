@@ -1,0 +1,11 @@
+name: Kotlin
+desc: Kotlin Programming Language
+site: http://kotlinlang.org
+tags:
+- Java
+- JVM
+- Kotlin
+- Languages
+upforgrabs:
+  name: Up For Grabs
+  link: https://youtrack.jetbrains.com/issues/KT?q=tag%3A+%7BUp+For+Grabs%7D

@@ -1,0 +1,10 @@
+name: Frontkit
+desc: The powerful front-end framework from InJoin.
+site: http://frontkit.injoin.io
+tags:
+- html
+- javascript
+- css
+upforgrabs:
+  name: help wanted
+  link: https://github.com/injoin/frontkit/labels/help%20wanted

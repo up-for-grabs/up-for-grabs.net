@@ -1,0 +1,14 @@
+name: GitLab 
+desc: Code, test, and deploy together
+site: https://about.gitlab.com
+tags:
+- oss
+- git
+- issues
+- ruby
+- rails
+- javascript
+- web
+upforgrabs:
+  name: Accepting Merge Requests
+  link: https://gitlab.com/gitlab-org/gitlab-ce/issues?assignee_id=0&label_name[]=Accepting%20Merge%20Requests&sort=weight_asc

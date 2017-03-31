@@ -1,0 +1,9 @@
+name: PowerShell extension for Visual Studio Code
+desc: Help improve the PowerShell extension for Visual Studio Code!
+site: https://github.com/PowerShell/vscode-powershell
+tags:
+- PowerShell
+- TypeScript
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/PowerShell/vscode-powershell/labels/help-wanted

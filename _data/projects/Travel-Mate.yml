@@ -1,0 +1,11 @@
+name: Travel Mate 
+desc: A complete travel guide
+site: https://github.com/Swati4star/Travel-Mate
+tags:
+- java
+- android
+- php
+- mysql
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Swati4star/Travel-Mate/labels/up-for-grabs

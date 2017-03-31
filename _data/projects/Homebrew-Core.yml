@@ -1,0 +1,12 @@
+name: Homebrew-Core
+desc: Core formulae for the Homebrew package manager
+site: http://brew.sh/
+tags:
+- ruby
+- osx
+- apple
+- terminal
+- packaging
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Homebrew/homebrew-core/labels/help%20wanted

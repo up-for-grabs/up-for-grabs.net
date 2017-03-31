@@ -1,0 +1,14 @@
+name: Array Slice optimizer
+desc: >
+  ArraySlice allows to build shared memory array views without
+  performance impact (a replacement for ArraySegment<T>). It
+  uses IL manipulation to achieve the fastest implementation.
+site: https://github.com/Codealike/arrayslice
+tags:
+- ".Net"
+- Fody
+- Optimization
+- Arrays
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Codealike/arrayslice/labels/up-for-grabs

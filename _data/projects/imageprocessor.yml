@@ -1,0 +1,13 @@
+name: ImageProcessor
+desc: A library for on-the-fly processing of image files written in C#
+site: https://github.com/JimBobSquarePants/ImageProcessor/
+tags:
+- imageprocessing
+- graphics
+- C#
+- ".NET"
+- issues
+- github
+upforgrabs:
+  name: help needed
+  link: https://github.com/JimBobSquarePants/ImageProcessor/labels/help%20needed

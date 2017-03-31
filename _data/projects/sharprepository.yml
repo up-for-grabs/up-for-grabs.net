@@ -1,0 +1,10 @@
+name: SharpRepository
+desc: Generic Repository with implementations for EF, RavenDb, MongoDB, Db4o and more
+site: https://github.com/SharpRepository/SharpRepository
+tags:
+- Repository
+- C#
+- EntityFramework
+upforgrabs:
+  name: jump in
+  link: https://github.com/SharpRepository/SharpRepository/labels/jump%20in

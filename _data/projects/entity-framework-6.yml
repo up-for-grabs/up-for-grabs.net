@@ -1,0 +1,14 @@
+name: Entity Framework 6
+desc: Entity Framework is Microsoft's recommended data access technology for new applications.
+site: https://github.com/aspnet/EntityFramework6
+tags:
+- Microsoft
+- EF
+- Database
+- Data
+- O/RM
+- ADO.NET
+- EntityFramework
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/aspnet/EntityFramework6/labels/up-for-grabs

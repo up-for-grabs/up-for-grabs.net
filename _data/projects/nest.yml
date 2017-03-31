@@ -1,0 +1,10 @@
+name: NEST
+desc: ".NET elasticsearch client"
+site: https://github.com/elastic/elasticsearch-net
+tags:
+- C#
+- elasticsearch
+- REST
+upforgrabs:
+  name: Up For Grabs
+  link: https://github.com/elastic/elasticsearch-net/labels/Up%20For%20Grabs

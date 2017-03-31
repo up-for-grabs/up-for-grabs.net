@@ -1,0 +1,14 @@
+name: IdentityServer3 Access Token Validation
+desc: OWIN Middleware to validate access tokens from IdentityServer v3
+site: https://github.com/IdentityServer/IdentityServer3.AccessTokenValidation
+tags:
+- ".NET"
+- Security
+- OAuth2
+- OpenID Connect
+- C#
+- OWIN
+- Katana
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/IdentityServer/IdentityServer3.AccessTokenValidation/labels/up%20for%20grabs

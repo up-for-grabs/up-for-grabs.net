@@ -1,0 +1,11 @@
+name: VisualFSharpPowerTools
+desc: Power commands for F# in Visual Studio
+site: https://github.com/fsprojects/VisualFSharpPowerTools
+tags:
+- ".NET"
+- F#
+- refactoring
+- visual studio
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsprojects/VisualFSharpPowerTools/labels/up-for-grabs

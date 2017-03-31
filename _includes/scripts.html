@@ -1,0 +1,72 @@
+<script type="text/html" id="projects-panel-template">
+  <div class="filters-panel cf">
+    <h5>Filter by tags: </h5>
+    <select class="tags-filter" multiple data-placeholder="Select a tag..." >
+    <% _.each(tags, function(entry, key){ %>
+      <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
+    <% }) %>
+    </select>
+    <h5>Popular tags: </h5>
+    <ul class="popular-tags">
+    <% _.each(popularTags, function(entry, key){ %>
+      <li><a href="#/tags/<%-encodeURIComponent(entry.name)%>"><%-entry.name%></a> (<%-entry.frequency%>)</li>
+    <% }) %>
+    </ul>
+  </div>
+  <table class="projects">
+   <% _.each(projects, function(project){ %>
+    <tbody>
+    <tr>
+       <td colspan="2" class="title">
+           <span class="proj"><a href="<%-project.site %>"><%-project.name %></a></span>
+       </td>
+    </tr>
+    <tr>
+       <td class="details">
+        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>"><%-project.upforgrabs.name %></a></p>
+       </td>
+       <td class="details">
+           <% if (project.desc) { %>
+           <span class="desc"><%=project.desc%></span>
+           <% } %>
+           <% if (project.tags) { %>
+           <p class="tags">
+               <% _.each(project.tags, function(tag, i) { %>
+                   <a href="#/tags/<%-encodeURIComponent(tag)%>"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
+               <% }) %>
+           </p>
+           <% } %>
+       </td>
+    </tr>
+    </tbody>
+   <% }) %>
+   </table>
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/showdown/1.3.0/showdown.min.js"></script>
+<script type="text/javascript">
+  var files = {{ site.data.projects | jsonify }};
+  var projects = new Array();
+  var converter = new showdown.Converter();
+  for (var fileName in files) {
+    var project = files[fileName];
+    project.desc = converter.makeHtml(project.desc);
+    projects.push(project);
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.4/sammy.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.0/chosen.jquery.min.js"></script>
+<script src="{{ site.github.url }}/javascripts/projectsService.js"></script>
+<script src="{{ site.github.url }}/javascripts/main.js"></script>
+
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  try {
+    var pageTracker = _gat._getTracker("UA-45897756-1");
+  pageTracker._trackPageview();
+  } catch(err) {}
+</script>

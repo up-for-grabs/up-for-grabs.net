@@ -1,0 +1,14 @@
+name: qutebrowser
+desc: A keyboard-driven, vim-like browser based on PyQt5
+site: http://www.qutebrowser.org/
+tags:
+- oss
+- web
+- browser
+- vim
+- pyqt
+- qt
+- python
+upforgrabs:
+  name: easy
+  link: https://github.com/The-Compiler/qutebrowser/labels/easy

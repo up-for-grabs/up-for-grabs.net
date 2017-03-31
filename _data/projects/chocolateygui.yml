@@ -1,0 +1,12 @@
+name: ChocolateyGUI
+desc: A GUI interface for using Chocolatey
+site: https://github.com/chocolatey/ChocolateyGUI
+tags:
+- Chocolatey
+- ChocolateyGUI
+- C#
+- ".NET"
+- WPF
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/chocolatey/ChocolateyGUI/labels/Up%20for%20grabs

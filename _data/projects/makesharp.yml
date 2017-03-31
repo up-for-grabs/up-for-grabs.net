@@ -1,0 +1,13 @@
+name: Make#
+desc: Use C# scripts to automate the building process
+site: https://github.com/sapiens/MakeSharp
+tags:
+- ".Net"
+- C#
+- make
+- build
+- automation
+- tools
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/sapiens/MakeSharp/labels/up-for-grabs

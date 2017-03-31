@@ -1,0 +1,15 @@
+name: OmniSharp Atom
+desc: Turns the Atom editor into a fully fledged C# IDE
+site: https://github.com/OmniSharp/omnisharp-atom
+tags:
+- roslyn
+- csx
+- atom
+- node
+- script
+- compiler
+- typescript
+- C#
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/OmniSharp/omnisharp-atom/labels/help%20wanted

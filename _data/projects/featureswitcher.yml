@@ -1,0 +1,10 @@
+name: FeatureSwitcher
+desc: FeatureSwitcher is little library for feature switches/toggles.
+site: https://github.com/mexx/FeatureSwitcher
+tags:
+- feature
+- toggle
+- ".net"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/mexx/FeatureSwitcher/labels/up-for-grabs

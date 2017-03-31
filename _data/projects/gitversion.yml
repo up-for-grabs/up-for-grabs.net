@@ -1,0 +1,14 @@
+name: GitVersion
+desc: >
+  Easy Semantic Versioning ([SemVer.org](http://semver.org))
+  for projects using Git
+site: https://github.com/GitTools/GitVersion
+tags:
+- Git
+- Versioning
+- SemVer
+- GitHubFlow
+- GitFlow
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/GitTools/GitVersion/labels/up-for-grabs

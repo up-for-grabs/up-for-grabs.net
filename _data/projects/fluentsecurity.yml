@@ -1,0 +1,10 @@
+name: FluentSecurity
+desc: Fluent Security configuration for ASP.NET MVC http://www.fluentsecurity.net/
+site: https://github.com/kristofferahl/FluentSecurity
+tags:
+- asp.net mvc
+- authentication
+- fluent
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kristofferahl/FluentSecurity/labels/up-for-grabs

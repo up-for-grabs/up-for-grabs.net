@@ -1,0 +1,10 @@
+name: ".NET Core Framework"
+desc: >
+  Contains the .NET Core foundational libraries, called CoreFX. It includes classes
+  for collections, file systems, console, XML, async and many others.
+site: https://github.com/dotnet/corefx/
+tags:
+- ".NET"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dotnet/corefx/labels/up-for-grabs

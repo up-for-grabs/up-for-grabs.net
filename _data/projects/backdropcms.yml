@@ -1,0 +1,13 @@
+name: Backdrop CMS
+desc: The comprehensive CMS for small to medium sized businesses and non-profits.
+site: https://backdropcms.org
+tags:
+- BackdropCMS
+- Backdrop
+- Drupal
+- CMS
+- Content Management System
+- Content Management Systems
+upforgrabs:
+  name: audience - novice
+  link: https://github.com/backdrop/backdrop-issues/labels/audience%20-%20novice

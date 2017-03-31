@@ -1,0 +1,9 @@
+name: Magento
+desc: Magento eCommerce Plaform
+site: http://magento.com
+tags:
+- PHP
+- eCommerce
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/magento/magento2/labels/up%20for%20grabs

@@ -1,0 +1,14 @@
+name: Albedo
+desc: >
+  A .NET library targeted at making Reflection programming more
+  consistent, using a common set of abstractions and utilities.
+site: https://github.com/ploeh/Albedo
+tags:
+- Reflection
+- ".NET"
+- patterns
+- abstraction
+- interface
+upforgrabs:
+  name: jump in
+  link: https://github.com/ploeh/Albedo/labels/jump%20in

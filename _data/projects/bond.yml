@@ -1,0 +1,13 @@
+name: Bond
+desc: >
+  Bond is a cross-platform framework for working with schematized data. It supports
+  cross-language de/serialization and powerful generic mechanisms for efficiently
+  manipulating data.
+site: https://github.com/Microsoft/bond
+tags:
+- serialization
+- json
+- cross-platform
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Microsoft/bond/labels/help%20wanted

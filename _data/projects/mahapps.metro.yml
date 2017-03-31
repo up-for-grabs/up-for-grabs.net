@@ -1,0 +1,10 @@
+name: MahApps.Metro
+desc: A toolkit for creating Metro styled WPF apps
+site: https://github.com/MahApps/MahApps.Metro
+tags:
+- ".NET"
+- C#
+- WPF
+upforgrabs:
+  name: Jump In
+  link: https://github.com/MahApps/MahApps.Metro/labels/Jump%20In

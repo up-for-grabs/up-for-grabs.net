@@ -1,0 +1,13 @@
+name: NuGet client
+desc: >
+  The NuGet Client tools. Includes 'nuget.exe' and the NuGet extensions
+  for Microsoft Visual Studio and Microsoft WebMatrix
+site: https://github.com/NuGet/Home
+tags:
+- nuget
+- visualstudio
+- nuget.exe
+- package
+upforgrabs:
+  name: Up For Grabs
+  link: https://github.com/NuGet/Home/labels/Up%20for%20Grabs

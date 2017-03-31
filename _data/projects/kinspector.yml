@@ -1,0 +1,14 @@
+name: KInspector
+desc: Performance, health and security audit tool for Kentico.
+site: https://github.com/Kentico/KInspector
+tags:
+- Kentico
+- CMS
+- Content Management System
+- KInspector
+- C#
+- ".NET"
+- ASP.NET
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/KInspector/labels/up-for-grabs

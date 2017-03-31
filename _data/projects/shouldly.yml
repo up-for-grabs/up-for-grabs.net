@@ -1,0 +1,11 @@
+name: Shouldly
+desc: Should testing for .net - the way Asserting *Should* be!
+site: https://github.com/shouldly/shouldly
+tags:
+- Testing
+- Assertions
+- ".NET"
+- C#
+upforgrabs:
+  name: Jump-In
+  link: https://github.com/shouldly/shouldly/labels/Jump-In

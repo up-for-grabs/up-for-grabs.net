@@ -1,0 +1,13 @@
+name: SharpBucket
+desc: SharpBucket is a .Net wrapper for the Bitbucket's REST API
+site: https://github.com/MitjaBezensek/SharpBucket
+tags:
+- ".NET"
+- "C#"
+- Bitbucket
+- wrapper
+- rest
+- api
+upforgrabs:
+  name: easy-fix
+  link: https://github.com/MitjaBezensek/SharpBucket/labels/easy-fix

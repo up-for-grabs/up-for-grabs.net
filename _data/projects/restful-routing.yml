@@ -1,0 +1,11 @@
+name: Restful Routing
+desc: A Rails inspired restful routing API for ASP.NET MVC.
+site: https://github.com/stevehodgkiss/restful-routing
+tags:
+- ".NET"
+- mvc
+- asp.net
+- routing
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/stevehodgkiss/restful-routing/labels/up-for-grabs

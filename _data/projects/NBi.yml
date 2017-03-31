@@ -1,0 +1,16 @@
+name: NBi
+desc: NBi is a testing framework (add-on to NUnit) for Microsoft Business Intelligence platform and Data Access.
+site: https://github.com/Seddryck/NBi
+tags:
+- Business Intelligence
+- Database
+- SSIS
+- SSAS
+- Unit Testing
+- TDD
+- BDD
+- SQL Server
+- SQL
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Seddryck/NBi/labels/up-for-grabs

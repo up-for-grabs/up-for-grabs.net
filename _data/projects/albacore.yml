@@ -1,0 +1,20 @@
+name: albacore
+desc: >
+  Albacore is a professional quality suite of Rake tasks for
+  building .NET or Mono based systems.
+site: http://albacorebuild.net/
+tags:
+- F#
+- C#
+- C++
+- VB
+- Ruby
+- buildsuite
+- builds
+- build
+- packaging
+- rake
+- mono
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Albacore/albacore/labels/help%20wanted

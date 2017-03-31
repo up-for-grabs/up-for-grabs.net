@@ -1,0 +1,18 @@
+name: "ReactiveUI"
+desc: A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP).
+site: https://github.com/reactiveui/reactiveui
+tags:
+- ".NET"
+- "C#"
+- "Mvvm"
+- "ReactiveUI"
+- "Xamarin"
+- "Mac"
+- "iOS"
+- "Android"
+- "UWP"
+- "WPF"
+- "Winforms"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/reactiveui/reactiveui/labels/up-for-grabs

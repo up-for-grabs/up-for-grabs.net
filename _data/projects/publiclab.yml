@@ -1,0 +1,10 @@
+name: PublicLab.org
+desc: An open source publishing platform for environmental projects. 
+site: https://github.com/publiclab/plots2
+tags:
+- javascript
+- ruby
+- rubyonrails
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/publiclab/plots2/labels/help-wanted

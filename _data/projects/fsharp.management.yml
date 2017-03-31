@@ -1,0 +1,14 @@
+name: FSharp.Management
+desc: >
+  The FSharp.Management project contains various type providers for the management
+  of the machine.
+site: https://github.com/fsprojects/FSharp.Management
+tags:
+- ".NET"
+- F#
+- typeprovider
+- Powershell
+- Registry
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsprojects/FSharp.Management/labels/up-for-grabs

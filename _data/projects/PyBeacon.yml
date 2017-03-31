@@ -1,0 +1,11 @@
+name: PyBeacon
+desc: Python script for scanning and advertising urls over Eddystone-URL. 
+site: https://github.com/nirmankarta/PyBeacon
+tags:
+- python
+- linux
+- beacons
+- ble
+upforgrabs:
+  name: help wanted
+  link: https://github.com/nirmankarta/PyBeacon/labels/help%20wanted

@@ -1,0 +1,15 @@
+name: FSharp.Formatting
+desc: >
+  F# tools for generating documentation using literate F# scripts and inline Markdown
+  comments for libraries (Also includes stand-alone Markdown processor and F# code
+  formatter)
+site: https://github.com/tpetricek/FSharp.Formatting
+tags:
+- ".NET"
+- F#
+- documentation
+- literate
+- Markdown
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/tpetricek/FSharp.Formatting/labels/up-for-grabs

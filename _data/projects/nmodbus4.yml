@@ -1,0 +1,14 @@
+name: NModbus4
+desc: NModbus4 - Implementation of the Modbus protocol
+site: https://github.com/Maxwe11/NModbus4
+tags:
+- ".NET"
+- modbus
+- tcp
+- udp
+- serial
+- master
+- slave
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Maxwe11/NModbus4/labels/up-for-grabs

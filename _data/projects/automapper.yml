@@ -1,0 +1,9 @@
+name: AutoMapper
+desc: A convention-based object-object mapper.
+site: https://github.com/AutoMapper/AutoMapper
+tags:
+- ".NET"
+- Conventions
+upforgrabs:
+  name: Up For Grabs
+  link: https://github.com/AutoMapper/AutoMapper/labels/Up%20For%20Grabs

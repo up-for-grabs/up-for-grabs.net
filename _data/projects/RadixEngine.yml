@@ -1,0 +1,14 @@
+name: RadixEngine
+desc: Open Source 3d and 2d game engine with physics
+site: https://github.com/GlPortal/RadixEngine
+tags:
+- c++
+- python
+- javascript
+- Game
+- 3d
+- physics
+- 2d
+upforgrabs:
+  name: Simple Task
+  link: https://github.com/GlPortal/RadixEngine/labels/simple%20task

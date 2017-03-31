@@ -1,0 +1,16 @@
+name: Orleans
+desc: Orleans - Distributed Actor Model
+site: https://github.com/dotnet/orleans
+tags:
+- ".NET"
+- C#
+- Microsoft
+- Azure
+- Cloud
+- Distributed
+- Actor
+- Programming
+- Model
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dotnet/orleans/labels/up-for-grabs

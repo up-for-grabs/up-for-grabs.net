@@ -1,0 +1,11 @@
+name: Coveralls.net
+desc: NuGet program for sending coverage reports to coveralls.io
+site: https://github.com/coveralls-net/coveralls.net
+tags:
+- C#
+- ".NET"
+- Coveralls
+- "code coverage"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/coveralls-net/coveralls.net/labels/up-for-grabs

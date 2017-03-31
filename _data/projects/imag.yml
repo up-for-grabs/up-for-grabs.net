@@ -1,0 +1,13 @@
+name: imag
+desc: A commandline personal information management suite
+site: https://github.com/matthiasbeyer/imag
+tags:
+- rust
+- commandline
+- oss
+- collaboration
+- library
+- minimal
+upforgrabs:
+  name: complexity/easy
+  link: https://github.com/matthiasbeyer/imag/labels/complexity%2Feasy

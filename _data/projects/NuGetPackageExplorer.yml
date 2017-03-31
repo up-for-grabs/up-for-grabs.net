@@ -1,0 +1,13 @@
+name: NuGet Package Explorer
+desc: NuGet Package Explorer is a ClickOnce & Chocolatey application that makes it easy to create and explore NuGet packages. 
+site: https://github.com/NuGetPackageExplorer/NuGetPackageExplorer
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- C#
+- ".net"
+- nuget
+- package
+- chocolatey
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/NuGetPackageExplorer/NuGetPackageExplorer/labels/up-for-grabs

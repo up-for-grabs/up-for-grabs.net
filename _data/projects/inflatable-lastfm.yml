@@ -1,0 +1,14 @@
+name: Inflatable Last.fm .NET SDK
+desc: Portable Last.fm library for .NET platforms.
+site: https://github.com/inflatablefriends/lastfm
+tags:
+- C#
+- music
+- REST
+- Last.fm
+- lastfm
+- ".NET"
+- inflatable
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/inflatablefriends/lastfm/labels/up%20for%20grabs

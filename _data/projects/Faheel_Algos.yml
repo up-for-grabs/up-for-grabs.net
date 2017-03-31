@@ -1,0 +1,10 @@
+name: Algos
+desc: Implementation of well-known (and some rare) algorithms, mostly in C++
+site: https://github.com/faheel/Algos
+tags:
+- Algorithms
+- Data Structures
+- C++
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/faheel/Algos/issues?q=is%3Aopen+is%3Aissue+label%3A%22Up+for+grabs%22

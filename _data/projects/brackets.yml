@@ -1,0 +1,15 @@
+name: Brackets
+desc: A code editor for HTML, CSS and JavaScript that's built in HTML, CSS and JavaScript.
+site: http://brackets.io/
+tags:
+- html
+- css
+- javascript
+- js
+- brackets
+- adobe
+- ide
+- editor
+upforgrabs:
+  name: starter bug
+  link: https://github.com/adobe/brackets/labels/starter%20bug

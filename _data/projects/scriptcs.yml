@@ -1,0 +1,11 @@
+name: scriptcs
+desc: Write C# apps with a text editor, nuget and the power of Roslyn!
+site: https://github.com/scriptcs/scriptcs
+tags:
+- roslyn
+- csx
+- script
+- scriptcs
+upforgrabs:
+  name: you take it
+  link: https://github.com/scriptcs/scriptcs/labels/you%20take%20it

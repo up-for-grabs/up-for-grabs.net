@@ -1,0 +1,10 @@
+name: Cake
+desc: Cake (C# Make) is a build automation system using C#.
+site: https://github.com/cake-build/cake
+tags:
+- ".NET"
+- C#
+- Build
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/cake-build/cake/labels/up-for-grabs

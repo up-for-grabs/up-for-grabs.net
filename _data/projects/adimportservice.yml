@@ -1,0 +1,14 @@
+name: AD Import Service
+desc: A windows service for Active Directory synchronization with Kentico.
+site: https://github.com/Kentico/ADImportService
+tags:
+- Kentico
+- CMS
+- Content Management System
+- AD
+- Active Directory
+- C#
+- ".NET"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/ADImportService/labels/up-for-grabs

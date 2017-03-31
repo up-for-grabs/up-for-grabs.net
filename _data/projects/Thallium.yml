@@ -1,0 +1,13 @@
+name: Thallium
+desc: A simple, extensible JavaScript test framework (work in progress)
+site: https://github.com/isiahmeadows/thallium
+tags:
+# Note those are tags categorizing your project, not issue labels.
+  - javascript
+  - node
+  - browser
+  - testing
+  - tdd
+upforgrabs:
+  name: Easy
+  link: https://github.com/isiahmeadows/thallium/labels/Easy

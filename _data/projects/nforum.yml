@@ -1,0 +1,10 @@
+name: NForum
+desc: A generic forum engine for .NET
+site: https://github.com/steentottrup/NForum/issues
+tags:
+- ".NET"
+- C#
+- Forum
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/steentottrup/NForum/labels/up-for-grabs

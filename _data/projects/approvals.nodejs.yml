@@ -1,0 +1,10 @@
+name: Approvals.NodeJS
+desc: Approval Tests implementation in NodeJS
+site: https://github.com/approvals/Approvals.NodeJS
+tags:
+- node
+- JavaScript
+- testing
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/approvals/Approvals.NodeJS/labels/up-for-grabs

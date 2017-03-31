@@ -1,0 +1,11 @@
+name: GitReleaseNotes
+desc: Release notes generator for Git projects
+site: https://github.com/GitTools/GitReleaseNotes
+tags:
+- Git
+- SemanticReleaseNotes
+- Release Notes
+- GitHub
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/GitTools/GitReleaseNotes/labels/up-for-grabs

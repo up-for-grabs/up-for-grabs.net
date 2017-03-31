@@ -1,0 +1,13 @@
+name: Paket
+desc: A package dependency manager for .NET
+site: https://github.com/fsprojects/Paket
+tags:
+- ".NET"
+- build
+- dependency manager
+- packaging
+- package
+- F#
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsprojects/Paket/labels/up-for-grabs

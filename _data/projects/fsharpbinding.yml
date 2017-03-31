@@ -1,0 +1,12 @@
+name: fsharpbinding
+desc: F# Language Bindings for Open Editors (Emacs, MonoDevelop)
+site: https://github.com/fsharp/fsharpbinding
+tags:
+- ".NET"
+- F#
+- emacs
+- monodevelop
+- xamarin
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsharp/fsharpbinding/labels/up-for-grabs

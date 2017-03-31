@@ -1,0 +1,9 @@
+name: Fluent Migrator Runner for DNX
+desc: DNX Runner for Fluent Migrator
+site: https://github.com/giggio/FluentMigrator.Runner.DNX
+tags:
+- migration
+- dnx
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/giggio/FluentMigrator.Runner.DNX/labels/up-for-grabs

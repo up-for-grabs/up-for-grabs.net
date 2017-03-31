@@ -1,0 +1,15 @@
+name: Hyprlinkr
+desc: >
+  Hyprlinkr is a small and very focused helper library for the ASP.NET Web API.
+  It does one thing only - it creates URIs according to the applications route configuration
+  in a type-safe manner
+site: https://github.com/ploeh/Hyprlinkr
+tags:
+- REST
+- ASP.NET Web API
+- URLs
+- C#
+- F#
+upforgrabs:
+  name: jump in
+  link: https://github.com/ploeh/Hyprlinkr/labels/jump%20in

@@ -1,0 +1,13 @@
+name: Code Cracker
+desc: >
+  An analyzer library for C# that uses Roslyn to produce refactorings,
+  code analysis, and other niceties.
+site: https://github.com/code-cracker/code-cracker
+tags:
+- roslyn
+- csharp analyzers
+- code fix
+- C#
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/code-cracker/code-cracker/labels/up-for-grabs

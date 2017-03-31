@@ -1,0 +1,13 @@
+name: MarkPad by Code52
+desc: A visual Markdown editor (inspired by the Downmarker project)
+site: https://github.com/Code52/DownmarkerWPF
+tags:
+- Markdown
+- ".NET"
+- C#
+- WPF
+- Jekyll
+- MetaWebLog
+upforgrabs:
+  name: jump in
+  link: https://github.com/Code52/DownmarkerWPF/labels/jump%20in

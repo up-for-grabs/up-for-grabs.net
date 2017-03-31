@@ -1,0 +1,13 @@
+name: Nancy
+desc: >
+  Lightweight, low-ceremony, framework for building HTTP based services
+  on .Net and Mono
+site: https://github.com/NancyFx/Nancy
+tags:
+- ".net"
+- c#
+- web
+- mono
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/NancyFx/Nancy/labels/Up%20for%20grabs

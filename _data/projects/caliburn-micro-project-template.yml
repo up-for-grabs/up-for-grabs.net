@@ -1,0 +1,11 @@
+name: Caliburn.Micro Project Template
+desc: This project template allows you to skip the installation of Caliburn.Micro and start coding directly. The project will also contain tools and helpers which might help you, in the form of services that can be included in your view models.
+site: https://github.com/thewindev/CaliburnMicroProjectTemplate
+tags:
+- caliburn.micro
+- windows
+- universal apps
+- windows phone
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/thewindev/CaliburnMicroProjectTemplate/labels/up%20for%20grabs

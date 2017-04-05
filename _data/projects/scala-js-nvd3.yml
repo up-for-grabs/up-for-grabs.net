@@ -1,0 +1,13 @@
+name: ScalaJS NvD3
+desc: ScalaJS facade types for NvD3
+site: https://github.com/camilosampedro/scala-js-nvd3
+tags:
+- scala
+- scala-js
+- d3
+- nvd3
+- sbt
+- facade
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/camilosampedro/scala-js-nvd3/labels/up-for-grabs

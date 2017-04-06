@@ -6,5 +6,5 @@ tags:
 - text-editor
 - terminal
 upforgrabs:
-  name: Add more keyword possibilities
-  link: https://github.com/shnupta/bric/issues/2
+  name: Improve the editor!
+  link: https://github.com/shnupta/bric/labels/up-for-grabs

@@ -1,0 +1,18 @@
+name: light-pollution
+desc: A list of all U.S. Prosecutors.
+site: http://billimarie.github.io/light-pollution
+tags:
+- handlebars
+- design
+- json
+- data
+- css
+- html
+- bootstrap
+- gulp
+- npm
+- build
+- prototype
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/billimarie/light-pollution/labels/help-wanted

@@ -3,11 +3,9 @@
 This document outlines how contributors to the Up-For-Grabs project
 should interact with each other, and the process for resolving issues.
 
-Projects listed on Up-For-Grabs are not covered by this code of conduct, and
-you should refer to the governance rules if you have enquiries about an issue
-with a specific project.
-
-WORDS
+Projects listed on Up-For-Grabs are not covered by this code of conduct.
+Inquiries about a specific project should be addressed according to that
+project's governance rules.
 
 ## Our Pledge
 

@@ -1,0 +1,12 @@
+name: NodeCG
+desc: Create broadcast graphics using Node.js and a browser
+site: http://nodecg.com/
+tags:
+- graphics
+- nodecg
+- node
+- dynamic
+- broadcast
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/nodecg/nodecg/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs

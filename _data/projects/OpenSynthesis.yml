@@ -1,0 +1,14 @@
+name: Open Synthesis
+desc: Open Synthesis is an open platform for CIA-style intelligence analysis
+site: https://github.com/twschiller/open-synthesis
+tags:
+- python
+- django
+- bootstrap
+- design
+- devops
+- collaboration
+- analysis
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/twschiller/open-synthesis/labels/help%20wanted

@@ -1,0 +1,11 @@
+name: WindBot's Raphael Library
+desc: Raphael Library is a pack of functions created with a view to ease and fasten WindBot scripts' development.
+site: https://github.com/Tibia-WindBot/raphael-library
+tags:
+- lua
+- windbot
+- tibia
+- library
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Tibia-WindBot/raphael-library/labels/up-for-grabs

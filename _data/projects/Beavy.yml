@@ -1,0 +1,11 @@
+name: Beavy
+desc: Beavy is a modular, multi-purpose social community development framework. 
+site: http://www.beavy.xyz
+tags:
+- python
+- javascript
+- react
+- web
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/beavyHQ/beavy/labels/help%20wanted

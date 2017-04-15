@@ -1,0 +1,11 @@
+name: owl.js
+desc: Backbone-like front-end MVC library without underscore.js and jQuery dependency
+site: http://owljs.org/
+tags:
+- javascript
+- web
+- mvc
+- REST
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/owljsorg/owl.js/issues?q=is%3Aissue+is%3Aopen+label%3A%22up+for+grabs%22

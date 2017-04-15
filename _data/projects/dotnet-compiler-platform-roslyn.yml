@@ -11,5 +11,5 @@ tags:
 - C#
 - VB.NET
 upforgrabs:
-  name: Up for Grabs
-  link: https://github.com/dotnet/roslyn/labels/Up%20for%20Grabs
+  name: up-for-grabs
+  link: https://github.com/dotnet/roslyn/labels/up-for-grabs

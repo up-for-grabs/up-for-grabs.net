@@ -1,0 +1,11 @@
+name: ODK Collect
+desc: ODK Collect is an Android app for filling out forms. It's been used to collect millions of data points in challenging environments around the world. Contribute and make the world a better place! 
+site: https://github.com/opendatakit/collect
+tags:
+- android
+- java
+- global-development
+- data-collection
+upforgrabs:
+  name: quick win
+  link: https://github.com/opendatakit/collect/labels/quick%20win

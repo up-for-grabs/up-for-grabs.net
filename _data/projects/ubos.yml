@@ -1,0 +1,18 @@
+name: UBOS
+desc: Linux distro for Personal Servers and indie IoT devices
+site: http://ubos.net/
+tags:
+- apache
+- apps
+- documentation
+- IoT
+- letsencrypt
+- linux
+- privacy
+- "raspberry pi"
+- testing
+- ubos
+- web
+upforgrabs:
+  name: starter issue
+  link: http://ubos.net/community/starterissues.html

@@ -1,0 +1,12 @@
+name: Netbeast
+desc: An IoT development platform that empowers developers to easily create and deploy IoT apps. 
+site: https://netbeast.co
+tags:
+- nodejs
+- javascript
+- react
+- iot
+- smarthome
+upforgrabs:
+  name: easy
+  link: https://github.com/netbeast/dashboard/labels/easy

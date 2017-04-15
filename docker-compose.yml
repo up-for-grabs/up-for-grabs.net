@@ -1,0 +1,6 @@
+app:
+  build: .
+  ports:
+    - '4000:4000'
+  volumes:
+    - .:/usr/src/app

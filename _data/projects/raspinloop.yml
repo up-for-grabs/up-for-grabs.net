@@ -1,0 +1,12 @@
+name: RaspInLoop
+desc: Simulate and debug java applications written with Pi4J Project on Raspberry Pi. RaspInLoop allows debugger to interact with computer simulation software.
+site: http://www.raspinloop.org
+tags:
+- oss
+- simulation
+- raspberry pi
+- java
+- eclipse
+upforgrabs:
+  name: "help wanted"
+  link: https://github.com/RaspInLoop/RaspInLoop-fmi-plugin/labels/help%20wanted

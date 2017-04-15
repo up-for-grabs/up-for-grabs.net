@@ -1,0 +1,11 @@
+name: WindBot's Lucas Library
+desc: Lucas Library is a pack of functions created with a view to ease and fasten WindBot scripts' development.
+site: https://github.com/Tibia-WindBot/lucas-library
+tags:
+- lua
+- windbot
+- tibia
+- library
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Tibia-WindBot/lucas-library/labels/up-for-grabs

@@ -1,0 +1,19 @@
+name: Nextcloud
+desc: A safe home for all your data
+site: https://nextcloud.com
+tags:
+- javascript
+- web
+- php
+- design
+- html
+- css
+- database
+- privacy
+- android
+- ios
+- c++
+- qt
+upforgrabs:
+  name: starter issue
+  link: https://github.com/nextcloud/server/labels/starter%20issue

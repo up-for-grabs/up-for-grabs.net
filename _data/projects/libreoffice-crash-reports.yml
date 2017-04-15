@@ -1,0 +1,19 @@
+name: LibreOffice Crash Reports
+desc: Django-based website with statistics about LibreOffice crash reports
+site: http://crashreport.libreoffice.org/stats/
+tags:
+- libreoffice
+- office
+- desktop
+- crash
+- django
+- python
+- web
+- javascript
+- js
+- ui
+- qa
+- quality-assurance
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/mmohrhard/crash/labels/up-for-grabs

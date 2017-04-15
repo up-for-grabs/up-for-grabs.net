@@ -1,0 +1,11 @@
+name: Aware
+desc: Platform for people to raise their opinions and concerns related to environment and pollution in their locality
+site: https://github.com/prabhakar267/aware
+tags:
+- python
+- android
+- javascript
+- css
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/prabhakar267/aware/labels/up-for-grabs

@@ -1,0 +1,14 @@
+name: Inexor
+desc: Fast paced ego shooter + game engine
+site: https://inexor.org
+tags:
+- Game
+- Engine
+- C++
+- JavaScript
+- NodeJS
+- HTML5
+upforgrabs:
+  name: good first bug
+  link: https://github.com/inexor-game/code/labels/good%20first%20bug
+  

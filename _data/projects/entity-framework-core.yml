@@ -1,0 +1,14 @@
+name: Entity Framework Core
+desc: Entity Framework Core is a lightweight and extensible version of the popular Entity Framework data access technology.
+site: https://github.com/aspnet/EntityFramework
+tags:
+- Microsoft
+- EF
+- Database
+- Data
+- O/RM
+- ADO.NET
+- EntityFramework
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/aspnet/EntityFramework/labels/up-for-grabs

@@ -1,0 +1,12 @@
+name: Elite Journal
+desc: Parsing the Elite Dangerous journal and putting it into a cool format.
+site: https://github.com/willyb321/elite-journal
+tags:
+- electron
+- javascript
+- html
+- css
+- nodejs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/willyb321/elite-journal/labels/up-for-grabs

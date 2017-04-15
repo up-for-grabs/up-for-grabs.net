@@ -1,0 +1,9 @@
+name: posh-git
+desc: posh-git integrates Git and PowerShell by providing Git status summary information in the prompt and tab-completion of commands, parameters, remotes and branch names.
+site: https://github.com/dahlbyk/posh-git
+tags:
+- PowerShell
+- Git
+upforgrabs:
+  name: Up-For-Grabs
+  link: https://github.com/dahlbyk/posh-git/labels/Up-for-Grabs

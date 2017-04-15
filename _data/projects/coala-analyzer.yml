@@ -1,0 +1,17 @@
+name: coala
+desc: coala provides a common multiplatform interface for linting and fixing all your code, regardless of the programming language you use. Its convenient user interface eliminates a lot of common tasks for the developer. coala also facilitates people entering the world of open source by providing them valuable feedback on coding standards and formatting. So, in a nutshell coala is a useful abstraction for static code analysis that is applicable to any text based language.
+site: http://coala.io/
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- python
+- newcomer friendly
+- code analysis
+- linters
+- python3
+- cli
+- automation
+- devops
+- framework
+upforgrabs:
+  name: difficulty/newcomer
+  link: http://coala.io/new

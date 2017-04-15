@@ -1,36 +1,36 @@
 up-for-grabs.net
 ================
 
-Run an open-source project? Submit a Pull Request to add yourself to the list!
+Do you run or participate in an open-source project? Submit a Pull Request to add it to the list!
 
 Visit the website: [up-for-grabs.net](http://up-for-grabs.net/)
 
-## Add your project
+## Add a project
 
-Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add yours, create a new file named after your project, ending in `.yml`. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in your browser without cloning the repository.
+Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add a new one, create a new file named after the project, ending in `.yml`. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in the browser, without cloning the repository in the command line.
 
 The contents of the file are just some details about the project:
 
 ```yaml
-name: *your project here*
-desc: *some details about the project*
+name: *project name*
+desc: *a brief description of the project*
 site: *home page or repository URL*
 tags:
-# Note those are tags categorizing your project, not issue labels.
+# Note: these are tags categorizing the project, not issue labels.
 - *tags*
 - *to*
 - *search*
 - *on*
 upforgrabs:
-  name: *the label associated with your tasks*
-  link: *URL which users can view the tasks*
+  name: *the label associated with the up-for-grabs tasks -- e.g. "help needed" (without the quotes)*
+  link: *URL where users can view the tasks -- e.g. https://github.com/username/project/labels/up%20for%20grabs*
 ```
 
 Check out the [up-for-grabs](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml) file for an example of this project structure.
 
 ## Use the Yeoman Generator
 
-If you'd like to use a generator to create your project's file, you can certainly do so!
+If you'd like to use a generator to create the project's file, you can certainly do so!
 
 Install the generator, then run it and walk through the steps.
 
@@ -47,7 +47,7 @@ If you haven't already, clone the repository to your machine:
 git clone https://github.com/up-for-grabs/up-for-grabs.net.git
 ```
 
-If you have a fork of the repository, change `up-for-grabs` for your GitHub account name above.
+If you have a fork of the repository, change `up-for-grabs` into your GitHub account name above.
 
 You need Ruby and Bundler installed to test the site - you can confirm these are present by running these commands:
 

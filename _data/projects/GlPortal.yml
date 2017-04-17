@@ -1,13 +1,14 @@
-name: glportal
-desc: A free and open game and game engine with portals.
+name: GlPortal
+desc: Open Source sci-fi fps puzzle-platformer
 site: https://github.com/GlPortal/glPortal
 tags:
 - c++
 - python
 - javascript
 - Game
-- engine
 - 3d
+- physics
+- 2d
 upforgrabs:
   name: Simple Task
-  link: https://bugs.glportal.de/index.php?project=1&type%5B%5D=5
+  link: https://github.com/GlPortal/glPortal/labels/simple%20task

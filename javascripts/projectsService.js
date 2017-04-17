@@ -1,34 +1,34 @@
-(function(host, _) {
+(function (host, _) {
   var applyTagsFilter = function (projects, tagsMap, tags) {
     if (typeof tags === "string") {
       tags = tags.split(",");
     }
 
-    tags = _.map(tags, function(entry){
+    tags = _.map(tags, function (entry) {
       return entry && entry.replace(/^\s+|\s+$/g, "");
     });
 
-    if(!tags || !tags.length || tags[0] == "") {
+    if (!tags || !tags.length || tags[0] == "") {
       return projects;
     }
 
-    var projectNames = _.uniq(_.flatten(_.map(tags, function(tag){
+    var projectNames = _.uniq(_.flatten(_.map(tags, function (tag) {
       var hit = tagsMap[tag.toLowerCase()];
       return (hit && hit.projects) || [];
     })));
 
-    return _.filter(projects, function(project){
+    return _.filter(projects, function (project) {
       return _.contains(projectNames, project.name);
     });
   };
 
-  var TagBuilder = function(){
+  var TagBuilder = function () {
     var _tagsMap = {},
-        _orderedTagsMap = null;
+      _orderedTagsMap = null;
 
-    var _addTag = function(tag, projectName) {
+    var _addTag = function (tag, projectName) {
       var tagLowerCase = tag.toLowerCase();
-      if(!_.has(_tagsMap, tagLowerCase)) {
+      if (!_.has(_tagsMap, tagLowerCase)) {
         _tagsMap[tagLowerCase] = {
           "name": tag,
           "frequency": 0,
@@ -38,7 +38,8 @@
       return _tagsMap[tagLowerCase];
     };
 
-    var _addProjectToTag = function(entry, projectName) {
+
+    var _addProjectToTag = function (entry, projectName) {
         entry.projects.push(projectName);
         entry.frequency++;
     };
@@ -55,20 +56,20 @@
       _addProjectToTag(_addTag(projectName, projectName), projectName);
     };
 
-    this.getTagsMap = function() {
+    this.getTagsMap = function () {
       //http://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
-      return _orderedTagsMap = _orderedTagsMap || _(_tagsMap).chain().sortBy(function(tag, key){
+      return _orderedTagsMap = _orderedTagsMap || _(_tagsMap).chain().sortBy(function (tag, key) {
         return key;
-      }).sortBy(function(tag, key){
+      }).sortBy(function (tag, key) {
         return tag.frequency * -1;
       }).value();
     };
   }
 
-  var extractTags = function(projectsData) {
+  var extractTags = function (projectsData) {
     var tagBuilder = new TagBuilder();
-    _.each(projectsData, function(entry){
-      _.each(entry.tags, function(tag){
+    _.each(projectsData, function (entry) {
+      _.each(entry.tags, function (tag) {
         tagBuilder.addTag(tag, entry.name);
       });
       // create or update tags where project name matches tag
@@ -77,7 +78,7 @@
     return tagBuilder.getTagsMap();
   };
 
-  var extractProjectsAndTags = function(projectsData) {
+  var extractProjectsAndTags = function (projectsData) {
     return {
       "projects": projectsData,
       "tags": extractTags(projectsData)
@@ -88,8 +89,8 @@
     var _projectsData = extractProjectsAndTags(projectsData);
     var tagsMap = {};
 
-    var canStoreOrdering = (JSON && sessionStorage && sessionStorage.getItem
-                            && sessionStorage.setItem);
+    var canStoreOrdering = (JSON && sessionStorage && sessionStorage.getItem &&
+      sessionStorage.setItem);
     var ordering = null;
     if (canStoreOrdering) {
       ordering = sessionStorage.getItem("projectOrder");
@@ -111,17 +112,19 @@
     }
 
     var projects = _.map(ordering,
-                         function(i) { return _projectsData.projects[i]; });
+      function (i) {
+        return _projectsData.projects[i];
+      });
 
-    _.each(_projectsData.tags, function(tag){
+    _.each(_projectsData.tags, function (tag) {
       tagsMap[tag.name.toLowerCase()] = tag;
     });
 
-    this.get = function(tags){
+    this.get = function (tags) {
       return applyTagsFilter(projects, tagsMap, tags);
     };
 
-    this.getTags = function() {
+    this.getTags = function () {
       return tagsMap;
     };
 

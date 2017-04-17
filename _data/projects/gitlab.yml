@@ -10,5 +10,5 @@ tags:
 - javascript
 - web
 upforgrabs:
-  name: up-for-grabs
-  link: https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=up-for-grabs
+  name: Accepting Merge Requests
+  link: https://gitlab.com/gitlab-org/gitlab-ce/issues?assignee_id=0&label_name[]=Accepting%20Merge%20Requests&sort=weight_asc

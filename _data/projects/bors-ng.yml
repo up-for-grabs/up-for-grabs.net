@@ -1,0 +1,10 @@
+name: Bors-NG
+desc: A GitHub integration that checks pull requests before merging them.
+site: https://bors-ng.github.io/starters
+tags:
+- github
+- elixir
+- ci
+upforgrabs:
+  name: E-easy
+  link: https://github.com/bors-ng/bors-ng/labels/E-easy

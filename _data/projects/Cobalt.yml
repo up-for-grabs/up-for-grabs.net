@@ -1,0 +1,11 @@
+name: Cobalt - JVM Programming Language
+desc: A new proposed JVM language 
+site: https://github.com/Michael2109/Cobalt
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- Scala
+- Java
+- Compiler
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/michael2109/Cobalt/labels/up-for-grabs

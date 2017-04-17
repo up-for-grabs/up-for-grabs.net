@@ -1,0 +1,11 @@
+name: eBooker
+desc: eBooker is a command-line application written in Python. With it, you don't have to learn programming or manage massive user interfaces to make great eBooks. We provide simple download scripts for all major operating systems, so just download, install, and enjoy.
+site: https://arch-master.github.io/eBooker/
+tags:
+- python
+- python3
+- commandline
+- Command-line
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/arch-master/eBooker/issues?q=is%3Aissue+is%3Aopen+label%3Ahelp-wanted

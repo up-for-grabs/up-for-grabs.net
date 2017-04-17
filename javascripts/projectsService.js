@@ -26,7 +26,7 @@
     var _tagsMap = {},
       _orderedTagsMap = null;
 
-    this.addTag = function (tag, projectName) {
+    var _addTag = function (tag, projectName) {
       var tagLowerCase = tag.toLowerCase();
       if (!_.has(_tagsMap, tagLowerCase)) {
         _tagsMap[tagLowerCase] = {
@@ -35,9 +35,25 @@
           "projects": []
         };
       }
-      var _entry = _tagsMap[tagLowerCase];
-      _entry.frequency++;
-      _entry.projects.push(projectName);
+      return _tagsMap[tagLowerCase];
+    };
+
+
+    var _addProjectToTag = function (entry, projectName) {
+        entry.projects.push(projectName);
+        entry.frequency++;
+    };
+
+    this.addTag = function(tag, projectName) {
+      var _entry = _addTag(tag, projectName);
+      // Skip updating projects and frequency for projects that tagged themselves
+      if(tag.toLowerCase() !== projectName.toLowerCase()) {
+        _addProjectToTag(_entry, projectName);
+      }
+    };
+
+    this.addProjectTag = function(projectName) {
+      _addProjectToTag(_addTag(projectName, projectName), projectName);
     };
 
     this.getTagsMap = function () {
@@ -56,6 +72,8 @@
       _.each(entry.tags, function (tag) {
         tagBuilder.addTag(tag, entry.name);
       });
+      // create or update tags where project name matches tag
+      tagBuilder.addProjectTag(entry.name);
     });
     return tagBuilder.getTagsMap();
   };

@@ -1,0 +1,12 @@
+name: Grain Framework
+desc: Static Web Site Building Framework For Groovy
+site: https://github.com/sysgears/grain/
+tags:
+- Groovy
+- HTML
+- static
+- web
+- generator
+upforgrabs:
+  name: easy
+  link: https://github.com/sysgears/grain/labels/easy

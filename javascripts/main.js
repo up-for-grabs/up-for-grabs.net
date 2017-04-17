@@ -1,3 +1,5 @@
+/* global ProjectsService, projects, QUOTA_EXCEEDED_ERR, NS_ERROR_DOM_QUOTA_REACHED, _, jQuery */
+
 (function ($) {
 
   var projectsSvc = new ProjectsService(projects),
@@ -6,31 +8,31 @@
 
   var renderProjects = function (tags) {
     projectsPanel.html(compiledtemplateFn({
-      "projects": projectsSvc.get(tags),
-      "tags": projectsSvc.getTags(),
-      "popularTags": projectsSvc.getPopularTags(6),
-      "selectedTags": tags
+      'projects': projectsSvc.get(tags),
+      'tags': projectsSvc.getTags(),
+      'popularTags': projectsSvc.getPopularTags(6),
+      'selectedTags': tags
     }));
 
-    projectsPanel.find("select.tags-filter").chosen({
-      no_results_text: "No tags found by that name.",
-      width: "95%"
-    }).val(tags).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/tags/" + encodeURIComponent(($(this).val() || ""));
+    projectsPanel.find('select.tags-filter').chosen({
+      no_results_text: 'No tags found by that name.',
+      width: '95%'
+    }).val(tags).trigger('chosen:updated').change(function () {
+      window.location.href = '#/tags/' + encodeURIComponent(($(this).val() || ''));
     });
   };
 
   var app = $.sammy(function () {
-    this.get("#/", function (context) {
+    this.get('#/', function () {
       renderProjects();
     });
 
-    this.get("#/tags/", function (context) {
+    this.get('#/tags/', function () {
       renderProjects();
     });
 
-    this.get("#/tags/:tags", function (context) {
-      var tags = (this.params["tags"] || "").toLowerCase().split(",");
+    this.get('#/tags/:tags', function () {
+      var tags = (this.params['tags'] || '').toLowerCase().split(',');
       renderProjects(tags);
     });
   });
@@ -38,7 +40,7 @@
   var storage = (function (global) {
     function set(name, value) {
       try {
-        if (typeof (global.localStorage) !== "undefined") {
+        if (typeof (global.localStorage) !== 'undefined') {
           global.localStorage.setItem(name, JSON.stringify(value));
         }
       } catch (exception) {
@@ -47,14 +49,14 @@
           throw exception;
         }
       }
-    };
+    }
 
     function get(name) {
-      if (typeof (global.localStorage) !== "undefined") {
+      if (typeof (global.localStorage) !== 'undefined') {
         return JSON.parse(global.localStorage.getItem(name));
       }
       return undefined;
-    };
+    }
 
     return {
       set: set,
@@ -69,7 +71,7 @@
       url = gh && ('https://api.github.com/repos' + gh[1] + 'issues?labels=' + gh[2]),
       count = a.find('.count');
 
-    if (!!count.length) {
+    if (count.length === 0) {
       return;
     }
 
@@ -86,12 +88,12 @@
     }
 
     $.ajax(url)
-      .done(function (data, textStatus, jqXHR) {
+      .done(function (data) {
         var resultCount = data && typeof data.length === 'number' ? data.length.toString() : '?';
         count.html(resultCount);
         storage.set(gh[1], {
-          "count": resultCount,
-          "date": new Date()
+          'count': resultCount,
+          'date': new Date()
         });
       })
       .fail(function (jqXHR, textStatus, errorThrown) {
@@ -126,20 +128,20 @@
         });
     });
 
-    compiledtemplateFn = _.template($("#projects-panel-template").html());
-    projectsPanel = $("#projects-panel");
+    compiledtemplateFn = _.template($('#projects-panel-template').html());
+    projectsPanel = $('#projects-panel');
 
-    projectsPanel.on("click", "a.remove-tag", function (e) {
+    projectsPanel.on('click', 'a.remove-tag', function (e) {
       e.preventDefault();
       var tags = [];
-      projectsPanel.find("a.remove-tag").not(this).each(function () {
-        tags.push($(this).data("tag"));
+      projectsPanel.find('a.remove-tag').not(this).each(function () {
+        tags.push($(this).data('tag'));
       });
-      var tagsString = tags.join(",");
-      window.location.href = "#/tags/" + tagsString;
+      var tagsString = tags.join(',');
+      window.location.href = '#/tags/' + tagsString;
     });
 
     app.raise_errors = true;
-    app.run("#/");
+    app.run('#/');
   });
 })(jQuery);

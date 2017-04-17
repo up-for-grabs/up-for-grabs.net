@@ -1,0 +1,21 @@
+{
+  "name": "up-for-grabs.net",
+  "version": "1.0.0",
+  "description": "client side tooling for the up-for-grabs website",
+  "scripts": {
+    "lint": "eslint javascripts/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/up-for-grabs/up-for-grabs.net.git"
+  },
+  "author": "Up-For-Grabs Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/up-for-grabs/up-for-grabs.net/issues"
+  },
+  "homepage": "https://github.com/up-for-grabs/up-for-grabs.net#readme",
+  "devDependencies": {
+
+  }
+}

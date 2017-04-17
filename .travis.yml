@@ -5,11 +5,19 @@ rvm:
 sudo: false
 
 install:
+  # use a recent version of Node
+  - . $HOME/.nvm/nvm.sh
+  - nvm install stable
+  - nvm use stable
+  # and also ensure NPM is up to date
+  - npm install --global npm
+  - npm install
   - bundle install
 
 script:
   - bundle exec jekyll build
   - ruby scripts/cibuild.rb
+  - npm run lint
 
 branches:
   only:

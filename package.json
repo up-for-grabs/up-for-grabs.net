@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/up-for-grabs/up-for-grabs.net#readme",
   "devDependencies": {
-
+    "eslint": "^3.19.0"
   }
 }

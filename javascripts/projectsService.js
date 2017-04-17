@@ -1,14 +1,16 @@
+/* global _ */
+
 (function (host, _) {
   var applyTagsFilter = function (projects, tagsMap, tags) {
-    if (typeof tags === "string") {
-      tags = tags.split(",");
+    if (typeof tags === 'string') {
+      tags = tags.split(',');
     }
 
     tags = _.map(tags, function (entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, "");
+      return entry && entry.replace(/^\s+|\s+$/g, '');
     });
 
-    if (!tags || !tags.length || tags[0] == "") {
+    if (!tags || !tags.length || tags[0] == '') {
       return projects;
     }
 
@@ -26,13 +28,13 @@
     var _tagsMap = {},
       _orderedTagsMap = null;
 
-    var _addTag = function (tag, projectName) {
+    var _addTag = function (tag) {
       var tagLowerCase = tag.toLowerCase();
       if (!_.has(_tagsMap, tagLowerCase)) {
         _tagsMap[tagLowerCase] = {
-          "name": tag,
-          "frequency": 0,
-          "projects": []
+          'name': tag,
+          'frequency': 0,
+          'projects': []
         };
       }
       return _tagsMap[tagLowerCase];
@@ -40,12 +42,12 @@
 
 
     var _addProjectToTag = function (entry, projectName) {
-        entry.projects.push(projectName);
-        entry.frequency++;
+      entry.projects.push(projectName);
+      entry.frequency++;
     };
 
     this.addTag = function(tag, projectName) {
-      var _entry = _addTag(tag, projectName);
+      var _entry = _addTag(tag);
       // Skip updating projects and frequency for projects that tagged themselves
       if(tag.toLowerCase() !== projectName.toLowerCase()) {
         _addProjectToTag(_entry, projectName);
@@ -60,11 +62,11 @@
       //http://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
       return _orderedTagsMap = _orderedTagsMap || _(_tagsMap).chain().sortBy(function (tag, key) {
         return key;
-      }).sortBy(function (tag, key) {
+      }).sortBy(function (tag) {
         return tag.frequency * -1;
       }).value();
     };
-  }
+  };
 
   var extractTags = function (projectsData) {
     var tagBuilder = new TagBuilder();
@@ -80,8 +82,8 @@
 
   var extractProjectsAndTags = function (projectsData) {
     return {
-      "projects": projectsData,
-      "tags": extractTags(projectsData)
+      'projects': projectsData,
+      'tags': extractTags(projectsData)
     };
   };
 
@@ -93,7 +95,7 @@
       sessionStorage.setItem);
     var ordering = null;
     if (canStoreOrdering) {
-      ordering = sessionStorage.getItem("projectOrder");
+      ordering = sessionStorage.getItem('projectOrder');
       if (ordering) {
         ordering = JSON.parse(ordering);
 
@@ -107,7 +109,7 @@
     if (!ordering) {
       ordering = _.shuffle(_.range(_projectsData.projects.length));
       if (canStoreOrdering) {
-        sessionStorage.setItem("projectOrder", JSON.stringify(ordering));
+        sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
       }
     }
 
@@ -130,7 +132,7 @@
 
     this.getPopularTags = function (popularTagCount) {
       return _.take(_.values(tagsMap), popularTagCount || 10);
-    }
+    };
   };
 
   host.ProjectsService = ProjectsService;

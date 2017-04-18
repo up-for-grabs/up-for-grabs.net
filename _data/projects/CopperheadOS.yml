@@ -1,0 +1,12 @@
+name: CopperheadOS
+desc: Hardened Android AOSP fork protecting users communications  
+site: https://github.com/copperhead/
+tags:
+- Java
+- Python
+- C
+- C++
+- Android
+upforgrabs:
+  name: Bugs
+  link: https://github.com/copperhead/bugtracker/issues?q=is%3Aopen+is%3Aissue+label%3Abug

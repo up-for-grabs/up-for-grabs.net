@@ -1,0 +1,20 @@
+name: Exporter
+desc: Export to Office(Excel,Word) , Pdf,OpenDocumentFormat( ODS,ODT )from Classes/DataSet/DataTable/IDataReader/JSON/CSV/RSS/
+site: http://ignatandrei.github.io/Exporter/
+tags:
+ - Office
+ - Excel
+ - Word
+ - PDF
+ - ODS
+ - ODT
+ - JSON
+ - List
+ - DataTable
+ - IDataReader
+ - CSV
+ - RSS
+ - OPML
+upforgrabs:
+  name: helpwanted
+  link: https://github.com/ignatandrei/Exporter/labels/help%20wanted

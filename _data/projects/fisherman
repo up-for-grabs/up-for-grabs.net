@@ -1,0 +1,24 @@
+name: Fisherman
+desc: A blazing fast, modern plugin manager for fish
+site: http://fisherman.sh
+tags:
+- fish-shell
+- shell
+- fisherman
+- theme
+- prompt
+- shell
+- manager
+- package
+- package
+- manager
+- git
+- framework
+- fast
+- light
+- pretty
+- minimal
+- oh-my-zsh
+upforgrabs:
+  name: SUPPORT
+  link: https://github.com/fisherman/fisherman/labels/SUPPORT

@@ -1,0 +1,14 @@
+name: JMeta
+desc: JMeta is a free software project, written in Java, aiming to provide a search platform and a framework for building fully-decentralized P2P search applications.
+site: https://github.com/dyslesiq/jmeta
+tags:
+- "search engine"
+- "data modeling"
+- "collaborative seach engine"
+- Tomp2p
+- DHT
+- Java
+- p2p
+upforgrabs:
+  name: JMeta issues
+  link: https://github.com/dyslesiq/jmeta

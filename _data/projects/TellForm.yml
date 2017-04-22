@@ -1,0 +1,18 @@
+name: TellForm
+desc: Free Opensource Alternative to TypeForm or Google Forms
+site: https://tellform.com
+tags:
+- oss
+- web
+- node
+- NodeJS
+- mongoose
+- MongoDB
+- forms
+- express
+- AngularJS
+- angular
+- javascript
+upforgrabs:
+  name: Up For Grabs
+  link: https://github.com/whitef0x0/tellform/issues?q=is%3Aissue+is%3Aopen+label%3A%22Up+For+Grabs%22

@@ -1,0 +1,15 @@
+name: Schul-Cloud
+desc: open-source software for schools in Germany
+site: https://schul-cloud.github.io
+tags:
+- oss
+- javascript
+- jekyll
+- html
+- css
+- node
+- docker
+- api
+upforgrabs:
+  name: first-timers-only
+  link: https://github.com/search?utf8=%E2%9C%93&q=org%3Aschul-cloud+state%3Aopen+label%3A%22first-timers-only%22&type=

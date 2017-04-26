@@ -7,5 +7,5 @@ tags:
 - javascript
 - bootstrap
 upforgrabs:
-  name: Help Wanted
-  link: https://github.com/react-bootstrap/react-bootstrap/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
+  name: help wanted
+  link: https://github.com/react-bootstrap/react-bootstrap/issues/label/help%20wanted

@@ -1,0 +1,11 @@
+name: OrgManager
+desc: Supercharge your GitHub organizations!
+site: http://orgmanager.miguelpiedrafita.com
+tags:
+- php
+- laravel
+- orgmanager
+- easy
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/orgmanager/orgmanager/labels/up-for-grabs

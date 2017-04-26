@@ -1,0 +1,13 @@
+name: Peek
+desc: An animated GIF recorder
+site: https://github.com/phw/peek
+tags:
+- Vala
+- Gtk3
+- GUI
+- Gnome
+- screencast
+- animated-gifs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/phw/peek/labels/up-for-grabs

@@ -87,12 +87,37 @@
 
     $.ajax(url)
       .done(function (data, textStatus, jqXHR) {
-        var resultCount = data && typeof data.length === 'number' ? data.length.toString() : '?';
-        count.html(resultCount);
-        storage.set(gh[1], {
-          "count": resultCount,
-          "date": new Date()
-        });
+        // Check the response for a Link header (indicates pagination needed)
+        var linkHeader = jqXHR.getResponseHeader("Link");
+        if(linkHeader){
+          var rRes = /<([^<>]*?page=(\d*))>; rel="last"/g.exec(linkHeader);
+          // Jump to the last one
+          $.ajax(rRes[1])
+            .done(function (data, textStatus, jqXHR) {
+              // We can assume all pages between first and last-1 are full (30 each)
+              var resultCount = data && typeof data.length === 'number' ? ((30 * (Number(rRes[2])-1)) + data.length).toString() : '?';
+              count.html(resultCount);
+              storage.set(gh[1], {
+                "count": resultCount,
+                "date": new Date()
+              });
+            })
+            .fail(function (jqXHR, textStatus, errorThrown){
+              var rateLimited = jqXHR.getResponseHeader('X-RateLimit-Remaining') === '0',
+                rateLimitReset = rateLimited && new Date(1000 * +jqXHR.getResponseHeader('X-RateLimit-Reset')),
+                message = rateLimitReset ? 'GitHub rate limit met. Reset at ' + rateLimitReset.toLocaleTimeString() + '.' :
+                'Could not get issue count from GitHub: ' + ((jqXHR.responseJSON && jqXHR.responseJSON.message) || errorThrown) + '.';
+              count.html('?!');
+              count.attr('title', message);
+            })
+        } else {
+          var resultCount = data && typeof data.length === 'number' ? data.length.toString() : '?';
+          count.html(resultCount);
+          storage.set(gh[1], {
+            "count": resultCount,
+            "date": new Date()
+          });
+        }
       })
       .fail(function (jqXHR, textStatus, errorThrown) {
         var rateLimited = jqXHR.getResponseHeader('X-RateLimit-Remaining') === '0',

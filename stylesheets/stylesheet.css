@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  font-family: 'Cookie', cursive;  
+  font-family: 'Cookie', cursive;
   margin-bottom: 20px;
   color: #2E7BA9;
 }
@@ -106,7 +106,7 @@ p {
 
 img {
   border: none; }
-  
+
 #go-back-home {
   margin: 20px 0 0; }
   #go-back-home:hover {
@@ -237,7 +237,7 @@ footer {
   display: table; }
 .container:after {
   clear: both; }
-  
+
 #main-container {
   background: #fff;
   border-radius: 7px;
@@ -408,12 +408,12 @@ th {
   background: #373737;
   color: #fff;
  }
- 
+
  td {
   padding: 10px 0;
   border: 1px solid #373737;
  }
- 
+
  td:not(:last-child) {
    padding-right: 10px;
  }
@@ -426,7 +426,7 @@ form {
 /* https://css-tricks.com/snippets/css/ribbon/ */
 .ribbon {
  font-size: 28px !important;
- width: 40%;    
+ width: 40%;
  position: absolute;
  background: #2E7BA9;
  color: #E4F0F8;
@@ -436,7 +436,7 @@ form {
  right: 2em;
  top: 25%;
 }
-.ribbon-content {  
+.ribbon-content {
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
 }
@@ -477,7 +477,7 @@ form {
  right: 0;
  border-width: 1em 1em 0 0;
 }
-  
+
 #downloads {
   position: absolute;
   width: 210px;
@@ -550,9 +550,10 @@ form {
   height: 16px;
   line-height: 16px;
   margin: -2px -4px 0 4px;
+  min-width: 16px;
   text-align: center;
   vertical-align: middle;
-  width: 16px;
+  width: auto;
 }
 
 .projects .label .count img {
@@ -580,7 +581,7 @@ form {
 
 @media (max-width: 768px) {
   body {
-    padding: 0 0; } 
+    padding: 0 0; }
   #forkme_banner {
     display: none;
   }
@@ -598,13 +599,13 @@ form {
   .block h1 .header-inside {
     padding: 0;
   }
-  #main-container {   
+  #main-container {
     border-right: none;
-    border-left: none; 
+    border-left: none;
     border-radius: 0;
   }
   #main-container .block {
-    padding: 20px; 
+    padding: 20px;
   }
   table.projects td {
     display: block;
@@ -619,4 +620,3 @@ form {
     top: 0;
   }
 }
-

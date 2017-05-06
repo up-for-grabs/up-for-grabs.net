@@ -1,0 +1,10 @@
+name: dude-pa
+desc: Personal assistant based on the command line
+site: https://github.com/dude-pa/dude
+tags:
+- python
+- design
+- oss
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dude-pa/dude/labels/up-for-grabs

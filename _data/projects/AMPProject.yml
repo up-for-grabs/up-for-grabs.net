@@ -1,0 +1,13 @@
+name: The AMP Project (Accelerated Mobile Pages)
+desc: The AMP Project provides a framework (built on standard web technologies) to make it easy to build fast web pages.
+site: https://github.com/ampproject/amphtml/
+tags:
+- amp
+- css
+- documentation
+- html
+- javascript
+- web
+upforgrabs:
+  name: Great First Issues
+  link: https://github.com/ampproject/amphtml/milestone/25

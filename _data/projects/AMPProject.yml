@@ -9,5 +9,5 @@ tags:
 - javascript
 - web
 upforgrabs:
-  name: Great First Issues
-  link: https://github.com/ampproject/amphtml/milestone/25
+  name: Great First Issue
+  link: https://github.com/ampproject/amphtml/labels/Great%20First%20Issue

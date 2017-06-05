@@ -1,0 +1,14 @@
+name: Counter-Core
+desc: this repository resides the core script for a trade/gambling website for Counter Strike : Global Offensive.
+site: https://github.com/ColinMoulds/Counter-Core
+tags:
+- php
+- web
+- mysql
+- css
+- node.js
+- npm
+
+upforgrabs:
+  name: up-for-grabs
+link: https://github.com/ColinMoulds/Counter-Core/labels/up-for-grabs

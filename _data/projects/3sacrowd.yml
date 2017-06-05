@@ -1,0 +1,8 @@
+name: 3sacrowd
+desc: Mini puzzle game developed entirely with Vanilla JavaScript
+site: https://github.com/raulvillares/3sacrowd
+tags:
+- javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/raulvillares/3sacrowd/labels/up-for-grabs

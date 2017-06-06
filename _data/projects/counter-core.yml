@@ -1,0 +1,14 @@
+name: Counter-Core
+desc: this repository resides the core script for a gambling website for CSGO.
+site: https://github.com/ColinMoulds/Counter-Core
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- php
+- web
+- mysql
+- css
+- node
+
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ColinMoulds/Counter-Core/labels/up-for-grabs

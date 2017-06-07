@@ -2,6 +2,7 @@ name: RipMe
 desc: Downloads albums in bulk
 site: https://github.com/4pr0n/ripme
 tags:
+- ripme
 - java
 - album
 - downloader

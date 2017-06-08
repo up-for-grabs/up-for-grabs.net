@@ -29,6 +29,9 @@
            <% if (project.desc) { %>
            <span class="desc"><%=project.desc%></span>
            <% } %>
+           <% if (project.contributing) { %>
+            <a href="<%- project.contributing %>" class="contributing">How to Contribute</a>
+           <% } %>
            <% if (project.tags) { %>
            <p class="tags">
                <% _.each(project.tags, function(tag, i) { %>

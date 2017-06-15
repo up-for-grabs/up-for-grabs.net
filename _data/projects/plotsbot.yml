@@ -11,5 +11,5 @@ tags:
 - github
 - publiclab
 upforgrabs:
-  name: first-timers-only
-  link: https://github.com/publiclab/plotsbot/labels/first-timers-only
+  name: help wanted
+  link: https://github.com/publiclab/plotsbot/labels/help%20wanted

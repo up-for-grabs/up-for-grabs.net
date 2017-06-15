@@ -1,0 +1,15 @@
+name: plotsbot
+desc: A bot for Public Lab
+site: https://github.com/publiclab/plotsbot
+tags:
+- javascript
+- oss
+- node
+- chatbot
+- irc
+- jasmine
+- github
+- publiclab
+upforgrabs:
+  name: first-timers-only
+  link: https://github.com/publiclab/plotsbot/labels/first-timers-only

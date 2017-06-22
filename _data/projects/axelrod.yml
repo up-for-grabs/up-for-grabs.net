@@ -6,5 +6,5 @@ tags:
 - python
 - gametheory
 upforgrabs:
-  name: easy_pull_request
-  link: https://github.com/Axelrod-Python/Axelrod/labels/Easy_pull_request 
+  name: up-for-grabs
+  link: https://github.com/Axelrod-Python/Axelrod/labels/up-for-grabs

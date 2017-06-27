@@ -1,0 +1,14 @@
+name: Moya
+desc: Network abstraction layer written in Swift.
+site: https://github.com/Moya/Moya
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- swift
+- moya
+- networking
+- rxswift
+- reactiveswift
+- alamofire
+upforgrabs:
+  name: starter task
+  link: https://github.com/Moya/Moya/issues?q=is%3Aissue+is%3Aopen+label%3A%22starter+task%22

@@ -1,0 +1,16 @@
+name: E-books
+desc: Collection of E-books for those who seek knowledge and wants to learn more and more. 
+site: https://github.com/ritwik12/E-books
+tags:
+- Algorithms
+- C++
+- C
+- CSS
+- Git
+- HTML
+- Java
+- JavaScript
+- PHP
+upforgrabs:
+  name: Up For Grabs
+  link: https://github.com/ritwik12/E-books/labels/Up%20For%20Grabs

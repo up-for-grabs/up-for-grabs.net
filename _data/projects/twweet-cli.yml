@@ -1,0 +1,11 @@
+name: twweet-cli
+desc: Tweet right from your cli without even opening your browser.
+site: https://github.com/CruiseDevice/twweet-cli
+tags:
+- python
+- oss
+- tweepy
+- twitter
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/CruiseDevice/twweet-cli/labels/help%20wanted

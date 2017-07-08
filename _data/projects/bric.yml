@@ -1,0 +1,10 @@
+name: bric
+desc: bric is a text editor based on kilo.
+site: https://github.com/shnupta/bric
+tags:
+- c
+- text-editor
+- terminal
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/shnupta/bric/labels/up-for-grabs

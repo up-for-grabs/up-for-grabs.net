@@ -10,4 +10,4 @@ tags:
 - compiler
 upforgrabs:
   name: Help Wanted
-  link: https://github.com/babel/babel/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+  link: https://github.com/babel/babel/labels/help%20wanted

@@ -9,4 +9,4 @@ tags:
 - p2p
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/ethereum/cpp-ethereum/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs
+  link: https://github.com/ethereum/cpp-ethereum/labels/up-for-grabs

@@ -1,0 +1,14 @@
+name: curiosity
+desc: Find amazing Github projects as a feed
+site: https://github.com/curiositylab/curiosity/
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- easy
+- simple
+- noobs
+- javascript
+- webapp
+- frontend
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/curiositylab/curiosity/labels/up-for-grabs

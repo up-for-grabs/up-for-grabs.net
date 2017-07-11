@@ -1,0 +1,11 @@
+name: openrasta-core
+desc: OpenRasta is an open-source .NET framework for building everything web, from web sites to RESTful APIs
+site: https://github.com/openrasta/openrasta-core
+tags:
+- ".NET"
+- C#
+- REST
+- Web
+upforgrabs:
+  name: Up For Grabs
+  link: https://github.com/openrasta/openrasta-core/labels/Up%20For%20Grabs

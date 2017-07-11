@@ -9,4 +9,4 @@ tags:
 - state_channels
 upforgrabs:
   name: low_hanging_fruit
-  link: https://github.com/raiden-network/raiden/issues?q=is%3Aissue+is%3Aopen+label%3Alow_hanging_fruit
+  link: https://github.com/raiden-network/raiden/labels/low_hanging_fruit

@@ -1,0 +1,27 @@
+name: Tessel Project
+desc: The Tessel Project's mission is to create a fully open source hardware & software platform that makes it easy and intuitive to develop Internet-connected devices. Decisions are steered by open governance, an inclusive community, and the goal of creating freely-licensed designs and tools.
+site: https://github.com/tessel/project
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- tessel
+- johnny-five
+- hardware
+- oss
+- oshw
+- javascript
+- rust
+- c
+- documentation
+- docs
+- tutorials
+- firmware
+- cli
+- node
+- wifi
+- linux
+- openwrt
+- website
+- open governance
+upforgrabs:
+  name: contribution-starter
+  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Acontribution-starter+user%3Atessel

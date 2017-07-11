@@ -1,0 +1,18 @@
+name: RipMe
+desc: Downloads albums in bulk
+site: https://github.com/4pr0n/ripme
+tags:
+- ripme
+- java
+- album
+- downloader
+- archiver
+- reddit
+- imgur
+- deviantart
+- twitter
+- instagram
+- tumblr
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/4pr0n/ripme/labels/up-for-grabs

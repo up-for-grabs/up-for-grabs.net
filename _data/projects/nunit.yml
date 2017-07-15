@@ -5,8 +5,6 @@ tags:
 - NUnit
 - ".NET"
 - ".NET Core"
-- dotnet
-- dotnetcore
 - cross-platform
 - C#
 - testing

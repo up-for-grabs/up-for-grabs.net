@@ -1,0 +1,11 @@
+name: Nothing-Private
+desc: This project is a proof of concept that any website can identify and track you, even if you are using Private Browsing or Incognito Mode in your web browser.
+site: https://github.com/gautamkrishnar/nothing-private
+tags:
+- oss
+- web
+- javascript
+- privacy
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/gautamkrishnar/nothing-private/labels/up-for-grabs

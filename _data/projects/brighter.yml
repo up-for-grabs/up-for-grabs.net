@@ -1,4 +1,4 @@
-name: Brightert
+name: Brighter
 desc: Brighter is a CQRS framework for .NET supporting in-process and out-of-process command handlers using task queues
 site: https://github.com/BrighterCommand/Brighter
 tags:

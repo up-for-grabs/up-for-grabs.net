@@ -1,0 +1,13 @@
+name: My-Companion
+desc: My-Companion is an all in one Android application which is meant to cater the needs of an Undergraduate student. It is for the Student community by the Student community.
+site: https://github.com/srv-twry/My-Companion
+tags:
+- Android
+- calendar
+- reminder
+- flashcards
+- pdf
+- student-community
+upforgrabs:
+  name: up-for-grabs 
+  link: https://github.com/srv-twry/My-Companion/labels/up-for-grabs

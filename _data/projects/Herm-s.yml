@@ -1,0 +1,16 @@
+name: Herm-s
+desc: A kitchen recipe manager for delicious foods written in Haskell
+site: https://github.com/JackKiefer/herms
+tags:
+- haskell
+- CLI
+- recipes
+- culinary
+- food
+- fun
+- desktop
+- linux
+- unix
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/JackKiefer/herms/labels/up-for-grabs

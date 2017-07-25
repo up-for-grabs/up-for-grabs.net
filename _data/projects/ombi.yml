@@ -1,0 +1,12 @@
+name: "Ombi"
+desc: >
+  Want a Movie or TV Show on Plex or Emby? Use Ombi! 
+  Ombi is a user friendly interface for family and friends to request new content on your media server.
+site: https://github.com/tidusjar/ombi
+tags:
+- ".NET"
+- "TypeScript"
+- "Angular"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/tidusjar/ombi/labels/help%20wanted

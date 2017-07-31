@@ -1,0 +1,11 @@
+name: room-sprawl
+desc: a super-simple little game of exploration
+site: https://github.com/dalath/room-sprawl
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- javascript
+- game
+- first time pr
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dalath/room-sprawl/issues

@@ -1,4 +1,3 @@
- 
 name: ApplicationInsights-dotnet
 desc: Azure Application Insights SDK for .NET. Includes public API surface, serialization and channel implementation
 site: http://go.microsoft.com/fwlink/?LinkId=392727

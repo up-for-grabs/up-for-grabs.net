@@ -1,0 +1,13 @@
+name: blockstack.js
+desc: The Blockstack JavaScript library for identity, auth and storage.
+site: https://blockstack.org
+tags:
+- react
+- javascript
+- blockstack
+- blockchain
+- dapp
+- identity
+upforgrabs:
+  name: good first task
+  link: https://github.com/blockstack/blockstack.js/labels/good-first-task

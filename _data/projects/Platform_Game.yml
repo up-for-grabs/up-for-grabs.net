@@ -1,0 +1,10 @@
+name: Platform-Game
+desc: HTML/Javascript game, made using HTML canvas feature
+site: https://github.com/EdwardDunn/Platform-Game
+tags:
+- HTML
+- Javascript
+- CSS
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/EdwardDunn/Platform-Game/labels/up-for-grabs

@@ -1,0 +1,12 @@
+name: ECKit
+desc: CSS Framework created by ECWebServices
+site: https://github.com/ECWebServices/ECKit
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- css
+- framework
+- sass
+- less
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ECWebServices/ECKit/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs

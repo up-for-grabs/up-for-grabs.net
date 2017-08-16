@@ -1,0 +1,12 @@
+name: Dancer2
+desc: Fast, flexible, modern Perl web framework
+site: http://www.perldancer.org/
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- perl
+- web
+- framework
+upforgrabs:
+  name: "Beginner Suitable"
+  link: https://github.com/PerlDancer/Dancer2/labels/Beginner%20Suitable
+

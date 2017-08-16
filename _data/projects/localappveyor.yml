@@ -7,8 +7,8 @@ tags:
 - console
 - commandline
 - command-line
-- .NET
-- .NET Core
+- ".NET"
+- ".NET Core"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/joaope/localappveyor/labels/up-for-grabs

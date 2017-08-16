@@ -3,9 +3,9 @@ name: Flappy SVG
 desc: A Flappy Bird game based on Support Vector Grafics
 site: https://fossasia.github.io/flappy-svg/
 tags:
-- JavaScript
+- javascript
 - web
-- SVG
+- svg
 - game
 upforgrabs:
   name: easy

@@ -5,11 +5,11 @@ site: https://thelounge.chat
 tags:
 - web
 - node
-- IRC
+- irc
 - chat
-- JavaScript
-- CSS
-- HTML
+- javascript
+- css
+- html
 upforgrabs:
   name: help wanted
   link: https://github.com/thelounge/thelounge/labels/help%20wanted

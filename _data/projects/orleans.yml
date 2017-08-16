@@ -3,15 +3,15 @@ name: Orleans
 desc: Orleans - Distributed Actor Model
 site: https://github.com/dotnet/orleans
 tags:
-- ".NET"
-- C#
-- Microsoft
-- Azure
-- Cloud
-- Distributed
-- Actor
-- Programming
-- Model
+- ".net"
+- c#
+- microsoft
+- azure
+- cloud
+- distributed
+- actor
+- programming
+- model
 upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/orleans/labels/help%20wanted

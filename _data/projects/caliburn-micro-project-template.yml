@@ -8,8 +8,8 @@ site: https://github.com/thewindev/CaliburnMicroProjectTemplate
 tags:
 - caliburn.micro
 - windows
-- universal apps
-- windows phone
+- universal-apps
+- windows-phone
 upforgrabs:
   name: up for grabs
   link: https://github.com/thewindev/CaliburnMicroProjectTemplate/labels/up%20for%20grabs

@@ -5,7 +5,7 @@ site: https://github.com/powershell/powershell
 tags:
 - oss
 - powershell
-- C#
+- c#
 upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/PowerShell/PowerShell/labels/Up-for-Grabs

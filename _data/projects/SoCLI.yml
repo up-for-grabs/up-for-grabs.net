@@ -4,7 +4,7 @@ desc: Stack Overflow command line client. Search and browse Stack Overflow witho
 site: https://github.com/gautamkrishnar/socli
 tags:
 - stackoverflow
-- commandline
+- command-line
 - cli
 - python
 upforgrabs:

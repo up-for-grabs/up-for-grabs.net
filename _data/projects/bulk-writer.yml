@@ -5,8 +5,8 @@ desc: >-
   Oracle equivalents) that wraps an IEnumerable, and libraries for mapping entites to table columns.
 site: https://github.com/HeadspringLabs/bulk-writer
 tags:
-- C#
-- ETL
+- c#
+- etl
 - data
 - database
 upforgrabs:

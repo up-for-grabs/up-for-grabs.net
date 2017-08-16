@@ -3,7 +3,7 @@ name: Kronos
 desc: Distributed, in-memory cache system based on .NET Core and Docker.
 site: https://github.com/lukasz-pyrzyk/Kronos
 tags:
-- C#
+- c#
 - cache
 - memory
 - docker

@@ -3,11 +3,11 @@ name: NZBDash
 desc: A free home server dashboard/monitor with usenet monitoring.
 site: https://github.com/NZBDash/NZBDash
 tags:
-- ".NET"
-- C#
-- MVC
+- ".net"
+- c#
+- mvc
 - javascript
-- Html
+- html
 - css
 upforgrabs:
   name: up-for-grabs

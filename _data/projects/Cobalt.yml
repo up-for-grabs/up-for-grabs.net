@@ -3,9 +3,9 @@ name: Cobalt - JVM Programming Language
 desc: A new proposed JVM language
 site: https://github.com/Michael2109/Cobalt
 tags:
-- Scala
-- Java
-- Compiler
+- scala
+- java
+- compiler
 upforgrabs:
   name: help wanted
   link: https://github.com/Michael2109/cobalt/labels/help%20wanted

@@ -10,7 +10,7 @@ tags:
 - script
 - compiler
 - typescript
-- C#
+- c#
 upforgrabs:
   name: help wanted
   link: https://github.com/OmniSharp/omnisharp-atom/labels/help%20wanted

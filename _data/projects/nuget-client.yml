@@ -7,7 +7,6 @@ site: https://github.com/NuGet/Home
 tags:
 - nuget
 - visualstudio
-- nuget.exe
 - package
 upforgrabs:
   name: Up for Grabs

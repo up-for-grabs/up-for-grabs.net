@@ -3,7 +3,7 @@ name: Moment-Timezone
 desc: Time zone add-on for moment.js
 site: http://momentjs.com/timezone
 tags:
-- JavaScript
+- javascript
 - date
 - time
 upforgrabs:

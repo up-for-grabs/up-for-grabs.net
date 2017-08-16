@@ -5,13 +5,13 @@ desc: >-
   technology.
 site: https://github.com/aspnet/EntityFrameworkCore
 tags:
-- Microsoft
-- EF
-- Database
-- Data
-- O/RM
-- ADO.NET
-- EntityFramework
+- microsoft
+- ef
+- database
+- data
+- o/rm
+- ado.net
+- entityframework
 upforgrabs:
   name: good first issue
   link: https://github.com/aspnet/EntityFrameworkCore/labels/good%20first%20issue

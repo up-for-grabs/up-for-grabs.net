@@ -5,8 +5,8 @@ desc: >-
   tab-completion of commands, parameters, remotes and branch names.
 site: https://github.com/dahlbyk/posh-git
 tags:
-- PowerShell
-- Git
+- powershell
+- git
 upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/dahlbyk/posh-git/labels/Up-for-Grabs

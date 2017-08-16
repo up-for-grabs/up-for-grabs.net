@@ -5,7 +5,7 @@ desc: >-
   NuGet packages.
 site: https://github.com/NuGetPackageExplorer/NuGetPackageExplorer
 tags:
-- C#
+- c#
 - ".net"
 - nuget
 - package

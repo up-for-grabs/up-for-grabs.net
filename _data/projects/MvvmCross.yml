@@ -5,13 +5,13 @@ desc: >-
   Windows and Mac. http://mvvmcross.com
 site: https://github.com/MvvmCross/MvvmCross
 tags:
-- ".NET"
-- C#
-- MvvmCross
-- Mvvm
-- Xamarin
-- Android
-- iOS
+- ".net"
+- c#
+- mvvmcross
+- mvvm
+- xamarin
+- android
+- ios
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/MvvmCross/MvvmCross/labels/up-for-grabs

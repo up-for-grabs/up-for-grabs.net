@@ -3,7 +3,7 @@ name: Parameter Framework
 desc: Plugin-based and rule-based framework for describing and controlling parameters
 site: https://01.org/parameter-framework/
 tags:
-- C++
+- c++
 upforgrabs:
   name: trivial
   link: https://github.com/intel/parameter-framework/labels/trivial

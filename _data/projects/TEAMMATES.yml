@@ -6,11 +6,11 @@ desc: >-
   universities across the world.
 site: https://github.com/TEAMMATES/teammates
 tags:
-- Javascript
-- Cloud
-- Java
-- Web
-- Education
+- javascript
+- cloud
+- java
+- web
+- education
 upforgrabs:
   name: d.FirstTimers
   link: https://github.com/TEAMMATES/teammates/labels/d.FirstTimers

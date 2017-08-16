@@ -4,8 +4,8 @@ desc: A way to make budgeting easy. A basic idea for the community, made even be
 site: https://github.com/MoneyFox/MoneyFox
 tags:
 - ".net"
-- C#
-- UWP
+- c#
+- uwp
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/MoneyFox/MoneyFox/labels/up-for-grabs

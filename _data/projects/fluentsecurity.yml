@@ -3,7 +3,7 @@ name: FluentSecurity
 desc: Fluent Security configuration for ASP.NET MVC http://www.fluentsecurity.net/
 site: https://github.com/kristofferahl/FluentSecurity
 tags:
-- asp.net mvc
+- asp.net-mvc
 - authentication
 - fluent
 upforgrabs:

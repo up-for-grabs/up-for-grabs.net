@@ -5,13 +5,13 @@ desc: >-
   feature development and stabilization.
 site: https://github.com/aspnet/EntityFramework6
 tags:
-- Microsoft
-- EF
-- Database
-- Data
-- O/RM
-- ADO.NET
-- EntityFramework
+- microsoft
+- ef
+- database
+- data
+- o/rm
+- ado.net
+- entityframework
 upforgrabs:
   name: good first issue
   link: https://github.com/aspnet/EntityFramework6/labels/good%20first%20issue

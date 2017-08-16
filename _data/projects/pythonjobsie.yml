@@ -6,7 +6,7 @@ desc: >-
 site: https://github.com/kimeraapp/pythonjobs.ie
 tags:
 - python
-- jobs board
+- jobs-board
 - django
 - tests
 - ci

@@ -6,17 +6,16 @@ desc: >-
   path, maximum flow, minimum spanning tree, etc...
 site: https://github.com/YaccConstructor/QuickGraph
 tags:
-- C#
-- F#
-- ".NET"
+- c#
+- f#
+- ".net"
 - graph
-- QuickGraph
-- FSharp
+- quickgraph
 - algorithm
-- datastructure
+- data-structures
 - tree
-- DFS
-- BFS
+- dfs
+- bfs
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/YaccConstructor/QuickGraph/labels/up-for-grabs

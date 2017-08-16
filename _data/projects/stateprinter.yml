@@ -3,12 +3,12 @@ name: StatePrinter
 desc: Automating unittest asserts and ToString() coding.
 site: https://github.com/kbilsted/StatePrinter
 tags:
-- TDD
-- Unit Testing
-- ".NET"
-- C#
-- ToString
-- Debugging
+- tdd
+- unit-testing
+- ".net"
+- c#
+- tostring
+- debugging
 upforgrabs:
   name: Help wanted
   link: https://github.com/kbilsted/StatePrinter/labels/Help%20wanted

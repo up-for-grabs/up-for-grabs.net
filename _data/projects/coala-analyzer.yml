@@ -9,9 +9,9 @@ desc: >-
 site: http://coala.io/
 tags:
 - python
-- newcomer friendly
-- code analysis
-- linters
+- newcomer-friendly
+- code-analysis
+- linter
 - python3
 - cli
 - automation

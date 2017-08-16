@@ -3,14 +3,14 @@ name: ZeroToNine
 desc: A tool for maintaining .NET Assembly versions across multiple source files.
 site: https://github.com/ploeh/ZeroToNine
 tags:
-- ".NET"
-- Semantic Versioning
-- Versioning
-- Version
-- SemVer
-- Command-line
-- Library
-- F#
+- ".net"
+- semantic-versioning
+- versioning
+- version
+- semver
+- command-line
+- libraries
+- f#
 upforgrabs:
   name: jump in
   link: https://github.com/ploeh/ZeroToNine/labels/jump%20in

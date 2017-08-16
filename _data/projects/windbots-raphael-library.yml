@@ -7,7 +7,7 @@ tags:
 - lua
 - windbot
 - tibia
-- library
+- libraries
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Tibia-WindBot/raphael-library/labels/up-for-grabs

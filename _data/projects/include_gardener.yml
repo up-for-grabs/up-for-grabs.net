@@ -6,8 +6,8 @@ tags:
 - c++
 - cpp
 - analysis
-- code analysis
-- static analysis
+- code-analysis
+- static-analysis
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/feddischson/include_gardener/labels/up-for-grabs

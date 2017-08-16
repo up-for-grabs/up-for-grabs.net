@@ -5,10 +5,10 @@ desc: >-
   numbers and quantities
 site: https://github.com/Humanizr/Humanizer
 tags:
-- ".NET"
-- Localization
+- ".net"
+- localization
 - human-readable
-- C#
+- c#
 upforgrabs:
   name: jump in
   link: https://github.com/Humanizr/Humanizer/labels/jump%20in

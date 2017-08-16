@@ -11,7 +11,7 @@ tags:
 - p2p
 - network
 - blender
-- distributed computing
+- distributed-computing
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/golemfactory/golem/labels/up-for-grabs

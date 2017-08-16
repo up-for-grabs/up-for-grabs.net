@@ -11,7 +11,7 @@ tags:
 - ".net"
 - c#
 - wpf
-- aspnetmvc
+- aspnet-mvc
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/caioproiete/DevExpress-NuGet/labels/up-for-grabs

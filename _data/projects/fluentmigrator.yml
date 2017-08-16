@@ -3,14 +3,14 @@ name: FluentMigrator
 desc: Fluent Migrations framework for .net
 site: https://github.com/fluentmigrator/fluentmigrator
 tags:
-- ".NET"
-- C#
-- Mono
-- Database
-- Postgresql
-- SqlServer
-- Oracle
-- SqlLite
+- ".net"
+- c#
+- mono
+- database
+- postgresql
+- sqlserver
+- oracle
+- sqllite
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fluentmigrator/fluentmigrator/labels/up-for-grabs

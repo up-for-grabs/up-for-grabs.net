@@ -5,12 +5,12 @@ desc: >-
   which affect them. If you'd like to find out more, check out Loomio.org.
 site: https://github.com/loomio/loomio
 tags:
-- Ruby
-- Rails
-- Angular
-- Javascript
-- Civic Tech
-- Decision making
+- ruby
+- rails
+- angular
+- javascript
+- civic-tech
+- decision-making
 upforgrabs:
   name: Easy Win
   link: https://github.com/loomio/loomio/labels/Easy%20Win

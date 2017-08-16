@@ -3,9 +3,9 @@ name: Algos
 desc: Implementation of well-known (and some rare) algorithms, mostly in C++
 site: https://github.com/faheel/Algos
 tags:
-- Algorithms
-- Data Structures
-- C++
+- algorithm
+- data-structures
+- c++
 upforgrabs:
   name: Up for grabs
   link: https://github.com/faheel/Algos/labels/Up%20for%20grabs

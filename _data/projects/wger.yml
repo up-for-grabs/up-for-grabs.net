@@ -8,7 +8,7 @@ site: https://github.com/wger-project/wger
 tags:
 - python
 - django
-- REST
+- rest
 - web
 - workout
 - fitness

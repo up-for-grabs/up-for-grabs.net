@@ -3,11 +3,11 @@ name: TaskCluster
 desc: The continuous integration framework supporting Mozilla developers
 site: https://docs.taskcluster.net
 tags:
-- Javascript
-- CI
-- Cloud
-- Systems
-- Mozilla
+- javascript
+- ci
+- cloud
+- systems
+- mozilla
 upforgrabs:
   name: good-first-bug
   link: http://www.joshmatthews.net/bugsahoy/?taskcluster=1&simple=1

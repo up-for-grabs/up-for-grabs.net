@@ -4,10 +4,10 @@ desc: >-
   OpenRasta is an open-source .NET framework for building everything web, from web sites to RESTful APIs
 site: https://github.com/openrasta/openrasta-core
 tags:
-- ".NET"
-- C#
-- REST
-- Web
+- ".net"
+- c#
+- rest
+- web
 upforgrabs:
   name: good first issue
   link: https://github.com/openrasta/openrasta-core/labels/good%20first%20issue

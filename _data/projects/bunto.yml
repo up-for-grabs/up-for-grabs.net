@@ -6,10 +6,10 @@ desc: >-
 site: https://github.com/bunto/bunto
 tags:
 - web
-- CMS
-- static site generator
-- web application framework
-- Ruby
+- cms
+- static-site-generator
+- web-application-framework
+- ruby
 upforgrabs:
   name: error
   link: https://github.com/bunto/bunto/labels/error

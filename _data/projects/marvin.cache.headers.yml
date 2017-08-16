@@ -5,9 +5,9 @@ desc: >-
   and implements cache expiration & validation models
 site: https://github.com/KevinDockx/HttpCacheHeaders
 tags:
-- Cache
-- ASP.NET Core
-- Middleware
+- cache
+- asp.net-core
+- middleware
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/KevinDockx/HttpCacheHeaders/labels/up-for-grabs

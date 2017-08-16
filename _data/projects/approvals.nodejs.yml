@@ -4,7 +4,7 @@ desc: Approval Tests implementation in NodeJS
 site: https://github.com/approvals/Approvals.NodeJS
 tags:
 - node
-- JavaScript
+- javascript
 - testing
 upforgrabs:
   name: up-for-grabs

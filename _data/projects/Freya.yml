@@ -3,8 +3,8 @@ name: Freya
 desc: Functional Web Programming for F#
 site: https://github.com/xyncro/freya
 tags:
-- F#
-- ".NET"
+- f#
+- ".net"
 - web
 - http
 - freya

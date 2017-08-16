@@ -3,11 +3,11 @@ name: Melissa
 desc: A lovely virtual assistant for OS X and Linux systems.
 site: https://github.com/Melissa-AI
 tags:
-- Python
-- Artificial Intelligence
-- Machine Learning
-- Virtual Assistant
-- Automation
+- python
+- artificial-intelligence
+- machine-learning
+- virtual-assistant
+- automation
 upforgrabs:
   name: help wanted
   link: https://github.com/Melissa-AI/Melissa-Core/labels/help%20wanted

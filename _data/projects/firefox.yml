@@ -3,11 +3,11 @@ name: Firefox
 desc: Mozilla's browser and rendering engine
 site: https://www.mozilla.org/firefox
 tags:
-- C++
-- Javascript
-- Browser
-- Systems
-- Mozilla
+- c++
+- javascript
+- browser
+- systems
+- mozilla
 upforgrabs:
   name: good-first-bug
   link: http://www.joshmatthews.net/bugsahoy/?ff=1&simple=1

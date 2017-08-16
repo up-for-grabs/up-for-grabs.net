@@ -5,13 +5,13 @@ desc: >-
   and clustering.
 site: https://github.com/tillkruss/redis-cache
 tags:
-- PHP
-- WordPress
-- Plugin
-- Redis
-- Predis
-- PhpRedis
-- HHVM
+- php
+- wordpress
+- plugin
+- redis
+- predis
+- phpredis
+- hhvm
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/tillkruss/redis-cache/labels/up-for-grabs

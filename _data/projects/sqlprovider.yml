@@ -5,14 +5,14 @@ desc: >-
   much more besides.
 site: https://github.com/fsprojects/SQLProvider
 tags:
-- F#
-- ".NET"
-- type provider
-- SQL
-- MySQL
-- Oracle
-- SQL Server
-- SQLLite
+- ".net"
+- f#
+- typeprovider
+- sql
+- mysql
+- oracle
+- sql-server
+- sqllite
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/SQLProvider/labels/up-for-grabs

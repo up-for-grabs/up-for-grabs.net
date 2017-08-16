@@ -5,7 +5,7 @@ desc: >-
   their main one.
 site: https://github.com/MorrisB--/MasterHash
 tags:
-- Java
+- java
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/MorrisB--/MasterHash/labels/up-for-grabs

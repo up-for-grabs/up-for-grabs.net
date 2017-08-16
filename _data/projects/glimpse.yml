@@ -5,9 +5,9 @@ desc: >-
   inside of your ASP.NET application.
 site: https://github.com/Glimpse/Glimpse
 tags:
-- ASP.NET
-- Web
-- WebForms
+- asp.net
+- web
+- webforms
 - diagnostics
 - performance
 - profiling

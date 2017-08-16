@@ -3,10 +3,10 @@ name: ShellRB
 desc: Unix Shell commands using Ruby
 site: https://github.com/faraazahmad/shellrb
 tags:
-- Ruby
-- Unix
-- Linux
-- Shell
+- ruby
+- unix
+- linux
+- shell
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/faraazahmad/shellrb/labels/up-for-grabs

@@ -3,10 +3,10 @@ name: Peek
 desc: An animated GIF recorder
 site: https://github.com/phw/peek
 tags:
-- Vala
-- Gtk3
-- GUI
-- Gnome
+- vala
+- gtk3
+- gui
+- gnome
 - screencast
 - animated-gifs
 upforgrabs:

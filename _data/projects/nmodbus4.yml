@@ -3,7 +3,7 @@ name: NModbus4
 desc: NModbus4 - Implementation of the Modbus protocol
 site: https://github.com/NModbus4/NModbus4
 tags:
-- ".NET"
+- ".net"
 - modbus
 - tcp
 - udp

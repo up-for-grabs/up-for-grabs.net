@@ -5,7 +5,7 @@ desc: >-
   for extensions.  Core code is available at https://github.com/amark/gun.
 site: http://gun.js.org/
 tags:
-- JavaScript
+- javascript
 - database
 - distributed
 - extensions

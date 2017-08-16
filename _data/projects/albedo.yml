@@ -5,8 +5,8 @@ desc: >-
   and utilities.
 site: https://github.com/AlbedoOrg/Albedo
 tags:
-- Reflection
-- ".NET"
+- reflection
+- ".net"
 - patterns
 - abstraction
 - interface

@@ -3,13 +3,13 @@ name: Duality
 desc: A modular 2D game engine written entirely in C#
 site: http://duality.adamslair.net/
 tags:
-- ".NET"
-- Mono
-- C#
-- OpenGL
-- WinForms
+- ".net"
+- mono
+- c#
+- opengl
+- winforms
 - gamedev
-- games
+- game
 - 2d
 - engine
 - editor

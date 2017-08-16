@@ -5,7 +5,7 @@ desc: >-
   configuration, and lifecycle management inside the container, so you can focus on your apps.
 site: https://github.com/joyent/containerpilot
 tags:
-- Docker
+- docker
 - containers
 - init
 - orchestration

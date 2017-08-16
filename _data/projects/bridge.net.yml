@@ -5,11 +5,10 @@ desc: >-
   using JavaScript.
 site: http://bridge.net
 tags:
-- ".NET"
-- JavaScript
-- JS
-- C#
-- csharp
+- ".net"
+- javascript
+- js
+- c#
 - bridge
 - mobile
 - compiler

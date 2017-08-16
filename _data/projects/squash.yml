@@ -3,7 +3,7 @@ name: Squash
 desc: Abstraction library for data compression codecs.
 site: https://quixdb.github.io/squash
 tags:
-- C
+- c
 - compression
 upforgrabs:
   name: bite-sized

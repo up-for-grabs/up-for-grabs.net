@@ -5,13 +5,13 @@ desc: >-
   the data into SQL/JSON/etc
 site: https://github.com/baturin/wikivoyage-listings
 tags:
-- Java
+- java
 - parsing
-- open data
+- open-data
 - wiki
-- JSON
-- XML
-- SQL
+- json
+- xml
+- sql
 - command-line
 upforgrabs:
   name: up-for-grabs

@@ -4,10 +4,10 @@ desc: A commandline personal information management suite
 site: https://github.com/matthiasbeyer/imag
 tags:
 - rust
-- commandline
+- command-line
 - oss
 - collaboration
-- library
+- libraries
 - minimal
 upforgrabs:
   name: complexity/easy

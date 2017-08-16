@@ -3,10 +3,10 @@ name: OrigoDB Core
 desc: In-memory database for .NET
 site: http://origodb.com
 tags:
-- ".NET"
+- ".net"
 - in-memory
 - database
-- C#
+- c#
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/DevrexLabs/OrigoDB/labels/up-for-grabs

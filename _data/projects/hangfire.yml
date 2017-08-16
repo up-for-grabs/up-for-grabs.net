@@ -3,12 +3,12 @@ name: HangFire
 desc: Background job processing for ASP.NET
 site: https://github.com/HangfireIO/Hangfire
 tags:
-- ".NET"
-- ASP.NET
-- C#
-- Background
-- Jobs
-- Tasks
+- ".net"
+- asp.net
+- c#
+- background
+- jobs
+- tasks
 upforgrabs:
   name: good first issue
   link: https://github.com/HangfireIO/Hangfire/labels/good%20first%20issue

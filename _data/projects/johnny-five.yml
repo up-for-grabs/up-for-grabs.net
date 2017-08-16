@@ -5,13 +5,13 @@ site: http://johnny-five.io
 tags:
 - js
 - javascript
-- IoT
+- iot
 - arduino
 - robotics
 - tessel
 - intel
 - edison
-- raspberry pi
+- "raspberry-pi"
 - beaglebone
 - particle
 - photon

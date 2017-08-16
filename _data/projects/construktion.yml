@@ -5,11 +5,11 @@ desc: >-
   its properties with random data.
 site: https://github.com/Construktion/Construktion
 tags:
-- C#
+- c#
 - ".net"
 - tdd
 - testing
-- unit testing
+- unit-testing
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Construktion/Construktion/labels/up-for-grabs

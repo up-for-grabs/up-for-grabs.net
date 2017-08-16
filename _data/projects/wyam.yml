@@ -3,10 +3,10 @@ name: Wyam
 desc: A highly modular and extremely configurable static content generator and toolkit.
 site: https://wyam.io
 tags:
-- static site generation
+- static-site-generation
 - blog
-- C#
-- ".NET"
+- c#
+- ".net"
 upforgrabs:
   name: Up For Grabs
   link: https://github.com/Wyamio/Wyam/labels/Up%20For%20Grabs

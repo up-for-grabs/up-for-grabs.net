@@ -3,9 +3,9 @@ name: wordpress
 desc: WordPress is web software you can use to create a beautiful website, blog, or app.
 site: https://wordpress.org/
 tags:
-- PHP
-- CMS
-- MySQL
+- php
+- cms
+- mysql
 - blog
 upforgrabs:
   name: Good First Bugs

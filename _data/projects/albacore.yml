@@ -3,13 +3,12 @@ name: albacore
 desc: Albacore is a professional quality suite of Rake tasks for building .NET or Mono based systems.
 site: http://albacorebuild.net/
 tags:
-- F#
-- C#
-- C++
-- VB
-- Ruby
+- f#
+- c#
+- c++
+- vb
+- ruby
 - buildsuite
-- builds
 - build
 - packaging
 - rake

@@ -5,7 +5,7 @@ desc: >-
   Bootstrap, but with much cleaner code, via Facebook's React.js framework.
 site: https://react-bootstrap.github.io/
 tags:
-- React
+- react
 - oss
 - javascript
 - bootstrap

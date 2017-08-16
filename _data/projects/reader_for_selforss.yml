@@ -3,8 +3,8 @@ name: Reader For Selfoss
 desc: It's an RSS Reader for Android, that only works with Selfoss
 site: https://play.google.com/store/apps/details?id=apps.amine.bou.readerforselfoss&hl=en
 tags:
-- Java
-- Kotlin
+- java
+- kotlin
 - mobile
 - android
 upforgrabs:

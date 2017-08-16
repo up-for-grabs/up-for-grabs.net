@@ -9,14 +9,14 @@ tags:
 - python
 - javascript
 - e-assessment
-- SCORM
+- scorm
 - math
 - web
-- HTML
-- CSS
+- html
+- css
 - html5
 - algebra
-- CAS
+- cas
 - quiz
 upforgrabs:
   name: good first issue

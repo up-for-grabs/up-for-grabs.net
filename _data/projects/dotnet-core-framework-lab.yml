@@ -5,10 +5,10 @@ desc: >-
   new ideas that may or may not make it into the .NET Core foundational libraries, called CoreFX.
 site: https://github.com/dotnet/corefxlab/
 tags:
-- ".NET"
-- ".NET Core"
+- ".net"
+- ".net-core"
 - cross-platform
-- C#
+- c#
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/dotnet/corefxlab/labels/up-for-grabs

@@ -1,0 +1,11 @@
++name: chexslib
+ +desc: C++ Http EXtensible Server library - A C++ library used for creating Http servers
+ +site: https://github.com/softwaresale/chexslib
+ +tags:
+ +- C++
+ +- C
+ +- Http
+ +- Web
+ +upforgrabs:
+ +  name: up-for-grabs
+ +  link: https://github.com/softwaresale/chexslib/issues/1

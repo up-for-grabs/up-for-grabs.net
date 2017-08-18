@@ -1,0 +1,12 @@
+name: EclipseTracker
+desc: Android application with live feed for North American Eclipse August 21, 2017
+site: https://github.com/andydaehn/EclipseTracker
+tags:
+- java
+- android
+- video
+- eclipse
+- astronomy
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/andydaehn/EclipseTracker/label/up-for-grabs

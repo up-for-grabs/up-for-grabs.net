@@ -5,6 +5,7 @@ tags:
 - json-schema
 - avro-schema
 - command-line-tool
+- python
 - python3
 - data-interchange
 - avro

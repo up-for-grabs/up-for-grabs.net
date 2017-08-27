@@ -16,4 +16,4 @@ tags:
 - cloud-ide
 upforgrabs:
   name: help wanted
-  link: https://github.com/theia-ide/theia/issues?utf8=%E2%9C%93&q=label%3A%22help%20wanted%22%20
+  link: https://github.com/theia-ide/theia/labels/help%20wanted

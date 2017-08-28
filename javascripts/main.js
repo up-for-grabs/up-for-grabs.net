@@ -4,12 +4,14 @@
     compiledtemplateFn = null,
     projectsPanel = null;
 
-  var renderProjects = function (tags) {
+  var renderProjects = function (tags, names) {
     projectsPanel.html(compiledtemplateFn({
-      "projects": projectsSvc.get(tags),
+      "projects": projectsSvc.get(tags, names),
       "tags": projectsSvc.getTags(),
       "popularTags": projectsSvc.getPopularTags(6),
-      "selectedTags": tags
+      "selectedTags": tags,
+      "names": projectsSvc.getNames(),
+      "selectedNames": names
     }));
 
     projectsPanel.find("select.tags-filter").chosen({
@@ -17,6 +19,13 @@
       width: "95%"
     }).val(tags).trigger('chosen:updated').change(function (e) {
       window.location.href = "#/tags/" + encodeURIComponent(($(this).val() || ""));
+    });
+
+    projectsPanel.find("select.names-filter").chosen({
+      no_results_text: "No project found by that name.",
+      width: "95%"
+    }).val(names).trigger('chosen:updated').change(function (e) {
+      window.location.href = "#/names/" + encodeURIComponent(($(this).val() || ""));
     });
   };
 
@@ -32,6 +41,15 @@
     this.get("#/tags/:tags", function (context) {
       var tags = (this.params["tags"] || "").toLowerCase().split(",");
       renderProjects(tags);
+    });
+
+    this.get("#/names/", function (context) {
+      renderProjects();
+    });
+
+    this.get("#/names/:names", function (context) {
+      var names = (this.params["names"] || "").toLowerCase().split(",");
+      renderProjects(null, names);
     });
   });
 

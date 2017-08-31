@@ -1,0 +1,13 @@
+name: Hunter
+desc: CMake-driven cross-platform package manager for C++ projects.
+site: https://hunter.sh
+tags:
+- c++
+- c
+- cmake
+- packaging
+- package
+- manager
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ruslo/hunter/labels/up-for-grabs

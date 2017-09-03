@@ -1,0 +1,12 @@
+name: CiviWiki
+desc: Building a Better Democracy for the Internet Age
+site: https://www.civiwiki.org/
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- Python
+- Django
+- democracy
+- government
+upforgrabs:
+  name: Good for New Contributors
+  link: https://github.com/CiviWiki/OpenCiviWiki/labels/Good%20for%20New%20Contributors

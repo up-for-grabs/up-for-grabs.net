@@ -1,0 +1,10 @@
+name: Virtual Assistant
+desc: A linux based Virtual assistant on Artificial Intelligence in C  
+site: https://github.com/ritwik12/Virtual-Assistant
+tags:
+- C
+- Linux
+- Artificial Intelligence 
+upforgrabs:
+  name: jump in
+  link: https://github.com/ritwik12/Virtual-Assistant/labels/jump%20in

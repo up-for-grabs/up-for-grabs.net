@@ -1,0 +1,10 @@
+name: Microsoft.Data.Sqlite
+desc: SQLite implementation of the System.Data.Common provider model.
+site: https://github.com/aspnet/Microsoft.Data.Sqlite
+tags:
+- SQLite
+- Data
+- ADO.NET
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/aspnet/Microsoft.Data.Sqlite/labels/up-for-grabs

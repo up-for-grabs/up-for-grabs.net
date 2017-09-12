@@ -1,0 +1,12 @@
+name: pnpm
+desc: Fast, disk space efficient package manager
+site: https://pnpm.js.org/
+tags:
+- Node.js
+- JavaScript
+- "package manager"
+- installer
+- npm
+upforgrabs:
+  name: help wanted
+  link: https://github.com/pnpm/pnpm/labels/help%20wanted

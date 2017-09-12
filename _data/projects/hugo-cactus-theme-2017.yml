@@ -1,0 +1,10 @@
+name: hugo-cactus-theme-2017
+desc: 🌵 It's 2017 and we need a Hugo port of Nick Balestra's popular Cactus theme that represents that. 
+site: https://github.com/jacobwarduk/hugo-cactus-theme-2017
+tags:
+- hugo-theme
+- cactus-theme
+- blog-theme
+upforgrabs:
+  name: help wanted
+  link: https://github.com/jacobwarduk/hugo-cactus-theme-2017/labels/help%20wanted

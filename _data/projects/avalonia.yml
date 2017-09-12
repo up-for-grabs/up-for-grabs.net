@@ -1,13 +1,13 @@
-name: Perspex
+name: Avalonia
 desc: A multi-platform .NET UI framework.
-site: https://github.com/Perspex/Perspex
+site: https://github.com/AvaloniaUI/Avalonia
 tags:
 # Note those are tags categorizing your project, not issue labels.
 - C#
 - WPF
 - XAML
 - ".NET"
-- Direct2D 
+- Direct2D
 - iOS
 - Android
 - Linux
@@ -17,4 +17,4 @@ tags:
 - xplat
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Perspex/Perspex/labels/up-for-grabs
+  link: https://github.com/AvaloniaUI/Avalonia/labels/up-for-grabs

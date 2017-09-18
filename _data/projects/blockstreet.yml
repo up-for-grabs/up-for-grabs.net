@@ -8,5 +8,5 @@ tags:
 - cryptocurrency
 - blockchain
 upforgrabs:
-  name: Status: Available
-  link: https://github.com/blockstreet/interface/issues
+  name: "Status: Available"
+  link: https://github.com/blockstreet/interface/labels/Status%3A%20Available

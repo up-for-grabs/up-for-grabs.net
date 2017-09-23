@@ -77,6 +77,12 @@ describe("ProjectsService", function() {
       var projects = projectsService.get(["WEB"]);
       expect(projects.length).toBe(1);
     });
+    
+    it("should filter the projects using the AND logic and not OR logic for matching tags", function() {
+      var projects = projectsService.get(["WEB", "C#"]);
+      expect(projects.length).toBe(1);
+    });
+
   });
 
   describe("when get method is called tags array and none of the tags match", function(){

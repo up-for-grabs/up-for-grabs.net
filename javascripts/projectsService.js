@@ -102,6 +102,22 @@
       tagsMap[tag.name.toLowerCase()] = tag;
     });
 
+
+      var validTagsArray = function(tags) {
+	  if (typeof tags === "string") {
+	      tags = tags.split(",");
+	  }
+	  var allTagsRegularExpression = new RegExp(_.map(projects, function (project) {
+	      return project.tags.join('|').toLowerCase()
+	  }).join('|'));
+	  for (var i = 0; i < tags.length; i++) {
+	      if (!allTagsRegularExpression.test(tags[i].toLowerCase())) {
+		  tags.splice(i,1);
+	      }
+	  }
+	  return tags;
+      }
+
       this.get = function (tags) {
 	  // Use regular expressions to test for matching and non-matching tags
 	  if (tags == null) {
@@ -110,17 +126,8 @@
 	      if (typeof tags === "string") {
 		  tags = tags.split(",");
 	      }
-	      var allTagsRegularExpression = new RegExp(_.map(projects, function (project) {
-		  return project.tags.join('|').toLowerCase()
-	      }).join('|'));
-	      for (var i = 0; i < tags.length; i++) {
-		  if (!allTagsRegularExpression.test(tags[i].toLowerCase())) {
-		      tags.splice(i,1);
-		  }
-	      }
-	      if (tags.length == 0) {
-		  return [];
-	      }
+	      tags = validTagsArray(tags);
+	     
 	      var containsTags = function (project) {
 		  var regexToMatchTag = new RegExp(project.tags.join('|').toLowerCase());
 		  for (var i = 0; i < tags.length; i++) {
@@ -130,7 +137,12 @@
 		  }
 		  return true;		      
 	      };
-	      return _.filter(projects, containsTags);// applyTagsFilter(projects, tagsMap, tags);
+	      
+	      if (tags.length == 0) {
+		  return [];
+	      } else {
+		  return _.filter(projects, containsTags);
+	      }
 	  }
       };
 

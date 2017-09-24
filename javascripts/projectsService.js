@@ -102,8 +102,24 @@
       tagsMap[tag.name.toLowerCase()] = tag;
     });
 
-    this.get = function (tags) {
-      return applyTagsFilter(projects, tagsMap, tags);
+      this.get = function (tags) {
+	  if (tags == null) {
+	      return projects;
+	  } else {
+	  if (typeof tags === "string") {
+	      tags = tags.split(",");
+	  }
+	  var containsTags = function (project) {
+	      var regex = new RegExp(project.tags.join('|').toLowerCase());
+	      for (var i = 0; i < tags.length; i++) {
+		  if (!regex.test(tags[i].toLowerCase())) {
+		      return false;
+		  }
+	      }
+	      return true;		      
+	  };
+	      return _.filter(projects, containsTags);// applyTagsFilter(projects, tagsMap, tags);
+	  }
     };
 
     this.getTags = function () {

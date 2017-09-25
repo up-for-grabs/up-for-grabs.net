@@ -22,6 +22,58 @@
     });
   };
 
+
+
+    // MARK: Utility functions for creating tag comparison functions
+    var tagNamesForTags = function(tags) {
+	return _.map(tags, function (tag) { return tag.name });
+    }
+
+    var escapedPatternStrings =  function (strings) {
+	return _.map(strings, function (string) { return string.replace(/\+/g, '\\+')// escape any '+' characters e.g. 'c++' => 'c\\+\\+'
+						  .replace(/\*/g, '\\*')// escape any '*' characters e.g. 'na*' => 'na\\*'
+						  .replace(/\./g, '\\.')// escape any '.' characters e.g. '.NET' => '\\.NET'
+						  .replace(/\|/g, '\\.') })
+    }
+
+    var escapedPatternStringsForTags = function (tags) {
+	return escapedPatternStrings(
+	    tagNamesForTags(tags));
+    }
+
+    var multiStringAlternativeRegularExpression = function (strings) {
+	return new RegExp(strings.join('|').toLowerCase());
+    }
+
+    var regexForTags = function (tags) {
+	return multiStringAlternativeRegularExpression(
+	    escapedPatternStringsForTags(tags));
+    }
+
+    var lowerCaseCompareForRegularExpression = function (regularExpression) {
+	return function (testee) {
+	    return regularExpression.test(testee.toLowerCase());
+	}
+    }
+    // END MARK:
+
+    
+    // MARK: Tag Comparison Creation Functions
+    var lowerCaseCompareForTags = function (tags) {
+	return lowerCaseCompareForRegularExpression(
+	    regexForTags(tags));
+    }
+
+    var lowerCaseCompareForStrings = function (strings) {
+	return lowerCaseCompareForRegularExpression(
+	    multiStringAlternativeRegularExpression(
+		escapedPatternStrings(strings)));
+    }
+    // END MARK:
+
+    
+
+
   var TagBuilder = function () {
     var _tagsMap = {},
       _orderedTagsMap = null;
@@ -103,21 +155,18 @@
     });
 
 
+
+
       var validTagsArray = function(tags) {
 	  if (typeof tags === "string") {
 	      tags = tags.split(",");
 	  }
-	  var allTagsRegularExpression = new RegExp(_.map(projects, function (project) {
-	      return project.tags.join('|').toLowerCase()
-	  }).join('|'));
-	  for (var i = 0; i < tags.length; i++) {
-	      if (!allTagsRegularExpression.test(tags[i].toLowerCase())) {
-		  tags.splice(i,1);
-	      }
-	  }
-	  return tags;
-      }
+	  var allTagsContainsTag = lowerCaseCompareForTags(tagsMap);
+	  
+	  return _.filter(tags, function (tag) { return allTagsContainsTag(tag) });
+      };
 
+      
       this.get = function (tags) {
 	  // Use regular expressions to test for matching and non-matching tags
 	  if (tags == null) {
@@ -127,15 +176,16 @@
 		  tags = tags.split(",");
 	      }
 	      tags = validTagsArray(tags);
-	     
-	      var containsTags = function (project) {
-		  var regexToMatchTag = new RegExp(project.tags.join('|').toLowerCase());
+	      
+	      var containsTags = function (project) {		  
+		  var projectContainsTag = lowerCaseCompareForStrings(project.tags);
+		  
 		  for (var i = 0; i < tags.length; i++) {
-		      if (!regexToMatchTag.test(tags[i].toLowerCase())) {
+		      if (!projectContainsTag(tags[i])) {
 			  return false;
 		      }
 		  }
-		  return true;		      
+		  return true;      
 	      };
 	      
 	      if (tags.length == 0) {

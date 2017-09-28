@@ -1,0 +1,12 @@
+name: dotaUpdatesBot
+desc: A telegram bot for dota2 updates
+site: https://github.com/zachkont/dotaUpdatesBot
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- python
+- dota2
+- telegram
+- API
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/zachkont/dotaUpdatesBot/labels/up-for-grabs

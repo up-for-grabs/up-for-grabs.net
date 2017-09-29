@@ -1,0 +1,14 @@
+name: Ancient Beast
+desc: Turn based strategy game
+site: https://AncientBeast.com
+tags:
+- oss
+- javascript
+- web
+- strategy
+- game
+- chess
+- node
+upforgrabs:
+  name: Easy
+  link: https://github.com/FreezingMoon/AncientBeast/labels/Easy

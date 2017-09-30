@@ -7,7 +7,7 @@ tags:
 - android
 - sync
 - mobile
-- golang
+- go
 upforgrabs:
   name: easy
   link: https://github.com/syncthing/syncthing-android/labels/easy

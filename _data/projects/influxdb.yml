@@ -2,8 +2,7 @@ name: InfluxDB
 desc: InfluxDB is a time-series database
 site: https://influxdata.com/time-series-platform/influxdb/
 tags:
-  - Go
-  - golang
+  - go
   - database
 upforgrabs:
   name: status/help-wanted

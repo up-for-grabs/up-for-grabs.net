@@ -2,7 +2,7 @@ name: Mozilla InvestiGator (MIG)
 desc: Mozilla's real-time digital forensics and investigation platform
 site: http://mig.mozilla.org
 tags:
-- Go
+- go
 - Security
 - Mozilla
 upforgrabs:

@@ -1,0 +1,12 @@
+name: dinger
+desc: A Tinder automation tool for edgy Androiders
+site: https://github.com/stoyicker/dinger
+tags:
+- clean-architecture
+- rxjava2
+- dagger2
+- android
+- kotlin
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/stoyicker/dinger/labels/up-for-grabs

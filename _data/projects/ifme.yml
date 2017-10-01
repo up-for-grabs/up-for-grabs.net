@@ -12,5 +12,5 @@ tags:
 - website
 - postgresql
 upforgrabs:
-  name: help wanted
-  link: https://github.com/julianguyen/ifme/labels/help%20wanted
+  name: newbiefriendly
+  link: https://github.com/julianguyen/ifme/labels/newbiefriendly

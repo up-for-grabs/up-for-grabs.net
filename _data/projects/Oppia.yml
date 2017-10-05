@@ -1,0 +1,11 @@
+name: Oppia
+desc: Interactive learning platform using Python and Javascript with AngularJS
+site: https://github.com/oppia/oppia
+tags:
+- python
+- javascript
+- angularjs
+- html
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/oppia/oppia/labels/Hacktoberfest

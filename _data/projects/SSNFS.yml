@@ -2,11 +2,10 @@ name: SSNFS
 desc: A Simple Secure Network File System built using FUSE with the help of Qt.
 site: https://github.com/MDTech-us-MAN/SSNFS
 tags:
-- c++
+- C++
 - qt
 - fuse
-- libfuse
-- filesystem
+- Filesystem
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/MDTech-us-MAN/SSNFS/issues

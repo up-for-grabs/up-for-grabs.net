@@ -1,0 +1,13 @@
+name: Metric Units Reddit Bot
+desc: A sassy reddit bot that just loves converting numbers
+site: https://github.com/cannawen/metric_units_reddit_bot
+tags:
+- reddit
+- oss
+- node
+- nodejs
+- javascript
+- regex
+upforgrabs:
+  name: first timers only
+  link: https://github.com/cannawen/metric_units_reddit_bot/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22maintainer%20approved%22%20label%3A%22help%20wanted%22%20label%3A%22first%20timers%20only%22

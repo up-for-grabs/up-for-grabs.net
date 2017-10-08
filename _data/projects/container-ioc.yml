@@ -1,0 +1,13 @@
+name: container-ioc
+desc: Dependency Injection and Inversion of Control container for Javascript and Node.js apps powered by Typescript.
+site: https://github.com/typesoft/container-ioc
+tags:
+- typescript
+- nodejs
+- ioc
+- di
+- dependency injection
+- inversion of control
+upforgrabs:
+  name: help wanted
+  link: https://github.com/typesoft/container-ioc/labels/help%20wanted

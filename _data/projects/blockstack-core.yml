@@ -1,0 +1,13 @@
+name: Blockstack Core
+desc: The Blockstack Core is the reference implementation of Blockstack
+site: https://blockstack.org
+tags:
+- python
+- blockstack
+- blockchain
+- dapp
+- identity
+- DNS
+upforgrabs:
+  name: good first task
+  link: https://github.com/blockstack/blockstack-core/labels/good-first-task

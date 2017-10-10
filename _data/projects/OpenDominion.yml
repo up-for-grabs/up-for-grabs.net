@@ -1,0 +1,13 @@
+name: OpenDominion
+desc: A text-based, persistent browser-based strategy game (PBBG) in a fantasy war setting
+site: https://opendominion.net
+tags:
+- php
+- laravel
+- web
+- game
+- browser-game
+- pbbg
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/WaveHack/OpenDominion/labels/up-for-grabs

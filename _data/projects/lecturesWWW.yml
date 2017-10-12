@@ -1,0 +1,12 @@
+name: lecturesWWW
+desc: Web Programming Lectures of the UrFu Institute department IIT. On Russian language.
+site: http://lectures.uralbash.ru/
+tags:
+- education
+- web
+- python
+- pyramid
+- lectures
+upforgrabs:
+  name: volunteer
+link: https://github.com/ustu/lectures.www

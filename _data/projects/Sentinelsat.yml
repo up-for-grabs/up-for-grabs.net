@@ -1,0 +1,12 @@
+name: Sentinelsat
+desc: search and download open satellite imagery from the Copernicus Sentinel missions
+site: https://github.com/sentinelsat/sentinelsat
+tags:
+- oss
+- python
+- opendata
+- geospatial
+- satellite-imagery
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sentinelsat/sentinelsat/labels/good%20first%20issue

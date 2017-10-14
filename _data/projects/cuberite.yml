@@ -1,0 +1,16 @@
+name: Cuberite
+desc: A lightweight, fast and extensible game server for Minecraft
+site: https://cuberite.org/
+tags:
+- linux
+- c++
+- lua
+- server
+- windows
+- android
+- plugins
+- minecraft
+- paspberry-pi
+upforgrabs:
+  name: effort/easy
+  link: https://github.com/cuberite/cuberite/labels/effort%2Feasy

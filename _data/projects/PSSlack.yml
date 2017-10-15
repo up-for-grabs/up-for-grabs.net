@@ -1,0 +1,9 @@
+name: PSSlack
+desc: PowerShell module for simple Slack integration
+site: https://github.com/RamblingCookieMonster/PSSlack
+tags:
+- PowerShell
+- Slack
+upforgrabs:
+  name: "help wanted"
+  link: https://github.com/RamblingCookieMonster/PSSlack/labels/help%20wanted

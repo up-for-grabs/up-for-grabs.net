@@ -1,0 +1,13 @@
+name: Gothic Mod Build Tool
+desc: Simple build tool for increasing speed of building and testing Gothic game modifications
+site: https://github.com/Szmyk/gmbt
+
+tags:
+- ".NET"
+- C#
+- modding
+- gamedev
+
+upforgrabs:
+  name: easy
+  link: https://github.com/Szmyk/gmbt/labels/easy

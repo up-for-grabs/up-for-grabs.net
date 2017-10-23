@@ -1,17 +1,18 @@
 name: Mental Health and Wellness Knowledge Base
 desc: The goal of this project is to present information to consumers that is not often talked about by the mainstream media, to improve upon a person's freedom of choice regarding treatment, and provide more open and transparent access to many different viewpoints
-site: https://github.com/andy5995/mhwkb
+site: https://github.com/mhwkb/mhwkb
 tags:
 - mental health
 - resources
 - directory
 - html
 - css
+- bootstrap
 - c
 - design
-- web
+- website
 - knowledge base
 - mentoring
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/andy5995/mhwkb/labels/up-for-grabs
+  link: https://github.com/mhwkb/mhwkb/labels/good%20first%20issue

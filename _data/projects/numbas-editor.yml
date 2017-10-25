@@ -16,5 +16,5 @@ tags:
 - CAS
 - quiz
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/numbas/editor/issues/labels/up-for-grabs
+  name: good first issue
+  link: https://github.com/numbas/editor/issues/labels/good%20first%20issue

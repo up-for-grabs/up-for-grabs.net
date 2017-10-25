@@ -1,5 +1,5 @@
 name: Strongbox
-desc: A Java-based artifact repository manager
+desc: An alternative Java-based artifact repository manager.
 site: https://github.com/strongbox/strongbox/
 tags:
 - java

@@ -14,5 +14,5 @@ tags:
 
 upforgrabs:
   name: good first issue
-  link: https://github.com/strongbox/strongbox/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22%20label%3A%22help%20wanted%22%20
+  link: https://github.com/strongbox/strongbox/labels/good%20first%20issue
 

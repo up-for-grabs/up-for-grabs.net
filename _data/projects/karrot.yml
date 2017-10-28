@@ -1,0 +1,14 @@
+name: karrot
+desc: There are many foodsaving initiatives all over the world. With further growth, they need more support with organization. Let's code a modern website to help them! Frontend is written in VueJS with centralized state management, backend in Django/Python.
+site: https://github.com/yunity/karrot-frontend
+tags:
+- javascript
+- web
+- oss
+- VueJS
+- Python
+- Django
+- foodsaving
+upforgrabs:
+  name: starter-task
+  link: https://github.com/yunity/karrot-frontend/labels/starter-task

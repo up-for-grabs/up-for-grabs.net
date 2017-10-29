@@ -1,0 +1,11 @@
+name: Excalibur - Discord Bot
+desc: Excalibur is an ever-expanding Discord bot written with discord.js that has a bunch of fun and useful commands.
+site: https://github.com/ColinMoulds/Excalibur
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- javascript
+- node
+
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ColinMoulds/Excalibur/labels/help%20wanted

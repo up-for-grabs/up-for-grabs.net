@@ -13,14 +13,11 @@ The contents of the file are just some details about the project:
 
 ```yaml
 name: *project name*
+# Note: quotes around the 'project name' are required if a title string contains a ':'
 desc: *a brief description of the project*
 site: *home page or repository URL*
-tags:
-# Note: these are tags categorizing the project, not issue labels.
-- *tags*
-- *to*
-- *search*
-- *on*
+tags: [example, tags, to, search, on, spaces in tags, are ok]
+# Note: tags are for categorizing the project, not issue labels.
 upforgrabs:
   name: *the label associated with the up-for-grabs tasks -- e.g. "help needed" (without the quotes)*
   link: *URL where users can view the tasks -- e.g. https://github.com/username/project/labels/up%20for%20grabs*

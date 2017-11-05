@@ -1,0 +1,8 @@
+name: ddgr
+desc: DuckDuckGo from the terminal
+site: https://github.com/jarun/ddgr
+tags:
+- Python
+upforgrabs:
+  name: help wanted
+  link: https://github.com/jarun/ddgr/labels/help%20wanted

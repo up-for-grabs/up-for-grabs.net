@@ -5,6 +5,7 @@ tags:
 - apache
 - apps
 - documentation
+- EspressoBIN
 - IoT
 - letsencrypt
 - linux
@@ -14,5 +15,5 @@ tags:
 - ubos
 - web
 upforgrabs:
-  name: starter issue
+  name: good first issue
   link: http://ubos.net/community/starterissues.html

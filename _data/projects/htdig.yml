@@ -1,0 +1,15 @@
+name: htdig
+desc: A world-wide-web search system for an intranet or small internet
+site: https://github.com/andy5995/htdig
+tags:
+- c
+- web
+- search
+- intranet
+- internet
+- cgi
+- algorithms
+- database
+upforgrabs:
+  name: good first issue
+  link: https://github.com/andy5995/htdig/labels/good%20first%20issue

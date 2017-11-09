@@ -1,0 +1,30 @@
+name: Popcorn
+desc: A .NET Middleware for your RESTful API that allows your consumers to request exactly as much or as little as they need, with no effort from you
+site: https://github.com/SkywardApps/popcorn
+tags:
+- rest-api
+- rest
+- restful-api
+- restful
+- api-wrapper
+- api-rest
+- api-server
+- rest-server
+- restful-server
+- dotnet
+- dotnetcore
+- dotnet-core
+- asp-net-core
+- asp-net
+- aspnetcore
+- aspnet-core
+- asp-net-core-mvc
+- webapi
+- web-api
+- csharp
+- C#
+- ".NET"
+- web
+upforgrabs:
+  name: help wanted
+  link: https://github.com/SkywardApps/popcorn/labels/help%20wanted

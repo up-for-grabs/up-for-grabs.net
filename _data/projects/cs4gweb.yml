@@ -1,0 +1,14 @@
+name: Code for Social Good
+desc: Code for Social Good is a global platform to connet nonprofits and open source s with technical volunteers.
+site: http://code4socialgood.org/
+tags:
+- Angular
+- Java
+- Java Spring Framework
+- CSS
+- HTML
+- MySql
+- website
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Code4SocialGood/c4sg-web/labels/good%20first%20issue

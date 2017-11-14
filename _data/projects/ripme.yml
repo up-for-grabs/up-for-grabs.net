@@ -1,6 +1,6 @@
 name: RipMe
 desc: Downloads albums in bulk
-site: https://github.com/4pr0n/ripme
+site: https://github.com/ripmeapp/ripme
 tags:
 - ripme
 - java
@@ -15,4 +15,4 @@ tags:
 - tumblr
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/4pr0n/ripme/labels/up-for-grabs
+  link: https://github.com/ripmeapp/ripme/labels/up-for-grabs

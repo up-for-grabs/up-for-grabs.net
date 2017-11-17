@@ -1,0 +1,10 @@
+name: Memstate
+desc: In-memory replicated object graph for dotnet
+site: https://memstate.io
+tags:
+- ".NET"
+- in-memory
+- "C#"
+upforgrabs:
+  name: "help wanted"
+  link: https://github.com/devrexlabs/memstate/labels/help%20wanted

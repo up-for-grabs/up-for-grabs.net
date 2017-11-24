@@ -1,0 +1,11 @@
+name: Solidity
+desc: The Solidity Contract-Oriented Programming Language
+site: http://github.com/ethereum/solidity
+tags:
+- ethereum
+- solidity
+- c++
+- compiler
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ethereum/solidity/labels/help%20wanted

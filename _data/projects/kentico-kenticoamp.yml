@@ -1,0 +1,17 @@
+name: kentico-amp
+desc: Accelerated Mobile Pages module for Kentico EMS.
+site: https://github.com/Kentico/kentico-amp
+tags:
+- .NET
+- .NET Framework
+- csharp
+- amp
+- accelerated mobile pages
+- kentico
+- kentico-cms
+- kentico-ems
+- google-amp
+- amp-filter
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/kentico-amp/labels/up-for-grabs

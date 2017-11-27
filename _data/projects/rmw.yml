@@ -1,0 +1,11 @@
+name: rmw
+desc: a Linux and MacOSX cli trash can utility written in C
+site: https://github.com/rolandgeider/wger
+tags:
+- c
+- translating
+- utilities
+- Linux
+upforgrabs:
+  name: good first issue
+  link: https://github.com/andy5995/rmw/labels/good%20first%20issue

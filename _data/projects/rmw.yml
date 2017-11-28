@@ -1,6 +1,6 @@
 name: rmw
 desc: a Linux and MacOSX cli trash can utility written in C
-site: https://github.com/rolandgeider/wger
+site: https://github.com/andy5995/rmw/wiki
 tags:
 - c
 - translating

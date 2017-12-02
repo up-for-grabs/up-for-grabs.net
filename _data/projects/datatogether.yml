@@ -1,6 +1,6 @@
 name: Data Together
 desc: Community Patterns for the Decentralized Web: helping communities steward the data they care about.
-site: https://github.com/datatogether/datatogether#readme
+site: "https://github.com/datatogether/datatogether#readme"
 tags:
 # Note: these are tags categorizing the project, not issue labels.
 - go
@@ -15,6 +15,8 @@ tags:
 - open data
 - data science
 - data
+- python
+- react
 upforgrabs:
   name: first-timers-only
-  link: https://github.com/issues?q=is:open+org:datatogether+label:first-timers-only
+  link: "https://github.com/issues?q=is:open+org:datatogether+label:first-timers-only"

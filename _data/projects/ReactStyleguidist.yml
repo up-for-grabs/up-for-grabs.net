@@ -8,5 +8,5 @@ tags:
 - components
 - UI
 upforgrabs:
-  name: easy task
-  link: https://github.com/styleguidist/react-styleguidist/issues?q=is%3Aissue+is%3Aopen+label%3A%22easy+task%22
+  name: good first issue
+  link: https://github.com/styleguidist/react-styleguidist/issues?q=is%3Aissue+is%3Aopen+label%3A%22good%20first%20issue%22

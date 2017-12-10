@@ -1,0 +1,9 @@
+name: .NET Docs
+desc: Documentation for .NET
+site: http://github.com/dotnet/docs
+tags:
+- ".NET"
+- "documentation"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dotnet/docs/labels/up-for-grabs

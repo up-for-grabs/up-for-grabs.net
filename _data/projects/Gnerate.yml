@@ -1,0 +1,16 @@
+
+name: Gnerate
+desc: Reduce boilerplate through file generation
+site: https://github.com/ganderzz/gnerate
+tags:
+- javascript
+- js
+- typescript
+- node
+- file
+- generation
+- boilerplate
+- cli
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/ganderzz/gnerate/labels/help%20wanted

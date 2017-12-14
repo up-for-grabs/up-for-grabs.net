@@ -3,6 +3,8 @@ desc: "hl://Dig is a fork of ht://Dig, a world-wide-web search system for an int
 site: https://github.com/andy5995/hldig
 tags:
 - c++
+- HTML
+- CSS
 - web
 - search
 - intranet

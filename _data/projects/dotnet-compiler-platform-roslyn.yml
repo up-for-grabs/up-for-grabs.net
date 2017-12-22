@@ -11,5 +11,5 @@ tags:
 - C#
 - VB.NET
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/dotnet/roslyn/labels/up-for-grabs
+  name: help wanted
+  link: https://github.com/dotnet/roslyn/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

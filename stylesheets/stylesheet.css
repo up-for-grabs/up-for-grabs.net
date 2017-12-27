@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  font-family: 'Cookie', cursive;
+  font-family: 'Cookie', cursive;  
   margin-bottom: 20px;
   color: #2E7BA9;
 }
@@ -106,7 +106,7 @@ p {
 
 img {
   border: none; }
-
+  
 #go-back-home {
   margin: 20px 0 0; }
   #go-back-home:hover {
@@ -237,7 +237,7 @@ footer {
   display: table; }
 .container:after {
   clear: both; }
-
+  
 #main-container {
   background: #fff;
   border-radius: 7px;
@@ -408,12 +408,12 @@ th {
   background: #373737;
   color: #fff;
  }
-
+ 
  td {
   padding: 10px 0;
   border: 1px solid #373737;
  }
-
+ 
  td:not(:last-child) {
    padding-right: 10px;
  }
@@ -426,7 +426,7 @@ form {
 /* https://css-tricks.com/snippets/css/ribbon/ */
 .ribbon {
  font-size: 28px !important;
- width: 40%;
+ width: 40%;    
  position: absolute;
  background: #2E7BA9;
  color: #E4F0F8;
@@ -436,7 +436,7 @@ form {
  right: 2em;
  top: 25%;
 }
-.ribbon-content {
+.ribbon-content {  
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
 }
@@ -477,7 +477,7 @@ form {
  right: 0;
  border-width: 1em 1em 0 0;
 }
-
+  
 #downloads {
   position: absolute;
   width: 210px;
@@ -580,7 +580,7 @@ form {
 
 @media (max-width: 768px) {
   body {
-    padding: 0 0; }
+    padding: 0 0; } 
   #forkme_banner {
     display: none;
   }
@@ -598,13 +598,13 @@ form {
   .block h1 .header-inside {
     padding: 0;
   }
-  #main-container {
+  #main-container {   
     border-right: none;
-    border-left: none;
+    border-left: none; 
     border-radius: 0;
   }
   #main-container .block {
-    padding: 20px;
+    padding: 20px; 
   }
   table.projects td {
     display: block;
@@ -620,30 +620,3 @@ form {
   }
 }
 
-.pagination {
-  display: inline-block;
-}
-
-.pagination a {
-  color: black;
-  float: left;
-  padding: 8px 16px;
-  text-decoration: none;
-  border: 1px solid #ddd; /* Gray */
-}
-
-.pagination a:hover:not(.active) {background-color: #ddd;}
-
-#currentPage {
-  background-color: #2E7BA9;
-  color: white;
-}
-
-.not-active {
-  pointer-events: none;
-  cursor: default;
-}
-
-.center {
-  text-align: center;
-}

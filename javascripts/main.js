@@ -4,21 +4,30 @@
     compiledtemplateFn = null,
     projectsPanel = null;
 
+
+
+  var renderProjects = function (tags, currentPageNumber, tagsString) {
+
   var renderProjects = function (tags, names) {
     projectsPanel.html(compiledtemplateFn({
       "projects": projectsSvc.get(tags, names),
       "tags": projectsSvc.getTags(),
+      "tagsString": tagsString,
       "popularTags": projectsSvc.getPopularTags(6),
       "selectedTags": tags,
+
+      "currentPageNumber": currentPageNumber
+
       "names": projectsSvc.getNames(),
       "selectedNames": names
+
     }));
 
     projectsPanel.find("select.tags-filter").chosen({
       no_results_text: "No tags found by that name.",
       width: "95%"
     }).val(tags).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/tags/" + encodeURIComponent(($(this).val() || ""));
+      window.location.href = "#/page/1/tags/" + encodeURIComponent(($(this).val() || ""));
     });
 
     projectsPanel.find("select.names-filter").chosen({
@@ -29,19 +38,42 @@
     });
   };
 
+  //we scroll to the first project when user swich page
+  var scrollUp = function () {
+      $('html, body').animate({
+        scrollTop: $("#projects-panel").offset().top
+      }, 1000);
+    };
+
   var app = $.sammy(function () {
     this.get("#/", function (context) {
-      renderProjects();
+        renderProjects("", 1, "");
     });
 
-    this.get("#/tags/", function (context) {
-      renderProjects();
+    this.get("#/page/:page/", function (context) {
+      var page = this.params["page"];
+      //alert("param page: " + page);
+      renderProjects("", page, "");
+      scrollUp();
     });
 
-    this.get("#/tags/:tags", function (context) {
+    this.get("#/page/:page/tags/", function (context) {
+      var page = this.params["page"];
+      //alert("param page: " + page);
+      renderProjects("", page, "");
+      scrollUp();
+    });
+
+    this.get("#/page/:page/tags/:tags", function (context) {
       var tags = (this.params["tags"] || "").toLowerCase().split(",");
-      renderProjects(tags);
+      var tagsString = this.params["tags"];
+      var page = this.params["page"];
+      //alert("param tags: " + tags + "\n" + "param page: " + page);
+      renderProjects(tags, page, tagsString);
+      scrollUp();
     });
+
+
 
     this.get("#/names/", function (context) {
       renderProjects();
@@ -51,6 +83,7 @@
       var names = (this.params["names"] || "").toLowerCase().split(",");
       renderProjects(null, names);
     });
+
   });
 
   var storage = (function (global) {
@@ -154,7 +187,7 @@
         tags.push($(this).data("tag"));
       });
       var tagsString = tags.join(",");
-      window.location.href = "#/tags/" + tagsString;
+      window.location.href = "#/page/1/tags/" + tagsString;
     });
 
     app.raise_errors = true;

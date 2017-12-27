@@ -1,0 +1,11 @@
+name: ancestorquotes
+desc: Command-line app, prints quotes from the narrator of Darkest Dungeon
+site: https://github.com/bruno-chavez/ancestorquotes
+tags:
+- go
+- golang
+- commnad-line
+- json
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/bruno-chavez/ancestorquotes/labels/up-for-grabs

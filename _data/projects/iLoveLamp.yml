@@ -1,0 +1,12 @@
+name: iLoveLamp
+desc: A suite of LAMP tools that provides an interface for many of the things you might do via SSH.  
+site: https://github.com/Pamblam/iLoveLamp
+tags:
+- Javascript
+- PHP
+- Linux
+- Apache
+- MySQL
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Pamblam/iLoveLamp/issues?q=is%3Aissue+is%3Aopen+label%3A%22up+for+grabs%22

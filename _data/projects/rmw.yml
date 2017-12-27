@@ -1,0 +1,15 @@
+name: rmw
+desc: rmw is an OS portable cli trash can utility written in C
+site: https://github.com/andy5995/rmw/wiki
+tags:
+- c
+- translations
+- utilities
+- system
+- cli
+- documentation
+- file management
+- ncurses
+upforgrabs:
+  name: good first issue
+  link: https://github.com/andy5995/rmw/labels/good%20first%20issue

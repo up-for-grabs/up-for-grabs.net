@@ -1,0 +1,15 @@
+name: Cordovue
+desc: A sample Apache Cordova application using VueJS.
+site: https://github.com/TheMushrr00m/cordovue
+tags:
+- html
+- css
+- javascript
+- js
+- ecmascript
+- vuejs
+- cordova
+- cross-platform
+upforgrabs:
+  name: starter bug
+  link: https://github.com/TheMushrr00m/cordovue/labels/good%20first%20issue/

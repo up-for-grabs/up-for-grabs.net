@@ -1,0 +1,10 @@
+name: FractalZoo
+desc: An Android fractal vizualisation app
+site: https://github.com/comodoro/FractalZoo
+tags:
+- android
+- fractal
+
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/comodoro/FractalZoo/labels/up-for-grabs

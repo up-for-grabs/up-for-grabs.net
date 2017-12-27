@@ -1,0 +1,13 @@
+name: lecturesWWW
+desc: Web Programming Lectures of the UrFu Institute department IIT. On Russian language.
+site: http://lectures.uralbash.ru/
+tags:
+- education
+- web
+- python
+- pyramid
+- lectures
+- russian
+upforgrabs:
+  name: good first issue 
+  link: https://github.com/ustu/lectures.www/labels/good%20first%20issue

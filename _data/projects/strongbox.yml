@@ -1,0 +1,18 @@
+name: Strongbox
+desc: An alternative Java-based artifact repository manager.
+site: https://github.com/strongbox/strongbox/
+tags:
+- java
+- springframework
+- orientdb
+- restassured
+- jetty
+- junit
+- maven
+- nuget
+- artifact repository manager
+
+upforgrabs:
+  name: good first issue
+  link: https://github.com/strongbox/strongbox/labels/good%20first%20issue
+

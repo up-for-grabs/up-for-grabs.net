@@ -1,0 +1,13 @@
+
+name: TemPy
+desc: HTML Object-Oriented Templating system
+site: https://github.com/Hrabal/TemPy
+tags:
+- html
+- OOP
+- graphs
+- tree
+- python
+upforgrabs:
+  name: low-hanging-fruit
+  link: https://github.com/Hrabal/TemPy/labels/low-hanging-fruit

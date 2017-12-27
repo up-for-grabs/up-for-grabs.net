@@ -1,0 +1,12 @@
+name: Virtual Assistant
+desc: A linux based Virtual assistant on Artificial Intelligence in C. 
+      It can Google search, Youtube search, play media files, show calendar, etc.  
+site: https://github.com/ritwik12/Virtual-Assistant
+tags:
+- C
+- Linux
+- Artificial Intelligence 
+- Natural Language Processing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ritwik12/Virtual-Assistant/labels/good%20first%20issue

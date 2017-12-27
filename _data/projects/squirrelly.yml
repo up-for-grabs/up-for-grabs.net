@@ -1,0 +1,11 @@
+name: squirrelly
+desc: Squirrelly is an ExpressJS template engine.
+site: https://nebrelbug.github.io/squirrelly/
+tags:
+- squirrelly
+- express
+- template
+- engine
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/nebrelbug/squirrelly/labels/up-for-grabs

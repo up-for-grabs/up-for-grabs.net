@@ -1,0 +1,11 @@
+name: Memstate
+desc: a high-performance in-memory event-sourced replicated object graph engine for dotnet
+site: https://github.com/devrexlabs/memstate
+tags:
+- ".NET"
+- in-memory
+- database
+- "C#"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/devrexlabs/memstate/labels/help%20wanted

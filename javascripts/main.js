@@ -22,6 +22,7 @@
     });
 
     projectsPanel.find("select.names-filter").chosen({
+      search_contains: true,
       no_results_text: "No project found by that name.",
       width: "95%"
     }).val(names).trigger('chosen:updated').change(function (e) {

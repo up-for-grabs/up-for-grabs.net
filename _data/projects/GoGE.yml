@@ -10,3 +10,6 @@ name: eBooker
   - console
   - commandline
   - command-line
+upforgrabs:
+  name: help wanted
+  link: https://github.com/go-ge/goge/labels/help%20wanted

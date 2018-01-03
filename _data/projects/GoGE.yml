@@ -1,0 +1,12 @@
+name: eBooker
+  desc: GoGE is a two-dimensional, console-based game engine that was programmed in a language called Go.
+  site: https://go-ge.github.io
+  tags:
+  - go
+  - golang
+  - game
+  - gamedev
+  - games
+  - console
+  - commandline
+  - command-line

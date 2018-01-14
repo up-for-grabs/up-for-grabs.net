@@ -14,4 +14,4 @@ tags:
 - javascript
 upforgrabs:
   name: Easy
-  link: https://gitlab.com/groups/openstreetcraft/-/issues?label_name%5B%5D=Easy
+  link: https://gitlab.com/groups/openstreetcraft/-/issues?label_name[]=Easy

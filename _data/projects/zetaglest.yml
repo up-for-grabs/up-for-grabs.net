@@ -1,0 +1,17 @@
+name: "ZetaGlest"
+desc: "ZetaGlest is a fork of MegaGlest, a cross-platform, network multi-player 3D real-time strategy (RTS) game, where you control the armies of one of eight different factions: Tech, Magic, Egypt, Indians, Norsemen, Persian, Elves, or Romans"
+site: https://github.com/ZetaGlest/zetaglest-source
+tags:
+- c++
+- rts
+- game
+- networking
+- cmake
+- graphics
+- design
+- music
+- artificial intelligence
+- xml
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ZetaGlest/zetaglest-source/labels/good%20first%20issue

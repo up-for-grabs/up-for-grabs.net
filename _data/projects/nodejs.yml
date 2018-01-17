@@ -1,0 +1,27 @@
+name: *Node.js*
+desc: *Node.js JavaScript runtime and related projects in the Node.js GitHub org*
+site: *https://nodejs.org*
+tags:
+- node
+- nodejs
+- js
+- javascript
+- community
+- citgm
+- build
+- ci
+- cd
+- cli
+- automation
+- i18n
+- internationalization
+- l10n
+- localization
+- c++
+- libuv
+- nan
+- n-api
+- enterprise
+upforgrabs:
+  name: *Good First Issue*
+  link: *https://github.com/search?utf8=%E2%9C%93&q=org%3Anodejs+is%3Aopen+label%3A%22good+first+issue%22+sort%3Aupdated-desc+&type=*

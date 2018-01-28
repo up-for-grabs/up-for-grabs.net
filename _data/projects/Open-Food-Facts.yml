@@ -1,0 +1,14 @@
+name: *Open Food Facts*
+desc: *Open Food Facts is a collaborative, free and open database of food products from around the world*
+site: *https://www.github.com/openfoodfacts/*
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- *food*
+- *cosmetics*
+- *perl*
+- *android*
+- *ios*
+- *crowdsourcing*
+upforgrabs:
+  name: *Easy fix*
+  link: *https://github.com/openfoodfacts/openfoodfacts-androidapp/labels/Easy-fix*

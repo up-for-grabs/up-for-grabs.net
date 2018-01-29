@@ -8,10 +8,19 @@ tags:
 - networking
 - cmake
 - graphics
+- blender
+- g3d
 - design
+- website
+- html
+- javascript
+- perl
 - music
+- sound effects
 - artificial intelligence
 - xml
+- php
+- mysql
 upforgrabs:
   name: good first issue
-  link: https://github.com/ZetaGlest/zetaglest-source/labels/good%20first%20issue
+  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3AZetaGlest+label%3A%22good+first+issue%22

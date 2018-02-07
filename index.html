@@ -29,7 +29,7 @@ layout: default
               {% if project.tags %}
                 <p class="tags">
                   {% for tag in project.tags %}
-                    {{ tag }}{% if not forloop.last %}, {% endif %}
+                    {{ tag }}{% if forloop.index != forloop.length %}, {% endif %}
                   {% endfor %}
                 </p>
               {% endif %}

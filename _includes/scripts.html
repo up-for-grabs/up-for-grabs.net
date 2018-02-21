@@ -70,8 +70,6 @@
   }
 </script>
 <script src="{{ site.github.url }}javascripts/lib/require.js" data-main="javascripts/app"></script>
-
-
 <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
   document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -82,4 +80,18 @@
   pageTracker._trackPageview();
   } catch(err) {}
 </script>
-
+ <script type="text/javascript">
+        $(document).ready(function(){
+            $(".incrementfont").click(function () {
+                var fontsize = parseInt($('body').css("font-size"));
+                if ($(this).hasClass("plus")) {
+                    fontsize = fontsize + 2;
+                } else {
+                    fontsize = fontsize - 2;
+                    if (fontsize <= 11) {
+                        fontsize = 11; }
+                }
+               $('body').css("font-size", fontsize);
+            });
+        });
+</script>

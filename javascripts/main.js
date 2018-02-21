@@ -4,12 +4,19 @@
     compiledtemplateFn = null,
     projectsPanel = null;
 
-  var renderProjects = function (tags, names) {
+
+
+  var renderProjects = function (tags, currentPageNumber, tagsString, names) { 
+
+  // var renderProjects = function (tags, names) {
     projectsPanel.html(compiledtemplateFn({
       "projects": projectsSvc.get(tags, names),
       "tags": projectsSvc.getTags(),
       "popularTags": projectsSvc.getPopularTags(6),
       "selectedTags": tags,
+
+      "currentPageNumber": currentPageNumber,
+
       "names": projectsSvc.getNames(),
       "selectedNames": names
     }));
@@ -41,7 +48,10 @@
 
     this.get("#/tags/:tags", function (context) {
       var tags = (this.params["tags"] || "").toLowerCase().split(",");
-      renderProjects(tags);
+      var tagsString = this.params["tags"] || "";
+      var page = this.params["page"];
+      renderProjects(tags, page, tagsString);
+      scrollUp();
     });
 
     this.get("#/names/", function (context) {

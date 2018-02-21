@@ -648,3 +648,15 @@ form {
   }
 }
 
+.incrementfont
+   {
+     background-color: #4499cc;
+     height: 50px;
+     width: 50px;
+     display: inline-block;
+     color: #fff;
+     font-size: 20pt;
+     text-align: center;
+     line-height: 50px;
+    }
+

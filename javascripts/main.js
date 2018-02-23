@@ -4,21 +4,24 @@
     compiledtemplateFn = null,
     projectsPanel = null;
 
-  var renderProjects = function (tags, names) {
+  var renderProjects = function (tags, names, page) {
+    // console.log(names);
     projectsPanel.html(compiledtemplateFn({
       "projects": projectsSvc.get(tags, names),
       "tags": projectsSvc.getTags(),
       "popularTags": projectsSvc.getPopularTags(6),
       "selectedTags": tags,
       "names": projectsSvc.getNames(),
-      "selectedNames": names
+      "selectedNames": names,
+      "currentPageNumber": page,
+      tagsString: ""
     }));
 
     projectsPanel.find("select.tags-filter").chosen({
       no_results_text: "No tags found by that name.",
       width: "95%"
     }).val(tags).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/tags/" + encodeURIComponent(($(this).val() || ""));
+      window.location.href = "#/page/1/tags/" + encodeURIComponent(($(this).val() || ""));
     });
 
     projectsPanel.find("select.names-filter").chosen({
@@ -26,31 +29,39 @@
       no_results_text: "No project found by that name.",
       width: "95%"
     }).val(names).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/names/" + encodeURIComponent(($(this).val() || ""));
+      window.location.href = "#/page/1/names/" + encodeURIComponent(($(this).val() || ""));
     });
   };
 
   var app = $.sammy(function () {
     this.get("#/", function (context) {
-      renderProjects();
+      renderProjects("", "", 1);
     });
 
-    this.get("#/tags/", function (context) {
-      renderProjects();
+    this.get("#/page/:page", function (context) {
+      var page = this.params["page"];
+      renderProjects(null, null, page);
+    })
+    this.get("#/page/:page/tags/", function (context) {
+      var page = this.params["page"];
+      renderProjects(null, null, page);
     });
-
-    this.get("#/tags/:tags", function (context) {
+    
+    this.get("#/page/:page/tags/:tags", function (context) {
       var tags = (this.params["tags"] || "").toLowerCase().split(",");
-      renderProjects(tags);
+      var page = this.params["page"];
+      renderProjects(null, tags, page);
     });
 
-    this.get("#/names/", function (context) {
-      renderProjects();
+    this.get("#/page/:page/names/", function (context) {
+      var page = this.params["page"];
+      renderProjects(null, null, page);
     });
-
+    
     this.get("#/names/:names", function (context) {
+      var page = this.params["page"];
       var names = (this.params["names"] || "").toLowerCase().split(",");
-      renderProjects(null, names);
+      renderProjects(null, names, page);
     });
   });
 

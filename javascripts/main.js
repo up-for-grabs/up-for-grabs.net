@@ -28,7 +28,7 @@
       no_results_text: "No project found by that name.",
       width: "95%"
     }).val(names).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/page/1/names/" + encodeURIComponent(($(this).val() || ""));
+      window.location.href = "#/names/" + encodeURIComponent(($(this).val() || ""));
     });
   };
 
@@ -52,15 +52,15 @@
       renderProjects(tags, null, page);
     });
 
-    this.get("#/page/:page/names/", function (context) {
-      var page = this.params["page"];
-      renderProjects(null, null, page);
-    });
+    // this.get("#/page/:page/names/", function (context) {
+    //   // var page = this.params["page"];
+    //   renderProjects(null, null, 1);
+    // });
     
     this.get("#/names/:names", function (context) {
-      var page = this.params["page"];
+      // var page = this.params["page"];
       var names = (this.params["names"] || "").toLowerCase().split(",");
-      renderProjects(null, names, page);
+      renderProjects(null, names, 1);
     });
   });
 

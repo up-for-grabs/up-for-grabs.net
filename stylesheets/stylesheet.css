@@ -620,6 +620,10 @@ form {
   }
 }
 
+.center {
+  text-align: center;
+}
+
 .pagination {
   display: inline-block;
 }

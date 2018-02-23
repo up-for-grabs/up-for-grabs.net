@@ -13,7 +13,7 @@
       "names": projectsSvc.getNames(),
       "selectedNames": names,
       "currentPageNumber": page,
-      tagsString: ""
+      "tagsString": tags
     }));
 
     projectsPanel.find("select.tags-filter").chosen({

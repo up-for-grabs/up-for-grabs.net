@@ -5,6 +5,8 @@
     projectsPanel = null;
 
   var renderProjects = function (tags, names, page) {
+    var tagsString = tags;
+    tags = (tags || "").toLowerCase().split(",")
     projectsPanel.html(compiledtemplateFn({
       "projects": projectsSvc.get(tags, names),
       "tags": projectsSvc.getTags(),
@@ -13,7 +15,7 @@
       "names": projectsSvc.getNames(),
       "selectedNames": names,
       "currentPageNumber": page,
-      "tagsString": tags
+      "tagsString": tagsString
     }));
 
     projectsPanel.find("select.tags-filter").chosen({
@@ -32,6 +34,13 @@
     });
   };
 
+  //we scroll to the first project when user swich page
+  var scrollUp = function () {
+    $('html, body').animate({
+      scrollTop: $("#projects-panel").offset().top
+    }, 1000);
+  };
+
   var app = $.sammy(function () {
     this.get("#/", function (context) {
       renderProjects("", "", 1);
@@ -40,25 +49,26 @@
     this.get("#/page/:page", function (context) {
       var page = this.params["page"];
       renderProjects("", "", page);
+      scrollUp();
     })
     this.get("#/page/:page/tags/", function (context) {
       var page = this.params["page"];
       renderProjects("", "", page);
+      scrollUp();
     });
     
     this.get("#/page/:page/tags/:tags", function (context) {
-      var tags = (this.params["tags"] || "").toLowerCase().split(",");
+      var tags = this.params["tags"];
       var page = this.params["page"];
       renderProjects(tags, "", page);
+      scrollUp();
     });
 
-    // this.get("#/page/:page/names/", function (context) {
-    //   // var page = this.params["page"];
-    //   renderProjects(null, null, 1);
-    // });
+    this.get("#/names/", function (context) {
+      renderProjects();
+    });
     
     this.get("#/names/:names", function (context) {
-      // var page = this.params["page"];
       var names = (this.params["names"] || "").toLowerCase().split(",");
       renderProjects("", names, 1);
     });

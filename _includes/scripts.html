@@ -57,7 +57,7 @@
    <div class="center">
      <div class="pagination">
       <% var lastPage = parseInt((projects.length - 1) / nbrOfProjectsPerPage) + 1%>
-      <a id="previous" href="#/page/<%=currentPageNumber-1%>/tags/<%-encodeURIComponent(tagsString)%>" <% if(currentPageNumber <= 1) { %> class="not-active" <% } %> >&laquo; Prev</a>
+      <a id="previous" href="#/page/<%=currentPageNumber-1%>/tags/<%-encodeURIComponent(tagsString)%>" <% if(currentPageNumber <= 1) { %> class="not-active" href="#/page/<%=currentPageNumber%>/tags/<%-encodeURIComponent(tagsString)%>" <% } %> >&laquo; Prev</a>
       <% _.each(_.range(1, projects.length + 1, nbrOfProjectsPerPage), function(i) {
         var pageNumber = parseInt(i/nbrOfProjectsPerPage)+1;
         if(pageNumber == 1 || pageNumber == lastPage || pageNumber == currentPageNumber) { %>

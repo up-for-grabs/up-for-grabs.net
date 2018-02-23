@@ -637,3 +637,7 @@ form {
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.not-active {
+  pointer-events: none;
+}

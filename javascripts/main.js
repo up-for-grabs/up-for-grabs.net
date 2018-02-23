@@ -5,7 +5,6 @@
     projectsPanel = null;
 
   var renderProjects = function (tags, names, page) {
-    // console.log(names);
     projectsPanel.html(compiledtemplateFn({
       "projects": projectsSvc.get(tags, names),
       "tags": projectsSvc.getTags(),
@@ -50,7 +49,7 @@
     this.get("#/page/:page/tags/:tags", function (context) {
       var tags = (this.params["tags"] || "").toLowerCase().split(",");
       var page = this.params["page"];
-      renderProjects(null, tags, page);
+      renderProjects(tags, null, page);
     });
 
     this.get("#/page/:page/names/", function (context) {

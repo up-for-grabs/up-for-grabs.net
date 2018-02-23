@@ -39,17 +39,17 @@
 
     this.get("#/page/:page", function (context) {
       var page = this.params["page"];
-      renderProjects(null, null, page);
+      renderProjects("", "", page);
     })
     this.get("#/page/:page/tags/", function (context) {
       var page = this.params["page"];
-      renderProjects(null, null, page);
+      renderProjects("", "", page);
     });
     
     this.get("#/page/:page/tags/:tags", function (context) {
       var tags = (this.params["tags"] || "").toLowerCase().split(",");
       var page = this.params["page"];
-      renderProjects(tags, null, page);
+      renderProjects(tags, "", page);
     });
 
     // this.get("#/page/:page/names/", function (context) {
@@ -60,7 +60,7 @@
     this.get("#/names/:names", function (context) {
       // var page = this.params["page"];
       var names = (this.params["names"] || "").toLowerCase().split(",");
-      renderProjects(null, names, 1);
+      renderProjects("", names, 1);
     });
   });
 

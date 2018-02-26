@@ -1,0 +1,9 @@
+name: POSMS
+desc: A free, open source subscriber system
+site: 
+tags:
+- python
+- desktop-app
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Abdur-rahmaanJ/POSMS

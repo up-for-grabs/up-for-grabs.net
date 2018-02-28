@@ -1,0 +1,11 @@
+name: vue-carousel
+desc: A responsive, touch-friendly carouself for vuejs
+site: https://ssense.github.io/vue-carousel/
+tags:
+- vuejs
+- javascript
+- unit tests
+- web
+upforgrabs:
+  name: good first issue
+  link: https://github.com/SSENSE/vue-carousel/labels/good%20first%20issue

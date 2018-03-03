@@ -9,9 +9,10 @@ tags:
 - cross-platform
 - javascript
 - java
+- React Native
 - Objective-C
 - Android
 - iOS
 upforgrabs:
-  name: Good First Task
-  link: https://github.com/facebook/react-native/labels/Good%20First%20Task
+  name: Good first issue
+  link: https://github.com/facebook/react-native/labels/Good%20first%20issue

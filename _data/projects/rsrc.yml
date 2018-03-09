@@ -1,0 +1,14 @@
+name: rsrc
+desc: Tool for embedding .ico & manifest resources in Go programs for Windows.
+site: https://github.com/akavel/rsrc
+tags:
+- oss
+- windows
+- go
+- golang
+- file formats
+- systems
+- command-line
+upforgrabs:
+  name: help wanted
+  link: https://github.com/akavel/rsrc/labels/help%20wanted

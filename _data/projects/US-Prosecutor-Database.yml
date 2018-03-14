@@ -1,0 +1,20 @@
+name: U.S. Prosecutor Database
+desc: A searchable resource that contains contact information, relevant articles, and other data about U.S. Prosecutors.
+site: https://light-pollution.herokuapp.com
+tags:
+- meteor
+- mongodb
+- design
+- ui
+- json
+- data
+- css
+- html
+- bootstrap
+- prototype
+- javascript
+- open data
+- open-government
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/billimarie/prosecutor-database/labels/help-wanted

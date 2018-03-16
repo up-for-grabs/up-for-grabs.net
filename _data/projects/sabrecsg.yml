@@ -1,0 +1,12 @@
+name: SabreCSG
+desc: Level design tools for Unity
+site: https://github.com/sabresaurus/SabreCSG
+tags:
+- CSG
+- BSP
+- Unity
+- ".NET"
+- C#
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/sabresaurus/SabreCSG/labels/up-for-grabs

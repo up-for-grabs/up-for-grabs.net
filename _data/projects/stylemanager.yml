@@ -1,0 +1,13 @@
+name: StyleManager
+desc: Build a customizable Web portal for managing beauty salons. This is a greenfield project, so everybody is welcome to join and contribute. 
+site: https://github.com/alessalessio/StyleManager
+tags:
+- c#
+- SQLServer
+- MVC
+- ASPNET
+- NETCore
+- Frontend
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/alessalessio/StyleManager

@@ -1,0 +1,23 @@
+name: Duality Docs
+desc: >
+  A GitHub pages repo for the Duality projects developer manual. If you 
+  have a thing for technical writing and an affinity for game development, 
+  we could use your help!
+  Duality is a modular 2D game engine that provides its own visual editor. 
+  It's highly extensible, written entirely in C# and backed by OpenGL.
+site: http://dualitydocs.adamslair.net/
+tags:
+- markdown
+- documentation
+- ".NET"
+- C#
+- OpenGL
+- gamedev
+- games
+- 2d
+- engine
+- editor
+- framework
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/AdamsLair/duality-docs/labels/Help%20Wanted

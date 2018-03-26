@@ -1,6 +1,5 @@
 name: Discover Rewards Notifier
-desc: An open-source Chrome Extension that shows a notification when visiting sites that qualify for Discover®
-Deals or Cashback Rewards.
+desc: An open-source Chrome Extension that shows a notification when visiting sites that qualify for Discover® Deals or Cashback Rewards.
 site: https://www.tejunareddy.com/discover-rewards-notifier/
 tags:
 - circleci

@@ -1,0 +1,11 @@
+name: Kibitzr
+desc: Personal Web Assistant
+site: https://kibitzr.github.io/
+tags:
+- web
+- assistant
+- python
+- automation
+upforgrabs:
+  name: trivial
+  link: https://github.com/kibitzr/kibitzr/labels/trivial

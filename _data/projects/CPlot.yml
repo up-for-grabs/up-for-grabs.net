@@ -1,0 +1,17 @@
+name: CPlot
+desc: Function plotter, for 2D, 3D, vector fields and, especially, complex functions
+site: http://zoon.cc/cplot/
+tags:
+- C++
+- MFC
+- OpenGL
+- mathematics
+- physics
+- Windows
+- Linux
+- graphics
+- science
+- visualization
+upforgrabs:
+  name: help wanted
+  link: https://github.com/hilgenberg/cplot/labels/help%20wanted

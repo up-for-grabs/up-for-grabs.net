@@ -1,0 +1,17 @@
+name: openstreetcraft.net
+desc: The Earth as Minecraft map
+site: https://gitlab.com/openstreetcraft
+tags:
+- oss
+- minecraft
+- gamedev
+- java
+- gradle
+- docker
+- web
+- css
+- html
+- javascript
+upforgrabs:
+  name: Easy
+  link: https://gitlab.com/groups/openstreetcraft/-/issues?label_name[]=Easy

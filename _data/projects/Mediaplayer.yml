@@ -1,0 +1,10 @@
+name: Media Player
+desc: Media Player designed to lighweight and work on the go.
+site: https://github.com/Griffintaur/MediaPlayer
+tags:
+- C#
+- WPF
+- Design Patterns
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Griffintaur/MediaPlayer/issues?q=is%3Aopen+is%3Aissue+label%3Aup-for-grabs

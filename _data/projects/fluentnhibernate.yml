@@ -3,7 +3,7 @@ desc: Fluent, XML-less, compile safe, automated, convention-based mappings for N
 site: https://github.com/jagregory/fluent-nhibernate
 tags:
 - ".NET"
-- ORM
+- orm
 - DAL
 - Conventions
 upforgrabs:

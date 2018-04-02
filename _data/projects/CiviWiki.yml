@@ -1,0 +1,14 @@
+name: CiviWiki
+desc: Building a Better Democracy for the Internet Age
+site: https://www.civiwiki.org/
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- Python
+- Django
+- democracy
+- government
+- HTML
+- JavaScript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/CiviWiki/OpenCiviWiki/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

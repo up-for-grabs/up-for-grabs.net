@@ -1,0 +1,11 @@
+name: OpenDota Mobile
+desc: React Native apps for Android/iOS
+site: https://www.opendota.com/
+tags:
+- react-native
+- android
+- mobile
+- ios
+upforgrabs:
+  name: help wanted
+  link: https://github.com/odota/mobile/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22

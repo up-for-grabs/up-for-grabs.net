@@ -1,0 +1,16 @@
+name: ethminer
+desc: Ethereum GPU mining tool
+site: https://github.com/ethereum-mining/ethminer
+tags:
+- c++
+- ethereum
+- cryptography
+- cryptocurrency
+- mining
+- gpu
+- cuda
+- opencl
+- stratum
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ethereum-mining/ethminer/labels/help%20wanted

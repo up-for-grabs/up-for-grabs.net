@@ -1,0 +1,15 @@
+name: wikirider
+desc: Do a wiki-run straight from your terminal!
+site: https://github.com/sadboyzvone/wikirider
+tags:
+- python
+- wiki
+- wikipedia
+- terminal
+- cmdline
+- cmd
+- pip
+- easy
+upforgrabs:
+  name: needhelp
+  link: https://github.com/sadboyzvone/wikirider/labels/needhelp

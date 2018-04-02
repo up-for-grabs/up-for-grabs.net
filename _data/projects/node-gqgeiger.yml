@@ -1,0 +1,9 @@
+name: node-gqgeiger
+desc: An abstraction library for communicating with the GQ Electronics GMC range of Geiger counters
+site: https://github.com/ihatecsv/node-gqgeiger
+tags:
+- javascript
+- serial
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ihatecsv/node-gqgeiger/labels/up-for-grabs

@@ -1,0 +1,14 @@
+name: My Dev Portal
+desc: A web app for new developers to create an online portfolio and track their job applications.
+site: https://github.com/SWLivingstone/my_dev_portal
+tags:
+- CSS
+- haml
+- UI
+- rubyonrails
+- ruby
+- web
+- frontend
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/SWLivingstone/my_dev_portal/labels/up-for-grabs

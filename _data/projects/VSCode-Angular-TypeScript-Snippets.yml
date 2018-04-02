@@ -1,0 +1,11 @@
+name: VSCode Angular TypeScript Snippets
+desc: Angular Snippets (TypeScript, Html, Angular Material, Flex Layout, ngRx, RxJS & Testing)
+site: https://github.com/BeastCode/VSCode-Angular-TypeScript-Snippets
+tags:
+- Angular
+- TypeScript
+- Snippets
+- VSCode
+upforgrabs:
+  name: good first issue
+  link: https://github.com/BeastCode/VSCode-Angular-TypeScript-Snippets/labels/good%20first%20issue

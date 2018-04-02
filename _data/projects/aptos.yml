@@ -1,0 +1,16 @@
+name: aptos
+desc: A tool for validating data using JSON Schema and converting JSON Schema documents into different data-interchange formats
+site: https://github.com/pennsignals/aptos
+tags:
+- json-schema
+- avro-schema
+- command-line-tool
+- python
+- python3
+- data-interchange
+- avro
+- schema-conversion
+- cli
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/pennsignals/aptos/labels/up-for-grabs

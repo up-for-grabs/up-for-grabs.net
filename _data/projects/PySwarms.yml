@@ -1,0 +1,11 @@
+name: PySwarms
+desc: A Particle Swarm Optimization (PSO) library in Python
+site: https://github.com/ljvmiranda921/pyswarms
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- python
+- optimization
+- algorithms
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ljvmiranda921/pyswarms/labels/help%20wanted

@@ -1,0 +1,13 @@
+name: AutoSpotting
+desc: Automatically replace AWS EC2 instances in AutoScaling groups with identically configured but up to 90% cheaper spot instances
+site: https://github.com/cristim/autospotting
+tags:
+- aws
+- ec2
+- autoscaling
+- spot
+- automation
+- golang
+upforgrabs:
+  name: 'Type: Good first issue'
+  link: 'https://github.com/cristim/autospotting/labels/Type%3A%20Good%20first%20issue'

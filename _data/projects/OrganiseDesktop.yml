@@ -1,0 +1,12 @@
+name: OrganiseDesktop
+desc: A small programme that organises icons on a desktop
+site: https://github.com/blavejr/OrganiseDesktop
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- Python
+- tkinter
+- GUI
+- easy
+upforgrabs:
+  name: help needed
+  link: https://github.com/blavejr/OrganiseDesktop/labels/help%20wanted

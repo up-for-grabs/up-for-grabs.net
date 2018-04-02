@@ -1,0 +1,15 @@
+name: LocalAppVeyor
+desc: Run your AppVeyor builds, locally
+site: https://github.com/joaope/localappveyor
+tags:
+- appveyor
+- build
+- console
+- commandline
+- command-line
+- C#
+- ".NET"
+- ".NET Core"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/joaope/localappveyor/labels/up-for-grabs

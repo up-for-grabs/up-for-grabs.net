@@ -1,0 +1,12 @@
+name: Hilary
+desc: Open Academic Environment project back-end
+site: http://oaeproject.org/
+tags:
+- javascript
+- nodejs
+- node
+- oss
+- education
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/oaeproject/Hilary/issues?q=is%3Aopen+is%3Aissue+label%3Aup-for-grabs

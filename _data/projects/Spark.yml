@@ -1,0 +1,11 @@
+name: Spark
+desc: Spark is an Open Source, cross-platform IM client optimized for businesses and organizations. It features built-in support for group chat, telephony integration, and strong security. It also offers a great end-user experience with features like in-line spell checking, group chat room bookmarks, and tabbed conversations.
+site: https://www.igniterealtime.org/projects/spark/
+tags:
+- XMPP
+- Java
+- IM
+- Client
+upforgrabs:
+  name: Teaser Tasks
+  link: https://issues.igniterealtime.org/issues/?filter=11913

@@ -1,5 +1,13 @@
 <script type="text/html" id="projects-panel-template">
   <div class="filters-panel cf">
+    <h5>Filter by name: </h5>
+    <select class="names-filter" multiple data-placeholder="Select a project..." >
+    <% _.each(names, function(entry, key){ %>
+      <option value="<%-key%>"><%- entry.name%></option>
+    <% }) %>
+    </select>
+  </div>
+  <div class="filters-panel cf">
     <h5>Filter by tags: </h5>
     <select class="tags-filter" multiple data-placeholder="Select a tag..." >
     <% _.each(tags, function(entry, key){ %>
@@ -18,12 +26,12 @@
     <tbody>
     <tr>
        <td colspan="2" class="title">
-           <span class="proj"><a href="<%-project.site %>"><%-project.name %></a></span>
+           <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
        </td>
     </tr>
     <tr>
        <td class="details">
-        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>"><%-project.upforgrabs.name %></a></p>
+        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank"><%-project.upforgrabs.name %></a></p>
        </td>
        <td class="details">
            <% if (project.desc) { %>

@@ -4,7 +4,6 @@ site: https://ipfs.io
 tags:
 # Note those are tags categorizing your project, not issue labels.
 - javascript
-- golang
 - go
 - spec
 - p2p

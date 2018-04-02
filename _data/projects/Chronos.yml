@@ -1,0 +1,13 @@
+name: Chronos
+desc: Desktop client for JIRA. Track time, upload worklogs without a hassle
+site: https://github.com/web-pal/chronos-timetracker
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- javascript
+- js
+- electron
+- jira
+- time-tracking
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/web-pal/chronos-timetracker/labels/help%20wanted

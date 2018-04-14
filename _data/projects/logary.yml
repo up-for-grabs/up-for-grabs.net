@@ -6,7 +6,7 @@ desc: >
 site: https://github.com/logary/logary
 tags:
 - F#
-- .NET
+- ".net"
 - nlog
 - zipkin
 - console

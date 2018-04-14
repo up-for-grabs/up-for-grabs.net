@@ -3,7 +3,7 @@ desc: Set of Atom plugins for F# development
 site: https://github.com/ionide/ionide-atom-fsharp
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: up for grabs
   link: https://github.com/ionide/ionide-atom-fsharp/labels/up for grabs

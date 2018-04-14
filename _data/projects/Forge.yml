@@ -3,7 +3,7 @@ desc: F# CLI tool for project, file, and solution management
 site: https://github.com/fsharp-editing/Forge
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/fsharp-editing/Forge/labels/help wanted

@@ -3,7 +3,7 @@ desc: An example of using Azure Search to power a SAFE website for rapid searchi
 site: https://github.com/SAFE-Stack/SAFE-Search
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/SAFE-Stack/SAFE-Search/labels/up-for-grabs

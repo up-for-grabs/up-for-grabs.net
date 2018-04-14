@@ -3,7 +3,7 @@ desc: A dependency manager for .NET with support for NuGet packages and Git repo
 site: https://github.com/fsprojects/Paket
 tags:
 - F#
-- .NET
+- ".net"
 - build
 - dependency manager
 - packaging

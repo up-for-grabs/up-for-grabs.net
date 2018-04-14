@@ -3,7 +3,7 @@ desc: VS Code plugin for FAKE
 site: https://github.com/ionide/ionide-vscode-fake
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/ionide/ionide-vscode-fake/labels/help wanted

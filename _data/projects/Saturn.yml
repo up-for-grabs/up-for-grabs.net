@@ -4,7 +4,7 @@ site: https://github.com/SaturnFramework/Saturn
 tags:
 - F#
 - Web
-- .NET
+- ".net"
 upforgrabs:
   name: up for grabs
   link: https://github.com/SaturnFramework/Saturn/labels/up for grabs

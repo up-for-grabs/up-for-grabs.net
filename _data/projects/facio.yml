@@ -3,7 +3,7 @@ desc: Tools for building compilers, interpreters, and analysis tools in F#
 site: https://github.com/jack-pappas/facio
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/jack-pappas/facio/labels/up-for-grabs

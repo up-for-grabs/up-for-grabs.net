@@ -3,7 +3,7 @@ desc: Mechanic plugin for VS Code
 site: https://github.com/ionide/ionide-vscode-mechanic
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/ionide/ionide-vscode-mechanic/labels/help wanted

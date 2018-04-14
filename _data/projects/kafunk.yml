@@ -4,7 +4,7 @@ site: https://github.com/jet/kafunk
 tags:
 - F#
 - Kafka
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/jet/kafunk/labels/help wanted

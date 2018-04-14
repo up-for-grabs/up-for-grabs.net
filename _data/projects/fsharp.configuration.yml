@@ -3,7 +3,7 @@ desc: The FSharp.Configuration project contains type providers for the configura
 site: https://github.com/fsprojects/FSharp.Configuration
 tags:
 - F#
-- .NET
+- ".net"
 - type provider
 - YAML
 - AppSettings

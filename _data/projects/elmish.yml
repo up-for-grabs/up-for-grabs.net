@@ -4,7 +4,7 @@ site: https://github.com/fable-elmish/elmish
 tags:
 - F#
 - Elm
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/fable-elmish/elmish/labels/help wanted

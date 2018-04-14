@@ -3,7 +3,7 @@ desc: Helper tool to verify semantic version changes based on API surface area c
 site: https://github.com/fsprojects/SyntacticVersioning
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/fsprojects/SyntacticVersioning/labels/help wanted

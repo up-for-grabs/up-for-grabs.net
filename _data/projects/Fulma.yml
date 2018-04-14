@@ -3,7 +3,7 @@ desc: Binding for Elmish using Bulma CSS framework
 site: https://github.com/MangelMaxime/Fulma
 tags:
 - F#
-- .NET
+- ".net"
 - Bulma
 - Web
 - CSS

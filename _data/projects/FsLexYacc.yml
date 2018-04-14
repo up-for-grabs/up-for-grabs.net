@@ -3,7 +3,7 @@ desc: Lexer and parser generators for F#
 site: https://github.com/fsprojects/FsLexYacc
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/fsprojects/FsLexYacc/labels/help wanted

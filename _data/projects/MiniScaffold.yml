@@ -3,7 +3,7 @@ desc: F# Template for creating and publishing libraries targeting .NET Full (net
 site: https://github.com/TheAngryByrd/MiniScaffold
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/TheAngryByrd/MiniScaffold/labels/help wanted

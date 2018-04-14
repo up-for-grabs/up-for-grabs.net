@@ -3,7 +3,7 @@ desc: An F# Azure Type Provider which can be used to explore Blob, Table and Que
 site: https://github.com/fsprojects/AzureStorageTypeProvider
 tags:
 - F#
-- .NET
+- ".net"
 - Azure
 - Azure Storage
 - type provider

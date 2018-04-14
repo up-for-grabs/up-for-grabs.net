@@ -3,7 +3,7 @@ desc: A prototypical .NET solution (file system layout and tooling), recommended
 site: https://github.com/fsprojects/ProjectScaffold
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/ProjectScaffold/labels/up-for-grabs

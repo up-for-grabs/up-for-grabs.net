@@ -3,7 +3,7 @@ desc: A type provider for Microsoft Dynamics CRM 2011.
 site: https://github.com/fsprojects/DynamicsCRMProvider
 tags:
 - F#
-- .NET
+- ".net"
 - type provider
 upforgrabs:
   name: up-for-grabs

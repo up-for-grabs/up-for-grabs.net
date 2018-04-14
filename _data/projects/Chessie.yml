@@ -3,7 +3,7 @@ desc: Railway-oriented programming for .NET
 site: https://github.com/fsprojects/Chessie
 tags:
 - F#
-- .NET
+- ".net"
 - ROP
 upforgrabs:
   name: help wanted

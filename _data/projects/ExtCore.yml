@@ -3,7 +3,7 @@ desc: An extended core library for F#.
 site: https://github.com/jack-pappas/ExtCore
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/jack-pappas/ExtCore/labels/up-for-grabs

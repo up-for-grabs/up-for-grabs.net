@@ -4,7 +4,7 @@ site: https://github.com/frank-fs/taliesin
 tags:
 - F#
 - OWIN
-- .NET
+- ".net"
 upforgrabs:
   name: you-take-it
   link: https://github.com/frank-fs/taliesin/labels/you-take-it

@@ -5,7 +5,7 @@ tags:
 - F#
 - C#
 - Sockets
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/intellifactory/fsock/labels/help wanted

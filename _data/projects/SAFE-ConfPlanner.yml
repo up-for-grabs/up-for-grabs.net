@@ -3,7 +3,7 @@ desc: Working sample of a SAFE-Stack project that uses CQRS/Event-Sourcing and t
 site: https://github.com/SAFE-Stack/SAFE-ConfPlanner
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/SAFE-Stack/SAFE-ConfPlanner/labels/help wanted

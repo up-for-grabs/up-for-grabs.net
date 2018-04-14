@@ -3,7 +3,7 @@ desc: xml random generator
 site: https://github.com/giacomociti/AntaniXml
 tags:
 - F#
-- .NET
+- ".net"
 - XML
 upforgrabs:
   name: help wanted

@@ -3,7 +3,7 @@ desc: IRC-style chat demo featuring full-stack F#, Akka.Streams, Akkling, Fable,
 site: https://github.com/SAFE-Stack/SAFE-Chat
 tags:
 - F#
-- .NET
+- ".net"
 - Akka.NET
 - Akka.Streams
 - Web

@@ -3,7 +3,7 @@ desc: Gjallarhorn is a small, lightweight framework for managing mutable state w
 site: https://github.com/ReedCopsey/Gjallarhorn
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: up for grabs
   link: https://github.com/ReedCopsey/Gjallarhorn/labels/up for grabs

@@ -3,7 +3,7 @@ desc: Statically typechecks a common SQL dialect and translates it to various RD
 site: https://github.com/rspeele/Rezoom.SQL
 tags:
 - F#
-- .NET
+- ".net"
 - SQL
 upforgrabs:
   name: help wanted

@@ -3,7 +3,7 @@ desc: A .NET library for parsing natural-language numerals ("forty-two") to inte
 site: https://github.com/ploeh/Numsense
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: jump in
   link: https://github.com/ploeh/Numsense/labels/jump in

@@ -3,7 +3,7 @@ desc: A state machine type provider
 site: https://github.com/fsprojects/GraphProvider
 tags:
 - F#
-- .NET
+- ".net"
 - Graph
 - type provider
 upforgrabs:

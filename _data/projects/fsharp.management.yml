@@ -5,7 +5,7 @@ desc: >
 site: https://github.com/fsprojects/FSharp.Management
 tags:
 - F#
-- .NET
+- ".net"
 - type provider
 - Registry
 - Powershell

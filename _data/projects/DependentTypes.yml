@@ -3,7 +3,7 @@ desc: experiments with @robkuz LimitedValue type
 site: https://github.com/jackfoxy/DependentTypes
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/jackfoxy/DependentTypes/labels/help wanted

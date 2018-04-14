@@ -3,7 +3,7 @@ desc: This library provides a set of F# helpers for string manipulations, loggin
 site: https://github.com/Microsoft/fsharplu
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/Microsoft/fsharplu/labels/help wanted

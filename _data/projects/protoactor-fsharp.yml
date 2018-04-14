@@ -3,7 +3,7 @@ desc: FSharp library for protoactor
 site: https://github.com/mastoj/protoactor-fsharp
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/mastoj/protoactor-fsharp/labels/help wanted

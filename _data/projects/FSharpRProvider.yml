@@ -3,7 +3,7 @@ desc: An F# Type Provider to interop with R
 site: https://github.com/BlueMountainCapital/FSharpRProvider
 tags:
 - F#
-- .NET
+- ".net"
 - R
 - type provider
 upforgrabs:

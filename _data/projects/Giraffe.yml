@@ -3,7 +3,7 @@ desc: A native functional ASP.NET Core web framework for F# developers.
 site: https://github.com/giraffe-fsharp/Giraffe
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: help wanted
   link: https://github.com/giraffe-fsharp/Giraffe/labels/help wanted

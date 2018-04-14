@@ -3,7 +3,7 @@ desc: PDF formatting from FSharp.Markdown
 site: https://github.com/theburningmonk/FSharp.Markdown.Pdf
 tags:
 - F#
-- .NET
+- ".net"
 - markdown
 - PDF
 upforgrabs:

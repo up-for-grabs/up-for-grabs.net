@@ -3,7 +3,7 @@ desc: Hedgehog will eat all your bugs.
 site: https://github.com/hedgehogqa/fsharp-hedgehog
 tags:
 - F#
-- .NET
+- ".net"
 - Testing
 upforgrabs:
   name: help wanted

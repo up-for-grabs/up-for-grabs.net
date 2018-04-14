@@ -3,7 +3,7 @@ desc: VS Code plugin for F# development
 site: https://github.com/ionide/ionide-vscode-fsharp
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: up for grabs
   link: https://github.com/ionide/ionide-vscode-fsharp/labels/up for grabs

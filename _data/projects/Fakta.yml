@@ -3,7 +3,7 @@ desc: A Consul + Vault F# library – service discovery and secret management fo
 site: https://github.com/logibit/Fakta
 tags:
 - F#
-- .NET
+- ".net"
 - Consul
 - Vault
 upforgrabs:

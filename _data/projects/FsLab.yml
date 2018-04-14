@@ -3,7 +3,7 @@ desc: FsLab and FsLab.Runner packages and Journal template
 site: https://github.com/fslaborg/FsLab
 tags:
 - F#
-- .NET
+- ".net"
 - Data Science
 - Machine Learning
 upforgrabs:

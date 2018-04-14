@@ -3,7 +3,7 @@ desc: Charting library suitable for interactive F# scripting
 site: https://github.com/fslaborg/FSharp.Charting
 tags:
 - F#
-- .NET
+- ".net"
 upforgrabs:
   name: Up for grabs
   link: https://github.com/fslaborg/FSharp.Charting/labels/Up for grabs

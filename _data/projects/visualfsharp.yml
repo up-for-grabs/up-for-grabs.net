@@ -4,7 +4,7 @@ site: https://github.com/Microsoft/visualfsharp
 tags:
 - F#
 - compiler
-- .NET
+- ".net"
 upforgrabs:
   name: Up for Grabs
   link: https://github.com/Microsoft/visualfsharp/labels/Up for Grabs

@@ -5,7 +5,7 @@ desc: >
 site: https://github.com/fsharp/FAKE
 tags:
 - F#
-- .NET
+- ".net"
 - Make
 - Build
 upforgrabs:

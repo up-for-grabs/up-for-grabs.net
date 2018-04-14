@@ -4,7 +4,7 @@ site: https://github.com/petabridge/petabridge-dotnet-new
 tags:
 - F#
 - Petabridge
-- .NET
+- ".net"
 upforgrabs:
   name: good for first time contributors
   link: https://github.com/petabridge/petabridge-dotnet-new/labels/good for first time contributors

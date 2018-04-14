@@ -3,7 +3,7 @@ desc: A F# Hawk implementation with a strongly typed API that guides your usage 
 site: https://github.com/logibit/Logibit.Hawk
 tags:
 - F#
-- .NET
+- ".net"
 - Hawk
 upforgrabs:
   name: help wanted

@@ -2,9 +2,9 @@ name: FSharpVerbalExpressions
 desc: Composable F# regular expressions made easy
 site: https://github.com/VerbalExpressions/FSharpVerbalExpressions
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - F#
-- regularexpression
+- regularexpressions
+- .NET
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/VerbalExpressions/FSharpVerbalExpressions/labels/up-for-grabs

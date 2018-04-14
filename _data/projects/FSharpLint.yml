@@ -1,0 +1,9 @@
+name: FSharpLint
+desc: Lint tool for F#
+site: https://github.com/fsprojects/FSharpLint
+tags:
+- F#
+- .NET
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsprojects/FSharpLint/labels/up-for-grabs

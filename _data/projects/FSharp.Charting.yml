@@ -1,0 +1,9 @@
+name: FSharp.Charting
+desc: Charting library suitable for interactive F# scripting
+site: https://github.com/fslaborg/FSharp.Charting
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/fslaborg/FSharp.Charting/labels/up%20for%20grabs

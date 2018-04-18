@@ -1,0 +1,10 @@
+name: kafunk
+desc: Kafunk - F# Kafka client
+site: https://github.com/jet/kafunk
+tags:
+- F#
+- Kafka
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/jet/kafunk/labels/help%20wanted

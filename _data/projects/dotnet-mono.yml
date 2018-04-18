@@ -1,0 +1,10 @@
+name: dotnet-mono
+desc: dotnet utility to run .net full apps using mono on OSX/Linux
+site: https://github.com/TheAngryByrd/dotnet-mono
+tags:
+- ".net"
+- Mono
+- F#
+upforgrabs:
+  name: help wanted
+  link: https://github.com/TheAngryByrd/dotnet-mono/labels/help%20wanted

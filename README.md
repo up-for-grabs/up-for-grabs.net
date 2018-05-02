@@ -3,7 +3,7 @@ up-for-grabs.net
 
 Do you run or participate in an open-source project? Submit a Pull Request to add it to the list!
 
-Visit the website: [up-for-grabs.net](http://up-for-grabs.net/)
+Visit the website: [up-for-grabs.net](https://up-for-grabs.net/)
 
 ## Add a project
 

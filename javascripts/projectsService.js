@@ -64,7 +64,7 @@
     };
 
     this.getTagsMap = function () {
-      //http://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
+      //https://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
       return _orderedTagsMap = _orderedTagsMap || _(_tagsMap).chain().sortBy(function (tag, key) {
         return key;
       }).sortBy(function (tag, key) {

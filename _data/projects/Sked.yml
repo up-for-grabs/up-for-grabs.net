@@ -1,0 +1,11 @@
+name: Sked
+desc: Container scheduling and management, focused on operational simplicity.
+site: https://github.com/ColDog/sked
+tags:
+  - Go
+  - schedulers
+  - Consul
+
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ColDog/sked

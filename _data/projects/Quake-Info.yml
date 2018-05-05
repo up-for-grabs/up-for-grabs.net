@@ -1,0 +1,14 @@
+name: Quake Info
+desc: Android app to display a list of earthquakes occurring worldwide straight from the USGS servers. 
+site: https://github.com/Kvaibhav01/Quake-Info
+tags:
+- earthquake
+- earthquake-data
+- earthquake-api
+- json
+- list 
+- listView
+- USGS
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kvaibhav01/Quake-Info/labels/up-for-grabs

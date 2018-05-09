@@ -1,0 +1,10 @@
+name: LitJSON
+desc: JSON library for the .Net framework.
+site: https://litjson.net/
+tags:
+- ".NET"
+- C#
+- json
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/LitJSON/litjson/labels/up-for-grabs

@@ -1,5 +1,5 @@
 name: Duality
-desc: Documentation for Duality, a modular 2D game engine written entirely in C#
+desc: A modular 2D game engine written entirely in C#
 site: http://duality.adamslair.net/
 tags:
 - ".NET"

@@ -1,7 +1,5 @@
 name: Duality
-desc: >
-  Duality is a modular 2D game engine that provides its own visual editor. 
-  It's highly extensible, written entirely in C# and backed by OpenGL.
+desc: Documentation for Duality, a modular 2D game engine written entirely in C#
 site: http://duality.adamslair.net/
 tags:
 - ".NET"

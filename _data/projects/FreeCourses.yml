@@ -1,0 +1,12 @@
+name: FreeCourses
+desc: A collection about Free Programming Courses
+site: https://freecourses.github.io/
+tags:
+- javascript
+- css
+- react
+- json
+- redux
+upforgrabs:
+  name: Add a Course
+  link: https://github.com/Leocardoso94/Free-Courses/issues/1

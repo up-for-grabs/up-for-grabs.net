@@ -1,0 +1,10 @@
+name: fsharp-hedgehog
+desc: Hedgehog will eat all your bugs.
+site: https://github.com/hedgehogqa/fsharp-hedgehog
+tags:
+- F#
+- ".net"
+- Testing
+upforgrabs:
+  name: help wanted
+  link: https://github.com/hedgehogqa/fsharp-hedgehog/labels/help%20wanted

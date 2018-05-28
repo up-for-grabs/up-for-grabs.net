@@ -15,5 +15,5 @@ tags:
 - c++
 - qt
 upforgrabs:
-  name: starter issue
-  link: https://github.com/nextcloud/server/labels/starter%20issue
+  name: good first issue
+  link: https://github.com/nextcloud/server/labels/good%20first%20issue

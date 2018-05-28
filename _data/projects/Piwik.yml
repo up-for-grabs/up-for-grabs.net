@@ -1,0 +1,11 @@
+name: Piwik
+desc: Piwik is the leading open alternative to Google Analytics that gives you full control over your data.
+site: https://piwik.org
+tags:
+- analytics
+- privacy
+- php
+- web
+upforgrabs:
+  name: help wanted
+  link: https://github.com/piwik/piwik/labels/help%20wanted

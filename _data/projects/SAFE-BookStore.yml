@@ -1,0 +1,9 @@
+name: SAFE-BookStore
+desc: Working sample of a SAFE-Stack project with hot reloading
+site: https://github.com/SAFE-Stack/SAFE-BookStore
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/SAFE-Stack/SAFE-BookStore/labels/help%20wanted

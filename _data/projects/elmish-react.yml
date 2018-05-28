@@ -1,0 +1,9 @@
+name: elmish-react
+desc: Elmish React extensions for writing SPA and Native apps
+site: https://github.com/fable-elmish/react
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/fable-elmish/react/labels/help%20wanted

@@ -1,0 +1,12 @@
+name: Mentorient
+desc: Free and Open Source Property Management Software to manage your real estate rental properties. 
+site: http://mentorient.com
+tags:
+- Csharp
+- asp.net-core
+- css
+- javascript
+- web
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/mentorient/mentorient/issues?q=is%3Aissue+is%3Aopen+label%3A%22up+for+grabs%22

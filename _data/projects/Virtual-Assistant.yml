@@ -1,6 +1,6 @@
 name: Virtual Assistant
 desc: A linux based Virtual assistant on Artificial Intelligence in C. 
-      It can Google search, Youtube search, play media files, show calendar, etc.  
+      Find restaurants in an area, Fetch weather information of any place, Google search, Youtube search, Play media files, Show calendar, etc.  
 site: https://github.com/ritwik12/Virtual-Assistant
 tags:
 - C

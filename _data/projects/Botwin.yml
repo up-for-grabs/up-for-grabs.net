@@ -2,14 +2,13 @@ name: Botwin
 desc: Botwin is a library that allows Nancy-esque routing for use with ASP.Net Core.
 site: https://github.com/jchannon/Botwin
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - nancy
 - botwin
 - asp.net
 - netcore
 - asp.net core
-- .net core
-- .net
+- ".net core"
+- ".net"
 - csharp
 upforgrabs:
   name: up for grabs

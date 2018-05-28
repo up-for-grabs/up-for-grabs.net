@@ -4,7 +4,7 @@ site: https://github.com/Construktion/Construktion
 tags:
 # Note those are tags categorizing your project, not issue labels.
 - C#
-- .Net
+- ".net"
 - tdd
 - testing
 - unit testing

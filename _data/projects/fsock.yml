@@ -1,0 +1,11 @@
+name: fsock
+desc: FSock - simple C#/F# API for communicating async socket clients and servers
+site: https://github.com/intellifactory/fsock
+tags:
+- F#
+- C#
+- Sockets
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/intellifactory/fsock/labels/help%20wanted

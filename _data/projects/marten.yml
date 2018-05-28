@@ -5,7 +5,7 @@ tags:
 # Note those are tags categorizing your project, not issue labels.
 - Database
 - Postgresql
-- .Net
+- ".net"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/JasperFx/Marten/labels/up-for-grabs

@@ -1,0 +1,9 @@
+name: full-build
+desc: smart build system for .net
+site: https://github.com/full-build/full-build
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/full-build/full-build/labels/up-for-grabs

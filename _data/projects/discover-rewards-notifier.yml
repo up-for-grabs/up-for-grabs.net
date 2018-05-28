@@ -1,0 +1,28 @@
+name: Discover Rewards Notifier
+desc: An open-source Chrome Extension that shows a notification when visiting sites that qualify for Discover® Deals or Cashback Rewards.
+site: https://www.tejunareddy.com/discover-rewards-notifier/
+tags:
+- circleci
+- ci/cd
+- continuous integration
+- continuous deployment
+- jekyll
+- chrome
+- extension
+- chrome extension
+- handlebars
+- templates
+- templating
+- web
+- web dev
+- html
+- css
+- js
+- vanillajs
+- node.js
+- nodejs
+- node
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/nareddyt/discover-rewards-notifier/labels/good%20first%20issue

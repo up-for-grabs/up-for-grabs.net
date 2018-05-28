@@ -1,0 +1,10 @@
+name: MessageRouter
+desc: A CQRS (Event-driven) message router in F#
+site: https://github.com/QuickenLoans/MessageRouter
+tags:
+- F#
+- ".net"
+- CQRS
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/QuickenLoans/MessageRouter/labels/up-for-grabs

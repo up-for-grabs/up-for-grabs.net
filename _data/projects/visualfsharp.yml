@@ -1,0 +1,10 @@
+name: visualfsharp
+desc: The Visual F# compiler and tools
+site: https://github.com/Microsoft/visualfsharp
+tags:
+- F#
+- compiler
+- ".net"
+upforgrabs:
+  name: Up for Grabs
+  link: https://github.com/Microsoft/visualfsharp/labels/up%20for%20grabs

@@ -1,0 +1,12 @@
+name: Fable-Elmish Templates
+desc: Templates to act as starter projects for working with Fable-Elmish
+site: https://github.com/fable-elmish/templates
+tags:
+- F#
+- JavaScript
+- Elmish
+- Templates
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/fable-elmish/templates/labels/help%20wanted

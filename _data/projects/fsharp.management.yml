@@ -4,11 +4,11 @@ desc: >
   of the machine.
 site: https://github.com/fsprojects/FSharp.Management
 tags:
-- ".NET"
 - F#
-- typeprovider
-- Powershell
+- ".net"
+- type provider
 - Registry
+- Powershell
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/FSharp.Management/labels/up-for-grabs

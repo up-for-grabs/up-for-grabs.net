@@ -6,6 +6,7 @@ tags:
 - clojure
 - clojurescript
 - electron
+- editor
 upforgrabs:
     name: good first issue
     link: https://github.com/LightTable/LightTable/labels/good%20first%20issue

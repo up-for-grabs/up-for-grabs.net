@@ -1,0 +1,15 @@
+name: LibVLCSharp
+desc: LibVLCSharp are .NET/Mono bindings for libvlc, the multimedia framework powering the VLC applications.
+site: https://code.videolan.org/videolan/LibVLCSharp
+tags:
+- vlc
+- libvlc
+- video
+- audio
+- media
+- ".net"
+- c#
+- oss
+upforgrabs:
+  name: up for grabs
+  link: https://code.videolan.org/videolan/LibVLCSharp/issues?label_name%5B%5D=up-for-grabs

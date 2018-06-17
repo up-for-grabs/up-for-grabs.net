@@ -1,0 +1,10 @@
+name: Webber
+desc: a WYSIWYG editor for html
+site: https://github.com/dragon540/Webber
+tags:
+- qt
+- c++
+- wysiwyg
+upforgrabs:
+  name: help needed
+  link: https://github.com/dragon540/Webber/issues

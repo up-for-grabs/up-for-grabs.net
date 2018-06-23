@@ -1,0 +1,10 @@
+name: GreenBerry
+desc: one-line statement language
+site: https://abdur-rahmaanj.github.io/greenBerry/
+tags:
+- python
+- new-language
+- cli
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Abdur-rahmaanJ/greenBerry

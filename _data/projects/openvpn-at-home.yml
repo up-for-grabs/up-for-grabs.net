@@ -1,6 +1,6 @@
 name: OpenVPN@Home
 desc: OpenVPN configuration management webapp
-site: https://github.com/ljvmiranda921/pyswarms
+site: https://github.com/ezaquarii/openvpn-at-home/
 tags:
 # Note: these are tags categorizing the project, not issue labels.
 - python

@@ -1,0 +1,22 @@
+name: opencensus-ruby
+desc: A stats collection and distributed tracing framework
+site: https://opencensus.io
+tags:
+- trace
+- ruby
+- cloud
+- stats
+- monitoring
+- opencensus
+- tracing
+- distributed-tracing
+- dapper
+- metrics
+- prometheus
+- zipkin
+- stackdriver
+- signalfx
+- application insights
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/census-instrumentation/opencensus-ruby

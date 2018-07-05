@@ -1,0 +1,15 @@
+name: Noice
+desc: Noice is a simplified RTS (Real Time Strategy) game with an online focus made with Godot.
+site: https://github.com/leoagomes/noice
+tags:
+- godot
+- rts
+- game
+- gdscript
+- space
+- ship
+- multiplayer
+- online
+upforgrabs:
+        name: up-for-grabs
+        link: https://github.com/leoagomes/noice/labels/up-for-grabs

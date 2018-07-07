@@ -7,5 +7,5 @@ tags:
 - angularjs
 - html
 upforgrabs:
-  name: Hacktoberfest
-  link: https://github.com/oppia/oppia/labels/Hacktoberfest
+  name: good first issue
+  link: https://github.com/oppia/oppia/labels/good%20first%20issue

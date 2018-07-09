@@ -1,4 +1,12 @@
 <script type="text/html" id="projects-panel-template">
+  <div class="filters-panel full-width">
+    <h5>Popular tags: </h5>
+    <ul class="popular-tags">
+    <% _.each(popularTags, function(entry, key){ %>
+      <li><a href="#/tags/<%-encodeURIComponent(entry.name)%>"><%-entry.name%> (<%-entry.frequency%>) </a></li>
+    <% }) %>
+    </ul>
+  </div>
   <div class="filters-panel cf">
     <h5>Filter by name: </h5>
     <select class="names-filter" multiple data-placeholder="Select a project..." >
@@ -14,14 +22,6 @@
       <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
     <% }) %>
     </select>
-  </div>
-  <div class="filters-panel full-width">
-    <h5>Popular tags: </h5>
-    <ul class="popular-tags">
-    <% _.each(popularTags, function(entry, key){ %>
-      <li><a href="#/tags/<%-encodeURIComponent(entry.name)%>"><%-entry.name%></a> (<%-entry.frequency%>)</li>
-    <% }) %>
-    </ul>
   </div>
   <table class="projects">
    <% _.each(projects, function(project){ %>

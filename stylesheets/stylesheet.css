@@ -497,6 +497,15 @@ form {
 
 #projects-panel .filters-panel.full-width {
   width: 100%;
+  text-align: center;
+  padding: 4px 10px 5px 10px;
+  background: #f7f7f7;
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+
+#projects-panel .filters-panel.full-width label {
+  text-align: center;
 }
 
 .projects, .projects td {
@@ -581,12 +590,25 @@ form {
 
 .popular-tags li {
   display: inline-block;
-  font-size: 18px;
-  padding-left: 0;
+  background: #2E7BA9;
+  border-radius: 2px;
+  color: #FFF;
+  display: inline-block;
+  font-size: 14px;
+  white-space: nowrap;
+  padding: 0;
+  margin-right: 10px;
+  transition: all 0.2s;
 }
-.popular-tags li::before {
-  content: ' ';
-  margin-right: 12px;
+
+.popular-tags li:hover {
+  background: #3892c7;
+}
+
+.popular-tags li a {
+  color: #fff;
+  padding: 5px 8px;
+  margin: 0;
 }
 
 @media (max-width: 768px) {

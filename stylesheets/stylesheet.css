@@ -190,6 +190,7 @@ ul, ol, dl {
 ul li {
   list-style: inside;
   padding-left: 20px;
+  cursor: default;
 }
 
 ol li {
@@ -486,7 +487,6 @@ form {
 .numbered {
   padding: 0;
   margin: 0;
-  cursor: default;
 }
 
 .numbered li {
@@ -526,9 +526,14 @@ form {
   background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
+/* Styling the 'Filters' section */
+
 #projects-panel .filters-panel {
   float: left;
   width: 50%;
+  margin: 0 0 40px 0;
+  padding: 0 0 40px 0;
+  border-bottom: 1px solid #eee;
 }
 
 #projects-panel .filters-panel.full-width {
@@ -538,11 +543,15 @@ form {
   background: #f7f7f7;
   margin: 20px 0;
   box-sizing: border-box;
+  margin: 0 0 20px 0;
+  border: none;
 }
 
 #projects-panel .filters-panel.full-width label {
   text-align: center;
 }
+
+/* End of filter section */
 
 .projects, .projects td {
   border: 0 none;

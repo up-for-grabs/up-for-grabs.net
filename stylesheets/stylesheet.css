@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  font-family: 'Cookie', cursive;  
+  font-family: 'Cookie', cursive;
   margin-bottom: 20px;
   color: #2E7BA9;
 }
@@ -84,6 +84,7 @@ h1 {
 .block h1 .header-inside {
   padding: 2px 16px;
   background: white;
+  cursor: default;
 }
 
 h2 {
@@ -106,7 +107,7 @@ p {
 
 img {
   border: none; }
-  
+
 #go-back-home {
   margin: 20px 0 0; }
   #go-back-home:hover {
@@ -237,7 +238,7 @@ footer {
   display: table; }
 .container:after {
   clear: both; }
-  
+
 #main-container {
   background: #fff;
   border-radius: 7px;
@@ -408,12 +409,12 @@ th {
   background: #373737;
   color: #fff;
  }
- 
+
  td {
   padding: 10px 0;
   border: 1px solid #373737;
  }
- 
+
  td:not(:last-child) {
    padding-right: 10px;
  }
@@ -426,7 +427,7 @@ form {
 /* https://css-tricks.com/snippets/css/ribbon/ */
 .ribbon {
  font-size: 28px !important;
- width: 40%;    
+ width: 40%;
  position: absolute;
  background: #2E7BA9;
  color: #E4F0F8;
@@ -436,9 +437,10 @@ form {
  right: 2em;
  top: 25%;
 }
-.ribbon-content {  
+.ribbon-content {
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
+  cursor: default;
 }
 .ribbon a {
   color: #fff;
@@ -477,7 +479,7 @@ form {
  right: 0;
  border-width: 1em 1em 0 0;
 }
-  
+
 #downloads {
   position: absolute;
   width: 210px;
@@ -486,6 +488,15 @@ form {
   right: 0;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
+}
+
+#projects-panel .filters-panel {
+  float: left;
+  width: 50%;
+}
+
+#projects-panel .filters-panel.full-width {
+  width: 100%;
 }
 
 .projects, .projects td {
@@ -580,7 +591,7 @@ form {
 
 @media (max-width: 768px) {
   body {
-    padding: 0 0; } 
+    padding: 0 0; }
   #forkme_banner {
     display: none;
   }
@@ -598,13 +609,13 @@ form {
   .block h1 .header-inside {
     padding: 0;
   }
-  #main-container {   
+  #main-container {
     border-right: none;
-    border-left: none; 
+    border-left: none;
     border-radius: 0;
   }
   #main-container .block {
-    padding: 20px; 
+    padding: 20px;
   }
   table.projects td {
     display: block;
@@ -619,4 +630,3 @@ form {
     top: 0;
   }
 }
-

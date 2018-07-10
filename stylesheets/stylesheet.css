@@ -531,8 +531,7 @@ form {
 #projects-panel .filters-panel {
   float: left;
   width: 50%;
-  margin: 0 0 40px 0;
-  padding: 0 0 40px 0;
+  padding: 0 0 20px 0;
   border-bottom: 1px solid #eee;
 }
 
@@ -561,10 +560,11 @@ form {
   padding-bottom: 0px;
 }
 
-.projects td.details {
+.projects tr.details {
   padding-top: 0px;
   word-wrap: break-word;
 }
+
 
 .projects tbody {
   padding-top: 12px;

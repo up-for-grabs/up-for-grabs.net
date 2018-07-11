@@ -1,0 +1,11 @@
+name: System.IO.Abstractions
+desc: Just like System.Web.Abstractions, but for System.IO. Yay for testable IO access!
+site: https://github.com/System-IO-Abstractions/System.IO.Abstractions
+tags:
+- C#
+- ".net"
+- IO
+- Testing
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/System-IO-Abstractions/System.IO.Abstractions/labels/up-for-grabs

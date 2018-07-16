@@ -5,6 +5,11 @@ tags:
 - localization
 - internationalization
 - i18n
+- c#
+- .net
+- VisualStudio
+- WPF
+- MVVM
 upforgrabs:
   name: up for grabs
   link: https://github.com/tom-englert/ResXResourceManager/labels/up%20for%20grabs

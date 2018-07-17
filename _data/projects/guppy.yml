@@ -1,0 +1,11 @@
+name: guppy
+desc: A friendly application manager and task runner for React.js
+site: https://github.com/joshwcomeau/guppy
+tags:
+- react
+- reactjs
+- gui
+- javascript
+upforgrabs:
+  name: help wanted
+  link: https://github.com/joshwcomeau/guppy/labels/help%20wanted

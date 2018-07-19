@@ -4,12 +4,16 @@ rvm:
 
 sudo: false
 
+services:
+  - docker
+
 install:
   - bundle install
 
 script:
   - bundle exec jekyll build
   - ruby scripts/cibuild.rb
+  - docker build .
 
 branches:
   only:

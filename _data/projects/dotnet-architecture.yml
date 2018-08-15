@@ -9,5 +9,5 @@ tags:
   - docker
   - ef-core
 upforgrabs:
-  name: help-wanted
+  name: help%20wanted
   link: https://github.com/dotnet-architecture/eShopOnWeb/labels/help%20wanted

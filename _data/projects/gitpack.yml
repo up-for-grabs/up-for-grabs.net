@@ -1,0 +1,13 @@
+name: gitpack
+desc: A package manager for applications that are hosted on GitHub written in NodeJS
+site: https://github.com/sadboyzvone/gitpack
+tags:
+- github
+- package
+- package-manager
+- package-management
+- automation
+- build-automation
+upforgrabs:
+  name: newcomer
+  link: https://github.com/sadboyzvone/gitpack/issues?q=is%3Aopen+is%3Aissue+label%3Anewcomer

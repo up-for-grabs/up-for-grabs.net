@@ -1,0 +1,10 @@
+name: roadtaxTracker
+desc: CRUD operation for a fleet of vehicle in Singapore to ease roadtax renewal
+site: https://github.com/Stewart86/roadtaxTracker
+tags:
+- Python
+- TKinter
+- beginner
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Stewart86/roadtaxTracker/labels/up-for-grabs

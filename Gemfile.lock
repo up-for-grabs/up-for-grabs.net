@@ -252,7 +252,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  github-pages (= 188)
+  github-pages
 
 BUNDLED WITH
-   1.16.1
+   1.16.4

@@ -31,7 +31,7 @@
     </tr>
     <tr>
        <td class="details">
-        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank"><%-project.upforgrabs.name %></a></p>
+        <p class="label"><a href="<%- project.upforgrabs.link %>" tabindex="-1" title="View open issues for <%-project.name %>" target="_blank"><%-project.upforgrabs.name %></a></p>
        </td>
        <td class="details">
            <% if (project.desc) { %>
@@ -40,7 +40,7 @@
            <% if (project.tags) { %>
            <p class="tags">
                <% _.each(project.tags, function(tag, i) { %>
-                   <a href="#/tags/<%-encodeURIComponent(tag)%>"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
+                   <a href="#/tags/<%-encodeURIComponent(tag)%>" tabindex="-1"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
                <% }) %>
            </p>
            <% } %>

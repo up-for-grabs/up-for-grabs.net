@@ -549,6 +549,10 @@ form {
   margin-bottom: 0;
 }
 
+.tags, .details {
+  nav-index: 0;
+}
+
 .projects .label .count {
   background: none white;
   border: 1px solid white;

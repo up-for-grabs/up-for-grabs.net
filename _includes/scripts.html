@@ -1,15 +1,15 @@
 <script type="text/html" id="projects-panel-template">
   <div class="filters-panel cf">
-    <h5>Filter by name: </h5>
-    <select class="names-filter" multiple data-placeholder="Select a project..." >
+    <label for="project">Filter by name:</label>
+    <select class="names-filter" multiple data-placeholder="Select a project..." id="project">
     <% _.each(names, function(entry, key){ %>
       <option value="<%-key%>"><%- entry.name%></option>
     <% }) %>
     </select>
   </div>
   <div class="filters-panel cf">
-    <h5>Filter by tags: </h5>
-    <select class="tags-filter" multiple data-placeholder="Select a tag..." >
+    <label for="tag">Filter by tags:</label>
+    <select class="tags-filter" multiple data-placeholder="Select a tag..." id="tag">
     <% _.each(tags, function(entry, key){ %>
       <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
     <% }) %>

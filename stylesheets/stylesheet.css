@@ -100,6 +100,14 @@ h4, h5, h6 {
   color: #225B7D;
 }
 
+label {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    color: #225B7D;
+    padding: 10px 0;
+    display: block;
+}
+
 p {
   margin: 10px 0 15px 0;
 }

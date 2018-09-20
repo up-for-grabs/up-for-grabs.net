@@ -1,0 +1,17 @@
+name: Cover Letter Snippets
+desc: A local appliation for parsing job descriptions and creating a customized, relevant cover letter
+site: https://github.com/mattcheah/cover-letter-snippets
+tags:
+- Node.js
+- Angular 5
+- MongoDB
+- cover
+- letter
+- resume
+- job
+- description
+- parsing
+- database
+upforgrabs:
+  name: help wanted
+  link: https://github.com/mattcheah/cover-letter-snippets/labels/help%20wanted

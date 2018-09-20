@@ -1,0 +1,14 @@
+name: Neural Artistic Style Transfer
+desc: Neural Artistic Style Transfer helps to transfer the style of your favourite artist style image to any content image.
+site: https://github.com/riya-17/Neural-Artistic-Style-Transfer
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- Tensorflow
+- python
+- numpy
+- Neural Style
+- Convolutional Neural Network
+- Scipy
+upforgrabs:
+  name: good first issue
+  link: https://github.com/riya-17/Neural-Artistic-Style-Transfer/labels/good%20first%20issue

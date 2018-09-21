@@ -1,5 +1,5 @@
 name: GitLab 
-desc: Code, test, and deploy together
+desc: GitLab is the first single application for the entire DevOps lifecycle.  Everyone can contribute to GitLab
 site: https://about.gitlab.com
 tags:
 - oss

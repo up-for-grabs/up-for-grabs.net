@@ -1,0 +1,15 @@
+name: 2048.cpp
+desc: 🎮 Play the popular game 2048 directly in your terminal
+site: https://github.com/plibither8/2048.cpp
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- game
+- termninal
+- c++
+- cpp
+- tui
+- cli
+- 2048
+upforgrabs:
+  name: help needed
+  link: https://github.com/plibither8/2048.cpp/issues

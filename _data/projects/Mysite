@@ -1,0 +1,12 @@
+name: Mysite
+desc: This is my Portfolio website run in nodejs with EJS templating
+site: https://github.com/SamithDB
+tags:
+- nodejs
+- EJS
+- javascript
+- html
+- css
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/SamithDB/mysite

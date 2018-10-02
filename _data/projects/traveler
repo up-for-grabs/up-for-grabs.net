@@ -1,0 +1,10 @@
+
+name: Traveler
+desc: Small Travelling app that shows the travel destinations in Sri Lanka
+site: https://github.com/SahanMonaara
+tags:
+- Android
+- java
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/SahanMonaara/Traveler/tree/master

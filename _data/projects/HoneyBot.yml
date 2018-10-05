@@ -1,6 +1,6 @@
 name: HoneyBot
 desc: python powered OOP modular (plugins-supported) IRC bot. ignited in Mauritius.
-site: 
+site: https://github.com/Abdur-rahmaanJ/honeybot
 tags:
 - python
 - irc

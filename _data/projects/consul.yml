@@ -11,5 +11,5 @@ tags:
 - open-government
 - Manage topics
 upforgrabs:
-  name: beginner-friendly
-  link: https://github.com/consul/consul/labels/beginner-friendly
+  name: Good first issue
+  link: https://github.com/consul/consul/labels/Good%20first%20issue

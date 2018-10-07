@@ -1,0 +1,9 @@
+name: Numsense
+desc: A .NET library for parsing natural-language numerals ("forty-two") to integers, and converting the other way as well
+site: https://github.com/ploeh/Numsense
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: jump in
+  link: https://github.com/ploeh/Numsense/labels/jump%20in

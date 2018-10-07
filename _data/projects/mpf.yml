@@ -6,5 +6,5 @@ tags:
 - pinball
 - hardware
 upforgrabs:
-  name: easy hack
-  link: https://github.com/missionpinball/mpf/labels/easy%20hack
+  name: help wanted
+  link: https://github.com/missionpinball/mpf/labels/help%20wanted

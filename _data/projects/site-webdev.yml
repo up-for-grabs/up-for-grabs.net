@@ -1,0 +1,11 @@
+name: webdev.dartlang.org
+desc: A website for developers writing Dart web apps, including AngularDart apps.
+site: https://github.com/dart-lang/site-webdev
+tags:
+- dart
+- javascript
+- angular
+- scss
+upforgrabs:
+  name: beginner
+  link: https://github.com/dart-lang/site-webdev/labels/beginner

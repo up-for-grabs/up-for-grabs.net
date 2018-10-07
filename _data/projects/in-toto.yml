@@ -1,0 +1,11 @@
+name: in-toto
+desc: A software supply chain security framework
+site: https://in-toto.io/
+tags:
+- Python
+- Security
+- Software Supply Chain
+- CI/CD
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/in-toto/in-toto/labels/Up%20for%20grabs

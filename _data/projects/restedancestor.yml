@@ -1,0 +1,11 @@
+name: restedancestor
+desc: simple REST API, focused on quotes from the Ancestor of the Darkest Dungeon videogame
+site: https://github.com/bruno-chavez/restedancestor
+tags:
+- go
+- golang
+- api
+- rest
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/bruno-chavez/restedancestor/labels/up-for-grabs

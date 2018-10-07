@@ -1,0 +1,14 @@
+name: Liferea
+desc: Linux feed reader for GNOME/GTK
+site: https://lzone.de/liferea
+tags:
+- c
+- gtk
+- gnome
+- python
+- rss
+- atom
+- feed
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/lwindolf/liferea/labels/help-wanted

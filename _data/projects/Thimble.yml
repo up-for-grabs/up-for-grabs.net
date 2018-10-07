@@ -1,0 +1,17 @@
+name: Thimble
+desc: Online code editor geared to people teaching and learning HTML, CSS, and JavaScript. 
+site: https://thimble.mozilla.org
+tags:
+- coding
+- javascript
+- html
+- css
+- learning
+- teaching-tool
+- education
+- code
+- online-editor
+- web-literacy
+upforgrabs:
+  name: Good First Bug
+  link: https://github.com/mozilla/thimble.mozilla.org/labels/Good%20First%20Bug

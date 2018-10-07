@@ -1,0 +1,9 @@
+name: Deedle
+desc: Easy to use .NET library for data and time series manipulation and for scientific programming
+site: https://github.com/BlueMountainCapital/Deedle
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/BlueMountainCapital/Deedle/labels/up-for-grabs

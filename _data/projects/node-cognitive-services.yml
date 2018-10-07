@@ -1,0 +1,14 @@
+name: Node.js SDK for Microsoft Cognitive Services
+desc: Microsoft® Cognitive Services SDK for Node.JS
+site: https://github.com/joshbalfour/node-cognitive-services
+tags:
+- node
+- javascript
+- sdk
+- microsoft
+- cognitive
+- services
+- http
+upforgrabs:
+  name: good first issue
+  link: https://github.com/joshbalfour/node-cognitive-services/labels/good-first-issue

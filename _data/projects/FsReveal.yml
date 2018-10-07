@@ -1,0 +1,9 @@
+name: FsReveal
+desc: FsReveal parses markdown and F# script file and generates reveal.js slides.
+site: https://github.com/fsprojects/FsReveal
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/fsprojects/FsReveal/labels/help%20wanted

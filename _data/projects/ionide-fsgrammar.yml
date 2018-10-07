@@ -1,0 +1,9 @@
+name: ionide-fsgrammar
+desc: Shared Textmate Regex Style F# Language Grammar 
+site: https://github.com/ionide/ionide-fsgrammar
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/ionide/ionide-fsgrammar/labels/up%20for%20grabs

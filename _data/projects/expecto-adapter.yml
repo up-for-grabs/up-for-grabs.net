@@ -1,0 +1,10 @@
+name: expecto-adapter
+desc: Visual Studio test adapter for Expecto (https://github.com/haf/expecto)
+site: https://github.com/adamchester/expecto-adapter
+tags:
+- F#
+- Testing
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/adamchester/expecto-adapter/labels/help%20wanted

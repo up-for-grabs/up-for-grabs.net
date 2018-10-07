@@ -2,14 +2,22 @@ name: ChakraCore
 desc: ChakraCore is the core part of the Chakra Javascript engine that powers Microsoft Edge
 site: https://github.com/Microsoft/ChakraCore
 tags:
-- js
-- javascript
-- c++
-- oss
-- ecmascript
 - chakra
 - chakracore
+- js
+- javascript
+- ecmascript
+- c++
+- cplusplus
+- cplusplus-11
+- cross-platform
+- xplat
+- windows
+- linux
+- osx
+- microsoft
 - compiler
+- runtime
 upforgrabs:
-  name: Accepting PRs
-  link: https://github.com/Microsoft/ChakraCore/labels/Accepting%20PRs
+  name: help wanted
+  link: https://github.com/Microsoft/ChakraCore/labels/help%20wanted

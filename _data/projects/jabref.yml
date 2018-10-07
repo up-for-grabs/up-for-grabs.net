@@ -12,6 +12,6 @@ tags:
 - junit
 - gradle
 upforgrabs:
-  name: beginner
-  link: https://github.com/JabRef/jabref/labels/beginner
+  name: good first issue
+  link: https://github.com/JabRef/jabref/labels/good%20first%20issue
 contribute: https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md

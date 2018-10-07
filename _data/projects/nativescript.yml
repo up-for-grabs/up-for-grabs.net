@@ -6,5 +6,5 @@ tags:
 - mobile
 - native
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/nativescript/nativescript/labels/up-for-grabs
+  name: help wanted
+  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22+user%3ANativeScript

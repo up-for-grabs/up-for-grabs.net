@@ -22,6 +22,29 @@
     });
   };
 
+  var applyNamesFilter = function (projects, namesMap, names) {
+    if (typeof names === "string") {
+      names = names.split(",");
+    }
+
+    names = _.map(names, function (entry) {
+      return entry && entry.replace(/^\s+|\s+$/g, "");
+    });
+
+    console.log(names);
+    console.log(projects[0]);
+    if (!names || !names.length || names[0] == "") {
+      return projects;
+    }
+
+    var projectNames = _.uniq(_.flatten(_.map(names, function (name) {
+      var hit = namesMap[name.toLowerCase()];
+      return hit || [];
+    })));
+    console.log(projectNames);
+    return projectNames;
+  };
+
   var TagBuilder = function () {
     var _tagsMap = {},
       _orderedTagsMap = null;
@@ -41,7 +64,7 @@
     };
 
     this.getTagsMap = function () {
-      //http://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
+      //https://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
       return _orderedTagsMap = _orderedTagsMap || _(_tagsMap).chain().sortBy(function (tag, key) {
         return key;
       }).sortBy(function (tag, key) {
@@ -70,6 +93,7 @@
   var ProjectsService = function (projectsData) {
     var _projectsData = extractProjectsAndTags(projectsData);
     var tagsMap = {};
+    var namesMap = {};
 
     var canStoreOrdering = (JSON && sessionStorage && sessionStorage.getItem &&
       sessionStorage.setItem);
@@ -102,12 +126,25 @@
       tagsMap[tag.name.toLowerCase()] = tag;
     });
 
-    this.get = function (tags) {
+    _.each(_projectsData.projects, function (project) {
+      if (project.name.toLowerCase) {
+        namesMap[project.name.toLowerCase()] = project;
+      }
+    });
+
+    this.get = function (tags, names) {
+      if (names) {
+        return applyNamesFilter(projects, namesMap, names);
+      }
       return applyTagsFilter(projects, tagsMap, tags);
     };
 
     this.getTags = function () {
       return tagsMap;
+    };
+
+    this.getNames = function () {
+      return namesMap;
     };
 
     this.getPopularTags = function (popularTagCount) {

@@ -1,0 +1,10 @@
+name: ServiceBouncer
+desc: Service Manager - Microservices meets DevOps
+site: https://github.com/PaulStovell/ServiceBouncer
+tags:
+- ".NET"
+- C#
+- "Service Manager"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/PaulStovell/ServiceBouncer/labels/up-for-grabs

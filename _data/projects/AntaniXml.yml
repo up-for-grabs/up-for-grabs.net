@@ -1,0 +1,10 @@
+name: AntaniXml
+desc: xml random generator
+site: https://github.com/giacomociti/AntaniXml
+tags:
+- F#
+- ".net"
+- XML
+upforgrabs:
+  name: help wanted
+  link: https://github.com/giacomociti/AntaniXml/labels/help%20wanted

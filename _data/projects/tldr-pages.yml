@@ -1,6 +1,6 @@
 name: tldr-pages
 desc: A community-curated collection of simplified and example-driven man pages.
-site: http://tldr-pages.github.io/
+site: https://tldr-pages.github.io/
 tags:
 - reference
 - documentation

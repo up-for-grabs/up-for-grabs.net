@@ -1,0 +1,13 @@
+name: Noda Time
+desc: A better date/time API for .NET
+site: https://github.com/nodatime/nodatime
+tags:
+- ".net"
+- C#
+- datetime
+- date
+- time
+- timezone
+upforgrabs:
+  name: help wanted
+  link: https://github.com/nodatime/nodatime/labels/help%20wanted

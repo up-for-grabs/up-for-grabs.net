@@ -1,0 +1,15 @@
+name: SAFE-Chat
+desc: IRC-style chat demo featuring full-stack F#, Akka.Streams, Akkling, Fable, Elmish, Websockets and .NET Core
+site: https://github.com/SAFE-Stack/SAFE-Chat
+tags:
+- F#
+- ".net"
+- Akka.NET
+- Akka.Streams
+- Web
+- WebSockets
+- Fable
+- Elmish
+upforgrabs:
+  name: help wanted
+  link: https://github.com/SAFE-Stack/SAFE-Chat/labels/help%20wanted

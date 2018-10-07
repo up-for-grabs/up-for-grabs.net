@@ -1,0 +1,11 @@
+name: motivate
+desc: A simple script to print random motivational quotes. Highly influenced by linux command fortune.
+site: https://github.com/mubaris/motivate
+tags:
+- python
+- simple
+- beginner
+- easy
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/mubaris/motivate/labels/up-for-grabs

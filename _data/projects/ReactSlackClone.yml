@@ -1,0 +1,11 @@
+name: React Slack Clone
+desc: Slack clone built with React and Chatkit
+site: https://pusher.github.io/react-slack-clone/
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- JavaScript
+- js
+- web
+upforgrabs:
+  name: help wanted
+  link: https://github.com/pusher/react-slack-clone/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

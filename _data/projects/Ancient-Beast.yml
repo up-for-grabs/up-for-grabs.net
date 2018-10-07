@@ -1,0 +1,14 @@
+name: Ancient Beast
+desc: Turn based strategy indie game project, played against other people (or bots) in hotseat or online modes, featuring a wide variety of units to acquire and put to good use in order to defeat all your opponents in battle. This project was carefully designed to be easy to learn, fun to play and hard to master. Keep fighting!
+site: https://AncientBeast.com
+tags:
+- oss
+- javascript
+- web
+- strategy
+- game
+- chess
+- node
+upforgrabs:
+  name: Easy
+  link: https://github.com/FreezingMoon/AncientBeast/labels/Easy

@@ -1,6 +1,6 @@
 name: FakeItEasy
 desc: The easy mocking library for .NET
-site: http://fakeiteasy.github.io
+site: https://fakeiteasy.github.io
 tags:
 - TDD
 - Unit Testing

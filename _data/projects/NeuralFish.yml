@@ -1,0 +1,9 @@
+name: NeuralFish
+desc: Neuroevolution in F#
+site: https://github.com/JeremyBellows/NeuralFish
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/JeremyBellows/NeuralFish/labels/help%20wanted

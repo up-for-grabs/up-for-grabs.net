@@ -1,0 +1,11 @@
+name: Greentube.Serialization
+desc: A set of libraries for serialization which work as a common serialization contract. It includes multiple implementations available for use.
+site: https://github.com/Greentube/serialization
+tags:
+- ".NET"
+- C#
+- dotnet-core
+- serialization
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Greentube/serialization/labels/up-for-grabs

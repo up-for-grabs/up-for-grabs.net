@@ -12,5 +12,5 @@ tags:
 - Git
 - VCS
 upforgrabs:
-  name: newbie
-  link: https://github.com/WeblateOrg/weblate/labels/newbie
+  name: good first issue
+  link: https://github.com/WeblateOrg/weblate/labels/good%20first%20issue

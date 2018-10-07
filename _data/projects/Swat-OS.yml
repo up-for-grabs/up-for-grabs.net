@@ -1,0 +1,13 @@
+name: Swat-OS
+desc: Systems Where Anything Transcribes - Operating System
+site: https://github.com/ColinMoulds/SWAT-OS
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- cpp
+- Assembly
+- Systems
+- Documentation
+- csharp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ColinMoulds/SWAT-OS/labels/good%20first%20issue

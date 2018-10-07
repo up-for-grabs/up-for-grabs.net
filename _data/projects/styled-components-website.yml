@@ -1,0 +1,14 @@
+name: styled-components.com
+desc: The website and documentation of styled-components
+site: https://github.com/styled-components/styled-components-website
+tags:
+- javascript
+- web
+- website
+- css
+- design
+- react
+- node
+upforgrabs:
+  name: good first task
+  link: https://github.com/styled-components/styled-components-website/labels/good%20first%20task

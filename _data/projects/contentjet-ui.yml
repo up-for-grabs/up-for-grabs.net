@@ -1,0 +1,17 @@
+name: contentjet-ui
+desc: Open source API-first content management system
+site: https://contentjet.github.io/
+tags:
+- javascript
+- web
+- cms
+- headless
+- headless-cms
+- react
+- ui
+- oss
+- node
+- api
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/contentjet/contentjet-ui/labels/up%20for%20grabs

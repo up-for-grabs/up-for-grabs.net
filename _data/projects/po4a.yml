@@ -7,4 +7,4 @@ tags:
 - internationalization
 upforgrabs:
   name: beginner friendly
-  link: https://github.com/mquinson/po4a/issues?q=is%3Aissue+is%3Aopen+label%3A%22beginner+friendly%22
+  link: https://github.com/mquinson/po4a/labels/beginner%20friendly

@@ -8,4 +8,4 @@ tags:
 - bootstrap
 upforgrabs:
   name: help wanted
-  link: https://github.com/react-bootstrap/react-bootstrap/issues/label/help%20wanted
+  link: https://github.com/react-bootstrap/react-bootstrap/labels/help%20wanted

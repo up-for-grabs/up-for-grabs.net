@@ -1,0 +1,17 @@
+name: Browsh
+desc: A fully-modern text-based browser, rendering to TTY and browsers
+site: https://github.com/browsh-org/browsh/
+tags:
+- browser
+- CLI
+- text
+- Firefox
+- remote
+- bandwidth
+- SSH
+- MoSH
+- web
+- command line
+upforgrabs:
+  name: help needed
+  link: https://github.com/browsh-org/browsh/labels/help%20wanted

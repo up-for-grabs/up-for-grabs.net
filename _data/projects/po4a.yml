@@ -1,0 +1,10 @@
+name: po4a
+desc: Maintain the translations of your documentation with ease (PO for anything)
+site: https://po4a.org/
+tags:
+- perl
+- localization
+- internationalization
+upforgrabs:
+  name: beginner friendly
+  link: https://github.com/mquinson/po4a/labels/beginner%20friendly

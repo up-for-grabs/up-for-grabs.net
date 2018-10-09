@@ -1,0 +1,12 @@
+name: r-functions-performance
+desc: R functions performance measurement
+site: https://github.com/nagoya-foundation/r-functions-performance
+tags:
+- performance
+- opendata
+- execution-time
+- benchmark
+- R
+upforgrabs:
+  name: help wanted
+  link: https://github.com/nagoya-foundation/r-functions-performance/issues

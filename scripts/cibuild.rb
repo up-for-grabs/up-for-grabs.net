@@ -1,26 +1,6 @@
 require 'safe_yaml'
 require 'uri'
 
-def strip_or_self!(str)
-  str.strip! || str if str
-end
-
-def sanitize_yaml_string!(str, name)
-  sanatized = strip_or_self!(str)
-  sanatized = sanatized.sub(name + ": ", "")
-                       .sub(name + " : ", "")
-
-  if (sanatized.start_with?("\"") && sanatized.end_with?("\"")) ||
-    (sanatized.start_with?("'") && sanatized.end_with?("'")) then
-    sanatized = sanatized.sub(/^\"/, "")
-             .sub(/\"$/, "")
-             .sub(/^'/, "")
-             .sub(/\'$/, "")
-  end
-
-  strip_or_self!(sanatized)
-end
-
 def check_folder
   # i'm lazy
   root = File.expand_path("..", __dir__)
@@ -119,23 +99,6 @@ def verify_file (f)
     if !valid_url?(yaml["upforgrabs"]["link"]) then
       error = "Required 'upforgrabs.link' attribute to be a valid url"
       return [f, error]
-    end
-
-    yaml.each do |attr_name, attr_value|
-      if attr_value.is_a? String
-        line_content = contents[/#{attr_name}\s?:.+\n/]
-        striped_line = sanitize_yaml_string!(line_content, attr_name)
-        striped_value = strip_or_self!(attr_value)
-
-        content_contains_new_line = striped_line != striped_value
-        has_fold_arrow = line_content == attr_name + ": >"
-        has_multi_line_pipe = line_content == attr_name + ": |"
-
-        if content_contains_new_line && !has_fold_arrow && !has_multi_line_pipe then
-          error = "Multi-line strings must be specified using '>' or '|' for '" + attr_name + "' attribute"
-          return [f, error]
-        end
-      end
     end
 
   rescue Psych::SyntaxError => e

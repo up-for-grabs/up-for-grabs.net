@@ -1,0 +1,13 @@
+name: halo
+desc: Beautiful spinners for terminal, IPython and Jupyter
+site: https://github.com/manrajgrover/halo
+tags:
+- python
+- terminal
+- ipython
+- jupyter
+- spinners
+- async
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/manrajgrover/halo/labels/up-for-grabs

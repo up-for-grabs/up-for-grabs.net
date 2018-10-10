@@ -7,7 +7,10 @@ Visit the website: [up-for-grabs.net](https://up-for-grabs.net/)
 
 ## Add a project
 
-Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add a new one, create a new file named after the project, ending in `.yml`. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in the browser, without cloning the repository in the command line.
+- Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder.
+- To add a new one, create a new file named after the project, ending in `.yml`. 
+- Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. 
+- [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in the browser, without cloning the repository in the command line.
 
 The contents of the file are just some details about the project:
 

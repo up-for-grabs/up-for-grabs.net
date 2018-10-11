@@ -1,0 +1,11 @@
+name: Hacktoberfest
+desc: Repo for new comers to participate in Hacktoberfest, easy pull request
+site: https://github.com/owaisalics/Hacktoberfest
+tags:
+- hacktoberfest
+- hackerrank
+- beginner friendly
+- good-first issue
+upforgrabs:
+  name: help wanted
+  link: https://github.com/owaisalics/Hacktoberfest/labels/help%20wanted

@@ -14,4 +14,4 @@ tags:
 - framework
 upforgrabs:
   name: difficulty/newcomer
-  link: http://coala.io/new
+  link: https://github.com/coala/coala/issues?q=is%3Aissue+is%3Aopen+label%3Adifficulty%2Fnewcomer

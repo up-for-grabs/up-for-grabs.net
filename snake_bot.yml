@@ -1,0 +1,10 @@
+name: Snake Bot
+desc: A Robotic Snake which is used for mainly rescue operations in times of disasters.
+site: No Site yet
+tags:
+- Snake Robotics
+- Disaster management
+- Snake between crevices
+upforgrabs:
+  name: help needed
+  link: https://github.com/Cyclostone/project/labels/up%20for%20grabs

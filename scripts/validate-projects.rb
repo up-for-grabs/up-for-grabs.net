@@ -102,9 +102,10 @@ def verify_file (f)
   end
 
 
-root = File.expand_path("..", __dir__)
+root = File.expand_path("..", __dir__) + "/"
+projects = root + "_data/projects/*.yml"
 
-results = Dir[root + "/_data/projects/*.yml"].map { |f| verify_file(f) }
+results = Dir[projects].map { |f| verify_file(f) }
 
 files_with_errors = results.select { |file, error| error != nil }
 error_count = files_with_errors.count
@@ -113,7 +114,10 @@ success = results.select { |file, error| error.nil? }.count
 
 if (error_count > 0) then
   puts "#{success} files processed - #{error_count} errors found:"
-  files_with_errors.each { |path, error| puts path + " - " + error }
+  files_with_errors.each { |path, error|
+    file = path.sub! root, ''
+    puts file + " - " + error
+  }
   exit -1
 else
   puts "#{success} files processed - no errors found!"

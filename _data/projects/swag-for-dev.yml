@@ -1,0 +1,14 @@
+name: swag-for-dev
+desc: 😎 swag opportunities for developers
+site: https://github.com/swapagarwal/swag-for-dev
+tags:
+- Javascript
+- web
+- css
+- html
+- Node
+- swag
+- awesome
+upforgrabs:
+  name: good first issue
+  link: https://github.com/swapagarwal/swag-for-dev/labels/good%20first%20issue

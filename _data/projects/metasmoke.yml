@@ -1,6 +1,6 @@
 name: metasmoke
 desc: Web dashboard and back end for SmokeDetector, a spam-detecting bot
-site: *https://metasmoke.erwaysoftware.com/
+site: https://metasmoke.erwaysoftware.com/
 tags:
 - ruby
 - ruby-on-rails

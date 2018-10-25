@@ -4,14 +4,16 @@
     compiledtemplateFn = null,
     projectsPanel = null;
 
-  var renderProjects = function (tags, names) {
+  var renderProjects = function (tags, names, labels) {
     projectsPanel.html(compiledtemplateFn({
-      "projects": projectsSvc.get(tags, names),
+      "projects": projectsSvc.get(tags, names, labels),
       "tags": projectsSvc.getTags(),
       "popularTags": projectsSvc.getPopularTags(6),
       "selectedTags": tags,
       "names": projectsSvc.getNames(),
-      "selectedNames": names
+      "selectedNames": names,
+      "labels": projectsSvc.getLabels(),
+      "selectedLabels": labels
     }));
 
     projectsPanel.find("select.tags-filter").chosen({
@@ -27,6 +29,14 @@
       width: "95%"
     }).val(names).trigger('chosen:updated').change(function (e) {
       window.location.href = "#/names/" + encodeURIComponent(($(this).val() || ""));
+    });
+
+    projectsPanel.find("select.labels-filter").chosen({
+      no_results_text: "No project found by that label.",
+      width: "95%"
+    }).val(labels).trigger('chosen:updated').change(function (e) {
+      window.location.href = "#/labels/" + encodeURIComponent(($(this).val() || ""));
+
     });
   };
 
@@ -51,6 +61,15 @@
     this.get("#/names/:names", function (context) {
       var names = (this.params["names"] || "").toLowerCase().split(",");
       renderProjects(null, names);
+    });
+  
+    this.get("#/labels/", function (context) {
+      renderProjects();
+    });
+
+    this.get("#/labels/:labels", function (context) {
+      var labels = (this.params["labels"] || "").toLowerCase().split(",");
+      renderProjects(null, null, labels);
     });
   });
 

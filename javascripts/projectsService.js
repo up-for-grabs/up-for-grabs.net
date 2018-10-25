@@ -30,7 +30,6 @@
     names = _.map(names, function (entry) {
       return entry && entry.replace(/^\s+|\s+$/g, "");
     });
-
     console.log(names);
     console.log(projects[0]);
     if (!names || !names.length || names[0] == "") {
@@ -44,7 +43,31 @@
     console.log(projectNames);
     return projectNames;
   };
+  var applyLabelsFilter = function (projects, labelsMap, labels) {
+    if (typeof labels === "string") {
+      labels = labels.split(",");
+    }
 
+    labels = _.map(labels, function (entry) {
+      return entry && entry.replace(/^\s+|\s+$/g, "");
+    });
+
+    console.log(labels);
+    console.log(projects[0]);
+    if (!labels || !labels.length || labels[0] == "") {
+      return projects;
+    }
+
+    var projectLabels = _.uniq(_.flatten(_.map(labels, function (label) {
+      var hit = labelsMap[label.toLowerCase()];
+      return hit || [];
+    })));
+    console.log(projectLabels)
+
+    return _.filter(projects, function (project) {
+      return _.contains(labels, project.upforgrabs.name);
+    });
+  };
   var TagBuilder = function () {
     var _tagsMap = {},
       _orderedTagsMap = null;
@@ -94,6 +117,7 @@
     var _projectsData = extractProjectsAndTags(projectsData);
     var tagsMap = {};
     var namesMap = {};
+    var labelsMap = {};
 
     var canStoreOrdering = (JSON && sessionStorage && sessionStorage.getItem &&
       sessionStorage.setItem);
@@ -132,9 +156,17 @@
       }
     });
 
-    this.get = function (tags, names) {
+    _.each(_projectsData.projects, function (project) {
+        labelsMap[project.upforgrabs.name.toLowerCase()] = project.upforgrabs;
+      
+    });
+
+    this.get = function (tags, names, labels) {
       if (names) {
         return applyNamesFilter(projects, namesMap, names);
+      }
+      else if(labels) {
+        return applyLabelsFilter(projects, labelsMap, labels);
       }
       return applyTagsFilter(projects, tagsMap, tags);
     };
@@ -145,6 +177,10 @@
 
     this.getNames = function () {
       return namesMap;
+    };
+
+    this.getLabels = function () {
+      return labelsMap;
     };
 
     this.getPopularTags = function (popularTagCount) {

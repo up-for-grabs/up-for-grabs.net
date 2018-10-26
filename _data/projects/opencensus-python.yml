@@ -1,5 +1,10 @@
 name: opencensus-python
-desc: A stats collection and distributed tracing framework
+desc: A statistics collection and distributed tracing framework. Python 
+implementation of OpenCensus, a toolkit for collecting application performance
+and behavior monitoring data. It allows to automatically collect incoming and
+outgoing calls information from various frameworks and export this information
+to backend of your choice. Supports django, pyramid, flask, grpc, MySQL,
+PostgreSQL, SQLAlchemy and other frameworks.
 site: https://opencensus.io
 tags:
 - trace

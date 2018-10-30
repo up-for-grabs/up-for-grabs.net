@@ -10,4 +10,4 @@ tags:
 - icons
 upforgrabs:
   name: help wanted
-  link: https://github.com/HackeSta/atom-icons/issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted"
+  link: https://github.com/HackeSta/atom-icons/labels/help%20wanted

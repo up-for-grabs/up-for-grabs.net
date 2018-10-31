@@ -42,7 +42,7 @@ npm install -g generator-up-for-grabs
 yo up-for-grabs
 ```
 
-## Testing the site locally
+## Testing the Site Locally
 
 If you haven't already, clone the repository to your machine:
 

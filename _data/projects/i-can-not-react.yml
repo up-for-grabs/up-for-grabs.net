@@ -1,6 +1,6 @@
 name: i-can-not-react
-desc: "The Complete Book on Reactjs"
-site: "https://github.com/KirankumarAmbati/I-can-not-REACT"
+desc: The Complete Book on Reactjs
+site: https://github.com/KirankumarAmbati/I-can-not-REACT
 tags:
 # Note: these are tags categorizing the project, not issue labels.
 - react
@@ -10,4 +10,4 @@ tags:
 - es6
 upforgrabs:
   name: good first issue
-  link: "https://github.com/KirankumarAmbati/I-can-not-REACT/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue"
+  link: https://github.com/KirankumarAmbati/I-can-not-REACT/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue

@@ -8,6 +8,35 @@ layout: default
 <div class="block">
   <h1><span class="header-inside">Projects</span></h1>
   <div id="projects-panel">
+    <noscript>
+      <table class="projects">
+        {% for p in site.data.projects %}
+        {% assign project = p[1] %}
+        <tbody>
+          <tr>
+            <td colspan="2" class="title">
+              <span class="proj"><a href="{{project.site}}">{{project.name}}</a></span>
+            </td>
+          </tr>
+          <tr>
+            <td class="details">
+              <p class="label"><a href="{{ project.upforgrabs.link }}" title="View open issues for {{ project.name }}">{{ project.upforgrabs.name }}</a></p>
+            </td>
+            <td class="details">
+              {% if project.desc %}
+              <span class="desc">{{ project.desc }}</span>
+              {% endif %}
+              {% if project.tags %}
+              <p class="tags">
+                {{ project.tags | join: ', ' }}
+              </p>
+              {% endif %}
+            </td>
+          </tr>
+        </tbody>
+        {% endfor %}
+      </table>
+    </noscript>
   </div>
 </div>
 <div class="block">

@@ -1,5 +1,5 @@
 name: metasmoke
-desc: Web dashboard and back end for SmokeDetector, a spam-detecting bot
+desc: Web dashboard and back end for SmokeDetector, a spam-detecting bot for Stack Overflow / Stack Exchange
 site: https://metasmoke.erwaysoftware.com/
 tags:
 - ruby

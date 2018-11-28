@@ -2,9 +2,7 @@
   <div class="filters-panel cf">
     <h5>Filter by name: </h5>
     <select class="names-filter" multiple data-placeholder="Select a project..." >
-      <%var result = _.sortBy(labels, function(entry, key){return entry.name;}) %>
-      <%console.log(result) %>
-      <% _.each(result, function(entry, key){ %>
+      <% _.each(_.sortBy(labels, function(entry, key){return entry.name;}), function(entry, key){ %>
         <option value="<%-key%>"><%- entry.name%></option>
       <% }) %>
     </select>

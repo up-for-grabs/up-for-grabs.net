@@ -1,0 +1,15 @@
+name: ERAM
+desc: An open source RAM Disk driver
+site: https://github.com/Zero3K/ERAM
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- ramdisk
+- ram
+- disk
+- cache
+- storage
+- temp
+- files
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/username/project/labels/up-for-grabs

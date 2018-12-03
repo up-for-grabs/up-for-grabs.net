@@ -7,3 +7,5 @@ exclude:
   - README.md
   - scripts
   - .travis.yml
+
+github: [metadata]

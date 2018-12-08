@@ -1,0 +1,22 @@
+name: DEMOCRACY Deutschland
+desc: Mobile & Desktop Application to display all procedures of the german parliament and let the user vote like a virtual member of parliament
+site: https://www.democracy-deutschland.de/
+tags:
+- Javascript
+- Node
+- NodeJS
+- Docker
+- web
+- website
+- android
+- ios
+- react
+- reactnative
+- express
+- next
+- nextjs
+- GraphQL
+- MongoDB
+upforgrabs:
+  name: Is Good First Issue
+  link: https://github.com/demokratie-live/democracy-client/labels/Is%20Good%20First%20Issue

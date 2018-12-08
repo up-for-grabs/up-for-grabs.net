@@ -30,18 +30,20 @@
     names = _.map(names, function (entry) {
       return entry && entry.replace(/^\s+|\s+$/g, "");
     });
-    console.log(names);
-    console.log(projects[0]);
+
     if (!names || !names.length || names[0] == "") {
       return projects;
     }
 
-    var projectNames = _.uniq(_.flatten(_.map(names, function (name) {
-      var hit = namesMap[name.toLowerCase()];
-      return hit || [];
-    })));
-    console.log(projectNames);
-    return projectNames;
+    // Make sure the names are sorted first. Then return the found index in the passed names
+    return  _.filter(_.map(_.sortBy(namesMap, function(entry, key){return entry.name;}), function(entry, key) {
+      if (names.indexOf(String(key)) > -1) {
+        return entry;
+      }
+    }), function(entry) {
+      return entry ? entry : false;
+    });
+
   };
   var applyLabelsFilter = function (projects, labelsMap, labels) {
     if (typeof labels === "string") {

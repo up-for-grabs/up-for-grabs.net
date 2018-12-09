@@ -10,17 +10,17 @@
   <div class="filters-panel cf">
     <h5>Filter by label: </h5>
     <select class="labels-filter" multiple data-placeholder="Select a label..." >
-    <% _.each(labels, function(entry, key){ %>
-      <option value="<%-key%>"><%- entry.name%></option>
-    <% }) %>
+      <% _.each(_.sortBy(labels, function(entry, key){return entry.name;}), function(entry, key){ %>
+        <option value="<%-key%>"><%- entry.name%></option>
+      <% }) %>
     </select>
   </div>
   <div class="filters-panel cf">
     <h5>Filter by tags: </h5>
     <select class="tags-filter" multiple data-placeholder="Select a tag..." >
-    <% _.each(tags, function(entry, key){ %>
-      <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
-    <% }) %>
+      <% _.each(_.sortBy(tags, function(entry, key){return entry.name;}), function(entry, key){ %>
+        <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
+      <% }) %>
     </select>
     <h5>Popular tags: </h5>
     <ul class="popular-tags">

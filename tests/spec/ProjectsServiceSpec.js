@@ -18,6 +18,14 @@ describe("ProjectsService", function() {
     expect(projectsService.getTags).toBeDefined();
   });
 
+  it("should return projects list when get method is called", function() {
+    expect(projectsService.get()).toBeDefined();
+  });
+
+  it("should return tags map when getTags method is called", function() {
+    expect(projectsService.getTags()).toBeDefined();
+  });
+
   describe("when instantiated with projects data", function(){
     it("should extract and create tags map from projects data", function() {
       var tags = _.toArray(projectsService.getTags());
@@ -36,16 +44,23 @@ describe("ProjectsService", function() {
       expect(tags[2].name).toBe("ASP.NET");
       
     });
-
   });
 
-  it("should return projects list when get method is called", function() {
-    expect(projectsService.get()).toBeDefined();
-  });
+  describe("When filtering by name", function() {
+    it("Should return the correct project given the correct index", function() {
+      var project = projectsService.get(null, ["1"], undefined);
+      expect(project).toBeDefined();
+      expect(project[0].name).toBe('LibGit2Sharp');
+      expect(project[1]).toBe(undefined);
+    });
 
-  it("should return tags map when getTags method is called", function() {
-    expect(projectsService.getTags()).toBeDefined();
-  });
+    it("Should return all projects if given falsy values", function() {
+      var projects = projectsService.get(null, true, undefined);
+      expect(projects).toBeDefined();
+      expect(projects[1].name).toBe('Glimpse');
+      expect(projects.length).toEqual(2);
+    })
+  })
 
   //Not sure how to test for randomness accurately, for now trusut underscore and ignore this. 
   xit("should return shuffled projects list  ", function() {

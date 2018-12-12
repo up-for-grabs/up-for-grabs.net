@@ -61,8 +61,8 @@
    * are returned. If none of the labels was added to the filter,
    * it fallsback to show all the projects.
    * @param Array projects : An array having all the Projects in _data
-   * @param Array projectsLabelsSorted : This is another array showing all the labels in a sorted order
-   * @param Array names : This is an array with the given label filters.
+   * @param Array projectLabelsSorted : This is another array showing all the labels in a sorted order
+   * @param Array labels : This is an array with the given label filters.
    */
 
   var applyLabelsFilter = function (projects, projectLabelsSorted, labels) {

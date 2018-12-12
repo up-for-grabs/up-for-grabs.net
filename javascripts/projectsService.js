@@ -22,7 +22,16 @@
     });
   };
 
-  var applyNamesFilter = function (projects, namesMap, names) {
+  /*
+   * The function here is used for front end filtering when given 
+   * selecting certain projects. It ensures that only the selected projects
+   * are returned. If none of the names was added to the filter.
+   * Then it fallsback to show all the projects.
+   * @param Array projects : An array having all the Projects in _data
+   * @param Array projectsNameSorted : This is another array showing all the projects in a sorted order
+   * @param Array names : This is an array with the given name filters.
+   */
+  var applyNamesFilter = function (projects, projectNamesSorted, names) {
     if (typeof names === "string") {
       names = names.split(",");
     }
@@ -30,19 +39,21 @@
     names = _.map(names, function (entry) {
       return entry && entry.replace(/^\s+|\s+$/g, "");
     });
-    console.log(names);
-    console.log(projects[0]);
+
     if (!names || !names.length || names[0] == "") {
       return projects;
     }
 
-    var projectNames = _.uniq(_.flatten(_.map(names, function (name) {
-      var hit = namesMap[name.toLowerCase()];
-      return hit || [];
-    })));
-    console.log(projectNames);
-    return projectNames;
+    // Make sure the names are sorted first. Then return the found index in the passed names
+    return  _.filter(_.map(projectNamesSorted, function(entry, key) {
+      if (names.indexOf(String(key)) > -1) {
+        return entry;
+      }
+    }), function(entry) {
+      return entry ? entry : false;
+    });
   };
+
   var applyLabelsFilter = function (projects, labelsMap, labels) {
     if (typeof labels === "string") {
       labels = labels.split(",");
@@ -163,7 +174,7 @@
 
     this.get = function (tags, names, labels) {
       if (names) {
-        return applyNamesFilter(projects, namesMap, names);
+        return applyNamesFilter(projects, this.getNames(), names);
       }
       else if(labels) {
         return applyLabelsFilter(projects, labelsMap, labels);
@@ -176,7 +187,7 @@
     };
 
     this.getNames = function () {
-      return namesMap;
+      return _.sortBy(namesMap, function(entry, key){return entry.name.toLowerCase();});
     };
 
     this.getLabels = function () {

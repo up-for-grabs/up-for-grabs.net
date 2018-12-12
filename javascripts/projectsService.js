@@ -54,32 +54,51 @@
     });
   };
 
+  /*
+  /*
+   * The function here is used for front end filtering when given
+   * selecting certain projects. It ensures that only the selected projects
+   * are returned. If none of the labels was added to the filter,
+   * it fallsback to show all the projects.
+   * @param Array projects : An array having all the Projects in _data
+   * @param Array projectsLabelsSorted : This is another array showing all the labels in a sorted order
+   * @param Array names : This is an array with the given label filters.
+   */
+
   var applyLabelsFilter = function (projects, projectLabelsSorted, labels) {
+
+    label_indices = labels;
+
     if (typeof labels === "string") {
-      labels = labels.split(",");
+      label_indices = labels.split(",");
     }
 
-    labels = _.map(labels, function (entry) {
+
+    labels_indices = _.map(labels, function (entry) {
       return entry && entry.replace(/^\s+|\s+$/g, "");
     });
 
-
-    if (!labels || !labels.length || labels[0] == "") {
+    //fallback if labels doesnt exist
+    if (!label_indices || !label_indices.length || labels[0] == "") {
       return projects;
     }
 
-    hits = _.filter(projectLabelsSorted, function(entry, key) {
-      if (labels.indexOf(String(key)) > -1) {
+    //get the corresponding label from projectLabelsSorted with the indices from earlier
+    labels = _.filter(projectLabelsSorted, function(entry, key) {
+      if (label_indices.indexOf(String(key)) > -1) {
         return entry;
       }
     });
 
-    names = _.collect(hits, hit => hit.name);
+    //collect the names of all labels into a list
+    label_names = _.collect(labels, label => label.name);
 
-    results = _.map(names, name => {
+    //find all projects with the given labels via OR
+    results = _.map(label_names, name => {
       return _.filter(projects, project => String(project.upforgrabs.name) === name);
     });
 
+    //the above statements returns n arrays in an array, which we flatten here and return then
     return _.flatten(results, (arr1, arr2) => arr1.append(arr2));
 
 

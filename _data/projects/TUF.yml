@@ -1,0 +1,12 @@
+name: The Update Framework
+desc: A framework for securing software update systems 
+site: https://theupdateframework.com
+tags:
+- Python
+- Security
+- Software Updates
+- Cryptography
+- CNCF
+upforgrabs:
+  name: good first issue
+  link: https://github.com/theupdateframework/tuf/labels/good%20first%20issue

@@ -1,0 +1,11 @@
+desc: "Hypothesis is a powerful, flexible, and easy to use library for property-based testing."
+name: Hypothesis
+site: "https://github.com/HypothesisWorks/hypothesis-python"
+tags:
+  - python
+  - testing
+  - django
+  - fuzzing
+upforgrabs:
+  link: "https://github.com/HypothesisWorks/hypothesis-python/labels/good%20first%20issue"
+  name: good first issue

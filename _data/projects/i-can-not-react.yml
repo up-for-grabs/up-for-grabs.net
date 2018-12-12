@@ -1,0 +1,13 @@
+name: i-can-not-react
+desc: The Complete Book on Reactjs
+site: https://github.com/KirankumarAmbati/I-can-not-REACT
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- react
+- reactjs
+- javascript
+- javascript-framework
+- es6
+upforgrabs:
+  name: good first issue
+  link: https://github.com/KirankumarAmbati/I-can-not-REACT/labels/good%20first%20issue

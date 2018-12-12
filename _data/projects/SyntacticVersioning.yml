@@ -1,0 +1,9 @@
+name: SyntacticVersioning
+desc: Helper tool to verify semantic version changes based on API surface area changes
+site: https://github.com/fsprojects/SyntacticVersioning
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/fsprojects/SyntacticVersioning/labels/help%20wanted

@@ -1,0 +1,13 @@
+name: Godot Engine
+desc: Multi-platform 2D and 3D game engine
+site: https://godotengine.org
+tags:
+- c++
+- cross-platform
+- gamedev
+- OpenGL
+- 2d
+- 3d
+upforgrabs:
+  name: junior job
+  link: https://github.com/godotengine/godot/labels/junior%20job

@@ -1,6 +1,6 @@
 name: The Lounge
-desc: Self-hosted web IRC client
-site: https://thelounge.github.io
+desc: Modern web IRC client designed for self-hosting
+site: https://thelounge.chat
 tags:
 - web
 - node
@@ -10,5 +10,5 @@ tags:
 - CSS
 - HTML
 upforgrabs:
-  name: up for grabs
-  link: https://github.com/thelounge/lounge/labels/up%20for%20grabs
+  name: help wanted
+  link: https://github.com/thelounge/thelounge/labels/help%20wanted

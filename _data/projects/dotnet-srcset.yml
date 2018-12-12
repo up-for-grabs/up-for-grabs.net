@@ -1,0 +1,11 @@
+name: dotnet-srcset
+desc: CLI to create sets of responsive images for the web
+site: https://github.com/stevedesmond-ca/dotnet-srcset
+tags:
+- C#
+- ".NET"
+- responsive
+- CLI
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/stevedesmond-ca/dotnet-srcset/labels/up-for-grabs

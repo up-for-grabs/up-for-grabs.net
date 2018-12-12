@@ -1,0 +1,11 @@
+name: FsLab
+desc: FsLab and FsLab.Runner packages and Journal template 
+site: https://github.com/fslaborg/FsLab
+tags:
+- F#
+- ".net"
+- Data Science
+- Machine Learning
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fslaborg/FsLab/labels/up-for-grabs

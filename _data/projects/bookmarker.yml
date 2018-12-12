@@ -1,0 +1,12 @@
+name: Bookmarker
+desc: Convert your Google Chrome's bookmarks into markdown files
+site: https://github.com/lubien/bookmarker
+tags:
+- elixir
+- chrome
+- bookmarks
+- shell
+- markdown
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/lubien/bookmarker/labels/up-for-grabs

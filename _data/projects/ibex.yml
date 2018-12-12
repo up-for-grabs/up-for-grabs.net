@@ -1,0 +1,11 @@
+name: ibex-dashboard
+desc: An open source, customizable, extendible dashboard (written in Node.js), and a client (written in React.js and Recharts)
+site: https://github.com/Azure/ibex-dashboard
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- node
+- JavaScript
+- react
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Azure/ibex-dashboard/labels/up-for-grabs

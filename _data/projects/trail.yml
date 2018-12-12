@@ -1,0 +1,11 @@
+name: trail
+desc: ASP.NET Blazor rendering with F#
+site: https://github.com/panesofglass/trail
+tags:
+- F#
+- Blazor
+- Redux
+- ".net"
+upforgrabs:
+  name: good first issue
+  link: https://github.com/panesofglass/trail/labels/good%20first%20issue

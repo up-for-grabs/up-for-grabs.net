@@ -1,0 +1,13 @@
+name: Monacs
+desc: Collection of basic monads and functional extensions for C#
+site: https://monacslib.github.io/
+tags:
+- csharp
+- functional programming
+- c#
+- ".NET"
+- railway oriented programming
+- monad
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/MonacsLib/Monacs/labels/up-for-grabs

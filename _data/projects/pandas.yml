@@ -1,0 +1,9 @@
+name: pandas
+desc: Powerful Python data analysis toolkit.
+site: http://pandas.pydata.org/
+tags:
+- python
+- data
+upforgrabs:
+  name: good first issue
+  link: https://github.com/pandas-dev/pandas/labels/good%20first%20issue

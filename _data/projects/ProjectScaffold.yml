@@ -1,0 +1,9 @@
+name: ProjectScaffold
+desc: A prototypical .NET solution (file system layout and tooling), recommended for F# projects
+site: https://github.com/fsprojects/ProjectScaffold
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsprojects/ProjectScaffold/labels/up-for-grabs

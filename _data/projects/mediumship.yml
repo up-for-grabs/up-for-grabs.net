@@ -1,0 +1,14 @@
+name: mediumship
+desc: 📚 Try Medium with membership-features!
+site: https://github.com/swapagarwal/mediumship
+tags:
+- javascript
+- chrome
+- firefox
+- web
+- oss
+- api
+- js
+upforgrabs:
+  name: good first issue
+  link: https://github.com/swapagarwal/mediumship/labels/good%20first%20issue

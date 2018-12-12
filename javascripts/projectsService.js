@@ -22,7 +22,16 @@
     });
   };
 
-  var applyNamesFilter = function (projects, namesMap, names) {
+  /*
+   * The function here is used for front end filtering when given 
+   * selecting certain projects. It ensures that only the selected projects
+   * are returned. If none of the names was added to the filter.
+   * Then it fallsback to show all the projects.
+   * @param Array projects : An array having all the Projects in _data
+   * @param Array projectsNameSorted : This is another array showing all the projects in a sorted order
+   * @param Array names : This is an array with the given name filters.
+   */
+  var applyNamesFilter = function (projects, projectNamesSorted, names) {
     if (typeof names === "string") {
       names = names.split(",");
     }
@@ -31,20 +40,45 @@
       return entry && entry.replace(/^\s+|\s+$/g, "");
     });
 
-    console.log(names);
-    console.log(projects[0]);
     if (!names || !names.length || names[0] == "") {
       return projects;
     }
 
-    var projectNames = _.uniq(_.flatten(_.map(names, function (name) {
-      var hit = namesMap[name.toLowerCase()];
-      return hit || [];
-    })));
-    console.log(projectNames);
-    return projectNames;
+    // Make sure the names are sorted first. Then return the found index in the passed names
+    return  _.filter(_.map(projectNamesSorted, function(entry, key) {
+      if (names.indexOf(String(key)) > -1) {
+        return entry;
+      }
+    }), function(entry) {
+      return entry ? entry : false;
+    });
   };
 
+  var applyLabelsFilter = function (projects, labelsMap, labels) {
+    if (typeof labels === "string") {
+      labels = labels.split(",");
+    }
+
+    labels = _.map(labels, function (entry) {
+      return entry && entry.replace(/^\s+|\s+$/g, "");
+    });
+
+    console.log(labels);
+    console.log(projects[0]);
+    if (!labels || !labels.length || labels[0] == "") {
+      return projects;
+    }
+
+    var projectLabels = _.uniq(_.flatten(_.map(labels, function (label) {
+      var hit = labelsMap[label.toLowerCase()];
+      return hit || [];
+    })));
+    console.log(projectLabels)
+
+    return _.filter(projects, function (project) {
+      return _.contains(labels, project.upforgrabs.name);
+    });
+  };
   var TagBuilder = function () {
     var _tagsMap = {},
       _orderedTagsMap = null;
@@ -64,7 +98,7 @@
     };
 
     this.getTagsMap = function () {
-      //http://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
+      //https://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
       return _orderedTagsMap = _orderedTagsMap || _(_tagsMap).chain().sortBy(function (tag, key) {
         return key;
       }).sortBy(function (tag, key) {
@@ -94,6 +128,7 @@
     var _projectsData = extractProjectsAndTags(projectsData);
     var tagsMap = {};
     var namesMap = {};
+    var labelsMap = {};
 
     var canStoreOrdering = (JSON && sessionStorage && sessionStorage.getItem &&
       sessionStorage.setItem);
@@ -132,9 +167,17 @@
       }
     });
 
-    this.get = function (tags, names) {
+    _.each(_projectsData.projects, function (project) {
+        labelsMap[project.upforgrabs.name.toLowerCase()] = project.upforgrabs;
+      
+    });
+
+    this.get = function (tags, names, labels) {
       if (names) {
-        return applyNamesFilter(projects, namesMap, names);
+        return applyNamesFilter(projects, this.getNames(), names);
+      }
+      else if(labels) {
+        return applyLabelsFilter(projects, labelsMap, labels);
       }
       return applyTagsFilter(projects, tagsMap, tags);
     };
@@ -144,7 +187,11 @@
     };
 
     this.getNames = function () {
-      return namesMap;
+      return _.sortBy(namesMap, function(entry, key){return entry.name.toLowerCase();});
+    };
+
+    this.getLabels = function () {
+      return labelsMap;
     };
 
     this.getPopularTags = function (popularTagCount) {

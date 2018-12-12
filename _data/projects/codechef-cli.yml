@@ -1,0 +1,11 @@
+name: CodeChef CLI
+desc: CodeChef command-line interface
+site: https://github.com/sk364/codechef-cli
+tags:
+- python
+- cli
+- codechef
+- competitive-coding
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sk364/codechef-cli/labels/good%20first%20issue

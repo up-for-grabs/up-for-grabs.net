@@ -1,0 +1,11 @@
+name: Gobo.cf
+desc: A URL shortener for Scratch projects, studios, users, and forum discussions.
+site: https://github.com/ScratchUtilities/gobo.cf
+tags:
+- url shortener
+- web
+- scratch
+- javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ScratchUtilities/gobo.cf/labels/up-for-grabs

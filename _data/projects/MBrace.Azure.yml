@@ -1,0 +1,12 @@
+name: MBrace.Azure
+desc: Microsoft Azure PaaS implementation for MBrace
+site: https://github.com/mbraceproject/MBrace.Azure
+tags:
+- F#
+- ".net"
+- MBrace
+- Cloud
+- Azure
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/mbraceproject/MBrace.Azure/labels/up-for-grabs

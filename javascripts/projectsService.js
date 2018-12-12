@@ -54,7 +54,7 @@
     });
   };
 
-  var applyLabelsFilter = function (projects, labelsMap, labels) {
+  var applyLabelsFilter = function (projects, projectLabelsSorted, labels) {
     if (typeof labels === "string") {
       labels = labels.split(",");
     }
@@ -63,21 +63,26 @@
       return entry && entry.replace(/^\s+|\s+$/g, "");
     });
 
-    console.log(labels);
-    console.log(projects[0]);
+
     if (!labels || !labels.length || labels[0] == "") {
       return projects;
     }
 
-    var projectLabels = _.uniq(_.flatten(_.map(labels, function (label) {
-      var hit = labelsMap[label.toLowerCase()];
-      return hit || [];
-    })));
-    console.log(projectLabels)
-
-    return _.filter(projects, function (project) {
-      return _.contains(labels, project.upforgrabs.name);
+    hits = _.filter(projectLabelsSorted, function(entry, key) {
+      if (labels.indexOf(String(key)) > -1) {
+        return entry;
+      }
     });
+
+    names = _.collect(hits, hit => hit.name);
+
+    results = _.map(names, name => {
+      return _.filter(projects, project => String(project.upforgrabs.name) === name);
+    });
+
+    return _.flatten(results, (arr1, arr2) => arr1.append(arr2));
+
+
   };
   var TagBuilder = function () {
     var _tagsMap = {},
@@ -177,7 +182,7 @@
         return applyNamesFilter(projects, this.getNames(), names);
       }
       else if(labels) {
-        return applyLabelsFilter(projects, labelsMap, labels);
+        return applyLabelsFilter(projects, this.getLabels(), labels);
       }
       return applyTagsFilter(projects, tagsMap, tags);
     };
@@ -191,7 +196,7 @@
     };
 
     this.getLabels = function () {
-      return labelsMap;
+      return _.sortBy(labelsMap, function(entry, key){return entry.name.toLowerCase();});
     };
 
     this.getPopularTags = function (popularTagCount) {

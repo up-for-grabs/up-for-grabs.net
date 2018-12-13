@@ -197,13 +197,14 @@
     });
 
     this.get = function (tags, names, labels) {
-      if (names) {
-        return applyNamesFilter(projects, this.getNames(), names);
-      }
-      else if(labels) {
-        return applyLabelsFilter(projects, this.getLabels(), labels);
-      }
-      return applyTagsFilter(projects, tagsMap, tags);
+      var filtered_projects = projects;
+      filtered_projects = applyNamesFilter(filtered_projects, this.getNames(), names);
+      console.log('After Name Filters', filtered_projects)
+      filtered_projects = applyLabelsFilter(filtered_projects, labelsMap, labels);
+      console.log('After Label Filters', filtered_projects)
+      filtered_projects = applyTagsFilter(filtered_projects, tagsMap, tags);
+      console.log('After Tag Filters', filtered_projects)
+      return filtered_projects
     };
 
     this.getTags = function () {

@@ -4,6 +4,10 @@
     compiledtemplateFn = null,
     projectsPanel = null;
 
+  var getFilterUrl = function() {
+    return location.href.indexOf('/#/filters') > -1 ? location.href : location.href+ 'filters';
+  }
+
   var renderProjects = function (tags, names, labels) {
     projectsPanel.html(compiledtemplateFn({
       "projects": projectsSvc.get(tags, names, labels),
@@ -20,7 +24,7 @@
       no_results_text: "No tags found by that name.",
       width: "95%"
     }).val(tags).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/tags/" + encodeURIComponent(($(this).val() || ""));
+      location.href = updateQueryStringParameter(getFilterUrl(), 'tags', encodeURIComponent(($(this).val() || "")));
     });
 
     projectsPanel.find("select.names-filter").chosen({
@@ -28,49 +32,90 @@
       no_results_text: "No project found by that name.",
       width: "95%"
     }).val(names).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/names/" + encodeURIComponent(($(this).val() || ""));
+      location.href = updateQueryStringParameter(getFilterUrl(), 'names', encodeURIComponent(($(this).val() || "")))
     });
 
     projectsPanel.find("select.labels-filter").chosen({
       no_results_text: "No project found by that label.",
       width: "95%"
     }).val(labels).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/labels/" + encodeURIComponent(($(this).val() || ""));
-
+      location.href = updateQueryStringParameter(getFilterUrl(), 'labels', encodeURIComponent(($(this).val() || "")));
     });
   };
 
+
+  /**
+   * This is a utility method to help update URL Query Parameters
+   * @return string - The value of the URL when adding/removing values to it.
+   */
+  var updateQueryStringParameter = function(uri, key, value) {
+    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+    var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+    if (uri.match(re)) {
+      return uri.replace(re, '$1' + key + "=" + value + '$2');
+    }
+    else {
+      return uri + separator + key + "=" + value;
+    }
+}
+
+  /**
+  * This function help getting all params in url queryString
+  * Taken from here
+  * https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+  *
+  * @return string - value of url params
+  */
+  var getParameterByName = function(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+  };
+
   var app = $.sammy(function () {
+
+    this.get('#/filters', function(context) {
+      var labels = getParameterByName('labels');
+      var names = getParameterByName('names');
+      var tags = getParameterByName('tags');
+      renderProjects(tags, names, labels)
+    });
+
+
     this.get("#/", function (context) {
       renderProjects();
     });
 
-    this.get("#/tags/", function (context) {
-      renderProjects();
-    });
+    // this.get("#/tags/", function (context) {
+    //   renderProjects();
+    // });
 
-    this.get("#/tags/:tags", function (context) {
-      var tags = (this.params["tags"] || "").toLowerCase().split(",");
-      renderProjects(tags);
-    });
+    // this.get("#/tags/:tags", function (context) {
+    //   var tags = (this.params["tags"] || "").toLowerCase().split(",");
+    //   renderProjects(tags);
+    // });
 
-    this.get("#/names/", function (context) {
-      renderProjects();
-    });
+    // this.get("#/names/", function (context) {
+    //   renderProjects();
+    // });
 
-    this.get("#/names/:names", function (context) {
-      var names = (this.params["names"] || "").toLowerCase().split(",");
-      renderProjects(null, names);
-    });
+    // this.get("#/names/:names", function (context) {
+    //   var names = (this.params["names"] || "").toLowerCase().split(",");
+    //   renderProjects(null, names);
+    // });
   
-    this.get("#/labels/", function (context) {
-      renderProjects();
-    });
+    // this.get("#/labels/", function (context) {
+    //   renderProjects();
+    // });
 
-    this.get("#/labels/:labels", function (context) {
-      var labels = (this.params["labels"] || "").toLowerCase().split(",");
-      renderProjects(null, null, labels);
-    });
+    // this.get("#/labels/:labels", function (context) {
+    //   var labels = (this.params["labels"] || "").toLowerCase().split(",");
+    //   renderProjects(null, null, labels);
+    // });
   });
 
   var storage = (function (global) {

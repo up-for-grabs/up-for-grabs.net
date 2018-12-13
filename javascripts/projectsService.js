@@ -54,30 +54,54 @@
     });
   };
 
-  var applyLabelsFilter = function (projects, labelsMap, labels) {
+  /*
+  /*
+   * The function here is used for front end filtering when given
+   * selecting certain projects. It ensures that only the selected projects
+   * are returned. If none of the labels was added to the filter,
+   * it fallsback to show all the projects.
+   * @param Array projects : An array having all the Projects in _data
+   * @param Array projectLabelsSorted : This is another array showing all the labels in a sorted order
+   * @param Array labels : This is an array with the given label filters.
+   */
+
+  var applyLabelsFilter = function (projects, projectLabelsSorted, labels) {
+
+    label_indices = labels;
+
     if (typeof labels === "string") {
-      labels = labels.split(",");
+      label_indices = labels.split(",");
     }
 
-    labels = _.map(labels, function (entry) {
+
+    labels_indices = _.map(labels, function (entry) {
       return entry && entry.replace(/^\s+|\s+$/g, "");
     });
 
-    console.log(labels);
-    console.log(projects[0]);
-    if (!labels || !labels.length || labels[0] == "") {
+    //fallback if labels doesnt exist
+    if (!label_indices || !label_indices.length || labels[0] == "") {
       return projects;
     }
 
-    var projectLabels = _.uniq(_.flatten(_.map(labels, function (label) {
-      var hit = labelsMap[label.toLowerCase()];
-      return hit || [];
-    })));
-    console.log(projectLabels)
-
-    return _.filter(projects, function (project) {
-      return _.contains(labels, project.upforgrabs.name);
+    //get the corresponding label from projectLabelsSorted with the indices from earlier
+    labels = _.filter(projectLabelsSorted, function(entry, key) {
+      if (label_indices.indexOf(String(key)) > -1) {
+        return entry;
+      }
     });
+
+    //collect the names of all labels into a list
+    label_names = _.collect(labels, label => label.name);
+
+    //find all projects with the given labels via OR
+    results = _.map(label_names, name => {
+      return _.filter(projects, project => String(project.upforgrabs.name) === name);
+    });
+
+    //the above statements returns n arrays in an array, which we flatten here and return then
+    return _.flatten(results, (arr1, arr2) => arr1.append(arr2));
+
+
   };
   var TagBuilder = function () {
     var _tagsMap = {},
@@ -177,7 +201,7 @@
         return applyNamesFilter(projects, this.getNames(), names);
       }
       else if(labels) {
-        return applyLabelsFilter(projects, labelsMap, labels);
+        return applyLabelsFilter(projects, this.getLabels(), labels);
       }
       return applyTagsFilter(projects, tagsMap, tags);
     };
@@ -191,7 +215,7 @@
     };
 
     this.getLabels = function () {
-      return labelsMap;
+      return _.sortBy(labelsMap, function(entry, key){return entry.name.toLowerCase();});
     };
 
     this.getPopularTags = function (popularTagCount) {

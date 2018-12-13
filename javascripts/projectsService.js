@@ -95,7 +95,7 @@
 
     //find all projects with the given labels via OR
     results = _.map(label_names, name => {
-      return _.filter(projects, project => String(project.upforgrabs.name) === name);
+      return _.filter(projects, project => String(project.upforgrabs.name).toLowerCase() === name);
     });
 
     //the above statements returns n arrays in an array, which we flatten here and return then
@@ -103,6 +103,7 @@
 
 
   };
+
   var TagBuilder = function () {
     var _tagsMap = {},
       _orderedTagsMap = null;
@@ -198,12 +199,15 @@
 
     this.get = function (tags, names, labels) {
       var filtered_projects = projects;
-      filtered_projects = applyNamesFilter(filtered_projects, this.getNames(), names);
-      console.log('After Name Filters', filtered_projects)
-      filtered_projects = applyLabelsFilter(filtered_projects, labelsMap, labels);
-      console.log('After Label Filters', filtered_projects)
-      filtered_projects = applyTagsFilter(filtered_projects, tagsMap, tags);
-      console.log('After Tag Filters', filtered_projects)
+      if (names && names.length) {
+        filtered_projects = applyNamesFilter(filtered_projects, this.getNames(), names);
+      }
+      if (labels && labels.length) {
+        filtered_projects = applyLabelsFilter(filtered_projects, this.getLabels(), labels);
+      }
+      if (tags && tags.length) {
+        filtered_projects = applyTagsFilter(filtered_projects, tagsMap, tags);
+      }
       return filtered_projects
     };
 

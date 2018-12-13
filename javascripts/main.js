@@ -90,32 +90,6 @@
       renderProjects();
     });
 
-    // this.get("#/tags/", function (context) {
-    //   renderProjects();
-    // });
-
-    // this.get("#/tags/:tags", function (context) {
-    //   var tags = (this.params["tags"] || "").toLowerCase().split(",");
-    //   renderProjects(tags);
-    // });
-
-    // this.get("#/names/", function (context) {
-    //   renderProjects();
-    // });
-
-    // this.get("#/names/:names", function (context) {
-    //   var names = (this.params["names"] || "").toLowerCase().split(",");
-    //   renderProjects(null, names);
-    // });
-  
-    // this.get("#/labels/", function (context) {
-    //   renderProjects();
-    // });
-
-    // this.get("#/labels/:labels", function (context) {
-    //   var labels = (this.params["labels"] || "").toLowerCase().split(",");
-    //   renderProjects(null, null, labels);
-    // });
   });
 
   var storage = (function (global) {

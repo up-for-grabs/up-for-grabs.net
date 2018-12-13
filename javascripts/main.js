@@ -76,15 +76,29 @@
       return decodeURIComponent(results[2].replace(/\+/g, " "));
   };
 
+  /*
+   * This is a helper method that prepares the chosen labels/tags/names
+   * For HTML and helps display the selected values of each
+   * @params String text - The text given, indices or names. As long as it is a string
+   * @return Array - Returns an array of splitted values if given a text. Otherwise undefined
+   */
+  var prepareForHTML = function(text) {
+    return text ? text.toLowerCase().split(',') : text;
+  }
+
   var app = $.sammy(function () {
 
-    this.get('#/filters', function(context) {
-      var labels = getParameterByName('labels');
-      var names = getParameterByName('names');
-      var tags = getParameterByName('tags');
+    /*
+     * This is the route used to filter by tags/names/labels
+     * It ensures to read values from the URI query param and perform actions
+     * based on that. NOTE: It has major side effects on the browser.
+     */
+    this.get('#/filters', function() {
+      var labels = prepareForHTML(getParameterByName('labels'));
+      var names = prepareForHTML(getParameterByName('names'));
+      var tags = prepareForHTML(getParameterByName('tags'));
       renderProjects(tags, names, labels)
     });
-
 
     this.get("#/", function (context) {
       renderProjects();

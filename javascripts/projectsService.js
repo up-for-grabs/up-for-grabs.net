@@ -55,7 +55,6 @@
   };
 
   /*
-  /*
    * The function here is used for front end filtering when given
    * selecting certain projects. It ensures that only the selected projects
    * are returned. If none of the labels was added to the filter,
@@ -64,7 +63,6 @@
    * @param Array projectLabelsSorted : This is another array showing all the labels in a sorted order
    * @param Array labels : This is an array with the given label filters.
    */
-
   var applyLabelsFilter = function (projects, projectLabelsSorted, labels) {
 
     label_indices = labels;
@@ -91,18 +89,20 @@
     });
 
     //collect the names of all labels into a list
-    label_names = _.collect(labels, label => label.name);
+    label_names = _.collect(labels, function(label){ return label.name });
 
     //find all projects with the given labels via OR
-    results = _.map(label_names, name => {
-      return _.filter(projects, project => String(project.upforgrabs.name) === name);
+    results = _.map(label_names, function(name) {
+      return _.filter(projects, function(project) {
+        return String(project.upforgrabs.name).toLowerCase() === name.toLowerCase()
+      });
     });
 
     //the above statements returns n arrays in an array, which we flatten here and return then
-    return _.flatten(results, (arr1, arr2) => arr1.append(arr2));
-
-
+    return _.flatten(results, function(arr1, arr2) { return arr1.append(arr2) });
   };
+
+
   var TagBuilder = function () {
     var _tagsMap = {},
       _orderedTagsMap = null;
@@ -197,13 +197,17 @@
     });
 
     this.get = function (tags, names, labels) {
-      if (names) {
-        return applyNamesFilter(projects, this.getNames(), names);
+      var filtered_projects = projects;
+      if (names && names.length) {
+        filtered_projects = applyNamesFilter(filtered_projects, this.getNames(), names);
       }
-      else if(labels) {
-        return applyLabelsFilter(projects, this.getLabels(), labels);
+      if (labels && labels.length) {
+        filtered_projects = applyLabelsFilter(filtered_projects, this.getLabels(), labels);
       }
-      return applyTagsFilter(projects, tagsMap, tags);
+      if (tags && tags.length) {
+        filtered_projects = applyTagsFilter(filtered_projects, tagsMap, tags);
+      }
+      return filtered_projects
     };
 
     this.getTags = function () {

@@ -57,7 +57,7 @@ describe("ProjectsService", function() {
     it("Should return all projects if given falsy values", function() {
       var projects = projectsService.get(null, true, undefined);
       expect(projects).toBeDefined();
-      expect(projects[1].name).toBe('Glimpse');
+      expect(projects[1].name).toBe('LibGit2Sharp');
       expect(projects.length).toEqual(2);
     })
   })
@@ -118,5 +118,38 @@ describe("ProjectsService", function() {
       var projects = projectsService.get(["c#", "D'oh"]);
       expect(projects.length).toBe(2);
     });
+  });
+
+  describe("Expect multiple filters to work tremendously good", function() {
+
+    it("If it doesn't take any filters then it should return projects", function() {
+      var projects = projectsService.get(undefined, undefined, undefined);
+      expect(projects.length).toBe(2);
+    });
+
+    it("Should take a name filter and tag filter with no issues", function() {
+      var projects = projectsService.get(['c#'], ['0'], undefined);
+      expect(projects.length).toBe(1);
+    });
+
+    it("Should take a name filter and wrong tag filter and expect nothing", function() {
+      var projects = projectsService.get(['web'], ['1'], undefined);
+      expect(projects.length).toBe(0);
+    });
+
+    it("Should take a name filter and label filter with no issues", function() {
+      var projects = projectsService.get(undefined, ['1'], ['1']);
+      expect(projects.length).toBe(1);
+    });
+
+    it("Should take a tag filter and label filter with no issues", function() {
+      var projects = projectsService.get(['c#'], undefined, ['1']);
+      expect(projects.length).toBe(1);
+    });
+
+    it("Should take all three filters and return a project", function() {
+      var projects = projectsService.get(['c#'], ['1'], ['1']);
+      expect(projects.length).toBe(1);
+    })
   });
 });

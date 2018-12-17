@@ -41,8 +41,26 @@
     }).val(labels).trigger('chosen:updated').change(function (e) {
       location.href = updateQueryStringParameter(getFilterUrl(), 'labels', encodeURIComponent(($(this).val() || "")));
     });
+
+    projectsPanel.find("ul.popular-tags").children().each(function(i, elem){
+        //elem.firstElementChild.innerText.toLowerCase()
+        console.log(elem);
+        $(elem).on("click", function(){
+            location.href = updateQueryStringParameter(
+                getFilterUrl(), 'tags', encodeURIComponent((preparePopTagName($(this).text()) || ""))); 
+        });
+    });
+
   };
 
+  /*
+    This is a utility method to help update a list items Name parameter to make
+    it fit URL specification
+    @return string - The value of the Name
+  */
+  var preparePopTagName = function(name) {
+      return name.toLowerCase().split(" ")[0];
+  }
 
   /**
    * This is a utility method to help update URL Query Parameters

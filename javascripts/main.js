@@ -47,6 +47,7 @@
             let selTags = ($('.tags-filter').val() || [])
             const selectedTag = preparePopTagName($(this).text() || "");
             if (selectedTag){
+                selTags.push(selectedTag)
                 location.href = updateQueryStringParameter(
                     getFilterUrl(), 'tags', encodeURIComponent((selTags))); 
             }

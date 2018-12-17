@@ -43,11 +43,13 @@
     });
 
     projectsPanel.find("ul.popular-tags").children().each(function(i, elem){
-        //elem.firstElementChild.innerText.toLowerCase()
-        console.log(elem);
         $(elem).on("click", function(){
-            location.href = updateQueryStringParameter(
-                getFilterUrl(), 'tags', encodeURIComponent((preparePopTagName($(this).text()) || ""))); 
+            let selTags = ($('.tags-filter').val() || [])
+            const selectedTag = preparePopTagName($(this).text() || "");
+            if (selectedTag){
+                location.href = updateQueryStringParameter(
+                    getFilterUrl(), 'tags', encodeURIComponent((selTags))); 
+            }
         });
     });
 
@@ -59,6 +61,7 @@
     @return string - The value of the Name
   */
   var preparePopTagName = function(name) {
+      if (name === "") return "";
       return name.toLowerCase().split(" ")[0];
   }
 

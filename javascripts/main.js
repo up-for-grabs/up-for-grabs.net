@@ -44,8 +44,8 @@
 
     projectsPanel.find("ul.popular-tags").children().each(function(i, elem){
         $(elem).on("click", function(){
-            let selTags = ($('.tags-filter').val() || [])
-            const selectedTag = preparePopTagName($(this).text() || "");
+            selTags = ($('.tags-filter').val() || [])
+            selectedTag = preparePopTagName($(this).text() || "");
             if (selectedTag){
                 selTags.push(selectedTag)
                 location.href = updateQueryStringParameter(

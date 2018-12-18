@@ -8,3 +8,6 @@ exclude:
   - scripts
   - .travis.yml
   - vendor
+
+github: [metadata]
+

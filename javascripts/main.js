@@ -4,21 +4,27 @@
     compiledtemplateFn = null,
     projectsPanel = null;
 
-  var renderProjects = function (tags, names) {
+  var getFilterUrl = function() {
+    return location.href.indexOf('/#/filters') > -1 ? location.href : location.href+ 'filters';
+  }
+
+  var renderProjects = function (tags, names, labels) {
     projectsPanel.html(compiledtemplateFn({
-      "projects": projectsSvc.get(tags, names),
+      "projects": projectsSvc.get(tags, names, labels),
       "tags": projectsSvc.getTags(),
       "popularTags": projectsSvc.getPopularTags(6),
       "selectedTags": tags,
       "names": projectsSvc.getNames(),
-      "selectedNames": names
+      "selectedNames": names,
+      "labels": projectsSvc.getLabels(),
+      "selectedLabels": labels
     }));
 
     projectsPanel.find("select.tags-filter").chosen({
       no_results_text: "No tags found by that name.",
       width: "95%"
     }).val(tags).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/tags/" + encodeURIComponent(($(this).val() || ""));
+      location.href = updateQueryStringParameter(getFilterUrl(), 'tags', encodeURIComponent(($(this).val() || "")));
     });
 
     projectsPanel.find("select.names-filter").chosen({
@@ -26,32 +32,100 @@
       no_results_text: "No project found by that name.",
       width: "95%"
     }).val(names).trigger('chosen:updated').change(function (e) {
-      window.location.href = "#/names/" + encodeURIComponent(($(this).val() || ""));
+      location.href = updateQueryStringParameter(getFilterUrl(), 'names', encodeURIComponent(($(this).val() || "")))
     });
+
+    projectsPanel.find("select.labels-filter").chosen({
+      no_results_text: "No project found by that label.",
+      width: "95%"
+    }).val(labels).trigger('chosen:updated').change(function (e) {
+      location.href = updateQueryStringParameter(getFilterUrl(), 'labels', encodeURIComponent(($(this).val() || "")));
+    });
+
+    projectsPanel.find("ul.popular-tags").children().each(function(i, elem){
+        $(elem).on("click", function(){
+            selTags = ($('.tags-filter').val() || [])
+            selectedTag = preparePopTagName($(this).text() || "");
+            if (selectedTag){
+                selTags.push(selectedTag)
+                location.href = updateQueryStringParameter(
+                    getFilterUrl(), 'tags', encodeURIComponent((selTags))); 
+            }
+        });
+    });
+
   };
 
+  /*
+    This is a utility method to help update a list items Name parameter to make
+    it fit URL specification
+    @return string - The value of the Name
+  */
+  var preparePopTagName = function(name) {
+      if (name === "") return "";
+      return name.toLowerCase().split(" ")[0];
+  }
+
+  /**
+   * This is a utility method to help update URL Query Parameters
+   * @return string - The value of the URL when adding/removing values to it.
+   */
+  var updateQueryStringParameter = function(uri, key, value) {
+    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+    var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+    if (uri.match(re)) {
+      return uri.replace(re, '$1' + key + "=" + value + '$2');
+    }
+    else {
+      return uri + separator + key + "=" + value;
+    }
+}
+
+  /**
+  * This function help getting all params in url queryString
+  * Taken from here
+  * https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+  *
+  * @return string - value of url params
+  */
+  var getParameterByName = function(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+  };
+
+  /*
+   * This is a helper method that prepares the chosen labels/tags/names
+   * For HTML and helps display the selected values of each
+   * @params String text - The text given, indices or names. As long as it is a string
+   * @return Array - Returns an array of splitted values if given a text. Otherwise undefined
+   */
+  var prepareForHTML = function(text) {
+    return text ? text.toLowerCase().split(',') : text;
+  }
+
   var app = $.sammy(function () {
+
+    /*
+     * This is the route used to filter by tags/names/labels
+     * It ensures to read values from the URI query param and perform actions
+     * based on that. NOTE: It has major side effects on the browser.
+     */
+    this.get('#/filters', function() {
+      var labels = prepareForHTML(getParameterByName('labels'));
+      var names = prepareForHTML(getParameterByName('names'));
+      var tags = prepareForHTML(getParameterByName('tags'));
+      renderProjects(tags, names, labels)
+    });
+
     this.get("#/", function (context) {
       renderProjects();
     });
 
-    this.get("#/tags/", function (context) {
-      renderProjects();
-    });
-
-    this.get("#/tags/:tags", function (context) {
-      var tags = (this.params["tags"] || "").toLowerCase().split(",");
-      renderProjects(tags);
-    });
-
-    this.get("#/names/", function (context) {
-      renderProjects();
-    });
-
-    this.get("#/names/:names", function (context) {
-      var names = (this.params["names"] || "").toLowerCase().split(",");
-      renderProjects(null, names);
-    });
   });
 
   var storage = (function (global) {

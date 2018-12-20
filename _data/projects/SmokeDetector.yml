@@ -1,0 +1,10 @@
+name: SmokeDetector
+desc: Community-maintained bot to detect spam on Stack Exchange and get it deleted
+site: https://charcoal-se.org/
+tags:
+- python
+- stack-exchange
+- regex
+upforgrabs:
+  name: "type: up-for-grabs"
+  link: https://github.com/Charcoal-SE/SmokeDetector/labels/type%3A%20up-for-grabs

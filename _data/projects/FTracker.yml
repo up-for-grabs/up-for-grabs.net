@@ -1,0 +1,13 @@
+name: Ftracker
+desc: A fun money tracking app. Set goals, save money while having fun. Made with NodeJS, MongoDB, EJS
+site: https://github.com/Xyli0/FTracker
+tags:
+- javascript
+- NodeJS
+- Node
+- Mongo
+- MongoDB
+- EJS
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Xyli0/FTracker/labels/up-for-grabs

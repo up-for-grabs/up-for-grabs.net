@@ -18,6 +18,14 @@ describe("ProjectsService", function() {
     expect(projectsService.getTags).toBeDefined();
   });
 
+  it("should return projects list when get method is called", function() {
+    expect(projectsService.get()).toBeDefined();
+  });
+
+  it("should return tags map when getTags method is called", function() {
+    expect(projectsService.getTags()).toBeDefined();
+  });
+
   describe("when instantiated with projects data", function(){
     it("should extract and create tags map from projects data", function() {
       var tags = _.toArray(projectsService.getTags());
@@ -36,16 +44,23 @@ describe("ProjectsService", function() {
       expect(tags[2].name).toBe("ASP.NET");
       
     });
-
   });
 
-  it("should return projects list when get method is called", function() {
-    expect(projectsService.get()).toBeDefined();
-  });
+  describe("When filtering by name", function() {
+    it("Should return the correct project given the correct index", function() {
+      var project = projectsService.get(null, ["1"], undefined);
+      expect(project).toBeDefined();
+      expect(project[0].name).toBe('LibGit2Sharp');
+      expect(project[1]).toBe(undefined);
+    });
 
-  it("should return tags map when getTags method is called", function() {
-    expect(projectsService.getTags()).toBeDefined();
-  });
+    it("Should return all projects if given falsy values", function() {
+      var projects = projectsService.get(null, true, undefined);
+      expect(projects).toBeDefined();
+      expect(projects[1].name).toBe('LibGit2Sharp');
+      expect(projects.length).toEqual(2);
+    })
+  })
 
   //Not sure how to test for randomness accurately, for now trusut underscore and ignore this. 
   xit("should return shuffled projects list  ", function() {
@@ -103,5 +118,38 @@ describe("ProjectsService", function() {
       var projects = projectsService.get(["c#", "D'oh"]);
       expect(projects.length).toBe(2);
     });
+  });
+
+  describe("Expect multiple filters to work tremendously good", function() {
+
+    it("If it doesn't take any filters then it should return projects", function() {
+      var projects = projectsService.get(undefined, undefined, undefined);
+      expect(projects.length).toBe(2);
+    });
+
+    it("Should take a name filter and tag filter with no issues", function() {
+      var projects = projectsService.get(['c#'], ['0'], undefined);
+      expect(projects.length).toBe(1);
+    });
+
+    it("Should take a name filter and wrong tag filter and expect nothing", function() {
+      var projects = projectsService.get(['web'], ['1'], undefined);
+      expect(projects.length).toBe(0);
+    });
+
+    it("Should take a name filter and label filter with no issues", function() {
+      var projects = projectsService.get(undefined, ['1'], ['1']);
+      expect(projects.length).toBe(1);
+    });
+
+    it("Should take a tag filter and label filter with no issues", function() {
+      var projects = projectsService.get(['c#'], undefined, ['1']);
+      expect(projects.length).toBe(1);
+    });
+
+    it("Should take all three filters and return a project", function() {
+      var projects = projectsService.get(['c#'], ['1'], ['1']);
+      expect(projects.length).toBe(1);
+    })
   });
 });

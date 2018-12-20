@@ -1,0 +1,11 @@
+name: PHPBignum
+desc: A bignum library for PHP
+site: https://github.com/hpez/PHPBignum
+tags:
+- php
+- php-library
+- bignum
+- bignumber
+upforgrabs:
+  name: help wanted
+  link: https://github.com/hpez/PHPBignum/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

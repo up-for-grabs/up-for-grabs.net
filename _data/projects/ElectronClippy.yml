@@ -1,0 +1,10 @@
+name: Clippy
+desc: Electron App that records your Clipboard history and Image history
+site: https://github.com/Jarmahent/Clippy
+tags:
+- electron
+- javascript
+- react
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Jarmahent/Clippy/labels/help%20wanted

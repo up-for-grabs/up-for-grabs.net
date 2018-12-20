@@ -1,0 +1,9 @@
+name: .NET API Docs
+desc: API documentation for .NET
+site: http://github.com/dotnet/dotnet-api-docs
+tags:
+- ".NET"
+- "documentation"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dotnet/dotnet-api-docs/labels/up-for-grabs

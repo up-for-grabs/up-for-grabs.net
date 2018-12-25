@@ -211,7 +211,7 @@
     };
 
     this.getTags = function () {
-      return tagsMap;
+      return _.sortBy(tagsMap, function(entry, key){return entry.name.toLowerCase();});
     };
 
     this.getNames = function () {

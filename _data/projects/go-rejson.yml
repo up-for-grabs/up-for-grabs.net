@@ -1,0 +1,14 @@
+name: go-rejson
+desc: Golang client for redislabs' ReJSON module using Redigo golang client. 
+site: https://github.com/nitishm/go-rejson
+tags:
+- oss
+- go
+- golang
+- json
+- redis
+- client
+- rejson
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/nitishm/go-rejson/labels/up-for-grabs

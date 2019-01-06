@@ -98,6 +98,28 @@
       return decodeURIComponent(results[2].replace(/\+/g, " "));
   };
 
+  /**
+  * This function adds a button to scroll to top
+  * after navigating through a certain screen length
+  * Also has corresponding fade-in and fade-out fetaure
+  */
+  $(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+  });
+  $(document).ready(function() {
+      $("#back2Top").click(function(event) {
+          event.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+          return false;
+      });
+
+  });
+  
   /*
    * This is a helper method that prepares the chosen labels/tags/names
    * For HTML and helps display the selected values of each

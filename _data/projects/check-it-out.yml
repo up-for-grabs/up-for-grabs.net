@@ -1,5 +1,5 @@
 name: check-it-out
-desc: A n-curses like CLI to let you see your branches before you check them out
+desc: A command line interface for Git Checkout
 site: http://checkit.club
 tags:
 - git
@@ -8,8 +8,10 @@ tags:
 - branch
 - cli
 - ncurses
-- blessed
+- js
 - git-checkout
+- javascript
+- nodejs
 upforgrabs:
-  name: good first issue
-  link: https://github.com/jwu910/check-it-out/issues/labels/good%20first%20issue
+  name: up-for-grabs
+  link: https://github.com/jwu910/check-it-out/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs+sort%3Aupdated-desc

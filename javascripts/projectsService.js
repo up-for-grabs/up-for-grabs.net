@@ -205,7 +205,7 @@
         filtered_projects = applyLabelsFilter(filtered_projects, this.getLabels(), labels);
       }
       if (tags && tags.length) {
-        filtered_projects = applyTagsFilter(filtered_projects, tagsMap, tags);
+        filtered_projects = applyTagsFilter(filtered_projects, this.getTags(), tags);
       }
       return filtered_projects
     };

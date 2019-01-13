@@ -1,0 +1,9 @@
+name: Beginner-Level-AndroidStudio-Projects
+desc: this repository consists of some basic projects of android studio 
+site: https://github.com/anshulkhattar/Beginner-Level-Android-Studio-Apps
+tags:
+-Java
+-Android Studio
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/anshulkhattar/Beginner-Level-Android-Studio-Apps/issues

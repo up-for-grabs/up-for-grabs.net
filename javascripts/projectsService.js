@@ -32,7 +32,8 @@
    * are returned. If none of the names was added to the filter.
    * Then it fallsback to show all the projects.
    * @param Array projects : An array having all the Projects in _data
-   * @param Array projectsNameSorted : This is another array showing all the projects in a sorted order
+   * @param Array projectsNameSorted : This is another array showing all the
+   *              projects in a sorted order
    * @param Array names : This is an array with the given name filters.
    */
   var applyNamesFilter = function(projects, projectNamesSorted, names) {
@@ -67,7 +68,8 @@
    * are returned. If none of the labels was added to the filter,
    * it fallsback to show all the projects.
    * @param Array projects : An array having all the Projects in _data
-   * @param Array projectLabelsSorted : This is another array showing all the labels in a sorted order
+   * @param Array projectLabelsSorted : This is another array showing all the
+   *        labels in a sorted order
    * @param Array labels : This is an array with the given label filters.
    */
   var applyLabelsFilter = function(projects, projectLabelsSorted, labels) {
@@ -140,7 +142,7 @@
           .sortBy(function(tag, key) {
             return key;
           })
-          .sortBy(function(tag, key) {
+          .sortBy(function(tag) {
             return tag.frequency * -1;
           })
           .value());
@@ -240,19 +242,19 @@
     };
 
     this.getTags = function() {
-      return _.sortBy(tagsMap, function(entry, key) {
+      return _.sortBy(tagsMap, function(entry) {
         return entry.name.toLowerCase();
       });
     };
 
     this.getNames = function() {
-      return _.sortBy(namesMap, function(entry, key) {
+      return _.sortBy(namesMap, function(entry) {
         return entry.name.toLowerCase();
       });
     };
 
     this.getLabels = function() {
-      return _.sortBy(labelsMap, function(entry, key) {
+      return _.sortBy(labelsMap, function(entry) {
         return entry.name.toLowerCase();
       });
     };

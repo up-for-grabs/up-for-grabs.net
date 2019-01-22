@@ -31,7 +31,7 @@
       })
       .val(tags)
       .trigger("chosen:updated")
-      .change(function(e) {
+      .change(function() {
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           "tags",
@@ -48,7 +48,7 @@
       })
       .val(names)
       .trigger("chosen:updated")
-      .change(function(e) {
+      .change(function() {
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           "names",
@@ -64,7 +64,7 @@
       })
       .val(labels)
       .trigger("chosen:updated")
-      .change(function(e) {
+      .change(function() {
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           "labels",
@@ -110,9 +110,9 @@
     var separator = uri.indexOf("?") !== -1 ? "&" : "?";
     if (uri.match(re)) {
       return uri.replace(re, "$1" + key + "=" + value + "$2");
-    } else {
-      return uri + separator + key + "=" + value;
     }
+
+    return uri + separator + key + "=" + value;
   };
 
   /**
@@ -176,7 +176,7 @@
       renderProjects(tags, names, labels);
     });
 
-    this.get("#/", function(context) {
+    this.get("#/", function() {
       renderProjects();
     });
   });
@@ -246,7 +246,7 @@
     }
 
     $.ajax(url)
-      .done(function(data, textStatus, jqXHR) {
+      .done(function(data) {
         var resultCount =
           data && typeof data.length === "number"
             ? data.length.toString()

@@ -8,6 +8,11 @@ exclude:
   - scripts
   - .travis.yml
   - vendor
+  - node_modules
+  - package.json
+  - yarn.lock
+  - .eslintrc.json
+  - .prettierrc.json
 
 github: [metadata]
 

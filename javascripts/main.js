@@ -219,7 +219,7 @@
         gh && "https://api.github.com/repos" + gh[1] + "issues?labels=" + gh[2],
       count = a.find(".count");
 
-    if (!!count.length) {
+    if (count.length) {
       return;
     }
 

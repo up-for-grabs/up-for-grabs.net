@@ -56,7 +56,7 @@
         }
       }),
       function(entry) {
-        return entry ? entry : false;
+        return entry || false;
       }
     );
   };
@@ -81,24 +81,24 @@
       return entry && entry.replace(/^\s+|\s+$/g, "");
     });
 
-    //fallback if labels doesnt exist
+    // fallback if labels doesnt exist
     if (!label_indices || !label_indices.length || labels[0] == "") {
       return projects;
     }
 
-    //get the corresponding label from projectLabelsSorted with the indices from earlier
+    // get the corresponding label from projectLabelsSorted with the indices from earlier
     labels = _.filter(projectLabelsSorted, function(entry, key) {
       if (label_indices.indexOf(String(key)) > -1) {
         return entry;
       }
     });
 
-    //collect the names of all labels into a list
+    // collect the names of all labels into a list
     label_names = _.collect(labels, function(label) {
       return label.name;
     });
 
-    //find all projects with the given labels via OR
+    // find all projects with the given labels via OR
     results = _.map(label_names, function(name) {
       return _.filter(projects, function(project) {
         return (
@@ -107,7 +107,7 @@
       });
     });
 
-    //the above statements returns n arrays in an array, which we flatten here and return then
+    // the above statements returns n arrays in an array, which we flatten here and return then
     return _.flatten(results, function(arr1, arr2) {
       return arr1.append(arr2);
     });
@@ -132,7 +132,7 @@
     };
 
     this.getTagsMap = function() {
-      //https://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
+      // https://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
       return (_orderedTagsMap =
         _orderedTagsMap ||
         _(_tagsMap)

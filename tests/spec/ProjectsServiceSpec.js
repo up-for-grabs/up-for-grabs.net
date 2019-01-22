@@ -60,7 +60,7 @@ describe("ProjectsService", function() {
     });
   });
 
-  //Not sure how to test for randomness accurately, for now trusut underscore and ignore this.
+  // Not sure how to test for randomness accurately, for now trusut underscore and ignore this.
   xit("should return shuffled projects list  ", function() {
     var projects = projectsService.get();
     expect(projects[0].name).not.toEqual(

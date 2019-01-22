@@ -2,7 +2,7 @@
   "extends": "airbnb-base",
   "rules": {
     "space-before-function-paren": "off",
-    "comma-dangle": "off",
+    "comma-dangle": ["error", "only-multiline"],
     "quotes": ["error", "double"],
     "no-undef": "off",
     "vars-on-top": "off",

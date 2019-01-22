@@ -144,6 +144,11 @@
       renderProjects(tags, names, labels)
     });
 
+    this.get('#/tags/:tag', function() {
+      var tag = prepareForHTML(this.params['tag']);
+      renderProjects(tag)
+    })
+
     this.get("#/", function (context) {
       renderProjects();
     });

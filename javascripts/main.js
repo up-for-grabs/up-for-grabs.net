@@ -225,13 +225,13 @@
 
     if (!gh) {
       count = $(
-        '<span class="count" title="Issue count is only available for projects on GitHub.">?</span>'
+        "<span class=\"count\" title=\"Issue count is only available for projects on GitHub.\">?</span>"
       ).appendTo(a);
       return;
     }
 
     count = $(
-      '<span class="count"><img src="images/octocat-spinner-32.gif" /></span>'
+      "<span class=\"count\"><img src=\"images/octocat-spinner-32.gif\" /></span>"
     ).appendTo(a);
     var cached = storage.get(gh[1]);
     if (

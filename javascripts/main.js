@@ -32,6 +32,7 @@
       no_results_text: "No project found by that name.",
       width: "95%"
     }).val(names).trigger('chosen:updated').change(function (e) {
+      console.log(this.val)
       location.href = updateQueryStringParameter(getFilterUrl(), 'names', encodeURIComponent(($(this).val() || "")))
     });
 
@@ -42,17 +43,23 @@
       location.href = updateQueryStringParameter(getFilterUrl(), 'labels', encodeURIComponent(($(this).val() || "")));
     });
 
-    projectsPanel.find("ul.popular-tags").children().each(function(i, elem){
-        $(elem).on("click", function(){
-            selTags = ($('.tags-filter').val() || [])
-            selectedTag = preparePopTagName($(this).text() || "");
-            if (selectedTag){
-                selTags.push(selectedTag)
-                location.href = updateQueryStringParameter(
-                    getFilterUrl(), 'tags', encodeURIComponent((selTags))); 
-            }
-        });
-    });
+    // POPTAG commented out just incase we want to revert back.
+    // projectsPanel.find("ul.popular-tags").children().each(function(i, elem){
+    //     $(elem).on("click", function(){
+    //         selTags = ($('.tags-filter').val() || [])
+    //         console.log("seltag", selTags)
+    //         selectedTag = preparePopTagName($(this).text() || "");
+    //         console.log("selected", selectedTag)
+    //         if (selectedTag){
+    //             selTags.push(selectedTag)
+    //             location.href = updateQueryStringParameter(
+    //                 getFilterUrl(), 'tags', encodeURIComponent((selTags || ""))); 
+    //         }else {
+    //           location.href = updateQueryStringParameter(
+    //             getFilterUrl(), 'tags', encodeURIComponent((selTags || "")))
+    //         }
+    //     });
+    // });
 
   };
 

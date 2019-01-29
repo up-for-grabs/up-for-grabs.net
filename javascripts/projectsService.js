@@ -205,13 +205,9 @@
         filtered_projects = applyLabelsFilter(filtered_projects, this.getLabels(), labels);
       }
       if (tags && tags.length) {
-        filtered_projects = applyTagsFilter(filtered_projects, tagsMap, tags);
+        filtered_projects = applyTagsFilter(filtered_projects, this.getTags(), tags);
       }
       return filtered_projects
-    };
-
-    this.getTags = function () {
-      return _.sortBy(tagsMap, function(entry, key){return entry.name.toLowerCase();});
     };
 
     this.getNames = function () {
@@ -222,6 +218,10 @@
       return _.sortBy(labelsMap, function(entry, key){return entry.name.toLowerCase();});
     };
 
+    this.getTags = function () {
+      return _.sortBy(tagsMap, function (entry, key) { return entry.frequency }).reverse();
+    };
+    
     this.getPopularTags = function (popularTagCount) {
       return _.take(_.values(tagsMap), popularTagCount || 10);
     }

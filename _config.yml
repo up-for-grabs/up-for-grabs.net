@@ -13,6 +13,7 @@ exclude:
   - yarn.lock
   - .eslintrc.json
   - .prettierrc.json
+  - docs
 
 github: [metadata]
 

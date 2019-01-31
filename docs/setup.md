@@ -30,5 +30,5 @@ $ yarn lint
 ```
 
 These rules will be checked as part of every pull request into the project, but
-please ensure you run these commands locally to catchi any issues before a
+please ensure you run these commands locally to catch any issues before a
 reviewer gets involved.

@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint javascripts/**/*.js tests/**/*.js",
-    "prettier": "prettier --check javascripts/**/*.js tests/**/*.js",
-    "prettify": "prettier --write javascripts/**/*.js tests/**/*.js"
+    "prettier": "prettier --check javascripts/**/*.js tests/**/*.js docs/**/*.md",
+    "prettify": "prettier --write javascripts/**/*.js tests/**/*.js docs/**/*.md"
   },
   "devDependencies": {
     "eslint": "^5.12.1",

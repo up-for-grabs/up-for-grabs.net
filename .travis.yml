@@ -9,12 +9,21 @@ services:
   - docker
 
 install:
+  # install a recent version of Node
+  - nvm install 11.7.0
+  # install a recent version of yarn
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.13.0
+  - export PATH="$HOME/.yarn/bin:$PATH"
+  # install Ruby dependencies for building the site
   - bundle install
+  # install Node dependencies for JS tooling
+  - yarn install
 
 script:
   - bundle exec jekyll build
   - ruby scripts/cibuild.rb
   - docker build .
+  - yarn lint
 
 branches:
   only:

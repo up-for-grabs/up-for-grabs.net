@@ -264,9 +264,9 @@
       }
     }
   }
-  
+
   // dummy call to skip travis error "error  'sortProjectsByRecentlyUpdated' is defined but never used  no-unused-vars"
-  //TODO: Figure out where to put the sorted projects array and make a proper call to this function.
+  // TODO: Figure out where to put the sorted projects array and make a proper call to this function.
   sortProjectsByRecentlyUpdated(null);
 
   var ProjectsService = function(projectsData) {

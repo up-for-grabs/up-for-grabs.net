@@ -176,8 +176,7 @@
    */
   function sortProjectsByRecentlyUpdated (projects) {
     // get url of github repo for each project and keep only {owner}/{repo}.
-    var repos = _.map(projects, function(project)
-    {
+    var repos = _.map(projects, function(project) {
       var repo = null;
       if (project.site.includes("github.com")) {
         repo = project.site;
@@ -187,7 +186,8 @@
         const stems = repo.split("/");
         const repoLocation = stems[stems.length-2] + "/" + stems[stems.length-1];
         return repoLocation;
-      } else if (project.upforgrabs.link.includes("github.com")) {
+      }
+      if (project.upforgrabs.link.includes("github.com")) {
         repo = project.upforgrabs.link;
         repo = repo.substr(repo.indexOf("github.com")+11);
         const stems = repo.split("/");
@@ -215,7 +215,7 @@
             projects[index].lastUpdateTime = objResponse.updated_at;
           }
           count++;
-          if (count==totalNeeded){
+          if (count==totalNeeded) {
             // got all responses from GET Requests.
             sortBasedOnUpdateTime();
           }
@@ -255,8 +255,7 @@
         xmlHttp.onreadystatechange = createResponseHandlerFunction(indexOfProject);
         xmlHttp.open("GET", theUrl, true); // true for asynchronous
         xmlHttp.send(null);
-      }
-      else {
+      } else {
         // this means that this project did not have a valid github repo url, so it won't be sorted.
         totalNeeded--;
       }

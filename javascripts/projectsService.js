@@ -174,25 +174,25 @@
    * sort is called from within the last callback function that processes the last get request, but this
    * operates asynchronously, so the sorted data has to be retrieved from some other place.
    */
-  function sortProjectsByRecentlyUpdated (projects){
-
+  function sortProjectsByRecentlyUpdated (projects) {
     // get url of github repo for each project and keep only {owner}/{repo}.
-    var repos = _.map(projects, function(project) {
+    var repos = _.map(projects, function(project)
+    {
       var repo = null;
       if (project.site.includes("github.com")) {
         repo = project.site;
-        if(repo[repo.length-1] === "/") {
-            repo = repo.substring(0, repo.length - 1);
+        if (repo[repo.length-1] === "/") {
+          repo = repo.substring(0, repo.length - 1);
         }
-        let stems = repo.split("/");
-        let repoLocation = stems[stems.length-2] + "/" + stems[stems.length-1];
+        const stems = repo.split("/");
+        const repoLocation = stems[stems.length-2] + "/" + stems[stems.length-1];
         return repoLocation;
       }
       else if (project.upforgrabs.link.includes("github.com")){
         repo = project.upforgrabs.link;
         repo = repo.substr(repo.indexOf("github.com")+11);
-        let stems = repo.split("/");
-        let repoLocation = stems[0] + "/" + stems[1];
+        const stems = repo.split("/");
+        const repoLocation = stems[0] + "/" + stems[1];
         return repoLocation;
       }
       else {
@@ -214,13 +214,13 @@
       return function () {
         if (this.readyState == 4 && this.status == 200) {
           var objResponse = JSON.parse(this.responseText);
-          if(objResponse.updated_at != null) {
-              projects[index].lastUpdateTime = objResponse.updated_at;
+          if (objResponse.updated_at != null) {
+            projects[index].lastUpdateTime = objResponse.updated_at;
           }
           count++;
           if (count==totalNeeded){
-              //got all responses from GET Requests.
-              sortBasedOnUpdateTime();
+            //got all responses from GET Requests.
+            sortBasedOnUpdateTime();
           }
         }
       };
@@ -234,19 +234,19 @@
      */
     function sortBasedOnUpdateTime () {
       projectsSorted = _.sortBy(projects, function (project) {
-        if(project.lastUpdateTime != null) {
+        if (project.lastUpdateTime != null) {
           return (new Date(project.lastUpdateTime)).getTime();
         }
         else {
           return 0;
         }
       });
-      //skip reverse if you need asc order.
+      // skip reverse if you need asc order.
       projectsSorted = projectsSorted.reverse();
       return projectsSorted;
     }
 
-    /*How many repositories will be queried for date info on Github API. Github allows 60 requests/hour
+    /* How many repositories will be queried for date info on Github API. Github allows 60 requests/hour
      * for non-registered applications. This can be increased to 5000/hour if using some  form of OAuth.
      */
     var queryProjects = 5;
@@ -262,11 +262,11 @@
         xmlHttp.send(null);
       }
       else {
-        //this means that this project did not have a valid github repo url, so it won't be sorted.
+        // this means that this project did not have a valid github repo url, so it won't be sorted.
         totalNeeded--;
       }
     }
-  };
+  }
 
   var ProjectsService = function(projectsData) {
     var _projectsData = extractProjectsAndTags(projectsData);

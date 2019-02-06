@@ -187,8 +187,7 @@
         const stems = repo.split("/");
         const repoLocation = stems[stems.length-2] + "/" + stems[stems.length-1];
         return repoLocation;
-      }
-      else if (project.upforgrabs.link.includes("github.com")) {
+      } else if (project.upforgrabs.link.includes("github.com")) {
         repo = project.upforgrabs.link;
         repo = repo.substr(repo.indexOf("github.com")+11);
         const stems = repo.split("/");

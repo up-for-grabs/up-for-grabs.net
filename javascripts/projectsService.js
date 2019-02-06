@@ -174,30 +174,30 @@
    * sort is called from within the last callback function that processes the last get request, but this
    * operates asynchronously, so the sorted data has to be retrieved from some other place.
    */
-  function sortProjectsByRecentlyUpdated (projects) {
+  function sortProjectsByRecentlyUpdated (projects){
 
     // get url of github repo for each project and keep only {owner}/{repo}.
     var repos = _.map(projects, function(project) {
-        var repo = null;
-        if (project.site.includes("github.com")) {
-            repo = project.site;
-            if(repo[repo.length-1] === "/") {
-                repo = repo.substring(0, repo.length - 1);
-            }
-            let stems = repo.split("/");
-            let repoLocation = stems[stems.length-2] + "/" + stems[stems.length-1];
-            return repoLocation;
+      var repo = null;
+      if (project.site.includes("github.com")) {
+        repo = project.site;
+        if(repo[repo.length-1] === "/") {
+            repo = repo.substring(0, repo.length - 1);
         }
-        else if (project.upforgrabs.link.includes("github.com")){
-            repo = project.upforgrabs.link;
-            repo = repo.substr(repo.indexOf("github.com")+11);
-            let stems = repo.split("/");
-            let repoLocation = stems[0] + "/" + stems[1];
-            return repoLocation;
-        }
-        else {
-            return null;
-        }
+        let stems = repo.split("/");
+        let repoLocation = stems[stems.length-2] + "/" + stems[stems.length-1];
+        return repoLocation;
+      }
+      else if (project.upforgrabs.link.includes("github.com")){
+        repo = project.upforgrabs.link;
+        repo = repo.substr(repo.indexOf("github.com")+11);
+        let stems = repo.split("/");
+        let repoLocation = stems[0] + "/" + stems[1];
+        return repoLocation;
+      }
+      else {
+        return null;
+      }
     });
 
     var count = 0;
@@ -211,19 +211,19 @@
      * @returns {Function}
      */
     function createResponseHandlerFunction (index) {
-        return function () {
-            if (this.readyState == 4 && this.status == 200) {
-                var objResponse = JSON.parse(this.responseText);
-                if(objResponse.updated_at != null) {
-                    projects[index].lastUpdateTime = objResponse.updated_at;
-                }
-                count++;
-                if (count==totalNeeded){
-                    //got all responses from GET Requests.
-                    sortBasedOnUpdateTime();
-                }
-            }
-        };
+      return function () {
+        if (this.readyState == 4 && this.status == 200) {
+          var objResponse = JSON.parse(this.responseText);
+          if(objResponse.updated_at != null) {
+              projects[index].lastUpdateTime = objResponse.updated_at;
+          }
+          count++;
+          if (count==totalNeeded){
+              //got all responses from GET Requests.
+              sortBasedOnUpdateTime();
+          }
+        }
+      };
     }
 
     var projectsSorted = [];
@@ -233,17 +233,17 @@
      * Projects that don't have a valid github repository url will end up at the end of the list.
      */
     function sortBasedOnUpdateTime () {
-        projectsSorted = _.sortBy(projects, function (project) {
-            if(project.lastUpdateTime != null) {
-                return (new Date(project.lastUpdateTime)).getTime();
-            }
-            else {
-                return 0;
-            }
-        });
-        //skip reverse if you need asc order.
-        projectsSorted = projectsSorted.reverse();
-        return projectsSorted;
+      projectsSorted = _.sortBy(projects, function (project) {
+        if(project.lastUpdateTime != null) {
+          return (new Date(project.lastUpdateTime)).getTime();
+        }
+        else {
+          return 0;
+        }
+      });
+      //skip reverse if you need asc order.
+      projectsSorted = projectsSorted.reverse();
+      return projectsSorted;
     }
 
     /*How many repositories will be queried for date info on Github API. Github allows 60 requests/hour
@@ -253,18 +253,18 @@
     var totalNeeded = queryProjects;
 
     for (var i = 0; i < queryProjects; i++) {
-        var indexOfProject = i;
-        if (repos[i] != null) {
-            var theUrl = "https://api.github.com/repos/" + repos[i];
-            var xmlHttp = new XMLHttpRequest();
-            xmlHttp.onreadystatechange = createResponseHandlerFunction(indexOfProject);
-            xmlHttp.open("GET", theUrl, true); // true for asynchronous
-            xmlHttp.send(null);
-        }
-        else {
-            //this means that this project did not have a valid github repo url, so it won't be sorted.
-            totalNeeded--;
-        }
+      var indexOfProject = i;
+      if (repos[i] != null) {
+        var theUrl = "https://api.github.com/repos/" + repos[i];
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.onreadystatechange = createResponseHandlerFunction(indexOfProject);
+        xmlHttp.open("GET", theUrl, true); // true for asynchronous
+        xmlHttp.send(null);
+      }
+      else {
+        //this means that this project did not have a valid github repo url, so it won't be sorted.
+        totalNeeded--;
+      }
     }
   };
 

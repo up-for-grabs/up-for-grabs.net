@@ -188,16 +188,14 @@
         const repoLocation = stems[stems.length-2] + "/" + stems[stems.length-1];
         return repoLocation;
       }
-      else if (project.upforgrabs.link.includes("github.com")){
+      else if (project.upforgrabs.link.includes("github.com")) {
         repo = project.upforgrabs.link;
         repo = repo.substr(repo.indexOf("github.com")+11);
         const stems = repo.split("/");
         const repoLocation = stems[0] + "/" + stems[1];
         return repoLocation;
       }
-      else {
-        return null;
-      }
+      return null;
     });
 
     var count = 0;
@@ -219,7 +217,7 @@
           }
           count++;
           if (count==totalNeeded){
-            //got all responses from GET Requests.
+            // got all responses from GET Requests.
             sortBasedOnUpdateTime();
           }
         }
@@ -237,9 +235,7 @@
         if (project.lastUpdateTime != null) {
           return (new Date(project.lastUpdateTime)).getTime();
         }
-        else {
-          return 0;
-        }
+        return 0;
       });
       // skip reverse if you need asc order.
       projectsSorted = projectsSorted.reverse();

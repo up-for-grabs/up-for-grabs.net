@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  font-family: 'Cookie', cursive;  
+  font-family: 'Cookie', cursive;
   margin-bottom: 20px;
   color: #2E7BA9;
 }
@@ -106,7 +106,7 @@ p {
 
 img {
   border: none; }
-  
+
 #go-back-home {
   margin: 20px 0 0; }
   #go-back-home:hover {
@@ -264,7 +264,7 @@ footer {
   display: table; }
 .container:after {
   clear: both; }
-  
+
 #main-container {
   background: #fff;
   border-radius: 7px;
@@ -435,12 +435,12 @@ th {
   background: #373737;
   color: #fff;
  }
- 
+
  td {
   padding: 10px 0;
   border: 1px solid #373737;
  }
- 
+
  td:not(:last-child) {
    padding-right: 10px;
  }
@@ -453,7 +453,7 @@ form {
 /* https://css-tricks.com/snippets/css/ribbon/ */
 .ribbon {
  font-size: 28px !important;
- width: 40%;    
+ width: 40%;
  position: absolute;
  background: #2E7BA9;
  color: #E4F0F8;
@@ -463,7 +463,7 @@ form {
  right: 2em;
  top: 25%;
 }
-.ribbon-content {  
+.ribbon-content {
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
 }
@@ -504,7 +504,7 @@ form {
  right: 0;
  border-width: 1em 1em 0 0;
 }
-  
+
 #downloads {
   position: absolute;
   width: 210px;
@@ -513,6 +513,60 @@ form {
   right: 0;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
+}
+
+.introduction-content p {
+  font-size: 15px;
+  line-height: 25px;
+  cursor: default;
+  text-align: center;
+}
+
+.introduction-content .notice {
+  display: block;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background: #fff3cd;
+  border: 1px solid #e0d5b1;
+  box-sizing: border-box;
+  font-size: 0.9em;
+}
+
+.introduction-content .notice b {
+  margin-right: 3px;
+  font-weight: 900;
+}
+
+.introduction-content .notice a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#projects-panel {
+  display: block;
+}
+
+#projects-panel .filters-panel {
+  float: left;
+  text-align: center;
+  padding: 0 5px;
+  width: 33.3%;
+  box-sizing: border-box;
+}
+
+/* Set width of select inputs to be 100%, over riding JS */
+#projects-panel .filters-panel .chosen-container {
+  width: 100% !important;
+}
+
+#projects-panel .popular-tags-filter {
+  float: left;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .projects, .projects td {
@@ -542,9 +596,16 @@ form {
 
 .projects .proj {
   display: block;
-  font-size: 20px;
-  font-weight: bold;
   word-break: break-all;
+}
+
+.projects .proj a {
+  color: #fff;
+  background: #3f90c1;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 1.2em;
 }
 
 .projects .label {
@@ -566,6 +627,27 @@ form {
   font-size: 12px;
   font-style: italic;
   margin-bottom: 0;
+}
+
+.projects .tags a,
+#projects-panel .popular-tags-filter a {
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 0 0 5px 0;
+  display: inline-block;
+  font-size: 13px;
+  background: #7ea0b5;
+  font-style: normal;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.projects .tags a:hover,
+#projects-panel .popular-tags-filter a:hover {
+  background: #3f90c1;
+  color: #fff;
+  text-decoration: none;
 }
 
 .projects .label .count {
@@ -595,19 +677,10 @@ form {
   width: 16px;
 }
 
-.popular-tags li {
-  display: inline-block;
-  font-size: 18px;
-  padding-left: 0;
-}
-.popular-tags li::before {
-  content: ' ';
-  margin-right: 12px;
-}
 
 @media (max-width: 768px) {
   body {
-    padding: 0 0; } 
+    padding: 0 0; }
   #forkme_banner {
     display: none;
   }
@@ -625,13 +698,13 @@ form {
   .block h1 .header-inside {
     padding: 0;
   }
-  #main-container {   
+  #main-container {
     border-right: none;
-    border-left: none; 
+    border-left: none;
     border-radius: 0;
   }
   #main-container .block {
-    padding: 20px; 
+    padding: 20px;
   }
   table.projects td {
     display: block;
@@ -646,4 +719,3 @@ form {
     top: 0;
   }
 }
-

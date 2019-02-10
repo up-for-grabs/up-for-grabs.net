@@ -22,12 +22,14 @@
       <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
     <% }) %>
     </select>
+  </div>
+  <div class="popular-tags-filter">
     <h5>Popular tags: </h5>
-    <ul class="popular-tags">
+    <span class="popular-tags">
     <% _.each(popularTags, function(entry, key){ %>
-      <li><a><%-entry.name%></a> (<%-entry.frequency%>)</li>
+      <a><%-entry.name%> (<%-entry.frequency%>)</a>
     <% }) %>
-    </ul>
+    </span>
   </div>
   <table class="projects">
    <% _.each(projects, function(project){ %>
@@ -39,8 +41,14 @@
     </tr>
     <tr>
        <td class="details">
-        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank"><%-project.upforgrabs.name %></a></p>
+        <p class="label">
+            <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank">
+                <%-project.upforgrabs.name %>
+            </a>
+        </p>
        </td>
+    </tr>
+    <tr>
        <td class="details">
            <% if (project.desc) { %>
            <span class="desc"><%=project.desc%></span>
@@ -48,7 +56,7 @@
            <% if (project.tags) { %>
            <p class="tags">
                <% _.each(project.tags, function(tag, i) { %>
-                   <a href="#/tags/<%-encodeURIComponent(tag)%>"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
+                   <a href="#/tags/<%-encodeURIComponent(tag)%>"><%-tag%></a>
                <% }) %>
            </p>
            <% } %>

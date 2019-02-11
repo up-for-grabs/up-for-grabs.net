@@ -1,4 +1,15 @@
-(function(host, _) {
+/* eslint global-require: "off" */
+/* eslint block-scoped-var: "off" */
+
+// @ts-nocheck
+
+// required for loading into a NodeJS context
+if (typeof define !== "function") {
+  var define = require("amdefine")(module);
+}
+
+define(["underscore"], function(_) {
+
   var applyTagsFilter = function(projects, tagsMap, tags) {
     if (typeof tags === "string") {
       tags = tags.split(",");
@@ -264,5 +275,5 @@
     };
   };
 
-  host.ProjectsService = ProjectsService;
-})(window, _);
+  return ProjectsService;
+});

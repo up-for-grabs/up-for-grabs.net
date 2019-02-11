@@ -26,6 +26,7 @@
     "space-infix-ops": "off",
     "no-use-before-define": "off",
     "no-plusplus": "off",
-    "consistent-return": "off"
+    "consistent-return": "off",
+    "import/no-amd": "off"
   }
 }

@@ -24,6 +24,8 @@ script:
   - ruby scripts/cibuild.rb
   - docker build .
   - yarn lint
+  - yarn test
+  - yarn prettier
 
 branches:
   only:

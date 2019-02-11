@@ -1,0 +1,8 @@
+name: ChatBot
+desc: An online bot made for the purpose of answering the queries people ask on websites.
+site: https://github.com/priyanshugandhi/ChatBot
+tags:
+- python
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/priyanshugandhi/ChatBot/labels/up-for-grabs

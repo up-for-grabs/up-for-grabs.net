@@ -1,0 +1,10 @@
+name: oas-kit
+desc: Convert Swagger 2.0 definitions to OpenAPI 3.0 and resolve/validate/lint
+site: https://github.com/Mermade/oas-kit
+tags:
+- openapi
+- swagger
+- oas
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Mermade/oas-kit/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

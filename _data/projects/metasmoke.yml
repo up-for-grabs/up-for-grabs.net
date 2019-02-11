@@ -1,0 +1,13 @@
+name: metasmoke
+desc: Web dashboard and back end for SmokeDetector, a spam-detecting bot for Stack Overflow / Stack Exchange
+site: https://metasmoke.erwaysoftware.com/
+tags:
+- ruby
+- ruby-on-rails
+- scss
+- es6
+- javascript
+- mysql
+upforgrabs:
+  name: "type: up-for-grabs"
+  link: https://github.com/Charcoal-SE/metasmoke/labels/type%3A%20up-for-grabs

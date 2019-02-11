@@ -1,0 +1,10 @@
+name: CommonIntents
+desc: Android library that provides most common android intents in a convenient manner
+site: https://github.com/JanStoltman/CommonIntents
+tags:
+- android
+- kotlin
+- mobile
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/JanStoltman/CommonIntents/labels/up-for-grabs

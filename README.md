@@ -5,9 +5,12 @@ Do you run or participate in an open-source project? Submit a Pull Request to ad
 
 Visit the website: [up-for-grabs.net](https://up-for-grabs.net/)
 
-## Add a project
+## Add a Project
 
-Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder - to add a new one, create a new file named after the project, ending in `.yml`. Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in the browser, without cloning the repository in the command line.
+- Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder.
+- To add a new one, create a new file named after the project, ending in `.yml`. 
+- Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. 
+- [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in the browser, without cloning the repository in the command line.
 
 The contents of the file are just some details about the project:
 
@@ -39,7 +42,7 @@ npm install -g generator-up-for-grabs
 yo up-for-grabs
 ```
 
-## Testing the site locally
+## Testing the Site Locally
 
 If you haven't already, clone the repository to your machine:
 

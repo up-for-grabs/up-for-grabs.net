@@ -1,0 +1,13 @@
+name: Thunderbird
+desc: Static Site Generator built on PHP
+site: https://github.com/damcclean/thunderbird
+tags:
+- web
+- php
+- static
+- ssg
+- static-site-generator
+- markdown
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/damcclean/thunderbird/labels/up-for-grabs

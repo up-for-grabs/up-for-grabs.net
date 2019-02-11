@@ -10,5 +10,5 @@ tags:
 - game
 - engine
 upforgrabs:
-  name: Bite-size
-  link: https://github.com/movingblocks/terasology/labels/Bite-size
+  name: Good First Issue
+  link: https://github.com/MovingBlocks/Terasology/labels/Good%20First%20Issue

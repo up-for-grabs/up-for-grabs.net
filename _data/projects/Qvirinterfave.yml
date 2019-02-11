@@ -1,0 +1,11 @@
+name: Qvirinterfave
+desc: Cross platform Cloud Managemnt tool
+site: https://github.com/Dravigon/Qvirinterfave
+tags:
+- c++
+- qt
+- qml
+- libvirt
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Dravigon/Qvirinterfave/labels/help%20wanted

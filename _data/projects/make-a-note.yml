@@ -1,0 +1,10 @@
+name: make-a-note
+desc: This gtk application helps you save some important things without having to switch to a different app. Simply start this app and use the icon in the status bar to add and view notes.
+site: https://github.com/pushkar-anand/make-a-note
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- python
+- gtk
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/pushkar-anand/make-a-note/labels/up-for-grabs

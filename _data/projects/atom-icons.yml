@@ -1,0 +1,13 @@
+name: Atom Icons
+desc: Custom Atom Editor Icons
+site: https://github.com/HackeSta/atom-icons
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- atom
+- github
+- svg
+- web
+- icons
+upforgrabs:
+  name: help wanted
+  link: https://github.com/HackeSta/atom-icons/labels/help%20wanted

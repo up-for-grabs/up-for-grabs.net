@@ -1,0 +1,12 @@
+name: RESTEasyCLI
+desc: Handy REST API client on your terminal
+site: https://github.com/rapidstack/RESTEasyCLI
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- python
+- cli
+- yml
+- REST
+upforgrabs:
+  name: help wanted
+  link: https://github.com/rapidstack/RESTEasyCLI/labels/help%20wanted

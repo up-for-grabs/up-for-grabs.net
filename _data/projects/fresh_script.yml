@@ -1,0 +1,22 @@
+name: Fresh Script
+desc: Find Spotify tracks posted to the HipHopHeads subreddit and add them to a Spotify playlist. 
+site: https://github.com/amcquade/fresh_script
+tags:
+- python
+- flask
+- web
+- webdev
+- reddit
+- spotify
+- spotipy
+- music
+- rap
+- script
+- js
+- jquery
+- web development 
+- bootstrap
+- UI
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/amcquade/fresh_script/labels/up-for-grabs 

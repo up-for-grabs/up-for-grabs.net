@@ -1,0 +1,11 @@
+name: BioFSharp
+desc: An open source bioinformatics toolbox written in F#. 
+site: https://github.com/CSBiology/BioFSharp
+tags:
+- F#
+- bioinformatics
+- computational biology
+- datascience
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/CSBiology/BioFSharp/labels/up-for-grabs

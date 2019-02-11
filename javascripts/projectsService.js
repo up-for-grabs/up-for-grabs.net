@@ -9,8 +9,7 @@ if (typeof define !== "function") {
 }
 
 define(["underscore"], function(_) {
-
-  var applyTagsFilter = function(projects, tagsMap, tags) {
+  var applyTagsFilter = function(projects, tagsArray, tags) {
     if (typeof tags === "string") {
       tags = tags.split(",");
     }
@@ -26,8 +25,19 @@ define(["underscore"], function(_) {
     var projectNames = _.uniq(
       _.flatten(
         _.map(tags, function(tag) {
-          var hit = tagsMap[tag.toLowerCase()];
-          return (hit && hit.projects) || [];
+          // NOTE
+          // tagsMap is currently an array of items when stored in memory and
+          // used here, so the previous check which searched based on a prop was
+          // never finding results
+          //
+          // this is not the most efficient way of searching, but it works
+          for (let i = 0; i < tagsArray.length; i++) {
+            const t = tagsArray[i];
+            if (t.name.toLowerCase() === tag.toLowerCase()) {
+              return t.projects;
+            }
+          }
+          return [];
         })
       )
     );

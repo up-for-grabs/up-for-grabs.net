@@ -48,7 +48,7 @@
            <% if (project.tags) { %>
            <p class="tags">
                <% _.each(project.tags, function(tag, i) { %>
-                   <a href="#/tags/<%-encodeURIComponent(tag)%>"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
+                   <a href="#/filters?tags=<%-encodeURIComponent(tag)%>"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
                <% }) %>
            </p>
            <% } %>

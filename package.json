@@ -6,14 +6,24 @@
   "repository": "https://github.com/up-for-grabs/up-for-grabs.net",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint javascripts/**/*.js tests/**/*.js",
-    "prettier": "prettier --check javascripts/**/*.js tests/**/*.js docs/**/*.md",
-    "prettify": "prettier --write javascripts/**/*.js tests/**/*.js docs/**/*.md"
+    "check": "tsc",
+    "lint": "eslint javascripts/*.js tests/**/*.js",
+    "prettier": "prettier --check javascripts/*.js tests/**/*.js docs/**/*.md",
+    "prettify": "prettier --write javascripts/*.js tests/**/*.js docs/**/*.md",
+    "test": "jest --config ./jest.config.js"
+  },
+  "dependencies": {
+    "amdefine": ">=0.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-jest": "^24.1.0",
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.15.0",
-    "prettier": "^1.16.1"
+    "jest": "^23.6.0",
+    "prettier": "^1.16.1",
+    "typescript": "^3.2.4",
+    "underscore": "^1.9.1"
   }
 }

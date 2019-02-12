@@ -1,0 +1,12 @@
+name: Celestial-bodies-detection
+desc: TensorFlow Image Classifier that can be used to classify whether an image is of a Planet (Earth, Mercury, Mars, etc), Spiral or an Elliptical Galaxy 
+site: https://github.com/ritwik12/Celestial-bodies-detection
+tags:
+- Tensorflow
+- Linux
+- Machine Learning 
+- Convolutional Neural Network
+- Python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ritwik12/Celestial-bodies-detection/labels/good%20first%20issue

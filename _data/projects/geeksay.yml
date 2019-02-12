@@ -1,0 +1,14 @@
+name: geeksay
+desc: 🤓 geeks will ctrl+s the world!
+site: https://github.com/swapagarwal/geeksay
+tags:
+- Javascript
+- web
+- css
+- html
+- data
+- easy
+- collaboration
+upforgrabs:
+  name: good first issue
+  link: https://github.com/swapagarwal/geeksay/labels/good%20first%20issue

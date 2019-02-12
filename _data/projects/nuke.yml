@@ -1,0 +1,12 @@
+name: NUKE
+desc: Build Automation System for C#/.NET
+site: https://nuke.build
+tags:
+- ".NET"
+- C#
+- Build
+- Automation
+- Orchestration
+upforgrabs:
+  name: first-timers
+  link: https://github.com/nuke-build/nuke/labels/first-timers%20%3Ahugs%3A

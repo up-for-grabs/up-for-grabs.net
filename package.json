@@ -1,0 +1,19 @@
+{
+  "name": "up-for-grabs.net",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Tooling for up-for-grabs.net development",
+  "repository": "https://github.com/up-for-grabs/up-for-grabs.net",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint javascripts/**/*.js tests/**/*.js",
+    "prettier": "prettier --check javascripts/**/*.js tests/**/*.js docs/**/*.md",
+    "prettify": "prettier --write javascripts/**/*.js tests/**/*.js docs/**/*.md"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "prettier": "^1.16.1"
+  }
+}

@@ -1,0 +1,13 @@
+name: libvlc-go
+desc: Golang bindings for libvlc 2.X/3.X/4.X used by the VLC media player
+site: https://github.com/adrg/libvlc-go
+tags:
+- Go
+- Golang
+- VLC
+- Video
+- Sound
+- Bindings
+upforgrabs:
+  name: help wanted
+  link: https://github.com/adrg/libvlc-go/labels/help%20wanted

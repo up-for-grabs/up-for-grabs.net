@@ -1,0 +1,17 @@
+name: check-it-out
+desc: A command line interface for Git Checkout
+site: http://checkit.club
+tags:
+- git
+- github
+- checkout
+- branch
+- cli
+- ncurses
+- js
+- git-checkout
+- javascript
+- nodejs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/jwu910/check-it-out/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs+sort%3Aupdated-desc

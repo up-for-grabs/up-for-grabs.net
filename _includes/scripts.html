@@ -1,24 +1,23 @@
 <script type="text/html" id="projects-panel-template">
   <div class="filters-panel cf">
-    <h5>Filter by name: </h5>
-    <label for="project">Filter by name:</label>
-    <select class="names-filter" multiple data-placeholder="Select a project..." id="project">
+    <h5><label for="project">Filter by name:</label></h5>
+    <select class="names-filter" id="project" multiple data-placeholder="Select a project..." >
       <% _.each(names, function(entry, key){ %>
         <option value="<%-key%>"><%- entry.name%></option>
       <% }) %>
     </select>
   </div>
   <div class="filters-panel cf">
-    <h5>Filter by label: </h5>
-    <select class="labels-filter" multiple data-placeholder="Select a label..." >
+    <h5><label for="label">Filter by label: </label></h5>
+    <select class="labels-filter" id="label" multiple data-placeholder="Select a label..." >
     <% _.each(labels, function(entry, key){ %>
       <option value="<%-key%>"><%- entry.name%></option>
     <% }) %>
     </select>
   </div>
   <div class="filters-panel cf">
-    <label for="tag">Filter by tags:</label>
-    <select class="tags-filter" multiple data-placeholder="Select a tag..." id="tag">
+    <h5><label for="tag">Filter by tags: </label></h5>
+    <select class="tags-filter" id="tag" multiple data-placeholder="Select a tag..." >
     <% _.each(tags, function(entry, key){ %>
       <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
     <% }) %>
@@ -40,7 +39,7 @@
     </tr>
     <tr>
        <td class="details">
-        <p class="label"><a href="<%- project.upforgrabs.link %>" tabindex="-1" title="View open issues for <%-project.name %>" target="_blank"><%-project.upforgrabs.name %></a></p>
+        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1"><%-project.upforgrabs.name %></a></p>
        </td>
        <td class="details">
            <% if (project.desc) { %>

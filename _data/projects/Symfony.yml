@@ -8,5 +8,5 @@ tags:
 - components
 - web
 upforgrabs:
-  name: help wanted
-  link: https://github.com/symfony/symfony/labels/help%20wanted
+  name: good first issue
+  link: https://github.com/symfony/symfony/labels/good%20first%20issue

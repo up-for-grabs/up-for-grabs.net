@@ -19,4 +19,4 @@ tags:
 - application insights
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/census-instrumentation/opencensus-ruby
+  link: https://github.com/census-instrumentation/opencensus-ruby/labels/up-for-grabs

@@ -19,4 +19,4 @@ tags:
 - application insights
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/census-instrumentation/opencensus-java
+  link: https://github.com/census-instrumentation/opencensus-java/labels/up-for-grabs

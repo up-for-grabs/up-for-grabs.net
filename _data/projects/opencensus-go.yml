@@ -19,4 +19,4 @@ tags:
 - application insights
 upforgrabs:
   name: help wanted
-  link: https://github.com/census-instrumentation/opencensus-go
+  link: https://github.com/census-instrumentation/opencensus-go/labels/help%20wanted

@@ -20,4 +20,4 @@ tags:
 - application insights
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/census-instrumentation/opencensus-node
+  link: https://github.com/census-instrumentation/opencensus-node/labels/up-for-grabs

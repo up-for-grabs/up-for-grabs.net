@@ -22,4 +22,4 @@ tags:
 - stack-driver
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/census-instrumentation/opencensus-csharp
+  link: https://github.com/census-instrumentation/opencensus-csharp/labels/up-for-grabs

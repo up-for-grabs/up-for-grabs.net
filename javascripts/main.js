@@ -80,12 +80,20 @@
           selTags = $(".tags-filter").val() || [];
           selectedTag = preparePopTagName($(this).text() || "");
           if (selectedTag) {
-            selTags.push(selectedTag);
-            location.href = updateQueryStringParameter(
-              getFilterUrl(),
-              "tags",
-              encodeURIComponent(selTags)
-            );
+            tagID = projectsSvc
+              .getTags()
+              .map(tag => {
+                return tag.name.toLowerCase();
+              })
+              .indexOf(selectedTag);
+            if (tagID !== -1) {
+              selTags.push(tagID);
+              location.href = updateQueryStringParameter(
+                getFilterUrl(),
+                "tags",
+                encodeURIComponent(selTags)
+              );
+            }
           }
         });
       });

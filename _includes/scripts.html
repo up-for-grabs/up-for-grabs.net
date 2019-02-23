@@ -48,7 +48,7 @@
            <% if (project.tags) { %>
            <p class="tags">
                <% _.each(project.tags, function(tag, i) { %>
-                   <a href="#/tags/<%-encodeURIComponent(tag)%>" tabindex="-1"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
+                   <a href="#/filters?tags=<%-encodeURIComponent(tag)%>" tabindex="-1"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
                <% }) %>
            </p>
            <% } %>
@@ -69,12 +69,8 @@
     projects.push(project);
   }
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.4/sammy.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.0/chosen.jquery.min.js"></script>
-<script src="{{ site.github.url }}/javascripts/projectsService.js"></script>
-<script src="{{ site.github.url }}/javascripts/main.js"></script>
+<script src="{{ site.github.url }}javascripts/lib/require.js" data-main="javascripts/app"></script>
+
 
 <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

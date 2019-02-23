@@ -1,4 +1,14 @@
-(function($) {
+// @ts-nocheck
+
+define([
+  "jquery",
+  "projectsService",
+  "underscore",
+  "sammy",
+  // chosen is listed here as a dependency because it's used from a jQuery
+  // selector, and needs to be ready before this code runs
+  "chosen",
+], ($, ProjectsService, _, sammy) => {
   var projectsSvc = new ProjectsService(projects),
     compiledtemplateFn = null,
     projectsPanel = null;
@@ -163,7 +173,7 @@
     return text ? text.toLowerCase().split(",") : text;
   };
 
-  var app = $.sammy(function() {
+  var app = sammy(function() {
     /*
      * This is the route used to filter by tags/names/labels
      * It ensures to read values from the URI query param and perform actions
@@ -318,4 +328,4 @@
     app.raise_errors = true;
     app.run("#/");
   });
-})(jQuery);
+});

@@ -1,5 +1,4 @@
-/* eslint-disable-next-line no-unused-vars */
-var sampleProjects = [
+module.exports = [
   {
     name: "Glimpse",
     desc:

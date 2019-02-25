@@ -1,9 +1,11 @@
 name: TeacherFund_Next
 desc: A charity to support great teachers that go above and beyond to buy resources not funded by the school curriculum. Currently under development.
-site: https://github.com/up-for-grabs/up-for-grabs.net
+site: https://github.com/teacherfund/TeacherFund_next
 tags: 
 - javascript
 - react 
+- json
+- css
 upforgrabs:
         name: good first issue
-        link: https://github.com/teacherfund/TeacherFund_next/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+        link: https://github.com/teacherfund/TeacherFund_next/labels/good%20first%20issue

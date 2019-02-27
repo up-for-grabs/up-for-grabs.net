@@ -1,7 +1,7 @@
 name: ESLint
 desc: ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 site: https://github.com/eslint/eslint
-tags: 
+tags:
 - "javascript"
 upforgrabs:
         name: good first issue

@@ -1,6 +1,6 @@
 name: Aidre
-desc: 🐍 📝 Python Translation Help Station - The software for 📄 .po file docs handling
-site: 
+desc: 🐍 📝 Python Translation Help Station - The software for 📄 .po file docs handling. A tool to help with official py docs translations
+site: https://github.com/Abdur-rahmaanJ/aidre
 tags:
 - python
 - po

@@ -15,6 +15,7 @@ tags:
 - kentico-cloud
 - cms
 - headless-cms
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/cloud-boilerplate-express-apollo/labels/up-for-grabs

@@ -9,6 +9,7 @@ tags:
 - headless
 - React
 - single-page application
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/cloud-sample-app-react/labels/up-for-grabs

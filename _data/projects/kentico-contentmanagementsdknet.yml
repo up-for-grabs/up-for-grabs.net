@@ -11,6 +11,7 @@ tags:
 - kentico-cloud
 - cms
 - headless-cms
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/content-management-sdk-net/labels/up-for-grabs

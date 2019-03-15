@@ -11,6 +11,7 @@ tags:
 - composer
 - laravel
 - sample application
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/kentico-cloud-sample-app-php/labels/up-for-grabs

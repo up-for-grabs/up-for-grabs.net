@@ -9,6 +9,7 @@ tags:
 - cms
 - headless-cms
 - model generator
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/cloud-generators-java/labels/up-for-grabs

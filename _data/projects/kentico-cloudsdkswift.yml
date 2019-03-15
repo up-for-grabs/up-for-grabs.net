@@ -11,6 +11,7 @@ tags:
 - SDK
 - application
 - mobile
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/cloud-sdk-swift/labels/up-for-grabs

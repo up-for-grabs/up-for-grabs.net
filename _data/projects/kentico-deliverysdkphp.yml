@@ -10,6 +10,7 @@ tags:
 - cms
 - headless-cms
 - composer
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/delivery-sdk-php/labels/up-for-grabs

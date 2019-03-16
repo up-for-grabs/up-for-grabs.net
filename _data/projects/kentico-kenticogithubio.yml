@@ -14,6 +14,7 @@ tags:
 - static site
 - Azure Functions
 - serverless
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/kentico.github.io/labels/up-for-grabs

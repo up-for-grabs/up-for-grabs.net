@@ -5,11 +5,13 @@ tags:
 # Note: these are tags categorizing the project, not issue labels.
 - react
 - reactjs
-- javascript
+- Javascript
 - beginner
 - help wanted
 - podcast
 - rss
+- material
+- web
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/amcquade/quick-feed/labels/up-for-grabs

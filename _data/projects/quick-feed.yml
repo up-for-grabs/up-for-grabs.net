@@ -1,0 +1,17 @@
+name: quick-feed
+desc: a simple react app that renders rss-feeds for podcasts
+site: https://github.com/amcquade/quick-feed 
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- react
+- reactjs
+- Javascript
+- beginner
+- help wanted
+- podcast
+- rss
+- material
+- web
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/amcquade/quick-feed/labels/up-for-grabs

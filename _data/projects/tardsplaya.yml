@@ -1,0 +1,19 @@
+name: Tardsplaya
+desc: Allows viewing of Twitch streams with less buffering in external media players
+site: https://github.com/Zero3K/Tardsplaya
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- Twitch
+- stream
+- media
+- player
+- buffering
+- buffer
+- lag
+- lagging
+- Delphi
+- Pascal
+- streaming
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Zero3K/Tardsplaya/labels/up-for-grabs

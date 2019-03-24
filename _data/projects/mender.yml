@@ -1,0 +1,15 @@
+name: Mender
+desc: The end-to-end open source update manager for IoT devices
+site: https://mender.io/
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- Golang
+- go
+- Linux
+- iot
+- ota
+- updates
+- embedded
+upforgrabs:
+  name: Help Wanted
+  link: https://tracker.mender.io/issues/?filter=11500

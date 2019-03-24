@@ -1,0 +1,21 @@
+name: kentico-cloud-js
+desc: TypeScript packages related to Kentico Cloud app development.
+site: https://github.com/Kentico/kentico-cloud-js
+tags:
+- JavaScript
+- Typescript
+- sdk
+- Angular
+- kentico
+- kentico-cloud
+- headless-cms
+- headless
+- single-page application
+- command line
+- nodejs
+- content management
+- content delivery
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/kentico-cloud-js/labels/up-for-grabs

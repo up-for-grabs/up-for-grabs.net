@@ -1,0 +1,11 @@
+name: Aidre
+desc: 🐍 📝 Python Translation Help Station - The software for 📄 .po file docs handling. A tool to help with official py docs translations
+site: https://github.com/Abdur-rahmaanJ/aidre
+tags:
+- python
+- po
+- gettext
+- py-docs
+upforgrabs:
+  name: Help wanted
+  link: https://github.com/Abdur-rahmaanJ/aidre/labels/help%20wanted

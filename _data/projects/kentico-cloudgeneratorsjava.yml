@@ -1,0 +1,15 @@
+name: cloud-generators-java
+desc: Java code generators for Kentico Cloud.
+site: https://github.com/Kentico/cloud-generators-java
+tags:
+- java
+- kentico
+- kentico-cloud
+- sdk
+- cms
+- headless-cms
+- model generator
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/cloud-generators-java/labels/up-for-grabs

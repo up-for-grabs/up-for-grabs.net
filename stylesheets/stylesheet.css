@@ -306,6 +306,7 @@ a, .as-link {
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
+  cursor: pointer;
   *display: inline;
   *vertical-align: auto;
   -webkit-transition: color 0.3s;

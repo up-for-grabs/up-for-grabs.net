@@ -1,0 +1,12 @@
+name: libertempo-web
+desc: Web app for french leaves management
+site: https://github.com/libertempo/web
+tags:
+- php
+- refactoring
+- SPA
+- vuejs
+- beginner
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/libertempo/web/labels/Help%20Wanted

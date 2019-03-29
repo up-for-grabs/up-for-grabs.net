@@ -1,0 +1,13 @@
+name: libertempo-api
+desc: API for the libertempo-web web app
+site: https://github.com/libertempo/api
+tags:
+- php
+- refactoring
+- API
+- testing
+- slimphp
+- beginner
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/libertempo/api/labels/Help%20Wanted

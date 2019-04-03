@@ -1,0 +1,16 @@
+name: PRoot
+desc: chroot, mount --bind, and binfmt_misc without privilege/setup for Linux
+site: https://github.com/proot-me/proot
+tags:
+- c
+- chroot
+- environment
+- exec
+- linux
+- ptrace
+- rootfs
+- syscalls
+- userland
+upforgrabs:
+  name: help wanted
+  link: https://github.com/proot-me/proot/labels/help%20wanted

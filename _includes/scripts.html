@@ -19,7 +19,7 @@
     <h5><label for="tag">Filter by tags: </label></h5>
     <select class="tags-filter" id="tag" multiple data-placeholder="Select a tag..." >
     <% _.each(tags, function(entry, key){ %>
-      <option value="<%-key%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
+      <option value="<%-entry.name%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
     <% }) %>
     </select>
     <h5>Popular tags: </h5>

@@ -1,0 +1,12 @@
+name: movie.js
+desc: A flexible video-editing library for the browser
+site: https://github.com/clabe45/movie.js
+tags:
+- javascript
+- vanilla-javascript
+- video
+- video-editing
+- automation
+upforgrabs:
+  name: help wanted
+  link: https://github.com/clabe45/movie.js/labels/help%20wanted

@@ -6,6 +6,7 @@ tags:
 - c++11
 - c++14
 - c++17
+- stl
 upforgrabs:
-  name: good first contribution
-  link: https://github.com/Bhupesh-V/30-seconds-of-cpp/issues
+  name: beginner-friendly 
+  link: https://github.com/Bhupesh-V/30-seconds-of-cpp/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner-friendly

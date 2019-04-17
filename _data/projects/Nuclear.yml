@@ -13,4 +13,4 @@ tags:
 - Windows
 upforgrabs:
   name: good first issue
-  link: https://github.com/nukeop/nuclear/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  link: https://github.com/nukeop/nuclear/labels/good%20first%20issue

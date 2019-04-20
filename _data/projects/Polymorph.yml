@@ -1,0 +1,11 @@
+name: Polymorph
+desc: Ultra-flexible self-hostable organisation tool (and so much more)
+site: acenturyandabit.github.io/polymorph
+tags:
+- Javascript
+- UI
+- flexibility
+- framework
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/acenturyandabit/polymorph/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs

@@ -1,0 +1,11 @@
+name: Open Optimal Control Library
+desc: Using mathematical optimization to predict the behaviour of dynamical systems, robots, autonomous cars, etc.
+site: https://openocl.org
+tags:
+- optimal-control
+- trajectory-optimization
+- model-predictive-control
+- matlab
+upforgrabs:
+  name: ufg
+  link: https://github.com/OpenOCL/OpenOCL/labels/ufg

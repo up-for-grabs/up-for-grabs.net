@@ -1,0 +1,12 @@
+name: water.css
+desc: A just-add-css collection of styles to make simple websites just a little nicer.
+site: https://watercss.netlify.com/
+tags:
+- css
+- sass
+- scss
+- javascript
+- html
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/kognise/water.css/labels/good%20first%20issue

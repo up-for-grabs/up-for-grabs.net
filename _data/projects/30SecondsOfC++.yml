@@ -1,0 +1,12 @@
+name: 30 Seconds of C++
+desc: A collection of STL features (functions/libraries) of C++ which can be learned in 30 seconds or less.
+site: https://github.com/Bhupesh-V/30-seconds-of-cpp
+tags:
+- c++
+- c++11
+- c++14
+- c++17
+- stl
+upforgrabs:
+  name: beginner-friendly 
+  link: https://github.com/Bhupesh-V/30-seconds-of-cpp/labels/beginner-friendly

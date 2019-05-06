@@ -1,0 +1,16 @@
+name: letterboxd-for-games
+desc: Social video game discovery and gaming journal.
+site: https://github.com/danielgrijalva/letterboxd-for-games
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- react
+- reactjs
+- javascript
+- python
+- django
+- django-rest-framework
+- video games
+- gaming
+upforgrabs:
+  name: up for grabs :zap:
+  link: https://github.com/danielgrijalva/letterboxd-for-games/issues?q=is%3Aopen+is%3Aissue+label%3A%22up+for+grabs+%3Azap%3A%22

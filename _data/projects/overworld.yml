@@ -1,6 +1,6 @@
-name: letterboxd-for-games
+name: overworld
 desc: Social video game discovery and gaming journal.
-site: https://github.com/danielgrijalva/letterboxd-for-games
+site: https://github.com/danielgrijalva/overworld
 tags:
 # Note: these are tags categorizing the project, not issue labels.
 - react
@@ -13,4 +13,4 @@ tags:
 - gaming
 upforgrabs:
   name: up for grabs
-  link: https://github.com/danielgrijalva/letterboxd-for-games/labels/up%20for%20grabs%20%3Azap%3A
+  link: https://github.com/danielgrijalva/overworld/labels/up%20for%20grabs%20%3Azap%3A

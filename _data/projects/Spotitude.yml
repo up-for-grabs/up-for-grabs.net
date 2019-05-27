@@ -1,0 +1,9 @@
+name: Spotitude
+desc: Yet another Spotify user analytics visualizer
+site: https://github.com/dtcrout/spotitude
+tags:
+- python
+- spotify
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dtcrout/spotitude/labels/up-for-grabs

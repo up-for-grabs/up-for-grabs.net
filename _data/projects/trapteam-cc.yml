@@ -1,0 +1,14 @@
+name: *Trap Team CC*
+desc: *A website and backend service for pest trappers*
+site: *trapteamnz.tk/git.html*
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- *html*
+- *easy*
+- *javascript*
+- *beginners*
+upforgrabs:
+  name: *up-for-grabs*
+  link: *https://github.com/TrapTeamCCNZ/TrapTeamMainSite/labels/up%20for%20grabs*
+  link1: *https://github.com/TrapTeamCCNZ/backend/labels/up%20for%20grabs*
+  link2: *https://github.com/TrapTeamCCNZ/EmptyMyTrap/labels/up%20for%20grabs*

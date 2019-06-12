@@ -1,0 +1,17 @@
+name: Iyan 3D
+desc: 3D animation app for iOS & Android
+site: https://github.com/codetiger/Iyan3d
+tags:
+- 3d
+- animation
+- opengles
+- ios-metal
+- opengl
+- ios
+- android
+- raytracing
+- rendering
+- physics
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/codetiger/Iyan3d/labels/up%20for%20grabs

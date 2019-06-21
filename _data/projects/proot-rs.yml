@@ -1,0 +1,20 @@
+name: proot-rs
+desc: Rust implementation of PRoot, a ptrace-based sandbox
+site: https://github.com/proot-me/proot-rs
+tags:
+- rust
+- sandbox
+- ptrace
+- seccomp
+- non-root
+- linux
+- bindings
+- bind
+- mount
+- container
+- userspace
+- rootless-containers
+- binfmt
+upforgrabs:
+  name: help wanted
+  link: https://github.com/proot-me/proot-rs/labels/help%20wanted

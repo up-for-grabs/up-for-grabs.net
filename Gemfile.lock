@@ -253,7 +253,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  octokit
 
 BUNDLED WITH
    1.16.3

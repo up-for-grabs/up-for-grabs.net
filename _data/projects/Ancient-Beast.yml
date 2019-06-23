@@ -10,5 +10,5 @@ tags:
 - chess
 - node
 upforgrabs:
-  name: Easy
-  link: https://github.com/FreezingMoon/AncientBeast/labels/Easy
+  name: good first issue
+  link: https://github.com/FreezingMoon/AncientBeast/labels/good first issue

@@ -1,0 +1,13 @@
+name: Certify The Web
+desc: Windows UI for managing ssl/https certificates from Let's Encrypt 
+site: https://github.com/webprofusion/certify
+tags:
+- letsencrypt
+- windows
+- https
+- dns
+- C#
+- wpf
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/webprofusion/certify/labels/up-for-grabs

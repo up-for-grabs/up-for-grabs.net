@@ -1,0 +1,9 @@
+name: FsCMS
+desc: F# Based CMS
+site: https://github.com/FsCMS/FsCMS
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/FsCMS/FsCMS/labels/help%20wanted

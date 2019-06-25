@@ -1,0 +1,22 @@
+name: opencensus-go
+desc: A statistics collection and distributed tracing framework. Go language implementation of OpenCensus, a toolkit for collecting application performance and behavior monitoring data. It allows to automatically collect incoming and outgoing calls information from various frameworks and export this information to backend of your choice.
+site: https://opencensus.io
+tags:
+- trace
+- go
+- cloud
+- stats
+- monitoring
+- opencensus
+- tracing
+- distributed-tracing
+- dapper
+- metrics
+- prometheus
+- zipkin
+- stackdriver
+- signalfx
+- application insights
+upforgrabs:
+  name: help wanted
+  link: https://github.com/census-instrumentation/opencensus-go/labels/help%20wanted

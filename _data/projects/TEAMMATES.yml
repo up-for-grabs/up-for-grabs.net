@@ -1,0 +1,12 @@
+name: TEAMMATES
+desc: TEAMMATES is a free online tool for managing peer evaluations and other feedback paths of your students. It is provided as a cloud-based service for educators/students and is currently used by hundreds of universities across the world.
+site: https://github.com/TEAMMATES/teammates
+tags:
+- Javascript
+- Cloud
+- Java
+- Web
+- Education
+upforgrabs:
+  name: d.FirstTimers
+  link: https://github.com/TEAMMATES/teammates/labels/d.FirstTimers

@@ -1,0 +1,14 @@
+name: "ReactiveUI (Website)"
+desc: An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application.
+site: https://github.com/reactiveui/website
+tags:
+- "ReactiveUI"
+- ".NET"
+- "C#"
+- "ASP.NET Core"
+- "MVC"
+- "Cake"
+- "Wyam"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/reactiveui/website/labels/help%20wanted

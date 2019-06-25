@@ -1,0 +1,13 @@
+name: Blockstack Browser
+desc: The Blockstack Browser allows you to explore the decentralized internet.
+site: https://blockstack.org
+tags:
+- react
+- javascript
+- blockstack
+- blockchain
+- dapp
+- identity
+upforgrabs:
+  name: good first task
+  link: https://github.com/blockstack/blockstack-browser/labels/good-first-task

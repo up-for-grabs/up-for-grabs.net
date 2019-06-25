@@ -1,0 +1,11 @@
+name: Resin
+desc: A vector space model implementation, a search and analytics framework and a document store
+site: https://github.com/kreeben/resin
+tags:
+- search
+- information retrieval
+- vector space model
+- database
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kreeben/resin/labels/up-for-grabs

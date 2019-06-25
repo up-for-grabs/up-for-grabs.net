@@ -1,0 +1,11 @@
+desc: "A simple script for fetching movie details right from the terminal"
+name: movie-py-cli
+site: "https://github.com/prateekkalra/movie-py-cli"
+tags: 
+  - movies
+  - imdb-movies
+  - imdb-webscrapping
+  - imdb
+upforgrabs: 
+  link: "https://github.com/prateekkalra/movie-py-cli/labels/good%20first%20issue"
+  name: good first issue

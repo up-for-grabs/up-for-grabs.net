@@ -1,0 +1,17 @@
+
+name: Carto
+desc: A front end design for shopping cart website
+site: https://github.com/treyhboy/Carto
+tags:
+- html
+- html5
+- css
+- css3
+- javascript
+- ES6
+- Flexbox
+- Jquery
+- AJAX
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/treyhboy/Carto/labels/up-for-grabs

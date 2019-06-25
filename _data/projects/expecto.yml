@@ -1,0 +1,10 @@
+name: expecto
+desc: A smooth testing lib for F#. APIs made for humans! Strong testing methodologies for everyone!
+site: https://github.com/haf/expecto
+tags:
+- F#
+- Testing
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/haf/expecto/labels/help%20wanted

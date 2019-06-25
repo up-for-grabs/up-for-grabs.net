@@ -1,0 +1,19 @@
+name: passthief
+desc: passthief is a Python script designed to steal all the passwords via the use of plugins
+site: https://github.com/sadboyzvone/passthief
+tags:
+- python
+- security
+- password
+- passwords
+- pyinstaller
+- decryption
+- stealing
+- encryption
+- python27
+- python36
+- python2
+- python3
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/sadboyzvone/passthief/issues?q=is%3Aopen+is%3Aissue+label%3Aup-for-grabs

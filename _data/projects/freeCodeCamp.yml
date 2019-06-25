@@ -1,0 +1,13 @@
+name: freeCodeCamp
+desc: The http://freeCodeCamp.com open source codebase and curriculum. Learn to code and help nonprofits.
+site: https://github.com/freecodecamp/freecodecamp
+tags:
+- javascript
+- oss
+- web
+- html
+- react
+- node
+upforgrabs:
+  name: help wanted
+  link: https://github.com/freecodecamp/freecodecamp/labels/help%20wanted

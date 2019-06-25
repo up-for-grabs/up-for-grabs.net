@@ -1,0 +1,10 @@
+name: Mission Pinball Framework
+desc: The Mission Pinball Framework (“MPF”) is a free Python-based pinball software framework that’s used to run real pinball machines. It allows both casual builders and hard-core programmers to create the software to run their pinball machines—whether it’s new game code for an existing pinball machine, a “re-theme” of an old machine, or totally custom / homebrew machine built from scratch.
+site: http://missionpinball.org/
+tags:
+- python
+- pinball
+- hardware
+upforgrabs:
+  name: help wanted
+  link: https://github.com/missionpinball/mpf/labels/help%20wanted

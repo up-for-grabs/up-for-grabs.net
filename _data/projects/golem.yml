@@ -1,0 +1,16 @@
+name: Golem
+desc: Worldwide Supercomputer – global prosumer market for computing power.
+site: https://golem.network
+tags:
+- golem
+- python
+- ethereum
+- cryptography
+- cryptocurrency
+- p2p
+- network
+- blender
+- distributed computing
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/golemfactory/golem/labels/up-for-grabs

@@ -1,0 +1,11 @@
+name: DelegateDecompiler
+desc: A library which is able to decompile a delegate or a method body to its lambda representation 
+site: https://github.com/hazzik/DelegateDecompiler
+tags:
+- ".NET"
+- decompilation
+- lambda
+- linq
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/hazzik/DelegateDecompiler/labels/up-for-grabs

@@ -1,0 +1,12 @@
+name: Include Gardener
+desc: A small C++ based commandline-tool which analyzes include statements in C/C++ code.
+site: https://github.com/feddischson/include_gardener
+tags:
+- c++
+- cpp
+- analysis
+- code analysis
+- static analysis
+upforgrabs:
+  name: Include Gardener
+  link: https://github.com/feddischson/include_gardener/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs

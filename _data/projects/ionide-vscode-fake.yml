@@ -1,0 +1,9 @@
+name: ionide-vscode-fake
+desc: VS Code plugin for FAKE
+site: https://github.com/ionide/ionide-vscode-fake
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ionide/ionide-vscode-fake/labels/help%20wanted

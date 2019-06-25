@@ -1,0 +1,12 @@
+name: TheHexBot
+desc: A twitter bot that replies to tweets that have hex codes in them
+site: https://github.com/shrayasr/TheHexBot/
+tags:
+- twitter
+- twitter-bot
+- C#
+- ".net"
+- ImageSharp
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/shrayasr/TheHexBot/labels/up-for-grabs

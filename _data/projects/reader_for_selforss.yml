@@ -1,0 +1,11 @@
+name: Reader For Selfoss
+desc: It's an RSS Reader for Android, that only works with Selfoss
+site: https://play.google.com/store/apps/details?id=apps.amine.bou.readerforselfoss&hl=en
+tags:
+- Java
+- Kotlin
+- mobile
+- android
+upforgrabs:
+  name: Up For Grabs
+  link: https://github.com/aminecmi/ReaderforSelfoss/labels/Up%20For%20Grabs

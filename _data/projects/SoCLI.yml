@@ -1,0 +1,11 @@
+name: SoCLI
+desc: Stack Overflow command line client. Search and browse Stack Overflow without leaving the terminal.
+site: https://github.com/gautamkrishnar/socli
+tags:
+- stackoverflow
+- commandline
+- cli
+- python
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/gautamkrishnar/socli/labels/up-for-grabs

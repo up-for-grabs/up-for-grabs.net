@@ -1,6 +1,6 @@
 name: React Native
 desc: A framework for building native apps with React.
-site: http://facebook.github.io/react-native/
+site: https://facebook.github.io/react-native/
 tags:
 - React
 - oss
@@ -9,9 +9,10 @@ tags:
 - cross-platform
 - javascript
 - java
+- React Native
 - Objective-C
 - Android
 - iOS
 upforgrabs:
-  name: Good First Task
-  link: https://github.com/facebook/react-native/labels/Good%20First%20Task
+  name: Good first issue
+  link: https://github.com/facebook/react-native/labels/Good%20first%20issue

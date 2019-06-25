@@ -1,0 +1,15 @@
+ 
+name: Apache Impala
+desc: Database management systems for clusters -- works with HDFS, Amazon S3, and more. Apache Impala is currently undergoing Incubation at the Apache Software Foundation.
+site: https://impala.apache.org/
+tags:
+- C++
+- Java
+- Hadoop
+- Distributed
+- Cluster
+- Database
+- SQL
+upforgrabs:
+  name: newbie
+  link: https://issues.apache.org/jira/browse/IMPALA-5886?jql=project%20%3D%20IMPALA%20AND%20status%20%3D%20Open%20AND%20labels%20%3D%20newbie%20AND%20assignee%20in%20(EMPTY)

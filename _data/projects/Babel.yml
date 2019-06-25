@@ -1,0 +1,13 @@
+name: Babel
+desc: The compiler for writing next generation JavaScript.
+site: http://babeljs.io/
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- JavaScript
+- js
+- web
+- ecmascript
+- compiler
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/babel/babel/labels/help%20wanted

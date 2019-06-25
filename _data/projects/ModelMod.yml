@@ -1,0 +1,11 @@
+name: ModelMod
+desc: A system for modifying art in games.  
+site: https://github.com/jmquigs/ModelMod
+tags:
+- F#
+- Art
+- Games
+- ".net"
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/jmquigs/ModelMod/labels/up%20for%20grabs

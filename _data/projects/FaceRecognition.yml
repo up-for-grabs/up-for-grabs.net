@@ -1,0 +1,14 @@
+name: Face Recognition
+desc: Face Recognizer helps to recognize faces of an individual with the help of Deep Learning Algorithms.
+site: https://github.com/riya-17/FaceRecognition
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- face_recognition
+- python
+- opencv
+- dlib
+- numpy
+- imutils
+upforgrabs:
+  name: good first issue
+  link: https://github.com/riya-17/FaceRecognition/labels/good%20first%20issue

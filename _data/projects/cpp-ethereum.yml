@@ -1,0 +1,12 @@
+name: cpp-ethereum
+desc: Ethereum C++ client and library.
+site: https://github.com/ethereum/cpp-ethereum
+tags:
+- c++
+- ethereum
+- cryptography
+- cryptocurrency
+- p2p
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ethereum/cpp-ethereum/labels/help%20wanted

@@ -1,0 +1,15 @@
+name: 8080py
+desc: Simple Intel 8080 assembler written in Python 2.7
+site: https://github.com/sadboyzvone/8080py/
+tags:
+- python27
+- python
+- intel
+- assembly
+- assembler
+- cpu
+- desktop
+- cli
+upforgrabs:
+  name: bitesize
+  link: https://github.com/sadboyzvone/8080py/labels/bitesize

@@ -1,0 +1,11 @@
+name: TeacherFund_Next
+desc: A charity to support great teachers that go above and beyond to buy resources not funded by the school curriculum. Currently under development.
+site: https://github.com/teacherfund/TeacherFund_next
+tags: 
+- javascript
+- react 
+- json
+- css
+upforgrabs:
+        name: good first issue
+        link: https://github.com/teacherfund/TeacherFund_next/labels/good%20first%20issue

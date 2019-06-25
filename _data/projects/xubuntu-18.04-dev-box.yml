@@ -1,0 +1,13 @@
+name: xubuntu-18.04-dev-box
+desc: Throwaway development environment in Xubuntu using Vagrant, Virtualbox, and Ansible
+site: https://github.com/SteveParson/xubuntu-18.04-dev-box
+tags:
+- ansible
+- bash
+- java
+- python
+- vagrant
+- virtualbox
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/SteveParson/xubuntu-18.04-dev-box/labels/up-for-grabs

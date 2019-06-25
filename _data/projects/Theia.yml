@@ -1,0 +1,19 @@
+name: Theia
+desc: Theia is a cloud & desktop IDE framework implemented in TypeScript.
+site: https://github.com/theia-ide/theia
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- ide
+- editor
+- language-server-protocol
+- node
+- express
+- electron
+- javascript
+- typescript
+- web
+- web-ide
+- cloud-ide
+upforgrabs:
+  name: help wanted
+  link: https://github.com/theia-ide/theia/labels/help%20wanted

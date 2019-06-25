@@ -1,0 +1,10 @@
+name: elmish
+desc: Elm-like abstractions for F# apps
+site: https://github.com/fable-elmish/elmish
+tags:
+- F#
+- Elm
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/fable-elmish/elmish/labels/help%20wanted

@@ -1,0 +1,13 @@
+name: Construktion
+desc: Simplifies the arrange part of your unit tests. Use Construktion to generate test objects and populate its properties with random data. 
+site: https://github.com/Construktion/Construktion
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- C#
+- ".net"
+- tdd
+- testing
+- unit testing
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Construktion/Construktion/labels/up-for-grabs

@@ -1,0 +1,14 @@
+name: EnumFP
+desc: Functional Enum type / Sum type for javascript with simple pattern matching
+site: https://github.com/phenax/enum-fp
+tags:
+- enum
+- functional
+- functional-programming
+- sum-type
+- pattern
+- pattern-matching
+- javascript
+upforgrabs:
+  name: help wanted
+  link: https://github.com/phenax/enum-fp/labels/help%20wanted

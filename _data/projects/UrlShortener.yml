@@ -1,0 +1,15 @@
+name: UrlShortener
+desc: Shortens long urls. Select from a list of available hosts.
+site: https://github.com/p53ud0k0d3/UrlShortener
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- python
+- django
+- urlshortener
+- api
+- html
+- css
+- bootstrap
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/p53ud0k0d3/UrlShortener/labels/up-for-grabs

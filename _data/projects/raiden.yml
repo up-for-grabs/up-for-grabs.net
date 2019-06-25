@@ -1,0 +1,12 @@
+name: Raiden Network
+desc: A proposed extension to Ethereum which scales-out asset transfer capacity in the network.
+site: https://github.com/raiden-network/raiden/
+tags:
+- blockchain
+- ethereum
+- payment_channels
+- microtransactions
+- state_channels
+upforgrabs:
+  name: low_hanging_fruit
+  link: https://github.com/raiden-network/raiden/labels/low_hanging_fruit

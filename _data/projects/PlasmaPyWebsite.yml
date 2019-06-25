@@ -1,0 +1,12 @@
+name: PlasmaPy.github.io
+desc: The website for PlasmaPy, an open source plasma physics package in Python
+site: https://github.com/PlasmaPy/plasmapy.github.io
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- python
+- science
+- web
+- Nikola
+upforgrabs:
+  name: help wanted
+  link: https://github.com/PlasmaPy/plasmapy.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

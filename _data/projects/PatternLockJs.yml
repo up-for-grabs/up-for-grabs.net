@@ -1,0 +1,11 @@
+name: PatternLockJS
+desc: A pattern lock library for the web
+site: https://github.com/phenax/pattern-lock-js
+tags:
+- pattern
+- canvas
+- lock
+- password
+upforgrabs:
+  name: help wanted
+  link: https://github.com/phenax/pattern-lock-js/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

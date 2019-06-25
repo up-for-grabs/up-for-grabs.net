@@ -1,0 +1,15 @@
+name: Consul
+desc: Consul - Open Government and E-Participation Web Software Edit
+site: http://www.decide.es/en/
+tags:
+- ruby
+- agplv3
+- consul
+- e-government
+- democracy
+- rails
+- open-government
+- Manage topics
+upforgrabs:
+  name: Good first issue
+  link: https://github.com/consul/consul/labels/Good%20first%20issue

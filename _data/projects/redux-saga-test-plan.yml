@@ -1,0 +1,15 @@
+name: Redux Saga Test Plan
+desc: Test Redux Saga with an easy plan! Declarative APIs for unit testing and integration testing sagas.
+site: https://github.com/jfairbank/redux-saga-test-plan
+tags:
+  - javascript
+  - redux-saga
+  - redux
+  - react
+  - sagas
+  - testing
+  - unit testing
+  - integration testing
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/jfairbank/redux-saga-test-plan/labels/up-for-grabs

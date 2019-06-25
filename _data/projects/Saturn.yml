@@ -1,0 +1,10 @@
+name: Saturn
+desc: Opinionated, web development framework for F# which implements the server-side, functional MVC pattern
+site: https://github.com/SaturnFramework/Saturn
+tags:
+- F#
+- Web
+- ".net"
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/SaturnFramework/Saturn/labels/up%20for%20grabs

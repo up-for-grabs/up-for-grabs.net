@@ -1,0 +1,11 @@
+name: OpenDota Core
+desc: An open source Dota 2 data platform
+site: https://www.opendota.com/
+tags:
+- api
+- javascript
+- docker
+- nodejs
+upforgrabs:
+  name: beginner
+  link: https://github.com/odota/core/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner

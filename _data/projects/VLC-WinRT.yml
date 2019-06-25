@@ -1,0 +1,13 @@
+name: VLC-WinRT
+desc: VLC media player for UWP
+site: https://code.videolan.org/videolan/vlc-winrt
+tags:
+- vlc
+- video
+- audio
+- ".net"
+- c#
+- oss
+upforgrabs:
+  name: up for grabs
+  link: https://code.videolan.org/videolan/vlc-winrt/issues?label_name[]=up+for+grabs

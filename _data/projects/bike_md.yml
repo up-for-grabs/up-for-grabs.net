@@ -1,0 +1,11 @@
+name: BikeMD
+desc: A community for motorcyle technicians and owners. Post problems and solutions, get help with hard to solve issues.
+site: https://github.com/bike-md/bike_md
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- python
+- javascript
+- django
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/bike-md/bike_md/issues/labels/up%20for%20grabs

@@ -1,0 +1,15 @@
+name: cloud-sample-app-react
+desc: Sample React single page application utilizing the Kentico Cloud Delivery API to fetch content.
+site: https://github.com/Kentico/cloud-sample-app-react
+tags:
+- JavaScript
+- kentico
+- kentico-cloud
+- headless-cms
+- headless
+- React
+- single-page application
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/cloud-sample-app-react/labels/up-for-grabs

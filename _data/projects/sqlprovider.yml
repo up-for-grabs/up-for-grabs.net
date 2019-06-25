@@ -4,9 +4,9 @@ desc: >
   schema exploration, individuals and much more besides.
 site: https://github.com/fsprojects/SQLProvider
 tags:
-- ".NET"
 - F#
-- typeprovider
+- ".NET"
+- type provider
 - SQL
 - MySQL
 - Oracle

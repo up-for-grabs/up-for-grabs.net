@@ -1,0 +1,16 @@
+name: Weblate
+desc: Web based translation tool with tight version control integration.
+site: https://weblate.org/
+tags:
+- javascript
+- web
+- Bootstrap
+- Python
+- Django
+- localization
+- internationalization
+- Git
+- VCS
+upforgrabs:
+  name: good first issue
+  link: https://github.com/WeblateOrg/weblate/labels/good%20first%20issue

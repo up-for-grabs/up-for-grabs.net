@@ -1,0 +1,11 @@
+name: jquery-csv
+desc: A jQuery CSV parser plugin. Battle Tested | Optimized | 100% IETF RFC 4180 Complete
+site: https://github.com/evanplaice/jquery-csv
+tags:
+- javascript
+- jquery
+- csv
+- parsing
+upforgrabs:
+  name: help wanted
+  link: https://github.com/evanplaice/jquery-csv/labels/help%20wanted

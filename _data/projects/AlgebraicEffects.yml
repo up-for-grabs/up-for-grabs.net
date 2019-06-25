@@ -1,0 +1,19 @@
+
+name: Algebraic Effects
+desc: Manage your effects in a pure and composible way using algebraic effects with multiple continuations. 
+site: https://github.com/phenax/algebraic-effects
+tags:
+- algebraic
+- algebraic-effects
+- effects
+- functional
+- functional-programming
+- side-effects
+- generators
+- koka
+- eff
+- pure
+- javascript
+upforgrabs:
+  name: help wanted
+  link: https://github.com/phenax/algebraic-effects/labels/help%20wanted

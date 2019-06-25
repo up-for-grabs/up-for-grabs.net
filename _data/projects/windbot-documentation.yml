@@ -1,0 +1,12 @@
+name: WindBot Documentation
+desc: Public repository to help with crowdsourcing the WindBot documentation.
+site: https://www.tibiawindbot.com/docs.html
+tags:
+- lua
+- windbot
+- tibia
+- documentation
+- docs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Tibia-WindBot/WindBot-Docs/labels/up-for-grabs

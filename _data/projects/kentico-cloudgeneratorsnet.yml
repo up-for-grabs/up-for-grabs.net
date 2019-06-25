@@ -1,0 +1,17 @@
+name: cloud-generators-net
+desc: .NET code generators for Kentico Cloud.
+site: https://github.com/Kentico/cloud-generators-net
+tags:
+- netcore
+- template
+- generator
+- kentico
+- kentico-cloud
+- csharp
+- ".NET"
+- ".NET core"
+- command-line
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/cloud-generators-net/labels/up-for-grabs

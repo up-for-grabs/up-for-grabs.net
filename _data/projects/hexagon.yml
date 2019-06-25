@@ -1,0 +1,14 @@
+name: Hexagon
+desc: Hexagon is a microservices framework written in Kotlin. Its pursose is to ease the building of services that run inside a cloud platform.
+site: https://github.com/hexagonkt/hexagon
+tags:
+- kotlin
+- rabbitmq
+- mongodb
+- pebble-templates
+- microservices
+- micro-framework
+- rest
+upforgrabs:
+  name: help wanted
+  link: https://github.com/hexagonkt/hexagon/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

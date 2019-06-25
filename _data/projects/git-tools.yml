@@ -1,0 +1,14 @@
+name: git-tools
+desc: CLI tools that help you to automate some routine operations
+site: https://digitalduke.github.io/git-tools/
+tags:
+- oss
+- cli
+- git
+- github
+- automation
+- report
+- python
+upforgrabs:
+  name: help wanted
+  link: https://github.com/digitalduke/git-tools/labels/help%20wanted

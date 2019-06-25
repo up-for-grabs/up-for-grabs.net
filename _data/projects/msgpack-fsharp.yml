@@ -1,0 +1,10 @@
+name: msgpack-fsharp
+desc: MessagePack implementation for F# msgpack.org
+site: https://github.com/Gab-km/msgpack-fsharp
+tags:
+- F#
+- MessagePack
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Gab-km/msgpack-fsharp/labels/help%20wanted

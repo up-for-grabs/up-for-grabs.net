@@ -1,0 +1,16 @@
+name: delivery-sdk-net
+desc: Kentico Cloud Delivery .NET SDK
+site: https://github.com/Kentico/delivery-sdk-net
+tags:
+- ".NET"
+- ".NET standard"
+- csharp
+- sdk
+- kentico
+- kentico-cloud
+- cms
+- headless-cms
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/delivery-sdk-net/labels/up-for-grabs

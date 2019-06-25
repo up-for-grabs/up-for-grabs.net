@@ -1,0 +1,16 @@
+name: Shogun Machine Learning Toolbox
+desc: >
+  Shogun is a unified and efficient machine learning library. 
+  We support multiple languages and platforms, have an efficient core in C++ and a great community.
+site: http://shogun.ml/
+tags:
+- machine-learning
+- ML
+- data-science
+- GSoC
+- C++
+- python
+- R
+upforgrabs:
+  name: entrance
+  link: https://github.com/shogun-toolbox/shogun/issues?q=is%3Aopen+is%3Aissue+label%3Aentrance

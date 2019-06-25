@@ -1,0 +1,12 @@
+name: ShellRB
+desc: Unix Shell commands using Ruby
+site: https://github.com/faraazahmad/shellrb
+tags:
+- Ruby
+- Unix
+- Linux
+- Shell
+
+upforgrabs:
+  name: Up For Grabs
+  link: https://github.com/faraazahmad/shellrb/labels/up%20for%20grabs

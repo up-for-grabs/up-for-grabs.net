@@ -1,0 +1,13 @@
+name: pinboard.net
+desc: A fully featured C# client for the pinboard bookmarking service
+site: https://github.com/shrayasr/pinboard.net/
+tags:
+- wrapper
+- api
+- client
+- pinboard
+- C#
+- ".net"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/shrayasr/pinboard.net/labels/up-for-grabs

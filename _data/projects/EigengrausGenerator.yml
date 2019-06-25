@@ -1,0 +1,16 @@
+name: Eigengraus Essential Establishment Generator
+desc: A tabletop procedural generator that creates game ready text for DMs 
+site: https://github.com/ryceg/Eigengrau-s-Essential-Establishment-Generator
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- javascript
+- twine
+- sugarcube
+- d&d
+- procedural generation
+- random generation
+- generation
+- tabletop
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ryceg/Eigengrau-s-Essential-Establishment-Generator/labels/good%20first%20issue

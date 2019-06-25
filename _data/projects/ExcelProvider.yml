@@ -1,0 +1,11 @@
+name: ExcelProvider
+desc: This library is for the .NET platform implementing a Excel type provider.
+site: https://github.com/fsprojects/ExcelProvider
+tags:
+- F#
+- ".net"
+- Excel
+- type provider
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/fsprojects/ExcelProvider/labels/up-for-grabs

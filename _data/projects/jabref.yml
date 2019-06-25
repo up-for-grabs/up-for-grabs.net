@@ -1,0 +1,17 @@
+name: JabRef
+desc: JabRef is a reference management software that uses BibTeX and BibLaTeX as its native formats and is therefore typically used for LaTeX. What makes JabRef development special is that two developers will review each pull request to ensure high quality.
+site: https://www.jabref.org/
+tags:
+- latex
+- bibtex
+- biblatex
+- DOI
+- PDF
+- java
+- javafx
+- junit
+- gradle
+upforgrabs:
+  name: good first issue
+  link: https://github.com/JabRef/jabref/labels/good%20first%20issue
+contribute: https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md

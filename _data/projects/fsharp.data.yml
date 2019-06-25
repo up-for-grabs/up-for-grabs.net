@@ -8,7 +8,7 @@ tags:
 - ".NET"
 - F#
 - data
-- typeprovider
+- type provider
 - WorldBank
 - Freebase
 - CSV

@@ -1,0 +1,9 @@
+name: fsharplu
+desc: This library provides a set of F# helpers for string manipulations, logging, collection data structures, file operations, text processing, security, async, parsing, diagnostics, configuration files and Json serialization.
+site: https://github.com/Microsoft/fsharplu
+tags:
+- F#
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Microsoft/fsharplu/labels/help%20wanted

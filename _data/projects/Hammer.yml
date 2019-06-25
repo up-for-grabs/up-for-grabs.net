@@ -1,0 +1,18 @@
+name: Hammer
+desc: FHIR instance validator
+site: https://github.com/vadi2/Hammer
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- oss
+- ".NET"
+- GUI
+- C#
+- "Cross Platform"
+- Linux
+- macOS
+- Windows
+- FHIR
+
+upforgrabs:
+  name: "good first issue"
+  link: https://github.com/vadi2/Hammer/labels/good%20first%20issue

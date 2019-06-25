@@ -1,0 +1,16 @@
+name: Systatic
+desc: Systatic is a Powerful Static Site Generator for PHP Developers.
+site: https://github.com/damcclean/systatic
+tags:
+- web
+- php
+- static
+- ssg
+- static-site-generator
+- markdown
+- yaml
+- html
+- laravel-blade
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/damcclean/systatic/labels/up-for-grabs

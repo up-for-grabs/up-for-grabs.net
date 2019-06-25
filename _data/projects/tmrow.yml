@@ -7,5 +7,5 @@ tags:
 - react-native
 - javascript
 upforgrabs:
-  name: Tomorrow
-  link: https://github.com/tmrowco/tmrowapp-contrib
+  name: Ready for Implementation
+  link: https://github.com/tmrowco/tmrowapp-contrib/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+implementation%22

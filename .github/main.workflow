@@ -1,6 +1,6 @@
 workflow "Every Day" {
-  on = "schedule(0 18 * * *)"
   resolves = ["Sweep Projects"]
+  on = "schedule(0 16 * * *)"
 }
 
 action "Sweep Projects" {

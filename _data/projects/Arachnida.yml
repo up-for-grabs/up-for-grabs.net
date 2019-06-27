@@ -1,0 +1,17 @@
+name: Arachnida
+desc: Simple web interface to pilot web-crawlers
+site: https://github.com/guillim/Arachnida
+tags:
+- Javascript
+- Meteor
+- crawler
+- scrapping
+- scrapper
+- upforgrabs
+- contributor
+- opensource
+- js
+- Headlesschrome
+upforgrabs:
+  name: help wanted
+  link: https://github.com/guillim/Arachnida/labels/help%20wanted

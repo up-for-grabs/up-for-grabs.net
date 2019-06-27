@@ -31,6 +31,10 @@ upforgrabs:
 
 Check out the [up-for-grabs](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml) file for an example of this project structure.
 
+### Pull Request Reviews
+
+We aim to be responsive when a pull request is open, but if a pull request sits for 2 months with feedback that prevents us from merging it we will close the pull request. You are welcome to resubmit the project and address the feedback provided.
+
 ## Use the Yeoman Generator
 
 If you'd like to use a generator to create the project's file, you can certainly do so!

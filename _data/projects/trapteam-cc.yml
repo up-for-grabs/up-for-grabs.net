@@ -1,6 +1,6 @@
 name: Trap Team CC
 desc: A website and backend service for pest trappers
-site: trapteamnz.tk/git.html
+site: https://www.trapteamnz.tk/git.html
 tags:
 # Note: these are tags categorizing the project, not issue labels.
 - html

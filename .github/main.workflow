@@ -1,5 +1,5 @@
-workflow "Daily Work" {
-  on = "schedule(0 18 * * *)"
+workflow "Weekly Work" {
+  on = "schedule(0 18 * * 0)"
   resolves = ["Cleanup archived projects"]
 }
 

@@ -256,6 +256,36 @@ describe('fetchIssueCount', function() {
       );
     });
 
+    it.todo('rate-limit reset time is stored in local storage');
+
+    it('no further API calls made after rate-limiting', function(done) {
+      const anHourFromNowInTicks = Date.now() + 1000 * 60 * 60;
+      const anHourFromNow = new Date(anHourFromNowInTicks);
+      const anHourFromNowInSeconds = Math.floor(anHourFromNow.getTime() / 1000);
+
+      fetch.mockResponseOnce(JSON.stringify([{ something: 'yes' }]), {
+        status: 403,
+        headers: [
+          ['Content-Type', 'application/json'],
+          ['X-RateLimit-Remaining', '0'],
+          ['X-RateLimit-Reset', anHourFromNowInSeconds.toString()],
+        ],
+      });
+
+      const makeRequestAndHandleError = function() {
+        return fetchIssueCount('owner/repo', 'label').then(() => {}, () => {});
+      };
+
+      makeRequestAndHandleError()
+        .then(() => makeRequestAndHandleError())
+        .then(() => {
+          expect(fetch.mock.calls).toHaveLength(1);
+          done();
+        });
+    });
+
+    it.todo('rate-limit reset time is cleared eventually');
+
     it('handles API error', function() {
       const message = 'The repository could not be found on the server';
 

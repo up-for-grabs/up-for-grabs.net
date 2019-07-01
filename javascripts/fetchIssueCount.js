@@ -11,6 +11,8 @@ if (typeof define !== 'function') {
 define(['whatwg-fetch', 'promise-polyfill'], function() {
   const { localStorage, fetch } = window;
 
+  const RateLimitResetAtKey = 'Rate-Limit-Reset-At';
+
   /**
    * Read and deserialize a value from local storage.
    *
@@ -73,6 +75,7 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
     const rateLimitReset = response.headers.get('X-RateLimit-Reset');
     if (rateLimited && rateLimitReset) {
       const rateLimitResetAt = new Date(1000 * rateLimitReset);
+      setValue(RateLimitResetAtKey, rateLimitResetAt);
       return new Error(
         'GitHub rate limit met. Reset at ' +
           rateLimitResetAt.toLocaleTimeString()
@@ -112,18 +115,36 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
    */
   function fetchIssueCount(ownerAndName, label) {
     const cached = getValue(ownerAndName);
+    const now = new Date();
 
-    const yesterday = new Date() - 1000 * 60 * 60 * 24;
+    const yesterday = now - 1000 * 60 * 60 * 24;
 
     if (cached && cached.date && new Date(cached.date) >= yesterday) {
       return Promise.resolve(cached.count);
     }
 
+    const rateLimitResetAt = getValue(RateLimitResetAtKey);
+
+    if (rateLimitResetAt) {
+      const d = new Date(rateLimitResetAt);
+
+      if (d > now) {
+        return Promise.reject(
+          new Error(
+            'GitHub rate limit met. Reset at ' +
+              d.toLocaleTimeString()
+          )
+        );
+      }
+
+      clearValue(RateLimitResetAtKey);
+    }
+
     const perPage = 30;
 
-    // TODO: we're not extracting the trailing slash in `ownerAndName` when the
-    //       previous regex is passed in here. This would be great to cleanup
-    //       at some stage
+    // TODO: we're not extracting the leading or trailing slash in
+    //       `ownerAndName` when the previous regex is passed in here. This
+    //       would be great to cleanup at some stage
     const apiURL =
       'https://api.github.com/repos' +
       ownerAndName +

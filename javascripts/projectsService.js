@@ -4,21 +4,21 @@
 // @ts-nocheck
 
 // required for loading into a NodeJS context
-if (typeof define !== "function") {
-  var define = require("amdefine")(module);
+if (typeof define !== 'function') {
+  var define = require('amdefine')(module);
 }
 
-define(["underscore"], function(_) {
+define(['underscore'], function(_) {
   var applyTagsFilter = function(projects, tagsArray, tags) {
-    if (typeof tags === "string") {
-      tags = tags.split(",");
+    if (typeof tags === 'string') {
+      tags = tags.split(',');
     }
 
     tags = _.map(tags, function(entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, "");
+      return entry && entry.replace(/^\s+|\s+$/g, '');
     });
 
-    if (!tags || !tags.length || tags[0] == "") {
+    if (!tags || !tags.length || tags[0] == '') {
       return projects;
     }
 
@@ -58,15 +58,15 @@ define(["underscore"], function(_) {
    * @param Array names : This is an array with the given name filters.
    */
   var applyNamesFilter = function(projects, projectNamesSorted, names) {
-    if (typeof names === "string") {
-      names = names.split(",");
+    if (typeof names === 'string') {
+      names = names.split(',');
     }
 
     names = _.map(names, function(entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, "");
+      return entry && entry.replace(/^\s+|\s+$/g, '');
     });
 
-    if (!names || !names.length || names[0] == "") {
+    if (!names || !names.length || names[0] == '') {
       return projects;
     }
 
@@ -96,16 +96,16 @@ define(["underscore"], function(_) {
   var applyLabelsFilter = function(projects, projectLabelsSorted, labels) {
     label_indices = labels;
 
-    if (typeof labels === "string") {
-      label_indices = labels.split(",");
+    if (typeof labels === 'string') {
+      label_indices = labels.split(',');
     }
 
     labels_indices = _.map(labels, function(entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, "");
+      return entry && entry.replace(/^\s+|\s+$/g, '');
     });
 
     // fallback if labels doesnt exist
-    if (!label_indices || !label_indices.length || labels[0] == "") {
+    if (!label_indices || !label_indices.length || labels[0] == '') {
       return projects;
     }
 
@@ -200,7 +200,7 @@ define(["underscore"], function(_) {
       sessionStorage.setItem;
     var ordering = null;
     if (canStoreOrdering) {
-      ordering = sessionStorage.getItem("projectOrder");
+      ordering = sessionStorage.getItem('projectOrder');
       if (ordering) {
         ordering = JSON.parse(ordering);
 
@@ -214,7 +214,7 @@ define(["underscore"], function(_) {
     if (!ordering) {
       ordering = _.shuffle(_.range(_projectsData.projects.length));
       if (canStoreOrdering) {
-        sessionStorage.setItem("projectOrder", JSON.stringify(ordering));
+        sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
       }
     }
 

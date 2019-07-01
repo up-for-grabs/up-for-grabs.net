@@ -11,6 +11,12 @@ if (typeof define !== 'function') {
 define(['whatwg-fetch', 'promise-polyfill'], function() {
   const { localStorage, fetch } = window;
 
+  /**
+   * Read and deserialize a value from local storage.
+   *
+   * @param {string} key
+   * @returns {any | undefined}
+   */
   function getValue(key) {
     if (typeof localStorage !== 'undefined') {
       return JSON.parse(localStorage.getItem(key));
@@ -18,12 +24,23 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
     return undefined;
   }
 
+  /**
+   * Clear a value from local storage.
+   *
+   * @param {string} key
+   */
   function clearValue(key) {
     if (typeof localStorage !== 'undefined') {
       localStorage.removeItem(key);
     }
   }
 
+  /**
+   * Update a key in local storage to a new value.
+   *
+   * @param {string} key
+   * @param {any} value
+   */
   function setValue(key, value) {
     try {
       if (typeof localStorage !== 'undefined') {
@@ -39,6 +56,14 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
     }
   }
 
+  /**
+   * Inspect the response from the GitHub API to see if was related to being
+   * rate-limited by the server.
+   *
+   * @param {Response} response
+   *
+   * @returns {Error | undefined}
+   */
   function inspectRateLimitError(response) {
     const rateLimited = response.headers.get('X-RateLimit-Remaining') === '0';
     const rateLimitReset = response.headers.get('X-RateLimit-Reset');
@@ -51,12 +76,36 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
     }
   }
 
+  /**
+   * Inspect the response from the GitHub API to return a helpful error message.
+   *
+   * @param {any} json
+   * @param {Response} response
+   *
+   * @returns {Error}
+   */
   function inspectGenericError(json, response) {
     const { message } = json;
     const errorMessage = message || response.statusText;
     return new Error('Could not get issue count from GitHub: ' + errorMessage);
   }
 
+  /**
+   * Fetch and cache the issue count for the requested repository using the
+   * GitHub API.
+   *
+   * This covers a whole bunch of scenarios:
+   *
+   *  - cached values are used if re-requested within the next 24 hours
+   *  - ETags are included on the request, if found in the cache
+   *  - Rate-limiting will report an error, and no further reqeuests will be
+   *    made until that has period has elapsed.
+   *
+   * @param {string} ownerAndName
+   * @param {string} label
+   *
+   * @returns {number|string|null}
+   */
   function fetchIssueCount(ownerAndName, label) {
     const cached = getValue(ownerAndName);
 

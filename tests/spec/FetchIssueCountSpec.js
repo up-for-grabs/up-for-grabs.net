@@ -242,8 +242,7 @@ describe('fetchIssueCount', function() {
       });
 
       const expectedError = new Error(
-        'GitHub rate limit met. Reset at ' +
-        lastSunday.toLocaleTimeString()
+        'GitHub rate limit met. Reset at ' + lastSunday.toLocaleTimeString()
       );
 
       expect(fetchIssueCount('owner/repo', 'label')).rejects.toEqual(

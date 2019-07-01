@@ -205,14 +205,12 @@ define([
 
     if (!gh) {
       count = $(
-        /* eslint-disable-next-line quotes */
         '<span class="count" title="Issue count is only available for projects on GitHub.">?</span>'
       ).appendTo(a);
       return;
     }
 
     count = $(
-      /* eslint-disable-next-line quotes */
       '<span class="count"><img src="images/octocat-spinner-32.gif" /></span>'
     ).appendTo(a);
 

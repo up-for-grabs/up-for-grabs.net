@@ -15,11 +15,15 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
    * Read and deserialize a value from local storage.
    *
    * @param {string} key
+   *
    * @returns {any | undefined}
    */
   function getValue(key) {
     if (typeof localStorage !== 'undefined') {
-      return JSON.parse(localStorage.getItem(key));
+      const result = localStorage.getItem(key);
+      if (result !== null) {
+        return JSON.parse(result);
+      }
     }
     return undefined;
   }

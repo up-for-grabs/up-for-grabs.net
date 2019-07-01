@@ -1,0 +1,10 @@
+name: fez
+desc: F# to core erlang compiler experiment
+site: https://github.com/kjnilsson/fez
+tags:
+- F#
+- Erlang
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/kjnilsson/fez/labels/help%20wanted

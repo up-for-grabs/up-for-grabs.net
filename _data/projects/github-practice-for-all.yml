@@ -1,0 +1,11 @@
+name: Github-practice-for-all
+desc: Here you are welcome to test how team workflow might look and practice git pull, git push and more...
+site: https://github.com/RomchyFCC/GitHub-Practice-For-All
+tags:
+- github
+- practice
+- pull
+- push
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/RomchyFCC/GitHub-Practice-For-All/labels/up-for-grabs

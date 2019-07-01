@@ -1,0 +1,13 @@
+name: Submitty
+desc: A programming assignment submission system
+site: https://submitty.org/
+tags:
+- PHP
+- Python
+- C++
+- education
+- autograding
+- teaching-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Submitty/Submitty/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

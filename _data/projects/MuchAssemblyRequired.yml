@@ -1,0 +1,11 @@
+--- 
+desc: "Assembly programming game: program the 8086-like microprocessor of a robot in a grid-based multiplayer world"
+name: "Much Assembly Required"
+site: "https://github.com/simon987/Much-Assembly-Required"
+tags: 
+  - java
+  - assembly
+  - mongodb
+upforgrabs: 
+  link: "https://github.com/simon987/Much-Assembly-Required/labels/beginner%20friendly"
+  name: "beginner friendly"

@@ -1,0 +1,14 @@
+name: Pipey
+desc: Utility functions to convert instance methods's to context-free functions ready for use with esnext pipeline operator and point-free functional programming.
+site: https://github.com/phenax/pipey
+tags:
+- functional
+- functional-programming
+- pipeline-operator
+- pipe
+- point-free
+- fp
+- javascript
+upforgrabs:
+  name: help wanted
+  link: https://github.com/phenax/pipey/labels/help%20wanted

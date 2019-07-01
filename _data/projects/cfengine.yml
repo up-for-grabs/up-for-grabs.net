@@ -1,0 +1,12 @@
+name: CFEngine
+desc: The Original Configuration Management System
+site: https://cfengine.com/
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- C
+- cross-platform
+- configuration-management
+- command-line
+upforgrabs:
+  name: Help Wanted
+  link: https://tracker.mender.io/issues/?jql=Project%20in%20(CFE)%20and%20labels%20in%20(help_wanted%2C%20easy)%20and%20status%20not%20in%20(Done%2C%20Rejected)

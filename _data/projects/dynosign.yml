@@ -1,0 +1,12 @@
+name: DynoSign
+desc: A cross-platform FOSS UI graphical editor written with electron, react and redux
+site: https://github.com/FallenAngel97/dynosign
+tags:
+# Note those are tags categorizing your project, not issue labels.
+- JavaScript
+- Electron
+- React
+- Redux
+upforgrabs:
+  name: Help wanted
+  link: https://github.com/FallenAngel97/dynosign/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

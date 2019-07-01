@@ -1,0 +1,11 @@
+name: Apache Maven
+desc: Apache Maven is a software project management and comprehension tool.
+site: https://maven.apache.org/
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- maven
+- java
+- buildtool
+upforgrabs:
+  name: up-for-grabs
+  link: https://s.apache.org/up-for-grabs_maven

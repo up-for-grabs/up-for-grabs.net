@@ -1,0 +1,8 @@
+name: Beginner-Level-Android-Studio-Apps
+desc: A collection of basic Android projects that are tailored to new contributors
+site: https://github.com/anshulkhattar/Beginner-Level-Android-Studio-Apps
+tags:
+-Java
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/anshulkhattar/Beginner-Level-Android-Studio-Apps/labels/up-for-grabs

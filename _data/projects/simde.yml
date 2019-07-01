@@ -1,0 +1,13 @@
+name: SIMDe
+desc: Implementations of SIMD instruction sets for systems which do not natively support them.
+site: https://github.com/nemequ/simde
+tags:
+- C
+- SIMD
+- parallel
+- optimization
+- portability
+- performance
+upforgrabs:
+  name: good first issue
+  link: https://github.com/nemequ/simde/labels/good%20first%20issue

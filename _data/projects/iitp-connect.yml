@@ -1,0 +1,11 @@
+name: IITP-Connect
+desc: Android app developed by the Student community of Indian Institute of Technology Patna. The application provides various useful modules which enables the students to stay updated about all the college news & events, their attendance, status and much more. 
+site: https://github.com/Njack-IITP/IITP-Connect
+tags:
+- Android
+- calendar
+- beginner-friendly
+- student-community
+upforgrabs:
+  name: up-for-grabs 
+  link: https://github.com/Njack-IITP/IITP-Connect/labels/up-for-grabs

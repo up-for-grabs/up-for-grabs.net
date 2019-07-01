@@ -1,0 +1,8 @@
+name: Odot
+desc: Odot (inverse of "To Do") is a task management tool. It allows the organization of a project by adding tasks in a hierarchical structure and organizing them into self-defined categories.
+site: https://github.com/elgaspar/Odot
+tags:
+- C#
+upforgrabs:
+  name: "up-for-grabs"
+  link: https://github.com/elgaspar/Odot/labels/up-for-grabs

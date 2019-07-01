@@ -1,0 +1,12 @@
+name: Mağara 
+desc: Off-campus housing web application for universities and colleges. 
+site: https://github.com/BerkhanBerkdemir/magara
+tags:
+- oss
+- housing
+- ruby
+- rails
+- web
+upforgrabs:
+  name: good first issue
+  link: https://github.com/BerkhanBerkdemir/magara/labels/good%20first%20issue

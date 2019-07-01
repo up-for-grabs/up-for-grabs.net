@@ -1,4 +1,4 @@
-name: www.dartlang.org
+name: dart.dev
 desc: A website covering the Dart language and common libraries, for developers of Dart libraries, web apps, server-side code, and mobile (Flutter) apps.
 site: https://github.com/dart-lang/site-www
 tags:

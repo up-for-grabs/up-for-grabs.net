@@ -1,0 +1,17 @@
+name: content-management-sdk-net
+desc: Kentico Cloud Content Management .NET SDK
+site: https://github.com/Kentico/content-management-sdk-net
+tags:
+- ".NET"
+- ".NET standard"
+- csharp
+- content-management
+- sdk
+- kentico
+- kentico-cloud
+- cms
+- headless-cms
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/content-management-sdk-net/labels/up-for-grabs

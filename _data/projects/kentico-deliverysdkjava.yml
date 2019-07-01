@@ -8,6 +8,7 @@ tags:
 - sdk
 - cms
 - headless-cms
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/delivery-sdk-java/labels/up-for-grabs

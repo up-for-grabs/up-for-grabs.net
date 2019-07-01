@@ -1,0 +1,12 @@
+name: Symfony
+desc: Symfony is a PHP framework for web applications and a set of reusable PHP components. Symfony is used by thousands of web applications and most of the popular PHP projects.
+site: https://symfony.com
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- PHP
+- framework
+- components
+- web
+upforgrabs:
+  name: good first issue
+  link: https://github.com/symfony/symfony/labels/good%20first%20issue

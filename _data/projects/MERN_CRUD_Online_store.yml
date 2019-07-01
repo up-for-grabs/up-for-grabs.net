@@ -1,0 +1,18 @@
+name: Online store app with MERN 
+desc: A boilerplate for an online store app with front end with React and a back end API with Express/Node/MongoDB. 
+site: https://github.com/aawgit/onlineStore
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- MERN
+- JavaScript
+- NodeJS
+- ReactJS
+- MongoDB
+- Mongoose
+- Express
+- Cloudinary
+- Passport-facebook
+- Oauth
+upforgrabs:
+  name: good first issue
+  link: https://github.com/aawgit/onlineStore/labels/good%20first%20issue

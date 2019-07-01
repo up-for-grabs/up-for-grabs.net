@@ -1,0 +1,15 @@
+name: Projecty Web
+desc: Project management app based on spring.
+site: https://github.com/marcinadd/projecty-web
+tags:
+  - java
+  - spring
+  - spring-framework
+  - spring-boot
+  - spring-mvc
+  - project
+  - web
+  - mysql
+upforgrabs:
+  name: help wanted
+  link: https://github.com/marcinadd/projecty-web/labels/help%20wanted

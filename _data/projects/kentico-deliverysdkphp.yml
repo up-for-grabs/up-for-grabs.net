@@ -1,0 +1,16 @@
+name: delivery-sdk-php
+desc: Kentico Cloud Delivery SDK for PHP
+site: https://github.com/Kentico/delivery-sdk-php
+tags:
+- PHP
+- sdk
+- content-delivery
+- kentico
+- kentico-cloud
+- cms
+- headless-cms
+- composer
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/delivery-sdk-php/labels/up-for-grabs

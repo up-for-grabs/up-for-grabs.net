@@ -1,0 +1,12 @@
+name: City Scrapers
+desc: "Scrape public meetings to increase access and transparency around local government."
+site: https://cityscrapers.org/
+tags:
+- python
+- web scraping
+- democracy
+- government
+- journalism
+upforgrabs:
+  name: good first issue
+  link: https://github.com/City-Bureau/city-scrapers/labels/good%20first%20issue

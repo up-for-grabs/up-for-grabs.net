@@ -1,0 +1,11 @@
+name: twa
+desc: A tiny web auditor with strong opinions.
+site: https://github.com/trailofbits/twa
+tags:
+  - bash
+  - auditing
+  - web
+  - security
+upforgrabs:
+  name: good first issue
+  link: https://github.com/trailofbits/twa/labels/good%20first%20issue

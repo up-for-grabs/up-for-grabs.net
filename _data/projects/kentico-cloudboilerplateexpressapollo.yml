@@ -1,0 +1,21 @@
+name: cloud-boilerplate-express-apollo
+desc: Kentico Cloud Boilerplate for development of Express application using Apollo server and GraphQL.
+site: https://github.com/Kentico/cloud-boilerplate-express-apollo
+tags:
+- graphql
+- express
+- boilerplate
+- pug
+- apollo
+- web
+- server
+- mvc
+- javascript
+- kentico
+- kentico-cloud
+- cms
+- headless-cms
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/cloud-boilerplate-express-apollo/labels/up-for-grabs

@@ -1,0 +1,10 @@
+name: Logibit.Hawk
+desc: A F# Hawk implementation with a strongly typed API that guides your usage and minimises security programming errors.
+site: https://github.com/logibit/Logibit.Hawk
+tags:
+- F#
+- ".net"
+- Hawk
+upforgrabs:
+  name: help wanted
+  link: https://github.com/logibit/Logibit.Hawk/labels/help%20wanted

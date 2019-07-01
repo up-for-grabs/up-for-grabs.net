@@ -1,0 +1,13 @@
+name: algorithms-js
+desc: Consumable Data Structures and Algorithms library in JavaScript
+site: https://github.com/manrajgrover/algorithms-js
+tags:
+- javascript
+- algorithms
+- data structures
+- library
+- nodejs
+- npm
+upforgrabs:
+  name: good first issue
+  link: https://github.com/manrajgrover/algorithms-js/labels/good%20first%20issue

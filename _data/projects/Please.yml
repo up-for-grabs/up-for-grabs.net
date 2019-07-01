@@ -1,0 +1,14 @@
+name: Please.com
+desc: The Open Source Trip Planner and Booking Service
+site: https://github.com/pleasedotcom
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- javascript
+- react
+- web
+- html
+- serverless
+- node
+upforgrabs:
+  name: good first issue
+  link: https://github.com/PleaseDotCom/frontend/labels/good%20first%20issue

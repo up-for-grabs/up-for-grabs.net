@@ -580,7 +580,7 @@ form {
   margin: -2px -4px 0 4px;
   text-align: center;
   vertical-align: middle;
-  width: 16px;
+  min-width: 16px;
 }
 
 .projects .label .count img {

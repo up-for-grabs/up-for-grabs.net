@@ -106,8 +106,7 @@ describe('fetchIssueCount', function() {
     it('does not make API call if cache is valid', function() {
       const project = 'owner/project';
 
-      const now = new Date();
-      const sixHoursAgo = now - 1000 * 60 * 60 * 6;
+      const sixHoursAgo = new Date() - 1000 * 60 * 60 * 6;
 
       localStorage.setItem(
         project,
@@ -127,8 +126,7 @@ describe('fetchIssueCount', function() {
       const project = 'owner/project';
       const expectedEtag = 'a00049ba79152d03380c34652f2cb612';
 
-      const now = new Date();
-      const threeDaysAgo = now - 1000 * 60 * 60 * 72;
+      const threeDaysAgo = new Date() - 1000 * 60 * 60 * 72;
 
       localStorage.setItem(
         project,
@@ -156,8 +154,7 @@ describe('fetchIssueCount', function() {
       const project = 'owner/project';
       const expectedEtag = 'a00049ba79152d03380c34652f2cb612';
 
-      const now = new Date();
-      const twoDaysAgo = now - 1000 * 60 * 60 * 48;
+      const twoDaysAgo = new Date() - 1000 * 60 * 60 * 48;
 
       localStorage.setItem(
         project,
@@ -201,9 +198,7 @@ describe('fetchIssueCount', function() {
 
     it('updates cache if a 200 is received', function() {
       const project = 'owner/project';
-
-      const now = new Date();
-      const twoDaysAgo = now - 2 * (1000 * 60 * 60 * 24);
+      const twoDaysAgo = new Date() - 2 * (1000 * 60 * 60 * 24);
 
       localStorage.setItem(
         project,
@@ -234,21 +229,21 @@ describe('fetchIssueCount', function() {
 
   describe('error handling', function() {
     it('handles rate-limiting response and returns an error', function() {
-      const rateLimitEpochSeconds = 1561912503;
-      const rateLimitEpochDate = new Date(1000 * rateLimitEpochSeconds);
+      const lastSundayInSeconds = 1561912503;
+      const lastSunday = new Date(1000 * lastSundayInSeconds);
 
       fetch.mockResponseOnce(JSON.stringify([{ something: 'yes' }]), {
         status: 403,
         headers: [
           ['Content-Type', 'application/json'],
           ['X-RateLimit-Remaining', '0'],
-          ['X-RateLimit-Reset', rateLimitEpochSeconds.toString()],
+          ['X-RateLimit-Reset', lastSundayInSeconds.toString()],
         ],
       });
 
       const expectedError = new Error(
         'GitHub rate limit met. Reset at ' +
-          rateLimitEpochDate.toLocaleTimeString()
+        lastSunday.toLocaleTimeString()
       );
 
       expect(fetchIssueCount('owner/repo', 'label')).rejects.toEqual(
@@ -272,12 +267,12 @@ describe('fetchIssueCount', function() {
         ],
       });
 
-      const makeRequestAndHandleError = function() {
+      const makeRequestAndIgnoreError = function() {
         return fetchIssueCount('owner/repo', 'label').then(() => {}, () => {});
       };
 
-      makeRequestAndHandleError()
-        .then(() => makeRequestAndHandleError())
+      makeRequestAndIgnoreError()
+        .then(() => makeRequestAndIgnoreError())
         .then(() => {
           expect(fetch.mock.calls).toHaveLength(1);
           done();

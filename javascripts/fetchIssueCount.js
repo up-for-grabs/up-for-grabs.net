@@ -130,10 +130,7 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
 
       if (d > now) {
         return Promise.reject(
-          new Error(
-            'GitHub rate limit met. Reset at ' +
-              d.toLocaleTimeString()
-          )
+          new Error('GitHub rate limit met. Reset at ' + d.toLocaleTimeString())
         );
       }
 

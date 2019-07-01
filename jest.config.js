@@ -3,5 +3,9 @@ module.exports = {
   testMatch: ["**/spec/**/*.js"],
   transform: {
     "^.+\\.jsx?$": "babel-jest"
-  }
+  },
+  automock: false,
+  setupFiles: [
+    "./tests/setupJest.js"
+  ]
 };

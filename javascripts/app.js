@@ -9,6 +9,9 @@ requirejs.config({
     jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min',
     sammy: '//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min',
     chosen: '//cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min',
+    'promise-polyfill':
+      '//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min',
+    'whatwg-fetch': '//cdn.jsdelivr.net/npm/whatwg-fetch@3.0.0/dist/fetch.umd',
   },
   shim: {
     // chosen is not UMD-compatible, so we need to use this hook to ensure

@@ -182,6 +182,23 @@ describe('fetchIssueCount', function() {
       expect(promise).resolves.toBe(3);
     });
 
+    it('if 304 Not Modified is returned but nothing cached, returns zero', function() {
+      const project = 'owner/project';
+
+      // ignore the JSON in the API response if a 304 is found
+      fetch.mockResponseOnce(JSON.stringify({}), {
+        status: 304,
+        headers: [
+          ['Content-Type', 'application/octet-stream'],
+          ['ETag', 'a00049ba79152d03380c34652f2cb612'],
+        ],
+      });
+
+      const promise = fetchIssueCount(project, 'label');
+
+      expect(promise).resolves.toBe(0);
+    });
+
     it('updates cache if a 200 is received', function() {
       const project = 'owner/project';
 

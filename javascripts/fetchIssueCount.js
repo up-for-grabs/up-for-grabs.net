@@ -99,7 +99,8 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
           if (!response.ok) {
             if (response.status === 304) {
               // no content is returned in the 304 Not Modified response body
-              resolve(cached.count);
+              const count = cached ? cached.count : 0;
+              resolve(count);
               return;
             }
 

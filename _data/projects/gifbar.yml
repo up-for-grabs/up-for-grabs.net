@@ -6,4 +6,4 @@ tags:
 - javascript
 upforgrabs:
   name: help wanted
-  link: https://github.com/joshghent/gifbar/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+  link: https://github.com/joshghent/gifbar/labels/help%20wanted

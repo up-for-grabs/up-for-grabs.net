@@ -1,0 +1,12 @@
+name: ghost2
+desc: A modular, multi-featured Discord bot.
+site: https://github.com/cbryant02/ghost2
+tags:
+- java
+- oss
+- discord
+- spring
+- gradle
+upforgrabs:
+  name: good first issue
+  link: https://github.com/cbryant02/ghost2/labels/good%20first%20issue

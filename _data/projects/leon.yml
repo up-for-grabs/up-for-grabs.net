@@ -1,0 +1,13 @@
+name: leon
+desc: Leon is your open-source personal assistant.
+site: https://getleon.ai
+tags:
+- personal-assistant
+- nodejs
+- python
+- artificial-intelligence
+- chatbot
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/leon-ai/leon/labels/good%20first%20issue

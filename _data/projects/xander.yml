@@ -1,0 +1,11 @@
+name: Xander
+desc: A Nim web application framework
+site: https://github.com/sunjohanday/xander
+tags:
+- nim
+- web
+- framework
+- library
+upforgrabs:
+  name: Help needed to keep developing the project
+  link: https://github.com/sunjohanday/xander#todo

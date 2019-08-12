@@ -250,8 +250,6 @@ describe('fetchIssueCount', function() {
       );
     });
 
-    it.todo('rate-limit reset time is stored in local storage');
-
     it('no further API calls made after rate-limiting', function(done) {
       const anHourFromNowInTicks = Date.now() + 1000 * 60 * 60;
       const anHourFromNow = new Date(anHourFromNowInTicks);
@@ -278,7 +276,44 @@ describe('fetchIssueCount', function() {
         });
     });
 
-    it.todo('rate-limit reset time is cleared eventually');
+    it('rate-limit reset time is cleared eventually', function(done) {
+      const RateLimitResetAtKey = 'Rate-Limit-Reset-At';
+
+      const twoHoursAgoInTicks = Date.now() - 2 * 1000 * 60 * 60;
+      const twoHoursAgo = new Date(twoHoursAgoInTicks);
+      const twoHoursAgoInSeconds = Math.floor(twoHoursAgo.getTime() / 1000);
+
+      fetch.mockResponseOnce(JSON.stringify([{ something: 'yes' }]), {
+        status: 403,
+        headers: [
+          ['Content-Type', 'application/json'],
+          ['X-RateLimit-Remaining', '0'],
+          ['X-RateLimit-Reset', twoHoursAgoInSeconds.toString()],
+        ],
+      });
+
+      const makeRequestAndIgnoreError = function() {
+        return fetchIssueCount('owner/repo', 'label').then(() => {}, () => {});
+      };
+
+      makeRequestAndIgnoreError()
+        .then(() => {
+          expect(localStorage.getItem(RateLimitResetAtKey)).not.toBeNull();
+        })
+        .then(() => {
+          const fourItems = [{}, {}, {}, {}];
+          fetch.mockResponseOnce(JSON.stringify(fourItems), {
+            status: 200,
+            headers: [['ETag', 'some-updated-value']],
+          });
+
+          return fetchIssueCount('owner/repo', 'label');
+        })
+        .then(() => {
+          expect(localStorage.getItem(RateLimitResetAtKey)).toBeNull();
+          done();
+        });
+    });
 
     it('handles API error', function() {
       const message = 'The repository could not be found on the server';

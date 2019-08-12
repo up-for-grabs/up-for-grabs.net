@@ -7,5 +7,7 @@ module.exports = {
   automock: false,
   setupFiles: [
     "./tests/setupJest.js"
-  ]
+  ],
+  collectCoverage: true,
+  coverageReporters: ['text-summary', 'json', 'html', 'cobertura'],
 };

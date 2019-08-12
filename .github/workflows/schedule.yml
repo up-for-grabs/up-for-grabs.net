@@ -1,0 +1,14 @@
+on:
+  schedules:
+  - cron: 0 18 * * 0
+name: Weekly Work
+jobs:
+  cleanupArchivedProjects:
+    name: Cleanup archived projects
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@gh-pages
+    - name: Cleanup archived projects
+      uses: ./.github/actions/cleanup-archived-projects
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

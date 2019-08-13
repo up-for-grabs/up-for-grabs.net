@@ -1,5 +1,28 @@
 const fetchIssueCount = require('../../javascripts/fetchIssueCount');
 
+const defaultEtag = 'a00049ba79152d03380c34652f2cb612';
+
+function stubRateLimitError(timeInSeconds) {
+  fetch.mockResponseOnce(JSON.stringify([{ something: 'yes' }]), {
+    status: 403,
+    headers: [
+      ['Content-Type', 'application/json'],
+      ['X-RateLimit-Remaining', '0'],
+      ['X-RateLimit-Reset', timeInSeconds.toString()],
+    ],
+  });
+}
+
+function stubFetchResult(items, etag) {
+  fetch.mockResponseOnce(JSON.stringify(items), {
+    status: 200,
+    headers: [
+      ['Content-Type', 'application/json'],
+      ['ETag', etag || defaultEtag],
+    ],
+  });
+}
+
 describe('fetchIssueCount', function() {
   beforeEach(function() {
     fetch.resetMocks();
@@ -8,14 +31,7 @@ describe('fetchIssueCount', function() {
 
   it('fetches the issue label URL of a GitHub project', function() {
     const oneItem = [{}];
-    fetch.mockResponseOnce(JSON.stringify(oneItem), {
-      status: 200,
-      headers: [
-        ['Content-Type', 'application/json'],
-        ['ETag', 'a00049ba79152d03380c34652f2cb612'],
-      ],
-    });
-
+    stubFetchResult(oneItem);
     expect(fetchIssueCount('owner/repo', 'label')).resolves.toEqual(1);
   });
 
@@ -46,9 +62,7 @@ describe('fetchIssueCount', function() {
       const project = 'owner/project';
 
       const fourItems = [{}, {}, {}, {}];
-      fetch.mockResponseOnce(JSON.stringify(fourItems), {
-        status: 200,
-      });
+      stubFetchResult(fourItems);
 
       const promise = fetchIssueCount(project, 'label');
 
@@ -62,11 +76,8 @@ describe('fetchIssueCount', function() {
     });
 
     it('can retrieve ETag from local storage for the project', function() {
-      const expectedEtag = 'a00049ba79152d03380c34652f2cb612';
-      fetch.mockResponseOnce(JSON.stringify([]), {
-        status: 200,
-        headers: [['Content-Type', 'application/json'], ['ETag', expectedEtag]],
-      });
+      const expectedEtag = 'bcd049ba79152d03380c34652f2cb612';
+      stubFetchResult([], expectedEtag);
 
       const project = 'owner/project';
 
@@ -82,10 +93,7 @@ describe('fetchIssueCount', function() {
     });
 
     it('can read a timestamp from local storage for the project', function() {
-      fetch.mockResponseOnce(JSON.stringify([]), {
-        status: 200,
-      });
-
+      stubFetchResult([]);
       const project = 'owner/project';
 
       const promise = fetchIssueCount(project, 'label');
@@ -124,7 +132,7 @@ describe('fetchIssueCount', function() {
 
     it('makes API call with etag if cache is considered expired', function() {
       const project = 'owner/project';
-      const expectedEtag = 'a00049ba79152d03380c34652f2cb612';
+      const expectedEtag = 'def049ba79152d03380c34652f2cb612';
 
       const threeDaysAgo = new Date() - 1000 * 60 * 60 * 72;
 
@@ -138,7 +146,7 @@ describe('fetchIssueCount', function() {
       );
 
       const fourItems = [{}, {}, {}, {}];
-      fetch.mockResponseOnce(JSON.stringify(fourItems));
+      stubFetchResult(fourItems);
 
       const promise = fetchIssueCount(project, 'label');
 
@@ -152,7 +160,7 @@ describe('fetchIssueCount', function() {
 
     it('handles 304 Not Modified and returns cached value', function() {
       const project = 'owner/project';
-      const expectedEtag = 'a00049ba79152d03380c34652f2cb612';
+      const expectedEtag = 'b00049ba79152d03380c34652f2cb612';
 
       const twoDaysAgo = new Date() - 1000 * 60 * 60 * 48;
 
@@ -170,7 +178,7 @@ describe('fetchIssueCount', function() {
         status: 304,
         headers: [
           ['Content-Type', 'application/octet-stream'],
-          ['ETag', 'a00049ba79152d03380c34652f2cb612'],
+          ['ETag', expectedEtag],
         ],
       });
 
@@ -209,10 +217,7 @@ describe('fetchIssueCount', function() {
       );
 
       const fourItems = [{}, {}, {}, {}];
-      fetch.mockResponseOnce(JSON.stringify(fourItems), {
-        status: 200,
-        headers: [['ETag', 'some-updated-value']],
-      });
+      stubFetchResult(fourItems, 'some-updated-value');
 
       const promise = fetchIssueCount(project, 'label');
 
@@ -232,14 +237,7 @@ describe('fetchIssueCount', function() {
       const lastSundayInSeconds = 1561912503;
       const lastSunday = new Date(1000 * lastSundayInSeconds);
 
-      fetch.mockResponseOnce(JSON.stringify([{ something: 'yes' }]), {
-        status: 403,
-        headers: [
-          ['Content-Type', 'application/json'],
-          ['X-RateLimit-Remaining', '0'],
-          ['X-RateLimit-Reset', lastSundayInSeconds.toString()],
-        ],
-      });
+      stubRateLimitError(lastSundayInSeconds);
 
       const expectedError = new Error(
         'GitHub rate limit met. Reset at ' + lastSunday.toLocaleTimeString()
@@ -255,14 +253,7 @@ describe('fetchIssueCount', function() {
       const anHourFromNow = new Date(anHourFromNowInTicks);
       const anHourFromNowInSeconds = Math.floor(anHourFromNow.getTime() / 1000);
 
-      fetch.mockResponseOnce(JSON.stringify([{ something: 'yes' }]), {
-        status: 403,
-        headers: [
-          ['Content-Type', 'application/json'],
-          ['X-RateLimit-Remaining', '0'],
-          ['X-RateLimit-Reset', anHourFromNowInSeconds.toString()],
-        ],
-      });
+      stubRateLimitError(anHourFromNowInSeconds);
 
       const makeRequestAndIgnoreError = function() {
         return fetchIssueCount('owner/repo', 'label').then(() => {}, () => {});
@@ -283,14 +274,7 @@ describe('fetchIssueCount', function() {
       const twoHoursAgo = new Date(twoHoursAgoInTicks);
       const twoHoursAgoInSeconds = Math.floor(twoHoursAgo.getTime() / 1000);
 
-      fetch.mockResponseOnce(JSON.stringify([{ something: 'yes' }]), {
-        status: 403,
-        headers: [
-          ['Content-Type', 'application/json'],
-          ['X-RateLimit-Remaining', '0'],
-          ['X-RateLimit-Reset', twoHoursAgoInSeconds.toString()],
-        ],
-      });
+      stubRateLimitError(twoHoursAgoInSeconds);
 
       const makeRequestAndIgnoreError = function() {
         return fetchIssueCount('owner/repo', 'label').then(() => {}, () => {});
@@ -302,10 +286,7 @@ describe('fetchIssueCount', function() {
         })
         .then(() => {
           const fourItems = [{}, {}, {}, {}];
-          fetch.mockResponseOnce(JSON.stringify(fourItems), {
-            status: 200,
-            headers: [['ETag', 'some-updated-value']],
-          });
+          stubFetchResult(fourItems, 'some-updated-value');
 
           return fetchIssueCount('owner/repo', 'label');
         })

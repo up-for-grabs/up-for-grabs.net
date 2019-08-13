@@ -12,7 +12,8 @@ module.exports = {
   collectCoverageFrom: [
     'javascripts/**/*.js',
     // infrastructure, should be ignored
-    '!javascripts/lib/require.js'
+    '!javascripts/lib/require.js',
+    '!javascripts/app.js'
 
   ],
   coverageReporters: ['text-summary', 'json', 'html', 'cobertura'],

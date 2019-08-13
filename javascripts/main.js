@@ -3,12 +3,13 @@
 define([
   'jquery',
   'projectsService',
+  'fetchIssueCount',
   'underscore',
   'sammy',
   // chosen is listed here as a dependency because it's used from a jQuery
   // selector, and needs to be ready before this code runs
   'chosen',
-], ($, ProjectsService, _, sammy) => {
+], ($, ProjectsService, fetchIssueCount, _, sammy) => {
   var projectsSvc = new ProjectsService(projects),
     compiledtemplateFn = null,
     projectsPanel = null;
@@ -191,42 +192,11 @@ define([
     });
   });
 
-  var storage = (function(global) {
-    function set(name, value) {
-      try {
-        if (typeof global.localStorage !== 'undefined') {
-          global.localStorage.setItem(name, JSON.stringify(value));
-        }
-      } catch (exception) {
-        if (
-          exception != QUOTA_EXCEEDED_ERR &&
-          exception != NS_ERROR_DOM_QUOTA_REACHED
-        ) {
-          throw exception;
-        }
-      }
-    }
-
-    function get(name) {
-      if (typeof global.localStorage !== 'undefined') {
-        return JSON.parse(global.localStorage.getItem(name));
-      }
-      return undefined;
-    }
-
-    return {
-      set: set,
-      get: get,
-    };
-  })(window);
-
   var issueCount = function(project) {
     var a = $(project).find('.label a'),
       gh = a
         .attr('href')
         .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/),
-      url =
-        gh && 'https://api.github.com/repos' + gh[1] + 'issues?labels=' + gh[2],
       count = a.find('.count');
 
     if (count.length) {
@@ -235,55 +205,28 @@ define([
 
     if (!gh) {
       count = $(
-        /* eslint-disable-next-line quotes */
         '<span class="count" title="Issue count is only available for projects on GitHub.">?</span>'
       ).appendTo(a);
       return;
     }
 
     count = $(
-      /* eslint-disable-next-line quotes */
       '<span class="count"><img src="images/octocat-spinner-32.gif" /></span>'
     ).appendTo(a);
-    var cached = storage.get(gh[1]);
-    if (
-      cached &&
-      cached.date &&
-      new Date(cached.date) >= new Date() - 1000 * 60 * 60 * 24
-    ) {
-      count.html(cached.count);
-      return;
-    }
 
-    $.ajax(url)
-      .done(function(data) {
-        var resultCount =
-          data && typeof data.length === 'number'
-            ? data.length.toString()
-            : '?';
+    const ownerAndName = gh[1];
+    const labelEncoded = gh[2];
+
+    fetchIssueCount(ownerAndName, labelEncoded).then(
+      function(resultCount) {
         count.html(resultCount);
-        storage.set(gh[1], {
-          count: resultCount,
-          date: new Date(),
-        });
-      })
-      .fail(function(jqXHR, textStatus, errorThrown) {
-        var rateLimited =
-            jqXHR.getResponseHeader('X-RateLimit-Remaining') === '0',
-          rateLimitReset =
-            rateLimited &&
-            new Date(1000 * +jqXHR.getResponseHeader('X-RateLimit-Reset')),
-          message = rateLimitReset
-            ? 'GitHub rate limit met. Reset at ' +
-              rateLimitReset.toLocaleTimeString() +
-              '.'
-            : 'Could not get issue count from GitHub: ' +
-              ((jqXHR.responseJSON && jqXHR.responseJSON.message) ||
-                errorThrown) +
-              '.';
+      },
+      function(error) {
+        const message = error.message ? error.message : error;
         count.html('?!');
         count.attr('title', message);
-      });
+      }
+    );
   };
 
   $(function() {

@@ -1,7 +1,7 @@
 on:
   schedules:
-  - cron: 0 18 * * *
-name: Weekly Work
+  - cron: 0 22 * * *
+name: Project Cleanup
 jobs:
   cleanupArchivedProjects:
     name: Cleanup archived projects

@@ -7,7 +7,7 @@ jobs:
     name: Cleanup archived projects
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@gh-pages
+    - uses: actions/checkout@master
     - name: Cleanup archived projects
       uses: ./.github/actions/cleanup-archived-projects
       env:

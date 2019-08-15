@@ -1,6 +1,6 @@
 on:
   schedules:
-  - cron: 0 22 * * *
+  - cron: 0 18 * * 0
 name: Project Cleanup
 jobs:
   cleanupArchivedProjects:

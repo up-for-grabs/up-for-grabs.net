@@ -1,0 +1,17 @@
+name: community-content-backlog
+desc: Kentico community content backlog.
+site: https://github.com/Kentico/community-content-backlog
+tags:
+- content-management
+- sdk
+- blog
+- bloggers
+- tutorial
+- kentico
+- kentico-cloud
+- cms
+- headless-cms
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/community-content-backlog/labels/up-for-grabs

@@ -1,0 +1,15 @@
+name: delivery-sdk-php
+desc: Kentico Cloud Delivery SDK for Ruby.
+site: https://github.com/Kentico/delivery-sdk-ruby
+tags:
+- Ruby
+- sdk
+- content-delivery
+- kentico
+- kentico-cloud
+- cms
+- headless-cms
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/delivery-sdk-ruby/labels/up-for-grabs

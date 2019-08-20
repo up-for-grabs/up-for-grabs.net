@@ -1,0 +1,12 @@
+name: Microsoft Azure SDK for Python
+desc: This repository contains official Python libraries for Azure services.
+site: https://github.com/Azure/azure-sdk-for-python
+tags:
+- python
+- microsoft
+- azure
+- cloud
+- sdk
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/Azure/azure-sdk-for-python/labels/Up%20for%20grabs

@@ -1,5 +1,5 @@
 name: OpenDota UI
-desc: A web interface for viewing Dota 2 data
+desc: React web interface for the OpenDota platform
 site: https://www.opendota.com/
 tags:
 - visualization

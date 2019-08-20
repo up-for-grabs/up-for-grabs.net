@@ -184,6 +184,12 @@ def verify_file (full_path)
         return { :path => path, :deprecated => true, :reason => 'archived' }
       end
 
+      if ownerAndRepo.casecmp(repo.full_name) != 0
+        return { :path => path, :deprecated => false, :error => "Repository #{ownerAndRepo} now lives at #{repo.full_name} and should be updated" }
+      else
+        return  { :path => path, :deprecated => false, :error => nil }
+      end
+
     rescue Psych::SyntaxError => e
       error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
       return { :path => path, :deprecated => false, :error => error }
@@ -194,8 +200,6 @@ def verify_file (full_path)
       error = "Unknown exception for file: " + $!.to_s
       return  { :path => path, :deprecated => false, :error => error  }
     end
-
-  return  { :path => path, :deprecated => false, :error => nil }
 end
 
 repo = ENV['GITHUB_REPOSITORY']

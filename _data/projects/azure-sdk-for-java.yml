@@ -1,0 +1,12 @@
+name: Microsoft Azure SDK for Java
+desc: Microsoft Azure SDK for Java developers to interface with Azure cloud services.
+site: https://github.com/Azure/azure-sdk-for-java
+tags:
+- java
+- microsoft
+- azure
+- cloud
+- sdk
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/Azure/azure-sdk-for-java/labels/Up%20for%20grabs

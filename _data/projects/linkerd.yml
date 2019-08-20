@@ -1,0 +1,19 @@
+name: Linkerd
+desc: An ultralight service mesh for Kubernetes.
+site: https://linkerd.io/
+tags:
+- oss
+- web
+- cloud-native
+- golang
+- go
+- javascript
+- kubernetes
+- rust
+- CNCF
+- containers
+- docker
+- react
+upforgrabs:
+  name: good first issue
+  link: https://github.com/linkerd/linkerd2/labels/good%20first%20issue

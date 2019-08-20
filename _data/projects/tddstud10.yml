@@ -1,6 +1,6 @@
 name: Test Driven Development Studio
 desc: An environment for practicing Kent Beck style Test Driven Development
-site: https://github.com/parthopdas/tddstud10
+site: https://github.com/tddstud10/tddstud10
 tags:
 - TDD
 - Unit Testing
@@ -10,4 +10,4 @@ tags:
 - Mono
 upforgrabs:
   name: up for grabs
-  link: https://github.com/parthopdas/tddstud10/labels/up%20for%20grabs
+  link: https://github.com/tddstud10/tddstud10/labels/up%20for%20grabs

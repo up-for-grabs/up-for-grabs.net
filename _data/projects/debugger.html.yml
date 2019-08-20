@@ -1,6 +1,6 @@
-name: debugger.html
+name: debugger
 desc: The Firefox debugger that works anywhere
-site: https://github.com/devtools-html/debugger.html
+site: https://github.com/firefox-devtools/debugger
 tags:
 - oss
 - web
@@ -11,4 +11,4 @@ tags:
 - mozilla
 upforgrabs:
   name: available
-  link: https://github.com/devtools-html/debugger.html/labels/available
+  link: https://github.com/firefox-devtools/debugger/labels/available

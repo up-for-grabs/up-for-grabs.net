@@ -1,6 +1,6 @@
 name: NZBDash
 desc: A free home server dashboard/monitor with usenet monitoring.
-site: https://github.com/tidusjar/NZBDash/
+site: https://github.com/NZBDash/NZBDash
 tags:
 - ".NET"
 - C#
@@ -10,4 +10,4 @@ tags:
 - css
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/tidusjar/NZBDash/labels/up-for-grabs
+  link: https://github.com/NZBDash/NZBDash/labels/up-for-grabs

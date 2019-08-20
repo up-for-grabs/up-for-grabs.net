@@ -1,5 +1,5 @@
 name: OpenDota UI
-desc: A web interface for viewing Dota 2 data
+desc: React web interface for the OpenDota platform
 site: https://www.opendota.com/
 tags:
 - visualization
@@ -10,4 +10,4 @@ tags:
 - javascript
 upforgrabs:
   name: beginner
-  link: https://github.com/odota/ui/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner
+  link: https://github.com/odota/web/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner

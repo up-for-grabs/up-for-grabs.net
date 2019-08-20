@@ -1,6 +1,6 @@
 name: Fulma
 desc: Binding for Elmish using Bulma CSS framework
-site: https://github.com/MangelMaxime/Fulma
+site: https://github.com/Fulma/Fulma
 tags:
 - F#
 - ".net"
@@ -10,4 +10,4 @@ tags:
 - Elmish
 upforgrabs:
   name: up for graps
-  link: https://github.com/MangelMaxime/Fulma/labels/up%20for%20graps
+  link: https://github.com/Fulma/Fulma/labels/up%20for%20graps

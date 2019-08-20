@@ -1,10 +1,10 @@
 name: JTerm
 desc: A cross-platform terminal written in Java.
-site: https://github.com/Sergix/JTerm
+site: https://github.com/T145/JTerm
 tags:
 - Java
 - terminal
 - cross-platform
 upforgrabs:
   name: help wanted
-  link: https://github.com/Sergix/JTerm/labels/help%20wanted
+  link: https://github.com/T145/JTerm/labels/help%20wanted

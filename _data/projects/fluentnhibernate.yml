@@ -1,6 +1,6 @@
 name: FluentNHibernate
 desc: Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate.
-site: https://github.com/jagregory/fluent-nhibernate
+site: https://github.com/FluentNHibernate/fluent-nhibernate
 tags:
 - ".NET"
 - orm
@@ -8,4 +8,4 @@ tags:
 - Conventions
 upforgrabs:
   name: jump-in
-  link: https://github.com/jagregory/fluent-nhibernate/labels/jump-in
+  link: https://github.com/FluentNHibernate/fluent-nhibernate/labels/jump-in

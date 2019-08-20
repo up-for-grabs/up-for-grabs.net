@@ -1,10 +1,10 @@
 name: HuBoard
 desc: Instant project management for your GitHub issues
-site: https://github.com/rauhryan/huboard
+site: https://github.com/huboard/huboard
 tags:
 - kanban
 - issues
 - github
 upforgrabs:
   name: Please contribute
-  link: https://github.com/rauhryan/huboard/labels/Please%20contribute
+  link: https://github.com/huboard/huboard/labels/Please%20contribute

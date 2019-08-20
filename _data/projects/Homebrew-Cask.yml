@@ -9,4 +9,4 @@ tags:
 - packaging
 upforgrabs:
   name: ready to implement
-  link: https://github.com/caskroom/homebrew-cask/labels/ready%20to%20implement
+  link: https://github.com/homebrew/homebrew-cask/labels/ready%20to%20implement

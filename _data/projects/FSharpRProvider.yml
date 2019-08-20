@@ -1,6 +1,6 @@
 name: FSharpRProvider
 desc: An F# Type Provider to interop with R
-site: https://github.com/BlueMountainCapital/FSharpRProvider
+site: https://github.com/fslaborg/RProvider
 tags:
 - F#
 - ".net"
@@ -8,4 +8,4 @@ tags:
 - type provider
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/BlueMountainCapital/FSharpRProvider/labels/up-for-grabs
+  link: https://github.com/fslaborg/RProvider/labels/up-for-grabs

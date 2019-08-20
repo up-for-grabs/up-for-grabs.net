@@ -177,11 +177,15 @@ def verify_file (full_path)
       check_rate_limit
       repo = $client.repo ownerAndRepo
 
-      archived = repo.archived
-
-      if archived then
+      if repo.archived then
         # Repository has been marked as archived through the GitHub API
         return { :path => path, :deprecated => true, :reason => 'archived' }
+      end
+
+      if ownerAndRepo.casecmp(repo.full_name) != 0
+        return { :path => path, :deprecated => false, :error => "Repository #{ownerAndRepo} now lives at #{repo.full_name} and should be updated" }
+      else
+        return  { :path => path, :deprecated => false, :error => nil }
       end
 
     rescue Psych::SyntaxError => e
@@ -189,13 +193,11 @@ def verify_file (full_path)
       return { :path => path, :deprecated => false, :error => error }
     rescue Octokit::NotFound
       # The repository no longer exists in the GitHub API
-      return  { :path => path,:deprecated => true, :reason => 'missing' }
+      return  { :path => path, :deprecated => true, :reason => 'missing' }
     rescue
       error = "Unknown exception for file: " + $!.to_s
       return  { :path => path, :deprecated => false, :error => error  }
     end
-
-  return  { :path => path, :deprecated => false, :error => nil }
 end
 
 repo = ENV['GITHUB_REPOSITORY']

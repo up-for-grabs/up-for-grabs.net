@@ -1,6 +1,6 @@
-name: cpp-ethereum
+name: aleth
 desc: Ethereum C++ client and library.
-site: https://github.com/ethereum/cpp-ethereum
+site: https://github.com/ethereum/aleth
 tags:
 - c++
 - ethereum
@@ -9,4 +9,4 @@ tags:
 - p2p
 upforgrabs:
   name: help wanted
-  link: https://github.com/ethereum/cpp-ethereum/labels/help%20wanted
+  link: https://github.com/ethereum/aleth/labels/help%20wanted

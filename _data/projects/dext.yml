@@ -1,6 +1,6 @@
 name: Dext
 desc: A smart launcher for Mac. Powered by JavaScript.
-site: https://github.com/vutran/dext
+site: https://github.com/DextApp/dext
 tags:
 - dext
 - launcher
@@ -10,4 +10,4 @@ tags:
 - node
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/vutran/dext/labels/up-for-grabs
+  link: https://github.com/DextApp/dext/labels/up-for-grabs

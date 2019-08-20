@@ -10,4 +10,4 @@ tags:
 - emscripten
 upforgrabs:
   name: good first bug
-  link: https://github.com/kripken/emscripten/labels/good%20first%20bug
+  link: https://github.com/emscripten-core/emscripten/labels/good%20first%20bug

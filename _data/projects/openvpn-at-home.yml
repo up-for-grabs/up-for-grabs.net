@@ -1,6 +1,6 @@
 name: OpenVPN@Home
 desc: OpenVPN configuration management webapp
-site: https://github.com/ezaquarii/openvpn-at-home/
+site: https://github.com/ezaquarii/vpn-at-home
 tags:
 # Note: these are tags categorizing the project, not issue labels.
 - python
@@ -10,4 +10,4 @@ tags:
 - vuejs
 upforgrabs:
   name: help wanted
-  link: https://github.com/ezaquarii/openvpn-at-home/labels/help%20wanted
+  link: https://github.com/ezaquarii/vpn-at-home/labels/help%20wanted

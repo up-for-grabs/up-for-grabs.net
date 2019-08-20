@@ -1,6 +1,6 @@
 name: Bau
 desc: The C# task runner. Write your build scripts in C#.
-site: https://github.com/bau-build/bau
+site: https://github.com/adamralph-archive/bau
 tags:
 - ".NET"
 - build
@@ -12,4 +12,4 @@ tags:
 - C#
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/bau-build/bau/labels/up-for-grabs
+  link: https://github.com/adamralph-archive/bau/labels/up-for-grabs

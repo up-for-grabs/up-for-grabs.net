@@ -1,0 +1,13 @@
+name: Microsoft Azure SDK for .NET
+desc: This repository contains official .NET libraries for Azure services.
+site: https://github.com/Azure/azure-sdk-for-net
+tags:
+- ".NET"
+- C#
+- microsoft
+- azure
+- cloud
+- sdk
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/Azure/azure-sdk-for-net/labels/Up%20for%20grabs

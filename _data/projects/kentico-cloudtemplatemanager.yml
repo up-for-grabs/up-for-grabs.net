@@ -1,0 +1,13 @@
+name: cloud-template-manager
+desc: Kentico Cloud template manager.
+site: https://github.com/Kentico/cloud-template-manager
+tags:
+- TypeScript
+- Angular
+- kentico
+- kentico-cloud
+- headless
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/cloud-template-manager/labels/up-for-grabs

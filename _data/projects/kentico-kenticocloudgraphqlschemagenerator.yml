@@ -1,0 +1,14 @@
+name: kentico-cloud-graphql-schema-generator
+desc: GraphQL schema generator used to generate schema based on specified project.
+site: https://github.com/Kentico/kentico-cloud-graphql-schema-generator
+tags:
+- kentico
+- kentico-cloud
+- headless-cms
+- headless
+- TypeScript
+- GraphQL
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/kentico-cloud-graphql-schema-generator/labels/up-for-grabs

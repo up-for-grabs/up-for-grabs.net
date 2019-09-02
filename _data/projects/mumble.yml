@@ -1,10 +1,10 @@
 name: Mumble
 desc: open source, low-latency, high quality voice chat software primarily intended for use while gaming
-site: http://mumble.info/
+site: https://mumble.info/
 tags:
 - qt
 - c++
 - voip
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/mumble-voip/mumble/labels/up-for-grabs
+  name: good first issue
+  link: https://github.com/mumble-voip/mumble/labels/good%20first%20issue

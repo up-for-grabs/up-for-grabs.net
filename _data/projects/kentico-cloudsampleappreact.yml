@@ -1,3 +1,4 @@
+---
 name: cloud-sample-app-react
 desc: Sample React single page application utilizing the Kentico Cloud Delivery API to fetch content.
 site: https://github.com/Kentico/cloud-sample-app-react

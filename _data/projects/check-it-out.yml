@@ -1,3 +1,4 @@
+---
 name: check-it-out
 desc: A command line interface for Git Checkout
 site: http://checkit.club
@@ -14,4 +15,5 @@ tags:
 - nodejs
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/jwu910/check-it-out/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs+sort%3Aupdated-desc
+  link: >-
+    https://github.com/jwu910/check-it-out/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs+sort%3Aupdated-desc

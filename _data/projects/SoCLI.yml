@@ -1,3 +1,4 @@
+---
 name: SoCLI
 desc: Stack Overflow command line client. Search and browse Stack Overflow without leaving the terminal.
 site: https://github.com/gautamkrishnar/socli

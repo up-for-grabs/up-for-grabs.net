@@ -1,3 +1,4 @@
+---
 name: Clippy Service
 desc: Rust Linting (with Clippy) as a Webservice
 site: http://clippy.bashy.io

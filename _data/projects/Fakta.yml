@@ -1,3 +1,4 @@
+---
 name: Fakta
 desc: A Consul + Vault F# library – service discovery and secret management for your F# apps and services.
 site: https://github.com/logibit/Fakta

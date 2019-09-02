@@ -1,5 +1,6 @@
+---
 name: Document Your Code
-desc: >
+desc: |
   A Pure Python CLI Application that Auto Populates Docstrings
   under methods. Built to support all Programming Languages and
   help make Development for all engineers as smooth as possible.

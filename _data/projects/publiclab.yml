@@ -1,5 +1,6 @@
+---
 name: PublicLab.org
-desc: An open source publishing platform for environmental projects. 
+desc: An open source publishing platform for environmental projects.
 site: https://github.com/publiclab/plots2
 tags:
 - javascript

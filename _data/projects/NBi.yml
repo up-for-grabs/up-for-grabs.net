@@ -1,5 +1,7 @@
+---
 name: NBi
-desc: NBi is a testing framework (add-on to NUnit) for Microsoft Business Intelligence platform and Data Access.
+desc: >-
+  NBi is a testing framework (add-on to NUnit) for Microsoft Business Intelligence platform and Data Access.
 site: https://github.com/Seddryck/NBi
 tags:
 - Business Intelligence

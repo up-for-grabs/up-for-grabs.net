@@ -1,5 +1,8 @@
+---
 name: SoundRecorder
-desc: A simple sound recording Android app implementing Material Design. The goal of this project is to develop as stable as possible sound recorder application.
+desc: >-
+  A simple sound recording Android app implementing Material Design. The goal of this project is to develop
+  as stable as possible sound recorder application.
 site: https://github.com/naXa777/SoundRecorder
 tags:
 - Java

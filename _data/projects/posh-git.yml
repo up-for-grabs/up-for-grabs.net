@@ -1,5 +1,8 @@
+---
 name: posh-git
-desc: posh-git integrates Git and PowerShell by providing Git status summary information in the prompt and tab-completion of commands, parameters, remotes and branch names.
+desc: >-
+  posh-git integrates Git and PowerShell by providing Git status summary information in the prompt and
+  tab-completion of commands, parameters, remotes and branch names.
 site: https://github.com/dahlbyk/posh-git
 tags:
 - PowerShell

@@ -1,5 +1,6 @@
+---
 name: Mint
-desc: Mint is financial tracking app made on node js 
+desc: Mint is financial tracking app made on node js
 site: https://github.com/treyhboy/Mint
 tags:
 - nodejs

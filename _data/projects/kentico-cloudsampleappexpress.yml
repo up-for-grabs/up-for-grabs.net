@@ -1,3 +1,4 @@
+---
 name: cloud-sample-app-express
 desc: Express JS application meant for use with the Dancing Goat sample project within Kentico Cloud.
 site: https://github.com/Kentico/cloud-sample-app-express

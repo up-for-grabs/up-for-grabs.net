@@ -1,3 +1,4 @@
+---
 name: goTor
 desc: This applicaiton allows you to easily use TorBot through a web app rather than using a CLI.
 site: https://github.com/KingAkeem/goTor
@@ -11,5 +12,5 @@ tags:
 - torbot
 - web
 upforgrabs:
-    name: Available
-    link: https://github.com/KingAkeem/goTor/labels/Available
+  name: Available
+  link: https://github.com/KingAkeem/goTor/labels/Available

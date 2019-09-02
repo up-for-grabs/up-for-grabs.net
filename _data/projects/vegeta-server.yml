@@ -1,3 +1,4 @@
+---
 name: vegeta-server
 desc: A RESTful API server for vegeta, a load testing tool written in Go.
 site: https://github.com/nitishm/vegeta-server

@@ -1,3 +1,4 @@
+---
 name: wemake-python-styleguide
 desc: The strictest and most opinionated python linter ever!
 site: https://github.com/wemake-services/wemake-python-styleguide
@@ -8,5 +9,5 @@ tags:
 - code quality
 - oss
 upforgrabs:
-  name: "level:starter"
+  name: level:starter
   link: https://github.com/wemake-services/wemake-python-styleguide/labels/level%3Astarter

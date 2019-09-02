@@ -1,3 +1,4 @@
+---
 name: LocalAppVeyor
 desc: Run your AppVeyor builds, locally
 site: https://github.com/joaope/localappveyor

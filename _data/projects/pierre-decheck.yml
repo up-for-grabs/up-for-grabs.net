@@ -1,3 +1,4 @@
+---
 name: Pierre DeCheck
 desc: A Pull Request dependency checker
 site: https://github.com/alvarocavalcanti/pierre-decheck
@@ -8,4 +9,5 @@ tags:
 - dependency check
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/alvarocavalcanti/pierre-decheck/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs
+  link: >-
+    https://github.com/alvarocavalcanti/pierre-decheck/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs

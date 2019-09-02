@@ -1,5 +1,10 @@
+---
 name: opencensus-java
-desc: A statistics collection and distributed tracing framework. Java implementation of OpenCensus, a toolkit for collecting application performance and behavior monitoring data. It allows to automatically collect incoming and outgoing calls information from various frameworks and export this information to backend of your choice.
+desc: >-
+  A statistics collection and distributed tracing framework. Java implementation of OpenCensus, a toolkit
+  for collecting application performance and behavior monitoring data. It allows to automatically collect
+  incoming and outgoing calls information from various frameworks and export this information to backend
+  of your choice.
 site: https://opencensus.io
 tags:
 - trace

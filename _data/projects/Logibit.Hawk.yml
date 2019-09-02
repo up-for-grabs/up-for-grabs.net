@@ -1,5 +1,8 @@
+---
 name: Logibit.Hawk
-desc: A F# Hawk implementation with a strongly typed API that guides your usage and minimises security programming errors.
+desc: >-
+  A F# Hawk implementation with a strongly typed API that guides your usage and minimises security programming
+  errors.
 site: https://github.com/logibit/Logibit.Hawk
 tags:
 - F#

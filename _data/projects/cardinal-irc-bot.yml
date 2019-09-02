@@ -1,3 +1,4 @@
+---
 name: Cardinal IRC Bot
 desc: An easy-to-use, modular IRC bot written in Python with the Twisted library.
 site: https://github.com/JohnMaguire/Cardinal/issues

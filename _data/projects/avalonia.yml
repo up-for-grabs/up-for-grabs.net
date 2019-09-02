@@ -1,8 +1,8 @@
+---
 name: Avalonia
 desc: A multi-platform .NET UI framework.
 site: https://github.com/AvaloniaUI/Avalonia
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - C#
 - WPF
 - XAML

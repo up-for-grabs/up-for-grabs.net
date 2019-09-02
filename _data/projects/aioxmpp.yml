@@ -1,3 +1,4 @@
+---
 name: aioxmpp
 desc: Python 3 XMPP client library for use with asyncio
 site: https://github.com/horazont/aioxmpp

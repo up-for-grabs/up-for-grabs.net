@@ -1,5 +1,6 @@
+---
 name: Scala Poker
-desc: >
+desc: |
   Scala Poker aims to be a whole online poker platform solution
   looking like attractive stuff to serious online poker businesses.
 site: https://github.com/rafanoronha/scala-poker

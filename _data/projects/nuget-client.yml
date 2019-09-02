@@ -1,5 +1,6 @@
+---
 name: NuGet client
-desc: >
+desc: |
   The NuGet Client tools. Includes 'nuget.exe' and the NuGet extensions
   for Microsoft Visual Studio and Microsoft WebMatrix
 site: https://github.com/NuGet/Home

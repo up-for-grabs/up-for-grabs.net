@@ -1,3 +1,4 @@
+---
 name: rsrc
 desc: Tool for embedding .ico & manifest resources in Go programs for Windows.
 site: https://github.com/akavel/rsrc

@@ -1,3 +1,4 @@
+---
 name: elmish
 desc: Elm-like abstractions for F# apps
 site: https://github.com/elmish/elmish

@@ -1,5 +1,6 @@
+---
 name: BigInt
-desc: Arbitrary-sized integer class for C++ 
+desc: Arbitrary-sized integer class for C++
 site: https://github.com/faheel/BigInt
 tags:
 - arbitrary-size

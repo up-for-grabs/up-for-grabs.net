@@ -1,3 +1,4 @@
+---
 name: FSharp.Compiler.Service
 desc: F# Compiler Service - core component for F# IDE and other tooling
 site: https://github.com/fsharp/FSharp.Compiler.Service

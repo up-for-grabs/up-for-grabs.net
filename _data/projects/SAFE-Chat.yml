@@ -1,5 +1,8 @@
+---
 name: SAFE-Chat
-desc: IRC-style chat demo featuring full-stack F#, Akka.Streams, Akkling, Fable, Elmish, Websockets and .NET Core
+desc: >-
+  IRC-style chat demo featuring full-stack F#, Akka.Streams, Akkling, Fable, Elmish, Websockets and .NET
+  Core
 site: https://github.com/SAFE-Stack/SAFE-Chat
 tags:
 - F#

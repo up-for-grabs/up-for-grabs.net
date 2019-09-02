@@ -1,3 +1,4 @@
+---
 name: AgoraKube
 desc: Kubernetes Ansible Based Distribution
 site: https://github.com/ilkilab/agorakube

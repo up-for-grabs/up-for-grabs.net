@@ -1,3 +1,4 @@
+---
 name: gitfs
 desc: gitfs is a FUSE file system that fully integrates with git
 site: https://www.presslabs.com/gitfs/

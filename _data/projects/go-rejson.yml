@@ -1,5 +1,6 @@
+---
 name: go-rejson
-desc: Golang client for redislabs' ReJSON module using Redigo golang client. 
+desc: Golang client for redislabs' ReJSON module using Redigo golang client.
 site: https://github.com/nitishm/go-rejson
 tags:
 - oss

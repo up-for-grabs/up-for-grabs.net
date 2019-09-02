@@ -1,8 +1,10 @@
+---
 name: selection-js
-desc: "A lightweight javascipt library which provides users with a set of options in the form of a small popover over the selected portion of text."
-site: "https://github.com/prateekkalra/Selection-js"
+desc: >-
+  A lightweight javascipt library which provides users with a set of options in the form of a small popover
+  over the selected portion of text.
+site: https://github.com/prateekkalra/Selection-js
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - selection
 - copy-paste
 - facebook
@@ -15,4 +17,4 @@ tags:
 - google-search
 upforgrabs:
   name: good first issue
-  link: "https://github.com/prateekkalra/Selection-js/labels/good%20first%20issue"
+  link: https://github.com/prateekkalra/Selection-js/labels/good%20first%20issue

@@ -1,3 +1,4 @@
+---
 name: proot-rs
 desc: Rust implementation of PRoot, a ptrace-based sandbox
 site: https://github.com/proot-me/proot-rs

@@ -1,5 +1,6 @@
+---
 name: GitVersion
-desc: >
+desc: |
   Easy Semantic Versioning ([SemVer.org](http://semver.org))
   for projects using Git
 site: https://github.com/GitTools/GitVersion

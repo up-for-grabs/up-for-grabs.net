@@ -1,8 +1,8 @@
+---
 name: Telimena
 desc: An application for simple app usage monitoring and app lifecycle management
 site: https://github.com/bartosz-jarmuz/Telimena
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - c#
 - asp.net mvc
 - productivity

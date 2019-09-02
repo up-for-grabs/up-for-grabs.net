@@ -1,8 +1,8 @@
+---
 name: PlasmaPy
 desc: An open source plasma physics package in Python
 site: https://github.com/PlasmaPy/PlasmaPy
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - python
 - science
 - plasma

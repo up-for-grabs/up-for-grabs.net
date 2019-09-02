@@ -1,3 +1,4 @@
+---
 name: bypass-cors
 desc: A proxy server to bypass CORS (Cross-Origin Resource Sharing) enabled servers.
 site: https://github.com/Shivam010/bypass-cors

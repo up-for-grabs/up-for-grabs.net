@@ -1,5 +1,8 @@
-name: .NET Testcontainers
-desc: .NET Testcontainers is a library to support tests with throwaway instances of Docker containers for all compatible .NET Standard versions.
+---
+name: ".NET Testcontainers"
+desc: >-
+  .NET Testcontainers is a library to support tests with throwaway instances of Docker containers for
+  all compatible .NET Standard versions.
 site: https://github.com/HofmeisterAn/dotnet-testcontainers
 tags:
 - ".net"

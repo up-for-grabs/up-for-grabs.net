@@ -1,9 +1,13 @@
+---
 name: Bread Player
-desc: Bread Player, a free and open source music player powered by UWP and C#/.NET with a sleek and polished design built for, and by, the people seeking a better alternative to Groove and Windows Media Player by Microsoft.
+desc: >-
+  Bread Player, a free and open source music player powered by UWP and C#/.NET with a sleek and polished
+  design built for, and by, the people seeking a better alternative to Groove and Windows Media Player
+  by Microsoft.
 site: https://github.com/thecodrr/BreadPlayer
 tags:
 - ".NET"
-- "C#"
+- C#
 - UWP
 - ".NET Core"
 - Windows Phone

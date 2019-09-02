@@ -1,3 +1,4 @@
+---
 name: CC Catalog API
 desc: API providing search for CC-licensed and public domain digital media.
 site: https://github.com/creativecommons/cccatalog-api
@@ -10,5 +11,5 @@ tags:
 - django-rest-framework
 - API
 upforgrabs:
-  name: "help wanted"
+  name: help wanted
   link: https://github.com/creativecommons/cccatalog-api/labels/help%20wanted

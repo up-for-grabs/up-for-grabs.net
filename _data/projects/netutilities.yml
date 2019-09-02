@@ -1,10 +1,11 @@
+---
 name: Net Utilities
 desc: A bunch of utilities for .NET Developers
 site: https://github.com/JustNrik/NetUtilities
 tags:
 - ".NET"
-- "C#"
-- "Utilities"
+- C#
+- Utilities
 upforgrabs:
   name: contribution
   link: https://github.com/JustNrik/NetUtilities/labels/contribution

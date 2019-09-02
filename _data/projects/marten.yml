@@ -1,8 +1,8 @@
+---
 name: Marten
 desc: Use Postgresql as a Linq-Enabled Document Db and Event Store for .Net
 site: https://github.com/JasperFx/Marten
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - Database
 - Postgresql
 - ".net"

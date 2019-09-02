@@ -1,5 +1,8 @@
+---
 name: Entity Framework 6
-desc: Entity Framework 6 (EF6) is a tried and tested object-relational mapper for .NET with many years of feature development and stabilization.
+desc: >-
+  Entity Framework 6 (EF6) is a tried and tested object-relational mapper for .NET with many years of
+  feature development and stabilization.
 site: https://github.com/aspnet/EntityFramework6
 tags:
 - Microsoft

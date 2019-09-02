@@ -1,5 +1,8 @@
+---
 name: Http Cache Headers Middleware for ASP.NET Core
-desc: ASP.NET Core middleware that adds Http cache headers to responses (Cache-Control, Expires, ETag, Last-Modified), and implements cache expiration & validation models
+desc: >-
+  ASP.NET Core middleware that adds Http cache headers to responses (Cache-Control, Expires, ETag, Last-Modified),
+  and implements cache expiration & validation models
 site: https://github.com/KevinDockx/HttpCacheHeaders
 tags:
 - Cache

@@ -1,8 +1,8 @@
+---
 name: React Slack Clone
 desc: Slack clone built with React and Chatkit
 site: https://pusher.github.io/react-slack-clone/
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - JavaScript
 - js
 - web

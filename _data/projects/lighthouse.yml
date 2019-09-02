@@ -1,3 +1,4 @@
+---
 name: lighthouse
 desc: Lighthouse - a simple service discovery platform for Akka.Cluster (Akka.NET)
 site: https://github.com/petabridge/lighthouse

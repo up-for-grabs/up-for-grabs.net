@@ -1,3 +1,4 @@
+---
 name: kentico-cloud-graphql-schema-generator
 desc: GraphQL schema generator used to generate schema based on specified project.
 site: https://github.com/Kentico/kentico-cloud-graphql-schema-generator

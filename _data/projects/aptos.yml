@@ -1,5 +1,8 @@
+---
 name: aptos
-desc: A tool for validating data using JSON Schema and converting JSON Schema documents into different data-interchange formats
+desc: >-
+  A tool for validating data using JSON Schema and converting JSON Schema documents into different data-interchange
+  formats
 site: https://github.com/pennsignals/aptos
 tags:
 - json-schema

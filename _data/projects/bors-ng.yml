@@ -1,3 +1,4 @@
+---
 name: Bors-NG
 desc: A GitHub integration that checks pull requests before merging them.
 site: https://bors-ng.github.io/starters

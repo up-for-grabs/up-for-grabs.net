@@ -8,5 +8,5 @@ tags:
 - docker
 - nodejs
 upforgrabs:
-  name: beginner
-  link: https://github.com/odota/core/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner
+  name: good first issue
+  link: https://github.com/odota/core/labels/good%20first%20issue

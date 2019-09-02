@@ -9,4 +9,4 @@ tags:
 - ios
 upforgrabs:
   name: help wanted
-  link: https://github.com/odota/mobile/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
+  link: https://github.com/odota/mobile/labels/help%20wanted

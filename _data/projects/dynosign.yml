@@ -8,5 +8,5 @@ tags:
 - React
 - Redux
 upforgrabs:
-  name: Help wanted
-  link: https://github.com/FallenAngel97/dynosign/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+  name: help wanted
+  link: https://github.com/FallenAngel97/dynosign/labels/help%20wanted

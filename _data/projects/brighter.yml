@@ -15,5 +15,5 @@ tags:
 - Command Dispatcher
 - Task Queue
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/BrighterCommand/Brighter/issues?q=is%3Aissue+is%3Aopen+label%3Aup_for_grabs
+  name: help wanted
+  link: https://github.com/BrighterCommand/Brighter/labels/help%20wanted

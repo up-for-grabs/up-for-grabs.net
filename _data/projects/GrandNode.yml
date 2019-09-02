@@ -15,5 +15,5 @@ tags:
 - shopping-cart
 - dotnet-core
 upforgrabs:
-  name: help-wanted
-  link: https://github.com/grandnode/grandnode/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+  name: help wanted
+  link: https://github.com/grandnode/grandnode/labels/help%20wanted

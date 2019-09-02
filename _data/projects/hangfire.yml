@@ -10,5 +10,5 @@ tags:
 - Jobs
 - Tasks
 upforgrabs:
-  name: jump in
-  link: https://github.com/HangfireIO/Hangfire/labels/jump%20in
+  name: good first issue
+  link: https://github.com/HangfireIO/Hangfire/labels/good%20first%20issue

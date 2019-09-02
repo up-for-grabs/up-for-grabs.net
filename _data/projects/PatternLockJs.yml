@@ -9,4 +9,4 @@ tags:
 - password
 upforgrabs:
   name: help wanted
-  link: https://github.com/phenax/pattern-lock-js/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+  link: https://github.com/phenax/pattern-lock-js/labels/help%20wanted

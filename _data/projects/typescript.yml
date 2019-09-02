@@ -11,5 +11,5 @@ tags:
 - node
 - language
 upforgrabs:
-  name: Accepting PRs
-  link: https://github.com/Microsoft/TypeScript/labels/Accepting%20PRs
+  name: help wanted
+  link: https://github.com/microsoft/TypeScript/labels/help%20wanted

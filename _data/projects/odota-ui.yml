@@ -10,5 +10,5 @@ tags:
 - webpack
 - javascript
 upforgrabs:
-  name: beginner
-  link: https://github.com/odota/web/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner
+  name: good first issue
+  link: https://github.com/odota/web/labels/good%20first%20issue

@@ -15,4 +15,4 @@ tags:
 - command-line
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/baturin/wikivoyage-listings/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs
+  link: https://github.com/baturin/wikivoyage-listings/labels/up-for-grabs

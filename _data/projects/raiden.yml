@@ -9,5 +9,5 @@ tags:
 - microtransactions
 - state_channels
 upforgrabs:
-  name: low_hanging_fruit
-  link: https://github.com/raiden-network/raiden/labels/low_hanging_fruit
+  name: good first issue
+  link: https://github.com/raiden-network/raiden/labels/good%20first%20issue

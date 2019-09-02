@@ -8,4 +8,4 @@ tags:
 - oas
 upforgrabs:
   name: help wanted
-  link: https://github.com/Mermade/oas-kit/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+  link: https://github.com/Mermade/oas-kit/labels/help%20wanted

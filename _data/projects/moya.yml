@@ -10,5 +10,5 @@ tags:
 - reactiveswift
 - alamofire
 upforgrabs:
-  name: starter task
-  link: https://github.com/Moya/Moya/issues?q=is%3Aissue+is%3Aopen+label%3A%22starter+task%22
+  name: good first issue
+  link: https://github.com/Moya/Moya/labels/good%20first%20issue

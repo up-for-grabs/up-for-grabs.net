@@ -13,4 +13,4 @@ tags:
 - CMS
 upforgrabs:
   name: first-timers-only
-  link: https://github.com/fiatjaf/coisas/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3Afirst-timers-only%20
+  link: https://github.com/fiatjaf/coisas/labels/first-timers-only

@@ -8,5 +8,5 @@ tags:
 - IO
 - Testing
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/System-IO-Abstractions/System.IO.Abstractions/labels/up-for-grabs
+  name: 'state: up for grabs'
+  link: https://github.com/System-IO-Abstractions/System.IO.Abstractions/labels/state%3A%20up%20for%20grabs

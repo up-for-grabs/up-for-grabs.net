@@ -3,7 +3,7 @@ name: Albedo
 desc: >-
   A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions
   and utilities.
-site: https://github.com/ploeh/Albedo
+site: https://github.com/AlbedoOrg/Albedo
 tags:
 - Reflection
 - ".NET"
@@ -12,4 +12,4 @@ tags:
 - interface
 upforgrabs:
   name: jump in
-  link: https://github.com/ploeh/Albedo/labels/jump%20in
+  link: https://github.com/AlbedoOrg/Albedo/labels/jump%20in

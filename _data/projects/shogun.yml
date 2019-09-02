@@ -12,5 +12,5 @@ tags:
 - python
 - R
 upforgrabs:
-  name: entrance
-  link: https://github.com/shogun-toolbox/shogun/issues?q=is%3Aopen+is%3Aissue+label%3Aentrance
+  name: good first issue
+  link: https://github.com/shogun-toolbox/shogun/labels/good%20first%20issue

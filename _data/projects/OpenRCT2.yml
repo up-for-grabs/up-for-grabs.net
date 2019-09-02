@@ -10,4 +10,4 @@ tags:
 - 2D
 upforgrabs:
   name: good first issue
-  link: https://github.com/OpenRCT2/OpenRCT2/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+  link: https://github.com/OpenRCT2/OpenRCT2/labels/good%20first%20issue

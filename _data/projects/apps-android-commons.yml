@@ -9,5 +9,5 @@ tags:
 - java
 - mobile
 upforgrabs:
-  name: beginner friendly
-  link: https://github.com/commons-app/apps-android-commons/labels/beginner%20friendly
+  name: good first issue
+  link: https://github.com/commons-app/apps-android-commons/labels/good%20first%20issue

@@ -6,5 +6,5 @@ tags:
 - PowerShell
 - C#
 upforgrabs:
-  name: help-wanted
-  link: https://github.com/PowerShell/PowerShellEditorServices/labels/help-wanted
+  name: Up-for-Grabs
+  link: https://github.com/PowerShell/PowerShellEditorServices/labels/Up-for-Grabs

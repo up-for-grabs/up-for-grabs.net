@@ -9,5 +9,5 @@ tags:
 - jira
 - time-tracking
 upforgrabs:
-  name: Help Wanted
-  link: https://github.com/web-pal/chronos-timetracker/labels/help%20wanted
+  name: 'help wanted :octocat:'
+  link: https://github.com/web-pal/chronos-timetracker/labels/help%20wanted%20%3Aoctocat%3A

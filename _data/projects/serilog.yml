@@ -1,5 +1,8 @@
+---
 name: Serilog
-desc: Simple .NET logging with fully-structured events. Serilog combines the best features of traditional and structured diagnostic logging in an easy-to-use package
+desc: >-
+  Simple .NET logging with fully-structured events. Serilog combines the best features of traditional
+  and structured diagnostic logging in an easy-to-use package
 site: http://serilog.net
 tags:
 - logging

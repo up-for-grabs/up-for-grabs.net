@@ -1,5 +1,8 @@
+---
 name: Redis Object Cache
-desc: A persistent WordPress object cache backend powered by Redis. Supports Predis, PhpRedis, HHVM, replication and clustering.
+desc: >-
+  A persistent WordPress object cache backend powered by Redis. Supports Predis, PhpRedis, HHVM, replication
+  and clustering.
 site: https://github.com/tillkruss/redis-cache
 tags:
 - PHP

@@ -1,3 +1,4 @@
+---
 name: react-filetree-electron
 desc: React component that renders a dynamic file tree view in an electron application.
 site: https://github.com/mperitz/react-filetree-electron

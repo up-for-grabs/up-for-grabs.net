@@ -1,3 +1,4 @@
+---
 name: monument
 desc: event driven lightweight application framework for node
 site: http://monument.ansble.com
@@ -8,5 +9,5 @@ tags:
 - node
 - web
 upforgrabs:
-  name: "first contribution"
+  name: first contribution
   link: https://github.com/ansble/monument/labels/first%20contribution

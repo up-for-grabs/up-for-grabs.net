@@ -1,3 +1,4 @@
+---
 name: FsReveal
 desc: FsReveal parses markdown and F# script file and generates reveal.js slides.
 site: https://github.com/fsprojects/FsReveal

@@ -1,8 +1,8 @@
+---
 name: overworld
 desc: Social video game discovery and gaming journal.
 site: https://github.com/danielgrijalva/overworld
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - react
 - reactjs
 - javascript

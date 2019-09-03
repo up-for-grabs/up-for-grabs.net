@@ -1,5 +1,8 @@
+---
 name: squirrelly
-desc: Squirrelly is a lightweight JS template engine supporting helpers, filters, partials, custom tags, and more
+desc: >-
+  Squirrelly is a lightweight JS template engine supporting helpers, filters, partials, custom tags, and
+  more
 site: https://squirrelly.js.org
 tags:
 - squirrelly

@@ -1,5 +1,7 @@
+---
 name: hugo-cactus-theme-plus
-desc: 🌵 It's 2018 and we need a Hugo port of Nick Balestra's popular Cactus theme that represents that.
+desc: "\U0001F335 It's 2018 and we need a Hugo port of Nick Balestra's popular Cactus theme that represents
+  that."
 site: https://github.com/jacobwarduk/hugo-cactus-theme-plus
 tags:
 - hugo-theme

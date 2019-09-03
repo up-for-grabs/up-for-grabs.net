@@ -1,5 +1,6 @@
+---
 name: Certify The Web
-desc: Windows UI for managing ssl/https certificates from Let's Encrypt 
+desc: Windows UI for managing ssl/https certificates from Let's Encrypt
 site: https://github.com/webprofusion/certify
 tags:
 - letsencrypt

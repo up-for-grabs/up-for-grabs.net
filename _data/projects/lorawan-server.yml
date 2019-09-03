@@ -1,3 +1,4 @@
+---
 name: Compact server for private LoRa networks
 desc: Open-source LoRaWAN Server that integrates both the network-server and the application-server.
 site: https://github.com/gotthardp/lorawan-server

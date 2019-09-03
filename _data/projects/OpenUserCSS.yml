@@ -1,3 +1,4 @@
+---
 name: OpenUserCSS
 desc: A collection of CSS themes to customize websites
 site: https://openusercss.org
@@ -13,4 +14,5 @@ tags:
 - express
 upforgrabs:
   name: pull request welcome
-  link: https://github.com/OpenUserCSS/openusercss.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22pull+request+welcome%22
+  link: >-
+    https://github.com/OpenUserCSS/openusercss.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22pull+request+welcome%22

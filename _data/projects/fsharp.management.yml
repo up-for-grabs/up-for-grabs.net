@@ -1,7 +1,6 @@
+---
 name: FSharp.Management
-desc: >
-  The FSharp.Management project contains various type providers for the management
-  of the machine.
+desc: The FSharp.Management project contains various type providers for the management of the machine.
 site: https://github.com/fsprojects/FSharp.Management
 tags:
 - F#

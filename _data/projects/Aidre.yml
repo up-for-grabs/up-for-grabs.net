@@ -1,5 +1,7 @@
+---
 name: Aidre
-desc: 🐍 📝 Python Translation Help Station - The software for 📄 .po file docs handling. A tool to help with official py docs translations
+desc: "\U0001F40D \U0001F4DD Python Translation Help Station - The software for \U0001F4C4 .po file docs
+  handling. A tool to help with official py docs translations"
 site: https://github.com/Abdur-rahmaanJ/aidre
 tags:
 - python

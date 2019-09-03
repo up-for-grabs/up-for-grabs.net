@@ -1,3 +1,4 @@
+---
 name: SimpleGPIO
 desc: A simple, low-ceremony GPIO library
 site: https://github.com/stevedesmond-ca/SimpleGPIO

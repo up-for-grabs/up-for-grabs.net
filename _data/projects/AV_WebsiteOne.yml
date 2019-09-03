@@ -1,5 +1,7 @@
+---
 name: AgileVentures WebsiteOne
-desc: A website for AgileVentures.org - a platform for online collaboration and crowdsourced project development.
+desc: >-
+  A website for AgileVentures.org - a platform for online collaboration and crowdsourced project development.
 site: https://github.com/AgileVentures/WebsiteOne
 tags:
 - rails

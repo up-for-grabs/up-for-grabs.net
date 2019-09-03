@@ -1,8 +1,8 @@
+---
 name: YaccConstructor
 desc: Grammarware research and development platform.
 site: https://github.com/YaccConstructor/YaccConstructor
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - F#
 - parsing
 - lexing

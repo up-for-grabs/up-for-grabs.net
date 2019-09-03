@@ -1,8 +1,8 @@
+---
 name: Swat-OS
 desc: Systems Where Anything Transcribes - Operating System
 site: https://github.com/ColinMoulds/SWAT-OS
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - cpp
 - Assembly
 - Systems

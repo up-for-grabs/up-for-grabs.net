@@ -1,3 +1,4 @@
+---
 name: Hunter
 desc: CMake-driven cross-platform package manager for C++ projects.
 site: https://hunter.sh

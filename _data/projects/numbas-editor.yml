@@ -1,5 +1,9 @@
+---
 name: Numbas editor
-desc: An editor for Numbas, an e-assessment system aimed at mathematical disciplines. The editor is written in Django, with knockout.js for the frontend. There's plenty for someone with a good knowledge of maths, or an interest in UX, to work on.
+desc: >-
+  An editor for Numbas, an e-assessment system aimed at mathematical disciplines. The editor is written
+  in Django, with knockout.js for the frontend. There's plenty for someone with a good knowledge of maths,
+  or an interest in UX, to work on.
 site: http://www.numbas.org.uk/contributing-to-numbas/
 tags:
 - python

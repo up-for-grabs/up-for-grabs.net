@@ -1,5 +1,6 @@
+---
 name: ionide-fsgrammar
-desc: Shared Textmate Regex Style F# Language Grammar 
+desc: Shared Textmate Regex Style F# Language Grammar
 site: https://github.com/ionide/ionide-fsgrammar
 tags:
 - F#

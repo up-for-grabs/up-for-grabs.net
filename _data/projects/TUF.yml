@@ -1,5 +1,6 @@
+---
 name: The Update Framework
-desc: A framework for securing software update systems 
+desc: A framework for securing software update systems
 site: https://theupdateframework.com
 tags:
 - Python

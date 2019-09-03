@@ -1,3 +1,4 @@
+---
 name: Cookiecutter
 desc: A command-line utility that creates projects from cookiecutters.
 site: https://github.com/cookiecutter/cookiecutter

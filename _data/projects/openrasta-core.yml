@@ -1,5 +1,7 @@
+---
 name: openrasta-core
-desc: OpenRasta is an open-source .NET framework for building everything web, from web sites to RESTful APIs
+desc: >-
+  OpenRasta is an open-source .NET framework for building everything web, from web sites to RESTful APIs
 site: https://github.com/openrasta/openrasta-core
 tags:
 - ".NET"

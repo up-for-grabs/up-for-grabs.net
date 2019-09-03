@@ -1,5 +1,8 @@
+---
 name: Offline QR Code Generator
-desc: Browser add-on allowing you to quickly generate a QR code offline with the URL of the open tab or other text!
+desc: >-
+  Browser add-on allowing you to quickly generate a QR code offline with the URL of the open tab or other
+  text!
 site: https://github.com/rugk/offline-qr-code
 tags:
 - oss

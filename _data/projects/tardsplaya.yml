@@ -1,8 +1,8 @@
+---
 name: Tardsplaya
 desc: Allows viewing of Twitch streams with less buffering in external media players
 site: https://github.com/Zero3K/Tardsplaya
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - Twitch
 - stream
 - media

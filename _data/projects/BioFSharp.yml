@@ -1,5 +1,6 @@
+---
 name: BioFSharp
-desc: An open source bioinformatics toolbox written in F#. 
+desc: An open source bioinformatics toolbox written in F#.
 site: https://github.com/CSBiology/BioFSharp
 tags:
 - F#

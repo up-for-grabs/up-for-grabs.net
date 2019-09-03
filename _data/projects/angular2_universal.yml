@@ -1,3 +1,4 @@
+---
 name: Universal Angular 2
 desc: Universal (isomorphic) javascript support for Angular 2
 site: https://github.com/angular/universal
@@ -8,5 +9,5 @@ tags:
 - Universal JavaScript
 - Isomorphic JavaScript
 upforgrabs:
-  name: "hotlist: community-help"
+  name: 'hotlist: community-help'
   link: https://github.com/angular/universal/labels/hotlist%3A%20community-help

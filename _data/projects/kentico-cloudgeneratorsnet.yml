@@ -1,5 +1,6 @@
+---
 name: cloud-generators-net
-desc: .NET code generators for Kentico Cloud.
+desc: ".NET code generators for Kentico Cloud."
 site: https://github.com/Kentico/cloud-generators-net
 tags:
 - netcore

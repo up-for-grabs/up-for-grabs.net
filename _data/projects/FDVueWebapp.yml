@@ -1,5 +1,6 @@
+---
 name: Freedomotic Vue Webapp
-desc: A Vue.js web application for Freedomotic Open IoT framework 
+desc: A Vue.js web application for Freedomotic Open IoT framework
 site: http://fd-vue-webapp.herokuapp.com/
 tags:
 - Vue.js

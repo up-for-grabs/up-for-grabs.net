@@ -1,3 +1,4 @@
+---
 name: NEST
 desc: ".NET elasticsearch client"
 site: https://github.com/elastic/elasticsearch-net

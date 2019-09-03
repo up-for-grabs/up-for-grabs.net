@@ -1,8 +1,8 @@
+---
 name: VPN@Home
 desc: 1-click deployment of OpenVPN with DNS ad blocking sinkhole.
 site: https://github.com/ezaquarii/vpn-at-home
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - python
 - openvpn
 - django

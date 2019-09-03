@@ -1,3 +1,4 @@
+---
 name: Sequelize
 desc: An ORM for node.js supporting PostgresQL, MySQL, sqlite and MSSQL
 site: https://github.com/sequelize/sequelize

@@ -1,5 +1,8 @@
+---
 name: Wikivoyage listings
-desc: Extract museums/sights/restaurants/etc information from the online collaborative travel guide and transform the data into SQL/JSON/etc
+desc: >-
+  Extract museums/sights/restaurants/etc information from the online collaborative travel guide and transform
+  the data into SQL/JSON/etc
 site: https://github.com/baturin/wikivoyage-listings
 tags:
 - Java

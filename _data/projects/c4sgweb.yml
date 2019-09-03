@@ -1,5 +1,8 @@
+---
 name: Code for Social Good
-desc: Code for Social Good is a global platform to connect nonprofits and open source developers with technical volunteers.
+desc: >-
+  Code for Social Good is a global platform to connect nonprofits and open source developers with technical
+  volunteers.
 site: https://github.com/Code4SocialGood/c4sg-web
 tags:
 - Angular

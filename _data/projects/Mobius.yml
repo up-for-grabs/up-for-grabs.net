@@ -1,5 +1,6 @@
+---
 name: Mobius
-desc: .NET binding and extensions to Apache Spark
+desc: ".NET binding and extensions to Apache Spark"
 site: https://github.com/Microsoft/Mobius
 tags:
 - ".NET"

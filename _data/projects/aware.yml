@@ -1,5 +1,8 @@
+---
 name: Aware
-desc: Platform for people to raise their opinions and concerns related to environment and pollution in their locality
+desc: >-
+  Platform for people to raise their opinions and concerns related to environment and pollution in their
+  locality
 site: https://github.com/prabhakar267/aware
 tags:
 - python

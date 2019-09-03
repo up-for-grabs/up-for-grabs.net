@@ -1,5 +1,8 @@
+---
 name: Tomorrow
-desc: Tomorrow automatically calculates the climate impact of your daily choices by connecting to apps and services you already use.
+desc: >-
+  Tomorrow automatically calculates the climate impact of your daily choices by connecting to apps and
+  services you already use.
 site: https://www.tmrow.com/
 tags:
 - oss

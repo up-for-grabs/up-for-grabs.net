@@ -115,23 +115,6 @@ def verify_file (f)
       return [f, error]
     end
 
-    yaml.each do |attr_name, attr_value|
-      if attr_value.is_a? String
-        line_content = contents[/#{attr_name}\s?:.+\n/]
-        striped_line = sanitize_yaml_string!(line_content, attr_name)
-        striped_value = strip_or_self!(attr_value)
-
-        content_contains_new_line = striped_line != striped_value
-        has_fold_arrow = line_content == attr_name + ": >"
-        has_multi_line_pipe = line_content == attr_name + ": |"
-
-        if content_contains_new_line && !has_fold_arrow && !has_multi_line_pipe then
-          error = "Multi-line strings must be specified using '>' or '|' for '" + attr_name + "' attribute"
-          return [f, error]
-        end
-      end
-    end
-
   rescue Psych::SyntaxError => e
     error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
     return [f, error]

@@ -1,3 +1,4 @@
+---
 name: ResXResourceManager
 desc: Manage localization of all ResX-Based resources in one central place
 site: https://github.com/tom-englert/ResXResourceManager
@@ -6,7 +7,7 @@ tags:
 - internationalization
 - i18n
 - c#
-- .net
+- ".net"
 - VisualStudio
 - WPF
 - MVVM

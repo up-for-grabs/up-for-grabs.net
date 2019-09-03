@@ -1,5 +1,8 @@
-name: GitLab 
-desc: GitLab is the first single application for the entire DevOps lifecycle.  Everyone can contribute to GitLab
+---
+name: GitLab
+desc: >-
+  GitLab is the first single application for the entire DevOps lifecycle.  Everyone can contribute to
+  GitLab
 site: https://about.gitlab.com
 tags:
 - oss

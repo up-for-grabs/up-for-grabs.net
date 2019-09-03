@@ -1,3 +1,4 @@
+---
 name: dotnet-libyear
 desc: A simple measure of dependency freshness
 site: https://github.com/stevedesmond-ca/dotnet-libyear

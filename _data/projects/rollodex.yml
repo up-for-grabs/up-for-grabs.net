@@ -1,7 +1,8 @@
+---
 name: Roll-o-Dex
-desc: A simple non-player-character directory-builder bot for discord 
+desc: A simple non-player-character directory-builder bot for discord
 site: https://github.com/professionalzack/rollodexjs
-tags: 
+tags:
 - javascript
 - discord
 - bot

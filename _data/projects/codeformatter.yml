@@ -1,3 +1,4 @@
+---
 name: CodeFormatter
 desc: Tool that uses Roslyn to automatically rewrite the source to follow our coding styles
 site: https://github.com/dotnet/codeformatter

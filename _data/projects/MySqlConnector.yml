@@ -1,3 +1,4 @@
+---
 name: MySqlConnector
 desc: Async MySQL ADO.NET library for .NET and .NET Core
 site: https://github.com/mysql-net/MySqlConnector

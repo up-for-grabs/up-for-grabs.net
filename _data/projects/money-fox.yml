@@ -1,5 +1,6 @@
+---
 name: Money Fox
-desc: "A way to make budgeting easy. A basic idea for the community, made even better by the community."
+desc: A way to make budgeting easy. A basic idea for the community, made even better by the community.
 site: https://github.com/MoneyFox/MoneyFox
 tags:
 - ".net"

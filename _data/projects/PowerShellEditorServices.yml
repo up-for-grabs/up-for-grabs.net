@@ -1,3 +1,4 @@
+---
 name: PowerShell Editor Services
 desc: Provides language and debugging services for developing PowerShell scripts in any code editor
 site: https://github.com/PowerShell/PowerShellEditorServices

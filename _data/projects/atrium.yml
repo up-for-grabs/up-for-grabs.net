@@ -1,8 +1,8 @@
+---
 name: Atrium
 desc: A multiplatform assertion library for Kotlin
 site: https://atriumlib.org
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - kotlin
 - assertions
 - multiplatform

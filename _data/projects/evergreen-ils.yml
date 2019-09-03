@@ -1,8 +1,10 @@
+---
 name: Evergreen
-desc: Highly-scalable software for libraries that helps library patrons find library materials, and helps libraries manage, catalog, and circulate those materials.
+desc: >-
+  Highly-scalable software for libraries that helps library patrons find library materials, and helps
+  libraries manage, catalog, and circulate those materials.
 site: https://evergreen-ils.org/
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - perl
 - angular
 - postgresql

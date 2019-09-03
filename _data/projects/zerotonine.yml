@@ -1,3 +1,4 @@
+---
 name: ZeroToNine
 desc: A tool for maintaining .NET Assembly versions across multiple source files.
 site: https://github.com/ploeh/ZeroToNine

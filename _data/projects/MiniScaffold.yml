@@ -1,5 +1,8 @@
+---
 name: MiniScaffold
-desc: F# Template for creating and publishing libraries targeting .NET Full (net461) and Core (netstandard1.6, netstandard2.0)
+desc: >-
+  F# Template for creating and publishing libraries targeting .NET Full (net461) and Core (netstandard1.6,
+  netstandard2.0)
 site: https://github.com/TheAngryByrd/MiniScaffold
 tags:
 - F#

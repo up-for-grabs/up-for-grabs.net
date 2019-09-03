@@ -1,5 +1,8 @@
+---
 name: FileHelpers Library
-desc: FileHelpers is a free and easy to use .NET library to import or export data from fixed length or delimited records in files, strings or streams.
+desc: >-
+  FileHelpers is a free and easy to use .NET library to import or export data from fixed length or delimited
+  records in files, strings or streams.
 site: http://www.filehelpers.net
 tags:
 - CSV

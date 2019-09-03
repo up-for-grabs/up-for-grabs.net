@@ -1,5 +1,7 @@
+---
 name: libnss_aad
-desc: Name Service Switch (NSS) Module for performing user lookups against the Azure Active Directory (AAD).
+desc: >-
+  Name Service Switch (NSS) Module for performing user lookups against the Azure Active Directory (AAD).
 site: https://github.com/CyberNinjas/libnss_aad
 tags:
 - c

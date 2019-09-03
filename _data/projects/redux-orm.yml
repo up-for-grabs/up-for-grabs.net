@@ -1,3 +1,4 @@
+---
 name: Redux-ORM
 desc: A small, simple and immutable ORM to manage relational data in your Redux store.
 site: https://github.com/redux-orm/redux-orm

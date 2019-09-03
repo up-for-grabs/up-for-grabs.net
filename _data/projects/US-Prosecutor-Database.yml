@@ -1,5 +1,8 @@
+---
 name: U.S. Prosecutor Database
-desc: A searchable resource that contains contact information, relevant articles, and other data about U.S. Prosecutors.
+desc: >-
+  A searchable resource that contains contact information, relevant articles, and other data about U.S.
+  Prosecutors.
 site: https://light-pollution.herokuapp.com
 tags:
 - meteor

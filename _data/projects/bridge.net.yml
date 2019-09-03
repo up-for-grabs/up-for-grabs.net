@@ -1,5 +1,8 @@
+---
 name: Bridge.NET
-desc: C# to JavaScript compiler and frameworks. Build mobile, web and desktop apps in C#. Run on any device using JavaScript.
+desc: >-
+  C# to JavaScript compiler and frameworks. Build mobile, web and desktop apps in C#. Run on any device
+  using JavaScript.
 site: http://bridge.net
 tags:
 - ".NET"

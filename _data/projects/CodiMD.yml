@@ -1,3 +1,4 @@
+---
 name: CodiMD
 desc: Realtime collaborative markdown notes
 site: https://github.com/codimd/server
@@ -12,5 +13,5 @@ tags:
 - HTML
 - JavaScript
 upforgrabs:
-  name: 'good first issue'
+  name: good first issue
   link: https://github.com/codimd/server/labels/good%20first%20issue

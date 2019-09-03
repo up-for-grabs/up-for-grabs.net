@@ -1,9 +1,13 @@
+---
 name: OWAT
-desc: Obfuscation With A Twist; a protocol for obfuscating and un-obfuscating data inspired by the Rubik's Cube.
+desc: >-
+  Obfuscation With A Twist; a protocol for obfuscating and un-obfuscating data inspired by the Rubik's
+  Cube.
 site: https://github.com/Epic-Breakfast-Productions/OWAT
 tags:
 - java
 - gradle
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Epic-Breakfast-Productions/OWAT/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+  link: >-
+    https://github.com/Epic-Breakfast-Productions/OWAT/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

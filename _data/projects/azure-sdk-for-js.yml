@@ -1,5 +1,7 @@
+---
 name: Microsoft Azure SDK for JavaScript
-desc: This repository contains official JavaScript libraries and TypeScript definitions for Azure services.
+desc: >-
+  This repository contains official JavaScript libraries and TypeScript definitions for Azure services.
 site: https://github.com/Azure/azure-sdk-for-js
 tags:
 - javascript

@@ -1,5 +1,6 @@
+---
 name: PyBeacon
-desc: Python script for scanning and advertising urls over Eddystone-URL. 
+desc: Python script for scanning and advertising urls over Eddystone-URL.
 site: https://github.com/nirmankarta/PyBeacon
 tags:
 - python

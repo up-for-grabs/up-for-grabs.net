@@ -1,5 +1,6 @@
+---
 name: Chocolatey CLI
-desc: "Chocolatey - like yum or apt-get, but for Windows"
+desc: Chocolatey - like yum or apt-get, but for Windows
 site: https://github.com/chocolatey/choco
 tags:
 - Chocolatey

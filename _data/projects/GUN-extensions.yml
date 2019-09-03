@@ -1,5 +1,8 @@
+---
 name: gun extensions
-desc: GUN is an extensible, realtime, decentralized, offline-first, graph database engine.  These tasks are for extensions.  Core code is available at https://github.com/amark/gun.
+desc: >-
+  GUN is an extensible, realtime, decentralized, offline-first, graph database engine.  These tasks are
+  for extensions.  Core code is available at https://github.com/amark/gun.
 site: http://gun.js.org/
 tags:
 - JavaScript

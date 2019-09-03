@@ -1,3 +1,4 @@
+---
 name: ImageProcessor
 desc: A library for on-the-fly processing of image files written in C#
 site: https://github.com/JimBobSquarePants/ImageProcessor/

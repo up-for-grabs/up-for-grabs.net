@@ -1,3 +1,4 @@
+---
 name: Forge
 desc: F# CLI tool for project, file, and solution management
 site: https://github.com/ionide/Forge

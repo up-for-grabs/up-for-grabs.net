@@ -1,3 +1,4 @@
+---
 name: stream_ext
 desc: A port of the Rx functions to make Dart's Stream type even easier to use
 site: https://theburningmonk.github.io/stream_ext/

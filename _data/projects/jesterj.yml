@@ -1,8 +1,8 @@
+---
 name: JesterJ
-desc: Free Open Source Search focused Document Ingestion system. 
+desc: Free Open Source Search focused Document Ingestion system.
 site: http://www.jesterj.org/
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - search
 - etl
 - java

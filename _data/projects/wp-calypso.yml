@@ -1,6 +1,6 @@
+---
 name: wp-calypso
-desc: >
-  The new JavaScript- and API-powered WordPress.com.
+desc: The new JavaScript- and API-powered WordPress.com.
 site: https://developer.wordpress.com/calypso/
 tags:
 - javascript

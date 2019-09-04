@@ -1,5 +1,5 @@
 on:
-  schedules:
+  schedule:
   - cron: 0 18 * * 0
 name: Project Cleanup
 jobs:

@@ -10,5 +10,4 @@ tags:
 - UI
 upforgrabs:
   name: good first issue
-  link: >-
-    https://github.com/styleguidist/react-styleguidist/issues?q=is%3Aissue+is%3Aopen+label%3A%22good%20first%20issue%22
+  link: https://github.com/styleguidist/react-styleguidist/labels/good%20first%20issue

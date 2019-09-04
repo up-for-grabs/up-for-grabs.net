@@ -7,5 +7,5 @@ tags:
 - Maps
 - GIS
 upforgrabs:
-  name: easy fix
-  link: https://github.com/Leaflet/Leaflet/labels/easy%20fix
+  name: good first issue
+  link: https://github.com/Leaflet/Leaflet/labels/good%20first%20issue

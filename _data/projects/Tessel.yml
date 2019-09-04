@@ -27,4 +27,4 @@ tags:
 - open governance
 upforgrabs:
   name: contribution-starter
-  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Acontribution-starter+user%3Atessel
+  link: https://github.com/tessel/project/labels/contribution-starter

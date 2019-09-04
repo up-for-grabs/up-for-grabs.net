@@ -9,4 +9,4 @@ tags:
 - jquery
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/matronator/feed-the-flames/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs
+  link: https://github.com/matronator/feed-the-flames/labels/up-for-grabs

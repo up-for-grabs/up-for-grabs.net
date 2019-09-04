@@ -23,5 +23,5 @@ tags:
 - signalfx
 - application insights
 upforgrabs:
-  name: help wanted
-  link: https://github.com/census-instrumentation/opencensus-go/labels/help%20wanted
+  name: up-for-grabs
+  link: https://github.com/census-instrumentation/opencensus-go/labels/up-for-grabs

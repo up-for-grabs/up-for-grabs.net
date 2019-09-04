@@ -16,5 +16,5 @@ tags:
 - rts
 - A-Star
 upforgrabs:
-  name: easy
-  link: https://github.com/OpenRA/OpenRA/labels/easy
+  name: Easy
+  link: https://github.com/OpenRA/OpenRA/labels/Easy

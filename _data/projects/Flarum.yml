@@ -8,5 +8,5 @@ tags:
 - forum
 - community
 upforgrabs:
-  name: Good for New Contributors
-  link: https://github.com/flarum/core/labels/Good%20for%20New%20Contributors
+  name: Good first issue
+  link: https://github.com/flarum/core/labels/Good%20first%20issue

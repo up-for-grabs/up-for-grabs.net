@@ -10,5 +10,5 @@ tags:
 - Content Management System
 - Content Management Systems
 upforgrabs:
-  name: audience - novice
-  link: https://github.com/backdrop/backdrop-issues/labels/audience%20-%20novice
+  name: good first issue
+  link: https://github.com/backdrop/backdrop-issues/labels/good%20first%20issue

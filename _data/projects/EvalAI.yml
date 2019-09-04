@@ -17,5 +17,4 @@ tags:
 - reproducible-research
 upforgrabs:
   name: easy_to_fix
-  link: >-
-    https://github.com/Cloud-CV/EvalAI/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20is%3Aeasy_to_fix%20
+  link: https://github.com/Cloud-CV/EvalAI/labels/easy_to_fix

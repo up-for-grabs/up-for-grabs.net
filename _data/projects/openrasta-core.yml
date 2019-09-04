@@ -9,5 +9,5 @@ tags:
 - REST
 - Web
 upforgrabs:
-  name: Up For Grabs
-  link: https://github.com/openrasta/openrasta-core/labels/Up%20For%20Grabs
+  name: good first issue
+  link: https://github.com/openrasta/openrasta-core/labels/good%20first%20issue

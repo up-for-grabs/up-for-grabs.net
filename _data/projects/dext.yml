@@ -10,5 +10,6 @@ tags:
 - JavaScript
 - node
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/DextApp/dext/labels/up-for-grabs
+  name: "Type: help-wanted \U0001F481‍♂️"
+  link: >-
+    https://github.com/DextApp/dext/labels/Type%3A%20help-wanted%20%F0%9F%92%81%E2%80%8D%E2%99%82%EF%B8%8F

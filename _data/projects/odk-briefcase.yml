@@ -9,5 +9,5 @@ tags:
 - global-development
 - data-collection
 upforgrabs:
-  name: quick win
-  link: https://github.com/opendatakit/briefcase/labels/quick%20win
+  name: good first issue
+  link: https://github.com/opendatakit/briefcase/labels/good%20first%20issue

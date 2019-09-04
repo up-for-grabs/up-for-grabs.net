@@ -9,5 +9,5 @@ tags:
 - code analysis
 - static analysis
 upforgrabs:
-  name: Include Gardener
-  link: https://github.com/feddischson/include_gardener/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs
+  name: up-for-grabs
+  link: https://github.com/feddischson/include_gardener/labels/up-for-grabs

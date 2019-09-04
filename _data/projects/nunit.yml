@@ -13,5 +13,5 @@ tags:
 - TDD
 - OSS
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/nunit/nunit/labels/up-for-grabs
+  name: good first issue
+  link: https://github.com/nunit/nunit/labels/good%20first%20issue

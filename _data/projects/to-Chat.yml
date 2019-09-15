@@ -1,0 +1,14 @@
+name: to-Chat (2C)
+desc: A chat box that lets you create group sessions for conversation, without the hassle of logging in.
+site: https://github.com/SamarthRanjanRay/2C
+tags:
+- *nodejs*
+- *js*
+- *chat*
+- *chatbox*
+- *group*
+- *conversation*
+- *room*
+upforgrabs:
+  name: Improve the UI
+  link: https://github.com/SamarthRanjanRay/2C/issues/1

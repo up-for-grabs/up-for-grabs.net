@@ -1,0 +1,12 @@
+---
+name: Maven test bench
+desc: Performance test bench for Apache Maven project.
+site: https://github.com/quick-perf/maven-test-bench
+tags:
+- maven
+- java
+- performance
+- quickperf
+upforgrabs:
+  name: good first issue
+  link: https://github.com/quick-perf/maven-test-bench/issues?q=is%3Aissue+is%3Aopen+label%3A%22%3Athumbsup%3A+good+first+issue%22

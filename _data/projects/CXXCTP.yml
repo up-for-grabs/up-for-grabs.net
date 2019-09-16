@@ -1,0 +1,29 @@
+---
+name: CXXCTP
+desc: C++ compile-time programming (serialization, reflection, code modification, enum to string, better enum, enum to json, extend or parse language, etc.)
+site: https://github.com/blockspacer/CXXCTP/
+tags:
+- clang
+- cling
+- libtooling
+- cpp
+- cpp11
+- cpp14
+- cpp17
+- reflection
+- serialization
+- metaclasses
+- injection
+- refactoring
+- codestyle
+- cplusplus
+- preprocessor
+- llvm
+- static-analysis
+- introspection
+- transpiling
+- source-to-source
+
+upforgrabs:
+  name: help wanted
+  link: https://github.com/blockspacer/CXXCTP/labels/help%20wanted

@@ -1,0 +1,8 @@
+name: IT Reactor
+desc: IT Reactor is a project designed to become Continous Delivery center that will host a variety of Open Source and Startups projects.
+site: http://agency-icole.github.io
+tags:
+- cicd
+upforgrabs:
+  name: help needed
+  link: https://trello.com/b/KSd4Jm02/agency-icole

@@ -88,7 +88,7 @@ describe('ProjectsService', function() {
     it.skip('should return shuffled projects list', function() {
       const firstProject = sampleProjects[0];
 
-      var projects = projectsService.get();
+      const projects = projectsService.get();
 
       // TODO: this test is dependent on sort order and may fail because the test
       //       list of projects only contains two projects
@@ -97,51 +97,51 @@ describe('ProjectsService', function() {
 
     describe('when get method is called with tags parameter as a string', function() {
       it('should return all projects associated with those tags', function() {
-        var projects = projectsService.get('web');
+        const projects = projectsService.get('web');
         expect(projects.length).toBe(1);
       });
 
       it('should match the tags after trimming leading and trailing spaces', function() {
-        var projects = projectsService.get(' web ');
+        const projects = projectsService.get(' web ');
         expect(projects.length).toBe(1);
       });
     });
 
     describe('when get method is called with tags array containing both matching and non matching tags', function() {
       it('should return projects for the matching tags and ignore non matching tag', function() {
-        var projects = projectsService.get(['c#', 'Oops']);
+        const projects = projectsService.get(['c#', 'Oops']);
         expect(projects.length).toBe(2);
       });
     });
 
     describe('Expect multiple filters to work tremendously good', function() {
       it('If it does not take any filters then it should return projects', function() {
-        var projects = projectsService.get(undefined, undefined, undefined);
+        const projects = projectsService.get(undefined, undefined, undefined);
         expect(projects.length).toBe(2);
       });
 
       it('Should take a name filter and tag filter with no issues', function() {
-        var projects = projectsService.get(['c#'], ['0'], undefined);
+        const projects = projectsService.get(['c#'], ['0'], undefined);
         expect(projects.length).toBe(1);
       });
 
       it('Should take a name filter and wrong tag filter and expect nothing', function() {
-        var projects = projectsService.get(['web'], ['1'], undefined);
+        const projects = projectsService.get(['web'], ['1'], undefined);
         expect(projects.length).toBe(0);
       });
 
       it('Should take a name filter and label filter with no issues', function() {
-        var projects = projectsService.get(undefined, ['1'], ['1']);
+        const projects = projectsService.get(undefined, ['1'], ['1']);
         expect(projects.length).toBe(1);
       });
 
       it('Should take a tag filter and label filter with no issues', function() {
-        var projects = projectsService.get(['c#'], undefined, ['1']);
+        const projects = projectsService.get(['c#'], undefined, ['1']);
         expect(projects.length).toBe(1);
       });
 
       it('Should take all three filters and return a project', function() {
-        var projects = projectsService.get(['c#'], ['1'], ['1']);
+        const projects = projectsService.get(['c#'], ['1'], ['1']);
         expect(projects.length).toBe(1);
       });
     });

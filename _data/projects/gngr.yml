@@ -1,6 +1,7 @@
+---
 name: gngr
 desc: a cross-platform browser that champions privacy
-site : https://github.com/UprootLabs/gngr
+site: https://github.com/UprootLabs/gngr
 tags:
 - java
 - browser

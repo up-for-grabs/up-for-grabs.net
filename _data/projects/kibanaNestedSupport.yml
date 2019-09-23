@@ -1,0 +1,13 @@
+---
+name: KibanaNestedSupportPlugin
+desc: Kibana Support for nested objects
+site: https://github.com/ppadovani/KibanaNestedSupportPlugin
+tags:
+- kibana
+- javascript
+- react
+- angular
+- web
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ppadovani/KibanaNestedSupportPlugin/labels/up-for-grabs

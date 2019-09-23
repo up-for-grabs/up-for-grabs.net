@@ -1,6 +1,6 @@
+---
 name: wordpress
-desc: >
-  WordPress is web software you can use to create a beautiful website, blog, or app.
+desc: WordPress is web software you can use to create a beautiful website, blog, or app.
 site: https://wordpress.org/
 tags:
 - PHP

@@ -1,3 +1,4 @@
+---
 name: Flappy SVG
 desc: A Flappy Bird game based on Support Vector Grafics
 site: https://fossasia.github.io/flappy-svg/
@@ -8,4 +9,4 @@ tags:
 - game
 upforgrabs:
   name: easy
-  link: https://github.com/fossasia/flappy-svg/issues?q=is%3Aissue+is%3Aopen+label%3Aeasy
+  link: https://github.com/fossasia/flappy-svg/labels/easy

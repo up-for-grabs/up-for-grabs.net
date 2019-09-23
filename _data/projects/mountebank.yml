@@ -1,3 +1,4 @@
+---
 name: mountebank
 desc: Over the wire test doubles for http/s, tcp, and smtp
 site: http://mbtest.org
@@ -12,5 +13,5 @@ tags:
 - smtp
 - email
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/bbyars/mountebank/labels/up-for-grabs
+  name: Beginner experience
+  link: https://github.com/bbyars/mountebank/labels/Beginner%20experience

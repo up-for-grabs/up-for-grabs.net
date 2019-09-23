@@ -1,3 +1,4 @@
+---
 name: Hoodie
 desc: Backend for Offline First Applications
 site: http://hood.ie
@@ -7,5 +8,5 @@ tags:
 - offlinefirst
 - nobackend
 upforgrabs:
-  name: up for grabs
-  link: https://github.com/hoodiehq/camp/labels/up%20for%20grabs
+  name: first-timers-only
+  link: https://github.com/hoodiehq/camp/labels/first-timers-only

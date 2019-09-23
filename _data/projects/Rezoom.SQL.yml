@@ -1,3 +1,4 @@
+---
 name: Rezoom.SQL
 desc: Statically typechecks a common SQL dialect and translates it to various RDBMS backends
 site: https://github.com/rspeele/Rezoom.SQL

@@ -1,8 +1,8 @@
-name: yes
+---
+name: 'yes'
 desc: Implementation of yes UNIX command in various languages
 site: https://github.com/mubaris/yes
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - linux
 - commands
 - noobs

@@ -1,8 +1,8 @@
+---
 name: Monaco language client
 desc: NPM module to connect Monaco editor with language servers
 site: https://github.com/TypeFox/monaco-languageclient
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - javascript
 - typescript
 - web

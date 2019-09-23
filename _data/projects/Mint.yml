@@ -1,5 +1,6 @@
+---
 name: Mint
-desc: Mint is financial tracking app made on node js 
+desc: Mint is financial tracking app made on node js
 site: https://github.com/treyhboy/Mint
 tags:
 - nodejs
@@ -20,4 +21,4 @@ tags:
 - web
 upforgrabs:
   name: Up-for-Grabs
-  link: https://github.com/treyhboy/Mint/issues?q=is%3Aissue+is%3Aopen+label%3AUp-for-Grabs
+  link: https://github.com/treyhboy/Mint/labels/Up-for-Grabs

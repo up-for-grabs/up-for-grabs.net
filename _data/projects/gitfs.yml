@@ -1,3 +1,4 @@
+---
 name: gitfs
 desc: gitfs is a FUSE file system that fully integrates with git
 site: https://www.presslabs.com/gitfs/
@@ -9,4 +10,4 @@ tags:
 - filesystem
 upforgrabs:
   name: easy
-  link: https://github.com/PressLabs/gitfs/labels/easy
+  link: https://github.com/presslabs/gitfs/labels/easy

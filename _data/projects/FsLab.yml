@@ -1,5 +1,6 @@
+---
 name: FsLab
-desc: FsLab and FsLab.Runner packages and Journal template 
+desc: FsLab and FsLab.Runner packages and Journal template
 site: https://github.com/fslaborg/FsLab
 tags:
 - F#

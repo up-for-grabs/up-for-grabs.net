@@ -1,12 +1,23 @@
-(function($) {
+// @ts-nocheck
+
+define([
+  'jquery',
+  'projectsService',
+  'fetchIssueCount',
+  'underscore',
+  'sammy',
+  // chosen is listed here as a dependency because it's used from a jQuery
+  // selector, and needs to be ready before this code runs
+  'chosen',
+], ($, ProjectsService, fetchIssueCount, _, sammy) => {
   var projectsSvc = new ProjectsService(projects),
     compiledtemplateFn = null,
     projectsPanel = null;
 
   var getFilterUrl = function() {
-    return location.href.indexOf("/#/filters") > -1
+    return location.href.indexOf('/#/filters') > -1
       ? location.href
-      : location.href + "filters";
+      : location.href + 'filters';
   };
 
   var renderProjects = function(tags, names, labels) {
@@ -24,71 +35,71 @@
     );
 
     projectsPanel
-      .find("select.tags-filter")
+      .find('select.tags-filter')
       .chosen({
-        no_results_text: "No tags found by that name.",
-        width: "95%",
+        no_results_text: 'No tags found by that name.',
+        width: '95%',
       })
       .val(tags)
-      .trigger("chosen:updated")
+      .trigger('chosen:updated')
       .change(function() {
         location.href = updateQueryStringParameter(
           getFilterUrl(),
-          "tags",
-          encodeURIComponent($(this).val() || "")
+          'tags',
+          encodeURIComponent($(this).val() || '')
         );
       });
 
     projectsPanel
-      .find("select.names-filter")
+      .find('select.names-filter')
       .chosen({
         search_contains: true,
-        no_results_text: "No project found by that name.",
-        width: "95%",
+        no_results_text: 'No project found by that name.',
+        width: '95%',
       })
       .val(names)
-      .trigger("chosen:updated")
+      .trigger('chosen:updated')
       .change(function() {
         location.href = updateQueryStringParameter(
           getFilterUrl(),
-          "names",
-          encodeURIComponent($(this).val() || "")
+          'names',
+          encodeURIComponent($(this).val() || '')
         );
       });
 
     projectsPanel
-      .find("select.labels-filter")
+      .find('select.labels-filter')
       .chosen({
-        no_results_text: "No project found by that label.",
-        width: "95%",
+        no_results_text: 'No project found by that label.',
+        width: '95%',
       })
       .val(labels)
-      .trigger("chosen:updated")
+      .trigger('chosen:updated')
       .change(function() {
         location.href = updateQueryStringParameter(
           getFilterUrl(),
-          "labels",
-          encodeURIComponent($(this).val() || "")
+          'labels',
+          encodeURIComponent($(this).val() || '')
         );
       });
 
     projectsPanel
-      .find("ul.popular-tags")
+      .find('ul.popular-tags')
       .children()
       .each(function(i, elem) {
-        $(elem).on("click", function() {
-          selTags = $(".tags-filter").val() || [];
-          selectedTag = preparePopTagName($(this).text() || "");
+        $(elem).on('click', function() {
+          selTags = $('.tags-filter').val() || [];
+          selectedTag = preparePopTagName($(this).text() || '');
           if (selectedTag) {
             tagID = projectsSvc
               .getTags()
               .map(tag => tag.name.toLowerCase())
               .indexOf(selectedTag);
             if (tagID !== -1) {
-              selTags.push(tagID);
+              selTags.push(selectedTag);
               location.href = updateQueryStringParameter(
                 getFilterUrl(),
-                "tags",
+                'tags',
                 encodeURIComponent(selTags)
               );
             }
@@ -103,8 +114,8 @@
     @return string - The value of the Name
   */
   var preparePopTagName = function(name) {
-    if (name === "") return "";
-    return name.toLowerCase().split(" ")[0];
+    if (name === '') return '';
+    return name.toLowerCase().split(' ')[0];
   };
 
   /**
@@ -112,13 +123,13 @@
    * @return string - The value of the URL when adding/removing values to it.
    */
   var updateQueryStringParameter = function(uri, key, value) {
-    var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
-    var separator = uri.indexOf("?") !== -1 ? "&" : "?";
+    var re = new RegExp('([?&])' + key + '=.*?(&|$)', 'i');
+    var separator = uri.indexOf('?') !== -1 ? '&' : '?';
     if (uri.match(re)) {
-      return uri.replace(re, "$1" + key + "=" + value + "$2");
+      return uri.replace(re, '$1' + key + '=' + value + '$2');
     }
 
-    return uri + separator + key + "=" + value;
+    return uri + separator + key + '=' + value;
   };
 
   /**
@@ -130,12 +141,12 @@
    */
   var getParameterByName = function(name, url) {
     if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
       results = regex.exec(url);
     if (!results) return null;
-    if (!results[2]) return "";
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
   };
 
   /**
@@ -146,15 +157,15 @@
   $(window).scroll(function() {
     var height = $(window).scrollTop();
     if (height > 100) {
-      $("#back2Top").fadeIn();
+      $('#back2Top').fadeIn();
     } else {
-      $("#back2Top").fadeOut();
+      $('#back2Top').fadeOut();
     }
   });
   $(document).ready(function() {
-    $("#back2Top").click(function(event) {
+    $('#back2Top').click(function(event) {
       event.preventDefault();
-      $("html, body").animate({ scrollTop: 0 }, "slow");
+      $('html, body').animate({ scrollTop: 0 }, 'slow');
       return false;
     });
   });
@@ -166,64 +177,33 @@
    * @return Array - Returns an array of splitted values if given a text. Otherwise undefined
    */
   var prepareForHTML = function(text) {
-    return text ? text.toLowerCase().split(",") : text;
+    return text ? text.toLowerCase().split(',') : text;
   };
 
-  var app = $.sammy(function() {
+  var app = sammy(function() {
     /*
      * This is the route used to filter by tags/names/labels
      * It ensures to read values from the URI query param and perform actions
      * based on that. NOTE: It has major side effects on the browser.
      */
-    this.get("#/filters", function() {
-      var labels = prepareForHTML(getParameterByName("labels"));
-      var names = prepareForHTML(getParameterByName("names"));
-      var tags = prepareForHTML(getParameterByName("tags"));
+    this.get('#/filters', function() {
+      var labels = prepareForHTML(getParameterByName('labels'));
+      var names = prepareForHTML(getParameterByName('names'));
+      var tags = prepareForHTML(getParameterByName('tags'));
       renderProjects(tags, names, labels);
     });
 
-    this.get("#/", function() {
+    this.get('#/', function() {
       renderProjects();
     });
   });
 
-  var storage = (function(global) {
-    function set(name, value) {
-      try {
-        if (typeof global.localStorage !== "undefined") {
-          global.localStorage.setItem(name, JSON.stringify(value));
-        }
-      } catch (exception) {
-        if (
-          exception != QUOTA_EXCEEDED_ERR &&
-          exception != NS_ERROR_DOM_QUOTA_REACHED
-        ) {
-          throw exception;
-        }
-      }
-    }
-
-    function get(name) {
-      if (typeof global.localStorage !== "undefined") {
-        return JSON.parse(global.localStorage.getItem(name));
-      }
-      return undefined;
-    }
-
-    return {
-      set: set,
-      get: get,
-    };
-  })(window);
-
   var issueCount = function(project) {
-    var a = $(project).find(".label a"),
+    var a = $(project).find('.label a'),
       gh = a
-        .attr("href")
+        .attr('href')
         .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/),
-      url =
-        gh && "https://api.github.com/repos" + gh[1] + "issues?labels=" + gh[2],
-      count = a.find(".count");
+      count = a.find('.count');
 
     if (count.length) {
       return;
@@ -231,55 +211,28 @@
 
     if (!gh) {
       count = $(
-        /* eslint-disable-next-line quotes */
         '<span class="count" title="Issue count is only available for projects on GitHub.">?</span>'
       ).appendTo(a);
       return;
     }
 
     count = $(
-      /* eslint-disable-next-line quotes */
       '<span class="count"><img src="images/octocat-spinner-32.gif" /></span>'
     ).appendTo(a);
-    var cached = storage.get(gh[1]);
-    if (
-      cached &&
-      cached.date &&
-      new Date(cached.date) >= new Date() - 1000 * 60 * 60 * 24
-    ) {
-      count.html(cached.count);
-      return;
-    }
 
-    $.ajax(url)
-      .done(function(data) {
-        var resultCount =
-          data && typeof data.length === "number"
-            ? data.length.toString()
-            : "?";
+    const ownerAndName = gh[1];
+    const labelEncoded = gh[2];
+
+    fetchIssueCount(ownerAndName, labelEncoded).then(
+      function(resultCount) {
         count.html(resultCount);
-        storage.set(gh[1], {
-          count: resultCount,
-          date: new Date(),
-        });
-      })
-      .fail(function(jqXHR, textStatus, errorThrown) {
-        var rateLimited =
-            jqXHR.getResponseHeader("X-RateLimit-Remaining") === "0",
-          rateLimitReset =
-            rateLimited &&
-            new Date(1000 * +jqXHR.getResponseHeader("X-RateLimit-Reset")),
-          message = rateLimitReset
-            ? "GitHub rate limit met. Reset at " +
-              rateLimitReset.toLocaleTimeString() +
-              "."
-            : "Could not get issue count from GitHub: " +
-              ((jqXHR.responseJSON && jqXHR.responseJSON.message) ||
-                errorThrown) +
-              ".";
-        count.html("?!");
-        count.attr("title", message);
-      });
+      },
+      function(error) {
+        const message = error.message ? error.message : error;
+        count.html('?!');
+        count.attr('title', message);
+      }
+    );
   };
 
   $(function() {
@@ -295,33 +248,33 @@
         );
       };
 
-    $window.on("scroll chosen:updated", function() {
-      $(".projects tbody:not(.counted)").each(function() {
+    $window.on('scroll chosen:updated', function() {
+      $('.projects tbody:not(.counted)').each(function() {
         var project = $(this);
         if (onScreen(project)) {
           issueCount(project);
-          project.addClass("counted");
+          project.addClass('counted');
         }
       });
     });
 
-    compiledtemplateFn = _.template($("#projects-panel-template").html());
-    projectsPanel = $("#projects-panel");
+    compiledtemplateFn = _.template($('#projects-panel-template').html());
+    projectsPanel = $('#projects-panel');
 
-    projectsPanel.on("click", "a.remove-tag", function(e) {
+    projectsPanel.on('click', 'a.remove-tag', function(e) {
       e.preventDefault();
       var tags = [];
       projectsPanel
-        .find("a.remove-tag")
+        .find('a.remove-tag')
         .not(this)
         .each(function() {
-          tags.push($(this).data("tag"));
+          tags.push($(this).data('tag'));
         });
-      var tagsString = tags.join(",");
-      window.location.href = "#/tags/" + tagsString;
+      var tagsString = tags.join(',');
+      window.location.href = '#/tags/' + tagsString;
     });
 
     app.raise_errors = true;
-    app.run("#/");
+    app.run('#/');
   });
-})(jQuery);
+});

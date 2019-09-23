@@ -1,3 +1,4 @@
+---
 name: JsonFlatFileDataStore
 desc: Simple JSON flat file data store with support for typed and dynamic data.
 site: https://github.com/ttu/json-flatfile-datastore

@@ -1,3 +1,4 @@
+---
 name: fez
 desc: F# to core erlang compiler experiment
 site: https://github.com/kjnilsson/fez

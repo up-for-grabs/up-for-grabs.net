@@ -1,3 +1,4 @@
+---
 name: SparkleShare
 desc: Share and collaborate by syncing with any Git repository instantly. Linux, macOS, and Windows
 site: https://www.sparkleshare.org/
@@ -31,4 +32,4 @@ tags:
 - encrypt
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/hbons/SparkleShare/issues/labels/up-for-grabs
+  link: https://github.com/hbons/SparkleShare/labels/up-for-grabs

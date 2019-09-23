@@ -1,3 +1,4 @@
+---
 name: S3Provider
 desc: Experimental type provider for Amazon S3
 site: https://github.com/fsprojects/S3Provider

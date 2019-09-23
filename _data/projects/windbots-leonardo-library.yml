@@ -1,5 +1,7 @@
+---
 name: WindBot's Leonardo Library
-desc: Leonardo Library is a pack of functions created with a view to ease and fasten WindBot scripts' development.
+desc: >-
+  Leonardo Library is a pack of functions created with a view to ease and fasten WindBot scripts' development.
 site: https://github.com/Tibia-WindBot/leonardo-library
 tags:
 - lua

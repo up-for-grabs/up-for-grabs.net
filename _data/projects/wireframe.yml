@@ -1,3 +1,4 @@
+---
 name: Wireframe
 desc: minimal wireframing css-framework
 site: https://github.com/agauniyal/wireframe
@@ -11,7 +12,6 @@ tags:
 - gulp
 - node
 - nodejs
-
 upforgrabs:
   name: help wanted
   link: https://github.com/agauniyal/wireframe/labels/help%20wanted

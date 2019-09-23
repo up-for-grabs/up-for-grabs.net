@@ -1,3 +1,4 @@
+---
 name: delivery-sdk-java
 desc: Kentico Cloud Delivery Java SDK.
 site: https://github.com/Kentico/delivery-sdk-java
@@ -8,6 +9,7 @@ tags:
 - sdk
 - cms
 - headless-cms
+- caas
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/delivery-sdk-java/labels/up-for-grabs

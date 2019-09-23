@@ -1,5 +1,8 @@
+---
 name: Bootstrap
-desc: The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+desc: >-
+  The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects
+  on the web.
 site: https://getbootstrap.com
 tags:
 - bootstrap
@@ -15,4 +18,3 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/twbs/bootstrap/labels/help%20wanted
-  

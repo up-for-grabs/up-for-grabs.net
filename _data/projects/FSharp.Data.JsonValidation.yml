@@ -1,3 +1,4 @@
+---
 name: FSharp.Data.JsonValidation
 desc: A nifty little DSL for validating JSON against expected schemas.
 site: https://matrixsolutions.github.io/FSharp.Data.JsonValidation/

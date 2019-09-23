@@ -1,3 +1,4 @@
+---
 name: fszmq
 desc: An F# binding for the ZeroMQ distributed computing library.
 site: https://github.com/zeromq/fszmq

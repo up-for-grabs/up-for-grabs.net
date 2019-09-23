@@ -1,5 +1,8 @@
+---
 name: ownCloud
-desc: A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any device, on your terms.
+desc: >-
+  A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any
+  device, on your terms.
 site: https://owncloud.org
 tags:
 - javascript

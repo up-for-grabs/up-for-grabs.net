@@ -1,3 +1,4 @@
+---
 name: Refulang
 desc: A hybrid language with a strong type system based on algebraic data types.
 site: https://github.com/refu-lang/refu
@@ -11,4 +12,4 @@ tags:
 - c
 upforgrabs:
   name: low_hanging_fruit
-  link: https://github.com/refu-lang/refu/issues?q=is%3Aissue+is%3Aopen+label%3Alow_hanging_fruit
+  link: https://github.com/refu-lang/refu/labels/low_hanging_fruit

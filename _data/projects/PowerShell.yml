@@ -1,5 +1,6 @@
+---
 name: PowerShell
-desc: PowerShell for every system! 
+desc: PowerShell for every system!
 site: https://github.com/powershell/powershell
 tags:
 - oss

@@ -1,22 +1,43 @@
-(function(host, _) {
-  var applyTagsFilter = function(projects, tagsMap, tags) {
-    if (typeof tags === "string") {
-      tags = tags.split(",");
+/* eslint global-require: "off" */
+/* eslint block-scoped-var: "off" */
+
+// @ts-nocheck
+
+// required for loading into a NodeJS context
+if (typeof define !== 'function') {
+  var define = require('amdefine')(module);
+}
+
+define(['underscore'], function(_) {
+  var applyTagsFilter = function(projects, tagsArray, tags) {
+    if (typeof tags === 'string') {
+      tags = tags.split(',');
     }
 
     tags = _.map(tags, function(entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, "");
+      return entry && entry.replace(/^\s+|\s+$/g, '');
     });
 
-    if (!tags || !tags.length || tags[0] == "") {
+    if (!tags || !tags.length || tags[0] == '') {
       return projects;
     }
 
     var projectNames = _.uniq(
       _.flatten(
         _.map(tags, function(tag) {
-          var hit = tagsMap[tag.toLowerCase()];
-          return (hit && hit.projects) || [];
+          // NOTE
+          // tagsMap is currently an array of items when stored in memory and
+          // used here, so the previous check which searched based on a prop was
+          // never finding results
+          //
+          // this is not the most efficient way of searching, but it works
+          for (let i = 0; i < tagsArray.length; i++) {
+            const t = tagsArray[i];
+            if (t.name.toLowerCase() === tag.toLowerCase()) {
+              return t.projects;
+            }
+          }
+          return [];
         })
       )
     );
@@ -37,15 +58,15 @@
    * @param Array names : This is an array with the given name filters.
    */
   var applyNamesFilter = function(projects, projectNamesSorted, names) {
-    if (typeof names === "string") {
-      names = names.split(",");
+    if (typeof names === 'string') {
+      names = names.split(',');
     }
 
     names = _.map(names, function(entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, "");
+      return entry && entry.replace(/^\s+|\s+$/g, '');
     });
 
-    if (!names || !names.length || names[0] == "") {
+    if (!names || !names.length || names[0] == '') {
       return projects;
     }
 
@@ -75,16 +96,16 @@
   var applyLabelsFilter = function(projects, projectLabelsSorted, labels) {
     label_indices = labels;
 
-    if (typeof labels === "string") {
-      label_indices = labels.split(",");
+    if (typeof labels === 'string') {
+      label_indices = labels.split(',');
     }
 
     labels_indices = _.map(labels, function(entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, "");
+      return entry && entry.replace(/^\s+|\s+$/g, '');
     });
 
     // fallback if labels doesnt exist
-    if (!label_indices || !label_indices.length || labels[0] == "") {
+    if (!label_indices || !label_indices.length || labels[0] == '') {
       return projects;
     }
 
@@ -179,7 +200,7 @@
       sessionStorage.setItem;
     var ordering = null;
     if (canStoreOrdering) {
-      ordering = sessionStorage.getItem("projectOrder");
+      ordering = sessionStorage.getItem('projectOrder');
       if (ordering) {
         ordering = JSON.parse(ordering);
 
@@ -193,7 +214,7 @@
     if (!ordering) {
       ordering = _.shuffle(_.range(_projectsData.projects.length));
       if (canStoreOrdering) {
-        sessionStorage.setItem("projectOrder", JSON.stringify(ordering));
+        sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
       }
     }
 
@@ -264,5 +285,5 @@
     };
   };
 
-  host.ProjectsService = ProjectsService;
-})(window, _);
+  return ProjectsService;
+});

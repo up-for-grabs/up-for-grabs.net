@@ -1,8 +1,8 @@
-name: PyQuiz  
+---
+name: PyQuiz
 desc: A simple PyQuiz built with Python and Tkinter
 site: https://github.com/abhijitnathwani/PyQuiz
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - python
 - tkinter
 - pyquiz

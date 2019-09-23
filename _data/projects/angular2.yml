@@ -1,3 +1,4 @@
+---
 name: Angular2
 desc: HTML enhanced for web apps
 site: https://angular.io
@@ -6,5 +7,5 @@ tags:
 - web
 - Angular 2
 upforgrabs:
-  name: "hotlist: community-help"
+  name: 'hotlist: community-help'
   link: https://github.com/angular/angular/labels/hotlist%3A%20community-help

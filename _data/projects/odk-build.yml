@@ -1,5 +1,8 @@
+---
 name: ODK Build
-desc: ODK Build is a drag-and-drop form designer for ODK XForms. Thousands of users around the world depend on it for their data collection campaigns. Contribute and make the world a better place! 
+desc: >-
+  ODK Build is a drag-and-drop form designer for ODK XForms. Thousands of users around the world depend
+  on it for their data collection campaigns. Contribute and make the world a better place!
 site: https://github.com/opendatakit/build
 tags:
 - ruby
@@ -9,5 +12,5 @@ tags:
 - global-development
 - data-collection
 upforgrabs:
-  name: quick win
-  link: https://github.com/opendatakit/build/labels/quick%20win
+  name: help wanted
+  link: https://github.com/opendatakit/build/labels/help%20wanted

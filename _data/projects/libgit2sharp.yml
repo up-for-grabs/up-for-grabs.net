@@ -1,7 +1,8 @@
+---
 name: LibGit2Sharp
-desc: >
-  LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation,
-  to the managed world of .Net and Mono.
+desc: >-
+  LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed
+  world of .Net and Mono.
 site: https://github.com/libgit2/libgit2sharp
 tags:
 - C#

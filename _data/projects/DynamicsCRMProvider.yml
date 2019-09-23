@@ -1,3 +1,4 @@
+---
 name: DynamicsCRMProvider
 desc: A type provider for Microsoft Dynamics CRM 2011.
 site: https://github.com/fsprojects/DynamicsCRMProvider

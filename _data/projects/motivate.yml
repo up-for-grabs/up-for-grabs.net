@@ -1,3 +1,4 @@
+---
 name: motivate
 desc: A simple script to print random motivational quotes. Highly influenced by linux command fortune.
 site: https://github.com/mubaris/motivate

@@ -1,6 +1,6 @@
- 
+---
 name: AlaSQL
-desc: Javascript database for traditional SQL queries. Smaller and faster alternative to sql.js   
+desc: Javascript database for traditional SQL queries. Smaller and faster alternative to sql.js
 site: https://github.com/agershun/alasql
 tags:
 - Javascript

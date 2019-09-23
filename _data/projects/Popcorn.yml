@@ -1,5 +1,8 @@
+---
 name: Popcorn
-desc: A .NET Middleware for your RESTful API that allows your consumers to request exactly as much or as little as they need, with no effort from you
+desc: >-
+  A .NET Middleware for your RESTful API that allows your consumers to request exactly as much or as little
+  as they need, with no effort from you
 site: https://github.com/SkywardApps/popcorn
 tags:
 - rest-api

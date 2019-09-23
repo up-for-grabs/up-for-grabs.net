@@ -1,3 +1,4 @@
+---
 name: scriptcs
 desc: Write C# apps with a text editor, nuget and the power of Roslyn!
 site: https://github.com/scriptcs/scriptcs

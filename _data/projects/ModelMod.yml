@@ -1,5 +1,6 @@
+---
 name: ModelMod
-desc: A system for modifying art in games.  
+desc: A system for modifying art in games.
 site: https://github.com/jmquigs/ModelMod
 tags:
 - F#

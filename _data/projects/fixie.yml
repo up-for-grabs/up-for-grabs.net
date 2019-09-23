@@ -1,3 +1,4 @@
+---
 name: Fixie
 desc: A convention-based .NET test framework
 site: https://github.com/fixie/fixie
@@ -6,5 +7,5 @@ tags:
 - convention
 - ".net"
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/fixie/fixie/labels/up-for-grabs
+  name: Up for Grabs
+  link: https://github.com/fixie/fixie/labels/Up%20for%20Grabs

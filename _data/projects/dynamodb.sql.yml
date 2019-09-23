@@ -1,3 +1,4 @@
+---
 name: DynamoDb.SQL
 desc: SQL-like external DSL for querying and scanning Amazon DynamoDB
 site: https://fsprojects.github.io/DynamoDb.SQL/

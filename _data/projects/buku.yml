@@ -1,3 +1,4 @@
+---
 name: buku
 desc: A private cmdline bookmark manager in Python3 and SQLite3
 site: https://github.com/jarun/Buku

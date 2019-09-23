@@ -1,3 +1,4 @@
+---
 name: Rang
 desc: A Minimal, Header only Modern c++ library for colors in your terminal
 site: https://github.com/agauniyal/rang
@@ -9,7 +10,6 @@ tags:
 - linux
 - coverage
 - travis
-
 upforgrabs:
   name: help wanted
   link: https://github.com/agauniyal/rang/labels/help%20wanted

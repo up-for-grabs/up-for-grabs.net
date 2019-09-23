@@ -1,3 +1,4 @@
+---
 name: MBrace.AWS
 desc: MBrace runtime implementation targeting Amazon Web Services
 site: https://github.com/mbraceproject/MBrace.AWS

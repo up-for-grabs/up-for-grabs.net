@@ -1,5 +1,8 @@
+---
 name: J.A.R.V.I.S.
-desc: A community-driven python bot that aims to be as simple as possible to serve humans with their everyday tasks
+desc: >-
+  A community-driven python bot that aims to be as simple as possible to serve humans with their everyday
+  tasks
 site: https://github.com/swapagarwal/JARVIS-on-Messenger
 tags:
 - python

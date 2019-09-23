@@ -1,5 +1,7 @@
+---
 name: container-ioc
-desc: Dependency Injection and Inversion of Control container for Javascript and Node.js apps powered by Typescript.
+desc: >-
+  Dependency Injection and Inversion of Control container for Javascript and Node.js apps powered by Typescript.
 site: https://github.com/typesoft/container-ioc
 tags:
 - typescript

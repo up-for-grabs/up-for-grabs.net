@@ -1,3 +1,4 @@
+---
 name: TaskCluster
 desc: The continuous integration framework supporting Mozilla developers
 site: https://docs.taskcluster.net

@@ -1,3 +1,4 @@
+---
 name: mimetype
 desc: Mimetype detecting library written in GoLang
 site: https://github.com/gabriel-vasile/mimetype

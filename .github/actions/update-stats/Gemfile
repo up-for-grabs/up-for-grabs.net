@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'octokit'
+gem 'safe_yaml'
+gem 'graphql-client'

@@ -1,3 +1,4 @@
+---
 name: GlPortal
 desc: Open Source sci-fi fps puzzle-platformer
 site: https://github.com/GlPortal/glPortal
@@ -10,5 +11,5 @@ tags:
 - physics
 - 2d
 upforgrabs:
-  name: Simple Task
+  name: simple task
   link: https://github.com/GlPortal/glPortal/labels/simple%20task

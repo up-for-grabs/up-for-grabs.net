@@ -1,12 +1,13 @@
+---
 name: Haywire
-desc: >
-  Haywire is an asynchronous HTTP server framework written in C that's built using
-  the event loop based libuv platform layer that node.js is built on top of.
-site: https://github.com/kellabyte/Haywire
+desc: >-
+  Haywire is an asynchronous HTTP server framework written in C that's built using the event loop based
+  libuv platform layer that node.js is built on top of.
+site: https://github.com/haywire/Haywire
 tags:
 - http
 - server
 - C
 upforgrabs:
   name: help out!
-  link: https://github.com/kellabyte/Haywire/labels/help%20out%21
+  link: https://github.com/haywire/haywire/labels/help%20out%21

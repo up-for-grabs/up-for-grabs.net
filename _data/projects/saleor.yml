@@ -1,5 +1,7 @@
+---
 name: Saleor
-desc: Saleor is a high-performance, GraphQL-first e-commerce solution created with Python and Django. https://getsaleor.com/
+desc: >-
+  Saleor is a high-performance, GraphQL-first e-commerce solution created with Python and Django. https://getsaleor.com/
 site: https://github.com/mirumee/saleor/
 tags:
 - Python

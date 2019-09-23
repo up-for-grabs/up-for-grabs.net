@@ -1,3 +1,4 @@
+---
 name: KInspector
 desc: Performance, health and security audit tool for Kentico.
 site: https://github.com/Kentico/KInspector
@@ -10,5 +11,5 @@ tags:
 - ".NET"
 - ASP.NET
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/Kentico/KInspector/labels/up-for-grabs
+  name: good first issue
+  link: https://github.com/Kentico/KInspector/labels/good%20first%20issue

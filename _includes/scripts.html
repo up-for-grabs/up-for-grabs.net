@@ -42,11 +42,8 @@
         <p class="label">
           <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1">
             <%-project.upforgrabs.name %>
-
             <% if (project.stats) { %>
               <span class="count"><%-project.stats['issue-count']%></span>
-            <% } else { %>
-              <span class="count">??</span>
             <% } %>
           </a>
         </p>
@@ -92,4 +89,3 @@
   pageTracker._trackPageview();
   } catch(err) {}
 </script>
-

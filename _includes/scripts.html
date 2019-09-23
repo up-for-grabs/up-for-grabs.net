@@ -30,8 +30,8 @@
     </ul>
   </div>
   <table class="projects">
-   <% _.each(projects, function(project){ %>
-    <tbody>
+   <% _.each(projects, function(project) { %>
+    <tbody class="<% if ( project.stats ) { %>counted<% } %>">
     <tr>
        <td colspan="2" class="title">
            <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>

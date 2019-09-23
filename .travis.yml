@@ -14,21 +14,17 @@ services:
 install:
   # install a recent version of Node
   - nvm install 12.8.1
-  # install a recent version of yarn
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.17.3
-  - export PATH="$HOME/.yarn/bin:$PATH"
-  # install Ruby dependencies for building the site
   - bundle install
   # install Node dependencies for JS tooling
-  - yarn install
+  - npm install
 
 script:
   - bundle exec jekyll build
   - ruby scripts/cibuild.rb
   - docker build .
-  - yarn lint
-  - yarn test
-  - yarn prettier
+  - npm run lint
+  - npm run test
+  - npm run prettier
 
 branches:
   only:

@@ -30,7 +30,9 @@ describe('ProjectsService', function() {
 
           expect(projects).toHaveLength(2);
 
-          const projectNames = projects.map(function(p) { return p.name; });
+          const projectNames = projects.map(function(p) {
+            return p.name;
+          });
           expect(projectNames).toContain('Glimpse');
           expect(projectNames).toContain('LibGit2Sharp');
         });
@@ -58,10 +60,22 @@ describe('ProjectsService', function() {
       });
 
       it('includes projects assigned each tag', function() {
-        var tags = projectsService.getTags();
-        expect(tags).toContainEqual({ name: 'API', frequency: 1, projects: ['LibGit2Sharp'] });
-        expect(tags).toContainEqual({ name: 'C#', frequency: 2, projects: ['Glimpse', 'LibGit2Sharp'] });
-        expect(tags).toContainEqual({ name: 'bindings', frequency: 1, projects: ['LibGit2Sharp'] });
+        const tags = projectsService.getTags();
+        expect(tags).toContainEqual({
+          name: 'API',
+          frequency: 1,
+          projects: ['LibGit2Sharp'],
+        });
+        expect(tags).toContainEqual({
+          name: 'C#',
+          frequency: 2,
+          projects: ['Glimpse', 'LibGit2Sharp'],
+        });
+        expect(tags).toContainEqual({
+          name: 'bindings',
+          frequency: 1,
+          projects: ['LibGit2Sharp'],
+        });
       });
     });
 
@@ -72,7 +86,11 @@ describe('ProjectsService', function() {
 
       it('returns requested number if specified', function() {
         const tags = projectsService.getPopularTags(1);
-        expect(tags).toContainEqual({ name: 'C#', frequency: 2, projects: ['Glimpse', 'LibGit2Sharp'] });
+        expect(tags).toContainEqual({
+          name: 'C#',
+          frequency: 2,
+          projects: ['Glimpse', 'LibGit2Sharp'],
+        });
       });
 
       it('returns expected top tag', function() {

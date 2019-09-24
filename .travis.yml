@@ -13,18 +13,12 @@ services:
 
 install:
   # install a recent version of Node
-  - nvm install 12.8.1
   - bundle install
-  # install Node dependencies for JS tooling
-  - npm install
 
 script:
   - bundle exec jekyll build
   - ruby scripts/cibuild.rb
   - docker build .
-  - npm run lint
-  - npm run test
-  - npm run prettier
 
 branches:
   only:

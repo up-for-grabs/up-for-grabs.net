@@ -93,7 +93,7 @@ define([
           if (selectedTag) {
             tagID = projectsSvc
               .getTags()
-              .map(tag => tag.name.toLowerCase())
+              .map((tag) => tag.name.toLowerCase())
               .indexOf(selectedTag);
             if (tagID !== -1) {
               selTags.push(selectedTag);

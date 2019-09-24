@@ -1,8 +1,3 @@
-language: ruby
-cache: bundler
-rvm:
-  - 2.4.3
-
 sudo: false
 
 notifications:
@@ -11,20 +6,10 @@ notifications:
 services:
   - docker
 
-install:
-  # install a recent version of Node
-  - bundle install
-
 script:
-  - bundle exec jekyll build
-  - ruby scripts/cibuild.rb
   - docker build .
 
 branches:
   only:
   - gh-pages     # test the gh-pages branch
   - /pages-(.*)/ # test every branch which starts with "pages-"
-
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer

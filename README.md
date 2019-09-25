@@ -33,7 +33,7 @@ Check out the [up-for-grabs](https://github.com/up-for-grabs/up-for-grabs.net/bl
 
 ### Pull Request Reviews
 
-We aim to be responsive when a pull request is open, but if a pull request sits for 2 months with feedback that prevents us from merging it we will close the pull request. You are welcome to resubmit the project and address the feedback provided.
+We aim to be responsive when a pull request is open, but if a pull request remains idle for 2 months with feedback that prevents us from merging it we will close the pull request. You are welcome to resubmit the project and address the feedback provided.
 
 ## Use the Yeoman Generator
 
@@ -54,7 +54,7 @@ If you haven't already, clone the repository to your machine:
 git clone https://github.com/up-for-grabs/up-for-grabs.net.git
 ```
 
-If you have a fork of the repository, change `up-for-grabs` into your GitHub account name above.
+If you have a fork of the repository, change `up-for-grabs` into your GitHub account named above.
 
 You need Ruby and Bundler installed to test the site - you can confirm these are present by running these commands:
 

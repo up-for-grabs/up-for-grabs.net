@@ -1,0 +1,40 @@
+---
+name: Sharer.js
+desc: Create your own social share buttons. No JQuery
+site: http://ellisonleao.github.io/sharer.js
+tags:
+- JavaScript
+- date
+- time
+- social
+- share
+- facebook
+- twitter
+- google
+- plus
+- linkedin
+- email
+- telegram
+- whatsapp
+- telegram
+- viber
+- hackernews
+- vk
+- reddit
+- instapaper
+- pocket
+- stumbleupon
+- digg
+- flipboard
+- weibo
+- renren
+- blogger
+- myspace
+- baidu
+- okru
+- mailru
+- evernote
+- skype
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ellisonleao/sharer.js/labels/up-for-grabs

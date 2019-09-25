@@ -1,0 +1,24 @@
+---
+name: CXTPL
+desc: C++ template engine that generates C++ code from template, so you will gain good performance and full power of C++.
+site: https://github.com/blockspacer/CXTPL/
+tags:
+- template-engine
+- c-plus-plus
+- source-to-source
+- cpp
+- cpp11
+- cpp14
+- cpp17
+- template
+- codegen
+- tpl
+- mustache
+- jinja2
+- native
+- compile-time
+- cplusplus
+
+upforgrabs:
+  name: help wanted
+  link: https://github.com/blockspacer/CXTPL/labels/help%20wanted

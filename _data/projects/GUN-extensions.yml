@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/gundb/feature-requests/labels/up-for-grabs
+stats:
+  issue-count: 10
+  last-updated: '2018-04-22T10:29:41Z'

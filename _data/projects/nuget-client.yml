@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: Up for Grabs
   link: https://github.com/NuGet/Home/labels/Up%20for%20Grabs
+stats:
+  issue-count: 45
+  last-updated: '2019-09-21T19:41:20Z'

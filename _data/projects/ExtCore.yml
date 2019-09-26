@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/jack-pappas/ExtCore/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2019-08-09T14:03:49Z'

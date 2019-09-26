@@ -17,3 +17,6 @@ tags:
 upforgrabs:
   name: Help Wanted
   link: https://github.com/AdamsLair/duality/labels/Help%20Wanted
+stats:
+  issue-count: 25
+  last-updated: '2019-09-25T23:07:33Z'

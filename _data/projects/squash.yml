@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: bite-sized
   link: https://github.com/quixdb/squash/labels/bite-sized
+stats:
+  issue-count: 13
+  last-updated: '2019-09-20T09:22:25Z'

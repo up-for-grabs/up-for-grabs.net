@@ -20,3 +20,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/cloud-boilerplate-express-apollo/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2019-09-25T13:16:38Z'

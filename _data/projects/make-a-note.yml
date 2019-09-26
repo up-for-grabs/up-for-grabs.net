@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/pushkar-anand/make-a-note/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2018-10-08T07:07:36Z'

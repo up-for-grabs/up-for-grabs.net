@@ -17,3 +17,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/mirumee/saleor/labels/help%20wanted
+stats:
+  issue-count: 29
+  last-updated: '2019-09-26T16:38:04Z'

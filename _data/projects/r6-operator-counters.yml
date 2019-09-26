@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/BurkusCat/r6-operator-counters/labels/good%20first%20issue
+stats:
+  issue-count: 25
+  last-updated: '2019-09-19T21:15:44Z'

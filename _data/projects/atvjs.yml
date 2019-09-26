@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/emadalam/atvjs/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-18T07:29:03Z'

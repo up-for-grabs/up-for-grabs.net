@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: Help wanted
   link: https://github.com/kbilsted/StatePrinter/labels/Help%20wanted
+stats:
+  issue-count: 11
+  last-updated: '2019-06-13T07:48:54Z'

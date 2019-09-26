@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/phenax/pattern-lock-js/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2019-08-30T23:08:37Z'

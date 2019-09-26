@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/Litipk/php-bignumbers/labels/help%20wanted
+stats:
+  issue-count: 8
+  last-updated: '2019-05-03T09:59:02Z'

@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: E-easy
   link: https://github.com/bors-ng/bors-ng/labels/E-easy
+stats:
+  issue-count: 1
+  last-updated: '2019-09-24T23:52:35Z'

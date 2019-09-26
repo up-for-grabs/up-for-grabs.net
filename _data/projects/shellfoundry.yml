@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/QualiSystems/shellfoundry/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-08-19T19:51:10Z'

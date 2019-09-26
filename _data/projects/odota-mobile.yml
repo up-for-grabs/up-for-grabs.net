@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/odota/mobile/labels/help%20wanted
+stats:
+  issue-count: 0
+  last-updated: '2019-09-18T03:30:51Z'

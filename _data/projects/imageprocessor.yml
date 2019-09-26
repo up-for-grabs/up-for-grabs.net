@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: help needed
   link: https://github.com/JimBobSquarePants/ImageProcessor/labels/help%20needed
+stats:
+  issue-count: 0
+  last-updated: '2019-09-26T02:19:37Z'

@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/fsprojects/SyntacticVersioning/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2019-09-08T15:44:37Z'

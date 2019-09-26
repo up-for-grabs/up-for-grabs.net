@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: beginner-friendly
   link: https://github.com/Bhupesh-V/30-seconds-of-cpp/labels/beginner-friendly
+stats:
+  issue-count: 2
+  last-updated: '2019-09-25T16:39:56Z'

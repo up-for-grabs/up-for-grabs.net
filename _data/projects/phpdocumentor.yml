@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: Up-for-grabs
   link: https://github.com/phpDocumentor/phpDocumentor2/labels/Up-for-grabs
+stats:
+  issue-count: 11
+  last-updated: '2019-09-23T09:29:10Z'

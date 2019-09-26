@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/intellifactory/fsock/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2019-08-29T05:21:10Z'

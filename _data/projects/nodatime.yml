@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/nodatime/nodatime/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2019-09-26T10:06:34Z'

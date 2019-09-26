@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/dotnet-architecture/eShopOnWeb/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2019-09-26T15:28:05Z'

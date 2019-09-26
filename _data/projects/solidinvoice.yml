@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: easy-pick
   link: https://github.com/SolidInvoice/SolidInvoice/labels/easy-pick
+stats:
+  issue-count: 1
+  last-updated: '2019-09-25T15:41:51Z'

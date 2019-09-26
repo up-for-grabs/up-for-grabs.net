@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/wolffles/game-iverse/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-05-05T23:28:29Z'

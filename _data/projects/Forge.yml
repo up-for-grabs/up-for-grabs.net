@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/ionide/Forge/labels/help%20wanted
+stats:
+  issue-count: 6
+  last-updated: '2019-09-21T07:03:17Z'

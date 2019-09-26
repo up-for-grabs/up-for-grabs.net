@@ -29,3 +29,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/census-instrumentation/opencensus-csharp/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-09-19T15:53:19Z'

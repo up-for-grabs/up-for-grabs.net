@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: first-timers-only
   link: https://github.com/fiatjaf/coisas/labels/first-timers-only
+stats:
+  issue-count: 0
+  last-updated: '2019-08-27T23:21:00Z'

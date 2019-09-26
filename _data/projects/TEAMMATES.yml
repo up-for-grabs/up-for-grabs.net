@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: d.FirstTimers
   link: https://github.com/TEAMMATES/teammates/labels/d.FirstTimers
+stats:
+  issue-count: 4
+  last-updated: '2019-09-26T04:15:49Z'

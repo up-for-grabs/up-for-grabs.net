@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/shrayasr/TheHexBot/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2018-12-03T09:16:23Z'

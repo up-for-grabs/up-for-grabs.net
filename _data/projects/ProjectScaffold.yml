@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/ProjectScaffold/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2019-09-18T16:55:13Z'

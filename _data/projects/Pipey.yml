@@ -15,3 +15,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/phenax/pipey/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2019-08-10T14:49:25Z'

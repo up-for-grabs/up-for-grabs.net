@@ -16,3 +16,6 @@ tags:
 upforgrabs:
   name: up for grabs
   link: https://github.com/contentjet/contentjet-ui/labels/up%20for%20grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-08-03T07:38:00Z'

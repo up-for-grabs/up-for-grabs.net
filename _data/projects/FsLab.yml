@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fslaborg/FsLab/labels/up-for-grabs
+stats:
+  issue-count: 15
+  last-updated: '2019-09-23T20:23:46Z'

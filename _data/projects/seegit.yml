@@ -7,3 +7,6 @@ tags:
 upforgrabs:
   name: easy-fix
   link: https://github.com/haacked/SeeGit/labels/easy-fix
+stats:
+  issue-count: 6
+  last-updated: '2019-09-18T18:57:26Z'

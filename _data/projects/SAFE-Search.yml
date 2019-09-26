@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/SAFE-Stack/SAFE-Search/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-03-21T15:30:37Z'

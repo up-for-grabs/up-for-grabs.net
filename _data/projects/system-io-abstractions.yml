@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: 'state: up for grabs'
   link: https://github.com/System-IO-Abstractions/System.IO.Abstractions/labels/state%3A%20up%20for%20grabs
+stats:
+  issue-count: 6
+  last-updated: '2019-09-26T09:21:55Z'

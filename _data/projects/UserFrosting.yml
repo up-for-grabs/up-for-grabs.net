@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/userfrosting/UserFrosting/labels/up-for-grabs
+stats:
+  issue-count: 33
+  last-updated: '2019-09-25T04:32:02Z'

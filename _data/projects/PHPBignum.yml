@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/hpez/PHPBignum/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2019-03-08T13:34:51Z'

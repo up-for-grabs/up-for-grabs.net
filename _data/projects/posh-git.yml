@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/dahlbyk/posh-git/labels/Up-for-Grabs
+stats:
+  issue-count: 3
+  last-updated: '2019-09-26T13:27:15Z'

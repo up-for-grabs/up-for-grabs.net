@@ -26,3 +26,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/monicanagent/cypherpoker.js/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2019-09-25T19:29:51Z'

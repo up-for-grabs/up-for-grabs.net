@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/fsprojects/Chessie/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2019-09-19T01:11:18Z'

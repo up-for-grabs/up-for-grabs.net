@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/MorrisB--/MasterHash/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-06-01T13:57:30Z'

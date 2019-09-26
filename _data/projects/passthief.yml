@@ -18,3 +18,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/sadboyzvone/passthief/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-09-25T21:47:39Z'

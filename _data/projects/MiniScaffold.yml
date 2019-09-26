@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/TheAngryByrd/MiniScaffold/labels/help%20wanted
+stats:
+  issue-count: 7
+  last-updated: '2019-09-25T20:04:05Z'

@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: Up for Grabs
   link: https://github.com/dotnet/fsharp/labels/Up%20for%20Grabs
+stats:
+  issue-count: 8
+  last-updated: '2019-09-26T18:02:51Z'

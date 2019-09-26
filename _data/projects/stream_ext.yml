@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/theburningmonk/stream_ext/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2019-08-13T23:48:07Z'

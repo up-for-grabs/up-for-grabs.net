@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: trivial
   link: https://github.com/kibitzr/kibitzr/labels/trivial
+stats:
+  issue-count: 1
+  last-updated: '2019-09-26T10:21:52Z'

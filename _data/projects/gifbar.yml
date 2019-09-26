@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/joshghent/gifbar/labels/help%20wanted
+stats:
+  issue-count: 8
+  last-updated: '2019-08-14T12:26:16Z'

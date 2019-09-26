@@ -15,3 +15,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/aspnet/EntityFrameworkCore/labels/good%20first%20issue
+stats:
+  issue-count: 78
+  last-updated: '2019-09-26T16:57:23Z'

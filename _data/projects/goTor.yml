@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: Available
   link: https://github.com/KingAkeem/goTor/labels/Available
+stats:
+  issue-count: 3
+  last-updated: '2019-07-25T18:21:17Z'

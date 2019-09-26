@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up for grabs
   link: https://github.com/akkadotnet/akka.net/labels/up%20for%20grabs
+stats:
+  issue-count: 59
+  last-updated: '2019-09-25T19:27:18Z'

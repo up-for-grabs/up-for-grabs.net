@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Codealike/arrayslice/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2019-08-13T15:53:48Z'

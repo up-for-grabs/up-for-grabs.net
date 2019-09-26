@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/DevrexLabs/OrigoDB/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-09-02T05:56:00Z'

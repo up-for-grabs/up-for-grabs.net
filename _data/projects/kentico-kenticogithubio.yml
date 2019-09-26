@@ -19,3 +19,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/kentico.github.io/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-25T13:24:17Z'

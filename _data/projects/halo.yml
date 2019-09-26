@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/manrajgrover/halo/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2019-09-25T16:20:41Z'

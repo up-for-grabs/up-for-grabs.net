@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Azure/ibex-dashboard/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-08-28T05:47:59Z'

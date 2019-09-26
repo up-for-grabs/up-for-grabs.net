@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/adrg/libvlc-go/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2019-09-03T12:21:58Z'

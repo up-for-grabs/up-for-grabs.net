@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: jump in
   link: https://github.com/ploeh/Numsense/labels/jump%20in
+stats:
+  issue-count: 3
+  last-updated: '2019-08-26T19:54:17Z'

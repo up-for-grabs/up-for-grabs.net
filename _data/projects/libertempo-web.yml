@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: Help Wanted
   link: https://github.com/libertempo/web/labels/Help%20Wanted
+stats:
+  issue-count: 6
+  last-updated: '2019-09-25T20:37:40Z'

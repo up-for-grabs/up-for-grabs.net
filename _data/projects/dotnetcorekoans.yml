@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: Up for Grabs
   link: https://github.com/NotMyself/DotNetCoreKoans/labels/Up%20for%20Grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-09-24T14:15:35Z'

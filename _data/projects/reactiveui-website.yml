@@ -17,3 +17,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/reactiveui/website/labels/help%20wanted
+stats:
+  issue-count: 15
+  last-updated: '2019-09-25T17:13:44Z'

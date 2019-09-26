@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: Please contribute
   link: https://github.com/huboard/huboard/labels/Please%20contribute
+stats:
+  issue-count: 12
+  last-updated: '2019-09-08T18:43:53Z'

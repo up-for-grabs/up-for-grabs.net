@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: ready to implement
   link: https://github.com/Homebrew/homebrew-cask/labels/ready%20to%20implement
+stats:
+  issue-count: 5
+  last-updated: '2019-09-26T17:48:56Z'

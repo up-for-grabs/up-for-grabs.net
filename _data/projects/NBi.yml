@@ -16,3 +16,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Seddryck/NBi/labels/up-for-grabs
+stats:
+  issue-count: 5
+  last-updated: '2019-09-25T21:33:32Z'

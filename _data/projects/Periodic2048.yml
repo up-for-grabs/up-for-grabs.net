@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/Griffintaur/Periodic2048/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2019-08-24T01:40:43Z'

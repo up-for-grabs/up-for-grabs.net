@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: need-code
   link: https://github.com/UprootLabs/gngr/labels/need-code
+stats:
+  issue-count: 10
+  last-updated: '2019-09-18T03:56:10Z'

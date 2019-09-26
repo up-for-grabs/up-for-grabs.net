@@ -16,3 +16,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/QualiSystems/FluentTc/labels/up-for-grabs
+stats:
+  issue-count: 12
+  last-updated: '2019-07-15T21:35:32Z'

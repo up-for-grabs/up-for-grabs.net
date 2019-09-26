@@ -18,3 +18,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/phenax/algebraic-effects/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2019-09-22T00:38:40Z'

@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/fsharp/FAKE/labels/help%20wanted
+stats:
+  issue-count: 26
+  last-updated: '2019-09-12T07:07:16Z'

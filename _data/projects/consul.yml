@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: Good first issue
   link: https://github.com/consul/consul/labels/Good%20first%20issue
+stats:
+  issue-count: 41
+  last-updated: '2019-09-25T14:05:42Z'

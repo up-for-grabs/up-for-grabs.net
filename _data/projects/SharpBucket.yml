@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: easy-fix
   link: https://github.com/MitjaBezensek/SharpBucket/labels/easy-fix
+stats:
+  issue-count: 0
+  last-updated: '2019-09-06T14:16:43Z'

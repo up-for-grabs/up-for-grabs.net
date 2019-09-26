@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: jump in
   link: https://github.com/ploeh/ZeroToNine/labels/jump%20in
+stats:
+  issue-count: 1
+  last-updated: '2019-09-08T19:50:42Z'

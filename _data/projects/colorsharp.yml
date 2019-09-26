@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/Litipk/ColorSharp/labels/help%20wanted
+stats:
+  issue-count: 10
+  last-updated: '2019-08-22T14:20:34Z'

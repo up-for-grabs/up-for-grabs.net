@@ -37,3 +37,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/ellisonleao/sharer.js/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-23T09:52:09Z'

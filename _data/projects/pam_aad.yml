@@ -17,3 +17,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/CyberNinjas/pam_aad/labels/help%20wanted
+stats:
+  issue-count: 10
+  last-updated: '2019-09-26T06:40:04Z'

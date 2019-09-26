@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: low_hanging_fruit
   link: https://github.com/refu-lang/refu/labels/low_hanging_fruit
+stats:
+  issue-count: 6
+  last-updated: '2019-05-10T11:30:19Z'

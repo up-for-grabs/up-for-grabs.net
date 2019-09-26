@@ -51,11 +51,13 @@ end
 def verify_preferred_tag (tag)
   # preference is a map of [bad tag]: [preferred tag]
   preference = {
-    "nodejs" => "node.js",
     "algorithms" => "algorithm",
     "appletv" => "apple-tv",
+    "asp-net" => "asp.net",
+    "aspnet" => "asp.net",
     "aspnetmvc" => "aspnet-mvc",
     "aspnetcore" => "aspnet-core",
+    "asp-net-core" => "aspnet-core",
     "assembler" => "assembly",
     "builds" => "build",
     "collaborate" => "collaboration",
@@ -64,15 +66,20 @@ def verify_preferred_tag (tag)
     "commandline" => "command-line",
     "csharp" => "c#",
     "docs" => "documentation",
+    "dotnet-core" => ".net core",
     "encrypt" => "encryption",
     "fsharp" => "f#",
     "games" => "game",
+    "gatsby" => "gatsbyjs",
     "golang" => "go",
+    "js" => "javascript",
     "library" => "libraries",
     "linters" => "linter",
+    "node" => "node.js",
     "nodejs" => "node.js",
     "nuget.exe" => "nuget",
-    "parser" => "parsing"
+    "parser" => "parsing",
+    "react" => "reactjs",
   }
   if (preference[tag] != nil) then
     return "Use '#{preference[tag]}' instead of #{tag}\n"

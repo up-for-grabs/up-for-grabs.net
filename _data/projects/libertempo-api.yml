@@ -5,7 +5,7 @@ site: https://github.com/libertempo/api
 tags:
 - php
 - refactoring
-- API
+- api
 - testing
 - slimphp
 - beginner

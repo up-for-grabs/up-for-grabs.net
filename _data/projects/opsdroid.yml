@@ -3,7 +3,7 @@ name: opsdroid
 desc: An open source chat bot framework written in python.
 site: https://github.com/opsdroid/opsdroid
 tags:
-- Python
+- python
 - chatbot
 - asyncio
 - chatops

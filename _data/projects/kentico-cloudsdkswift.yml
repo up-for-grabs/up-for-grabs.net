@@ -5,13 +5,13 @@ desc: >-
   app which demonstrates basic usage of the SDK.
 site: https://github.com/Kentico/cloud-sdk-swift
 tags:
-- Swift
-- iOS
+- swift
+- ios
 - kentico
 - kentico-cloud
 - headless-cms
 - headless
-- SDK
+- sdk
 - application
 - mobile
 - caas

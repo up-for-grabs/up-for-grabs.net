@@ -8,9 +8,9 @@ tags:
 - i18n
 - c#
 - ".net"
-- VisualStudio
-- WPF
-- MVVM
+- visualstudio
+- wpf
+- mvvm
 upforgrabs:
   name: Up for grabs
   link: https://github.com/tom-englert/ResXResourceManager/labels/Up%20for%20grabs

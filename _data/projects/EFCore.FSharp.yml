@@ -3,7 +3,7 @@ name: EFCore.FSharp
 desc: Adds F# design-time support to EF Core
 site: https://github.com/bricelam/EFCore.FSharp
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: help wanted

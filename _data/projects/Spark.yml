@@ -7,10 +7,10 @@ desc: >-
   conversations.
 site: https://www.igniterealtime.org/projects/spark/
 tags:
-- XMPP
-- Java
-- IM
-- Client
+- xmpp
+- java
+- im
+- client
 upforgrabs:
   name: Teaser Tasks
   link: https://issues.igniterealtime.org/issues/?filter=11913

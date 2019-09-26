@@ -3,7 +3,7 @@ name: FSharpLint
 desc: Lint tool for F#
 site: https://github.com/fsprojects/FSharpLint
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: up-for-grabs

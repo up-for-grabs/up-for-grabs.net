@@ -3,8 +3,8 @@ name: SIMDe
 desc: Implementations of SIMD instruction sets for systems which do not natively support them.
 site: https://github.com/nemequ/simde
 tags:
-- C
-- SIMD
+- c
+- simd
 - parallel
 - optimization
 - portability

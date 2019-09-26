@@ -3,10 +3,10 @@ name: FsLab
 desc: FsLab and FsLab.Runner packages and Journal template
 site: https://github.com/fslaborg/FsLab
 tags:
-- F#
+- f#
 - ".net"
-- Data Science
-- Machine Learning
+- data-science
+- machine-learning
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fslaborg/FsLab/labels/up-for-grabs

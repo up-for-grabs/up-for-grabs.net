@@ -5,10 +5,10 @@ desc: "A linux based Virtual assistant on Artificial Intelligence in C. \nFind r
   files, Show calendar, etc.  \n"
 site: https://github.com/ritwik12/Virtual-Assistant
 tags:
-- C
-- Linux
-- Artificial Intelligence
-- Natural Language Processing
+- c
+- linux
+- artificial-intelligence
+- natural-language-processing
 upforgrabs:
   name: good first issue
   link: https://github.com/ritwik12/Virtual-Assistant/labels/good%20first%20issue

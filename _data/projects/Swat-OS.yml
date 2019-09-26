@@ -4,9 +4,9 @@ desc: Systems Where Anything Transcribes - Operating System
 site: https://github.com/ColinMoulds/SWAT-OS
 tags:
 - cpp
-- Assembly
-- Systems
-- Documentation
+- assembly
+- systems
+- documentation
 - csharp
 upforgrabs:
   name: good first issue

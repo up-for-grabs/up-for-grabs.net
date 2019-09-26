@@ -3,8 +3,8 @@ name: fez
 desc: F# to core erlang compiler experiment
 site: https://github.com/kjnilsson/fez
 tags:
-- F#
-- Erlang
+- f#
+- erlang
 - ".net"
 upforgrabs:
   name: help wanted

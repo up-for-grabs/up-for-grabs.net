@@ -3,7 +3,7 @@ name: geeksay
 desc: "\U0001F913 geeks will ctrl+s the world!"
 site: https://github.com/swapagarwal/geeksay
 tags:
-- Javascript
+- javascript
 - web
 - css
 - html

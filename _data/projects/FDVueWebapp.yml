@@ -3,12 +3,12 @@ name: Freedomotic Vue Webapp
 desc: A Vue.js web application for Freedomotic Open IoT framework
 site: http://fd-vue-webapp.herokuapp.com/
 tags:
-- Vue.js
+- vue.js
 - javascript
-- Webapp
-- Open Source
+- webapp
+- open-source
 - domotics
-- home automation
+- home-automation
 upforgrabs:
   name: help wanted
   link: https://github.com/freedomotic/fd-vue-webapp/labels/help%20wanted

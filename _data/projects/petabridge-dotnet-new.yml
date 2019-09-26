@@ -3,8 +3,8 @@ name: petabridge-dotnet-new
 desc: ".NET CLI template for Petabridge-style projects"
 site: https://github.com/petabridge/petabridge-dotnet-new
 tags:
-- F#
-- Petabridge
+- f#
+- petabridge
 - ".net"
 upforgrabs:
   name: good for first time contributors

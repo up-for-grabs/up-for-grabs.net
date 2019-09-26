@@ -6,10 +6,10 @@ desc: >-
   contacts, creating and sending quotes and invoices and online payments.
 site: https://solidinvoice.co
 tags:
-- PHP
-- Symfony
-- Invoicing
-- Billing
+- php
+- symfony
+- invoicing
+- billing
 - oss
 upforgrabs:
   name: easy-pick

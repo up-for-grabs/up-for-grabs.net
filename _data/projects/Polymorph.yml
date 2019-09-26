@@ -3,8 +3,8 @@ name: Polymorph
 desc: Ultra-flexible self-hostable organisation tool (and so much more)
 site: https://acenturyandabit.github.io/polymorph/
 tags:
-- Javascript
-- UI
+- javascript
+- ui
 - flexibility
 - framework
 upforgrabs:

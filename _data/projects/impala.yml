@@ -5,13 +5,13 @@ desc: >-
   undergoing Incubation at the Apache Software Foundation.
 site: https://impala.apache.org/
 tags:
-- C++
-- Java
-- Hadoop
-- Distributed
-- Cluster
-- Database
-- SQL
+- c++
+- java
+- hadoop
+- distributed
+- cluster
+- database
+- sql
 upforgrabs:
   name: newbie
   link: >-

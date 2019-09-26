@@ -3,10 +3,10 @@ name: GraphProvider
 desc: A state machine type provider
 site: https://github.com/fsprojects/GraphProvider
 tags:
-- F#
+- f#
 - ".net"
-- Graph
-- type provider
+- graph
+- type-provider
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/GraphProvider/labels/up-for-grabs

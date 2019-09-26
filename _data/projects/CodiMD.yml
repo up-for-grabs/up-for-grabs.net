@@ -9,9 +9,9 @@ tags:
 - oss
 - node
 - web
-- CSS
-- HTML
-- JavaScript
+- css
+- html
+- javascript
 upforgrabs:
   name: good first issue
   link: https://github.com/codimd/server/labels/good%20first%20issue

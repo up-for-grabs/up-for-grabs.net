@@ -5,14 +5,14 @@ site: https://github.com/rebus-org/Rebus
 tags:
 - c#
 - ".net"
-- MSMQ
-- RabbitMQ
-- Azure
-- Azure Service Bus
-- Azure Storage Queues
+- msmq
+- rabbitmq
+- azure
+- azure-service-bus
+- azure-storage-queues
 - distributed
 - messaging
-- service bus
+- service-bus
 - soa
 upforgrabs:
   name: up-for-grabs

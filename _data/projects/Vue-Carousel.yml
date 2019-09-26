@@ -5,7 +5,7 @@ site: https://ssense.github.io/vue-carousel/
 tags:
 - vuejs
 - javascript
-- unit tests
+- unit-tests
 - web
 upforgrabs:
   name: good first issue

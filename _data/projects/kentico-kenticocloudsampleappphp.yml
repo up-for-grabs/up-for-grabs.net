@@ -3,7 +3,7 @@ name: kentico-cloud-sample-app-php
 desc: Kentico Cloud Delivery SDK for PHP
 site: https://github.com/Kentico/kentico-cloud-sample-app-php
 tags:
-- PHP
+- php
 - content-delivery
 - kentico
 - kentico-cloud
@@ -11,7 +11,7 @@ tags:
 - headless-cms
 - composer
 - laravel
-- sample application
+- sample-application
 - caas
 upforgrabs:
   name: up-for-grabs

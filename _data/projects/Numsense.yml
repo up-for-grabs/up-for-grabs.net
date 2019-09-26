@@ -5,7 +5,7 @@ desc: >-
   way as well
 site: https://github.com/ploeh/Numsense
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: jump in

@@ -11,7 +11,7 @@ tags:
 - junit
 - maven
 - nuget
-- artifact repository manager
+- artifact-repository-manager
 upforgrabs:
   name: good first issue
   link: https://github.com/strongbox/strongbox/labels/good%20first%20issue

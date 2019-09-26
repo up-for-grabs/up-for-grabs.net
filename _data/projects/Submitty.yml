@@ -3,9 +3,9 @@ name: Submitty
 desc: A programming assignment submission system
 site: https://submitty.org/
 tags:
-- PHP
-- Python
-- C++
+- php
+- python
+- c++
 - education
 - autograding
 - teaching-tools

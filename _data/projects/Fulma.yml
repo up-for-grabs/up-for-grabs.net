@@ -3,12 +3,12 @@ name: Fulma
 desc: Binding for Elmish using Bulma CSS framework
 site: https://github.com/Fulma/Fulma
 tags:
-- F#
+- f#
 - ".net"
-- Bulma
-- Web
-- CSS
-- Elmish
+- bulma
+- web
+- css
+- elmish
 upforgrabs:
   name: up for grabs
   link: https://github.com/Fulma/Fulma/labels/up%20for%20grabs

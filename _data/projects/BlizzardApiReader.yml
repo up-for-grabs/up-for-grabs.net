@@ -3,7 +3,7 @@ name: Blizzard ApiReader
 desc: Csharp library responsible for reading Blizzard apis
 site: https://github.com/avivbiton/BlizzardApiReader
 tags:
-- C#
+- c#
 - ".net"
 - rest-api
 - game

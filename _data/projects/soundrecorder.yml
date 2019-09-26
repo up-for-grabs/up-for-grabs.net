@@ -5,9 +5,9 @@ desc: >-
   as stable as possible sound recorder application.
 site: https://github.com/naXa777/SoundRecorder
 tags:
-- Java
-- Gradle
-- Android
+- java
+- gradle
+- android
 - mobile
 - sound-record
 - audio-recorder

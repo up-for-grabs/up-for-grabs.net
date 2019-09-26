@@ -3,9 +3,9 @@ name: Cover Letter Snippets
 desc: A local appliation for parsing job descriptions and creating a customized, relevant cover letter
 site: https://github.com/mattcheah/cover-letter-snippets
 tags:
-- Node.js
-- Angular 5
-- MongoDB
+- node.js
+- angular-5
+- mongodb
 - cover
 - letter
 - resume

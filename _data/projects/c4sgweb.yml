@@ -5,12 +5,12 @@ desc: >-
   volunteers.
 site: https://github.com/Code4SocialGood/c4sg-web
 tags:
-- Angular
-- Java
-- Java Spring Framework
-- CSS
-- HTML
-- MySql
+- angular
+- java
+- java-spring-framework
+- css
+- html
+- mysql
 - website
 upforgrabs:
   name: good first issue

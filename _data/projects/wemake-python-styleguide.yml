@@ -6,7 +6,7 @@ tags:
 - python
 - linter
 - flake8
-- code quality
+- code-quality
 - oss
 upforgrabs:
   name: level:starter

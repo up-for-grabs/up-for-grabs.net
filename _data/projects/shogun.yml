@@ -5,12 +5,12 @@ desc: "Shogun is a unified and efficient machine learning library. \nWe support 
 site: http://shogun.ml/
 tags:
 - machine-learning
-- ML
+- ml
 - data-science
-- GSoC
-- C++
+- gsoc
+- c++
 - python
-- R
+- r
 upforgrabs:
   name: good first issue
   link: https://github.com/shogun-toolbox/shogun/labels/good%20first%20issue

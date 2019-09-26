@@ -3,7 +3,6 @@ name: tug
 desc: Cross-platform Pull/Reporting server for PowerShell DSC
 site: https://github.com/PowerShellOrg/tug
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - ".net"
 - ".net-core"
 - ".net-framework"

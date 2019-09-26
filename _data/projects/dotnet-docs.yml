@@ -3,7 +3,7 @@ name: ".NET Docs"
 desc: Documentation for .NET
 site: http://github.com/dotnet/docs
 tags:
-- ".NET"
+- ".net"
 - documentation
 upforgrabs:
   name: up-for-grabs

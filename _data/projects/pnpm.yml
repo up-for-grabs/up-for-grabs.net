@@ -3,9 +3,9 @@ name: pnpm
 desc: Fast, disk space efficient package manager
 site: https://pnpm.js.org/
 tags:
-- Node.js
-- JavaScript
-- package manager
+- node.js
+- javascript
+- package-manager
 - installer
 - npm
 upforgrabs:

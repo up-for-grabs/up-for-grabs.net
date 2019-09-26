@@ -3,7 +3,7 @@ name: CFEngine
 desc: The Original Configuration Management System
 site: https://cfengine.com/
 tags:
-- C
+- c
 - cross-platform
 - configuration-management
 - command-line

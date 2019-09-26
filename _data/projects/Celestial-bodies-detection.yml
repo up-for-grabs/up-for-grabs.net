@@ -5,11 +5,11 @@ desc: >-
   Mars, etc), Spiral or an Elliptical Galaxy
 site: https://github.com/ritwik12/Celestial-bodies-detection
 tags:
-- Tensorflow
-- Linux
-- Machine Learning
-- Convolutional Neural Network
-- Python
+- tensorflow
+- linux
+- machine-learning
+- convolutional-neural-network
+- python
 upforgrabs:
   name: good first issue
   link: https://github.com/ritwik12/Celestial-bodies-detection/labels/good%20first%20issue

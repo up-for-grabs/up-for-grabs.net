@@ -3,7 +3,7 @@ name: delivery-sdk-php
 desc: Kentico Cloud Delivery SDK for Ruby.
 site: https://github.com/Kentico/delivery-sdk-ruby
 tags:
-- Ruby
+- ruby
 - sdk
 - content-delivery
 - kentico

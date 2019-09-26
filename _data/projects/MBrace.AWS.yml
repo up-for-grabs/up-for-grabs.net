@@ -3,11 +3,11 @@ name: MBrace.AWS
 desc: MBrace runtime implementation targeting Amazon Web Services
 site: https://github.com/mbraceproject/MBrace.AWS
 tags:
-- F#
-- AWS
-- Amazon
-- MBrace
-- Cloud
+- f#
+- aws
+- amazon
+- mbrace
+- cloud
 - ".net"
 upforgrabs:
   name: help wanted

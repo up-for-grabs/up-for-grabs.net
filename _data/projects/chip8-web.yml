@@ -6,7 +6,7 @@ tags:
 - javascript
 - react
 - emulator
-- Webpack
+- webpack
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Taiters/chip8-web/labels/up-for-grabs

@@ -3,8 +3,8 @@ name: taliesin
 desc: OWIN routing middleware using F# Agents
 site: https://github.com/frank-fs/taliesin
 tags:
-- F#
-- OWIN
+- f#
+- owin
 - ".net"
 upforgrabs:
   name: you-take-it

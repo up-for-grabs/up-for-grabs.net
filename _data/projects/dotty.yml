@@ -3,12 +3,12 @@ name: Dotty
 desc: Next-generation Scala Compiler
 site: https://github.com/lampepfl/dotty
 tags:
-- Scala
+- scala
 - language
 - language-server-protocol
 - compiler
 - ide
-- JVM
+- jvm
 upforgrabs:
   name: exp:novice
   link: https://github.com/lampepfl/dotty/labels/exp%3Anovice

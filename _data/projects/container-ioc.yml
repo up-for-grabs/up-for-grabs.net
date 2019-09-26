@@ -8,8 +8,8 @@ tags:
 - nodejs
 - ioc
 - di
-- dependency injection
-- inversion of control
+- dependency-injection
+- inversion-of-control
 upforgrabs:
   name: help wanted
   link: https://github.com/typesoft/container-ioc/labels/help%20wanted

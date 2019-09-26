@@ -3,9 +3,9 @@ name: OrganiseDesktop
 desc: A small programme that organises icons on a desktop
 site: https://github.com/blavejr/OrganiseDesktop
 tags:
-- Python
+- python
 - tkinter
-- GUI
+- gui
 - easy
 upforgrabs:
   name: help wanted

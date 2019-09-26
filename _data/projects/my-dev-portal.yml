@@ -3,9 +3,9 @@ name: My Dev Portal
 desc: A web app for new developers to create an online portfolio and track their job applications.
 site: https://github.com/the-wendell/my_dev_portal
 tags:
-- CSS
+- css
 - haml
-- UI
+- ui
 - rubyonrails
 - ruby
 - web

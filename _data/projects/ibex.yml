@@ -6,7 +6,7 @@ desc: >-
 site: https://github.com/Azure/ibex-dashboard
 tags:
 - node
-- JavaScript
+- javascript
 - react
 upforgrabs:
   name: up-for-grabs

@@ -5,9 +5,9 @@ site: http://dualitydocs.adamslair.net/
 tags:
 - markdown
 - documentation
-- ".NET"
-- C#
-- OpenGL
+- ".net"
+- c#
+- opengl
 - gamedev
 - games
 - 2d

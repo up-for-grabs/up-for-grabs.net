@@ -3,7 +3,7 @@ name: delivery-sdk-php
 desc: Kentico Cloud Delivery SDK for PHP
 site: https://github.com/Kentico/delivery-sdk-php
 tags:
-- PHP
+- php
 - sdk
 - content-delivery
 - kentico

@@ -4,7 +4,7 @@ desc: Guides and tutorials on Linux, web servers, development, and more
 site: https://github.com/linode/docs
 tags:
 - linux
-- VPS
+- vps
 - cloud
 - devops
 - automation

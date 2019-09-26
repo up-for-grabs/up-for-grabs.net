@@ -3,7 +3,7 @@ name: Giraffe
 desc: A native functional ASP.NET Core web framework for F# developers.
 site: https://github.com/giraffe-fsharp/Giraffe
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: help wanted

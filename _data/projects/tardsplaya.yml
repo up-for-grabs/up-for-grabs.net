@@ -3,7 +3,7 @@ name: Tardsplaya
 desc: Allows viewing of Twitch streams with less buffering in external media players
 site: https://github.com/Zero3K/Tardsplaya
 tags:
-- Twitch
+- twitch
 - stream
 - media
 - player
@@ -11,8 +11,8 @@ tags:
 - buffer
 - lag
 - lagging
-- Delphi
-- Pascal
+- delphi
+- pascal
 - streaming
 upforgrabs:
   name: up-for-grabs

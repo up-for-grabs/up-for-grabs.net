@@ -91,12 +91,20 @@ define([
           selTags = $('.tags-filter').val() || [];
           selectedTag = preparePopTagName($(this).text() || '');
           if (selectedTag) {
-            selTags.push(selectedTag);
-            location.href = updateQueryStringParameter(
-              getFilterUrl(),
-              'tags',
-              encodeURIComponent(selTags)
-            );
+            tagID = projectsSvc
+              .getTags()
+              .map(function(tag) {
+                return tag.name.toLowerCase();
+              })
+              .indexOf(selectedTag);
+            if (tagID !== -1) {
+              selTags.push(selectedTag);
+              location.href = updateQueryStringParameter(
+                getFilterUrl(),
+                'tags',
+                encodeURIComponent(selTags)
+              );
+            }
           }
         });
       });

@@ -216,7 +216,48 @@ $root_directory = ENV['GITHUB_WORKSPACE']
 $verbose = ENV['VERBOSE_OUTPUT']
 projects = File.join($root_directory, '_data', 'projects', '*.yml')
 
+current_repo = ENV['GITHUB_REPOSITORY']
+
+client = Octokit::Client.new(:access_token => ENV['GITHUB_TOKEN'])
+prs = client.pulls current_repo
+
+found_pr = prs.find { |pr| pr.title == "Updated project stats" && pr.user.login == "github-actions[bot]" }
+
+if found_pr
+  puts "There is a current PR open to update stats ##{found_pr.number} - review and merge that before we go again"
+  exit 78
+end
+
 Dir.glob(projects).each { |path| verify_file(path) }
+
+clean = true
+
+branch_name = Time.now.strftime("updated-stats-%Y%m%d")
+
+
+Dir.chdir($root_directory) do
+  system('git config --global user.name "github-actions"')
+  system('git config --global user.email "github-actions@users.noreply.github.com"')
+
+  system("git remote set-url origin 'https://x-access-token:#{ENV['GITHUB_TOKEN']}@github.com/#{current_repo}.git'")
+
+  clean = system("git diff --quiet > /dev/null")
+
+  unless clean
+    system("git checkout -b #{branch_name}")
+    system("git commit -am 'regenerated project stats'")
+    system("git push origin #{branch_name}")
+  end
+end
+
+unless clean
+  body = "This PR regenerates the stats for all repositories that use a single label in a single GitHub repository"
+
+  if found_pr.nil?
+    client.create_pull_request(current_repo, "gh-pages", branch_name, "Updated project stats", body)
+  end
+end
+
 
 finish = Time.now
 delta = finish - start

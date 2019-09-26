@@ -1,0 +1,13 @@
+on:
+  schedule:
+  - cron: 0 18 * * *
+name: Update project stats
+jobs:
+  cleanupArchivedProjects:
+    name: Update project stats
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: ./.github/actions/update-stats
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

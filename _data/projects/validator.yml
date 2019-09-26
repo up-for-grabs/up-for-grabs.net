@@ -7,3 +7,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/AlexArchive/Validator/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2019-06-10T18:23:33Z'

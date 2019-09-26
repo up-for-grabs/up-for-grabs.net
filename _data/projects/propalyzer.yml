@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/toms3t/Propalyzer/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2019-09-25T15:36:36Z'

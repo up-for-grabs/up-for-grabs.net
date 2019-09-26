@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: PRs plz!
   link: https://github.com/angular/angular.js/labels/PRs%20plz%21
+stats:
+  issue-count: 32
+  last-updated: '2019-09-26T15:23:01Z'

@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/creativecommons/cccatalog-api/labels/help%20wanted
+stats:
+  issue-count: 6
+  last-updated: '2019-09-19T20:47:34Z'

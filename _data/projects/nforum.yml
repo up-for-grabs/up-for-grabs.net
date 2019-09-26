@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/steentottrup/NForum/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-02-01T19:23:12Z'

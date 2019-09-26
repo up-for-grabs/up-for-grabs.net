@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: error
   link: https://github.com/bunto/bunto/labels/error
+stats:
+  issue-count: 1
+  last-updated: '2018-08-07T16:15:02Z'

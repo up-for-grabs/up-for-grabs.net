@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/rafanoronha/scala-poker/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-05-03T00:37:11Z'

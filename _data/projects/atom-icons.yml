@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/HackeSta/atom-icons/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2019-08-24T05:17:26Z'

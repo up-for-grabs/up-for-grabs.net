@@ -15,3 +15,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/treyhboy/Carto/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2019-09-22T03:20:56Z'

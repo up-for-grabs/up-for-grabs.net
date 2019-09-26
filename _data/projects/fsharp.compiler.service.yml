@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsharp/FSharp.Compiler.Service/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-07T19:35:49Z'

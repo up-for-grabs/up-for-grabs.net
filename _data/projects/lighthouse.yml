@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/petabridge/lighthouse/labels/help%20wanted
+stats:
+  issue-count: 0
+  last-updated: '2019-09-25T11:19:49Z'

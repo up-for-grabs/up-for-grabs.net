@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/feddischson/include_gardener/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2019-09-06T01:14:55Z'

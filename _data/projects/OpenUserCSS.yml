@@ -15,3 +15,6 @@ tags:
 upforgrabs:
   name: pull request welcome
   link: https://github.com/OpenUserCSS/openusercss.org/labels/pull%20request%20welcome
+stats:
+  issue-count: 9
+  last-updated: '2019-08-28T19:56:29Z'

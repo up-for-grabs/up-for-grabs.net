@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: Up for grabs
   link: https://github.com/in-toto/in-toto/labels/Up%20for%20grabs
+stats:
+  issue-count: 8
+  last-updated: '2019-09-25T11:35:10Z'

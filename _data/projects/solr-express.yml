@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up for grabs
   link: https://github.com/solr-express/solr-express/labels/up%20for%20grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-09-23T10:10:00Z'

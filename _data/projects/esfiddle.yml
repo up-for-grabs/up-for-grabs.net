@@ -15,3 +15,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/esfiddle/api/labels/up-for-grabs
+stats:
+  issue-count: 12
+  last-updated: '2019-08-26T11:30:03Z'

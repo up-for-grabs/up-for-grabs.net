@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: first-timers-only
   link: https://github.com/shanselman/SmallestDotNet/labels/first-timers-only
+stats:
+  issue-count: 0
+  last-updated: '2019-09-13T17:08:36Z'

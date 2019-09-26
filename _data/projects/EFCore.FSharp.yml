@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/bricelam/EFCore.FSharp/labels/help%20wanted
+stats:
+  issue-count: 0
+  last-updated: '2019-09-11T23:16:46Z'

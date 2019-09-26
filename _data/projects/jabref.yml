@@ -19,3 +19,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/JabRef/jabref/labels/good%20first%20issue
 contribute: https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md
+stats:
+  issue-count: 11
+  last-updated: '2019-09-26T17:05:25Z'

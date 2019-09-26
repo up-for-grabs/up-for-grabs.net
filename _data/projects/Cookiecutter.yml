@@ -7,3 +7,6 @@ tags:
 upforgrabs:
   name: please-help
   link: https://github.com/cookiecutter/cookiecutter/labels/please-help
+stats:
+  issue-count: 7
+  last-updated: '2019-09-26T13:53:53Z'

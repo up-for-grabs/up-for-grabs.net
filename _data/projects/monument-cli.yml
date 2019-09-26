@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: first-contribution
   link: https://github.com/ansble/monument-cli/labels/first-contribution
+stats:
+  issue-count: 1
+  last-updated: '2018-08-08T13:52:40Z'

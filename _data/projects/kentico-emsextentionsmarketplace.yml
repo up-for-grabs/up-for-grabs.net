@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/ems-extension-marketplace/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2019-08-20T12:22:52Z'

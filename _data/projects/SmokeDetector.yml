@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: 'type: up-for-grabs'
   link: https://github.com/Charcoal-SE/SmokeDetector/labels/type%3A%20up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-26T17:42:57Z'

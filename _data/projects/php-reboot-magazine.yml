@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: backlog-easy
   link: https://github.com/phpreboot/website/labels/backlog-easy
+stats:
+  issue-count: 15
+  last-updated: '2017-11-11T16:49:18Z'

@@ -28,3 +28,6 @@ tags:
 upforgrabs:
   name: contribution-starter
   link: https://github.com/tessel/project/labels/contribution-starter
+stats:
+  issue-count: 2
+  last-updated: '2019-09-22T21:18:52Z'

@@ -16,3 +16,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/cloud-sample-app-express/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-09-25T13:17:47Z'

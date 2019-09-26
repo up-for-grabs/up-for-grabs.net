@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/joyent/containerpilot/labels/help%20wanted
+stats:
+  issue-count: 5
+  last-updated: '2019-09-18T12:03:51Z'

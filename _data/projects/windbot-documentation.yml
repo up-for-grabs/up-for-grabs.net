@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Tibia-WindBot/WindBot-Docs/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-07-17T10:22:44Z'

@@ -15,3 +15,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/TypeFox/monaco-languageclient/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2019-09-20T03:32:30Z'

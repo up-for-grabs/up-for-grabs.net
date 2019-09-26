@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/PowerShellOrg/tug/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-09-23T15:46:47Z'

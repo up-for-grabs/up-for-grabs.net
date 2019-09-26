@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/gautamkrishnar/nothing-private/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-23T12:33:09Z'

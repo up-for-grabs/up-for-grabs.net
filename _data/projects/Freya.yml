@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/xyncro/freya/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2019-09-24T10:39:50Z'

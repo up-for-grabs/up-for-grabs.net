@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/srv-twry/My-Companion/labels/up-for-grabs
+stats:
+  issue-count: 5
+  last-updated: '2019-08-26T17:57:09Z'

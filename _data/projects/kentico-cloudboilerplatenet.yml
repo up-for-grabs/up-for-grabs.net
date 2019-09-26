@@ -16,3 +16,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/cloud-boilerplate-net/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2019-09-25T08:55:10Z'

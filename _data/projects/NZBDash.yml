@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/NZBDash/NZBDash/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2019-09-19T19:16:29Z'

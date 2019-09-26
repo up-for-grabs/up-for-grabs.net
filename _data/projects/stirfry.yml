@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/StirFry-js/stirfry/labels/help%20wanted
+stats:
+  issue-count: 0
+  last-updated: '2019-02-04T14:00:40Z'

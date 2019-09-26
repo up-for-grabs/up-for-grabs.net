@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/RaspInLoop/RaspInLoop/labels/help%20wanted
+stats:
+  issue-count: 8
+  last-updated: '2019-08-31T08:31:32Z'

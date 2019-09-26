@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: simple task
   link: https://github.com/GlPortal/RadixEngine/labels/simple%20task
+stats:
+  issue-count: 4
+  last-updated: '2019-09-18T15:34:53Z'

@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: 'type: up-for-grabs'
   link: https://github.com/Charcoal-SE/metasmoke/labels/type%3A%20up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-23T16:43:39Z'

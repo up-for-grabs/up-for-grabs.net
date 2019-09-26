@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: Junior Jobs
   link: https://github.com/friendica/friendica/labels/Junior%20Jobs
+stats:
+  issue-count: 35
+  last-updated: '2019-09-20T14:13:34Z'

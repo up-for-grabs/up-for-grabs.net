@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/ScratchUtilities/gobo.cf/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-08-16T15:39:49Z'

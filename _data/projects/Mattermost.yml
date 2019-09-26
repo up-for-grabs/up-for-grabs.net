@@ -1,8 +1,8 @@
+---
 name: Mattermost
 desc: Open source Slack-alternative in Golang and React
 site: https://mattermost.com
 tags:
-# Note: these are tags categorizing the project, not issue labels.
 - Golang
 - Go
 - js
@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: Up For Grabs
   link: https://github.com/mattermost/mattermost-server/labels/Up%20For%20Grabs
+stats:
+  issue-count: 170
+  last-updated: '2019-09-26T17:54:57Z'

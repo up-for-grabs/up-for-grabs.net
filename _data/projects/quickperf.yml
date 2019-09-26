@@ -1,6 +1,7 @@
 ---
 name: QuickPerf
-desc: QuickPerf is a testing library for Java providing annotations to quickly evaluate some performance properties.
+desc: >-
+  QuickPerf is a testing library for Java providing annotations to quickly evaluate some performance properties.
 site: https://github.com/quick-perf/quickperf
 tags:
 - java
@@ -9,3 +10,6 @@ tags:
 upforgrabs:
   name: ":thumbsup: good first issue"
   link: https://github.com/quick-perf/quickperf/labels/%3Athumbsup%3A%20good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2019-09-26T16:39:04Z'

@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: exp:novice
   link: https://github.com/lampepfl/dotty/labels/exp%3Anovice
+stats:
+  issue-count: 5
+  last-updated: '2019-09-26T17:29:06Z'

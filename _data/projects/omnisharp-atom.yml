@@ -14,3 +14,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/OmniSharp/omnisharp-atom/labels/help%20wanted
+stats:
+  issue-count: 8
+  last-updated: '2019-07-09T20:08:16Z'

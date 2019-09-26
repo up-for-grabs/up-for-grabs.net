@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/MasoniteFramework/core/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  last-updated: '2019-09-22T01:37:10Z'

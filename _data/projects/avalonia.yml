@@ -18,3 +18,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/AvaloniaUI/Avalonia/labels/up-for-grabs
+stats:
+  issue-count: 12
+  last-updated: '2019-09-26T15:13:09Z'

@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/mubaris/motivate/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-25T21:07:03Z'

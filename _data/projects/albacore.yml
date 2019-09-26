@@ -17,3 +17,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/Albacore/albacore/labels/help%20wanted
+stats:
+  issue-count: 10
+  last-updated: '2019-08-13T15:08:06Z'

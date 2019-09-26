@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/opendatakit/collect/labels/help%20wanted
+stats:
+  issue-count: 16
+  last-updated: '2019-09-24T15:19:54Z'

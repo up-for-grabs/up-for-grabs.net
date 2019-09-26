@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Xyli0/FTracker/labels/up-for-grabs
+stats:
+  issue-count: 0
+  last-updated: '2019-02-15T04:05:05Z'

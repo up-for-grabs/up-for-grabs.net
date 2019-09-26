@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/Paket/labels/up-for-grabs
+stats:
+  issue-count: 52
+  last-updated: '2019-09-25T09:11:59Z'

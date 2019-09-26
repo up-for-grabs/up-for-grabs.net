@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: Good first issue
   link: https://github.com/flarum/core/labels/Good%20first%20issue
+stats:
+  issue-count: 31
+  last-updated: '2019-09-25T08:48:49Z'

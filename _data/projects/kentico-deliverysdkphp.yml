@@ -15,3 +15,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/delivery-sdk-php/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2019-09-23T08:43:14Z'

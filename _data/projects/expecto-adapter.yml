@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/adamchester/expecto-adapter/labels/help%20wanted
+stats:
+  issue-count: 5
+  last-updated: '2019-05-30T18:07:17Z'

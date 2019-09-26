@@ -7,3 +7,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/KevM/tikaondotnet/labels/up-for-grabs
+stats:
+  issue-count: 5
+  last-updated: '2019-09-03T15:18:30Z'

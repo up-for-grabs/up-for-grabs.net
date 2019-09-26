@@ -20,3 +20,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/YaccConstructor/QuickGraph/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-09-17T19:13:20Z'

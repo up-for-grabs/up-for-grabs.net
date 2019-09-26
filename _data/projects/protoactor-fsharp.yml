@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/mastoj/protoactor-fsharp/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2019-05-15T21:14:30Z'

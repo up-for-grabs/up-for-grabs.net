@@ -18,3 +18,6 @@ tags:
 upforgrabs:
   name: beginner friendly
   link: https://github.com/ifmeorg/ifme/labels/beginner%20friendly
+stats:
+  issue-count: 7
+  last-updated: '2019-09-26T15:47:07Z'

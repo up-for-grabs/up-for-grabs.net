@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: jump in
   link: https://github.com/ploeh/Hyprlinkr/labels/jump%20in
+stats:
+  issue-count: 4
+  last-updated: '2019-07-25T07:55:40Z'

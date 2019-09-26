@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/continuous-software/42-cent/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2019-08-13T15:50:44Z'

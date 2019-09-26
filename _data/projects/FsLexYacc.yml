@@ -8,3 +8,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/fsprojects/FsLexYacc/labels/help%20wanted
+stats:
+  issue-count: 9
+  last-updated: '2019-08-25T00:28:16Z'

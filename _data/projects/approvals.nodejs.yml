@@ -3,7 +3,7 @@ name: Approvals.NodeJS
 desc: Approval Tests implementation in NodeJS
 site: https://github.com/approvals/Approvals.NodeJS
 tags:
-- node
+- node.js
 - javascript
 - testing
 upforgrabs:

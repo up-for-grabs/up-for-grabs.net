@@ -5,7 +5,6 @@ site: https://github.com/nitishm/vegeta-server
 tags:
 - oss
 - go
-- golang
 - load-testing
 - vegeta
 - swagger

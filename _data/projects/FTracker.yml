@@ -4,8 +4,7 @@ desc: A fun money tracking app. Set goals, save money while having fun. Made wit
 site: https://github.com/Xyli0/FTracker
 tags:
 - javascript
-- nodejs
-- node
+- node.js
 - mongo
 - mongodb
 - ejs

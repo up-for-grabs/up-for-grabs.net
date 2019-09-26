@@ -3,7 +3,7 @@ name: Face Recognition
 desc: Face Recognizer helps to recognize faces of an individual with the help of Deep Learning Algorithms.
 site: https://github.com/riya-17/FaceRecognition
 tags:
-- face_recognition
+- face-recognition
 - python
 - opencv
 - dlib

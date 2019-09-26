@@ -4,8 +4,8 @@ desc: An isomorphic NodeJS framework powered with React for building web apps.
 site: https://github.com/phenax/plasmajs
 tags:
 - plasmajs
-- react
-- node
+- reactjs
+- node.js
 - javascript
 - framework
 - isomorphic

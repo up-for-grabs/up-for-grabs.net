@@ -4,7 +4,6 @@ desc: A Scalable Server for Realtime Web Apps
 site: http://deepstream.io/
 tags:
 - node.js
-- node
 - tcp
 - network
 - java

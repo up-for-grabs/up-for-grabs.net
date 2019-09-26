@@ -4,9 +4,8 @@ desc: the CLI for rapid development with monument
 site: http://monument.ansble.com
 tags:
 - javascript
-- js
 - cli
-- node
+- node.js
 upforgrabs:
   name: first-contribution
   link: https://github.com/ansble/monument-cli/labels/first-contribution

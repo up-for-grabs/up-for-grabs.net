@@ -3,11 +3,9 @@ name: Mattermost
 desc: Open source Slack-alternative in Golang and React
 site: https://mattermost.com
 tags:
-- golang
 - go
-- js
 - javascript
-- react
+- reactjs
 - react-native
 upforgrabs:
   name: Up For Grabs

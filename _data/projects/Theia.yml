@@ -6,7 +6,7 @@ tags:
 - ide
 - editor
 - language-server-protocol
-- node
+- node.js
 - express
 - electron
 - javascript

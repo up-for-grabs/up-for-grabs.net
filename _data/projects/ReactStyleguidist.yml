@@ -3,7 +3,7 @@ name: React Styleguidist
 desc: Isolated React component development environment with a living style guide
 site: https://react-styleguidist.js.org/
 tags:
-- react
+- reactjs
 - styleguide
 - javascript
 - components

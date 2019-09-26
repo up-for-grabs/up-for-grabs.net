@@ -7,7 +7,7 @@ tags:
 - web
 - mysql
 - css
-- node
+- node.js
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/ColinMoulds/Counter-Core/labels/up-for-grabs

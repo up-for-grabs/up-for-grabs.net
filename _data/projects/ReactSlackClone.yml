@@ -4,7 +4,6 @@ desc: Slack clone built with React and Chatkit
 site: https://pusher.github.io/react-slack-clone/
 tags:
 - javascript
-- js
 - web
 upforgrabs:
   name: help wanted

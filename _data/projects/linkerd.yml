@@ -6,7 +6,6 @@ tags:
 - oss
 - web
 - cloud-native
-- golang
 - go
 - javascript
 - kubernetes
@@ -14,7 +13,7 @@ tags:
 - cncf
 - containers
 - docker
-- react
+- reactjs
 upforgrabs:
   name: good first issue
   link: https://github.com/linkerd/linkerd2/labels/good%20first%20issue

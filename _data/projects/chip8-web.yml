@@ -4,7 +4,7 @@ desc: A Chip8 emulator which runs in the browser along with tools to view the re
 site: https://github.com/Taiters/chip8-web
 tags:
 - javascript
-- react
+- reactjs
 - emulator
 - webpack
 upforgrabs:

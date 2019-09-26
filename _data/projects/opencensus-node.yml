@@ -9,7 +9,7 @@ site: https://opencensus.io
 tags:
 - trace
 - node.js
-- js
+- javascript
 - cloud
 - stats
 - monitoring

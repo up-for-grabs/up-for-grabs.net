@@ -3,7 +3,6 @@ name: Johnny-Five
 desc: JavaScript Robotics and IoT programming framework
 site: http://johnny-five.io
 tags:
-- js
 - javascript
 - iot
 - arduino

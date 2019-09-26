@@ -6,7 +6,7 @@ site: https://github.com/aawgit/onlineStore
 tags:
 - mern
 - javascript
-- nodejs
+- node.js
 - reactjs
 - mongodb
 - mongoose

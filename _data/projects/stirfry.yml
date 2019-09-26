@@ -3,7 +3,6 @@ name: StirFry
 desc: An easy to use and tasty web framework for node.js
 site: https://github.com/StirFry-js/stirfry
 tags:
-- node
 - node.js
 - webframework
 - server

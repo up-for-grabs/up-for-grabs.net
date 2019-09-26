@@ -3,7 +3,6 @@ name: CoderDojo Community Platform
 desc: The global community site for CoderDojo - a network of free computer programming clubs for children
 site: http://zen.coderdojo.com
 tags:
-- node
 - node.js
 - mozilla
 - javascript

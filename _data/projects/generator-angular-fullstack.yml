@@ -16,7 +16,6 @@ tags:
 - mean
 - express
 - node.js
-- node
 upforgrabs:
   name: Help Wanted
   link: https://github.com/angular-fullstack/generator-angular-fullstack/labels/Help%20Wanted

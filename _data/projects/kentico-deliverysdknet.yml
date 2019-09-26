@@ -5,7 +5,7 @@ site: https://github.com/Kentico/delivery-sdk-net
 tags:
 - ".net"
 - ".net-standard"
-- csharp
+- c#
 - sdk
 - kentico
 - kentico-cloud

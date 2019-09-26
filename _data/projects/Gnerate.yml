@@ -4,9 +4,8 @@ desc: Reduce boilerplate through file generation
 site: https://github.com/ganderzz/gnerate
 tags:
 - javascript
-- js
 - typescript
-- node
+- node.js
 - file
 - generation
 - boilerplate

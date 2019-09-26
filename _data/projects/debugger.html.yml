@@ -5,7 +5,7 @@ site: https://github.com/firefox-devtools/debugger
 tags:
 - oss
 - web
-- react
+- reactjs
 - redux
 - javascript
 - debugger

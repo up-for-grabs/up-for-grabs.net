@@ -5,7 +5,7 @@ site: https://developer.wordpress.com/calypso/
 tags:
 - javascript
 - wordpress
-- react
+- reactjs
 - redux
 upforgrabs:
   name: good first issue

@@ -7,7 +7,7 @@ site: https://github.com/Greentube/serialization
 tags:
 - ".net"
 - c#
-- dotnet-core
+- ".net-core"
 - serialization
 upforgrabs:
   name: up-for-grabs

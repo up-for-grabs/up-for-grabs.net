@@ -4,7 +4,6 @@ desc: simple REST API, focused on quotes from the Ancestor of the Darkest Dungeo
 site: https://github.com/bruno-chavez/restedancestor
 tags:
 - go
-- golang
 - api
 - rest
 upforgrabs:

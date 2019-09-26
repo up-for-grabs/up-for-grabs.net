@@ -5,7 +5,7 @@ site: https://github.com/Kentico/content-management-sdk-net
 tags:
 - ".net"
 - ".net-standard"
-- csharp
+- c#
 - content-management
 - sdk
 - kentico

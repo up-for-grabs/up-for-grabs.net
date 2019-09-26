@@ -4,9 +4,8 @@ desc: Desktop music player for streaming from free sources
 site: https://nuclear.js.org
 tags:
 - javascript
-- js
 - web
-- react
+- reactjs
 - electron
 - music
 - linux

@@ -6,9 +6,9 @@ desc: >-
 site: https://docusaurus.io
 tags:
 - javascript
-- library
+- libraries
 - ui
-- react
+- reactjs
 - documentation
 - static-website-generator
 - facebook

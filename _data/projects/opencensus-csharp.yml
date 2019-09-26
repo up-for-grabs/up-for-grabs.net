@@ -9,7 +9,7 @@ desc: >-
 site: https://opencensus.io
 tags:
 - trace
-- csharp
+- c#
 - ".net"
 - dotnet
 - cloud

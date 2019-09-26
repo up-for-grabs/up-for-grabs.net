@@ -3,10 +3,9 @@ name: i-can-not-react
 desc: The Complete Book on Reactjs
 site: https://github.com/KirankumarAmbati/I-can-not-REACT
 tags:
-- react
 - reactjs
 - javascript
-- javascript-framework
+- framework
 - es6
 upforgrabs:
   name: good first issue

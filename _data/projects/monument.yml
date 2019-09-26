@@ -4,9 +4,8 @@ desc: event driven lightweight application framework for node
 site: http://monument.ansble.com
 tags:
 - javascript
-- js
 - server
-- node
+- node.js
 - web
 upforgrabs:
   name: first contribution

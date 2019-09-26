@@ -4,7 +4,7 @@ desc: Modern web IRC client designed for self-hosting
 site: https://thelounge.chat
 tags:
 - web
-- node
+- node.js
 - irc
 - chat
 - javascript

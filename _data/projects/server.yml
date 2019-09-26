@@ -4,7 +4,7 @@ desc: Modern, simple & flexible server for Node.js
 site: https://serverjs.io/
 tags:
 - javascript
-- node
+- node.js
 - express
 - es6
 - es7

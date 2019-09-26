@@ -3,7 +3,6 @@ name: Mender
 desc: The end-to-end open source update manager for IoT devices
 site: https://mender.io/
 tags:
-- golang
 - go
 - linux
 - iot

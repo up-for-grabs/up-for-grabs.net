@@ -5,7 +5,6 @@ site: https://github.com/Shivam010/bypass-cors
 tags:
 - oss
 - go
-- golang
 - cors
 - rest-api
 - html

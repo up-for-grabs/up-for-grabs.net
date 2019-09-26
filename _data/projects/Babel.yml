@@ -4,7 +4,6 @@ desc: The compiler for writing next generation JavaScript.
 site: http://babeljs.io/
 tags:
 - javascript
-- js
 - web
 - ecmascript
 - compiler

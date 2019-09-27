@@ -33,7 +33,7 @@ Check out the [up-for-grabs](https://github.com/up-for-grabs/up-for-grabs.net/bl
 
 ### Pull Request Reviews
 
-We aim to be responsive when a pull request is open, but if a pull request remains idle for 2 months with feedback that prevents us from merging it we will close the pull request. You are welcome to resubmit the project and address the feedback provided.
+We aim to be responsive when a pull request is open, but if a pull request remains idle for 2 weeks with feedback that prevents us from merging it we will close the pull request. You are welcome to resubmit the project and address the feedback provided.
 
 ## Use the Yeoman Generator
 

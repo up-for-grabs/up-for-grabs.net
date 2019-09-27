@@ -1,0 +1,13 @@
+name: Ushahidi
+desc: Ushahidi is an open source web application for information collection, visualization and interactive mapping. It helps you to collect info from: SMS, Twitter, Email.
+site: https://github.com/ushahidi/platform
+tags:
+- activism
+- non-profit
+- nonprofit
+- ushahidi
+- crowdsourcing
+- elections
+upforgrabs:
+  name: good-first-issue
+  link: https://github.com/ushahidi/platform/labels/good-first-issue

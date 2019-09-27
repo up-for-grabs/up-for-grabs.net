@@ -13,7 +13,7 @@ tags:
 - mongodb
 - asp.net
 - shopping-cart
-- .net-core
+- ".net-core"
 upforgrabs:
   name: help wanted
   link: https://github.com/grandnode/grandnode/labels/help%20wanted

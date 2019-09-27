@@ -1,0 +1,12 @@
+name: InTalks
+desc: InTalks is an android application used to fetch the latest news about a topic from various online news platforms.
+site: https://www.github.com/josharsh/Intalks
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- Java
+- Android
+- API
+
+upforgrabs:
+  name: good first issue
+  link: https://github.com/josharsh/InTalks/blob/master/README.md

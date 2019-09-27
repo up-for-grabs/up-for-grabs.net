@@ -1,0 +1,14 @@
+---
+name: Boa
+desc: Javascript Engine written in Rust
+site: https://github.com/jasonwilliams/boa
+tags:
+  - rust
+  - oss
+  - javascript
+  - language
+  - compiler
+  - interpreter
+upforgrabs:
+  name: good first issue
+  link: https://github.com/jasonwilliams/boa/labels/good%20first%20issue

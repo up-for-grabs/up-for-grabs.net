@@ -6,7 +6,7 @@ tags:
 - python
 - opencv
 - yaml
-- python 2
+- python-2
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Griffintaur/QRCodeReader/labels/up-for-grabs

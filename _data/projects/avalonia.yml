@@ -3,17 +3,17 @@ name: Avalonia
 desc: A multi-platform .NET UI framework.
 site: https://github.com/AvaloniaUI/Avalonia
 tags:
-- C#
-- WPF
-- XAML
-- ".NET"
-- Direct2D
-- iOS
-- Android
-- Linux
-- Cairo
-- Skia
-- GUI
+- c#
+- wpf
+- xaml
+- ".net"
+- direct2d
+- ios
+- android
+- linux
+- cairo
+- skia
+- gui
 - xplat
 upforgrabs:
   name: up-for-grabs

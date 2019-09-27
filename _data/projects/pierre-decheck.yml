@@ -5,8 +5,8 @@ site: https://github.com/alvarocavalcanti/pierre-decheck
 tags:
 - python
 - flask
-- pull request
-- dependency check
+- pull-request
+- dependency-check
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/alvarocavalcanti/pierre-decheck/labels/up-for-grabs

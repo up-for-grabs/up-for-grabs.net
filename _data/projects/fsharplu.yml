@@ -6,7 +6,7 @@ desc: >-
   serialization.
 site: https://github.com/Microsoft/fsharplu
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: help wanted

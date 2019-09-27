@@ -5,7 +5,7 @@ desc: >-
   netstandard2.0)
 site: https://github.com/TheAngryByrd/MiniScaffold
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: help wanted

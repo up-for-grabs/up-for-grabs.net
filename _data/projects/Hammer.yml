@@ -4,14 +4,14 @@ desc: FHIR instance validator
 site: https://github.com/vadi2/Hammer
 tags:
 - oss
-- ".NET"
-- GUI
-- C#
-- Cross Platform
-- Linux
-- macOS
-- Windows
-- FHIR
+- ".net"
+- gui
+- c#
+- cross-platform
+- linux
+- macos
+- windows
+- fhir
 upforgrabs:
   name: good first issue
   link: https://github.com/vadi2/Hammer/labels/good%20first%20issue

@@ -3,9 +3,9 @@ name: SharpBucket
 desc: SharpBucket is a .Net wrapper for the Bitbucket's REST API
 site: https://github.com/MitjaBezensek/SharpBucket
 tags:
-- ".NET"
-- C#
-- Bitbucket
+- ".net"
+- c#
+- bitbucket
 - wrapper
 - rest
 - api

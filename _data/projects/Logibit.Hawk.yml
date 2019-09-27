@@ -5,9 +5,9 @@ desc: >-
   errors.
 site: https://github.com/logibit/Logibit.Hawk
 tags:
-- F#
+- f#
 - ".net"
-- Hawk
+- hawk
 upforgrabs:
   name: help wanted
   link: https://github.com/logibit/Logibit.Hawk/labels/help%20wanted

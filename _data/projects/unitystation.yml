@@ -3,10 +3,10 @@ name: UnityStation
 desc: A port of SpaceStation 13 into unity
 site: https://github.com/unitystation/unitystation
 tags:
-- SS13
-- Unity
-- UnityStation
-- Game
+- ss13
+- unity
+- unitystation
+- game
 upforgrabs:
   name: Good-First-Issue
   link: https://github.com/unitystation/unitystation/labels/Good-First-Issue

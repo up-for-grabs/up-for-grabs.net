@@ -4,16 +4,16 @@ desc: >-
   A boilerplate for an online store app with front end with React and a back end API with Express/Node/MongoDB.
 site: https://github.com/aawgit/onlineStore
 tags:
-- MERN
-- JavaScript
-- NodeJS
-- ReactJS
-- MongoDB
-- Mongoose
-- Express
-- Cloudinary
-- Passport-facebook
-- Oauth
+- mern
+- javascript
+- node.js
+- reactjs
+- mongodb
+- mongoose
+- express
+- cloudinary
+- passport-facebook
+- oauth
 upforgrabs:
   name: good first issue
   link: https://github.com/aawgit/onlineStore/labels/good%20first%20issue

@@ -9,7 +9,7 @@ site: https://opencensus.io
 tags:
 - trace
 - node.js
-- js
+- javascript
 - cloud
 - stats
 - monitoring
@@ -22,7 +22,7 @@ tags:
 - zipkin
 - stackdriver
 - signalfx
-- application insights
+- application-insights
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/census-instrumentation/opencensus-node/labels/up-for-grabs

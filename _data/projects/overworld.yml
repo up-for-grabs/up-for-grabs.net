@@ -3,13 +3,12 @@ name: overworld
 desc: Social video game discovery and gaming journal.
 site: https://github.com/danielgrijalva/overworld
 tags:
-- react
 - reactjs
 - javascript
 - python
 - django
 - django-rest-framework
-- video games
+- video-games
 - gaming
 upforgrabs:
   name: 'up for grabs :zap:'

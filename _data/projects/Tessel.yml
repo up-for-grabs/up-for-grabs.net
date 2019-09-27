@@ -15,16 +15,15 @@ tags:
 - rust
 - c
 - documentation
-- docs
 - tutorials
 - firmware
 - cli
-- node
+- node.js
 - wifi
 - linux
 - openwrt
 - website
-- open governance
+- open-governance
 upforgrabs:
   name: contribution-starter
   link: https://github.com/tessel/project/labels/contribution-starter

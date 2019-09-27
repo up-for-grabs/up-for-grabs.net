@@ -3,9 +3,9 @@ name: LoadTestToolbox
 desc: Lightweight tools for load testing web applications, written in C#
 site: https://github.com/stevedesmond-ca/LoadTestToolbox
 tags:
-- C#
-- ".NET"
-- load testing
+- c#
+- ".net"
+- load-testing
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/stevedesmond-ca/LoadTestToolbox/labels/up-for-grabs

@@ -3,9 +3,9 @@ name: trail
 desc: ASP.NET Blazor rendering with F#
 site: https://github.com/panesofglass/trail
 tags:
-- F#
-- Blazor
-- Redux
+- f#
+- blazor
+- redux
 - ".net"
 upforgrabs:
   name: good first issue

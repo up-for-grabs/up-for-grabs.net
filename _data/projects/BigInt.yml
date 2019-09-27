@@ -5,7 +5,7 @@ site: https://github.com/faheel/BigInt
 tags:
 - arbitrary-size
 - class
-- library
+- libraries
 - biginteger
 - bigint
 - c++

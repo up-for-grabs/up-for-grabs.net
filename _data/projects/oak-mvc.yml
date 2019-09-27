@@ -5,8 +5,8 @@ desc: >-
   brought to C#.
 site: https://amirrajan.github.com/Oak
 tags:
-- SPA
-- ASP.NET
+- spa
+- asp.net
 - dynamic
 upforgrabs:
   name: good first issue

@@ -6,7 +6,7 @@ tags:
 - api
 - javascript
 - docker
-- nodejs
+- node.js
 upforgrabs:
   name: good first issue
   link: https://github.com/odota/core/labels/good%20first%20issue

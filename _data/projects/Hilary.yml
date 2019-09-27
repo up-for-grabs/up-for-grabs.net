@@ -4,8 +4,7 @@ desc: Open Academic Environment project back-end
 site: http://oaeproject.org/
 tags:
 - javascript
-- nodejs
-- node
+- node.js
 - oss
 - education
 upforgrabs:

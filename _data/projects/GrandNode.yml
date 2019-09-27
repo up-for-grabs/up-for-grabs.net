@@ -1,7 +1,7 @@
 ---
 name: grandnode
 desc: >-
-  GrandNode is a functional, cross-platform, open-source solution for building scalable eCommerce software. 
+  GrandNode is a functional, cross-platform, open-source solution for building scalable eCommerce software.
   GrandNode is written in C#, HTML, and Javascript using MongoDB and the ASP.NET Core framework.  GrandNode
   provides a flexible all-in-one platform for merchants to easily establish, promote, and sell products
   or services online.
@@ -11,9 +11,9 @@ tags:
 - c#
 - ecommerce
 - mongodb
-- asp-net
+- asp.net
 - shopping-cart
-- dotnet-core
+- .net-core
 upforgrabs:
   name: help wanted
   link: https://github.com/grandnode/grandnode/labels/help%20wanted

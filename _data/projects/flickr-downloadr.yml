@@ -3,16 +3,16 @@ name: flickr downloadr
 desc: A cross-platform desktop app to download photos from your flickr photostream.
 site: https://flickrdownloadr.com/
 tags:
-- ".NET"
-- Mono
-- Cross Platform
-- Desktop App
-- Windows
-- Mac OS X
-- Linux
+- ".net"
+- mono
+- cross-platform
+- desktop-app
+- windows
+- mac-os-x
+- linux
 - flickr
-- flickr downloadr
-- download utility
+- flickr-downloadr
+- download-utility
 upforgrabs:
   name: help wanted
   link: https://github.com/flickr-downloadr/flickr-downloadr-gtk/labels/help%20wanted

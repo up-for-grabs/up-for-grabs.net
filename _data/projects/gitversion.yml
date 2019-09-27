@@ -3,11 +3,11 @@ name: GitVersion
 desc: Easy Semantic Versioning ([SemVer.org](http://semver.org)) for projects using Git
 site: https://github.com/GitTools/GitVersion
 tags:
-- Git
-- Versioning
-- SemVer
-- GitHubFlow
-- GitFlow
+- git
+- versioning
+- semver
+- githubflow
+- gitflow
 upforgrabs:
   name: good first issue
   link: https://github.com/GitTools/GitVersion/labels/good%20first%20issue

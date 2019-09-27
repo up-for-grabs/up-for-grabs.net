@@ -3,14 +3,14 @@ name: coisas
 desc: a client-side CMS for static sites hosted on GitHub
 site: https://github.com/fiatjaf/coisas
 tags:
-- CSS
-- Javascript
-- React
-- single-page application
-- SPA
+- css
+- javascript
+- reactjs
+- single-page-application
+- spa
 - gh-pages
-- static site
-- CMS
+- static-site
+- cms
 upforgrabs:
   name: first-timers-only
   link: https://github.com/fiatjaf/coisas/labels/first-timers-only

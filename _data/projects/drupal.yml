@@ -3,10 +3,10 @@ name: Drupal
 desc: Drupal is an open source content management platform powering millions of websites and applications.
 site: https://drupal.org
 tags:
-- CMS
-- Content Management System
-- PHP
-- Drupal
+- cms
+- content-management-system
+- php
+- drupal
 upforgrabs:
   name: Novice Issues
   link: http://tinyurl.com/7x-8xNovice

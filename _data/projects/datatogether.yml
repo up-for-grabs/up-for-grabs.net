@@ -5,18 +5,18 @@ site: https://github.com/datatogether/datatogether#readme
 tags:
 - go
 - api
-- web archiving
+- web-archiving
 - javascript
-- web scraping
+- web-scraping
 - community
 - environmentalism
 - decentralization
-- data collection
-- open data
-- data science
+- data-collection
+- open-data
+- data-science
 - data
 - python
-- react
+- reactjs
 upforgrabs:
   name: first-timers-only
   link: https://github.com/issues?q=is:open+org:datatogether+label:first-timers-only

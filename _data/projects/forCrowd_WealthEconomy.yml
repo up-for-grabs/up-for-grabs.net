@@ -3,10 +3,10 @@ name: Wealth Economy
 desc: Experimental ideas on improving how the economy works
 site: https://wealth.forcrowd.org
 tags:
-- C#
-- ASP.NET
-- AngularJS
-- MS SQL
+- c#
+- asp.net
+- angularjs
+- ms-sql
 upforgrabs:
   name: help wanted
   link: https://github.com/forCrowd/WealthEconomy/labels/help%20wanted

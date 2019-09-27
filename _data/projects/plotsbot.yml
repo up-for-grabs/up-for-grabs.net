@@ -5,7 +5,7 @@ site: https://github.com/publiclab/plotsbot
 tags:
 - javascript
 - oss
-- node
+- node.js
 - chatbot
 - irc
 - jasmine

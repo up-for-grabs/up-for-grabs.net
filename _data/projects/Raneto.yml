@@ -7,8 +7,7 @@ tags:
 - wiki
 - documentation
 - markdown
-- node
-- nodejs
+- node.js
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/gilbitron/Raneto/labels/up-for-grabs

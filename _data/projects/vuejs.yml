@@ -4,8 +4,8 @@ desc: Simple yet powerful library for building modern web interfaces.
 site: http://vuejs.org
 tags:
 - javascript
-- user interface
-- UI
+- user-interface
+- ui
 - templating
 - vuejs
 upforgrabs:

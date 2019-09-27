@@ -3,15 +3,15 @@ name: Human Connection
 desc: The free and open source social network for active citizenship.
 site: https://human-connection.org/en/in-nerds-we-trust/
 tags:
-- Javascript
-- VueJS
-- NuxtJS
-- GraphQL
-- NodeJS
-- ActivityPub
-- Neo4J
-- Docker
-- Kubernetes
+- javascript
+- vuejs
+- nuxtjs
+- graphql
+- node.js
+- activitypub
+- neo4j
+- docker
+- kubernetes
 upforgrabs:
   name: good first issue
   link: https://github.com/Human-Connection/Human-Connection/labels/good%20first%20issue

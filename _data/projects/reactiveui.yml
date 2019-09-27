@@ -7,20 +7,20 @@ desc: >-
   of your application.
 site: https://github.com/reactiveui/reactiveui
 tags:
-- ".NET"
-- C#
-- MVVM
-- ReactiveUI
-- Reactive Extensions
-- Xamarin
-- Xamarin Forms
-- Mac
-- iOS
-- Android
-- UWP
-- WPF
-- Winforms
-- Tizen
+- ".net"
+- c#
+- mvvm
+- reactiveui
+- reactive-extensions
+- xamarin
+- xamarin-forms
+- mac
+- ios
+- android
+- uwp
+- wpf
+- winforms
+- tizen
 upforgrabs:
   name: help wanted
   link: https://github.com/reactiveui/ReactiveUI/labels/help%20wanted

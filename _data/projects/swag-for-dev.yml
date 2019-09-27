@@ -3,11 +3,11 @@ name: swag-for-dev
 desc: "\U0001F60E swag opportunities for developers"
 site: https://github.com/swapagarwal/swag-for-dev
 tags:
-- Javascript
+- javascript
 - web
 - css
 - html
-- Node
+- node.js
 - swag
 - awesome
 upforgrabs:

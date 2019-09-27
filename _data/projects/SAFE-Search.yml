@@ -5,7 +5,7 @@ desc: >-
   and suggestions.
 site: https://github.com/SAFE-Stack/SAFE-Search
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: up-for-grabs

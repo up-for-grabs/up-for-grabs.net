@@ -3,9 +3,9 @@ name: seneca
 desc: A microservices toolkit for Node.js
 site: http://senecajs.org/
 tags:
-- JavaScript
+- javascript
 - node.js
-- API
+- api
 - microservices
 upforgrabs:
   name: New Contributor

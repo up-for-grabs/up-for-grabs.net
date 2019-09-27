@@ -5,15 +5,15 @@ desc: >-
   task queues
 site: https://github.com/BrighterCommand/Brighter
 tags:
-- Brighter
-- ".NET"
-- ".NET Core"
-- ".NET Standard"
-- C#
-- CQRS
-- Command Processor
-- Command Dispatcher
-- Task Queue
+- brighter
+- ".net"
+- ".net-core"
+- ".net-standard"
+- c#
+- cqrs
+- command-processor
+- command-dispatcher
+- task-queue
 upforgrabs:
   name: help wanted
   link: https://github.com/BrighterCommand/Brighter/labels/help%20wanted

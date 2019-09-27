@@ -5,8 +5,8 @@ desc: >-
   (Also includes stand-alone Markdown processor and F# code formatter)
 site: https://github.com/fsprojects/FSharp.Formatting
 tags:
-- F#
 - ".net"
+- f#
 - documentation
 - literate
 - markdown

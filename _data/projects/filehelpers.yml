@@ -5,11 +5,11 @@ desc: >-
   records in files, strings or streams.
 site: http://www.filehelpers.net
 tags:
-- CSV
-- FlatFiles
-- ETL
-- C#
-- ".NET"
+- csv
+- flatfiles
+- etl
+- c#
+- ".net"
 upforgrabs:
   name: Jump In
   link: https://github.com/MarcosMeli/FileHelpers/labels/Jump%20In

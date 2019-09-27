@@ -3,7 +3,7 @@ name: FsCMS
 desc: F# Based CMS
 site: https://github.com/FsCMS/FsCMS
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: help wanted

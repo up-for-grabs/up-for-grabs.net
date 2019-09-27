@@ -3,13 +3,13 @@ name: cloud-sample-app-vue
 desc: Sample Vue single page application utilizing the Kentico Cloud Delivery API to fetch content.
 site: https://github.com/Kentico/cloud-sample-app-vue
 tags:
-- JavaScript
+- javascript
 - kentico
 - kentico-cloud
 - headless-cms
 - headless
-- Vue
-- single-page application
+- vue
+- single-page-application
 - caas
 upforgrabs:
   name: up-for-grabs

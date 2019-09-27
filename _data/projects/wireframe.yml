@@ -4,14 +4,12 @@ desc: minimal wireframing css-framework
 site: https://github.com/agauniyal/wireframe
 tags:
 - sass
-- js
-- HTML
-- CSS
+- html
+- css
 - javascript
 - oss
 - gulp
-- node
-- nodejs
+- node.js
 upforgrabs:
   name: help wanted
   link: https://github.com/agauniyal/wireframe/labels/help%20wanted

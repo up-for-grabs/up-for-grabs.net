@@ -48,6 +48,62 @@ def valid_url? (url)
   end
 end
 
+def verify_preferred_tag (tag)
+  # preference is a map of [bad tag]: [preferred tag]
+  preference = {
+    "algorithms" => "algorithm",
+    "appletv" => "apple-tv",
+    "asp-net" => "asp.net",
+    "aspnet" => "asp.net",
+    "aspnetmvc" => "aspnet-mvc",
+    "aspnetcore" => "aspnet-core",
+    "asp-net-core" => "aspnet-core",
+    "assembler" => "assembly",
+    "builds" => "build",
+    "collaborate" => "collaboration",
+    "coding" =>"code",
+    "colour" => "color",
+    "commandline" => "command-line",
+    "csharp" => "c#",
+    "docs" => "documentation",
+    "dotnet-core" => ".net core",
+    "encrypt" => "encryption",
+    "fsharp" => "f#",
+    "games" => "game",
+    "gatsby" => "gatsbyjs",
+    "golang" => "go",
+    "js" => "javascript",
+    "library" => "libraries",
+    "linters" => "linter",
+    "node" => "node.js",
+    "nodejs" => "node.js",
+    "nuget.exe" => "nuget",
+    "parser" => "parsing",
+    "react" => "reactjs",
+  }
+  if (preference[tag] != nil) then
+    return "Use '#{preference[tag]}' instead of #{tag}\n"
+  end
+  return ""
+end
+
+def verify_tags(taglist)
+  result = ""
+  taglist.each do |tag|
+    if(tag =~ /[A-Z]/) then
+      result += "Tag '#{tag}' contains uppercase characters\n"
+    end
+    if(tag =~ /[\s_]/) then
+      result += "Tag '#{tag}' contains spaces or '_' (should use '-' instead)\n"
+    end
+    result += verify_preferred_tag(tag)
+  end
+  if result != "" then
+    return "\nTag verification failed!\n" + result
+  end
+  return result
+end
+
 def verify_file (f)
   begin
     contents = File.read(f)
@@ -85,6 +141,11 @@ def verify_file (f)
     if tags.nil? || tags.empty? then
       error = "No tags defined for file"
       return [f, error]
+    end
+
+    tags_verification = verify_tags(tags)
+    if !tags_verification.empty? then
+      return [f, tags_verification]
     end
 
     dups = tags.group_by{ |e| e }.keep_if{|_, e| e.length > 1 }

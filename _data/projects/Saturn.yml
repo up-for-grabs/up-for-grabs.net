@@ -4,8 +4,8 @@ desc: >-
   Opinionated, web development framework for F# which implements the server-side, functional MVC pattern
 site: https://github.com/SaturnFramework/Saturn
 tags:
-- F#
-- Web
+- f#
+- web
 - ".net"
 upforgrabs:
   name: up for grabs

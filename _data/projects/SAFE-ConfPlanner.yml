@@ -3,7 +3,7 @@ name: SAFE-ConfPlanner
 desc: Working sample of a SAFE-Stack project that uses CQRS/Event-Sourcing and the Elm Architecture
 site: https://github.com/SAFE-Stack/SAFE-ConfPlanner
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: help wanted

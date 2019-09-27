@@ -14,19 +14,13 @@ tags:
 - api-server
 - rest-server
 - restful-server
-- dotnet
-- dotnetcore
-- dotnet-core
-- asp-net-core
-- asp-net
-- aspnetcore
-- aspnet-core
-- asp-net-core-mvc
+- ".net-core"
+- asp.net-core
+- asp.net
+- asp.net-core-mvc
 - webapi
-- web-api
-- csharp
-- C#
-- ".NET"
+- c#
+- ".net"
 - web
 upforgrabs:
   name: help wanted

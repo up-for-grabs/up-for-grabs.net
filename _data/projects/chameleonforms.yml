@@ -3,11 +3,11 @@ name: ChameleonForms
 desc: Shape-shifting your forms experience in ASP.NET MVC.
 site: https://github.com/MRCollective/ChameleonForms
 tags:
-- ".NET"
+- ".net"
 - mvc
 - asp.net
 - forms
-- html helpers
+- html-helpers
 - template
 - bootstrap
 upforgrabs:

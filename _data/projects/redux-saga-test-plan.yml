@@ -6,11 +6,11 @@ tags:
 - javascript
 - redux-saga
 - redux
-- react
+- reactjs
 - sagas
 - testing
-- unit testing
-- integration testing
+- unit-testing
+- integration-testing
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/jfairbank/redux-saga-test-plan/labels/up-for-grabs

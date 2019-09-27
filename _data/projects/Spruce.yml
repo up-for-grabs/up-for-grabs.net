@@ -4,7 +4,7 @@ desc: An open source social media platform built with Node.js and MongoDB
 site: https://github.com/dan-divy/spruce
 tags:
 - javascript
-- nodejs
+- node.js
 - mongodb
 upforgrabs:
   name: good first issue

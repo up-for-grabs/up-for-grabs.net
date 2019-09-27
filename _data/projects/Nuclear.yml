@@ -3,15 +3,14 @@ name: Nuclear
 desc: Desktop music player for streaming from free sources
 site: https://nuclear.js.org
 tags:
-- JavaScript
-- js
+- javascript
 - web
-- React
-- Electron
+- reactjs
+- electron
 - music
-- Linux
-- Mac
-- Windows
+- linux
+- mac
+- windows
 upforgrabs:
   name: good first issue
   link: https://github.com/nukeop/nuclear/labels/good%20first%20issue

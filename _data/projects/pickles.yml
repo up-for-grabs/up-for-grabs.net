@@ -5,11 +5,11 @@ desc: >-
   people can easily read the scenarios.
 site: http://www.picklesdoc.com/
 tags:
-- C#
-- ".NET"
+- c#
+- ".net"
 - oss
-- JavaScript
-- BDD
+- javascript
+- bdd
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/picklesdoc/pickles/labels/up-for-grabs

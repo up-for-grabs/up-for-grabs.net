@@ -3,10 +3,10 @@ name: phpMyAdmin
 desc: phpMyAdmin Bringing MySQL to the web
 site: https://www.phpmyadmin.net/
 tags:
-- PHP
-- MySQL
-- MariaDB
-- Web
+- php
+- mysql
+- mariadb
+- web
 upforgrabs:
   name: newbie
   link: https://github.com/phpmyadmin/phpmyadmin/labels/newbie

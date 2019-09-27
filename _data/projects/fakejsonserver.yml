@@ -6,12 +6,12 @@ desc: >-
   random generation for errors/delays and experimental GraphQL support.
 site: https://github.com/ttu/dotnet-fake-json-server
 tags:
-- C#
-- ".NET Core"
-- ASP.NET
-- ASP.NET Core
-- REST
-- GraphQL
+- c#
+- ".net-core"
+- asp.net
+- asp.net-core
+- rest
+- graphql
 - web
 upforgrabs:
   name: help wanted

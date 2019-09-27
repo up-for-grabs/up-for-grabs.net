@@ -5,7 +5,7 @@ site: http://www.edumips.org
 tags:
 - java
 - simulator
-- CPU
+- cpu
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/lupino3/edumips64/labels/up-for-grabs

@@ -5,8 +5,8 @@ site: http://www.specflow.org
 tags:
 - bdd
 - testing
-- C#
-- ".NET"
+- c#
+- ".net"
 - oss
 upforgrabs:
   name: up-for-grabs

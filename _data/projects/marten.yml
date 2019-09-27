@@ -3,8 +3,8 @@ name: Marten
 desc: Use Postgresql as a Linq-Enabled Document Db and Event Store for .Net
 site: https://github.com/JasperFx/Marten
 tags:
-- Database
-- Postgresql
+- database
+- postgresql
 - ".net"
 upforgrabs:
   name: up-for-grabs

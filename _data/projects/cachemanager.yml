@@ -5,12 +5,12 @@ desc: >-
   cache providers and implements many advanced features.
 site: http://cachemanager.net
 tags:
-- Caching
-- Distributed
-- Redis
-- Azure
-- C#
-- ".NET"
+- caching
+- distributed
+- redis
+- azure
+- c#
+- ".net"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/MichaCo/CacheManager/labels/up-for-grabs

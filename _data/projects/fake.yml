@@ -5,10 +5,9 @@ desc: >-
   which is integrated in F#.
 site: https://github.com/fsharp/FAKE
 tags:
-- F#
 - ".net"
-- Make
-- Build
+- build
+- f#
 upforgrabs:
   name: help wanted
   link: https://github.com/fsharp/FAKE/labels/help%20wanted

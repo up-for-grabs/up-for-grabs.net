@@ -3,9 +3,9 @@ name: content-management-sdk-net
 desc: Kentico Cloud Content Management .NET SDK
 site: https://github.com/Kentico/content-management-sdk-net
 tags:
-- ".NET"
-- ".NET standard"
-- csharp
+- ".net"
+- ".net-standard"
+- c#
 - content-management
 - sdk
 - kentico

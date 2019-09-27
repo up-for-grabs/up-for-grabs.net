@@ -3,8 +3,8 @@ name: elmish
 desc: Elm-like abstractions for F# apps
 site: https://github.com/elmish/elmish
 tags:
-- F#
-- Elm
+- f#
+- elm
 - ".net"
 upforgrabs:
   name: help wanted

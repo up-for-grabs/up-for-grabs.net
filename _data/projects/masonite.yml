@@ -3,9 +3,9 @@ name: Masonite
 desc: The Modern And Developer Centric Python Web Framework.
 site: https://docs.masoniteproject.com
 tags:
-- Masonite
-- Python
-- Framework
+- masonite
+- python
+- framework
 upforgrabs:
   name: good first issue
   link: https://github.com/MasoniteFramework/core/labels/good%20first%20issue

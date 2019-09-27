@@ -3,10 +3,10 @@ name: Refulang
 desc: A hybrid language with a strong type system based on algebraic data types.
 site: https://github.com/refu-lang/refu
 tags:
-- programming_language
+- programming-language
 - refu
 - compiler
-- language_design
+- language-design
 - hybrid
 - functional
 - c

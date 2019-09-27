@@ -3,9 +3,9 @@ name: Leaflet
 desc: JavaScript library for mobile-friendly interactive maps
 site: http://leafletjs.com
 tags:
-- Javascript
-- Maps
-- GIS
+- javascript
+- maps
+- gis
 upforgrabs:
   name: good first issue
   link: https://github.com/Leaflet/Leaflet/labels/good%20first%20issue

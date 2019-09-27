@@ -5,7 +5,7 @@ desc: >-
   systems, console, XML, async and many others.
 site: https://github.com/dotnet/corefx/
 tags:
-- ".NET"
+- ".net"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/dotnet/corefx/labels/up-for-grabs

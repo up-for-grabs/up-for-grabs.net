@@ -5,8 +5,8 @@ desc: >-
   to manipulate route flow and task composition.
 site: https://github.com/SuaveIO/suave
 tags:
-- ".NET"
-- F#
+- ".net"
+- f#
 - web
 - server
 upforgrabs:

@@ -6,11 +6,11 @@ desc: >-
   by Microsoft.
 site: https://github.com/thecodrr/BreadPlayer
 tags:
-- ".NET"
-- C#
-- UWP
-- ".NET Core"
-- Windows Phone
+- ".net"
+- c#
+- uwp
+- ".net-core"
+- windows-phone
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/thecodrr/BreadPlayer/labels/up-for-grabs

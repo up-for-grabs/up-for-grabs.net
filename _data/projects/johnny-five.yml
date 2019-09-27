@@ -3,15 +3,14 @@ name: Johnny-Five
 desc: JavaScript Robotics and IoT programming framework
 site: http://johnny-five.io
 tags:
-- js
 - javascript
-- IoT
+- iot
 - arduino
 - robotics
 - tessel
 - intel
 - edison
-- raspberry pi
+- raspberry-pi
 - beaglebone
 - particle
 - photon

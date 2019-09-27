@@ -5,11 +5,11 @@ desc: >-
 site: https://github.com/typesoft/container-ioc
 tags:
 - typescript
-- nodejs
+- node.js
 - ioc
 - di
-- dependency injection
-- inversion of control
+- dependency-injection
+- inversion-of-control
 upforgrabs:
   name: help wanted
   link: https://github.com/typesoft/container-ioc/labels/help%20wanted

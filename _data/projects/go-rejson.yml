@@ -5,7 +5,6 @@ site: https://github.com/nitishm/go-rejson
 tags:
 - oss
 - go
-- golang
 - json
 - redis
 - client

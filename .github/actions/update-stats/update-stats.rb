@@ -89,6 +89,11 @@ def reformat_file (full_path)
   yaml = File.read(full_path)
   obj = YAML.load(yaml)
 
+  tags = obj["tags"]
+
+  # TODO: use the list of matches in cibuild.rb to replace duplicate values
+  obj.store("tags", tags.map(&:downcase).map { |s| s.gsub(' ', '-')})
+
   File.open(full_path, 'w')  {|f| f.write obj.to_yaml(:line_width => 100) }
 end
 

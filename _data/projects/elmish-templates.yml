@@ -3,10 +3,10 @@ name: Elmish Templates
 desc: Templates to act as starter projects for working with Elmish
 site: https://github.com/elmish/templates
 tags:
-- F#
-- JavaScript
-- Elmish
-- Templates
+- f#
+- javascript
+- elmish
+- templates
 - ".net"
 upforgrabs:
   name: help wanted

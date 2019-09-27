@@ -3,7 +3,7 @@ name: NativeScript
 desc: Cross platform Native mobile apps with JavaScript
 site: https://nativescript.org
 tags:
-- JavaScript
+- javascript
 - mobile
 - native
 upforgrabs:

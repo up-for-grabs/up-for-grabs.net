@@ -5,7 +5,6 @@ site: https://github.com/Microsoft/ChakraCore
 tags:
 - chakra
 - chakracore
-- js
 - javascript
 - ecmascript
 - c++

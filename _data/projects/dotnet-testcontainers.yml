@@ -6,7 +6,7 @@ desc: >-
 site: https://github.com/HofmeisterAn/dotnet-testcontainers
 tags:
 - ".net"
-- ".net core"
+- ".net-core"
 - c#
 - docker
 - container

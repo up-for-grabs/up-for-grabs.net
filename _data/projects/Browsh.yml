@@ -4,15 +4,15 @@ desc: A fully-modern text-based browser, rendering to TTY and browsers
 site: https://github.com/browsh-org/browsh/
 tags:
 - browser
-- CLI
+- cli
 - text
-- Firefox
+- firefox
 - remote
 - bandwidth
-- SSH
-- MoSH
+- ssh
+- mosh
 - web
-- command line
+- command-line
 upforgrabs:
   name: help wanted
   link: https://github.com/browsh-org/browsh/labels/help%20wanted

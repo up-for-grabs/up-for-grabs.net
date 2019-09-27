@@ -3,7 +3,7 @@ name: fsharp
 desc: The Visual F# compiler and tools
 site: https://github.com/dotnet/fsharp
 tags:
-- F#
+- f#
 - compiler
 - ".net"
 upforgrabs:

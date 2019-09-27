@@ -6,9 +6,9 @@ tags:
 - javascript
 - discord
 - bot
-- mongoDB
+- mongodb
 - mongoose
-- node
+- node.js
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/professionalzack/rollodexjs/labels/up-for-grabs

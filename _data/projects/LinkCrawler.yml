@@ -3,8 +3,8 @@ name: LinkCrawler
 desc: C# console application to crawl website for broken links
 site: https://github.com/hmol/LinkCrawler
 tags:
-- C#
-- ".NET"
+- c#
+- ".net"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/hmol/LinkCrawler/labels/up-for-grabs

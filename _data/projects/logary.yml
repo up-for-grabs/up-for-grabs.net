@@ -6,7 +6,6 @@ desc: >-
   server, graphite. Adapters for: suave.
 site: https://github.com/logary/logary
 tags:
-- F#
 - ".net"
 - nlog
 - zipkin
@@ -16,6 +15,7 @@ tags:
 - suave
 - graphite
 - database
+- f#
 upforgrabs:
   name: help wanted
   link: https://github.com/logary/logary/labels/help%20wanted

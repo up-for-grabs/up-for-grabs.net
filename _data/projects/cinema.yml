@@ -8,11 +8,11 @@ tags:
 - backend
 - mobile
 - iptv
-- Python
-- Flask
-- Ionic Framework
-- Documentation
-- Beginners
+- python
+- flask
+- ionic-framework
+- documentation
+- beginners
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/CINEMA-IPTV/CINEMA-Docs/labels/up-for-grabs

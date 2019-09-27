@@ -3,8 +3,8 @@ name: cloud-template-manager
 desc: Kentico Cloud template manager.
 site: https://github.com/Kentico/cloud-template-manager
 tags:
-- TypeScript
-- Angular
+- typescript
+- angular
 - kentico
 - kentico-cloud
 - headless

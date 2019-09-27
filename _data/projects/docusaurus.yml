@@ -5,12 +5,12 @@ desc: >-
   Native, Prettier, WarriorJS and Jest
 site: https://docusaurus.io
 tags:
-- javaScript
-- library
-- UI
-- react
+- javascript
+- libraries
+- ui
+- reactjs
 - documentation
-- static website generator
+- static-website-generator
 - facebook
 upforgrabs:
   name: good first issue

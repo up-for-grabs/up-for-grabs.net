@@ -4,7 +4,7 @@ desc: A better date/time API for .NET
 site: https://github.com/nodatime/nodatime
 tags:
 - ".net"
-- C#
+- c#
 - datetime
 - date
 - time

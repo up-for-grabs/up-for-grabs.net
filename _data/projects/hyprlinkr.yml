@@ -5,11 +5,11 @@ desc: >
   - it creates URIs according to the applications route configuration in a type-safe manner
 site: https://github.com/ploeh/Hyprlinkr
 tags:
-- REST
-- ASP.NET Web API
-- URLs
-- C#
-- F#
+- rest
+- asp.net-web-api
+- urls
+- c#
+- f#
 upforgrabs:
   name: jump in
   link: https://github.com/ploeh/Hyprlinkr/labels/jump%20in

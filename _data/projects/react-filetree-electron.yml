@@ -3,10 +3,10 @@ name: react-filetree-electron
 desc: React component that renders a dynamic file tree view in an electron application.
 site: https://github.com/mperitz/react-filetree-electron
 tags:
-- React
-- Electron
-- Redux
-- Filesystem
+- reactjs
+- electron
+- redux
+- filesystem
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/mperitz/react-filetree-electron/labels/up-for-grabs

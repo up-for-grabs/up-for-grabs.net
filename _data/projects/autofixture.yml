@@ -6,12 +6,12 @@ desc: >-
   essentials of each test case.
 site: https://github.com/AutoFixture/AutoFixture
 tags:
-- TDD
-- Unit Testing
-- ".NET"
-- Auto-mocking
-- C#
-- F#
+- tdd
+- unit-testing
+- ".net"
+- auto-mocking
+- c#
+- f#
 upforgrabs:
   name: good first issue
   link: https://github.com/AutoFixture/AutoFixture/labels/good%20first%20issue

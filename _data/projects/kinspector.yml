@@ -3,13 +3,13 @@ name: KInspector
 desc: Performance, health and security audit tool for Kentico.
 site: https://github.com/Kentico/KInspector
 tags:
-- Kentico
-- CMS
-- Content Management System
-- KInspector
-- C#
-- ".NET"
-- ASP.NET
+- kentico
+- cms
+- content-management-system
+- kinspector
+- c#
+- ".net"
+- asp.net
 upforgrabs:
   name: good first issue
   link: https://github.com/Kentico/KInspector/labels/good%20first%20issue

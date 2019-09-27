@@ -5,18 +5,17 @@ desc: >-
   and Node - lets you quickly set up a project following best practices.
 site: https://github.com/angular-fullstack/generator-angular-fullstack
 tags:
-- OSS
-- Web
-- JavaScript
-- TypeScript
-- Yeoman
-- MongoDB
-- Mongoose
-- Sequelize
-- MEAN
-- Express
-- Node.js
-- Node
+- oss
+- web
+- javascript
+- typescript
+- yeoman
+- mongodb
+- mongoose
+- sequelize
+- mean
+- express
+- node.js
 upforgrabs:
   name: Help Wanted
   link: https://github.com/angular-fullstack/generator-angular-fullstack/labels/Help%20Wanted

@@ -5,9 +5,9 @@ desc: >-
   implementations available for use.
 site: https://github.com/Greentube/serialization
 tags:
-- ".NET"
-- C#
-- dotnet-core
+- ".net"
+- c#
+- ".net-core"
 - serialization
 upforgrabs:
   name: up-for-grabs

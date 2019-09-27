@@ -4,7 +4,7 @@ desc: An application for simple app usage monitoring and app lifecycle managemen
 site: https://github.com/bartosz-jarmuz/Telimena
 tags:
 - c#
-- asp.net mvc
+- asp.net-mvc
 - productivity
 - business
 upforgrabs:

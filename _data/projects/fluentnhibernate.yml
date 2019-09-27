@@ -3,10 +3,10 @@ name: FluentNHibernate
 desc: Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate.
 site: https://github.com/FluentNHibernate/fluent-nhibernate
 tags:
-- ".NET"
+- ".net"
 - orm
-- DAL
-- Conventions
+- dal
+- conventions
 upforgrabs:
   name: jump-in
   link: https://github.com/FluentNHibernate/fluent-nhibernate/labels/jump-in

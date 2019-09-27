@@ -7,7 +7,7 @@ tags:
 - opendata
 - execution-time
 - benchmark
-- R
+- r
 upforgrabs:
   name: help wanted
   link: https://github.com/nagoya-foundation/r-functions-performance/labels/help%20wanted

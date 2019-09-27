@@ -10,7 +10,6 @@ tags:
 - autoscaling
 - spot
 - automation
-- golang
 - go
 - lambda
 - terraform

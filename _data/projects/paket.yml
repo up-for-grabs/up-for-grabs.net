@@ -3,10 +3,10 @@ name: Paket
 desc: A dependency manager for .NET with support for NuGet packages and Git repositories.
 site: https://github.com/fsprojects/Paket
 tags:
-- F#
+- f#
 - ".net"
 - build
-- dependency manager
+- dependency-manager
 - packaging
 - package
 upforgrabs:

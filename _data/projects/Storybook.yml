@@ -5,10 +5,10 @@ desc: >-
   library based on React & React-Native.
 site: https://storybooks.js.org
 tags:
-- javaScript
-- library
-- UI
-- react
+- javascript
+- libraries
+- ui
+- reactjs
 - native
 upforgrabs:
   name: good first issue

@@ -4,7 +4,6 @@ desc: Command-line app, prints quotes from the narrator of Darkest Dungeon
 site: https://github.com/bruno-chavez/ancestorquotes
 tags:
 - go
-- golang
 - commnad-line
 - json
 upforgrabs:

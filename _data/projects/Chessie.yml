@@ -3,9 +3,9 @@ name: Chessie
 desc: Railway-oriented programming for .NET
 site: https://github.com/fsprojects/Chessie
 tags:
-- F#
+- f#
 - ".net"
-- ROP
+- rop
 upforgrabs:
   name: help wanted
   link: https://github.com/fsprojects/Chessie/labels/help%20wanted

@@ -3,7 +3,7 @@ name: Moment.js
 desc: Parse, validate, manipulate, and display dates in JavaScript.
 site: http://momentjs.com
 tags:
-- JavaScript
+- javascript
 - date
 - time
 upforgrabs:

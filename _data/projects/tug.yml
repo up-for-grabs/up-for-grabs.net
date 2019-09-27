@@ -3,12 +3,12 @@ name: tug
 desc: Cross-platform Pull/Reporting server for PowerShell DSC
 site: https://github.com/PowerShellOrg/tug
 tags:
-- ".NET"
-- ".NET Core"
-- ".NET Framework"
-- C#
-- PowerShell
-- PowerShell-DSC
+- ".net"
+- ".net-core"
+- ".net-framework"
+- c#
+- powershell
+- powershell-dsc
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/PowerShellOrg/tug/labels/up-for-grabs

@@ -4,7 +4,7 @@ desc: Leon is your open-source personal assistant.
 site: https://getleon.ai
 tags:
 - personal-assistant
-- nodejs
+- node.js
 - python
 - artificial-intelligence
 - chatbot

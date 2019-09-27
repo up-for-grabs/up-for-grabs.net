@@ -5,7 +5,7 @@ site: https://www.opendota.com/
 tags:
 - visualization
 - ui
-- react
+- reactjs
 - redux
 - webpack
 - javascript

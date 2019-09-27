@@ -5,9 +5,9 @@ site: https://github.com/raiden-network/raiden/
 tags:
 - blockchain
 - ethereum
-- payment_channels
+- payment-channels
 - microtransactions
-- state_channels
+- state-channels
 upforgrabs:
   name: good first issue
   link: https://github.com/raiden-network/raiden/labels/good%20first%20issue

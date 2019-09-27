@@ -4,10 +4,10 @@ desc: Consumable Data Structures and Algorithms library in JavaScript
 site: https://github.com/manrajgrover/algorithms-js
 tags:
 - javascript
-- algorithms
-- data structures
-- library
-- nodejs
+- algorithm
+- data-structures
+- libraries
+- node.js
 - npm
 upforgrabs:
   name: good first issue

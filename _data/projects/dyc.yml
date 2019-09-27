@@ -5,10 +5,10 @@ desc: >-
   Languages and help make Development for all engineers as smooth as possible.
 site: https://github.com/Zarad1993/dyc
 tags:
-- Python
-- Documentation
-- Docstrings
-- Automation
+- python
+- documentation
+- docstrings
+- automation
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Zarad1993/dyc/labels/up-for-grabs

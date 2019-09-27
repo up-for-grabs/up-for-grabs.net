@@ -3,24 +3,23 @@ name: deepstream.io
 desc: A Scalable Server for Realtime Web Apps
 site: http://deepstream.io/
 tags:
-- NodeJS
-- Node
-- TCP
-- Network
-- Java
-- Android
-- C
-- C++
-- ".NET"
-- C#
-- Ruby
-- Python
-- Rust
+- node.js
+- tcp
+- network
+- java
+- android
+- c
+- c++
+- ".net"
+- c#
+- ruby
+- python
+- rust
 - go
-- Erlang
-- React Native
-- Swift
-- iOS
+- erlang
+- react-native
+- swift
+- ios
 upforgrabs:
   name: help-wanted
   link: https://github.com/deepstreamIO/deepstream.io/labels/help-wanted

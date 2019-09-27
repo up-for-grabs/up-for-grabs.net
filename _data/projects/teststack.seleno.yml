@@ -5,7 +5,7 @@ desc: >-
   and by reading from and writing to web pages using strongly typed view models.
 site: https://github.com/TestStack/TestStack.Seleno
 tags:
-- ".NET"
+- ".net"
 - mvc
 - asp.net
 - testing

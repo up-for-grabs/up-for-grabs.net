@@ -3,16 +3,15 @@ name: gatsby-source-kentico-cloud
 desc: Gatsby source plugin for Kentico Cloud.
 site: https://github.com/Kentico/gatsby-source-kentico-cloud
 tags:
-- JavaScript
+- javascript
 - kentico
 - kentico-cloud
 - headless-cms
 - headless
-- React
-- Gatsby
-- GatsbyJs
-- static site
-- Gatsby source plugin
+- reactjs
+- gatsbyjs
+- static-site
+- gatsby-source-plugin
 - caas
 upforgrabs:
   name: up-for-grabs

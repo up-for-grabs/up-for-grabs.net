@@ -3,14 +3,14 @@ name: Emby
 desc: The open media solution for your personal videos, music, photos, and Live TV.
 site: https://github.com/MediaBrowser/Emby
 tags:
-- ".NET"
+- ".net"
 - javascript
-- C#
-- IOS
-- Android
-- Windows Phone
-- Windows 10
-- Roku
+- c#
+- ios
+- android
+- windows-phone
+- windows-10
+- roku
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/MediaBrowser/Emby/labels/up-for-grabs

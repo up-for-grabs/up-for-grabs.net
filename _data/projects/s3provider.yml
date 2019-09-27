@@ -3,12 +3,11 @@ name: S3Provider
 desc: Experimental type provider for Amazon S3
 site: https://github.com/fsprojects/S3Provider
 tags:
-- F#
 - ".net"
-- type provider
-- S3
-- Amazon
-- AWS
+- f#
+- s3
+- aws
+- typeprovider
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/S3Provider/labels/up-for-grabs

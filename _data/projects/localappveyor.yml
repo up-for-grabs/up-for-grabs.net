@@ -6,11 +6,10 @@ tags:
 - appveyor
 - build
 - console
-- commandline
 - command-line
-- C#
-- ".NET"
-- ".NET Core"
+- c#
+- ".net"
+- ".net-core"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/joaope/LocalAppVeyor/labels/up-for-grabs

@@ -3,10 +3,10 @@ name: mmbot
 desc: A port of GitHub's Hubot to C# and ScriptCS.
 site: https://github.com/mmbot/mmbot
 tags:
-- ".NET"
-- HuBot
+- ".net"
+- hubot
 - chat
-- C#
+- c#
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/mmbot/mmbot/labels/up-for-grabs

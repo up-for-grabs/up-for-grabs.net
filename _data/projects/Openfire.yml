@@ -6,10 +6,10 @@ desc: >-
   is incredibly easy to setup and administer, but offers rock-solid security and performance.
 site: https://www.igniterealtime.org/projects/openfire/
 tags:
-- XMPP
-- Java
-- IM
-- Server
+- xmpp
+- java
+- im
+- server
 upforgrabs:
   name: Teaser Tasks
   link: https://issues.igniterealtime.org/issues/?filter=11915

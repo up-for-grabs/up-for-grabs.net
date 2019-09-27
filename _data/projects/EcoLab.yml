@@ -3,8 +3,8 @@ name: EcoLab
 desc: Open plataform for automating computer labs oriented to energy saving
 site: https://github.com/jfomu/EcoLab
 tags:
-- Python
-- Automation
+- python
+- automation
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/jfomu/EcoLab/labels/up-for-grabs

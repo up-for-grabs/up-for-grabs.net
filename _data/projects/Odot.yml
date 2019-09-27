@@ -5,7 +5,7 @@ desc: >-
   tasks in a hierarchical structure and organizing them into self-defined categories.
 site: https://github.com/elgaspar/Odot
 tags:
-- C#
+- c#
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/elgaspar/Odot/labels/up-for-grabs

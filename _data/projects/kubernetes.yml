@@ -3,8 +3,8 @@ name: Kubernetes
 desc: Production-Grade Container Scheduling and Management
 site: https://kubernetes.io/
 tags:
-- Go
-- CNCF
+- go
+- cncf
 - containers
 - kubernetes
 upforgrabs:

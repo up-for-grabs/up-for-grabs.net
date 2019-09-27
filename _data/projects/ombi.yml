@@ -4,9 +4,9 @@ desc: "Want a Movie or TV Show on Plex or Emby? Use Ombi! \nOmbi is a user frien
   and friends to request new content on your media server.\n"
 site: https://github.com/tidusjar/ombi
 tags:
-- ".NET"
-- TypeScript
-- Angular
+- ".net"
+- typescript
+- angular
 upforgrabs:
   name: help wanted
   link: https://github.com/tidusjar/Ombi/labels/help%20wanted

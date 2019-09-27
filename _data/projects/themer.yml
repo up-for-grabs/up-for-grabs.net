@@ -3,10 +3,10 @@ name: Themer
 desc: Themer is a colorscheme generator and manager for your desktop.
 site: https://github.com/s-ol/themer
 tags:
-- Python
-- Theme
-- Color
-- Colorscheme
+- python
+- theme
+- color
+- colorscheme
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/s-ol/themer/labels/up-for-grabs

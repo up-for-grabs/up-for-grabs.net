@@ -4,7 +4,7 @@ desc: HTML Object-Oriented Templating system
 site: https://github.com/Hrabal/TemPy
 tags:
 - html
-- OOP
+- oop
 - graphs
 - tree
 - python

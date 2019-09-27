@@ -3,8 +3,8 @@ name: MinecraftProfile
 desc: PHP Library for retrieving information about Minecraft users
 site: https://github.com/navarr/MinecraftProfile
 tags:
-- PHP
-- Minecraft
+- php
+- minecraft
 upforgrabs:
   name: up for grabs
   link: https://github.com/navarr/MinecraftProfile/labels/up%20for%20grabs

@@ -5,16 +5,16 @@ desc: >-
   in C# using OpenGL.
 site: http://www.openra.net
 tags:
-- ".NET"
-- Mono
-- C#
-- Lua
-- SDL
-- OpenGL
+- ".net"
+- mono
+- c#
+- lua
+- sdl
+- opengl
 - strategy
-- games
+- game
 - rts
-- A-Star
+- a-star
 upforgrabs:
   name: Easy
   link: https://github.com/OpenRA/OpenRA/labels/Easy

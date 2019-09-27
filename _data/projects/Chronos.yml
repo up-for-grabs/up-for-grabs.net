@@ -4,7 +4,6 @@ desc: Desktop client for JIRA. Track time, upload worklogs without a hassle
 site: https://github.com/web-pal/chronos-timetracker
 tags:
 - javascript
-- js
 - electron
 - jira
 - time-tracking

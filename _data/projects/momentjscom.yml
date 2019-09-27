@@ -3,7 +3,7 @@ name: momentjs.com
 desc: Web site and documentation content for moment.js
 site: http://momentjs.com
 tags:
-- JavaScript
+- javascript
 - date
 - time
 - web

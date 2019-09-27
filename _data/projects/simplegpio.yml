@@ -3,10 +3,10 @@ name: SimpleGPIO
 desc: A simple, low-ceremony GPIO library
 site: https://github.com/stevedesmond-ca/SimpleGPIO
 tags:
-- C#
-- ".NET"
-- IoT
-- GPIO
+- c#
+- ".net"
+- iot
+- gpio
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/stevedesmond-ca/SimpleGPIO/labels/up-for-grabs

@@ -3,18 +3,18 @@ name: Mobius
 desc: ".NET binding and extensions to Apache Spark"
 site: https://github.com/Microsoft/Mobius
 tags:
-- ".NET"
-- C#
-- F#
-- ApacheSpark
-- Spark
-- RDD
-- DataFrame
-- DStream
-- ML
+- ".net"
+- c#
+- f#
+- apachespark
+- spark
+- rdd
+- dataframe
+- dstream
+- ml
 - data-science
-- Mobius
-- Scala
+- mobius
+- scala
 - oss
 - bindings
 upforgrabs:

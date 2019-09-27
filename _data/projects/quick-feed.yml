@@ -3,11 +3,10 @@ name: quick-feed
 desc: a simple react app that renders rss-feeds for podcasts
 site: https://github.com/amcquade/quick-feed
 tags:
-- react
 - reactjs
-- Javascript
+- javascript
 - beginner
-- help wanted
+- help-wanted
 - podcast
 - rss
 - material

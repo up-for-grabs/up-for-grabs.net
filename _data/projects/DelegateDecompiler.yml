@@ -3,7 +3,7 @@ name: DelegateDecompiler
 desc: A library which is able to decompile a delegate or a method body to its lambda representation
 site: https://github.com/hazzik/DelegateDecompiler
 tags:
-- ".NET"
+- ".net"
 - decompilation
 - lambda
 - linq

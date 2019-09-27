@@ -3,7 +3,7 @@ name: ".NET API Docs"
 desc: API documentation for .NET
 site: http://github.com/dotnet/dotnet-api-docs
 tags:
-- ".NET"
+- ".net"
 - documentation
 upforgrabs:
   name: up-for-grabs

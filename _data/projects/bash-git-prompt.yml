@@ -5,10 +5,10 @@ desc: >-
   difference with remote branch, number of files staged, changed, etc.
 site: https://github.com/magicmonty/bash-git-prompt
 tags:
-- Shell
-- Bash
-- Git
-- Prompt
+- shell
+- bash
+- git
+- prompt
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/magicmonty/bash-git-prompt/labels/up-for-grabs

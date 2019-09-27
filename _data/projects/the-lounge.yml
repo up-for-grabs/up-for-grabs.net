@@ -4,12 +4,12 @@ desc: Modern web IRC client designed for self-hosting
 site: https://thelounge.chat
 tags:
 - web
-- node
-- IRC
+- node.js
+- irc
 - chat
-- JavaScript
-- CSS
-- HTML
+- javascript
+- css
+- html
 upforgrabs:
   name: help wanted
   link: https://github.com/thelounge/thelounge/labels/help%20wanted

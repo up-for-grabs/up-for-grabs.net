@@ -5,9 +5,8 @@ desc: >-
   you'd need to get the .NET Framework on your system.
 site: https://github.com/shanselman/SmallestDotNet
 tags:
-- js
 - javascript
-- csharp
+- c#
 - oss
 upforgrabs:
   name: first-timers-only

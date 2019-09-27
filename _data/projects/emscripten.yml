@@ -5,9 +5,9 @@ site: http://emscripten.org
 tags:
 - oss
 - compiler
-- JavaScript
-- HTML5
-- C++
+- javascript
+- html5
+- c++
 - emscripten
 upforgrabs:
   name: good first bug

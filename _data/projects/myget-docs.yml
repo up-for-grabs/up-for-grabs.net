@@ -3,10 +3,10 @@ name: MyGet Docs
 desc: Markdown based ASP.NET Web Pages documentation web site for MyGet.
 site: https://github.com/myget/MyGetDocs
 tags:
-- MarkDown
-- ".NET"
-- docs
-- NuGet
+- markdown
+- ".net"
+- documentation
+- nuget
 - convention
 - packaging
 - build

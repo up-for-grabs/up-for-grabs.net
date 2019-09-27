@@ -5,14 +5,14 @@ desc: >-
   Core
 site: https://github.com/SAFE-Stack/SAFE-Chat
 tags:
-- F#
+- f#
 - ".net"
-- Akka.NET
-- Akka.Streams
-- Web
-- WebSockets
-- Fable
-- Elmish
+- akka.net
+- akka.streams
+- web
+- websockets
+- fable
+- elmish
 upforgrabs:
   name: help wanted
   link: https://github.com/SAFE-Stack/SAFE-Chat/labels/help%20wanted

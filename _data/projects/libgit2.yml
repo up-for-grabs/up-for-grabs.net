@@ -6,9 +6,9 @@ desc: >-
   which supports C bindings.
 site: https://github.com/libgit2/libgit2
 tags:
-- C
+- c
 - git
-- library
+- libraries
 - dvcs
 - vcs
 upforgrabs:

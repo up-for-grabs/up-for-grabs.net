@@ -3,16 +3,15 @@ name: YaccConstructor
 desc: Grammarware research and development platform.
 site: https://github.com/YaccConstructor/YaccConstructor
 tags:
-- F#
+- f#
 - parsing
 - lexing
 - grammar
-- parser
 - generator
-- EBNF
-- LR
-- GLL
-- GLR
+- ebnf
+- lr
+- gll
+- glr
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/YaccConstructor/YaccConstructor/labels/up-for-grabs

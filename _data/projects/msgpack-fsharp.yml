@@ -3,8 +3,8 @@ name: msgpack-fsharp
 desc: MessagePack implementation for F# msgpack.org
 site: https://github.com/Gab-km/msgpack-fsharp
 tags:
-- F#
-- MessagePack
+- f#
+- messagepack
 - ".net"
 upforgrabs:
   name: help wanted

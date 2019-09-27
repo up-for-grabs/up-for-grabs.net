@@ -3,11 +3,11 @@ name: kentico-amp
 desc: Accelerated Mobile Pages module for Kentico EMS.
 site: https://github.com/Kentico/kentico-amp
 tags:
-- ".NET"
-- ".NET Framework"
-- csharp
+- ".net"
+- ".net-framework"
+- c#
 - amp
-- accelerated mobile pages
+- accelerated-mobile-pages
 - kentico
 - kentico-cms
 - kentico-ems

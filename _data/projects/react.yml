@@ -3,10 +3,10 @@ name: React
 desc: A declarative, efficient, and flexible JavaScript library for building user interfaces.
 site: https://facebook.github.io/react/
 tags:
-- react
+- reactjs
 - javascript
-- user interface
-- UI
+- user-interface
+- ui
 upforgrabs:
   name: good first issue
   link: https://github.com/facebook/react/labels/good%20first%20issue

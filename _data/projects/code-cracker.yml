@@ -5,9 +5,9 @@ desc: >-
 site: https://github.com/code-cracker/code-cracker
 tags:
 - roslyn
-- csharp analyzers
-- code fix
-- C#
+- c#-analyzers
+- code-fix
+- c#
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/code-cracker/code-cracker/labels/up-for-grabs

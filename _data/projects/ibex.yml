@@ -5,9 +5,9 @@ desc: >-
   and Recharts)
 site: https://github.com/Azure/ibex-dashboard
 tags:
-- node
-- JavaScript
-- react
+- node.js
+- javascript
+- reactjs
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Azure/ibex-dashboard/labels/up-for-grabs

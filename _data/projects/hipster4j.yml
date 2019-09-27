@@ -5,15 +5,15 @@ desc: >-
   algorithms such as Dijkstra, A* (A-Star), DFS, BFS, Bellman-Ford and more.
 site: https://github.com/citiususc/hipster
 tags:
-- Java
-- Heuristic
-- Algorithm
-- Graph
-- Search
-- Dijkstra
-- A-Star
-- DFS
-- BFS
+- java
+- heuristic
+- algorithm
+- graph
+- search
+- dijkstra
+- a-star
+- dfs
+- bfs
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/citiususc/hipster/labels/up-for-grabs

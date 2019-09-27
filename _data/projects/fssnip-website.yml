@@ -3,7 +3,7 @@ name: fssnip-website
 desc: Source code for the F# Snippets web site
 site: https://github.com/fssnippets/fssnip-website
 tags:
-- F#
+- f#
 - ".net"
 upforgrabs:
   name: up-for-grabs

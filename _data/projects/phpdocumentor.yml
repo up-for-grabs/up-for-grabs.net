@@ -3,12 +3,12 @@ name: phpDocumentor
 desc: The documentation tool for PHP projects
 site: https://github.com/phpDocumentor/phpDocumentor2
 tags:
-- PHP
+- php
 - documentation
 - api
 - bootstrap
 - twig
-- apidocs
+- apidocumentation
 - phpdoc
 upforgrabs:
   name: Up-for-grabs

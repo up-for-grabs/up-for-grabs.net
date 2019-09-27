@@ -4,10 +4,13 @@ site: https://github.com/ushahidi/platform
 tags:
 - activism
 - non-profit
-- nonprofit
 - ushahidi
 - crowdsourcing
 - elections
+- javascript
+- php
+- lumen
+- documentation
 upforgrabs:
   name: good-first-issue
   link: https://github.com/ushahidi/platform/labels/good-first-issue

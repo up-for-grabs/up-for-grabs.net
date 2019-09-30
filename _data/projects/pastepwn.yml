@@ -1,0 +1,15 @@
+---
+name: pastepwn
+desc: Python framework to scrape Pastebin pastes and analyze them
+site: https://github.com/d-Rickyy-b/pastepwn
+tags:
+- python
+- pastebin
+- scraping
+- osint
+upforgrabs:
+  name: good first issue
+  link: https://github.com/d-Rickyy-b/pastepwn/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2019-10-01T11:00:00Z'

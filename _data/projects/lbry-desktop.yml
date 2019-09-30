@@ -3,7 +3,7 @@ desc: A browser and wallet for LBRY, the decentralized, user-controlled content 
 site: https://github.com/lbryio/lbry-desktop
 tags:
 - electron
-- nodejs
+- node.js
 - javascript
 upforgrabs:
   name: good first issue

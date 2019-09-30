@@ -1,0 +1,12 @@
+name: SoundRecorder 
+desc: Utility to make simple audio recording designed for GNOME.
+site: https://wiki.gnome.org/Apps/SoundRecorder
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- javascript
+- gtk3
+- gnome
+- gui
+upforgrabs:
+  name: newcomers
+  link: https://gitlab.gnome.org/GNOME/gnome-sound-recorder/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=4.%20Newcomers

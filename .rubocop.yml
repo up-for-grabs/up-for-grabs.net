@@ -1,5 +1,9 @@
 inherit_from: .rubocop_todo.yml
 
+AllCops:
+  Include:
+    - '.github/actions/cleanup-archived-projects/cleanup_projects.rb'
+    - 'scripts/**/*.rb'
 
 Metrics/LineLength:
   Max: 120

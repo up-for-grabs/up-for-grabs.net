@@ -26,9 +26,29 @@ class ProjectProcessor
 
   @@client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
 
+  def self.process(project)
+    self.check_rate_limit
 
-  def self.process(file)
-    
+    # TODO
+
+  end
+
+  def self.check_rate_limit
+    rate_limit = @@client.rate_limit
+  
+    remaining = rate_limit.remaining
+    resets_in = rate_limit.resets_in
+    limit = rate_limit.limit
+  
+    remaining_percent = (remaining * 100) / limit
+  
+    puts "Rate limit: #{remaining}/#{limit} - #{resets_in}s before reset" if (remaining % 10).zero? && remaining_percent < 20
+  
+    return unless remaining.zero?
+  
+    puts 'This script is currently rate-limited by the GitHub API'
+    puts 'Marking as inconclusive to indicate that no further work will be done here'
+    exit 78
   end
 
 end
@@ -151,24 +171,6 @@ def find_pull_request_removing_file(repo, path)
   found_pr
 end
 
-def check_rate_limit
-  rate_limit = $client.rate_limit
-
-  remaining = rate_limit.remaining
-  resets_in = rate_limit.resets_in
-  limit = rate_limit.limit
-
-  remaining_percent = (remaining * 100) / limit
-
-  puts "Rate limit: #{remaining}/#{limit} - #{resets_in}s before reset" if (remaining % 10).zero? && remaining_percent < 20
-
-  return unless remaining.zero?
-
-  puts 'This script is currently rate-limited by the GitHub API'
-  puts 'Marking as inconclusive to indicate that no further work will be done here'
-  exit 78
-end
-
 def relative_path(full_path)
   root = Pathname.new($root_directory)
   Pathname.new(full_path).relative_path_from(root).to_s
@@ -231,8 +233,6 @@ puts "Inspecting projects files for '#{repo}'"
 
 start = Time.now
 
-$client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
-
 $root_directory = ENV['GITHUB_WORKSPACE']
 verbose = ENV['VERBOSE_OUTPUT']
 projects = File.join($root_directory, '_data', 'projects', '*.yml')
@@ -263,35 +263,6 @@ if verbose
     puts " - #{result.file_path}"
   }
 end
-
-# results = Dir.glob(projects).map { |path| verify_file(path) }
-
-# errors = 0
-# success = 0
-
-# results.each do |result|
-#   file_path = result[:path]
-
-#   if result[:deprecated]
-#     puts "Project is considered deprecated: '#{file_path}' - reason '#{result[:reason]}'"
-
-#     pr = find_pull_request_removing_file(repo, file_path)
-
-#     if !pr.nil?
-#       puts "Project #{file_path} has existing PR ##{pr.number} to remove file..."
-#     else
-#       pr = create_pull_request_removing_file(repo, file_path, result[:reason])
-#       puts "Opened PR ##{pr.number} to remove project '#{file_path}'..." unless pr.nil?
-#     end
-#     errors += 1
-#   elsif !result[:error].nil?
-#     puts "Encountered error while trying to validate '#{file_path}' - #{result[:error]}"
-#     errors += 1
-#   else
-#     puts "Active project found: '#{file_path}'" unless verbose.nil?
-#     success += 1
-#   end
-# end
 
 finish = Time.now
 delta = finish - start

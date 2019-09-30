@@ -1,0 +1,10 @@
+name: Up-For-Grabs.net
+desc: A browser and wallet for LBRY, the decentralized, user-controlled content marketplace.
+site: https://github.com/lbryio/lbry-desktop
+tags:
+- electron
+- nodejs
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/lbryio/lbry-desktop/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

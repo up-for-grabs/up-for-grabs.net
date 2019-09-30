@@ -1,0 +1,12 @@
+name: Maven-Using-CMD
+desc: Creating a Hello World code project in Java using the Apache Maven build tool and automating it using Jenkins.
+site: https://github.com/NishkarshRaj/Maven-Using-CMD
+tags:
+- maven
+- java
+- xml
+- jenkins
+- automation
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/NishkarshRaj/Maven-Using-CMD/labels/Up-for-Grabs

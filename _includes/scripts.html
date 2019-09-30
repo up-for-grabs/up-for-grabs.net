@@ -30,8 +30,8 @@
     </ul>
   </div>
   <table class="projects">
-   <% _.each(projects, function(project){ %>
-    <tbody>
+   <% _.each(projects, function(project) { %>
+    <tbody class="<% if ( project.stats ) { %>counted<% } %>">
     <tr>
        <td colspan="2" class="title">
            <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
@@ -39,7 +39,18 @@
     </tr>
     <tr>
        <td class="details">
-        <p class="label"><a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1"><%-project.upforgrabs.name %></a></p>
+        <p class="label">
+          <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1">
+            <%-project.upforgrabs.name %>
+            <% if (project.stats) {
+              const now = new Date();
+              let lastUpdated = new Date(project.stats['last-updated']);
+              let since = relativeTime(now, lastUpdated);
+              %>
+              <span class="count" title="Last updated <%- since %>"><%-project.stats['issue-count']%></span>
+            <% } %>
+          </a>
+        </p>
        </td>
        <td class="details">
            <% if (project.desc) { %>
@@ -82,4 +93,3 @@
   pageTracker._trackPageview();
   } catch(err) {}
 </script>
-

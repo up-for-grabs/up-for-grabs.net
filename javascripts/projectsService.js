@@ -218,8 +218,12 @@ define(['underscore'], function(_) {
       }
     }
 
-    var projects = _.map(ordering, function(i) {
+    var all_projects = _.map(ordering, function(i) {
       return _projectsData.projects[i];
+    });
+
+    var projects = _.filter(all_projects, function(project) {
+      return project.stats ? project.stats['issue-count'] > 0 : true;
     });
 
     _.each(_projectsData.tags, function(tag) {

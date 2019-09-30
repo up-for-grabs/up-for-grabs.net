@@ -20,10 +20,41 @@ define([
       : location.href + 'filters';
   };
 
+  // inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better
+  // idea of what we want to do here
+  function relativeTime(current, previous) {
+    var msPerMinute = 60 * 1000;
+    var msPerHour = msPerMinute * 60;
+    var msPerDay = msPerHour * 24;
+    var msPerMonth = msPerDay * 30;
+    var msPerYear = msPerDay * 365;
+
+    var elapsed = current - previous;
+
+    if (elapsed < msPerMinute) {
+      return Math.round(elapsed / 1000) + ' seconds ago';
+    }
+    if (elapsed < msPerHour) {
+      return Math.round(elapsed / msPerMinute) + ' minutes ago';
+    }
+    if (elapsed < msPerDay) {
+      return Math.round(elapsed / msPerHour) + ' hours ago';
+    }
+    if (elapsed < msPerMonth) {
+      return 'about ' + Math.round(elapsed / msPerDay) + ' days ago';
+    }
+    if (elapsed < msPerYear) {
+      return 'about ' + Math.round(elapsed / msPerMonth) + ' months ago';
+    }
+
+    return 'about ' + Math.round(elapsed / msPerYear) + ' years ago';
+  }
+
   var renderProjects = function(tags, names, labels) {
     projectsPanel.html(
       compiledtemplateFn({
         projects: projectsSvc.get(tags, names, labels),
+        relativeTime: relativeTime,
         tags: projectsSvc.getTags(),
         popularTags: projectsSvc.getPopularTags(6),
         selectedTags: tags,

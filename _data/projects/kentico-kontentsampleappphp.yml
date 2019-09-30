@@ -1,7 +1,7 @@
 ---
 name: kentico-cloud-sample-app-php
-desc: Kentico Cloud Delivery SDK for PHP
-site: https://github.com/Kentico/kentico-cloud-sample-app-php
+desc: Dancing Goat site built with Kentico Kontent and Laravel
+site: https://github.com/Kentico/kontent-sample-app-php
 tags:
 - php
 - content-delivery
@@ -15,7 +15,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/kentico-cloud-sample-app-php/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-sample-app-php/labels/up-for-grabs
 stats:
   issue-count: 2
   last-updated: '2019-09-23T08:40:25Z'

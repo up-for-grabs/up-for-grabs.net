@@ -1,7 +1,7 @@
 ---
-name: kentico-cloud-js
-desc: TypeScript packages related to Kentico Cloud app development.
-site: https://github.com/Kentico/kentico-cloud-js
+name: kentico-content-js
+desc: Repository hosting various Kentico Kontent Javascript packages
+site: https://github.com/Kentico/kentico-kontent-js
 tags:
 - javascript
 - typescript
@@ -19,7 +19,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/kentico-cloud-js/labels/up-for-grabs
+  link: https://github.com/Kentico/kentico-kontent-js/labels/up-for-grabs
 stats:
   issue-count: 3
   last-updated: '2019-09-26T09:41:08Z'

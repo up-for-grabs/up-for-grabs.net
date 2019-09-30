@@ -1,7 +1,7 @@
 ---
 name: cloud-boilerplate-net
-desc: Kentico Cloud Boilerplate for development of ASP.NET Core MVC applications.
-site: https://github.com/Kentico/cloud-boilerplate-net
+desc: Kentico Kontent Boilerplate for development of ASP.NET Core MVC applications
+site: https://github.com/Kentico/kontent-boilerplate-net
 tags:
 - ".net"
 - ".net-core"
@@ -15,7 +15,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/cloud-boilerplate-net/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-boilerplate-net/labels/up-for-grabs
 stats:
   issue-count: 6
   last-updated: '2019-09-25T08:55:10Z'

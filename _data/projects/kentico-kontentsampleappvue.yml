@@ -1,6 +1,8 @@
 ---
 name: cloud-sample-app-vue
-desc: A sample website written in JavaScript and Vue utilizing the Kentico Kontent Delivery API to manage and retrieve content
+desc: >-
+  A sample website written in JavaScript and Vue utilizing the Kentico Kontent Delivery API to manage
+  and retrieve content
 site: https://github.com/Kentico/kontent-sample-app-vue
 tags:
 - javascript

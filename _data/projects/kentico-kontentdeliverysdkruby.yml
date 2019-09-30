@@ -1,0 +1,19 @@
+---
+name: kontent-delivery-sdk-php
+desc: Kentico Kontent Delivery Ruby SDK
+site: https://github.com/Kentico/kontent-delivery-sdk-ruby
+tags:
+- ruby
+- sdk
+- content-delivery
+- kentico
+- kentico-cloud
+- cms
+- headless-cms
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/kontent-delivery-sdk-ruby/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-23T19:06:22Z'

@@ -1,0 +1,19 @@
+---
+name: cloud-sample-app-vue
+desc: A sample website written in JavaScript and Vue utilizing the Kentico Kontent Delivery API to manage and retrieve content
+site: https://github.com/Kentico/kontent-sample-app-vue
+tags:
+- javascript
+- kentico
+- kentico-cloud
+- headless-cms
+- headless
+- vue
+- single-page-application
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/kontent-sample-app-vue/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-09-26T07:03:53Z'

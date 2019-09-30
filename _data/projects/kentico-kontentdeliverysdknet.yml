@@ -1,7 +1,7 @@
 ---
 name: delivery-sdk-net
-desc: Kentico Cloud Delivery .NET SDK
-site: https://github.com/Kentico/delivery-sdk-net
+desc: Kentico Kontent Delivery .NET SDK
+site: https://github.com/Kentico/kontent-delivery-sdk-net
 tags:
 - ".net"
 - ".net-standard"
@@ -14,7 +14,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/delivery-sdk-net/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-delivery-sdk-net/labels/up-for-grabs
 stats:
   issue-count: 9
   last-updated: '2019-09-25T11:35:29Z'

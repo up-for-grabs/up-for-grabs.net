@@ -1,0 +1,22 @@
+---
+name: kontent-custom-element-samples
+desc: Examples of custom element extensions for Kentico Kontent
+site: https://github.com/Kentico/kontent-custom-element-samples
+tags:
+- extension
+- html
+- javascript
+- samples
+- example
+- web
+- kentico
+- kentico-cloud
+- cms
+- headless-cms
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Kentico/kontent-custom-element-samples/labels/up-for-grabs
+stats:
+  issue-count: 8
+  last-updated: '2019-09-21T17:33:41Z'

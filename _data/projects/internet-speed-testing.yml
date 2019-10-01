@@ -5,7 +5,7 @@ desc: >-
 site: https://github.com/oatrice/internet-speed-testing
 tags:
 - android
-- library
+- libraries
 - kotlin
 - internet
 - speed

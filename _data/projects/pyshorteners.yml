@@ -1,0 +1,12 @@
+---
+name: pyshorteners
+desc: A Python lib to consume the most used shorteners APIs
+site: http://github.com/ellisonleao/pyshorteners
+tags:
+- api
+- bitly
+- tinyurl
+- sentala
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ellisonleao/pyshorteners/labels/up-for-grabs

@@ -8,8 +8,8 @@ tags:
 - flask
 - python
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/up-for-grabs/up-for-grabs.net/labels/up-for-grabs
+  name: Hacktoberfest
+  link: https://github.com/SriNandan33/bootcamp/labels/hacktoberfest
 stats:
   issue-count: 2
   last-updated: '2019-09-30T18:58:25.119Z'

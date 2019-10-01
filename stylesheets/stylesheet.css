@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3 {
   font-family: 'Cookie', cursive;  
   margin-bottom: 20px;
-  color: #2E7BA9;
+  color: #225b7d;
 }
 
 h1 {
@@ -301,7 +301,7 @@ footer {
 
 a, .as-link {
   text-decoration: none;
-  color: #2E7BA9;
+  color: #225b7d;
   line-height: 1.4em;
   display: inline-block;
   vertical-align: baseline;
@@ -315,7 +315,7 @@ a, .as-link {
   -o-transition: color 0.3s;
   transition: color 0.3s; }
   a.main, a:hover, .as-link.main, .as-link:hover {
-    color: #2E7BA9;
+    color: #225b7d;
   }
   a.big-button, .as-link.big-button {
     min-width: 30%;
@@ -456,7 +456,7 @@ form {
  font-size: 28px !important;
  width: 40%;    
  position: absolute;
- background: #2E7BA9;
+ background: #225b7d;
  color: #E4F0F8;
  text-align: center;
  padding: .5em 1em;
@@ -549,7 +549,7 @@ form {
 }
 
 .projects .label {
-  background: #2E7BA9;
+  background: #225b7d;
   border-radius: 2px;
   color: #FFF;
   display: inline-block;
@@ -573,7 +573,7 @@ form {
   background: none white;
   border: 1px solid white;
   border-radius: 8px;
-  color: #2E7BA9;
+  color: #225b7d;
   display: inline-block;
   height: 16px;
   line-height: 16px;

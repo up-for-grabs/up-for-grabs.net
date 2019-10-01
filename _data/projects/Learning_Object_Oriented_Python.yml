@@ -4,7 +4,7 @@ site: https://www.github.com/josharsh/Learning-Object-Oriented-Python
 tags:
 - python
 - documentation
-- Object Oriented Python
+- Object-Oriented-Python
 upforgrabs:
   name: good first issue
   link: https://github.com/josharsh/Learning-Object-Oriented-Python/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

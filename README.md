@@ -56,7 +56,7 @@ git clone https://github.com/up-for-grabs/up-for-grabs.net.git
 
 If you have a fork of the repository, change `up-for-grabs` into your GitHub account named above.
 
-You need Ruby and Bundler installed to test the site - you can confirm these are present by running these commands:
+You need Ruby 2.4 and Bundler 1.16.x installed to test the site - you can confirm these are present by running these commands:
 
 ```
 ruby -v
@@ -67,7 +67,7 @@ If you're happy with that, run these commands in the directory where you cloned 
 
 ```
 bundle install
-jekyll serve --watch
+bundle exec jekyll serve
 ```
 
 Alternatively, the application can be run in a [Docker](https://docker.com) container:

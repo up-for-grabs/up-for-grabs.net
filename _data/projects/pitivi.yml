@@ -1,0 +1,14 @@
+name: Pitivi
+desc: Simple and powerful video editor based on GStreamer
+site: http://pitivi.org
+tags:
+- python
+- video
+- video-editing
+- gstreamer
+- gtk
+- gui
+- gnome
+upforgrabs:
+  name: 'Newcomers'
+  link: 'https://gitlab.gnome.org/GNOME/pitivi/issues?label_name%5B%5D=4.+Newcomers'

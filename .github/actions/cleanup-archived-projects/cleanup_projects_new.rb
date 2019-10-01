@@ -7,7 +7,7 @@ require 'pathname'
 
 class ProjectFile
   attr_reader :relative_path
-  
+
   def initialize(full_path, relative_path)
     @full_path = full_path
     @relative_path = relative_path
@@ -19,38 +19,34 @@ class ProjectFile
 end
 
 class ProjectParseResult
-
 end
 
 class ProjectProcessor
-
   @@client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
 
-  def self.process(project)
-    self.check_rate_limit
+  def self.process(_project)
+    check_rate_limit
 
     # TODO
-
   end
 
   def self.check_rate_limit
     rate_limit = @@client.rate_limit
-  
+
     remaining = rate_limit.remaining
     resets_in = rate_limit.resets_in
     limit = rate_limit.limit
-  
+
     remaining_percent = (remaining * 100) / limit
-  
+
     puts "Rate limit: #{remaining}/#{limit} - #{resets_in}s before reset" if (remaining % 10).zero? && remaining_percent < 20
-  
+
     return unless remaining.zero?
-  
+
     puts 'This script is currently rate-limited by the GitHub API'
     puts 'Marking as inconclusive to indicate that no further work will be done here'
     exit 78
   end
-
 end
 
 def valid_url?(url)
@@ -214,7 +210,7 @@ def verify_file(full_path)
       error: "Repository #{owner_and_repo} now lives at #{repo.full_name} and should be updated"
     }
   end
-  
+
   { path: path, deprecated: false, error: nil }
 rescue Psych::SyntaxError => e
   error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
@@ -239,29 +235,29 @@ projects = File.join($root_directory, '_data', 'projects', '*.yml')
 
 root = Pathname.new($root_directory)
 
-project_files = Dir.glob(projects).map { |full_path| 
+project_files = Dir.glob(projects).map do |full_path|
   relative_path = Pathname.new(full_path).relative_path_from(root).to_s
   ProjectFile.new(full_path, relative_path)
-}
+end
 
 results = project_files.map { |project| verify_project(project) }
 
-error_results = results.select { |r| !r.valid? }
-success_results = results.select { |r| r.valid? }
+error_results = results.reject(&:valid?)
+success_results = results.select(&:valid?)
 
 errors = error_results.count
 success = success_results.count
 
 if errors.positive?
-  puts "Errors found:"
+  puts 'Errors found:'
   error_results.each { |result| puts get_error_message(result) }
 end
 
 if verbose
-  puts "Active projects:"
-  success_results.each { |result| 
+  puts 'Active projects:'
+  success_results.each do |result|
     puts " - #{result.file_path}"
-  }
+  end
 end
 
 finish = Time.now

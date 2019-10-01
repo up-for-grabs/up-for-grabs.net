@@ -3,11 +3,6 @@ name: Node SQL Parser
 desc: Parse simple SQL statements into an abstract syntax tree (AST) with the visited tableList and convert it back to SQL.
 site: https://github.com/taozhi8833998/node-sql-parser
 tags:
-- node
-- sql
-- parser
-- mysql
-- mariadb
 upforgrabs:
   name: enhancement
   link: https://github.com/taozhi8833998/node-sql-parser/labels/enhancement

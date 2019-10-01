@@ -7,4 +7,4 @@ tags:
 - javascript
 upforgrabs:
   name: good first issue
-  link: https://github.com/lbryio/lbry-desktop/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+  link: https://github.com/lbryio/lbry-desktop/labels/good%20first%20issue

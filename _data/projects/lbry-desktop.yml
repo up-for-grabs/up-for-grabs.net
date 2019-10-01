@@ -1,0 +1,10 @@
+name: LBRY desktop
+desc: A browser and wallet for LBRY, the decentralized, user-controlled content marketplace.
+site: https://github.com/lbryio/lbry-desktop
+tags:
+- electron
+- node.js
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/lbryio/lbry-desktop/labels/good%20first%20issue

@@ -1,0 +1,10 @@
+name: Learning-Object-Oriented-Python
+desc: This repository walks you through the Object Oriented Programming in Python.
+site: https://www.github.com/josharsh/Learning-Object-Oriented-Python
+tags:
+- python
+- documentation
+- object-oriented-python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/josharsh/Learning-Object-Oriented-Python/labels/good%20first%20issue

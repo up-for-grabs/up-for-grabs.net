@@ -87,3 +87,12 @@ We use a few great features of Jekyll and GitHub Pages to host this entire site 
 * We use [travis-ci](https://travis-ci.org/up-for-grabs/up-for-grabs.net) to run a custom ruby script, `cibuild`, that checks all the `.yml` files to make sure they can be appropriately parsed. This makes sure we don't merge any incorrectly formed project files.
 
 What this means is that, when a pull request is merged, GitHub Pages automatically builds the site via Jekyll and publishes it to our GitHub -- no database or hosting needed. (Thanks, GitHub!)
+
+## Latest Features and Improvements
+We have recently made some improvements to the system. They are;
+
+* Action to regenerate stats each day.
+* Updated projects stats, fixed the broken tags.
+* Fixed and tested tags.
+* Added Mermaid, Boa, and Ushahidi to projects.
+* Created InTalks.yml.

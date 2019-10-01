@@ -1,0 +1,15 @@
+---
+name: bootcamp
+desc: A mini social networking application using Flask
+site: https://github.com/SriNandan33/bootcamp
+tags:
+- oss
+- web
+- flask
+- python
+upforgrabs:
+  name: Hacktoberfest
+  link: https://github.com/SriNandan33/bootcamp/labels/hacktoberfest
+stats:
+  issue-count: 2
+  last-updated: '2019-09-30T18:58:25.119Z'

@@ -1,0 +1,20 @@
+---
+name: Internet speed testing
+desc: >-
+  Android library for test internet speed implement by kotlin language!
+site: https://github.com/oatrice/internet-speed-testing
+tags:
+- android
+- libraries
+- kotlin
+- internet
+- speed
+- testing
+- measurement
+- hacktoberfest
+upforgrabs:
+  name: help wanted
+  link: https://github.com/oatrice/internet-speed-testing/labels/help%20wanted
+stats:
+  issue-count: 7
+  last-updated: '2018-01-12T20:09:00Z'

@@ -5,7 +5,7 @@ and what you should know if you wish to contribute.
 
 ## JS Development
 
-If you are working with JS files, you should ensure you have a reent version of
+If you are working with JS files, you should ensure you have a recent version of
 [NodeJS](https://nodejs.org) and [Yarn](https://yarnpkg.com/) installed. There
 are helpful tools installed that require these to be available.
 

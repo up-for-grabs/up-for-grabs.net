@@ -1,6 +1,8 @@
 ---
 name: Node SQL Parser
-desc: Parse simple SQL statements into an abstract syntax tree (AST) with the visited tableList and convert it back to SQL.
+desc: >-
+  Parse simple SQL statements into an abstract syntax tree (AST) with the visited tableList and convert
+  it back to SQL.
 site: https://github.com/taozhi8833998/node-sql-parser
 tags:
 - node.js
@@ -13,4 +15,4 @@ upforgrabs:
   link: https://github.com/taozhi8833998/node-sql-parser/labels/enhancement
 stats:
   issue-count: 2
-  last-updated: '2019-08-30T11:17:01Z'
+  last-updated: '2019-10-02T12:07:59Z'

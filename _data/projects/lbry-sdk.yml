@@ -1,3 +1,4 @@
+---
 name: LBRY SDK
 desc: The LBRY SDK for building decentralized, censorship resistant, monetized, digital content apps.
 site: https://github.com/lbryio/lbry-sdk
@@ -8,3 +9,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/lbryio/lbry-sdk/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2019-10-01T19:50:26Z'

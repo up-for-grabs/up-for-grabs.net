@@ -1,4 +1,4 @@
-up-for-grabs.net
+up-for-gras.net
 ================
 
 Do you run or participate in an open-source project? Submit a Pull Request to add it to the list!
@@ -6,7 +6,7 @@ Do you run or participate in an open-source project? Submit a Pull Request to ad
 Visit the website: [up-for-grabs.net](https://up-for-grabs.net/)
 
 ## Add a Project
-
+commit somme new message
 - Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder.
 - To add a new one, create a new file named after the project, ending in `.yml`. 
 - Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. 

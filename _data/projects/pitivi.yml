@@ -10,5 +10,5 @@ tags:
 - gui
 - gnome
 upforgrabs:
-  name: 'Newcomers'
-  link: 'https://gitlab.gnome.org/GNOME/pitivi/issues?label_name%5B%5D=4.+Newcomers'
+  name: Newcomers
+  link: https://gitlab.gnome.org/GNOME/pitivi/issues?label_name%5B%5D=4.+Newcomers

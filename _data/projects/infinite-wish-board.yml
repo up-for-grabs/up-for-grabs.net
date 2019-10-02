@@ -5,7 +5,7 @@ tags:
 # Note: these are tags categorizing the project, not issue labels.
 - javascript
 - expressjs
-- react
+- reactjs
 - mongodb
 - graphql
 - docker

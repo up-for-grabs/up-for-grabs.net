@@ -6,10 +6,11 @@ desc: >-
 site: https://github.com/ritwik12/Celestial-bodies-detection
 tags:
 - tensorflow
-- linux
+- artificial-intelligence
 - machine-learning
 - convolutional-neural-network
 - python
+- linux
 upforgrabs:
   name: good first issue
   link: https://github.com/ritwik12/Celestial-bodies-detection/labels/good%20first%20issue

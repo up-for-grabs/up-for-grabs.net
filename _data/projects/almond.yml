@@ -1,0 +1,17 @@
+name: Almond
+desc: The Open Source, Privacy Preserving Virtual Assistant
+site: https://almond.stanford.edu
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- virtual-assistant
+- voice
+- nlp
+- natural-language
+- machine-learning
+- research
+- javascript
+- web
+- node.js
+upforgrabs:
+  name: good first issue
+  link: https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+org%3Astanford-oval+archived%3Afalse+label%3A%22good+first+issue%22

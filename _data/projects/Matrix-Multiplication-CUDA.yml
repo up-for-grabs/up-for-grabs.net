@@ -1,0 +1,8 @@
+name: Matrix-Multiplication-CUDA
+desc: The project covers the Matrix Multiplication on GPGPU using CUDA and compares the difference between computation on GPU vs CPU
+site: https://github.com/rushirg/Cuda-Matrix-Multiplication
+tags:
+- Parallel-Processing
+- CUDA
+- GPU
+- CPU

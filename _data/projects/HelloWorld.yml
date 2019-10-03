@@ -1,0 +1,11 @@
+name: HelloWorld
+desc: >-
+Create Hello World code in any programming language of choice. Good platform to make first contributions on GitHub.
+site: https://github.com/NishkarshRaj/HelloWorld
+tags:
+- hello world
+- programming
+- first-contributions
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/NishkarshRaj/HelloWorld/labels/Up-for-Grabs

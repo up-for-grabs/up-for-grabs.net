@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ---
+=======
+>>>>>>> 3f2aefc8a8560a190bbcabbfbbae51d67ff024a4
 name: Learning-Object-Oriented-Python
 desc: This repository walks you through the Object Oriented Programming in Python.
 site: https://www.github.com/josharsh/Learning-Object-Oriented-Python
@@ -9,6 +12,9 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/josharsh/Learning-Object-Oriented-Python/labels/good%20first%20issue
+<<<<<<< HEAD
 stats:
   issue-count: 2
   last-updated: '2019-10-01T23:45:51Z'
+=======
+>>>>>>> 3f2aefc8a8560a190bbcabbfbbae51d67ff024a4

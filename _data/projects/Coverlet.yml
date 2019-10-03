@@ -3,14 +3,14 @@ desc: Cross platform code coverage for .NET
 site: https://github.com/tonerdo/coverlet
 tags:
 - cross-coverage
-- dotnet-core
-- dotnet-cli
+- .net core
+- .net core cli
 - unittest
 - coverage
 - cross-platform
 - coverage-library
-- dotnet
+- .net
 - coverlet
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/tonerdo/coverlet/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs
+  link: https://github.com/tonerdo/coverlet/labels/up-for-grabs

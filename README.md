@@ -56,7 +56,7 @@ git clone https://github.com/up-for-grabs/up-for-grabs.net.git
 
 If you have a fork of the repository, change `up-for-grabs` into your GitHub account named above.
 
-You need Ruby 2.4 and Bundler 2.0.x installed to test the site - you can confirm these are present by running these commands:
+We recommend installing Ruby 2.6.x and Bundler 2.0.x to test the site - you can confirm these are present by running these commands:
 
 ```
 ruby -v

@@ -8,8 +8,8 @@ Visit the website: [up-for-grabs.net](https://up-for-grabs.net/)
 ## Add a Project
 
 - Each of the projects is a file in the [projects](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/) folder.
-- To add a new one, create a new file named after the project, ending in `.yml`. 
-- Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier. 
+- To add a new one, create a new file named after the project, ending in `.yml`.
+- Ensure all spaces and special characters are replaced with `-`, to make everyone's life easier.
 - [This guide](https://help.github.com/articles/creating-new-files/) shows you how to create the file directly in the browser, without cloning the repository in the command line.
 
 The contents of the file are just some details about the project:
@@ -56,7 +56,7 @@ git clone https://github.com/up-for-grabs/up-for-grabs.net.git
 
 If you have a fork of the repository, change `up-for-grabs` into your GitHub account named above.
 
-You need Ruby and Bundler installed to test the site - you can confirm these are present by running these commands:
+You need Ruby 2.4 and Bundler 1.16.x installed to test the site - you can confirm these are present by running these commands:
 
 ```
 ruby -v
@@ -67,7 +67,7 @@ If you're happy with that, run these commands in the directory where you cloned 
 
 ```
 bundle install
-jekyll serve --watch
+bundle exec jekyll serve
 ```
 
 Alternatively, the application can be run in a [Docker](https://docker.com) container:
@@ -87,3 +87,19 @@ We use a few great features of Jekyll and GitHub Pages to host this entire site 
 * We use [travis-ci](https://travis-ci.org/up-for-grabs/up-for-grabs.net) to run a custom ruby script, `cibuild`, that checks all the `.yml` files to make sure they can be appropriately parsed. This makes sure we don't merge any incorrectly formed project files.
 
 What this means is that, when a pull request is merged, GitHub Pages automatically builds the site via Jekyll and publishes it to our GitHub -- no database or hosting needed. (Thanks, GitHub!)
+
+## Automation and Curation
+
+Because of the immense number of projects currently tracked in Up-for-Grabs,
+we've spent time adding tasks to run periodically so we can focus on curation
+and site improvements.
+
+Recent examples :
+
+ - Cleanup stale projects - each week a task runs to review the list of projects
+   and remove any that have been marked as archived or are no longer accessible
+   via the GitHub API.
+ - Update project stats - every day a task runs to check each project and commit
+   statistics to the data files. This allows us to cache statistics each time
+   the site is published and makes it easier for visitors to see which projects
+   have available issues.

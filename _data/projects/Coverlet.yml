@@ -5,7 +5,7 @@ tags:
 - cross-coverage
 - .net core
 - .net core cli
-- unittest
+- unit testing
 - coverage
 - cross-platform
 - coverage-library

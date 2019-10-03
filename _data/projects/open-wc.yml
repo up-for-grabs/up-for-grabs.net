@@ -1,0 +1,14 @@
+---
+name: open-wc
+desc: Open Web Component Recommendations
+site: https://open-wc.org/
+tags:
+  - javascript
+  - web components
+  - web
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/open-wc/open-wc/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest
+stats:
+  issue-count: 50
+  last-updated: '2019-10-03T18:16:06Z'

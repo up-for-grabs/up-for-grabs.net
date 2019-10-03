@@ -1,0 +1,16 @@
+---
+name: Baker
+desc: Baker is a library that reduces the effort to orchestrate (micro)service-based process flows
+site: https://ing-bank.github.io/baker/
+tags:
+  - java
+  - scala
+  - petri-nets
+  - jvm
+  - micro-service
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ing-bank/baker/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest
+stats:
+  issue-count: 14
+  last-updated: '2019-10-03T18:16:06Z'

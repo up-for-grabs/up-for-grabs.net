@@ -59,8 +59,10 @@ If you have a fork of the repository, change `up-for-grabs` into your GitHub acc
 We recommend installing Ruby 2.6.x and Bundler 2.0.x to test the site - you can confirm these are present by running these commands:
 
 ```
-ruby -v
-bundle -v
+$ ruby -v
+ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-darwin18]
+$ bundle -v
+Bundler version 2.0.2
 ```
 
 If you're happy with that, run these commands in the directory where you cloned the up-for-grabs repository:

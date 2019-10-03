@@ -3,9 +3,9 @@ desc: Cross platform code coverage for .NET
 site: https://github.com/tonerdo/coverlet
 tags:
 - cross-coverage
-- .net core
-- .net core cli
-- unit testing
+- .net-core
+- .net-core-cli
+- unit-testing
 - coverage
 - cross-platform
 - coverage-library

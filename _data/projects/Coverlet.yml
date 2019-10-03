@@ -1,16 +1,20 @@
+---
 name: Coverlet
 desc: Cross platform code coverage for .NET
 site: https://github.com/tonerdo/coverlet
 tags:
 - cross-coverage
-- .net-core
-- .net-core-cli
+- ".net-core"
+- ".net-core-cli"
 - unit-testing
 - coverage
 - cross-platform
 - coverage-library
-- .net
+- ".net"
 - coverlet
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/tonerdo/coverlet/labels/up-for-grabs
+stats:
+  issue-count: 18
+  last-updated: '2019-10-03T12:49:53Z'

@@ -1,0 +1,14 @@
+name: Infinite Wish Board
+desc: It is a new digital experience for kids that visit the Make-A-Wish of Georgia office. We, at Home Depot, donated a complete office renovation to make the Georgia office more inviting to kids. As part of that makeover, we also agreed to add a new digital experience. This is that experience.
+site: https://github.com/homedepot/infinite-wish-board
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- javascript
+- expressjs
+- reactjs
+- mongodb
+- graphql
+- docker
+upforgrabs:
+  name: good first issue
+  link: https://github.com/homedepot/infinite-wish-board/labels/good%20first%20issue

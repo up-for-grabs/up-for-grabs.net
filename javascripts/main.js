@@ -289,27 +289,35 @@ define([
       window.location.href = '#/tags/' + tagsString;
     });
 
-    var projectsSvc = new ProjectsService(projects);
+    function promiseWrappedProjects() {
+      return new Promise(function(resolve) {
+        resolve(projects);
+      });
+    }
 
-    var app = sammy(function() {
-      /*
-      * This is the route used to filter by tags/names/labels
-      * It ensures to read values from the URI query param and perform actions
-      * based on that. NOTE: It has major side effects on the browser.
-      */
-      this.get('#/filters', function() {
-        var labels = prepareForHTML(getParameterByName('labels'));
-        var names = prepareForHTML(getParameterByName('names'));
-        var tags = prepareForHTML(getParameterByName('tags'));
-        renderProjects(projectsSvc, tags, names, labels);
+    promiseWrappedProjects().then(function(p) {
+      var projectsSvc = new ProjectsService(p);
+
+      var app = sammy(function() {
+        /*
+         * This is the route used to filter by tags/names/labels
+         * It ensures to read values from the URI query param and perform actions
+         * based on that. NOTE: It has major side effects on the browser.
+         */
+        this.get('#/filters', function() {
+          var labels = prepareForHTML(getParameterByName('labels'));
+          var names = prepareForHTML(getParameterByName('names'));
+          var tags = prepareForHTML(getParameterByName('tags'));
+          renderProjects(projectsSvc, tags, names, labels);
+        });
+
+        this.get('#/', function() {
+          renderProjects(projectsSvc);
+        });
       });
 
-      this.get('#/', function() {
-        renderProjects(projectsSvc);
-      });
+      app.raise_errors = true;
+      app.run('#/');
     });
-
-    app.raise_errors = true;
-    app.run('#/');
   });
 });

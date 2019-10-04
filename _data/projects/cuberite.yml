@@ -11,7 +11,7 @@ tags:
 - android
 - plugins
 - minecraft
-- paspberry-pi
+- raspberry-pi
 upforgrabs:
   name: effort/easy
   link: https://github.com/cuberite/cuberite/labels/effort%2Feasy

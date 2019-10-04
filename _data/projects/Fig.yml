@@ -1,6 +1,6 @@
 ---
 name: Fig
-desc: .NET Library to access configuration data in a structured and strongly typed manner
+desc: ".NET Library to access configuration data in a structured and strongly typed manner"
 site: https://github.com/rofr/Fig
 tags:
 - c#
@@ -9,3 +9,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/rofr/Fig/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2019-10-03T22:00:46Z'

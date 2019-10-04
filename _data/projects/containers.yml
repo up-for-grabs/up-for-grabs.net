@@ -1,0 +1,10 @@
+name: containerpilot
+desc: 'An init system for cloud-native distributed applications'
+site: https://github.com/joyent/containerpilot
+tags:
+- containers
+- init
+- orchestration
+upforgrabs:
+  name: help needed 
+  link: https://github.com/ping2varshit/containerpilot

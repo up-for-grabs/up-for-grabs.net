@@ -50,17 +50,19 @@ define([
     return 'about ' + Math.round(elapsed / msPerYear) + ' years ago';
   }
 
-  var renderProjects = function(tags, names, labels) {
+  var renderProjects = function(projectService, tags, names, labels) {
+    const allTags = projectService.getTags();
+
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectsSvc.get(tags, names, labels),
+        projects: projectService.get(tags, names, labels),
         relativeTime: relativeTime,
-        tags: projectsSvc.getTags(),
-        popularTags: projectsSvc.getPopularTags(6),
+        tags: allTags,
+        popularTags: projectService.getPopularTags(6),
         selectedTags: tags,
-        names: projectsSvc.getNames(),
+        names: projectService.getNames(),
         selectedNames: names,
-        labels: projectsSvc.getLabels(),
+        labels: projectService.getLabels(),
         selectedLabels: labels,
       })
     );
@@ -122,8 +124,7 @@ define([
           selTags = $('.tags-filter').val() || [];
           selectedTag = preparePopTagName($(this).text() || '');
           if (selectedTag) {
-            tagID = projectsSvc
-              .getTags()
+            tagID = allTags
               .map(function(tag) {
                 return tag.name.toLowerCase();
               })
@@ -223,11 +224,11 @@ define([
       var labels = prepareForHTML(getParameterByName('labels'));
       var names = prepareForHTML(getParameterByName('names'));
       var tags = prepareForHTML(getParameterByName('tags'));
-      renderProjects(tags, names, labels);
+      renderProjects(projectsSvc, tags, names, labels);
     });
 
     this.get('#/', function() {
-      renderProjects();
+      renderProjects(projectsSvc);
     });
   });
 

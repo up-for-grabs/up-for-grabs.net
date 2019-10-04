@@ -3,12 +3,12 @@ name: open-wc
 desc: Open Web Component Recommendations
 site: https://open-wc.org/
 tags:
-  - javascript
-  - web-components
-  - web
+- javascript
+- web-components
+- web
 upforgrabs:
   name: hacktoberfest
   link: https://github.com/open-wc/open-wc/labels/hacktoberfest
 stats:
   issue-count: 15
-  last-updated: '2019-10-03T18:16:06Z'
+  last-updated: '2019-10-04T05:21:02Z'

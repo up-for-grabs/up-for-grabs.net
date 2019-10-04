@@ -10,8 +10,7 @@ define([
   // selector, and needs to be ready before this code runs
   'chosen',
 ], ($, ProjectsService, fetchIssueCount, _, sammy) => {
-  var projectsSvc = new ProjectsService(projects),
-    compiledtemplateFn = null,
+  var compiledtemplateFn = null,
     projectsPanel = null;
 
   var getFilterUrl = function() {
@@ -289,6 +288,8 @@ define([
       var tagsString = tags.join(',');
       window.location.href = '#/tags/' + tagsString;
     });
+
+    var projectsSvc = new ProjectsService(projects);
 
     var app = sammy(function() {
       /*

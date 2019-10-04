@@ -214,24 +214,6 @@ define([
     return text ? text.toLowerCase().split(',') : text;
   };
 
-  var app = sammy(function() {
-    /*
-     * This is the route used to filter by tags/names/labels
-     * It ensures to read values from the URI query param and perform actions
-     * based on that. NOTE: It has major side effects on the browser.
-     */
-    this.get('#/filters', function() {
-      var labels = prepareForHTML(getParameterByName('labels'));
-      var names = prepareForHTML(getParameterByName('names'));
-      var tags = prepareForHTML(getParameterByName('tags'));
-      renderProjects(projectsSvc, tags, names, labels);
-    });
-
-    this.get('#/', function() {
-      renderProjects(projectsSvc);
-    });
-  });
-
   var issueCount = function(project) {
     var a = $(project).find('.label a'),
       gh = a
@@ -306,6 +288,24 @@ define([
         });
       var tagsString = tags.join(',');
       window.location.href = '#/tags/' + tagsString;
+    });
+
+    var app = sammy(function() {
+      /*
+      * This is the route used to filter by tags/names/labels
+      * It ensures to read values from the URI query param and perform actions
+      * based on that. NOTE: It has major side effects on the browser.
+      */
+      this.get('#/filters', function() {
+        var labels = prepareForHTML(getParameterByName('labels'));
+        var names = prepareForHTML(getParameterByName('names'));
+        var tags = prepareForHTML(getParameterByName('tags'));
+        renderProjects(projectsSvc, tags, names, labels);
+      });
+
+      this.get('#/', function() {
+        renderProjects(projectsSvc);
+      });
     });
 
     app.raise_errors = true;

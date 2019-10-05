@@ -11,20 +11,20 @@
     of projects that we can use in the next stage.
   {% endcomment %}
 
-  {% assign values = site.emptyArray %}
+  {% assign projects_with_stats = site.emptyArray %}
   {% for project_hash in site.data.projects %}
     {% assign project = project_hash[1] %}
-    {% assign values = values | push: project %}
+    {% if project.stats != nil %}
+    {% assign projects_with_stats = projects_with_stats | push: project %}
+    {% endif %}
   {% endfor %}
 
   {% comment %}
     This stage does some filtering on the array of projects so that we can
     select a random sample of projects. This will change on each build, so we
     don't need to worry about the same projects appearing each time.
-
-    TODO: can we filter out projects that have zero open issues?
   {% endcomment %}
-  {% assign sampled_projects = values | where_exp: "stats", "stats != nil" | sample: 50 %}
+  {% assign sampled_projects = projects_with_stats | where_exp: "item", "item.stats['issue-count'] > 0" | sample: 50 %}
 
   <table class="projects">
     {% for project in sampled_projects %}

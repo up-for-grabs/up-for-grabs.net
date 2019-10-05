@@ -1,0 +1,15 @@
+---
+name: Airloom
+desc: An open source heirloom register
+site: https://github.com/isubasinghe/COMP30022-frontend
+tags:
+  - web
+  - reactjs
+  - css
+  - javascript
+upforgrabs:
+  name: Help wanted
+  link: https://github.com/isubasinghe/COMP30022-frontend/labels/Help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2019-10-05T14:04:32Z'

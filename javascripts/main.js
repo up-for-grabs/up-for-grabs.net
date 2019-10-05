@@ -290,13 +290,7 @@ define([
       window.location.href = '#/tags/' + tagsString;
     });
 
-    function promiseWrappedProjects() {
-      return new Promise(function(resolve) {
-        resolve(projects);
-      });
-    }
-
-    promiseWrappedProjects().then(function(p) {
+    loadProjects().then(function(p) {
       var projectsSvc = new ProjectsService(p);
 
       var app = sammy(function() {

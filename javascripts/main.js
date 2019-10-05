@@ -10,8 +10,7 @@ define([
   // selector, and needs to be ready before this code runs
   'chosen',
 ], ($, ProjectsService, fetchIssueCount, _, sammy) => {
-  var projectsSvc = new ProjectsService(projects),
-    compiledtemplateFn = null,
+  var compiledtemplateFn = null,
     projectsPanel = null;
 
   var getFilterUrl = function() {
@@ -50,17 +49,19 @@ define([
     return 'about ' + Math.round(elapsed / msPerYear) + ' years ago';
   }
 
-  var renderProjects = function(tags, names, labels) {
+  var renderProjects = function(projectService, tags, names, labels) {
+    const allTags = projectService.getTags();
+
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectsSvc.get(tags, names, labels),
+        projects: projectService.get(tags, names, labels),
         relativeTime: relativeTime,
-        tags: projectsSvc.getTags(),
-        popularTags: projectsSvc.getPopularTags(6),
+        tags: allTags,
+        popularTags: projectService.getPopularTags(6),
         selectedTags: tags,
-        names: projectsSvc.getNames(),
+        names: projectService.getNames(),
         selectedNames: names,
-        labels: projectsSvc.getLabels(),
+        labels: projectService.getLabels(),
         selectedLabels: labels,
       })
     );
@@ -122,8 +123,7 @@ define([
           selTags = $('.tags-filter').val() || [];
           selectedTag = preparePopTagName($(this).text() || '');
           if (selectedTag) {
-            tagID = projectsSvc
-              .getTags()
+            tagID = allTags
               .map(function(tag) {
                 return tag.name.toLowerCase();
               })
@@ -213,24 +213,6 @@ define([
     return text ? text.toLowerCase().split(',') : text;
   };
 
-  var app = sammy(function() {
-    /*
-     * This is the route used to filter by tags/names/labels
-     * It ensures to read values from the URI query param and perform actions
-     * based on that. NOTE: It has major side effects on the browser.
-     */
-    this.get('#/filters', function() {
-      var labels = prepareForHTML(getParameterByName('labels'));
-      var names = prepareForHTML(getParameterByName('names'));
-      var tags = prepareForHTML(getParameterByName('tags'));
-      renderProjects(tags, names, labels);
-    });
-
-    this.get('#/', function() {
-      renderProjects();
-    });
-  });
-
   var issueCount = function(project) {
     var a = $(project).find('.label a'),
       gh = a
@@ -307,7 +289,35 @@ define([
       window.location.href = '#/tags/' + tagsString;
     });
 
-    app.raise_errors = true;
-    app.run('#/');
+    function promiseWrappedProjects() {
+      return new Promise(function(resolve) {
+        resolve(projects);
+      });
+    }
+
+    promiseWrappedProjects().then(function(p) {
+      var projectsSvc = new ProjectsService(p);
+
+      var app = sammy(function() {
+        /*
+         * This is the route used to filter by tags/names/labels
+         * It ensures to read values from the URI query param and perform actions
+         * based on that. NOTE: It has major side effects on the browser.
+         */
+        this.get('#/filters', function() {
+          var labels = prepareForHTML(getParameterByName('labels'));
+          var names = prepareForHTML(getParameterByName('names'));
+          var tags = prepareForHTML(getParameterByName('tags'));
+          renderProjects(projectsSvc, tags, names, labels);
+        });
+
+        this.get('#/', function() {
+          renderProjects(projectsSvc);
+        });
+      });
+
+      app.raise_errors = true;
+      app.run('#/');
+    });
   });
 });

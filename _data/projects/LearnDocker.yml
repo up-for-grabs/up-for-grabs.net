@@ -1,0 +1,11 @@
+name: Learn Docker
+desc: >-This repository walks you through the basics of Docker and Containers. The repository contains all the commands for getting started with using Docker!
+site: http://github.com/josharsh/LearnDocker
+tags:
+- oss
+- docker
+- containers
+
+upforgrabs:
+  name: good first issue
+  link: https://github.com/josharsh/LearnDocker/labels/good%20first%20issue

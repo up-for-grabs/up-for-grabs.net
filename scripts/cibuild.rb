@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'safe_yaml'
 require 'uri'
 
@@ -7,15 +9,17 @@ end
 
 def sanitize_yaml_string!(str, name)
   sanatized = strip_or_self!(str)
-  sanatized = sanatized.sub(name + ": ", "")
-                       .sub(name + " : ", "")
+  sanatized = sanatized.sub(name + ': ', '')
+                       .sub(name + ' : ', '')
 
-  if (sanatized.start_with?("\"") && sanatized.end_with?("\"")) ||
-    (sanatized.start_with?("'") && sanatized.end_with?("'")) then
-    sanatized = sanatized.sub(/^\"/, "")
-             .sub(/\"$/, "")
-             .sub(/^'/, "")
-             .sub(/\'$/, "")
+  has_double_quotes = sanatized.start_with?('\"') && sanatized.end_with?('\"')
+  has_single_quotes = sanatized.start_with?("'") && sanatized.end_with?("'")
+
+  if has_double_quotes || has_single_quotes
+    sanatized = sanatized.sub(/^\"/, '')
+                         .sub(/\"$/, '')
+                         .sub(/^'/, ')
+                         .sub(/\'$/, ')
   end
 
   strip_or_self!(sanatized)
@@ -23,185 +27,169 @@ end
 
 def check_folder
   # i'm lazy
-  root = File.expand_path("..", __dir__)
+  root = File.expand_path('..', __dir__)
 
-  all_files =  Dir[root + "/_data/projects/*"]
-  yaml_files =  Dir[root + "/_data/projects/*.yml"]
+  all_files = Dir["#{root}/_data/projects/*"]
+  yaml_files = Dir["#{root}/_data/projects/*.yml"]
 
   # i'm lazy, there's gotta be an easier way to do this!
   yaml_files.each { |f| all_files.delete f }
   other_files = all_files.count
 
-  if (other_files > 0) then
-    puts "#{other_files} files in directory which are not YAML files:"
-    all_files.each { |f| puts " - " + f }
-    exit -1
-  end
+  return unless other_files.positive?
+
+  puts "#{other_files} files in directory which are not YAML files:"
+  all_files.each { |f| puts " - #{f}" }
+  exit(-1)
 end
 
-def valid_url? (url)
-   begin
-    uri = URI.parse(url)
-    uri.kind_of?(URI::HTTP) || uri.kind_of?(URI::HTTPS)
-  rescue URI::InvalidURIError
-    false
-  end
+def valid_url?(url)
+  uri = URI.parse(url)
+  uri.is_a?(URI::HTTP) || uri.is_a?(URI::HTTPS)
+rescue URI::InvalidURIError
+  false
 end
 
-def verify_preferred_tag (tag)
+def verify_preferred_tag(tag)
   # preference is a map of [bad tag]: [preferred tag]
   preference = {
-    "algorithms" => "algorithm",
-    "appletv" => "apple-tv",
-    "asp-net" => "asp.net",
-    "aspnet" => "asp.net",
-    "aspnetmvc" => "aspnet-mvc",
-    "aspnetcore" => "aspnet-core",
-    "asp-net-core" => "aspnet-core",
-    "assembler" => "assembly",
-    "builds" => "build",
-    "collaborate" => "collaboration",
-    "coding" =>"code",
-    "colour" => "color",
-    "commandline" => "command-line",
-    "csharp" => "c#",
-    "docs" => "documentation",
-    "dotnet-core" => ".net core",
-    "encrypt" => "encryption",
-    "fsharp" => "f#",
-    "games" => "game",
-    "gatsby" => "gatsbyjs",
-    "golang" => "go",
-    "js" => "javascript",
-    "library" => "libraries",
-    "linters" => "linter",
-    "node" => "node.js",
-    "nodejs" => "node.js",
-    "nuget.exe" => "nuget",
-    "parser" => "parsing",
-    "react" => "reactjs",
+    'algorithms' => 'algorithm',
+    'appletv' => 'apple-tv',
+    'asp-net' => 'asp.net',
+    'aspnet' => 'asp.net',
+    'aspnetmvc' => 'aspnet-mvc',
+    'aspnetcore' => 'aspnet-core',
+    'asp-net-core' => 'aspnet-core',
+    'assembler' => 'assembly',
+    'builds' => 'build',
+    'collaborate' => 'collaboration',
+    'coding' => 'code',
+    'colour' => 'color',
+    'commandline' => 'command-line',
+    'csharp' => 'c#',
+    'docs' => 'documentation',
+    'dotnet-core' => '.net core',
+    'encrypt' => 'encryption',
+    'fsharp' => 'f#',
+    'games' => 'game',
+    'gatsby' => 'gatsbyjs',
+    'golang' => 'go',
+    'js' => 'javascript',
+    'library' => 'libraries',
+    'linters' => 'linter',
+    'node' => 'node.js',
+    'nodejs' => 'node.js',
+    'nuget.exe' => 'nuget',
+    'parser' => 'parsing',
+    'react' => 'reactjs'
   }
-  if (preference[tag] != nil) then
-    return "Use '#{preference[tag]}' instead of #{tag}\n"
-  end
-  return ""
+  return "Use '#{preference[tag]}' instead of #{tag}\n" if preference[tag].present?
+
+  ''
 end
 
 def verify_tags(taglist)
-  result = ""
+  result = ''
   taglist.each do |tag|
-    if(tag =~ /[A-Z]/) then
-      result += "Tag '#{tag}' contains uppercase characters\n"
-    end
-    if(tag =~ /[\s_]/) then
-      result += "Tag '#{tag}' contains spaces or '_' (should use '-' instead)\n"
-    end
+    result += "Tag '#{tag}' contains uppercase characters\n" if tag =~ /[A-Z]/
+    result += "Tag '#{tag}' contains spaces or '_' (should use '-' instead)\n" if tag =~ /[\s_]/
     result += verify_preferred_tag(tag)
   end
-  if result != "" then
-    return "\nTag verification failed!\n" + result
-  end
-  return result
+  return "\nTag verification failed!\n" + result if result != ''
+
+  result
 end
 
-def verify_file (f)
+def verify_file(file)
   begin
-    contents = File.read(f)
+    contents = File.read(file)
 
-    dotNetInQuote = contents.index("- .NET")
-
-    if dotNetInQuote then
-      error = "Please specify the .NET label in quotes"
-      return [f, error]
+    if contents.index('- .NET')
+      error = 'Please specify the .NET label in quotes'
+      return [file, error]
     end
 
-    yaml = YAML.load(contents, :safe => true)
+    yaml = YAML.safe_load(contents)
 
-    if yaml["name"].nil? then
+    if yaml['name'].nil?
       error = "Required 'name' attribute is not defined"
-      return [f, error]
+      return [file, error]
     end
 
-    if yaml["site"].nil? then
+    if yaml['site'].nil?
       error = "Required 'site' attribute is not defined"
-      return [f, error]
+      return [file, error]
     end
 
-    if !valid_url?(yaml["site"]) then
+    unless valid_url?(yaml['site'])
       error = "Required 'site' attribute to be a valid url"
-      return [f, error]
+      return [file, error]
     end
 
-    if yaml["desc"].nil? then
+    if yaml['desc'].nil?
       error = "Required 'desc' attribute is not defined"
-      return [f, error]
+      return [file, error]
     end
 
-    tags = yaml["tags"]
-    if tags.nil? || tags.empty? then
-      error = "No tags defined for file"
-      return [f, error]
+    tags = yaml['tags']
+    if tags.nil? || tags.empty?
+      error = 'No tags defined for file'
+      return [file, error]
     end
 
     tags_verification = verify_tags(tags)
-    if !tags_verification.empty? then
-      return [f, tags_verification]
+    return [f, tags_verification] unless tags_verification.empty?
+
+    dups = tags.group_by { |e| e }.keep_if { |_, e| e.length > 1 }
+
+    if dups.any?
+      error = "Duplicate tags found: #{dups.keys.join ', '}"
+      return [file, error]
     end
 
-    dups = tags.group_by{ |e| e }.keep_if{|_, e| e.length > 1 }
-
-    if dups.any? then
-      tags = dups.keys.join ", "
-      error = "Duplicate tags found: " + tags
-      return [f, error]
-    end
-
-    if yaml["upforgrabs"].nil? then
+    if yaml['upforgrabs'].nil?
       error = "Required 'upforgrabs' attribute is not defined"
-      return [f, error]
+      return [file, error]
     end
 
-    if yaml["upforgrabs"]["name"].nil? then
+    if yaml['upforgrabs']['name'].nil?
       error = "Required 'upforgrabs.name' attribute is not defined"
-      return [f, error]
+      return [file, error]
     end
 
-    if yaml["upforgrabs"]["link"].nil? then
+    if yaml['upforgrabs']['link'].nil?
       error = "Required 'upforgrabs.link' attribute is not defined"
-      return [f, error]
+      return [file, error]
     end
 
-    if !valid_url?(yaml["upforgrabs"]["link"]) then
+    unless valid_url?(yaml['upforgrabs']['link'])
       error = "Required 'upforgrabs.link' attribute to be a valid url"
-      return [f, error]
+      return [file, error]
     end
-
   rescue Psych::SyntaxError => e
     error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
-    return [f, error]
-  rescue
-    error = "Unknown exception for file: " + $!.to_s
-    return [f, error]
+    [file, error]
+  rescue StandardError
+    error = "Unknown exception for file: #{$ERROR_INFO}"
+    [file, error]
   end
 
-  return [f, nil]
+  [file, nil]
 end
 
-root = File.expand_path("..", __dir__)
+root = File.expand_path('..', __dir__)
 
 check_folder
 
-results = Dir[root + "/_data/projects/*.yml"].map { |f| verify_file(f) }
+results = Dir["#{root}/_data/projects/*.yml"].map { |f| verify_file(f) }
 
-files_with_errors = results.select { |file, error| error != nil }
-error_count = files_with_errors.count
+files_with_errors = results.reject { |_, error| error.nil? }
+success = results.select { |_, error| error.nil? }.count
 
-success = results.select { |file, error| error.nil? }.count
-
-if (error_count > 0) then
-  puts "#{success} files processed - #{error_count} errors found:"
-  files_with_errors.each { |path, error| puts path + " - " + error }
-  exit -1
+if files_with_errors.count.positive?
+  puts "#{success} files processed - #{files_with_errors.count} errors found:"
+  files_with_errors.each { |path, error| puts "#{path} - #{error}" }
+  exit(-1)
 else
   puts "#{success} files processed - no errors found!"
 end

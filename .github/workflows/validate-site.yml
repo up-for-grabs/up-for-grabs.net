@@ -17,5 +17,6 @@ jobs:
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
+        bundle exec rubocop
         bundle exec jekyll build
         ruby scripts/cibuild.rb

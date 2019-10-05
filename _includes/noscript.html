@@ -57,10 +57,9 @@
             {% endif %}
             {% if project.tags %}
             <p class="tags">
-                {% for tag in project.tags %}
-                    <a href="#/filters?tags={{ tag | cgi_escape }}>" tabindex="-1">{{ tag }}</a>
-                    {% if forloop.index < project.tags.size %}, {% endif %}
-                {% endfor %}
+            {% for tag in project.tags %}
+              <a href="#/filters?tags={{ tag | cgi_escape }}>" tabindex="-1">{{ tag }}</a>{% if forloop.index < project.tags.size %}, {% endif %}
+            {% endfor %}
             </p>
             {% endif %}
         </td>

@@ -14,9 +14,7 @@ define([
     projectsPanel = null;
 
   var getFilterUrl = function() {
-    return location.href.indexOf('/#/filters') > -1
-      ? location.href
-      : location.href + 'filters';
+    return location.href + (location.href.includes('/#/filters') ? "" + "filters");
   };
 
   // inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better

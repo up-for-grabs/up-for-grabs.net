@@ -15,7 +15,7 @@ tags:
 - shell
 - cli
 upforgrabs:
-  name: Hacktoberfest
+  name: hacktoberfest
   link: https://github.com/tldr-pages/tldr/labels/hacktoberfest
 stats:
   issue-count: 22

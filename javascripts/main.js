@@ -15,7 +15,7 @@ define([
 
   var getFilterUrl = function() {
     return (
-      location.href + (location.href.includes("/#/filters") ? "" : "filters")
+      location.href + (location.href.includes('/#/filters') ? '' : 'filters')
     );
   };
 

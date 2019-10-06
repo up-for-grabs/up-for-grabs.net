@@ -3,12 +3,12 @@ name: Lion Web Components
 desc: Lion web components is a set of highly performant, accessible and flexible Web Components
 site: https://github.com/ing-bank/lion
 tags:
-  - javascript
-  - web-components
-  - web
+- javascript
+- web-components
+- web
 upforgrabs:
   name: good first issue
   link: https://github.com/ing-bank/lion/labels/good%20first%20issue
 stats:
   issue-count: 9
-  last-updated: '2019-10-03T18:16:06Z'
+  last-updated: '2019-10-03T12:32:12Z'

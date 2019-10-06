@@ -1,8 +1,7 @@
----
-name: Maven-Using-CMD
+name: Docker-Kubernetes
 desc: >-
-  Creating a Hello World code project in Java using the Apache Maven build tool and automating it using
-  Jenkins.
+  Learn about Docker for containerization and Kubernetes for orchestration.
+
 site: https://github.com/NishkarshRaj/Docker-Kubernetes
 tags:
 - docker
@@ -14,6 +13,3 @@ tags:
 upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/NishkarshRaj/Docker-Kubernetes/labels/Up-for-Grabs
-stats:
-  issue-count: 7
-  last-updated: '2019-10-05T12:53:14Z'

@@ -1,0 +1,25 @@
+AllCops:
+  Include:
+    - '.github/actions/**/*.rb'
+    - 'scripts/**/*.rb'
+
+Metrics/LineLength:
+  Max: 186
+
+Metrics/AbcSize:
+  Max: 66
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/MethodLength:
+  Max: 59
+
+Metrics/PerceivedComplexity:
+  Max: 15
+
+Style/GlobalVars:
+  Exclude:
+    - '.github/actions/cleanup-archived-projects/cleanup_projects.rb'
+    - '.github/actions/update-stats/update_stats.rb'
+

@@ -9,5 +9,5 @@ tags:
 - php
 - web
 upforgrabs:
-  name: Help wanted
-  link: https://github.com/matomo-org/matomo/labels/Help%20wanted
+  name: Hacktoberfest
+  link: https://github.com/matomo-org/matomo/labels/hacktoberfest

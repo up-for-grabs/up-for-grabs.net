@@ -304,14 +304,14 @@ define([
          * It ensures to read values from the URI query param and perform actions
          * based on that. NOTE: It has major side effects on the browser.
          */
-        this.get('#/filters', function() {
+        this.get(/\#\/filters/, function() {
           var labels = prepareForHTML(getParameterByName('labels'));
           var names = prepareForHTML(getParameterByName('names'));
           var tags = prepareForHTML(getParameterByName('tags'));
           renderProjects(projectsSvc, tags, names, labels);
         });
 
-        this.get('#/', function() {
+        this.get('/', function() {
           renderProjects(projectsSvc);
         });
       });

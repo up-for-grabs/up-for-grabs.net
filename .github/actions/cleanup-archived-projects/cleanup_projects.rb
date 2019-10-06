@@ -17,21 +17,17 @@ def try_read_owner_repo(url)
   # first array value (which should be an empty string) and then
   # combine the next two elements
 
-  pathSegments = url.path.split('/')
+  path_segments = url.path.split('/')
 
-  if pathSegments.length < 3
-    # this likely means the URL points to a filtered search URL
-    return nil
-  else
-    values = pathSegments.drop(1).take(2)
+  # this likely means the URL points to a filtered search URL
+  return nil if path_segments.length < 3
 
-    if values[0].casecmp('orgs') == 0
-      # points to a project board for the organization
-      return nil
-    end
+  values = path_segments.drop(1).take(2)
 
-    return values.join('/')
-  end
+  # points to a project board for the organization
+  return nil if values[0].casecmp('orgs').zero?
+
+  values.join('/')
 end
 
 def find_github_url(url)
@@ -39,11 +35,9 @@ def find_github_url(url)
 
   uri = URI.parse(url)
 
-  if uri.host.casecmp('github.com') != 0
-    return nil
-  else
-    return try_read_owner_repo(uri)
-  end
+  return nil unless uri.host.casecmp('github.com').zero?
+
+  try_read_owner_repo(uri)
 end
 
 def find_owner_repo_pair(yaml)
@@ -59,7 +53,7 @@ def find_owner_repo_pair(yaml)
   nil
 end
 
-def getPullRequestBody(reason)
+def get_pull_request_body(reason)
   if reason == 'archived'
     'This project has been marked as deprecated as the owner has archived the repository, meaning it will not accept new contributions.'
   elsif reason == 'missing'
@@ -80,18 +74,18 @@ def create_pull_request_removing_file(repo, path, reason)
 
   begin
     check_rate_limit
-    foundRef = $client.ref(repo, short_ref)
+    found_ref = $client.ref(repo, short_ref)
   rescue StandardError
-    foundRef = nil
+    found_ref = nil
   end
 
   begin
     check_rate_limit
-    if foundRef.nil?
+    if found_ref.nil?
       puts "Creating ref for '#{short_ref}' to point to '#{sha}'"
       $client.create_ref(repo, short_ref, sha)
     else
-      puts "Updating ref for '#{short_ref}' from #{foundRef.object.sha} to '#{sha}'"
+      puts "Updating ref for '#{short_ref}' from #{found_ref.object.sha} to '#{sha}'"
       $client.update_ref(repo, short_ref, sha, true)
     end
 
@@ -102,7 +96,7 @@ def create_pull_request_removing_file(repo, path, reason)
     $client.delete_contents(repo, path, 'Removing deprecated project from list', content.sha, branch: branch_name)
 
     check_rate_limit
-    $client.create_pull_request(repo, 'gh-pages', branch_name, "Deprecated project: #{file_name}.yml", getPullRequestBody(reason))
+    $client.create_pull_request(repo, 'gh-pages', branch_name, "Deprecated project: #{file_name}.yml", get_pull_request_body(reason))
   rescue StandardError
     puts "Unable to create pull request to remove project #{path} - '#{$ERROR_INFO}''"
     nil
@@ -138,46 +132,44 @@ def check_rate_limit
 
   remaining_percent = (remaining * 100) / limit
 
-  puts "Rate limit: #{remaining}/#{limit} - #{resets_in}s before reset" if remaining % 10 == 0 && remaining_percent < 20
+  puts "Rate limit: #{remaining}/#{limit} - #{resets_in}s before reset" if (remaining % 10).zero? && remaining_percent < 20
 
-  if remaining == 0
-    puts 'This script is currently rate-limited by the GitHub API'
-    puts 'Marking as inconclusive to indicate that no further work will be done here'
-    exit 78
-  end
+  return unless remaining.zero?
+
+  puts 'This script is currently rate-limited by the GitHub API'
+  puts 'Marking as inconclusive to indicate that no further work will be done here'
+  exit 78
 end
 
-def relativePath(full_path)
+def relative_path(full_path)
   root = Pathname.new($root_directory)
   Pathname.new(full_path).relative_path_from(root).to_s
 end
 
 def verify_file(full_path)
-  path = relativePath(full_path)
+  path = relative_path(full_path)
   contents = File.read(full_path)
   yaml = YAML.safe_load(contents, safe: true)
 
-  ownerAndRepo = find_owner_repo_pair(yaml)
+  owner_and_repo = find_owner_repo_pair(yaml)
 
-  if ownerAndRepo.nil?
+  if owner_and_repo.nil?
     # ignoring entry as we could not find a valid GitHub URL
     # this likely means it's hosted elsewhere
     return { path: path, error: nil }
   end
 
   check_rate_limit
-  repo = $client.repo ownerAndRepo
+  repo = $client.repo owner_and_repo
 
   if repo.archived
     # Repository has been marked as archived through the GitHub API
     return { path: path, deprecated: true, reason: 'archived' }
   end
 
-  if ownerAndRepo.casecmp(repo.full_name) != 0
-    return { path: path, deprecated: false, error: "Repository #{ownerAndRepo} now lives at #{repo.full_name} and should be updated" }
-  else
-    return { path: path, deprecated: false, error: nil }
-  end
+  return { path: path, deprecated: false, error: "Repository #{owner_and_repo} now lives at #{repo.full_name} and should be updated" } unless owner_and_repo.casecmp(repo.full_name).zero?
+
+  { path: path, deprecated: false, error: nil }
 rescue Psych::SyntaxError => e
   error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
   { path: path, deprecated: false, error: error }

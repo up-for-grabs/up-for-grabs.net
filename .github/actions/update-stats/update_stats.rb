@@ -21,21 +21,17 @@ def try_read_owner_repo(url)
   # first array value (which should be an empty string) and then
   # combine the next two elements
 
-  pathSegments = url.path.split('/')
+  path_segments = url.path.split('/')
 
-  if pathSegments.length < 3
-    # this likely means the URL points to a filtered search URL
-    return nil
-  else
-    values = pathSegments.drop(1).take(2)
+  # this likely means the URL points to a filtered search URL
+  return nil if path_segments.length < 3
 
-    if values[0].casecmp('orgs') == 0
-      # points to a project board for the organization
-      return nil
-    end
+  values = path_segments.drop(1).take(2)
 
-    return values.join('/')
-  end
+  # points to a project board for the organization
+  return nil if values[0].casecmp('orgs').zero?
+
+  values.join('/')
 end
 
 def find_github_url(url)
@@ -43,11 +39,9 @@ def find_github_url(url)
 
   uri = URI.parse(url)
 
-  if uri.host.casecmp('github.com') != 0
-    return nil
-  else
-    return try_read_owner_repo(uri)
-  end
+  return nil unless uri.host.casecmp('github.com').zero?
+
+  try_read_owner_repo(uri)
 end
 
 def find_owner_repo_pair(yaml)
@@ -71,13 +65,12 @@ def find_project_label(yaml)
   nil
 end
 
-def relativePath(full_path)
+def relative_path(full_path)
   root = Pathname.new($root_directory)
   Pathname.new(full_path).relative_path_from(root).to_s
 end
 
 def reformat_file(full_path)
-  path = relativePath(full_path)
   yaml = File.read(full_path)
   obj = YAML.safe_load(yaml)
 
@@ -90,7 +83,6 @@ def reformat_file(full_path)
 end
 
 def update_project_stats(full_path, count, updated_at)
-  path = relativePath(full_path)
   yaml = File.read(full_path)
   obj = YAML.safe_load(yaml)
 
@@ -103,22 +95,22 @@ end
 def verify_file(full_path)
   reformat_file full_path
 
-  path = relativePath(full_path)
+  path = relative_path(full_path)
   contents = File.read(full_path)
   yaml = YAML.safe_load(contents)
 
-  ownerAndRepo = find_owner_repo_pair(yaml)
+  owner_and_repo = find_owner_repo_pair(yaml)
 
-  return if ownerAndRepo.nil?
+  return if owner_and_repo.nil?
 
-  items = ownerAndRepo.split('/')
+  items = owner_and_repo.split('/')
   owner = items[0]
   name = items[1]
 
   link = yaml['upforgrabs']['link']
 
   unless link.start_with?('https://github.com/')
-    puts "Skipping project #{ownerAndRepo} as UpForGrabs URL is outside GitHub"
+    puts "Skipping project #{owner_and_repo} as UpForGrabs URL is outside GitHub"
     return
   end
 
@@ -127,9 +119,9 @@ def verify_file(full_path)
   result = $GraphQLClient.query(IssueCountForLabel, variables: { owner: owner, name: name, label: label })
 
   if result.data.repository.nil?
-    puts "Cannot find repository for project '#{ownerAndRepo}'"
+    puts "Cannot find repository for project '#{owner_and_repo}'"
   elsif result.data.repository.label.nil?
-    puts "Cannot find label '#{label}' for project '#{ownerAndRepo}'"
+    puts "Cannot find label '#{label}' for project '#{owner_and_repo}'"
   else
     count = result.data.repository.label.issues.total_count
     updated_at = result.data.repository.updated_at
@@ -146,9 +138,9 @@ def verify_file(full_path)
 
   remaining_percent = (remaining * 100) / limit
 
-  puts "Rate limit: #{remaining}/#{limit} - #{resets_in.to_i}s before reset" if remaining % 10 == 0 && remaining_percent < 20
+  puts "Rate limit: #{remaining}/#{limit} - #{resets_in.to_i}s before reset" if (remaining % 10).zero? && remaining_percent < 20
 
-  if remaining == 0
+  if remaining.zero?
     puts 'This script is currently rate-limited by the GitHub API'
     puts 'Marking as inconclusive to indicate that no further work will be done here'
     exit 78
@@ -174,8 +166,10 @@ $client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
 HTTP = GraphQL::Client::HTTP.new('https://api.github.com/graphql') do
   def headers(_context)
     # Optionally set any HTTP headers
-    { "User-Agent": 'shiftkey-testing-graphql-things' }
-    { "Authorization": "bearer #{ENV['GITHUB_TOKEN']}" }
+    {
+      "User-Agent": 'shiftkey-testing-graphql-things',
+      "Authorization": "bearer #{ENV['GITHUB_TOKEN']}"
+    }
   end
 end
 

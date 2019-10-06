@@ -9,14 +9,8 @@ Metrics/LineLength:
 Metrics/AbcSize:
   Max: 66
 
-Metrics/CyclomaticComplexity:
-  Max: 15
-
 Metrics/MethodLength:
   Max: 59
-
-Metrics/PerceivedComplexity:
-  Max: 15
 
 Style/GlobalVars:
   Exclude:

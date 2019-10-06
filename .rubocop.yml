@@ -6,10 +6,6 @@ AllCops:
 Metrics/LineLength:
   Max: 186
 
-Lint/Void:
-  Exclude:
-    - '.github/actions/update-stats/update_stats.rb'
-
 Metrics/AbcSize:
   Max: 66
 

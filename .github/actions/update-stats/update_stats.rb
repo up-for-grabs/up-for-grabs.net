@@ -51,18 +51,7 @@ def find_owner_repo_pair(yaml)
   return owner_and_repo if owner_and_repo
 
   upforgrabs = yaml['upforgrabs']['link']
-  owner_and_repo = find_github_url(upforgrabs)
-  return owner_and_repo if owner_and_repo
-
-  nil
-end
-
-def find_project_label(yaml)
-  name = yaml['upforgrabs']['name']
-
-  return name if name
-
-  nil
+  find_github_url(upforgrabs)
 end
 
 def relative_path(full_path)
@@ -92,10 +81,7 @@ def update_project_stats(full_path, count, updated_at)
   File.open(full_path, 'w') { |f| f.write obj.to_yaml(line_width: 100) }
 end
 
-def verify_file(full_path)
-  reformat_file full_path
-
-  path = relative_path(full_path)
+def find_values_to_query_api(full_path)
   contents = File.read(full_path)
   yaml = YAML.safe_load(contents)
 
@@ -111,24 +97,42 @@ def verify_file(full_path)
 
   unless link.start_with?('https://github.com/')
     puts "Skipping project #{owner_and_repo} as UpForGrabs URL is outside GitHub"
-    return
+    return nil
   end
 
-  label = find_project_label(yaml)
+  label = yaml['upforgrabs']['name']
 
-  result = $GraphQLClient.query(IssueCountForLabel, variables: { owner: owner, name: name, label: label })
+  [owner, name, label]
+end
 
-  if result.data.repository.nil?
+def update_stats(full_path, repository, owner_and_repo, label)
+  if repository.nil?
     puts "Cannot find repository for project '#{owner_and_repo}'"
-  elsif result.data.repository.label.nil?
+  elsif repository.label.nil?
     puts "Cannot find label '#{label}' for project '#{owner_and_repo}'"
   else
-    count = result.data.repository.label.issues.total_count
-    updated_at = result.data.repository.updated_at
+    count = repository.label.issues.total_count
+    updated_at = repository.updated_at
 
-    # enable this at a later stage
-    update_project_stats(full_path, count, updated_at)
+    update_project_stats(full_path, count, updated_at) if $apply_changes
   end
+end
+
+def verify_file(full_path)
+  reformat_file full_path
+
+  path = relative_path(full_path)
+
+  result = find_values_to_query_api(full_path)
+  return if result.nil?
+
+  owner, name, label = result
+
+  variables = { owner: owner, name: name, label: label }
+
+  result = $GraphQLClient.query(IssueCountForLabel, variables: variables)
+
+  update_stats(full_path, result.data.repository, "#{owner}/#{name}", label)
 
   rate_limit = result.data.rate_limit
   resets_in = Time.parse(rate_limit.reset_at) - Time.now
@@ -147,12 +151,10 @@ def verify_file(full_path)
   end
 rescue Psych::SyntaxError => e
   puts "Unable to parse the contents of file #{path} - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
-rescue Octokit::NotFound
-  puts 'No repository found in GitHub API'
 rescue GraphQL::Client::Error => e
-  puts 'GraphQL exception for file: ' + e.to_s
-rescue StandardError
-  puts 'Unknown exception for file: ' + $ERROR_INFO.to_s
+  puts "GraphQL exception for file #{path}: '#{e}'"
+rescue StandardError => e
+  puts "Unknown exception for file #{path}: '#{e}'"
 end
 
 repo = ENV['GITHUB_REPOSITORY']
@@ -198,6 +200,7 @@ GRAPHQL
 
 $root_directory = ENV['GITHUB_WORKSPACE']
 $verbose = ENV['VERBOSE_OUTPUT']
+$apply_changes = ENV['APPLY_CHANGES']
 projects = File.join($root_directory, '_data', 'projects', '*.yml')
 
 current_repo = ENV['GITHUB_REPOSITORY']
@@ -213,6 +216,11 @@ if found_pr
 end
 
 Dir.glob(projects).each { |path| verify_file(path) }
+
+unless $apply_changes
+  puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'
+  exit 78
+end
 
 clean = true
 

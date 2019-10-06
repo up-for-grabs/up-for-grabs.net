@@ -1,7 +1,6 @@
+---
 name: Docker-Kubernetes
-desc: >-
-  Learn about Docker for containerization and Kubernetes for orchestration.
-
+desc: Learn about Docker for containerization and Kubernetes for orchestration.
 site: https://github.com/NishkarshRaj/Docker-Kubernetes
 tags:
 - docker
@@ -13,3 +12,6 @@ tags:
 upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/NishkarshRaj/Docker-Kubernetes/labels/Up-for-Grabs
+stats:
+  issue-count: 6
+  last-updated: '2019-10-06T01:49:37Z'

@@ -30,40 +30,7 @@ class Project
   end
 
   def verify_preferred_tag(tag)
-    # preference is a map of [bad tag]: [preferred tag]
-    preference = {
-      'algorithms' => 'algorithm',
-      'appletv' => 'apple-tv',
-      'asp-net' => 'asp.net',
-      'aspnet' => 'asp.net',
-      'aspnetmvc' => 'aspnet-mvc',
-      'aspnetcore' => 'aspnet-core',
-      'asp-net-core' => 'aspnet-core',
-      'assembler' => 'assembly',
-      'builds' => 'build',
-      'collaborate' => 'collaboration',
-      'coding' => 'code',
-      'colour' => 'color',
-      'commandline' => 'command-line',
-      'csharp' => 'c#',
-      'docs' => 'documentation',
-      'dotnet-core' => '.net core',
-      'encrypt' => 'encryption',
-      'fsharp' => 'f#',
-      'games' => 'game',
-      'gatsby' => 'gatsbyjs',
-      'golang' => 'go',
-      'js' => 'javascript',
-      'library' => 'libraries',
-      'linters' => 'linter',
-      'node' => 'node.js',
-      'nodejs' => 'node.js',
-      'nuget.exe' => 'nuget',
-      'parser' => 'parsing',
-      'react' => 'reactjs'
-    }
-
-    return "Use '#{preference[tag]}' instead of #{tag}\n" unless preference[tag].nil?
+    return "Use '#{PREFERENCES[tag]}' instead of #{tag}\n" unless PREFERENCES[tag].nil?
 
     ''
   end
@@ -90,6 +57,39 @@ class Project
   end
 
   private
+
+  # preference is a map of [bad tag]: [preferred tag]
+  PREFERENCES = {
+    'algorithms' => 'algorithm',
+    'appletv' => 'apple-tv',
+    'asp-net' => 'asp.net',
+    'aspnet' => 'asp.net',
+    'aspnetmvc' => 'aspnet-mvc',
+    'aspnetcore' => 'aspnet-core',
+    'asp-net-core' => 'aspnet-core',
+    'assembler' => 'assembly',
+    'builds' => 'build',
+    'collaborate' => 'collaboration',
+    'coding' => 'code',
+    'colour' => 'color',
+    'commandline' => 'command-line',
+    'csharp' => 'c#',
+    'docs' => 'documentation',
+    'dotnet-core' => '.net core',
+    'encrypt' => 'encryption',
+    'fsharp' => 'f#',
+    'games' => 'game',
+    'gatsby' => 'gatsbyjs',
+    'golang' => 'go',
+    'js' => 'javascript',
+    'library' => 'libraries',
+    'linters' => 'linter',
+    'node' => 'node.js',
+    'nodejs' => 'node.js',
+    'nuget.exe' => 'nuget',
+    'parser' => 'parsing',
+    'react' => 'reactjs'
+  }.freeze
 
   def validate_summary(yaml)
     errors = []

@@ -27,6 +27,3 @@ Style/GlobalVars:
     - '.github/actions/cleanup-archived-projects/cleanup_projects.rb'
     - '.github/actions/update-stats/update_stats.rb'
 
-Style/GuardClause:
-  Exclude:
-    - '.github/actions/update-stats/update_stats.rb'

@@ -1,19 +1,28 @@
 title: up-for-grabs.net
 
 exclude:
-  - CNAME
-  - Gemfile*
-  - tests
-  - README.md
-  - scripts
-  - .travis.yml
-  - vendor
+  - .github
+  - assets
+  - docs
+  - licenses
   - node_modules
-  - package.json
-  - yarn.lock
+  - scripts
+  - tests
+  - .editorconfig
   - .eslintrc.json
   - .prettierrc.json
-  - docs
+  - .rubocop.yml
+  - .ruby-version
+  - CNAME
+  - Dockerfile
+  - docker-compose.yml
+  - Gemfile*
+  - jest.config.js
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - README.md
+  - tsconfig.json
 
 github: [metadata]
 

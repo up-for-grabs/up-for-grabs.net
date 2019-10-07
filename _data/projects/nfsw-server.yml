@@ -1,0 +1,15 @@
+---
+name: Need For Speed World Server
+desc: Just as the name suggests, this is an open source server for the game, compatible with the "SBRW" (Soap Box Race World) game launcher.
+site: https://github.com/aadityachakravarty/sbrw-server
+tags:
+- javascript
+- racing
+- backend
+- nodejs
+- nfsworld
+- sbrwserver
+- sbrw
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/aadityachakravarty/sbrw-server/labels/up-for-grabs

@@ -1,0 +1,15 @@
+---
+name: PyTorch
+desc: PyTorch is an open source machine learning library, used for applications such as computer vision and NLP. 
+site: https://github.com/pytorch/pytorch
+tags:
+- python
+- c++
+- machine learning
+- Cuda
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/up-for-grabs/up-for-grabs.net/labels/up-for-grabs
+stats:
+  issue-count: 18
+  last-updated: '2019-10-06T12:07:55Z'

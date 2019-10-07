@@ -1,5 +1,8 @@
+---
 name: BotKube
-desc: App that helps you monitor your Kubernetes cluster, debug critical deployments & gives recommendations for standard practices
+desc: >-
+  App that helps you monitor your Kubernetes cluster, debug critical deployments & gives recommendations
+  for standard practices
 site: https://www.botkube.io/
 tags:
 - kubernetes
@@ -13,3 +16,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/infracloudio/botkube/labels/help%20wanted
+stats:
+  issue-count: 9
+  last-updated: '2019-10-06T17:52:01Z'

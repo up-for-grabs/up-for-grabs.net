@@ -31,6 +31,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "JoaoManoel",
+      "name": "João Manoel Lins",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6238111?v=4",
+      "profile": "http://www.joaomanoel.com.br",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,

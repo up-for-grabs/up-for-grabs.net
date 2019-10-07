@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "SpaceEEC",
+      "name": "SpaceEEC",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24881032?v=4",
+      "profile": "https://github.com/SpaceEEC",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "up-for-grabs.net",
+  "projectOwner": "up-for-grabs",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}

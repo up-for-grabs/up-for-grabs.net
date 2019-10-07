@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "filipe-gomes",
+      "name": "Filipe Magalhaes Gomes",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42053052?v=4",
+      "profile": "https://github.com/filipe-gomes",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
       "login": "mkkhedawat",
       "name": "Manish Kumar Khedawat",
       "avatar_url": "https://avatars2.githubusercontent.com/u/5137374?v=4",

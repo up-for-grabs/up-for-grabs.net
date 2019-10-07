@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "mkkhedawat",
+      "name": "Manish Kumar Khedawat",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5137374?v=4",
+      "profile": "https://mkkhedawat.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "SpaceEEC",
       "name": "SpaceEEC",
       "avatar_url": "https://avatars1.githubusercontent.com/u/24881032?v=4",

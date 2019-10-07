@@ -9,8 +9,8 @@ tags:
 - rollercoasters
 - 2d
 upforgrabs:
-  name: good first issue
-  link: https://github.com/OpenRCT2/OpenRCT2/labels/good%20first%20issue
+  name: hacktoberfest
+  link: https://github.com/OpenRCT2/OpenRCT2/labels/hacktoberfest
 stats:
   issue-count: 17
   last-updated: '2019-09-30T19:36:28Z'

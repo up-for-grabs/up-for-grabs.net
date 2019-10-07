@@ -9,8 +9,8 @@ tags:
 - cloud
 - sdk
 upforgrabs:
-  name: Up for grabs
-  link: https://github.com/Azure/azure-sdk-for-java/labels/Up%20for%20grabs
+  name: up for grabs
+  link: https://github.com/Azure/azure-sdk-for-java/labels/up%20for%20grabs
 stats:
   issue-count: 4
   last-updated: '2019-10-01T01:17:03Z'

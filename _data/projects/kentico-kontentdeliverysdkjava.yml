@@ -1,7 +1,7 @@
 ---
 name: delivery-sdk-java
-desc: Kentico Cloud Delivery Java SDK.
-site: https://github.com/Kentico/delivery-sdk-java
+desc: Kentico Kontent Delivery Java SDK.
+site: https://github.com/Kentico/kontent-delivery-sdk-java
 tags:
 - java
 - kentico
@@ -12,7 +12,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/delivery-sdk-java/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-delivery-sdk-java/labels/up-for-grabs
 stats:
   issue-count: 5
   last-updated: '2019-10-04T21:22:42Z'

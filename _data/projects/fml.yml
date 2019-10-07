@@ -1,0 +1,9 @@
+name: FML
+desc: A CLI tool that tells a joke when you type fml in the terminal
+site: https://github.com/slash-arun/fml
+tags:
+- python
+- cli
+upforgrabs:
+  name: help wanted
+  link: https://github.com/slash-arun/fml/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

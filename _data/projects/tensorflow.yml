@@ -1,0 +1,14 @@
+---
+name: Tensorflow
+desc: An Open Source Machine Learning Framework for Everyone 
+site: https://github.com/tensorflow/tensorflow
+tags:
+- artificial-intelligence
+- deep-learning
+- machine-learning
+- python
+- deep-neural-networks
+- neural-network
+upforgrabs:
+  name: good first issue
+  link: https://github.com/tensorflow/tensorflow/labels/good%20first%20issue

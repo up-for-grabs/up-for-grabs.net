@@ -1,0 +1,11 @@
+name: tutorialdb
+desc: A search engine for programming/dev tutorials.
+site: https://github.com/Bhupesh-V/tutorialdb
+tags:
+- django
+- web
+- python3
+- javascript
+upforgrabs:
+  name: help wanted 🙌
+  link: https://github.com/Bhupesh-V/tutorialdb/labels/help%20wanted%20%F0%9F%99%8C

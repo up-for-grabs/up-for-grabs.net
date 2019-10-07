@@ -19,12 +19,14 @@ class Project
 
   def validate_tag_list(taglist)
     result = ''
+
     taglist.each do |tag|
       result += "Tag '#{tag}' contains uppercase characters\n" if tag =~ /[A-Z]/
       result += "Tag '#{tag}' contains spaces or '_' (should use '-' instead)\n" if tag =~ /[\s_]/
       result += verify_preferred_tag(tag)
     end
-    return "\nTag verification failed!\n" + result if result != ''
+
+    return 'Tag verification failed - ' + result if result != ''
 
     result
   end
@@ -113,7 +115,8 @@ class Project
     errors << 'No tags defined for file' if tags.nil? || tags.empty?
 
     tags_validation_errors = validate_tag_list(tags)
-    errors.concat(tags_validation_errors) unless tags_validation_errors.empty?
+
+    errors = errors.append(tags_validation_errors) unless tags_validation_errors.empty?
 
     dups = tags.group_by { |t| t }.keep_if { |_, t| t.length > 1 }
 

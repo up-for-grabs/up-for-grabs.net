@@ -132,11 +132,13 @@ img {
     text-align: center;
     font-size: 23px;
     text-decoration: none;
+    transition: 0.3s;
 
 }
 #back2Top:hover {
-    background-color: #DDF;
-    color: #000;
+    background-color: #2D7BA9;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 #forkme_banner {

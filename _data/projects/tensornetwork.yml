@@ -1,0 +1,14 @@
+---
+name: TensorNetwork
+desc: A library for easy and efficient manipulation of tensor networks.
+site: https://github.com/google/TensorNetwork
+tags:
+- artificial-intelligence
+- deep-learning
+- machine-learning
+- python
+- deep-neural-networks
+- neural-network
+upforgrabs:
+  name: good first issue
+  link: https://github.com/google/TensorNetwork/labels/good%20first%20issue

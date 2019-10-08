@@ -2,7 +2,7 @@ up-for-grabs.net
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 ================
 
-Do you run or participate in an open-source project? Submit a Pull Request to add it to the list!
+Do you run or participate in an open-source project? Submit a Pull Request to add it to the list! And contribute to the world
 
 Visit the website: [up-for-grabs.net](https://up-for-grabs.net/)
 

@@ -1,3 +1,4 @@
+---
 name: Job Requirements
 desc: Organized collection of job requirements needed for successful career in tech
 site: https://github.com/crystal-dawn/job-requirements
@@ -6,3 +7,6 @@ tags:
 upforgrabs:
   name: up for grabs
   link: https://github.com/crystal-dawn/job-requirements/labels/up%20for%20grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-10-07T10:25:24Z'

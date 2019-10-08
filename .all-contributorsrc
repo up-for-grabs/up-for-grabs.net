@@ -1,0 +1,50 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "filipe-gomes",
+      "name": "Filipe Magalhaes Gomes",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42053052?v=4",
+      "profile": "https://github.com/filipe-gomes",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "mkkhedawat",
+      "name": "Manish Kumar Khedawat",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5137374?v=4",
+      "profile": "https://mkkhedawat.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "SpaceEEC",
+      "name": "SpaceEEC",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24881032?v=4",
+      "profile": "https://github.com/SpaceEEC",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JoaoManoel",
+      "name": "João Manoel Lins",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6238111?v=4",
+      "profile": "http://www.joaomanoel.com.br",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "up-for-grabs.net",
+  "projectOwner": "up-for-grabs",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}

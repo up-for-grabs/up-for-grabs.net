@@ -9,7 +9,7 @@ tags:
 - rollercoasters
 - 2d
 upforgrabs:
-  name: Hacktoberfest
+  name: hacktoberfest
   link: https://github.com/OpenRCT2/OpenRCT2/labels/hacktoberfest
 stats:
   issue-count: 17

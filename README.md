@@ -26,8 +26,8 @@ tags:
 - *search*
 - *on*
 upforgrabs:
-  name: *the label associated with the up-for-grabs tasks -- e.g. "help needed" (without the quotes)*
-  link: *URL where users can view the tasks -- e.g. https://github.com/username/project/labels/up%20for%20grabs*
+  name: *the label associated with the up-for-grabs tasks* -- e.g. "help needed" (without the quotes)
+  link: *URL where users can view the tasks* -- e.g. "https://github.com/username/project/labels/up%20for%20grabs"
 ```
 
 Check out the [up-for-grabs](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml) file for an example of this project structure.

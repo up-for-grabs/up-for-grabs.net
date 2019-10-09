@@ -49,6 +49,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "TeslaAdis",
+      "name": "Adis Talic",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20220542?v=4",
+      "profile": "https://github.com/TeslaAdis",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -1,0 +1,13 @@
+name: Garbage Classifier
+desc: This project is an Iot + ML based smart dustbin built to classify Biodegradable and Non-Biodegradable waste.
+site: https://github.com/ShubhayanS/GarbageClassifier
+tags:
+- Python
+- Raspberry Pi
+- Android
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ShubhayanS/GarbageClassifier/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-10-07T17:48:54Z'

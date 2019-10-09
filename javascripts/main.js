@@ -16,7 +16,7 @@ define([
   var getFilterUrl = function() {
     return location.href.indexOf('/#/filters') > -1
       ? location.href
-      : `${location.href}${filters}`;
+      : `${location.href}filters`;
   };
 
   // inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better

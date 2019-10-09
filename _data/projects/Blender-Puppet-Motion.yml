@@ -1,0 +1,19 @@
+name: Blender Puppet Motion
+desc: "Small python addon for Blender that communicates with a  Unity client to use Leap Motion data to control pose bones in real time as a similar to posing a puppet"  
+site: https://github.com/DanAmador/Blender-Puppet-Motion
+tags: 
+  - blender
+  - blender-plugin
+  - blender-addon
+  - unity
+  - leap-motion
+  - unity3d
+  - websocket
+  - real-time
+  - computer-animation
+  - computer-vision
+  - python
+
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/DanAmador/Blender-Puppet-Motion/labels/good%20first%20issue

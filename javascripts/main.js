@@ -2,6 +2,7 @@
 
 define([
   'jquery',
+  'projectLoader',
   'projectsService',
   'fetchIssueCount',
   'underscore',
@@ -9,7 +10,7 @@ define([
   // chosen is listed here as a dependency because it's used from a jQuery
   // selector, and needs to be ready before this code runs
   'chosen',
-], ($, ProjectsService, fetchIssueCount, _, sammy) => {
+], ($, loadProjects, ProjectsService, fetchIssueCount, _, sammy) => {
   var compiledtemplateFn = null,
     projectsPanel = null;
 
@@ -289,13 +290,7 @@ define([
       window.location.href = '#/tags/' + tagsString;
     });
 
-    function promiseWrappedProjects() {
-      return new Promise(function(resolve) {
-        resolve(projects);
-      });
-    }
-
-    promiseWrappedProjects().then(function(p) {
+    loadProjects().then(function(p) {
       var projectsSvc = new ProjectsService(p);
 
       var app = sammy(function() {

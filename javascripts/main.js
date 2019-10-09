@@ -17,7 +17,7 @@ define([
   var getFilterUrl = function() {
     return location.href.indexOf('/#/filters') > -1
       ? location.href
-      : location.href + 'filters';
+      : `${location.href}filters`;
   };
 
   // inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better
@@ -32,22 +32,22 @@ define([
     var elapsed = current - previous;
 
     if (elapsed < msPerMinute) {
-      return Math.round(elapsed / 1000) + ' seconds ago';
+      return `${Math.round(elapsed / 1000)} seconds ago`;
     }
     if (elapsed < msPerHour) {
-      return Math.round(elapsed / msPerMinute) + ' minutes ago';
+      return `${Math.round(elapsed / msPerMinute)} minutes ago`;
     }
     if (elapsed < msPerDay) {
-      return Math.round(elapsed / msPerHour) + ' hours ago';
+      return `${Math.round(elapsed / msPerHour)} hours ago`;
     }
     if (elapsed < msPerMonth) {
-      return 'about ' + Math.round(elapsed / msPerDay) + ' days ago';
+      return `about ${Math.round(elapsed / msPerDay)} days ago`;
     }
     if (elapsed < msPerYear) {
-      return 'about ' + Math.round(elapsed / msPerMonth) + ' months ago';
+      return `about ${Math.round(elapsed / msPerMonth)} months ago`;
     }
 
-    return 'about ' + Math.round(elapsed / msPerYear) + ' years ago';
+    return `about ${Math.round(elapsed / msPerYear)} years ago`;
   }
 
   var renderProjects = function(projectService, tags, names, labels) {

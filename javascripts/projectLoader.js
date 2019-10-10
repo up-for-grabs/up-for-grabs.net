@@ -18,12 +18,10 @@ define(['showdown', 'whatwg-fetch', 'promise-polyfill'], (showdown) => {
       .then((files) => {
         const converter = new showdown.Converter();
 
-        return Object.keys(files).map((key) => {
-          return {
-            ...files[key],
-            desc: converter.makeHtml(files[key].desc)
-          };
-        });
+        return Object.keys(files).map((key) => ({
+          ...files[key],
+          desc: converter.makeHtml(files[key].desc)
+        }));
       })
       .catch((error) => {
         // eslint-disable-next-line no-console

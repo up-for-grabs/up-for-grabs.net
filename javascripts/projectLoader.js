@@ -19,9 +19,9 @@ define(['showdown', 'whatwg-fetch', 'promise-polyfill'], showdown => {
         const converter = new showdown.Converter(); 
 
         return Object.keys(files).map(key => {
-          return { 
+          return {
             ...files[key],
-            desc:  converter.makeHtml(files[key].desc)
+            desc: converter.makeHtml(files[key].desc)
           };
         });
       })

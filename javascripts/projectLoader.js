@@ -16,7 +16,7 @@ define(['showdown', 'whatwg-fetch', 'promise-polyfill'], (showdown) => {
     return fetch('/javascripts/projects.json')
       .then((response) => response.json())
       .then((files) => {
-        const converter = new showdown.Converter(); 
+        const converter = new showdown.Converter();
 
         return Object.keys(files).map((key) => {
           return {

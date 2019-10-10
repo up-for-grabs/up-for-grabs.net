@@ -1,0 +1,12 @@
+---
+name: JS Chat Application
+desc: Basic chatroom application developed using MEAN Stack
+site: https://github.com/tanmayvij/mean-chat-app
+tags:
+- javascript
+- chat
+- mongodb
+- nodejs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/tanmayvij/mean-chat-app/labels/upforgrabs

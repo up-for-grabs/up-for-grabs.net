@@ -1,0 +1,12 @@
+name: Getting_started_with_Kotlin
+desc: Kotlin Started from basics 
+site: https://github.com/PrajjawalBanati/Kotlin_Language
+tags:
+- kotlin
+- kotlin-language
+- kotlin-multiplatform
+- kotlin-android
+- kotlin-functional-programming
+upforgrabs:
+  name: help wanted
+  link: https://github.com/PrajjawalBanati/Kotlin_Language/labels/help%20wanted

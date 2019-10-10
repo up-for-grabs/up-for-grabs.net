@@ -3,10 +3,10 @@ desc: Kotlin Started from basics
 site: https://github.com/PrajjawalBanati/Kotlin_Language
 tags:
 - kotlin
-- kotlin_language
-- kotlin_multiplatform
-- kotlin_OOPs
-- kotlin_FP
+- kotlin-language
+- kotlin-multiplatform
+- kotlin-android
+- kotlin-functional-programming
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/PrajjawalBanati/Kotlin_Language/labels/help%20wanted

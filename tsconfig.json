@@ -11,6 +11,7 @@
   "include": [
     "javascripts/*.js"
   ],
+  // added - it's a test comment here
   "exclude": [
     "javascripts/libs/**/*.js"
   ]

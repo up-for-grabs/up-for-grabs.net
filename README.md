@@ -1,5 +1,5 @@
 up-for-grabs.net
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 ================
 
 Do you run or participate in an open-source project? Submit a Pull Request to add it to the list!
@@ -126,6 +126,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://ishan.co"><img src="https://avatars0.githubusercontent.com/u/1873271?v=4" width="100px;" alt="Ishan Sharma"/><br /><sub><b>Ishan Sharma</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=ishansharma" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/firfircelik"><img src="https://avatars0.githubusercontent.com/u/34511698?v=4" width="100px;" alt="Firat Celik"/><br /><sub><b>Firat Celik</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=firfircelik" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/phncosta"><img src="https://avatars0.githubusercontent.com/u/47827714?v=4" width="100px;" alt="Paulo H. Costa"/><br /><sub><b>Paulo H. Costa</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=phncosta" title="Documentation">📖</a></td>
   </tr>
 </table>
 

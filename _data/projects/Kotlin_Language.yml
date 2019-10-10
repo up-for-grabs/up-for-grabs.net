@@ -5,6 +5,8 @@ tags:
 - kotlin
 - kotlin language
 - kotlin multiplatform
+- kotlin OOPs
+- kotlin FP
 upforgrabs:
-name: up-for-grabs
-link: https://github.com/PrajjawalBanati/Kotlin_Language/issues
+  name: up-for-grabs
+  link: https://github.com/PrajjawalBanati/Kotlin_Language/labels/help%20wanted

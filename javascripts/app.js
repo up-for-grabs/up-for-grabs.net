@@ -11,7 +11,7 @@ requirejs.config({
     chosen: '//cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min',
     showdown: '//cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min',
     'promise-polyfill':
-      '//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min',
+      '//cdn.jsdelivr.net/npm/promise-polyfill@8.1.3/dist/polyfill.min',
     'whatwg-fetch': '//cdn.jsdelivr.net/npm/whatwg-fetch@3.0.0/dist/fetch.umd',
   },
   shim: {

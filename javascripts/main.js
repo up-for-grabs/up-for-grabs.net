@@ -126,7 +126,7 @@ define([
           selectedTag = preparePopTagName($(this).text() || '');
           if (selectedTag) {
             tagID = allTags
-              .map(tag => tag.name.toLowerCase())
+              .map((tag) => tag.name.toLowerCase())
               .indexOf(selectedTag);
             if (tagID !== -1) {
               selTags.push(selectedTag);
@@ -196,7 +196,7 @@ define([
     }
   });
   $(document).ready(() => {
-    $('#back2Top').click(event => {
+    $('#back2Top').click((event) => {
       event.preventDefault();
       $('html, body').animate({ scrollTop: 0 }, 'slow');
       return false;
@@ -239,10 +239,10 @@ define([
     const labelEncoded = gh[2];
 
     fetchIssueCount(ownerAndName, labelEncoded).then(
-      resultCount => {
+      (resultCount) => {
         count.html(resultCount);
       },
-      error => {
+      (error) => {
         const message = error.message ? error.message : error;
         count.html('?!');
         count.attr('title', message);
@@ -289,7 +289,7 @@ define([
       window.location.href = '#/tags/' + tagsString;
     });
 
-    loadProjects().then(p => {
+    loadProjects().then((p) => {
       var projectsSvc = new ProjectsService(p);
 
       var app = sammy(function() {

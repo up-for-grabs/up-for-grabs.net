@@ -14,7 +14,6 @@
     "no-underscore-dangle": "off",
     "no-return-assign": "off",
     "no-useless-escape": "off",
-    "object-shorthand": "off",
     "no-restricted-globals": "off",
     "no-use-before-define": "off",
     "consistent-return": "off",

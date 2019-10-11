@@ -59,7 +59,7 @@ define([
     projectsPanel.html(
       compiledtemplateFn({
         projects: projectService.get(tags, names, labels),
-        relativeTime: relativeTime,
+        relativeTime,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
         selectedTags: tags,

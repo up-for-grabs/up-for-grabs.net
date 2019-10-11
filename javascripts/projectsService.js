@@ -1,7 +1,7 @@
-/* eslint prefer-arrow-callback: [ "error" ] */
-/* eslint arrow-parens: [ "error", "as-needed" ] */
 /* eslint global-require: "off" */
 /* eslint block-scoped-var: "off" */
+/* eslint prefer-arrow-callback: [ "error" ] */
+/* eslint arrow-parens: [ "error", "as-needed" ] */
 
 // @ts-nocheck
 

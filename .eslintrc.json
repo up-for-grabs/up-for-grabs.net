@@ -5,7 +5,6 @@
     "no-undef": "off",
     "vars-on-top": "off",
     "no-var": "off",
-    "prefer-template": "off",
     "func-names": "off",
     "one-var": "off",
     "eqeqeq": "off",

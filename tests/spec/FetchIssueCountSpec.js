@@ -240,7 +240,7 @@ describe('fetchIssueCount', () => {
       stubRateLimitError(lastSundayInSeconds);
 
       const expectedError = new Error(
-        'GitHub rate limit met. Reset at ' + lastSunday.toLocaleTimeString()
+        `GitHub rate limit met. Reset at ${lastSunday.toLocaleTimeString()}`
       );
 
       await expect(fetchIssueCount('owner/repo', 'label')).rejects.toEqual(
@@ -311,7 +311,7 @@ describe('fetchIssueCount', () => {
       );
 
       const expectedError = new Error(
-        'Could not get issue count from GitHub: ' + message
+        `Could not get issue count from GitHub: ${message}`
       );
 
       await expect(fetchIssueCount('owner/repo', 'label')).rejects.toEqual(

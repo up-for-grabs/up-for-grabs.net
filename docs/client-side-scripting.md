@@ -5,7 +5,7 @@ found and run in the app.
 
 Why do this?
 
-- GitHub Pages does not support JS bundles natively, and will block any
+- GitHub Pages do not support JS bundles natively, and will block any
   third-party plugin that support bundling
 - By using the source JS directly without bundling, local development and
   debugging of the live site is significantly easier, especially for new

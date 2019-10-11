@@ -96,34 +96,34 @@ define(['underscore'], _ => {
    * @param Array labels : This is an array with the given label filters.
    */
   const applyLabelsFilter = function(projects, projectLabelsSorted, labels) {
-    label_indices = labels;
+    let labelIndices = labels;
 
     if (typeof labels === 'string') {
-      label_indices = labels.split(',');
+      labelIndices = labels.split(',');
     }
 
-    labels_indices = _.map(
+    labelIndices = _.map(
       labels,
       entry => entry && entry.replace(/^\s+|\s+$/g, '')
     );
 
     // fallback if labels doesnt exist
-    if (!label_indices || !label_indices.length || labels[0] == '') {
+    if (!labelIndices || !labelIndices.length || labels[0] == '') {
       return projects;
     }
 
     // get the corresponding label from projectLabelsSorted with the indices from earlier
     labels = _.filter(projectLabelsSorted, (entry, key) => {
-      if (label_indices.indexOf(String(key)) > -1) {
+      if (labelIndices.indexOf(String(key)) > -1) {
         return entry;
       }
     });
 
     // collect the names of all labels into a list
-    label_names = _.collect(labels, label => label.name);
+    const labelNames = _.collect(labels, label => label.name);
 
     // find all projects with the given labels via OR
-    results = _.map(label_names, name =>
+    results = _.map(labelNames, name =>
       _.filter(
         projects,
         project =>
@@ -213,9 +213,9 @@ define(['underscore'], _ => {
       }
     }
 
-    const all_projects = _.map(ordering, i => _projectsData.projects[i]);
+    const allProjects = _.map(ordering, i => _projectsData.projects[i]);
 
-    const projects = _.filter(all_projects, project =>
+    const projects = _.filter(allProjects, project =>
       project.stats ? project.stats['issue-count'] > 0 : true
     );
 
@@ -234,29 +234,29 @@ define(['underscore'], _ => {
     });
 
     this.get = function(tags, names, labels) {
-      let filtered_projects = projects;
+      let filteredProjects = projects;
       if (names && names.length) {
-        filtered_projects = applyNamesFilter(
-          filtered_projects,
+        filteredProjects = applyNamesFilter(
+          filteredProjects,
           this.getNames(),
           names
         );
       }
       if (labels && labels.length) {
-        filtered_projects = applyLabelsFilter(
-          filtered_projects,
+        filteredProjects = applyLabelsFilter(
+          filteredProjects,
           this.getLabels(),
           labels
         );
       }
       if (tags && tags.length) {
-        filtered_projects = applyTagsFilter(
-          filtered_projects,
+        filteredProjects = applyTagsFilter(
+          filteredProjects,
           this.getTags(),
           tags
         );
       }
-      return filtered_projects;
+      return filteredProjects;
     };
 
     this.getTags = function() {

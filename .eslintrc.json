@@ -9,7 +9,6 @@
     "func-names": "off",
     "one-var": "off",
     "eqeqeq": "off",
-    "camelcase": "off",
     "no-param-reassign": "off",
     "no-underscore-dangle": "off",
     "no-return-assign": "off",

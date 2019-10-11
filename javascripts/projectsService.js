@@ -2,6 +2,9 @@
 /* eslint block-scoped-var: "off" */
 /* eslint prefer-arrow-callback: [ "error" ] */
 /* eslint arrow-parens: [ "error", "as-needed" ] */
+/* eslint function-paren-newline: [ "off" ] */
+/* eslint implicit-arrow-linebreak: [ "off" ] */
+/* eslint no-confusing-arrow: [ "off" ] */
 
 // @ts-nocheck
 

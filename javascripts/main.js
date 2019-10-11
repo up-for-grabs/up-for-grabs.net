@@ -1,4 +1,6 @@
 // @ts-nocheck
+/* eslint prefer-arrow-callback: [ "error" ] */
+/* eslint arrow-parens: [ "error", "as-needed" ] */
 
 define([
   'jquery',
@@ -119,15 +121,13 @@ define([
     projectsPanel
       .find('ul.popular-tags')
       .children()
-      .each(function(i, elem) {
+      .each((i, elem) => {
         $(elem).on('click', function() {
           selTags = $('.tags-filter').val() || [];
           selectedTag = preparePopTagName($(this).text() || '');
           if (selectedTag) {
             tagID = allTags
-              .map(function(tag) {
-                return tag.name.toLowerCase();
-              })
+              .map(tag => tag.name.toLowerCase())
               .indexOf(selectedTag);
             if (tagID !== -1) {
               selTags.push(selectedTag);
@@ -188,7 +188,7 @@ define([
    * after navigating through a certain screen length
    * Also has corresponding fade-in and fade-out fetaure
    */
-  $(window).scroll(function() {
+  $(window).scroll(() => {
     var height = $(window).scrollTop();
     if (height > 100) {
       $('#back2Top').fadeIn();
@@ -196,8 +196,8 @@ define([
       $('#back2Top').fadeOut();
     }
   });
-  $(document).ready(function() {
-    $('#back2Top').click(function(event) {
+  $(document).ready(() => {
+    $('#back2Top').click(event => {
       event.preventDefault();
       $('html, body').animate({ scrollTop: 0 }, 'slow');
       return false;
@@ -240,10 +240,10 @@ define([
     const labelEncoded = gh[2];
 
     fetchIssueCount(ownerAndName, labelEncoded).then(
-      function(resultCount) {
+      resultCount => {
         count.html(resultCount);
       },
-      function(error) {
+      error => {
         const message = error.message ? error.message : error;
         count.html('?!');
         count.attr('title', message);
@@ -251,7 +251,7 @@ define([
     );
   };
 
-  $(function() {
+  $(() => {
     var $window = $(window),
       onScreen = function onScreen($elem) {
         var docViewTop = $window.scrollTop(),
@@ -264,7 +264,7 @@ define([
         );
       };
 
-    $window.on('scroll chosen:updated', function() {
+    $window.on('scroll chosen:updated', () => {
       $('.projects tbody:not(.counted)').each(function() {
         var project = $(this);
         if (onScreen(project)) {
@@ -290,7 +290,7 @@ define([
       window.location.href = '#/tags/' + tagsString;
     });
 
-    loadProjects().then(function(p) {
+    loadProjects().then(p => {
       var projectsSvc = new ProjectsService(p);
 
       var app = sammy(function() {
@@ -299,14 +299,14 @@ define([
          * It ensures to read values from the URI query param and perform actions
          * based on that. NOTE: It has major side effects on the browser.
          */
-        this.get(/\#\/filters/, function() {
+        this.get(/\#\/filters/, () => {
           var labels = prepareForHTML(getParameterByName('labels'));
           var names = prepareForHTML(getParameterByName('names'));
           var tags = prepareForHTML(getParameterByName('tags'));
           renderProjects(projectsSvc, tags, names, labels);
         });
 
-        this.get('/', function() {
+        this.get('/', () => {
           renderProjects(projectsSvc);
         });
       });

@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "check": "tsc",
+    "eslint-check": "eslint --print-config javascripts/main.js | eslint-config-prettier-check",
     "lint": "eslint javascripts/*.js tests/**/*.js",
     "lint-fix": "eslint --fix javascripts/*.js tests/**/*.js",
     "prettier": "prettier --check javascripts/*.js tests/**/*.js docs/**/*.md",
@@ -22,6 +23,7 @@
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-config-prettier": "6.4.0",
     "jest": "^24.9.0",
     "jest-fetch-mock": "^2.1.2",
     "jest-localstorage-mock": "^2.4.0",

@@ -25,19 +25,19 @@ function stubFetchResult(items, etag) {
   });
 }
 
-describe('fetchIssueCount', function() {
-  beforeEach(function() {
+describe('fetchIssueCount', () => {
+  beforeEach(() => {
     fetch.resetMocks();
     localStorage.clear();
   });
 
-  it('fetches the issue label URL of a GitHub project', function() {
+  it('fetches the issue label URL of a GitHub project', () => {
     const oneItem = [{}];
     stubFetchResult(oneItem);
     expect(fetchIssueCount('owner/repo', 'label')).resolves.toEqual(1);
   });
 
-  it('uses the last Link header value and infers the issue count', function() {
+  it('uses the last Link header value and infers the issue count', () => {
     const oneItem = [{}];
     fetch.mockResponseOnce(JSON.stringify(oneItem), {
       status: 200,
@@ -59,8 +59,8 @@ describe('fetchIssueCount', function() {
     );
   });
 
-  describe('local storage', function() {
-    it('can retrieve issue count from local storage for the project', function() {
+  describe('local storage', () => {
+    it('can retrieve issue count from local storage for the project', () => {
       const project = 'owner/project';
 
       const fourItems = [{}, {}, {}, {}];
@@ -68,7 +68,7 @@ describe('fetchIssueCount', function() {
 
       const promise = fetchIssueCount(project, 'label');
 
-      const cachedCount = promise.then(function() {
+      const cachedCount = promise.then(() => {
         const cached = localStorage.getItem(project);
         const obj = JSON.parse(cached);
         return obj.count;
@@ -77,7 +77,7 @@ describe('fetchIssueCount', function() {
       expect(cachedCount).resolves.toEqual(4);
     });
 
-    it('can retrieve ETag from local storage for the project', function() {
+    it('can retrieve ETag from local storage for the project', () => {
       const expectedEtag = 'bcd049ba79152d03380c34652f2cb612';
       stubFetchResult([], expectedEtag);
 
@@ -85,7 +85,7 @@ describe('fetchIssueCount', function() {
 
       const promise = fetchIssueCount(project, 'label');
 
-      const cachedEtag = promise.then(function() {
+      const cachedEtag = promise.then(() => {
         const cached = localStorage.getItem(project);
         const obj = JSON.parse(cached);
         return obj.etag;
@@ -94,13 +94,13 @@ describe('fetchIssueCount', function() {
       expect(cachedEtag).resolves.toEqual(expectedEtag);
     });
 
-    it('can read a timestamp from local storage for the project', function() {
+    it('can read a timestamp from local storage for the project', () => {
       stubFetchResult([]);
       const project = 'owner/project';
 
       const promise = fetchIssueCount(project, 'label');
 
-      const cachedDate = promise.then(function() {
+      const cachedDate = promise.then(() => {
         const cached = localStorage.getItem(project);
         const obj = JSON.parse(cached);
         return obj.date;
@@ -112,8 +112,8 @@ describe('fetchIssueCount', function() {
     });
   });
 
-  describe('caching', function() {
-    it('does not make API call if cache is valid', function() {
+  describe('caching', () => {
+    it('does not make API call if cache is valid', () => {
       const project = 'owner/project';
 
       const sixHoursAgo = new Date() - 1000 * 60 * 60 * 6;
@@ -132,7 +132,7 @@ describe('fetchIssueCount', function() {
       expect(fetch.mock.calls).toHaveLength(0);
     });
 
-    it('makes API call with etag if cache is considered expired', function() {
+    it('makes API call with etag if cache is considered expired', () => {
       const project = 'owner/project';
       const expectedEtag = 'def049ba79152d03380c34652f2cb612';
 
@@ -160,7 +160,7 @@ describe('fetchIssueCount', function() {
       );
     });
 
-    it('handles 304 Not Modified and returns cached value', function() {
+    it('handles 304 Not Modified and returns cached value', () => {
       const project = 'owner/project';
       const expectedEtag = 'b00049ba79152d03380c34652f2cb612';
 
@@ -189,7 +189,7 @@ describe('fetchIssueCount', function() {
       expect(promise).resolves.toBe(3);
     });
 
-    it('if 304 Not Modified is returned but nothing cached, returns zero', function() {
+    it('if 304 Not Modified is returned but nothing cached, returns zero', () => {
       const project = 'owner/project';
 
       // ignore the JSON in the API response if a 304 is found
@@ -206,7 +206,7 @@ describe('fetchIssueCount', function() {
       expect(promise).resolves.toBe(0);
     });
 
-    it('updates cache if a 200 is received', function() {
+    it('updates cache if a 200 is received', () => {
       const project = 'owner/project';
       const twoDaysAgo = new Date() - 2 * (1000 * 60 * 60 * 24);
 
@@ -223,7 +223,7 @@ describe('fetchIssueCount', function() {
 
       const promise = fetchIssueCount(project, 'label');
 
-      const cachedEtag = promise.then(function() {
+      const cachedEtag = promise.then(() => {
         const cached = localStorage.getItem(project);
         const obj = JSON.parse(cached);
         return obj.etag;
@@ -234,8 +234,8 @@ describe('fetchIssueCount', function() {
     });
   });
 
-  describe('error handling', function() {
-    it('handles rate-limiting response and returns an error', function() {
+  describe('error handling', () => {
+    it('handles rate-limiting response and returns an error', () => {
       const lastSundayInSeconds = 1561912503;
       const lastSunday = new Date(1000 * lastSundayInSeconds);
 
@@ -250,7 +250,7 @@ describe('fetchIssueCount', function() {
       );
     });
 
-    it('no further API calls made after rate-limiting', function(done) {
+    it('no further API calls made after rate-limiting', done => {
       const anHourFromNowInTicks = Date.now() + 1000 * 60 * 60;
       const anHourFromNow = new Date(anHourFromNowInTicks);
       const anHourFromNowInSeconds = Math.floor(anHourFromNow.getTime() / 1000);
@@ -269,7 +269,7 @@ describe('fetchIssueCount', function() {
         });
     });
 
-    it('rate-limit reset time is cleared eventually', function(done) {
+    it('rate-limit reset time is cleared eventually', done => {
       const RateLimitResetAtKey = 'Rate-Limit-Reset-At';
 
       const twoHoursAgoInTicks = Date.now() - 2 * 1000 * 60 * 60;
@@ -298,7 +298,7 @@ describe('fetchIssueCount', function() {
         });
     });
 
-    it('handles API error', function() {
+    it('handles API error', () => {
       const message = 'The repository could not be found on the server';
 
       fetch.mockResponseOnce(
@@ -321,7 +321,7 @@ describe('fetchIssueCount', function() {
       );
     });
 
-    it('handles generic error', function() {
+    it('handles generic error', () => {
       fetch.mockResponseOnce(JSON.stringify({}), {
         status: 404,
         headers: [['Content-Type', 'application/json']],

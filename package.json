@@ -8,8 +8,9 @@
   "scripts": {
     "check": "tsc",
     "lint": "eslint javascripts/*.js tests/**/*.js",
+    "lint-fix": "eslint --fix javascripts/*.js tests/**/*.js",
     "prettier": "prettier --check javascripts/*.js tests/**/*.js docs/**/*.md",
-    "prettify": "prettier --write javascripts/*.js tests/**/*.js docs/**/*.md",
+    "prettier-fix": "prettier --write javascripts/*.js tests/**/*.js docs/**/*.md",
     "test": "jest --config ./jest.config.js --verbose --coverage"
   },
   "dependencies": {

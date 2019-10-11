@@ -1,0 +1,19 @@
+---
+name: Exiv2
+desc: Image metadata library and tools
+site: https://github.com/Exiv2/exiv2
+tags:
+- c++
+- c++11
+- image
+- metadata
+- exif
+- iptc
+- xmp
+- cross-platform
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Exiv2/exiv2/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2019-10-12T00:35:00Z'

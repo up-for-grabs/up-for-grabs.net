@@ -1,3 +1,5 @@
+/* eslint prefer-arrow-callback: [ "error" ] */
+/* eslint arrow-parens: [ "error", "as-needed" ] */
 /* eslint global-require: "off" */
 /* eslint block-scoped-var: "off" */
 
@@ -8,29 +10,21 @@ if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
 
-define(['showdown', 'whatwg-fetch', 'promise-polyfill'], function(showdown) {
+define(['showdown', 'whatwg-fetch', 'promise-polyfill'], showdown => {
   const { fetch } = window;
 
   function loadProjects() {
     return fetch('/javascripts/projects.json')
-      .then(function(response) {
-        return response.json();
-      })
-      .then(function(files) {
-        const projects = [];
+      .then(response => response.json())
+      .then(files => {
         const converter = new showdown.Converter();
-        const keys = Object.keys(files);
 
-        for (let i = 0; i < keys.length; i++) {
-          const key = keys[i];
-          var project = files[key];
-          project.desc = converter.makeHtml(project.desc);
-          projects.push(project);
-        }
-
-        return projects;
+        return Object.keys(files).map(key => ({
+          ...files[key],
+          desc: converter.makeHtml(files[key].desc),
+        }));
       })
-      .catch(function(error) {
+      .catch(error => {
         // eslint-disable-next-line no-console
         console.error('Unable to load project files', error);
         return [];

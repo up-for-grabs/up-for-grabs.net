@@ -1,5 +1,10 @@
 /* eslint global-require: "off" */
 /* eslint block-scoped-var: "off" */
+/* eslint prefer-arrow-callback: [ "error" ] */
+/* eslint arrow-parens: [ "error", "as-needed" ] */
+/* eslint function-paren-newline: [ "off" ] */
+/* eslint implicit-arrow-linebreak: [ "off" ] */
+/* eslint no-confusing-arrow: [ "off" ] */
 
 // @ts-nocheck
 
@@ -8,15 +13,13 @@ if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
 
-define(['underscore'], function(_) {
+define(['underscore'], _ => {
   var applyTagsFilter = function(projects, tagsArray, tags) {
     if (typeof tags === 'string') {
       tags = tags.split(',');
     }
 
-    tags = _.map(tags, function(entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, '');
-    });
+    tags = _.map(tags, entry => entry && entry.replace(/^\s+|\s+$/g, ''));
 
     if (!tags || !tags.length || tags[0] == '') {
       return projects;
@@ -24,7 +27,7 @@ define(['underscore'], function(_) {
 
     var projectNames = _.uniq(
       _.flatten(
-        _.map(tags, function(tag) {
+        _.map(tags, tag => {
           // NOTE
           // tagsMap is currently an array of items when stored in memory and
           // used here, so the previous check which searched based on a prop was
@@ -42,9 +45,9 @@ define(['underscore'], function(_) {
       )
     );
 
-    return _.filter(projects, function(project) {
-      return _.contains(projectNames, project.name);
-    });
+    return _.filter(projects, project =>
+      _.contains(projectNames, project.name)
+    );
   };
 
   /*
@@ -62,9 +65,7 @@ define(['underscore'], function(_) {
       names = names.split(',');
     }
 
-    names = _.map(names, function(entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, '');
-    });
+    names = _.map(names, entry => entry && entry.replace(/^\s+|\s+$/g, ''));
 
     if (!names || !names.length || names[0] == '') {
       return projects;
@@ -72,14 +73,12 @@ define(['underscore'], function(_) {
 
     // Make sure the names are sorted first. Then return the found index in the passed names
     return _.filter(
-      _.map(projectNamesSorted, function(entry, key) {
+      _.map(projectNamesSorted, (entry, key) => {
         if (names.indexOf(String(key)) > -1) {
           return entry;
         }
       }),
-      function(entry) {
-        return entry || false;
-      }
+      entry => entry || false
     );
   };
 
@@ -100,9 +99,10 @@ define(['underscore'], function(_) {
       label_indices = labels.split(',');
     }
 
-    labels_indices = _.map(labels, function(entry) {
-      return entry && entry.replace(/^\s+|\s+$/g, '');
-    });
+    labels_indices = _.map(
+      labels,
+      entry => entry && entry.replace(/^\s+|\s+$/g, '')
+    );
 
     // fallback if labels doesnt exist
     if (!label_indices || !label_indices.length || labels[0] == '') {
@@ -110,30 +110,26 @@ define(['underscore'], function(_) {
     }
 
     // get the corresponding label from projectLabelsSorted with the indices from earlier
-    labels = _.filter(projectLabelsSorted, function(entry, key) {
+    labels = _.filter(projectLabelsSorted, (entry, key) => {
       if (label_indices.indexOf(String(key)) > -1) {
         return entry;
       }
     });
 
     // collect the names of all labels into a list
-    label_names = _.collect(labels, function(label) {
-      return label.name;
-    });
+    label_names = _.collect(labels, label => label.name);
 
     // find all projects with the given labels via OR
-    results = _.map(label_names, function(name) {
-      return _.filter(projects, function(project) {
-        return (
+    results = _.map(label_names, name =>
+      _.filter(
+        projects,
+        project =>
           String(project.upforgrabs.name).toLowerCase() === name.toLowerCase()
-        );
-      });
-    });
+      )
+    );
 
     // the above statements returns n arrays in an array, which we flatten here and return then
-    return _.flatten(results, function(arr1, arr2) {
-      return arr1.append(arr2);
-    });
+    return _.flatten(results, (arr1, arr2) => arr1.append(arr2));
   };
 
   var TagBuilder = function() {
@@ -160,20 +156,16 @@ define(['underscore'], function(_) {
         _orderedTagsMap ||
         _(_tagsMap)
           .chain()
-          .sortBy(function(tag, key) {
-            return key;
-          })
-          .sortBy(function(tag) {
-            return tag.frequency * -1;
-          })
+          .sortBy((tag, key) => key)
+          .sortBy(tag => tag.frequency * -1)
           .value());
     };
   };
 
   var extractTags = function(projectsData) {
     var tagBuilder = new TagBuilder();
-    _.each(projectsData, function(entry) {
-      _.each(entry.tags, function(tag) {
+    _.each(projectsData, entry => {
+      _.each(entry.tags, tag => {
         tagBuilder.addTag(tag, entry.name);
       });
     });
@@ -218,25 +210,23 @@ define(['underscore'], function(_) {
       }
     }
 
-    var all_projects = _.map(ordering, function(i) {
-      return _projectsData.projects[i];
-    });
+    var all_projects = _.map(ordering, i => _projectsData.projects[i]);
 
-    var projects = _.filter(all_projects, function(project) {
-      return project.stats ? project.stats['issue-count'] > 0 : true;
-    });
+    var projects = _.filter(all_projects, project =>
+      project.stats ? project.stats['issue-count'] > 0 : true
+    );
 
-    _.each(_projectsData.tags, function(tag) {
+    _.each(_projectsData.tags, tag => {
       tagsMap[tag.name.toLowerCase()] = tag;
     });
 
-    _.each(_projectsData.projects, function(project) {
+    _.each(_projectsData.projects, project => {
       if (project.name.toLowerCase) {
         namesMap[project.name.toLowerCase()] = project;
       }
     });
 
-    _.each(_projectsData.projects, function(project) {
+    _.each(_projectsData.projects, project => {
       labelsMap[project.upforgrabs.name.toLowerCase()] = project.upforgrabs;
     });
 
@@ -267,21 +257,15 @@ define(['underscore'], function(_) {
     };
 
     this.getTags = function() {
-      return _.sortBy(tagsMap, function(entry) {
-        return entry.name.toLowerCase();
-      });
+      return _.sortBy(tagsMap, entry => entry.name.toLowerCase());
     };
 
     this.getNames = function() {
-      return _.sortBy(namesMap, function(entry) {
-        return entry.name.toLowerCase();
-      });
+      return _.sortBy(namesMap, entry => entry.name.toLowerCase());
     };
 
     this.getLabels = function() {
-      return _.sortBy(labelsMap, function(entry) {
-        return entry.name.toLowerCase();
-      });
+      return _.sortBy(labelsMap, entry => entry.name.toLowerCase());
     };
 
     this.getPopularTags = function(popularTagCount) {

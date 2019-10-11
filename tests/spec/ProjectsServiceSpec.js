@@ -1,5 +1,3 @@
-/* eslint prefer-arrow-callback: [ "error" ] */
-
 const sampleProjects = require('../src/sampleProjects');
 const ProjectsService = require('../../javascripts/projectsService');
 

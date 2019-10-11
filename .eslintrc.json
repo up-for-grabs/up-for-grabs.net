@@ -7,7 +7,6 @@
     "no-var": "off",
     "prefer-template": "off",
     "func-names": "off",
-    "prefer-arrow-callback": "off",
     "one-var": "off",
     "operator-linebreak": "off",
     "eqeqeq": "off",

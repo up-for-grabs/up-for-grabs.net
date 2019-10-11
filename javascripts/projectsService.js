@@ -1,6 +1,7 @@
 /* eslint global-require: "off" */
 /* eslint block-scoped-var: "off" */
 
+/* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 /* eslint arrow-parens: [ "error", "as-needed" ] */
 /* eslint function-paren-newline: [ "off" ] */
 /* eslint implicit-arrow-linebreak: [ "off" ] */
@@ -148,7 +149,7 @@ define(['underscore'], _ => {
         };
       }
       const _entry = _tagsMap[tagLowerCase];
-      _entry.frequency++;
+      _entry.frequency += 1;
       _entry.projects.push(projectName);
     };
 

@@ -45,7 +45,9 @@ define(['underscore'], _ => {
       )
     );
 
-    return _.filter(projects, project => _.contains(projectNames, project.name));
+    return _.filter(projects, project =>
+      _.contains(projectNames, project.name)
+    );
   };
 
   /*
@@ -118,10 +120,13 @@ define(['underscore'], _ => {
     label_names = _.collect(labels, label => label.name);
 
     // find all projects with the given labels via OR
-    results = _.map(label_names, name => _.filter(
-      projects,
-      project => String(project.upforgrabs.name).toLowerCase() === name.toLowerCase()
-    ));
+    results = _.map(label_names, name =>
+      _.filter(
+        projects,
+        project =>
+          String(project.upforgrabs.name).toLowerCase() === name.toLowerCase()
+      )
+    );
 
     // the above statements returns n arrays in an array, which we flatten here and return then
     return _.flatten(results, (arr1, arr2) => arr1.append(arr2));
@@ -207,7 +212,9 @@ define(['underscore'], _ => {
 
     var all_projects = _.map(ordering, i => _projectsData.projects[i]);
 
-    var projects = _.filter(all_projects, project => (project.stats ? project.stats['issue-count'] > 0 : true));
+    var projects = _.filter(all_projects, project =>
+      project.stats ? project.stats['issue-count'] > 0 : true
+    );
 
     _.each(_projectsData.tags, tag => {
       tagsMap[tag.name.toLowerCase()] = tag;

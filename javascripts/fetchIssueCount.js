@@ -1,5 +1,9 @@
 /* eslint global-require: "off" */
 /* eslint block-scoped-var: "off" */
+/* eslint prefer-arrow-callback: [ "error" ] */
+/* eslint arrow-parens: [ "error", "as-needed" ] */
+/* eslint function-paren-newline: [ "off" ] */
+/* eslint implicit-arrow-linebreak: [ "off" ] */
 
 // @ts-nocheck
 
@@ -8,7 +12,7 @@ if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
 
-define(['whatwg-fetch', 'promise-polyfill'], function() {
+define(['whatwg-fetch', 'promise-polyfill'], () => {
   const { localStorage, fetch } = window;
 
   const RateLimitResetAtKey = 'Rate-Limit-Reset-At';
@@ -164,9 +168,9 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
       };
     }
 
-    return new Promise(function(resolve, reject) {
-      return fetch(apiURL, settings).then(
-        function(response) {
+    return new Promise((resolve, reject) =>
+      fetch(apiURL, settings).then(
+        response => {
           if (!response.ok) {
             if (response.status === 304) {
               // no content is returned in the 304 Not Modified response body
@@ -184,10 +188,10 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
             }
 
             response.json().then(
-              function(json) {
+              json => {
                 reject(inspectGenericError(json, response));
               },
-              function(error) {
+              error => {
                 reject(error);
               }
             );
@@ -219,7 +223,7 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
           }
 
           response.json().then(
-            function(json) {
+            json => {
               if (json && typeof json.length === 'number') {
                 const count = json.length;
                 setValue(ownerAndName, {
@@ -231,16 +235,16 @@ define(['whatwg-fetch', 'promise-polyfill'], function() {
                 resolve(count);
               }
             },
-            function(error) {
+            error => {
               reject(error);
             }
           );
         },
-        function(error) {
+        error => {
           reject(error);
         }
-      );
-    });
+      )
+    );
   }
 
   return fetchIssueCount;

@@ -7,7 +7,7 @@ desc: >-
   or services online.
 site: https://grandnode.com/
 tags:
-- dotnet
+- ".net"
 - c#
 - ecommerce
 - mongodb

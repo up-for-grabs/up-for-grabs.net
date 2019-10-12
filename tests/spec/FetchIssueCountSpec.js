@@ -52,9 +52,9 @@ describe('fetchIssueCount', () => {
     // given a page of API results = N (30 by default)
     // the count of results = 6 * N < 7 pages <= 7 * N
     // this should be represented as an upper bound of the results
-    await expect(fetchIssueCount('xunit/xunit', 'help%20wanted')).resolves.toEqual(
-      '180+'
-    );
+    await expect(
+      fetchIssueCount('xunit/xunit', 'help%20wanted')
+    ).resolves.toEqual('180+');
   });
 
   describe('local storage', () => {

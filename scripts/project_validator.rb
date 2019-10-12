@@ -47,7 +47,7 @@ class Project
     valid = schemer.valid?(yaml)
     unless valid
       raw_errors = schemer.validate(yaml).to_a
-      formatted_messages = raw_errors.map { |err| format_error (err) }
+      formatted_messages = raw_errors.map { |err| format_error err }
       errors.concat(formatted_messages)
     end
 
@@ -65,7 +65,7 @@ class Project
 
     if field.start_with?('/tags/')
       "Tag '#{value}' contains invalid characters. Allowed characters: a-z, 0-9, +, #, . or -"
-    elsif field.start_with?('/site') || field.start_with?("/upforgrabs/link")
+    elsif field.start_with?('/site') || field.start_with?('/upforgrabs/link')
       "Field '#{field}' expects a URL but instead found '#{value}'. Please check and update this value."
     elsif field.start_with?('/stats/last-updated')
       "Field '#{field}' expects date-time string but instead found '#{value}'. Please check and update this value."
@@ -73,7 +73,7 @@ class Project
       "Field '#{field}' expects a non-negative integer but instead found '#{value}'. Please check and update this value."
     elsif type == 'required'
       details = err.fetch('details')
-      keys = details["missing_keys"]
+      keys = details['missing_keys']
       "Required fields are missing from file: #{keys.join(', ')}. Please check the example on the README and add these values."
     else
       "Field '#{field}' with value '#{value}' failed to satisfy the rule '#{type}'. Check the value and try again."

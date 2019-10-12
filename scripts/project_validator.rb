@@ -47,10 +47,10 @@ class Project
     valid = schemer.valid?(yaml)
     unless valid
       raw_errors = schemer.validate(yaml).to_a
-      formatted_messages = raw_errors.map do |e|
-        field = e.fetch('data_pointer')
-        value = e.fetch('data')
-        type = e.fetch('type')
+      formatted_messages = raw_errors.map do |err|
+        field = err.fetch('data_pointer')
+        value = err.fetch('data')
+        type = err.fetch('type')
         "Field '#{field}' with value '#{value}' failed to satisfy the rule '#{type}'. Check the value and try again."
       end
       errors.concat(formatted_messages)

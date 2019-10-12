@@ -47,39 +47,14 @@ npm install -g generator-up-for-grabs
 yo up-for-grabs
 ```
 
-## Testing the Site Locally
+## Contributing
 
-If you haven't already, clone the repository to your machine:
+If you would like to get involved with the project, the [CONTRIBUTING.md](.github/CONTRIBUTING.md)
+file is worth reading, as it contains:
 
-```
-git clone https://github.com/up-for-grabs/up-for-grabs.net.git
-```
-
-If you have a fork of the repository, change `up-for-grabs` into your GitHub account named above.
-
-We recommend installing Ruby 2.6.x and Bundler 2.0.x to test the site - you can confirm these are present by running these commands:
-
-```
-$ ruby -v
-ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-darwin18]
-$ bundle -v
-Bundler version 2.0.2
-```
-
-If you're happy with that, run these commands in the directory where you cloned the up-for-grabs repository:
-
-```
-bundle install
-bundle exec jekyll serve
-```
-
-Alternatively, the application can be run in a [Docker](https://docker.com) container:
-
-```
-docker-compose up
-```
-
-Then open your browser to `localhost:4000` to view the site.
+ - instructions about getting your environment setup
+ - guidance for testing locally
+ - commands to run to verify changes
 
 ## How This All Works
 We use a few great features of Jekyll and GitHub Pages to host this entire site for free.

@@ -103,16 +103,6 @@ describe('ProjectsService', () => {
       });
     });
 
-    it.skip('should return shuffled projects list', () => {
-      const firstProject = sampleProjects[0];
-
-      const projects = projectsService.get();
-
-      // TODO: this test is dependent on sort order and may fail because the test
-      //       list of projects only contains two projects
-      expect(projects[0].name).not.toEqual(firstProject.name);
-    });
-
     describe('when get method is called with tags parameter as a string', () => {
       it('should return all projects associated with those tags', () => {
         const projects = projectsService.get('web');

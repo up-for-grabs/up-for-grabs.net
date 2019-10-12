@@ -34,9 +34,9 @@ v10.16.3
 There are two recommended ways to test the site locally, based on what OS you
 are currently using:
 
- - for macOS or Linux contributors - either approach is fine
- - for Windows contributors - Docker is recommended because Ruby on Windows has
-   some issues that need experience to properly workaround
+- for macOS or Linux contributors - either approach is fine
+- for Windows contributors - Docker is recommended because Ruby on Windows has
+  some issues that need experience to properly workaround
 
 ### Testing without Docker
 
@@ -62,9 +62,9 @@ Te site should be accessible in your browser at `localhost:4000`.
 contributors who don't want to install the tooling locally. Check the setup
 instructions for your OS for more information:
 
- - [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
- - [Docker for macOS](https://docs.docker.com/docker-for-mac/install/)
- - [Other platforms, including Linux distros](https://docs.docker.com/v17.12/install/)
+- [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
+- [Docker for macOS](https://docs.docker.com/docker-for-mac/install/)
+- [Other platforms, including Linux distros](https://docs.docker.com/v17.12/install/)
 
 Once you have that installed, use the `docker-compose` command to build and
 view the site:

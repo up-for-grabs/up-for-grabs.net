@@ -1,0 +1,91 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "Schema for the Up-For-Grabs project file",
+  "required": ["name", "desc", "site", "tags", "upforgrabs"],
+  "properties": {
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The name of the project",
+      "examples": ["My Cool Project"],
+      "pattern": "^(.*)$"
+    },
+    "desc": {
+      "$id": "#/properties/desc",
+      "type": "string",
+      "title": "A description to summarize the project",
+      "examples": [
+        "This is a neat project that does a really cool thing."
+      ]
+    },
+    "site": {
+      "$id": "#/properties/site",
+      "type": "string",
+      "title": "The URL to the main project site",
+      "examples": ["https://github.com/solr-express/solr-express"],
+      "format": "uri"
+    },
+    "tags": {
+      "$id": "#/properties/tags",
+      "type": "array",
+      "title": "A list of tags to help identify the project",
+      "items": {
+        "$id": "#/properties/tags/items",
+        "type": "string",
+        "title": "A tag entry",
+        "examples": ["solr", "c#", ".net-framework", ".net-core"],
+        "pattern": "^([a-z0-9+#.-]*)$"
+      }
+    },
+    "upforgrabs": {
+      "$id": "#/properties/upforgrabs",
+      "type": "object",
+      "title": "The schema for the original UpForGrabs project information",
+      "required": ["name", "link"],
+      "properties": {
+        "name": {
+          "$id": "#/properties/upforgrabs/properties/name",
+          "type": "string",
+          "title": "The name of the label used by the project",
+          "examples": ["up for grabs"],
+          "pattern": "^(.*)$"
+        },
+        "link": {
+          "$id": "#/properties/upforgrabs/properties/link",
+          "type": "string",
+          "title": "A URL to the list of issues that are ideal for new contributors",
+          "examples": [
+            "https://github.com/solr-express/solr-express/labels/up%20for%20grabs"
+          ],
+          "format": "uri"
+        }
+      }
+    },
+    "stats": {
+      "$id": "#/properties/stats",
+      "type": "object",
+      "title": "Statistics for the current project",
+      "default": null,
+      "required": ["issue-count", "last-updated"],
+      "properties": {
+        "issue-count": {
+          "$id": "#/properties/stats/properties/issue-count",
+          "type": "integer",
+          "title": "The Issue-count Schema",
+          "default": 0,
+          "minimum": 0
+        },
+        "last-updated": {
+          "$id": "#/properties/stats/properties/last-updated",
+          "type": "string",
+          "title": "The Last-updated Schema",
+          "default": "",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

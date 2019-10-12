@@ -10,34 +10,7 @@ class Project
     @full_path = full_path
   end
 
-  def self.valid_url?(url)
-    uri = URI.parse(url)
-    uri.is_a?(URI::HTTP) || uri.is_a?(URI::HTTPS)
-  rescue URI::InvalidURIError
-    false
-  end
-
-  def validate_tag_list(taglist)
-    result = ''
-
-    taglist.each do |tag|
-      result += "Tag '#{tag}' contains uppercase characters\n" if tag =~ /[A-Z]/
-      result += "Tag '#{tag}' contains spaces or '_' (should use '-' instead)\n" if tag =~ /[\s_]/
-      result += verify_preferred_tag(tag)
-    end
-
-    return 'Tag verification failed - ' + result if result != ''
-
-    result
-  end
-
-  def verify_preferred_tag(tag)
-    return "Use '#{PREFERENCES[tag]}' instead of #{tag}\n" unless PREFERENCES[tag].nil?
-
-    ''
-  end
-
-  def validation_errors
+  def validation_errors(schemer)
     errors = []
 
     begin
@@ -51,14 +24,41 @@ class Project
     # don't continue if there was a problem parsing
     return errors if errors.any?
 
-    errors.concat(validate_summary(yaml))
+    valid = schemer.valid?(yaml)
+    unless valid
+      raw_errors = schemer.validate(yaml).to_a
+      formatted_messages = raw_errors.map { |err| format_error err }
+      errors.concat(formatted_messages)
+    end
+
     errors.concat(validate_tags(yaml))
-    errors.concat(validate_upforgrabs(yaml))
 
     errors
   end
 
   private
+
+  def format_error(err)
+    field = err.fetch('data_pointer')
+    value = err.fetch('data')
+    type = err.fetch('type')
+
+    if field.start_with?('/tags/')
+      "Tag '#{value}' contains invalid characters. Allowed characters: a-z, 0-9, +, #, . or -"
+    elsif field.start_with?('/site') || field.start_with?('/upforgrabs/link')
+      "Field '#{field}' expects a URL but instead found '#{value}'. Please check and update this value."
+    elsif field.start_with?('/stats/last-updated')
+      "Field '#{field}' expects date-time string but instead found '#{value}'. Please check and update this value."
+    elsif field.start_with?('/stats/issue-count')
+      "Field '#{field}' expects a non-negative integer but instead found '#{value}'. Please check and update this value."
+    elsif type == 'required'
+      details = err.fetch('details')
+      keys = details['missing_keys']
+      "Required fields are missing from file: #{keys.join(', ')}. Please check the example on the README and add these values."
+    else
+      "Field '#{field}' with value '#{value}' failed to satisfy the rule '#{type}'. Check the value and try again."
+    end
+  end
 
   # preference is a map of [bad tag]: [preferred tag]
   PREFERENCES = {
@@ -77,6 +77,7 @@ class Project
     'commandline' => 'command-line',
     'csharp' => 'c#',
     'docs' => 'documentation',
+    'dotnet' => '.net',
     'dotnet-core' => '.net core',
     'encrypt' => 'encryption',
     'fsharp' => 'f#',
@@ -93,16 +94,14 @@ class Project
     'react' => 'reactjs'
   }.freeze
 
-  def validate_summary(yaml)
+  def validate_preferred_tags(tags)
     errors = []
 
-    errors << "Required 'name' attribute is not defined" if yaml['name'].nil?
+    tags.each do |tag|
+      preferred_tag = PREFERENCES[tag]
 
-    errors << "Required 'site' attribute is not defined" if yaml['site'].nil?
-
-    errors << "Required 'site' attribute to be a valid url" unless Project.valid_url?(yaml['site'])
-
-    errors << "Required 'desc' attribute is not defined" if yaml['desc'].nil?
+      errors << "Rename tag '#{tag}' to be'#{preferred_tag}'" if preferred_tag
+    end
 
     errors
   end
@@ -114,31 +113,11 @@ class Project
 
     errors << 'No tags defined for file' if tags.nil? || tags.empty?
 
-    tags_validation_errors = validate_tag_list(tags)
-
-    errors = errors.append(tags_validation_errors) unless tags_validation_errors.empty?
+    errors.concat(validate_preferred_tags(tags))
 
     dups = tags.group_by { |t| t }.keep_if { |_, t| t.length > 1 }
 
     errors << "Duplicate tags found: #{dups.keys.join ', '}" if dups.any?
-
-    errors
-  end
-
-  def validate_upforgrabs(yaml)
-    errors = []
-
-    # validating the current schema
-    errors << "Required 'upforgrabs' attribute is not defined" if yaml['upforgrabs'].nil?
-
-    # bail out early if not found
-    return errors if yaml['upforgrabs'].nil?
-
-    errors << "Required 'upforgrabs.name' attribute is not defined" if yaml['upforgrabs']['name'].nil?
-
-    errors << "Required 'upforgrabs.link' attribute is not defined" if yaml['upforgrabs']['link'].nil?
-
-    errors << "Required 'upforgrabs.link' attribute to be a valid url" unless Project.valid_url?(yaml['upforgrabs']['link'])
 
     errors
   end

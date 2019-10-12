@@ -71,6 +71,10 @@ class Project
       "Field '#{field}' expects date-time string but instead found '#{value}'. Please check and update this value."
     elsif field.start_with?('/stats/issue-count')
       "Field '#{field}' expects a non-negative integer but instead found '#{value}'. Please check and update this value."
+    elsif type == 'required'
+      details = err.fetch('details')
+      keys = details["missing_keys"]
+      "Required fields are missing from file: #{keys.join(', ')}. Please check the example on the README and add these values."
     else
       "Field '#{field}' with value '#{value}' failed to satisfy the rule '#{type}'. Check the value and try again."
     end

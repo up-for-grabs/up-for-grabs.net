@@ -1,7 +1,8 @@
 # Contributing to Up for Grabs
 
-This guide will help you get setup and outline ways you can get involved with
-the project.
+This guide will help you get setup so you can make changes to the project, view
+them locally and verify that the site will deploy correctly when opening a pull
+request.
 
 ## Project Setup
 

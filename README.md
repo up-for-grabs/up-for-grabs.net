@@ -49,8 +49,8 @@ yo up-for-grabs
 
 ## Contributing
 
-If you would like to get involved with the project, the [CONTRIBUTING.md](.github/CONTRIBUTING.md)
-file is worth reading, as it contains:
+If you would like to get involved with the project, please read the
+[CONTRIBUTING.md](.github/CONTRIBUTING.md) file as it contains:
 
  - instructions about getting your environment setup
  - guidance for testing locally

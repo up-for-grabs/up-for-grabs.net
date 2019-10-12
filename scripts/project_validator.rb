@@ -10,26 +10,6 @@ class Project
     @full_path = full_path
   end
 
-  def validate_tag_list(taglist)
-    result = ''
-
-    taglist.each do |tag|
-      result += "Tag '#{tag}' contains uppercase characters\n" if tag =~ /[A-Z]/
-      result += "Tag '#{tag}' contains spaces or '_' (should use '-' instead)\n" if tag =~ /[\s_]/
-      result += verify_preferred_tag(tag)
-    end
-
-    return 'Tag verification failed - ' + result if result != ''
-
-    result
-  end
-
-  def verify_preferred_tag(tag)
-    return "Use '#{PREFERENCES[tag]}' instead of #{tag}\n" unless PREFERENCES[tag].nil?
-
-    ''
-  end
-
   def validation_errors(schemer)
     errors = []
 
@@ -113,6 +93,20 @@ class Project
     'react' => 'reactjs'
   }.freeze
 
+  def validate_preferred_tags(tags)
+    errors = []
+
+    tags.each do |tag|
+      preferred_tag = PREFERENCES[tag]
+
+      if preferred_tag
+        errors << "Rename tag '#{tag}' to be'#{preferred_tag}'"
+      end
+    end
+
+    errors
+  end
+
   def validate_tags(yaml)
     errors = []
 
@@ -120,9 +114,7 @@ class Project
 
     errors << 'No tags defined for file' if tags.nil? || tags.empty?
 
-    tags_validation_errors = validate_tag_list(tags)
-
-    errors = errors.append(tags_validation_errors) unless tags_validation_errors.empty?
+    errors.concat(validate_preferred_tags(tags))
 
     dups = tags.group_by { |t| t }.keep_if { |_, t| t.length > 1 }
 

@@ -77,6 +77,7 @@ class Project
     'commandline' => 'command-line',
     'csharp' => 'c#',
     'docs' => 'documentation',
+    'dotnet' => '.net',
     'dotnet-core' => '.net core',
     'encrypt' => 'encryption',
     'fsharp' => 'f#',

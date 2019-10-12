@@ -81,12 +81,13 @@ the site.
 
 We have a suite of additional tooling that can be run to verify the contents of
 the repository. These are run as part of any pull request or build on GitHub,
-so it is recommended to run these locally before pushing changes.
+and it is recommended to run these locally before pushing changes to save time
+with reviews.
 
 ### Validate Project Listings
 
-This script scans all the projects under `_data/projects` to verify they can be
-parsed correctly, and have the expected fields.
+This script scans all the data files under `_data/projects` to verify they can be
+parsed correctly, and have the expected schema defined.
 
 ```
 $ ruby scripts/cibuild.rb

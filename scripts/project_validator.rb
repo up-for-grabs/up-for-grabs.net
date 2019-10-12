@@ -100,9 +100,7 @@ class Project
     tags.each do |tag|
       preferred_tag = PREFERENCES[tag]
 
-      if preferred_tag
-        errors << "Rename tag '#{tag}' to be'#{preferred_tag}'"
-      end
+      errors << "Rename tag '#{tag}' to be'#{preferred_tag}'" if preferred_tag
     end
 
     errors

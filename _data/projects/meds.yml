@@ -1,0 +1,12 @@
+name: *Emeds*
+desc: *A mechanism for prescribing drugs in the hospital and locating the drugs and/or it's substitutes in the nearest store of the area or location*
+site: *https://github.com/sukhatmegaurav/emeds_website*
+tags:
+# Note: these are tags categorizing the project, not issue labels.
+- *Healthcare*
+- *hackathon*
+- *navigation*
+- *digitization*
+upforgrabs:
+  name: *any suggestion to make it more efficient* 
+  link: *https://github.com/sukhatmegaurav/emeds_website* 

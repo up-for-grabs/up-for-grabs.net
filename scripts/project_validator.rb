@@ -47,23 +47,7 @@ class Project
     valid = schemer.valid?(yaml)
     unless valid
       raw_errors = schemer.validate(yaml).to_a
-      formatted_messages = raw_errors.map do |err|
-        field = err.fetch('data_pointer')
-        value = err.fetch('data')
-        type = err.fetch('type')
-
-        if field.start_with?('/tags/')
-          "Tag '#{value}' contains invalid characters. Allowed characters: a-z, 0-9, +, #, . or -"
-        elsif field.start_with?('/site') || field.start_with?("/upforgrabs/link")
-          "Field '#{field}' expects a URL but instead found '#{value}'. Please check and update this value."
-        elsif field.start_with?('/stats/last-updated')
-          "Field '#{field}' expects date-time string but instead found '#{value}'. Please check and update this value."
-        elsif field.start_with?('/stats/issue-count')
-          "Field '#{field}' expects a non-negative integer but instead found '#{value}'. Please check and update this value."
-        else
-          "Field '#{field}' with value '#{value}' failed to satisfy the rule '#{type}'. Check the value and try again."
-        end
-      end
+      formatted_messages = raw_errors.map { |err| format_error (err) }
       errors.concat(formatted_messages)
     end
 
@@ -73,6 +57,24 @@ class Project
   end
 
   private
+
+  def format_error(err)
+    field = err.fetch('data_pointer')
+    value = err.fetch('data')
+    type = err.fetch('type')
+
+    if field.start_with?('/tags/')
+      "Tag '#{value}' contains invalid characters. Allowed characters: a-z, 0-9, +, #, . or -"
+    elsif field.start_with?('/site') || field.start_with?("/upforgrabs/link")
+      "Field '#{field}' expects a URL but instead found '#{value}'. Please check and update this value."
+    elsif field.start_with?('/stats/last-updated')
+      "Field '#{field}' expects date-time string but instead found '#{value}'. Please check and update this value."
+    elsif field.start_with?('/stats/issue-count')
+      "Field '#{field}' expects a non-negative integer but instead found '#{value}'. Please check and update this value."
+    else
+      "Field '#{field}' with value '#{value}' failed to satisfy the rule '#{type}'. Check the value and try again."
+    end
+  end
 
   # preference is a map of [bad tag]: [preferred tag]
   PREFERENCES = {

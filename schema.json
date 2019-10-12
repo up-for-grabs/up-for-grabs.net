@@ -31,11 +31,11 @@
     "tags": {
       "$id": "#/properties/tags",
       "type": "array",
-      "title": "The Tags Schema",
+      "title": "A list of tags to help identify the project",
       "items": {
         "$id": "#/properties/tags/items",
         "type": "string",
-        "title": "The Items Schema",
+        "title": "A tag entry",
         "examples": ["solr", "c#", ".net-framework", ".net-core"],
         "pattern": "^([a-z0-9+#.-]*)$"
       }
@@ -43,20 +43,20 @@
     "upforgrabs": {
       "$id": "#/properties/upforgrabs",
       "type": "object",
-      "title": "The Upforgrabs Schema",
+      "title": "The schema for the original UpForGrabs project information",
       "required": ["name", "link"],
       "properties": {
         "name": {
           "$id": "#/properties/upforgrabs/properties/name",
           "type": "string",
-          "title": "The Name Schema",
+          "title": "The name of the label used by the project",
           "examples": ["up for grabs"],
           "pattern": "^(.*)$"
         },
         "link": {
           "$id": "#/properties/upforgrabs/properties/link",
           "type": "string",
-          "title": "The Link Schema",
+          "title": "A URL to the list of issues that are ideal for new contributors",
           "examples": [
             "https://github.com/solr-express/solr-express/labels/up%20for%20grabs"
           ],

@@ -10,13 +10,6 @@ class Project
     @full_path = full_path
   end
 
-  def self.valid_url?(url)
-    uri = URI.parse(url)
-    uri.is_a?(URI::HTTP) || uri.is_a?(URI::HTTPS)
-  rescue URI::InvalidURIError
-    false
-  end
-
   def validate_tag_list(taglist)
     result = ''
 

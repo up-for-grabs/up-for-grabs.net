@@ -37,7 +37,7 @@ class Project
     ''
   end
 
-  def validation_errors
+  def validation_errors(schemer)
     errors = []
 
     begin
@@ -50,6 +50,18 @@ class Project
 
     # don't continue if there was a problem parsing
     return errors if errors.any?
+
+    valid = schemer.valid?(yaml)
+    unless valid
+      raw_errors = schemer.validate(yaml).to_a
+      formatted_messages = raw_errors.map do |e|
+        field = e.fetch('data_pointer')
+        value = e.fetch('data')
+        type = e.fetch('type')
+        "Field '#{field}' with value '#{value}' failed to satisfy the rule '#{type}'. Check the value and try again."
+      end
+      errors.concat(formatted_messages)
+    end
 
     errors.concat(validate_summary(yaml))
     errors.concat(validate_tags(yaml))

@@ -4,6 +4,8 @@ require 'safe_yaml'
 require 'uri'
 require 'pathname'
 require 'find'
+require 'json_schemer'
+
 require_relative 'project_validator.rb'
 
 def check_folder(root)
@@ -42,8 +44,11 @@ end
 projects_with_errors = []
 projects_without_issues = []
 
+schema = Pathname.new("#{root}/schema.json")
+schemer = JSONSchemer.schema(schema)
+
 projects.each do |p|
-  validation_errors = p.validation_errors
+  validation_errors = p.validation_errors(schemer)
   if validation_errors.empty?
     projects_without_issues << [p, nil]
   else

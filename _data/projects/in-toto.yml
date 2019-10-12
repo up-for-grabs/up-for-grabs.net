@@ -6,7 +6,8 @@ tags:
 - python
 - security
 - software-supply-chain
-- ci/cd
+- continuous-integration
+- continuous-delivery
 upforgrabs:
   name: Up for grabs
   link: https://github.com/in-toto/in-toto/labels/Up%20for%20grabs

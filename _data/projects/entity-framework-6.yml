@@ -9,9 +9,9 @@ tags:
 - ef
 - database
 - data
-- o/rm
+- object-relational-mapper
 - ado.net
-- entityframework
+- entity-framework
 upforgrabs:
   name: good first issue
   link: https://github.com/aspnet/EntityFramework6/labels/good%20first%20issue

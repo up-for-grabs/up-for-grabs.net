@@ -63,9 +63,7 @@ class Project
       errors.concat(formatted_messages)
     end
 
-    errors.concat(validate_summary(yaml))
     errors.concat(validate_tags(yaml))
-    errors.concat(validate_upforgrabs(yaml))
 
     errors
   end
@@ -105,20 +103,6 @@ class Project
     'react' => 'reactjs'
   }.freeze
 
-  def validate_summary(yaml)
-    errors = []
-
-    errors << "Required 'name' attribute is not defined" if yaml['name'].nil?
-
-    errors << "Required 'site' attribute is not defined" if yaml['site'].nil?
-
-    errors << "Required 'site' attribute to be a valid url" unless Project.valid_url?(yaml['site'])
-
-    errors << "Required 'desc' attribute is not defined" if yaml['desc'].nil?
-
-    errors
-  end
-
   def validate_tags(yaml)
     errors = []
 
@@ -133,24 +117,6 @@ class Project
     dups = tags.group_by { |t| t }.keep_if { |_, t| t.length > 1 }
 
     errors << "Duplicate tags found: #{dups.keys.join ', '}" if dups.any?
-
-    errors
-  end
-
-  def validate_upforgrabs(yaml)
-    errors = []
-
-    # validating the current schema
-    errors << "Required 'upforgrabs' attribute is not defined" if yaml['upforgrabs'].nil?
-
-    # bail out early if not found
-    return errors if yaml['upforgrabs'].nil?
-
-    errors << "Required 'upforgrabs.name' attribute is not defined" if yaml['upforgrabs']['name'].nil?
-
-    errors << "Required 'upforgrabs.link' attribute is not defined" if yaml['upforgrabs']['link'].nil?
-
-    errors << "Required 'upforgrabs.link' attribute to be a valid url" unless Project.valid_url?(yaml['upforgrabs']['link'])
 
     errors
   end

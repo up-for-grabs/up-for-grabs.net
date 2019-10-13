@@ -1,0 +1,16 @@
+name: Validate Site New
+
+on: [pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ./.github/actions/all/sitevalidator.Dockerfile
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        APPLY_CHANGES: 1
+

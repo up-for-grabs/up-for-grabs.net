@@ -1,15 +1,13 @@
 {
-  "extends": "airbnb-base",
+  "plugins": [ "import", "jest" ],
+  "extends": [ "airbnb-base", "prettier", "plugin:jest/recommended"],
   "rules": {
     "space-before-function-paren": "off",
-    "comma-dangle": ["error", "only-multiline"],
-    "quotes": ["error", "single"],
     "no-undef": "off",
     "vars-on-top": "off",
     "no-var": "off",
     "prefer-template": "off",
     "func-names": "off",
-    "prefer-arrow-callback": "off",
     "one-var": "off",
     "operator-linebreak": "off",
     "eqeqeq": "off",

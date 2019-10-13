@@ -1,21 +1,21 @@
 const sampleProjects = require('../src/sampleProjects');
 const ProjectsService = require('../../javascripts/projectsService');
 
-describe('ProjectsService', function() {
-  describe('simple project list', function() {
+describe('ProjectsService', () => {
+  describe('simple project list', () => {
     let projectsService;
 
-    beforeEach(function() {
+    beforeEach(() => {
       projectsService = new ProjectsService(sampleProjects);
     });
 
-    describe('get', function() {
-      it('returns expected project count', function() {
+    describe('get', () => {
+      it('returns expected project count', () => {
         expect(projectsService.get()).toHaveLength(2);
       });
 
-      describe('filtering', function() {
-        it('??? happens when number provided as a name', function() {
+      describe('filtering', () => {
+        it('??? happens when number provided as a name', () => {
           const tags = null;
           const names = ['1'];
           const project = projectsService.get(tags, names);
@@ -25,41 +25,41 @@ describe('ProjectsService', function() {
           expect(project[1]).toBe(undefined);
         });
 
-        it('all projects returned when given falsy values', function() {
+        it('all projects returned when given falsy values', () => {
           const projects = projectsService.get(null, true, undefined);
 
           expect(projects).toHaveLength(2);
 
-          const projectNames = projects.map(function(p) {
+          const projectNames = projects.map(p => {
             return p.name;
           });
           expect(projectNames).toContain('Glimpse');
           expect(projectNames).toContain('LibGit2Sharp');
         });
 
-        it('returns single project when providing array of tags', function() {
+        it('returns single project when providing array of tags', () => {
           const projects = projectsService.get(['web']);
           expect(projects).toHaveLength(1);
         });
 
-        it('array of tags searched using case-insensitve comparison', function() {
+        it('array of tags searched using case-insensitve comparison', () => {
           const projects = projectsService.get(['WEB']);
           expect(projects).toHaveLength(1);
         });
 
-        it('array of non-matching tags returns no projects', function() {
+        it('array of non-matching tags returns no projects', () => {
           const projects = projectsService.get(['oops']);
           expect(projects).toHaveLength(0);
         });
       });
     });
 
-    describe('getTags', function() {
-      it('returns collection of parsed tags', function() {
+    describe('getTags', () => {
+      it('returns collection of parsed tags', () => {
         expect(projectsService.getTags()).toHaveLength(15);
       });
 
-      it('includes projects assigned each tag', function() {
+      it('includes projects assigned each tag', () => {
         const tags = projectsService.getTags();
         expect(tags).toContainEqual({
           name: 'API',
@@ -79,12 +79,12 @@ describe('ProjectsService', function() {
       });
     });
 
-    describe('getPopularTags', function() {
-      it('returns 10 tags by default', function() {
+    describe('getPopularTags', () => {
+      it('returns 10 tags by default', () => {
         expect(projectsService.getPopularTags()).toHaveLength(10);
       });
 
-      it('returns requested number if specified', function() {
+      it('returns requested number if specified', () => {
         const tags = projectsService.getPopularTags(1);
         expect(tags).toContainEqual({
           name: 'C#',
@@ -93,72 +93,62 @@ describe('ProjectsService', function() {
         });
       });
 
-      it('returns expected top tag', function() {
+      it('returns expected top tag', () => {
         expect(projectsService.getPopularTags(1)).toHaveLength(1);
       });
 
-      it('cannot return more than the total tags available', function() {
+      it('cannot return more than the total tags available', () => {
         const tags = projectsService.getTags();
         expect(projectsService.getPopularTags(99)).toHaveLength(tags.length);
       });
     });
 
-    it.skip('should return shuffled projects list', function() {
-      const firstProject = sampleProjects[0];
-
-      const projects = projectsService.get();
-
-      // TODO: this test is dependent on sort order and may fail because the test
-      //       list of projects only contains two projects
-      expect(projects[0].name).not.toEqual(firstProject.name);
-    });
-
-    describe('when get method is called with tags parameter as a string', function() {
-      it('should return all projects associated with those tags', function() {
+    describe('when get method is called with tags parameter as a string', () => {
+      it('should return all projects associated with those tags', () => {
         const projects = projectsService.get('web');
         expect(projects.length).toBe(1);
       });
 
-      it('should match the tags after trimming leading and trailing spaces', function() {
+      it('should match the tags after trimming leading and trailing spaces', () => {
         const projects = projectsService.get(' web ');
         expect(projects.length).toBe(1);
       });
     });
 
-    describe('when get method is called with tags array containing both matching and non matching tags', function() {
-      it('should return projects for the matching tags and ignore non matching tag', function() {
+    describe('when get method is called with tags array containing both matching and non matching tags', () => {
+      it('should return projects for the matching tags and ignore non matching tag', () => {
         const projects = projectsService.get(['c#', 'Oops']);
         expect(projects.length).toBe(2);
       });
     });
 
-    describe('Expect multiple filters to work tremendously good', function() {
-      it('If it does not take any filters then it should return projects', function() {
+    describe('Expect multiple filters to work tremendously good', () => {
+      it('If it does not take any filters then it should return projects', () => {
         const projects = projectsService.get(undefined, undefined, undefined);
         expect(projects.length).toBe(2);
       });
 
-      it('Should take a name filter and tag filter with no issues', function() {
+      it('Should take a name filter and tag filter with no issues', () => {
         const projects = projectsService.get(['c#'], ['0'], undefined);
         expect(projects.length).toBe(1);
       });
 
-      it('Should take a name filter and wrong tag filter and expect nothing', function() {
+      it('Should take a name filter and wrong tag filter and expect nothing', () => {
         const projects = projectsService.get(['web'], ['1'], undefined);
         expect(projects.length).toBe(0);
       });
 
-      it('Should take a name filter and label filter with no issues', function() {
+      it('Should take a name filter and label filter with no issues', () => {
         const projects = projectsService.get(undefined, ['1'], ['1']);
         expect(projects.length).toBe(1);
       });
 
-      it('Should take a tag filter and label filter with no issues', function() {
+      it('Should take a tag filter and label filter with no issues', () => {
         const projects = projectsService.get(['c#'], undefined, ['1']);
         expect(projects.length).toBe(1);
       });
 
-      it('Should take all three filters and return a project', function() {
+      it('Should take all three filters and return a project', () => {
         const projects = projectsService.get(['c#'], ['1'], ['1']);
         expect(projects.length).toBe(1);
       });

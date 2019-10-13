@@ -4,7 +4,6 @@ desc: Code example that follows the Microsoft Architecture guidance.
 site: https://github.com/dotnet-architecture/eShopOnWeb
 tags:
 - web
-- dotnet
 - razor-pages
 - ".net"
 - docker
@@ -14,4 +13,4 @@ upforgrabs:
   link: https://github.com/dotnet-architecture/eShopOnWeb/labels/help%20wanted
 stats:
   issue-count: 2
-  last-updated: '2019-10-07T13:20:38Z'
+  last-updated: '2019-10-13T12:51:32Z'

@@ -1,7 +1,10 @@
 // @ts-nocheck
 
+/* eslint arrow-parens: [ "error", "as-needed" ] */
+
 define([
   'jquery',
+  'projectLoader',
   'projectsService',
   'fetchIssueCount',
   'underscore',
@@ -9,14 +12,14 @@ define([
   // chosen is listed here as a dependency because it's used from a jQuery
   // selector, and needs to be ready before this code runs
   'chosen',
-], ($, ProjectsService, fetchIssueCount, _, sammy) => {
+], ($, loadProjects, ProjectsService, fetchIssueCount, _, sammy) => {
   var compiledtemplateFn = null,
     projectsPanel = null;
 
   var getFilterUrl = function() {
     return location.href.indexOf('/#/filters') > -1
       ? location.href
-      : location.href + 'filters';
+      : `${location.href}filters`;
   };
 
   // inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better
@@ -31,22 +34,22 @@ define([
     var elapsed = current - previous;
 
     if (elapsed < msPerMinute) {
-      return Math.round(elapsed / 1000) + ' seconds ago';
+      return `${Math.round(elapsed / 1000)} seconds ago`;
     }
     if (elapsed < msPerHour) {
-      return Math.round(elapsed / msPerMinute) + ' minutes ago';
+      return `${Math.round(elapsed / msPerMinute)} minutes ago`;
     }
     if (elapsed < msPerDay) {
-      return Math.round(elapsed / msPerHour) + ' hours ago';
+      return `${Math.round(elapsed / msPerHour)} hours ago`;
     }
     if (elapsed < msPerMonth) {
-      return 'about ' + Math.round(elapsed / msPerDay) + ' days ago';
+      return `about ${Math.round(elapsed / msPerDay)} days ago`;
     }
     if (elapsed < msPerYear) {
-      return 'about ' + Math.round(elapsed / msPerMonth) + ' months ago';
+      return `about ${Math.round(elapsed / msPerMonth)} months ago`;
     }
 
-    return 'about ' + Math.round(elapsed / msPerYear) + ' years ago';
+    return `about ${Math.round(elapsed / msPerYear)} years ago`;
   }
 
   var renderProjects = function(projectService, tags, names, labels) {
@@ -118,15 +121,13 @@ define([
     projectsPanel
       .find('ul.popular-tags')
       .children()
-      .each(function(i, elem) {
+      .each((i, elem) => {
         $(elem).on('click', function() {
           selTags = $('.tags-filter').val() || [];
           selectedTag = preparePopTagName($(this).text() || '');
           if (selectedTag) {
             tagID = allTags
-              .map(function(tag) {
-                return tag.name.toLowerCase();
-              })
+              .map(tag => tag.name.toLowerCase())
               .indexOf(selectedTag);
             if (tagID !== -1) {
               selTags.push(selectedTag);
@@ -187,7 +188,7 @@ define([
    * after navigating through a certain screen length
    * Also has corresponding fade-in and fade-out fetaure
    */
-  $(window).scroll(function() {
+  $(window).scroll(() => {
     var height = $(window).scrollTop();
     if (height > 100) {
       $('#back2Top').fadeIn();
@@ -195,8 +196,8 @@ define([
       $('#back2Top').fadeOut();
     }
   });
-  $(document).ready(function() {
-    $('#back2Top').click(function(event) {
+  $(document).ready(() => {
+    $('#back2Top').click(event => {
       event.preventDefault();
       $('html, body').animate({ scrollTop: 0 }, 'slow');
       return false;
@@ -239,10 +240,10 @@ define([
     const labelEncoded = gh[2];
 
     fetchIssueCount(ownerAndName, labelEncoded).then(
-      function(resultCount) {
+      resultCount => {
         count.html(resultCount);
       },
-      function(error) {
+      error => {
         const message = error.message ? error.message : error;
         count.html('?!');
         count.attr('title', message);
@@ -250,7 +251,7 @@ define([
     );
   };
 
-  $(function() {
+  $(() => {
     var $window = $(window),
       onScreen = function onScreen($elem) {
         var docViewTop = $window.scrollTop(),
@@ -263,7 +264,7 @@ define([
         );
       };
 
-    $window.on('scroll chosen:updated', function() {
+    $window.on('scroll chosen:updated', () => {
       $('.projects tbody:not(.counted)').each(function() {
         var project = $(this);
         if (onScreen(project)) {
@@ -289,13 +290,7 @@ define([
       window.location.href = '#/tags/' + tagsString;
     });
 
-    function promiseWrappedProjects() {
-      return new Promise(function(resolve) {
-        resolve(projects);
-      });
-    }
-
-    promiseWrappedProjects().then(function(p) {
+    loadProjects().then(p => {
       var projectsSvc = new ProjectsService(p);
 
       var app = sammy(function() {
@@ -304,14 +299,14 @@ define([
          * It ensures to read values from the URI query param and perform actions
          * based on that. NOTE: It has major side effects on the browser.
          */
-        this.get(/\#\/filters/, function() {
+        this.get(/\#\/filters/, () => {
           var labels = prepareForHTML(getParameterByName('labels'));
           var names = prepareForHTML(getParameterByName('names'));
           var tags = prepareForHTML(getParameterByName('tags'));
           renderProjects(projectsSvc, tags, names, labels);
         });
 
-        this.get('/', function() {
+        this.get('/', () => {
           renderProjects(projectsSvc);
         });
       });

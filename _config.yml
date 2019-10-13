@@ -26,3 +26,10 @@ exclude:
 
 github: [metadata]
 
+# DO NOT DELETE THIS
+# This is used to build up the array of projects rendered inside a <noscript>
+# tag to support browsers which disable JS. For more context check out
+# https://github.com/up-for-grabs/up-for-grabs.net/pull/1412 which explains what
+# this gives us.
+emptyArray: []
+

@@ -3,6 +3,12 @@ AllCops:
     - '.github/actions/**/*.rb'
     - 'scripts/**/*.rb'
 
+Metrics/CyclomaticComplexity:
+  Max: 7
+
+Metrics/PerceivedComplexity:
+  Max: 8
+
 Metrics/LineLength:
   Max: 186
 

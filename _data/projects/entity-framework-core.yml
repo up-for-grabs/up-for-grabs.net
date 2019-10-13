@@ -9,12 +9,12 @@ tags:
 - ef
 - database
 - data
-- o/rm
+- object-relational-mapper
 - ado.net
-- entityframework
+- entity-framework
 upforgrabs:
   name: good first issue
   link: https://github.com/aspnet/EntityFrameworkCore/labels/good%20first%20issue
 stats:
   issue-count: 77
-  last-updated: '2019-10-07T09:22:36Z'
+  last-updated: '2019-10-13T04:45:35Z'

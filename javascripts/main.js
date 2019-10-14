@@ -219,7 +219,7 @@ define([
     const a = $(project).find('.label a');
       const gh = a
         .attr('href')
-        .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/),
+        .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/);
       counthref = a.find('.count');
 
     if (counthref.length) {

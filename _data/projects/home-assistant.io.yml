@@ -1,0 +1,16 @@
+---
+name: home-assistant.io
+desc: A Home Assistant User documentation
+site: https://github.com/home-assistant/home-assistant.io
+tags:
+- documentation
+- jekyll
+- home-assistant
+- hass
+- hassio
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/home-assistant/home-assistant.io/labels/hacktoberfest
+stats:
+  issue-count: 57
+  last-updated: '2019-10-13T23:46:35.852Z'

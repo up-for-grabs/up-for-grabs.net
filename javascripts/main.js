@@ -216,7 +216,7 @@ define([
   };
 
   const issueCount = function(project) {
-    const a = $(project).find('.label a'),
+    const a = $(project).find('.label a');
       gh = a
         .attr('href')
         .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/),

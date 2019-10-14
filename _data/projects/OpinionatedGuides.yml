@@ -7,5 +7,5 @@ tags:
 - python
 - bash
 upforgrabs:
-  name: hacktoberfest
+    name: Hacktoberfest
   link: https://github.com/opinionatedguide/opinionatedguide.github.io-src/labels/Hacktoberfest

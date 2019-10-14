@@ -1,0 +1,11 @@
+name: Opinionated Guides
+desc: A one-stop guide to computers, linux, and electronics.
+site: https://opinionatedguide.github.io
+tags:
+- awesome
+- documentation
+- python
+- bash
+upforgrabs:
+  name: Hacktoberfest
+  link: https://github.com/opinionatedguide/opinionatedguide.github.io-src/labels/Hacktoberfest

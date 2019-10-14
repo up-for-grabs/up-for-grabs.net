@@ -233,7 +233,7 @@ define([
       return;
     }
 
-    countspanimg = $(
+    count = $(
       '<span class="count"><img src="images/octocat-spinner-32.gif" /></span>'
     ).appendTo(a);
 

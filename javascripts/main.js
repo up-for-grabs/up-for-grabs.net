@@ -247,7 +247,7 @@ define([
       error => {
         const message = error.message ? error.message : error;
         count.html('?!');
-        countspanimg.attr('title', message);
+        count.attr('title', message);
       }
     );
   };

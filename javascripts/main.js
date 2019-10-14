@@ -227,7 +227,7 @@ define([
     }
 
     if (!gh) {
-      countspantitle = $(
+      count = $(
         '<span class="count" title="Issue count is only available for projects on GitHub.">?</span>'
       ).appendTo(a);
       return;

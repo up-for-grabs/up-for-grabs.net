@@ -1,6 +1,6 @@
 name: Opinionated Guides
 desc: A one-stop guide to computers, linux, and electronics.
-site: https://github.com/opinionatedguide/opinionatedguide.github.io-src
+site: https://opinionatedguide.github.io
 tags:
 - awesome
 - documentation
@@ -8,4 +8,4 @@ tags:
 - bash
 upforgrabs:
   name: Hacktoberfest
-  link: https://opinionatedguide.github.io
+  link: https://github.com/opinionatedguide/opinionatedguide.github.io-src/labels/Hacktoberfest

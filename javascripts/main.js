@@ -222,7 +222,7 @@ define([
         .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/);
       counthref = a.find('.count');
 
-    if (counthref.length) {
+    if (count.length) {
       return;
     }
 

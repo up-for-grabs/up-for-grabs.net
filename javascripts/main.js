@@ -246,7 +246,7 @@ define([
       },
       error => {
         const message = error.message ? error.message : error;
-        countspanimg.html('?!');
+        count.html('?!');
         countspanimg.attr('title', message);
       }
     );

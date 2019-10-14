@@ -7,5 +7,5 @@ tags:
 - python
 - bash
 upforgrabs:
-  name: *the label associated with the up-for-grabs tasks* -- e.g. "help needed" (without the quotes)
-  link: *URL where users can view the tasks* -- e.g. "https://github.com/username/project/labels/up%20for%20grabs"
+  name: hacktoberfest
+  link: https://github.com/opinionatedguide/opinionatedguide.github.io-src/issues/2

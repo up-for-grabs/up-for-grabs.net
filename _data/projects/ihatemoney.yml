@@ -1,0 +1,11 @@
+name: I Hate Money
+desc: A simple shared budget manager web application
+site: https://github.com/spiral-project/ihatemoney
+tags:
+- python
+- flask
+- budget
+- rest
+upforgrabs:
+  name: good first issue
+  link: https://github.com/spiral-project/ihatemoney/labels/good%20first%20issue

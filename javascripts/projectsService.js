@@ -5,16 +5,18 @@
 /* eslint function-paren-newline: [ "off" ] */
 /* eslint implicit-arrow-linebreak: [ "off" ] */
 /* eslint no-confusing-arrow: [ "off" ] */
+/* eslint no-var: [ "error" ] */
 
 // @ts-nocheck
 
 // required for loading into a NodeJS context
 if (typeof define !== 'function') {
+  /* eslint-disable-next-line no-var */
   var define = require('amdefine')(module);
 }
 
 define(['underscore'], _ => {
-  var applyTagsFilter = function(projects, tagsArray, tags) {
+  const applyTagsFilter = function(projects, tagsArray, tags) {
     if (typeof tags === 'string') {
       tags = tags.split(',');
     }
@@ -25,7 +27,7 @@ define(['underscore'], _ => {
       return projects;
     }
 
-    var projectNames = _.uniq(
+    const projectNames = _.uniq(
       _.flatten(
         _.map(tags, tag => {
           // NOTE
@@ -60,7 +62,7 @@ define(['underscore'], _ => {
    *              projects in a sorted order
    * @param Array names : This is an array with the given name filters.
    */
-  var applyNamesFilter = function(projects, projectNamesSorted, names) {
+  const applyNamesFilter = function(projects, projectNamesSorted, names) {
     if (typeof names === 'string') {
       names = names.split(',');
     }
@@ -92,7 +94,7 @@ define(['underscore'], _ => {
    *        labels in a sorted order
    * @param Array labels : This is an array with the given label filters.
    */
-  var applyLabelsFilter = function(projects, projectLabelsSorted, labels) {
+  const applyLabelsFilter = function(projects, projectLabelsSorted, labels) {
     label_indices = labels;
 
     if (typeof labels === 'string') {
@@ -132,12 +134,12 @@ define(['underscore'], _ => {
     return _.flatten(results, (arr1, arr2) => arr1.append(arr2));
   };
 
-  var TagBuilder = function() {
-    var _tagsMap = {},
-      _orderedTagsMap = null;
+  const TagBuilder = function() {
+    const _tagsMap = {};
+    let _orderedTagsMap = null;
 
     this.addTag = function(tag, projectName) {
-      var tagLowerCase = tag.toLowerCase();
+      const tagLowerCase = tag.toLowerCase();
       if (!_.has(_tagsMap, tagLowerCase)) {
         _tagsMap[tagLowerCase] = {
           name: tag,
@@ -145,7 +147,7 @@ define(['underscore'], _ => {
           projects: [],
         };
       }
-      var _entry = _tagsMap[tagLowerCase];
+      const _entry = _tagsMap[tagLowerCase];
       _entry.frequency++;
       _entry.projects.push(projectName);
     };
@@ -162,8 +164,8 @@ define(['underscore'], _ => {
     };
   };
 
-  var extractTags = function(projectsData) {
-    var tagBuilder = new TagBuilder();
+  const extractTags = function(projectsData) {
+    const tagBuilder = new TagBuilder();
     _.each(projectsData, entry => {
       _.each(entry.tags, tag => {
         tagBuilder.addTag(tag, entry.name);
@@ -172,25 +174,25 @@ define(['underscore'], _ => {
     return tagBuilder.getTagsMap();
   };
 
-  var extractProjectsAndTags = function(projectsData) {
+  const extractProjectsAndTags = function(projectsData) {
     return {
       projects: projectsData,
       tags: extractTags(projectsData),
     };
   };
 
-  var ProjectsService = function(projectsData) {
-    var _projectsData = extractProjectsAndTags(projectsData);
-    var tagsMap = {};
-    var namesMap = {};
-    var labelsMap = {};
+  const ProjectsService = function(projectsData) {
+    const _projectsData = extractProjectsAndTags(projectsData);
+    const tagsMap = {};
+    const namesMap = {};
+    const labelsMap = {};
 
-    var canStoreOrdering =
+    const canStoreOrdering =
       JSON &&
       sessionStorage &&
       sessionStorage.getItem &&
       sessionStorage.setItem;
-    var ordering = null;
+    let ordering = null;
     if (canStoreOrdering) {
       ordering = sessionStorage.getItem('projectOrder');
       if (ordering) {
@@ -210,9 +212,9 @@ define(['underscore'], _ => {
       }
     }
 
-    var all_projects = _.map(ordering, i => _projectsData.projects[i]);
+    const all_projects = _.map(ordering, i => _projectsData.projects[i]);
 
-    var projects = _.filter(all_projects, project =>
+    const projects = _.filter(all_projects, project =>
       project.stats ? project.stats['issue-count'] > 0 : true
     );
 
@@ -231,7 +233,7 @@ define(['underscore'], _ => {
     });
 
     this.get = function(tags, names, labels) {
-      var filtered_projects = projects;
+      let filtered_projects = projects;
       if (names && names.length) {
         filtered_projects = applyNamesFilter(
           filtered_projects,

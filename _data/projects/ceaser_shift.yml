@@ -1,0 +1,15 @@
+name: ceasar_shift
+desc: It is used to encrypt and decrypt text in caesar cipher
+site: https://github.com/sainad2222/ceaser_crypto
+tags:
+-crypto
+-caesar shift
+-cipher
+-encryption
+-decryption
+upforgrabs:
+  name: help needed
+  link: https://github.com/sainad2222/ceaser_crypto/blob/master/ceaser.py
+stats:
+  issue count=0
+  last updated:10/10/2019 08:50(IST)

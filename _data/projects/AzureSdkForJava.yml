@@ -1,0 +1,11 @@
+name: Azure SDK For Java
+desc: The official Java libraries for Azure services.
+site: https://github.com/Azure/azure-sdk-for-java
+tags:
+- java
+- oss
+- azure
+- microsoft
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Azure/azure-sdk-for-java/labels/up%20for%20grabs

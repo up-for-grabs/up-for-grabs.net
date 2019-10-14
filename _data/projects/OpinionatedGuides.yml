@@ -8,4 +8,4 @@ tags:
 - bash
 upforgrabs:
   name: hacktoberfest
-  link: https://github.com/opinionatedguide/opinionatedguide.github.io-src/issues/2
+  link: https://github.com/opinionatedguide/opinionatedguide.github.io-src/labels/Hacktoberfest

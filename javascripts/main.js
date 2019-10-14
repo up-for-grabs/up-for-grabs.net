@@ -242,7 +242,7 @@ define([
 
     fetchIssueCount(ownerAndName, labelEncoded).then(
       resultCount => {
-        countspanimg.html(resultCount);
+        count.html(resultCount);
       },
       error => {
         const message = error.message ? error.message : error;

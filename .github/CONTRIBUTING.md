@@ -1,6 +1,6 @@
 # Contributing to Up for Grabs
 
-This guide will help you get setup so you can make changes to the project, view
+This guide will help you get set up so you can make changes to the project, view
 them locally and verify that the site will deploy correctly when opening a pull
 request.
 
@@ -55,7 +55,7 @@ view using a local development server:
 bundle exec jekyll serve
 ```
 
-Te site should be accessible in your browser at `localhost:4000`.
+The site should be accessible in your browser at `localhost:4000`.
 
 ### Testing with Docker
 
@@ -116,7 +116,7 @@ $ npm run lint
 $ npm run prettier
 ```
 
-Both of these tools have "auto-fix" options, which nay fix the problems reported
+Both of these tools have "auto-fix" options, which may fix the problems reported
 without needing manual work:
 
 ```

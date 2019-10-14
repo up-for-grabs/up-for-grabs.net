@@ -34,10 +34,10 @@ with a project of this size:
   deploy and provide a preview so that reviewers do not need to pull down and
   verify the changes locally
 - When a commit is pushed to the `gh-pages` branch, a deploy is started to
-  publishes the latest code to [GitHub Pages](https://pages.github.com/), which
+  publish the latest code to [GitHub Pages](https://pages.github.com/), which
   hosts the site
 - A GitHub action runs weekly to scan the project list and cleanup any that have
-  stale projects, by checking they are still accessible via the GitHub API. This
+  stale projects, by checking if they are still accessible via the GitHub API. This
   saves us time having to manually review projects for inactivity.
 - A GitHub action runs daily to check each project and commit statistics to the
   data files. This allows us to cache statistics each time the site is published

@@ -220,7 +220,7 @@ define([
       const gh = a
         .attr('href')
         .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/);
-      counthref = a.find('.count');
+      let count = a.find('.count');
 
     if (count.length) {
       return;

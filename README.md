@@ -1,4 +1,5 @@
 up-for-grabs.net
+![Continuous Integration  status](https://github.com/up-for-grabs/up-for-grabs.net/workflows/Continuous%20Integration/badge.svg)
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors)
 ================
 

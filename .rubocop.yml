@@ -4,10 +4,10 @@ AllCops:
     - 'scripts/**/*.rb'
 
 Metrics/CyclomaticComplexity:
-  Max: 7
+  Max: 9
 
 Metrics/PerceivedComplexity:
-  Max: 8
+  Max: 9
 
 Metrics/LineLength:
   Max: 186

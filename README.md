@@ -47,65 +47,19 @@ npm install -g generator-up-for-grabs
 yo up-for-grabs
 ```
 
-## Testing the Site Locally
+## Contributing
 
-If you haven't already, clone the repository to your machine:
+If you would like to get involved with the project, please read the
+[CONTRIBUTING.md](.github/CONTRIBUTING.md) file as it contains:
 
-```
-git clone https://github.com/up-for-grabs/up-for-grabs.net.git
-```
+ - instructions about getting your environment setup
+ - guidance for testing locally
+ - commands to run to verify changes
 
-If you have a fork of the repository, change `up-for-grabs` into your GitHub account named above.
+## How does the site work?
 
-We recommend installing Ruby 2.6.x and Bundler 2.0.x to test the site - you can confirm these are present by running these commands:
-
-```
-$ ruby -v
-ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-darwin18]
-$ bundle -v
-Bundler version 2.0.2
-```
-
-If you're happy with that, run these commands in the directory where you cloned the up-for-grabs repository:
-
-```
-bundle install
-bundle exec jekyll serve
-```
-
-Alternatively, the application can be run in a [Docker](https://docker.com) container:
-
-```
-docker-compose up
-```
-
-Then open your browser to `localhost:4000` to view the site.
-
-## How This All Works
-We use a few great features of Jekyll and GitHub Pages to host this entire site for free.
-
-* We are using a file called `scripts.html` which is an include file. When we publish the site, Jekyll uses this to concatenate and generate the scripts that will actually be downloaded when a user visits the site.
-* Within the `scripts.html` template, we're referencing `site.data.projects`, which gives us access to the entire directory of `.yml` files as a set of variables. We combine this with the `jsonify` liquid transformer to turn them into a JSON object. This means that the raw data is generated once, so it downloads very quickly as static data.
-* When the web page is opened, our startup JS processes each project in the array of projects and pushes it into the array that the rest of the site uses.
-* We use [travis-ci](https://travis-ci.org/up-for-grabs/up-for-grabs.net) to run a custom ruby script, `cibuild`, that checks all the `.yml` files to make sure they can be appropriately parsed. This makes sure we don't merge any incorrectly formed project files.
-
-What this means is that, when a pull request is merged, GitHub Pages automatically builds the site via Jekyll and publishes it to our GitHub -- no database or hosting needed. (Thanks, GitHub!)
-
-## Automation and Curation
-
-Because of the immense number of projects currently tracked in Up-for-Grabs,
-we've spent time adding tasks to run periodically so we can focus on curation
-and site improvements.
-
-Recent examples :
-
- - Cleanup stale projects - each week a task runs to review the list of projects
-   and remove any that have been marked as archived or are no longer accessible
-   via the GitHub API.
- - Update project stats - every day a task runs to check each project and commit
-   statistics to the data files. This allows us to cache statistics each time
-   the site is published and makes it easier for visitors to see which projects
-   have available issues.
+If you want to learn more about the various parts of the Up-for-Grabs project,
+the [How it works](docs/how-it-works.md) document is a good overview.
 
 ## Contributors ✨
 

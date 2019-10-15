@@ -10,8 +10,8 @@ tags:
 - utm
 - uam
 upforgrabs:
-  name: clean_up
-  link: https://github.com/arkits/exige/labels/easy_to_fix
+  name: help wanted
+  link: https://github.com/arkits/exige/labels/help%20wanted
 stats:
-  issue-count: 10
-  last-updated: '2019-10-14T03:19:10Z'
+  issue-count: 2
+  last-updated: '2019-10-14T20:16:7Z'

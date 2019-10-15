@@ -37,7 +37,7 @@ are currently using:
 
 - for macOS or Linux contributors - either approach is fine
 - for Windows contributors - Docker is recommended because Ruby on Windows has
-  some issues that need experience to properly workaround
+  some issues that need familiarity with the toolchain to properly workaround
 
 ### Testing without Docker
 

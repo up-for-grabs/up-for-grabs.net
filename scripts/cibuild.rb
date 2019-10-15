@@ -19,17 +19,17 @@ def check_folder(root)
 
   count = other_files.count
 
-  return unless count.positive?
+  if count.positive?
+    puts "#{count} files found in projects directory which are not YAML files:"
+    r = Pathname.new(root)
 
-  puts "#{count} files found in projects directory which are not YAML files:"
-  r = Pathname.new(root)
+    other_files.each do |f|
+      relative_path = Pathname.new(f).relative_path_from(r).to_s
+      puts " - #{relative_path}"
+    end
 
-  other_files.each do |f|
-    relative_path = Pathname.new(f).relative_path_from(r).to_s
-    puts " - #{relative_path}"
+    exit(-1)
   end
-
-  exit(-1)
 end
 
 root = File.expand_path('..', __dir__)

@@ -45,18 +45,19 @@ def check_folder(root)
 
   count = other_files.count
 
-  if count.positive?
-    puts "#{count} files found in root which look like content files:"
-    r = Pathname.new(root)
+  return unless count.positive?
 
-    other_files.each do |f|
-      puts " - #{f}"
-    end
+  puts "#{count} files found in root which look like content files:"
+  r = Pathname.new(root)
 
-    puts 'Move these inside _data/projects to ensure they are listed on the site'
-
-    exit(-1)
+  other_files.each do |f|
+    puts " - #{f}"
   end
+
+  puts 'Move these inside _data/projects to ensure they are listed on the site'
+
+  exit(-1)
+
 end
 
 root = File.expand_path('..', __dir__)

@@ -10,7 +10,6 @@
     "eqeqeq": "off",
     "no-param-reassign": "off",
     "no-underscore-dangle": "off",
-    "no-return-assign": "off",
     "no-useless-escape": "off",
     "no-restricted-globals": "off",
     "no-use-before-define": "off",

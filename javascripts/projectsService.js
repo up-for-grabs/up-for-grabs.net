@@ -159,13 +159,15 @@ define(['underscore'], _ => {
 
     this.getTagsMap = function() {
       // https://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
-      return (_orderedTagsMap =
-        _orderedTagsMap ||
-        _(_tagsMap)
+      if (_orderedTagsMap == null) {
+        _orderedTagsMap = _(_tagsMap)
           .chain()
           .sortBy((tag, key) => key)
           .sortBy(tag => tag.frequency * -1)
-          .value());
+          .value();
+      }
+
+      return _orderedTagsMap;
     };
   };
 

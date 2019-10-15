@@ -1,3 +1,4 @@
+---
 name: Opinionated Guides
 desc: A one-stop guide to computers, linux, and electronics.
 site: https://opinionatedguide.github.io
@@ -9,3 +10,6 @@ tags:
 upforgrabs:
   name: Hacktoberfest
   link: https://github.com/opinionatedguide/opinionatedguide.github.io-src/labels/Hacktoberfest
+stats:
+  issue-count: 1
+  last-updated: '2019-10-14T19:55:24Z'

@@ -1,0 +1,12 @@
+---
+name: Up-For-Grabs.net
+desc: https://github.com/legesher/legesher
+site: https://github.com/up-for-grabs/up-for-grabs.net
+tags:
+- html/css
+- ruby
+- python
+- javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/legesher/legesher/labels/Epic

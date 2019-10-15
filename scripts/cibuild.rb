@@ -57,7 +57,6 @@ def check_folder(root)
   puts 'Move these inside _data/projects to ensure they are listed on the site'
 
   exit(-1)
-
 end
 
 root = File.expand_path('..', __dir__)

@@ -1,10 +1,9 @@
 on:
   schedule:
   - cron: 0 18 * * 0
-name: Project Cleanup
+name: Cleanup stale projects
 jobs:
   cleanupArchivedProjects:
-    name: Cleanup archived projects
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master

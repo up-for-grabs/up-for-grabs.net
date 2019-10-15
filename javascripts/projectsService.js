@@ -80,6 +80,8 @@ define(['underscore'], _ => {
         if (names.indexOf(String(key)) > -1) {
           return entry;
         }
+
+        return undefined;
       }),
       entry => entry || false
     );
@@ -117,6 +119,8 @@ define(['underscore'], _ => {
       if (labelIndices.indexOf(String(key)) > -1) {
         return entry;
       }
+
+      return undefined;
     });
 
     // collect the names of all labels into a list

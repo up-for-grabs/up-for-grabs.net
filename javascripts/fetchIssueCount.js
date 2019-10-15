@@ -77,6 +77,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
   function inspectRateLimitError(response) {
     const rateLimited = response.headers.get('X-RateLimit-Remaining') === '0';
     const rateLimitReset = response.headers.get('X-RateLimit-Reset');
+
     if (rateLimited && rateLimitReset) {
       const rateLimitResetAt = new Date(1000 * rateLimitReset);
       setValue(RateLimitResetAtKey, rateLimitResetAt);
@@ -84,6 +85,8 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
         `GitHub rate limit met. Reset at ${rateLimitResetAt.toLocaleTimeString()}`
       );
     }
+
+    return undefined;
   }
 
   /**

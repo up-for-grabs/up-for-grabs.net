@@ -14,7 +14,6 @@
     "no-useless-escape": "off",
     "no-restricted-globals": "off",
     "no-use-before-define": "off",
-    "consistent-return": "off",
     "import/no-amd": "off"
   }
 }

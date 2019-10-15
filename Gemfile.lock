@@ -240,7 +240,7 @@ GEM
       ffi (~> 1.0)
     regexp_parser (1.6.0)
     rouge (3.11.0)
-    rubocop (0.75.0)
+    rubocop (0.75.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.6)

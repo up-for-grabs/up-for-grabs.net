@@ -31,7 +31,7 @@ def check_folder(root)
     exit(-1)
   end
 
-  valid_yaml_files = ["_config.yml", "docker-compose.yml", ".rubocop.yml"]
+  valid_yaml_files = ['_config.yml', 'docker-compose.yml', '.rubocop.yml']
 
   Find.find("#{root}/") do |path|
     next unless FileTest.file?(path)
@@ -40,7 +40,7 @@ def check_folder(root)
     basename = File.basename(path)
     next if valid_yaml_files.include?(basename)
 
-    other_files << basename  if File.extname(path) == '.yml'
+    other_files << basename if File.extname(path) == '.yml'
   end
 
   count = other_files.count
@@ -53,7 +53,7 @@ def check_folder(root)
       puts " - #{f}"
     end
 
-    puts "Move these inside _data/projects to ensure they are listed on the site"
+    puts 'Move these inside _data/projects to ensure they are listed on the site'
 
     exit(-1)
   end

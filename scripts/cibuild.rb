@@ -30,6 +30,33 @@ def check_folder(root)
 
     exit(-1)
   end
+
+  valid_yaml_files = ["_config.yml", "docker-compose.yml", ".rubocop.yml"]
+
+  Find.find("#{root}/") do |path|
+    next unless FileTest.file?(path)
+    next unless File.dirname(path) == root
+
+    basename = File.basename(path)
+    next if valid_yaml_files.include?(basename)
+
+    other_files << basename  if File.extname(path) == '.yml'
+  end
+
+  count = other_files.count
+
+  if count.positive?
+    puts "#{count} files found in root which look like content files:"
+    r = Pathname.new(root)
+
+    other_files.each do |f|
+      puts " - #{f}"
+    end
+
+    puts "Move these inside _data/projects to ensure they are listed on the site"
+
+    exit(-1)
+  end
 end
 
 root = File.expand_path('..', __dir__)

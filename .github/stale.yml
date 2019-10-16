@@ -1,3 +1,5 @@
+only: pulls
+
 pulls:
   daysUntilStale: 14
   daysUntilClose: 0

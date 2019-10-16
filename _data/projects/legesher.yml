@@ -1,0 +1,13 @@
+---
+name: Legesher
+desc: The bridge between the words we speak and the code we write.
+site: https://github.com/legesher/legesher
+tags:
+- html
+- css
+- ruby
+- python
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/legesher/legesher/labels/good%20first%20issue

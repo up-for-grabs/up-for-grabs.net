@@ -1,12 +1,13 @@
 ---
-name: Up-For-Grabs.net
+name: Legesher
 desc: The bridge between the words we speak and the code we write.
 site: https://github.com/legesher/legesher
 tags:
-- html/css
+- html
+- css
 - ruby
 - python
 - javascript
 upforgrabs:
-  name: help needed with various projects
+  name: Good First Issue
   link: https://github.com/legesher/legesher/labels/Good%20First%20Issue

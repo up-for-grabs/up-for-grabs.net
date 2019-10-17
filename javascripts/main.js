@@ -217,10 +217,10 @@ define([
 
   const issueCount = function(project) {
     const a = $(project).find('.label a');
-      const gh = a
-        .attr('href')
-        .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/);
-      let count = a.find('.count');
+    const gh = a
+      .attr('href')
+      .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/);
+    let count = a.find('.count');
 
     if (count.length) {
       return;

@@ -59,7 +59,7 @@ define([
     projectsPanel.html(
       compiledtemplateFn({
         projects: projectService.get(tags, names, labels),
-        relativeTime: relativeTime,
+        relativeTime,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
         selectedTags: tags,
@@ -158,13 +158,13 @@ define([
    * @return string - The value of the URL when adding/removing values to it.
    */
   let updateQueryStringParameter = function(uri, key, value) {
-    const re = new RegExp('([?&])' + key + '=.*?(&|$)', 'i');
+    const re = new RegExp(`([?&])${key}=.*?(&|$)`, 'i');
     const separator = uri.indexOf('?') !== -1 ? '&' : '?';
     if (uri.match(re)) {
-      return uri.replace(re, '$1' + key + '=' + value + '$2');
+      return uri.replace(re, `$1${key}=${value}$2`);
     }
 
-    return uri + separator + key + '=' + value;
+    return `${uri + separator + key}=${value}`;
   };
 
   /**
@@ -177,7 +177,7 @@ define([
   const getParameterByName = function(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, '\\$&');
-    const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+    const regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`),
       results = regex.exec(url);
     if (!results) return null;
     if (!results[2]) return '';
@@ -288,7 +288,7 @@ define([
           tags.push($(this).data('tag'));
         });
       const tagsString = tags.join(',');
-      window.location.href = '#/tags/' + tagsString;
+      window.location.href = `#/tags/${tagsString}`;
     });
 
     loadProjects().then(p => {

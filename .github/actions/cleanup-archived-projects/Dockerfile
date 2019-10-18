@@ -13,3 +13,4 @@ RUN bundle install
 COPY . .
 
 ENTRYPOINT ["ruby", "/cleanup_projects.rb"]
+yes

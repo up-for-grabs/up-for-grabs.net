@@ -1,4 +1,3 @@
-
 # List a Project
 
 This document walks through the process of submitting a project to Up for Grabs
@@ -7,10 +6,10 @@ This document walks through the process of submitting a project to Up for Grabs
 
 We are interested in active open source projects that meet this criteria:
 
- - available maintainers who are interested in guiding new contributors
- - the project curates a list of small tasks which are ideal for new contributors
- - maintainers are happy and willing to review and work with new contributors to
-   help them learn more about open source
+- available maintainers who are interested in guiding new contributors
+- the project curates a list of small tasks which are ideal for new contributors
+- maintainers are happy and willing to review and work with new contributors to
+  help them learn more about open source
 
 If you project does not satisfy all of this criteria, it may be declined at the
 review process. We'll provide suggestions to help address
@@ -29,7 +28,7 @@ In the header click the "Create new file" link in the header to start the proces
 <img width="1009" src="https://user-images.githubusercontent.com/359239/67146648-90691280-f263-11e9-9599-8bd50ff8769b.png">
 
 Ensure that you name the file after your project, and that the file extension
-is  `.yml`.
+is `.yml`.
 
 <img width="582" src="https://user-images.githubusercontent.com/359239/67146647-8fd07c00-f263-11e9-97f0-3ecd71521903.png">
 
@@ -41,11 +40,11 @@ name: Your Project Name Here
 desc: A brief description of the project
 site: https://example.org/your-project-link-here
 tags:
-- tags
-- relevant
-- to
-- your
-- project
+  - tags
+  - relevant
+  - to
+  - your
+  - project
 upforgrabs:
   name: up for grabs
   link: https://github.com/username/project/labels/up%20for%20grabs
@@ -54,7 +53,7 @@ upforgrabs:
 Ensure that your `tags` entries are all lower-case, do not contain spaces, and
 use this subset of characters:
 
- `a-z`,`0-9`,`+`,`#`,`.`,`-`
+`a-z`,`0-9`,`+`,`#`,`.`,`-`
 
 This will be checked as part of the pull request review, so don't stress too
 much about it here.
@@ -63,18 +62,18 @@ The `upforgrabs` section may be unfamiliar to you, but it's the important part
 of our site itself. This consists of two entries which are relevant to the list
 of issues the project has available for new contributors:
 
- - the `name` being the label assigned to these issues
- - the `link` is the URL to find those issues
+- the `name` being the label assigned to these issues
+- the `link` is the URL to find those issues
 
 We leverage GitHub integration on the site to provide a polished experience,
 but we accept any link here as long as it points to a list of issues.
 
 If you're not sure what to provide, here are some examples from other projects:
 
- - [Giraffe](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/Giraffe.yml)
- - [.NET Core CLR](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/dotnet-core-clr.yml)
- - [Rust](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/rust.yml)
- - [the Up for Grabs project itself](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml)
+- [Giraffe](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/Giraffe.yml)
+- [.NET Core CLR](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/dotnet-core-clr.yml)
+- [Rust](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/rust.yml)
+- [the Up for Grabs project itself](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml)
 
 The `stats` fields are not included in the template because they are generated
 by the automated tooling which queries the GitHub API - you don't need to

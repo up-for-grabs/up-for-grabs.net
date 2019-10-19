@@ -1,7 +1,7 @@
 ---
 name: kentico-content-js
 desc: Repository hosting various Kentico Kontent Javascript packages
-site: https://github.com/Kentico/kentico-kontent-js
+site: https://github.com/Kentico/kontent-delivery-sdk-js
 tags:
 - javascript
 - typescript
@@ -19,7 +19,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/kentico-kontent-js/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-delivery-sdk-js/labels/up-for-grabs
 stats:
   issue-count: 3
   last-updated: '2019-10-17T08:09:15Z'

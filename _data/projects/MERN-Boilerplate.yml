@@ -1,7 +1,7 @@
 ---
 name: MERN-Boilerplate
 desc: This is boilerplate for MERN stack with integrations like Redux and SSR
-site: https://github.com/anikethsaha/MERN-Boilerplate
+site: https://github.com/anikethsaha/MERN
 tags:
 - node.js
 - javascript
@@ -14,7 +14,7 @@ tags:
 - server-side-rendering
 upforgrabs:
   name: help wanted
-  link: https://github.com/anikethsaha/MERN-Boilerplate/labels/help%20wanted
+  link: https://github.com/anikethsaha/MERN/labels/help%20wanted
 stats:
   issue-count: 4
   last-updated: '2019-10-16T16:04:02Z'

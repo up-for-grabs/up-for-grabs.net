@@ -51,16 +51,12 @@ upforgrabs:
 ```
 
 Ensure that your `tags` entries are all lower-case, do not contain spaces, and
-use this subset of characters:
-
-`a-z`,`0-9`,`+`,`#`,`.`,`-`
-
-This will be checked as part of the pull request review, so don't stress too
-much about it here.
+use this subset of characters: `a-z`,`0-9`,`+`,`#`,`.`,`-`, This will be checked
+as part of the pull request review, so don't stress too much about it here.
 
 The `upforgrabs` section may be unfamiliar to you, but it's the important part
-of our site itself. This consists of two entries which are relevant to the list
-of issues the project has available for new contributors:
+of what gets shown on our site. This consists of two entries which are relevant
+to the list of issues the project has available for new contributors:
 
 - the `name` being the label assigned to these issues
 - the `link` is the URL to find those issues

@@ -33,8 +33,8 @@ is `.yml`.
 
 <img width="582" src="https://user-images.githubusercontent.com/359239/67146647-8fd07c00-f263-11e9-97f0-3ecd71521903.png">
 
-Add this template as the contents of the file, and then replace the default
-values with details specific to your project:
+Copy and paste this template as the contents of the file, and then change the
+default values with details specific to the project:
 
 ```yaml
 name: Your Project Name Here

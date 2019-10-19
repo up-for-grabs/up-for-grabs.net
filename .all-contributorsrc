@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "Aeolyx",
+      "name": "Aeolyx",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22704363?s=400&u=7d13fe0f85ff654301ceeb0be5e5d830a9907102&v=4",
+      "profile": "https://github.com/Aeolyx",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "filipe-gomes",
       "name": "Filipe Magalhaes Gomes",
       "avatar_url": "https://avatars1.githubusercontent.com/u/42053052?v=4",

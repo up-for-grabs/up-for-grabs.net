@@ -16,7 +16,7 @@ If you project does not satisfy all of this criteria, it may be declined at the
 review process. We'll provide suggestions to help address these things so that
 it may be listed in the future.
 
-## Add using the GitHub web editor
+## Using the GitHub web editor
 
 The simplest way to add your project is to use the GitHub web editor. If you are
 signed into GitHub, simply navigate to [this link](https://github.com/up-for-grabs/up-for-grabs.net/tree/gh-pages/_data/projects)

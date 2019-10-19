@@ -4,12 +4,14 @@ on: [push,pull_request]
 
 jobs:
   docker:
+    name: "Test Docker build"
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - name: Build Docker container
       run: docker build .
   javascript:
+    name: "Test JavaScript"
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
@@ -27,6 +29,7 @@ jobs:
         CI: true
 
   site:
+    name: "Test Jekyll Site"
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1

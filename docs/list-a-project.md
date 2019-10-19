@@ -65,7 +65,8 @@ to the list of issues the project has available for new contributors:
 We leverage GitHub integration on the site to provide a polished experience,
 but we accept any link here as long as it points to a list of issues.
 
-If you're not sure what to provide, here are some examples from other projects:
+If you're not sure what to provide, here are some examples of other projects
+that are listed:
 
 - [Giraffe](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/Giraffe.yml)
 - [.NET Core CLR](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/dotnet-core-clr.yml)

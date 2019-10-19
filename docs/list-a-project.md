@@ -24,17 +24,18 @@ to view the list of projects.
 
 <img width="1013" src="https://user-images.githubusercontent.com/359239/67146649-90691280-f263-11e9-9d3f-d63c79f8e872.png">
 
-In the header click the "Create new file" link in the header to start the process, which will open the web editor with an empty file:
+In the header click the "Create new file" link in the header to start the
+process, which will open the web editor with an empty file:
 
 <img width="1009" src="https://user-images.githubusercontent.com/359239/67146648-90691280-f263-11e9-9599-8bd50ff8769b.png">
 
-Ensure that you name the file after your project, and that the file extension
-is `.yml`.
+Ensure that you name the file after your project, and that the file extension is
+`.yml`.
 
 <img width="582" src="https://user-images.githubusercontent.com/359239/67146647-8fd07c00-f263-11e9-97f0-3ecd71521903.png">
 
 Copy and paste this template as the contents of the file, and then change the
-default values with details specific to the project:
+default values to add details specific to the project:
 
 ```yaml
 name: Your Project Name Here
@@ -44,7 +45,7 @@ tags:
   - tags
   - relevant
   - to
-  - your
+  - the
   - project
 upforgrabs:
   name: up for grabs
@@ -60,10 +61,11 @@ of what gets shown on our site. This consists of two entries which are relevant
 to the list of issues the project has available for new contributors:
 
 - the `name` being the label assigned to these issues
-- the `link` is the URL to find those issues
+- the `link` is the URL to navigate to that list of issues
 
-We leverage GitHub integration on the site to provide a polished experience,
-but we accept any link here as long as it points to a list of issues.
+We leverage GitHub integration on the site to provide more information about the
+project leveraging the GitHub API, but we accept any link here as long as it
+points to a list of issues.
 
 If you're not sure what to provide, here are some examples of other projects
 that are listed:

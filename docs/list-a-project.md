@@ -1,6 +1,7 @@
 # List a Project
 
-This document walks through the process of submitting a project to Up for Grabs
+This document outlines the process of submitting a project to be listed on Up
+for Grabs.
 
 ## Criteria
 
@@ -12,8 +13,8 @@ We are interested in active open source projects that meet this criteria:
   help them learn more about open source
 
 If you project does not satisfy all of this criteria, it may be declined at the
-review process. We'll provide suggestions to help address
-these things.
+review process. We'll provide suggestions to help address these things so that
+it may be listed in the future.
 
 ## Add using the GitHub web editor
 
@@ -92,9 +93,10 @@ Fill out the Pull request template to add anything else, and then click
 
 ## Use the Yeoman Generator
 
-If you'd like to use a generator to create the project's file, you can certainly do so!
+If you'd like to use a generator to create the project's file, you can certainly
+do so!
 
-Install the generator, then run it and walk through the steps.
+Install the generator, then run it and walk through the steps:
 
 ```
 npm install -g generator-up-for-grabs

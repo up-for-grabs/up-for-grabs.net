@@ -65,7 +65,7 @@ def reformat_file(full_path)
 
   tags = obj['tags']
 
-  # TODO: use the list of matches in cibuild.rb to replace duplicate values
+  # TODO: use the list of matches in scripts/project.rb to replace incorrect values?
   obj.store('tags', tags.map(&:downcase).map { |s| s.gsub(' ', '-') })
 
   File.open(full_path, 'w') { |f| f.write obj.to_yaml(line_width: 100) }

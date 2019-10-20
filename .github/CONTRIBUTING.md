@@ -90,7 +90,7 @@ This script scans all the data files under `_data/projects` to verify they can b
 parsed correctly, and have the expected schema defined.
 
 ```
-$ ruby scripts/cibuild.rb
+$ ruby scripts/validate_data_files.rb
 ```
 
 If you run this and it reports an error, check the file and fix the error before

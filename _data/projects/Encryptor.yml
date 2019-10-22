@@ -5,9 +5,6 @@ tags:
 - python
 - encryption
 - aes
-- up-for-grabs
-- beginner
-- help-wanted
 upforgrabs:
   name: good first issue
   link: https://github.com/ScorchingShade/Encryptor/labels/good%20first%20issue

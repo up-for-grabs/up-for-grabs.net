@@ -2,9 +2,9 @@ name: data science
 desc: It is for data science enthusiasts like me
 site: https://github.com/snehit31/datasciencecoursera
 tags: 
-- data science
-- r language
+- datascience
+- rlanguage
 - python
-- machine learning
+- machinelearning
 name: datasciencecoursera
 link: https://github.com/snehit31/datasciencecoursera

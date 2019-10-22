@@ -20,7 +20,7 @@ The contents of the file are just some details about the project:
 ```yaml
 name: *project name*
 desc: *a brief description of the project*
-site: *home page or repository URL*
+site: *home page or repository URL.
 tags:
 # Note: these are tags categorizing the project, not issue labels.
 - *tags*

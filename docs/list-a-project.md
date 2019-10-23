@@ -12,7 +12,7 @@ We are interested in active open source projects that meet this criteria:
 - maintainers are happy and willing to review and work with new contributors to
   help them learn more about open source
 
-If you project does not satisfy all of this criteria, it may be declined at the
+If your project does not satisfy all of this criteria, it may be declined at the
 review process. We'll provide suggestions to help address these things so that
 it may be listed in the future.
 

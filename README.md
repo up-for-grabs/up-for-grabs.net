@@ -1,16 +1,16 @@
-up-for-grabs.net
-![Continuous Integration  status](https://github.com/up-for-grabs/up-for-grabs.net/workflows/Continuous%20Integration/badge.svg)
+[up-for-grabs.net](https://up-for-grabs.net/)
+![Continuous Integration status](https://github.com/up-for-grabs/up-for-grabs.net/workflows/Continuous%20Integration/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0ee7bf9f-1aed-465b-8e9e-01de009a8a7e/deploy-status)](https://app.netlify.com/sites/up-for-grabs-test-bench/deploys)
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors)
 ================
 
-Do you run or participate in an open-source project? Submit a Pull Request to add it to the list!
+<a href="https://up-for-grabs.net/"><img width="814" src="https://user-images.githubusercontent.com/359239/67390578-50f83a00-f573-11e9-835d-02eb9e019afb.png"></a>
 
-Visit the website: [up-for-grabs.net](https://up-for-grabs.net/)
+This repository contains the content for the Up-For-Grabs website.
 
 ## List your project
 
-If you know of a project that should be listed on Up for Grabs,
+If you know of or own a project that should be listed on Up for Grabs,
 [follow the instructions to open a pull request](docs/list-a-project.md).
 
 ## Contributing

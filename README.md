@@ -1,12 +1,8 @@
-up-for-grabs.net
+[up-for-grabs.net](https://up-for-grabs.net/)
 ![Continuous Integration  status](https://github.com/up-for-grabs/up-for-grabs.net/workflows/Continuous%20Integration/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0ee7bf9f-1aed-465b-8e9e-01de009a8a7e/deploy-status)](https://app.netlify.com/sites/up-for-grabs-test-bench/deploys)
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors)
 ================
-
-Do you run or participate in an open-source project? Submit a Pull Request to add it to the list!
-
-Visit the website: [up-for-grabs.net](https://up-for-grabs.net/)
 
 ## List your project
 

@@ -1,0 +1,10 @@
+name: Encryptor
+desc: A password encryptor package for Linux
+site: https://github.com/ScorchingShade/Encryptor
+tags:
+- python
+- encryption
+- aes
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ScorchingShade/Encryptor/labels/good%20first%20issue

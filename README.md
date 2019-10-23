@@ -10,7 +10,7 @@ Visit the website: [up-for-grabs.net](https://up-for-grabs.net/)
 
 ## List your project
 
-If you know of a project that should be listed on Up for Grabs,
+If you know of or own a project that should be listed on Up for Grabs,
 [follow the instructions to open a pull request](docs/list-a-project.md).
 
 ## Contributing

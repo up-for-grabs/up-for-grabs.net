@@ -50,7 +50,7 @@ html, body {
   height: 100%; }
 
 body {
-  background: #f9f9f9;
+  background: #CD5CFC;
   color: #303030;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -67,12 +67,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3 {
   font-family: 'Cookie', cursive;  
-  margin-bottom: 20px;
-  color: #2E7BA9;
+  margin-bottom: 30px;
+  color: #F08080;
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 60px;
 }
 
 .block h1 {

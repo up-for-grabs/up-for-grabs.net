@@ -1,0 +1,16 @@
+---
+name: Blossom-Grid
+desc: >-
+  Blossom Grid is an Angular based grid with CRUD functionalities.
+site: https://github.com/nayyhaa/blossom-grid
+tags:
+- Angular6
+- Html
+- CSS
+- Typescript
+upforgrabs:
+  name: modidiction required
+  link: https://github.com/nayyhaa/blossom-grid
+stats:
+  issue-count: 1
+  last-updated: '2019-8-08T14:02:58Z'

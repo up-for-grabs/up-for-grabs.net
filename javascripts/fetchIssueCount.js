@@ -77,14 +77,16 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
   function inspectRateLimitError(response) {
     const rateLimited = response.headers.get('X-RateLimit-Remaining') === '0';
     const rateLimitReset = response.headers.get('X-RateLimit-Reset');
+
     if (rateLimited && rateLimitReset) {
       const rateLimitResetAt = new Date(1000 * rateLimitReset);
       setValue(RateLimitResetAtKey, rateLimitResetAt);
       return new Error(
-        'GitHub rate limit met. Reset at ' +
-          rateLimitResetAt.toLocaleTimeString()
+        `GitHub rate limit met. Reset at ${rateLimitResetAt.toLocaleTimeString()}`
       );
     }
+
+    return undefined;
   }
 
   /**
@@ -98,7 +100,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
   function inspectGenericError(json, response) {
     const { message } = json;
     const errorMessage = message || response.statusText;
-    return new Error('Could not get issue count from GitHub: ' + errorMessage);
+    return new Error(`Could not get issue count from GitHub: ${errorMessage}`);
   }
 
   /**
@@ -134,7 +136,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
 
       if (d > now) {
         return Promise.reject(
-          new Error('GitHub rate limit met. Reset at ' + d.toLocaleTimeString())
+          new Error(`GitHub rate limit met. Reset at ${d.toLocaleTimeString()}`)
         );
       }
 
@@ -146,13 +148,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
     // TODO: we're not extracting the leading or trailing slash in
     //       `ownerAndName` when the previous regex is passed in here. This
     //       would be great to cleanup at some stage
-    const apiURL =
-      'https://api.github.com/repos' +
-      ownerAndName +
-      'issues?labels=' +
-      label +
-      '&per_page=' +
-      perPage;
+    const apiURL = `https://api.github.com/repos${ownerAndName}issues?labels=${label}&per_page=${perPage}`;
 
     const settings = {
       method: 'GET',
@@ -209,7 +205,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
             if (lastPageMatch && lastPageMatch.length === 3) {
               const lastPageCount = Number(lastPageMatch[2]);
               const baseCount = perPage * (lastPageCount - 1);
-              const count = baseCount + '+';
+              const count = `${baseCount}+`;
 
               setValue(ownerAndName, {
                 count,

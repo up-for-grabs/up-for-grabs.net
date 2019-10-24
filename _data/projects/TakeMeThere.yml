@@ -1,0 +1,15 @@
+---
+name: Take Me There
+desc: A URL Shortening service powered by Google Apps Script
+site: https://tmt.pw
+tags:
+- google-apps-script
+- url-shortener
+- github-pages
+- open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/schoraria911/gas-url-shortener/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2019-10-22T02:49:52Z'

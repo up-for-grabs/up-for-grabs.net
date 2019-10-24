@@ -1,0 +1,16 @@
+---
+name: Blokaroka
+desc: Widgit for displaying blocks you can play with on your Windows desktop.
+site: https://blokaroka.com
+tags:
+- c++
+- widget
+- windows
+- game
+- toy
+upforgrabs:
+  name: help wanted
+  link: https://github.com/michaelplzno/Blokaroka/labels/help%20wanted
+stats:
+  issue-count: 6
+  last-updated: '2019-10-15T04:18:31Z'

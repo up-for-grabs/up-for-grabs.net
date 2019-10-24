@@ -1,0 +1,17 @@
+---
+name: Vulnerous
+desc: >-
+  A complete vulnerability analysis, ethical hacking, network monitoring, encryption etc. tool for linux
+site: https://github.com/ScorchingShade/Vulnerous
+tags:
+- ethical-hacking
+- python
+- shellscript
+- vulnerability
+- tool
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ScorchingShade/Vulnerous/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2019-10-22T20:01:41Z'

@@ -1,5 +1,5 @@
 ---
-name: faas
+name: OpenFaaS
 desc: OpenFaaS - Serverless Functions Made Simple
 site: https://www.openfaas.com/
 tags:

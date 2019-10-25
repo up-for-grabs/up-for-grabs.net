@@ -13,7 +13,7 @@ This repository contains the content for the Up-For-Grabs website.
 If you know of or own a project that should be listed on Up for Grabs,
 [follow the instructions to open a pull request](docs/list-a-project.md).
 
-## Contributing
+## How to contribute to this project?
 
 If you would like to get involved with the project, please read the
 [CONTRIBUTING.md](.github/CONTRIBUTING.md) file as it contains:

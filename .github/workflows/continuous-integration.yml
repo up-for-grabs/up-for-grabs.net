@@ -44,5 +44,5 @@ jobs:
         bundle install --jobs 4 --retry 3
         bundle exec rubocop
         bundle exec jekyll build
-        ruby scripts/validate_data_files.rb
+        bundle exec ruby scripts/validate_data_files.rb
 

@@ -1,0 +1,10 @@
+name: Kwik
+desc: A property-based testing library for Kotlin
+site: https://kwik.readthedocs.io
+tags:
+  - kotlin
+  - libraries
+  - testing
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/jcornaz/kwik/labels/up%20for%20grabs

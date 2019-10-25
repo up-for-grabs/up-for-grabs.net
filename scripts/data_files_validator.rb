@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-require_relative 'project.rb'
+require 'up_for_grabs_tooling'
+
+require_relative 'project_validator'
 
 # Validate the data files
 class DataFilesValidator
@@ -17,7 +19,7 @@ class DataFilesValidator
     schemer = JSONSchemer.schema(schema)
 
     projects.each do |p|
-      validation_errors = p.validation_errors(schemer)
+      validation_errors = ProjectValidator.validate(p, schemer)
       if validation_errors.empty?
         projects_without_issues << [p, nil]
       else

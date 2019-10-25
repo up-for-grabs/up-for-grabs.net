@@ -2,19 +2,12 @@
 
 # Represents the checks performed on a project to ensure it can be parsed
 # and used as site data in Jekyll
-class Project
-  attr_accessor :full_path, :relative_path
-
-  def initialize(relative_path, full_path)
-    @relative_path = relative_path
-    @full_path = full_path
-  end
-
-  def validation_errors(schemer)
+class ProjectValidator
+  def self.validate(project, schemer)
     errors = []
 
     begin
-      yaml = YAML.safe_load(File.read(@full_path))
+      yaml = project.read_yaml
     rescue Psych::SyntaxError => e
       errors << "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
     rescue StandardError
@@ -36,9 +29,7 @@ class Project
     errors
   end
 
-  private
-
-  def format_error(err)
+  def self.format_error(err)
     field = err.fetch('data_pointer')
     value = err.fetch('data')
     type = err.fetch('type')
@@ -94,7 +85,7 @@ class Project
     'react' => 'reactjs'
   }.freeze
 
-  def validate_preferred_tags(tags)
+  def self.validate_preferred_tags(tags)
     errors = []
 
     tags.each do |tag|
@@ -106,7 +97,7 @@ class Project
     errors
   end
 
-  def validate_tags(yaml)
+  def self.validate_tags(yaml)
     errors = []
 
     tags = yaml['tags']
@@ -121,4 +112,6 @@ class Project
 
     errors
   end
+
+  private_class_method :format_error, :validate_preferred_tags, :validate_tags
 end

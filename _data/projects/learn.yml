@@ -1,0 +1,14 @@
+name: LearnAwesome
+desc: Humanity's universal learning map
+site: https://learnawesome.org
+tags:
+  - ruby
+  - rails
+  - css
+  - html
+  - javascript
+  - education
+  - learning
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/learn-awesome/learn/labels/up-for-grabs

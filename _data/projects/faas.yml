@@ -1,6 +1,6 @@
 ---
 name: OpenFaaS
-desc: OpenFaaS - Serverless Functions Made Simple
+desc: Serverless Functions Made Simple
 site: https://www.openfaas.com/
 tags:
 - faas

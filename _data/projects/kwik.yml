@@ -3,8 +3,7 @@ desc: A property-based testing library for Kotlin
 site: https://kwik.readthedocs.io
 tags:
   - kotlin
-  - library
-  - test
+  - libraries
   - testing
 upforgrabs:
   name: up for grabs

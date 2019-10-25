@@ -29,8 +29,6 @@ class ProjectValidator
     errors
   end
 
-  private
-
   def self.format_error(err)
     field = err.fetch('data_pointer')
     value = err.fetch('data')
@@ -114,4 +112,6 @@ class ProjectValidator
 
     errors
   end
+
+  private_class_method :format_error, :validate_preferred_tags, :validate_tags
 end

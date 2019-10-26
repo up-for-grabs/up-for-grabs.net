@@ -2,3 +2,5 @@ source 'https://rubygems.org'
 
 gem 'octokit'
 gem 'safe_yaml'
+
+gem 'up_for_grabs_tooling', :git => 'https://github.com/up-for-grabs/tooling.git', :branch => 'master'

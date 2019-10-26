@@ -3,13 +3,12 @@
 # Check the projects directory for anything invalid
 class DirectoryReporter
   def self.check(root)
-
     result = DirectoryValidator.validate(root)
 
     invalid_data_files_count = result[:invalid_data_files].length
     project_files_at_root_count = result[:project_files_at_root].length
 
-    error = invalid_data_files_count.positive?  || project_files_at_root_count.positive?
+    error = invalid_data_files_count.positive? || project_files_at_root_count.positive?
 
     if invalid_data_files_count.positive?
       puts "#{invalid_data_files_count} files found in projects directory which are not YAML files:"

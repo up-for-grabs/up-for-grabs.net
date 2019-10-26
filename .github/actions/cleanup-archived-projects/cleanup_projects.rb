@@ -5,53 +5,7 @@ require 'uri'
 require 'octokit'
 require 'pathname'
 
-def valid_url?(url)
-  uri = URI.parse(url)
-  uri.is_a?(URI::HTTP) || uri.is_a?(URI::HTTPS)
-rescue URI::InvalidURIError
-  false
-end
-
-def try_read_owner_repo(url)
-  # path semgent in Ruby looks like /{owner}/repo so we drop the
-  # first array value (which should be an empty string) and then
-  # combine the next two elements
-
-  path_segments = url.path.split('/')
-
-  # this likely means the URL points to a filtered search URL
-  return nil if path_segments.length < 3
-
-  values = path_segments.drop(1).take(2)
-
-  # points to a project board for the organization
-  return nil if values[0].casecmp('orgs').zero?
-
-  values.join('/')
-end
-
-def find_github_url(url)
-  return nil unless valid_url?(url)
-
-  uri = URI.parse(url)
-
-  return nil unless uri.host.casecmp('github.com').zero?
-
-  try_read_owner_repo(uri)
-end
-
-def find_owner_repo_pair(yaml)
-  site = yaml['site']
-  owner_and_repo = find_github_url(site)
-
-  return owner_and_repo if owner_and_repo
-
-  upforgrabs = yaml['upforgrabs']['link']
-  owner_and_repo = find_github_url(upforgrabs)
-  return owner_and_repo if owner_and_repo
-
-  nil
-end
+require 'up_for_grabs_tooling'
 
 def get_pull_request_body(reason)
   if reason == 'archived'
@@ -141,23 +95,15 @@ def check_rate_limit
   exit 78
 end
 
-def relative_path(full_path)
-  root = Pathname.new($root_directory)
-  Pathname.new(full_path).relative_path_from(root).to_s
-end
+def verify_project(project)
+  path = project.relative_path
 
-def verify_file(full_path)
-  path = relative_path(full_path)
-  contents = File.read(full_path)
-  yaml = YAML.safe_load(contents, safe: true)
-
-  owner_and_repo = find_owner_repo_pair(yaml)
-
-  if owner_and_repo.nil?
+  unless project.github_project?
     # ignoring entry as we could not find a valid GitHub URL
-    # this likely means it's hosted elsewhere
     return { path: path, error: nil }
   end
+
+  owner_and_repo = project.github_owner_name_pair
 
   check_rate_limit
   repo = $client.repo owner_and_repo
@@ -176,9 +122,8 @@ rescue Psych::SyntaxError => e
 rescue Octokit::NotFound
   # The repository no longer exists in the GitHub API
   { path: path, deprecated: true, reason: 'missing' }
-rescue StandardError
-  error = 'Unknown exception for file: ' + $ERROR_INFO.to_s
-  { path: path, deprecated: false, error: error }
+rescue StandardError => e
+  { path: path, deprecated: false, error: "Unknown exception for file: #{e}" }
 end
 
 repo = ENV['GITHUB_REPOSITORY']
@@ -191,9 +136,14 @@ $client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
 
 $root_directory = ENV['GITHUB_WORKSPACE']
 verbose = ENV['VERBOSE_OUTPUT']
-projects = File.join($root_directory, '_data', 'projects', '*.yml')
+apply_changes = ENV['APPLY_CHANGES']
 
-results = Dir.glob(projects).map { |path| verify_file(path) }
+projects = Dir["#{$root_directory}/_data/projects/*.yml"].map do |f|
+  relative_path = Pathname.new(f).relative_path_from($root_directory).to_s
+  Project.new(relative_path, f)
+end
+
+results = projects.map { |p| verify_project(p) }
 
 errors = 0
 success = 0
@@ -208,9 +158,11 @@ results.each do |result|
 
     if !pr.nil?
       puts "Project #{file_path} has existing PR ##{pr.number} to remove file..."
-    else
+    elsif apply_changes
       pr = create_pull_request_removing_file(repo, file_path, result[:reason])
       puts "Opened PR ##{pr.number} to remove project '#{file_path}'..." unless pr.nil?
+    else
+      puts "Because APPLY_CHANGES not set, PR to remove project '#{file_path}' not started..."
     end
     errors += 1
   elsif !result[:error].nil?

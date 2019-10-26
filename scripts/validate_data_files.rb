@@ -5,6 +5,7 @@ require 'uri'
 require 'pathname'
 require 'find'
 require 'json_schemer'
+require 'up_for_grabs_tooling'
 
 require_relative 'directory_reporter.rb'
 require_relative 'data_files_reporter.rb'

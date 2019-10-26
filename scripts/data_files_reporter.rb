@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'up_for_grabs_tooling'
-
 # Validate the data files
 class DataFilesReporter
   def self.check(root)

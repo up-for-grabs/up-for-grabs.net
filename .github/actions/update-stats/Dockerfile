@@ -12,4 +12,4 @@ RUN bundle install
 
 COPY . .
 
-ENTRYPOINT ["ruby", "/update_stats.rb"]
+ENTRYPOINT ["bundle", "exec", "ruby", "/update_stats.rb"]

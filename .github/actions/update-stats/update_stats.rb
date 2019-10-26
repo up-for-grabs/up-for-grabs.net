@@ -7,123 +7,45 @@ require 'pathname'
 require 'graphql/client'
 require 'graphql/client/http'
 
-SafeYAML::OPTIONS[:default_mode] = :safe
+require 'up_for_grabs_tooling'
 
-def valid_url?(url)
-  uri = URI.parse(url)
-  uri.is_a?(URI::HTTP) || uri.is_a?(URI::HTTPS)
-rescue URI::InvalidURIError
-  false
-end
+def find_values_to_query_api(project)
+  unless project.github_project?
+    puts "Skipping project #{project.relative_path} as UpForGrabs URL is not on GitHub"
+    return
+  end
 
-def try_read_owner_repo(url)
-  # path semgent in Ruby looks like /{owner}/repo so we drop the
-  # first array value (which should be an empty string) and then
-  # combine the next two elements
-
-  path_segments = url.path.split('/')
-
-  # this likely means the URL points to a filtered search URL
-  return nil if path_segments.length < 3
-
-  values = path_segments.drop(1).take(2)
-
-  # points to a project board for the organization
-  return nil if values[0].casecmp('orgs').zero?
-
-  values.join('/')
-end
-
-def find_github_url(url)
-  return nil unless valid_url?(url)
-
-  uri = URI.parse(url)
-
-  return nil unless uri.host.casecmp('github.com').zero?
-
-  try_read_owner_repo(uri)
-end
-
-def find_owner_repo_pair(yaml)
-  site = yaml['site']
-  owner_and_repo = find_github_url(site)
-
-  return owner_and_repo if owner_and_repo
-
-  upforgrabs = yaml['upforgrabs']['link']
-  find_github_url(upforgrabs)
-end
-
-def relative_path(full_path)
-  root = Pathname.new($root_directory)
-  Pathname.new(full_path).relative_path_from(root).to_s
-end
-
-def reformat_file(full_path)
-  yaml = File.read(full_path)
-  obj = YAML.safe_load(yaml)
-
-  tags = obj['tags']
-
-  # TODO: use the list of matches in scripts/project.rb to replace incorrect values?
-  obj.store('tags', tags.map(&:downcase).map { |s| s.gsub(' ', '-') })
-
-  File.open(full_path, 'w') { |f| f.write obj.to_yaml(line_width: 100) }
-end
-
-def update_project_stats(full_path, count, updated_at)
-  yaml = File.read(full_path)
-  obj = YAML.safe_load(yaml)
-
-  # TODO: do we need to be careful here
-  obj.store('stats', 'issue-count' => count, 'last-updated' => updated_at)
-
-  File.open(full_path, 'w') { |f| f.write obj.to_yaml(line_width: 100) }
-end
-
-def find_values_to_query_api(full_path)
-  contents = File.read(full_path)
-  yaml = YAML.safe_load(contents)
-
-  owner_and_repo = find_owner_repo_pair(yaml)
-
-  return if owner_and_repo.nil?
+  owner_and_repo = project.github_owner_name_pair
 
   items = owner_and_repo.split('/')
   owner = items[0]
   name = items[1]
 
-  link = yaml['upforgrabs']['link']
-
-  unless link.start_with?('https://github.com/')
-    puts "Skipping project #{owner_and_repo} as UpForGrabs URL is outside GitHub"
-    return nil
-  end
-
+  yaml = project.read_yaml
   label = yaml['upforgrabs']['name']
 
   [owner, name, label]
 end
 
-def update_stats(full_path, repository, owner_and_repo, label)
+def update_stats(project, repository, owner_and_repo, label)
   if repository.nil?
     puts "Cannot find repository for project '#{owner_and_repo}'"
   elsif repository.label.nil?
     puts "Cannot find label '#{label}' for project '#{owner_and_repo}'"
   else
-    count = repository.label.issues.total_count
-    updated_at = repository.updated_at
+    stats = {
+      count: repository.label.issues.total_count,
+      updated_at: repository.updated_at
+    }
 
-    update_project_stats(full_path, count, updated_at) if $apply_changes
+    project.update(stats) if $apply_changes
   end
 end
 
-def verify_file(full_path)
-  reformat_file full_path
+def verify_project(project)
+  project.format_yaml
 
-  path = relative_path(full_path)
-
-  result = find_values_to_query_api(full_path)
+  result = find_values_to_query_api(project)
   return if result.nil?
 
   owner, name, label = result
@@ -132,7 +54,7 @@ def verify_file(full_path)
 
   result = $GraphQLClient.query(IssueCountForLabel, variables: variables)
 
-  update_stats(full_path, result.data.repository, "#{owner}/#{name}", label)
+  update_stats(project, result.data.repository, "#{owner}/#{name}", label)
 
   rate_limit = result.data.rate_limit
   resets_in = Time.parse(rate_limit.reset_at) - Time.now
@@ -150,11 +72,11 @@ def verify_file(full_path)
     exit 78
   end
 rescue Psych::SyntaxError => e
-  puts "Unable to parse the contents of file #{path} - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
+  puts "Unable to parse the contents of file #{project.relative_path} - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
 rescue GraphQL::Client::Error => e
-  puts "GraphQL exception for file #{path}: '#{e}'"
+  puts "GraphQL exception for file #{project.relative_path}: '#{e}'"
 rescue StandardError => e
-  puts "Unknown exception for file #{path}: '#{e}'"
+  puts "Unknown exception for file #{project.relative_path}: '#{e}'"
 end
 
 repo = ENV['GITHUB_REPOSITORY']
@@ -201,7 +123,6 @@ GRAPHQL
 $root_directory = ENV['GITHUB_WORKSPACE']
 $verbose = ENV['VERBOSE_OUTPUT']
 $apply_changes = ENV['APPLY_CHANGES']
-projects = File.join($root_directory, '_data', 'projects', '*.yml')
 
 current_repo = ENV['GITHUB_REPOSITORY']
 
@@ -215,7 +136,12 @@ if found_pr
   exit 78
 end
 
-Dir.glob(projects).each { |path| verify_file(path) }
+projects = Dir["#{$root_directory}/_data/projects/*.yml"].map do |f|
+  relative_path = Pathname.new(f).relative_path_from($root_directory).to_s
+  Project.new(relative_path, f)
+end
+
+projects.each { |p| verify_project(p) }
 
 unless $apply_changes
   puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'

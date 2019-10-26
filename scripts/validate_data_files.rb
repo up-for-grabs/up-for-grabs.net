@@ -6,10 +6,10 @@ require 'pathname'
 require 'find'
 require 'json_schemer'
 
-require_relative 'directory_validator.rb'
-require_relative 'data_files_validator.rb'
+require_relative 'directory_reporter.rb'
+require_relative 'data_files_reporter.rb'
 
-root = File.expand_path('..', __dir__)
+root = File.dirname(__dir__)
 
-DirectoryValidator.check(root)
-DataFilesValidator.check(root)
+DirectoryReporter.check(root)
+DataFilesReporter.check(root)

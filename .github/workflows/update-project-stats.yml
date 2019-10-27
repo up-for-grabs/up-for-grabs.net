@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: .github/actions/update-stats
+    - uses: ./.github/actions/update-stats
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         APPLY_CHANGES: 1

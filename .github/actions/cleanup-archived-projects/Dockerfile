@@ -12,4 +12,4 @@ RUN bundle install
 
 COPY . .
 
-ENTRYPOINT ["bundle", "exec", "ruby", "/cleanup_projects.rb"]
+ENTRYPOINT ["/run.sh"]

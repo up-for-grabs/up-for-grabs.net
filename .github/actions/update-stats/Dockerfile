@@ -8,6 +8,8 @@ LABEL "com.github.actions.color"="blue"
 
 COPY Gemfile ./
 
+RUN bundle version
+
 RUN bundle install
 
 COPY . .

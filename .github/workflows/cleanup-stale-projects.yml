@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Cleanup archived projects
-      uses: ./.github/actions/cleanup-archived-projects
+      uses: .github/actions/cleanup-archived-projects
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         APPLY_CHANGES: 1

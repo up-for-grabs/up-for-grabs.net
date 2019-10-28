@@ -136,10 +136,7 @@ if found_pr
   exit 78
 end
 
-projects = Dir["#{$root_directory}/_data/projects/*.yml"].map do |f|
-  relative_path = Pathname.new(f).relative_path_from($root_directory).to_s
-  Project.new(relative_path, f)
-end
+projects = Project.find_in_directory($root_directory)
 
 projects.each { |p| verify_project(p) }
 

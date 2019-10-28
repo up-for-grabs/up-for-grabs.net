@@ -1,0 +1,14 @@
+name: Happy Hacktoberfest 2019
+desc: Welcome hackers! This project is a beginner-friendly initiative, a fun little ditty to help you get creative with open source.
+site: https://evie-skinner18.github.io/happy_hacktoberfest_19/
+tags:
+  - javascript
+  - html
+  - css
+  - good first issue
+  - hacktoberfest
+  - up-for-grabs
+  - first-timers-only
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Evie-Skinner18/happy_hacktoberfest_19/labels/good%20first%20issue

@@ -72,7 +72,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 58px;
 }
 
 .block h1 {
@@ -564,7 +564,11 @@ form {
   display: inline-block;
   padding: 2px 8px;
 }
-
+.projects .label a:hover {
+  color: #FFF;
+  font-size:1.1em;
+  padding: 4px 10px;
+}
 .projects .tags {
   font-size: 12px;
   font-style: italic;

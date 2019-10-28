@@ -1,7 +1,7 @@
 ---
 name: cloud-sample-app-express
 desc: Express JS application meant for use with the Dancing Goat sample project within Kentico Cloud.
-site: https://github.com/Kentico/cloud-sample-app-express
+site: https://github.com/Kentico/kontent-expressjs-app
 tags:
 - javascript
 - kentico
@@ -14,7 +14,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/cloud-sample-app-express/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-expressjs-app/labels/up-for-grabs
 stats:
   issue-count: 0
   last-updated: '2019-10-21T14:26:30Z'

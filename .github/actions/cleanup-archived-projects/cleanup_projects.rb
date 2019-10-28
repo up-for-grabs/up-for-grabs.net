@@ -46,9 +46,7 @@ def cleanup_deprecated_projects(root, current_repo, projects)
     unless clean
       system("git checkout -b #{branch_name}")
       system("git commit -am 'removed deprecated projects'")
-      if apply_changes
-        system("git push origin #{branch_name}")
-      end
+      system("git push origin #{branch_name}") if apply_changes
     end
   end
 
@@ -56,9 +54,7 @@ def cleanup_deprecated_projects(root, current_repo, projects)
 
   body = "This PR removes projects that have been marked as archived by the GitHub API, or cannot be found:\n\n #{list}"
 
-  if apply_changes
-    client.create_pull_request(current_repo, 'gh-pages', branch_name, title, body) 
-  end
+  client.create_pull_request(current_repo, 'gh-pages', branch_name, title, body) if apply_changes
 end
 
 def verify_project(project)
@@ -120,9 +116,9 @@ deprecated_projects.each do |r|
 end
 
 if deprecated_projects.any?
-  cleanup_deprecated_projects($root_directory, current_repo, deprecated_projects) 
+  cleanup_deprecated_projects($root_directory, current_repo, deprecated_projects)
 else
-  puts "No deprecated projects found..."
+  puts 'No deprecated projects found...'
 end
 
 finish = Time.now

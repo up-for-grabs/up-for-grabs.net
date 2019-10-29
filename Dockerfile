@@ -6,6 +6,7 @@ ENV JSON_GEM_VERSION 1.8.6
 RUN apk --update add --virtual build_deps \
     build-base ruby-dev libc-dev linux-headers \
   && gem install --verbose --no-document \
+    bundler \
     json:${JSON_GEM_VERSION} \
     github-pages:${GITHUB_GEM_VERSION} \
     jekyll-github-metadata \

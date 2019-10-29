@@ -9,5 +9,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/influxdata/influxdb/labels/help%20wanted
 stats:
-  issue-count: 1
-  last-updated: '2019-10-28T08:26:25Z'
+  issue-count: 0
+  last-updated: '2019-10-29T08:20:01Z'

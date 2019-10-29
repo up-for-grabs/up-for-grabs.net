@@ -3,7 +3,7 @@ desc: An all-purpose chatbot for UC Berkeley students built on Cisco's Webex Tea
 site: https://github.com/mbzhu1/oskibot
 tags:
   - chatbot
-  - hacktoberfest
+  - node.js
   - azure
 upforgrabs:
   name: up-for-grabs

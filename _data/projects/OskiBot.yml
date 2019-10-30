@@ -1,10 +1,14 @@
+---
 name: OskiBot
 desc: An all-purpose chatbot for UC Berkeley students built on Cisco's Webex Teams messaging application
 site: https://github.com/mbzhu1/oskibot
 tags:
-  - chatbot
-  - node.js
-  - azure
+- chatbot
+- node.js
+- azure
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/mbzhu1/oskibot/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-10-29T20:45:02Z'

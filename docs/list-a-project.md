@@ -1,7 +1,6 @@
 # List a Project
 
-This document outlines the process of submitting a project to be listed on Up
-for Grabs.
+This document outlines the process of submitting a project to be listed on Up-For-Grabs.
 
 ## Criteria
 
@@ -48,7 +47,7 @@ tags:
   - the
   - project
 upforgrabs:
-  name: up for grabs
+  name: Up-For-Grabs
   link: https://github.com/username/project/labels/up%20for%20grabs
 ```
 

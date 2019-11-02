@@ -1,11 +1,15 @@
+---
 name: game-of-life
 desc: Conway's game of life web version!
 site: https://github.com/TroyTae/game-of-life
 tags:
-  - web
-  - javascript
-  - typescript
-  - game-of-life
+- web
+- javascript
+- typescript
+- game-of-life
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/TroyTae/game-of-life/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2019-11-02T06:32:02Z'

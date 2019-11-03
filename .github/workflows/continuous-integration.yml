@@ -5,6 +5,7 @@ on:
   push:
     branches:
     - gh-pages
+    - 'updated-stats-[0-9]+'
 
 jobs:
   docker:

@@ -145,8 +145,6 @@ end
 
 clean = true
 
-branch_name = Time.now.strftime('updated-stats-%Y%m%d')
-
 Dir.chdir($root_directory) do
   system('git config --global user.name "github-actions"')
   system('git config --global user.email "github-actions@users.noreply.github.com"')

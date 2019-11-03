@@ -28,7 +28,7 @@ def cleanup_deprecated_projects(root, current_repo, projects)
     project = r[:project]
     file = project.full_path
     File.delete(file) if File.exist?(file)
-    list << " - #{project.relative_path} - '#{r[:reason]}'\n"
+    list += " - #{project.relative_path} - '#{r[:reason]}'\n"
   end
 
   clean = true

@@ -1,0 +1,13 @@
+name: Merge Successful Branch
+
+on: status
+
+jobs:
+  mergeC:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Merge successful branch
+      uses: ./.github/actions/merge-successful-branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

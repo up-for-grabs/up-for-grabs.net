@@ -116,7 +116,7 @@ deprecated_projects.each do |r|
 end
 
 if deprecated_projects.any?
-  cleanup_deprecated_projects($root_directory, current_repo, deprecated_projects)
+  cleanup_deprecated_projects(root, current_repo, deprecated_projects)
 else
   puts 'No deprecated projects found...'
 end

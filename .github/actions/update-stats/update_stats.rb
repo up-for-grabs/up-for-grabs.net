@@ -165,10 +165,10 @@ Dir.chdir($root_directory) do
         puts " - #{key}:"
         errors.each { |error| puts "    - #{error}" }
       end
-      puts "Not pushing to default branch. Need to investigate what went wrong."
+      puts 'Not pushing to default branch. Need to investigate what went wrong.'
     else
       system("git commit -am 'regenerated project stats'")
-      system("git push origin gh-pages")
+      system('git push origin gh-pages')
     end
   end
 end

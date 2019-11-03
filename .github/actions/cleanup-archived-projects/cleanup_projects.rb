@@ -7,20 +7,22 @@ require 'pathname'
 
 require 'up_for_grabs_tooling'
 
-def cleanup_deprecated_projects(root, current_repo, projects)
-  apply_changes = ENV['APPLY_CHANGES']
-
+def has_existing_pull_request?(current_repo)
   client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
   prs = client.pulls current_repo
 
-  title = 'Remove projects detected as deprecated'
-
-  found_pr = prs.find { |pr| pr.title == title && pr.user.login == 'github-actions[bot]' }
+  found_pr = prs.find { |pr| pr.title == 'Remove projects detected as deprecated' && pr.user.login == 'github-actions[bot]' }
 
   if found_pr
     puts "There is a open PR to remove deprecated projects ##{found_pr.number} - review and merge that before we try again"
-    return
+    true
+  else
+    false
   end
+end
+
+def cleanup_deprecated_projects(root, current_repo, projects)
+  client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
 
   list = ''
 
@@ -52,6 +54,7 @@ def cleanup_deprecated_projects(root, current_repo, projects)
 
   return if clean
 
+  title = 'Remove projects detected as deprecated'
   body = "This PR removes projects that have been marked as archived by the GitHub API, or cannot be found:\n\n #{list}"
 
   client.create_pull_request(current_repo, 'gh-pages', branch_name, title, body) if apply_changes
@@ -84,6 +87,8 @@ puts "Inspecting projects files for '#{current_repo}'"
 start = Time.now
 
 root = ENV['GITHUB_WORKSPACE']
+
+return if has_existing_pull_request?(current_repo)
 
 projects = Project.find_in_directory(root)
 github_projects = projects.filter(&:github_project?)

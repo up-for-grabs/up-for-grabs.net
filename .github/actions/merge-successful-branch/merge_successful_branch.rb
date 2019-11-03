@@ -19,7 +19,18 @@ text = file.read
 
 json = text.to_json
 
-puts "Event payload: #{json}"
+puts "Event payload: '#{json}'"
+
+if json['state'] == 'success'
+
+  branches = json['branches']
+
+  branches_matching_pattern = branches.select { |b| b.name ~= /(updated-stats|deprecated-projects)-[0-9]{8}/i }
+
+  branches_matching_pattern.each do |branch|
+  end
+
+end
 
 finish = Time.now
 delta = finish - start

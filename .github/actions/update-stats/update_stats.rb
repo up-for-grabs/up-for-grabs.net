@@ -136,9 +136,7 @@ if found_pr
   exit 0
 end
 
-projects = Project.find_in_directory($root_directory)
-
-projects.each { |p| verify_project(p) }
+Project.find_in_directory($root_directory).each { |p| verify_project(p) }
 
 unless $apply_changes
   puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'

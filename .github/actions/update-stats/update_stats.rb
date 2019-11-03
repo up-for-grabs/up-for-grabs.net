@@ -145,6 +145,8 @@ end
 
 clean = true
 
+branch_name = Time.now.strftime('updated-stats-%Y%m%d')
+
 Dir.chdir($root_directory) do
   system('git config --global user.name "github-actions"')
   system('git config --global user.email "github-actions@users.noreply.github.com"')
@@ -167,8 +169,9 @@ Dir.chdir($root_directory) do
       end
       puts 'Not pushing to default branch. Need to investigate what went wrong.'
     else
+      system("git checkout -b #{branch_name}")
       system("git commit -am 'regenerated project stats'")
-      system('git push origin gh-pages')
+      system("git push origin #{branch_name}")
     end
   end
 end

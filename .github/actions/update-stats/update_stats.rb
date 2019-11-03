@@ -158,16 +158,23 @@ Dir.chdir($root_directory) do
   clean = system('git diff --quiet > /dev/null')
 
   unless clean
-    system("git checkout -b #{branch_name}")
-    system("git commit -am 'regenerated project stats'")
-    system("git push origin #{branch_name}")
+    schema = Pathname.new("#{$root_directory}/schema.json")
+    schemer = JSONSchemer.schema(schema)
+
+    result = DataFilesValidator.validate($root_directory, schemer)
+
+    if result[:errors].any?
+      puts "#{result[:errors].count} files found with errors."
+      result[:errors].each do |key, errors|
+        puts " - #{key}:"
+        errors.each { |error| puts "    - #{error}" }
+      end
+      puts "Not pushing to default branch. Need to investigate what went wrong."
+    else
+      system("git commit -am 'regenerated project stats'")
+      system("git push origin gh-pages")
+    end
   end
-end
-
-unless clean
-  body = 'This PR regenerates the stats for all repositories that use a single label in a single GitHub repository'
-
-  client.create_pull_request(current_repo, 'gh-pages', branch_name, 'Updated project stats', body) if found_pr.nil?
 end
 
 finish = Time.now

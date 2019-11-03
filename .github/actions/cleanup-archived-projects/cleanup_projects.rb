@@ -7,7 +7,7 @@ require 'pathname'
 
 require 'up_for_grabs_tooling'
 
-def has_existing_pull_request?(current_repo)
+def existing_pull_request?(current_repo)
   client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
   prs = client.pulls current_repo
 
@@ -88,7 +88,7 @@ start = Time.now
 
 root = ENV['GITHUB_WORKSPACE']
 
-return if has_existing_pull_request?(current_repo)
+return if existing_pull_request?(current_repo)
 
 projects = Project.find_in_directory(root)
 github_projects = projects.filter(&:github_project?)

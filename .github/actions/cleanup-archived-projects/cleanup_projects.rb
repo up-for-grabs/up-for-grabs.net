@@ -7,178 +7,126 @@ require 'pathname'
 
 require 'up_for_grabs_tooling'
 
-def get_pull_request_body(reason)
-  if reason == 'archived'
-    'This project has been marked as deprecated as the owner has archived the repository, meaning it will not accept new contributions.'
-  elsif reason == 'missing'
-    'This project has been marked as deprecated as it is not reachable via the GitHub API.'
+def existing_pull_request?(current_repo)
+  client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
+  prs = client.pulls current_repo
+
+  found_pr = prs.find { |pr| pr.title == 'Remove projects detected as deprecated' && pr.user.login == 'github-actions[bot]' }
+
+  if found_pr
+    puts "There is a open PR to remove deprecated projects ##{found_pr.number} - review and merge that before we try again"
+    true
   else
-    'This project has been marked as deprecated and can be removed from the list.'
+    false
   end
 end
 
-def create_pull_request_removing_file(repo, path, reason)
-  puts "Creating new pull request for path '#{path}'"
-  file_name = File.basename(path, '.yml')
-  branch_name = "projects/deprecated/#{file_name}"
+def cleanup_deprecated_projects(root, current_repo, projects)
+  client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
 
-  sha = ENV['GITHUB_SHA']
+  list = ''
 
-  short_ref = "heads/#{branch_name}"
-
-  begin
-    check_rate_limit
-    found_ref = $client.ref(repo, short_ref)
-  rescue StandardError
-    found_ref = nil
+  projects.each do |r|
+    project = r[:project]
+    file = project.full_path
+    File.delete(file) if File.exist?(file)
+    list += " - \`#{project.relative_path}\` - '#{r[:reason]}'\n"
   end
 
-  begin
-    check_rate_limit
-    if found_ref.nil?
-      puts "Creating ref for '#{short_ref}' to point to '#{sha}'"
-      $client.create_ref(repo, short_ref, sha)
-    else
-      puts "Updating ref for '#{short_ref}' from #{found_ref.object.sha} to '#{sha}'"
-      $client.update_ref(repo, short_ref, sha, true)
-    end
+  clean = true
 
-    check_rate_limit
-    content = $client.contents(repo, path: path, ref: 'gh-pages')
+  branch_name = Time.now.strftime('deprecated-projects-%Y%m%d')
 
-    check_rate_limit
-    $client.delete_contents(repo, path, 'Removing deprecated project from list', content.sha, branch: branch_name)
+  Dir.chdir(root) do
+    system('git config --global user.name "github-actions"')
+    system('git config --global user.email "github-actions@users.noreply.github.com"')
 
-    check_rate_limit
-    $client.create_pull_request(repo, 'gh-pages', branch_name, "Deprecated project: #{file_name}.yml", get_pull_request_body(reason))
-  rescue StandardError
-    puts "Unable to create pull request to remove project #{path} - '#{$ERROR_INFO}''"
-    nil
-  end
-end
+    system("git remote set-url origin 'https://x-access-token:#{ENV['GITHUB_TOKEN']}@github.com/#{current_repo}.git'")
 
-def find_pull_request_removing_file(repo, path)
-  check_rate_limit
-  prs = $client.pulls(repo)
+    clean = system('git diff --quiet > /dev/null')
 
-  found_pr = nil
-
-  prs.each do |pr|
-    check_rate_limit
-    files = $client.pull_request_files(repo, pr.number)
-    found = files.select { |f| f.filename == path && f.status == 'removed' }
-
-    unless found.empty?
-      found_pr = pr
-      break
+    unless clean
+      system("git checkout -b #{branch_name}")
+      system("git commit -am 'removed deprecated projects'")
+      system("git push origin #{branch_name}") if apply_changes
     end
   end
 
-  found_pr
-end
+  return if clean
 
-def check_rate_limit
-  rate_limit = $client.rate_limit
+  title = 'Remove projects detected as deprecated'
+  body = "This PR removes projects that have been marked as archived by the GitHub API, or cannot be found:\n\n #{list}"
 
-  remaining = rate_limit.remaining
-  resets_in = rate_limit.resets_in
-  limit = rate_limit.limit
-
-  remaining_percent = (remaining * 100) / limit
-
-  puts "Rate limit: #{remaining}/#{limit} - #{resets_in}s before reset" if (remaining % 10).zero? && remaining_percent < 20
-
-  return unless remaining.zero?
-
-  puts 'This script is currently rate-limited by the GitHub API'
-  puts 'Marking as inconclusive to indicate that no further work will be done here'
-  exit 78
+  client.create_pull_request(current_repo, 'gh-pages', branch_name, title, body) if apply_changes
 end
 
 def verify_project(project)
-  path = project.relative_path
+  result = GitHubRepositoryActiveCheck.run(project)
 
-  unless project.github_project?
-    # ignoring entry as we could not find a valid GitHub URL
-    return { path: path, error: nil }
+  if result[:rate_limited]
+    puts 'This script is currently rate-limited by the GitHub API'
+    puts 'Marking as inconclusive to indicate that no further work will be done here'
+    exit 78
   end
 
-  owner_and_repo = project.github_owner_name_pair
+  return { project: project, deprecated: true, reason: 'archived' } if result[:reason] == 'archived'
 
-  check_rate_limit
-  repo = $client.repo owner_and_repo
+  return { project: project, deprecated: true, reason: 'missing' } if result[:reason] == 'missing'
 
-  if repo.archived
-    # Repository has been marked as archived through the GitHub API
-    return { path: path, deprecated: true, reason: 'archived' }
-  end
+  return { project: project, deprecated: false, reason: 'redirect', old_location: result[:old_location], location: result[:location] } if result[:reason] == 'redirect'
 
-  return { path: path, deprecated: false, error: "Repository #{owner_and_repo} now lives at #{repo.full_name} and should be updated" } unless owner_and_repo.casecmp(repo.full_name).zero?
+  return { project: project, deprecated: false, reason: 'error', error: result[:error] } if result[:reason] == 'error'
 
-  { path: path, deprecated: false, error: nil }
-rescue Psych::SyntaxError => e
-  error = "Unable to parse the contents of file - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
-  { path: path, deprecated: false, error: error }
-rescue Octokit::NotFound
-  # The repository no longer exists in the GitHub API
-  { path: path, deprecated: true, reason: 'missing' }
-rescue StandardError => e
-  { path: path, deprecated: false, error: "Unknown exception for file: #{e}" }
+  { project: project, deprecated: false }
 end
 
-repo = ENV['GITHUB_REPOSITORY']
+current_repo = ENV['GITHUB_REPOSITORY']
 
-puts "Inspecting projects files for '#{repo}'"
+puts "Inspecting projects files for '#{current_repo}'"
 
 start = Time.now
 
-$client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
+root = ENV['GITHUB_WORKSPACE']
 
-$root_directory = ENV['GITHUB_WORKSPACE']
-verbose = ENV['VERBOSE_OUTPUT']
-apply_changes = ENV['APPLY_CHANGES']
+return if existing_pull_request?(current_repo)
 
-projects = Dir["#{$root_directory}/_data/projects/*.yml"].map do |f|
-  relative_path = Pathname.new(f).relative_path_from($root_directory).to_s
-  Project.new(relative_path, f)
+projects = Project.find_in_directory(root)
+github_projects = projects.filter(&:github_project?)
+non_github_projects = projects.reject(&:github_project?)
+
+results = github_projects.map { |p| verify_project(p) }
+
+active_projects = results.filter { |r| r[:deprecated] == false }
+deprecated_projects = results.filter { |r| r[:deprecated] == true }
+projects_with_errors = results.filter { |r| !r[:error].nil? }
+projects_with_redirect = results.filter { |r| r[:reason] == 'redirect' }
+
+errors = projects_with_errors.count + deprecated_projects.count
+success = active_projects.count
+skipped = non_github_projects.count
+
+puts "#{success} files checked, #{skipped} ignored, #{errors} errors found"
+puts ''
+
+projects_with_errors.each do |r|
+  puts "Encountered error while trying to validate '#{r[:project].relative_path}' - #{r[:error]}"
 end
 
-results = projects.map { |p| verify_project(p) }
+projects_with_redirect.each do |r|
+  puts "Project #{r[:project].relative_path} needs to be updated from '#{r[:old_location]}' to '#{r[:location]}'"
+end
 
-errors = 0
-success = 0
+deprecated_projects.each do |r|
+  puts "Project is considered deprecated: '#{r[:project].relative_path}' - reason '#{r[:reason]}'"
+end
 
-results.each do |result|
-  file_path = result[:path]
-
-  if result[:deprecated]
-    puts "Project is considered deprecated: '#{file_path}' - reason '#{result[:reason]}'"
-
-    pr = find_pull_request_removing_file(repo, file_path)
-
-    if !pr.nil?
-      puts "Project #{file_path} has existing PR ##{pr.number} to remove file..."
-    elsif apply_changes
-      pr = create_pull_request_removing_file(repo, file_path, result[:reason])
-      puts "Opened PR ##{pr.number} to remove project '#{file_path}'..." unless pr.nil?
-    else
-      puts "Because APPLY_CHANGES not set, PR to remove project '#{file_path}' not started..."
-    end
-    errors += 1
-  elsif !result[:error].nil?
-    puts "Encountered error while trying to validate '#{file_path}' - #{result[:error]}"
-    errors += 1
-  else
-    puts "Active project found: '#{file_path}'" unless verbose.nil?
-    success += 1
-  end
+if deprecated_projects.any?
+  cleanup_deprecated_projects(root, current_repo, deprecated_projects)
+else
+  puts 'No deprecated projects found...'
 end
 
 finish = Time.now
 delta = finish - start
 
 puts "Operation took #{delta}s"
-puts ''
-puts "#{success} files processed - #{errors} errors found"
-
-exit 0

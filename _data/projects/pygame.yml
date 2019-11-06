@@ -1,0 +1,13 @@
+name: pygame
+desc: games, art, music and even sciencing with python.
+site: https://pygame.org/
+tags:
+  - pygame
+  - python
+  - game
+  - art
+  - music
+  - education
+upforgrabs:
+  name: good first issue
+  link: https://github.com/pygame/pygame/labels/good%20first%20issue

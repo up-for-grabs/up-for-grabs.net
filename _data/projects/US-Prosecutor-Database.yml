@@ -1,7 +1,9 @@
 ---
 name: U.S. Prosecutor Database
 desc: >-
-  An open-source app to help people learn more about the role of prosecutors within the industrial prison complex. Filter through prosecutors by name, role, state, area. Find resources like contact information &amp; relevant articles.
+  An open-source app to help people learn more about the role of prosecutors within the industrial prison
+  complex. Filter through prosecutors by name, role, state, area. Find resources like contact information
+  &amp; relevant articles.
 site: https://us-prosecutor-database.herokuapp.com
 tags:
 - meteor

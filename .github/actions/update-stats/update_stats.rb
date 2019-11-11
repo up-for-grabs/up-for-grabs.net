@@ -10,8 +10,6 @@ require 'graphql/client/http'
 require 'up_for_grabs_tooling'
 
 def update(project)
-  project.format_yaml
-
   return unless project.github_project?
 
   result = GitHubRepositoryLabelActiveCheck.run(project)
@@ -27,15 +25,15 @@ def update(project)
     return
   end
 
-  yaml = project.read_yaml
-  label = yaml['upforgrabs']['name']
+  obj = project.read_yaml
+  label = obj['upforgrabs']['name']
 
   if result[:reason] == 'missing'
     puts "The label '#{label}' for GitHub repository '#{project.github_owner_name_pair}' could not be found. Please ensure this points to a valid label used in the project."
     return
   end
 
-  link = yaml['upforgrabs']['link']
+  link = obj['upforgrabs']['link']
 
   url = result[:url]
 
@@ -48,7 +46,6 @@ def update(project)
     return
   end
 
-  obj = project.read_yaml
   obj.store('upforgrabs', 'name' => label, 'link' => url) if link_needs_rewriting
 
   if result[:last_updated].nil?
@@ -61,6 +58,7 @@ def update(project)
   end
 
   project.write_yaml(obj)
+  project.format_yaml
 end
 
 repo = ENV['GITHUB_REPOSITORY']

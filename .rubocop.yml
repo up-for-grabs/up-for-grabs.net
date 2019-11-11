@@ -7,7 +7,7 @@ Metrics/CyclomaticComplexity:
   Max: 9
 
 Metrics/PerceivedComplexity:
-  Max: 9
+  Max: 10
 
 Metrics/LineLength:
   Max: 186

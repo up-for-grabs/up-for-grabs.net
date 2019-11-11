@@ -9,74 +9,58 @@ require 'graphql/client/http'
 
 require 'up_for_grabs_tooling'
 
-def find_values_to_query_api(project)
-  unless project.github_project?
-    puts "Skipping project #{project.relative_path} as UpForGrabs URL is not on GitHub"
-    return
+def update(project)
+  project.format_yaml
+
+  return unless project.github_project?
+
+  result = GitHubRepositoryLabelActiveCheck.run(project)
+
+  if result[:rate_limited]
+    puts 'This script is currently rate-limited by the GitHub API'
+    puts 'Marking as inconclusive to indicate that no further work will be done here'
+    exit 0
   end
 
-  owner_and_repo = project.github_owner_name_pair
-
-  items = owner_and_repo.split('/')
-  owner = items[0]
-  name = items[1]
+  if result[:reason] == 'repository-missing'
+    puts "The GitHub repository '#{project.github_owner_name_pair}' cannot be found. Please confirm the location of the project."
+    return
+  end
 
   yaml = project.read_yaml
   label = yaml['upforgrabs']['name']
 
-  [owner, name, label]
-end
+  if result[:reason] == 'missing'
+    puts "The label '#{label}' for GitHub repository '#{project.github_owner_name_pair}' could not be found. Please ensure this points to a valid label used in the project."
+    return
+  end
 
-def update_stats(project, repository, owner_and_repo, label)
-  if repository.nil?
-    puts "Cannot find repository for project '#{owner_and_repo}'"
-  elsif repository.label.nil?
-    puts "Cannot find label '#{label}' for project '#{owner_and_repo}'"
-  else
-    stats = {
-      count: repository.label.issues.total_count,
-      updated_at: repository.updated_at
+  link = yaml['upforgrabs']['link']
+
+  url = result[:url]
+
+  link_needs_rewriting = link != url && link.include?('/labels/')
+
+  unless $apply_changes
+    if link_needs_rewriting
+      puts "The label link for '#{label}' in project '#{project.relative_path}' is out of sync with what is found in the 'upforgrabs' element. Ensure this is updated to '#{url}'"
+    end
+    return
+  end
+
+  obj = project.read_yaml
+  obj.store('upforgrabs', 'name' => label, 'link' => url) if link_needs_rewriting
+
+  if result[:last_updated].nil?
+    obj.store('stats', 'issue-count' => result[:count])
+    {
+      count: result[:count]
     }
-
-    project.update(stats) if $apply_changes
+  else
+    obj.store('stats', 'issue-count' => result[:count], 'last-updated' => result[:last_updated])
   end
-end
 
-def verify_project(project)
-  project.format_yaml
-
-  result = find_values_to_query_api(project)
-  return if result.nil?
-
-  owner, name, label = result
-
-  variables = { owner: owner, name: name, label: label }
-
-  result = $GraphQLClient.query(IssueCountForLabel, variables: variables)
-
-  update_stats(project, result.data.repository, "#{owner}/#{name}", label)
-
-  rate_limit = result.data.rate_limit
-  resets_in = Time.parse(rate_limit.reset_at) - Time.now
-
-  limit = rate_limit.limit
-  remaining = rate_limit.remaining
-
-  remaining_percent = (remaining * 100) / limit
-
-  puts "Rate limit: #{remaining}/#{limit} - #{resets_in.to_i}s before reset" if (remaining % 10).zero? && remaining_percent < 20
-
-  if remaining.zero?
-    puts 'This script is currently rate-limited by the GitHub API'
-    puts 'Exiting now as no further work can done currently'
-    exit 0
-  end
-rescue Psych::SyntaxError => e
-  puts "Unable to parse the contents of file #{project.relative_path} - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
-rescue GraphQL::Client::Error => e
-  puts "GraphQL exception for file #{project.relative_path}: '#{e}'"
-rescue StandardError => e
-  puts "Unknown exception for file #{project.relative_path}: '#{e}'"
+  project.write_yaml(obj)
 end
 
 repo = ENV['GITHUB_REPOSITORY']
@@ -86,39 +70,6 @@ puts "Inspecting projects files for '#{repo}'"
 start = Time.now
 
 $client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
-
-HTTP = GraphQL::Client::HTTP.new('https://api.github.com/graphql') do
-  def headers(_context)
-    # Optionally set any HTTP headers
-    {
-      "User-Agent": 'shiftkey-testing-graphql-things',
-      "Authorization": "bearer #{ENV['GITHUB_TOKEN']}"
-    }
-  end
-end
-
-Schema = GraphQL::Client.load_schema(HTTP)
-
-$GraphQLClient = GraphQL::Client.new(schema: Schema, execute: HTTP)
-
-IssueCountForLabel = $GraphQLClient.parse <<-'GRAPHQL'
-  query($owner: String!, $name: String!, $label: String!) {
-    repository(owner: $owner, name: $name) {
-      updatedAt
-      label(name: $label) {
-        issues(states: OPEN) {
-          totalCount
-        }
-      }
-    }
-    rateLimit {
-      limit
-      cost
-      remaining
-      resetAt
-    }
-  }
-GRAPHQL
 
 $root_directory = ENV['GITHUB_WORKSPACE']
 $verbose = ENV['VERBOSE_OUTPUT']
@@ -138,7 +89,7 @@ end
 
 projects = Project.find_in_directory($root_directory)
 
-projects.each { |p| verify_project(p) }
+projects.each { |p| update(p) }
 
 unless $apply_changes
   puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'

@@ -68,8 +68,8 @@ def verify_project(project)
 
   if remaining.zero?
     puts 'This script is currently rate-limited by the GitHub API'
-    puts 'Marking as inconclusive to indicate that no further work will be done here'
-    exit 78
+    puts 'Exiting now as no further work can done currently'
+    exit 0
   end
 rescue Psych::SyntaxError => e
   puts "Unable to parse the contents of file #{project.relative_path} - Line: #{e.line}, Offset: #{e.offset}, Problem: #{e.problem}"
@@ -133,7 +133,7 @@ found_pr = prs.find { |pr| pr.title == 'Updated project stats' && pr.user.login 
 
 if found_pr
   puts "There is a current PR open to update stats ##{found_pr.number} - review and merge that before we go again"
-  exit 78
+  exit 0
 end
 
 projects = Project.find_in_directory($root_directory)
@@ -142,7 +142,7 @@ projects.each { |p| verify_project(p) }
 
 unless $apply_changes
   puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'
-  exit 78
+  exit 0
 end
 
 clean = true

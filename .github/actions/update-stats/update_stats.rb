@@ -55,7 +55,6 @@ def update(project, apply_changes)
   end
 
   project.write_yaml(obj)
-  project.format_yaml
 end
 
 repo = ENV['GITHUB_REPOSITORY']

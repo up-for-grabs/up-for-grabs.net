@@ -9,7 +9,7 @@ require 'graphql/client/http'
 
 require 'up_for_grabs_tooling'
 
-def update(project)
+def update(project, apply_changes)
   return unless project.github_project?
 
   result = GitHubRepositoryLabelActiveCheck.run(project)
@@ -39,7 +39,7 @@ def update(project)
 
   link_needs_rewriting = link != url && link.include?('/labels/')
 
-  unless $apply_changes
+  unless apply_changes
     if link_needs_rewriting
       puts "The label link for '#{label}' in project '#{project.relative_path}' is out of sync with what is found in the 'upforgrabs' element. Ensure this is updated to '#{url}'"
     end
@@ -50,9 +50,6 @@ def update(project)
 
   if result[:last_updated].nil?
     obj.store('stats', 'issue-count' => result[:count])
-    {
-      count: result[:count]
-    }
   else
     obj.store('stats', 'issue-count' => result[:count], 'last-updated' => result[:last_updated])
   end
@@ -70,8 +67,7 @@ start = Time.now
 $client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
 
 $root_directory = ENV['GITHUB_WORKSPACE']
-$verbose = ENV['VERBOSE_OUTPUT']
-$apply_changes = ENV['APPLY_CHANGES']
+apply_changes = ENV['APPLY_CHANGES']
 
 current_repo = ENV['GITHUB_REPOSITORY']
 
@@ -89,7 +85,7 @@ projects = Project.find_in_directory($root_directory)
 
 projects.each { |p| update(p) }
 
-unless $apply_changes
+unless apply_changes
   puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'
   exit 0
 end

@@ -69,7 +69,7 @@
       "type": "object",
       "title": "Statistics for the current project",
       "default": null,
-      "required": ["issue-count", "last-updated"],
+      "required": ["issue-count"],
       "properties": {
         "issue-count": {
           "$id": "#/properties/stats/properties/issue-count",

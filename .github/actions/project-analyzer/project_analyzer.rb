@@ -56,7 +56,9 @@ def label_check(project)
 
   label = find_label(project)
 
-  return "I couldn't find the GitHub repository '#{project.github_owner_name_pair}' that was used in the `upforgrabs.link` value. Please confirm this is correct or hasn't been mis-typed." if result[:reason] == 'repository-missing'
+  if result[:reason] == 'repository-missing'
+    return "I couldn't find the GitHub repository '#{project.github_owner_name_pair}' that was used in the `upforgrabs.link` value. Please confirm this is correct or hasn't been mis-typed."
+  end
 
   if result[:reason] == 'missing'
     return "The `upforgrabs.name` value '#{label}' isn't in use on the project in GitHub. This might just be a mistake due because of copy-pasting the reference template or be mis-typed. Please check the list of labels at https://github.com/#{project.github_owner_name_pair}/labels and update the project file to use the correct label."
@@ -76,13 +78,9 @@ def label_check(project)
 end
 
 def validate_project(project, schemer)
-  message = ''
-
   validation_errors = ProjectValidator.validate(project, schemer)
 
-  if validation_errors.any?
-    return { project: project, kind: 'validation', validation_errors: validation_errors }
-  end
+  return { project: project, kind: 'validation', validation_errors: validation_errors } if validation_errors.any?
 
   # TODO: label suggestions should be their own thing?
 
@@ -94,10 +92,7 @@ def validate_project(project, schemer)
 
   label_error = label_check(project)
 
-  unless label_error.nil?
-    message += " - #{label_error}"
-    return { project: project, kind: 'label', message: label_error }
-  end
+  return { project: project, kind: 'label', message: label_error } unless label_error.nil?
 
   { project: project, kind: 'valid' }
 end
@@ -126,9 +121,7 @@ messages = projects.map { |p| validate_project(p, schemer) }.map do |result|
   elsif result[:kind] == 'validation'
     message = result[:validation_errors].map { |e| "> - #{e}" }.join "\n"
     "#### `#{path}` :x:\nI had some troubles parsing the project file, or there were fields that are missing that I need. Here's the details:\n#{message}"
-  elsif result[:kind] == 'repository'
-    "#### `#{path}` :x:\n#{result[:message]}"
-  elsif result[:kind] == 'label'
+  elsif result[:kind] == 'repository' || result[:kind] == 'label'
     "#### `#{path}` :x:\n#{result[:message]}"
   else
     "#### `#{path}` :x:\nI got a result of type '#{result[:kind]}' that I don't know how to handle. I need to mention @shiftkey here as he might know more about what happened."
@@ -140,5 +133,3 @@ markdown_body += messages.join("\n\n")
 markdown_body += "\n\nAs you make changes to this pull request, I'll re-check things and let you know if this is ready for review."
 
 puts markdown_body
-
-

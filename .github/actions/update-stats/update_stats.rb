@@ -64,9 +64,7 @@ puts "Inspecting projects files for '#{repo}'"
 
 start = Time.now
 
-$client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
-
-$root_directory = ENV['GITHUB_WORKSPACE']
+root_directory = ENV['GITHUB_WORKSPACE']
 apply_changes = ENV['APPLY_CHANGES']
 
 current_repo = ENV['GITHUB_REPOSITORY']
@@ -81,7 +79,7 @@ if found_pr
   exit 0
 end
 
-projects = Project.find_in_directory($root_directory)
+projects = Project.find_in_directory(root_directory)
 
 projects.each { |p| update(p) }
 
@@ -94,7 +92,7 @@ clean = true
 
 branch_name = Time.now.strftime('updated-stats-%Y%m%d')
 
-Dir.chdir($root_directory) do
+Dir.chdir(root_directory) do
   system('git config --global user.name "github-actions"')
   system('git config --global user.email "github-actions@users.noreply.github.com"')
 

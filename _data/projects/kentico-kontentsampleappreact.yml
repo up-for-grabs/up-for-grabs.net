@@ -1,7 +1,7 @@
 ---
 name: cloud-sample-app-react
 desc: Sample React SPA utilizing the Kentico Kontent Delivery API to fetch content
-site: https://github.com/kentico/kontent-sample-app-react
+site: https://github.com/Kentico/kontent-sample-app-react
 tags:
 - javascript
 - kentico
@@ -13,7 +13,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/kentico/kontent-sample-app-react/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-sample-app-react/labels/up-for-grabs
 stats:
   issue-count: 7
-  last-updated: '2019-10-21T01:57:52Z'
+  last-updated: '2019-10-10T12:23:31Z'

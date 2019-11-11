@@ -1,7 +1,7 @@
 ---
 name: gatsby-starter-kentico-cloud
 desc: Gatsby starter site with Kentico Cloud.
-site: https://github.com/Kentico/gatsby-starter-kentico-cloud
+site: https://github.com/Kentico/gatsby-starter-kontent
 tags:
 - javascript
 - kentico
@@ -15,7 +15,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/gatsby-starter-kentico-cloud/labels/up-for-grabs
+  link: https://github.com/Kentico/gatsby-starter-kontent/labels/up-for-grabs
 stats:
   issue-count: 2
-  last-updated: '2019-11-08T16:12:37Z'
+  last-updated: '2019-07-22T08:36:27Z'

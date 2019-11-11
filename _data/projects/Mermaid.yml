@@ -1,14 +1,14 @@
 ---
 name: Mermaid
 desc: Generation of diagram and flowchart from text in a similar manner as markdown
-site: https://github.com/knsv/mermaid
+site: https://github.com/mermaid-js/mermaid
 tags:
 - javascript
 - diagrams
 - charts
 upforgrabs:
   name: Help wanted!
-  link: https://github.com/knsv/mermaid/labels/Help%20wanted%21
+  link: https://github.com/mermaid-js/mermaid/labels/Help%20wanted%21
 stats:
-  issue-count: 41
-  last-updated: '2019-11-11T14:03:35Z'
+  issue-count: 43
+  last-updated: '2019-11-11T19:04:40Z'

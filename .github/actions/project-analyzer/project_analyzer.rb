@@ -20,6 +20,26 @@ root = ENV['GITHUB_WORKSPACE']
 schema = Pathname.new("#{root}/schema.json")
 schemer = JSONSchemer.schema(schema)
 
+# this file seems to not include the expected `/github` root folder name
+# test this and we may have to adjust these rules
+unless ENV['GITHUB_EVENT_PATH']
+  puts "Expected environment variable GITHUB_EVENT_PATH was not set"
+  exit 1
+end
+
+payload_relative_path = ENV['GITHUB_EVENT_PATH']
+
+unless File.exists?(payload_relative_path)
+  puts "Environment variable GITHUB_EVENT_PATH points to file that doesn't exist"
+  exit 1
+end
+
+json_text = File.read(payload_relative_path)
+
+obj = JSON.parse(json_text)
+
+# TODO: read json payload for event from location on disk
+
 def repository_check(project)
   result = GitHubRepositoryActiveCheck.run(project)
 
@@ -71,7 +91,7 @@ def label_check(project)
   link_needs_rewriting = link != url && link.include?('/labels/')
 
   if link_needs_rewriting
-    return "The label '#{label}' for GitHub repository '#{project.github_owner_name_pair}' does not match the specified `upforgrabs.link` vlaue. Please update it to '#{url}'."
+    return "The label '#{label}' for GitHub repository '#{project.github_owner_name_pair}' does not match the specified `upforgrabs.link` vlaue. Please update it to `#{url}`."
   end
 
   nil
@@ -102,14 +122,34 @@ projects = files.map do |f|
   Project.new(f, full_path)
 end
 
-# TODO: this shouldn't be run as the result of an action opening the PR
-# TODO: delete earlier comment if made by same author and contains the magic preamble
+
+# TODO: delete earlier issue comment if made by same author (login == "github-actions" && __typename == "Bot")
+# and starts with the magic preamble <!-- PULL REQUEST ANALYZER GITHUB ACTION -->
+
+# query ($owner: String!, $name: String!, $number: Int!) {
+#   repository(owner: $owner, name: $name) {
+#     pullRequest(number: $number) {
+#       comments(first: 50) {
+#         nodes {
+#           id
+#           body
+#           author {
+#             login
+#             __typename
+#           }
+#         }
+#       }
+#     }
+#   }
+# }
+
+
 
 markdown_body = "<!-- PULL REQUEST ANALYZER GITHUB ACTION -->
 
-:wave: I'm a robot checking the state of this pull request to ensure everything will be fine when merging.
+:wave: I'm a robot checking the state of this pull request to ensure everything will be fine when merging. I noticed this PR added or modififed the data files under `_data/projects` so I had a look at what's changed.
 
-I noticed this PR added or modififed the data files under `_data/projects` so I had a look at what's changed...
+As you make changes to this pull request, I'll re-run these checks to ensure this can be merged by the time someone reviews it.
 
 "
 
@@ -124,12 +164,10 @@ messages = projects.map { |p| validate_project(p, schemer) }.map do |result|
   elsif result[:kind] == 'repository' || result[:kind] == 'label'
     "#### `#{path}` :x:\n#{result[:message]}"
   else
-    "#### `#{path}` :x:\nI got a result of type '#{result[:kind]}' that I don't know how to handle. I need to mention @shiftkey here as he might know more about what happened."
+    "#### `#{path}` :question:\nI got a result of type '#{result[:kind]}' that I don't know how to handle. I need to mention @shiftkey here as he might be able to fix it."
   end
 end
 
 markdown_body += messages.join("\n\n")
-
-markdown_body += "\n\nAs you make changes to this pull request, I'll re-check things and let you know if this is ready for review."
 
 puts markdown_body

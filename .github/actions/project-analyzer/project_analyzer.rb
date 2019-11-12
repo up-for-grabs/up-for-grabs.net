@@ -9,6 +9,7 @@ require 'json_schemer'
 require 'up_for_grabs_tooling'
 
 root = ENV['GITHUB_WORKSPACE']
+repo = ENV['GITHUB_REPOSITORY']
 
 schema = Pathname.new("#{root}/schema.json")
 schemer = JSONSchemer.schema(schema)
@@ -133,25 +134,51 @@ projects = files.map do |f|
   Project.new(f, full_path)
 end
 
-# TODO: delete earlier issue comment if made by same author (login == "github-actions" && __typename == "Bot")
-# and starts with the magic preamble <!-- PULL REQUEST ANALYZER GITHUB ACTION -->
+http = GraphQL::Client::HTTP.new('https://api.github.com/graphql') do
+  def headers(_context)
+    # Optionally set any HTTP headers
+    {
+      "User-Agent": 'up-for-grabs-graphql-label-queries',
+      "Authorization": "bearer #{ENV['GITHUB_TOKEN']}"
+    }
+  end
+end
 
-# query ($owner: String!, $name: String!, $number: Int!) {
-#   repository(owner: $owner, name: $name) {
-#     pullRequest(number: $number) {
-#       comments(first: 50) {
-#         nodes {
-#           id
-#           body
-#           author {
-#             login
-#             __typename
-#           }
-#         }
-#       }
-#     }
-#   }
-# }
+schema = GraphQL::Client.load_schema(http)
+
+client = GraphQL::Client.new(schema: schema, execute: http)
+
+PullRequestComments = client.parse <<-'GRAPHQL'
+  query ($owner: String!, $name: String!, $number: Int!) {
+    repository(owner: $owner, name: $name) {
+      pullRequest(number: $number) {
+        comments(first: 50) {
+          nodes {
+            id
+            body
+            author {
+              login
+              __typename
+            }
+          }
+        }
+      }
+    }
+  }
+GRAPHQL
+
+owner, name = repo.split('/')
+
+variables = { owner: owner, name: name, number: pull_request_number }
+
+result = client.query(PullRequestComments, variables: variables)
+
+comments = result.data.repository.pull_request.comments
+
+if comments.nodes.any?
+  # TODO: delete earlier issue comment if made by same author (login == "github-actions" && __typename == "Bot")
+  # and starts with the magic preamble <!-- PULL REQUEST ANALYZER GITHUB ACTION -->
+end
 
 markdown_body = "<!-- PULL REQUEST ANALYZER GITHUB ACTION -->
 
@@ -175,5 +202,7 @@ messages = projects.map { |p| validate_project(p, schemer) }.map do |result|
 end
 
 markdown_body += messages.join("\n\n")
+
+# add comment to PR
 
 puts markdown_body

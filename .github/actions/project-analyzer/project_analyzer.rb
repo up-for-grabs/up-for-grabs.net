@@ -8,13 +8,6 @@ require 'pathname'
 require 'json_schemer'
 require 'up_for_grabs_tooling'
 
-files = ARGV
-
-if files.empty?
-  puts 'No project files need to be validated'
-  exit 0
-end
-
 root = ENV['GITHUB_WORKSPACE']
 
 schema = Pathname.new("#{root}/schema.json")
@@ -38,8 +31,22 @@ json_text = File.read(payload_relative_path)
 
 obj = JSON.parse(json_text)
 pull_request_number = obj['number']
+base_sha = obj['pull_request']['base']['sha']
 
-puts "found pull request: ##{pull_request_number}"
+diff_output = ''
+
+Dir.chdir(root) do
+  diff_output = `git diff #{base_sha}..#{ENV['GITHUB_SHA']} --name-only -- _data/projects/`
+end
+
+raw_files = diff_output.split("\n")
+
+if raw_files.empty?
+  puts 'No project files need to be validated by this PR'
+  exit 0
+end
+
+files = raw_files.map { |f| f.chomp }
 
 def repository_check(project)
   result = GitHubRepositoryActiveCheck.run(project)

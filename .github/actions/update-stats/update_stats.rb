@@ -9,7 +9,7 @@ require 'graphql/client/http'
 
 require 'up_for_grabs_tooling'
 
-def update(project, apply_changes)
+def update(project, apply_changes = false)
   return unless project.github_project?
 
   result = GitHubRepositoryLabelActiveCheck.run(project)
@@ -80,7 +80,7 @@ end
 
 projects = Project.find_in_directory(root_directory)
 
-projects.each { |p| update(p) }
+projects.each { |p| update(p, apply_changes) }
 
 unless apply_changes
   puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'

@@ -46,7 +46,7 @@ if raw_files.empty?
   exit 0
 end
 
-files = raw_files.map { |f| f.chomp }
+files = raw_files.map(&:chomp)
 
 def repository_check(project)
   result = GitHubRepositoryActiveCheck.run(project)

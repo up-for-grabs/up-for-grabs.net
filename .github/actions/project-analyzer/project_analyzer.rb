@@ -152,6 +152,7 @@ PullRequestComments = client.parse <<-'GRAPHQL'
   query ($owner: String!, $name: String!, $number: Int!) {
     repository(owner: $owner, name: $name) {
       pullRequest(number: $number) {
+        id
         comments(first: 50) {
           nodes {
             id
@@ -173,7 +174,9 @@ variables = { owner: owner, name: name, number: pull_request_number }
 
 result = client.query(PullRequestComments, variables: variables)
 
-comments = result.data.repository.pull_request.comments
+pull_request = result.data.repository.pull_request
+subject_id = pull_request.id
+comments = pull_request.comments
 
 if comments.nodes.any?
   # TODO: delete earlier issue comment if made by same author (login == "github-actions" && __typename == "Bot")
@@ -203,6 +206,43 @@ end
 
 markdown_body += messages.join("\n\n")
 
+puts markdown_body
+
 # add comment to PR
 
-puts markdown_body
+AddCommentToPullRequest = client.parse <<-'GRAPHQL'
+  mutation ($input: AddCommentInput!) {
+    addComment(input: $input) {
+      commentEdge {
+        node {
+          repository {
+            nameWithOwner
+          }
+          issue {
+            number
+          }
+        }
+      }
+    }
+  }
+GRAPHQL
+
+variables = { input: { body: markdown_body, subjectId: subject_id } }
+
+response = client.query(AddCommentToPullRequest, variables: variables)
+
+if data = response.data
+  comment = response.data.comment_edge.node
+  nameWithOwner = comment.repository.name_with_owner
+  number = comment.issue.number
+  puts "a comment should have been created at https://github.com/#{nameWithOwner}/pull/#{number}"
+elsif response.errors.any?
+  puts "got errors from API:"
+  response.errors.each do |error|
+    puts " - #{error}"
+  end
+
+  message = response.errors[:data].join(", ")
+  puts "Message: #{message}"
+end
+

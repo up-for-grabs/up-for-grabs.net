@@ -190,10 +190,11 @@ def add_comment_to_pull_request(client, subject_id, markdown_body)
     response = client.query(AddCommentToPullRequest, variables: variables)
 
     if (data = response.data)
-      if !data.add_comment?
-        puts "add_comment? returned false. what else is on data? #{data.public_methods}"
-      elsif data.add_comment.nil?
-        puts "add_comment is nil. what else is on data? #{data.public_methods}"
+      unless data.add_comment?
+        puts "add_comment? returned false."
+        puts "what else is on data? #{data.public_methods}"
+        puts "errors looks interesting: '#{data.errors}'"
+        puts "inspect also looks interesting: '#{data.inspect}'"
       else
         comment = data.add_comment.comment_edge.node
         puts "a comment should have been created at #{comment.url}"

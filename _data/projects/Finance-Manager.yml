@@ -1,0 +1,10 @@
+---
+name: Finance-Manager
+desc: Finance Manager is an Android Application which contains Income Tax Calculator and EMI Calculator. 
+site: https://www.github.com/josharsh/Finance-Manager
+tags:
+- java
+- android
+upforgrabs:
+  name: good first issue
+  link: https://github.com/josharsh/Finance-Manager/labels/good%20first%20issue

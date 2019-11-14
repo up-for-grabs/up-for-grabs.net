@@ -237,12 +237,9 @@ if files.empty?
   exit 0
 end
 
-projects = files.map do |f|
-  full_path = File.join(root, f)
-  return nil unless File.exist?(full_path)
-
-  Project.new(f, full_path)
-end
+puts "Found these files to validate:"
+files.each { |f| puts " - '#{f}'"}
+puts
 
 http = GraphQL::Client::HTTP.new('https://api.github.com/graphql') do
   def headers(_context)
@@ -262,6 +259,18 @@ cleanup_old_comments(client, pull_request_number)
 schema = Pathname.new("#{root}/schema.json")
 schemer = JSONSchemer.schema(schema)
 
+projects = files.map do |f|
+  full_path = File.join(root, f)
+  return nil unless File.exist?(full_path)
+
+  Project.new(f, full_path)
+end
+
 markdown_body = generate_comment_for_pull_request(projects, schemer)
+
+puts "Comment to submit"
+puts "```"
+puts markdown_body
+puts "```"
 
 add_comment_to_pull_request(client, subject_id, markdown_body)

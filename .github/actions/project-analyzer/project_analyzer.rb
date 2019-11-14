@@ -188,6 +188,7 @@ def add_comment_to_pull_request(client, subject_id, markdown_body)
 
   begin
     response = client.query(AddCommentToPullRequest, variables: variables)
+    puts 'API response completed without error. What did we get back?'
     return unless response.errors.any?
 
     message = response.errors[:data].join(', ')

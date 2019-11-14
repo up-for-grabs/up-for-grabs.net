@@ -189,8 +189,15 @@ def add_comment_to_pull_request(client, subject_id, markdown_body)
   begin
     response = client.query(AddCommentToPullRequest, variables: variables)
     if (data = response.data)
-      comment = data.add_comment.comment_edge.node
-      puts "a comment should have been created at #{comment.url}"
+      result = data.add_comment
+
+      if result.nil?
+        puts "add_comment did not have expected comment. what else is on data? #{data.public_methods}"
+      else
+        comment = result.comment_edge.node
+        puts "a comment should have been created at #{comment.url}"
+      end
+
     else
       puts 'API response completed without error, but we didn\'t get any data?'
     end

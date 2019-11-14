@@ -126,7 +126,6 @@ def cleanup_old_comments(client, pull_request_number)
     }
   GRAPHQL
 
-  # TODO: this will need to be updated (or queried from the API) if we change to using the actions token
   login = 'shiftbot'
   type = 'User'
   preamble = '<!-- PULL REQUEST ANALYZER GITHUB ACTION -->'

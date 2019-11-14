@@ -3,7 +3,7 @@ name: Analyze Projects
 on: pull_request
 
 jobs:
-  cleanupArchivedProjects:
+  analyze:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master

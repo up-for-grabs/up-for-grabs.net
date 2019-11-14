@@ -199,7 +199,7 @@ root = ENV['GITHUB_WORKSPACE']
 
 # this file seems to not include the expected `/github` root folder name
 # test this and we may have to adjust these rules
-unless payload_relative_path = ENV['GITHUB_EVENT_PATH']
+unless (payload_relative_path = ENV['GITHUB_EVENT_PATH'])
   puts 'Expected environment variable GITHUB_EVENT_PATH was not set'
   exit 1
 end

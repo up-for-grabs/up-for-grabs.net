@@ -186,12 +186,15 @@ def add_comment_to_pull_request(client, subject_id, markdown_body)
 
   variables = { input: { body: markdown_body, subjectId: subject_id } }
 
-  response = client.query(AddCommentToPullRequest, variables: variables)
+  begin
+    response = client.query(AddCommentToPullRequest, variables: variables)
+    return unless response.errors.any?
 
-  return unless response.errors.any?
-
-  message = response.errors[:data].join(', ')
-  puts "Error encountered while trying to add comment: #{message}"
+    message = response.errors[:data].join(', ')
+    puts "Error found in response when trying to add comment: '#{message}'"
+  rescue StandardError => e
+    puts "Unhandled exception occurred: #{e}"
+  end
 end
 
 root = ENV['GITHUB_WORKSPACE']
@@ -237,8 +240,8 @@ if files.empty?
   exit 0
 end
 
-puts "Found these files to validate:"
-files.each { |f| puts " - '#{f}'"}
+puts 'Found these files to validate:'
+files.each { |f| puts " - '#{f}'" }
 puts
 
 http = GraphQL::Client::HTTP.new('https://api.github.com/graphql') do
@@ -268,9 +271,9 @@ end
 
 markdown_body = generate_comment_for_pull_request(projects, schemer)
 
-puts "Comment to submit"
-puts "```"
+puts 'Comment to submit'
+puts '```'
 puts markdown_body
-puts "```"
+puts '```'
 
 add_comment_to_pull_request(client, subject_id, markdown_body)

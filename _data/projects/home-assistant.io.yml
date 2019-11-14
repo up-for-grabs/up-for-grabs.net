@@ -9,7 +9,7 @@ tags:
 - hass
 - hassio
 upforgrabs:
-  name: hacktoberfest
+  name: help wanted
   link: https://github.com/home-assistant/home-assistant.io/labels/hacktoberfest
 stats:
   issue-count: 57

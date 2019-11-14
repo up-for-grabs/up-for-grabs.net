@@ -248,7 +248,7 @@ http = GraphQL::Client::HTTP.new('https://api.github.com/graphql') do
   def headers(_context)
     {
       "User-Agent": 'up-for-grabs-graphql-label-queries',
-      "Authorization": "bearer #{ENV['SHIFTBOT_TOKEN']}"
+      "Authorization": "bearer #{ENV['GITHUB_TOKEN']}"
     }
   end
 end

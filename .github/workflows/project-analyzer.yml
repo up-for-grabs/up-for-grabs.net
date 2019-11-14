@@ -1,0 +1,14 @@
+name: Analyze Projects
+
+on: pull_request
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Analyze modified project files
+      uses: ./.github/actions/project-analyzer
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SHIFTBOT_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}

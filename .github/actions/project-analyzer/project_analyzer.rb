@@ -190,8 +190,10 @@ def add_comment_to_pull_request(client, subject_id, markdown_body)
     response = client.query(AddCommentToPullRequest, variables: variables)
 
     if (data = response.data)
-      if data.add_comment?
-        puts "add_comment did not have expected comment. what else is on data? #{data.public_methods}"
+      if !data.add_comment?
+        puts "add_comment? returned false. what else is on data? #{data.public_methods}"
+      elsif data.add_comment.nil?
+        puts "add_comment is nil. what else is on data? #{data.public_methods}"
       else
         comment = data.add_comment.comment_edge.node
         puts "a comment should have been created at #{comment.url}"
@@ -233,6 +235,7 @@ pull_request_number = obj['number']
 subject_id = obj['pull_request']['node_id']
 base_sha = obj['pull_request']['base']['sha']
 base_ref = obj['pull_request']['base']['ref']
+head_sha = obj['pull_request']['head']['sha']
 default_branch = obj['pull_request']['base']['repo']['default_branch']
 
 unless base_ref == default_branch
@@ -240,10 +243,13 @@ unless base_ref == default_branch
   exit 0
 end
 
+range = "#{base_sha}..#{head_sha}"
+puts "Reviewing the commits for files in #{range}"
+
 diff_output = ''
 
 Dir.chdir(root) do
-  diff_output = `git diff #{base_sha}..#{ENV['GITHUB_SHA']} --name-only -- _data/projects/`
+  diff_output = `git diff #{range} --name-only -- _data/projects/`
 end
 
 raw_files = diff_output.split("\n")

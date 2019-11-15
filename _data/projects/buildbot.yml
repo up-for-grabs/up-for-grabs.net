@@ -3,10 +3,12 @@ name: buildbot
 desc: Python-based continuous integration testing framework.
 site: https://buildbot.net/
 tags:
-  - python
-  - python3
-  - ci
+- python
+- python3
+- ci
 upforgrabs:
   name: good first issue
   link: https://github.com/buildbot/buildbot/labels/good%20first%20issue
-
+stats:
+  issue-count: 15
+  last-updated: '2019-08-08T16:53:41Z'

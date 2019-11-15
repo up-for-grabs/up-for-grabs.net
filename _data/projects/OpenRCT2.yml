@@ -10,7 +10,7 @@ tags:
 - 2d
 upforgrabs:
   name: good first issue
-  link: https://github.com/OpenRCT2/OpenRCT2/labels/hacktoberfest
+  link: https://github.com/OpenRCT2/OpenRCT2/labels/good%20first%20issue
 stats:
   issue-count: 19
   last-updated: '2019-11-02T08:04:51Z'

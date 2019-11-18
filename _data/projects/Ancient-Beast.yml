@@ -15,8 +15,8 @@ tags:
 - chess
 - node.js
 upforgrabs:
-  name: good first issue
-  link: https://github.com/FreezingMoon/AncientBeast/labels/good%20first%20issue
+  name: easy
+  link: https://github.com/FreezingMoon/AncientBeast/labels/easy
 stats:
   issue-count: 31
   last-updated: '2019-11-16T03:00:38Z'

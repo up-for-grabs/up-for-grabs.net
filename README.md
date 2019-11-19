@@ -16,11 +16,9 @@ If you know of or own a project that should be listed on Up for Grabs,
 ## Contributing
 
 If you would like to get involved with the project, please read the
-[CONTRIBUTING.md](.github/CONTRIBUTING.md) file as it contains:
-
- - instructions about getting your environment setup
- - guidance for testing locally
- - commands to run to verify changes
+[CONTRIBUTING.md](.github/CONTRIBUTING.md) file as it contains instructions
+to help configure your local development environment, and commands to run
+to test and validate your changes.
 
 ## How does the site work?
 

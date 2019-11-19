@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: b292fb8d2bcf0fdaa44606186c04408e41065b9b
+  revision: ae63ed72e436e8ff3dfec71672b7f68d4964e9aa
   branch: master
   specs:
-    up_for_grabs_tooling (0.0.3)
+    up_for_grabs_tooling (0.0.4)
       graphql-client (~> 0.16)
       json_schemer (~> 0.2)
       octokit (~> 4.14)

@@ -1,0 +1,14 @@
+name: CICD-Using-Jenkins
+desc: Set up a Continuous Integration and Continuous Delivery pipeline using DevOps tools like Jenkins, Nexus, SonarQube etc.
+site: https://github.com/NishkarshRaj/CICD-Using-Jenkins
+tags:
+- jenkins
+- java
+- git
+- nexus
+- maven
+- devops
+- sonarqube
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/NishkarshRaj/CICD-Using-Jenkins/labels/Up-for-Grabs

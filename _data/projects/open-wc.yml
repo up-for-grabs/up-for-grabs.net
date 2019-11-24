@@ -8,7 +8,7 @@ tags:
 - web
 upforgrabs:
   name: help wanted
-  link: https://github.com/open-wc/open-wc/labels/help-wanted
+  link: https://github.com/open-wc/open-wc/labels/help%20wanted
 stats:
   issue-count: 12
   last-updated: '2019-11-19T14:04:26Z'

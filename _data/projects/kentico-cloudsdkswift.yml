@@ -17,7 +17,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/cloud-sdk-swift/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-delivery-sdk-swift/labels/up-for-grabs
 stats:
   issue-count: 3
   last-updated: '2019-10-03T05:23:11Z'

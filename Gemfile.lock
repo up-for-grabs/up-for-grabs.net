@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: ae63ed72e436e8ff3dfec71672b7f68d4964e9aa
+  revision: d9d4e21b48941ade07f4217a48a5346c1122dbd4
   branch: master
   specs:
     up_for_grabs_tooling (0.0.4)
@@ -41,7 +41,7 @@ GEM
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     execjs (2.7.0)
-    faraday (0.17.0)
+    faraday (0.17.1)
       multipart-post (>= 1.2, < 3)
     ffi (1.11.1)
     ffi (1.11.1-x64-mingw32)

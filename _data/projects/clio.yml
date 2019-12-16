@@ -3,10 +3,10 @@ desc: Clio is a pure functional lazy-evaluated programming language targeting de
 site: https://clio-lang.org
 tags:
   - language
-  - programming language
+  - programming
   - distributed
   - functional
-  - FP
+  - fp
 upforgrabs:
   name: good first issue
   link: https://github.com/username/project/labels/good%20first%20issue

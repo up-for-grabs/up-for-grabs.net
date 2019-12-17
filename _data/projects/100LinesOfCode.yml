@@ -12,7 +12,7 @@ tags:
 - cpp
 - code
 upforgrabs:
-  name: create your code in 100linesofcode
-  link: https://github.com/josharsh/100LinesOfCode/issues/1
+  name: good first issue
+  link: https://github.com/josharsh/100LinesOfCode/labels/good%20first%20issue
 stats:
   issue-count: 0

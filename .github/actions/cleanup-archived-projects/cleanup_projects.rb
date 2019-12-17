@@ -21,7 +21,7 @@ def existing_pull_request?(current_repo)
   end
 end
 
-def cleanup_deprecated_projects(root, current_repo, projects)
+def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
   client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
 
   list = ''
@@ -121,7 +121,7 @@ deprecated_projects.each do |r|
 end
 
 if deprecated_projects.any?
-  cleanup_deprecated_projects(root, current_repo, deprecated_projects)
+  cleanup_deprecated_projects(root, current_repo, deprecated_projects, ENV['APPLY_CHANGES'])
 else
   puts 'No deprecated projects found...'
 end

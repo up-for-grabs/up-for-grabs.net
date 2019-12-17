@@ -1,0 +1,20 @@
+---
+name: Microsoft Azure SDK for C
+desc: This repository contains official C libraries for Azure services.
+site: https://github.com/Azure/azure-sdk-for-c
+tags:
+- c
+- embedded
+- iot
+- microsoft
+- azure
+- cloud
+- sdk
+- storage
+- keyvault
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Azure/azure-sdk-for-c/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2019-11-22T20:06:08Z'

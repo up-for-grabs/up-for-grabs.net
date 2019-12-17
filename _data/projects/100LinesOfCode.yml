@@ -4,15 +4,15 @@ desc: "This repository contains productive coded tools in less than #100LinesOfC
 site: https://github.com/josharsh/100LinesOfCode
 tags:
 - josharsh
-- 100LinesOfCode
-- Development
-- Javascript
-- Python
-- Java
+- 100linesofcode
+- development
+- javascript
+- python
+- java
 - cpp
-- Coding
+- coding
 upforgrabs:
-  name: Create Your Code in 100LinesOfCode
+  name: create your code in 100linesofcode
   link: https://github.com/josharsh/100LinesOfCode/issues/1
 stats:
   issue-count: 0

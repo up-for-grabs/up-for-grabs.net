@@ -17,9 +17,3 @@ Metrics/AbcSize:
 
 Metrics/MethodLength:
   Max: 59
-
-Style/GlobalVars:
-  Exclude:
-    - '.github/actions/cleanup-archived-projects/cleanup_projects.rb'
-    - '.github/actions/update-stats/update_stats.rb'
-

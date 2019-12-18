@@ -4,6 +4,7 @@ site: https://clio-lang.org
 tags:
   - language
   - programming
+  - javascript
   - distributed
   - functional
   - fp

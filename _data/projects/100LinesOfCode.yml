@@ -3,8 +3,6 @@ name: 100-Lines-Of-Code
 desc: "This repository contains productive coded tools in less than #100LinesOfCode."
 site: https://github.com/josharsh/100LinesOfCode
 tags:
-- josharsh
-- 100linesofcode
 - development
 - javascript
 - python

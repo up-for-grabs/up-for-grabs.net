@@ -1,0 +1,10 @@
+name: Keylime
+desc: Open source security software for Bootstrapping and Maintaining Trust
+site: https://keylime.dev
+tags:
+  - security
+  - linux
+  - python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/keylime/keylime/labels/good%20first%20issue

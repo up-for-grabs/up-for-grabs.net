@@ -1,0 +1,13 @@
+name: Clio
+desc: Clio is a pure functional lazy-evaluated programming language targeting decentralized and distributed systems.
+site: https://clio-lang.org
+tags:
+  - language
+  - programming
+  - javascript
+  - distributed
+  - functional
+  - fp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/clio-lang/clio/labels/good%20first%20issue

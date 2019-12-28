@@ -1,7 +1,7 @@
 ---
 name: cloud-generators-java
 desc: Java code generators for Kentico Cloud.
-site: https://github.com/Kentico/cloud-generators-java
+site: https://github.com/Kentico/kontent-generators-java
 tags:
 - java
 - kentico

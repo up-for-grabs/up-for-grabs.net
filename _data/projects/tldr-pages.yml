@@ -15,8 +15,8 @@ tags:
 - shell
 - cli
 upforgrabs:
-  name: hacktoberfest
-  link: https://github.com/tldr-pages/tldr/labels/hacktoberfest
+  name: help wanted
+  link: https://github.com/tldr-pages/tldr/labels/help%20wanted
 stats:
-  issue-count: 14
+  issue-count: 13
   last-updated: '2019-10-13T11:41:02Z'

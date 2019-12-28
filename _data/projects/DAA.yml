@@ -1,15 +1,18 @@
+---
 name: DAA-Lab
 desc: Repository for designing and implementing various algorithms
 site: https://github.com/kshitizsaini113/DAA-Lab
 tags:
-  - c
-  - c++
-  - data-structure
-  - algorithm
-  - contributions
-  - design
-  - c-plus-plus
-  - code
+- c
+- c++
+- data-structure
+- algorithm
+- contributions
+- design
+- c-plus-plus
+- code
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/kshitizsaini113/DAA-Lab/labels/up-for-grabs
+stats:
+  issue-count: 0

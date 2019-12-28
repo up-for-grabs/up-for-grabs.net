@@ -1,17 +1,17 @@
 ---
-name: "Git Extensions"
+name: Git Extensions
 desc: >-
   Git Extensions is a standalone UI tool for managing git repositories. It also integrates with Windows 
   Explorer and Microsoft Visual Studio (2015/2017/2019).
 site: https://github.com/gitextensions/gitextensions
 tags:
 - ".net"
-- "c#"
-- "git"
-- "gitextensions"
+- c#
+- git
+- gitextensions
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/gitextensions/gitextensions/labels/up-for-grabs
 stats:
-  issue-count: 210
-  last-updated: '2019-12-19T10:01:54Z'
+  issue-count: 211
+  last-updated: '2019-12-21T11:04:11Z'

@@ -1,0 +1,13 @@
+name: Operating Systems
+desc: Repository for implementing all Operating System related concepts...
+site: https://github.com/kshitizsaini113/Operating-System-Lab
+tags:
+  - c
+  - c++
+  - linux
+  - algorithm
+  - contributions
+  - code
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kshitizsaini113/Operating-System-Lab/labels/up-for-grabs

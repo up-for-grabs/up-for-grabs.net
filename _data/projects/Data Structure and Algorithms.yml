@@ -1,12 +1,15 @@
+---
 name: Data Structure and Algorithms
 desc: Repository for implementing all Data Structre and Algorithms
 site: https://github.com/kshitizsaini113/Data-Structure-and-Algorithms
 tags:
-  - c
-  - c++
-  - data-structure
-  - algorithm
-  - contributions
+- c
+- c++
+- data-structure
+- algorithm
+- contributions
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/kshitizsaini113/Data-Structure-and-Algorithms/labels/up-for-grabs
+stats:
+  issue-count: 0

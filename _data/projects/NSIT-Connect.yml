@@ -1,7 +1,7 @@
 ---
 name: NSIT-Connect
 desc: An app to convert images to PDF file
-site: https://github.com/Swati4star/NSIT-Connect
+site: https://github.com/NSITonline/NSIT-Connect
 tags:
 - pdf
 - education
@@ -9,7 +9,7 @@ tags:
 - facebook-graph-api
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Swati4star/NSIT-Connect/labels/up-for-grabs
+  link: https://github.com/NSITonline/NSIT-Connect/labels/up-for-grabs
 stats:
   issue-count: 3
   last-updated: '2018-08-03T15:23:41Z'

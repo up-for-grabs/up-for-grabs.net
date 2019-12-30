@@ -1,12 +1,17 @@
+---
 name: Interactive Arrays
-desc: Load JavaScript libraries into Chrome console, for quick debugging, experimenting and learning JavaScript
+desc: >-
+  Load JavaScript libraries into Chrome console, for quick debugging, experimenting and learning JavaScript
 site: https://bacloud14.github.io/Interactive_Arrays/
 tags:
-  - javascript
-  - underscore
-  - lodash
-  - chrome-console
-  - debug
+- javascript
+- underscore
+- lodash
+- chrome-console
+- debug
 upforgrabs:
   name: help wanted
   link: https://github.com/bacloud14/Interactive_Arrays/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2019-12-14T15:01:56Z'

@@ -2,7 +2,7 @@ name: Exec
 desc: Light tracking code execution web app
 site: http://130.61.120.197/
 tags:
-  - nodejs
+  - node.js
   - express
   - mongodb
   - profiling

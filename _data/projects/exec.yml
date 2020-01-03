@@ -1,0 +1,11 @@
+name: Exec
+desc: Light tracking code execution web app
+site: http://130.61.120.197/
+tags:
+  - node.js
+  - express
+  - mongodb
+  - profiling
+upforgrabs:
+  name: help wanted
+  link: https://github.com/bacloud14/exec/labels/help%20wanted

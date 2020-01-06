@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: d9d4e21b48941ade07f4217a48a5346c1122dbd4
+  revision: 101818f14e7ef4a195a8d7181f6bbc54ea848149
   branch: master
   specs:
     up_for_grabs_tooling (0.0.4)
@@ -12,7 +12,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.1)
+    activesupport (6.0.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -42,7 +42,7 @@ GEM
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     execjs (2.7.0)
-    faraday (0.17.1)
+    faraday (1.0.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.11.3)
     ffi (1.11.3-x64-mingw32)
@@ -98,7 +98,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 3.0)
       typhoeus (~> 1.3)
-    graphql (1.9.15)
+    graphql (1.9.17)
     graphql-client (0.16.0)
       activesupport (>= 3.0)
       graphql (~> 1.8)
@@ -239,7 +239,8 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.7-x86-mingw32)
       mini_portile2 (~> 2.4.0)
-    octokit (4.14.0)
+    octokit (4.15.0)
+      faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.19.1)
     parser (2.6.5.0)
@@ -278,7 +279,7 @@ GEM
     thread_safe (0.3.6)
     typhoeus (1.3.1)
       ethon (>= 0.9.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.6)
       thread_safe (~> 0.1)
     unicode-display_width (1.6.0)
     uri_template (0.7.0)

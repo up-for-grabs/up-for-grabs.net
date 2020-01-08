@@ -3,12 +3,12 @@ desc: Build Mobile, Desktop and WebAssembly apps with C# and XAML. Today. Open s
 site: https://platform.uno/
 tags:
   - "c#"
-  - XAML
+  - xaml
   - ".net"
-  - iOS
-  - Android
-  - Wasm
-  - WebAssembly
+  - ios
+  - android
+  - wasm
+  - webAssembly
 upforgrabs:
   name: help wanted
   link: https://github.com/unoplatform/uno/labels/help%20wanted

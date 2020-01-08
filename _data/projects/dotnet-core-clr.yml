@@ -10,5 +10,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/dotnet/coreclr/labels/up-for-grabs
 stats:
-  issue-count: 125
+  issue-count: 124
   last-updated: '2020-01-06T20:18:27Z'

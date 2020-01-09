@@ -1,14 +1,19 @@
+---
 name: Uno Platform
-desc: Build Mobile, Desktop and WebAssembly apps with C# and XAML. Today. Open source and professionally supported.
+desc: >-
+  Build Mobile, Desktop and WebAssembly apps with C# and XAML. Today. Open source and professionally supported.
 site: https://platform.uno/
 tags:
-  - "c#"
-  - xaml
-  - ".net"
-  - ios
-  - android
-  - wasm
-  - webassembly
+- c#
+- xaml
+- ".net"
+- ios
+- android
+- wasm
+- webassembly
 upforgrabs:
   name: help wanted
   link: https://github.com/unoplatform/uno/labels/help%20wanted
+stats:
+  issue-count: 37
+  last-updated: '2020-01-03T20:48:10Z'

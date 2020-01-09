@@ -1,0 +1,15 @@
+---
+name: radis
+desc: A fast line-by-line code for high-resolution infrared molecular spectra
+site: https://github.com/radis/radis
+tags:
+- python
+- science
+- physics
+- spectroscopy
+- astronomy
+- spectra
+- infrared
+upforgrabs:
+  name: good first issue
+  link: https://github.com/radis/radis/labels/good%20first%20issue

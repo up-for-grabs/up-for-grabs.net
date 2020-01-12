@@ -1,3 +1,4 @@
+---
 name: Computer-Graphics
 desc: Logical programming for Graphics and Graphics programming in OpenGL using C/C++.
 site: https://github.com/NishkarshRaj/Computer-Graphics
@@ -9,3 +10,6 @@ tags:
 upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/NishkarshRaj/Computer-Graphics/labels/Up-for-Grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-12-13T14:08:29Z'

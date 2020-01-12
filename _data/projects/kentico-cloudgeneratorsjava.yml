@@ -1,7 +1,7 @@
 ---
 name: cloud-generators-java
 desc: Java code generators for Kentico Cloud.
-site: https://github.com/Kentico/cloud-generators-java
+site: https://github.com/Kentico/kontent-generators-java
 tags:
 - java
 - kentico
@@ -13,7 +13,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/cloud-generators-java/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-generators-java/labels/up-for-grabs
 stats:
   issue-count: 5
   last-updated: '2018-09-17T14:16:25Z'

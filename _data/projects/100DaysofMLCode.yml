@@ -1,6 +1,6 @@
+---
 name: 100DaysofMLCode
-desc: >-
-  #100DaysofML Code challenge. Implementing Machine Learning algorithms in R and Python
+desc: "#100DaysofML Code challenge. Implementing Machine Learning algorithms in R and Python"
 site: https://github.com/NishkarshRaj/100DaysofMLCode
 tags:
 - python
@@ -16,3 +16,6 @@ tags:
 upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/NishkarshRaj/100DaysofMLCode/labels/Up-for-Grabs
+stats:
+  issue-count: 1
+  last-updated: '2020-01-12T06:35:31Z'

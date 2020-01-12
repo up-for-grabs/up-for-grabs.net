@@ -1,0 +1,18 @@
+name: 100DaysofMLCode
+desc: >-
+  #100DaysofML Code challenge. Implementing Machine Learning algorithms in R and Python
+site: https://github.com/NishkarshRaj/100DaysofMLCode
+tags:
+- python
+- r
+- anaconda
+- spyder
+- ml
+- ai
+- oss
+- regularexpressions
+- pandas
+- numpy
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/NishkarshRaj/100DaysofMLCode/labels/Up-for-Grabs

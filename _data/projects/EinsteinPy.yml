@@ -1,0 +1,12 @@
+---
+name: EinsteinPy
+desc: A python library for numerical and symbolic relativity
+site: https://github.com/einsteinpy/einsteinpy
+tags:
+- python
+- astronomy
+- gravitational-physics
+- general-relativity
+upforgrabs:
+  name: good first issue
+  link: https://github.com/einsteinpy/einsteinpy/labels/good%20first%20issue

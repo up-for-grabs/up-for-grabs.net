@@ -1,0 +1,10 @@
+name: Real Time Communications World
+desc: Maintain API Security
+site: https://www.realtimecommunicationsworld.com
+tags:
+  - api
+  - ddos
+  - json
+  upforgrabs:
+  name: up for grabs
+  link: https://github.com/username/project/labels/up%20for%20grabs

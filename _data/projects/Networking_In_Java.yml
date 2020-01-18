@@ -11,8 +11,5 @@ tags:
         - tcp-server
         - udp-server
         - java-programming
-upforgrabs:
-        name: help wanted
-        link: https://github.com/PrajjawalBanati/Networking_In_Java/labels/help%20wanted
 stats:
         issue-count: 1

@@ -11,5 +11,6 @@ tags:
         - tcp-server
         - udp-server
         - java-programming
-stats:
-        issue-count: 1
+upforgrabs:
+        name: up for grabs
+        link: https://github.com/PrajjawalBanati/Networking_In_Java/labels/up%20for%20grabs

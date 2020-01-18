@@ -1,0 +1,18 @@
+---
+name: Networking_In_Java
+desc: A repostiory which goes through implementation of networking protocols in java
+site: https://github.com/PrajjawalBanati/Networking_In_Java
+tags:
+        - java
+        - java-networking
+        - socket-programming
+        - stream- programming
+        - multithreaded-server
+        - tcp-server
+        - udp-server
+        - java-programming
+upforgrabs:
+        name: help wanted
+        link: https://github.com/PrajjawalBanati/Networking_In_Java/labels/help%20wanted
+stats:
+        issue-count: 1

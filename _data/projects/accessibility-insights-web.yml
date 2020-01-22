@@ -1,0 +1,11 @@
+name: Accessibility Insights for Web
+desc: Accessibility Insights for Web is a Google Chrome and Microsoft Edge Insider browser extension for assessing the accessibility of web sites and web applications.
+site: https://accessibilityinsights.io
+tags:
+  - chrome-extension
+  - reactjs
+  - typescript
+  - accessibility
+upforgrabs:
+  name: help wanted
+  link: https://github.com/microsoft/accessibility-insights-web/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

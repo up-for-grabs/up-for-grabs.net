@@ -1,0 +1,11 @@
+---
+name: httpref
+desc: Command line, offline, access to HTTP references
+site: https://github.com/dnnrly/httpref
+tags:
+- go
+- cli
+- http
+upforgrabs:
+  name: help wanted
+  link: https://github.com/dnnrly/httpref/labels/help%20wanted

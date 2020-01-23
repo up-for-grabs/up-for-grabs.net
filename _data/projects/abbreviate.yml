@@ -4,7 +4,6 @@ desc: Shorten your strings using common abbreviations
 site: https://github.com/dnnrly/abbreviate
 tags:
 - go
-- golang
 - cli
 upforgrabs:
   name: help wanted

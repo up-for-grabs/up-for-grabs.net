@@ -1,11 +1,15 @@
+---
 name: XKCD Bot
 desc: A reddit bot for /r/xkcd that posts detailed comments about xkcd comics.
 site: https://github.com/joeyvanlierop/xkcdbot
 tags:
-  - reddit
-  - python
-  - praw
-  - logging
+- reddit
+- python
+- praw
+- logging
 upforgrabs:
   name: up for grabs
   link: https://github.com/joeyvanlierop/xkcdbot/labels/up%20for%20grabs
+stats:
+  issue-count: 6
+  last-updated: '2020-01-23T09:28:35Z'

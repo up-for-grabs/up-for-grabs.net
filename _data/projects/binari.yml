@@ -2,12 +2,12 @@ name: Binari
 desc: Interactive code editor and bianry tree visual meant to teach new developers the basics of data structures through implimentation.
 site: https://binari.netlify.com
 tags:
-  - react
+  - reactjs
   - p5
   - material-ui
   - binary-tree
   - data-structure
-  - algorithms
+  - algorithm
   - javascript
 upforgrabs:
   name: up for grabs

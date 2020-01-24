@@ -1,0 +1,13 @@
+name: CodeNowHere
+desc: CLI application to create any programming language file! 
+site: https://github.com/alucardthefish/CodeNowHere
+tags:
+  - cli
+  - autotools
+  - c++
+  - cpp
+  - cpp11
+  - linux
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/alucardthefish/CodeNowHere/labels/up-for-grabs

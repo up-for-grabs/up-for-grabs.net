@@ -1,17 +1,20 @@
 ---
 name: QuickPerf examples
 desc: >-
-  Examples showing how to use [QuickPerf](https://github.com/quick-perf/quickperf) together with various frameworks (JUnit 4, JUnit 5, TestNG, Spring Boot, Micronaut, ...)
+  Examples showing how to use [QuickPerf](https://github.com/quick-perf/quickperf) together with various
+  frameworks (JUnit 4, JUnit 5, TestNG, Spring Boot, Micronaut, ...)
 site: https://github.com/quick-perf/quickperf-examples
 tags:
-  - java
-  - performance
-  - quickperf
-  - springboot
-  - micronaut
-  - junit4
-  - junit5
-  - testng
+- java
+- performance
+- quickperf
+- springboot
+- micronaut
+- junit4
+- junit5
+- testng
 upforgrabs:
-  name: "good first issue"
+  name: good first issue
   link: https://github.com/quick-perf/quickperf-examples/labels/good%20first%20issue
+stats:
+  issue-count: 0

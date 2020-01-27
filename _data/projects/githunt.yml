@@ -1,0 +1,15 @@
+---
+name: githunt
+desc: Browse most stared Github repositories by date from your command line.
+site: https://github.com/SriNandan33/githunt
+tags:
+- python
+- click
+- colorama
+- cli
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/SriNandan33/bootcamp/labels/up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2020-01-18T13:50:01.419023'

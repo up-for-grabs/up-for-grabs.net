@@ -1,0 +1,12 @@
+name: RDoc::Generator::SolarFish
+desc: Single-page HTML5 generator for Ruby RDoc.
+site: https://github.com/rbdoc/rdoc-generator-solarfish
+tags:
+- ruby
+- html
+- css
+- scss
+- sass
+upforgrabs:
+  name: help wanted
+  link: https://github.com/rbdoc/rdoc-generator-solarfish/labels/help%20wanted

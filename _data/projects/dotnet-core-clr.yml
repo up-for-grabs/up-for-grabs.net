@@ -9,6 +9,3 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/dotnet/coreclr/labels/up-for-grabs
-stats:
-  issue-count: 124
-  last-updated: '2020-01-16T19:12:54Z'

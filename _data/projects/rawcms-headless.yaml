@@ -1,0 +1,12 @@
+name: RawCMS Headless CMS
+desc: RawCMS is a headless CMS written in ASP.NET Core, built for developers that embrace API-first technology. RawCMS uses MongoDB as its data storage and is ready to be hosted on Docker containers.
+site: https://github.com/arduosoft/RawCMS
+tags:
+  - CMS
+  - Headless
+  - asp-net-core
+  - vuejs
+  - developerless
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/arduosoft/RawCMS/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs

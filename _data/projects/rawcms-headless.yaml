@@ -4,7 +4,7 @@ site: https://github.com/arduosoft/RawCMS
 tags:
   - cms
   - headless
-  - asp-net-core
+  - aspnet-core
   - vuejs
   - developerless
 upforgrabs:

@@ -2,7 +2,7 @@ name: React Test
 desc: An expressive testing library for React
 site: http://react-test.dev/
 tags:
-  - react
+  - reactjs
   - test
   - testing
   - jquery

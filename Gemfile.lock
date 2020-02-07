@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: c83f9032b2af570782569b4b6d42419a771ac2b5
+  revision: afc17d6d4b6b1edde30e3072041d59056adae070
   branch: master
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -239,7 +239,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.7-x86-mingw32)
       mini_portile2 (~> 2.4.0)
-    octokit (4.15.0)
+    octokit (4.16.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.19.1)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: afc17d6d4b6b1edde30e3072041d59056adae070
+  revision: 58a9b78bc06bc5015e8a16bcc39da0d4a30390c4
   branch: master
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -28,7 +28,7 @@ GEM
     colorator (1.1.0)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.6)
     dnsruby (1.61.3)
       addressable (~> 2.5)
     ecma-re-validator (0.2.0)

@@ -1,0 +1,16 @@
+name: React Test
+desc: An expressive testing library for React. This is not made by facebook/react team.
+site: http://react-test.dev/
+tags:
+  - reactjs
+  - test
+  - testing
+  - jquery
+  - expressive
+  - act
+  - render
+  - jest
+  - runner
+upforgrabs:
+  name: good first issue
+  link: https://github.com/franciscop/react-test/labels/good%20first%20issue

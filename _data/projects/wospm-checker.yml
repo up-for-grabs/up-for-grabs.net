@@ -1,0 +1,12 @@
+name: WOSPM Checker
+desc: A checker tool for open source project owners to measure if their open source project is a welcoming project or not
+site: https://wospm.github.io/checker/
+tags:
+  - php
+  - open-source
+  - oss
+  - metrics
+  - measure
+upforgrabs:
+  name: help wanted
+  link: https://github.com/WOSPM/checker/labels/help%20wanted

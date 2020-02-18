@@ -5,7 +5,6 @@ pulls:
   daysUntilClose: 1
   onlyLabels:
     - 'needs work'
-    - 'has questions'
   exemptLabels:
     - discussion
   staleLabel: stale

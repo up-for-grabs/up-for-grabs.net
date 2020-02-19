@@ -12,5 +12,5 @@ upforgrabs:
   name: Up for grabs
   link: https://github.com/Azure/azure-sdk-for-python/labels/Up%20for%20grabs
 stats:
-  issue-count: 4
+  issue-count: 3
   last-updated: '2020-02-15T18:57:32Z'

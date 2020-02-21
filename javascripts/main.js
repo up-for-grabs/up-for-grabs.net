@@ -14,7 +14,7 @@
       "selectedTags": tags,
       "names": projectsSvc.getNames(),
       "selectedNames": names,
-      "currentPageNumber": page,
+      "currentPageNumber": parseInt(page),
       "tagsString": tagsString
     }));
 
@@ -51,12 +51,13 @@
       renderProjects("", "", page);
       scrollUp();
     })
+
     this.get("#/page/:page/tags/", function (context) {
       var page = this.params["page"];
       renderProjects("", "", page);
       scrollUp();
     });
-    
+
     this.get("#/page/:page/tags/:tags", function (context) {
       var tags = this.params["tags"];
       var page = this.params["page"];
@@ -67,7 +68,7 @@
     this.get("#/names/", function (context) {
       renderProjects();
     });
-    
+
     this.get("#/names/:names", function (context) {
       var names = (this.params["names"] || "").toLowerCase().split(",");
       renderProjects("", names, 1);

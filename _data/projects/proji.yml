@@ -3,7 +3,6 @@ desc: A powerful cross-platform CLI project templating tool.
 site: https://github.com/nikoksr/proji
 tags:
   - go
-  - golang
   - project
   - scaffolding
   - templating

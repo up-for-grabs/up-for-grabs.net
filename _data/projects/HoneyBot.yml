@@ -1,14 +1,11 @@
 ---
 name: HoneyBot
-desc: python powered OOP modular (plugins-supported) IRC bot. ignited in Mauritius.
-site: https://github.com/Abdur-rahmaanJ/honeybot
+desc: A python IRC bot with simple plugins dev. Ignited in mauritius, first-timers friendly!
+site: https://github.com/pyhoneybot/honeybot
 tags:
 - python
 - irc
 - bot
 upforgrabs:
   name: help wanted
-  link: https://github.com/Abdur-rahmaanJ/honeybot/labels/help%20wanted
-stats:
-  issue-count: 14
-  last-updated: '2020-02-09T17:20:30Z'
+  link: https://github.com/pyhoneybot/honeybot/labels/help%20wanted

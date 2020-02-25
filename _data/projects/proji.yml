@@ -1,0 +1,16 @@
+name: proji
+desc: A powerful cross-platform CLI project templating tool.
+site: https://github.com/nikoksr/proji
+tags:
+  - go
+  - project
+  - scaffolding
+  - templating
+  - structure
+  - cli
+  - productivity
+  - tool
+  - command-line
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/nikoksr/proji/labels/up-for-grabs

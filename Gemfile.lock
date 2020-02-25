@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 003296bd2922b57ad7f6807ab5de2ef78eb3bf0c
+  revision: 9713aaffb5a0e39816a84b98d6d3e26beeb9ad78
   branch: master
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -252,7 +252,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    regexp_parser (1.6.0)
+    regexp_parser (1.7.0)
     rexml (3.2.4)
     rouge (3.13.0)
     rubocop (0.80.0)

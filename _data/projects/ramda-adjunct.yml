@@ -1,20 +1,24 @@
 ---
 name: Ramda Adjunct
-desc: Ramda Adjunct is the most popular and most comprehensive set of functional utilities for use with Ramda, providing a variety of useful, well tested functions with excellent documentation.
+desc: >-
+  Ramda Adjunct is the most popular and most comprehensive set of functional utilities for use with Ramda,
+  providing a variety of useful, well tested functions with excellent documentation.
 site: https://github.com/char0n/ramda-adjunct
 tags:
-  - ramda
-  - utils
-  - utilities
-  - toolkit
-  - extensions
-  - addons
-  - adjunct
-  - recipes
-  - extras
-  - cookbook
-  - functional
-
+- ramda
+- utils
+- utilities
+- toolkit
+- extensions
+- addons
+- adjunct
+- recipes
+- extras
+- cookbook
+- functional
 upforgrabs:
   name: help wanted
   link: https://github.com/char0n/ramda-adjunct/labels/help%20wanted
+stats:
+  issue-count: 74
+  last-updated: '2020-02-26T06:55:47Z'

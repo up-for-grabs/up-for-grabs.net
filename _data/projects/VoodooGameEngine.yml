@@ -1,0 +1,13 @@
+---
+name: Voodoo Game Engine
+desc: A game engine built in OpenGL using LWJGL
+site: https://github.com/CremBluRay/voodoo
+tags:
+  - game
+  - opengl
+  - lwjgl
+  - java
+  - openal
+upforgrabs:
+  name: good first issue
+  link: https://github.com/CremBluRay/voodoo/labels/good%20first%20issue

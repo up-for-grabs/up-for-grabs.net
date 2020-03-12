@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 9fdf0a1d8aee83eeabfd3db11b367ddcba075c91
+  revision: e82e63e9301c319ba22486463ebf4469b6d36bb8
   branch: master
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -98,7 +98,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 3.0)
       typhoeus (~> 1.3)
-    graphql (1.10.3)
+    graphql (1.10.4)
     graphql-client (0.16.0)
       activesupport (>= 3.0)
       graphql (~> 1.8)
@@ -239,7 +239,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.8-x86-mingw32)
       mini_portile2 (~> 2.4.0)
-    octokit (4.16.0)
+    octokit (4.17.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.19.1)
@@ -285,7 +285,7 @@ GEM
       thread_safe (~> 0.1)
     unicode-display_width (1.6.1)
     uri_template (0.7.0)
-    zeitwerk (2.2.2)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby

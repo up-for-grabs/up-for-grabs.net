@@ -1,0 +1,12 @@
+name: Simple Icons
+desc: Free SVG icons for popular brands.
+site: https://simpleicons.org/
+tags:
+- brands
+- icons
+- logos
+- svg
+- brand-colors
+upforgrabs:
+  name: good first issue
+  link: https://github.com/simple-icons/simple-icons/labels/good%20first%20issue

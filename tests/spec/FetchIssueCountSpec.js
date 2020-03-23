@@ -255,8 +255,8 @@ describe('fetchIssueCount', () => {
 
       stubRateLimitError(anHourFromNowInSeconds);
 
-      return new Promise(done => {
-        const makeRequestAndIgnoreError = function() {
+      return new Promise((done) => {
+        const makeRequestAndIgnoreError = function () {
           return fetchIssueCount('owner/repo', 'label').then(
             () => {},
             () => {}
@@ -285,8 +285,8 @@ describe('fetchIssueCount', () => {
 
       stubRateLimitError(twoHoursAgoInSeconds);
 
-      return new Promise(done => {
-        const makeRequestAndIgnoreError = function() {
+      return new Promise((done) => {
+        const makeRequestAndIgnoreError = function () {
           return fetchIssueCount('owner/repo', 'label').then(
             () => {},
             () => {}

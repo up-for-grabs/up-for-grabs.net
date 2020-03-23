@@ -166,7 +166,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
 
     return new Promise((resolve, reject) =>
       fetch(apiURL, settings).then(
-        response => {
+        (response) => {
           if (!response.ok) {
             if (response.status === 304) {
               // no content is returned in the 304 Not Modified response body
@@ -184,10 +184,10 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
             }
 
             response.json().then(
-              json => {
+              (json) => {
                 reject(inspectGenericError(json, response));
               },
-              error => {
+              (error) => {
                 reject(error);
               }
             );
@@ -219,7 +219,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
           }
 
           response.json().then(
-            json => {
+            (json) => {
               if (json && typeof json.length === 'number') {
                 const count = json.length;
                 setValue(ownerAndName, {
@@ -231,12 +231,12 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
                 resolve(count);
               }
             },
-            error => {
+            (error) => {
               reject(error);
             }
           );
         },
-        error => {
+        (error) => {
           reject(error);
         }
       )

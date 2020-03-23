@@ -1,4 +1,3 @@
-/* eslint arrow-parens: [ "error", "as-needed" ] */
 /* eslint global-require: "off" */
 /* eslint block-scoped-var: "off" */
 

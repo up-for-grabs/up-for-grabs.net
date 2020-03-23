@@ -1,7 +1,6 @@
 /* eslint global-require: "off" */
 /* eslint block-scoped-var: "off" */
 
-/* eslint arrow-parens: [ "error", "as-needed" ] */
 /* eslint function-paren-newline: [ "off" ] */
 /* eslint implicit-arrow-linebreak: [ "off" ] */
 

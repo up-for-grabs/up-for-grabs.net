@@ -1,6 +1,5 @@
 // @ts-nocheck
 
-/* eslint arrow-parens: [ "error", "as-needed" ] */
 /* eslint no-var: [ "error" ] */
 
 define([

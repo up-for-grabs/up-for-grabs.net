@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: b343c409e21d1eb31d7c95de793177a5a6c1a2be
+  revision: 722c362c69bf55af99ce4e3fd1b7c0f61596dd9c
   branch: master
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -12,7 +12,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.2.1)
+    activesupport (6.0.2.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -239,7 +239,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.8-x86-mingw32)
       mini_portile2 (~> 2.4.0)
-    octokit (4.17.0)
+    octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.19.1)

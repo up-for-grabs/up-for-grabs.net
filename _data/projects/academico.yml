@@ -1,11 +1,15 @@
+---
 name: Academico
 desc: A simple, Laravel-based school management platform
 site: https://academico.site
 tags:
-  - laravel
-  - php
-  - lms
-  - vuejs
+- laravel
+- php
+- lms
+- vuejs
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/laxsmi/academico/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2020-03-25T15:53:42Z'

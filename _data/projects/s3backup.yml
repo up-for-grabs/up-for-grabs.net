@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/dnnrly/s3backup/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2020-03-28T08:43:38Z'

@@ -1,0 +1,13 @@
+---
+name: s3backup
+desc: Simple backup to S3
+site: https://github.com/dnnrly/s3backup
+tags:
+- go
+- cli
+- backup
+- s3
+- aws
+upforgrabs:
+  name: help wanted
+  link: https://github.com/dnnrly/s3backup/labels/help%20wanted

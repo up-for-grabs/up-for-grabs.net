@@ -1,0 +1,10 @@
+---
+name: ".NET Runtime"
+desc: >-
+  .NET is a cross-platform runtime for cloud, IoT, and desktop apps.
+site: https://github.com/dotnet/runtime
+tags:
+- ".net"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dotnet/runtime/labels/up-for-grabs

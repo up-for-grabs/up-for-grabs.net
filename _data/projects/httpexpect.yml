@@ -1,0 +1,13 @@
+name: httpexpect
+desc: End-to-end HTTP and REST API testing for Go.
+site: https://github.com/gavv/httpexpect
+tags:
+- go
+- testing
+- http
+- rest
+- json
+- websocket
+upforgrabs:
+  name: help wanted
+  link: https://github.com/gavv/httpexpect/labels/help%20wanted

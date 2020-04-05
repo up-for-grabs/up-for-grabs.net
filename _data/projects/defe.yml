@@ -1,0 +1,11 @@
+name: defe
+desc: A Tech feed Aggregator for Developers & Tech Enthusiasts
+site: https://defe-app.herokuapp.com/
+tags:
+  - python
+  - javascript
+  - html
+  - css
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Bhupesh-V/defe/labels/good%20first%20issue

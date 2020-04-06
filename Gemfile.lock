@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 722c362c69bf55af99ce4e3fd1b7c0f61596dd9c
+  revision: f95b3b325219d3606e6e95a84c8e9b4e5d6a0eff
   branch: master
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -42,7 +42,7 @@ GEM
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     execjs (2.7.0)
-    faraday (1.0.0)
+    faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
     ffi (1.12.1)
     ffi (1.12.1-x64-mingw32)
@@ -281,7 +281,7 @@ GEM
     thread_safe (0.3.6)
     typhoeus (1.3.1)
       ethon (>= 0.9.0)
-    tzinfo (1.2.6)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
     uri_template (0.7.0)

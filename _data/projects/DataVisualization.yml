@@ -1,0 +1,13 @@
+name: Covid-19 Data Visualization
+desc: Visualizing the total number of patients suffering form Covid-19
+site: https://github.com/x-47/DataVisualization
+tags:
+  - python
+  - Jupiter Notebook
+  - pandas
+  - numpy
+  - matplotlib
+  - Data visualization
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/x-47/DataVisualization/labels/Up-for-Grabs

@@ -1,0 +1,12 @@
+---
+name: MindsDB
+desc: An Explainable AutoML framework for developers built on top of Pytorch. I
+site: https://github.com/mindsdb/mindsdb
+tags:
+- python
+- automl
+- xai
+- xai-library
+upforgrabs:
+  name: bug
+  link: https://github.com/mindsdb/mindsdb/issues?q=is%3Aissue+is%3Aopen+label%3Abug

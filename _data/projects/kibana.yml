@@ -1,0 +1,12 @@
+name: Kibana
+desc: Kibana lets you visualize your Elasticsearch data and navigate the Elastic Stack so you can do anything from tracking query load to understanding the way requests flow through your apps.
+site: https://www.elastic.co/kibana
+tags:
+  - javascript
+  - typescript
+  - node.js
+  - elasticsearch
+  - reactjs
+upforgrabs:
+  name: good first issue
+  link: https://github.com/elastic/kibana/labels/good%20first%20issue

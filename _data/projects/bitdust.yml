@@ -3,20 +3,10 @@ desc: BitDust APP provides independent P2P on-line storage and secure private me
 site: https://bitdust.io
 tags:
   - python
-  - git
   - twisted
-  - rest-api
   - websocket
   - crypto
-  - privacy
   - peer-to-peer
-  - storage
-  - distributed-systems
-  - messaging
-  - docker
-  - micro-service
-  - state-machine
-  - ci
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/bitdust-io/devel/labels/up-for-grabs

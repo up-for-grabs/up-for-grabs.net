@@ -1,12 +1,16 @@
+---
 name: BitDust
 desc: BitDust APP provides independent P2P on-line storage and secure private messaging
 site: https://bitdust.io
 tags:
-  - python
-  - twisted
-  - websocket
-  - crypto
-  - peer-to-peer
+- python
+- twisted
+- websocket
+- crypto
+- peer-to-peer
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/bitdust-io/devel/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2020-04-08T15:38:03Z'

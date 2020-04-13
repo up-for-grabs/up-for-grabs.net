@@ -11,5 +11,5 @@ upforgrabs:
   name: hacktoberfest
   link: https://github.com/openfaas/faas/labels/hacktoberfest
 stats:
-  issue-count: 3
+  issue-count: 2
   last-updated: '2019-03-09T10:21:02Z'

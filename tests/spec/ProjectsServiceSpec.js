@@ -30,7 +30,7 @@ describe('ProjectsService', () => {
 
           expect(projects).toHaveLength(2);
 
-          const projectNames = projects.map(p => {
+          const projectNames = projects.map((p) => {
             return p.name;
           });
           expect(projectNames).toContain('Glimpse');

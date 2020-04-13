@@ -1,0 +1,17 @@
+---
+name: Computer Vision with Python
+desc: We aim to cver the following goals after completing the Computer Vision project : Understanding Computer Vision Applications, Understanding how to use OpenCV and how Python works with Iamages and Videos, Also, applying these skills in our projects.
+site: https://github.com/kshitizsaini113/Computer-Vision-with-Python
+tags:
+- python3
+- numpy
+- anaconda
+- opencv
+- contributions
+- image
+- imageprocessing
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kshitizsaini113/Computer-Vision-with-Python/labels/up-for-grabs
+stats:
+  issue-count: 0

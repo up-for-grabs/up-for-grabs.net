@@ -1,0 +1,17 @@
+---
+name: Computer Vision with Python
+desc: We aim to cover the following goals Understanding Computer Vision Applications, use of OpenCV and Python with Iamages and Videos.
+site: https://github.com/kshitizsaini113/Computer-Vision-with-Python
+tags:
+- python3
+- numpy
+- anaconda
+- opencv
+- contributions
+- image
+- imageprocessing
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kshitizsaini113/Computer-Vision-with-Python/labels/up-for-grabs
+stats:
+  issue-count: 0

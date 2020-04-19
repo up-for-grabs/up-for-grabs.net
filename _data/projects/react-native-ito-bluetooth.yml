@@ -3,7 +3,7 @@ desc: Privacy-first contact tracing library for React Native apps
 site: https://github.com/ito-org/react-native-ito-bluetooth
 tags:
 - react-native
-- library
+- libraries
 - java
 - swift
 - android

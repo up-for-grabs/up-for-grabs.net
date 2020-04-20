@@ -1,3 +1,4 @@
+---
 name: ito App
 desc: A privacy-first contact tracing app
 site: https://github.com/ito-org/react-native-app
@@ -11,3 +12,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/ito-org/react-native-app/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2020-04-19T22:36:33Z'

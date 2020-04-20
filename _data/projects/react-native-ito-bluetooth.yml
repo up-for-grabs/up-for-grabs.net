@@ -1,3 +1,4 @@
+---
 name: react-native-ito-bluetooth
 desc: Privacy-first contact tracing library for React Native apps
 site: https://github.com/ito-org/react-native-ito-bluetooth
@@ -13,3 +14,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/ito-org/react-native-ito-bluetooth/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2020-04-20T09:19:46Z'

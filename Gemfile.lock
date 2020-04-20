@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: f95b3b325219d3606e6e95a84c8e9b4e5d6a0eff
+  revision: 99a171326e5234f68a2ee9ad3a267980e1a9232c
   branch: master
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -31,7 +31,7 @@ GEM
     concurrent-ruby (1.1.6)
     dnsruby (1.61.3)
       addressable (~> 2.5)
-    ecma-re-validator (0.2.0)
+    ecma-re-validator (0.2.1)
       regexp_parser (~> 1.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -98,7 +98,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 3.0)
       typhoeus (~> 1.3)
-    graphql (1.10.5)
+    graphql (1.10.7)
     graphql-client (0.16.0)
       activesupport (>= 3.0)
       graphql (~> 1.8)

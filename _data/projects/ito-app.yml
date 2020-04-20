@@ -1,0 +1,13 @@
+name: ito App
+desc: A privacy-first contact tracing app
+site: https://github.com/ito-org/react-native-app
+tags:
+- react-native
+- mobile-app
+- typescript
+- health
+- privacy
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ito-org/react-native-app/labels/good%20first%20issue

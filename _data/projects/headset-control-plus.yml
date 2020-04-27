@@ -1,0 +1,14 @@
+name: Headset Control Plus
+desc: Unleash the power of your Headset button by supporting gestures such as Long Press, Double Press, Triple Press etc.
+site: https://play.google.com/store/apps/details?id=com.chif.headsetcontrolplus
+tags:
+  - android
+  - java
+  - accessibility
+  - service
+  - headset
+  - hardware
+  - tweak
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/nadchif/headset-control-plus/labels/up-for-grabs

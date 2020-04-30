@@ -13,5 +13,5 @@ upforgrabs:
   name: Up for grabs
   link: https://github.com/Azure/azure-sdk-for-net/labels/Up%20for%20grabs
 stats:
-  issue-count: 15
+  issue-count: 14
   last-updated: '2020-04-24T02:24:30Z'

@@ -1,12 +1,17 @@
+---
 name: AutoDrive_RouteManager
-desc: This is an external graphical editor and route manager for the AutoDrive Mod for Farming Simulator 19.
+desc: >-
+  This is an external graphical editor and route manager for the AutoDrive Mod for Farming Simulator 19.
 site: https://github.com/raupach/AutoDrive_RouteManager
 tags:
-  - java
-  - swing
-  - spring
-  - gui
-  - java-programming
+- java
+- swing
+- spring
+- gui
+- java-programming
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/raupach/AutoDrive_RouteManager/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2020-04-30T13:01:35Z'

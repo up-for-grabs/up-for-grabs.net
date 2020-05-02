@@ -1,0 +1,13 @@
+name: JHipster.NET
+desc: Jhipster generator but with asp.net core backend 
+site: https://github.com/jhipster/jhipster-dotnetcore
+tags:
+- JHipster
+- JHipster.NET
+- asp.net-core
+- .net
+- web
+- yeoman
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/jhipster/jhipster-dotnetcore/labels/up-for-grabs

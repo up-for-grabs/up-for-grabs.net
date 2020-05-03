@@ -23,6 +23,7 @@ exclude:
   - package-lock.json
   - README.md
   - tsconfig.json
+  - vendor
 
 github: [metadata]
 

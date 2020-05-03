@@ -1,15 +1,19 @@
+---
 name: Voodoo2D Game Engine
 desc: A 2D game engine written in Java that is beginner and experienced programmer friendly!
 site: https://github.com/CremBluRay/voodoo2d
 tags:
-  - lwjgl
-  - game-engine
-  - opengl
-  - game
-  - 2d
-  - 2d-game
-  - beginner
-  - java
+- lwjgl
+- game-engine
+- opengl
+- game
+- 2d
+- 2d-game
+- beginner
+- java
 upforgrabs:
   name: first timers
   link: https://github.com/CremBluRay/voodoo2d/labels/first%20timers
+stats:
+  issue-count: 3
+  last-updated: '2020-05-03T04:15:25Z'

@@ -1,4 +1,5 @@
 AllCops:
+  NewCops: enable
   Include:
     - '.github/actions/**/*.rb'
     - 'scripts/**/*.rb'

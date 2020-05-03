@@ -1,10 +1,5 @@
 # frozen_string_literal: true
 
-require 'safe_yaml'
-require 'uri'
-require 'pathname'
-require 'find'
-require 'json_schemer'
 require 'up_for_grabs_tooling'
 
 root = Pathname.new(File.dirname(__dir__))

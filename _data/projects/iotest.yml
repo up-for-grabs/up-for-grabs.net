@@ -6,5 +6,5 @@ tags:
   - test
   - node.js
 upforgrabs:
-  name: issues
-  link: https://github.com/yavrumian/test.io/issues
+  name: good first issue
+  link: https://github.com/yavrumian/test.io/labels/good%20first%20issue

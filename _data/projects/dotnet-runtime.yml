@@ -8,5 +8,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/dotnet/runtime/labels/up-for-grabs
 stats:
-  issue-count: 402
-  last-updated: '2020-05-05T00:43:32Z'
+  issue-count: 401
+  last-updated: '2020-05-06T09:01:44Z'

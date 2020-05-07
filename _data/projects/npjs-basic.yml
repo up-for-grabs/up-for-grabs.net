@@ -1,10 +1,14 @@
+---
 name: npjs-basic
 desc: A numpy-like library for npm
 site: https://example.org/your-project-link-here
 tags:
-  - javascript
-  - node.js
-  - npm
+- javascript
+- node.js
+- npm
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/hrishibawane/npjs-basic/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2020-05-06T06:49:46Z'

@@ -1,10 +1,14 @@
+---
 name: test.io
 desc: Socket.io online test tool
 site: http://io-tester.herokuapp.com/
 tags:
-  - socket.io
-  - test
-  - node.js
+- socket.io
+- test
+- node.js
 upforgrabs:
   name: good first issue
   link: https://github.com/yavrumian/test.io/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2020-05-07T13:41:45Z'

@@ -2,7 +2,7 @@ name: Brackets PHP Beautify
 desc: Simple regex based PHP code formatter (beautifier) for Adobe Brackets. No PHP server required
 site: https://github.com/OSS-Enthusiasts/brackets-php-beautify
 tags:
-  - PHP
+  - php
   - regex
   - javascript
   - brackets

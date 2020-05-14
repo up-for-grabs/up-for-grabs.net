@@ -1,0 +1,12 @@
+name: Brackets PHP Beautify
+desc: A brief description of the project
+site: Simple regex based PHP code formatter (beautifier) for Adobe Brackets. No PHP server required
+tags:
+  - PHP
+  - regex
+  - javascript
+  - brackets
+  - requirejs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/OSS-Enthusiasts/brackets-php-beautify/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs

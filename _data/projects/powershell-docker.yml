@@ -1,5 +1,5 @@
 name: PowerShell Docker Images
-desc: The docker images PowerShell releases, both official and communit.
+desc: The docker images PowerShell releases, both official and community.
 site: https://github.com/powershell/powershell-docker
 tags:
   - powershell

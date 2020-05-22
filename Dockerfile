@@ -1,8 +1,5 @@
 FROM ruby:2.6-slim-buster
 
-ENV GITHUB_GEM_VERSION 200
-ENV JSON_GEM_VERSION 1.8.6
-
 RUN apt update \
   && apt install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev git \
   && gem install bundler:2.1.4 \

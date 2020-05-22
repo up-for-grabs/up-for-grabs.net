@@ -1,0 +1,11 @@
+name: Yugabyte DB
+desc: Distributed, high-performance SQL database
+site: https://docs.yugabyte.com/latest/contribute/
+tags:
+  - c++
+  - distributed
+  - database
+  - performance
+upforgrabs:
+  name: good first issue
+  link: https://github.com/username/project/labels/up%20for%20grabs

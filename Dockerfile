@@ -10,5 +10,5 @@ RUN apt update \
 
 WORKDIR /app
 
-EXPOSE 4000 80
+EXPOSE 4000
 CMD bundle install && bundle exec jekyll serve -d /_site --watch --force_polling -H 0.0.0.0 -P 4000

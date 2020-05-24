@@ -1,0 +1,12 @@
+name: PyConSys
+desc: Control System with Python and Artificial Intelligence (Evolutionary Algorithm)
+site: https://github.com/mck-sbs/PyConSys
+tags:
+  - python
+  - ai
+  - control loops
+  - pid
+  - evolutional algorithm
+upforgrabs:
+  name: help wanted
+  link: https://github.com/mck-sbs/PyConSys/projects/1

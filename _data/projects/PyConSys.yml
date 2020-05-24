@@ -1,6 +1,6 @@
 name: PyConSys
 desc: Control System with Python and Artificial Intelligence (Evolutionary Algorithm)
-site: 
+site: https://github.com/mck-sbs/PyConSys
 tags:
   - python
   - ai

@@ -1,11 +1,15 @@
+---
 name: Yugabyte DB
 desc: Distributed, high-performance SQL database
 site: https://docs.yugabyte.com/latest/contribute/
 tags:
-  - c++
-  - distributed
-  - database
-  - performance
+- c++
+- distributed
+- database
+- performance
 upforgrabs:
   name: good first issue
   link: https://github.com/yugabyte/yugabyte-db/labels/good%20first%20issue
+stats:
+  issue-count: 42
+  last-updated: '2020-05-24T19:15:26Z'

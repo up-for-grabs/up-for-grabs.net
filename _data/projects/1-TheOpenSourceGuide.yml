@@ -1,0 +1,23 @@
+---
+name: The Open Source Guide
+desc: 'This repository is designed for helping begineers getting started with Open Source Development'
+site: https://github.com/upes-open/TheOpenSourceGuide
+tags:
+- development
+- opensource
+- git
+- vcs
+- contribution
+- code
+- markdown
+- pull request
+upforgrabs:
+  name: good first issue
+  link: https://github.com/upes-open/TheOpenSourceGuide/labels/good%20first%20issue
+  name: BEGINEER
+  link: https://github.com/upes-open/TheOpenSourceGuide/labels/BEGINEER
+  name: Accepting merge requests
+  link: https://github.com/upes-open/TheOpenSourceGuide/labels/Accepting%20merge%20requests
+  name: Begineers only
+  link: https://github.com/upes-open/TheOpenSourceGuide/labels/begineersOnly
+

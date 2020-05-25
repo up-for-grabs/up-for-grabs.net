@@ -14,5 +14,4 @@ upforgrabs:
   link: >-
     https://github.com/cdnjs/cdnjs/issues?q=is%3Aissue+is%3Aopen+-label%3A%22wait+for+response%22+-label%3A%22in+progress%22+label%3A%22%3Agift%3A+BEGINNER%22
 stats:
-  issue-count: 1
-  last-updated: '2020-05-10T05:59:34Z'
+  issue-count: 0

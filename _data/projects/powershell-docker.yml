@@ -1,0 +1,10 @@
+name: PowerShell Docker Images
+desc: The docker images PowerShell releases, both official and community.
+site: https://github.com/powershell/powershell-docker
+tags:
+  - powershell
+  - docker
+  - oss
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/PowerShell/PowerShell-Docker/labels/Up-for-Grabs

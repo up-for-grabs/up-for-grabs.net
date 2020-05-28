@@ -1,13 +1,17 @@
+---
 name: Gryphon
 desc: The Swift to Kotlin translator
 site: https://vinivendra.github.io/Gryphon
 tags:
-  - android
-  - ios
-  - kotlin
-  - swift
-  - transpiling
-  - source-to-source
+- android
+- ios
+- kotlin
+- swift
+- transpiling
+- source-to-source
 upforgrabs:
   name: good first issue
   link: https://github.com/vinivendra/Gryphon/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2020-05-20T15:43:23Z'

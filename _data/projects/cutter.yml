@@ -1,0 +1,12 @@
+name: Cutter
+desc: Free and Open Source Reverse Engineering Platform powered by radare2
+site: https://cutter.re
+tags:
+  - reverse-engineering
+  - security
+  - c++
+  - qt
+  - gui
+upforgrabs:
+  name: good first issue
+  link: https://github.com/radareorg/cutter/labels/good%20first%20issue

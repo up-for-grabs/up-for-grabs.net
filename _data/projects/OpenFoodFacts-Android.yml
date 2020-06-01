@@ -8,5 +8,5 @@ tags:
   - nutrition
   - environment
 upforgrabs:
-  name: up for grabs
+  name: hacktoberfest
   link: https://github.com/openfoodfacts/openfoodfacts-androidapp/labels/hacktoberfest

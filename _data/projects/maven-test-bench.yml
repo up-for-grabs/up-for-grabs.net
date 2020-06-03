@@ -1,5 +1,5 @@
 ---
-name: Maven test bench
+name: Maven performance test bench
 desc: Performance test bench for Apache Maven project.
 site: https://github.com/quick-perf/maven-test-bench
 tags:

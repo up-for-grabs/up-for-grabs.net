@@ -11,7 +11,7 @@ tags:
 - interpreter
 upforgrabs:
   name: good first issue
-  link: https://github.com/jasonwilliams/boa/labels/good%20first%20issue
+  link: https://github.com/boa-dev/boa/labels/good%20first%20issue
 stats:
-  issue-count: 9
-  last-updated: '2020-04-22T11:33:46Z'
+  issue-count: 19
+  last-updated: '2020-06-02T10:02:22Z'

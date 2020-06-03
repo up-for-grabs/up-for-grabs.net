@@ -1,12 +1,19 @@
+---
 name: Open Food Facts Android app
-desc: Open Food Facts is the Wikipedia for Food. An open-source & open-data project, it allows you to inform yourself and transform the food system by promoting its transparency, thanks to crowdsourcing via mobile apps
+desc: >-
+  Open Food Facts is the Wikipedia for Food. An open-source & open-data project, it allows you to inform
+  yourself and transform the food system by promoting its transparency, thanks to crowdsourcing via mobile
+  apps
 site: https://github.com/openfoodfacts/openfoodfacts-androidapp
 tags:
-  - java
-  - food
-  - android
-  - nutrition
-  - environment
+- java
+- food
+- android
+- nutrition
+- environment
 upforgrabs:
   name: hacktoberfest
   link: https://github.com/openfoodfacts/openfoodfacts-androidapp/labels/hacktoberfest
+stats:
+  issue-count: 17
+  last-updated: '2020-05-24T14:06:33Z'

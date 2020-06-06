@@ -3,6 +3,8 @@ desc: Discussions (help-wanted) on usability of "Constrained Data Base with Slow
 site: https://github.com/bacloud14/Constrained-Data-Base-with-Slow-Streams
 tags:
   - scientific
+  - data
+  - streams
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/bacloud14/Constrained-Data-Base-with-Slow-Streams/labels/up-for-grubs
+  link: https://github.com/bacloud14/Constrained-Data-Base-with-Slow-Streams/labels/up-for-grabs

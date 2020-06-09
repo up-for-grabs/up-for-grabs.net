@@ -1,0 +1,12 @@
+name: LearnJS
+desc: A website having collection of javascript programs and questions. 
+site: https://github.com/akulsr0/learn-js
+tags:
+  - javascript
+  - programs
+  - questions
+  - algorithms
+  - data-structures
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/akulsr0/learn-js/labels/up%20for%20grabs

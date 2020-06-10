@@ -8,7 +8,6 @@ tags:
   - aws-lambda
   - aws-lambda-layers
   - database-restore
-  - step-functions
 upforgrabs:
   name: up for grabs
   link: https://github.com/username/project/labels/up%20for%20grabs

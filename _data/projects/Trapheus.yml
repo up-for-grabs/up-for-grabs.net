@@ -9,6 +9,6 @@ tags:
   - aws-lambda-layers
   - database-restore
   - step-functions
-Trapheus:
-  name: Trapheus
-  link: https://github.com/intuit/Trapheus
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/username/project/labels/up%20for%20grabs

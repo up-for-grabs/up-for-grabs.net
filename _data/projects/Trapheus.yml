@@ -1,14 +1,19 @@
+---
 name: Trapheus
-desc: Trapheus automates restoration of RDS database instances from snapshots into any dev, staging or production environments.It supports individual RDS Snapshot as well as cluster snapshot restore operations.
+desc: >-
+  Trapheus automates restoration of RDS database instances from snapshots into any dev, staging or production
+  environments.It supports individual RDS Snapshot as well as cluster snapshot restore operations.
 site: https://github.com/intuit/Trapheus
 tags:
-  - rds
-  - step-functions
-  - python
-  - aws-lambda
-  - aws-lambda-layers
-  - database-restore
+- rds
+- step-functions
+- python
+- aws-lambda
+- aws-lambda-layers
+- database-restore
 upforgrabs:
   name: good first issue
   link: https://github.com/intuit/Trapheus/labels/good%20first%20issue
-
+stats:
+  issue-count: 1
+  last-updated: '2020-06-10T12:49:31Z'

@@ -1,0 +1,13 @@
+name: MyHome
+desc: Apartment management application 
+site: https://github.com/jmprathab/MyHome
+tags:
+  - java
+  - spring
+  - springboot
+  - docker
+  - web
+  - rest
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/jmprathab/MyHome/labels/up-for-grabs

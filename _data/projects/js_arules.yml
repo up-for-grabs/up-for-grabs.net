@@ -2,7 +2,6 @@ name: JS Arules
 desc: Local Association Learning in your Browser using JS
 site: https://bacloud14.github.io/js_arules/
 tags:
-  - association rules
   - arules
   - javascript
   - visualization

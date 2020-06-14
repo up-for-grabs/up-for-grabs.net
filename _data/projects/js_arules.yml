@@ -1,10 +1,14 @@
+---
 name: JS Arules
 desc: Local Association Learning in your Browser using JS
 site: https://bacloud14.github.io/js_arules/
 tags:
-  - arules
-  - javascript
-  - visualization
+- arules
+- javascript
+- visualization
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/bacloud14/js_arules/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2020-06-13T10:58:23Z'

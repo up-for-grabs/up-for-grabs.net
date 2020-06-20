@@ -1,0 +1,11 @@
+name: Book Project
+desc: Keep track of a list of books that you want to read, are currently reading and have read
+site: https://github.com/knjk04/book-project
+tags:
+  - spring-boot
+  - vaadin
+  - web-app
+  - java
+upforgrabs:
+  name: good first issue
+  link: https://github.com/knjk04/book-project/labels/good%20first%20issue

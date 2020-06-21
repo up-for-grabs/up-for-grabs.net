@@ -1,0 +1,12 @@
+name: MyHome-Web application
+desc: App which helps people manage their apartment
+site: https://github.com/jmprathab/MyHome-Web
+tags:
+  - reactjs
+  - web
+  - javascript
+  - jsx
+  - css
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/jmprathab/MyHome-Web/labels/up-for-grabs

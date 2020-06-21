@@ -2,7 +2,7 @@ name: MyHome-Web application
 desc: App which helps people manage their apartment
 site: https://github.com/jmprathab/MyHome-Web
 tags:
-  - react
+  - reactjs
   - web
   - javascript
   - jsx

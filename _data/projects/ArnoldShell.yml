@@ -1,0 +1,12 @@
+---
+name: ArnoldShell
+desc: " Arnold C, if it was a simple shell "
+site: https://github.com/John123Allison/ArnoldShell
+tags:
+- go
+- unix
+- shell
+- golang
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/username/project/labels/help%20wanted

@@ -1,0 +1,7 @@
+name: ipfs-pastebin
+desc: A text/code sharing pastebin based on IPFS
+site: https://ipfs-pastebin.herokuapp.com
+tags:
+  - pastebin
+  - ipfs
+  - decentralization

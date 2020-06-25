@@ -1,0 +1,20 @@
+---
+name: Fairlearn
+desc: A Python package to assess and improve fairness of machine learning models.
+site: https://github.com/fairlearn/fairlearn
+tags:
+- "fairness-ml"
+- "fairness-ai"
+- "fairness"
+- "machine-learning"
+- "artificial-intelligence"
+- "unfairness-mitigation"
+- "fairness-assessment"
+- "ai"
+- "responsible-ai"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/fairlearn/fairlearn/labels/help%20wanted
+stats:
+  issue-count: 9
+  last-updated: '2020-06-24T02:38:00Z'

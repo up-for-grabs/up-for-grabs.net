@@ -1,0 +1,11 @@
+name: ipfs-pastebin
+desc: A text/code sharing pastebin based on IPFS
+site: https://ipfs-pastebin.herokuapp.com
+tags:
+  - pastebin
+  - ipfs
+  - decentralization
+
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hrishibawane/ipfs-pastebin/labels/good%20first%20issue

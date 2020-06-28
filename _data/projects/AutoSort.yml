@@ -1,0 +1,10 @@
+name: AutoSort
+desc: Sort by a string or by default attributeA brief description of the project
+site: https://github.com/ming-tsai/NetCore.AutoSort
+tags:
+  - C#
+  - NetCore
+  - dotnet3-1
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/ming-tsai/NetCore.AutoSort/labels/up-for-grabs

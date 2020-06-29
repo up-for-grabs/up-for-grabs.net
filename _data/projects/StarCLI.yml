@@ -3,7 +3,7 @@ desc: Browse trending repos on GitHub by stars from your commandline.
 site: https://github.com/hedythedev/starcli
 tags:
   - python
-  - CLI
+  - cli
   - beginner
   - command-line
   - terminal

@@ -1,0 +1,16 @@
+name: Ground for Android
+desc: Ground mobile data collection app for Android
+site: https://github.com/google/ground-android
+tags:
+  - android
+  - java
+  - google
+  - mobile-data-collection
+  - satellite-imagery
+  - data-collection
+  - environmental-monitoring
+  - offline-first
+  - field-survey
+upforgrabs:
+  name: help wanted
+  link: https://github.com/google/ground-android/labels/help%20wanted

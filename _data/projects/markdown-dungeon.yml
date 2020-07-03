@@ -1,0 +1,8 @@
+name: markdown-dungeon
+desc: Sort by a string or by default attribute
+site: This is an example that how to use Markdown creating a dungeon
+tags:
+  - markdown
+upforgrabs:
+  name: beginner
+  link: https://github.com/MakeContributions/markdown-dungeon/labels/beginner

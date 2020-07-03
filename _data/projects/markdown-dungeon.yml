@@ -1,0 +1,8 @@
+name: markdown-dungeon
+desc: This is an example that how to use Markdown creating a dungeon
+site: https://github.com/MakeContributions/markdown-dungeon
+tags:
+  - markdown
+upforgrabs:
+  name: beginner
+  link: https://github.com/MakeContributions/markdown-dungeon/labels/beginner

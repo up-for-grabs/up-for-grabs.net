@@ -1,5 +1,5 @@
 name: Hackernews Scraping
-desc: Web Scraper written in Python, that scrapes thehackernews.com upto specified number of pages.
+desc: Web scraper written in Python, that scrapes thehackernews.com up to specified number of pages.
 site: https://github.com/pushp1997/Hackernews-Scraping
 tags:
   - python3

@@ -11,4 +11,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/TroyTae/game-of-life/labels/up-for-grabs
 stats:
-  issue-count: 0
+  issue-count: 5
+  last-updated: '2020-07-06T01:10:59Z'

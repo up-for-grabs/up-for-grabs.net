@@ -7,6 +7,6 @@ tags:
 - netcore
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/ming-tsai/NetCore.AutoSort/labels/up-for-grabs
+  link: https://github.com/ming-tsai/AutoSort.NetCore/labels/up-for-grabs
 stats:
   issue-count: 0

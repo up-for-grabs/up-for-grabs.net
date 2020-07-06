@@ -13,6 +13,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/Kentico/kontent-sample-app-react/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2020-06-10T15:24:22Z'

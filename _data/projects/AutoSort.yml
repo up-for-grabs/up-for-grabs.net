@@ -1,5 +1,5 @@
 ---
-name: AutoSort
+name: AutoSort.NetCore
 desc: Sort by a string or by default attribute
 site: https://github.com/ming-tsai/NetCore.AutoSort
 tags:

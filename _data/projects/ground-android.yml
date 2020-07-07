@@ -1,16 +1,25 @@
+---
 name: Ground Android
-desc: Ground is an open-source, map-first data collection and analysis platform built to seamlessly connect the offline world with cloud-based storage and computation. The platform consists of a web app for data management and an Android app for offline data collection. Our goal is to provide a "just right" data collection solution that meets the needs of community organizers, conservationists, humanitarian workers, and researchers addressing some of today's most pressing issues.
+desc: >-
+  Ground is an open-source, map-first data collection and analysis platform built to seamlessly connect
+  the offline world with cloud-based storage and computation. The platform consists of a web app for data
+  management and an Android app for offline data collection. Our goal is to provide a "just right" data
+  collection solution that meets the needs of community organizers, conservationists, humanitarian workers,
+  and researchers addressing some of today's most pressing issues.
 site: https://github.com/google/ground-android
 tags:
-  - android
-  - java
-  - google
-  - mobile-data-collection
-  - satellite-imagery
-  - data-collection
-  - environmental-monitoring
-  - offline-first
-  - field-survey
+- android
+- java
+- google
+- mobile-data-collection
+- satellite-imagery
+- data-collection
+- environmental-monitoring
+- offline-first
+- field-survey
 upforgrabs:
   name: help wanted
   link: https://github.com/google/ground-android/labels/help%20wanted
+stats:
+  issue-count: 3
+  last-updated: '2020-07-01T22:40:22Z'

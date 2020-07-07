@@ -5,8 +5,8 @@ site: https://github.com/MakeContributions/markdown-dungeon
 tags:
 - markdown
 upforgrabs:
-  name: beginner
-  link: https://github.com/MakeContributions/markdown-dungeon/labels/beginner
+  name: help wanted
+  link: https://github.com/MakeContributions/markdown-dungeon/labels/help%20wanted
 stats:
   issue-count: 1
   last-updated: '2020-07-03T00:58:38Z'

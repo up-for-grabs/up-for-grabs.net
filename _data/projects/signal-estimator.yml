@@ -13,3 +13,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/gavv/signal-estimator/labels/help%20wanted
+stats:
+  issue-count: 8
+  last-updated: '2020-07-10T09:44:35Z'

@@ -1,0 +1,12 @@
+name: 99 Machine Learning Learning-Projects
+desc: A list of 99 machine learning projects for anyone interested to learn from coding and building projects
+site: https://github.com/gimseng/99-ML-Learning-Projects
+tags:
+  - python
+  - machine-learning
+  - deep-learning
+  - education
+  - learning
+upforgrabs:
+  name: help wanted
+  link: https://github.com/gimseng/99-ML-Learning-Projects/labels/help%20wanted

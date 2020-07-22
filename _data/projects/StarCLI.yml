@@ -1,6 +1,6 @@
 ---
 name: StarCLI
-desc: Browse trending repos on GitHub by stars from your commandline.
+desc: Browse trending projects on GitHub from your command-line, filter by languages, stars, creation/pushed date, and more to come
 site: https://github.com/hedythedev/starcli
 tags:
 - python

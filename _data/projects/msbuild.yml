@@ -7,7 +7,7 @@ tags:
 - build
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/microsoft/msbuild/labels/up-for-grabs
+  link: https://github.com/dotnet/msbuild/labels/up-for-grabs
 stats:
   issue-count: 82
-  last-updated: '2020-07-15T16:20:43Z'
+  last-updated: '2020-07-22T16:27:58Z'

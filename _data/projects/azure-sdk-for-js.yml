@@ -14,4 +14,5 @@ upforgrabs:
   name: Up for grabs
   link: https://github.com/Azure/azure-sdk-for-js/labels/Up%20for%20grabs
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2020-07-22T21:31:05Z'

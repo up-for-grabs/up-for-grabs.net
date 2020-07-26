@@ -10,7 +10,7 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@main
     - name: Build Docker container
       run: docker build .
 

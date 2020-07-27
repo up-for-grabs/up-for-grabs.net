@@ -27,7 +27,7 @@
     "eslint-plugin-jest": "^23.18.0",
     "jest": "^26.1.0",
     "jest-fetch-mock": "^3.0.3",
-    "jest-localstorage-mock": "^2.4.2",
+    "jest-localstorage-mock": "^2.4.3",
     "prettier": "^2.0.5",
     "promise-polyfill": "^8.1.3",
     "typescript": "^3.9.6",

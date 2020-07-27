@@ -18,7 +18,7 @@
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.4",
+    "@babel/core": "^7.10.5",
     "babel-jest": "^26.1.0",
     "eslint": "7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",

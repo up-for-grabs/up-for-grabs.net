@@ -1,0 +1,14 @@
+name: Nextcloud Bookmarks
+desc: A selfhosted Bookmarks app for Nextcloud
+site: https://github.com/nextcloud/bookmarks
+tags:
+  - bookmarks
+  - bookmark
+  - links
+  - pocket
+  - feed
+  - browser
+  - nextcloud
+upforgrabs:
+  name: good first issue
+  link: https://github.com/nextcloud/bookmarks/labels/good%20first%20issue

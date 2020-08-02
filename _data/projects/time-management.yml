@@ -1,11 +1,15 @@
+---
 name: time-management
 desc: Time Management (TM) helps you to keep track of your day-to-day life as a software developer.
 site: https://github.com/ancbro/time-management
 tags:
-  - python
-  - time
-  - management
-  - sqlite
+- python
+- time
+- management
+- sqlite
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/ancbro/time-management/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2020-08-01T00:00:51Z'

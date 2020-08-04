@@ -1,0 +1,9 @@
+name: Fortknight
+desc: A minimalist HTML5 battle royale game.
+site: https://acenturyandabit.github.io/fortknight
+tags:
+  - game
+  - html5
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/acenturyandabit/fortknight/labels/up%20for%20grabs

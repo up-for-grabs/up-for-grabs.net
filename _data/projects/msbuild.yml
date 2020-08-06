@@ -9,5 +9,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/dotnet/msbuild/labels/up-for-grabs
 stats:
-  issue-count: 84
-  last-updated: '2020-08-04T22:07:39Z'
+  issue-count: 85
+  last-updated: '2020-08-05T22:11:33Z'

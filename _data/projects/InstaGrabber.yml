@@ -1,10 +1,14 @@
+---
 name: InstaGrabber
 desc: The open-source Instagram client for Android.
 site: https://instagrabber.austinhuang.me
 tags:
-  - java
-  - android
-  - instagram
+- java
+- android
+- instagram
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/austinhuang0131/instagrabber/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2020-08-05T14:33:46Z'

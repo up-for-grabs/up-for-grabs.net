@@ -3,13 +3,16 @@ name: stumpless
 desc: a C logging library built for high performance and a rich feature set
 site: https://github.com/goatshriek/stumpless
 tags:
-  - c
-  - logging
-  - libraries
-  - syslog
-  - cmake
-  - windows
-  - linux
+- c
+- logging
+- libraries
+- syslog
+- cmake
+- windows
+- linux
 upforgrabs:
   name: good first issue
   link: https://github.com/goatshriek/stumpless/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2020-08-08T13:40:13Z'

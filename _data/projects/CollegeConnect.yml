@@ -5,7 +5,7 @@ desc: >-
   of college and course. It aims to create a helpful plateform for all college students. It uses Firebase
   and SQLite to store and display the information to user. The app uses Material UI for an attractive
   interface and is available in both Light and Dark mode
-site: https://github.com/sakshampruthi/CollegeConnect
+site: https://github.com/collegeconnect/CollegeConnect
 tags:
 - android
 - java
@@ -15,9 +15,11 @@ tags:
 - xml
 - ui
 - ux
+- jetpack
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/sakshampruthi/CollegeConnect/labels/up-for-grabs
+  link: https://github.com/collegeconnect/CollegeConnect/labels/up-for-grabs
 stats:
   issue-count: 7
   last-updated: '2020-08-06T15:48:40Z'
+  

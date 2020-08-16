@@ -12,7 +12,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/kontent-delivery-sdk-java/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-java-packages/labels/up-for-grabs
 stats:
   issue-count: 3
   last-updated: '2020-01-27T14:07:19Z'

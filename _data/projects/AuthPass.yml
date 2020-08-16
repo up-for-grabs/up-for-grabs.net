@@ -1,19 +1,23 @@
+---
 name: AuthPass
 desc: >-
   AuthPass is a cross platform password manager for desktop and mobile (Android, iOS) based on flutter.
-  It uses the Keepass 2 file format (kdbx) and provides native builds for all major platforms
-  (Android, iOS, iPadOS, MacOS, Windows, Linux).
+  It uses the Keepass 2 file format (kdbx) and provides native builds for all major platforms (Android,
+  iOS, iPadOS, MacOS, Windows, Linux).
 site: https://authpass.app/
 tags:
-  - flutter
-  - dart
-  - mobile
-  - desktop
-  - android
-  - ios
-  - linux
-  - windows
-  - macos
+- flutter
+- dart
+- mobile
+- desktop
+- android
+- ios
+- linux
+- windows
+- macos
 upforgrabs:
   name: help wanted
   link: https://github.com/authpass/authpass/labels/help%20wanted
+stats:
+  issue-count: 10
+  last-updated: '2020-08-13T18:24:36Z'

@@ -4,6 +4,8 @@ desc: This is an example that how to use Markdown creating a dungeon
 site: https://github.com/MakeContributions/markdown-dungeon
 tags:
 - markdown
+- reactjs
+- gatsbyjs
 upforgrabs:
   name: help wanted
   link: https://github.com/MakeContributions/markdown-dungeon/labels/help%20wanted

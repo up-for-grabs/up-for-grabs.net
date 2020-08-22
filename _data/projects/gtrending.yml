@@ -3,7 +3,7 @@ desc: Python Library for fetching trending repositories and developers on GitHub
 site: https://github.com/hedythedev/gtrending
 tags:
   - python
-  - library
+  - libraries
   - github
   - trending
   - github-trending

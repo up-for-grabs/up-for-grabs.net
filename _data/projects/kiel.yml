@@ -1,0 +1,12 @@
+name: Kiel
+desc: Kotlin way of building RecyclerView Adapter 🧩.
+site: https://ibrahimyilmaz.github.io/kiel/
+tags:
+  - kotlin
+  - recyclerview
+  - android
+  - androiddev
+  - viewholder
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ibrahimyilmaz/kiel/labels/up-for-grabs

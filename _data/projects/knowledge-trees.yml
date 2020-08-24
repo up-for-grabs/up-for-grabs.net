@@ -1,0 +1,12 @@
+name: Knowledge Trees
+desc: Windows desktop application that allows users to organize and manage things they write about.
+site: https://github.com/Capm96/Knowledge-Trees
+tags:
+  - c#
+  - .net
+  - wpf
+  - mvvm
+  - beginner
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Capm96/Knowledge-Trees/labels/good%20first%20issue

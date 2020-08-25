@@ -16,5 +16,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/Azure/azure-sdk-for-c/labels/up-for-grabs
 stats:
-  issue-count: 10
-  last-updated: '2020-08-17T06:22:18Z'
+  issue-count: 12
+  last-updated: '2020-08-25T02:07:28Z'

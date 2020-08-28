@@ -7,7 +7,7 @@ site: https://us-prosecutor-database.herokuapp.com
 tags:
 - meteor
 - mongodb
-- node
+- node.js
 - design
 - civic-tech
 - ui

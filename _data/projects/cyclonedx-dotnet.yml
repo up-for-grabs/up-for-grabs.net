@@ -4,9 +4,7 @@ site: https://cyclonedx.org/
 tags:
   - sbom
   - .net
-  - dotnet
   - .netcore
-  - dotnet-core
   - cyclonedx
 upforgrabs:
   name: good first issue

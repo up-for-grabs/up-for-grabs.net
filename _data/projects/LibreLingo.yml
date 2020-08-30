@@ -1,0 +1,13 @@
+name: LibreLingo
+desc: an experiment to create a community driven language-learning platform
+site: https://github.com/kantord/LibreLingo
+tags:
+  - svelte
+  - education
+  - django
+  - languages
+  - javascript
+  - wiki
+upforgrabs:
+  name: good first issue
+  link: https://github.com/kantord/LibreLingo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

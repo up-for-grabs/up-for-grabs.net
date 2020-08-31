@@ -28,7 +28,7 @@
     "jest": "^26.4.2",
     "jest-fetch-mock": "^3.0.3",
     "jest-localstorage-mock": "^2.4.3",
-    "prettier": "^2.0.5",
+    "prettier": "^2.1.1",
     "promise-polyfill": "^8.1.3",
     "typescript": "^4.0.2",
     "underscore": "^1.10.2",

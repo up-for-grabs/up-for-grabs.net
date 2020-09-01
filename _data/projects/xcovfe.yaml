@@ -1,0 +1,12 @@
+name: xcovfe
+desc: CovidX frontend project
+site: https://www.covidsos.net
+tags:
+  - covidx
+  - xcov19
+  - xcovfe
+  - patient-mgmt
+  - reactjs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Xcov19/xcovfe/labels/up-for-grabs

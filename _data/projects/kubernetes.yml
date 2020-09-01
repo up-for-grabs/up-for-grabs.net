@@ -11,5 +11,5 @@ upforgrabs:
   name: good first issue
   link: https://github.com/kubernetes/kubernetes/labels/good%20first%20issue
 stats:
-  issue-count: 24
-  last-updated: '2020-08-26T15:35:02Z'
+  issue-count: 19
+  last-updated: '2020-08-31T10:10:31Z'

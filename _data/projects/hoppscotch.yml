@@ -1,0 +1,12 @@
+name: Hoppscotch
+desc: A free, fast and beautiful API request builder used by 75k+ developers.
+site: https://hoppscotch.io
+tags:
+  - api
+  - testing
+  - graphql
+  - rest
+  - developer-tools
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/hoppscotch/hoppscotch/labels/good%20first%20issue

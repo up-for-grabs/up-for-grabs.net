@@ -9,7 +9,7 @@ require 'graphql/client/http'
 
 require 'up_for_grabs_tooling'
 
-def update(project, apply_changes = false)
+def update(project, apply_changes: false)
   return unless project.github_project?
 
   result = GitHubRepositoryLabelActiveCheck.run(project)

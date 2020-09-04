@@ -4,7 +4,7 @@ desc: >-
   OpenTelemetry documents Japanese translation poject.
 site: https://opentelemetry.io/
 tags:
-- docs
+- documentation
 - trace
 - cloud
 - stats

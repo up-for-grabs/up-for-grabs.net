@@ -4,7 +4,7 @@ desc: >-
   OpenTelemetry中文资料: 技术标准、RFC、SDK使用文档等
 site: https://opentelemetry.io/
 tags:
-- docs
+- documentation
 - trace
 - cloud
 - stats

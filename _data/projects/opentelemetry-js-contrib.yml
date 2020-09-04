@@ -7,7 +7,7 @@ desc: >-
   Jaeger, and other observability tools.
 site: https://opentelemetry.io/
 tags:
-- js
+- javascript
 - trace
 - cloud
 - stats

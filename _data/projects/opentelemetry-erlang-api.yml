@@ -1,0 +1,26 @@
+---
+name: opentelemetry-erlang-api
+desc: >-
+  Erlang API of OpenTelemetry, a working name of a combined OpenCensus and OpenTracing project.
+  It provides a single set of APIs, libraries, agents, and collector services to capture
+  distributed traces and metrics from your application. You can analyze them using Prometheus,
+  Jaeger, and other observability tools.
+site: https://opentelemetry.io/
+tags:
+- erlang
+- api
+- trace
+- cloud
+- stats
+- monitoring
+- opentelemetry
+- tracing
+- distributed-tracing
+- metrics
+- logs
+- prometheus
+- jaeger
+- application-insights
+upforgrabs:
+  name: help wanted
+  link: https://github.com/open-telemetry/opentelemetry-erlang-api/labels/help%20wanted

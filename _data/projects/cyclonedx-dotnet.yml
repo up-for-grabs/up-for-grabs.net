@@ -1,0 +1,11 @@
+name: CycloneDX .NET Implementation
+desc: Creates CycloneDX Software Bill-of-Materials (SBOM) from .NET Projects
+site: https://cyclonedx.org/
+tags:
+  - sbom
+  - .net
+  - .netcore
+  - cyclonedx
+upforgrabs:
+  name: good first issue
+  link: https://github.com/CycloneDX/cyclonedx-dotnet/labels/good%20first%20issue

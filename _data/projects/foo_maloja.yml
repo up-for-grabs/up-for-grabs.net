@@ -1,0 +1,11 @@
+name: foo_maloja
+desc: Scrobble your foobar2000 plays to your maloja server.
+site: https://github.com/ICTman1076/foo_maloja
+tags:
+  - C++
+  - Maloja
+  - Music
+  - foobar2000
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ICTman1076/foo_maloja/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue"

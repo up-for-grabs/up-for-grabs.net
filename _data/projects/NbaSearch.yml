@@ -1,0 +1,15 @@
+name: NBA Search
+desc: An NBA analytics web application which contains a chatbot, blogs, and predictions. Great project for early data scientists and machine learning engineers. 
+site: https://github.com/skekre98/NBA-Search
+tags:
+  - python
+  - javascript
+  - html
+  - css
+  - flask
+  - pandas
+  - sklearn
+  - bs4
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/skekre98/NBA-Search/labels/up-for-grabs

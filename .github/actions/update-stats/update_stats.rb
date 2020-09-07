@@ -80,7 +80,7 @@ end
 
 projects = Project.find_in_directory(root_directory)
 
-projects.each { |p| update(p, apply_changes) }
+projects.each { |p| update(p, apply_changes: apply_changes) }
 
 unless apply_changes
   puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'

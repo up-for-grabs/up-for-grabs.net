@@ -1,7 +1,6 @@
 ---
 name: opentelemetry-docs-ja
-desc: >-
-  OpenTelemetry documents Japanese translation poject.
+desc: OpenTelemetry documents Japanese translation poject.
 site: https://opentelemetry.io/
 tags:
 - documentation
@@ -20,3 +19,5 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/docs-ja/labels/help%20wanted
+stats:
+  issue-count: 0

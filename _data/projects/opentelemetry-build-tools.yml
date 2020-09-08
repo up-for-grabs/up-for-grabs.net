@@ -1,10 +1,9 @@
 ---
 name: opentelemetry-build-tools
 desc: >-
-  Building tools provided by OpenTelemetry.
-  OpenTelemetry provides a single set of APIs, libraries, agents, and collector services to capture
-  distributed traces and metrics from your application. You can analyze them using Prometheus,
-  Jaeger, and other observability tools.
+  Building tools provided by OpenTelemetry. OpenTelemetry provides a single set of APIs, libraries, agents,
+  and collector services to capture distributed traces and metrics from your application. You can analyze
+  them using Prometheus, Jaeger, and other observability tools.
 site: https://opentelemetry.io/
 tags:
 - build-tools
@@ -23,3 +22,5 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/build-tools/labels/help%20wanted
+stats:
+  issue-count: 0

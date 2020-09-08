@@ -1,13 +1,12 @@
 ---
 name: opentelemetry-dotnet
 desc: >-
-  The OpenTelemetry .NET Contrib project.
-  OpenTelemetry provides a single set of APIs, libraries, agents, and collector services to capture
-  distributed traces and metrics from your application. You can analyze them using Prometheus,
-  Jaeger, and other observability tools.
+  The OpenTelemetry .NET Contrib project. OpenTelemetry provides a single set of APIs, libraries, agents,
+  and collector services to capture distributed traces and metrics from your application. You can analyze
+  them using Prometheus, Jaeger, and other observability tools.
 site: https://opentelemetry.io/
 tags:
-- .net
+- ".net"
 - trace
 - cloud
 - stats
@@ -23,3 +22,5 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/opentelemetry-dotnet-contrib/labels/help%20wanted
+stats:
+  issue-count: 0

@@ -14,4 +14,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/creativecommons/cccatalog-frontend/labels/help%20wanted
 stats:
-  issue-count: 0
+  issue-count: 4
+  last-updated: '2020-09-09T13:01:13Z'

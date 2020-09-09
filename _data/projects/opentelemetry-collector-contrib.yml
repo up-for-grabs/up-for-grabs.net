@@ -1,5 +1,5 @@
 ---
-name: opentelemetry-collector
+name: opentelemetry-collector-contrib
 desc: >-
   Contrib repository for the OpenTelemetry Collector. OpenTelemetry provides a single set of APIs, libraries,
   agents, and collector services to capture distributed traces and metrics from your application. You

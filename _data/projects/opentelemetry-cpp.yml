@@ -21,7 +21,7 @@ tags:
 - jaeger
 - application-insights
 upforgrabs:
-  name: help wanted
-  link: https://github.com/open-telemetry/opentelemetry-cpp/labels/help%20wanted
+  name: good first issue
+  link: https://github.com/open-telemetry/opentelemetry-cpp/labels/good%20first%20issue
 stats:
   issue-count: 0

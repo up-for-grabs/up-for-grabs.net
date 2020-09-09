@@ -1,5 +1,5 @@
 ---
-name: opentelemetry-js
+name: opentelemetry-js-contrib
 desc: >-
   The OpenTelemetry JavaScript Contrib project. OpenTelemetry provides a single set of APIs, libraries,
   agents, and collector services to capture distributed traces and metrics from your application. You

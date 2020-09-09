@@ -1,5 +1,5 @@
 ---
-name: opentelemetry-java-instrumentation
+name: opentelemetry-dotnet-instrumentation
 desc: >-
   OpenTelemetry auto-instrumentation and instrumentation libraries for .NET. OpenTelemetry is a working
   name of a combined OpenCensus and OpenTracing project. It provides a single set of APIs, libraries,

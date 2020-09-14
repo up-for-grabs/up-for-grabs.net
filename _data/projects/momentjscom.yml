@@ -12,4 +12,5 @@ upforgrabs:
   name: Up-For-Grabs
   link: https://github.com/moment/momentjs.com/labels/Up-For-Grabs
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2020-09-12T08:41:21Z'

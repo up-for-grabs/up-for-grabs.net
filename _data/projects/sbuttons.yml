@@ -1,15 +1,19 @@
+---
 name: sButtons
 desc: Simple buttons you can use easily for your next project.
 site: https://shahednasser.github.io/sbuttons/
 tags:
-  - css
-  - buttons
-  - css3
-  - less
-  - stylesheet
-  - animation
-  - lesscss
-  - css-animation
+- css
+- buttons
+- css3
+- less
+- stylesheet
+- animation
+- lesscss
+- css-animation
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/shahednasser/sbuttons/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2020-09-14T08:30:25Z'

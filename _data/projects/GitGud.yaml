@@ -5,8 +5,8 @@ tags:
   - git
   - cli
   - ink
-  - react
-  - node
+  - reactjs
+  - node.js
 upforgrabs:
   name: good first issue
   link: https://github.com/GitGud-org/GitGud/projects/1?card_filter_query=label%3A%22good+first+issue%22

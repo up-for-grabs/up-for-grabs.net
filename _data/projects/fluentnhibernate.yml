@@ -9,7 +9,7 @@ tags:
 - conventions
 upforgrabs:
   name: jump-in
-  link: https://github.com/FluentNHibernate/fluent-nhibernate/labels/jump-in
+  link: https://github.com/nhibernate/fluent-nhibernate/labels/jump-in
 stats:
   issue-count: 2
   last-updated: '2016-09-30T13:20:57Z'

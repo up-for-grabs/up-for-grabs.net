@@ -1,13 +1,19 @@
+---
 name: My Covid Connect Android App Version
-desc: Project XCoV19 aims to build a software that guides patients to the nearest hospital, streamlines patient flow, and models the spread of the virus in order to better anticipate hospital needs.
+desc: >-
+  Project XCoV19 aims to build a software that guides patients to the nearest hospital, streamlines patient
+  flow, and models the spread of the virus in order to better anticipate hospital needs.
 site: https://www.covidsos.net
 tags:
-  - covid
-  - xcov19
-  - xcovid19
-  - covidsos
-  - mycovidconnect
-  - android
+- covid
+- xcov19
+- xcovid19
+- covidsos
+- mycovidconnect
+- android
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Xcov19/android-mycovidconnect/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2020-09-17T17:44:17Z'

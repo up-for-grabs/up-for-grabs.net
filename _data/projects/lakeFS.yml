@@ -7,12 +7,13 @@ tags:
   - datalake
   - data-engineering
   - data-schema
+  - data-science
   - versioning
   - branching
   - merging
   - history
   - git-like
-  - golang
+  - go
 upforgrabs:
   name: good first issue
   link: https://github.com/treeverse/lakeFS/labels/good%20first%20issue

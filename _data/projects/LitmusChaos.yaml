@@ -3,14 +3,14 @@ name: LitmusChaos
 desc: Litmus is a toolset to do cloud-native chaos engineering
 site: https://github.com/litmuschaos/litmus
 tags:
-- devOps
-- SRE
-- CNCF
-- MayaData
-- Kubernetes
-- Litmus
-- OpenEBS
-- Docker
+- devops
+- sre
+- cncf
+- mayadata
+- kubernetes
+- litmus
+- openebs
+- docker
 - chaos-engineering
 upforgrabs:
   name: good first issue

@@ -1,0 +1,19 @@
+name: Ludo-The_Game
+desc: An implementation of the famous Indian board game, Ludo, in C++. With a lot of customisability, more of which is in the README. Currently a web version is just being started, so a great time to contribute some html also.
+site: https://github.com/AdityaGupta150/Ludo-The_Game
+tags:
+  - c++
+  - c++17
+  - game
+  - 2d-game
+  - board-game
+  - algorithm
+  - html
+  - multi-threaded
+  - terminal
+  - css
+  - reactjs
+  - angular
+upforgrabs:
+  name: Hacktoberfest
+  link: https://github.com/AdityaGupta150/Ludo-The_Game/labels/Hacktoberfest

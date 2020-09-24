@@ -1,7 +1,7 @@
 ---
 name: Uno Platform
 desc: >-
-  Build Mobile, Desktop and WebAssembly apps with C# and XAML. Today. Open source and professionally supported.
+  OSS project for creating pixel-perfect, single-source C# and XAML apps which run natively on iOS, Android, macOS, Linux and Web via WebAssembly.
 site: https://platform.uno/
 tags:
 - c#
@@ -11,9 +11,20 @@ tags:
 - android
 - wasm
 - webassembly
+- macos
+- linux
+- skia
+- skiasharp
+- xamarin
+- xamarin-forms
+- uwp
+- mvvm
+- tizen
+- wpf
+- xplat
 upforgrabs:
-  name: help wanted
-  link: https://github.com/unoplatform/uno/labels/help%20wanted
+  name: hacktoberfest
+  link: https://github.com/unoplatform/uno/labels/hacktoberfest
 stats:
   issue-count: 35
   last-updated: '2020-09-17T12:52:16Z'

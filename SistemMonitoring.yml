@@ -1,6 +1,6 @@
 name: Air and Ground Monitoring Information System using Arduino UNO R3
 desc: Sistem Informasi Monitoring Udara dan Tanah menggunakan Arduino UNO R3
-site: http://52.188.48.250/simon-server/udara/ or http://52.188.48.250/simon-server/tanah/
+site: -
 tags:
   - arduino
   - C

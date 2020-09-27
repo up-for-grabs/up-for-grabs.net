@@ -1,0 +1,17 @@
+---
+name: OpenEBS
+desc: Production-Grade Container Storage for KUbernetes
+site: https://openebs.io/
+tags:
+- go
+- rust
+- spdk
+- cncf
+- containers
+- kubernetes
+- storage
+- cns
+- csi
+upforgrabs:
+  name: good first issue
+  link: https://github.com/openebs/openebs/labels/good%20first%20issue

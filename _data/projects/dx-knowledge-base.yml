@@ -1,0 +1,8 @@
+name: DX Knowledge Base
+desc: DX Knowledge Base is an open source library of articles related to Developer Experience and similar topics like Team Management and Software Creation
+site: https://github.com/DXHeroes/knowledge-base-content/
+tags:
+  - knowledgebase
+upforgrabs:
+  name: help wanted
+  link: https://github.com/DXHeroes/knowledge-base-content/labels/help%20wanted

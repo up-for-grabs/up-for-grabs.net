@@ -4,6 +4,8 @@ desc: Sistem Informasi Monitoring Udara dan Tanah menggunakan Arduino UNO R3
 site: https://bellabeen.github.io
 tags:
   - arduino
+  - Internet Of Things
+
 upforgrabs:
   name: Sistem Informasi Monitoring Udara dan Tanah menggunakan Arduino UNO R3
   link: https://github.com/bellabeen/simon_quality

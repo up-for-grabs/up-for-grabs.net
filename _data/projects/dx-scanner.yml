@@ -1,11 +1,17 @@
+---
 name: DX Scanner
-desc: DX Scanner is an open source tool, which scans your code, measures your Developer Experience and suggests improvements to boost it.
+desc: >-
+  DX Scanner is an open source tool, which scans your code, measures your Developer Experience and suggests
+  improvements to boost it.
 site: https://github.com/DXHeroes/dx-scanner
 tags:
-  - typescript
-  - cli
-  - command-line-tool
-  - tool
+- typescript
+- cli
+- command-line-tool
+- tool
 upforgrabs:
   name: good first issue
   link: https://github.com/DXHeroes/dx-scanner/labels/good%20first%20issue
+stats:
+  issue-count: 9
+  last-updated: '2020-09-23T04:32:58Z'

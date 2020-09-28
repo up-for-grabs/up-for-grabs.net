@@ -1,10 +1,14 @@
+---
 name: LXD
 desc: System container and virtual machine manager
 site: https://linuxcontainers.org/lxd
 tags:
-  - containers
-  - vms
-  - go
+- containers
+- vms
+- go
 upforgrabs:
   name: Easy
   link: https://github.com/lxc/lxd/labels/Easy
+stats:
+  issue-count: 34
+  last-updated: '2020-09-28T14:00:33Z'

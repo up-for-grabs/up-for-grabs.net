@@ -1,19 +1,23 @@
+---
 name: lakeFS
 desc: an open source layer that delivers resilience and manageability to object-storage based data lakes
 site: https://github.com/treeverse/lakeFS
 tags:
-  - data
-  - data-lake
-  - datalake
-  - data-engineering
-  - data-schema
-  - data-science
-  - versioning
-  - branching
-  - merging
-  - history
-  - git-like
-  - go
+- data
+- data-lake
+- datalake
+- data-engineering
+- data-schema
+- data-science
+- versioning
+- branching
+- merging
+- history
+- git-like
+- go
 upforgrabs:
   name: good first issue
   link: https://github.com/treeverse/lakeFS/labels/good%20first%20issue
+stats:
+  issue-count: 16
+  last-updated: '2020-09-28T14:12:53Z'

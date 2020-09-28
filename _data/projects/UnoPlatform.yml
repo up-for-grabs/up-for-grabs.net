@@ -1,7 +1,8 @@
 ---
 name: Uno Platform
 desc: >-
-  OSS project for creating pixel-perfect, single-source C# and XAML apps which run natively on iOS, Android, macOS, Linux and Web via WebAssembly.
+  OSS project for creating pixel-perfect, single-source C# and XAML apps which run natively on iOS, Android,
+  macOS, Linux and Web via WebAssembly.
 site: https://platform.uno/
 tags:
 - c#
@@ -26,5 +27,5 @@ upforgrabs:
   name: hacktoberfest
   link: https://github.com/unoplatform/uno/labels/hacktoberfest
 stats:
-  issue-count: 35
-  last-updated: '2020-09-21T14:00:20Z'
+  issue-count: 15
+  last-updated: '2020-09-25T16:05:56Z'

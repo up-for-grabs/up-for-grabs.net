@@ -20,7 +20,7 @@ If you would like to get involved with the project, please read the
 
  - instructions about getting your environment setup
  - guidance for testing locally
- - commands to run to verify changes
+ - commands to run for verifying changes
 
 ## How does the site work?
 

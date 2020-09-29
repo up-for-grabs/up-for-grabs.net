@@ -8,4 +8,4 @@ tags:
   - tar
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/mholt/archiver/issues?q=is%3Aopen+is%3Aissue+label%3Aup-for-grabs
+  link: https://github.com/mholt/archiver/labels/up-for-grabs

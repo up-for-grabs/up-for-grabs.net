@@ -1,0 +1,19 @@
+name: Webi
+desc: Effortlessly install modern developer tools with easy-to-remember URLs.
+site: https://webinstall.dev
+tags:
+  - javascript
+  - node
+  - bash
+  - powershell
+  - terminal
+  - packaging
+  - documentation
+  - linux
+  - macos
+  - darwin
+  - windows
+  - raspberrypi
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/webinstall/webi-installers/issues?q=is%3Aopen+is%3Aissue+label%3Aup-for-grabs

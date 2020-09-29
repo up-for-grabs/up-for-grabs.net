@@ -3,7 +3,7 @@ desc: Effortlessly install modern developer tools with easy-to-remember URLs.
 site: https://webinstall.dev
 tags:
   - javascript
-  - node
+  - node.js
   - bash
   - powershell
   - terminal

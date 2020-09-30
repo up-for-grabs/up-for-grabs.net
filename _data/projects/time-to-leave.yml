@@ -1,12 +1,16 @@
+---
 name: Time to Leave
 desc: Working hours time tracker app based on Electron and Javascript.
 site: https://github.com/thamara/time-to-leave/
 tags:
-  - javascript
-  - electron
-  - node.js
-  - npm
-  - css
+- javascript
+- electron
+- node.js
+- npm
+- css
 upforgrabs:
   name: good first issue
   link: https://github.com/thamara/time-to-leave/labels/good%20first%20issue
+stats:
+  issue-count: 11
+  last-updated: '2020-09-30T11:39:12Z'

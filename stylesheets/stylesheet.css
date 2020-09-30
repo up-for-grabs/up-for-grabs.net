@@ -50,12 +50,12 @@ html, body {
   height: 100%; }
 
 body {
-  background: #f9f9f9;
+  background: #f2f2f2;
   color: #303030;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 17px;
+  line-height: 23px;
   padding: 0;
   margin: 0; }
   body, body * {
@@ -72,7 +72,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 55px;
 }
 
 .block h1 {
@@ -91,7 +91,7 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 23px;
 }
 
 h4, h5, h6 {
@@ -108,13 +108,13 @@ img {
   border: none; }
   
 #go-back-home {
-  margin: 20px 0 0; }
+  margin: 19px 0 0; }
   #go-back-home:hover {
     background-image: none; }
 
 #back2Top {
     width: 40px;
-    line-height: 40px;
+    line-height: 39px;
     overflow: hidden;
     z-index: 999;
     display: none;
@@ -150,7 +150,7 @@ img {
   padding: 10px 50px 10px 10px;
   color: #fff;
   background: url('../images/blacktocat.png') #4499cc no-repeat 95% 50%;
-  font-weight: 700;
+  font-weight: 650;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }

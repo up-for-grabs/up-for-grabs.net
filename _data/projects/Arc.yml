@@ -1,11 +1,15 @@
+---
 name: Arc
 desc: Arc is a cross-platform, multi-format archive utility.
 site: https://github.com/mholt/archiver
 tags:
-  - go
-  - systems
-  - zip
-  - tar
+- go
+- systems
+- zip
+- tar
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/mholt/archiver/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2020-09-30T14:03:44Z'

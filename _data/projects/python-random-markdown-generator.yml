@@ -1,23 +1,16 @@
+---
 name: python-random-markdown-generator
-
-desc: A library to generate random markdown text. 
-
-site: https://ignisda.github.io/python-random-markdown-generator 
-
+desc: A library to generate random markdown text.
+site: https://ignisda.github.io/python-random-markdown-generator
 tags:
-
-  - python 
-
-  - markdown 
-
-  - generator
-
-  - fake-data
-
-  - pypi
-
+- python
+- markdown
+- generator
+- fake-data
+- pypi
 upforgrabs:
-
   name: Up for grabs
-
   link: https://github.com/IgnisDa/python-random-markdown-generator/labels/Up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2020-09-30T14:46:16Z'

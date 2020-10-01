@@ -1,0 +1,11 @@
+name: Bokeh
+desc: Interactive visualization library for modern web browsers.
+site: https://bokeh.org
+tags:
+  - python
+  - javascript
+  - visualization
+  - data-science
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bokeh/bokeh/labels/good%20first%20issue

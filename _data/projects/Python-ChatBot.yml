@@ -1,0 +1,11 @@
+name: Python-ChatBot
+desc: This is a program which perform actions on user text commands such as opening apps,performing google search and playing games.(A mini assistant)
+site: https://github.com/Aswin-Poovadan/Python-ChatBot
+tags:
+  - python3
+  - chat-bot
+  - cli
+  - text-command
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Aswin-Poovadan/Python-ChatBot/labels/up-for-grabs

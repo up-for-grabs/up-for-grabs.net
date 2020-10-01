@@ -5,6 +5,7 @@ them locally and verify that the site will deploy correctly when opening a pull
 request.
 
 ## Project Setup
+## Lets Get Started!!!!
 
 This repository contains the GitHub Pages content and some additional Ruby and
 NodeJS tooling to help verify changes as part of publishing the site.
@@ -107,6 +108,10 @@ $ npm test
 If this command reports errors, it is likely that the site functionality has
 been impacted by a change. Please investigate and address the issue before
 proceeding.
+
+
+## Hope it worked for you 
+## It was a fun with you!!!!!
 
 We also use `eslint` and `prettier` in this project to lint and apply consistent
 formatting to the JavaScript modules in the project:

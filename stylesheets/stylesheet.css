@@ -50,10 +50,10 @@ html, body {
   height: 100%; }
 
 body {
-  background: #f2f2f2;
-  color: #303030;
+  background: #fafafa;
+  color: #1c1c1c;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 410;
   font-size: 17px;
   line-height: 23px;
   padding: 0;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3 {
   font-family: 'Cookie', cursive;  
   margin-bottom: 20px;
-  color: #2E7BA9;
+  color: #35a3e6;
 }
 
 h1 {
@@ -79,7 +79,7 @@ h1 {
   background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgogIDxyZWN0IHdpZHRoPSc1JyBoZWlnaHQ9JzUnIGZpbGw9J3doaXRlJy8+CiAgPHBhdGggZD0nTTAgNUw1IDBaTTYgNEw0IDZaTS0xIDFMMSAtMVonIHN0cm9rZT0nIzg4OCcgc3Ryb2tlLXdpZHRoPScxJy8+Cjwvc3ZnPg==");
   text-align: center;
   text-shadow:
-       1px 1px 0 #225B7D;
+       1px 1px 0 #0470b0;
 }
 .block h1 .header-inside {
   padding: 2px 16px;
@@ -97,7 +97,7 @@ h3 {
 h4, h5, h6 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 16px;
-  color: #225B7D;
+  color: #2184bf;
 }
 
 p {
@@ -136,7 +136,7 @@ img {
 
 }
 #back2Top:hover {
-    background-color: #2D7BA9;
+    background-color: #3294cf;
     color: #ffffff;
     cursor: pointer;
 }
@@ -149,7 +149,7 @@ img {
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #4499cc no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #3ea7e6 no-repeat 95% 50%;
   font-weight: 650;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -183,16 +183,16 @@ img {
   float: right; }
 
 .muted {
-  color: #8f8f8f; }
+  color: #707070; }
 
 .colour-1 {
-  color: #cc9944; }
+  color: #d1922a; }
 
 .colour-2 {
-  color: #925; }
+  color: #ff006d; }
 
 .colour-3 {
-  color: #448844; }
+  color: #02c202; }
 
 .text-big {
   font-size: 24px;
@@ -250,7 +250,7 @@ footer {
   padding-bottom: 30px;
   text-align: center; }
   footer * {
-    color: #737373; }
+    color: #636363; }
 
 .container {
   *zoom: 1;
@@ -271,7 +271,7 @@ footer {
   background: #fff;
   border-radius: 7px;
   margin: 0 auto 20px;
-  border: 1px solid #eee;
+  border: 1px solid #e3e3e3;
 }
 #main-container .block {
   border-top: 1px solid #efefef;
@@ -303,7 +303,7 @@ footer {
 
 a, .as-link {
   text-decoration: none;
-  color: #2E7BA9;
+  color: #2196db;
   line-height: 1.4em;
   display: inline-block;
   vertical-align: baseline;
@@ -317,7 +317,7 @@ a, .as-link {
   -o-transition: color 0.3s;
   transition: color 0.3s; }
   a.main, a:hover, .as-link.main, .as-link:hover {
-    color: #2E7BA9;
+    color: #2196db;
   }
   a.big-button, .as-link.big-button {
     min-width: 30%;

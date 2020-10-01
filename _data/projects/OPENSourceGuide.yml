@@ -1,0 +1,13 @@
+name: OPEN Community API
+desc: API buit with Django's REST Framework, to power OPEN Mobiles and Web Application.
+site: https://github.com/upes-open/api
+tags:
+  - django-rest
+  - API
+  - REST
+  - django
+  - python
+  
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/username/project/labels/up%20for%20grabs

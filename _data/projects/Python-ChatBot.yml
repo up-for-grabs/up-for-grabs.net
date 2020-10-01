@@ -1,5 +1,5 @@
 name: Python-ChatBot
-desc: This is a program which perform actions on user text commands such as opening apps,performing google search and playing games.(A mini assitant)
+desc: This is a program which perform actions on user text commands such as opening apps,performing google search and playing games.(A mini assistant)
 site: https://github.com/Aswin-Poovadan/Python-ChatBot
 tags:
   - python3

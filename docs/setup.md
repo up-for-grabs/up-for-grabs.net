@@ -3,6 +3,10 @@
 This document walks through the local development experience with the codebase,
 and what you should know if you wish to contribute.
 
+## What is JS?
+
+JavaScript is a programming language that adds interactivity to your website. This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms; with dynamic styling; with animation, etc. 
+
 ## JS Development
 
 If you are working with JS files, you should ensure you have a recent version of

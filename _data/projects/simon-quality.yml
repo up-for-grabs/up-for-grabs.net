@@ -1,11 +1,16 @@
 ---
 name: Air and Ground Monitoring Information System using Arduino UNO R3
-desc: The monitoring system for air temperature, soil moisture and soil ph uses the Arduino Uno R3, where this system can assess soil conditions based on certain parameters to determine the soil is in good condition during the planting process
+desc: >-
+  The monitoring system for air temperature, soil moisture and soil ph uses the Arduino Uno R3, where
+  this system can assess soil conditions based on certain parameters to determine the soil is in good
+  condition during the planting process
 site: https://bellabeen.github.io
 tags:
-  - arduino
-  - iot
-
+- arduino
+- iot
 upforgrabs:
   name: documentation
   link: https://github.com/bellabeen/simon_quality/labels/documentation
+stats:
+  issue-count: 1
+  last-updated: '2020-09-29T03:26:09Z'

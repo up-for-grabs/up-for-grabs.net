@@ -69,6 +69,14 @@
     </tr>
     </tbody>
    <% }) %>
+   <% if (projects.length <= 0) { %>
+      <tbody class="empty">
+        <tr>
+          <td colspan="2" class="title">
+              <p><strong>No projects found with that description...</strong></p>
+          </td>
+        </tr>
+    <% } %>
    </table>
 </script>
 <script src="{{ site.github.url }}javascripts/lib/require.js" data-main="javascripts/app"></script>

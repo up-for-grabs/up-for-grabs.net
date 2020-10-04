@@ -2,14 +2,15 @@ name: Owasp VulnerableApp
 desc: OWASP VulnerableApp Project: For Security Enthusiasts by Security Enthusiasts.
 site: https://owasp.org/www-project-vulnerableapp/
 tags:
-- VulnerableApplication
-- Spring-Boot
-- Java
-- Payload-Testing
-- Learn-Security
-- Owasp-ZAP
-- Owasp-Burp
-- Learn-Hacking
+  - Vulnerable Application
+  - Spring-Boot
+  - Java
+  - Javascript
+  - Payload-Testing
+  - Learn-Security
+  - Owasp-ZAP
+  - Owasp-Burp
+  - Learn-Hacking
 upforgrabs:
   name: good first issue
   link: https://github.com/SasanLabs/VulnerableApp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

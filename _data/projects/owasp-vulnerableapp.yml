@@ -3,15 +3,16 @@ desc: As Web Applications are becoming popular these days, there comes a dire ne
       VulnerableApp is built keeping these factors in mind. This project is scalable, extensible, easier to integrate and easier to learn. As solving the above issue requires addition of various vulnerabilities, hence it becomes a very good platform to learn various security vulnerabilities.
 site: https://owasp.org/www-project-vulnerableapp/
 tags:
-  - Vulnerable Application
-  - Spring-Boot
-  - Java
-  - Javascript
-  - Payload-Testing
-  - Learn-Security
-  - Owasp-ZAP
-  - Owasp-Burp
-  - Learn-Hacking
+  - vulnerable-web-application
+  - spring-boot
+  - java
+  - javascript
+  - payload-testing
+  - learn-security
+  - owasp-zap
+  - burp
+  - learn-hacking
+  - dast
 upforgrabs:
   name: good first issue
   link: https://github.com/SasanLabs/VulnerableApp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

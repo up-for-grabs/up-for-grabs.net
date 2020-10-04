@@ -13,5 +13,5 @@ upforgrabs:
   name: hacktoberfest
   link: https://github.com/upes-open/api/labels/hacktoberfest
 stats:
-  issue-count: 4
+  issue-count: 3
   last-updated: '2020-10-02T01:01:00Z'

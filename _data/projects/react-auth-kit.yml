@@ -2,13 +2,13 @@ name: React Auth Kit
 desc: Easily handle authentication in React Js Apps
 site: https://authkit.arkadip.co
 tags:
-  - react
+  - reactjs
   - auth
   - typescript
   - authentication
   - javascript
   - docs
-  - markdown
+  - documentation
   - jwt
 upforgrabs:
   name: React Auth Kit

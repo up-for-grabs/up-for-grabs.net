@@ -1,7 +1,7 @@
 ---
-name: InstaGrabber
+name: Barinsta
 desc: The open-source Instagram client for Android.
-site: https://instagrabber.austinhuang.me
+site: https://barinsta.austinhuang.me
 tags:
 - java
 - android

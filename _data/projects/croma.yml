@@ -1,0 +1,10 @@
+name: Croma - Palette Manager
+desc: Croma is a simple color palette manager and color picker made for designers, aiming to make it quick and fun to create and share color palettes on the go.
+site: https://github.com/croma-app/croma-react
+tags:
+  - javascript
+  - react-native
+  - css
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/croma-app/croma-react/labels/up%20for%20grabs

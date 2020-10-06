@@ -1,0 +1,13 @@
+name: React Auth Kit
+desc: Easily handle authentication in React Js Apps
+site: https://authkit.arkadip.co
+tags:
+  - react
+  - auth
+  - typescript
+  - authentication
+  - react js
+  - jwt
+upforgrabs:
+  name: React Auth Kit
+  link: https://github.com/react-auth-kit/react-auth-kit/labels/up%20for%20grabs

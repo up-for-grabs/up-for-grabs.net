@@ -1,6 +1,5 @@
 name: Owasp VulnerableApp
-desc: As Web Applications are becoming popular these days, there comes a dire need to secure them. Although there are several Vulnerability Scanning Tools, however while developing these tools, developers need to test them. Moreover, they also need to know how well is the Vulnerability Scanning tool performing. As of now, there are little or no such vulnerable applications existing for testing such tools. There are Deliberately Vulnerable Applications existing in the market but they are not written with such an intent and hence lag extensibility, e.g. adding new vulnerabilities is quite difficult. Hence, the developers resort to writing their own vulnerable applications, which usually causes productivity loss and the pain to rework.
-      VulnerableApp is built keeping these factors in mind. This project is scalable, extensible, easier to integrate and easier to learn. As solving the above issue requires addition of various vulnerabilities, hence it becomes a very good platform to learn various security vulnerabilities.
+desc: A Vulnerable Web Application for DAST developers, Students and DAST consumers.
 site: https://owasp.org/www-project-vulnerableapp/
 tags:
   - vulnerable-web-application
@@ -15,4 +14,4 @@ tags:
   - dast
 upforgrabs:
   name: good first issue
-  link: https://github.com/SasanLabs/VulnerableApp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  link: https://github.com/SasanLabs/VulnerableApp/labels/good%20first%20issue

@@ -1,0 +1,13 @@
+name: fibonacci-series
+desc: This repository is to write program the famous Fibonacci series in as many different programming languages as we can.
+site: https://github.com/fharookshaik/fibonacci-series
+tags:
+  - learn
+  - fibonacci-sequence
+  - programming-languages
+  - code-development
+  - open-source
+  - community-driven
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/fharookshaik/fibonacci-series/labels/up%20for%20grabs

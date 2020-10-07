@@ -1,0 +1,17 @@
+name: Owasp VulnerableApp
+desc: A Vulnerable Web Application for DAST developers, Students and DAST consumers.
+site: https://owasp.org/www-project-vulnerableapp/
+tags:
+  - vulnerable-web-application
+  - spring-boot
+  - java
+  - javascript
+  - payload-testing
+  - learn-security
+  - owasp-zap
+  - burp
+  - learn-hacking
+  - dast
+upforgrabs:
+  name: good first issue
+  link: https://github.com/SasanLabs/VulnerableApp/labels/good%20first%20issue

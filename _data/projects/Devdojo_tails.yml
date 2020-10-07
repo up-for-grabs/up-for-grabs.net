@@ -10,4 +10,4 @@ tags:
   - learning
 upforgrabs:
   name: help wanted
-  link: https://github.com/thedevdojo/tails/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+  link: https://github.com/thedevdojo/tails/labels/help%20wanted

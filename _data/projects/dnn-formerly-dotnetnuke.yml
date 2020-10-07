@@ -1,11 +1,16 @@
 ---
-name: DNN (Formerly DotNetNuke)
-desc: DNN® is a web content management platform (CMS) for .Net.
+name: DNN (formerly DotNetNuke)
+desc: DNN® is a web content management platform (CMS) for .NET.
 site: https://github.com/dnnsoftware/Dnn.Platform
 tags:
 - c#
 - cms
 - asp.net
+- reactjs
+- webapi
+- webforms
+- mvc
+- spa
 upforgrabs:
-  name: Up For Grabs
-  link: https://dnntracker.atlassian.net/issues/?filter=14704
+  name: help-wanted
+  link: https://github.com/dnnsoftware/Dnn.Platform/labels/help-wanted

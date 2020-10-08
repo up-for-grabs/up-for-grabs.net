@@ -1,0 +1,12 @@
+name: tails
+desc: Tails is a (no-config) copy'n paste library of hand-crafted templates and components built in TailwindCSS, you can add or edit existing components.
+site: https://github.com/thedevdojo/tails
+tags:
+  - web
+  - javascript
+  - css
+  - education
+  - learning
+upforgrabs:
+  name: help wanted
+  link: https://github.com/thedevdojo/tails/labels/help%20wanted

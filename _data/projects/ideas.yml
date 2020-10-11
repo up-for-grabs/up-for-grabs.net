@@ -1,0 +1,15 @@
+---
+name: Ideas
+desc: A catalogue of ideas to motivate new developers and data scientists
+site: https://github.com/bacloud14/Ideas
+tags:
+- android
+- catalogue
+- developer
+- projects
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/bacloud14/Ideas/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2020-05-27T22:11:04Z'

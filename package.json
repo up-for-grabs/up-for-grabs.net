@@ -18,20 +18,20 @@
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "babel-jest": "^24.9.0",
-    "eslint": "^6.5.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "6.4.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.19.0",
-    "jest": "^24.9.0",
-    "jest-fetch-mock": "^2.1.2",
-    "jest-localstorage-mock": "^2.4.0",
-    "prettier": "^1.18.2",
+    "@babel/core": "^7.11.6",
+    "babel-jest": "^26.3.0",
+    "eslint": "7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.0.2",
+    "jest": "^26.4.2",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-localstorage-mock": "^2.4.3",
+    "prettier": "^2.1.2",
     "promise-polyfill": "^8.1.3",
-    "typescript": "^3.6.4",
-    "underscore": "^1.9.1",
-    "whatwg-fetch": "^3.0.0"
+    "typescript": "^4.0.3",
+    "underscore": "^1.11.0",
+    "whatwg-fetch": "^3.4.1"
   }
 }

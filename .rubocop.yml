@@ -1,25 +1,20 @@
 AllCops:
+  NewCops: enable
   Include:
     - '.github/actions/**/*.rb'
     - 'scripts/**/*.rb'
 
+Layout/LineLength:
+  Max: 186
+
 Metrics/CyclomaticComplexity:
-  Max: 9
+  Max: 10
 
 Metrics/PerceivedComplexity:
-  Max: 9
-
-Metrics/LineLength:
-  Max: 186
+  Max: 11
 
 Metrics/AbcSize:
   Max: 66
 
 Metrics/MethodLength:
   Max: 59
-
-Style/GlobalVars:
-  Exclude:
-    - '.github/actions/cleanup-archived-projects/cleanup_projects.rb'
-    - '.github/actions/update-stats/update_stats.rb'
-

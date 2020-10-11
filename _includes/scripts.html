@@ -42,12 +42,14 @@
         <p class="label">
           <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1">
             <%-project.upforgrabs.name %>
-            <% if (project.stats) {
-              const now = new Date();
-              let lastUpdated = new Date(project.stats['last-updated']);
-              let since = relativeTime(now, lastUpdated);
+            <% if (project.stats && project.stats['last-updated']) {
+                const now = new Date();
+                let lastUpdated = new Date(project.stats['last-updated']);
+                let since = relativeTime(now, lastUpdated);
               %>
               <span class="count" title="Last updated <%- since %>"><%-project.stats['issue-count']%></span>
+              <% } else if (project.stats) { %>
+              <span class="count" title="No recent activity"><%-project.stats['issue-count']%></span>
             <% } %>
           </a>
         </p>

@@ -1,0 +1,12 @@
+name: GitGud
+desc: A CLI git tool built using Ink, Node and React
+site: https://github.com/GitGud-org/GitGud
+tags:
+  - git
+  - cli
+  - ink
+  - reactjs
+  - node.js
+upforgrabs:
+  name: good first issue
+  link: https://github.com/GitGud-org/GitGud/labels/good%20first%20issue

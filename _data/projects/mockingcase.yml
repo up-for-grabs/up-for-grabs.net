@@ -1,7 +1,7 @@
 ---
 name: mockingcase
 desc: npm package that convert a string to mOcKiNgCaSe
-site: https://www.npmjs.com/package/mockingcase
+site: https://www.npmjs.com/package/@strdr4605/mockingcase
 tags:
 - npm
 - javascript
@@ -9,5 +9,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/strdr4605/mockingcase/labels/help%20wanted
 stats:
-  issue-count: 3
-  last-updated: '2019-10-08T11:00:04Z'
+  issue-count: 1
+  last-updated: '2020-07-05T13:46:31Z'

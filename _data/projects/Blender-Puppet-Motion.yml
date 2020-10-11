@@ -18,7 +18,7 @@ tags:
 - python
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/DanAmador/Blender-Puppet-Motion/labels/good%20first%20issue
+  link: https://github.com/DanAmador/Blender-Puppet-Motion/labels/up-for-grabs
 stats:
-  issue-count: 5
-  last-updated: '2019-10-17T17:54:30Z'
+  issue-count: 4
+  last-updated: '2019-12-17T07:05:22Z'

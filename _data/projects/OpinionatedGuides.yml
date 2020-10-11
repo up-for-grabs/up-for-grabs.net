@@ -1,15 +1,16 @@
 ---
 name: Opinionated Guides
-desc: A one-stop guide to computers, linux, and electronics.
-site: https://opinionatedguide.github.io
+desc: An open source book for Engieering, Music Production, and more
+site: https://opinionatedguide.github.io#/
 tags:
-- awesome
-- documentation
-- python
-- bash
+- github-pages
+- learning
+- lectures
+- web
+- education
 upforgrabs:
-  name: Hacktoberfest
-  link: https://github.com/opinionatedguide/opinionatedguide.github.io-src/labels/Hacktoberfest
+  name: upforgrabs
+  link: https://github.com/opinionatedguide/opinionatedguide.github.io/labels/upforgrabs
 stats:
   issue-count: 1
-  last-updated: '2019-10-14T19:55:24Z'
+  last-updated: '2020-10-03T05:46:58Z'

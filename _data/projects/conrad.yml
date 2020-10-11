@@ -1,0 +1,12 @@
+---
+name: Conrad
+desc: Conrad (Conference Radar) helps you track conferences and meetups on your terminal.
+site: https://github.com/vinayak-mehta/conrad
+tags:
+- python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/vinayak-mehta/conrad/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2020-10-02T00:56:52Z'

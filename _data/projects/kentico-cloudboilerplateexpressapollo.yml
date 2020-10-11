@@ -19,7 +19,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/cloud-boilerplate-express-apollo/labels/up-for-grabs
+  link: https://github.com/Kentico/kontent-boilerplate-express-apollo/labels/up-for-grabs
 stats:
-  issue-count: 6
-  last-updated: '2019-10-15T19:16:58Z'
+  issue-count: 5
+  last-updated: '2020-09-07T09:34:48Z'

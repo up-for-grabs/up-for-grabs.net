@@ -1,0 +1,14 @@
+---
+name: Barinsta
+desc: The open-source Instagram client for Android.
+site: https://barinsta.austinhuang.me
+tags:
+- java
+- android
+- instagram
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/austinhuang0131/barinsta/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2020-10-05T22:06:03Z'

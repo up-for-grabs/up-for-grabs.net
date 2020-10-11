@@ -8,8 +8,10 @@ LABEL "com.github.actions.color"="blue"
 
 COPY Gemfile ./
 
+RUN bundle version
+
 RUN bundle install
 
 COPY . .
 
-ENTRYPOINT ["ruby", "/update_stats.rb"]
+ENTRYPOINT ["/run.sh"]

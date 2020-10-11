@@ -1,0 +1,18 @@
+---
+name: Hostel-Pass-Management-Application
+desc: A platform independent application written in Java for management of Hostel Pass for students.
+site: https://github.com/NishkarshRaj/Hostel-Pass-Management-Application
+tags:
+- java
+- devops
+- management
+- collaboration
+- maven
+- jenkins
+- automation
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/NishkarshRaj/Hostel-Pass-Management-Application/labels/Up-for-Grabs
+stats:
+  issue-count: 4
+  last-updated: '2020-10-07T02:43:55Z'

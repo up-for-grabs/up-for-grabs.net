@@ -13,7 +13,7 @@ tags:
 - mvvm
 upforgrabs:
   name: Up for grabs
-  link: https://github.com/tom-englert/ResXResourceManager/labels/Up%20for%20grabs
+  link: https://github.com/dotnet/ResXResourceManager/labels/Up%20for%20grabs
 stats:
-  issue-count: 23
-  last-updated: '2019-10-17T17:50:28Z'
+  issue-count: 39
+  last-updated: '2020-10-02T12:29:08Z'

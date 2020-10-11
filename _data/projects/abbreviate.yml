@@ -1,0 +1,13 @@
+---
+name: abbreviate
+desc: Shorten your strings using common abbreviations
+site: https://github.com/dnnrly/abbreviate
+tags:
+- go
+- cli
+upforgrabs:
+  name: help wanted
+  link: https://github.com/dnnrly/abbreviate/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2020-09-12T08:39:08Z'

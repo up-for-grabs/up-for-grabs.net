@@ -1,0 +1,31 @@
+---
+name: Uno Platform
+desc: >-
+  OSS project for creating pixel-perfect, single-source C# and XAML apps which run natively on iOS, Android,
+  macOS, Linux and Web via WebAssembly.
+site: https://platform.uno/
+tags:
+- c#
+- xaml
+- ".net"
+- ios
+- android
+- wasm
+- webassembly
+- macos
+- linux
+- skia
+- skiasharp
+- xamarin
+- xamarin-forms
+- uwp
+- mvvm
+- tizen
+- wpf
+- xplat
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/unoplatform/uno/labels/hacktoberfest
+stats:
+  issue-count: 13
+  last-updated: '2020-10-08T11:59:12Z'

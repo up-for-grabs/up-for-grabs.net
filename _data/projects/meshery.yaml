@@ -1,0 +1,19 @@
+---
+name: Meshery
+desc: The service mesh management plane
+site: https://meshery.io
+tags:
+- oss
+- service-mesh
+- istio
+- linkerd
+- kubernetes
+- docker
+- prometheus
+- grafana
+- consul
+- performance
+- networking
+upforgrabs:
+  name: help wanted
+  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Alayer5io+label%3A%22help+wanted%22+

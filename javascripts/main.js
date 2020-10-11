@@ -267,11 +267,9 @@ define([
     $window.on('scroll chosen:updated', () => {
       $('.projects tbody:not(.counted)').each(function () {
         const project = $(this);
-        if (project[0].className !== 'empty') {
-          if (onScreen(project)) {
-            issueCount(project);
-            project.addClass('counted');
-          }
+        if (onScreen(project)) {
+          issueCount(project);
+          project.addClass('counted');
         }
       });
     });

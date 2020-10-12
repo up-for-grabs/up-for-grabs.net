@@ -25,7 +25,7 @@
     "eslint-config-prettier": "6.12.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.0",
-    "jest": "^26.4.2",
+    "jest": "^26.5.3",
     "jest-fetch-mock": "^3.0.3",
     "jest-localstorage-mock": "^2.4.3",
     "prettier": "^2.1.2",

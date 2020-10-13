@@ -1,0 +1,11 @@
+---
+name: Covid 19 App
+desc: Covid 19 Stastics app, made in Android with JAVA
+site: https://github.com/jayskhatri/covid19-app
+tags:
+- covid19statistics
+- android
+- design
+upforgrabs:
+  name: good first issue
+  link: https://github.com/jayskhatri/covid19-app/labels/good%20first%20issue

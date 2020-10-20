@@ -1,14 +1,18 @@
+---
 name: CheatSheets
 desc: A Repository for developers for different kinds of Programming Cheatsheets
 site: https://github.com/darkmatter18/cheatsheet
 tags:
-  - cheatsheets
-  - python
-  - r
-  - git
-  - javascript
-  - typescript
-  - sql
+- cheatsheets
+- python
+- r
+- git
+- javascript
+- typescript
+- sql
 upforgrabs:
   name: up for grabs
   link: https://github.com/darkmatter18/cheatsheet/labels/up%20for%20grabs
+stats:
+  issue-count: 4
+  last-updated: '2020-10-19T19:18:02Z'

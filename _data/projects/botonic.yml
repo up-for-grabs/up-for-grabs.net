@@ -1,0 +1,15 @@
+name: Botonic
+desc: Build Chatbots and Conversational Apps Using React
+site: https://botonic.io/
+tags:
+  - chatbots
+  - conversational-apps
+  - reactjs
+  - nlu
+  - nlp
+  - serverless
+  - javascript
+  - typescript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/hubtype/botonic/labels/up-for-grabs

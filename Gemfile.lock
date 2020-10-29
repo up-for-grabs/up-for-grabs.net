@@ -259,7 +259,7 @@ GEM
     regexp_parser (1.8.2)
     rexml (3.2.4)
     rouge (3.23.0)
-    rubocop (0.93.1)
+    rubocop (1.0.0)
       parallel (~> 1.10)
       parser (>= 2.7.1.5)
       rainbow (>= 2.2.2, < 4.0)
@@ -268,7 +268,7 @@ GEM
       rubocop-ast (>= 0.6.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
-    rubocop-ast (0.8.0)
+    rubocop-ast (1.0.1)
       parser (>= 2.7.1.5)
     ruby-enum (0.8.0)
       i18n

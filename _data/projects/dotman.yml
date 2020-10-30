@@ -1,10 +1,14 @@
+---
 name: dotman
 desc: dotman is a simple, elegant & easy to use dotfiles manager
 site: https://bhupesh-v.github.io/dotman
 tags:
-  - automation
-  - bash
-  - shell
+- automation
+- bash
+- shell
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Bhupesh-V/dotman/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2020-10-27T05:54:29Z'

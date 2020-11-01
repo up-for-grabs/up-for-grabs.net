@@ -1,0 +1,11 @@
+name: Flufwars
+desc: A CTF-style, moba, top-down shooter made in Godot. 
+site: https://github.com/Alexnortung/flufwars
+tags:
+  - godot
+  - gdscript
+  - client-server
+  - game
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Alexnortung/flufwars/labels/up-for-grabs

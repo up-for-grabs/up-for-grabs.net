@@ -8,4 +8,4 @@ tags:
   - game
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Alexnortung/flufwars/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs
+  link: https://github.com/Alexnortung/flufwars/labels/up-for-grabs

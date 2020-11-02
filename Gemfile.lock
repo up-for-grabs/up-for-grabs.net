@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: b92c1912fb1a2c3667ba0f7f5d8d1243e28d052a
+  revision: d97700ecf0a4ffe58e261fa26cad6a4006ac798c
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -42,8 +42,9 @@ GEM
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     execjs (2.7.0)
-    faraday (1.0.1)
+    faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
+      ruby2_keywords
     ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     ffi (1.13.1-x86-mingw32)
@@ -99,7 +100,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 3.0)
       typhoeus (~> 1.3)
-    graphql (1.11.5)
+    graphql (1.11.6)
     graphql-client (0.16.0)
       activesupport (>= 3.0)
       graphql (~> 1.8)
@@ -243,7 +244,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x86-mingw32)
       mini_portile2 (~> 2.4.0)
-    octokit (4.18.0)
+    octokit (4.19.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.19.2)
@@ -273,6 +274,7 @@ GEM
     ruby-enum (0.8.0)
       i18n
     ruby-progressbar (1.10.1)
+    ruby2_keywords (0.0.2)
     rubyzip (2.3.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -299,7 +301,7 @@ GEM
     unf_ext (0.0.7.7-x86-mingw32)
     unicode-display_width (1.7.0)
     uri_template (0.7.0)
-    zeitwerk (2.4.0)
+    zeitwerk (2.4.1)
 
 PLATFORMS
   ruby

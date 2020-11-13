@@ -7,8 +7,6 @@ tags:
 - documentation
 - winforms
 - wpf
-- "Windows Forms"
-- "Windows Presentation Foundation"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/dotnet/docs-desktop/labels/up-for-grabs

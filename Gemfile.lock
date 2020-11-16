@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: d97700ecf0a4ffe58e261fa26cad6a4006ac798c
+  revision: dce682eb1df37308970c339ea75c47a7ac85efd3
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -292,7 +292,7 @@ GEM
     thread_safe (0.3.6)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext

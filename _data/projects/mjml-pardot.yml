@@ -1,11 +1,15 @@
+---
 name: mjml-pardot
 desc: Pardot compatible MJML v4 components
 site: https://github.com/Alexnortung/mjml-pardot
 tags:
-  - mjml
-  - email
-  - pardot
-  - framework
+- mjml
+- email
+- pardot
+- framework
 upforgrabs:
   name: help wanted
   link: https://github.com/Alexnortung/mjml-pardot/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2020-11-17T20:20:26Z'

@@ -1,0 +1,13 @@
+name: Books API
+desc: GraphQL Books API
+site: https://github.com/Project-Books/books-api
+tags:
+  - java
+  - graphql
+  - books
+  - books-api
+  - spring
+  - spring-data-jpa
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Project-Books/books-api/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+-label%3Ablocked+no%3Aassignee

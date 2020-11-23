@@ -1,0 +1,12 @@
+---
+name: ".NET WPF & WinForms Docs"
+desc: "Documentation for .NET Desktop tehcnologies: Windows Forms and WPF"
+site: http://github.com/dotnet/docs-desktop
+tags:
+- ".net"
+- documentation
+- winforms
+- wpf
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dotnet/docs-desktop/labels/up-for-grabs

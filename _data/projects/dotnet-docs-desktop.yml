@@ -1,6 +1,6 @@
 ---
 name: ".NET WPF & WinForms Docs"
-desc: "Documentation for .NET Desktop tehcnologies: Windows Forms and WPF"
+desc: 'Documentation for .NET Desktop tehcnologies: Windows Forms and WPF'
 site: http://github.com/dotnet/docs-desktop
 tags:
 - ".net"
@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/dotnet/docs-desktop/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2020-11-13T20:33:46Z'

@@ -1,0 +1,17 @@
+name: Operating System and Hardware Information (OSHI)
+desc: A JNA-based (native) Operating System and Hardware Information library for Java
+site: https://github.com/oshi/oshi
+tags:
+  - java
+  - jna
+  - operating-system
+  - hardware-information
+  - system-monitoring
+  - memory-usage
+  - cpu-usage
+  - serialnumbers
+  - disk-utilization
+  - process-list
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/oshi/oshi/labels/up%20for%20grabs

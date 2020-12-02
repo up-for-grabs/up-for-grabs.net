@@ -8,7 +8,7 @@ tags:
 - azure
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/mbzhu1/oskibot/labels/up-for-grabs
+  link: https://github.com/michaelbzhu/oskibot/labels/up-for-grabs
 stats:
   issue-count: 1
   last-updated: '2019-10-29T07:31:46Z'

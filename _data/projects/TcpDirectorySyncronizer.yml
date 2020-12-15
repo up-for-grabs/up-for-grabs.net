@@ -1,19 +1,23 @@
+---
 name: TcpDirectorySyncronizer
 desc: Syncronize files via TCP protocol.
 site: https://github.com/Halozzee/TcpDirectorySyncronizer
 tags:
-  - open-source
-  - networking
-  - beginner-project
-  - resolving
-  - tcp-protocol
-  - help-wanted
-  - up-for-grabs
-  - clouds
-  - mismatches
-  - good-first-issue
-  - beginner-friendly
-  - syncronizing-files
+- open-source
+- networking
+- beginner-project
+- resolving
+- tcp-protocol
+- help-wanted
+- up-for-grabs
+- clouds
+- mismatches
+- good-first-issue
+- beginner-friendly
+- syncronizing-files
 upforgrabs:
   name: good first issue
   link: https://github.com/Halozzee/TcpDirectorySyncronizer/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2020-12-13T20:51:11Z'

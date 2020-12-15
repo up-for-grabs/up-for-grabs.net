@@ -104,11 +104,21 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "chadwhitacre",
+      "name": "Chad Whitacre",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/134455?v=4",
+      "profile": "https://chadwhitacre.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "up-for-grabs.net",
   "projectOwner": "up-for-grabs",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }

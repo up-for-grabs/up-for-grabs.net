@@ -1,13 +1,17 @@
+---
 name: Awesome Resources
 desc: List of helpful resources added by the community for the community!
 site: https://shahednasser.github.io/awesome-resources/
 tags:
-  - awesome
-  - ruby
-  - css
-  - sass
-  - html
-  - javascript
+- awesome
+- ruby
+- css
+- sass
+- html
+- javascript
 upforgrabs:
   name: Up-for-grabs
   link: https://github.com/shahednasser/awesome-resources/labels/Up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2020-12-10T19:30:34Z'

@@ -1,0 +1,13 @@
+name: graspologic
+desc: A Python package for network statistics and machine learning
+site: https://github.com/microsoft/graspologic
+tags:
+  - graph
+  - data-science
+  - machine-learning
+  - python
+  - networks
+  - statistics
+upforgrabs:
+  name: good first issue
+  link: https://github.com/microsoft/graspologic/labels/good%20first%20issue

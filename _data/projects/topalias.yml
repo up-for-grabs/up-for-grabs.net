@@ -1,15 +1,19 @@
+---
 name: topalias
 desc: Linux bash/zsh alias generator and statistics from command history. Add contributors to README.md
 site: http://csredrat.gq/topalias/
 tags:
-  - python
-  - linux
-  - cli
-  - bash
-  - alias
-  - utility
-  - console
-  - statistic
+- python
+- linux
+- cli
+- bash
+- alias
+- utility
+- console
+- statistic
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/CSRedRat/topalias/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2020-12-24T00:38:19Z'

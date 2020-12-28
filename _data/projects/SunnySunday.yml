@@ -1,13 +1,17 @@
+---
 name: SunnySunday
 desc: A weather web app using Google Maps and Openweathermap
 site: https://github.com/bacloud14/SunnySunday
 tags:
-  - weather
-  - google-maps
-  - node.js
-  - javascript
-  - weather-api
-  - openweathermap
+- weather
+- google-maps
+- node.js
+- javascript
+- weather-api
+- openweathermap
 upforgrabs:
   name: up for grabs
   link: https://github.com/bacloud14/SunnySunday/labels/up%20for%20grabs
+stats:
+  issue-count: 3
+  last-updated: '2020-12-28T12:12:47Z'

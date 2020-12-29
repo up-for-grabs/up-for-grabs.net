@@ -1,0 +1,9 @@
+name: pytexit
+desc: Convert a Python expression to a LaTeX formula
+site: https://pytexit.readthedocs.io/
+tags:
+  - python
+  - latex
+upforgrabs:
+  name: good first issue
+  link: https://github.com/erwanp/pytexit/labels/good%20first%20issue

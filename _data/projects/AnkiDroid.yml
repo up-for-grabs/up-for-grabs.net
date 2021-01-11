@@ -1,0 +1,14 @@
+name: AnkiDroid
+desc: Your secret trick to achieve superhuman information retention.
+site: https://docs.ankidroid.org/
+tags:
+  - java
+  - android
+  - anki
+  - flashcard
+  - retention
+  - memory
+  - learning
+upforgrabs:
+  name: Good First Issue!
+  link: https://github.com/ankidroid/Anki-Android/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%21%22

@@ -1,0 +1,9 @@
+name: fpdf2
+desc: A minimalist PDF creation library for Python
+site: https://pyfpdf.github.io/fpdf2/
+tags:
+  - python
+  - pdf
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/PyFPDF/fpdf2/labels/up-for-grabs

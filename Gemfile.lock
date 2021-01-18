@@ -262,7 +262,7 @@ GEM
     regexp_parser (2.0.3)
     rexml (3.2.4)
     rouge (3.23.0)
-    rubocop (1.8.0)
+    rubocop (1.8.1)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)

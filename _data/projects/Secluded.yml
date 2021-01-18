@@ -1,5 +1,5 @@
 name: Secluded
-desc: Secluded is a webpage that tries to be isolated from web crawers although publically visible. It is a crawler behaviour experiment
+desc: Secluded is a webpage that tries to be isolated from web crawlers although publically visible. It is a crawler behaviour experiment
 site: https://github.com/bacloud14/Secluded
 tags:
   - crawler

@@ -18,7 +18,7 @@ tags:
 - http
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/fsharp/FSharp.Data/labels/up-for-grabs
+  link: https://github.com/fsprojects/FSharp.Data/labels/up-for-grabs
 stats:
   issue-count: 34
   last-updated: '2020-12-30T23:41:03Z'

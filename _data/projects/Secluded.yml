@@ -1,0 +1,13 @@
+name: Secluded
+desc: Secluded is a webpage that tries to be isolated from web crawlers although publically visible. It is a crawler behaviour experiment
+site: https://github.com/bacloud14/Secluded
+tags:
+  - crawler
+  - node.js
+  - express
+  - dataset
+  - bot
+  - user-agent
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/bacloud14/Secluded/labels/up%20for%20grabs

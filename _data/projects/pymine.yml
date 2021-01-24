@@ -1,5 +1,5 @@
 name: PyMine
-desc: The fastest, easiest to use, Python-based Minecraft Server.
+desc: The fastest, easiest to use, 100% Python-based Minecraft Server.
 site: https://github.com/py-mine/PyMine/wiki
 tags:
   - minecraft
@@ -7,6 +7,7 @@ tags:
   - pypy
   - asyncio
   - networking
+  - minecraft-server
 upforgrabs:
   name: Good First Issue
   link: https://github.com/py-mine/PyMine/labels/Good%20First%20Issue

@@ -2,7 +2,7 @@ name: notify
 desc: A dead simple Go library for sending notifications to various messaging services.
 site: https://github.com/nikoksr/notify
 tags:
-  - golang
+  - go
   - notifications
   - messaging
   - bot

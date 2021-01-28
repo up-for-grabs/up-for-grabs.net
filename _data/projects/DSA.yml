@@ -1,3 +1,4 @@
+---
 name: DSA
 desc: Data structure and Algorithm (DSA) contributions
 site: https://github.com/MakeContributions/DSA
@@ -7,3 +8,5 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/MakeContributions/DSA/labels/help%20wanted
+stats:
+  issue-count: 0

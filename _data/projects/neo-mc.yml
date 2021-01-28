@@ -1,0 +1,16 @@
+---
+name: neo-mc
+desc: Next generation fork of Midnight Commander
+site: https://github.com/neo-mc/neo-mc
+tags:
+- c
+- glib
+- slang
+- cli
+upforgrabs:
+  name: wish-list
+  link: https://github.com/neo-mc/neo-mc/wiki/MCEditWishList
+stats:
+  issue-count: 0
+  last-updated: '2021-01-27T23:15:00Z'
+  

@@ -20,7 +20,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    ast (2.4.1)
+    ast (2.4.2)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -264,7 +264,7 @@ GEM
     regexp_parser (2.0.3)
     rexml (3.2.4)
     rouge (3.23.0)
-    rubocop (1.8.1)
+    rubocop (1.9.0)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -273,7 +273,7 @@ GEM
       rubocop-ast (>= 1.2.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.4.0)
+    rubocop-ast (1.4.1)
       parser (>= 2.7.1.5)
     ruby-enum (0.8.0)
       i18n

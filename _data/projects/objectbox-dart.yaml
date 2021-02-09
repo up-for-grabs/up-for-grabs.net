@@ -1,0 +1,11 @@
+name: ObjectBox Dart
+desc: ObjectBox is a super-fast database storing Dart objects locally. 
+site: https://github.com/objectbox/objectbox-dart
+tags:
+  - database
+  - dart
+  - flutter
+  - ffi
+upforgrabs:
+  name: good first issue
+  link: https://github.com/objectbox/objectbox-dart/labels/good%20first%20issue

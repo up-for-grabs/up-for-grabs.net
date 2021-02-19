@@ -1,17 +1,16 @@
 ---
-name: Tomorrow
+name: electricityMap
 desc: >-
-  Tomorrow automatically calculates the climate impact of your daily choices by connecting to apps and
-  services you already use.
-site: https://www.tmrow.com/
+  A real-time visualisation of the Greenhouse Gas (in terms of CO2 equivalent) footprint of electricity consumption.
+site: https://www.electricitymap.org
 tags:
 - oss
-- web
-- react-native
+- climate-change
+- data-visualization
 - javascript
 upforgrabs:
-  name: Ready for implementation
-  link: https://github.com/tmrowco/bloom-contrib/labels/Ready%20for%20implementation
+  name: help wanted
+  link: https://github.com/tmrowco/electricitymap-contrib/labels/help%20wanted
 stats:
-  issue-count: 9
-  last-updated: '2020-11-10T11:12:39Z'
+  issue-count: 18
+  last-updated: '2021-02-19T09:24:00Z'

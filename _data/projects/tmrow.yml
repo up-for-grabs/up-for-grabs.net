@@ -1,7 +1,8 @@
 ---
 name: electricityMap
 desc: >-
-  A real-time visualisation of the Greenhouse Gas (in terms of CO2 equivalent) footprint of electricity consumption.
+  A real-time visualisation of the Greenhouse Gas (in terms of CO2 equivalent) footprint of electricity
+  consumption.
 site: https://www.electricitymap.org
 tags:
 - oss
@@ -12,5 +13,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/tmrowco/electricitymap-contrib/labels/help%20wanted
 stats:
-  issue-count: 18
-  last-updated: '2021-02-19T09:24:00Z'
+  issue-count: 17
+  last-updated: '2021-02-10T16:31:31Z'

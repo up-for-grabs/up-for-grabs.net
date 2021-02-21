@@ -6,6 +6,8 @@ tags:
   - dart
   - flutter
   - ffi
+  - typescript
+  - javascript
 upforgrabs:
   name: good first issue
   link: https://github.com/objectbox/objectbox-dart/labels/good%20first%20issue

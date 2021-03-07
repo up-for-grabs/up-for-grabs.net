@@ -1,0 +1,12 @@
+name: Couchers
+desc: Couchers.org is an online platform for the global couch-surfing community.
+site: https://couchers.org/
+tags:
+  - python
+  - flask
+  - sqlalchemy
+  - javascript
+  - vue.js
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Couchers-org/couchers/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

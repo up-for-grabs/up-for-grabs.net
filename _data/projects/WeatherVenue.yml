@@ -1,12 +1,18 @@
+---
 name: WeatherVenue
-desc: A weather website using Google Maps and Openweathermap APIs. It lets people find best places to visit in their entourage; Easily finding warmer winter vacation or cool summer escapes.
+desc: >-
+  A weather website using Google Maps and Openweathermap APIs. It lets people find best places to visit
+  in their entourage; Easily finding warmer winter vacation or cool summer escapes.
 site: https://www.weathervenue.com/
 tags:
-  - node.js
-  - express
-  - redis
-  - openweathermap
-  - google-maps
+- node.js
+- express
+- redis
+- openweathermap
+- google-maps
 upforgrabs:
   name: up for grabs
   link: https://github.com/bacloud14/WeatherVenue/labels/up%20for%20grabs
+stats:
+  issue-count: 8
+  last-updated: '2021-03-02T09:52:31Z'

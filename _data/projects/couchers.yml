@@ -6,7 +6,8 @@ tags:
   - flask
   - sqlalchemy
   - javascript
-  - vue.js
+  - react
+  - typescript
 upforgrabs:
   name: good first issue
   link: https://github.com/Couchers-org/couchers/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

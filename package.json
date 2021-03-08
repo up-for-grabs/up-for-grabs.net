@@ -30,7 +30,7 @@
     "jest-localstorage-mock": "^2.4.7",
     "prettier": "^2.2.1",
     "promise-polyfill": "^8.2.0",
-    "typescript": "^4.2.2",
+    "typescript": "^4.2.3",
     "underscore": "^1.12.0",
     "whatwg-fetch": "^3.6.2"
   }

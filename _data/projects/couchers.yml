@@ -3,8 +3,8 @@ desc: Couchers.org is an online platform for the global couch-surfing community.
 site: https://couchers.org/
 tags:
   - python
-  - flask
   - sqlalchemy
+  - grpc
   - javascript
   - reactjs
   - typescript

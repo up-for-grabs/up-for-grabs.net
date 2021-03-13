@@ -1,6 +1,6 @@
 ---
 name: NLog
-desc: NLog - Advanced .NET and Silverlight Logging
+desc: NLog - Flexible and high performance logging framework for the .NET platforms
 site: https://github.com/NLog/NLog
 tags:
 - ".net"

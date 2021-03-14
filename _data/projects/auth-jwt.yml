@@ -1,6 +1,6 @@
 ---
 name: auth-jwt
-desc: 'A demo to learn JWT by reverse engineering'
+desc: A demo to learn JWT by reverse engineering
 site: https://github.com/gitcommitshow/auth-jwt
 tags:
 - jwt

@@ -31,7 +31,7 @@
     "prettier": "^2.2.1",
     "promise-polyfill": "^8.2.0",
     "typescript": "^4.2.3",
-    "underscore": "^1.12.0",
+    "underscore": "^1.12.1",
     "whatwg-fetch": "^3.6.2"
   }
 }

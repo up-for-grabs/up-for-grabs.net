@@ -1,20 +1,24 @@
+---
 name: Collabora Online
 desc: A collaborative online office suite based on LibreOffice technology
 site: https://collaboraonline.com
 tags:
-  - javascript
-  - typescript
-  - web
-  - design
-  - html
-  - css
-  - android
-  - ios
-  - c++
-  - productivity
-  - libreoffice
-  - office
-  - documents
+- javascript
+- typescript
+- web
+- design
+- html
+- css
+- android
+- ios
+- c++
+- productivity
+- libreoffice
+- office
+- documents
 upforgrabs:
   name: Easy Hack
   link: https://github.com/CollaboraOnline/online/labels/Easy%20Hack
+stats:
+  issue-count: 10
+  last-updated: '2021-02-03T12:03:28Z'

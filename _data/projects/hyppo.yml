@@ -1,12 +1,16 @@
+---
 name: hyppo
 desc: A Python package for multivariate hypothesis testing
 site: https://github.com/neurodata/hyppo
 tags:
-  - python
-  - data-science
-  - independence
-  - hypothesis-testing
-  - ksample-testing
+- python
+- data-science
+- independence
+- hypothesis-testing
+- ksample-testing
 upforgrabs:
   name: good first issue
   link: https://github.com/neurodata/hyppo/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2021-03-16T17:13:06Z'

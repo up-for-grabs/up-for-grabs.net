@@ -1,10 +1,14 @@
+---
 name: Pablo
 desc: A Color Palette management app
 site: https://github.com/ajsaraujo/pablo
 tags:
-  - angular
-  - website
-  - typescript
+- angular
+- website
+- typescript
 upforgrabs:
   name: good first issue
   link: https://github.com/ajsaraujo/pablo/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2021-03-20T22:56:26Z'

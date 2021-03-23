@@ -1,0 +1,17 @@
+name: Eclipse OMR
+desc: Reliable components for building language runtimes
+site: https://www.eclipse.org/omr
+tags:
+  - c++
+  - c
+  - interpreter
+  - compiler
+  - runtime
+  - jvm
+  - virtual-machine
+  - jit
+  - garbage-collector
+  - gc
+upforgrabs:
+  name: good first issue
+  link: https://github.com/eclipse/omr/labels/good%20first%20issue

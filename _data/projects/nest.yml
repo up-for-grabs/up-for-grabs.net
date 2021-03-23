@@ -10,5 +10,4 @@ upforgrabs:
   name: Up For Grabs
   link: https://github.com/elastic/elasticsearch-net/labels/Up%20For%20Grabs
 stats:
-  issue-count: 3
-  last-updated: '2020-03-11T06:01:00Z'
+  issue-count: 0

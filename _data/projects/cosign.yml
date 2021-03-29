@@ -4,7 +4,8 @@ site: https://github.com/sigstore/cosign
 tags:
   - security
   - container-signing
-  - OCI
+  - oci
+  - open-container-initiative
   - signature
   - supply-chain
 upforgrabs:

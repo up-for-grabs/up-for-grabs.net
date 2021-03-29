@@ -3,7 +3,7 @@ desc: Container Signing, Verification and Storage in an OCI registry. Cosign aim
 site: https://github.com/sigstore/cosign
 tags:
   - security
-  - container signing
+  - container-signing
   - OCI
   - signature
   - supply-chain

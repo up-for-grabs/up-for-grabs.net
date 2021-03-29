@@ -3,7 +3,8 @@ desc: fulcio is a free Root-CA for code signing certs - issuing certificates bas
 site: https://github.com/sigstore/fulcio
 tags:
   - security
-  - certificate authority
+  - certificate-authority
+  - software-supply-chain
   - transparency-log
 upforgrabs:
   name: good first issue

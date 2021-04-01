@@ -5,9 +5,9 @@ site: https://github.com/bitwarden/server
 tags:
 - ".net"
 - ".net-core"
-- password manager
+- password-manager
 - c#
-- cross platform
+- cross-platform
 upforgrabs:
   name: help wanted
   link: https://github.com/bitwarden/server/labels/help%20wanted

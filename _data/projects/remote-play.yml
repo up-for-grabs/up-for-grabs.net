@@ -1,0 +1,13 @@
+name: Remote Play
+desc:  Media controller for PC using web
+site: https://github.com/shubham1172/remote-play
+tags:
+  - python
+  - javascript
+  - html
+  - css
+  - fastapi
+  - media
+upforgrabs:
+  name: good first issue
+  link: https://github.com/shubham1172/remote-play/labels/good%20first%20issue

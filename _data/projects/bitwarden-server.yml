@@ -1,0 +1,16 @@
+---
+name: Bitwarden Server
+desc: The Bitwarden Server project contains the APIs, database, and other core infrastructure items needed for the "backend" of all bitwarden client applications. The server project is written in C# using .NET Core with ASP.NET Core. The database is written in T-SQL/SQL Server. The codebase can be developed, built, run, and deployed cross-platform on Windows, macOS, and Linux distributions.
+site: https://github.com/bitwarden/server
+tags:
+- ".net"
+- ".net-core"
+- password-manager
+- c#
+- cross-platform
+upforgrabs:
+  name: help wanted
+  link: https://github.com/bitwarden/server/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2021-04-02T23:13:25Z'

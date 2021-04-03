@@ -1,6 +1,8 @@
 ---
 name: Bitwarden Desktop
-desc: Access Bitwarden on Windows, macOS, and Linux desktops with our native desktop application. The Bitwarden desktop app is written using Electron and Angular.
+desc: >-
+  Access Bitwarden on Windows, macOS, and Linux desktops with our native desktop application. The Bitwarden
+  desktop app is written using Electron and Angular.
 site: https://github.com/bitwarden/desktop
 tags:
 - javascript
@@ -15,4 +17,4 @@ upforgrabs:
   link: https://github.com/bitwarden/desktop/labels/help%20wanted
 stats:
   issue-count: 4
-  last-updated: '2021-04-03T11:33:25Z'
+  last-updated: '2019-10-21T04:07:41Z'

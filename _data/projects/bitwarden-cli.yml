@@ -1,0 +1,18 @@
+---
+name: Bitwarden Command Line Interface
+desc: The Bitwarden CLI is a powerful, full-featured command-line interface (CLI) tool to access and manage a Bitwarden vault. The CLI is written with TypeScript and Node.js and can be run on Windows, macOS, and Linux distributions.
+site: https://github.com/bitwarden/cli
+tags:
+- javascript
+- typescript
+- node.js
+- password-manager
+- cli
+- cross-platform
+- bitwarden
+upforgrabs:
+  name: help wanted
+  link: https://github.com/bitwarden/cli/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2021-04-03T12:03:25Z'

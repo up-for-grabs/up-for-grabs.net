@@ -8,6 +8,7 @@ tags:
 - password-manager
 - c#
 - cross-platform
+- bitwarden
 upforgrabs:
   name: help wanted
   link: https://github.com/bitwarden/server/labels/help%20wanted

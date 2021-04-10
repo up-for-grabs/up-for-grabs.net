@@ -1,0 +1,14 @@
+---
+name: IlkiLabs Kubernetes Engine 
+desc: Ilkilabs Kubernetes Engine(ILKE) is an open-source Kubernetes lightweight Distribution built on top of CNCF ecosystem that provides an enterprise grade solution following best practices to manage a conformant Kubernetes cluster for on-premise and public cloud providers.
+site: https://github.com/ilkilabs/ilke
+tags:
+- kubernetes
+- cncf
+- container
+- orchestration
+- ansible
+- devops
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/ilkilabs/ilke/labels/Up-for-Grabs

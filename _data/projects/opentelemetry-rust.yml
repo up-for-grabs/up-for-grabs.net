@@ -24,5 +24,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/opentelemetry-rust/labels/help%20wanted
 stats:
-  issue-count: 6
+  issue-count: 5
   last-updated: '2021-04-05T01:33:01Z'

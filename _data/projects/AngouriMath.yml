@@ -4,7 +4,7 @@ site: https://am.angouri.org
 tags:
   - ".net"
   - math
-  - "computer algebra"
+  - "computer-algebra"
   - csharp
   - fsharp
   - jupyter

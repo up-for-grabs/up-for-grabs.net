@@ -5,8 +5,8 @@ tags:
   - ".net"
   - math
   - "computer-algebra"
-  - csharp
-  - fsharp
+  - c#
+  - f#
   - jupyter
 upforgrabs:
   name: up-for-grabs

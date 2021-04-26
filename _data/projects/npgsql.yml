@@ -15,5 +15,5 @@ upforgrabs:
   name: up for grabs
   link: https://github.com/npgsql/npgsql/labels/up%20for%20grabs
 stats:
-  issue-count: 12
+  issue-count: 11
   last-updated: '2021-02-17T18:09:26Z'

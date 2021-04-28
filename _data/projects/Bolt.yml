@@ -3,8 +3,8 @@ desc: A URL Shortener written in C# using ASP.NET Core
 site: https://boltur.herokuapp.com
 tags:
   - c#
-  - .net core
-  - asp.net core
+  - .net-core
+  - asp.net-core
   - js
   - html
 upforgrabs:

@@ -1,13 +1,17 @@
+---
 name: AngouriMath
 desc: Computer algebra library for .NET
 site: https://am.angouri.org
 tags:
-  - ".net"
-  - math
-  - "computer-algebra"
-  - c#
-  - f#
-  - jupyter
+- ".net"
+- math
+- computer-algebra
+- c#
+- f#
+- jupyter
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/asc-community/AngouriMath/labels/up-for-grabs
+stats:
+  issue-count: 5
+  last-updated: '2021-04-25T16:14:59Z'

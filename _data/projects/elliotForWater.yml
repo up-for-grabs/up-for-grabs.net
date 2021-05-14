@@ -3,10 +3,10 @@ desc: Elliot For Water is a search engine that donates water with your searches
 site: https://ellitoforwater.com/
 tags:
 - water
-- search engine
+- search-engine
 - humanitarian
 - ethical
-- open source
+- open-source
 - nextjs
 upforgrabs:
   name: good first issues

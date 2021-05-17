@@ -7,8 +7,8 @@ tags:
 - diagrams
 - charts
 upforgrabs:
-  name: Help wanted!
-  link: https://github.com/mermaid-js/mermaid/labels/Help%20wanted%21
+  name: Good first issue!
+  link: https://github.com/mermaid-js/mermaid/labels/Good%20first%20issue%21
 stats:
   issue-count: 85
   last-updated: '2021-01-25T01:16:48Z'

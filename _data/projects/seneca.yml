@@ -4,7 +4,6 @@ desc: A microservices toolkit for Node.js
 site: http://senecajs.org/
 tags:
 - javascript
-- typescript
 - node.js
 - api
 - microservices

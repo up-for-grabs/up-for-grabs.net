@@ -1,0 +1,13 @@
+name: Elliot For Water
+desc: Elliot For Water is a search engine that donates water with your searches
+site: https://ellitoforwater.com/
+tags:
+- water
+- search-engine
+- humanitarian
+- ethical
+- open-source
+- nextjs
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ElliotForWater/elliotforwater.com/labels/good%20first%20issue

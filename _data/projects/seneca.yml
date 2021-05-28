@@ -10,3 +10,6 @@ tags:
 upforgrabs:
   name: doc
   link: https://github.com/senecajs/seneca/labels/doc
+stats:
+  issue-count: 13
+  last-updated: '2020-05-19T00:18:19Z'

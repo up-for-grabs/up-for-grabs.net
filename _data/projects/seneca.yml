@@ -9,4 +9,4 @@ tags:
 - microservices
 upforgrabs:
   name: Review
-  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Asenecajs
+  link: https://github.com/senecajs/seneca/labels/doc

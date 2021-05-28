@@ -8,5 +8,5 @@ tags:
 - api
 - microservices
 upforgrabs:
-  name: Review
+  name: Doc
   link: https://github.com/senecajs/seneca/labels/doc

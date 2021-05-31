@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 const fetchIssueCount = require('../../javascripts/fetchIssueCount');
 
 const defaultEtag = 'a00049ba79152d03380c34652f2cb612';

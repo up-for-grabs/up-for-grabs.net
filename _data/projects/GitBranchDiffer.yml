@@ -1,0 +1,8 @@
+name: Git Branch Differ
+desc: A brief description of the project
+site: https://marketplace.visualstudio.com/items?itemName=SajalVerma.GitBranchDiffer
+tags:
+  - c#
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/sajalverma17/GitBranchDiffer/labels/up-for-grabs

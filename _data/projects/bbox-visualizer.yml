@@ -8,4 +8,4 @@ tags:
   - object-recognition
 upforgrabs:
   name: bbox-visualizer
-  link: https://github.com/shoumikchow/bbox-visualizer/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  link: https://github.com/shoumikchow/bbox-visualizer/labels/good%20first%20issue

@@ -1,12 +1,16 @@
+---
 name: Jina
 desc: AI search framework for text, image, audio, video, pdf
 site: https://github.com/jina-ai/jina
 tags:
-  - neural-search
-  - search
-  - ai-search
-  - python
-  - framework
+- neural-search
+- search
+- ai-search
+- python
+- framework
 upforgrabs:
   name: good first issue
   link: https://github.com/jina-ai/jina/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2021-04-28T15:14:04Z'

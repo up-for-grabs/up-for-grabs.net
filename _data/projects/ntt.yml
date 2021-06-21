@@ -1,0 +1,14 @@
+name: ntt
+desc: A programming language for writing tests that go beyond simple unit testing
+site: https://nokia.github.io/ntt
+tags:
+  - ttcn3
+  - language
+  - language-server
+  - test-framework
+  - protocol-testing
+  - integration-testing
+  - testing
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/nokia/ntt/labels/up%20for%20grabs

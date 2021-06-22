@@ -1,13 +1,16 @@
+---
 name: JupyterLab
 desc: Jupyter’s Next-Generation Notebook Interface.
 site: https://github.com/jupyterlab/jupyterlab
 tags:
-  - jupyter
-  - notebook
-  - typescript
-  - javascript
-  - python
+- jupyter
+- notebook
+- typescript
+- javascript
+- python
 upforgrabs:
   name: good first issue
   link: https://github.com/jupyterlab/jupyterlab/labels/good%20first%20issue
-  
+stats:
+  issue-count: 37
+  last-updated: '2021-06-20T14:41:21Z'

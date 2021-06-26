@@ -1,0 +1,13 @@
+name: Listings
+desc: Lightweight JS web-app 💽 A flat file instead of a database 📡 Uses a lot of wisely picked vanilla JS libraries 
+site: https://github.com/bacloud14/listings
+tags:
+  - node.js
+  - express
+  - pm2
+  - data-structure
+  - json
+  - lodash
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/bacloud14/listings/labels/up%20for%20grabs

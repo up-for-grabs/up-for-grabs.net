@@ -9,6 +9,6 @@ tags:
 - cli
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/stevedesmond-ca/dotnet-srcset/labels/up-for-grabs
+  link: https://github.com/ecoAPM/dotnet-srcset/labels/up-for-grabs
 stats:
   issue-count: 0

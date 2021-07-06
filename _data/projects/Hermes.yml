@@ -1,11 +1,12 @@
 name: Hermes
-desc: A Discord bot in C# and Discord.NET, redefining server development
+desc: "A Discord bot in C# and Discord.NET, redefining server development"
 site: https://docs.isaacindia.tech
 tags:
   - discord
-  - C#
+  - csharp
   - dotnet
   - bot
+  - "c#"
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/djthegr8/RoleX/labels/up-for-grabs

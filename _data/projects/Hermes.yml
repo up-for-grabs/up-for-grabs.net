@@ -3,8 +3,7 @@ desc: "A Discord bot in C# and Discord.NET, redefining server development"
 site: https://docs.isaacindia.tech
 tags:
   - discord
-  - csharp
-  - dotnet
+  - ".net"
   - bot
   - "c#"
 upforgrabs:

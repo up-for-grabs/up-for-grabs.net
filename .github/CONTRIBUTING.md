@@ -3,7 +3,7 @@
 This guide will help you get set up so you can make changes to the project, view
 them locally and verify that the site will deploy correctly when opening a pull
 request.
-
+Rakshit Gupta
 ## Project Setup
 
 This repository contains the GitHub Pages content and some additional Ruby and

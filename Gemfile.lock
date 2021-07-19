@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 6e98a1f27010ba163b3840de31eb555f243bbd75
+  revision: f06f2c669426b6e6ad4b9c453a88dd03a408ceb9
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -42,7 +42,7 @@ GEM
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     execjs (2.8.1)
-    faraday (1.5.0)
+    faraday (1.5.1)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
@@ -57,7 +57,7 @@ GEM
     faraday-excon (1.1.0)
     faraday-httpclient (1.0.1)
     faraday-net_http (1.0.1)
-    faraday-net_http_persistent (1.1.0)
+    faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
     ffi (1.15.1)
     ffi (1.15.1-x64-mingw32)
@@ -295,7 +295,7 @@ GEM
     ruby-enum (0.9.0)
       i18n
     ruby-progressbar (1.11.0)
-    ruby2_keywords (0.0.4)
+    ruby2_keywords (0.0.5)
     rubyzip (2.3.0)
     safe_yaml (1.0.5)
     sass (3.7.4)

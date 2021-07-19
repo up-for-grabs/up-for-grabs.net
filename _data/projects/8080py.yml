@@ -12,7 +12,7 @@ tags:
 - cli
 upforgrabs:
   name: bitesize
-  link: https://github.com/sadboyzvone/8080py/labels/bitesize
+  link: https://github.com/zvonimirr/8080py/labels/bitesize
 stats:
   issue-count: 2
   last-updated: '2020-11-17T09:36:54Z'

@@ -6,10 +6,10 @@ desc: >-
   your data appropriately.
 site: https://github.com/NdubuisiJr/skia-chart
 tags:
-- ".net"
+- .net
 - xamarin.forms
-- chartlbrary
-- visualization
+- c#
+- xamarin
 upforgrabs:
   name: help-wanted
   link: https://github.com/NdubuisiJr/skia-chart/labels/help-wanted

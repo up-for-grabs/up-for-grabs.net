@@ -6,7 +6,7 @@
 
 <a href="https://up-for-grabs.net/"><img width="814" src="https://user-images.githubusercontent.com/359239/67390578-50f83a00-f573-11e9-835d-02eb9e019afb.png"></a>
 
-This repository contains the content for the Up-For-Grabs website.
+This repository contains the content for the [Up-For-Grabs website](https://up-for-grabs.net/), a list of projects with curated tasks for new contributors.
 
 ## List your project
 

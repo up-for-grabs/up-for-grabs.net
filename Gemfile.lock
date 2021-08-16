@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 27c2007b4f0bff8087ac86b49070908f0868ab7f
+  revision: afb4772157a54c823ae16bf5ab46c4627f938ea1
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -42,7 +42,7 @@ GEM
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     execjs (2.8.1)
-    faraday (1.6.0)
+    faraday (1.7.0)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)

@@ -6,7 +6,7 @@ desc: >-
   your data appropriately.
 site: https://github.com/NdubuisiJr/skia-chart
 tags:
-- .net
+- ".net"
 - xamarin.forms
 - c#
 - xamarin

@@ -10,7 +10,7 @@ This repository contains the content for the [Up-For-Grabs website](https://up-f
 
 ## List your project
 
-If you know of or own a project that should be listed on Up for Grabs,
+If you know of or wants to own a project that should be listed on Up for Grabs,
 [follow the instructions to open a pull request](docs/list-a-project.md).
 
 ## Contributing
@@ -46,7 +46,7 @@ Thanks goes to these wonderful people who have improved the code and documentati
   </tr>
   <tr>
     <td align="center"><a href="http://ishan.co"><img src="https://avatars0.githubusercontent.com/u/1873271?v=4" width="100px;" alt=""/><br /><sub><b>Ishan Sharma</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=ishansharma" title="Code">💻</a></td>
-    <td align="center"><a href="http://ishan.co"><img src="https://avatars0.githubusercontent.com/u/1873271?v=4" width="100px;" alt=""/><br /><sub><b>Meedha</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=meedha" title="Code">💻</a></td>
+    <td align="center"><a href="http://ishan.co"><img src="https://avatars0.githubusercontent.com/u/?v=4" width="100px;" alt=""/><br /><sub><b>Meedha</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=meedha" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/firfircelik"><img src="https://avatars0.githubusercontent.com/u/34511698?v=4" width="100px;" alt=""/><br /><sub><b>Firat Celik</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=firfircelik" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/phncosta"><img src="https://avatars0.githubusercontent.com/u/47827714?v=4" width="100px;" alt=""/><br /><sub><b>Paulo H. Costa</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=phncosta" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/XxZhang2017"><img src="https://avatars2.githubusercontent.com/u/26696836?v=4" width="100px;" alt=""/><br /><sub><b>XxZhang2017</b></sub></a><br /><a href="#content-XxZhang2017" title="Content">🖋</a> <a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=XxZhang2017" title="Code">💻</a></td>
@@ -58,4 +58,4 @@ Thanks goes to these wonderful people who have improved the code and documentati
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome here!

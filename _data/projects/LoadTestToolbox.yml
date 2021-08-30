@@ -8,7 +8,7 @@ tags:
 - load-testing
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/stevedesmond-ca/LoadTestToolbox/labels/up-for-grabs
+  link: https://github.com/SteveDesmond-ca/LoadTestToolbox/labels/up-for-grabs
 stats:
   issue-count: 8
   last-updated: '2020-12-08T19:05:21Z'

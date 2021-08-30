@@ -1,0 +1,15 @@
+---
+name: Message-Encrypter-Decrypter
+desc: Encryption is the process by which the original message(plaintext) is converted to an unreadable(ciphertext) form to prevent unauthorized parties from reading it.
+Decryption is the process of converting an encrypted message back to its original (readable) format.This process of Encryption and Decryption is called as "Cryptography".
+This Project demonstrates the encryption and decryption of data using symmentric cryptography
+site: https://github.com/eunicek-333/Message-Encrypter-Decrypter
+tags:
+- python
+- pip
+- tkinter
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/eunicek-333/Message-Encrypter-Decrypter/labels/up-for-grabs
+stats:
+  issue-count: 0

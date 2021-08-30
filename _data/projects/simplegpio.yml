@@ -9,7 +9,7 @@ tags:
 - gpio
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/stevedesmond-ca/SimpleGPIO/labels/up-for-grabs
+  link: https://github.com/SteveDesmond-ca/SimpleGPIO/labels/up-for-grabs
 stats:
   issue-count: 7
   last-updated: '2021-04-12T01:47:16Z'

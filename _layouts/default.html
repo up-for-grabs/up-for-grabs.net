@@ -1,16 +1,23 @@
----
-layout: none
----
 <!DOCTYPE html>
+
 <html lang="en">
-  {% include head.html %}
-  <body>
-  {% include header.html %}
-  <div id="main-container" class='container'>
-    {{ content }}
-  </div>
-  {% include footer.html %}
-  {% include scripts.html %}
-  <a id="back2Top" title="Scroll to top" href="#">&#10148;</a>
+  <head>
+    <meta charset="UFT-8"/>
+    <meta name="viewport" content="device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>  
+  <body>       
+    <header id="top-page"></header>
+
+    <div id="main-container" class='container'>
+      <p>{{ content }}</p>
+    </div>
+
+    <footer>
+      <a id="back2Top" title="Scroll to top" href="#top-page">&#10148; Jump To Top</a>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

@@ -30,7 +30,9 @@
     </ul>
   </div>
   <table class="projects">
+    <% let count=0 %>
    <% _.each(projects, function(project) { %>
+    <% count= count+1%>
     <tbody class="<% if ( project.stats ) { %>counted<% } %>">
     <tr>
        <td colspan="2" class="title">
@@ -70,6 +72,9 @@
     </tbody>
    <% }) %>
    </table>
+   <% if(count==0) { %>
+    <p style="font-size: 1.5em;font-weight: 600;line-height: 30px;">No projects found with this description...<p>
+    <%} %>
 </script>
 <script src="{{ site.github.url }}javascripts/lib/require.js" data-main="javascripts/app"></script>
 <!-- Google Analytics -->

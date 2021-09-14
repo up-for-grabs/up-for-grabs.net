@@ -36,25 +36,27 @@ Thanks goes to these wonderful people who have improved the code and documentati
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/filipe-gomes"><img src="https://avatars1.githubusercontent.com/u/42053052?v=4" width="100px;" alt=""/><br /><sub><b>Filipe Magalhaes Gomes</b></sub></a><br /><a href="#content-filipe-gomes" title="Content">🖋</a></td>
-    <td align="center"><a href="https://mkkhedawat.github.io/"><img src="https://avatars2.githubusercontent.com/u/5137374?v=4" width="100px;" alt=""/><br /><sub><b>Manish Kumar Khedawat</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=mkkhedawat" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/SpaceEEC"><img src="https://avatars1.githubusercontent.com/u/24881032?v=4" width="100px;" alt=""/><br /><sub><b>SpaceEEC</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=SpaceEEC" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.joaomanoel.com.br"><img src="https://avatars0.githubusercontent.com/u/6238111?v=4" width="100px;" alt=""/><br /><sub><b>João Manoel Lins</b></sub></a><br /><a href="#content-JoaoManoel" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/crystal-dawn"><img src="https://avatars3.githubusercontent.com/u/38540136?v=4" width="100px;" alt=""/><br /><sub><b>Crystal Yungwirth</b></sub></a><br /><a href="#content-crystal-dawn" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/TeslaAdis"><img src="https://avatars1.githubusercontent.com/u/20220542?v=4" width="100px;" alt=""/><br /><sub><b>Adis Talic</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=TeslaAdis" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/AstroBoogie"><img src="https://avatars2.githubusercontent.com/u/18710598?v=4" width="100px;" alt=""/><br /><sub><b>Nathaniel Adams</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=AstroBoogie" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/filipe-gomes"><img src="https://avatars1.githubusercontent.com/u/42053052?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Filipe Magalhaes Gomes</b></sub></a><br /><a href="#content-filipe-gomes" title="Content">🖋</a></td>
+    <td align="center"><a href="https://mkkhedawat.github.io/"><img src="https://avatars2.githubusercontent.com/u/5137374?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Manish Kumar Khedawat</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=mkkhedawat" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/SpaceEEC"><img src="https://avatars1.githubusercontent.com/u/24881032?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SpaceEEC</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=SpaceEEC" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.joaomanoel.com.br"><img src="https://avatars0.githubusercontent.com/u/6238111?v=4?s=100" width="100px;" alt=""/><br /><sub><b>João Manoel Lins</b></sub></a><br /><a href="#content-JoaoManoel" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/crystal-dawn"><img src="https://avatars3.githubusercontent.com/u/38540136?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Crystal Yungwirth</b></sub></a><br /><a href="#content-crystal-dawn" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/TeslaAdis"><img src="https://avatars1.githubusercontent.com/u/20220542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adis Talic</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=TeslaAdis" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/AstroBoogie"><img src="https://avatars2.githubusercontent.com/u/18710598?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nathaniel Adams</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=AstroBoogie" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="http://ishan.co"><img src="https://avatars0.githubusercontent.com/u/1873271?v=4" width="100px;" alt=""/><br /><sub><b>Ishan Sharma</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=ishansharma" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/firfircelik"><img src="https://avatars0.githubusercontent.com/u/34511698?v=4" width="100px;" alt=""/><br /><sub><b>Firat Celik</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=firfircelik" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/phncosta"><img src="https://avatars0.githubusercontent.com/u/47827714?v=4" width="100px;" alt=""/><br /><sub><b>Paulo H. Costa</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=phncosta" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/XxZhang2017"><img src="https://avatars2.githubusercontent.com/u/26696836?v=4" width="100px;" alt=""/><br /><sub><b>XxZhang2017</b></sub></a><br /><a href="#content-XxZhang2017" title="Content">🖋</a> <a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=XxZhang2017" title="Code">💻</a></td>
-    <td align="center"><a href="https://chadwhitacre.com/"><img src="https://avatars2.githubusercontent.com/u/134455?v=4" width="100px;" alt=""/><br /><sub><b>Chad Whitacre</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=chadwhitacre" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://ishan.co"><img src="https://avatars0.githubusercontent.com/u/1873271?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ishan Sharma</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=ishansharma" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/firfircelik"><img src="https://avatars0.githubusercontent.com/u/34511698?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Firat Celik</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=firfircelik" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/phncosta"><img src="https://avatars0.githubusercontent.com/u/47827714?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paulo H. Costa</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=phncosta" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/XxZhang2017"><img src="https://avatars2.githubusercontent.com/u/26696836?v=4?s=100" width="100px;" alt=""/><br /><sub><b>XxZhang2017</b></sub></a><br /><a href="#content-XxZhang2017" title="Content">🖋</a> <a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=XxZhang2017" title="Code">💻</a></td>
+    <td align="center"><a href="https://chadwhitacre.com/"><img src="https://avatars2.githubusercontent.com/u/134455?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chad Whitacre</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=chadwhitacre" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Jai2305"><img src="https://avatars.githubusercontent.com/u/47395196?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jai </b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=Jai2305" title="Code">💻</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!

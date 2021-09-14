@@ -86,5 +86,31 @@
 
   ga('create', 'UA-45897756-1', 'auto');
   ga('send', 'pageview');
+
+  var r = document.querySelector(":root") ;
+  var rs = getComputedStyle(r) ;
+  let root = document.documentElement;
+  function view_mode()
+  {
+    console.log("Pressed") ;
+    console.log(rs.getPropertyValue("--view-mode")) ;
+    if(rs.getPropertyValue("--view-mode"))
+    {
+      root.style.setProperty("--body-back","#111111")
+      root.style.setProperty("--body-color","#eeeded")
+      root.style.setProperty("--abs","rgb(37, 37, 37)")
+      root.style.setProperty("--view-mode",false)
+      document.getElementById("view-mode").src="/images/sun-light.png" ;
+    }
+    else
+    {
+      console.log("Exec in nught")
+      root.style.setProperty("--body-back","#f9f9f9")
+      root.style.setProperty("--body-color","#303030")
+      root.style.setProperty("--abs","#FFF")
+      root.style.setProperty("--view-mode",true)
+      document.getElementById("view-mode").src="/images/Dim-Night.png" ;
+    }
+  }
 </script>
 <!-- End Google Analytics -->

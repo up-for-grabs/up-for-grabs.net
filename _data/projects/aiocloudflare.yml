@@ -1,0 +1,8 @@
+name: aioCloudflare
+desc: A Cloudflare API wrapper in Python featuring async API Client
+site: https://github.com/Stewart86/aioCloudflare
+tags:
+  - python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Stewart86/aioCloudflare/labels/good%20first%20issue

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 64c7b8bec5f3d1f47ed3f6fdca038e98a85a0c66
+  revision: cc2e6010ba3e6d3e2ab4e110440f31f6f90a4e7f
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -42,7 +42,7 @@ GEM
     eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     execjs (2.8.1)
-    faraday (1.7.1)
+    faraday (1.8.0)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
@@ -117,9 +117,9 @@ GEM
       public_suffix (>= 3.0, < 5.0)
       typhoeus (~> 1.3)
     graphql (1.12.16)
-    graphql-client (0.16.0)
+    graphql-client (0.17.0)
       activesupport (>= 3.0)
-      graphql (~> 1.8)
+      graphql (~> 1.10)
     hana (1.3.7)
     html-pipeline (2.14.0)
       activesupport (>= 2)

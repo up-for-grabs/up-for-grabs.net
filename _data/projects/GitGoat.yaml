@@ -1,5 +1,5 @@
 name: GitGoat
-desc: GitGoat was built to enable DevOps and Engineering teams to design and implement a sustainable misconfiguration prevention strategy. It can be used for proof-of-concept projects, such as OpenSSF, that tend to identify security issues in code repositories. The cool thing about GitGoat is that it generates a complete set of repositories in your selected organization, then commits code from the last year, generates pull requests, merges them, and even defines specific repositoriy configurations. It is a great tool to learn how GitHub works and a facsinating opportunity to get into more of the internals of how Git actually works. 
+desc: GitGoat was built to enable DevOps and Engineering teams to design and implement a sustainable misconfiguration prevention strategy. It can be used for proof-of-concept projects, such as OpenSSF, that tend to identify security issues in code repositories.
 site: https://github.com/arnica-ext/GitGoat
 tags:
   - github

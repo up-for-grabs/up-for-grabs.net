@@ -1,7 +1,8 @@
 ---
 name: Reviews
 desc: >-
-  Reviews is a terminal UI Dashboard for monitoring requests for code review across several Github repositories and pull requests.
+  Reviews is a terminal UI Dashboard for monitoring requests for code review across several Github repositories
+  and pull requests.
 site: https://github.com/apoclyps/reviews
 tags:
 - python
@@ -12,3 +13,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/apoclyps/reviews/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2021-09-21T21:11:48Z'

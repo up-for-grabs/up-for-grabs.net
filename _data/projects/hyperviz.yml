@@ -1,0 +1,11 @@
+name: HyperViz
+desc: Analysing hyper-parameters made easy.
+site: https://github.com/F1nnM/HyperViz
+tags:
+  - python
+  - streamlit
+  - web
+  - machine learning
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/F1nnM/HyperViz/issues

@@ -3,7 +3,7 @@ name: YAWP
 desc: 'Yet Another Web Playground is an online web Playground that lets you play with HTML CSS and JS in real-time'
 site: https://github.com/josharsh/YAWP
 tags:
-- react
+- reactjs
 - javascript
 - web
 - nextjs

@@ -1,0 +1,13 @@
+---
+name: YAWP
+desc: 'Yet Another Web Playground is an online web Playground that lets you play with HTML CSS and JS in real-time'
+site: https://github.com/josharsh/YAWP
+tags:
+- react
+- javascript
+- web
+- nextjs
+- code
+upforgrabs:
+  name: good first issue
+  link: https://github.com/josharsh/YAWP/labels/good%20first%20issue

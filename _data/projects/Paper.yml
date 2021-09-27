@@ -1,0 +1,13 @@
+---
+name: Paper
+desc: 'Scan those documents at ease with real-time document detection, multi paged pdfs, optimized and cleaner clicks from an easy to navigate UX'
+site: https://github.com/josharsh/Paper
+tags:
+- flutter
+- mobile
+- android
+- ios
+- code
+upforgrabs:
+  name: good first issue
+  link: https://github.com/josharsh/Paper/labels/good%20first%20issue

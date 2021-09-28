@@ -10,4 +10,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/ilkilab/agorakube/labels/up-for-grabs
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2021-09-24T07:45:02Z'

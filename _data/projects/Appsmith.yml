@@ -9,5 +9,5 @@ tags:
   - app-builder
   - admin-dashboard
 upforgrabs:
-  name: good first issue
+  name: Good First Issue
   link: https://github.com/appsmithorg/appsmith/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22+bug

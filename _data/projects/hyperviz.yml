@@ -7,5 +7,5 @@ tags:
   - web
   - machine-learning
 upforgrabs:
-  name: hacktoberfest
-  link: https://github.com/F1nnM/HyperViz/issues
+  name: good first issue
+  link: https://github.com/F1nnM/HyperViz/labels/good%20first%20issue

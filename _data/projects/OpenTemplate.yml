@@ -1,0 +1,8 @@
+name: open template
+desc: boilerplate for a new open source idea
+site: 
+tags:
+  - boilerplate
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/opentemplate/opentemplate

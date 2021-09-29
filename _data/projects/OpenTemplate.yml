@@ -1,6 +1,6 @@
 name: open template
 desc: boilerplate for a new open source idea
-site: 
+site: https://github.com/opentemplate/opentemplate
 tags:
   - boilerplate
 upforgrabs:

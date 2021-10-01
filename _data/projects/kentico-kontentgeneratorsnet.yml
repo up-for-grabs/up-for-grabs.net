@@ -17,4 +17,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/Kentico/kontent-generators-net/labels/up-for-grabs
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2021-09-30T07:55:11Z'

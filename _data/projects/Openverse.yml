@@ -14,4 +14,4 @@ tags:
 - airflow
 upforgrabs:
   name: help wanted
-  link: https://github.com/search?q=label%3A%22good+first+issue%22+state%3Aopen+is%3Aissue+repo%3Awordpress%2Fopenverse+repo%3Awordpress%2Fopenverse-frontend+repo%3Awordpress%2Fopenverse-api+repo%3Awordpress%2Fopenverse-catalog+label%3A%22help+wanted%22+state%3Aopen+repo%3Awordpress%2Fopenverse&type=Issues
+  link: https://github.com/wordpress/openverse/labels/help%20wanted

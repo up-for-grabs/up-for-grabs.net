@@ -2,8 +2,8 @@ name: SentimentAnalyzer
 desc: Semantic Analyzer is an on-device (offline) open-source library to find out what customers think of your brand or topic by analyzing raw text for clues about positive or negative sentiment.
 site: https://github.com/arafattehsin/SentimentAnalyzer
 tags:
-  - Sentiment Analysis
-  - Text Analytics
+  - SentimentAnalysis
+  - TextAnalytics
   - dotnet
 upforgrabs:
   name: up for grabs

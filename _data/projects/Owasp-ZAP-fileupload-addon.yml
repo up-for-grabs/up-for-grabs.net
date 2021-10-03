@@ -6,7 +6,7 @@ tags:
 - java
 - owasp-zap
 - dast
-- scan rule
+- scan-rule
 - fileupload
 - scanner
 upforgrabs:

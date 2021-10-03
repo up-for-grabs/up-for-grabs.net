@@ -1,6 +1,6 @@
 ---
 name: home-assistant.io
-desc: A Home Assistant User documentation
+desc: Home Assistant User documentation
 site: https://github.com/home-assistant/home-assistant.io
 tags:
 - documentation
@@ -8,9 +8,10 @@ tags:
 - home-assistant
 - hass
 - hassio
+- haos
 upforgrabs:
-  name: Help wanted
-  link: https://github.com/home-assistant/home-assistant.io/labels/Help%20wanted
+  name: help-wanted
+  link: https://github.com/home-assistant/home-assistant.io/labels/help-wanted
 stats:
-  issue-count: 9
-  last-updated: '2020-11-02T14:32:11Z'
+  issue-count: 6
+  last-updated: '2021-10-03T09:32:42Z'

@@ -1,4 +1,4 @@
-
+---
 name: Openverse
 desc: A search-engine for openly-licensed media, part of the WordPress project
 site: https://wordpress.org/openverse
@@ -15,3 +15,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/WordPress/openverse/labels/help%20wanted
+stats:
+  issue-count: 6
+  last-updated: '2021-09-21T16:56:00Z'

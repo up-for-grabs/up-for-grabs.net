@@ -4,8 +4,8 @@ site: https://github.com/arafattehsin/SentimentAnalyzer
 tags:
   - sentiment-analysis
   - text-analytics
-  - ml-net
-  - dotnet
+  - ml.net
+  - .net
 upforgrabs:
   name: up for grabs
   link: https://github.com/arafattehsin/SentimentAnalyzer/labels/up%20for%20grabs

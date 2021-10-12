@@ -14,6 +14,10 @@
     "prettier-fix": "prettier --write javascripts/*.js tests/**/*.js docs/**/*.md .github/**/*.md",
     "test": "jest --config ./jest.config.js --verbose --coverage"
   },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=7"
+  },
   "dependencies": {
     "amdefine": ">=0.1.0"
   },

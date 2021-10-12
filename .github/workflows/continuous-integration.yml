@@ -23,7 +23,7 @@ jobs:
           node-version: '16'
       - name: npm install, lint, and test
         run: |
-          npm install
+          npm ci
           npm run lint
           npm run prettier
           npm test

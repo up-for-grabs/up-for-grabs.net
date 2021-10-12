@@ -4,41 +4,44 @@ on:
   pull_request:
   push:
     branches:
-    - gh-pages
+      - gh-pages
 
 jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
-    - name: Build Docker container
-      run: docker build .
+      - uses: actions/checkout@main
+      - name: Build Docker container
+        run: docker build .
 
   javascript:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: npm install, lint, and test
-      run: |
-        npm install
-        npm run lint
-        npm run prettier
-        npm test
-      env:
-        CI: true
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: npm install, lint, and test
+        run: |
+          npm install
+          npm run lint
+          npm run prettier
+          npm test
+        env:
+          CI: true
 
   site:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.6.x
-    - name: Build and test Jekyll site
-      run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
-        bundle exec rubocop
-        bundle exec jekyll build
-        bundle exec ruby scripts/validate_data_files.rb
+      - uses: actions/checkout@v2
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+      - name: Build and test Jekyll site
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+          bundle exec rubocop
+          bundle exec jekyll build
+          bundle exec ruby scripts/validate_data_files.rb

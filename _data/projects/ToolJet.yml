@@ -3,11 +3,11 @@ name: ToolJet
 desc: ToolJet is an open-source low-code platform for building and deploying internal tools with minimal engineering efforts 🚀
 site: https://tooljet.io/
 tags:
-- ReactJS
-- NestJS
-- NodeJS
-- Javascript
-- Typescript
+- react-jS
+- nest-jS
+- node-js
+- javascript
+- typescript
 - web
 - internal-tools
 - low-code

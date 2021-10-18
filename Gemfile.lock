@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 2766389f06a50162da0272c477d3553e36259461
+  revision: a50074737e4c9a5d5c9ecc08ce702d12e3ce78c9
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -116,7 +116,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (>= 3.0, < 5.0)
       typhoeus (~> 1.3)
-    graphql (1.12.16)
+    graphql (1.12.17)
     graphql-client (0.17.0)
       activesupport (>= 3.0)
       graphql (~> 1.10)

@@ -12,3 +12,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/SasanLabs/owasp-zap-jwt-addon/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2021-10-03T17:58:57Z'

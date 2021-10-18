@@ -9,7 +9,6 @@ tags:
 - compiler
 upforgrabs:
   name: enhancement
-  link: https://github.com/Swallow-lang/swallow/labels/enhancement
+  link: https://github.com/peregrine-lang/Peregrine/labels/enhancement
 stats:
-  issue-count: 2
-  last-updated: '2021-09-22T16:37:04Z'
+  issue-count: 0

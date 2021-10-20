@@ -13,8 +13,6 @@ tags:
 - syscalls
 - userland
 upforgrabs:
-  name: help wanted
-  link: https://github.com/proot-me/proot/labels/help%20wanted
-stats:
-  issue-count: 45
-  last-updated: '2020-10-16T14:30:36Z'
+  name: status/help-wanted
+  link: https://github.com/proot-me/proot/issues?q=is%3Aopen+is%3Aissue+label%3Astatus%2Fhelp-wanted
+

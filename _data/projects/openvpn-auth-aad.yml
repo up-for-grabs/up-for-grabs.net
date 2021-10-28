@@ -1,6 +1,6 @@
 ---
 name: openvpn-auth-aad
-desc: module for Azure Active Directory (AAD) OpenVPN Plugin authentication
+desc: Azure Active Directory (AAD) OpenVPN Plugin.
 site: https://github.com/aad-for-linux/openvpn-auth-aad
 tags:
 - plugin

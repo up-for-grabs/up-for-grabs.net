@@ -2,7 +2,7 @@
 name: libnss_aad
 desc: >-
   Name Service Switch (NSS) Module for performing user lookups against the Azure Active Directory (AAD).
-site: https://github.com/CyberNinjas/libnss_aad
+site: https://github.com/aad-for-linux/libnss-aad
 tags:
 - c
 - glibc
@@ -15,7 +15,7 @@ tags:
 - nss-db
 upforgrabs:
   name: help wanted
-  link: https://github.com/CyberNinjas/libnss_aad/labels/help%20wanted
+  link: https://github.com/aad-for-linux/libnss-aad/labels/help%20wanted
 stats:
-  issue-count: 6
-  last-updated: '2021-10-08T20:53:44Z'
+  issue-count: 2
+  last-updated: '2021-10-04T20:53:44Z'

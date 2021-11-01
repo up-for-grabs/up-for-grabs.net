@@ -8,7 +8,6 @@ tags:
 - sha1
 - sha256
 - sha512
-- golang
 - go
 upforgrabs:
   name: up-for-grabs

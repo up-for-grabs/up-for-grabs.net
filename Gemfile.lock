@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: a50074737e4c9a5d5c9ecc08ce702d12e3ce78c9
+  revision: 2c2e47de81260c3dc83447eb8f3b0d2b72f7361d
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -318,7 +318,7 @@ GEM
     unf_ext (0.0.8-x86-mingw32)
     unicode-display_width (2.1.0)
     uri_template (0.7.0)
-    zeitwerk (2.4.2)
+    zeitwerk (2.5.1)
 
 PLATFORMS
   ruby

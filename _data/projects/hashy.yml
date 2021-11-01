@@ -3,7 +3,6 @@ desc: A program written in Golang to help with hashing strings and files!
 site: https://github.com/AstroOrbis/Hashy
 tags:
 - hash
-- base64
 - md5
 - sha1
 - sha256

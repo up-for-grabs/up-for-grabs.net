@@ -1,0 +1,11 @@
+name: Call for Code for Racial Justice: Truth Loop
+desc: Web app that allows users to find local legislation and upload their feedback on how the legislation affects them
+site: https://developer.ibm.com/callforcode/racial-justice/
+tags:
+  - react
+  - nodejs  
+  - civic-hacking
+  - tech-for-good
+upforgrabs:
+  name: Call-for-Code-for-Racial-Justice-Truth-Loop
+  link: https://github.com/Call-for-Code-for-Racial-Justice/Truth-Loop

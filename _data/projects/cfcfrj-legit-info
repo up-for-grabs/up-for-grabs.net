@@ -1,0 +1,12 @@
+name: Call for Code for Racial Justice: Legit-Info
+desc: Web app that categorizes legislation by impact area
+site: https://developer.ibm.com/callforcode/racial-justice/
+tags:
+  - bootstrap
+  - python
+  - django
+  - civic-hacking
+  - tech-for-good
+upforgrabs:
+  name: Call-for-Code-for-Racial-Justice-Legit-Info
+  link: https://github.com/Call-for-Code-for-Racial-Justice/Legit-Info

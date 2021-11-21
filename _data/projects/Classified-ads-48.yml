@@ -1,0 +1,13 @@
+name: Classified-ads-48
+desc: 💨 A lightweight classified-ads web-app with maps. Utilizes a lot of wisely picked vanilla JS libraries for a rich UI. 
+site: https://example.org/your-project-link-here
+tags:
+  - node.js
+  - leaflet
+  - mongodb
+  - javascript
+  - web
+  - auth0
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/bacloud14/Classified-ads-48/labels/up-for-grabs

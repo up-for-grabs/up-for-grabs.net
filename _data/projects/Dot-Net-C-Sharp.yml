@@ -1,7 +1,7 @@
 ---
 name: C# Practice
 desc: A Simple .NET core project with c#. Collecting questions online and solving them in an easy and comprehensible format.
-site: https://github.com/jatta-njie21/CSharp-Practice
+site: https://github.com/jattanjie21/CSharp-Practice
 tags:
 - .net-core
 - first-timers-only
@@ -10,8 +10,8 @@ tags:
 - beginner-friendly
 upforgrabs:
   name: up for grabs
-  link: https://github.com/jatta-njie21/CSharp-Practice/labels/up%20for%20grabs
+  link: https://github.com/jattanjie21/CSharp-Practice/labels/up%20for%20grabs
 stats:
   issue-count: 6
-  last-updated: 'Nov 10,2021, 12:56 PM GMT'
+  last-updated: 'Nov 25,2021, 12:20 PM GMT'
 

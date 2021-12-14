@@ -20,8 +20,8 @@ tags:
 - graphql
 - mongodb
 upforgrabs:
-  name: Is Good First Issue
-  link: https://github.com/demokratie-live/democracy-client/labels/Is%20Good%20First%20Issue
+  name: 🏸 Good First
+  link: https://github.com/demokratie-live/democracy-client/labels/%F0%9F%8F%B8%20Good%20First
 stats:
   issue-count: 5
   last-updated: '2020-06-24T11:11:50Z'

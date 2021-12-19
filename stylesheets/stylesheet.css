@@ -106,6 +106,7 @@ h1 {
 }
 .block h1 .header-inside {
   padding: 2px 16px;
+  background: white; /* IE fallback */
   background: var(--abs);
 }
 

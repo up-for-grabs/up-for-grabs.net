@@ -22,20 +22,20 @@
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "babel-jest": "^27.3.0",
+    "@babel/core": "^7.16.5",
+    "babel-jest": "^27.4.5",
     "eslint": "^8.4.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jest": "^25.3.0",
-    "jest": "^27.4.4",
+    "jest": "^27.4.5",
     "jest-fetch-mock": "^3.0.3",
     "jest-localstorage-mock": "^2.4.18",
     "prettier": "^2.5.1",
     "promise-polyfill": "^8.2.1",
-    "typescript": "^4.5.3",
-    "underscore": "^1.13.1",
+    "typescript": "^4.5.4",
+    "underscore": "^1.13.2",
     "whatwg-fetch": "^3.6.2"
   }
 }

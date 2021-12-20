@@ -86,31 +86,43 @@
 
   ga('create', 'UA-45897756-1', 'auto');
   ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
 
-  var r = document.querySelector(":root") ;
-  var rs = getComputedStyle(r) ;
+<script>
+  var r = document.querySelector(":root");
+
+  var rs = getComputedStyle(r);
+
   let root = document.documentElement;
-  var condition=true ;
+
+  var viewModeCondition = true; // light mode - will change in a second
+
   function view_mode()
   {
-    if(condition)
+    if(viewModeCondition)
     {
-      root.style.setProperty("--body-back","#111111")
-      root.style.setProperty("--body-color","#eeeded")
-      root.style.setProperty("--abs","rgb(37, 37, 37)")
-      condition=false ;
-      document.getElementById("view-mode").src="/images/sun-light.png" ;
-      document.getElementById("view-mode-a").title="light-mode"
+      root.style.setProperty("--body-back","#111111");
+      root.style.setProperty("--body-color","#eeeded");
+      root.style.setProperty("--abs","rgb(37, 37, 37)");
+      document.getElementById("view-mode").src = "/images/sun-light.png"; // now the user knows that if they click the icon, they'll get it set back to light mode
+      document.getElementById("view-mode-a").title = "Light mode";
+      viewModeCondition = false; // dark mode now
+      
+      document.getElementById('logoImg').src = "/images/logo-dark.png"; // for contrast
     }
     else
     {
       root.style.setProperty("--body-back","#f9f9f9")
       root.style.setProperty("--body-color","#303030")
       root.style.setProperty("--abs","#FFF")
-      condition=true
-      document.getElementById("view-mode").src="/images/Dim-Night.png" ;
-      document.getElementById("view-mode-a").title="dark-mode"
+      viewModeCondition = true; // it's now on light mode
+      document.getElementById("view-mode").src = "/images/Dim-Night.png"; // the user can now tell that if they click this, they get set to dark mode
+      document.getElementById("view-mode-a").title = "Dark mode";
+
+      document.getElementById('logoImg').src = "/images/logo.png"; // for contrast
     }
   }
+
+  view_mode()
 </script>
-<!-- End Google Analytics -->

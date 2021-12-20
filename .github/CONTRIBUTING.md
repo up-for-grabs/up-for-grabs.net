@@ -27,7 +27,7 @@ ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-darwin18]
 $ bundle -v
 Bundler version 2.0.2
 $ node -v
-v10.16.3
+v16.13.1
 ```
 
 ## Testing the site

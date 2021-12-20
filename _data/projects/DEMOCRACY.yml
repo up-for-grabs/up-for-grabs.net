@@ -20,8 +20,8 @@ tags:
 - graphql
 - mongodb
 upforgrabs:
-  name: 🏸 Good First
+  name: "\U0001F3F8 Good First"
   link: https://github.com/demokratie-live/democracy-client/labels/%F0%9F%8F%B8%20Good%20First
 stats:
-  issue-count: 5
-  last-updated: '2020-06-24T11:11:50Z'
+  issue-count: 4
+  last-updated: '2021-10-22T15:19:24Z'

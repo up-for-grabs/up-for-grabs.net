@@ -1,0 +1,18 @@
+---
+name: Signal Estimator
+desc: A tool to measure characteristics of a looped back audio signal.
+site: https://github.com/gavv/signal-estimator
+tags:
+- c++
+- audio
+- dsp
+- alsa
+- pulseaudio
+- qt
+- qwt
+upforgrabs:
+  name: help wanted
+  link: https://github.com/gavv/signal-estimator/labels/help%20wanted
+stats:
+  issue-count: 14
+  last-updated: '2021-08-23T20:08:08Z'

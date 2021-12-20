@@ -14,7 +14,6 @@ tags:
 - coverlet
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/tonerdo/coverlet/labels/up-for-grabs
+  link: https://github.com/coverlet-coverage/coverlet/labels/up-for-grabs
 stats:
-  issue-count: 10
-  last-updated: '2020-02-13T11:57:19Z'
+  issue-count: 0

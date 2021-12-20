@@ -1,0 +1,15 @@
+---
+name: Dotenv-linter
+desc: A lightning-fast linter for .env files. Written in Rust.
+site: https://github.com/dotenv-linter/dotenv-linter
+tags:
+- oss
+- linter
+- dotenv
+- env
+- rust
+upforgrabs:
+  name: good first issue
+  link: https://github.com/dotenv-linter/dotenv-linter/labels/good%20first%20issue
+stats:
+  issue-count: 0

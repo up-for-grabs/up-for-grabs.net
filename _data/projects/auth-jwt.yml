@@ -1,0 +1,15 @@
+---
+name: auth-jwt
+desc: A demo to learn JWT by reverse engineering
+site: https://github.com/gitcommitshow/auth-jwt
+tags:
+- jwt
+- authentication
+- learning
+- rfc-7519
+- express
+upforgrabs:
+  name: good first issue
+  link: https://github.com/gitcommitshow/auth-jwt/labels/good%20first%20issue
+stats:
+  issue-count: 0

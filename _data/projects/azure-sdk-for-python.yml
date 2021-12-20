@@ -9,8 +9,8 @@ tags:
 - cloud
 - sdk
 upforgrabs:
-  name: Up for grabs
-  link: https://github.com/Azure/azure-sdk-for-python/labels/Up%20for%20grabs
+  name: help wanted
+  link: https://github.com/Azure/azure-sdk-for-python/labels/help%20wanted
 stats:
-  issue-count: 3
-  last-updated: '2020-03-26T19:54:18Z'
+  issue-count: 7
+  last-updated: '2021-12-03T18:23:50Z'

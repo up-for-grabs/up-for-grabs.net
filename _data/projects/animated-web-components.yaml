@@ -1,0 +1,11 @@
+name: Animated Web Components
+desc: Basic periodic animations using a single tag with Web Components
+site: https://github.com/edvilme/animated-web-components
+tags:
+  - javascript
+  - webcomponents
+  - animation
+  - web
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/edvilme/animated-web-components/labels/up-for-grabs

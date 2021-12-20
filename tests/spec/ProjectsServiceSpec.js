@@ -30,9 +30,7 @@ describe('ProjectsService', () => {
 
           expect(projects).toHaveLength(2);
 
-          const projectNames = projects.map((p) => {
-            return p.name;
-          });
+          const projectNames = projects.map((p) => p.name);
           expect(projectNames).toContain('Glimpse');
           expect(projectNames).toContain('LibGit2Sharp');
         });

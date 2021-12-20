@@ -1,0 +1,13 @@
+name: covidX
+desc: covidX. Rapid Pandemic Task Mgmt Portal
+site: https://www.covidsos.net
+tags:
+  - covidx
+  - xcov19
+  - project-xcov19
+  - patient-mgmt
+  - python
+  - django
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Xcov19/covidX/labels/up-for-grabs

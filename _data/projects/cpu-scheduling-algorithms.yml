@@ -1,0 +1,22 @@
+---
+name: CPU Scheduling Algorithms
+desc: >-
+  9 CPU Scheduling Algorithms like FCFS, SJF, SRTF, LJF, LRTF, Round Robin, HRRN, Priority Scheduling
+  with I/O Time, Gantt Chart, Context Switch, Time Log Animation, Timeline Chart, Comparison between all
+  algorithms and more.
+site: https://github.com/vasu-gondaliya/cpu-scheduling-algorithms
+tags:
+- html
+- css
+- javascript
+- google-charts
+- chart.js
+- operating-system
+- cpu-scheduling
+- website
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/vasu-gondaliya/cpu-scheduling-algorithms/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2021-04-20T04:16:37Z'

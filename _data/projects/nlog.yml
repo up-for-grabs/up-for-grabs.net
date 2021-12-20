@@ -1,17 +1,17 @@
 ---
 name: NLog
-desc: NLog - Advanced .NET and Silverlight Logging
+desc: NLog - Flexible and high performance logging framework for the .NET platforms
 site: https://github.com/NLog/NLog
 tags:
 - ".net"
-- silverlight
 - logging
-- mono
+- structured
+- semantic
 - c#
 - nlog
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/NLog/NLog/labels/up-for-grabs
 stats:
-  issue-count: 10
-  last-updated: '2020-02-21T18:46:14Z'
+  issue-count: 19
+  last-updated: '2021-12-10T16:59:48Z'

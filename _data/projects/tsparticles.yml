@@ -3,19 +3,25 @@ name: tsParticles
 desc: Particles.js in typescript
 site: https://github.com/matteobruni/tsparticles
 tags:
-- particles
-- typescript
-- npm
-- npm-package
-- particles-js
-- particle-js
-- particle
+- collaboration
 - javascript
-- javascript-library
-- typescript-library
+- css
+- html
+- oss
+- reactjs
+- vuejs
+- angular
+- infernojs
+- preactjs
+- jquery
+- sveltejs
+- typescript
+- particles.js
+- particles
+- animations
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/matteobruni/tsparticles/labels/up-for-grabs
 stats:
-  issue-count: 16
-  last-updated: '2020-04-03T17:18:07Z'
+  issue-count: 14
+  last-updated: '2021-12-07T14:40:27Z'

@@ -16,7 +16,7 @@ tags:
 - docker
 upforgrabs:
   name: help wanted
-  link: https://github.com/mirumee/saleor/labels/help%20wanted
+  link: https://github.com/saleor/saleor/labels/help%20wanted
 stats:
-  issue-count: 8
-  last-updated: '2020-03-31T01:40:15Z'
+  issue-count: 6
+  last-updated: '2021-07-08T02:44:13Z'

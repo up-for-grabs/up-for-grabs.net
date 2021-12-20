@@ -8,5 +8,8 @@ tags:
 - api
 - microservices
 upforgrabs:
-  name: New Contributor
-  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Asenecajs+label%3A%22new+contributor%22+
+  name: doc
+  link: https://github.com/senecajs/seneca/labels/doc
+stats:
+  issue-count: 14
+  last-updated: '2021-10-18T13:35:24Z'

@@ -1,0 +1,20 @@
+---
+name: Openverse
+desc: A search-engine for openly-licensed media, part of the WordPress project
+site: https://wordpress.org/openverse
+tags:
+- python
+- postgresql
+- postgres
+- django
+- sqlalchemy
+- javascript
+- typescript
+- vue
+- airflow
+upforgrabs:
+  name: help wanted
+  link: https://github.com/WordPress/openverse/labels/help%20wanted
+stats:
+  issue-count: 7
+  last-updated: '2021-12-06T19:41:44Z'

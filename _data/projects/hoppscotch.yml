@@ -1,0 +1,16 @@
+---
+name: Hoppscotch
+desc: A free, fast and beautiful API request builder.
+site: https://hoppscotch.io
+tags:
+- api
+- testing
+- graphql
+- rest
+- developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hoppscotch/hoppscotch/labels/good%20first%20issue
+stats:
+  issue-count: 11
+  last-updated: '2021-12-12T11:58:35Z'

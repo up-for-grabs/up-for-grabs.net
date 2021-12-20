@@ -1,0 +1,14 @@
+---
+name: pull-request-artifacts
+desc: GitHub Action to post build artifacts in PR comments.
+site: https://github.com/gavv/pull-request-artifacts
+tags:
+- typescript
+- github
+- ci
+upforgrabs:
+  name: help wanted
+  link: https://github.com/gavv/pull-request-artifacts/labels/help%20wanted
+stats:
+  issue-count: 6
+  last-updated: '2021-10-09T09:24:48Z'

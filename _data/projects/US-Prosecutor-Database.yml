@@ -1,15 +1,15 @@
 ---
 name: U.S. Prosecutor Database
 desc: >-
-  An open-source app to help people learn more about the role of prosecutors within the industrial prison
-  complex. Filter through prosecutors by name, role, state, area. Find resources like contact information
-  &amp; relevant articles.
+  An open-source web app to help people hold prosecutors accountable for police brutality. Filter through
+  prosecutors by name, role, state, area. Find resources like contact information &amp; relevant articles.
 site: https://us-prosecutor-database.herokuapp.com
 tags:
 - meteor
 - mongodb
-- mlab
+- node.js
 - design
+- civic-tech
 - ui
 - ux
 - csv
@@ -27,5 +27,5 @@ upforgrabs:
   name: HELP-WANTED
   link: https://github.com/billimarie/prosecutor-database/labels/HELP-WANTED
 stats:
-  issue-count: 7
-  last-updated: '2020-02-29T20:54:02Z'
+  issue-count: 21
+  last-updated: '2021-10-15T08:52:00Z'

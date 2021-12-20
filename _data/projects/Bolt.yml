@@ -1,0 +1,15 @@
+---
+name: Bolt
+desc: A URL Shortener written in C# using ASP.NET Core
+site: https://bolturl.herokuapp.com
+tags:
+- c#
+- ".net-core"
+- asp.net-core
+- javascript
+- html
+upforgrabs:
+  name: help wanted
+  link: https://github.com/omerhijazi404/Bolt/labels/help%20wanted
+stats:
+  issue-count: 0

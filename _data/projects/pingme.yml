@@ -1,0 +1,20 @@
+---
+name: PingMe
+desc: >-
+  PingMe is a CLI tool which provides the ability to send messages or alerts to multiple messaging platforms
+site: https://pingme.lmno.pk
+tags:
+- tags
+- go
+- slack
+- telegram
+- messaging
+- email
+- notification
+- alerts
+- cli
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/kha7iq/pingme/labels/up%20for%20grabs
+stats:
+  issue-count: 0

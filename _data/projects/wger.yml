@@ -14,8 +14,8 @@ tags:
 - fitness
 - exercises
 upforgrabs:
-  name: bitesize
-  link: https://github.com/wger-project/wger/labels/bitesize
+  name: good first issue
+  link: https://github.com/wger-project/wger/labels/good%20first%20issue
 stats:
-  issue-count: 8
-  last-updated: '2019-10-04T14:56:02Z'
+  issue-count: 4
+  last-updated: '2021-10-11T02:43:41Z'

@@ -1,0 +1,13 @@
+---
+name: Smack
+desc: >-
+  Smack is an open source, highly modular, easy to use, XMPP client library written in Java for Java SE compatible JVMs and Android.
+site: https://www.igniterealtime.org/projects/smack/
+tags:
+- xmpp
+- java
+- im
+- client
+upforgrabs:
+  name: Teaser Tasks
+  link: https://igniterealtime.atlassian.net/issues/?filter=10003

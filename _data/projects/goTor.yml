@@ -11,7 +11,6 @@ tags:
 - web
 upforgrabs:
   name: Available
-  link: https://github.com/KingAkeem/goTor/labels/Available
+  link: https://github.com/DedSecInside/gotor/labels/Available
 stats:
-  issue-count: 3
-  last-updated: '2020-03-27T07:36:34Z'
+  issue-count: 0

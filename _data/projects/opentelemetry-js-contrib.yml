@@ -1,0 +1,27 @@
+---
+name: opentelemetry-js-contrib
+desc: >-
+  The OpenTelemetry JavaScript Contrib project. OpenTelemetry provides a single set of APIs, libraries,
+  agents, and collector services to capture distributed traces and metrics from your application. You
+  can analyze them using Prometheus, Jaeger, and other observability tools.
+site: https://opentelemetry.io/
+tags:
+- javascript
+- trace
+- cloud
+- stats
+- monitoring
+- opentelemetry
+- tracing
+- distributed-tracing
+- metrics
+- logs
+- prometheus
+- jaeger
+- application-insights
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/open-telemetry/opentelemetry-js-contrib/labels/up-for-grabs
+stats:
+  issue-count: 17
+  last-updated: '2021-12-13T06:35:58Z'

@@ -30,7 +30,9 @@
     </ul>
   </div>
   <table class="projects">
+    <% let count=0 %>
    <% _.each(projects, function(project) { %>
+    <% count= count+1%>
     <tbody class="<% if ( project.stats ) { %>counted<% } %>">
     <tr>
        <td colspan="2" class="title">
@@ -70,6 +72,9 @@
     </tbody>
    <% }) %>
    </table>
+   <% if(count==0) { %>
+    <p style="font-size: 1.5em;font-weight: 600;line-height: 30px;">No projects found with this description...<p>
+    <%} %>
 </script>
 <script src="{{ site.github.url }}javascripts/lib/require.js" data-main="javascripts/app"></script>
 <!-- Google Analytics -->
@@ -81,5 +86,31 @@
 
   ga('create', 'UA-45897756-1', 'auto');
   ga('send', 'pageview');
+
+  var r = document.querySelector(":root") ;
+  var rs = getComputedStyle(r) ;
+  let root = document.documentElement;
+  var condition=true ;
+  function view_mode()
+  {
+    if(condition)
+    {
+      root.style.setProperty("--body-back","#111111")
+      root.style.setProperty("--body-color","#eeeded")
+      root.style.setProperty("--abs","rgb(37, 37, 37)")
+      condition=false ;
+      document.getElementById("view-mode").src="/images/sun-light.png" ;
+      document.getElementById("view-mode-a").title="light-mode"
+    }
+    else
+    {
+      root.style.setProperty("--body-back","#f9f9f9")
+      root.style.setProperty("--body-color","#303030")
+      root.style.setProperty("--abs","#FFF")
+      condition=true
+      document.getElementById("view-mode").src="/images/Dim-Night.png" ;
+      document.getElementById("view-mode-a").title="dark-mode"
+    }
+  }
 </script>
 <!-- End Google Analytics -->

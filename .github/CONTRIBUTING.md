@@ -18,14 +18,14 @@ git clone https://github.com/up-for-grabs/up-for-grabs.net.git
 If you have a fork of the repository on GitHub, replace the first `up-for-grabs`
 with your GitHub account.
 
-We require Ruby 2.6, Bundler 2 and Node 10+ to test the site. You can check
+We require Ruby 3, Bundler 2.2 and Node 16+ to test the site. You can check
 these are present by running these commands in a terminal:
 
 ```
 $ ruby -v
-ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-darwin18]
+ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-darwin18]
 $ bundle -v
-Bundler version 2.0.2
+Bundler version 2.2.33
 $ node -v
 v16.13.1
 ```

@@ -238,7 +238,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
         (error) => {
           reject(error);
         }
-      )
+      );
     });
   }
 

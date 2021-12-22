@@ -36,13 +36,17 @@
 <script type="text/html" id="projects-panel-general-template">
   <table class="projects">
     <% _.each(projects, function(project) { %>
+      
      <tbody class="<% if ( project.stats ) { %>counted<% } %>">
+
      <tr>
         <td colspan="2" class="title">
+          <div class="tdTopContentWrapper">
             <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
+          </div>
         </td>
      </tr>
-     <tr>
+     <tr class="tdMainContentWrapper">
         <td class="details">
          <p class="label">
            <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1">
@@ -72,6 +76,7 @@
             <% } %>
         </td>
      </tr>
+
      </tbody>
     <% }) %>
     </table>

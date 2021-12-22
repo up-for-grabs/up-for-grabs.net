@@ -24,8 +24,8 @@ define([
       : `${location.href}filters`;
   };
 
-  // inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better
-  // idea of what we want to do here
+  // Inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better
+  // idea of what we want to do here.
   function relativeTime(current, previous) {
     const msPerMinute = 60 * 1000;
     const msPerHour = msPerMinute * 60;
@@ -90,8 +90,6 @@ define([
       .chosen({
         no_results_text: 'No tags found by that name.',
         width: '65%',
-        background: '#A8A8A8',
-        color: 'black'
       })
       .val(tags)
       .trigger('chosen:updated')
@@ -109,8 +107,6 @@ define([
         search_contains: true,
         no_results_text: 'No project found by that name.',
         width: '65%',
-        background: '#A8A8A8',
-        color: 'black'
       })
       .val(names)
       .trigger('chosen:updated')
@@ -127,8 +123,6 @@ define([
       .chosen({
         no_results_text: 'No project found by that label.',
         width: '65%',
-        background: '#A8A8A8',
-        color: 'black'
       })
       .val(labels)
       .trigger('chosen:updated')
@@ -189,7 +183,7 @@ define([
   };
 
   /**
-   * This function help getting all params in url queryString
+   * This function helps getting all the params in url query string
    * Taken from here
    * https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
    *

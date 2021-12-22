@@ -55,8 +55,8 @@ define([
   const renderProjects = function (projectService, tags, names, labels) {
     const allTags = projectService.getTags();
 
-    projectsPanel.html(
-      compiledtemplateFn({
+    projectsPanelGeneral.html(
+      compiledtemplateFnGeneral({
         projects: projectService.get(tags, names, labels),
         relativeTime,
         tags: allTags,
@@ -69,11 +69,27 @@ define([
       })
     );
 
-    projectsPanel
+    projectsPanelFilter.html(
+      compiledtemplateFnFilter({
+        projects: projectService.get(tags, names, labels),
+        relativeTime,
+        tags: allTags,
+        popularTags: projectService.getPopularTags(6),
+        selectedTags: tags,
+        names: projectService.getNames(),
+        selectedNames: names,
+        labels: projectService.getLabels(),
+        selectedLabels: labels,
+      })
+    );
+
+    projectsPanelFilter
       .find('select.tags-filter')
       .chosen({
         no_results_text: 'No tags found by that name.',
-        width: '95%',
+        width: '65%',
+        background: '#A8A8A8',
+        color: 'black'
       })
       .val(tags)
       .trigger('chosen:updated')
@@ -85,12 +101,14 @@ define([
         );
       });
 
-    projectsPanel
+    projectsPanelFilter
       .find('select.names-filter')
       .chosen({
         search_contains: true,
         no_results_text: 'No project found by that name.',
-        width: '95%',
+        width: '65%',
+        background: '#A8A8A8',
+        color: 'black'
       })
       .val(names)
       .trigger('chosen:updated')
@@ -102,11 +120,13 @@ define([
         );
       });
 
-    projectsPanel
+    projectsPanelFilter
       .find('select.labels-filter')
       .chosen({
         no_results_text: 'No project found by that label.',
-        width: '95%',
+        width: '65%',
+        background: '#A8A8A8',
+        color: 'black'
       })
       .val(labels)
       .trigger('chosen:updated')
@@ -118,7 +138,7 @@ define([
         );
       });
 
-    projectsPanel
+    projectsPanelFilter
       .find('ul.popular-tags')
       .children()
       .each((i, elem) => {
@@ -274,13 +294,15 @@ define([
       });
     });
 
-    compiledtemplateFn = _.template($('#projects-panel-template').html());
-    projectsPanel = $('#projects-panel');
+    compiledtemplateFnFilter = _.template($('#projects-panel-filter-template').html());
+    compiledtemplateFnGeneral = _.template($('#projects-panel-general-template').html());
+    projectsPanelGeneral = $('#projects-panel-general');
+    projectsPanelFilter = $('#projects-panel-filter');
 
-    projectsPanel.on('click', 'a.remove-tag', function (e) {
+    projectsPanelFilter.on('click', 'a.remove-tag', function (e) {
       e.preventDefault();
       const tags = [];
-      projectsPanel
+      projectsPanelFilter
         .find('a.remove-tag')
         .not(this)
         .each(function () {

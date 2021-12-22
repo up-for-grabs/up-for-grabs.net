@@ -13,8 +13,10 @@ define([
   // selector, and needs to be ready before this code runs
   'chosen',
 ], ($, loadProjects, ProjectsService, fetchIssueCount, _, sammy) => {
-  let compiledtemplateFn = null,
-    projectsPanel = null;
+  let compiledtemplateFnGeneral = null,
+    compiledtemplateFnFilter = null,
+    projectsPanelGeneral = null,
+    projectsPanelFilter = null;
 
   const getFilterUrl = function () {
     return location.href.indexOf('/#/filters') > -1

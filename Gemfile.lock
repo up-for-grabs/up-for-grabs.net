@@ -327,6 +327,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-seo-tag
   json_schemer
   rubocop
   up_for_grabs_tooling!

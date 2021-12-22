@@ -1,5 +1,3 @@
-title: up-for-grabs.net
-
 exclude:
   - .github
   - assets
@@ -26,6 +24,14 @@ exclude:
   - vendor
 
 github: [metadata]
+
+plugins:
+  - jekyll-seo-tag
+
+title: Up For Grabs
+tagline: Want to contribute to open source, but not sure where to start? Here\'s a list of great places to contribute!
+url: https://up-for-grabs.net
+logo: /images/logo.png
 
 # DO NOT DELETE THIS
 # This is used to build up the array of projects rendered inside a <noscript>

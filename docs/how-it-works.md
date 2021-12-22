@@ -11,14 +11,14 @@ some neat features of Jekyll along the way.
 - We use [Data files](https://jekyllrb.com/docs/datafiles/) to represent the
   projects listed on the site - one file per project, found under
   `_data/projects`
-- We convert this file to JSON inside [`javascripts/projects.json`](../javascripts/projects.json)
+- We convert this file to JSON inside [`js/projects.json`](../js/projects.json)
   when the site is built using `jekyll`
-- The [`projectLoader`](../javascripts/projectLoader.js) module runs when the
+- The [`projectLoader`](../js/projectLoader.js) module runs when the
   page is loaded, retrieving these projects and making them available for the
   site
-- The [`projectsService`](../javascripts/projectsService.js) module handles
+- The [`projectsService`](../js/projectsService.js) module handles
   the rest of the work to sort and search the projects
-- The [`main`](../javascripts/main.js) module handles the rest of the work to
+- The [`main`](../js/main.js) module handles the rest of the work to
   render the list of projects and provide the UI for filtering based on label
   or tags
 

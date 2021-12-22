@@ -167,6 +167,15 @@ h1 {
     font-size: 22px;
 }
 
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .block h1 .header-inside {
     padding: 10px 10px;
     background: none;
@@ -189,24 +198,8 @@ h3 {
     font-size: 10px;
 }
 
-h4,
-h5,
-h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: white;
-}
-
-h4 {
-    font-size: 20px;
-}
-
 p {
     margin: 10px 0 15px 0;
-}
-
-img {
-    border: none;
 }
 
 
@@ -235,7 +228,6 @@ img {
     font-size: 23px;
     text-decoration: none;
     transition: 0.3s;
-
 }
 
 #back2Top:hover {
@@ -259,63 +251,6 @@ img {
   height: 100%;
   margin-left: 15%;
   background-position-x: 100%;
-}
-
-.capitalize {
-    text-transform: capitalize;
-}
-
-.upcase {
-    text-transform: uppercase;
-}
-
-.downcase {
-    text-transform: lowercase;
-}
-
-.hide {
-    display: none;
-}
-
-.a-r {
-    text-align: right;
-}
-
-.a-c {
-    text-align: center;
-}
-
-.small {
-    font-size: 11px;
-}
-
-.pull-left {
-    float: left;
-}
-
-.pull-right {
-    float: right;
-}
-
-.muted {
-    color: #8f8f8f;
-}
-
-.colour-1 {
-    color: #cc9944;
-}
-
-.colour-2 {
-    color: #925;
-}
-
-.colour-3 {
-    color: #448844;
-}
-
-.text-big {
-    font-size: 24px;
-    line-height: 1em;
 }
 
 ol,
@@ -360,24 +295,6 @@ dl dd {
 dl p {
     padding-left: 20px;
     font-style: italic;
-}
-
-blockquote {
-    margin: 0;
-    font-style: normal !important;
-}
-
-footer {
-    width: 100%;
-    /* max-width: 600px; */
-    line-height: 2em;
-    margin: auto;
-    padding-bottom: 30px;
-    text-align: center;
-}
-
-footer * {
-    color: #737373;
 }
 
 .container {
@@ -494,140 +411,14 @@ a:hover,
     color: #286BE0;
 }
 
-a.big-button,
-.as-link.big-button {
-    min-width: 30%;
-    border-radius: 3px;
-    -webkit-transition: all, 0.2s;
-    -moz-transition: all, 0.2s;
-    -ms-transition: all, 0.2s;
-    -o-transition: all, 0.2s;
-    transition: all, 0.2s;
-    color: #fff;
-    cursor: pointer;
-    font-size: 12px;
-    line-height: 24px;
-    padding: 8px 17px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    border-width: 0;
-    border-style: solid;
-    border-color: #8ab;
-    background: #6f8f9f;
-    box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.1);
-}
-
-a.big-button:hover,
-.as-link.big-button:hover {
-    background: #608090;
-}
-
-a.big-button:active,
-.as-link.big-button:active {
-    box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.1);
-}
-
-a.big-button.red,
-.as-link.big-button.red {
-    border-color: #ddacac;
-    background: #a65;
-}
-
-a.big-button.red:hover,
-.as-link.big-button.red:hover {
-    background: #b76;
-}
-
-a.big-button.gray,
-.as-link.big-button.gray {
-    border-color: #f4f4f4;
-    color: #ffffff;
-    background: #565656;
-}
-
-a.big-button.gray:hover,
-.as-link.big-button.gray:hover {
-    background: #676767;
-}
-
-a.big-button.blue,
-.as-link.big-button.blue {
-    border-color: #ace;
-    background: #678;
-}
-
-a.big-button.blue:hover,
-.as-link.big-button.blue:hover {
-    background: #789;
-}
-
-a.big-button.green,
-.as-link.big-button.green {
-    border-color: #ddeed0;
-    background: #696;
-}
-
-a.big-button.green:hover,
-.as-link.big-button.green:hover {
-    background: #797;
-}
-
 a:hover,
 a:focus {
     text-decoration: underline;
 }
 
-hr {
-    border: 0;
-    margin: 25px 0;
-}
-
 .highlight {
     margin: 0;
     padding: 0;
-}
-
-pre {
-    overflow-x: auto;
-    padding: 10px 0;
-    width: 100%;
-    line-height: 1.2em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-code {
-    font-size: 13px;
-    color: #eee;
-    background: #39382e;
-    padding: 2px 4px 3px;
-    border-radius: 2px;
-    line-height: 1.3em;
-    display: inline-block;
-    vertical-align: baseline;
-    zoom: 1;
-    *display: inline;
-    *vertical-align: auto;
-}
-
-img {
-    max-width: 100%;
-}
-
-img.half {
-    width: 50%;
-}
-
-.signoff {
-    margin-top: 30px;
-}
-
-.signoff img {
-    width: 20px;
 }
 
 .paging a {
@@ -811,14 +602,12 @@ form {
   border-radius: 3px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  overflow: hidden;
   padding-top: 12px;
 }
 
 .tdMainContentWrapper {
   border: 1px solid #666666;
   border-top: none;
-  overflow: hidden;
 }
 
 .projects .proj {

@@ -1,5 +1,5 @@
 const sampleProjects = require('../src/sampleProjects');
-const ProjectsService = require('../../javascripts/projectsService');
+const ProjectsService = require('../../js/projectsService');
 
 describe('ProjectsService', () => {
   describe('simple project list', () => {

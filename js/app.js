@@ -1,7 +1,7 @@
 // @ts-nocheck
 
 requirejs.config({
-  baseUrl: 'javascripts',
+  baseUrl: 'js',
   paths: {
     // external scripts hosted on CDN
     underscore:

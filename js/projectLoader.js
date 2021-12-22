@@ -12,7 +12,7 @@ define(['showdown', 'whatwg-fetch', 'promise-polyfill'], (showdown) => {
   const { fetch } = window;
 
   function loadProjects() {
-    return fetch('/javascripts/projects.json')
+    return fetch('/js/projects.json')
       .then((response) => response.json())
       .then((files) => {
         const converter = new showdown.Converter();

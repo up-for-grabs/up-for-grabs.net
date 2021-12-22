@@ -1,5 +1,5 @@
 module.exports = {
-  roots: ['<rootDir>/javascripts/', '<rootDir>/tests/'],
+  roots: ['<rootDir>/js/', '<rootDir>/tests/'],
   testMatch: ['**/spec/**/*.js'],
   transform: {
     '^.+\\.jsx?$': 'babel-jest'
@@ -10,10 +10,10 @@ module.exports = {
   ],
   collectCoverage: true,
   collectCoverageFrom: [
-    'javascripts/**/*.js',
+    'js/**/*.js',
     // infrastructure, should be ignored
-    '!javascripts/lib/require.js',
-    '!javascripts/app.js'
+    '!js/lib/require.js',
+    '!js/app.js'
 
   ],
   coverageReporters: ['text-summary', 'json', 'html', 'cobertura'],

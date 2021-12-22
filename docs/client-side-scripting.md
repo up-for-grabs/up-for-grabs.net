@@ -29,8 +29,8 @@ the additional client-side resources:
 
 ```html
 <script
-  src="{{ site.github.url }}javascripts/lib/require.js"
-  data-main="javascripts/app"
+  src="{{ site.github.url }}js/lib/require.js"
+  data-main="js/app"
 ></script>
 ```
 
@@ -39,13 +39,13 @@ initailized.
 
 ### Configure RequireJS
 
-The `javascripts/app.js` resource configures the application and launches the
+The `js/app.js` resource configures the application and launches the
 main script.
 
 ```js
 requirejs.config({
   // the default directory to use to find and load resources
-  baseUrl: 'javascripts',
+  baseUrl: 'js',
   paths: {
     // external scripts hosted on CDN
     underscore:
@@ -72,7 +72,7 @@ scripting, it will need to be added here.
 
 ### Main Script
 
-The `javascripts/main.js` contains the application-specific logic for the rest
+The `js/main.js` contains the application-specific logic for the rest
 of the application.
 
 ```js

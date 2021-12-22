@@ -146,7 +146,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
 
     // TODO: we're not extracting the leading or trailing slash in
     //       `ownerAndName` when the previous regex is passed in here. This
-    //       would be great to cleanup at some stage
+    //       would be great to cleanup at some stage.
     const apiURL = `https://api.github.com/repos${ownerAndName}issues?labels=${label}&per_page=${perPage}`;
 
     const settings = {

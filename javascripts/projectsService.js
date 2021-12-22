@@ -273,7 +273,11 @@ define(['underscore'], (_) => {
     };
 
     this.getLabels = function () {
-      return _.sortBy(labelsMap, (entry) => entry.name.toLowerCase());
+      return _.sortBy(labelsMap, (entry) => entry.name.toLowerCase()
+        .replace("up-for-grabs", "Up for grabs")
+        .replace("Up For Grabs", "Up for grabs")
+        .replace("up for grabs", "Up for grabs")
+      );
     };
 
     this.getPopularTags = function (popularTagCount) {

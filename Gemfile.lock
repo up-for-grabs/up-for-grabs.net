@@ -327,9 +327,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-seo-tag
   json_schemer
   rubocop
   up_for_grabs_tooling!
 
 BUNDLED WITH
-   2.0.1
+   2.1.4

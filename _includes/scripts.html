@@ -1,80 +1,85 @@
-<script type="text/html" id="projects-panel-template">
-  <div class="filters-panel cf">
-    <h5><label for="project">Filter by name:</label></h5>
-    <select class="names-filter" id="project" multiple data-placeholder="Select a project..." >
-      <% _.each(names, function(entry, key){ %>
+<script type="text/html" id="projects-panel-filter-template">
+  <menu> 
+    <div class="filters-panel cf">
+      <h4 style="font-weight: 600">Filters</h4>
+      <h5><label for="project">By name</label></h5>
+      <select class="names-filter" id="project" multiple data-placeholder="Select a project..." >
+        <% _.each(names, function(entry, key){ %>
+          <option value="<%-key%>"><%- entry.name%></option>
+        <% }) %>
+      </select>
+    </div>
+    <div class="filters-panel cf">
+      <h5><label for="label">By label</label></h5>
+      <select class="labels-filter" id="label" multiple data-placeholder="Select a label..." >
+      <% _.each(labels, function(entry, key){ %>
         <option value="<%-key%>"><%- entry.name%></option>
       <% }) %>
-    </select>
-  </div>
-  <div class="filters-panel cf">
-    <h5><label for="label">Filter by label: </label></h5>
-    <select class="labels-filter" id="label" multiple data-placeholder="Select a label..." >
-    <% _.each(labels, function(entry, key){ %>
-      <option value="<%-key%>"><%- entry.name%></option>
-    <% }) %>
-    </select>
-  </div>
-  <div class="filters-panel cf">
-    <h5><label for="tag">Filter by tags: </label></h5>
-    <select class="tags-filter" id="tag" multiple data-placeholder="Select a tag..." >
-    <% _.each(tags, function(entry, key){ %>
-      <option value="<%-entry.name%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
-    <% }) %>
-    </select>
-    <h5>Popular tags: </h5>
-    <ul class="popular-tags">
-    <% _.each(popularTags, function(entry, key){ %>
-      <li><a><%-entry.name%></a> (<%-entry.frequency%>)</li>
-    <% }) %>
-    </ul>
-  </div>
+      </select>
+    </div>
+    <div class="filters-panel cf">
+      <h5><label for="tag">By tags</label></h5>
+      <select class="tags-filter" id="tag" multiple data-placeholder="Select a tag..." >
+      <% _.each(tags, function(entry, key){ %>
+        <option value="<%-entry.name%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
+      <% }) %>
+      </select>
+      <h5>Popular tags</h5>
+      <ul class="popular-tags">
+      <% _.each(popularTags, function(entry, key){ %>
+        <li><a rel="nofollow noopener norefererr"><%-entry.name%></a> (<%-entry.frequency%>)</li>
+      <% }) %>
+      </ul>
+    </div>
+  </menu>
+</script>
+<script type="text/html" id="projects-panel-general-template">
   <table class="projects">
-    <% let count=0 %>
-   <% _.each(projects, function(project) { %>
-    <% count= count+1%>
-    <tbody class="<% if ( project.stats ) { %>counted<% } %>">
-    <tr>
-       <td colspan="2" class="title">
-           <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
-       </td>
-    </tr>
-    <tr>
-       <td class="details">
-        <p class="label">
-          <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1">
-            <%-project.upforgrabs.name %>
-            <% if (project.stats && project.stats['last-updated']) {
-                const now = new Date();
-                let lastUpdated = new Date(project.stats['last-updated']);
-                let since = relativeTime(now, lastUpdated);
-              %>
-              <span class="count" title="Last updated <%- since %>"><%-project.stats['issue-count']%></span>
-              <% } else if (project.stats) { %>
-              <span class="count" title="No recent activity"><%-project.stats['issue-count']%></span>
+    <% _.each(projects, function(project) { %>
+      
+     <tbody class="<% if ( project.stats ) { %>counted<% } %>">
+
+     <tr>
+        <td colspan="2" class="title">
+          <div class="tdTopContentWrapper">
+            <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
+          </div>
+        </td>
+     </tr>
+     <tr class="tdMainContentWrapper">
+        <td class="details">
+         <p class="label">
+           <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1">
+             <%-project.upforgrabs.name %>
+             <% if (project.stats && project.stats['last-updated']) {
+                 const now = new Date();
+                 let lastUpdated = new Date(project.stats['last-updated']);
+                 let since = relativeTime(now, lastUpdated);
+               %>
+               <span class="count" title="Last updated <%- since %>"><%-project.stats['issue-count']%></span>
+               <% } else if (project.stats) { %>
+               <span class="count" title="No recent activity"><%-project.stats['issue-count']%></span>
+             <% } %>
+           </a>
+         </p>
+        </td>
+        <td class="details">
+            <% if (project.desc) { %>
+            <span class="desc"><%=project.desc%></span>
             <% } %>
-          </a>
-        </p>
-       </td>
-       <td class="details">
-           <% if (project.desc) { %>
-           <span class="desc"><%=project.desc%></span>
-           <% } %>
-           <% if (project.tags) { %>
-           <p class="tags">
-               <% _.each(project.tags, function(tag, i) { %>
-                   <a href="#/filters?tags=<%-encodeURIComponent(tag)%>" tabindex="-1"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
-               <% }) %>
-           </p>
-           <% } %>
-       </td>
-    </tr>
-    </tbody>
-   <% }) %>
-   </table>
-   <% if(count==0) { %>
-    <p style="font-size: 1.5em;font-weight: 600;line-height: 30px;">No projects found with this description...<p>
-    <%} %>
+            <% if (project.tags) { %>
+            <p class="tags">
+                <% _.each(project.tags, function(tag, i) { %>
+                    <a href="#/filters?tags=<%-encodeURIComponent(tag)%>" tabindex="-1"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
+                <% }) %>
+            </p>
+            <% } %>
+        </td>
+     </tr>
+
+     </tbody>
+    <% }) %>
+    </table>
 </script>
 <script src="{{ site.github.url }}javascripts/lib/require.js" data-main="javascripts/app"></script>
 <!-- Google Analytics -->
@@ -86,31 +91,45 @@
 
   ga('create', 'UA-45897756-1', 'auto');
   ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
 
-  var r = document.querySelector(":root") ;
-  var rs = getComputedStyle(r) ;
+<script>
+  var r = document.querySelector(":root");
+
+  var rs = getComputedStyle(r);
+
   let root = document.documentElement;
-  var condition=true ;
+
+  var viewModeCondition = true; // light mode
+
   function view_mode()
   {
-    if(condition)
+    if(viewModeCondition)
     {
-      root.style.setProperty("--body-back","#111111")
-      root.style.setProperty("--body-color","#eeeded")
-      root.style.setProperty("--abs","rgb(37, 37, 37)")
-      condition=false ;
-      document.getElementById("view-mode").src="/images/sun-light.png" ;
-      document.getElementById("view-mode-a").title="light-mode"
+      /* Dark mode */
+      root.style.setProperty("--body-back","#242424");
+      root.style.setProperty("--body-color","#eeeded");
+      root.style.setProperty("--abs","#2C2C2C");
+      document.getElementById("view-mode").src = "/images/sun-light.png"; // now the user knows that if they click the icon, they'll get it set back to light mode
+      document.getElementById("view-mode-a").title = "Light mode";
+      viewModeCondition = false; // dark mode now
+      
+      document.getElementById('logoImg').src = "/images/logo-dark.png"; // for contrast
     }
     else
     {
+      /* Light mode */
       root.style.setProperty("--body-back","#f9f9f9")
       root.style.setProperty("--body-color","#303030")
       root.style.setProperty("--abs","#FFF")
-      condition=true
-      document.getElementById("view-mode").src="/images/Dim-Night.png" ;
-      document.getElementById("view-mode-a").title="dark-mode"
+      viewModeCondition = true; // it's now on light mode
+      document.getElementById("view-mode").src = "/images/Dim-Night.png"; // the user can now tell that if they click this, they get set to dark mode
+      document.getElementById("view-mode-a").title = "Dark mode";
+
+      document.getElementById('logoImg').src = "/images/logo.png"; // for contrast
     }
   }
+
+  view_mode()
 </script>
-<!-- End Google Analytics -->

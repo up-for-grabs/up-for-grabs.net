@@ -1,11 +1,35 @@
-<a id="view-mode-a" title="dark-mode"><img id="view-mode" src="/images/Dim-Night.png" onclick=" view_mode() ;"></a>
-<header>
-   
-    <a id="forkme_banner" href="https://github.com/up-for-grabs/up-for-grabs.net">View on GitHub</a>
-    <div class="container">
-        <a id="go-back-home" href="/#/"><img src="{{ site.github.url }}/images/logo.png" alt="Up For Grabs"></a>
-        <h1 class="ribbon">
-            <strong class="ribbon-content">Explore open source projects and jump in!</strong>
-        </h1>
-    </div>
-</header>
+<div id="headerGrid">
+  <div id="logo-area">
+      <h1>LOGO AREA</h1>
+  </div>
+  <!-- header & logo area -->
+  <div 
+  id="headerBanner"
+  aria-hidden="true">
+      <!--
+Using a background-image (see stylesheet.css) is really the only way to let the image repeat that I know of.
+Plus, it makes it easy to put the text there with lower bandwidth consumption, because it isn't directly in the image.
+-->
+      <h1 
+      style="
+        font-family: Kanit;
+        z-index: 999;
+        text-align: center;
+        font-size: 2.5em;
+        transform: translate(0, 25%);
+      " 
+      aria-hidden="false">
+          EXPLORE OPEN SOURCE 
+          <br/><br/>
+          PROJECTS AND JUMP IN!
+      </h1>
+  </div>
+</div>
+
+<!-- side navbar -->
+<div id="side">
+  <!-- filter -->
+  <div id="projects-panel-filter">
+      {% include noscript.html %}
+  </div>
+</div>

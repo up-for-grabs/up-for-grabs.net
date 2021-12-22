@@ -13,8 +13,10 @@ define([
   // selector, and needs to be ready before this code runs
   'chosen',
 ], ($, loadProjects, ProjectsService, fetchIssueCount, _, sammy) => {
-  let compiledtemplateFn = null,
-    projectsPanel = null;
+  let compiledtemplateFnGeneral = null,
+    compiledtemplateFnFilter = null,
+    projectsPanelGeneral = null,
+    projectsPanelFilter = null;
 
   const getFilterUrl = function () {
     return location.href.indexOf('/#/filters') > -1
@@ -22,8 +24,8 @@ define([
       : `${location.href}filters`;
   };
 
-  // inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better
-  // idea of what we want to do here
+  // Inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better
+  // idea of what we want to do here.
   function relativeTime(current, previous) {
     const msPerMinute = 60 * 1000;
     const msPerHour = msPerMinute * 60;
@@ -55,8 +57,8 @@ define([
   const renderProjects = function (projectService, tags, names, labels) {
     const allTags = projectService.getTags();
 
-    projectsPanel.html(
-      compiledtemplateFn({
+    projectsPanelGeneral.html(
+      compiledtemplateFnGeneral({
         projects: projectService.get(tags, names, labels),
         relativeTime,
         tags: allTags,
@@ -69,11 +71,25 @@ define([
       })
     );
 
-    projectsPanel
+    projectsPanelFilter.html(
+      compiledtemplateFnFilter({
+        projects: projectService.get(tags, names, labels),
+        relativeTime,
+        tags: allTags,
+        popularTags: projectService.getPopularTags(6),
+        selectedTags: tags,
+        names: projectService.getNames(),
+        selectedNames: names,
+        labels: projectService.getLabels(),
+        selectedLabels: labels,
+      })
+    );
+
+    projectsPanelFilter
       .find('select.tags-filter')
       .chosen({
         no_results_text: 'No tags found by that name.',
-        width: '95%',
+        width: '65%',
       })
       .val(tags)
       .trigger('chosen:updated')
@@ -85,12 +101,12 @@ define([
         );
       });
 
-    projectsPanel
+    projectsPanelFilter
       .find('select.names-filter')
       .chosen({
         search_contains: true,
         no_results_text: 'No project found by that name.',
-        width: '95%',
+        width: '65%',
       })
       .val(names)
       .trigger('chosen:updated')
@@ -102,11 +118,11 @@ define([
         );
       });
 
-    projectsPanel
+    projectsPanelFilter
       .find('select.labels-filter')
       .chosen({
         no_results_text: 'No project found by that label.',
-        width: '95%',
+        width: '65%',
       })
       .val(labels)
       .trigger('chosen:updated')
@@ -118,7 +134,7 @@ define([
         );
       });
 
-    projectsPanel
+    projectsPanelFilter
       .find('ul.popular-tags')
       .children()
       .each((i, elem) => {
@@ -167,7 +183,7 @@ define([
   };
 
   /**
-   * This function help getting all params in url queryString
+   * This function helps getting all the params in url query string
    * Taken from here
    * https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
    *
@@ -274,13 +290,15 @@ define([
       });
     });
 
-    compiledtemplateFn = _.template($('#projects-panel-template').html());
-    projectsPanel = $('#projects-panel');
+    compiledtemplateFnFilter = _.template($('#projects-panel-filter-template').html());
+    compiledtemplateFnGeneral = _.template($('#projects-panel-general-template').html());
+    projectsPanelGeneral = $('#projects-panel-general');
+    projectsPanelFilter = $('#projects-panel-filter');
 
-    projectsPanel.on('click', 'a.remove-tag', function (e) {
+    projectsPanelFilter.on('click', 'a.remove-tag', function (e) {
       e.preventDefault();
       const tags = [];
-      projectsPanel
+      projectsPanelFilter
         .find('a.remove-tag')
         .not(this)
         .each(function () {

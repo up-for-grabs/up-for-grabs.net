@@ -16,5 +16,5 @@ upforgrabs:
   name: status/help-wanted
   link: https://github.com/proot-me/proot/issues?q=is%3Aopen+is%3Aissue+label%3Astatus%2Fhelp-wanted
 stats:
-  issue-count: 45
-  last-updated: '2021-10-27T20:12:49Z'
+  issue-count: 42
+  last-updated: '2022-01-08T00:40:36Z'

@@ -1,0 +1,10 @@
+name: Firecracker
+desc: CLI that maps business logic, anomaly decider, attacker and visualizer
+site: https://github.com/blst-security/firecracker
+tags:
+  - API-securrity
+  - Rust
+  - CLI
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/username/project/labels/up%20for%20grabs

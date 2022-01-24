@@ -10,7 +10,6 @@ tags:
 - rust
 upforgrabs:
   name: good first issue
-  link: https://github.com/dotenv-linter/dotenv-linter/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2022-01-09T18:50:43Z'
+  issue-count: 

@@ -9,7 +9,6 @@ tags:
 - wpf
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/dotnet/docs-desktop/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-02-04T17:03:58Z'
+  issue-count: 

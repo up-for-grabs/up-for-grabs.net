@@ -11,7 +11,6 @@ tags:
 - ".net"
 upforgrabs:
   name: help wanted
-  link: https://github.com/mbraceproject/MBrace.AWS/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2017-06-08T16:55:26Z'
+  issue-count: 

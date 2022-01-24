@@ -10,7 +10,6 @@ tags:
 - packaging
 upforgrabs:
   name: help wanted
-  link: https://github.com/Homebrew/brew/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 13
-  last-updated: '2022-01-18T11:50:26Z'
+  issue-count: 

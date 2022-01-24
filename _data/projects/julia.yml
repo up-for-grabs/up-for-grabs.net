@@ -8,7 +8,6 @@ tags:
 - language
 upforgrabs:
   name: good first issue
-  link: https://github.com/JuliaLang/julia/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 75
-  last-updated: '2022-01-17T09:56:41Z'
+  issue-count: 

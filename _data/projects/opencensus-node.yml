@@ -25,7 +25,6 @@ tags:
 - application-insights
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/census-instrumentation/opencensus-node/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 6
-  last-updated: '2019-05-10T21:55:14Z'
+  issue-count: 

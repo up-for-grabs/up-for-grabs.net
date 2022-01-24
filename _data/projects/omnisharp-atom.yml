@@ -13,7 +13,6 @@ tags:
 - c#
 upforgrabs:
   name: help wanted
-  link: https://github.com/OmniSharp/omnisharp-atom/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 8
-  last-updated: '2018-08-12T07:11:39Z'
+  issue-count: 

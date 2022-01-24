@@ -13,7 +13,6 @@ tags:
 - sql
 upforgrabs:
   name: up for grabs
-  link: https://github.com/npgsql/npgsql/labels/up%20for%20grabs
+  link: 
 stats:
-  issue-count: 12
-  last-updated: '2021-10-26T14:30:08Z'
+  issue-count: 

@@ -13,7 +13,6 @@ tags:
 - manage-topics
 upforgrabs:
   name: Good first issue
-  link: https://github.com/consul/consul/labels/Good%20first%20issue
+  link: 
 stats:
-  issue-count: 22
-  last-updated: '2021-10-31T11:08:03Z'
+  issue-count: 

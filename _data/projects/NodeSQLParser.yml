@@ -12,7 +12,6 @@ tags:
 - mysql
 upforgrabs:
   name: enhancement
-  link: https://github.com/taozhi8833998/node-sql-parser/labels/enhancement
+  link: 
 stats:
-  issue-count: 7
-  last-updated: '2022-01-18T12:47:25Z'
+  issue-count: 

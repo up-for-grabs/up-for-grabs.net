@@ -10,7 +10,6 @@ tags:
 - framework
 upforgrabs:
   name: good first issue
-  link: https://github.com/jina-ai/jina/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 13
-  last-updated: '2022-01-14T17:55:04Z'
+  issue-count: 

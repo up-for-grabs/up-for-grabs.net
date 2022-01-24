@@ -11,7 +11,6 @@ tags:
 - interpreter
 upforgrabs:
   name: up for grabs
-  link: https://github.com/smeup/jariko/labels/up%20for%20grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2020-01-02T17:47:50Z'
+  issue-count: 

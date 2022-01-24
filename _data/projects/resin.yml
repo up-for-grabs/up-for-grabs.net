@@ -9,7 +9,6 @@ tags:
 - database
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/kreeben/resin/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2017-05-26T13:50:44Z'
+  issue-count: 

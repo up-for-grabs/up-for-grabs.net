@@ -12,7 +12,6 @@ tags:
 - testing
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/concordion/concordion-logging-tooltip-extension/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2017-01-26T09:28:06Z'
+  issue-count: 

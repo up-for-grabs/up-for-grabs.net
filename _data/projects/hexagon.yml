@@ -14,7 +14,6 @@ tags:
 - rest
 upforgrabs:
   name: help wanted
-  link: https://github.com/hexagonkt/hexagon/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 4
-  last-updated: '2021-11-01T15:51:07Z'
+  issue-count: 

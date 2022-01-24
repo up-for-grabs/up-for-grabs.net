@@ -11,7 +11,6 @@ tags:
 - application-insights
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/microsoft/ApplicationInsights-dotnet/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-09-21T00:03:26Z'
+  issue-count: 

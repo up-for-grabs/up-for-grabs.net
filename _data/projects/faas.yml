@@ -9,6 +9,6 @@ tags:
 - function-as-a-service
 upforgrabs:
   name: hacktoberfest
-  link: https://github.com/openfaas/faas/labels/hacktoberfest
+  link: 
 stats:
-  issue-count: 0
+  issue-count: 

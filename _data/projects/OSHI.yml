@@ -15,7 +15,6 @@ tags:
 - process-list
 upforgrabs:
   name: up for grabs
-  link: https://github.com/oshi/oshi/labels/up%20for%20grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2021-04-24T14:54:23Z'
+  issue-count: 

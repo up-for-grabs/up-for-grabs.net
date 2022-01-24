@@ -13,7 +13,6 @@ tags:
 - oss
 upforgrabs:
   name: easy-pick
-  link: https://github.com/SolidInvoice/SolidInvoice/labels/easy-pick
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2019-10-01T21:04:14Z'
+  issue-count: 

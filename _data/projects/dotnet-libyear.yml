@@ -10,7 +10,6 @@ tags:
 - nuget
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/SteveDesmond-ca/dotnet-libyear/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2021-02-16T14:19:08Z'
+  issue-count: 

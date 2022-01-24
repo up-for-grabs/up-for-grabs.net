@@ -9,7 +9,6 @@ tags:
 - linq
 upforgrabs:
   name: good first issue
-  link: https://github.com/nhibernate/nhibernate-core/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2020-09-01T09:40:05Z'
+  issue-count: 

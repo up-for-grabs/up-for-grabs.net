@@ -8,7 +8,6 @@ tags:
 - privacy
 upforgrabs:
   name: need-code
-  link: https://github.com/gngrOrg/gngr/labels/need-code
+  link: 
 stats:
-  issue-count: 10
-  last-updated: '2021-05-11T05:09:43Z'
+  issue-count: 

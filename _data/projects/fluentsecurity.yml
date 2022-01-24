@@ -8,7 +8,6 @@ tags:
 - fluent
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/kristofferahl/FluentSecurity/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 4
-  last-updated: '2014-04-22T07:29:56Z'
+  issue-count: 

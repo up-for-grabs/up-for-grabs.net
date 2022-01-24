@@ -11,7 +11,6 @@ tags:
 - rest-api
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/nitishm/vegeta-server/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2020-06-29T19:53:13Z'
+  issue-count: 

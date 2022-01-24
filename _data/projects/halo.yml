@@ -11,7 +11,6 @@ tags:
 - async
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/manrajgrover/halo/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 6
-  last-updated: '2020-11-12T20:18:40Z'
+  issue-count: 

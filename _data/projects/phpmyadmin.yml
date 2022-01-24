@@ -9,7 +9,6 @@ tags:
 - web
 upforgrabs:
   name: newbie
-  link: https://github.com/phpmyadmin/phpmyadmin/labels/newbie
+  link: 
 stats:
-  issue-count: 13
-  last-updated: '2022-01-10T19:21:15Z'
+  issue-count: 

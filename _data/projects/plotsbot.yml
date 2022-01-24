@@ -13,7 +13,6 @@ tags:
 - publiclab
 upforgrabs:
   name: help wanted
-  link: https://github.com/publiclab/plotsbot/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 10
-  last-updated: '2019-10-15T02:24:21Z'
+  issue-count: 

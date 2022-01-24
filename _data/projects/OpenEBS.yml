@@ -14,7 +14,6 @@ tags:
 - csi
 upforgrabs:
   name: good first issue
-  link: https://github.com/openebs/openebs/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2022-01-10T05:02:46Z'
+  issue-count: 

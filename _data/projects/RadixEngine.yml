@@ -12,7 +12,6 @@ tags:
 - 2d
 upforgrabs:
   name: simple task
-  link: https://github.com/GlPortal/RadixEngine/labels/simple%20task
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2019-03-06T20:18:47Z'
+  issue-count: 

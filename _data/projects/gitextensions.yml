@@ -11,7 +11,6 @@ tags:
 - gitextensions
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/gitextensions/gitextensions/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 147
-  last-updated: '2022-01-17T22:35:38Z'
+  issue-count: 

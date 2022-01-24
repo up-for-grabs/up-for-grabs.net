@@ -11,7 +11,6 @@ tags:
 - yeoman
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/jhipster/jhipster-dotnetcore/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 7
-  last-updated: '2021-08-11T16:24:01Z'
+  issue-count: 

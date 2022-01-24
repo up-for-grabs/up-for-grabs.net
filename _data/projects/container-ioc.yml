@@ -12,7 +12,6 @@ tags:
 - inversion-of-control
 upforgrabs:
   name: help wanted
-  link: https://github.com/typesoft/container-ioc/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 9
-  last-updated: '2018-12-06T12:52:53Z'
+  issue-count: 

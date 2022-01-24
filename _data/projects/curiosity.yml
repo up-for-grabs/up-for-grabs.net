@@ -11,7 +11,6 @@ tags:
 - frontend
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/mubaris/curiosity/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 7
-  last-updated: '2020-10-01T15:14:02Z'
+  issue-count: 

@@ -14,5 +14,4 @@ upforgrabs:
   link: >-
     https://github.com/Project-Books/books-api/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+-label%3Ablocked+no%3Aassignee
 stats:
-  issue-count: 3
-  last-updated: '2021-10-21T07:16:50Z'
+  issue-count: 

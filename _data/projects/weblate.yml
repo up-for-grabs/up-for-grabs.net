@@ -14,7 +14,6 @@ tags:
 - vcs
 upforgrabs:
   name: good first issue
-  link: https://github.com/WeblateOrg/weblate/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 39
-  last-updated: '2022-01-10T09:14:57Z'
+  issue-count: 

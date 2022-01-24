@@ -13,7 +13,6 @@ tags:
 - twig
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/userfrosting/UserFrosting/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 36
-  last-updated: '2021-12-22T21:16:24Z'
+  issue-count: 

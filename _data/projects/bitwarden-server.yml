@@ -15,7 +15,6 @@ tags:
 - bitwarden
 upforgrabs:
   name: help wanted
-  link: https://github.com/bitwarden/server/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2021-12-14T12:23:09Z'
+  issue-count: 

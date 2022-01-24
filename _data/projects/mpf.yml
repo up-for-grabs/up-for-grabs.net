@@ -12,7 +12,6 @@ tags:
 - hardware
 upforgrabs:
   name: help wanted
-  link: https://github.com/missionpinball/mpf/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 38
-  last-updated: '2021-11-28T23:52:51Z'
+  issue-count: 

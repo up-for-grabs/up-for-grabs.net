@@ -10,7 +10,6 @@ tags:
 - monad
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/MonacsLib/Monacs/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2018-06-18T08:03:50Z'
+  issue-count: 

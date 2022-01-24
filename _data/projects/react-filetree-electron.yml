@@ -9,7 +9,6 @@ tags:
 - filesystem
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/mperitz/react-filetree-electron/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2017-06-19T23:08:51Z'
+  issue-count: 

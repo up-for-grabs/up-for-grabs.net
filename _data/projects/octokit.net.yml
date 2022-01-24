@@ -8,7 +8,6 @@ tags:
 - octokit
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/octokit/octokit.net/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 46
-  last-updated: '2022-01-12T21:35:00Z'
+  issue-count: 

@@ -11,7 +11,6 @@ tags:
 - c#
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/config-r/config-r/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2018-03-25T09:00:14Z'
+  issue-count: 

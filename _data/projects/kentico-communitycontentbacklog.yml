@@ -15,7 +15,6 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/community-content-backlog/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 11
-  last-updated: '2020-04-07T16:10:44Z'
+  issue-count: 

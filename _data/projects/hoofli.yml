@@ -7,7 +7,6 @@ tags:
 - cli
 upforgrabs:
   name: help wanted
-  link: https://github.com/dnnrly/hoofli/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2021-05-15T23:04:55Z'
+  issue-count: 

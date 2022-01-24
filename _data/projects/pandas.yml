@@ -7,7 +7,6 @@ tags:
 - data
 upforgrabs:
   name: good first issue
-  link: https://github.com/pandas-dev/pandas/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 179
-  last-updated: '2022-01-18T06:57:32Z'
+  issue-count: 

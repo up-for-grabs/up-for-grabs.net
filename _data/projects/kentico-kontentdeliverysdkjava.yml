@@ -12,7 +12,6 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/kontent-java-packages/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2020-10-06T12:47:25Z'
+  issue-count: 

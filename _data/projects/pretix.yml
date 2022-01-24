@@ -12,7 +12,6 @@ tags:
 - javascript
 upforgrabs:
   name: easy
-  link: https://github.com/pretix/pretix/labels/easy
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2021-10-15T17:57:25Z'
+  issue-count: 

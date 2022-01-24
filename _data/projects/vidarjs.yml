@@ -10,7 +10,6 @@ tags:
 - automation
 upforgrabs:
   name: help wanted
-  link: https://github.com/clabe45/vidar/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 5
-  last-updated: '2021-08-28T18:21:23Z'
+  issue-count: 

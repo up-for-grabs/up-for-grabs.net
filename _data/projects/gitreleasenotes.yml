@@ -9,7 +9,6 @@ tags:
 - github
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/GitTools/GitReleaseNotes/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 16
-  last-updated: '2015-07-08T18:37:19Z'
+  issue-count: 

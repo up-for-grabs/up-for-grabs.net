@@ -18,7 +18,6 @@ tags:
 - node.js
 upforgrabs:
   name: Help Wanted
-  link: https://github.com/angular-fullstack/generator-angular-fullstack/labels/Help%20Wanted
+  link: 
 stats:
-  issue-count: 45
-  last-updated: '2021-06-17T19:42:20Z'
+  issue-count: 

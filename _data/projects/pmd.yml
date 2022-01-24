@@ -13,7 +13,6 @@ tags:
 - plsql
 upforgrabs:
   name: good first issue
-  link: https://github.com/pmd/pmd/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 5
-  last-updated: '2021-11-13T09:27:05Z'
+  issue-count: 

@@ -10,7 +10,6 @@ tags:
 - write-once-run-anywhere
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/codenameone/CodenameOne/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 9
-  last-updated: '2022-01-15T06:09:42Z'
+  issue-count: 

@@ -15,7 +15,6 @@ tags:
 - v8
 upforgrabs:
   name: good first issue
-  link: https://github.com/electron/electron/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 11
-  last-updated: '2021-06-20T15:17:50Z'
+  issue-count: 

@@ -14,7 +14,6 @@ tags:
 - docker
 upforgrabs:
   name: good first issue
-  link: https://github.com/homedepot/infinite-wish-board/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2022-01-05T17:41:35Z'
+  issue-count: 

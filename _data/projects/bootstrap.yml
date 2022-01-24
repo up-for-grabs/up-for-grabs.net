@@ -17,7 +17,6 @@ tags:
 - framework
 upforgrabs:
   name: help wanted
-  link: https://github.com/twbs/bootstrap/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 61
-  last-updated: '2022-01-11T08:48:21Z'
+  issue-count: 

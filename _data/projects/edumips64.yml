@@ -8,7 +8,6 @@ tags:
 - cpu
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/EduMIPS64/edumips64/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 6
-  last-updated: '2021-07-19T20:51:45Z'
+  issue-count: 

@@ -7,7 +7,6 @@ tags:
 - orm
 upforgrabs:
   name: help-wanted
-  link: https://github.com/go-reform/reform/labels/help-wanted
+  link: 
 stats:
-  issue-count: 20
-  last-updated: '2021-10-18T11:11:08Z'
+  issue-count: 

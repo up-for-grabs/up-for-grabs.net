@@ -12,7 +12,6 @@ tags:
 - analysis
 upforgrabs:
   name: help wanted
-  link: https://github.com/twschiller/open-synthesis/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 35
-  last-updated: '2021-04-07T19:04:45Z'
+  issue-count: 

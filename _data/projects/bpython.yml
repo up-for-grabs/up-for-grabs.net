@@ -6,7 +6,6 @@ tags:
 - python
 upforgrabs:
   name: bitesize
-  link: https://github.com/bpython/bpython/labels/bitesize
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2022-01-13T15:53:49Z'
+  issue-count: 

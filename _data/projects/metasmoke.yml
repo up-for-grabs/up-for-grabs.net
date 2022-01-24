@@ -12,6 +12,6 @@ tags:
 - mysql
 upforgrabs:
   name: 'type: up-for-grabs'
-  link: https://github.com/Charcoal-SE/metasmoke/labels/type%3A%20up-for-grabs
+  link: 
 stats:
-  issue-count: 0
+  issue-count: 

@@ -17,7 +17,6 @@ tags:
 - a-star
 upforgrabs:
   name: Easy
-  link: https://github.com/OpenRA/OpenRA/labels/Easy
+  link: 
 stats:
-  issue-count: 26
-  last-updated: '2020-01-25T10:55:35Z'
+  issue-count: 

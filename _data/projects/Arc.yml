@@ -9,6 +9,6 @@ tags:
 - tar
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/mholt/archiver/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 0
+  issue-count: 

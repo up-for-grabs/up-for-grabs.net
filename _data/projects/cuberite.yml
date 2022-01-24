@@ -14,7 +14,6 @@ tags:
 - raspberry-pi
 upforgrabs:
   name: effort/easy
-  link: https://github.com/cuberite/cuberite/labels/effort%2Feasy
+  link: 
 stats:
-  issue-count: 10
-  last-updated: '2021-11-22T00:38:40Z'
+  issue-count: 

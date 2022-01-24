@@ -8,7 +8,6 @@ tags:
 - service-manager
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/PaulStovell/ServiceBouncer/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2017-11-21T08:39:39Z'
+  issue-count: 

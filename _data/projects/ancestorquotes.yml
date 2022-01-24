@@ -8,7 +8,6 @@ tags:
 - json
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/bruno-chavez/ancestorquotes/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2020-10-03T08:31:01Z'
+  issue-count: 

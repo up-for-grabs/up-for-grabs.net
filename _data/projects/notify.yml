@@ -13,7 +13,6 @@ tags:
 - slack
 upforgrabs:
   name: up for grabs
-  link: https://github.com/nikoksr/notify/labels/up%20for%20grabs
+  link: 
 stats:
-  issue-count: 8
-  last-updated: '2021-12-17T10:59:38Z'
+  issue-count: 

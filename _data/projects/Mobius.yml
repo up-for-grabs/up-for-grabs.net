@@ -19,7 +19,6 @@ tags:
 - bindings
 upforgrabs:
   name: up for grabs
-  link: https://github.com/microsoft/Mobius/labels/up%20for%20grabs
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2017-12-15T19:20:57Z'
+  issue-count: 

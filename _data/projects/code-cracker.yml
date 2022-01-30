@@ -10,7 +10,6 @@ tags:
 - c#
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/code-cracker/code-cracker/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 35
-  last-updated: '2019-10-02T16:31:57Z'
+  issue-count: 

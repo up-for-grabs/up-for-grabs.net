@@ -15,7 +15,6 @@ tags:
 - download-utility
 upforgrabs:
   name: help wanted
-  link: https://github.com/flickr-downloadr/flickr-downloadr-gtk/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2019-06-01T13:17:48Z'
+  issue-count: 

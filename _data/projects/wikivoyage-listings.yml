@@ -15,7 +15,6 @@ tags:
 - command-line
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/baturin/wikivoyage-listings/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 11
-  last-updated: '2020-04-24T22:05:02Z'
+  issue-count: 

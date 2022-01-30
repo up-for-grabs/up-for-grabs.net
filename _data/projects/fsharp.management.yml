@@ -10,7 +10,6 @@ tags:
 - registry
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/fsprojects/FSharp.Management/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 6
-  last-updated: '2021-11-08T14:47:02Z'
+  issue-count: 

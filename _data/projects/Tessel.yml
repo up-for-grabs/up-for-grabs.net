@@ -26,7 +26,6 @@ tags:
 - open-governance
 upforgrabs:
   name: contribution-starter
-  link: https://github.com/tessel/project/labels/contribution-starter
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-01-28T22:04:28Z'
+  issue-count: 

@@ -10,7 +10,6 @@ tags:
 - web
 upforgrabs:
   name: Hacktoberfest
-  link: https://github.com/matomo-org/matomo/labels/Hacktoberfest
+  link: 
 stats:
-  issue-count: 84
-  last-updated: '2019-12-02T17:11:29Z'
+  issue-count: 

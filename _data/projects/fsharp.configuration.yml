@@ -11,7 +11,6 @@ tags:
 - resx
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/fsprojects/FSharp.Configuration/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2015-03-22T07:00:17Z'
+  issue-count: 

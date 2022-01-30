@@ -10,7 +10,6 @@ tags:
 - hawk
 upforgrabs:
   name: help wanted
-  link: https://github.com/logibit/Logibit.Hawk/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2017-05-10T13:59:48Z'
+  issue-count: 

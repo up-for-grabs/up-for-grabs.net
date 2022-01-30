@@ -7,7 +7,6 @@ tags:
 - compression
 upforgrabs:
   name: bite-sized
-  link: https://github.com/quixdb/squash/labels/bite-sized
+  link: 
 stats:
-  issue-count: 13
-  last-updated: '2022-01-03T17:16:23Z'
+  issue-count: 

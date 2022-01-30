@@ -13,7 +13,6 @@ tags:
 - integration-testing
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/jfairbank/redux-saga-test-plan/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 5
-  last-updated: '2020-11-25T21:01:31Z'
+  issue-count: 

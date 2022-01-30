@@ -8,7 +8,6 @@ tags:
 - ci
 upforgrabs:
   name: good first issue
-  link: https://github.com/buildbot/buildbot/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 12
-  last-updated: '2021-09-16T21:55:53Z'
+  issue-count: 

@@ -11,7 +11,6 @@ tags:
 - go
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/AstroOrbis/Hashy/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2021-11-12T23:14:07Z'
+  issue-count: 

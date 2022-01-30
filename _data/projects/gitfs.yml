@@ -10,7 +10,6 @@ tags:
 - filesystem
 upforgrabs:
   name: easy
-  link: https://github.com/presslabs/gitfs/labels/easy
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2017-10-05T04:09:59Z'
+  issue-count: 

@@ -11,7 +11,6 @@ tags:
 - devops
 upforgrabs:
   name: Up-for-Grabs
-  link: https://github.com/NishkarshRaj/Docker-Kubernetes/labels/Up-for-Grabs
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2020-08-27T13:11:41Z'
+  issue-count: 

@@ -14,7 +14,6 @@ tags:
 - ajax
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/JS-Knights/Carto/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2021-11-26T21:38:00Z'
+  issue-count: 

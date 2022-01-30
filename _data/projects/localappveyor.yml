@@ -12,7 +12,6 @@ tags:
 - ".net-core"
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/joaope/LocalAppVeyor/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2019-01-29T07:07:40Z'
+  issue-count: 

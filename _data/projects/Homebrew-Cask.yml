@@ -10,7 +10,6 @@ tags:
 - packaging
 upforgrabs:
   name: ready to implement
-  link: https://github.com/Homebrew/homebrew-cask/labels/ready%20to%20implement
+  link: 
 stats:
-  issue-count: 5
-  last-updated: '2021-10-14T01:17:18Z'
+  issue-count: 

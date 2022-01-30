@@ -12,7 +12,6 @@ tags:
 - 2d
 upforgrabs:
   name: simple task
-  link: https://github.com/GlPortal/glPortal/labels/simple%20task
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-09-08T16:29:55Z'
+  issue-count: 

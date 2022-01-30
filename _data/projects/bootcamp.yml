@@ -9,7 +9,6 @@ tags:
 - python
 upforgrabs:
   name: Hacktoberfest
-  link: https://github.com/SriNandan33/bootcamp/labels/Hacktoberfest
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-09-30T18:58:21Z'
+  issue-count: 

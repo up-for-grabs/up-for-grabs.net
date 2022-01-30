@@ -14,7 +14,6 @@ tags:
 - entity-framework
 upforgrabs:
   name: good first issue
-  link: https://github.com/dotnet/efcore/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 53
-  last-updated: '2022-01-14T19:00:06Z'
+  issue-count: 

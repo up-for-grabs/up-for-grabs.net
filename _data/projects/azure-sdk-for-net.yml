@@ -11,7 +11,6 @@ tags:
 - sdk
 upforgrabs:
   name: help wanted
-  link: https://github.com/Azure/azure-sdk-for-net/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 16
-  last-updated: '2022-01-07T15:32:42Z'
+  issue-count: 

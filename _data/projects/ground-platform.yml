@@ -17,7 +17,6 @@ tags:
 - field-survey
 upforgrabs:
   name: help wanted
-  link: https://github.com/google/ground-platform/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-11-01T14:23:49Z'
+  issue-count: 

@@ -7,7 +7,6 @@ tags:
 - ".net"
 upforgrabs:
   name: help wanted
-  link: https://github.com/giraffe-fsharp/Giraffe/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 5
-  last-updated: '2021-11-11T23:21:34Z'
+  issue-count: 

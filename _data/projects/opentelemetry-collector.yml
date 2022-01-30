@@ -21,7 +21,6 @@ tags:
 - application-insights
 upforgrabs:
   name: help wanted
-  link: https://github.com/open-telemetry/opentelemetry-collector/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 36
-  last-updated: '2022-01-10T13:28:03Z'
+  issue-count: 

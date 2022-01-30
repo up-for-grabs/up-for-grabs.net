@@ -8,7 +8,6 @@ tags:
 - node.js
 upforgrabs:
   name: first-contribution
-  link: https://github.com/ansble/monument-cli/labels/first-contribution
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2020-08-02T18:36:21Z'
+  issue-count: 

@@ -10,7 +10,6 @@ tags:
 - r
 upforgrabs:
   name: help wanted
-  link: https://github.com/nagoya-foundation/r-functions-performance/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2020-10-05T11:28:46Z'
+  issue-count: 

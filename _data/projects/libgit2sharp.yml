@@ -15,7 +15,6 @@ tags:
 - vcs
 upforgrabs:
   name: Up for grabs
-  link: https://github.com/libgit2/libgit2sharp/labels/Up%20for%20grabs
+  link: 
 stats:
-  issue-count: 34
-  last-updated: '2020-07-28T08:11:20Z'
+  issue-count: 

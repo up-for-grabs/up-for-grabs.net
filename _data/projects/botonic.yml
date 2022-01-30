@@ -13,7 +13,6 @@ tags:
 - typescript
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/hubtype/botonic/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-03-29T02:48:00Z'
+  issue-count: 

@@ -9,7 +9,6 @@ tags:
 - shell
 upforgrabs:
   name: help wanted
-  link: https://github.com/scamacho23/liszt/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-05-16T18:27:49Z'
+  issue-count: 

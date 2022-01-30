@@ -9,7 +9,6 @@ tags:
 - language
 upforgrabs:
   name: E-easy
-  link: https://github.com/rust-lang/rust/labels/E-easy
+  link: 
 stats:
-  issue-count: 42
-  last-updated: '2022-01-18T05:38:00Z'
+  issue-count: 

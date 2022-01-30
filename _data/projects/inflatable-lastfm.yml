@@ -12,7 +12,6 @@ tags:
 - inflatable
 upforgrabs:
   name: help wanted
-  link: https://github.com/inflatablefriends/lastfm/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 4
-  last-updated: '2021-02-22T14:53:06Z'
+  issue-count: 

@@ -12,7 +12,6 @@ tags:
 - native
 upforgrabs:
   name: good first issue
-  link: https://github.com/storybookjs/storybook/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 40
-  last-updated: '2022-01-13T07:48:42Z'
+  issue-count: 

@@ -14,7 +14,6 @@ tags:
 - runner
 upforgrabs:
   name: good first issue
-  link: https://github.com/franciscop/react-test/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2020-05-04T15:45:09Z'
+  issue-count: 

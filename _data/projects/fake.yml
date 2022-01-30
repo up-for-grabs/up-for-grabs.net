@@ -10,7 +10,6 @@ tags:
 - f#
 upforgrabs:
   name: help wanted
-  link: https://github.com/fsprojects/FAKE/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 3
-  last-updated: '2019-12-01T00:51:08Z'
+  issue-count: 

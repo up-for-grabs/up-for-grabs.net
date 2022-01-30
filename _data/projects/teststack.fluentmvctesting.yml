@@ -9,7 +9,6 @@ tags:
 - testing
 upforgrabs:
   name: Jump in
-  link: https://github.com/TestStack/TestStack.FluentMVCTesting/labels/Jump%20in
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2017-12-28T18:56:34Z'
+  issue-count: 

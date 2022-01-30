@@ -11,7 +11,6 @@ tags:
 - emscripten
 upforgrabs:
   name: good first bug
-  link: https://github.com/emscripten-core/emscripten/labels/good%20first%20bug
+  link: 
 stats:
-  issue-count: 72
-  last-updated: '2022-01-17T22:51:46Z'
+  issue-count: 

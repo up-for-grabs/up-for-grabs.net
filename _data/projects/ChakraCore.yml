@@ -20,7 +20,6 @@ tags:
 - runtime
 upforgrabs:
   name: help wanted
-  link: https://github.com/chakra-core/ChakraCore/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 47
-  last-updated: '2022-01-14T15:53:39Z'
+  issue-count: 

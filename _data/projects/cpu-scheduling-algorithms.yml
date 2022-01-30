@@ -16,7 +16,6 @@ tags:
 - website
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/vasu-gondaliya/cpu-scheduling-algorithms/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 1
-  last-updated: '2021-04-20T04:16:37Z'
+  issue-count: 

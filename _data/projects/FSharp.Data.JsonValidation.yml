@@ -6,7 +6,6 @@ tags:
 - f#
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/MatrixSolutions/FSharp.Data.JsonValidation/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 7
-  last-updated: '2019-10-07T10:15:05Z'
+  issue-count: 

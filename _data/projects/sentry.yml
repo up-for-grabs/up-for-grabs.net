@@ -10,7 +10,6 @@ tags:
 - performance-monitoring
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/getsentry/sentry-dotnet/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 19
-  last-updated: '2022-01-05T22:59:35Z'
+  issue-count: 

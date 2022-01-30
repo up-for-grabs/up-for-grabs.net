@@ -17,7 +17,6 @@ tags:
 - qt
 upforgrabs:
   name: good first issue
-  link: https://github.com/nextcloud/server/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 84
-  last-updated: '2022-01-04T16:06:57Z'
+  issue-count: 

@@ -25,7 +25,6 @@ tags:
 - xplat
 upforgrabs:
   name: hacktoberfest
-  link: https://github.com/unoplatform/uno/labels/hacktoberfest
+  link: 
 stats:
-  issue-count: 6
-  last-updated: '2022-01-03T13:52:27Z'
+  issue-count: 

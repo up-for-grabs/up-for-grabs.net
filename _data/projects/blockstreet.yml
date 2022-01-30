@@ -12,7 +12,6 @@ tags:
 - blockchain
 upforgrabs:
   name: 'Status: Available'
-  link: https://github.com/blockstreet/interface/labels/Status%3A%20Available
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2018-06-20T20:06:41Z'
+  issue-count: 

@@ -10,7 +10,6 @@ tags:
 - containers
 upforgrabs:
   name: good first issue
-  link: https://github.com/josharsh/LearnDocker/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2020-09-25T03:12:09Z'
+  issue-count: 

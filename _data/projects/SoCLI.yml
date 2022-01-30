@@ -9,7 +9,6 @@ tags:
 - python
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/gautamkrishnar/socli/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-11-02T13:39:56Z'
+  issue-count: 

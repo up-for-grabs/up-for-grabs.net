@@ -7,7 +7,6 @@ tags:
 - ".net"
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/fslaborg/Deedle/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 10
-  last-updated: '2019-11-14T21:25:55Z'
+  issue-count: 

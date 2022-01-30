@@ -14,7 +14,6 @@ tags:
 - stratum
 upforgrabs:
   name: help wanted
-  link: https://github.com/ethereum-mining/ethminer/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2021-08-23T20:37:38Z'
+  issue-count: 

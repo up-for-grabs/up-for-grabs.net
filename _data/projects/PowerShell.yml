@@ -8,7 +8,6 @@ tags:
 - c#
 upforgrabs:
   name: Up-for-Grabs
-  link: https://github.com/PowerShell/PowerShell/labels/Up-for-Grabs
+  link: 
 stats:
-  issue-count: 245
-  last-updated: '2022-01-17T17:55:56Z'
+  issue-count: 

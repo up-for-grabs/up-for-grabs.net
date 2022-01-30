@@ -10,7 +10,6 @@ tags:
 - vuejs
 upforgrabs:
   name: contribution welcome
-  link: https://github.com/vuejs/vue/labels/contribution%20welcome
+  link: 
 stats:
-  issue-count: 11
-  last-updated: '2022-01-06T16:39:35Z'
+  issue-count: 

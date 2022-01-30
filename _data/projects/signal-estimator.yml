@@ -12,7 +12,6 @@ tags:
 - qwt
 upforgrabs:
   name: help wanted
-  link: https://github.com/gavv/signal-estimator/labels/help%20wanted
+  link: 
 stats:
-  issue-count: 14
-  last-updated: '2021-08-23T20:08:08Z'
+  issue-count: 

@@ -10,7 +10,6 @@ tags:
 - python
 upforgrabs:
   name: good first issue
-  link: https://github.com/jupyterlab/jupyterlab/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 40
-  last-updated: '2022-01-11T22:51:01Z'
+  issue-count: 

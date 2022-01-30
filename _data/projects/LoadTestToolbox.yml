@@ -8,7 +8,6 @@ tags:
 - load-testing
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/ecoAPM/LoadTestToolbox/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2016-05-13T17:07:33Z'
+  issue-count: 

@@ -8,7 +8,6 @@ tags:
 - javascript
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/TypeStrong/atom-typescript/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 2
-  last-updated: '2020-10-01T20:00:18Z'
+  issue-count: 

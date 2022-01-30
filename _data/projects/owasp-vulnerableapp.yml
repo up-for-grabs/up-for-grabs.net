@@ -15,7 +15,6 @@ tags:
 - dast
 upforgrabs:
   name: good first issue
-  link: https://github.com/SasanLabs/VulnerableApp/labels/good%20first%20issue
+  link: 
 stats:
-  issue-count: 31
-  last-updated: '2022-01-17T11:07:33Z'
+  issue-count: 

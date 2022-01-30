@@ -9,7 +9,6 @@ tags:
 - dependency-check
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/alvarocavalcanti/pierre-decheck/labels/up-for-grabs
+  link: 
 stats:
-  issue-count: 5
-  last-updated: '2020-10-14T10:52:03Z'
+  issue-count: 

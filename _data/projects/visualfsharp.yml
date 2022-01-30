@@ -8,7 +8,6 @@ tags:
 - ".net"
 upforgrabs:
   name: Up for Grabs
-  link: https://github.com/dotnet/fsharp/labels/Up%20for%20Grabs
+  link: 
 stats:
-  issue-count: 10
-  last-updated: '2021-11-16T20:43:38Z'
+  issue-count: 

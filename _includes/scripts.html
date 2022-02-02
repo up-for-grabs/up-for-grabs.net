@@ -91,6 +91,30 @@
   var rs = getComputedStyle(r) ;
   let root = document.documentElement;
   var condition=true ;
+  window.onload = check_mode();
+  function check_mode()
+  {
+    console.log("@!#241421")
+    let viewModeValue = localStorage.getItem("view-mode");
+    if(viewModeValue === "dark"){
+      root.style.setProperty("--body-back","#111111")
+      root.style.setProperty("--body-color","#eeeded")
+      root.style.setProperty("--abs","rgb(37, 37, 37)")
+      condition=false ;
+      document.getElementById("view-mode").src="/images/sun-light.png" ;
+      document.getElementById("view-mode-a").title="light-mode";
+      localStorage.setItem("view-mode","dark");
+    }
+    else{
+      root.style.setProperty("--body-back","#f9f9f9")
+      root.style.setProperty("--body-color","#303030")
+      root.style.setProperty("--abs","#FFF")
+      condition=true
+      document.getElementById("view-mode").src="/images/Dim-Night.png" ;
+      document.getElementById("view-mode-a").title="dark-mode"
+      localStorage.setItem("view-mode","light");
+    }
+  }
   function view_mode()
   {
     if(condition)
@@ -100,7 +124,8 @@
       root.style.setProperty("--abs","rgb(37, 37, 37)")
       condition=false ;
       document.getElementById("view-mode").src="/images/sun-light.png" ;
-      document.getElementById("view-mode-a").title="light-mode"
+      document.getElementById("view-mode-a").title="light-mode";
+      localStorage.setItem("view-mode","dark");
     }
     else
     {
@@ -110,6 +135,8 @@
       condition=true
       document.getElementById("view-mode").src="/images/Dim-Night.png" ;
       document.getElementById("view-mode-a").title="dark-mode"
+      localStorage.setItem("view-mode","light");
+
     }
   }
 </script>

@@ -9,6 +9,7 @@ tags:
 - facebook-graph-api
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/NSITonline/NSIT-Connect/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2018-08-03T15:23:41Z'

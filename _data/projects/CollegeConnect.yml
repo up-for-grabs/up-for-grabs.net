@@ -18,6 +18,7 @@ tags:
 - jetpack
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/collegeconnect/CollegeConnect/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2021-10-25T12:57:56Z'

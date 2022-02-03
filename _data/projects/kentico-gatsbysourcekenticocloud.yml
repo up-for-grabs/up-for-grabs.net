@@ -15,6 +15,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/Kentico/kontent-gatsby-packages/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 5
+  last-updated: '2021-10-22T12:27:53Z'

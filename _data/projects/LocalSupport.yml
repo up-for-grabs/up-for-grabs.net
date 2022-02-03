@@ -9,6 +9,7 @@ tags:
 - bdd
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/AgileVentures/LocalSupport/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2019-10-15T16:35:49Z'

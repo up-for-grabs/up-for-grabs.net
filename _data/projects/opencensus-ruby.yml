@@ -24,6 +24,7 @@ tags:
 - application-insights
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/census-instrumentation/opencensus-ruby/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2019-03-15T08:01:32Z'

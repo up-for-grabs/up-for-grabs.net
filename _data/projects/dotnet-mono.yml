@@ -8,6 +8,7 @@ tags:
 - f#
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/TheAngryByrd/dotnet-mono/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2018-02-25T23:44:03Z'

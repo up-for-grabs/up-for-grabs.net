@@ -7,6 +7,7 @@ tags:
 - ".net"
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/jack-pappas/ExtCore/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2018-05-13T01:12:48Z'

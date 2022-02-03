@@ -11,6 +11,7 @@ tags:
 - timezone
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/nodatime/nodatime/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2020-10-12T06:29:22Z'

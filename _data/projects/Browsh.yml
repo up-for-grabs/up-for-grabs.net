@@ -15,6 +15,7 @@ tags:
 - command-line
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/browsh-org/browsh/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 21
+  last-updated: '2021-10-15T13:54:08Z'

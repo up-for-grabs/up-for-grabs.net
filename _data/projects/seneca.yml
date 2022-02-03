@@ -9,6 +9,7 @@ tags:
 - microservices
 upforgrabs:
   name: doc
-  link: 
+  link: https://github.com/senecajs/seneca/labels/doc
 stats:
-  issue-count: 
+  issue-count: 14
+  last-updated: '2021-10-18T13:35:24Z'

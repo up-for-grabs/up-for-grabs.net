@@ -10,6 +10,7 @@ tags:
 - python
 upforgrabs:
   name: low-hanging-fruit
-  link: 
+  link: https://github.com/Hrabal/TemPy/labels/low-hanging-fruit
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2021-08-27T08:27:31Z'

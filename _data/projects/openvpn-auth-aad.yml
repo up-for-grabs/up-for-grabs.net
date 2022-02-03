@@ -9,6 +9,7 @@ tags:
 - auth
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/aad-for-linux/openvpn-auth-aad/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2021-11-03T03:46:44Z'

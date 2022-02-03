@@ -11,6 +11,7 @@ tags:
 - jupyter
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/asc-community/AngouriMath/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 9
+  last-updated: '2021-12-03T16:41:14Z'

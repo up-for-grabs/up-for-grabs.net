@@ -15,6 +15,7 @@ tags:
 - nss-db
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/aad-for-linux/libnss-aad/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2021-11-03T03:43:09Z'

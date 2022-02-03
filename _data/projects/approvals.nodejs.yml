@@ -8,6 +8,6 @@ tags:
 - testing
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/approvals/Approvals.NodeJS/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 0

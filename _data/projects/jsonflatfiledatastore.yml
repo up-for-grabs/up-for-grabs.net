@@ -11,6 +11,7 @@ tags:
 - dynamic
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/ttu/json-flatfile-datastore/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2020-11-05T04:43:08Z'

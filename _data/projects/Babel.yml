@@ -9,6 +9,7 @@ tags:
 - compiler
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/babel/babel/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 15
+  last-updated: '2021-09-30T08:30:54Z'

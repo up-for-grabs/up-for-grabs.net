@@ -6,6 +6,7 @@ tags:
 - c++
 upforgrabs:
   name: trivial
-  link: 
+  link: https://github.com/intel/parameter-framework/labels/trivial
 stats:
-  issue-count: 
+  issue-count: 7
+  last-updated: '2019-10-17T17:16:41Z'

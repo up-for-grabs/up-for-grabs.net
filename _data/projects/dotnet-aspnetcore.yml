@@ -8,6 +8,7 @@ tags:
 - ".net"
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/dotnet/aspnetcore/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 137
+  last-updated: '2022-01-17T20:40:55Z'

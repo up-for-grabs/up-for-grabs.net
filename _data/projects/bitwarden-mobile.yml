@@ -16,6 +16,7 @@ tags:
 - bitwarden
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/bitwarden/mobile/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2021-07-11T21:49:17Z'

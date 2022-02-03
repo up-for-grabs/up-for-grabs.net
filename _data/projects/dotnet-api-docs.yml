@@ -7,6 +7,7 @@ tags:
 - documentation
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/dotnet/dotnet-api-docs/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 35
+  last-updated: '2021-12-08T00:19:43Z'

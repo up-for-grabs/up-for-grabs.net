@@ -22,6 +22,6 @@ tags:
 - ios
 upforgrabs:
   name: help-wanted
-  link: 
+  link: https://github.com/deepstreamIO/deepstream.io/labels/help-wanted
 stats:
-  issue-count: 
+  issue-count: 0

@@ -13,6 +13,7 @@ tags:
 - web
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/amcquade/quick-feed/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2020-10-02T12:54:32Z'

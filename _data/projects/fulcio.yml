@@ -10,6 +10,7 @@ tags:
 - transparency-log
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/sigstore/cosign/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2021-10-27T12:55:31Z'

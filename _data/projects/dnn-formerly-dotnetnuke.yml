@@ -13,6 +13,7 @@ tags:
 - spa
 upforgrabs:
   name: help-wanted
-  link: 
+  link: https://github.com/dnnsoftware/Dnn.Platform/labels/help-wanted
 stats:
-  issue-count: 
+  issue-count: 49
+  last-updated: '2020-10-09T23:52:44Z'

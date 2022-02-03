@@ -11,6 +11,7 @@ tags:
 - javascript
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/electricitymap/electricitymap-contrib/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 43
+  last-updated: '2022-01-18T07:00:42Z'

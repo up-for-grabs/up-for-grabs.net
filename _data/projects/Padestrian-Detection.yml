@@ -7,6 +7,7 @@ tags:
 - opencv
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/Griffintaur/Padestrian-Detection/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2020-12-06T07:46:59Z'

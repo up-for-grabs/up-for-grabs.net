@@ -8,6 +8,7 @@ tags:
 - gametheory
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/Axelrod-Python/Axelrod/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-01-04T00:49:28Z'

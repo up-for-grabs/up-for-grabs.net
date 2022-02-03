@@ -12,6 +12,7 @@ tags:
 - unit-testing
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/Construktion/Construktion/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2020-08-17T22:51:59Z'

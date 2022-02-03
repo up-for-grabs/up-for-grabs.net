@@ -11,6 +11,7 @@ tags:
 - minecraft-server
 upforgrabs:
   name: Good First Issue
-  link: 
+  link: https://github.com/py-mine/PyMine/labels/Good%20First%20Issue
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2021-09-29T23:42:37Z'

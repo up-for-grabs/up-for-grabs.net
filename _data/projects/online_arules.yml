@@ -11,6 +11,7 @@ tags:
 - apriori
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/bacloud22/online_arules/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2021-01-10T09:28:23Z'

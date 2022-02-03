@@ -11,6 +11,7 @@ tags:
 - design
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/conversejs/converse.js/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 7
+  last-updated: '2021-12-18T16:56:34Z'

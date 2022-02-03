@@ -9,6 +9,7 @@ tags:
 - game
 upforgrabs:
   name: easy
-  link: 
+  link: https://github.com/fossasia/flappy-svg/labels/easy
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-12-08T23:24:26Z'

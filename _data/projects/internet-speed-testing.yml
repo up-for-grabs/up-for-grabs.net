@@ -13,6 +13,7 @@ tags:
 - hacktoberfest
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/oatrice/internet-speed-testing/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 5
+  last-updated: '2021-10-05T15:07:58Z'

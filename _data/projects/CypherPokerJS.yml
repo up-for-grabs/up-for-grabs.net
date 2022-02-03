@@ -25,6 +25,7 @@ tags:
 - contract
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/monicanagent/cypherpoker.js/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2019-08-23T18:59:00Z'

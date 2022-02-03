@@ -8,6 +8,7 @@ tags:
 - voip
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/mumble-voip/mumble/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 30
+  last-updated: '2022-01-16T10:23:46Z'

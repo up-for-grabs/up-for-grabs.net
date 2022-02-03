@@ -10,6 +10,7 @@ tags:
 - database
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/sequelize/sequelize/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 17
+  last-updated: '2021-12-28T22:28:37Z'

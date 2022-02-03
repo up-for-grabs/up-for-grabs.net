@@ -10,6 +10,6 @@ tags:
 - ef-core
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/dotnet-architecture/eShopOnWeb/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 0

@@ -8,6 +8,7 @@ tags:
 - ".net"
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/haf/expecto/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 14
+  last-updated: '2020-05-17T16:46:07Z'

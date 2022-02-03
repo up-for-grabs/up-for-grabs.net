@@ -7,6 +7,7 @@ tags:
 - ".net"
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/ionide/ionide-vscode-fake/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2017-07-12T17:49:17Z'

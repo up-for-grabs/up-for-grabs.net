@@ -9,6 +9,7 @@ tags:
 - c#
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/mmbot/mmbot/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 8
+  last-updated: '2014-08-28T21:08:37Z'

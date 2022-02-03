@@ -7,6 +7,7 @@ tags:
 - dnx
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/giggio/FluentMigrator.Runner.Cli/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 8
+  last-updated: '2015-07-10T12:57:36Z'

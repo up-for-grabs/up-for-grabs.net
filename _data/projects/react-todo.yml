@@ -1,12 +1,9 @@
----
 name: react-todo
 desc: A react todo component created using matirail ui
 site: https://upnotes-io.github.io/react-todo/
 tags:
-- javascript
-- reactjs
+  - javascript
+  - reactjs
 upforgrabs:
   name: up for grabs
-  link: 
-stats:
-  issue-count: 
+  link: https://github.com/upnotes-io/react-todo/labels/up%20for%20grabs

@@ -9,6 +9,7 @@ tags:
 - compiler
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/ethereum/solidity/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 9
+  last-updated: '2021-10-06T20:54:53Z'

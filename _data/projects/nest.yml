@@ -8,6 +8,6 @@ tags:
 - rest
 upforgrabs:
   name: Up For Grabs
-  link: 
+  link: https://github.com/elastic/elasticsearch-net/labels/Up%20For%20Grabs
 stats:
-  issue-count: 
+  issue-count: 0

@@ -11,6 +11,6 @@ tags:
 - transparency-log
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/sigstore/rekor/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 0

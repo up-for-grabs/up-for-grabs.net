@@ -12,6 +12,7 @@ tags:
 - ci
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/kimeraapp/pythonjobs.ie/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2020-10-11T14:59:57Z'

@@ -12,6 +12,7 @@ tags:
 - sdk
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/Azure/azure-sdk-for-js/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 53
+  last-updated: '2022-01-17T14:05:18Z'

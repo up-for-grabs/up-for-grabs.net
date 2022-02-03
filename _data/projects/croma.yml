@@ -10,6 +10,7 @@ tags:
 - css
 upforgrabs:
   name: up for grabs
-  link: 
+  link: https://github.com/croma-app/croma-react/labels/up%20for%20grabs
 stats:
-  issue-count: 
+  issue-count: 13
+  last-updated: '2021-11-20T02:50:13Z'

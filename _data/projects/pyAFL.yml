@@ -8,6 +8,7 @@ tags:
 - sports-analytics
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/RamParameswaran/pyAFL/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2021-10-16T00:30:25Z'

@@ -8,6 +8,7 @@ tags:
 - asyncio
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/horazont/aioxmpp/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 9
+  last-updated: '2020-04-11T12:44:07Z'

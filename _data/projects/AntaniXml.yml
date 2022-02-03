@@ -8,6 +8,7 @@ tags:
 - xml
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/giacomociti/AntaniXml/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2015-08-20T21:26:00Z'

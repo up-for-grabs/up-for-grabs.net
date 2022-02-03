@@ -15,6 +15,7 @@ tags:
 - c++
 upforgrabs:
   name: easy task
-  link: 
+  link: https://github.com/ClickHouse/ClickHouse/labels/easy%20task
 stats:
-  issue-count: 
+  issue-count: 44
+  last-updated: '2022-01-17T23:18:33Z'

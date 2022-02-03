@@ -13,6 +13,7 @@ tags:
 - environment
 upforgrabs:
   name: hacktoberfest
-  link: 
+  link: https://github.com/openfoodfacts/openfoodfacts-androidapp/labels/hacktoberfest
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2021-09-29T08:59:28Z'

@@ -8,6 +8,6 @@ tags:
 - ci
 upforgrabs:
   name: E-easy
-  link: 
+  link: https://github.com/bors-ng/bors-ng/labels/E-easy
 stats:
-  issue-count: 
+  issue-count: 0

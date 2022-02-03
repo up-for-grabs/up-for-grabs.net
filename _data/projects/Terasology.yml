@@ -12,6 +12,7 @@ tags:
 - engine
 upforgrabs:
   name: Good First Issue
-  link: 
+  link: https://github.com/MovingBlocks/Terasology/labels/Good%20First%20Issue
 stats:
-  issue-count: 
+  issue-count: 45
+  last-updated: '2022-01-12T22:19:30Z'

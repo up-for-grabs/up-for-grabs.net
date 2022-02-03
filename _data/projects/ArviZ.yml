@@ -12,6 +12,7 @@ tags:
 - visualization
 upforgrabs:
   name: Beginner
-  link: 
+  link: https://github.com/arviz-devs/arviz/labels/Beginner
 stats:
-  issue-count: 
+  issue-count: 7
+  last-updated: '2022-01-12T07:35:38Z'

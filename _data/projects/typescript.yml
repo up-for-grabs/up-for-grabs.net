@@ -12,6 +12,7 @@ tags:
 - language
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/microsoft/TypeScript/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 619
+  last-updated: '2021-08-30T14:01:38Z'

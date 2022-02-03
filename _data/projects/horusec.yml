@@ -14,11 +14,5 @@ tags:
   - CI/CD
 upforgrabs:
   name: good first issue
-<<<<<<< HEAD
   link: https://github.com/ZupIT/horusec/labels/good%20first%20issue
 
-=======
-  link: https://github.com/ZupIT/horusec/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
-stats:
-  issue-count: 
->>>>>>> Update horusec.yml

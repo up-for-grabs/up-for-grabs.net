@@ -13,6 +13,7 @@ tags:
 - f#
 upforgrabs:
   name: jump in
-  link: 
+  link: https://github.com/ploeh/ZeroToNine/labels/jump%20in
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2015-11-13T07:05:53Z'

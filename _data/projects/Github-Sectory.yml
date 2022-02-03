@@ -11,6 +11,7 @@ tags:
 - demo
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/amarlearning/github-sectory/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2020-10-06T08:27:23Z'

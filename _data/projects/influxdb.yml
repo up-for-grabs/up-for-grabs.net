@@ -7,6 +7,7 @@ tags:
 - database
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/influxdata/influxdb/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-11-19T16:36:48Z'

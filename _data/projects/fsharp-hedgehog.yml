@@ -8,6 +8,7 @@ tags:
 - testing
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/hedgehogqa/fsharp-hedgehog/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2021-09-21T16:49:20Z'

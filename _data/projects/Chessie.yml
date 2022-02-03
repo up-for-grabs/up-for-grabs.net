@@ -8,6 +8,7 @@ tags:
 - rop
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/fsprojects/Chessie/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2015-06-30T18:58:16Z'

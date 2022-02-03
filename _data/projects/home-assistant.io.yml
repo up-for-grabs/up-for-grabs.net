@@ -11,6 +11,7 @@ tags:
 - haos
 upforgrabs:
   name: help-wanted
-  link: 
+  link: https://github.com/home-assistant/home-assistant.io/labels/help-wanted
 stats:
-  issue-count: 
+  issue-count: 7
+  last-updated: '2021-12-02T20:39:59Z'

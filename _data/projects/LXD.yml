@@ -8,6 +8,7 @@ tags:
 - go
 upforgrabs:
   name: Easy
-  link: 
+  link: https://github.com/lxc/lxd/labels/Easy
 stats:
-  issue-count: 
+  issue-count: 13
+  last-updated: '2022-01-17T20:04:29Z'

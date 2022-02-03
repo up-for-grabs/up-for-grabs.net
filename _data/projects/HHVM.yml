@@ -11,6 +11,7 @@ tags:
 - language
 upforgrabs:
   name: probably easy
-  link: 
+  link: https://github.com/facebook/hhvm/labels/probably%20easy
 stats:
-  issue-count: 
+  issue-count: 69
+  last-updated: '2020-08-13T12:08:15Z'

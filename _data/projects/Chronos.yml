@@ -9,6 +9,7 @@ tags:
 - time-tracking
 upforgrabs:
   name: 'help wanted :octocat:'
-  link: 
+  link: https://github.com/web-pal/chronos-timetracker/labels/help%20wanted%20%3Aoctocat%3A
 stats:
-  issue-count: 
+  issue-count: 9
+  last-updated: '2020-05-05T15:02:55Z'

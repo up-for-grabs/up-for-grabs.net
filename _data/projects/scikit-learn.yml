@@ -16,6 +16,7 @@ tags:
 - python
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/scikit-learn/scikit-learn/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 12
+  last-updated: '2022-01-17T21:24:30Z'

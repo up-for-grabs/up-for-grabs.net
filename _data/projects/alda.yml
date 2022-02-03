@@ -10,6 +10,7 @@ tags:
 - zeromq
 upforgrabs:
   name: low-hanging fruit
-  link: 
+  link: https://github.com/alda-lang/alda/labels/low-hanging%20fruit
 stats:
-  issue-count: 
+  issue-count: 13
+  last-updated: '2022-01-03T21:57:41Z'

@@ -8,6 +8,7 @@ tags:
 - sql
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/fsprojects/Rezoom.SQL/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2021-05-20T16:42:55Z'

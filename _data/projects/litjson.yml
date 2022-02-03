@@ -8,6 +8,7 @@ tags:
 - json
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/LitJSON/litjson/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2020-03-15T13:50:12Z'

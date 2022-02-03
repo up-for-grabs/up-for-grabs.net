@@ -12,6 +12,7 @@ tags:
 - slave
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/NModbus4/NModbus4/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 9
+  last-updated: '2017-03-10T07:51:17Z'

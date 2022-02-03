@@ -9,6 +9,7 @@ tags:
 - testing
 upforgrabs:
   name: Help wanted
-  link: 
+  link: https://github.com/sinonjs/sinon/labels/Help%20wanted
 stats:
-  issue-count: 
+  issue-count: 19
+  last-updated: '2022-01-04T20:49:06Z'

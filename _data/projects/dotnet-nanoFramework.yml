@@ -11,6 +11,7 @@ tags:
 - electronics
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/nanoframework/Home/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 20
+  last-updated: '2022-01-07T00:29:47Z'

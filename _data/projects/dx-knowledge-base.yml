@@ -8,6 +8,7 @@ tags:
 - knowledgebase
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/DXHeroes/knowledge-base-content/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 61
+  last-updated: '2021-11-17T09:56:44Z'

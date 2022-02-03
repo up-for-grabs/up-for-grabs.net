@@ -8,6 +8,7 @@ tags:
 - ".net"
 upforgrabs:
   name: Up For Grabs
-  link: 
+  link: https://github.com/chocolatey/choco/labels/Up%20For%20Grabs
 stats:
-  issue-count: 
+  issue-count: 124
+  last-updated: '2022-01-17T22:23:23Z'

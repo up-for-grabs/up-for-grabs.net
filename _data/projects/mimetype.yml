@@ -9,6 +9,7 @@ tags:
 - file-signature
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/gabriel-vasile/mimetype/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2021-12-10T14:19:42Z'

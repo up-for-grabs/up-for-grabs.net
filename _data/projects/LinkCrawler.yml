@@ -7,6 +7,7 @@ tags:
 - ".net"
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/hmol/LinkCrawler/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2021-10-17T06:43:13Z'

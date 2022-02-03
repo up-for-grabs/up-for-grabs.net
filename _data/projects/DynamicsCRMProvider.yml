@@ -8,6 +8,7 @@ tags:
 - type-provider
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/fsprojects/DynamicsCRMProvider/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2014-01-26T12:08:14Z'

@@ -10,6 +10,7 @@ tags:
 - npm
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/pnpm/pnpm/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 16
+  last-updated: '2021-12-11T20:22:39Z'

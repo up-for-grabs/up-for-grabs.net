@@ -12,6 +12,7 @@ tags:
 - testing
 upforgrabs:
   name: up for grabs
-  link: 
+  link: https://github.com/nokia/ntt/labels/up%20for%20grabs
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-12-29T10:45:05Z'

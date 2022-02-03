@@ -18,6 +18,7 @@ tags:
 - python
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/DanAmador/PuppetMotion/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-10-11T14:27:34Z'

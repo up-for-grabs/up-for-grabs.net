@@ -24,6 +24,7 @@ tags:
 - application-insights
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/census-instrumentation/opencensus-java/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2020-05-30T10:35:54Z'

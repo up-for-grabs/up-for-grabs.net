@@ -9,6 +9,7 @@ tags:
 - good-first-issue
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/ows-ali/Hacktoberfest/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-10-30T17:08:44Z'

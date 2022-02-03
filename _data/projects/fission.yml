@@ -11,6 +11,7 @@ tags:
 - go
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/fission/fission/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 12
+  last-updated: '2022-01-18T06:42:48Z'

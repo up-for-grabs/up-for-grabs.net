@@ -12,6 +12,6 @@ tags:
 - asp.net-core
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/IdentityServer/IdentityServer4/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 0

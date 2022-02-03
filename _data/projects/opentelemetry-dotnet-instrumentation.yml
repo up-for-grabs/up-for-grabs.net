@@ -24,6 +24,7 @@ tags:
 - auto-instrumentation
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2021-10-18T16:13:10Z'

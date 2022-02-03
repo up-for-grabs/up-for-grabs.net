@@ -16,6 +16,7 @@ tags:
 - documentation
 upforgrabs:
   name: good-first-issue
-  link: 
+  link: https://github.com/ushahidi/platform/labels/good-first-issue
 stats:
-  issue-count: 
+  issue-count: 7
+  last-updated: '2021-11-22T07:20:25Z'

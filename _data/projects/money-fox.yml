@@ -8,6 +8,7 @@ tags:
 - uwp
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/MoneyFox/MoneyFox/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 13
+  last-updated: '2022-01-16T17:01:02Z'

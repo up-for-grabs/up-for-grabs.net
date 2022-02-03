@@ -10,6 +10,7 @@ tags:
 - iot
 upforgrabs:
   name: documentation
-  link: 
+  link: https://github.com/bellabeen/simon_quality/labels/documentation
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2022-01-04T08:25:06Z'

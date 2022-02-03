@@ -10,6 +10,7 @@ tags:
 - bindings
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/adrg/libvlc-go/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2021-10-22T02:28:12Z'

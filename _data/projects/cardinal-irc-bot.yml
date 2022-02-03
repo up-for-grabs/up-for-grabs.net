@@ -9,6 +9,7 @@ tags:
 - irc-bot
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/JohnMaguire/Cardinal/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2019-09-25T16:25:31Z'

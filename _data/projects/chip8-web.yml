@@ -9,6 +9,6 @@ tags:
 - webpack
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/Taiters/chip8/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 0

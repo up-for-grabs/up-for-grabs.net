@@ -1,0 +1,22 @@
+name: Horusec
+desc: Horusec is an open source tool that improves identification of vulnerabilities in your project with just one command.
+site: https://horusec.io
+tags:
+  - java
+  - javascript
+  - security
+  - php
+  - kotlin
+  - typescript
+  - go
+  - pipeline
+  - SAST
+  - CI/CD
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ZupIT/horusec/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+ upforgrabs:
+  name: good first issue
+  link: 
+stats:
+  issue-count: 

@@ -9,6 +9,7 @@ tags:
 - simple
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/mubaris/yes/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-04-12T17:52:31Z'

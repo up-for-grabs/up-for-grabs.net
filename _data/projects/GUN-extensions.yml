@@ -12,6 +12,7 @@ tags:
 - modules
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/gundb/feature-requests/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 10
+  last-updated: '2019-03-27T00:50:55Z'

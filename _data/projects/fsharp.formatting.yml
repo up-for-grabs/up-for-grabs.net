@@ -12,6 +12,7 @@ tags:
 - markdown
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/fsprojects/FSharp.Formatting/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 7
+  last-updated: '2021-11-10T18:29:01Z'

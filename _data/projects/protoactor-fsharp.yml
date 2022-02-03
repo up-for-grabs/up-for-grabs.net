@@ -7,6 +7,7 @@ tags:
 - ".net"
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/mastoj/protoactor-fsharp/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2017-12-05T11:57:50Z'

@@ -10,6 +10,6 @@ tags:
 - isomorphic-javascript
 upforgrabs:
   name: 'hotlist: community-help'
-  link: 
+  link: https://github.com/angular/universal/labels/hotlist%3A%20community-help
 stats:
-  issue-count: 
+  issue-count: 0

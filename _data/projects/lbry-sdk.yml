@@ -8,6 +8,7 @@ tags:
 - blockchain
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/lbryio/lbry-sdk/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 5
+  last-updated: '2021-10-27T19:29:58Z'

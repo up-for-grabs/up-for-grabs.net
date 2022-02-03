@@ -8,6 +8,7 @@ tags:
 - ci
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/gavv/pull-request-artifacts/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2021-10-09T09:24:48Z'

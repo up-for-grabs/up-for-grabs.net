@@ -8,6 +8,7 @@ tags:
 - payment-gateways
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/continuous-software/42-cent/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 7
+  last-updated: '2020-06-20T12:06:08Z'

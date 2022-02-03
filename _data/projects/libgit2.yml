@@ -13,6 +13,7 @@ tags:
 - vcs
 upforgrabs:
   name: up for grabs
-  link: 
+  link: https://github.com/libgit2/libgit2/labels/up%20for%20grabs
 stats:
-  issue-count: 
+  issue-count: 25
+  last-updated: '2022-01-07T11:46:30Z'

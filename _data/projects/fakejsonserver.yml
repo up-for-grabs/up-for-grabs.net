@@ -15,6 +15,7 @@ tags:
 - web
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/ttu/dotnet-fake-json-server/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2019-11-10T21:30:23Z'

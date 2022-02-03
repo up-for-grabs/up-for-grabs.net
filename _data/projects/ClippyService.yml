@@ -9,6 +9,7 @@ tags:
 - web
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/gnunicorn/clippy-service/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 10
+  last-updated: '2020-10-06T17:19:25Z'

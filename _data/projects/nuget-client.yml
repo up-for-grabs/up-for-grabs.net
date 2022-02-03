@@ -10,6 +10,7 @@ tags:
 - package
 upforgrabs:
   name: Up for Grabs
-  link: 
+  link: https://github.com/NuGet/Home/labels/Up%20for%20Grabs
 stats:
-  issue-count: 
+  issue-count: 57
+  last-updated: '2020-04-21T22:18:30Z'

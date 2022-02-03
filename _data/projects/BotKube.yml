@@ -15,6 +15,7 @@ tags:
 - mattermost-bot
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/infracloudio/botkube/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 8
+  last-updated: '2021-11-29T06:36:13Z'

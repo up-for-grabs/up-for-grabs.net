@@ -8,6 +8,6 @@ tags:
 - research
 upforgrabs:
   name: E-easy
-  link: 
+  link: https://github.com/servo/servo/labels/E-easy
 stats:
-  issue-count: 
+  issue-count: 0

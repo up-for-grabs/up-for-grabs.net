@@ -13,6 +13,7 @@ tags:
 - c#
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/serilog/serilog/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 7
+  last-updated: '2021-06-08T04:08:26Z'

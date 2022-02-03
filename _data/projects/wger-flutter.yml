@@ -14,6 +14,7 @@ tags:
 - exercises
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/wger-project/flutter/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 5
+  last-updated: '2021-12-01T10:03:52Z'

@@ -18,6 +18,6 @@ tags:
 - binfmt
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/proot-me/proot-rs/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 0

@@ -8,6 +8,7 @@ tags:
 - oas
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/Mermade/oas-kit/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2021-01-09T16:21:53Z'

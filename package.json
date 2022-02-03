@@ -24,11 +24,11 @@
   "devDependencies": {
     "@babel/core": "^7.16.12",
     "babel-jest": "^27.4.6",
-    "eslint": "^8.7.0",
+    "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^25.7.0",
+    "eslint-plugin-jest": "^26.0.0",
     "jest": "^27.4.7",
     "jest-fetch-mock": "^3.0.3",
     "jest-localstorage-mock": "^2.4.18",

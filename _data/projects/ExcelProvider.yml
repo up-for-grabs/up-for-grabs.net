@@ -9,6 +9,7 @@ tags:
 - type-provider
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/fsprojects/ExcelProvider/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2021-09-04T15:10:26Z'

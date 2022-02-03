@@ -16,6 +16,7 @@ tags:
 - ".net-core"
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/grandnode/grandnode/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 9
+  last-updated: '2021-02-20T08:41:49Z'

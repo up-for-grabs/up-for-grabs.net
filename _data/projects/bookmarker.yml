@@ -10,6 +10,7 @@ tags:
 - markdown
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/lubien/bookmarker/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2020-08-03T11:39:47Z'

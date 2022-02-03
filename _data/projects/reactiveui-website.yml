@@ -16,6 +16,7 @@ tags:
 - wyam
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/reactiveui/website/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 13
+  last-updated: '2021-10-21T11:42:58Z'

@@ -9,6 +9,7 @@ tags:
 - machine-learning
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/fslaborg/FsLab/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 15
+  last-updated: '2020-07-03T04:10:26Z'

@@ -18,6 +18,7 @@ tags:
 - functional
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/char0n/ramda-adjunct/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 48
+  last-updated: '2022-01-17T07:58:16Z'

@@ -9,6 +9,7 @@ tags:
 - static-analysis
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/MutabilityDetector/MutabilityDetector/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-02-26T11:08:30Z'

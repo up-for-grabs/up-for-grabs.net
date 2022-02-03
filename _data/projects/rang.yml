@@ -12,6 +12,7 @@ tags:
 - travis
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/agauniyal/rang/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2018-11-02T14:30:48Z'

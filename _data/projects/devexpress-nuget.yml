@@ -14,6 +14,7 @@ tags:
 - aspnet-mvc
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/augustoproiete/DevExpress-NuGet/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2017-02-23T14:26:48Z'

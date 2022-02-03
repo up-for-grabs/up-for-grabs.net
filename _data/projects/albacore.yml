@@ -15,6 +15,7 @@ tags:
 - mono
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/Albacore/albacore/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 10
+  last-updated: '2017-08-07T07:36:54Z'

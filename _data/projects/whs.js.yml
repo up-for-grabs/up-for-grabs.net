@@ -11,6 +11,7 @@ tags:
 - wagnerjs
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/WhitestormJS/whs.js/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2019-01-22T15:23:54Z'

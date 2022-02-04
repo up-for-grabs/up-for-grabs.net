@@ -21,6 +21,6 @@ tags:
 - application-insights
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/open-telemetry/build-tools/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 0

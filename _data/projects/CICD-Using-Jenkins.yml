@@ -14,6 +14,7 @@ tags:
 - sonarqube
 upforgrabs:
   name: Up-for-Grabs
-  link: 
+  link: https://github.com/NishkarshRaj/CICD-Using-Jenkins/labels/Up-for-Grabs
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2020-10-12T02:45:56Z'

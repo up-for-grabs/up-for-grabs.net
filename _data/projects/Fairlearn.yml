@@ -14,6 +14,7 @@ tags:
 - responsible-ai
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/fairlearn/fairlearn/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 54
+  last-updated: '2022-01-13T16:46:46Z'

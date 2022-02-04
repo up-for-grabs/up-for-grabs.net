@@ -10,6 +10,6 @@ tags:
 - middleware
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/KevinDockx/HttpCacheHeaders/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 0

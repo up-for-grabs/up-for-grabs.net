@@ -12,6 +12,7 @@ tags:
 - http
 upforgrabs:
   name: good-first-issue
-  link: 
+  link: https://github.com/joshbalfour/node-cognitive-services/labels/good-first-issue
 stats:
-  issue-count: 
+  issue-count: 10
+  last-updated: '2021-08-21T17:23:23Z'

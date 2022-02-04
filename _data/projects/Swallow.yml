@@ -9,6 +9,7 @@ tags:
 - compiler
 upforgrabs:
   name: enhancement
-  link: 
+  link: https://github.com/peregrine-lang/Peregrine/labels/enhancement
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2021-12-21T20:48:47Z'

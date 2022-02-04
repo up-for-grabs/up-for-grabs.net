@@ -9,6 +9,7 @@ tags:
 - performance
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/yugabyte/yugabyte-db/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 73
+  last-updated: '2022-01-15T09:15:29Z'

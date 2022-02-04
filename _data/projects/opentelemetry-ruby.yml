@@ -22,6 +22,7 @@ tags:
 - application-insights
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/open-telemetry/opentelemetry-ruby/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 24
+  last-updated: '2021-11-29T18:52:18Z'

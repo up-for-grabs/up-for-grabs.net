@@ -11,6 +11,7 @@ tags:
 - rejson
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/nitishm/go-rejson/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-12-17T17:19:42Z'

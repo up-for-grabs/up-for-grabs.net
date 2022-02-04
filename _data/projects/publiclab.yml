@@ -8,6 +8,7 @@ tags:
 - rubyonrails
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/publiclab/plots2/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 160
+  last-updated: '2022-01-18T14:02:56Z'

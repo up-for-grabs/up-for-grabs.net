@@ -14,6 +14,7 @@ tags:
 - webdriver
 upforgrabs:
   name: Jump In
-  link: 
+  link: https://github.com/TestStack/TestStack.Seleno/labels/Jump%20In
 stats:
-  issue-count: 
+  issue-count: 16
+  last-updated: '2016-12-29T13:46:42Z'

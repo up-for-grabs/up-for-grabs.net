@@ -12,6 +12,7 @@ tags:
 - c
 upforgrabs:
   name: low_hanging_fruit
-  link: 
+  link: https://github.com/refu-lang/refu/labels/low_hanging_fruit
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2017-11-18T21:36:06Z'

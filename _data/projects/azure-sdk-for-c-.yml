@@ -14,6 +14,7 @@ tags:
 - keyvault
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/Azure/azure-sdk-for-c/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 14
+  last-updated: '2021-12-14T19:28:23Z'

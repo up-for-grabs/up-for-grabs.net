@@ -10,6 +10,7 @@ tags:
 - website
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/vasu-gondaliya/rubiks-cube/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-10-19T02:30:46Z'

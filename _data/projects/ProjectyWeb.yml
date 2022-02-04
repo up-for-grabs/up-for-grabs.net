@@ -13,6 +13,7 @@ tags:
 - mysql
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/marcinadd/projecty-web/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2020-11-26T14:43:59Z'

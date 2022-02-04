@@ -13,6 +13,7 @@ tags:
 - go
 upforgrabs:
   name: easy
-  link: 
+  link: https://github.com/syncthing/syncthing-android/labels/easy
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2018-07-07T06:01:16Z'

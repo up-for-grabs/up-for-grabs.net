@@ -11,6 +11,7 @@ tags:
 - identity
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/blockstack/blockstack-browser/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2019-01-03T14:47:47Z'

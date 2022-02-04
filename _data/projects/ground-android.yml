@@ -19,6 +19,7 @@ tags:
 - field-survey
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/google/ground-android/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2021-12-11T16:03:14Z'

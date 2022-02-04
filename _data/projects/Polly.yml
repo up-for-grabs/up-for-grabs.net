@@ -11,6 +11,7 @@ tags:
 - circuit-breaker
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/App-vNext/Polly/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2021-11-17T05:22:52Z'

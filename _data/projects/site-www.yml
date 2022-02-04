@@ -10,6 +10,7 @@ tags:
 - website
 upforgrabs:
   name: beginner
-  link: 
+  link: https://github.com/dart-lang/site-www/labels/beginner
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2021-12-17T02:25:38Z'

@@ -11,6 +11,7 @@ tags:
 - command-line
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/akavel/rsrc/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 1
+  last-updated: '2019-07-08T08:03:20Z'

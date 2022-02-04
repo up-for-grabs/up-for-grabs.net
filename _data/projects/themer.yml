@@ -9,6 +9,7 @@ tags:
 - colorscheme
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/s-ol/themer/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2018-10-28T12:41:16Z'

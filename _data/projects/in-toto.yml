@@ -10,6 +10,7 @@ tags:
 - continuous-delivery
 upforgrabs:
   name: Up for grabs
-  link: 
+  link: https://github.com/in-toto/in-toto/labels/Up%20for%20grabs
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2020-10-09T13:31:40Z'

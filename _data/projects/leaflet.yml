@@ -8,6 +8,7 @@ tags:
 - gis
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/Leaflet/Leaflet/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 13
+  last-updated: '2021-12-02T10:46:47Z'

@@ -7,6 +7,7 @@ tags:
 - serial
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/ihatecsv/node-gqgeiger/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2017-07-07T18:35:55Z'

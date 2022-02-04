@@ -8,6 +8,7 @@ tags:
 - time
 upforgrabs:
   name: Up-For-Grabs
-  link: 
+  link: https://github.com/moment/moment-timezone/labels/Up-For-Grabs
 stats:
-  issue-count: 
+  issue-count: 5
+  last-updated: '2020-08-13T06:57:47Z'

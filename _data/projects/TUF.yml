@@ -10,6 +10,7 @@ tags:
 - cncf
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/theupdateframework/python-tuf/labels/good%20first%20issue
 stats:
-  issue-count: 
+  issue-count: 4
+  last-updated: '2021-11-10T08:54:15Z'

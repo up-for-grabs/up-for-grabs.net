@@ -12,6 +12,7 @@ tags:
 - build
 upforgrabs:
   name: Up For Grabs
-  link: 
+  link: https://github.com/MyGet/MyGetDocs/labels/Up%20For%20Grabs
 stats:
-  issue-count: 
+  issue-count: 3
+  last-updated: '2015-10-15T15:26:56Z'

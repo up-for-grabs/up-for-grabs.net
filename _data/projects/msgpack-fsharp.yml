@@ -8,6 +8,7 @@ tags:
 - ".net"
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/Gab-km/msgpack-fsharp/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2014-07-24T21:33:37Z'

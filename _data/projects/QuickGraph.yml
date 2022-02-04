@@ -18,6 +18,7 @@ tags:
 - bfs
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/YaccConstructor/QuickGraph/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2019-02-07T13:21:37Z'

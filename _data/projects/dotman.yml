@@ -8,6 +8,7 @@ tags:
 - shell
 upforgrabs:
   name: up-for-grabs
-  link: 
+  link: https://github.com/Bhupesh-V/dotman/labels/up-for-grabs
 stats:
-  issue-count: 
+  issue-count: 6
+  last-updated: '2020-10-27T05:54:29Z'

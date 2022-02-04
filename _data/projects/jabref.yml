@@ -17,7 +17,8 @@ tags:
 - gradle
 upforgrabs:
   name: good first issue
-  link: 
+  link: https://github.com/JabRef/jabref/labels/good%20first%20issue
 contribute: https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md
 stats:
-  issue-count: 
+  issue-count: 20
+  last-updated: '2022-01-13T16:46:10Z'

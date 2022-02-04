@@ -10,6 +10,6 @@ tags:
 - micro-service
 upforgrabs:
   name: Hacktoberfest
-  link: 
+  link: https://github.com/ing-bank/baker/labels/Hacktoberfest
 stats:
-  issue-count: 
+  issue-count: 0

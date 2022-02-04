@@ -17,6 +17,7 @@ tags:
 - macos
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/authpass/authpass/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 29
+  last-updated: '2021-10-19T19:19:18Z'

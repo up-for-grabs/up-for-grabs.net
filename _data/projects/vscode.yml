@@ -13,6 +13,7 @@ tags:
 - ide
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/microsoft/vscode/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 281
+  last-updated: '2022-01-18T06:54:57Z'

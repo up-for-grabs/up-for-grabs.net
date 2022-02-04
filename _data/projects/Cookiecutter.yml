@@ -6,6 +6,7 @@ tags:
 - python
 upforgrabs:
   name: please-help
-  link: 
+  link: https://github.com/cookiecutter/cookiecutter/labels/please-help
 stats:
-  issue-count: 
+  issue-count: 11
+  last-updated: '2022-01-12T09:21:35Z'

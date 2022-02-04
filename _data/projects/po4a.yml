@@ -8,6 +8,7 @@ tags:
 - internationalization
 upforgrabs:
   name: beginner friendly
-  link: 
+  link: https://github.com/mquinson/po4a/labels/beginner%20friendly
 stats:
-  issue-count: 
+  issue-count: 2
+  last-updated: '2018-10-03T23:21:32Z'

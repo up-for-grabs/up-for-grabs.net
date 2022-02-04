@@ -16,6 +16,7 @@ tags:
 - two-factor
 upforgrabs:
   name: help wanted
-  link: 
+  link: https://github.com/aad-for-linux/pam_aad/labels/help%20wanted
 stats:
-  issue-count: 
+  issue-count: 7
+  last-updated: '2021-12-10T10:28:16Z'

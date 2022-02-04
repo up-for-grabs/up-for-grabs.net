@@ -10,8 +10,9 @@ tags:
   - typescript
   - go
   - pipeline
-  - SAST
-  - CI/CD
+  - sast
+  - continuous integrations
+  - continuous delivery
 upforgrabs:
   name: good first issue
   link: https://github.com/ZupIT/horusec/labels/good%20first%20issue

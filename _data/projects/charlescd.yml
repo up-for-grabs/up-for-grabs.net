@@ -3,10 +3,11 @@ desc: CharlesCD is an open source tool that makes deployments more agile, contin
 site: https://charlescd.io/
 tags:
   - deploy
-  - circle deploy
+  - circle-deploy
   - kubernetes
   - pipeline
-  - CI/CD
+  - ci
+  - cd
 upforgrabs:
   name: good first issue
   link: https://github.com/ZupIT/charlescd/labels/good%20first%20issue

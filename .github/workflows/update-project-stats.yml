@@ -10,5 +10,5 @@ jobs:
     - uses: actions/checkout@main
     - uses: ./.github/actions/update-stats
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
         APPLY_CHANGES: 1

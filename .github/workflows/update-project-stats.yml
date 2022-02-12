@@ -1,6 +1,8 @@
 on:
   schedule:
   - cron: 0 14 * * *
+  workflow_dispatch:
+
 name: Update project stats
 jobs:
   cleanupArchivedProjects:

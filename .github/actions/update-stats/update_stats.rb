@@ -92,8 +92,8 @@ clean = true
 branch_name = Time.now.strftime('updated-stats-%Y%m%d')
 
 Dir.chdir(root_directory) do
-  system('git config --global user.name "github-actions"')
-  system('git config --global user.email "github-actions@users.noreply.github.com"')
+  system('git config --global user.name "shiftbot"')
+  system('git config --global user.email "12331315+shiftbot@users.noreply.github.com"')
 
   system("git remote set-url origin 'https://x-access-token:#{ENV['GITHUB_TOKEN']}@github.com/#{current_repo}.git'")
 

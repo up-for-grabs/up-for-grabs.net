@@ -9,8 +9,8 @@ tags:
 - web
 - education
 upforgrabs:
-  name: upforgrabs
-  link: https://github.com/opinionatedguide/opinionatedguide.github.io/labels/upforgrabs
+  name: good first issue
+  link: https://github.com/opinionatedguide/opinionatedguide.github.io/labels/good%20first%20issues
 stats:
   issue-count: 1
   last-updated: '2020-10-16T14:28:36Z'

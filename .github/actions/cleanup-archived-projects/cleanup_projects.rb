@@ -11,7 +11,7 @@ def existing_pull_request?(current_repo)
   client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
   prs = client.pulls current_repo
 
-  found_pr = prs.find { |pr| pr.title == 'Remove projects detected as deprecated' && pr.user.login == 'github-actions[bot]' }
+  found_pr = prs.find { |pr| pr.title == 'Remove projects detected as deprecated' && pr.user.login == 'shiftbot' }
 
   if found_pr
     puts "There is a open PR to remove deprecated projects ##{found_pr.number} - review and merge that before we try again"

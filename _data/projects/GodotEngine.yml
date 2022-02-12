@@ -10,8 +10,8 @@ tags:
 - 2d
 - 3d
 upforgrabs:
-  name: junior job
-  link: https://github.com/godotengine/godot/labels/junior%20job
+  name: good first issue
+  link: https://github.com/godotengine/godot/labels/good%20first%20issue
 stats:
   issue-count: 43
   last-updated: '2022-01-15T23:16:19Z'

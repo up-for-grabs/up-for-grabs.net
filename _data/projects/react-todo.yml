@@ -5,5 +5,5 @@ tags:
   - javascript
   - reactjs
 upforgrabs:
-  name: up for grabs
-  link: https://github.com/upnotes-io/react-todo/labels/up%20for%20grabs
+  name: good first issue
+  link: https://github.com/upnotes-io/react-todo/labels/good%20first%20issue

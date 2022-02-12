@@ -38,8 +38,8 @@ def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
   branch_name = Time.now.strftime('deprecated-projects-%Y%m%d')
 
   Dir.chdir(root) do
-    system('git config --global user.name "github-actions"')
-    system('git config --global user.email "github-actions@users.noreply.github.com"')
+    system('git config --global user.name "shiftbot"')
+    system('git config --global user.email "12331315+shiftbot@users.noreply.github.com"')
 
     system("git remote set-url origin 'https://x-access-token:#{ENV['GITHUB_TOKEN']}@github.com/#{current_repo}.git'")
 

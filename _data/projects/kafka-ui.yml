@@ -1,23 +1,27 @@
+---
 name: UI for Apache Kafka
 desc: UI for Apache Kafka is a free, open-source web UI to monitor and manage Apache Kafka clusters
 site: https://github.com/provectus/kafka-ui
 tags:
-  - kafka
-  - big-data
-  - web-ui
-  - streams
-  - kafka-connect
-  - apache-kafka
-  - kafka-producer
-  - kafka-client
-  - kafka-streams
-  - streaming-data
-  - kafka-manager
-  - kafka-cluster
-  - event-streaming
-  - cluster-management
-  - kafka-ui
-  - kafka-brokers
+- kafka
+- big-data
+- web-ui
+- streams
+- kafka-connect
+- apache-kafka
+- kafka-producer
+- kafka-client
+- kafka-streams
+- streaming-data
+- kafka-manager
+- kafka-cluster
+- event-streaming
+- cluster-management
+- kafka-ui
+- kafka-brokers
 upforgrabs:
   name: good first issue
   link: https://github.com/provectus/kafka-ui/labels/good%20first%20issue
+stats:
+  issue-count: 44
+  last-updated: '2022-02-12T10:17:00Z'

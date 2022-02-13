@@ -11,6 +11,7 @@ gem 'up_for_grabs_tooling', :github => 'up-for-grabs/tooling', :branch => 'main'
 gem 'rubocop', require: false
 
 if Gem.win_platform?
-  gem 'wdm', '>= 0.1.0' 
-  gem 'webrick'
+  gem 'wdm', '>= 0.1.0'
 end
+
+gem 'webrick'

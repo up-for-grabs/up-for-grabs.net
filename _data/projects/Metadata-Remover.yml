@@ -1,0 +1,10 @@
+name: Metadata-Remover
+desc: A simple Metadata Removal Tool for images and videos using exiftool and ffmpeg in C and Python3.
+site: https://github.com/Anish-M-code/Metadata-Remover
+tags:
+  - python
+  - beginner-project
+  - good-first-issue
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Anish-M-code/Metadata-Remover/issues

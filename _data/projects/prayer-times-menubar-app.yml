@@ -1,0 +1,14 @@
+name: Prayer Times Menubar App
+desc: A menubar application for displaying the prayer times from your city. 
+site: https://github.com/b0bdN/prayer-times-menubar-app
+tags:
+  - electron
+  - javascript
+  - html
+  - css
+  - islam
+  - muslim
+  - prayer-times
+upforgrabs:
+  name: good first issue
+  link: https://github.com/b0bdN/prayer-times-menubar-app/labels/good%20first%20issue

@@ -1,14 +1,13 @@
-/* eslint global-require: "off" */
 /* eslint block-scoped-var: "off" */
 
-// @ts-nocheck
+/// <reference types="node" />
 
 // required for loading into a NodeJS context
 if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
 
-define(['showdown', 'whatwg-fetch', 'promise-polyfill'], (showdown) => {
+define(['showdown', 'whatwg-fetch', 'promise-polyfill'], (/** @type {import('showdown')} */ showdown) => {
   const { fetch } = window;
 
   function loadProjects() {

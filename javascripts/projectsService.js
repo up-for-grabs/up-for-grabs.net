@@ -15,7 +15,7 @@ if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
 
-define(['underscore'], (_) => {
+define(['underscore', 'tag-builder'], (_, TagBuilder) => {
   const applyTagsFilter = function (projects, tagsArray, tags) {
     if (typeof tags === 'string') {
       tags = tags.split(',');
@@ -136,38 +136,6 @@ define(['underscore'], (_) => {
 
     // the above statements returns n arrays in an array, which we flatten here and return then
     return _.flatten(results, (arr1, arr2) => arr1.append(arr2));
-  };
-
-  const TagBuilder = function () {
-    const _tagsMap = {};
-    let _orderedTagsMap = null;
-
-    this.addTag = function (tag, projectName) {
-      const tagLowerCase = tag.toLowerCase();
-      if (!_.has(_tagsMap, tagLowerCase)) {
-        _tagsMap[tagLowerCase] = {
-          name: tag,
-          frequency: 0,
-          projects: [],
-        };
-      }
-      const _entry = _tagsMap[tagLowerCase];
-      _entry.frequency += 1;
-      _entry.projects.push(projectName);
-    };
-
-    this.getTagsMap = function () {
-      // https://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
-      if (_orderedTagsMap == null) {
-        _orderedTagsMap = _(_tagsMap)
-          .chain()
-          .sortBy((tag, key) => key)
-          .sortBy((tag) => tag.frequency * -1)
-          .value();
-      }
-
-      return _orderedTagsMap;
-    };
   };
 
   const extractTags = function (projectsData) {

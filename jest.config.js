@@ -4,6 +4,9 @@ module.exports = {
   transform: {
     '^.+\\.jsx?$': 'babel-jest'
   },
+  moduleNameMapper: {
+    'tag-builder': '<rootDir>javascripts/tag-builder.js'
+  },
   automock: false,
   setupFiles: [
     './tests/setupJest.js'

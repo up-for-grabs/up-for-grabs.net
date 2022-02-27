@@ -23,6 +23,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
+    "@types/underscore": "^1.11.4",
+    "@types/showdown": "^1.9.4",
+    "@types/node": "^16",
     "babel-jest": "^27.5.1",
     "eslint": "^8.9.0",
     "eslint-config-airbnb-base": "^15.0.0",

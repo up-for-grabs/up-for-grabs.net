@@ -7,7 +7,9 @@ if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
 
-define(['showdown', 'whatwg-fetch', 'promise-polyfill'], (/** @type {import('showdown')} */ showdown) => {
+define(['showdown', 'whatwg-fetch', 'promise-polyfill'], (
+  /** @type {import('showdown')} */ showdown
+) => {
   const { fetch } = window;
 
   function loadProjects() {

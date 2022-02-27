@@ -26,4 +26,31 @@ describe('ProjectsService', () => {
       },
     ]);
   });
+
+
+  it('orders tags by frequency', () => {
+    tagBuilder.addTag('tag-3', 'tag-3-first');
+    tagBuilder.addTag('tag-3', 'tag-3-third');
+    tagBuilder.addTag('tag-3', 'tag-3-second');
+    tagBuilder.addTag('tag-2', 'tag-2-first');
+    tagBuilder.addTag('tag-2', 'tag-2-second');
+    tagBuilder.addTag('tag-1', 'tag-1-first');
+    expect(tagBuilder.getTagsMap()).toEqual([
+      {
+        name: 'tag-3',
+        frequency: 3,
+        projects: ['tag-3-first', 'tag-3-third', 'tag-3-second'],
+      },
+      {
+        name: 'tag-2',
+        frequency: 2,
+        projects: ['tag-2-first', 'tag-2-second'],
+      },
+      {
+        name: 'tag-1',
+        frequency: 1,
+        projects: ['tag-1-first'],
+      },
+    ]);
+  });
 });

@@ -42,8 +42,8 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
         if (_orderedTagsMap.length === 0) {
           _orderedTagsMap = _([...tagsMap.values()])
             .chain()
-            .sortBy((item) => item.frequency * -1)
             .sortBy((item) => item.name)
+            .sortBy((item) => item.frequency * -1)
             .value();
         }
 

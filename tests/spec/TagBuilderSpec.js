@@ -27,7 +27,6 @@ describe('ProjectsService', () => {
     ]);
   });
 
-
   it('orders tags by frequency', () => {
     tagBuilder.addTag('tag-3', 'tag-3-first');
     tagBuilder.addTag('tag-3', 'tag-3-third');

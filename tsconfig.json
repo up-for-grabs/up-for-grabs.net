@@ -6,12 +6,9 @@
     "checkJs": true,
     "noEmit": true,
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "typeRoots": ["javascripts/@types/"]
   },
-  "include": [
-    "javascripts/*.js"
-  ],
-  "exclude": [
-    "javascripts/libs/**/*.js"
-  ]
+  "include": ["javascripts/*.js"],
+  "exclude": ["javascripts/libs/**/*.js"]
 }

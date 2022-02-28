@@ -20,9 +20,9 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
 
     const canStoreOrdering =
       JSON &&
-      window.sessionStorage &&
-      'getItem' in window.sessionStorage &&
-      'setItem' in window.sessionStorage;
+      global.sessionStorage &&
+      'getItem' in global.sessionStorage &&
+      'setItem' in global.sessionStorage;
 
     if (!canStoreOrdering) {
       return projects;
@@ -31,7 +31,7 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
     /** @type {Array<number> | null} */
     let ordering = null;
 
-    const orderingValue = sessionStorage.getItem('projectOrder');
+    const orderingValue = global.sessionStorage.getItem('projectOrder');
     if (orderingValue) {
       ordering = JSON.parse(orderingValue);
 

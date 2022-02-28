@@ -50,13 +50,13 @@ describe('orderAllProjects', () => {
 
   describe('when no local storage available', () => {
     beforeEach(() => {
-      Object.defineProperty(window, 'sessionStorage', {
+      Object.defineProperty(global, 'sessionStorage', {
         value: null,
       });
     });
 
     afterEach(() => {
-      window.sessionStorage = originalSessionStorage;
+      global.sessionStorage = originalSessionStorage;
     });
 
     it('will return items in same order', () => {

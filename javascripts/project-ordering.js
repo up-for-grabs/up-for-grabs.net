@@ -10,12 +10,19 @@ if (typeof define !== 'function') {
 }
 
 define(['underscore'], (/** @type {import('underscore')} */ _) => {
-  function orderAllProjects(/** @type {Array<Project>} */ projects) {
+  function orderAllProjects(
+    /** @type {Array<Project>} */ projects,
+    /** @type {(length: number) => Array<number>} */ computeOrder
+  ) {
+    if (projects.length === 0) {
+      return projects;
+    }
+
     const canStoreOrdering =
       JSON &&
-      sessionStorage &&
-      'getItem' in sessionStorage &&
-      'setItem' in sessionStorage;
+      window.sessionStorage &&
+      'getItem' in window.sessionStorage &&
+      'setItem' in window.sessionStorage;
 
     if (!canStoreOrdering) {
       return projects;
@@ -35,7 +42,7 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
     }
 
     if (!ordering) {
-      ordering = _.shuffle(_.range(projects.length));
+      ordering = computeOrder(projects.length);
       if (canStoreOrdering) {
         sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
       }

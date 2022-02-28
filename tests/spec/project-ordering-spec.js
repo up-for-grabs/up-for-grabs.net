@@ -46,6 +46,8 @@ describe('orderAllProjects', () => {
 
       expect(computeOrder).toHaveBeenCalled();
     });
+
+    it.todo('will store order in session storage for future lookups');
   });
 
   describe('when no local storage available', () => {

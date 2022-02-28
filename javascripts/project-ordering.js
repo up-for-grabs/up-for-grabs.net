@@ -20,9 +20,9 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
 
     const canStoreOrdering =
       JSON &&
-      globalThis.sessionStorage &&
-      'getItem' in globalThis.sessionStorage &&
-      'setItem' in globalThis.sessionStorage;
+      window.sessionStorage &&
+      'getItem' in window.sessionStorage &&
+      'setItem' in window.sessionStorage;
 
     if (!canStoreOrdering) {
       return projects;
@@ -31,7 +31,7 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
     /** @type {Array<number> | null} */
     let ordering = null;
 
-    const orderingValue = globalThis.sessionStorage.getItem('projectOrder');
+    const orderingValue = window.sessionStorage.getItem('projectOrder');
     if (orderingValue) {
       ordering = JSON.parse(orderingValue);
 
@@ -44,7 +44,7 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
     if (!ordering) {
       ordering = computeOrder(projects.length);
       if (canStoreOrdering) {
-        sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
+        window.sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
       }
     }
 

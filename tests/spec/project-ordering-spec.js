@@ -4,7 +4,7 @@
 
 const orderAllProjects = require('../../javascripts/project-ordering');
 
-const { sessionStorage: originalSessionStorage } = window;
+const { sessionStorage: originalSessionStorage } = global;
 
 describe('orderAllProjects', () => {
   beforeEach(() => {

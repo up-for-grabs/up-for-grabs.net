@@ -15,7 +15,11 @@ if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
 
-define(['underscore', 'tag-builder'], (_, TagBuilder) => {
+define(['underscore', 'tag-builder', 'project-ordering'], (
+  _,
+  TagBuilder,
+  orderAllProjects
+) => {
   const applyTagsFilter = function (projects, tagsArray, tags) {
     if (typeof tags === 'string') {
       tags = tags.split(',');
@@ -161,32 +165,9 @@ define(['underscore', 'tag-builder'], (_, TagBuilder) => {
     const namesMap = {};
     const labelsMap = {};
 
-    const canStoreOrdering =
-      JSON &&
-      sessionStorage &&
-      sessionStorage.getItem &&
-      sessionStorage.setItem;
-    let ordering = null;
-    if (canStoreOrdering) {
-      ordering = sessionStorage.getItem('projectOrder');
-      if (ordering) {
-        ordering = JSON.parse(ordering);
-
-        // This prevents anyone's page from crashing if a project is removed
-        if (ordering.length !== _projectsData.projects.length) {
-          ordering = null;
-        }
-      }
-    }
-
-    if (!ordering) {
-      ordering = _.shuffle(_.range(_projectsData.projects.length));
-      if (canStoreOrdering) {
-        sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
-      }
-    }
-
-    const allProjects = _.map(ordering, (i) => _projectsData.projects[i]);
+    const allProjects = orderAllProjects(_projectsData.projects, (length) =>
+      _.shuffle(_.range(length))
+    );
 
     const projects = _.filter(allProjects, (project) =>
       project.stats ? project.stats['issue-count'] > 0 : true

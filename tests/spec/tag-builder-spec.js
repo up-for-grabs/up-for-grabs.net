@@ -1,6 +1,6 @@
 const TagBuilder = require('../../javascripts/tag-builder');
 
-describe('ProjectsService', () => {
+describe('TagBuilder', () => {
   let tagBuilder;
 
   beforeEach(() => {

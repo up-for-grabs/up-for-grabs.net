@@ -1,5 +1,5 @@
 name: gentoo-rpi-64-bit
-desc: build a gentoo 64-bit system for Raspberry Pi 4
+desc: Build a gentoo 64-bit system for Raspberry Pi 4
 site: https://github.com/mck-sbs/gentoo-rpi-64-bit
 tags:
   - raspberry-pi

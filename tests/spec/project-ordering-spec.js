@@ -47,7 +47,16 @@ describe('orderAllProjects', () => {
       expect(computeOrder).toHaveBeenCalled();
     });
 
-    it.todo('will store order in session storage for future lookups');
+    it('will store order in session storage for future lookups', () => {
+      const someOrderValue = [0, 2, 1];
+      const computeOrder = jest.fn().mockReturnValue(someOrderValue);
+
+      orderAllProjects(input, computeOrder);
+
+      expect(window.sessionStorage.getItem('projectOrder')).toEqual(
+        JSON.stringify(someOrderValue)
+      );
+    });
   });
 
   describe('when no local storage available', () => {

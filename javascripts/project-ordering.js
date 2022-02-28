@@ -1,6 +1,7 @@
 /* eslint block-scoped-var: "off" */
 
-/** @typedef {{name: string, frequency: number, projects: Array<unknown>}} TagValue */
+/** @typedef {{name:string,desc:string,site:string,tags: Array<string>, upforgrabs: {name:string,link:string}, stats: {issueCount: number,lastUpdated
+: string}}} Project */
 
 // required for loading into a NodeJS context
 if (typeof define !== 'function') {
@@ -9,13 +10,13 @@ if (typeof define !== 'function') {
 }
 
 define(['underscore'], (/** @type {import('underscore')} */ _) => {
-  const canStoreOrdering =
-    JSON &&
-    sessionStorage &&
-    'getItem' in sessionStorage &&
-    'setItem' in sessionStorage;
+  function orderAllProjects(/** @type {Array<Project>} */ projects) {
+    const canStoreOrdering =
+      JSON &&
+      sessionStorage &&
+      'getItem' in sessionStorage &&
+      'setItem' in sessionStorage;
 
-  function orderAllProjects(/** @type {Array<unknown>} */ projects) {
     if (!canStoreOrdering) {
       return projects;
     }

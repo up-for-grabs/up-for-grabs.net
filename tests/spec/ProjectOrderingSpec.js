@@ -2,12 +2,52 @@
  * @jest-environment jsdom
  */
 
-const ProjectOrdering = require('../../javascripts/project-ordering');
+const orderAllProjects = require('../../javascripts/project-ordering');
 
-describe('ProjectOrdering', () => {
-  it('returns something when no projects received', () => {
-    expect(ProjectOrdering([])).toHaveLength(0);
+describe('orderAllProjects', () => {
+  beforeEach(() => {
+    sessionStorage.removeItem('projectOrder');
   });
 
-  it.todo('will return same projects when no local storage available');
+  it('returns something when no projects received', () => {
+    expect(orderAllProjects([])).toHaveLength(0);
+  });
+
+  describe('when items received', () => {
+    const input = [{ id: 1 }, { id: 2 }, { id: 3 }];
+
+    it('will return items in different order when nothing in storage', () => {
+      expect(orderAllProjects(input)).not.toMatchObject(input);
+    });
+
+    it('will return items in matching order when something in storage', () => {
+      sessionStorage.setItem('projectOrder', JSON.stringify([0, 1, 2]));
+
+      expect(orderAllProjects(input)).toMatchObject(input);
+    });
+
+    it('will return items in different order when stored order is different length', () => {
+      sessionStorage.setItem('projectOrder', JSON.stringify([0, 2]));
+
+      expect(orderAllProjects(input)).not.toMatchObject(input);
+    });
+  });
+
+  describe('when no local storage available', () => {
+    let oldSessionStorage;
+
+    beforeEach(() => {
+      oldSessionStorage = global.sessionStorage;
+      global.sessionStorage = null;
+    });
+
+    afterEach(() => {
+      global.sessionStorage = oldSessionStorage;
+    });
+
+    it('will return items in same order', () => {
+      const input = [{ id: 1 }, { id: 2 }];
+      expect(orderAllProjects(input)).toMatchObject(input);
+    });
+  });
 });

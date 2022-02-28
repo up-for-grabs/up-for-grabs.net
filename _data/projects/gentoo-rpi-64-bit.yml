@@ -7,5 +7,5 @@ tags:
   - gentoo
   - embedded
 upforgrabs:
-  name: wiki
-  link: https://github.com/mck-sbs/gentoo-rpi-64-bit/issues
+  name: help wanted
+  link: https://github.com/mck-sbs/gentoo-rpi-64-bit/labels/help%20wanted

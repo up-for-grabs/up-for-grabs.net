@@ -4,7 +4,7 @@
 
 const orderAllProjects = require('../../javascripts/project-ordering');
 
-const { sessionStorage: originalSessionStorage } = global;
+const { sessionStorage: originalSessionStorage } = globalThis;
 
 describe('orderAllProjects', () => {
   beforeEach(() => {
@@ -50,13 +50,13 @@ describe('orderAllProjects', () => {
 
   describe('when no local storage available', () => {
     beforeEach(() => {
-      Object.defineProperty(global, 'sessionStorage', {
+      Object.defineProperty(globalThis, 'sessionStorage', {
         value: null,
       });
     });
 
     afterEach(() => {
-      global.sessionStorage = originalSessionStorage;
+      globalThis.sessionStorage = originalSessionStorage;
     });
 
     it('will return items in same order', () => {

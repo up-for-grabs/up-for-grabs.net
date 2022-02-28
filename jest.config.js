@@ -5,7 +5,8 @@ module.exports = {
     '^.+\\.jsx?$': 'babel-jest'
   },
   moduleNameMapper: {
-    'tag-builder': '<rootDir>javascripts/tag-builder.js'
+    'tag-builder': '<rootDir>javascripts/tag-builder.js',
+    'project-ordering': '<rootDir>javascripts/project-ordering.js'
   },
   automock: false,
   setupFiles: [

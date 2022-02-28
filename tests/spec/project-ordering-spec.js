@@ -27,7 +27,7 @@ describe('orderAllProjects', () => {
       expect(computeOrder).toHaveBeenCalledWith(3);
     });
 
-    it('will return items in matching order when something in storage', () => {
+    it('will return items in matching order when stored order is same length', () => {
       sessionStorage.setItem('projectOrder', JSON.stringify([0, 1, 2]));
 
       const computeOrder = jest.fn();
@@ -38,7 +38,7 @@ describe('orderAllProjects', () => {
     });
 
     it('will return items in different order when stored order is different length', () => {
-      sessionStorage.setItem('projectOrder', JSON.stringify([0, 2]));
+      sessionStorage.setItem('projectOrder', JSON.stringify([0, 1]));
 
       const computeOrder = jest.fn().mockReturnValue([0, 2, 1]);
 

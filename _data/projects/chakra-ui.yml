@@ -2,7 +2,6 @@ name: Chakra UI
 desc: ⚡️ Simple, Modular & Accessible UI Components for your React Applications
 site: https://chakra-ui.com
 tags:
-  - react
   - reactjs
   - typescript
   - uikit

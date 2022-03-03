@@ -6,7 +6,9 @@ if (typeof define !== 'function') {
 }
 
 define([], () => {
-  let lightModeEnabled = true;
+  const storedValue = window.sessionStorage.getItem('mode');
+  // default to light mode if no stored value found, or stored value is anything else
+  let lightModeEnabled = !(storedValue && storedValue === 'dark');
 
   const root = document.documentElement;
 
@@ -41,6 +43,7 @@ define([], () => {
   }
 
   /**
+   * Update the stored value for the current mode
    * @param {"dark" | "light"} value
    */
   function updateValue(value) {
@@ -62,6 +65,10 @@ define([], () => {
     const viewModeAnchor = document.getElementById('view-mode-a');
     if (!viewModeAnchor) {
       return;
+    }
+
+    if (!lightModeEnabled) {
+      setDarkMode(viewModeElement, viewModeAnchor);
     }
 
     viewModeAnchor.addEventListener('click', () => {

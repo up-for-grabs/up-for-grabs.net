@@ -9,12 +9,24 @@ define([
   'fetchIssueCount',
   'underscore',
   'sammy',
+  // this will auto-run and apply the event listeners for dark mode checks
+  'dark-mode',
   // chosen is listed here as a dependency because it's used from a jQuery
   // selector, and needs to be ready before this code runs
   'chosen',
-], ($, loadProjects, ProjectsService, fetchIssueCount, _, sammy) => {
+], (
+  $,
+  loadProjects,
+  ProjectsService,
+  fetchIssueCount,
+  _,
+  sammy,
+  setupDarkModeListener
+) => {
   let compiledtemplateFn = null,
     projectsPanel = null;
+
+  setupDarkModeListener();
 
   const getFilterUrl = function () {
     return location.href.indexOf('/#/filters') > -1

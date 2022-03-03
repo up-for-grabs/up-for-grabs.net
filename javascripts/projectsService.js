@@ -165,12 +165,8 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
     const namesMap = {};
     const labelsMap = {};
 
-    const allProjects = orderAllProjects(_projectsData.projects, (length) =>
+    const projects = orderAllProjects(_projectsData.projects, (length) =>
       _.shuffle(_.range(length))
-    );
-
-    const projects = _.filter(allProjects, (project) =>
-      project.stats ? project.stats['issue-count'] > 0 : true
     );
 
     _.each(_projectsData.tags, (tag) => {

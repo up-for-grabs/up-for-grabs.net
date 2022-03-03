@@ -1,7 +1,21 @@
 /* eslint block-scoped-var: "off" */
 
-/** @typedef {{name:string,desc:string,site:string,tags: Array<string>, upforgrabs: {name:string,link:string}, stats: {issueCount: number,lastUpdated
-: string}}} Project */
+/**
+ * @typedef {{
+ *   name:string,
+ *   desc:string,
+ *   site:string,
+ *   tags: Array<string>,
+ *   upforgrabs: {
+ *     name:string,
+ *     link:string
+ *   },
+ *   stats: {
+ *     'issue-count': number,
+ *     'last-updated': string
+ *   }
+ * }} Project
+ * */
 
 // required for loading into a NodeJS context
 if (typeof define !== 'function') {
@@ -11,12 +25,16 @@ if (typeof define !== 'function') {
 
 define(['underscore'], (/** @type {import('underscore')} */ _) => {
   function orderAllProjects(
-    /** @type {Array<Project>} */ projects,
+    /** @type {Array<Project>} */ sourceProjects,
     /** @type {(length: number) => Array<number>} */ computeOrder
   ) {
-    if (projects.length === 0) {
-      return projects;
+    if (sourceProjects.length === 0) {
+      return sourceProjects;
     }
+
+    const projects = sourceProjects.filter((project) =>
+      project.stats ? project.stats['issue-count'] > 0 : true
+    );
 
     const canStoreOrdering =
       JSON &&
@@ -28,6 +46,8 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
       return projects;
     }
 
+    const projectsLength = projects.length;
+
     /** @type {Array<number> | null} */
     let ordering = null;
 
@@ -36,13 +56,13 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
       ordering = JSON.parse(orderingValue);
 
       // This prevents anyone's page from crashing if a project is removed
-      if (ordering && ordering.length !== projects.length) {
+      if (ordering && ordering.length !== projectsLength) {
         ordering = null;
       }
     }
 
     if (!ordering) {
-      ordering = computeOrder(projects.length);
+      ordering = computeOrder(projectsLength);
       if (canStoreOrdering) {
         window.sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
       }

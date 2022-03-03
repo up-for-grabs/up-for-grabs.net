@@ -45,6 +45,7 @@ define([], () => {
    */
   function updateValue(value) {
     window.sessionStorage.setItem('mode', value);
+    lightModeEnabled = value === 'light';
   }
 
   function setupDarkModeListener() {
@@ -65,19 +66,11 @@ define([], () => {
 
     viewModeAnchor.addEventListener('click', () => {
       if (lightModeEnabled) {
-        root.style.setProperty('--body-back', '#111111');
-        root.style.setProperty('--body-color', '#eeeded');
-        root.style.setProperty('--abs', 'rgb(37, 37, 37)');
-        lightModeEnabled = false;
-        viewModeElement.setAttribute('src', '/images/sun-light.png');
-        viewModeAnchor.title = 'light-mode';
+        setDarkMode(viewModeElement, viewModeAnchor);
+        updateValue('dark');
       } else {
-        root.style.setProperty('--body-back', '#f9f9f9');
-        root.style.setProperty('--body-color', '#303030');
-        root.style.setProperty('--abs', '#FFF');
-        lightModeEnabled = true;
-        viewModeElement.setAttribute('src', '/images/Dim-Night.png');
-        viewModeAnchor.title = 'dark-mode';
+        setLightMode(viewModeElement, viewModeAnchor);
+        updateValue('light');
       }
     });
   }

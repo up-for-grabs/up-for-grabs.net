@@ -59,6 +59,34 @@ describe('orderAllProjects', () => {
     });
   });
 
+  describe('stats filtering', () => {
+    it('when stats missing, item is included', () => {
+      const items = [{ id: 1 }, { id: 2 }, { id: 3 }];
+
+      expect(orderAllProjects(items, () => [0, 2, 1])).toHaveLength(3);
+    });
+
+    it('when stats present and zero issue count, item is ignored', () => {
+      const items = [
+        { id: 1 },
+        { id: 2, stats: { 'issue-count': 0 } },
+        { id: 3 },
+      ];
+
+      expect(orderAllProjects(items, () => [0, 1])).toHaveLength(2);
+    });
+
+    it('when stats missing and issue count greater than zero, item is included', () => {
+      const items = [
+        { id: 1 },
+        { id: 2, stats: { 'issue-count': 3 } },
+        { id: 3 },
+      ];
+
+      expect(orderAllProjects(items, () => [0, 1, 2])).toHaveLength(3);
+    });
+  });
+
   describe('when no local storage available', () => {
     beforeEach(() => {
       Object.defineProperty(globalThis, 'sessionStorage', {

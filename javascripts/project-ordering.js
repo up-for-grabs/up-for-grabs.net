@@ -1,7 +1,21 @@
 /* eslint block-scoped-var: "off" */
 
-/** @typedef {{name:string,desc:string,site:string,tags: Array<string>, upforgrabs: {name:string,link:string}, stats: {issueCount: number,lastUpdated
-: string}}} Project */
+/**
+ * @typedef {{
+ *   name:string,
+ *   desc:string,
+ *   site:string,
+ *   tags: Array<string>,
+ *   upforgrabs: {
+ *     name:string,
+ *     link:string
+ *   },
+ *   stats: {
+ *     'issue-count': number,
+ *     'last-updated': string
+ *   }
+ * }} Project
+ * */
 
 // required for loading into a NodeJS context
 if (typeof define !== 'function') {

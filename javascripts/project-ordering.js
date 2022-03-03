@@ -25,12 +25,16 @@ if (typeof define !== 'function') {
 
 define(['underscore'], (/** @type {import('underscore')} */ _) => {
   function orderAllProjects(
-    /** @type {Array<Project>} */ projects,
+    /** @type {Array<Project>} */ sourceProjects,
     /** @type {(length: number) => Array<number>} */ computeOrder
   ) {
-    if (projects.length === 0) {
-      return projects;
+    if (sourceProjects.length === 0) {
+      return sourceProjects;
     }
+
+    const projects = sourceProjects.filter((project) =>
+      project.stats ? project.stats['issue-count'] > 0 : true
+    );
 
     const canStoreOrdering =
       JSON &&

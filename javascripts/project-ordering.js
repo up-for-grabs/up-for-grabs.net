@@ -46,6 +46,8 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
       return projects;
     }
 
+    const projectsLength = projects.length;
+
     /** @type {Array<number> | null} */
     let ordering = null;
 
@@ -54,13 +56,13 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
       ordering = JSON.parse(orderingValue);
 
       // This prevents anyone's page from crashing if a project is removed
-      if (ordering && ordering.length !== projects.length) {
+      if (ordering && ordering.length !== projectsLength) {
         ordering = null;
       }
     }
 
     if (!ordering) {
-      ordering = computeOrder(projects.length);
+      ordering = computeOrder(projectsLength);
       if (canStoreOrdering) {
         window.sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
       }

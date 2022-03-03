@@ -12,6 +12,8 @@ define([
   // chosen is listed here as a dependency because it's used from a jQuery
   // selector, and needs to be ready before this code runs
   'chosen',
+  // this will auto-run and apply the event listeners for dark mode checks
+  'dark-mode',
 ], ($, loadProjects, ProjectsService, fetchIssueCount, _, sammy) => {
   let compiledtemplateFn = null,
     projectsPanel = null;

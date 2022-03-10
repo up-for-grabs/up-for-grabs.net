@@ -1,0 +1,22 @@
+---
+name: Chakra UI
+desc: "⚡️ Simple, Modular & Accessible UI Components for your React Applications"
+site: https://chakra-ui.com
+tags:
+- reactjs
+- typescript
+- uikit
+- a11y
+- react-components
+- accessible
+- wai-aria
+- ui-components
+- dark-mode
+- ui-library
+- chakra-ui
+upforgrabs:
+  name: "good first issue \U0001F44D"
+  link: https://github.com/chakra-ui/chakra-ui/labels/good%20first%20issue%20%F0%9F%91%8D
+stats:
+  issue-count: 2
+  last-updated: '2022-02-28T22:35:25Z'

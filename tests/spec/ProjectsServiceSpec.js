@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 const sampleProjects = require('../src/sampleProjects');
 const ProjectsService = require('../../javascripts/projectsService');
 

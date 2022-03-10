@@ -1,0 +1,15 @@
+---
+name: pptr.io
+desc: A free and open-source api that runs puppeteer as a service
+site: https://pptr.io
+tags:
+- puppeteer
+- open-source
+- api
+- vercel
+- vercel-serverless-functions
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/choraria/pptr-io/labels/up%20for%20grabs
+stats:
+  issue-count: 0

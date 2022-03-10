@@ -163,7 +163,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
       };
     }
 
-    return new Promise((resolve, reject) =>
+    return new Promise((resolve, reject) => {
       fetch(apiURL, settings).then(
         (response) => {
           if (!response.ok) {
@@ -238,8 +238,8 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
         (error) => {
           reject(error);
         }
-      )
-    );
+      );
+    });
   }
 
   return fetchIssueCount;

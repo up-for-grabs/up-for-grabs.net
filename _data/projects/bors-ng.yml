@@ -7,7 +7,7 @@ tags:
 - elixir
 - ci
 upforgrabs:
-  name: E-easy
-  link: https://github.com/bors-ng/bors-ng/labels/E-easy
+  name: good first issue
+  link: https://github.com/bors-ng/bors-ng/labels/good%20first%20issue
 stats:
   issue-count: 0

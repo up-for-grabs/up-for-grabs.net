@@ -1,0 +1,15 @@
+---
+name: gentoo-rpi-64-bit
+desc: Build a gentoo 64-bit system for Raspberry Pi 4
+site: https://github.com/mck-sbs/gentoo-rpi-64-bit
+tags:
+- raspberry-pi
+- raspberry-pi-4
+- gentoo
+- embedded
+upforgrabs:
+  name: help wanted
+  link: https://github.com/mck-sbs/gentoo-rpi-64-bit/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2022-03-04T07:42:40Z'

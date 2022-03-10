@@ -3,7 +3,7 @@ name: Redis Object Cache
 desc: >-
   A persistent WordPress object cache backend powered by Redis. Supports Predis, PhpRedis, HHVM, replication
   and clustering.
-site: https://github.com/tillkruss/redis-cache
+site: https://github.com/rhubarbgroup/redis-cache
 tags:
 - php
 - wordpress
@@ -13,7 +13,8 @@ tags:
 - phpredis
 - hhvm
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/tillkruss/redis-cache/labels/up-for-grabs
+  name: help wanted
+  link: https://github.com/rhubarbgroup/redis-cache/labels/help%20wanted
 stats:
-  issue-count: 0
+  issue-count: 4
+  last-updated: '2021-11-23T02:41:54Z'

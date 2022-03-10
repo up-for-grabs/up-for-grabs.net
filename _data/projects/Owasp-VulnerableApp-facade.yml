@@ -1,0 +1,26 @@
+---
+name: Owasp VulnerableApp-facade
+desc: >-
+  Probably the most modern lightweight distributed farm of Vulnerable Applications built for handling
+  wide range of vulnerabilities across tech stacks.
+site: https://owasp.org/www-project-vulnerableapp-facade/
+tags:
+- vulnerable-web-application
+- reactjs
+- typescript
+- javascript
+- nginx
+- lua
+- openresty
+- payload-testing
+- learn-security
+- owasp-zap
+- burp
+- learn-hacking
+- dast
+upforgrabs:
+  name: good first issue
+  link: https://github.com/SasanLabs/VulnerableApp-facade/labels/good%20first%20issue
+stats:
+  issue-count: 14
+  last-updated: '2022-02-22T16:49:00Z'

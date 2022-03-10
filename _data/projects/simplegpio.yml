@@ -1,15 +1,14 @@
 ---
 name: SimpleGPIO
 desc: A simple, low-ceremony GPIO library
-site: https://github.com/stevedesmond-ca/SimpleGPIO
+site: https://github.com/ecoAPM/SimpleGPIO
 tags:
 - c#
 - ".net"
 - iot
 - gpio
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/SteveDesmond-ca/SimpleGPIO/labels/up-for-grabs
+  name: good first issue
+  link: https://github.com/ecoAPM/SimpleGPIO/labels/good%20first%20issue
 stats:
-  issue-count: 7
-  last-updated: '2021-04-12T01:47:16Z'
+  issue-count: 0

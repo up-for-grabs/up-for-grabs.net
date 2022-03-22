@@ -1,0 +1,10 @@
+name: seeking-maintainers.net
+desc: A list of projects looking for new maintainers
+site: https://seeking-maintainers.net
+tags:
+  - github
+  - typescript
+  - gatsby
+upforgrabs:
+  name: good first issue
+  link: https://github.com/garritfra/seeking-maintainers.net/labels/good%20first%20issue

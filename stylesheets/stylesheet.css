@@ -3,6 +3,32 @@
 /*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
+#view-mode
+{
+  position:fixed ;
+  width:55px ;
+  height : 55px ;
+  z-index: 999;
+  margin-left: 10px;
+}
+
+
+/* for light mode
+--body-back: #f9f9f9;
+  --body-color:#303030;;
+  --abs:#FFF ; */
+:root
+{
+  --body-back: #f9f9f9;
+  --body-color:#303030;
+  --box-shadow-color:rgba(0,0,0,0.2) ;
+  --abs:#FFF ;
+  --view-mode:true ;
+}
+/* for dark mode
+--body-back: #111111;
+  --body-color:#eeeded;
+  --abs:rgb(37, 37, 37) ; */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -34,8 +60,6 @@ ol, ul {
   list-style: none;
 }
 
-blockquote, q {
-}
 
 table {
   border-collapse: collapse;
@@ -50,8 +74,8 @@ html, body {
   height: 100%; }
 
 body {
-  background: #f9f9f9;
-  color: #303030;
+  background: var(--body-back);
+  color: var(--body-color);
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -83,7 +107,7 @@ h1 {
 }
 .block h1 .header-inside {
   padding: 2px 16px;
-  background: white;
+  background: var(--abs);
 }
 
 h2 {
@@ -148,7 +172,7 @@ img {
   right: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
-  color: #fff;
+  color: var(--abs);
   background: url('../images/blacktocat.png') #4499cc no-repeat 95% 50%;
   font-weight: 700;
   border-bottom-left-radius: 2px;
@@ -257,8 +281,8 @@ footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 100%;
-  max-width: 750px;
+  width: 90%;
+  /* max-width: 750px; */
   margin: 0 auto 0;
   position: relative; }
 .container:before, .container:after {
@@ -268,7 +292,7 @@ footer {
   clear: both; }
   
 #main-container {
-  background: #fff;
+  background: var(--abs);
   border-radius: 7px;
   margin: 0 auto 20px;
   border: 1px solid #eee;
@@ -436,7 +460,7 @@ th {
   font-family: 'Open Sans', sans-serif;
   padding: 10px;
   background: #373737;
-  color: #fff;
+  color: var(--abs);
  }
  
  td {
@@ -516,6 +540,18 @@ form {
   right: 0;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
+}
+
+.projects{
+  padding: 3em ;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.data-box{
+  box-shadow: 10px 10px 30px var(--box-shadow-color);
+  padding: 10px;
+  /* border: 1px solid var(--body-color) ; */
 }
 
 .projects, .projects td {

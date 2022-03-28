@@ -1,11 +1,15 @@
+---
 name: Helmet
 desc: Express.js security with HTTP headers
 site: https://helmetjs.github.io/
 tags:
-  - javascript
-  - express
-  - security
-  - http
+- javascript
+- express
+- security
+- http
 upforgrabs:
   name: good starter task
   link: https://github.com/helmetjs/helmet/labels/good%20starter%20task
+stats:
+  issue-count: 2
+  last-updated: '2022-03-25T12:03:33Z'

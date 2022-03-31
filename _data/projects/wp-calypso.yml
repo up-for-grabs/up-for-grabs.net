@@ -8,8 +8,8 @@ tags:
 - reactjs
 - redux
 upforgrabs:
-  name: good first issue
-  link: https://github.com/Automattic/wp-calypso/labels/good%20first%20issue
+  name: Good First Issue
+  link: https://github.com/Automattic/wp-calypso/labels/Good%20First%20Issue
 stats:
-  issue-count: 19
-  last-updated: '2021-05-10T09:07:44Z'
+  issue-count: 12
+  last-updated: '2022-02-17T12:32:42Z'

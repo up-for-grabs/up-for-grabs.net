@@ -15,7 +15,11 @@ if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
 
-define(['underscore'], (_) => {
+define(['underscore', 'tag-builder', 'project-ordering'], (
+  _,
+  TagBuilder,
+  orderAllProjects
+) => {
   const applyTagsFilter = function (projects, tagsArray, tags) {
     if (typeof tags === 'string') {
       tags = tags.split(',');
@@ -138,38 +142,6 @@ define(['underscore'], (_) => {
     return _.flatten(results, (arr1, arr2) => arr1.append(arr2));
   };
 
-  const TagBuilder = function () {
-    const _tagsMap = {};
-    let _orderedTagsMap = null;
-
-    this.addTag = function (tag, projectName) {
-      const tagLowerCase = tag.toLowerCase();
-      if (!_.has(_tagsMap, tagLowerCase)) {
-        _tagsMap[tagLowerCase] = {
-          name: tag,
-          frequency: 0,
-          projects: [],
-        };
-      }
-      const _entry = _tagsMap[tagLowerCase];
-      _entry.frequency += 1;
-      _entry.projects.push(projectName);
-    };
-
-    this.getTagsMap = function () {
-      // https://stackoverflow.com/questions/16426774/underscore-sortby-based-on-multiple-attributes
-      if (_orderedTagsMap == null) {
-        _orderedTagsMap = _(_tagsMap)
-          .chain()
-          .sortBy((tag, key) => key)
-          .sortBy((tag) => tag.frequency * -1)
-          .value();
-      }
-
-      return _orderedTagsMap;
-    };
-  };
-
   const extractTags = function (projectsData) {
     const tagBuilder = new TagBuilder();
     _.each(projectsData, (entry) => {
@@ -193,35 +165,8 @@ define(['underscore'], (_) => {
     const namesMap = {};
     const labelsMap = {};
 
-    const canStoreOrdering =
-      JSON &&
-      sessionStorage &&
-      sessionStorage.getItem &&
-      sessionStorage.setItem;
-    let ordering = null;
-    if (canStoreOrdering) {
-      ordering = sessionStorage.getItem('projectOrder');
-      if (ordering) {
-        ordering = JSON.parse(ordering);
-
-        // This prevents anyone's page from crashing if a project is removed
-        if (ordering.length !== _projectsData.projects.length) {
-          ordering = null;
-        }
-      }
-    }
-
-    if (!ordering) {
-      ordering = _.shuffle(_.range(_projectsData.projects.length));
-      if (canStoreOrdering) {
-        sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
-      }
-    }
-
-    const allProjects = _.map(ordering, (i) => _projectsData.projects[i]);
-
-    const projects = _.filter(allProjects, (project) =>
-      project.stats ? project.stats['issue-count'] > 0 : true
+    const projects = orderAllProjects(_projectsData.projects, (length) =>
+      _.shuffle(_.range(length))
     );
 
     _.each(_projectsData.tags, (tag) => {

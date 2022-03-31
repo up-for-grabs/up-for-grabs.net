@@ -71,7 +71,7 @@ current_repo = ENV['GITHUB_REPOSITORY']
 client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
 prs = client.pulls current_repo
 
-found_pr = prs.find { |pr| pr.title == 'Updated project stats' && pr.user.login == 'github-actions[bot]' }
+found_pr = prs.find { |pr| pr.title == 'Updated project stats' && pr.user.login == 'shiftbot' }
 
 if found_pr
   puts "There is a current PR open to update stats ##{found_pr.number} - review and merge that before we go again"
@@ -92,8 +92,8 @@ clean = true
 branch_name = Time.now.strftime('updated-stats-%Y%m%d')
 
 Dir.chdir(root_directory) do
-  system('git config --global user.name "github-actions"')
-  system('git config --global user.email "github-actions@users.noreply.github.com"')
+  system('git config --global user.name "shiftbot"')
+  system('git config --global user.email "12331315+shiftbot@users.noreply.github.com"')
 
   system("git remote set-url origin 'https://x-access-token:#{ENV['GITHUB_TOKEN']}@github.com/#{current_repo}.git'")
 

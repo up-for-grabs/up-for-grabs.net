@@ -1,0 +1,18 @@
+---
+name: Animations
+desc: >-
+  An open source collection of animations, from loaders, to menus, and scroll transitions, and anything
+  in between
+site: https://animations.gq
+tags:
+- css
+- animation
+- html
+- loader
+- transitions
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/UsmanAhmadSaeed/Animations/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2021-11-13T14:24:08Z'

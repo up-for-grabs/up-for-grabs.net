@@ -8,8 +8,8 @@ tags:
 - unitystation
 - game
 upforgrabs:
-  name: Good-First-Issue
-  link: https://github.com/unitystation/unitystation/labels/Good-First-Issue
+  name: Good First Issue
+  link: https://github.com/unitystation/unitystation/labels/Good%20First%20Issue
 stats:
-  issue-count: 16
-  last-updated: '2020-06-02T12:28:06Z'
+  issue-count: 58
+  last-updated: '2022-03-05T13:17:23Z'

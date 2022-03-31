@@ -1,0 +1,10 @@
+name: Cherrybomb
+desc: Stop half-done API specifications - Cherrybomb is a CLI tool that helps you avoid undefined user behaviour by validating your API specifications.
+site: https://github.com/blst-security/cherrybomb
+tags:
+- api-security
+- rust
+- cli
+upforgrabs:
+  name: Contributors welcome
+  link: https://github.com/blst-security/cherrybomb/labels/contributors%20welcome

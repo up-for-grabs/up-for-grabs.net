@@ -1,0 +1,17 @@
+---
+name: Owasp ZAP Fileupload Addon
+desc: OWASP ZAP add-on for finding vulnerabilities in File Upload functionality.
+site: https://github.com/SasanLabs/owasp-zap-fileupload-addon
+tags:
+- java
+- owasp-zap
+- dast
+- scan-rule
+- fileupload
+- scanner
+upforgrabs:
+  name: good first issue
+  link: https://github.com/SasanLabs/owasp-zap-fileupload-addon/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2022-02-20T13:00:32Z'

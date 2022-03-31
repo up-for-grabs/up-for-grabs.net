@@ -1,0 +1,19 @@
+---
+name: CharlesCD
+desc: >-
+  CharlesCD is an open source tool that makes deployments more agile, continuous, and safe, which allows
+  development teams to perform hypothesis validations with a specific group of users, simultaneously.
+site: https://charlescd.io/
+tags:
+- deploy
+- circle-deploy
+- kubernetes
+- pipeline
+- ci
+- cd
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ZupIT/charlescd/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2021-10-11T13:02:18Z'

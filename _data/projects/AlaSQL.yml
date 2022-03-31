@@ -11,7 +11,7 @@ tags:
 - meteor
 upforgrabs:
   name: Help wanted
-  link: https://github.com/agershun/alasql/labels/Help%20wanted
+  link: https://github.com/AlaSQL/alasql/labels/Help%20wanted
 stats:
-  issue-count: 127
-  last-updated: '2021-07-08T10:47:28Z'
+  issue-count: 133
+  last-updated: '2022-02-23T12:13:49Z'

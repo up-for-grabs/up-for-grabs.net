@@ -1,9 +1,9 @@
 name: Catima
-desc:  A Loyalty Card & Ticket Manager for Android 
-site: https://thelastproject.github.io/Catima/
+desc: A Loyalty Card & Ticket Manager for Android
+site: https://catima.app/
 tags:
   - android
   - java
 upforgrabs:
   name: good first issue
-  link: https://github.com/TheLastProject/Catima/labels/good%20first%20issue
+  link: https://github.com/CatimaLoyalty/Android/labels/good%20first%20issue

@@ -1,0 +1,20 @@
+---
+name: ToolJet
+desc: "ToolJet is an open-source low-code platform for building and deploying internal tools with minimal
+  engineering efforts \U0001F680"
+site: https://tooljet.io/
+tags:
+- react-js
+- nest-js
+- node-js
+- javascript
+- typescript
+- web
+- internal-tools
+- low-code
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ToolJet/ToolJet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+stats:
+  issue-count: 23
+  last-updated: '2022-03-21T07:50:35Z'

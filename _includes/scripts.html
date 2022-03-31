@@ -36,6 +36,13 @@
     <div class="data-box" class="<% if ( project.stats ) { %>counted<% } %>">
     <div >
        <div colspan="2" class="title">
+  <table class="projects">
+    <% let count=0 %>
+   <% _.each(projects, function(project) { %>
+    <% count= count+1%>
+    <tbody class="<% if ( project.stats ) { %>counted<% } %>">
+    <tr>
+       <td colspan="2" class="title">
            <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
        </div>
       </div>
@@ -73,6 +80,7 @@
   </div>
    <% }) %>
   </div>
+   </table>
    <% if(count==0) { %>
     <p style="font-size: 1.5em;font-weight: 600;line-height: 30px;">No projects found with this description...<p>
     <%} %>

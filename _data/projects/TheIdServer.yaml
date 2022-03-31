@@ -1,6 +1,6 @@
 name: TheIdServer
 desc: OpenID/Connect, OAuth2 and WS-Federation server based on IdentityServer4 or Duende IdentityServer with its admin UI
-site: https://github.com/Aguafrommars/TheIdServer#readme
+site: https://github.com/Aguafrommars/TheIdServer
 tags:
   - .net
   - c#

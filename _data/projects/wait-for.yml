@@ -1,0 +1,10 @@
+name: wait-for
+desc: Super simple command orchestration with waiting
+site: https://github.com/dnnrly/wait-for
+tags:
+- go
+- cli
+- docker
+upforgrabs:
+  name: help wanted
+  link: https://github.com/dnnrly/wait-for/labels/help%20wanted

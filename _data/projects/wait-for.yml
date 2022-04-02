@@ -1,5 +1,5 @@
 name: wait-for
-desc: Super simple command orchestration with waiting
+desc: Super simple tool to help with orchestration of commands by waiting on networking resources.
 site: https://github.com/dnnrly/wait-for
 tags:
 - go

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 711050157c314d14de72354a241f04a8b8aa5cdb
+  revision: 51005c7ab5c7826ce8f0216430e6ac94fe9e839f
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -12,7 +12,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.4.6)
+    activesupport (6.0.4.7)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -270,7 +270,7 @@ GEM
     octokit (4.22.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
-    parallel (1.21.0)
+    parallel (1.22.1)
     parser (3.1.1.0)
       ast (~> 2.4.1)
     pathutil (0.16.2)
@@ -284,7 +284,7 @@ GEM
     regexp_parser (2.2.1)
     rexml (3.2.5)
     rouge (3.26.0)
-    rubocop (1.26.0)
+    rubocop (1.26.1)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)

@@ -22,23 +22,23 @@
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.17.8",
     "@types/jest": "^27.4.1",
     "@types/underscore": "^1.11.4",
     "@types/showdown": "^1.9.4",
     "@types/node": "^16",
     "babel-jest": "^27.5.1",
-    "eslint": "^8.11.0",
+    "eslint": "^8.12.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-jest": "^26.1.3",
     "jest": "^27.5.1",
     "jest-fetch-mock": "^3.0.3",
     "jest-localstorage-mock": "^2.4.19",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.1",
     "promise-polyfill": "^8.2.3",
-    "typescript": "^4.6.2",
+    "typescript": "^4.6.3",
     "underscore": "^1.13.2",
     "whatwg-fetch": "^3.6.2"
   }

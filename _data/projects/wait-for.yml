@@ -1,3 +1,4 @@
+---
 name: wait-for
 desc: Super simple tool to help with orchestration of commands by waiting on networking resources.
 site: https://github.com/dnnrly/wait-for
@@ -8,3 +9,6 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/dnnrly/wait-for/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2022-04-02T16:57:54Z'

@@ -1,12 +1,16 @@
+---
 name: Interface X
 desc: Commerce Search & Discovery web frontend components
 site: https://docs.empathy.co/develop-empathy-platform/build-search-ui/
 tags:
-  - vue
-  - typescript
-  - search
-  - ecommerce
-  - frontend
+- vue
+- typescript
+- search
+- ecommerce
+- frontend
 upforgrabs:
   name: help wanted
   link: https://github.com/empathyco/x/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2022-03-30T09:14:58Z'

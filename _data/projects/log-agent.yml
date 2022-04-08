@@ -1,0 +1,12 @@
+name: LogAgent
+desc: LogAgent is java deamon process that periodically sends running log files to end point storage such as AWS S3, GCP GCS etc.
+site: https://github.com/sagar-arora/LogAgent
+tags:
+  - java
+  - logging
+  - aws
+  - gcp
+  - azure
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sagar-arora/LogAgent/labels/good%20first%20issue

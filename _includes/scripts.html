@@ -29,18 +29,18 @@
     <% }) %>
     </ul>
   </div>
-  <table class="projects">
+  <div class="projects">
     <% let count=0 %>
-   <% _.each(projects, function(project) { %>
+    <% _.each(projects, function(project) { %>
     <% count= count+1%>
-    <tbody class="<% if ( project.stats ) { %>counted<% } %>">
-    <tr>
-       <td colspan="2" class="title">
+    <div class="data-box" class="<% if ( project.stats ) { %>counted<% } %>">
+      <div>
+        <div colspan="2" class="title">
            <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
-       </td>
-    </tr>
-    <tr>
-       <td class="details">
+        </div>
+    </div>
+  <div>
+         <div class="details">
         <p class="label">
           <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1">
             <%-project.upforgrabs.name %>
@@ -55,8 +55,8 @@
             <% } %>
           </a>
         </p>
-       </td>
-       <td class="details">
+      </div>
+      <div class="details">
            <% if (project.desc) { %>
            <span class="desc"><%=project.desc%></span>
            <% } %>
@@ -67,11 +67,11 @@
                <% }) %>
            </p>
            <% } %>
-       </td>
-    </tr>
-    </tbody>
+          </div>
+        </div>
+      </div>
    <% }) %>
-   </table>
+  </div>
    <% if(count==0) { %>
     <p style="font-size: 1.5em;font-weight: 600;line-height: 30px;">No projects found with this description...<p>
     <%} %>

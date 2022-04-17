@@ -21,6 +21,7 @@ MeyerWeb Reset
 {
   --body-back: #f9f9f9;
   --body-color:#303030;
+  --box-shadow-color:rgba(0,0,0,0.2) ;
   --abs:#FFF ;
   --view-mode:true ;
 }
@@ -280,8 +281,8 @@ footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 100%;
-  max-width: 750px;
+  width: 90%;
+  /* max-width: 750px; */
   margin: 0 auto 0;
   position: relative; }
 .container:before, .container:after {
@@ -541,6 +542,18 @@ form {
   background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
+.projects{
+  padding: 3em ;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.data-box{
+  box-shadow: 10px 10px 30px var(--box-shadow-color);
+  padding: 10px;
+  /* border: 1px solid var(--body-color) ; */
+}
+
 .projects, .projects td {
   border: 0 none;
 }
@@ -672,4 +685,3 @@ form {
     top: 0;
   }
 }
-

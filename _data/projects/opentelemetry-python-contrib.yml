@@ -23,5 +23,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/opentelemetry-python-contrib/labels/help%20wanted
 stats:
-  issue-count: 81
-  last-updated: '2022-04-11T17:50:43Z'
+  issue-count: 82
+  last-updated: '2022-04-17T15:48:38Z'

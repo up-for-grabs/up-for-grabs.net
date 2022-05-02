@@ -22,7 +22,7 @@
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.17.10",
     "@types/jest": "^27.4.1",
     "@types/underscore": "^1.11.4",
     "@types/showdown": "^2.0.0",

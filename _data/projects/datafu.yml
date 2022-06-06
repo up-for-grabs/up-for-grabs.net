@@ -1,0 +1,16 @@
+name: Apache DataFu
+desc: DataFu is a collection of libraries for working with large-scale data in Hadoop.
+site: http://datafu.apache.org/
+tags:
+- scala
+- apache
+- pig
+- java
+- python
+- spark
+- hadoop
+- hive
+- gradle
+upforgrabs:
+  name: up for grabs
+  link: https://issues.apache.org/jira/issues/?jql=project%20%3D%20datafu%20AND%20status%20%3D%20Open%20AND%20labels%20%3D%20up-for-grabs%20ORDER%20BY%20created%20DESC

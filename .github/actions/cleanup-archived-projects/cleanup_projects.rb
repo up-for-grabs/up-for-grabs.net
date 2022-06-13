@@ -8,7 +8,11 @@ require 'pathname'
 require 'up_for_grabs_tooling'
 
 def existing_pull_request?(current_repo)
-  client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
+  token = ENV.fetch('GITHUB_TOKEN', nil)
+
+  return false unless token
+
+  client = Octokit::Client.new(access_token: token)
   prs = client.pulls current_repo
 
   found_pr = prs.find { |pr| pr.title == 'Remove projects detected as deprecated' && pr.user.login == 'shiftbot' }
@@ -22,7 +26,9 @@ def existing_pull_request?(current_repo)
 end
 
 def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
-  client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
+  token = ENV.fetch('GITHUB_TOKEN', nil)
+
+  client = Octokit::Client.new(access_token: token)
 
   list = ''
 
@@ -41,7 +47,7 @@ def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
     system('git config --global user.name "shiftbot"')
     system('git config --global user.email "12331315+shiftbot@users.noreply.github.com"')
 
-    system("git remote set-url origin 'https://x-access-token:#{ENV['GITHUB_TOKEN']}@github.com/#{current_repo}.git'")
+    system("git remote set-url origin 'https://x-access-token:#{token}@github.com/#{current_repo}.git'")
 
     clean = system('git diff --quiet > /dev/null')
 
@@ -80,13 +86,16 @@ def verify_project(project)
   { project: project, deprecated: false }
 end
 
-current_repo = ENV['GITHUB_REPOSITORY']
+current_repo = ENV.fetch('GITHUB_REPOSITORY', nil)
+
+return unless current_repo
 
 puts "Inspecting projects files for '#{current_repo}'"
 
 start = Time.now
 
-root = ENV['GITHUB_WORKSPACE']
+root = ENV.fetch('GITHUB_WORKSPACE', nil)
+return unless root
 
 return if existing_pull_request?(current_repo)
 
@@ -120,8 +129,10 @@ deprecated_projects.each do |r|
   puts "Project is considered deprecated: '#{r[:project].relative_path}' - reason '#{r[:reason]}'"
 end
 
+apply_changes = ENV.fetch('APPLY_CHANGES', false)
+
 if deprecated_projects.any?
-  cleanup_deprecated_projects(root, current_repo, deprecated_projects, ENV['APPLY_CHANGES'])
+  cleanup_deprecated_projects(root, current_repo, deprecated_projects, apply_changes)
 else
   puts 'No deprecated projects found...'
 end

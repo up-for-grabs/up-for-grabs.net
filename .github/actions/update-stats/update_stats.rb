@@ -57,18 +57,17 @@ def update(project, apply_changes: false)
   project.write_yaml(obj)
 end
 
-repo = ENV['GITHUB_REPOSITORY']
+current_repo = ENV.fetch('GITHUB_REPOSITORY', nil)
 
-puts "Inspecting projects files for '#{repo}'"
+puts "Inspecting projects files for '#{current_repo}'"
 
 start = Time.now
 
-root_directory = ENV['GITHUB_WORKSPACE']
-apply_changes = ENV['APPLY_CHANGES']
+root_directory = ENV.fetch('GITHUB_WORKSPACE', nil)
+apply_changes = ENV.fetch('APPLY_CHANGES', false)
+token = ENV.fetch('GITHUB_TOKEN', nil)
 
-current_repo = ENV['GITHUB_REPOSITORY']
-
-client = Octokit::Client.new(access_token: ENV['GITHUB_TOKEN'])
+client = Octokit::Client.new(access_token: token)
 prs = client.pulls current_repo
 
 found_pr = prs.find { |pr| pr.title == 'Updated project stats' && pr.user.login == 'shiftbot' }
@@ -95,7 +94,7 @@ Dir.chdir(root_directory) do
   system('git config --global user.name "shiftbot"')
   system('git config --global user.email "12331315+shiftbot@users.noreply.github.com"')
 
-  system("git remote set-url origin 'https://x-access-token:#{ENV['GITHUB_TOKEN']}@github.com/#{current_repo}.git'")
+  system("git remote set-url origin 'https://x-access-token:#{token}@github.com/#{current_repo}.git'")
 
   clean = system('git diff --quiet > /dev/null')
 

@@ -1,5 +1,5 @@
 name: Multy
-desc: Deploy multi cloud infrastructure. Write cloud-agnostic config deployed across multiple clouds 
+desc: Multy is a tool that enables developers to write cloud-agnostic configuration to deploy and switch to any cloud provider 
 site: https://github.com/multycloud/multy
 tags:
   - go

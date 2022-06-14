@@ -1,0 +1,14 @@
+name: Multy
+desc: Deploy multi cloud infrastructure. Write cloud-agnostic config deployed across multiple clouds 
+site: https://github.com/multycloud/multy
+tags:
+  - go
+  - cloud
+  - aws
+  - azure
+  - terraform
+  - infrastructure-as-code
+  - multi-cloud
+upforgrabs:
+  name: good first issue
+  link: https://github.com/multycloud/multy/issues

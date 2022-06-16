@@ -1,0 +1,11 @@
+name: SmartDoor Project
+desc: A interesting project i am working on - knock activated door system
+site: https://github.com/nexuspcs/SmartDoor
+tags:
+  - educational
+  - interesting
+  - arduino
+  - project
+upforgrabs:
+  name: help wanted
+  link: https://github.com/nexuspcs/SmartDoor/labels/help%20wanted

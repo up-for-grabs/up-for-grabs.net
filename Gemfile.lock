@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 7928a88718d17557d496309e58663d258004cd71
+  revision: b9779a37a419eaab17f8b09793f2ab1abe5c4f4a
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -239,7 +239,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.15.0)
+    minitest (5.16.0)
     nokogiri (1.13.6)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -303,7 +303,7 @@ GEM
     unicode-display_width (2.1.0)
     uri_template (0.7.0)
     webrick (1.7.0)
-    zeitwerk (2.5.4)
+    zeitwerk (2.6.0)
 
 PLATFORMS
   ruby

@@ -37,7 +37,7 @@
     "jest-environment-jsdom": "^28.1.1",
     "jest-fetch-mock": "^3.0.3",
     "jest-localstorage-mock": "^2.4.21",
-    "prettier": "^2.6.2",
+    "prettier": "^2.7.1",
     "promise-polyfill": "^8.2.3",
     "typescript": "^4.7.4",
     "underscore": "^1.13.4",

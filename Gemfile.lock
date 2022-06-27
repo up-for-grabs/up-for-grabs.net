@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: b9779a37a419eaab17f8b09793f2ab1abe5c4f4a
+  revision: 9068ee06789d53b5c7020875e46269b6b6dfd37a
   branch: main
   specs:
     up_for_grabs_tooling (0.0.6)
@@ -101,7 +101,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (>= 3.0, < 5.0)
       typhoeus (~> 1.3)
-    graphql (2.0.9)
+    graphql (2.0.11)
     graphql-client (0.18.0)
       activesupport (>= 3.0)
       graphql
@@ -239,7 +239,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.16.0)
+    minitest (5.16.1)
     nokogiri (1.13.6)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)

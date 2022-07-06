@@ -1,6 +1,6 @@
 name: Instalution
 desc: Instalution aims to be a revolutionary solution to Instagram.
-site: https://github.com/groovenectar/instalution
+site: https://github.com/instalution/frontend
 tags:
   - artist
   - media
@@ -9,4 +9,4 @@ tags:
   - developer-network
 upforgrabs:
   name: instalution
-  link: https://github.com/groovenectar/instalution#short-list-of-needs--todos
+  link: https://github.com/instalution/frontend/blob/master/README-en.md#short-list-of-needs--todos

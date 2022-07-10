@@ -26,6 +26,8 @@
     "@types/jest": "^28.1.3",
     "@types/underscore": "^1.11.4",
     "@types/showdown": "^2.0.0",
+    "@types/node": "^16",
+    "babel-jest": "^28.1.2",
     "@types/node": "^18",
     "babel-jest": "^28.1.1",
     "eslint": "^8.18.0",

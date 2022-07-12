@@ -6,7 +6,7 @@ requirejs.config({
     // external scripts hosted on CDN
     underscore:
       '//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.2/underscore-min',
-    jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min',
+    jquery: '//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min',
     sammy: '//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min',
     chosen: '//cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min',
     showdown: '//cdnjs.cloudflare.com/ajax/libs/showdown/2.0.0/showdown.min',

@@ -9,7 +9,7 @@ tags:
 - im
 upforgrabs:
   name: good first issue
-  link: https://github.com/mellium/xmpp/labels/good%20first%20issue
+  link: https://codeberg.org/mellium/xmpp/issues?labels=57316
 stats:
   issue-count: 13
   last-updated: '2022-06-05T13:08:55Z'

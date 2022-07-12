@@ -51,6 +51,7 @@ Thanks goes to these wonderful people who have improved the code and documentati
     <td align="center"><a href="https://github.com/XxZhang2017"><img src="https://avatars2.githubusercontent.com/u/26696836?v=4?s=100" width="100px;" alt=""/><br /><sub><b>XxZhang2017</b></sub></a><br /><a href="#content-XxZhang2017" title="Content">🖋</a> <a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=XxZhang2017" title="Code">💻</a></td>
     <td align="center"><a href="https://chadwhitacre.com/"><img src="https://avatars2.githubusercontent.com/u/134455?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chad Whitacre</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=chadwhitacre" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Jai2305"><img src="https://avatars.githubusercontent.com/u/47395196?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jai </b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=Jai2305" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jalaniz1"><img src="https://avatars.githubusercontent.com/u/1664815?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Alaniz</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=jalaniz1" title="Code">💻</a></td>
   </tr>
 </table>
 

@@ -1,5 +1,26 @@
 <script type="text/html" id="projects-panel-template">
   <div class="filters-panel cf">
+      <h5><label for="project">Filter by last updated:</label></h5>
+      <div class="radio-btn-row">
+        <div class="radio-btn-wrapper">
+          <button id="1week" class="radio-btn" type="button">1 Week</button>
+        </div>
+        <div class="radio-btn-wrapper">
+          <button id="1month" class="radio-btn" type="button">1 Month</button>
+        </div>
+        <div class="radio-btn-wrapper">
+          <button id="6months" class="radio-btn" type="button">6 Months</button>
+        </div>
+        <div class="radio-btn-wrapper">
+          <button id="1year" class="radio-btn" type="button">1 Year</button>
+        </div>
+        <div class="radio-btn-wrapper">
+          <button id="2years" class="radio-btn" type="button">2 Years</button>
+        </div>
+      </div>
+  </div>
+
+  <div class="filters-panel cf">
     <h5><label for="project">Filter by name:</label></h5>
     <select class="names-filter" id="project" multiple data-placeholder="Select a project..." >
       <% _.each(names, function(entry, key){ %>

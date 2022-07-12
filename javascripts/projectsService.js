@@ -93,23 +93,21 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
   /*
    * The function here is used for front end filtering when given
    * selecting certain projects. It ensures that only the selected projects
-   * are returned. If none of the dates was added to the filter or the project.stats 
+   * are returned. If none of the dates was added to the filter or the project.stats
    * does not contain the 'last-updated' stat
    * it fallsback to show all the projects.
    * @param Array projects : An array having all the Projects in _data
    * @param dateFilter : This is a string that is correlated to a date in the past i.e, 6months = 6 months in the past.
    */
 
-
   const applyDateFilter = function (projects, dateFilter) {
-    let date = getDate(dateFilter);
-    
+    const date = getDate(dateFilter);
     if (date === null) {
       return projects;
     }
 
     function checkDate(project) {
-      if  (!project.stats || !project.stats['last-updated']) {
+      if (!project.stats || !project.stats['last-updated']) {
         return true;
       }
 
@@ -119,34 +117,33 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
       return date <= lastUpdated;
     }
 
-    let filteredProjects = projects.filter(checkDate); 
-    return filteredProjects;
-  }
+    return projects.filter(checkDate);
+  };
 
   const getDate = function (value) {
-    let date = new Date();
-    switch(value) {
-      case "1week":
+    const date = new Date();
+    switch (value) {
+      case '1week':
         date.setDate(date.getDate() - 7);
         break;
-      case "1month": 
+      case '1month':
         date.setMonth(date.getMonth() - 1);
         break;
-      case "6months": 
+      case '6months':
         date.setMonth(date.getMonth() - 6);
         break;
-      case "1year": 
+      case '1year':
         date.setFullYear(date.getFullYear() - 1);
         break;
-      case "2years": 
+      case '2years':
         date.setFullYear(date.getFullYear() - 2);
         break;
       default:
         return null;
-      }
-      return date;
-  }
-  
+    }
+    return date;
+  };
+
   /*
    * The function here is used for front end filtering when given
    * selecting certain projects. It ensures that only the selected projects
@@ -250,7 +247,7 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
         );
       }
       if (date) {
-        filteredProjects = applyDateFilter(filteredProjects, date) 
+        filteredProjects = applyDateFilter(filteredProjects, date);
       }
       if (labels && labels.length) {
         filteredProjects = applyLabelsFilter(

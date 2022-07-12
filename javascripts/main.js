@@ -79,9 +79,11 @@ define([
         labels: projectService.getLabels(),
         selectedLabels: labels,
       })
-      );
-    date = date || "invalid"; 
-    projectsPanel.find('button.radio-btn[id=' + date +']').addClass('radio-btn-selected');
+    );
+    date = date || 'invalid';
+    projectsPanel
+      .find(`button.radio-btn[id=${date}]`)
+      .addClass('radio-btn-selected');
     projectsPanel
       .find('select.tags-filter')
       .chosen({
@@ -113,26 +115,27 @@ define([
           'names',
           encodeURIComponent($(this).val() || '')
         );
-      });;
-      //Logic for checking/unchecking date-buttons
-      projectsPanel
-      .find('button.radio-btn').each( function(key, value) {
-          $(this).click(function(e) {  
-            let id = this.id;
-            let currentSelected = projectsPanel.find('button.radio-btn-selected')[0];
-            
-            //uncheck
-            if (currentSelected && currentSelected.id == id) {
-              id = "";
-            }
+      });
+    // Logic for checking/unchecking date-buttons
+    projectsPanel.find('button.radio-btn').each(function () {
+      $(this).click(function () {
+        let { id } = this;
+        const currentSelected = projectsPanel.find(
+          'button.radio-btn-selected'
+        )[0];
 
-            location.href = updateQueryStringParameter(
-              getFilterUrl(),
-              'date',
-              encodeURIComponent(id || '')
-              );
-          });
-        });
+        // Uncheck
+        if (currentSelected && currentSelected.id == id) {
+          id = '';
+        }
+
+        location.href = updateQueryStringParameter(
+          getFilterUrl(),
+          'date',
+          encodeURIComponent(id || '')
+        );
+      });
+    });
 
     projectsPanel
       .find('select.labels-filter')

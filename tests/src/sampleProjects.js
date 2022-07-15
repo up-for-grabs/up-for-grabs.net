@@ -17,6 +17,10 @@ module.exports = [
       name: 'Jump In',
       link: 'https://github.com/Glimpse/Glimpse/issues?labels=Jump+In',
     },
+    stats: {
+      'issue-count': 2,
+      'last-updated': '2020-05-26T15:25:34Z',
+    },
   },
   {
     name: 'LibGit2Sharp',

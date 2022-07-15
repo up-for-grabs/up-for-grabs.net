@@ -64,12 +64,12 @@ define([
     return `about ${Math.round(elapsed / msPerYear)} years ago`;
   }
 
-  const renderProjects = function (projectService, tags, names, labels) {
+  const renderProjects = function (projectService, tags, names, labels, date) {
     const allTags = projectService.getTags();
 
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectService.get(tags, names, labels),
+        projects: projectService.get(tags, names, labels, date),
         relativeTime,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
@@ -80,7 +80,10 @@ define([
         selectedLabels: labels,
       })
     );
-
+    date = date || 'invalid';
+    projectsPanel
+      .find(`button.radio-btn[id=${date}]`)
+      .addClass('radio-btn-selected');
     projectsPanel
       .find('select.tags-filter')
       .chosen({
@@ -113,6 +116,26 @@ define([
           encodeURIComponent($(this).val() || '')
         );
       });
+    // Logic for checking/unchecking date-buttons
+    projectsPanel.find('button.radio-btn').each(function () {
+      $(this).click(function () {
+        let { id } = this;
+        const currentSelected = projectsPanel.find(
+          'button.radio-btn-selected'
+        )[0];
+
+        // Uncheck
+        if (currentSelected && currentSelected.id == id) {
+          id = '';
+        }
+
+        location.href = updateQueryStringParameter(
+          getFilterUrl(),
+          'date',
+          encodeURIComponent(id || '')
+        );
+      });
+    });
 
     projectsPanel
       .find('select.labels-filter')
@@ -315,7 +338,8 @@ define([
           const labels = prepareForHTML(getParameterByName('labels'));
           const names = prepareForHTML(getParameterByName('names'));
           const tags = prepareForHTML(getParameterByName('tags'));
-          renderProjects(projectsSvc, tags, names, labels);
+          const date = getParameterByName('date');
+          renderProjects(projectsSvc, tags, names, labels, date);
         });
 
         this.get('/', () => {

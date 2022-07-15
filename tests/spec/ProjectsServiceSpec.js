@@ -29,6 +29,25 @@ describe('ProjectsService', () => {
           expect(project[1]).toBe(undefined);
         });
 
+        it('returns correct projects when date is set to 1 week', () => {
+          const projects = projectsService.get(null, null, null, '1week');
+
+          expect(projects).toHaveLength(1);
+
+          const projectNames = projects.map((p) => p.name);
+          expect(projectNames).toContain('LibGit2Sharp'); // Returns beacuse libGit2Sharp is missing stats attribute
+        });
+
+        it('returns correct projects when date is set "all"', () => {
+          const projects = projectsService.get(null, null, null, 'all');
+
+          expect(projects).toHaveLength(2);
+
+          const projectNames = projects.map((p) => p.name);
+          expect(projectNames).toContain('Glimpse');
+          expect(projectNames).toContain('LibGit2Sharp'); // Returns beacuse libGit2Sharp is missing stats attribute
+        });
+
         it('all projects returned when given falsy values', () => {
           const projects = projectsService.get(null, true, undefined);
 

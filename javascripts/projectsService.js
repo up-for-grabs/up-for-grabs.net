@@ -93,6 +93,60 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
   /*
    * The function here is used for front end filtering when given
    * selecting certain projects. It ensures that only the selected projects
+   * are returned. If none of the dates was added to the filter or the project.stats
+   * does not contain the 'last-updated' stat
+   * it fallsback to show all the projects.
+   * @param Array projects : An array having all the Projects in _data
+   * @param dateFilter : This is a string that is correlated to a date in the past i.e, 6months = 6 months in the past.
+   */
+
+  const applyDateFilter = function (projects, dateFilter) {
+    const date = getDate(dateFilter);
+    if (date === null) {
+      return projects;
+    }
+
+    function checkDate(project) {
+      if (!project.stats || !project.stats['last-updated']) {
+        return true;
+      }
+
+      let lastUpdated = project.stats['last-updated'];
+      lastUpdated = new Date(lastUpdated);
+
+      return date <= lastUpdated;
+    }
+
+    return projects.filter(checkDate);
+  };
+
+  const getDate = function (value) {
+    const date = new Date();
+    switch (value) {
+      case '1week':
+        date.setDate(date.getDate() - 7);
+        break;
+      case '1month':
+        date.setMonth(date.getMonth() - 1);
+        break;
+      case '6months':
+        date.setMonth(date.getMonth() - 6);
+        break;
+      case '1year':
+        date.setFullYear(date.getFullYear() - 1);
+        break;
+      case '2years':
+        date.setFullYear(date.getFullYear() - 2);
+        break;
+      default:
+        return null;
+    }
+    return date;
+  };
+
+  /*
+   * The function here is used for front end filtering when given
+   * selecting certain projects. It ensures that only the selected projects
    * are returned. If none of the labels was added to the filter,
    * it fallsback to show all the projects.
    * @param Array projects : An array having all the Projects in _data
@@ -183,7 +237,7 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
       labelsMap[project.upforgrabs.name.toLowerCase()] = project.upforgrabs;
     });
 
-    this.get = function (tags, names, labels) {
+    this.get = function (tags, names, labels, date) {
       let filteredProjects = projects;
       if (names && names.length) {
         filteredProjects = applyNamesFilter(
@@ -191,6 +245,9 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
           this.getNames(),
           names
         );
+      }
+      if (date) {
+        filteredProjects = applyDateFilter(filteredProjects, date);
       }
       if (labels && labels.length) {
         filteredProjects = applyLabelsFilter(

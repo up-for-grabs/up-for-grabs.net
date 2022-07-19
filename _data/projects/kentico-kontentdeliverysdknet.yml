@@ -14,7 +14,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/kontent-delivery-sdk-net/labels/up-for-grabs
+  link: https://github.com/kontent-ai/kontent-delivery-sdk-net/labels/up-for-grabs
 stats:
   issue-count: 8
   last-updated: '2021-02-08T13:12:08Z'

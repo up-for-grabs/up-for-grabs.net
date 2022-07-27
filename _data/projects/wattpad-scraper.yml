@@ -1,4 +1,4 @@
-name: Your Project Name Here
+name: wattpad-scraper
 desc: Easy to use wattpad scraper
 site: https://github.com/shhossain/wattpad-scraper
 tags:
@@ -9,4 +9,4 @@ tags:
   - test
 upforgrabs:
   name: help wanted
-  link: https://github.com/shhossain/wattpad-scraper/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+  link: https://github.com/shhossain/wattpad-scraper/labels/help%20wanted

@@ -1,0 +1,12 @@
+name: wattpad-scraper
+desc: Easy to use wattpad scraper
+site: https://github.com/shhossain/wattpad-scraper
+tags:
+  - python
+  - scraper
+  - pdf
+  - epub
+  - wattpad
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/shhossain/wattpad-scraper/labels/up%20for%20grabs

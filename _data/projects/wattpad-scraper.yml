@@ -6,7 +6,6 @@ tags:
   - scraper
   - pdf
   - epub
-  - wattpad
 upforgrabs:
-  name: help wanted
-  link: https://github.com/shhossain/wattpad-scraper/labels/help%20wanted
+  name: up-for-grabs
+  link: https://github.com/shhossain/wattpad-scraper/labels/up-for-grabs

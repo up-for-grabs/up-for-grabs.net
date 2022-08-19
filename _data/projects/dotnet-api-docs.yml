@@ -6,7 +6,7 @@ tags:
 - ".net"
 - documentation
 upforgrabs:
-  name: help wanted
+  name: help%20wanted
   link: https://github.com/dotnet/dotnet-api-docs/labels/help%20wanted
 stats:
   issue-count: 51

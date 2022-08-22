@@ -53,6 +53,9 @@ Thanks goes to these wonderful people who have improved the code and documentati
     <td align="center"><a href="https://github.com/Jai2305"><img src="https://avatars.githubusercontent.com/u/47395196?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jai </b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=Jai2305" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jalaniz1"><img src="https://avatars.githubusercontent.com/u/1664815?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Alaniz</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=jalaniz1" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="http://docs.microsoft.com/dotnet"><img src="https://avatars.githubusercontent.com/u/24882762?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Genevieve Warren</b></sub></a><br /><a href="https://github.com/up-for-grabs/up-for-grabs.net/commits?author=gewarren" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->

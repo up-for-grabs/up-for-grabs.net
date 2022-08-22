@@ -131,6 +131,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "gewarren",
+      "name": "Genevieve Warren",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24882762?v=4",
+      "profile": "http://docs.microsoft.com/dotnet",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

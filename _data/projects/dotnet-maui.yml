@@ -4,7 +4,7 @@ desc: ".NET MAUI is the .NET Multi-platform App UI, a framework for building nat
 site: https://github.com/dotnet/maui
 tags:
 - maui
-- .net
+- ".net"
 - android
 - ios
 - macos

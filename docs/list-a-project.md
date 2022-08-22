@@ -71,7 +71,7 @@ If you're not sure what to provide, here are some examples of other projects
 that are listed:
 
 - [Giraffe](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/Giraffe.yml)
-- [.NET Core CLR](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/dotnet-core-clr.yml)
+- [.NET Runtime](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/dotnet-runtime.yml)
 - [Rust](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/rust.yml)
 - [The Up for Grabs project itself](https://github.com/up-for-grabs/up-for-grabs.net/blob/gh-pages/_data/projects/up-for-grabs.net.yml)
 

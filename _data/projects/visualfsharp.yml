@@ -8,7 +8,7 @@ tags:
 - ".net"
 upforgrabs:
   name: help wanted
-  link: https://github.com/dotnet/fsharp/labels/help%20wanted
+  link: https://github.com/dotnet/fsharp/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 stats:
   issue-count: 12
   last-updated: '2022-04-01T04:57:20Z'

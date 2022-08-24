@@ -7,8 +7,8 @@ tags:
 - compiler
 - ".net"
 upforgrabs:
-  name: Up for Grabs
-  link: https://github.com/dotnet/fsharp/labels/Up%20for%20Grabs
+  name: help wanted
+  link: https://github.com/dotnet/fsharp/labels/help%20wanted
 stats:
   issue-count: 12
   last-updated: '2022-04-01T04:57:20Z'

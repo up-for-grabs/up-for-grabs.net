@@ -25,7 +25,7 @@
     "@babel/core": "^7.18.5",
     "@types/jest": "^28.1.4",
     "@babel/core": "^7.18.10",
-    "@types/jest": "^28.1.6",
+    "@types/jest": "^28.1.7",
     "@types/underscore": "^1.11.4",
     "@types/showdown": "^2.0.0",
     "@types/node": "^16",

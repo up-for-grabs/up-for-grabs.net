@@ -1,0 +1,11 @@
+name: TJ-Bot
+desc: TJ-Bot is a Discord Bot used on the Together Java server.
+site: https://github.com/Together-Java/TJ-Bot
+tags:
+  - java
+  - bot
+  - discord
+  - beginner-friendly
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Together-Java/TJ-Bot/labels/help%20wanted

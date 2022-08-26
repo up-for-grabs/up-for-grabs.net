@@ -1,0 +1,11 @@
+name: .NET SDK
+desc: Core functionality needed to create .NET projects, that is shared between Visual Studio and the .NET CLI
+site: https://github.com/dotnet/sdk
+tags:
+  - ".net"
+  - c#
+  - vb
+  - f#
+upforgrabs:
+  name: help wanted
+  link: https://github.com/dotnet/sdk/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22

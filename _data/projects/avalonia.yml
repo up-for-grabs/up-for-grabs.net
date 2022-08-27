@@ -1,23 +1,29 @@
 ---
 name: Avalonia
-desc: A multi-platform .NET UI framework.
-site: https://github.com/AvaloniaUI/Avalonia
+desc: A cross-platform UI framework for .NET
+site: https://avaloniaui.net/
 tags:
-- c#
-- wpf
+- cross-platform
+- gui
+- user-interface
 - xaml
 - ".net"
-- direct2d
-- ios
-- android
+- windows
 - linux
-- cairo
+- macos
+- android
+- ios
+- webassembly
+- wasm
 - skia
-- gui
+- skiasharp
 - xplat
+- mvvm
+- wpf
+- uwp
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/AvaloniaUI/Avalonia/labels/up-for-grabs
+  name: help-wanted
+  link: https://github.com/AvaloniaUI/Avalonia/labels/help-wanted
 stats:
   issue-count: 52
   last-updated: '2022-06-11T00:45:09Z'

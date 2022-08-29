@@ -1,13 +1,17 @@
+---
 name: Scribe-iOS
 desc: Keyboards for language learners with translation, verb conjugation and more!
 site: https://github.com/scribe-org/Scribe-iOS
 tags:
-  - swift
-  - ios
-  - language-learning
-  - wikidata
-  - keyboard
-  - grammar
+- swift
+- ios
+- language-learning
+- wikidata
+- keyboard
+- grammar
 upforgrabs:
   name: good first issue
   link: https://github.com/scribe-org/Scribe-iOS/labels/good%20first%20issue
+stats:
+  issue-count: 19
+  last-updated: '2022-08-29T05:51:19Z'

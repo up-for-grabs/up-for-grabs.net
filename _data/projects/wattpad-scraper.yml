@@ -1,11 +1,15 @@
+---
 name: wattpad-scraper
 desc: Easy to use wattpad scraper
 site: https://github.com/shhossain/wattpad-scraper
 tags:
-  - python
-  - scraper
-  - pdf
-  - epub
+- python
+- scraper
+- pdf
+- epub
 upforgrabs:
   name: help wanted
   link: https://github.com/shhossain/wattpad-scraper/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2022-08-17T02:38:09Z'

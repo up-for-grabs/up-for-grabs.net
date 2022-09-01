@@ -6,8 +6,8 @@ tags:
   - c#
   - vb
   - f#
-  - visual studio
-  - Microsoft
+  - visual-studio
+  - microsoft
 upforgrabs:
   name: up for grabs
   link: https://github.com/dotnet/project-system/labels/good-first-issue

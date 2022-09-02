@@ -1,0 +1,16 @@
+name: computer_science
+desc: Computer Science Topics
+site: https://github.com/shhossain/computer_science
+tags:
+  - computer-science
+  - computer-engineering
+  - documantation
+  - python
+  - javascript
+  - cpp
+  - c
+  - go
+  - ruby
+upforgrabs:
+  name: good first issue
+  link: https://github.com/shhossain/computer_science/labels/good%20first%20issue

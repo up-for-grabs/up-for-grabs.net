@@ -4,7 +4,7 @@ site: https://github.com/h2oai/wave
 tags:
   - python
   - typescript
-  - react
+  - reactjs
   - low-code
 upforgrabs:
   name: good first issue

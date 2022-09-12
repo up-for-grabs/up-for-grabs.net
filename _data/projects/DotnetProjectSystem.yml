@@ -1,13 +1,22 @@
+---
 name: The .NET Project System for Visual Studio
-desc: This repository contains the .NET Project System for Visual Studio that is written on top of the Common Project System (CPS) framework. In Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022, this project system is used for .NET Core [SDK-style] (C#, F# and Visual Basic) and Shared Projects (C# and Visual Basic) project types. In the long term, this project system will be the basis for all C#, F# and Visual Basic project types.
+desc: >-
+  This repository contains the .NET Project System for Visual Studio that is written on top of the Common
+  Project System (CPS) framework. In Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022, this
+  project system is used for .NET Core [SDK-style] (C#, F# and Visual Basic) and Shared Projects (C# and
+  Visual Basic) project types. In the long term, this project system will be the basis for all C#, F#
+  and Visual Basic project types.
 site: https://github.com/dotnet/project-system
 tags:
-  - ".net"
-  - c#
-  - vb
-  - f#
-  - visual-studio
-  - microsoft
+- ".net"
+- c#
+- vb
+- f#
+- visual-studio
+- microsoft
 upforgrabs:
   name: good-first-issue
   link: https://github.com/dotnet/project-system/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue
+stats:
+  issue-count: 22
+  last-updated: '2022-09-01T17:33:58Z'

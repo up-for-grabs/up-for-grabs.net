@@ -12,5 +12,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/getsentry/sentry-dotnet/labels/up-for-grabs
 stats:
-  issue-count: 6
+  issue-count: 5
   last-updated: '2022-07-25T22:38:27Z'

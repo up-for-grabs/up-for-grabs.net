@@ -928,6 +928,7 @@ form {
   width: 120px;
   line-height: 26px;
   outline: none;
+  cursor: pointer;
 }
 
 .radio-btn-selected {

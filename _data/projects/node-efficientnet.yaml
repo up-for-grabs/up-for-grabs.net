@@ -1,0 +1,17 @@
+name: Node Efficientnet
+desc: EfficientNet - image recognition model for node js
+site: 'https://github.com/ntedgi/node-efficientnet'
+tags:
+  - typescript
+  - javascript
+  - node.js
+  - deep-learning
+  - tensorflow
+  - classification
+  - imagenet
+  - image-classification
+  - image-recognition
+  - efficientnet
+upforgrabs:
+  name: first-timers-only
+  link: https://github.com/ntedgi/node-efficientnet/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timers-only

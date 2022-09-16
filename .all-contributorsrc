@@ -140,6 +140,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "SaadAnsari17",
+      "name": "Saad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94478736?v=4",
+      "profile": "https://github.com/SaadAnsari17",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

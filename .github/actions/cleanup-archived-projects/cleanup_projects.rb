@@ -35,7 +35,7 @@ def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
   projects.each do |r|
     project = r[:project]
     file = project.full_path
-    File.delete(file) if File.exist?(file)
+    FileUtils.rm_f(file)
     list += " - \`#{project.relative_path}\` - '#{r[:reason]}'\n"
   end
 

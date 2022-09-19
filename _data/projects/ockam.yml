@@ -1,6 +1,8 @@
 ---
 name: Ockam
-desc: Orchestrate end-to-end encryption, mutual authentication, key management, credential management & authorization policy enforcement — at scale.
+desc: >-
+  Orchestrate end-to-end encryption, mutual authentication, key management, credential management & authorization
+  policy enforcement — at scale.
 site: https://github.com/build-trust/ockam
 tags:
 - rust
@@ -15,5 +17,5 @@ upforgrabs:
   name: good first issue
   link: https://github.com/build-trust/ockam/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 stats:
-  issue-count: 13
-  last-updated: '2022-09-15T14:01:06Z'
+  issue-count: 14
+  last-updated: '2022-09-19T13:16:30Z'

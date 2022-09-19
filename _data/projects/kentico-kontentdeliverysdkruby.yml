@@ -13,6 +13,6 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/kontent-delivery-sdk-ruby/labels/up-for-grabs
+  link: https://github.com/kontent-ai/delivery-sdk-ruby/labels/up-for-grabs
 stats:
   issue-count: 0

@@ -14,4 +14,4 @@ tags:
   - efficientnet
 upforgrabs:
   name: first-timers-only
-  link: https://github.com/ntedgi/node-efficientnet/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timers-only
+  link: https://github.com/ntedgi/node-efficientnet/labels/first-timers-only

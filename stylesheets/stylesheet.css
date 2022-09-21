@@ -225,6 +225,10 @@ img {
   border: none;
 }
 
+button {
+  border: none;
+}
+
 #go-back-home {
   margin: 20px 0 0;
 }
@@ -914,28 +918,31 @@ form {
 .radio-btn-row {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
 .radio-btn-wrapper {
-  margin: 0px 4px;
+  /* margin: 4px 4px; */
 }
 
 .radio-btn {
   background-color: #2E7BA9;
   color: #FFF;
   font-size: 14px;
-  width: 120px;
+  padding: 0.25rem 1rem;
   line-height: 26px;
   outline: none;
   cursor: pointer;
+  min-width: 90px;
+  border-radius: 5px;
 }
 
-.radio-btn-selected {
-  background-color: #6dbfee;
-  color: #FFF;
-  width: 120px;
-  font-size: 14px;
-  line-height: 26px;
-  outline: none;
+.radio-btn.radio-btn-selected {
+  background-color: #12425e;
+}
+
+.filters-panel {
+  margin-bottom: 20px;
 }

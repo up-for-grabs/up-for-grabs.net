@@ -1,0 +1,16 @@
+---
+name: Face-X
+desc: Demonstration of different algorithms and operations on faces.
+site: https://github.com/akshitagupta15june/Face-X
+tags:
+- python
+- face-recognition
+- machine-learning
+- opencv
+- face-detection
+upforgrabs:
+  name: good first issue
+  link: https://github.com/akshitagupta15june/Face-X/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2022-09-14T14:20:50Z'

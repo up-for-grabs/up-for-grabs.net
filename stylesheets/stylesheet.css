@@ -221,12 +221,12 @@ h3 {
   font-size: 22px;
 }
 
-h4,
-h5,
-h6 {
+.filter-label {
+  display: inline-block;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 16px;
-  color: #225B7D;
+  font-size: 18px;
+  color: var(--heading-color);
+  margin-bottom: 10px;
 }
 
 p {

@@ -4,8 +4,8 @@ site: https://equalify.app/
 tags:
   - accessibility
   - webops
-  - A11Y
-  - WCAG
+  - a11y
+  - wcag
   - websites
 upforgrabs:
   name: help wanted

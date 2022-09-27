@@ -1,4 +1,4 @@
-FROM ruby:2.7-stretch
+FROM ruby:2.7-bullseye
 
 # Labels for GitHub to read the action
 LABEL "com.github.actions.name"="Update project stats"

@@ -15,7 +15,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Kentico/kontent-sample-app-php/labels/up-for-grabs
+  link: https://github.com/kontent-ai/sample-app-php/labels/up-for-grabs
 stats:
-  issue-count: 1
-  last-updated: '2021-09-13T08:05:12Z'
+  issue-count: 2
+  last-updated: '2022-09-21T13:11:11Z'

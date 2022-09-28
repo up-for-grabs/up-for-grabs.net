@@ -1,12 +1,16 @@
+---
 name: Equalify
 desc: A content accessibility platform, licensed AGPL.
 site: https://equalify.app/
 tags:
-  - accessibility
-  - webops
-  - a11y
-  - wcag
-  - websites
+- accessibility
+- webops
+- a11y
+- wcag
+- websites
 upforgrabs:
   name: help wanted
   link: https://github.com/bbertucc/equalify/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2022-09-27T00:59:30Z'

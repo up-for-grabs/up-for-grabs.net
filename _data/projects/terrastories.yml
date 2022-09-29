@@ -4,7 +4,7 @@ site: https://github.com/Terrastories/terrastories
 tags:
   - "rails"
   - "mapbox"
-  - "react"
+  - "reactjs"
 upforgrabs:
   name: beginner friendly
   link: https://github.com/Terrastories/terrastories/issues?q=is%3Aissue+is%3Aopen+label%3A%22beginner+friendly%22

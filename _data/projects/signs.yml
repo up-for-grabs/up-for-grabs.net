@@ -2,7 +2,7 @@ name: Sinhala Fingerspelling Alphabet Learning Tool
 desc: A hand pose based web application developed as a training tool for people learning the Sinhala (Sri Lankan) fingerspelling alphabet
 site: https://example.org/your-project-link-here
 tags:
-  - react
+  - reactjs
   - mediapipe
   - pose
   - classification

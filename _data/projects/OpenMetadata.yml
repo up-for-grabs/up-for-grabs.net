@@ -3,7 +3,6 @@ desc: Open Standard for Metadata. A Single place to Discover, Collaborate and Ge
 site: https://open-metadata.org/
 tags:
   - python
-  - javascript
   - typescript
   - java
   - docker

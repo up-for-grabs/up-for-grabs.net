@@ -7,5 +7,5 @@ tags:
   - java
   - docker
 upforgrabs:
-  name: good-first-issues
+  name: good-first-issue
   link: https://github.com/open-metadata/OpenMetadata/labels/good-first-issue

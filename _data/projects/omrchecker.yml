@@ -1,0 +1,27 @@
+name: OMRChecker
+desc: Grade exams fast and accurately using a scanner 🖨 or your phone 🤳.
+site: https://github.com/Udayraj123/OMRChecker
+tags:
+  - opencv
+  - python
+  - omr
+  - checker
+  - document
+  - document-scanner
+  - exam
+  - education
+  - grader
+  - hacktoberfest
+  - hacktoberfest2022
+  - image-processing
+  - mcq
+  - multiple-choice
+  - omr-layout
+  - omr-sheet
+  - scanned-documents
+  - scanner
+  - template
+  - tray-fed-scanner
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Udayraj123/OMRChecker/labels/up-for-grabs

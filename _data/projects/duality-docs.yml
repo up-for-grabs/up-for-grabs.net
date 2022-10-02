@@ -1,7 +1,7 @@
 ---
 name: Duality Docs
 desc: Documentation for Duality, a modular 2D game engine written entirely in C#
-site: http://dualitydocs.adamslair.net/
+site: https://adamslair.github.io/duality-docs/pages/v3/Home.html
 tags:
 - markdown
 - documentation

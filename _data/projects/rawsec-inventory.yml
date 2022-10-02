@@ -1,0 +1,16 @@
+name: Rawsec CyberSecurity Inventory
+desc: An inventory of tools and resources about CyberSecurity aiming to help people to find everything related to CyberSecurity.
+site: https://inventory.raw.pm/
+tags:
+  - tools
+  - resources
+  - infosec
+  - inventory
+  - list
+  - cyber
+  - cyberdefense
+  - cybersecurity
+  - pentest
+upforgrabs:
+  name: difficulty::easy
+  link: https://gitlab.com/rawsec/rawsec-cybersecurity-list/-/issues?label_name%5B%5D=difficulty%3A%3Aeasy

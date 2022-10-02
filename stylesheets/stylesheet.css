@@ -15,19 +15,31 @@ MeyerWeb Reset
 /* for light mode
 --body-back: #f9f9f9;
   --body-color:#303030;;
-  --abs:#FFF ; */
+  --abs:#FFF ; 
+  --heading-color: #005485;
+  --container-border: ##dbdbdb;
+  --databox-bg: #fff
+  --databox-text: #2e7ba9; */
 :root {
-  --body-back: #f9f9f9;
+  --body-back: #e9eaec;
   --body-color: #303030;
   --box-shadow-color: rgba(0, 0, 0, 0.2);
   --abs: #FFF;
   --view-mode: true;
+  --heading-color: #005485;
+  --container-border: #dbdbdb;
+  --databox-bg: #fff;
+  --databox-text: #2e7ba9;
 }
 
 /* for dark mode
---body-back: #111111;
+  --body-back: #1a2025;
   --body-color:#eeeded;
-  --abs:rgb(37, 37, 37) ; */
+  --abs:rgb(38 45 49) ;
+  --heading-color: #7bc6f2;
+  --container-border: transparent
+  --databox-bg: #32404d; 
+  --databox-text: #7bceff; */
 
 html,
 body,
@@ -182,7 +194,7 @@ h2,
 h3 {
   font-family: 'Cookie', cursive;
   margin-bottom: 20px;
-  color: #2E7BA9;
+  color: var(--heading-color);
 }
 
 h1 {
@@ -190,10 +202,10 @@ h1 {
 }
 
 .block h1 {
-  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgogIDxyZWN0IHdpZHRoPSc1JyBoZWlnaHQ9JzUnIGZpbGw9J3doaXRlJy8+CiAgPHBhdGggZD0nTTAgNUw1IDBaTTYgNEw0IDZaTS0xIDFMMSAtMVonIHN0cm9rZT0nIzg4OCcgc3Ryb2tlLXdpZHRoPScxJy8+Cjwvc3ZnPg==");
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5' height='5'%3E%3Crect width='5' height='5' fill='transparent'/%3E%3Cpath d='M0 5L5 0ZM6 4L4 6ZM-1 1L1 -1Z' stroke='%23888' stroke-width='1'/%3E%3C/svg%3E");
   text-align: center;
-  text-shadow:
-    1px 1px 0 #225B7D;
+  /* text-shadow:
+    1px 1px 0 #225B7D; */
 }
 
 .block h1 .header-inside {
@@ -209,12 +221,12 @@ h3 {
   font-size: 22px;
 }
 
-h4,
-h5,
-h6 {
+.filter-label {
+  display: inline-block;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 16px;
-  color: #225B7D;
+  font-size: 18px;
+  color: var(--heading-color);
+  margin-bottom: 10px;
 }
 
 p {
@@ -222,6 +234,10 @@ p {
 }
 
 img {
+  border: none;
+}
+
+button {
   border: none;
 }
 
@@ -421,7 +437,7 @@ footer * {
   background: var(--abs);
   border-radius: 7px;
   margin: 0 auto 20px;
-  border: 1px solid #eee;
+  border: 1px solid var(--container-border);
 }
 
 #main-container .block {
@@ -467,7 +483,7 @@ footer * {
 a,
 .as-link {
   text-decoration: none;
-  color: #2E7BA9;
+  color: var(--databox-text);
   line-height: 1.4em;
   display: inline-block;
   vertical-align: baseline;
@@ -599,7 +615,7 @@ pre {
 code {
   font-size: 13px;
   color: #eee;
-  background: #39382e;
+  background: #313d49;
   padding: 2px 4px 3px;
   border-radius: 2px;
   line-height: 1.3em;
@@ -754,16 +770,18 @@ form {
 }
 
 .projects {
-  padding: 3em;
+  padding-block: 3em;
   display: grid;
   grid-gap: 2em;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .data-box {
-  box-shadow: 10px 10px 30px var(--box-shadow-color);
+  background-color: var(--databox-bg);
+  box-shadow: 0px 5px 10px var(--box-shadow-color);
   padding: 10px;
-  /* border: 1px solid var(--body-color) ; */
+  border: 1px solid var(--container-border);
+  border-radius: 10px;
 }
 
 .projects,
@@ -806,12 +824,13 @@ form {
   display: inline-block;
   font-size: 12px;
   white-space: nowrap;
+  padding-block: 0.1rem;
 }
 
 .projects .label a {
   color: #FFF;
   display: inline-block;
-  padding: 2px 8px;
+  padding: 2px 10px;
 }
 
 .projects .tags {
@@ -851,6 +870,7 @@ form {
   display: inline-block;
   font-size: 18px;
   padding-left: 0;
+  font-size: 16px;
 }
 
 .popular-tags li::before {
@@ -914,28 +934,31 @@ form {
 .radio-btn-row {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
 .radio-btn-wrapper {
-  margin: 0px 4px;
+  /* margin: 4px 4px; */
 }
 
 .radio-btn {
   background-color: #2E7BA9;
   color: #FFF;
   font-size: 14px;
-  width: 120px;
+  padding: 0.25rem 1rem;
   line-height: 26px;
   outline: none;
   cursor: pointer;
+  min-width: 90px;
+  border-radius: 5px;
 }
 
-.radio-btn-selected {
-  background-color: #6dbfee;
-  color: #FFF;
-  width: 120px;
-  font-size: 14px;
-  line-height: 26px;
-  outline: none;
+.radio-btn.radio-btn-selected {
+  background-color: #12425e;
+}
+
+.filters-panel {
+  margin-bottom: 20px;
 }

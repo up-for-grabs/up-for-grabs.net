@@ -14,3 +14,5 @@ tags:
 upforgrabs:
   name: difficulty::easy
   link: https://gitlab.com/rawsec/rawsec-cybersecurity-list/-/issues?label_name%5B%5D=difficulty%3A%3Aeasy
+stats:
+  issue-count: 22

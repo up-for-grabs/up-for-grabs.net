@@ -31,7 +31,7 @@
     "@types/node": "^16",
     "babel-jest": "^28.1.2",
     "@types/node": "^18",
-    "babel-jest": "^29.0.3",
+    "babel-jest": "^29.1.2",
     "eslint": "^8.24.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",

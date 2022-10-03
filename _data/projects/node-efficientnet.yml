@@ -15,3 +15,5 @@ tags:
 upforgrabs:
   name: first-timers-only
   link: https://github.com/ntedgi/node-efficientnet/labels/first-timers-only
+stats:
+  issue-count: 0

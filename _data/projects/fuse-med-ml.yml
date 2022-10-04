@@ -1,0 +1,13 @@
+name: FuseMedML
+desc: A python framework accelerating Machine Learning based discovery in the medical field by encouraging code reuse.
+site: https://github.com/BiomedSciAI/fuse-med-ml
+tags:
+  - deep-learning
+  - machine-learning
+  - healthcare
+  - medical
+  - pytorch
+  - lightning-ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/BiomedSciAI/fuse-med-ml/labels/good%20first%20issue

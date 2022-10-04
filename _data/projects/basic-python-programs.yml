@@ -1,3 +1,4 @@
+---
 name: Basic-Python-Programs
 desc: This repository contains basic python programming questions and their solutions.
 site: https://github.com/souravjain540/Basic-Python-Programs
@@ -10,3 +11,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/souravjain540/Basic-Python-Programs/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2022-10-03T14:03:20Z'

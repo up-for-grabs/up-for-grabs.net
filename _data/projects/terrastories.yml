@@ -1,0 +1,10 @@
+name: Terrastories
+desc: Terrastories is a geostorytelling application built to enable local communities to locate and map their own oral storytelling traditions about places of significant meaning or value to them.
+site: https://github.com/Terrastories/terrastories
+tags:
+  - "rails"
+  - "mapbox"
+  - "reactjs"
+upforgrabs:
+  name: beginner friendly
+  link: https://github.com/Terrastories/terrastories/issues?q=is%3Aissue+is%3Aopen+label%3A%22beginner+friendly%22

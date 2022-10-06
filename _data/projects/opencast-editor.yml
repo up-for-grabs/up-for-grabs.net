@@ -1,0 +1,12 @@
+name: Opencast Editor
+desc: Web-based video editor for Opencast
+site: https://editor.opencast.org/
+tags:
+  - editor
+  - video
+  - subtitles
+  - opencast
+upforgrabs:
+  name: good first issue
+  link: https://github.com/opencast/opencast/labels/good%20first%20issue
+  

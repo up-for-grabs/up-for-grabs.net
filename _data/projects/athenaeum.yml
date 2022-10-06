@@ -1,0 +1,8 @@
+name: Athenaeum 
+desc: A collection of various utility packages.
+site: https://aedart.github.io/athenaeum/
+tags:
+  - php
+upforgrabs:
+  name: good first issue
+  link: https://github.com/aedart/athenaeum/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

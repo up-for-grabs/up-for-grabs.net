@@ -154,7 +154,7 @@ define([
       });
 
     projectsPanel
-      .find('ul.popular-tags')
+      .find('div.popular-tags')
       .children()
       .each((i, elem) => {
         $(elem).on('click', function () {

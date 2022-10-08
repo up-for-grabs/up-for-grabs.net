@@ -1,12 +1,18 @@
+---
 name: TheIdServer
-desc: OpenID/Connect, OAuth2 and WS-Federation server based on IdentityServer4 or Duende IdentityServer with its admin UI
+desc: >-
+  OpenID/Connect, OAuth2 and WS-Federation server based on IdentityServer4 or Duende IdentityServer with
+  its admin UI
 site: https://github.com/Aguafrommars/TheIdServer
 tags:
-  - .net
-  - c#
-  - blazor
-  - oidc
-  - identityserver
+- ".net"
+- c#
+- blazor
+- oidc
+- identityserver
 upforgrabs:
   name: help wanted
   link: https://github.com/Aguafrommars/TheIdServer/labels/help%20wanted
+stats:
+  issue-count: 3
+  last-updated: '2022-04-27T10:21:19Z'

@@ -1,0 +1,12 @@
+name: C-DAC-Notes
+desc: These computer science notes contain small tasks regarding documentation as well as programming of all languages...
+site: https://github.com/shreeshailaya/C-DAC-Notes
+tags:
+  - python
+  - java
+  - javascript
+  - database
+  - documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/shreeshailaya/C-DAC-Notes/labels/good%20first%20issue

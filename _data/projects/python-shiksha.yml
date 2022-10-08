@@ -1,0 +1,9 @@
+name: Python Shiksha
+desc: Step by Step Guide to learn Python language
+site: https://python.shiksha/
+tags:
+  - python
+  - algorithms-and-data-structures
+upforgrabs:
+  name: ds-algo-problems
+  link: https://github.com/arungudelli/python.shiksha/labels/ds-algo-problems

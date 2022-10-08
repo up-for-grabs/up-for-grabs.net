@@ -868,6 +868,12 @@ form {
   width: 16px;
 }
 
+.popular-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em 0.5em;
+}
+
 .popular-tags a {
   display: inline-flex;
   align-content: center;
@@ -877,10 +883,6 @@ form {
   border-radius: 1em;
   text-decoration: none;
   transition: all 0.3s;
-}
-
-.popular-tags a:not(:last-of-type) {
-  margin-right: 0.35em;
 }
 
 .popular-tags a:hover,

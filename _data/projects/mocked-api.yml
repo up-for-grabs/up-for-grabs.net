@@ -7,4 +7,4 @@ tags:
   - javascript
 upforgrabs:
   name: hacktoberfest
-  link: https://github.com/ageddesi/Mocked-API/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest
+  link: https://github.com/ageddesi/Mocked-API/labels/hacktoberfest

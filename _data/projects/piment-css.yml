@@ -1,0 +1,12 @@
+name: Piment Css
+desc: Piment is a css micro-framework made by Webmonster Antilles.
+site: https://pimentcss.webmonster.tech/
+tags:
+  - css
+  - framework
+  - starter
+  - kit
+  - gulp
+upforgrabs:
+  name: Piment-Css
+  link: https://github.com/WebmonsterA/Piment-Css

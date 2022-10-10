@@ -2,7 +2,7 @@ name: react-wysiwyg-typescript
 desc: A wrapper Component for react-draft-wysiwyg written in Typescript.
 site: https://github.com/sumn2u/react-wysiwyg-typescript
 tags:
-  - react
+  - reactjs
   - typescript
   - wysiwyg
   - wysiwyg-editor

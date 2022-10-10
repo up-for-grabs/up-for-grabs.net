@@ -109,6 +109,7 @@ active_projects = results.filter { |r| r[:deprecated] == false }
 deprecated_projects = results.filter { |r| r[:deprecated] == true }
 projects_with_errors = results.filter { |r| !r[:error].nil? }
 projects_with_redirect = results.filter { |r| r[:reason] == 'redirect' }
+projects_which_are_inactive = results.filter { |r| r[:reason] == 'lack-of-activity' }
 
 errors = projects_with_errors.count + deprecated_projects.count
 success = active_projects.count
@@ -123,6 +124,10 @@ end
 
 projects_with_redirect.each do |r|
   puts "Project #{r[:project].relative_path} needs to be updated from '#{r[:old_location]}' to '#{r[:location]}'"
+end
+
+projects_which_are_inactive.each do |r|
+  puts "Project #{r[:project].relative_path} could be inactive, it's last activity was '#{r[:last_updated]}'"
 end
 
 deprecated_projects.each do |r|

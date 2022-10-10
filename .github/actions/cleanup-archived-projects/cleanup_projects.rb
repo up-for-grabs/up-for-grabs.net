@@ -79,7 +79,7 @@ def verify_project(project)
 
   return { project: project, deprecated: true, reason: 'missing' } if result[:reason] == 'missing'
 
-  return { project: project, deprecated: false, reason: 'lack-of-activity', updated_at: result[:updated_at] } if result[:reason] == 'lack-of-activity'
+  return { project: project, deprecated: false, reason: 'lack-of-activity', last_updated: result[:last_updated] } if result[:reason] == 'lack-of-activity'
 
   return { project: project, deprecated: false, reason: 'redirect', old_location: result[:old_location], location: result[:location] } if result[:reason] == 'redirect'
 

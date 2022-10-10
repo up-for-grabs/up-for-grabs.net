@@ -1,0 +1,11 @@
+name: Solana Twitter
+desc: Solana Twitter is currently deployed to Devnet, which means you will have to connect your Phantom Wallet to Devnet and airdrop yourself some fake SOL in order to use it.
+site: https://github.com/ritamgit-alt/Solana_Twitter
+tags:
+  - javascript
+  - rust
+  - shell
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ritamgit-alt/Solana_Twitter/labels/help%20wanted
+  

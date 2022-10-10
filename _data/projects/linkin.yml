@@ -1,0 +1,16 @@
+name: Linkin
+desc: Linkin is a customizable self hosted link tree platform
+site: http://linkindemo.vercel.app/
+tags:
+  - react
+  - nextjs
+  - nodejs
+  - platform
+  - postgres
+  - hacktoberfest
+  - linktree
+  - linktree-alternative
+  - vercel
+upforgrabs:
+  name: good first issue
+  link: https://github.com/RizkyRajitha/linkin/labels/good%20first%20issue

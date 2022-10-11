@@ -874,6 +874,11 @@ form {
   gap: 1em 0.5em;
 }
 
+ul.popular-tags li {
+  list-style: none;
+  padding-left: 0;
+}
+
 .popular-tags a {
   display: inline-flex;
   align-content: center;

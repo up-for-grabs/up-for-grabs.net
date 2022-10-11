@@ -46,11 +46,13 @@
   </div>
   <div class="filters-panel cf">
     <label class="filter-label" >Popular tags:</label>
-    <div class="popular-tags">
+    <ul class="popular-tags">
     <% _.each(popularTags, function(entry, key){ %>
-      <a title="Popular Tag: <%-entry.name%>" tabindex="0"><%-entry.name%> <span class="popular-tags__frequency">(<%-entry.frequency%>)</span></a>
+      <li>
+        <a title="Popular Tag: <%-entry.name%>" tabindex="0"><%-entry.name%> <span class="popular-tags__frequency">(<%-entry.frequency%>)</span></a>
+      </li>
     <% }) %>
-    </div>
+    </ul>
   </div>
   <div class="projects">
     <% let count=0 %>

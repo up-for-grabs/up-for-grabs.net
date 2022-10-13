@@ -1,0 +1,43 @@
+---
+name: Bitwarden Clients
+desc: >-
+  Bitwarden client applications (web, browser extension, desktop, and cli).
+
+
+  
+  Web
+
+    The Bitwarden web project is an Angular application that powers the web vault (https://vault.bitwarden.com/).
+
+  Browser
+
+    The Bitwarden browser extension is written using the Web Extension API and Angular. Supported on: Chrome, Firefox, Edge, Opera, Safari, Vivaldi, Brave and Tor browser.
+
+  Desktop
+
+    The Bitwarden desktop app is written using Electron and Angular. The application installs on Windows, macOS, and Linux distributions.
+
+  CLI 
+
+    The Bitwarden CLI is a powerful, full-featured command-line interface (CLI) tool to access and manage
+    a Bitwarden vault. The CLI is written with TypeScript and Node.js and can be run on Windows, macOS,
+    and Linux distributions.
+site: https://github.com/bitwarden/clients
+tags:
+- javascript
+- typescript
+- angular
+- node.js
+- electron
+- cli
+- cross-platform
+- windows
+- macos
+- linux
+- password-manager
+- password
+- security
+- bitwarden
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bitwarden/clients/labels/good%20first%20issue

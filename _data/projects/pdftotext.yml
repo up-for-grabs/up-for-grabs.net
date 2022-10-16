@@ -1,0 +1,10 @@
+name: Pdftotext
+desc: A simple pdftotext conversion tool for Windows 8.1/10/11 and FEDORA/UBUNTU/DEBIAN/ARCH based linux distros using poppler-utils and Google's tesseract-ocr.
+site: https://github.com/Anish-M-code/pdftotext
+tags:
+  - pdf
+  - ocr
+  - tesseract-ocr
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Anish-M-code/pdftotext/issues?q=is%3Aissue+is%3Aopen+label%3Aup-for-grabs

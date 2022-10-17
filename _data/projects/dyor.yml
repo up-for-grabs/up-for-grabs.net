@@ -1,0 +1,12 @@
+name: DYOR
+desc: This is an open-source tool for doing research in crypto. You can easily look up real-time data (prices, TVLs, on-chain data) about Tokens, Exchanges, NFTs, Blockchains, etc.
+site: https://github.com/publikphigor/dyor
+tags:
+  - hacktoberfest
+  - web3
+  - cryptocurrency
+  - defi
+  - nft
+upforgrabs:
+  name: get quick github badges!
+  link: https://github.com/username/project/labels/get%20quick%20github%20badges!

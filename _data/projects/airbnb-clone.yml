@@ -3,7 +3,7 @@ desc: A beginner-friendly project to practice frontend skills by creating a clon
 site: https://github.com/aryamankha/airbnb-clone
 tags:
   - tailwind
-  - react
+  - reactjs
   - javascript
   - css
   - typescript

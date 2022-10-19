@@ -1,5 +1,5 @@
 ---
-name: cloud-sample-app-express
+name: sample-app-express
 desc: Express JS application meant for use with the Dancing Goat sample project within Kontent.ai.
 site: https://github.com/kontent-ai/sample-app-express-js
 tags:

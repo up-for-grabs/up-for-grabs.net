@@ -1,0 +1,16 @@
+name: Notes App (KMM/CLEAN)
+desc: Notes App is a simple app to takes notes of everyday tasks. It's based on KMM (Kotlin Multiplatform Mobile). The main objective of this repo is to keep track of the new trends in the KMM space, since it's a fairly new arena, and use it as a reference point for the new projects.
+site: https://example.org/your-project-link-here
+tags:
+  - kmm
+  - kotlin-multiplatform-mobile
+  - android
+  - ios
+  - kotlin
+  - swift
+  - kotlin-andoid
+  - swift-ios
+  - notesapp
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Ahsan221B/NotesAppKMMCLEAN/labels/up%20for%20grabs

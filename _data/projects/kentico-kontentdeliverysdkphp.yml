@@ -1,13 +1,12 @@
 ---
 name: delivery-sdk-php
-desc: Kentico Kontent Delivery SDK for PHP
-site: https://github.com/Kentico/kontent-delivery-sdk-php
+desc: Kontent.ai Delivery SDK for PHP
+site: https://github.com/kontent-ai/delivery-sdk-php/
 tags:
 - php
 - sdk
 - content-delivery
-- kentico
-- kentico-cloud
+- kontent-ai
 - cms
 - headless-cms
 - composer

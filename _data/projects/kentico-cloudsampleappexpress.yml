@@ -1,11 +1,10 @@
 ---
 name: cloud-sample-app-express
-desc: Express JS application meant for use with the Dancing Goat sample project within Kentico Cloud.
-site: https://github.com/Kentico/kontent-expressjs-app
+desc: Express JS application meant for use with the Dancing Goat sample project within Kontent.ai.
+site: https://github.com/kontent-ai/sample-app-express-js
 tags:
 - javascript
-- kentico
-- kentico-cloud
+- kontent-ai
 - headless-cms
 - headless
 - express

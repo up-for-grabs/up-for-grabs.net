@@ -1,14 +1,13 @@
 ---
-name: kentico-content-js
-desc: Repository hosting various Kentico Kontent Javascript packages
-site: https://github.com/Kentico/kontent-delivery-sdk-js
+name: delivery-sdk-js
+desc: JavaScript content delivery SDK for Kontent.ai
+site: https://github.com/kontent-ai/delivery-sdk-js
 tags:
 - javascript
 - typescript
 - sdk
 - angular
-- kentico
-- kentico-cloud
+- kontent-ai
 - headless-cms
 - headless
 - single-page-application

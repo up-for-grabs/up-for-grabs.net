@@ -1,0 +1,10 @@
+name: ethereum lists
+desc: provides metadata for networkIDs and chainIDs
+site: https://github.com/ethereum-lists/chains
+tags:
+  - ethereum
+  - chains
+  - evm
+upforgrabs:
+  name: dependencies
+  link: https://github.com/ethereum-lists/chains/pull/1564

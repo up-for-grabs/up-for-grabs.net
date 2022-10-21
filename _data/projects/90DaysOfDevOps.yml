@@ -1,0 +1,10 @@
+name: 90 Days of DevOps
+desc: This repository provides a step by step learning process for dev ops
+site: https://github.com/MichaelCade/90DaysOfDevOps
+tags:
+  - docker
+  - linux
+  - azure
+upforgrabs:
+  name: documentation
+  link: https://github.com/MichaelCade/90DaysOfDevOps/labels/documentation

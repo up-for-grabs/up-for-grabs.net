@@ -22,7 +22,7 @@ The simplest way to add your project is to use the GitHub web editor. If you are
 signed into GitHub, simply navigate to [this link](https://github.com/up-for-grabs/up-for-grabs.net/tree/gh-pages/_data/projects)
 to view the list of projects.
 
-<img width="1013" src="https://user-images.githubusercontent.com/359239/67146649-90691280-f263-11e9-9d3f-d63c79f8e872.png">
+![Screen Shot of this repo's `projects` dir with `add file` dropdown open then `create a new file` hovered over](https://user-images.githubusercontent.com/46823403/196719718-7bc74f1f-e555-4f89-a001-c57290c00c93.png)
 
 In the header, click the "Create new file" link to start the
 process, which will open the web editor with an empty file:

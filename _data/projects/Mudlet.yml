@@ -1,0 +1,13 @@
+name: Mudlet
+desc: A cross-platform, open source, and super fast MUD client with scripting in Lua
+site: https://www.mudlet.org
+tags:
+  - mud
+  - text
+  - game
+  - c++
+  - lua
+  - multiplatform
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Mudlet/Mudlet/issues?q=label%3A%22good+first+issue%22

@@ -1,14 +1,13 @@
 ---
 name: delivery-sdk-net
-desc: Kentico Kontent Delivery .NET SDK
-site: https://github.com/Kentico/kontent-delivery-sdk-net
+desc: Kontent.ai Delivery .NET SDK
+site: https://github.com/kontent-ai/delivery-sdk-net
 tags:
 - ".net"
 - ".net-standard"
 - c#
 - sdk
-- kentico
-- kentico-cloud
+- kontent-ai
 - cms
 - headless-cms
 - caas

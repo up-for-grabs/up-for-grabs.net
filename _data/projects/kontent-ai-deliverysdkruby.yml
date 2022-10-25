@@ -1,13 +1,12 @@
 ---
-name: kontent-delivery-sdk-php
-desc: Kentico Kontent Delivery Ruby SDK
-site: https://github.com/Kentico/kontent-delivery-sdk-ruby
+name: delivery-sdk-ruby
+desc: Kontent.ai Ruby SDK for delivery API
+site: https://github.com/kontent-ai/delivery-sdk-ruby/
 tags:
 - ruby
 - sdk
 - content-delivery
-- kentico
-- kentico-cloud
+- kontent-ai
 - cms
 - headless-cms
 - caas

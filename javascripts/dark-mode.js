@@ -17,8 +17,9 @@ define([], () => {
    *
    * @param {HTMLElement} viewModeElement
    * @param {HTMLElement} viewModeAnchor
+   * @param {HTMLElement} goBackHomeElement
    */
-  function setDarkMode(viewModeElement, viewModeAnchor) {
+  function setDarkMode(viewModeElement, viewModeAnchor,goBackHomeElement) {
     root.style.setProperty('--body-back', '#1a2025');
     root.style.setProperty('--body-color', '#eeeded');
     root.style.setProperty('--abs', 'rgb(39, 47, 55)');
@@ -27,7 +28,8 @@ define([], () => {
     root.style.setProperty('--container-border', 'transparent');
     root.style.setProperty('--databox-bg', '#32404d');
     root.style.setProperty('--databox-text', '#7bceff');
-
+    
+    goBackHomeElement.setAttribute('src', '/images/logo_dark_1.png');
     viewModeElement.setAttribute('src', '/images/sun-light.png');
     viewModeAnchor.title = 'light-mode';
   }
@@ -37,8 +39,9 @@ define([], () => {
    *
    * @param {HTMLElement} viewModeElement
    * @param {HTMLElement} viewModeAnchor
+   * @param {HTMLElement} goBackHomeElement
    */
-  function setLightMode(viewModeElement, viewModeAnchor) {
+  function setLightMode(viewModeElement, viewModeAnchor,goBackHomeElement) {
     root.style.setProperty('--body-back', '#f9f9f9');
     root.style.setProperty('--body-color', '#303030');
     root.style.setProperty('--abs', '#FFF');
@@ -48,6 +51,7 @@ define([], () => {
     root.style.setProperty('--databox-bg', '#fff');
     root.style.setProperty('--databox-text', '#2e7ba9');
 
+    goBackHomeElement.setAttribute('src', '/images/logo.png');
     viewModeElement.setAttribute('src', '/images/Dim-Night.png');
     viewModeAnchor.title = 'dark-mode';
   }
@@ -77,16 +81,27 @@ define([], () => {
       return;
     }
 
+    const goBackHomeAnchor = document.getElementById('go-back-home-a');
+    if (!goBackHomeAnchor) {
+      return;
+    }
+
+    const goBackHomeElement = document.getElementById('go-back-home');
+    if (!goBackHomeElement) {
+      return;
+    }
+
+
     if (!lightModeEnabled) {
-      setDarkMode(viewModeElement, viewModeAnchor);
+      setDarkMode(viewModeElement, viewModeAnchor,goBackHomeElement);
     }
 
     viewModeAnchor.addEventListener('click', () => {
       if (lightModeEnabled) {
-        setDarkMode(viewModeElement, viewModeAnchor);
+        setDarkMode(viewModeElement, viewModeAnchor,goBackHomeElement);
         updateValue('dark');
       } else {
-        setLightMode(viewModeElement, viewModeAnchor);
+        setLightMode(viewModeElement, viewModeAnchor,goBackHomeElement);
         updateValue('light');
       }
     });

@@ -1,0 +1,11 @@
+name: React Weather Application
+desc: This is a very simple React Js based weather application, that uses Weather API. 
+site: https://stellar-pie-6964b6.netlify.app/
+tags:
+  - Reactjs
+  - Javascript
+  - hacktoberfest
+  - open-source
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/zetabug/react-weather-application/issues

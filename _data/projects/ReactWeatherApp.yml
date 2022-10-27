@@ -8,4 +8,7 @@ tags:
   - open-source
 upforgrabs:
   name: up for grabs
-  link: https://github.com/zetabug/react-weather-application/issues
+  link: https://github.com/zetabug/react-weather-application/labels/up-for-grabs
+goodfirstissue:
+  name : good first issue
+  link: https://github.com/zetabug/react-weather-application/labels/good%20first%20issue

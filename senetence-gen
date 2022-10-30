@@ -1,0 +1,8 @@
+name: sentence-gen
+desc: Generates silly sentences
+site: https://github.com/Awesome-Guy123/sentence-gen
+tags:
+  - python
+upforgrabs:
+  name: help make more templates
+  link: https://github.com/Awesome-Guy123/sentence-gen/blob/main/goals.md

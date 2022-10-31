@@ -1,12 +1,11 @@
 ---
-name: kentico-cloud-sample-app-php
-desc: Dancing Goat site built with Kentico Kontent and Laravel
-site: https://github.com/Kentico/kontent-sample-app-php
+name: sample-app-php
+desc: Dancing Goat sample site built with Kontent.ai and Laravel
+site: https://github.com/kontent-ai/sample-app-php
 tags:
 - php
 - content-delivery
-- kentico
-- kentico-cloud
+- kontent-ai
 - cms
 - headless-cms
 - composer

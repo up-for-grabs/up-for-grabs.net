@@ -10,12 +10,3 @@ tags:
 hacktoberfest:
   name: hacktoberfest
   link: https://github.com/zetabug/rock-paper-scissors-game/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest
-goodfirstissue:
-  name : good first issue 
-  link : https://github.com/zetabug/rock-paper-scissors-game/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
-helpwanted :
-  name: help wanted 
-  link : https://github.com/zetabug/rock-paper-scissors-game/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
-upforgrabs :
-  name: up for grabs
-  link : https://github.com/zetabug/rock-paper-scissors-game/labels/up%20for%20grabs

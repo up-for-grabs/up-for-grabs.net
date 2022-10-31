@@ -6,6 +6,6 @@ tags:
   - javascript
   - hacktoberfest
   - open-source
-goodfirstissue:
-  name : good first issue
+upforgrabs:
+  name: good first issue
   link: https://github.com/zetabug/react-weather-application/labels/good%20first%20issue

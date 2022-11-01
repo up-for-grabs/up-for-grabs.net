@@ -1,0 +1,11 @@
+name: packer
+desc: A open source package manager that can run on linux systems
+site: 
+tags:
+- c++
+- linux
+- packages
+- apt
+upforgrabs:
+  name: c++
+  link: https://github.com/TinyRobby/packer

@@ -7,5 +7,5 @@ tags:
 - packages
 - apt
 upforgrabs:
-  name: c++
+  name: upforgrabs
   link: https://github.com/TinyRobby/packer

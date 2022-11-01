@@ -1,0 +1,11 @@
+name: SliccDB
+desc: Single File Embedded Graph Database
+site: https://github.com/pmikstacki/SliccDB
+tags:
+  - .Net
+  - C#
+  - Database
+  - MessagePack
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/pmikstacki/SliccDB/labels/up%20for%20grabs

@@ -1,6 +1,6 @@
 name: packer
 desc: A open source package manager that can run on linux systems
-site: 
+site: https://github.com/TinyRobby/packer
 tags:
 - c++
 - linux

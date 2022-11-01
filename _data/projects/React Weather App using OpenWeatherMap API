@@ -1,0 +1,13 @@
+name: React Weather App using OpenWeatherMap API
+desc: A Web App containing simple API calls to openweathermap API
+site: https://weather-pgb8jlo0s-jun-edris.vercel.app/
+tags:
+  - openweathermap API
+  - ReactJS
+  - TailwindCSS
+  - HTML
+  - CSS
+  - React Icons
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/jun-edris/weather-app/labels/up-for-grabs

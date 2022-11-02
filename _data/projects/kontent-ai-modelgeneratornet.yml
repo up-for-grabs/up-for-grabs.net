@@ -1,13 +1,12 @@
 ---
-name: cloud-generators-net
-desc: ".NET code generators for Kentico Kontent"
-site: https://github.com/Kentico/kontent-generators-net
+name: model-generator-net
+desc: ".NET model generators for Kontent.ai"
+site: https://github.com/kontent-ai/model-generator-net/labels/up-for-grabs
 tags:
 - netcore
 - template
 - generator
-- kentico
-- kentico-cloud
+- kontent-ai
 - c#
 - ".net"
 - ".net-core"

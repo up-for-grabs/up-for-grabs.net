@@ -1,11 +1,10 @@
 ---
 name: cloud-sample-app-react
-desc: Sample React SPA utilizing the Kentico Kontent Delivery API to fetch content
-site: https://github.com/Kentico/kontent-sample-app-react
+desc: Sample React SPA utilizing Kontent.ai delivery API to fetch content
+site: https://github.com/kontent-ai/sample-app-react
 tags:
 - javascript
-- kentico
-- kentico-cloud
+- kontent-ai
 - headless-cms
 - headless
 - reactjs

@@ -954,6 +954,11 @@ form {
   min-width: 90px;
   border-radius: 5px;
 }
+.radio-btn:hover {
+  box-shadow: 3px 3px 10px  rgba(54, 132, 248, 0.5) ;
+  transition-duration: .1s;
+  transform: translateY(-1px);
+}
 
 .radio-btn.radio-btn-selected {
   background-color: #12425e;

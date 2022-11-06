@@ -44,8 +44,8 @@ MeyerWeb Reset
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   border: 0;
   font: inherit;
   vertical-align: baseline;

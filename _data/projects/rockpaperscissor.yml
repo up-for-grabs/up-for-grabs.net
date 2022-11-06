@@ -7,6 +7,6 @@ tags:
   - up-for-grabs
   - front-end-development
   - open-source
-hacktoberfest:
+upforgrabs:
   name: hacktoberfest
-  link: https://github.com/zetabug/rock-paper-scissors-game/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest
+  link: https://github.com/zetabug/rock-paper-scissors-game/labels/hacktoberfest

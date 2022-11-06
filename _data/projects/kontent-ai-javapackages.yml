@@ -1,11 +1,10 @@
 ---
-name: delivery-sdk-java
-desc: Kentico Kontent Delivery Java SDK.
-site: https://github.com/Kentico/kontent-delivery-sdk-java
+name: java-packages
+desc: Monorepo containing delivery SDK, model generators and other Java-related tools for Kontent.ai
+site: https://github.com/kontent-ai/java-packages
 tags:
 - java
-- kentico
-- kentico-cloud
+- kontent-ai
 - sdk
 - cms
 - headless-cms

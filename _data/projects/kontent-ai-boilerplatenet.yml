@@ -1,15 +1,14 @@
 ---
-name: cloud-boilerplate-net
-desc: Kentico Kontent Boilerplate for development of ASP.NET Core MVC applications
-site: https://github.com/Kentico/kontent-boilerplate-net
+name: boilerplate-net
+desc: Kontent.ai Boilerplate for development of ASP.NET Core MVC applications
+site: https://github.com/kontent-ai/boilerplate-net
 tags:
 - ".net"
 - ".net-core"
 - boilerplate
 - mvc
 - c#
-- kentico
-- kentico-cloud
+- kontent-ai
 - cms
 - headless-cms
 - caas

@@ -1,11 +1,10 @@
 ---
-name: gatsby-starter-kentico-cloud
-desc: Gatsby starter site with Kentico Cloud.
-site: https://github.com/Kentico/gatsby-starter-kontent
+name: gatsby-starter
+desc: Gatsby starter site with Kontent.ai
+site: https://github.com/kontent-ai/gatsby-starter
 tags:
 - javascript
-- kentico
-- kentico-cloud
+- kontent-ai
 - headless-cms
 - headless
 - reactjs

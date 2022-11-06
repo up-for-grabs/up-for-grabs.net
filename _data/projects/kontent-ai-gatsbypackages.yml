@@ -1,11 +1,10 @@
 ---
-name: gatsby-source-kentico-cloud
-desc: Gatsby source plugin for Kentico Cloud.
-site: https://github.com/Kentico/gatsby-source-kontent
+name: gatsby-packages
+desc: Gatsby source plugin and React components for Kontent.ai.
+site: https://github.com/kontent-ai/gatsby-packages
 tags:
 - javascript
-- kentico
-- kentico-cloud
+- kontent-ai
 - headless-cms
 - headless
 - reactjs

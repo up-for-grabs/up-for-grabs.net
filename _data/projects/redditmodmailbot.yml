@@ -1,0 +1,12 @@
+name: Reddit Modmail Bot
+desc: A bot that utilizes PRAW and Discord Webhooks to send messages regarding new messages on the Reddit Modmail queue.
+site: https://github.com/rajtilakjee/redditmodmailbot
+tags:
+  - python
+  - praw
+  - webhooks
+  - discord
+  - reddit
+upforgrabs:
+  name: good first issue
+  link: https://github.com/rajtilakjee/redditmodmailbot/issues?q=label%3A%22good+first+issue%22

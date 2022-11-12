@@ -1,0 +1,8 @@
+name: Cozy Clothing
+desc: Cozy Clothing is a ReactJs with context web app with Firebase Authentication and
+site: https://cozy-clothing.vercel.app/
+tags:
+  - reactJswithfirebaseauthentication
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/pareshwar11/cozy-clothing-v1-e-commerce

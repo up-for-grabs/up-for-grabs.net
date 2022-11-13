@@ -1,0 +1,12 @@
+name: "Reddit Flair Bot"
+desc: "A Reddit Bot written with Python and PRAW to help users change their flairs easily."
+site: https://github.com/rajtilakjee/redditflairbot
+tags:
+- "python"
+- "praw"
+upforgrabs:
+  name: good first issue
+  link: https://github.com/rajtilakjee/redditflairbot/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+stats:
+  issue-count: 1
+  last-updated: '2022-11-13'

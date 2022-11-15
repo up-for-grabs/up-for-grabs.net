@@ -29,6 +29,7 @@
     "@types/underscore": "^1.11.4",
     "@types/showdown": "^2.0.0",
     "@types/node": "^16",
+    "kinakoneko": "^1.0.0",
     "babel-jest": "^28.1.2",
     "@types/node": "^18",
     "babel-jest": "^29.3.1",

@@ -304,6 +304,7 @@ GEM
     unf_ext (0.0.8.2-x86-mingw32)
     unicode-display_width (2.2.0)
     uri_template (0.7.0)
+    wdm (0.1.1)
     webrick (1.7.0)
     zeitwerk (2.6.0)
 
@@ -317,6 +318,7 @@ DEPENDENCIES
   json_schemer
   rubocop
   up_for_grabs_tooling!
+  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH

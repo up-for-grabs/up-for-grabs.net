@@ -782,6 +782,9 @@ form {
   padding: 10px;
   border: 1px solid var(--container-border);
   border-radius: 10px;
+  position: relative;
+  min-height: 250px;
+  height: 100%;
 }
 
 .projects,
@@ -836,6 +839,8 @@ form {
 .projects .tags {
   font-size: 12px;
   font-style: italic;
+  position: absolute;
+  bottom: 10px;
   margin-bottom: 0;
 }
 

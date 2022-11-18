@@ -5,5 +5,5 @@ tags:
   - opensource-ecommerce-framework
   - laravel-ecommerce
 upforgrabs:
-  name: up for grabs
-  link: https://github.com/bagisto/bagisto
+  name: Easy
+  link: https://github.com/bagisto/bagisto/issues?q=is%3Aopen+is%3Aissue+label%3AEasy

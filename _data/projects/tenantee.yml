@@ -1,0 +1,11 @@
+name: Tenantee
+desc: Tenantee is a free & open-source tenant management platform for landlords.
+site: https://github.com/zvonimirr/tenantee
+tags:
+  - elixir
+  - web
+  - react
+  - typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/zvonimirr/tenantee/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

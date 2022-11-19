@@ -4,7 +4,7 @@ site: https://github.com/zvonimirr/tenantee
 tags:
   - elixir
   - web
-  - react
+  - reactjs
   - typescript
 upforgrabs:
   name: good first issue

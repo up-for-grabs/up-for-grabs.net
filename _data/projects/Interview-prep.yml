@@ -1,0 +1,12 @@
+name: Interview-prep
+desc: A collection of all the necessary questions and DSA (libraries, services, editors, tools, cheatsheets, etc.) 😊 Here you can get all the codes built from scratch and leetcode solutions that I have done in Javascript. Resources are gathered from many places and pushed into a single repository so that everyone can get what they want at a glance 😄
+site: [interview-prep](https://github.com/Saif64/Interview-prep)
+tags:
+  - Data Structures
+  - Algorithm
+  - Interview
+  - DSA
+  - preparation
+upforgrabs:
+  name: Interview-prep
+  link: https://github.com/Saif64/Interview-prep/issues

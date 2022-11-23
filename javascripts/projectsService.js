@@ -275,7 +275,15 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
     };
 
     this.getLabels = function () {
-      return _.sortBy(labelsMap, (entry) => entry.name.toLowerCase());
+      projectLabelsArray = _.sortBy(labelsMap, (entry) => entry.name.toLowerCase());
+      
+      // iterate through the array and push words starting with non-letters (symbols or numbers) to the end of the array.
+      projectLabelsArray.forEach((label, index)=> {
+        if(!(label.name[0].match(/[a-zA-Z]/i))){
+          projectLabelsArray.push(projectLabelsArray.splice(index, 1, 0).pop());
+        };
+      });
+      return projectLabelsArray;
     };
 
     this.getPopularTags = function (popularTagCount) {

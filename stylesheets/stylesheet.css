@@ -929,6 +929,10 @@ form {
     right: 0;
     top: 0;
   }
+
+  .filters-panel>.names-filter {
+    width: 100vh;
+  }
 }
 
 .radio-btn-row {

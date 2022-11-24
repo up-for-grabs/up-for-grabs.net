@@ -2,7 +2,6 @@ name: ZITADEL
 desc: An opensource identity and access management platform as an alternative to Auth0
 site: https://github.com/zitadel/zitadel
 tags:
-  - golang
   - go
   - angular
   - typescript

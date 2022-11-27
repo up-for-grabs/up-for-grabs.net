@@ -1,6 +1,6 @@
 # How It Works
 
-Rather than explaining the entirety of the stack, this document will explain
+This document will explain
 the key parts of the Up-for-Grabs site and project.
 
 ## Displaying projects

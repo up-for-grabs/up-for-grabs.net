@@ -1,0 +1,12 @@
+name: Reddit Streak Bot
+desc: A Reddit bot which replies to the command !streak with a stats of the commentor.
+site: https://github.com/rajtilakjee/redditstreakbot
+tags:
+  - python
+  - praw
+  - reddit
+  - bot
+  - automation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/rajtilakjee/redditstreakbot/labels/good%20first%20issue

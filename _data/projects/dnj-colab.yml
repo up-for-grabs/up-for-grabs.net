@@ -2,6 +2,8 @@ name: Dev N´ Joy Colab
 desc: Educational Opensource Colaborative repository to improve and learn programming. Samples, Training, Projecs...and real-time coding streaming!
 site: https://github.com/smaicas-org/Dnj.Colab
 tags:
+  - c#
+  - .net
   - opensource
   - education
   - community

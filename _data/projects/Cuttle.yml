@@ -1,5 +1,5 @@
 name: Cuttle
-desc: A two-player battle card game for all ages.
+desc: Open Source, full-stack pvp implementation of Cuttle, the oldest battle card game played with a standard 52-card deck.
 site: https://github.com/cuttle-cards/cuttle
 tags:
   - node.js
@@ -9,6 +9,6 @@ tags:
   - game
   - hacktoberfest
 upforgrabs:
-  name: cuttle
+  name: good first issue
   link: https://github.com/cuttle-cards/cuttle/labels/good%20first%20issue
-  
+

@@ -1,0 +1,14 @@
+name: Cuttle
+desc: A two-player battle card game for all ages.
+site: https://github.com/cuttle-cards/cuttle
+tags:
+  - node.js
+  - javascript
+  - vue
+  - full-stack
+  - game
+  - hacktoberfest
+upforgrabs:
+  name: cuttle
+  link: https://github.com/cuttle-cards/cuttle/labels/good%20first%20issue
+  

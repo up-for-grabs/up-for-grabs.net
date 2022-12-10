@@ -1,4 +1,3 @@
----
 name: Eigengraus Essential Establishment Generator
 desc: A tabletop procedural generator that creates game ready text for DMs
 site: https://github.com/ryceg/Eigengrau-s-Essential-Establishment-Generator
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 11
   last-updated: '2022-09-08T13:54:06Z'
+  fork-count: 0

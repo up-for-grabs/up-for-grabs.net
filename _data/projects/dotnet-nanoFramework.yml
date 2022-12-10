@@ -1,11 +1,10 @@
----
-name: ".NET nanoFramework"
-desc: >-
-  .NET nanoFramework is a free and open-source platform that enables the writing of C# code applications
-  for constrained  embedded devices like ARM Cortex-M0/M4/M7, ESP32, TI CC3220, NXP and other microcontrollers.
+name: .NET nanoFramework
+desc: .NET nanoFramework is a free and open-source platform that enables the writing
+  of C# code applications for constrained  embedded devices like ARM Cortex-M0/M4/M7,
+  ESP32, TI CC3220, NXP and other microcontrollers.
 site: https://nanoframework.net/
 tags:
-- ".net"
+- .net
 - c#
 - microcontrollers
 - electronics
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 33
   last-updated: '2022-11-13T21:28:01Z'
+  fork-count: 0

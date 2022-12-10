@@ -1,4 +1,3 @@
----
 name: TemPy
 desc: HTML Object-Oriented Templating system
 site: https://github.com/Hrabal/TemPy
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/Hrabal/TemPy/labels/low-hanging-fruit
 stats:
   issue-count: 0
+  fork-count: 0

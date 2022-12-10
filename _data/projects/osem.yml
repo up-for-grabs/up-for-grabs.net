@@ -1,4 +1,3 @@
----
 name: Open Source Event Manager
 desc: Event Management App Tailored to Free Software Conferences
 site: http://osem.io/
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-10-19T14:14:50Z'
+  fork-count: 0

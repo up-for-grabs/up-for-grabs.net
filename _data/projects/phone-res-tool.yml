@@ -1,4 +1,3 @@
----
 name: Phone Resolution and DPI tool
 desc: Change your Android phone resolution and DPI without root
 site: https://forum.xda-developers.com/galaxy-s5/general/tool-change-phone-resolution-dpi-root-t3582863
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/nadchif/phone-resolution-tool/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

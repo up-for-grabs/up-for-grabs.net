@@ -1,8 +1,6 @@
----
 name: Sentry .NET SDK
-desc: >-
-  Client libraries for Sentry, an error reporting and performance monitoring platform, for usage from
-  .NET and popular application frameworks
+desc: Client libraries for Sentry, an error reporting and performance monitoring platform,
+  for usage from .NET and popular application frameworks
 site: https://getsentry.github.io/sentry-dotnet
 tags:
 - crash-reporting
@@ -14,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-11-15T20:04:07Z'
+  fork-count: 0

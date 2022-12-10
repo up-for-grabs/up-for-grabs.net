@@ -1,10 +1,8 @@
----
 name: opentelemetry-cpp
-desc: >-
-  C++ implementation of OpenTelemetry, a working name of a combined OpenCensus and OpenTracing project.
-  It provides a single set of APIs, libraries, agents, and collector services to capture distributed traces
-  and metrics from your application. You can analyze them using Prometheus, Jaeger, and other observability
-  tools.
+desc: C++ implementation of OpenTelemetry, a working name of a combined OpenCensus
+  and OpenTracing project. It provides a single set of APIs, libraries, agents, and
+  collector services to capture distributed traces and metrics from your application.
+  You can analyze them using Prometheus, Jaeger, and other observability tools.
 site: https://opentelemetry.io/
 tags:
 - cpp
@@ -26,3 +24,4 @@ upforgrabs:
 stats:
   issue-count: 17
   last-updated: '2022-11-16T17:31:30Z'
+  fork-count: 0

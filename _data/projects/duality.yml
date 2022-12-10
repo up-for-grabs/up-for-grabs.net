@@ -1,9 +1,8 @@
----
 name: Duality
 desc: A modular 2D game engine written entirely in C#
 site: http://duality.adamslair.net/
 tags:
-- ".net"
+- .net
 - mono
 - c#
 - opengl
@@ -20,3 +19,4 @@ upforgrabs:
 stats:
   issue-count: 20
   last-updated: '2020-05-16T08:15:16Z'
+  fork-count: 0

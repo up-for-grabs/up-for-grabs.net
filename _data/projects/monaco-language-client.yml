@@ -1,4 +1,3 @@
----
 name: Monaco language client
 desc: NPM module to connect Monaco editor with language servers
 site: https://github.com/TypeFox/monaco-languageclient
@@ -17,3 +16,4 @@ upforgrabs:
   link: https://github.com/TypeFox/monaco-languageclient/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

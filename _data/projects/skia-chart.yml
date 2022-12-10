@@ -1,12 +1,10 @@
----
 name: skia-chart
-desc: >-
-  A simple xamarin.Forms chart library, built on top of the skiasharp.views.forms library. This library
-  is developed with engineering and statistics in mind. It might not be the prettiest but it will visualize
-  your data appropriately.
+desc: A simple xamarin.Forms chart library, built on top of the skiasharp.views.forms
+  library. This library is developed with engineering and statistics in mind. It might
+  not be the prettiest but it will visualize your data appropriately.
 site: https://github.com/NdubuisiJr/skia-chart
 tags:
-- ".net"
+- .net
 - xamarin.forms
 - c#
 - xamarin
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2021-03-30T00:34:50Z'
+  fork-count: 0

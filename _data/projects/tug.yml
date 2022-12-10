@@ -1,11 +1,10 @@
----
 name: tug
 desc: Cross-platform Pull/Reporting server for PowerShell DSC
 site: https://github.com/PowerShellOrg/tug
 tags:
-- ".net"
-- ".net-core"
-- ".net-framework"
+- .net
+- .net-core
+- .net-framework
 - c#
 - powershell
 - powershell-dsc
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2020-12-31T16:04:23Z'
+  fork-count: 0

@@ -1,12 +1,11 @@
----
-name: ".NET Windows Forms"
-desc: >-
-  Windows Forms also provides one of the most productive ways to create desktop applications based on
-  the visual designer provided in Visual Studio. It enables drag-and-drop of visual controls and other
-  similar functionality that make it easy to build desktop applications.
+name: .NET Windows Forms
+desc: Windows Forms also provides one of the most productive ways to create desktop
+  applications based on the visual designer provided in Visual Studio. It enables
+  drag-and-drop of visual controls and other similar functionality that make it easy
+  to build desktop applications.
 site: https://github.com/dotnet/winforms
 tags:
-- ".net"
+- .net
 - c#
 - windows-forms
 - winforms
@@ -16,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 94
   last-updated: '2022-11-18T05:39:57Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: Boa
 desc: Javascript Engine written in Rust
 site: https://github.com/jasonwilliams/boa
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 7
   last-updated: '2022-11-07T09:59:30Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: CommonIntents
 desc: Android library that provides most common android intents in a convenient manner
 site: https://github.com/JanStoltman/CommonIntents
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/JanStoltman/CommonIntents/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

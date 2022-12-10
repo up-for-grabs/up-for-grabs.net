@@ -1,8 +1,7 @@
----
 name: ContainerPilot
-desc: >-
-  An init system for cloud-native distributed applications that automates the process of service discovery,
-  configuration, and lifecycle management inside the container, so you can focus on your apps.
+desc: An init system for cloud-native distributed applications that automates the
+  process of service discovery, configuration, and lifecycle management inside the
+  container, so you can focus on your apps.
 site: https://github.com/joyent/containerpilot
 tags:
 - docker
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2022-09-08T05:38:16Z'
+  fork-count: 0

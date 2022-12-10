@@ -1,4 +1,3 @@
----
 name: Fortknight
 desc: A minimalist HTML5 battle royale game.
 site: https://acenturyandabit.github.io/fortknight
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2022-10-23T23:03:12Z'
+  fork-count: 0

@@ -1,8 +1,6 @@
----
 name: PHP reboot magazine
-desc: >-
-  phpreboot.com is open source website of PHP community in Pune, India and also host PHP Reboot magazine,
-  a magazine with good articles about PHP and related technologies.
+desc: phpreboot.com is open source website of PHP community in Pune, India and also
+  host PHP Reboot magazine, a magazine with good articles about PHP and related technologies.
 site: http://www.phpreboot.com
 tags:
 - php
@@ -15,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 15
   last-updated: '2022-10-02T06:20:05Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: PlasmaPy.github.io
 desc: The website for PlasmaPy, an open source plasma physics package in Python
 site: https://github.com/PlasmaPy/plasmapy.github.io
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2021-09-18T04:23:34Z'
+  fork-count: 0

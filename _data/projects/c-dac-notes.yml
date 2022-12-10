@@ -1,8 +1,6 @@
----
 name: C-DAC-Notes
-desc: >-
-  These computer science notes contain small tasks regarding documentation as well as programming of all
-  languages...
+desc: These computer science notes contain small tasks regarding documentation as
+  well as programming of all languages...
 site: https://github.com/shreeshailaya/C-DAC-Notes
 tags:
 - python
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 9
   last-updated: '2022-10-14T12:59:29Z'
+  fork-count: 0

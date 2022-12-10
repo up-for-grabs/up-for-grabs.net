@@ -1,4 +1,3 @@
----
 name: CodeChef CLI
 desc: CodeChef command-line interface
 site: https://github.com/sk364/codechef-cli
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-09-25T18:48:29Z'
+  fork-count: 0

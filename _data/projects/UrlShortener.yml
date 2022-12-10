@@ -1,4 +1,3 @@
----
 name: UrlShortener
 desc: Shortens long urls. Select from a list of available hosts.
 site: https://github.com/p53ud0k0d3/UrlShortener
@@ -15,3 +14,4 @@ upforgrabs:
   link: https://github.com/p53ud0k0d3/UrlShortener/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

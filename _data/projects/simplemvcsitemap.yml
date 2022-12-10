@@ -1,4 +1,3 @@
----
 name: SimpleMvcSitemap
 desc: A simple library for creating sitemap files inside ASP.NET MVC applications.
 site: https://github.com/uhaciogullari/SimpleMvcSitemap
@@ -10,3 +9,4 @@ upforgrabs:
   link: https://github.com/uhaciogullari/SimpleMvcSitemap/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

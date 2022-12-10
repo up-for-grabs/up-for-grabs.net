@@ -1,4 +1,3 @@
----
 name: Inflatable Last.fm .NET SDK
 desc: Portable Last.fm library for .NET platforms.
 site: https://github.com/inflatablefriends/lastfm
@@ -8,7 +7,7 @@ tags:
 - rest
 - last.fm
 - lastfm
-- ".net"
+- .net
 - inflatable
 upforgrabs:
   name: help wanted
@@ -16,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2021-02-22T14:53:06Z'
+  fork-count: 0

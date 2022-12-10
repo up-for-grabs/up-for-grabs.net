@@ -1,9 +1,8 @@
----
 name: Emby
 desc: The open media solution for your personal videos, music, photos, and Live TV.
 site: https://github.com/MediaBrowser/Emby
 tags:
-- ".net"
+- .net
 - javascript
 - c#
 - ios
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2019-11-01T03:37:04Z'
+  fork-count: 0

@@ -1,12 +1,10 @@
----
 name: Construktion
-desc: >-
-  Simplifies the arrange part of your unit tests. Use Construktion to generate test objects and populate
-  its properties with random data.
+desc: Simplifies the arrange part of your unit tests. Use Construktion to generate
+  test objects and populate its properties with random data.
 site: https://github.com/Construktion/Construktion
 tags:
 - c#
-- ".net"
+- .net
 - tdd
 - testing
 - unit-testing
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-08-17T22:51:59Z'
+  fork-count: 0

@@ -1,6 +1,5 @@
----
 name: Node.js SDK for Microsoft Cognitive Services
-desc: Microsoft® Cognitive Services SDK for Node.JS
+desc: "Microsoft\xAE Cognitive Services SDK for Node.JS"
 site: https://github.com/joshbalfour/node-cognitive-services
 tags:
 - node.js
@@ -16,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2021-08-21T17:23:23Z'
+  fork-count: 0

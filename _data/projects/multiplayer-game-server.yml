@@ -1,8 +1,6 @@
----
 name: Multiplayer Game Server
-desc: >-
-  A web app which supports multiplayer gaming like Snake n' Ladders and Connect four built using Python
-  Flask backend
+desc: A web app which supports multiplayer gaming like Snake n' Ladders and Connect
+  four built using Python Flask backend
 site: https://github.com/YashasG98/Multiplayer-Game-Server
 tags:
 - python
@@ -17,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-10-02T07:09:27Z'
+  fork-count: 0

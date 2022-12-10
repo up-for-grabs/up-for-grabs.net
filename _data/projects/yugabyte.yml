@@ -1,4 +1,3 @@
----
 name: Yugabyte DB
 desc: Distributed, high-performance SQL database
 site: https://docs.yugabyte.com/latest/contribute/
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 100
   last-updated: '2022-11-15T22:09:20Z'
+  fork-count: 0

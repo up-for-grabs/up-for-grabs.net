@@ -1,7 +1,6 @@
----
 name: Shogun Machine Learning Toolbox
-desc: "Shogun is a unified and efficient machine learning library. \nWe support multiple languages and
-  platforms, have an efficient core in C++ and a great community.\n"
+desc: "Shogun is a unified and efficient machine learning library. \nWe support multiple\
+  \ languages and platforms, have an efficient core in C++ and a great community.\n"
 site: http://shogun.ml/
 tags:
 - machine-learning
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 236
   last-updated: '2022-08-04T11:29:41Z'
+  fork-count: 0

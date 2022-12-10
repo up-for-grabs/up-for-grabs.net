@@ -1,4 +1,3 @@
----
 name: Browsh
 desc: A fully-modern text-based browser, rendering to TTY and browsers
 site: https://github.com/browsh-org/browsh/
@@ -19,3 +18,4 @@ upforgrabs:
 stats:
   issue-count: 21
   last-updated: '2022-09-22T18:35:00Z'
+  fork-count: 0

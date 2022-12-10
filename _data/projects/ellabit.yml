@@ -1,4 +1,3 @@
----
 name: Ellabit
 desc: Learn to code using Blockly and C# through interactive challenges
 site: https://github.com/kevmoens/Ellabit
@@ -16,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2022-11-15T21:30:15Z'
+  fork-count: 0

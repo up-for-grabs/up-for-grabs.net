@@ -1,6 +1,5 @@
----
 name: Chakra UI
-desc: "⚡️ Simple, Modular & Accessible UI Components for your React Applications"
+desc: "\u26A1\uFE0F Simple, Modular & Accessible UI Components for your React Applications"
 site: https://chakra-ui.com
 tags:
 - reactjs
@@ -19,3 +18,4 @@ upforgrabs:
   link: https://github.com/chakra-ui/chakra-ui/labels/good%20first%20issue%20%F0%9F%91%8D
 stats:
   issue-count: 0
+  fork-count: 0

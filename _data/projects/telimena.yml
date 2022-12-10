@@ -1,4 +1,3 @@
----
 name: Telimena
 desc: An application for simple app usage monitoring and app lifecycle management
 site: https://github.com/bartosz-jarmuz/Telimena
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2021-07-26T05:52:43Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: Clippy Service
 desc: Rust Linting (with Clippy) as a Webservice
 site: http://clippy.bashy.io
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2020-10-06T17:19:25Z'
+  fork-count: 0

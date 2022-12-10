@@ -1,8 +1,6 @@
----
 name: Class Link Check
-desc: >-
-  Class Link Check is an extension for your browser that automatically checks, opens and alerts the user
-  if the meeting link for the class has come in Google Classroom.
+desc: Class Link Check is an extension for your browser that automatically checks,
+  opens and alerts the user if the meeting link for the class has come in Google Classroom.
 site: https://github.com/Arihant25/class-link-check
 tags:
 - chrome
@@ -18,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2021-12-13T10:50:39Z'
+  fork-count: 0

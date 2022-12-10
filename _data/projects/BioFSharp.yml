@@ -1,4 +1,3 @@
----
 name: BioFSharp
 desc: An open source bioinformatics toolbox written in F#.
 site: https://github.com/CSBiology/BioFSharp
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 6
   last-updated: '2020-07-21T10:33:15Z'
+  fork-count: 0

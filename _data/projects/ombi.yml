@@ -1,10 +1,9 @@
----
 name: Ombi
-desc: "Want a Movie or TV Show on Plex or Emby? Use Ombi! \nOmbi is a user friendly interface for family
-  and friends to request new content on your media server.\n"
+desc: "Want a Movie or TV Show on Plex or Emby? Use Ombi! \nOmbi is a user friendly\
+  \ interface for family and friends to request new content on your media server.\n"
 site: https://github.com/tidusjar/ombi
 tags:
-- ".net"
+- .net
 - typescript
 - angular
 upforgrabs:
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-12-13T02:30:12Z'
+  fork-count: 0

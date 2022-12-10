@@ -1,9 +1,8 @@
----
 name: IdentityServer4
 desc: OpenID Connect and OAuth 2.0 Framework for ASP.NET Core
 site: https://github.com/IdentityServer/IdentityServer4
 tags:
-- ".net"
+- .net
 - security
 - oauth2
 - openid-connect
@@ -15,3 +14,4 @@ upforgrabs:
   link: https://github.com/IdentityServer/IdentityServer4/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

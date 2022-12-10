@@ -1,4 +1,3 @@
----
 name: Hashy
 desc: A program written in Golang to help with hashing strings and files!
 site: https://github.com/AstroOrbis/Hashy
@@ -14,3 +13,4 @@ upforgrabs:
   link: https://github.com/AstroOrbis/Hashy/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: sample-app-php
 desc: Dancing Goat sample site built with Kontent.ai and Laravel
 site: https://github.com/kontent-ai/sample-app-php
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-09-21T13:11:11Z'
+  fork-count: 0

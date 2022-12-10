@@ -1,6 +1,6 @@
----
 name: GitVersion
-desc: Easy Semantic Versioning ([SemVer.org](http://semver.org)) for projects using Git
+desc: Easy Semantic Versioning ([SemVer.org](http://semver.org)) for projects using
+  Git
 site: https://github.com/GitTools/GitVersion
 tags:
 - git
@@ -13,3 +13,4 @@ upforgrabs:
   link: https://github.com/GitTools/GitVersion/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

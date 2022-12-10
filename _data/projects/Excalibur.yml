@@ -1,4 +1,3 @@
----
 name: Excalibur.js
 desc: A simple and free TypeScript-based HTML5 JavaScript game engine
 site: https://github.com/excaliburjs/Excalibur
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/excaliburjs/Excalibur/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

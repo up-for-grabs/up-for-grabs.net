@@ -1,4 +1,3 @@
----
 name: Ideas
 desc: A catalogue of ideas to motivate new developers and data scientists
 site: https://github.com/bacloud14/Ideas
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2021-12-20T14:59:45Z'
+  fork-count: 0

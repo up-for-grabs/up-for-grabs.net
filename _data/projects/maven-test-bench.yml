@@ -1,4 +1,3 @@
----
 name: Maven performance test bench
 desc: Performance test bench for Apache Maven project.
 site: https://github.com/quick-perf/maven-test-bench
@@ -8,7 +7,8 @@ tags:
 - performance
 - quickperf
 upforgrabs:
-  name: ":thumbsup: good first issue"
+  name: ':thumbsup: good first issue'
   link: https://github.com/quick-perf/maven-test-bench/labels/%3Athumbsup%3A%20good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

@@ -1,6 +1,6 @@
----
 name: Face Recognition
-desc: Face Recognizer helps to recognize faces of an individual with the help of Deep Learning Algorithms.
+desc: Face Recognizer helps to recognize faces of an individual with the help of Deep
+  Learning Algorithms.
 site: https://github.com/riya-17/FaceRecognition
 tags:
 - face-recognition
@@ -15,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-09-15T14:10:30Z'
+  fork-count: 0

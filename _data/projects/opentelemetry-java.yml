@@ -1,10 +1,8 @@
----
 name: opentelemetry-java
-desc: >-
-  Java implementation of OpenTelemetry, a working name of a combined OpenCensus and OpenTracing project.
-  It provides a single set of APIs, libraries, agents, and collector services to capture distributed traces
-  and metrics from your application. You can analyze them using Prometheus, Jaeger, and other observability
-  tools.
+desc: Java implementation of OpenTelemetry, a working name of a combined OpenCensus
+  and OpenTracing project. It provides a single set of APIs, libraries, agents, and
+  collector services to capture distributed traces and metrics from your application.
+  You can analyze them using Prometheus, Jaeger, and other observability tools.
 site: https://opentelemetry.io/
 tags:
 - java
@@ -26,3 +24,4 @@ upforgrabs:
 stats:
   issue-count: 12
   last-updated: '2022-11-07T16:13:14Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: Avalonia
 desc: A cross-platform UI framework for .NET
 site: https://avaloniaui.net/
@@ -7,7 +6,7 @@ tags:
 - gui
 - user-interface
 - xaml
-- ".net"
+- .net
 - windows
 - linux
 - macos
@@ -27,3 +26,4 @@ upforgrabs:
 stats:
   issue-count: 71
   last-updated: '2022-11-16T12:54:19Z'
+  fork-count: 0

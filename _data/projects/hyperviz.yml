@@ -1,4 +1,3 @@
----
 name: HyperViz
 desc: Analysing hyper-parameters made easy.
 site: https://github.com/F1nnM/HyperViz
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-10-14T11:12:12Z'
+  fork-count: 0

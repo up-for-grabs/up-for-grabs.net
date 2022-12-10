@@ -1,4 +1,3 @@
----
 name: kentico.github.io
 desc: Official landing page for developer community in Kentico.
 site: https://github.com/Kentico/kentico.github.io
@@ -20,3 +19,4 @@ upforgrabs:
   link: https://github.com/Kentico/kentico.github.io/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

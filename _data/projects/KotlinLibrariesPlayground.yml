@@ -1,8 +1,6 @@
----
 name: Kotlin Libraries Playground
-desc: >-
-  A playground to gain a wider and deeper knowledge of the libraries in the Kotlin ecosystem. Also the
-  official sample for gradle refreshVersions.
+desc: A playground to gain a wider and deeper knowledge of the libraries in the Kotlin
+  ecosystem. Also the official sample for gradle refreshVersions.
 site: https://github.com/LouisCAD/kotlin-libraries-playground
 tags:
 - kotlin
@@ -14,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2022-10-15T11:07:29Z'
+  fork-count: 0

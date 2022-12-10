@@ -1,11 +1,10 @@
----
 name: Polly
-desc: >-
-  Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception
-  handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.
+desc: Polly is a .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express
+  transient exception handling policies such as Retry, Retry Forever, Wait and Retry
+  or Circuit Breaker in a fluent manner.
 site: https://github.com/App-vNext/Polly
 tags:
-- ".net"
+- .net
 - c#
 - exception-handling
 - circuit-breaker
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-02-11T18:56:17Z'
+  fork-count: 0

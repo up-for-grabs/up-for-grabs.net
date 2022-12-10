@@ -1,8 +1,6 @@
----
 name: Owasp VulnerableApp-facade
-desc: >-
-  Probably the most modern lightweight distributed farm of Vulnerable Applications built for handling
-  wide range of vulnerabilities across tech stacks.
+desc: Probably the most modern lightweight distributed farm of Vulnerable Applications
+  built for handling wide range of vulnerabilities across tech stacks.
 site: https://owasp.org/www-project-vulnerableapp-facade/
 tags:
 - vulnerable-web-application
@@ -24,3 +22,4 @@ upforgrabs:
 stats:
   issue-count: 13
   last-updated: '2022-11-07T16:57:54Z'
+  fork-count: 0

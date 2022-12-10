@@ -1,6 +1,6 @@
----
 name: React Weather Application
-desc: This is a very simple React Js based weather application, that uses Weather API.
+desc: This is a very simple React Js based weather application, that uses Weather
+  API.
 site: https://stellar-pie-6964b6.netlify.app/
 tags:
 - reactjs
@@ -13,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-11-05T03:58:19Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: game-of-life
 desc: Conway's game of life web version!
 site: https://github.com/TroyTae/game-of-life
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 7
   last-updated: '2020-10-02T14:08:34Z'
+  fork-count: 0

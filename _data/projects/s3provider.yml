@@ -1,9 +1,8 @@
----
 name: S3Provider
 desc: Experimental type provider for Amazon S3
 site: https://github.com/fsprojects/S3Provider
 tags:
-- ".net"
+- .net
 - f#
 - s3
 - aws
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2014-06-27T20:37:07Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: gtrending
 desc: Python Library for fetching trending repositories and developers on GitHub
 site: https://github.com/hedythedev/gtrending
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/hedyhli/gtrending/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

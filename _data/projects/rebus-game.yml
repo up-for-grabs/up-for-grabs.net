@@ -1,8 +1,6 @@
----
 name: Rebus
-desc: >-
-  Helping new developers take their first steps as open source contributors by developing a simple rebus
-  game together.
+desc: Helping new developers take their first steps as open source contributors by
+  developing a simple rebus game together.
 site: https://github.com/ollelauribostrom/rebus/
 tags:
 - html
@@ -17,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-10-17T21:55:23Z'
+  fork-count: 0

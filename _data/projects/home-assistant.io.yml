@@ -1,4 +1,3 @@
----
 name: home-assistant.io
 desc: Home Assistant User documentation
 site: https://github.com/home-assistant/home-assistant.io
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2022-03-23T00:29:42Z'
+  fork-count: 0

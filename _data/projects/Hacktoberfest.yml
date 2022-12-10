@@ -1,4 +1,3 @@
----
 name: Hacktoberfest
 desc: Repo for new comers to participate in Hacktoberfest, easy pull request
 site: https://github.com/ows-ali/Hacktoberfest
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-11-02T09:03:43Z'
+  fork-count: 0

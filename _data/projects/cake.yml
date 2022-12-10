@@ -1,12 +1,10 @@
----
 name: Cake
-desc: >-
-  Cake (C# Make) is a free and open source cross-platform build automation system with a C# DSL for tasks
-  such as compiling code, copying files and folders, running unit tests, compressing files and building
-  NuGet packages.
+desc: Cake (C# Make) is a free and open source cross-platform build automation system
+  with a C# DSL for tasks such as compiling code, copying files and folders, running
+  unit tests, compressing files and building NuGet packages.
 site: https://github.com/cake-build/cake
 tags:
-- ".net"
+- .net
 - c#
 - build
 - automation
@@ -17,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 36
   last-updated: '2022-11-11T15:30:05Z'
+  fork-count: 0

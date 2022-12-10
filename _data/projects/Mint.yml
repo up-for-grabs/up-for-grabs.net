@@ -1,4 +1,3 @@
----
 name: Mint
 desc: Mint is financial tracking app made on node js
 site: https://github.com/treyhboy/Mint
@@ -22,3 +21,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2022-10-26T15:31:52Z'
+  fork-count: 0

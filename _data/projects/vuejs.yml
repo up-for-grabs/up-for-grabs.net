@@ -1,4 +1,3 @@
----
 name: Vue.js
 desc: Simple yet powerful library for building modern web interfaces.
 site: http://vuejs.org
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2022-07-22T20:01:43Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: plotsbot
 desc: A bot for Public Lab
 site: https://github.com/publiclab/plotsbot
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 9
   last-updated: '2019-10-15T02:24:21Z'
+  fork-count: 0

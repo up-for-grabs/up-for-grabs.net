@@ -1,6 +1,5 @@
----
 name: DNN (formerly DotNetNuke)
-desc: DNN® is a web content management platform (CMS) for .NET.
+desc: "DNN\xAE is a web content management platform (CMS) for .NET."
 site: https://github.com/dnnsoftware/Dnn.Platform
 tags:
 - c#
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 23
   last-updated: '2022-10-25T19:20:14Z'
+  fork-count: 0

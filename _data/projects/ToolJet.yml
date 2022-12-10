@@ -1,7 +1,6 @@
----
 name: ToolJet
-desc: "ToolJet is an open-source low-code platform for building and deploying internal tools with minimal
-  engineering efforts \U0001F680"
+desc: "ToolJet is an open-source low-code platform for building and deploying internal\
+  \ tools with minimal engineering efforts \U0001F680"
 site: https://tooljet.io/
 tags:
 - react-js
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 45
   last-updated: '2022-11-18T09:11:48Z'
+  fork-count: 0

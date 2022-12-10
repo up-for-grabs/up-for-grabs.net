@@ -1,4 +1,3 @@
----
 name: Mudlet
 desc: A cross-platform, open source, and super fast MUD client with scripting in Lua
 site: https://www.mudlet.org
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 45
   last-updated: '2022-11-15T15:25:22Z'
+  fork-count: 0

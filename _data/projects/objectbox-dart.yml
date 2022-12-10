@@ -1,4 +1,3 @@
----
 name: ObjectBox Dart
 desc: ObjectBox is a super-fast database storing Dart objects locally.
 site: https://github.com/objectbox/objectbox-dart
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-10-04T14:58:35Z'
+  fork-count: 0

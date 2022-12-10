@@ -1,8 +1,6 @@
----
 name: Beagle Framework
-desc: >-
-  Beagle is an open source framework that helps developers implement Server-Driven UI in a cross-platform
-  way.
+desc: Beagle is an open source framework that helps developers implement Server-Driven
+  UI in a cross-platform way.
 site: https://usebeagle.io/
 tags:
 - mobile
@@ -20,3 +18,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-09-23T18:09:26Z'
+  fork-count: 0

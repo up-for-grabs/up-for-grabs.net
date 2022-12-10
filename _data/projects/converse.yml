@@ -1,4 +1,3 @@
----
 name: Converse
 desc: Web-based XMPP/Jabber chat client written in JavaScript
 site: https://conversejs.org/
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 13
   last-updated: '2022-11-13T18:18:22Z'
+  fork-count: 0

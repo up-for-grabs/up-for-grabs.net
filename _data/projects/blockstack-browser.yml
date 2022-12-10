@@ -1,4 +1,3 @@
----
 name: Blockstack Browser
 desc: The Blockstack Browser allows you to explore the decentralized internet.
 site: https://blockstack.org
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-02-16T19:52:08Z'
+  fork-count: 0

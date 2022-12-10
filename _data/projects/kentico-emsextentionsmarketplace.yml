@@ -1,4 +1,3 @@
----
 name: ems-extension-marketplace
 desc: Kentico EMS extension marketplace.
 site: https://github.com/Kentico/ems-extension-marketplace
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2020-01-23T14:28:02Z'
+  fork-count: 0

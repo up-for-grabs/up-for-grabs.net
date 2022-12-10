@@ -1,9 +1,8 @@
----
-name: ".NET Docs"
+name: .NET Docs
 desc: Documentation for .NET
 site: http://github.com/dotnet/docs
 tags:
-- ".net"
+- .net
 - documentation
 upforgrabs:
   name: help wanted
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 34
   last-updated: '2022-11-17T17:10:01Z'
+  fork-count: 0

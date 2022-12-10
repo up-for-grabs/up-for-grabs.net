@@ -1,4 +1,3 @@
----
 name: Notepad
 desc: Windows notepad in web with additional features!
 site: https://rahif.me/Notepad
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/Muhammed-Rahif/Notepad/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

@@ -1,7 +1,6 @@
----
 name: SimplQ
-desc: >-
-  Free online queue manager for easy and instant crowd control. [Contributing Guidelines](https://github.com/SimplQ/simplQ-frontend#contributing)
+desc: Free online queue manager for easy and instant crowd control. [Contributing
+  Guidelines](https://github.com/SimplQ/simplQ-frontend#contributing)
 site: https://simplq.me/
 tags:
 - java
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-10-11T04:20:54Z'
+  fork-count: 0

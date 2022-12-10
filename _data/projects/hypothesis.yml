@@ -1,5 +1,5 @@
----
-desc: Hypothesis is a powerful, flexible, and easy to use library for property-based testing.
+desc: Hypothesis is a powerful, flexible, and easy to use library for property-based
+  testing.
 name: Hypothesis
 site: https://github.com/HypothesisWorks/hypothesis
 tags:
@@ -13,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2019-11-19T21:36:58Z'
+  fork-count: 0

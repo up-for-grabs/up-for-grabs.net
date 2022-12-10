@@ -1,4 +1,3 @@
----
 name: npjs-basic
 desc: A numpy-like library for npm
 site: https://example.org/your-project-link-here
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/hrishibawane/npjs-basic/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

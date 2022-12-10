@@ -1,4 +1,3 @@
----
 name: PMD
 desc: An extensible cross-language static code analyzer.
 site: https://pmd.github.io
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-11-03T18:48:03Z'
+  fork-count: 0

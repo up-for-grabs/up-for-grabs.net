@@ -1,9 +1,8 @@
----
 name: OS_100days
-desc: >-
-  Ever do the 100daysofcode.com challenge and find yourself skipping, forgetting which day, etc? Well
-  this project aims to correct that with friendly reminders, a simple way to keep track of what day you
-  are on, and will allow you to tweet directly from it. (hopefully)
+desc: Ever do the 100daysofcode.com challenge and find yourself skipping, forgetting
+  which day, etc? Well this project aims to correct that with friendly reminders,
+  a simple way to keep track of what day you are on, and will allow you to tweet directly
+  from it. (hopefully)
 site: https://discord.gg/AntJA73Qx2
 tags:
 - javascript
@@ -21,3 +20,4 @@ upforgrabs:
 stats:
   issue-count: 7
   last-updated: '2022-10-30T16:12:38Z'
+  fork-count: 0

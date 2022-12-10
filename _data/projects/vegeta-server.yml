@@ -1,4 +1,3 @@
----
 name: vegeta-server
 desc: A RESTful API server for vegeta, a load testing tool written in Go.
 site: https://github.com/nitishm/vegeta-server
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-06-29T19:53:13Z'
+  fork-count: 0

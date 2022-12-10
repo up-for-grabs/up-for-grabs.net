@@ -1,4 +1,3 @@
----
 name: abbreviate
 desc: Shorten your strings using common abbreviations
 site: https://github.com/dnnrly/abbreviate
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-10-13T20:58:16Z'
+  fork-count: 0

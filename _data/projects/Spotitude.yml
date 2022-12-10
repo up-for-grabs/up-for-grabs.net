@@ -1,4 +1,3 @@
----
 name: Spotitude
 desc: Yet another Spotify user analytics visualizer
 site: https://github.com/dtcrout/spotitude
@@ -10,3 +9,4 @@ upforgrabs:
   link: https://github.com/dtcrout/spotitude/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

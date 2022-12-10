@@ -1,7 +1,6 @@
----
 name: 99 Machine Learning Learning-Projects
-desc: >-
-  A list of 99 machine learning projects for anyone interested to learn from coding and building projects
+desc: A list of 99 machine learning projects for anyone interested to learn from coding
+  and building projects
 site: https://github.com/gimseng/99-ML-Learning-Projects
 tags:
 - python
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 14
   last-updated: '2022-10-11T05:22:51Z'
+  fork-count: 0

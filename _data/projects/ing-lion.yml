@@ -1,6 +1,6 @@
----
 name: Lion Web Components
-desc: Lion web components is a set of highly performant, accessible and flexible Web Components
+desc: Lion web components is a set of highly performant, accessible and flexible Web
+  Components
 site: https://github.com/ing-bank/lion
 tags:
 - javascript
@@ -11,3 +11,4 @@ upforgrabs:
   link: https://github.com/ing-bank/lion/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

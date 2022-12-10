@@ -1,4 +1,3 @@
----
 name: CodeNowHere
 desc: CLI application to create any programming language file!
 site: https://github.com/alucardthefish/CodeNowHere
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-11-11T01:30:50Z'
+  fork-count: 0

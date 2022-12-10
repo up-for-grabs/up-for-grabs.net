@@ -1,8 +1,6 @@
----
 name: PyTorch
-desc: >-
-  PyTorch is an open source machine learning library based, used for applications such as computer vision
-  and NLP.
+desc: PyTorch is an open source machine learning library based, used for applications
+  such as computer vision and NLP.
 site: https://pytorch.org/
 tags:
 - neural-network
@@ -20,3 +18,4 @@ upforgrabs:
 stats:
   issue-count: 47
   last-updated: '2022-11-12T05:16:28Z'
+  fork-count: 0

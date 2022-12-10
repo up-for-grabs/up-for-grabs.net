@@ -1,7 +1,6 @@
----
 name: Github-practice-for-all
-desc: >-
-  Here you are welcome to test how team workflow might look and practice git pull, git push and more...
+desc: Here you are welcome to test how team workflow might look and practice git pull,
+  git push and more...
 site: https://github.com/RomchyFCC/GitHub-Practice-For-All
 tags:
 - github
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 6
   last-updated: '2020-10-24T14:29:46Z'
+  fork-count: 0

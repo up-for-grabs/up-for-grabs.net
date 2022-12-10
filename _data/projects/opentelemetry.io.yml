@@ -1,9 +1,8 @@
----
 name: opentelemetry.io
-desc: >-
-  The OpenTelemetry website and documentation. OpenTelemetry provides a single set of APIs, libraries,
-  agents, and collector services to capture distributed traces and metrics from your application. You
-  can analyze them using Prometheus, Jaeger, and other observability tools.
+desc: The OpenTelemetry website and documentation. OpenTelemetry provides a single
+  set of APIs, libraries, agents, and collector services to capture distributed traces
+  and metrics from your application. You can analyze them using Prometheus, Jaeger,
+  and other observability tools.
 site: https://opentelemetry.io/
 tags:
 - website
@@ -26,3 +25,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2022-11-16T15:58:08Z'
+  fork-count: 0

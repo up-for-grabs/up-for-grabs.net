@@ -1,8 +1,6 @@
----
 name: AREG SDK
-desc: >-
-  An interface-centric real-time communication engine to connect Things at the edge of the network and
-  develop distribute embedded applications.
+desc: An interface-centric real-time communication engine to connect Things at the
+  edge of the network and develop distribute embedded applications.
 site: https://github.com/aregtech/areg-sdk
 tags:
 - c++
@@ -21,3 +19,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2022-11-13T17:14:20Z'
+  fork-count: 0

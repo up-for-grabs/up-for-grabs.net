@@ -1,8 +1,6 @@
----
 name: Horusec
-desc: >-
-  Horusec is an open source tool that improves identification of vulnerabilities in your project with
-  just one command.
+desc: Horusec is an open source tool that improves identification of vulnerabilities
+  in your project with just one command.
 site: https://horusec.io
 tags:
 - java
@@ -22,3 +20,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-06-23T04:09:21Z'
+  fork-count: 0

@@ -1,8 +1,6 @@
----
 name: FluentAssertions
-desc: >-
-  The very popular (10M downloads!) assertions framework that allows you to more naturally specify the
-  expected outcome of TDD or BDD-style unit tests.
+desc: The very popular (10M downloads!) assertions framework that allows you to more
+  naturally specify the expected outcome of TDD or BDD-style unit tests.
 site: https://fluentassertions.com/
 tags:
 - unit-testing
@@ -19,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 20
   last-updated: '2022-11-10T11:43:15Z'
+  fork-count: 0

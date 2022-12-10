@@ -1,4 +1,3 @@
----
 name: guess-game
 desc: 'The classic guess the number game with some extra features.Try it '
 site: https://github.com/prateekkalra/guess-game
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-10-09T08:51:52Z'
+  fork-count: 0

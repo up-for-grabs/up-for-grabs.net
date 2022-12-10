@@ -1,9 +1,7 @@
----
 name: Bitwarden Clients
-desc: >-
-  Bitwarden is the easiest and safest way to store all of your logins and passwords while conveniently
-  keeping them synced between all of your devices.  This repository houses all Bitwarden client applications
-  except the Mobile application.
+desc: Bitwarden is the easiest and safest way to store all of your logins and passwords
+  while conveniently keeping them synced between all of your devices.  This repository
+  houses all Bitwarden client applications except the Mobile application.
 site: https://github.com/bitwarden/clients
 tags:
 - javascript
@@ -26,3 +24,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2022-11-08T15:49:07Z'
+  fork-count: 0

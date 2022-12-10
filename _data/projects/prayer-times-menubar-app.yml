@@ -1,4 +1,3 @@
----
 name: Prayer Times Menubar App
 desc: A menubar application for displaying the prayer times from your city.
 site: https://github.com/b0bdN/prayer-times-menubar-app
@@ -16,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-10-15T19:26:16Z'
+  fork-count: 0

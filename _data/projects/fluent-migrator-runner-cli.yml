@@ -1,4 +1,3 @@
----
 name: FluentMigrator .NET CLI Runner
 desc: A .NET CLI runner for Fluent Migrator
 site: https://github.com/giggio/FluentMigrator.Runner.Cli
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2015-07-10T12:57:36Z'
+  fork-count: 0

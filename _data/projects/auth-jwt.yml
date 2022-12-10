@@ -1,4 +1,3 @@
----
 name: auth-jwt
 desc: A demo to learn JWT by reverse engineering
 site: https://github.com/gitcommitshow/auth-jwt
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/gitcommitshow/auth-jwt/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

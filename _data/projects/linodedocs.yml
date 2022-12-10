@@ -1,4 +1,3 @@
----
 name: Linode Docs
 desc: Guides and tutorials on Linux, web servers, development, and more
 site: https://github.com/linode/docs
@@ -14,3 +13,4 @@ upforgrabs:
   link: https://github.com/linode/docs/labels/first-timers-only
 stats:
   issue-count: 0
+  fork-count: 0

@@ -1,10 +1,9 @@
----
 name: College Connect
-desc: >-
-  College Connect is an Android application aimed to be a one stop shop for all the college needs irrespective
-  of college and course. It aims to create a helpful plateform for all college students. It uses Firebase
-  and SQLite to store and display the information to user. The app uses Material UI for an attractive
-  interface and is available in both Light and Dark mode
+desc: College Connect is an Android application aimed to be a one stop shop for all
+  the college needs irrespective of college and course. It aims to create a helpful
+  plateform for all college students. It uses Firebase and SQLite to store and display
+  the information to user. The app uses Material UI for an attractive interface and
+  is available in both Light and Dark mode
 site: https://github.com/collegeconnect/CollegeConnect
 tags:
 - android
@@ -22,3 +21,4 @@ upforgrabs:
 stats:
   issue-count: 6
   last-updated: '2022-10-07T14:50:56Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: Tardsplaya
 desc: Allows viewing of Twitch streams with less buffering in external media players
 site: https://github.com/Zero3K/Tardsplaya
@@ -19,3 +18,4 @@ upforgrabs:
   link: https://github.com/Zero3K/Tardsplaya/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

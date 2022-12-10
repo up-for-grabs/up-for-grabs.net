@@ -1,4 +1,3 @@
----
 name: async-cache
 desc: A caching solution for asyncio
 site: https://github.com/iamsinghrajat/async-cache
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/iamsinghrajat/async-cache/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

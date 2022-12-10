@@ -1,8 +1,7 @@
----
 name: allReady
-desc: >-
-  allReady is an open-source solution focused on increasing awareness, efficiency and impact of preparedness
-  campaigns as they are delivered by humanitarian and disaster response organizations in local communities
+desc: allReady is an open-source solution focused on increasing awareness, efficiency
+  and impact of preparedness campaigns as they are delivered by humanitarian and disaster
+  response organizations in local communities
 site: https://github.com/HTBox/allReady
 tags:
 - htbox
@@ -14,3 +13,4 @@ upforgrabs:
   link: https://github.com/HTBox/allReady/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

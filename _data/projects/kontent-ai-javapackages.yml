@@ -1,6 +1,6 @@
----
 name: java-packages
-desc: Monorepo containing delivery SDK, model generators and other Java-related tools for Kontent.ai
+desc: Monorepo containing delivery SDK, model generators and other Java-related tools
+  for Kontent.ai
 site: https://github.com/kontent-ai/java-packages
 tags:
 - java
@@ -15,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-01-20T12:52:46Z'
+  fork-count: 0

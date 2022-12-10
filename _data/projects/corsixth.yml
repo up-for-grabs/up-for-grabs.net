@@ -1,6 +1,6 @@
----
 name: CorsixTH
-desc: A reimplementation of Theme Hospital (1997) for modern operating systems and resolutions
+desc: A reimplementation of Theme Hospital (1997) for modern operating systems and
+  resolutions
 site: https://github.com/CorsixTH/CorsixTH
 tags:
 - sim
@@ -14,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 9
   last-updated: '2022-11-15T02:55:18Z'
+  fork-count: 0

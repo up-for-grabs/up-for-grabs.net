@@ -1,4 +1,3 @@
----
 name: Arachnida
 desc: Simple web interface to pilot web-crawlers
 site: https://github.com/guillim/Arachnida
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-10-18T15:13:43Z'
+  fork-count: 0

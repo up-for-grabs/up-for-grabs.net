@@ -1,4 +1,3 @@
----
 name: Swat-OS
 desc: Systems Where Anything Transcribes - Operating System
 site: https://github.com/ColinMoulds/SWAT-OS
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2021-08-28T21:27:46Z'
+  fork-count: 0

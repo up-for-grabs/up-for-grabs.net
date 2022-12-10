@@ -1,9 +1,8 @@
----
 name: Noda Time
 desc: A better date/time API for .NET
 site: https://github.com/nodatime/nodatime
 tags:
-- ".net"
+- .net
 - c#
 - datetime
 - date
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-10-12T06:29:22Z'
+  fork-count: 0

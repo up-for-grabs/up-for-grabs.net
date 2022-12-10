@@ -1,9 +1,8 @@
----
 name: NHibernate
 desc: NHibernate is a mature, open source object-relational mapper for the .NET framework
 site: https://github.com/nhibernate/nhibernate-core
 tags:
-- ".net"
+- .net
 - nhibernate
 - orm
 - linq
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-09-01T09:40:05Z'
+  fork-count: 0

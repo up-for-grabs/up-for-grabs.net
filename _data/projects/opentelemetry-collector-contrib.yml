@@ -1,9 +1,8 @@
----
 name: opentelemetry-collector-contrib
-desc: >-
-  Contrib repository for the OpenTelemetry Collector. OpenTelemetry provides a single set of APIs, libraries,
-  agents, and collector services to capture distributed traces and metrics from your application. You
-  can analyze them using Prometheus, Jaeger, and other observability tools.
+desc: Contrib repository for the OpenTelemetry Collector. OpenTelemetry provides a
+  single set of APIs, libraries, agents, and collector services to capture distributed
+  traces and metrics from your application. You can analyze them using Prometheus,
+  Jaeger, and other observability tools.
 site: https://opentelemetry.io/
 tags:
 - collector
@@ -26,3 +25,4 @@ upforgrabs:
 stats:
   issue-count: 52
   last-updated: '2022-11-18T09:50:11Z'
+  fork-count: 0

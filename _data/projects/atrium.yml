@@ -1,4 +1,3 @@
----
 name: Atrium
 desc: A multiplatform assertion library for Kotlin
 site: https://atriumlib.org
@@ -12,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-07-14T13:41:13Z'
+  fork-count: 0

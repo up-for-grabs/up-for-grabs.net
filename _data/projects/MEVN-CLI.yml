@@ -1,4 +1,3 @@
----
 name: MEVN-CLI
 desc: Light speed setup for MEVN(Mongo Express Vue Node) Apps
 site: https://github.com/madlabsinc/mevn-cli
@@ -28,3 +27,4 @@ upforgrabs:
 stats:
   issue-count: 6
   last-updated: '2022-04-05T23:22:58Z'
+  fork-count: 0

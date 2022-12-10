@@ -1,4 +1,3 @@
----
 name: Sklean-genetic-opt
 desc: scikit-learn models hyperparameters tuning, using evolutionary algorithms.
 site: https://sklearn-genetic-opt.readthedocs.io/en/latest/
@@ -11,8 +10,8 @@ tags:
 - optimization
 upforgrabs:
   name: good first issue
-  link: >-
-    https://github.com/rodrigo-arenas/Sklearn-genetic-opt/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  link: https://github.com/rodrigo-arenas/Sklearn-genetic-opt/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 stats:
   issue-count: 1
   last-updated: '2022-09-10T13:55:52Z'
+  fork-count: 0

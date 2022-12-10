@@ -1,4 +1,3 @@
----
 name: OpenFaaS
 desc: Serverless Functions Made Simple
 site: https://www.openfaas.com/
@@ -12,3 +11,4 @@ upforgrabs:
   link: https://github.com/openfaas/faas/labels/hacktoberfest
 stats:
   issue-count: 0
+  fork-count: 0

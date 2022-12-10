@@ -1,8 +1,6 @@
----
 name: Visual Studio Code
-desc: >-
-  A lightweight but powerful source code editor which runs on your desktop and is available for Windows,
-  macOS and Linux.
+desc: A lightweight but powerful source code editor which runs on your desktop and
+  is available for Windows, macOS and Linux.
 site: https://code.visualstudio.com/
 tags:
 - vscode
@@ -17,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 328
   last-updated: '2022-11-17T23:03:48Z'
+  fork-count: 0

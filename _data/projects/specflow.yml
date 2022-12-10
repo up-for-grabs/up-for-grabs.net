@@ -1,4 +1,3 @@
----
 name: SpecFlow
 desc: SpecFlow is a pragmatic BDD solution for .NET
 site: http://www.specflow.org
@@ -6,7 +5,7 @@ tags:
 - bdd
 - testing
 - c#
-- ".net"
+- .net
 - oss
 upforgrabs:
   name: up-for-grabs
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 41
   last-updated: '2022-11-08T12:12:26Z'
+  fork-count: 0

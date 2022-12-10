@@ -1,6 +1,6 @@
----
 name: passthief
-desc: passthief is a Python script designed to steal all the passwords via the use of plugins
+desc: passthief is a Python script designed to steal all the passwords via the use
+  of plugins
 site: https://github.com/sadboyzvone/passthief
 tags:
 - python
@@ -21,3 +21,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2021-07-01T12:47:36Z'
+  fork-count: 0

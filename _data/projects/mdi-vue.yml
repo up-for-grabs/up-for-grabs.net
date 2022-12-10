@@ -1,4 +1,3 @@
----
 name: mdi-vue
 desc: material design icons for vue js
 site: https://github.com/therufa/mdi-vue
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/therufa/mdi-vue/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: ChatBot
 desc: An online bot made for the purpose of answering the queries people ask on websites.
 site: https://github.com/priyanshugandhi/ChatBot
@@ -9,3 +8,4 @@ upforgrabs:
   link: https://github.com/priyanshugandhi/ChatBot/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

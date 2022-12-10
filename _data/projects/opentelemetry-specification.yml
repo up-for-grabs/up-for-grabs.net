@@ -1,10 +1,8 @@
----
 name: opentelemetry-specification
-desc: >-
-  Specification of OpenTelemetry, a working name of a combined OpenCensus and OpenTracing project. It
-  provides a single set of APIs, libraries, agents, and collector services to capture distributed traces
-  and metrics from your application. You can analyze them using Prometheus, Jaeger, and other observability
-  tools.
+desc: Specification of OpenTelemetry, a working name of a combined OpenCensus and
+  OpenTracing project. It provides a single set of APIs, libraries, agents, and collector
+  services to capture distributed traces and metrics from your application. You can
+  analyze them using Prometheus, Jaeger, and other observability tools.
 site: https://opentelemetry.io/
 tags:
 - specification
@@ -26,3 +24,4 @@ upforgrabs:
 stats:
   issue-count: 22
   last-updated: '2022-10-11T13:25:26Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: Python Shiksha
 desc: Step by Step Guide to learn Python language
 site: https://python.shiksha/
@@ -10,3 +9,4 @@ upforgrabs:
   link: https://github.com/arungudelli/python.shiksha/labels/ds-algo-problems
 stats:
   issue-count: 0
+  fork-count: 0

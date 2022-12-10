@@ -1,4 +1,3 @@
----
 name: Theia
 desc: Theia is a cloud & desktop IDE framework implemented in TypeScript.
 site: https://github.com/eclipse-theia/theia
@@ -20,3 +19,4 @@ upforgrabs:
 stats:
   issue-count: 308
   last-updated: '2022-11-04T18:58:25Z'
+  fork-count: 0

@@ -1,9 +1,8 @@
----
-name: ".NET WPF"
+name: .NET WPF
 desc: WPF is a .NET Core UI framework for building Windows desktop applications.
 site: https://github.com/dotnet/wpf
 tags:
-- ".net"
+- .net
 - c#
 - c++
 upforgrabs:
@@ -12,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 12
   last-updated: '2022-11-15T10:34:05Z'
+  fork-count: 0

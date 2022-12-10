@@ -1,8 +1,6 @@
----
 name: BikeMD
-desc: >-
-  A community for motorcyle technicians and owners. Post problems and solutions, get help with hard to
-  solve issues.
+desc: A community for motorcyle technicians and owners. Post problems and solutions,
+  get help with hard to solve issues.
 site: https://github.com/bike-md/bike_md
 tags:
 - python
@@ -14,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2019-11-18T23:29:23Z'
+  fork-count: 0

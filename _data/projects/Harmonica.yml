@@ -1,7 +1,6 @@
----
 name: Harmonica
-desc: >-
-  Harmonica is a android application which translates the SARGAM notations to numerical Harmonica Notations.
+desc: Harmonica is a android application which translates the SARGAM notations to
+  numerical Harmonica Notations.
 site: https://www.github.com/josharsh/harmonica
 tags:
 - java
@@ -12,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-10-06T11:33:04Z'
+  fork-count: 0

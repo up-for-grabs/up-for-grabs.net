@@ -1,4 +1,3 @@
----
 name: xcovfe
 desc: CovidX frontend project
 site: https://www.covidsos.net
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/Xcov19/xcovfe/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

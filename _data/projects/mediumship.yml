@@ -1,4 +1,3 @@
----
 name: mediumship
 desc: "\U0001F4DA Try Medium with membership-features!"
 site: https://github.com/swapagarwal/mediumship
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2021-09-12T11:37:00Z'
+  fork-count: 0

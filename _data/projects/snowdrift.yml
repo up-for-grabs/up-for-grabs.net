@@ -1,4 +1,3 @@
----
 name: Snowdrift.coop
 desc: Sustainable funding platform for free/libre/open works
 site: https://snowdrift.coop/
@@ -16,3 +15,4 @@ upforgrabs:
   link: https://github.com/snowdriftcoop/snowdrift/labels/newbie-friendly
 stats:
   issue-count: 0
+  fork-count: 0

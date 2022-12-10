@@ -1,8 +1,6 @@
----
 name: Paper
-desc: >-
-  Scan those documents at ease with real-time document detection, multi paged pdfs, optimized and cleaner
-  clicks from an easy to navigate UX
+desc: Scan those documents at ease with real-time document detection, multi paged
+  pdfs, optimized and cleaner clicks from an easy to navigate UX
 site: https://github.com/josharsh/Paper
 tags:
 - flutter
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-10-20T01:22:57Z'
+  fork-count: 0

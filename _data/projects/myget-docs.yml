@@ -1,10 +1,9 @@
----
 name: MyGet Docs
 desc: Markdown based ASP.NET Web Pages documentation web site for MyGet.
 site: https://github.com/myget/MyGetDocs
 tags:
 - markdown
-- ".net"
+- .net
 - documentation
 - nuget
 - convention
@@ -16,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2015-10-15T15:26:56Z'
+  fork-count: 0

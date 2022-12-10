@@ -1,6 +1,5 @@
----
 name: model-generator-net
-desc: ".NET model generators for Kontent.ai"
+desc: .NET model generators for Kontent.ai
 site: https://github.com/kontent-ai/model-generator-net/labels/up-for-grabs
 tags:
 - netcore
@@ -8,8 +7,8 @@ tags:
 - generator
 - kontent-ai
 - c#
-- ".net"
-- ".net-core"
+- .net
+- .net-core
 - command-line
 - caas
 upforgrabs:
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-10-14T12:00:57Z'
+  fork-count: 0

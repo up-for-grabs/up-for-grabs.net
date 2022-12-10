@@ -1,9 +1,8 @@
----
 name: opentelemetry-community
-desc: >-
-  OpenTelemetry community content. OpenTelemetry provides a single set of APIs, libraries, agents, and
-  collector services to capture distributed traces and metrics from your application. You can analyze
-  them using Prometheus, Jaeger, and other observability tools.
+desc: OpenTelemetry community content. OpenTelemetry provides a single set of APIs,
+  libraries, agents, and collector services to capture distributed traces and metrics
+  from your application. You can analyze them using Prometheus, Jaeger, and other
+  observability tools.
 site: https://opentelemetry.io/
 tags:
 - community
@@ -25,3 +24,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-02-09T22:36:53Z'
+  fork-count: 0

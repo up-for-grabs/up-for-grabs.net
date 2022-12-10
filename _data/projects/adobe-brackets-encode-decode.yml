@@ -1,7 +1,6 @@
----
 name: Encode-Decode for Adobe Brackets
-desc: >-
-  An extension for Adobe Brackets that lets you to convert text selections to and from various formats.
+desc: An extension for Adobe Brackets that lets you to convert text selections to
+  and from various formats.
 site: https://github.com/nadchif/adobe-brackets-encode-decode
 tags:
 - adobe
@@ -18,3 +17,4 @@ upforgrabs:
   link: https://github.com/nadchif/adobe-brackets-encode-decode/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

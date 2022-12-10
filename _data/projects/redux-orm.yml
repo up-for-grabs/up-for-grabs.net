@@ -1,4 +1,3 @@
----
 name: Redux-ORM
 desc: A small, simple and immutable ORM to manage relational data in your Redux store.
 site: https://github.com/redux-orm/redux-orm
@@ -21,3 +20,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2021-06-05T20:12:35Z'
+  fork-count: 0

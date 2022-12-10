@@ -1,9 +1,8 @@
----
-name: ".NET API Docs"
+name: .NET API Docs
 desc: API documentation for .NET
 site: http://github.com/dotnet/dotnet-api-docs
 tags:
-- ".net"
+- .net
 - documentation
 upforgrabs:
   name: help wanted
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 43
   last-updated: '2022-10-26T13:41:39Z'
+  fork-count: 0

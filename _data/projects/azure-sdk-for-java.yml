@@ -1,4 +1,3 @@
----
 name: Microsoft Azure SDK for Java
 desc: This repository contains official Java libraries for Azure services.
 site: https://github.com/Azure/azure-sdk-for-java
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 20
   last-updated: '2022-10-11T13:47:59Z'
+  fork-count: 0

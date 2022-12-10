@@ -1,4 +1,3 @@
----
 name: mimetype
 desc: Mimetype detecting library written in GoLang
 site: https://github.com/gabriel-vasile/mimetype
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-08-02T03:15:40Z'
+  fork-count: 0

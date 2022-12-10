@@ -1,4 +1,3 @@
----
 name: ghost2
 desc: A modular, multi-featured Discord bot.
 site: https://github.com/ghost2-discord/ghost2
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/ghost-discord/ghost/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

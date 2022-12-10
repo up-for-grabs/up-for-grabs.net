@@ -1,10 +1,9 @@
----
 name: AntaniXml
 desc: xml random generator
 site: https://github.com/giacomociti/AntaniXml
 tags:
 - f#
-- ".net"
+- .net
 - xml
 upforgrabs:
   name: help wanted
@@ -12,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2015-08-20T21:26:00Z'
+  fork-count: 0

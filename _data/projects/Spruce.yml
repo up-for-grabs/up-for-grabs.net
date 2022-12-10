@@ -1,4 +1,3 @@
----
 name: Spruce
 desc: An open source social media platform built with Node.js and MongoDB
 site: https://github.com/dan-divy/spruce
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/dan-divy/spruce/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

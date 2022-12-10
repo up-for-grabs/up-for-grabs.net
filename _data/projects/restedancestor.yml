@@ -1,6 +1,6 @@
----
 name: restedancestor
-desc: simple REST API, focused on quotes from the Ancestor of the Darkest Dungeon videogame
+desc: simple REST API, focused on quotes from the Ancestor of the Darkest Dungeon
+  videogame
 site: https://github.com/bruno-chavez/restedancestor
 tags:
 - go
@@ -12,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2019-11-04T21:31:41Z'
+  fork-count: 0

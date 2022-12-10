@@ -1,6 +1,6 @@
----
 name: bbox-visualizer
-desc: An easy-to-use tool for drawing and labeling bounding boxes after detection and recognition.
+desc: An easy-to-use tool for drawing and labeling bounding boxes after detection
+  and recognition.
 site: https://github.com/shoumikchow/bbox-visualizer
 tags:
 - python
@@ -13,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2021-08-20T15:27:51Z'
+  fork-count: 0

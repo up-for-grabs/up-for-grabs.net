@@ -1,4 +1,3 @@
----
 name: defe
 desc: A Tech feed Aggregator for Developers & Tech Enthusiasts
 site: https://defe-app.herokuapp.com/
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2021-10-07T22:53:57Z'
+  fork-count: 0

@@ -1,8 +1,6 @@
----
 name: Animations
-desc: >-
-  An open source collection of animations, from loaders, to menus, and scroll transitions, and anything
-  in between
+desc: An open source collection of animations, from loaders, to menus, and scroll
+  transitions, and anything in between
 site: https://animations.gq
 tags:
 - css
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-10-17T05:56:23Z'
+  fork-count: 0

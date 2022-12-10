@@ -1,11 +1,10 @@
----
 name: NUnit
 desc: NUnit is the most popular and widely used unit test framework for .NET
 site: https://github.com/nunit/nunit
 tags:
 - nunit
-- ".net"
-- ".net-core"
+- .net
+- .net-core
 - cross-platform
 - c#
 - testing
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-05-21T20:54:54Z'
+  fork-count: 0

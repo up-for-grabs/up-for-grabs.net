@@ -1,7 +1,6 @@
----
 name: Online store app with MERN
-desc: >-
-  A boilerplate for an online store app with front end with React and a back end API with Express/Node/MongoDB.
+desc: A boilerplate for an online store app with front end with React and a back end
+  API with Express/Node/MongoDB.
 site: https://github.com/aawgit/onlineStore
 tags:
 - mern
@@ -20,3 +19,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-10-06T13:57:02Z'
+  fork-count: 0

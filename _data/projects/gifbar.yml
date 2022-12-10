@@ -1,4 +1,3 @@
----
 name: GifBar
 desc: Find Awesome Gif's right in your Menu Bar
 site: https://github.com/joshghent/gifbar
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-10-05T06:38:26Z'
+  fork-count: 0

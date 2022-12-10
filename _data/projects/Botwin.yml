@@ -1,4 +1,3 @@
----
 name: Carter
 desc: Carter is a library that allows Nancy-esque routing for use with ASP.Net Core.
 site: https://github.com/CarterCommunity/Carter
@@ -8,11 +7,12 @@ tags:
 - asp.net
 - netcore
 - asp.net-core
-- ".net-core"
-- ".net"
+- .net-core
+- .net
 - c#
 upforgrabs:
   name: up for grabs
   link: https://github.com/CarterCommunity/Carter/labels/up%20for%20grabs
 stats:
   issue-count: 0
+  fork-count: 0

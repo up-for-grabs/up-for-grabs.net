@@ -1,16 +1,15 @@
----
 name: opencensus-csharp
-desc: >-
-  A statistics collection and distributed tracing framework. Open Census for C# enables monitoring and
-  observability scenarios for different application types and various frameworks, including ASP.NET, ASP.NET
-  Core, System.Net.Http, GRPC, SQL, and others. It automatically collects incoming and outgoing calls
-  to the application and allows to export this data into backends like Zipkin, Prometheus, Azure Monitor,
+desc: A statistics collection and distributed tracing framework. Open Census for C#
+  enables monitoring and observability scenarios for different application types and
+  various frameworks, including ASP.NET, ASP.NET Core, System.Net.Http, GRPC, SQL,
+  and others. It automatically collects incoming and outgoing calls to the application
+  and allows to export this data into backends like Zipkin, Prometheus, Azure Monitor,
   Stack Driver and more.
 site: https://opencensus.io
 tags:
 - trace
 - c#
-- ".net"
+- .net
 - cloud
 - stats
 - monitoring
@@ -30,3 +29,4 @@ upforgrabs:
   link: https://github.com/census-instrumentation/opencensus-csharp/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

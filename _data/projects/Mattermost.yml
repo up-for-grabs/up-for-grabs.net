@@ -1,4 +1,3 @@
----
 name: Mattermost
 desc: Open source Slack-alternative in Golang and React
 site: https://mattermost.com
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 136
   last-updated: '2022-11-15T14:44:05Z'
+  fork-count: 0

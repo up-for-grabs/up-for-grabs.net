@@ -1,6 +1,6 @@
----
 name: PowerShell Editor Services
-desc: Provides language and debugging services for developing PowerShell scripts in any code editor
+desc: Provides language and debugging services for developing PowerShell scripts in
+  any code editor
 site: https://github.com/PowerShell/PowerShellEditorServices
 tags:
 - powershell
@@ -11,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 9
   last-updated: '2022-10-03T22:00:25Z'
+  fork-count: 0

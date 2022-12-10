@@ -1,4 +1,3 @@
----
 name: CheatSheets
 desc: A Repository for developers for different kinds of Programming Cheatsheets
 site: https://github.com/darkmatter18/cheatsheet
@@ -15,3 +14,4 @@ upforgrabs:
   link: https://github.com/darkmatter18/cheatsheet/labels/up%20for%20grabs
 stats:
   issue-count: 0
+  fork-count: 0

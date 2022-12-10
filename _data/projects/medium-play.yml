@@ -1,4 +1,3 @@
----
 name: Medium Play
 desc: Listen to audio versions of medium stories.
 site: https://github.com/swapagarwal/medium-play
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-04-06T09:10:55Z'
+  fork-count: 0

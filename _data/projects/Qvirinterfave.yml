@@ -1,4 +1,3 @@
----
 name: Qvirinterfave
 desc: Cross platform Cloud Managemnt tool
 site: https://github.com/Dravigon/Qvirinterfave
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2018-06-03T19:47:40Z'
+  fork-count: 0

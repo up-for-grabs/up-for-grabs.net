@@ -1,4 +1,3 @@
----
 name: momentjs.com
 desc: Web site and documentation content for moment.js
 site: http://momentjs.com
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/moment/momentjs.com/labels/Up-For-Grabs
 stats:
   issue-count: 0
+  fork-count: 0

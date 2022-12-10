@@ -1,4 +1,3 @@
----
 name: Sentinelsat
 desc: search and download open satellite imagery from the Copernicus Sentinel missions
 site: https://github.com/sentinelsat/sentinelsat
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2021-08-10T14:50:57Z'
+  fork-count: 0

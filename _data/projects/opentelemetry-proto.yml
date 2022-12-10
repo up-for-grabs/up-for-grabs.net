@@ -1,9 +1,8 @@
----
 name: opentelemetry-proto
-desc: >-
-  Language Independent Interface Types For OpenTelemetry. OpenTelemetry provides a single set of APIs,
-  libraries, agents, and collector services to capture distributed traces and metrics from your application.
-  You can analyze them using Prometheus, Jaeger, and other observability tools.
+desc: Language Independent Interface Types For OpenTelemetry. OpenTelemetry provides
+  a single set of APIs, libraries, agents, and collector services to capture distributed
+  traces and metrics from your application. You can analyze them using Prometheus,
+  Jaeger, and other observability tools.
 site: https://opentelemetry.io/
 tags:
 - proto
@@ -25,3 +24,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-10-18T16:42:42Z'
+  fork-count: 0

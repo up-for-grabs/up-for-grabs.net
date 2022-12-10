@@ -1,4 +1,3 @@
----
 name: Certify The Web
 desc: Windows UI for managing ssl/https certificates from Let's Encrypt
 site: https://github.com/webprofusion/certify
@@ -14,3 +13,4 @@ upforgrabs:
   link: https://github.com/webprofusion/certify/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

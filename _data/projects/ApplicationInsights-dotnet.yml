@@ -1,10 +1,9 @@
----
 name: ApplicationInsights-dotnet
-desc: >-
-  Azure Application Insights SDK for .NET. Includes public API surface, serialization and channel implementation
+desc: Azure Application Insights SDK for .NET. Includes public API surface, serialization
+  and channel implementation
 site: http://go.microsoft.com/fwlink/?LinkId=392727
 tags:
-- ".net"
+- .net
 - monitoring
 - telemetry
 - distributed-tracing
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-01-26T08:39:32Z'
+  fork-count: 0

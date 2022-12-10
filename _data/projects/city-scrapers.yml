@@ -1,4 +1,3 @@
----
 name: City Scrapers
 desc: Scrape public meetings to increase access and transparency around local government.
 site: https://cityscrapers.org/
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 16
   last-updated: '2022-04-18T17:58:41Z'
+  fork-count: 0

@@ -1,6 +1,6 @@
----
 name: awesome-inspiration
-desc: "\U0001F525 A curated list of content worth sharing to help you get inspired! ⚡️"
+desc: "\U0001F525 A curated list of content worth sharing to help you get inspired!\
+  \ \u26A1\uFE0F"
 site: https://github.com/swapagarwal/awesome-inspiration
 tags:
 - markdown
@@ -15,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 7
   last-updated: '2022-10-27T15:22:09Z'
+  fork-count: 0

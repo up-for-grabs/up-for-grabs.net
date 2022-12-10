@@ -1,9 +1,8 @@
----
 name: OrigoDB Core
 desc: In-memory database for .NET
 site: http://origodb.com
 tags:
-- ".net"
+- .net
 - in-memory
 - database
 - c#
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2015-06-13T07:36:27Z'
+  fork-count: 0

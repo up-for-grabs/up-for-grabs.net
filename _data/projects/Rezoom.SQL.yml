@@ -1,10 +1,10 @@
----
 name: Rezoom.SQL
-desc: Statically typechecks a common SQL dialect and translates it to various RDBMS backends
+desc: Statically typechecks a common SQL dialect and translates it to various RDBMS
+  backends
 site: https://github.com/rspeele/Rezoom.SQL
 tags:
 - f#
-- ".net"
+- .net
 - sql
 upforgrabs:
   name: help wanted
@@ -12,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2021-05-20T16:42:55Z'
+  fork-count: 0

@@ -1,9 +1,9 @@
----
 name: Memstate
-desc: a high-performance in-memory event-sourced replicated object graph engine for dotnet
+desc: a high-performance in-memory event-sourced replicated object graph engine for
+  dotnet
 site: https://github.com/devrexlabs/memstate
 tags:
-- ".net"
+- .net
 - in-memory
 - database
 - c#
@@ -13,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2020-05-22T21:57:07Z'
+  fork-count: 0

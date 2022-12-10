@@ -13,11 +13,11 @@ def createForkCount(directory):
             data = yaml.load(f, Loader=yaml.FullLoader)
             # Add a new row to the field
         try:
-            data['stats']['fork-count'] = 0
+            data['stats']['fork-count'] = "0"
         except:
             continue
         with open(os.path.join(directory, file), "w") as file:
             yaml.dump(data, file, sort_keys=False)
   
 
-createForkCount("_data/projects")
+createForkCount("../_data/projects")

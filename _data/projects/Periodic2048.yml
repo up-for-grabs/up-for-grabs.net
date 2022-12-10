@@ -1,13 +1,13 @@
----
-name: Periodic2048
 desc: 2048 Game based on the periodic table elements
+name: Periodic2048
 site: https://github.com/Griffintaur/Periodic2048
+stats:
+  fork-count: 0
+  issue-count: 4
+  last-updated: '2022-10-08T06:34:49Z'
 tags:
 - oss
 - javascript
 upforgrabs:
-  name: help wanted
   link: https://github.com/Griffintaur/Periodic2048/labels/help%20wanted
-stats:
-  issue-count: 4
-  last-updated: '2022-10-08T06:34:49Z'
+  name: help wanted

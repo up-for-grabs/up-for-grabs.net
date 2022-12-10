@@ -1,17 +1,17 @@
----
-name: Fulma
 desc: Binding for Elmish using Bulma CSS framework
+name: Fulma
 site: https://github.com/Fulma/Fulma
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2021-06-30T08:21:14Z'
 tags:
 - f#
-- ".net"
+- .net
 - bulma
 - web
 - css
 - elmish
 upforgrabs:
-  name: up for grabs
   link: https://github.com/Fulma/Fulma/labels/up%20for%20grabs
-stats:
-  issue-count: 2
-  last-updated: '2021-06-30T08:21:14Z'
+  name: up for grabs

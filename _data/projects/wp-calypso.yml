@@ -1,15 +1,15 @@
----
-name: wp-calypso
 desc: The new JavaScript- and API-powered WordPress.com.
+name: wp-calypso
 site: https://developer.wordpress.com/calypso/
+stats:
+  fork-count: 0
+  issue-count: 14
+  last-updated: '2022-11-11T02:54:06Z'
 tags:
 - javascript
 - wordpress
 - reactjs
 - redux
 upforgrabs:
-  name: Good First Issue
   link: https://github.com/Automattic/wp-calypso/labels/Good%20First%20Issue
-stats:
-  issue-count: 14
-  last-updated: '2022-11-11T02:54:06Z'
+  name: Good First Issue

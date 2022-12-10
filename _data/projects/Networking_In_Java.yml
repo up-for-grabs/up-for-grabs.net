@@ -1,7 +1,10 @@
----
-name: Networking_In_Java
 desc: A repostiory which goes through implementation of networking protocols in java
+name: Networking_In_Java
 site: https://github.com/PrajjawalBanati/Networking_In_Java
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-06-09T13:18:07Z'
 tags:
 - java
 - java-networking
@@ -12,8 +15,5 @@ tags:
 - udp-server
 - java-programming
 upforgrabs:
-  name: Up-For-Grabs
   link: https://github.com/PrajjawalBanati/Networking_In_Java/labels/Up-For-Grabs
-stats:
-  issue-count: 1
-  last-updated: '2022-06-09T13:18:07Z'
+  name: Up-For-Grabs

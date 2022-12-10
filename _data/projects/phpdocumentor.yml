@@ -1,7 +1,10 @@
----
-name: phpDocumentor
 desc: The documentation tool for PHP projects
+name: phpDocumentor
 site: https://github.com/phpDocumentor/phpDocumentor2
+stats:
+  fork-count: 0
+  issue-count: 12
+  last-updated: '2022-08-18T13:29:29Z'
 tags:
 - php
 - documentation
@@ -11,8 +14,5 @@ tags:
 - apidocumentation
 - phpdoc
 upforgrabs:
-  name: Up-for-grabs
   link: https://github.com/phpDocumentor/phpDocumentor/labels/Up-for-grabs
-stats:
-  issue-count: 12
-  last-updated: '2022-08-18T13:29:29Z'
+  name: Up-for-grabs

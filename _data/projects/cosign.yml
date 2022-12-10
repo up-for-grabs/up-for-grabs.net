@@ -1,9 +1,11 @@
----
+desc: Container Signing, Verification and Storage in an OCI registry. Cosign aims
+  to make signatures invisible infrastructure.
 name: Cosign
-desc: >-
-  Container Signing, Verification and Storage in an OCI registry. Cosign aims to make signatures invisible
-  infrastructure.
 site: https://github.com/sigstore/cosign
+stats:
+  fork-count: 0
+  issue-count: 16
+  last-updated: '2022-11-18T13:25:38Z'
 tags:
 - security
 - container-signing
@@ -12,8 +14,5 @@ tags:
 - signature
 - supply-chain
 upforgrabs:
-  name: good first issue
   link: https://github.com/sigstore/cosign/labels/good%20first%20issue
-stats:
-  issue-count: 16
-  last-updated: '2022-11-18T13:25:38Z'
+  name: good first issue

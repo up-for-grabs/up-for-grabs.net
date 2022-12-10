@@ -1,7 +1,11 @@
----
+desc: The free and open source solution for automated video capture and distribution
+  at scale.
 name: Opencast
-desc: The free and open source solution for automated video capture and distribution at scale.
 site: https://opencast.org/
+stats:
+  fork-count: 0
+  issue-count: 20
+  last-updated: '2022-11-04T18:47:46Z'
 tags:
 - video
 - video-processing
@@ -13,8 +17,5 @@ tags:
 - video-publication
 - video-production
 upforgrabs:
-  name: good first issue
   link: https://github.com/opencast/opencast/labels/good%20first%20issue
-stats:
-  issue-count: 20
-  last-updated: '2022-11-04T18:47:46Z'
+  name: good first issue

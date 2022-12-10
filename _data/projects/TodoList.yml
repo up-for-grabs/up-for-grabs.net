@@ -1,15 +1,15 @@
----
-name: TodoList
 desc: Simple todo-list app built with asp.net core mvc
+name: TodoList
 site: https://github.com/amoraitis/TodoList
-tags:
-- c#
-- ".net-core"
-- asp.net-core
-- ".net"
-upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/amoraitis/TodoList/labels/up-for-grabs
 stats:
+  fork-count: 0
   issue-count: 8
   last-updated: '2022-10-15T09:40:20Z'
+tags:
+- c#
+- .net-core
+- asp.net-core
+- .net
+upforgrabs:
+  link: https://github.com/amoraitis/TodoList/labels/up-for-grabs
+  name: up-for-grabs

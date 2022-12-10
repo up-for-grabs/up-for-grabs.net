@@ -1,7 +1,9 @@
----
-name: kentico.github.io
 desc: Official landing page for developer community in Kentico.
+name: kentico.github.io
 site: https://github.com/Kentico/kentico.github.io
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - javascript
 - kentico
@@ -16,7 +18,5 @@ tags:
 - serverless
 - caas
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/Kentico/kentico.github.io/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

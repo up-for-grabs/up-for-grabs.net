@@ -1,13 +1,14 @@
----
+desc: Platform to automatically detect what user might be interested in buying in
+  near future
 name: VertiKin
-desc: Platform to automatically detect what user might be interested in buying in near future
 site: https://github.com/prabhakar267/vertikin
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - python
 - natural-language-processing
 - android
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/prabhakar267/vertikin/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

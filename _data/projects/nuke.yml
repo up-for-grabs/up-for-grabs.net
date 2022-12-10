@@ -1,16 +1,16 @@
----
-name: NUKE
 desc: Build Automation System for C#/.NET
+name: NUKE
 site: https://nuke.build
+stats:
+  fork-count: 0
+  issue-count: 9
+  last-updated: '2022-10-20T00:08:53Z'
 tags:
-- ".net"
+- .net
 - c#
 - build
 - automation
 - orchestration
 upforgrabs:
-  name: 'first-timers :hugs:'
   link: https://github.com/nuke-build/nuke/labels/first-timers%20%3Ahugs%3A
-stats:
-  issue-count: 9
-  last-updated: '2022-10-20T00:08:53Z'
+  name: 'first-timers :hugs:'

@@ -1,7 +1,10 @@
----
-name: Submitty
 desc: A programming assignment submission system
+name: Submitty
 site: https://submitty.org/
+stats:
+  fork-count: 0
+  issue-count: 52
+  last-updated: '2022-11-16T15:15:05Z'
 tags:
 - php
 - python
@@ -10,8 +13,5 @@ tags:
 - autograding
 - teaching-tools
 upforgrabs:
-  name: good first issue
   link: https://github.com/Submitty/Submitty/labels/good%20first%20issue
-stats:
-  issue-count: 52
-  last-updated: '2022-11-16T15:15:05Z'
+  name: good first issue

@@ -1,10 +1,13 @@
----
+contribute: https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md
+desc: JabRef is a reference management software that uses BibTeX and BibLaTeX as its
+  native formats and is therefore typically used for LaTeX. What makes JabRef development
+  special is that two developers will review each pull request to ensure high quality.
 name: JabRef
-desc: >-
-  JabRef is a reference management software that uses BibTeX and BibLaTeX as its native formats and is
-  therefore typically used for LaTeX. What makes JabRef development special is that two developers will
-  review each pull request to ensure high quality.
 site: https://www.jabref.org/
+stats:
+  fork-count: 0
+  issue-count: 17
+  last-updated: '2022-11-18T11:23:19Z'
 tags:
 - latex
 - bibtex
@@ -16,9 +19,5 @@ tags:
 - junit
 - gradle
 upforgrabs:
-  name: good first issue
   link: https://github.com/JabRef/jabref/labels/good%20first%20issue
-contribute: https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md
-stats:
-  issue-count: 17
-  last-updated: '2022-11-18T11:23:19Z'
+  name: good first issue

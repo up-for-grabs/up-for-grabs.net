@@ -1,7 +1,11 @@
----
+desc: A Rubik's Cube Visualizer with face turns, cube rotations, scramble generator
+  and flat view of cube.
 name: Rubik's Cube
-desc: A Rubik's Cube Visualizer with face turns, cube rotations, scramble generator and flat view of cube.
 site: https://github.com/vasu-gondaliya/rubiks-cube
+stats:
+  fork-count: 0
+  issue-count: 4
+  last-updated: '2022-09-29T11:14:05Z'
 tags:
 - html
 - css
@@ -9,8 +13,5 @@ tags:
 - responsive
 - website
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/vasu-gondaliya/rubiks-cube/labels/up-for-grabs
-stats:
-  issue-count: 4
-  last-updated: '2022-09-29T11:14:05Z'
+  name: up-for-grabs

@@ -1,14 +1,14 @@
----
-name: Algos
 desc: Implementation of well-known (and some rare) algorithms, mostly in C++
+name: Algos
 site: https://github.com/faheel/Algos
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2022-10-04T21:40:55Z'
 tags:
 - algorithm
 - data-structures
 - c++
 upforgrabs:
-  name: Up for grabs
   link: https://github.com/ProAlgos/ProAlgos-Cpp/labels/Up%20for%20grabs
-stats:
-  issue-count: 3
-  last-updated: '2022-10-04T21:40:55Z'
+  name: Up for grabs

@@ -1,15 +1,15 @@
----
-name: ShutDown
 desc: Delay shutdown/restart/hibernate of you Windows PC + more
+name: ShutDown
 site: https://github.com/stanac/shutdown
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - c#
-- ".net"
+- .net
 - wpf
 - utility
 - desktop
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/stanac/shutdown/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

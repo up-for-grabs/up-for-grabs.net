@@ -1,14 +1,15 @@
----
+desc: The LBRY SDK for building decentralized, censorship resistant, monetized, digital
+  content apps.
 name: LBRY SDK
-desc: The LBRY SDK for building decentralized, censorship resistant, monetized, digital content apps.
 site: https://github.com/lbryio/lbry-sdk
+stats:
+  fork-count: 0
+  issue-count: 5
+  last-updated: '2022-08-25T12:14:54Z'
 tags:
 - python
 - decentralized
 - blockchain
 upforgrabs:
-  name: good first issue
   link: https://github.com/lbryio/lbry-sdk/labels/good%20first%20issue
-stats:
-  issue-count: 5
-  last-updated: '2022-08-25T12:14:54Z'
+  name: good first issue

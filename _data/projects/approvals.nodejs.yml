@@ -1,13 +1,13 @@
----
-name: Approvals.NodeJS
 desc: Approval Tests implementation in NodeJS
+name: Approvals.NodeJS
 site: https://github.com/approvals/Approvals.NodeJS
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - node.js
 - javascript
 - testing
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/approvals/Approvals.NodeJS/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

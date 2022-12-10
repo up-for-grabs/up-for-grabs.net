@@ -1,11 +1,13 @@
----
+desc: Turn based strategy indie game project, played against other people (or bots)
+  in hotseat or online modes, featuring a wide variety of units to acquire and put
+  to good use in order to defeat all your opponents in battle. This project was carefully
+  designed to be easy to learn, fun to play and hard to master. Keep fighting!
 name: Ancient Beast
-desc: >-
-  Turn based strategy indie game project, played against other people (or bots) in hotseat or online modes,
-  featuring a wide variety of units to acquire and put to good use in order to defeat all your opponents
-  in battle. This project was carefully designed to be easy to learn, fun to play and hard to master.
-  Keep fighting!
 site: https://AncientBeast.com
+stats:
+  fork-count: 0
+  issue-count: 23
+  last-updated: '2022-11-18T00:49:50Z'
 tags:
 - oss
 - javascript
@@ -15,8 +17,5 @@ tags:
 - chess
 - node.js
 upforgrabs:
-  name: easy
   link: https://github.com/FreezingMoon/AncientBeast/labels/easy
-stats:
-  issue-count: 23
-  last-updated: '2022-11-18T00:49:50Z'
+  name: easy

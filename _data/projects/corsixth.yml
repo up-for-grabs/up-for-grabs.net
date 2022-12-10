@@ -1,7 +1,11 @@
----
+desc: A reimplementation of Theme Hospital (1997) for modern operating systems and
+  resolutions
 name: CorsixTH
-desc: A reimplementation of Theme Hospital (1997) for modern operating systems and resolutions
 site: https://github.com/CorsixTH/CorsixTH
+stats:
+  fork-count: 0
+  issue-count: 9
+  last-updated: '2022-11-15T02:55:18Z'
 tags:
 - sim
 - hospital
@@ -9,8 +13,5 @@ tags:
 - lua
 - c++
 upforgrabs:
-  name: Good First Issue
   link: https://github.com/CorsixTH/CorsixTH/labels/Good%20First%20Issue
-stats:
-  issue-count: 9
-  last-updated: '2022-11-15T02:55:18Z'
+  name: Good First Issue

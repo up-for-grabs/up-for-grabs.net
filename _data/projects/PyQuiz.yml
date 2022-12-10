@@ -1,14 +1,14 @@
----
-name: PyQuiz
 desc: A simple PyQuiz built with Python and Tkinter
+name: PyQuiz
 site: https://github.com/abhijitnathwani/PyQuiz
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - python
 - tkinter
 - pyquiz
 - quiz
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/abhijitnathwani/PyQuiz/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

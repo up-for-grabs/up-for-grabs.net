@@ -1,7 +1,9 @@
----
-name: shellfoundry
 desc: CloudShell package CLI build tool
+name: shellfoundry
 site: https://github.com/QualiSystems/shellfoundry
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - python
 - sandbox
@@ -12,7 +14,5 @@ tags:
 - cli
 - command-line
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/QualiSystems/shellfoundry/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

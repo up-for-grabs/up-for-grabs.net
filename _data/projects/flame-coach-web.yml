@@ -1,7 +1,10 @@
----
-name: Flame Coach
 desc: A simple way nutrition coaches track their client's progress!
+name: Flame Coach
 site: https://app.flamenutrition.co.uk/login
+stats:
+  fork-count: 0
+  issue-count: 4
+  last-updated: '2022-10-07T15:05:10Z'
 tags:
 - kotlin
 - java
@@ -10,8 +13,5 @@ tags:
 - nutrition-coach
 - coaching
 upforgrabs:
-  name: easy-to-contribute
   link: https://github.com/FlameNutrition/flame-coach-web/labels/easy-to-contribute
-stats:
-  issue-count: 4
-  last-updated: '2022-10-07T15:05:10Z'
+  name: easy-to-contribute

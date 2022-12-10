@@ -1,9 +1,11 @@
----
+desc: These computer science notes contain small tasks regarding documentation as
+  well as programming of all languages...
 name: C-DAC-Notes
-desc: >-
-  These computer science notes contain small tasks regarding documentation as well as programming of all
-  languages...
 site: https://github.com/shreeshailaya/C-DAC-Notes
+stats:
+  fork-count: 0
+  issue-count: 9
+  last-updated: '2022-10-14T12:59:29Z'
 tags:
 - python
 - java
@@ -11,8 +13,5 @@ tags:
 - database
 - documentation
 upforgrabs:
-  name: good first issue
   link: https://github.com/shreeshailaya/C-DAC-Notes/labels/good%20first%20issue
-stats:
-  issue-count: 9
-  last-updated: '2022-10-14T12:59:29Z'
+  name: good first issue

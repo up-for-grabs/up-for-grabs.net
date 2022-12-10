@@ -1,12 +1,12 @@
----
-name: FSharp.Data.JsonValidation
 desc: A nifty little DSL for validating JSON against expected schemas.
+name: FSharp.Data.JsonValidation
 site: https://matrixsolutions.github.io/FSharp.Data.JsonValidation/
+stats:
+  fork-count: 0
+  issue-count: 7
+  last-updated: '2019-10-07T10:15:05Z'
 tags:
 - f#
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/MatrixSolutions/FSharp.Data.JsonValidation/labels/up-for-grabs
-stats:
-  issue-count: 7
-  last-updated: '2019-10-07T10:15:05Z'
+  name: up-for-grabs

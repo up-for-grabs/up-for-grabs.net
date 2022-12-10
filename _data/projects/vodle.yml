@@ -1,7 +1,10 @@
----
-name: vodle
 desc: A fair and efficient, interactive, general-purpose group-decision app
+name: vodle
 site: https://github.com/pik-gane/vodle#readme
+stats:
+  fork-count: 0
+  issue-count: 11
+  last-updated: '2022-11-15T12:52:04Z'
 tags:
 - typescript
 - angular
@@ -9,8 +12,5 @@ tags:
 - svg
 - translations
 upforgrabs:
-  name: good first issue
   link: https://github.com/pik-gane/vodle/labels/good%20first%20issue
-stats:
-  issue-count: 11
-  last-updated: '2022-11-15T12:52:04Z'
+  name: good first issue

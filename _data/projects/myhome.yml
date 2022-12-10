@@ -1,7 +1,10 @@
----
-name: MyHome
 desc: Apartment management application
+name: MyHome
 site: https://github.com/jmprathab/MyHome
+stats:
+  fork-count: 0
+  issue-count: 5
+  last-updated: '2022-10-25T01:33:12Z'
 tags:
 - java
 - spring
@@ -11,8 +14,5 @@ tags:
 - web
 - rest
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/jmprathab/MyHome/labels/up-for-grabs
-stats:
-  issue-count: 5
-  last-updated: '2022-10-25T01:33:12Z'
+  name: up-for-grabs

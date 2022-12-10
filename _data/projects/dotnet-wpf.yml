@@ -1,14 +1,14 @@
----
-name: ".NET WPF"
 desc: WPF is a .NET Core UI framework for building Windows desktop applications.
+name: .NET WPF
 site: https://github.com/dotnet/wpf
+stats:
+  fork-count: 0
+  issue-count: 12
+  last-updated: '2022-11-15T10:34:05Z'
 tags:
-- ".net"
+- .net
 - c#
 - c++
 upforgrabs:
-  name: help wanted
   link: https://github.com/dotnet/wpf/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
-stats:
-  issue-count: 12
-  last-updated: '2022-11-15T10:34:05Z'
+  name: help wanted

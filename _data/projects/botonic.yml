@@ -1,7 +1,10 @@
----
-name: Botonic
 desc: Build Chatbots and Conversational Apps Using React
+name: Botonic
 site: https://botonic.io/
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-02-17T15:45:20Z'
 tags:
 - chatbots
 - conversational-apps
@@ -12,8 +15,5 @@ tags:
 - javascript
 - typescript
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/hubtype/botonic/labels/up-for-grabs
-stats:
-  issue-count: 2
-  last-updated: '2022-02-17T15:45:20Z'
+  name: up-for-grabs

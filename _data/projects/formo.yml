@@ -1,15 +1,14 @@
----
+desc: Formo allows you to use your configuration file as a dynamic object. Turn your
+  web.config or application settings into a rich, dynamic object.
 name: Formo
-desc: >-
-  Formo allows you to use your configuration file as a dynamic object. Turn your web.config or application
-  settings into a rich, dynamic object.
 site: http://github.com/ChrisMissal/Formo
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - c#
 - configuration
 - dynamic
 upforgrabs:
-  name: please contribute
   link: https://github.com/ChrisMissal/Formo/labels/please%20contribute
-stats:
-  issue-count: 0
+  name: please contribute

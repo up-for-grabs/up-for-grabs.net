@@ -1,7 +1,10 @@
----
-name: Human Connection
 desc: The free and open source social network for active citizenship.
+name: Human Connection
 site: https://human-connection.org/en/in-nerds-we-trust/
+stats:
+  fork-count: 0
+  issue-count: 29
+  last-updated: '2022-10-04T12:34:43Z'
 tags:
 - javascript
 - vuejs
@@ -13,8 +16,5 @@ tags:
 - docker
 - kubernetes
 upforgrabs:
-  name: good first issue
   link: https://github.com/Human-Connection/Human-Connection/labels/good%20first%20issue
-stats:
-  issue-count: 29
-  last-updated: '2022-10-04T12:34:43Z'
+  name: good first issue

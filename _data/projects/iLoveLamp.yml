@@ -1,7 +1,10 @@
----
+desc: A suite of LAMP tools that provides an interface for many of the things you
+  might do via SSH.
 name: iLoveLamp
-desc: A suite of LAMP tools that provides an interface for many of the things you might do via SSH.
 site: https://github.com/Pamblam/iLoveLamp
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - javascript
 - php
@@ -9,7 +12,5 @@ tags:
 - apache
 - mysql
 upforgrabs:
-  name: up for grabs
   link: https://github.com/Pamblam/iLoveLAMP/labels/up%20for%20grabs
-stats:
-  issue-count: 0
+  name: up for grabs

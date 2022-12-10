@@ -1,14 +1,14 @@
----
-name: Computer-Graphics
 desc: Logical programming for Graphics and Graphics programming in OpenGL using C/C++.
+name: Computer-Graphics
 site: https://github.com/NishkarshRaj/Computer-Graphics
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - graphics
 - opengl
 - simulation
 - c
 upforgrabs:
-  name: Up-for-Grabs
   link: https://github.com/NishkarshRaj/Computer-Graphics/labels/Up-for-Grabs
-stats:
-  issue-count: 0
+  name: Up-for-Grabs

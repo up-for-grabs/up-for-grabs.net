@@ -1,7 +1,10 @@
----
-name: CiviWiki
 desc: Building a Better Democracy for the Internet Age
+name: CiviWiki
 site: https://civi.wiki
+stats:
+  fork-count: 0
+  issue-count: 11
+  last-updated: '2022-11-15T11:07:55Z'
 tags:
 - python
 - django
@@ -10,8 +13,5 @@ tags:
 - html
 - javascript
 upforgrabs:
-  name: good first issue
   link: https://github.com/CiviWiki/OpenCiviWiki/labels/good%20first%20issue
-stats:
-  issue-count: 11
-  last-updated: '2022-11-15T11:07:55Z'
+  name: good first issue

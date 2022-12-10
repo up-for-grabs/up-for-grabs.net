@@ -1,15 +1,15 @@
----
-name: opsdroid
 desc: An open source chat bot framework written in python.
+name: opsdroid
 site: https://github.com/opsdroid/opsdroid
+stats:
+  fork-count: 0
+  issue-count: 4
+  last-updated: '2022-05-13T11:06:39Z'
 tags:
 - python
 - chatbot
 - asyncio
 - chatops
 upforgrabs:
-  name: low hanging fruit
   link: https://github.com/opsdroid/opsdroid/labels/low%20hanging%20fruit
-stats:
-  issue-count: 4
-  last-updated: '2022-05-13T11:06:39Z'
+  name: low hanging fruit

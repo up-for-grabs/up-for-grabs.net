@@ -1,12 +1,13 @@
----
-name: ".NET Testcontainers"
-desc: >-
-  .NET Testcontainers is a library to support tests with throwaway instances of Docker containers for
-  all compatible .NET Standard versions.
+desc: .NET Testcontainers is a library to support tests with throwaway instances of
+  Docker containers for all compatible .NET Standard versions.
+name: .NET Testcontainers
 site: https://github.com/HofmeisterAn/dotnet-testcontainers
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
-- ".net"
-- ".net-core"
+- .net
+- .net-core
 - c#
 - docker
 - container
@@ -14,7 +15,5 @@ tags:
 - unit-tests
 - integration-tests
 upforgrabs:
-  name: good first issue
   link: https://github.com/testcontainers/testcontainers-dotnet/labels/good%20first%20issue
-stats:
-  issue-count: 0
+  name: good first issue

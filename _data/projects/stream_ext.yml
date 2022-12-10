@@ -1,13 +1,13 @@
----
-name: stream_ext
 desc: A port of the Rx functions to make Dart's Stream type even easier to use
+name: stream_ext
 site: https://theburningmonk.github.io/stream_ext/
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2014-06-27T20:51:30Z'
 tags:
 - dart
 - rx
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/theburningmonk/stream_ext/labels/up-for-grabs
-stats:
-  issue-count: 3
-  last-updated: '2014-06-27T20:51:30Z'
+  name: up-for-grabs

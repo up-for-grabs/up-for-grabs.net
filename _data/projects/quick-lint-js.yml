@@ -1,7 +1,10 @@
----
-name: quick-lint-js
 desc: Find bugs in your JavaScript programs
+name: quick-lint-js
 site: https://quick-lint-js.com/
+stats:
+  fork-count: 0
+  issue-count: 23
+  last-updated: '2022-11-10T07:36:21Z'
 tags:
 - c++
 - javascript
@@ -9,8 +12,5 @@ tags:
 - linter
 - static-analysis
 upforgrabs:
-  name: good first issue
   link: https://github.com/quick-lint/quick-lint-js/contribute
-stats:
-  issue-count: 23
-  last-updated: '2022-11-10T07:36:21Z'
+  name: good first issue

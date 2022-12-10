@@ -1,18 +1,18 @@
----
-name: LocalAppVeyor
 desc: Run your AppVeyor builds, locally
+name: LocalAppVeyor
 site: https://github.com/joaope/localappveyor
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2019-01-29T07:07:40Z'
 tags:
 - appveyor
 - build
 - console
 - command-line
 - c#
-- ".net"
-- ".net-core"
+- .net
+- .net-core
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/joaope/LocalAppVeyor/labels/up-for-grabs
-stats:
-  issue-count: 1
-  last-updated: '2019-01-29T07:07:40Z'
+  name: up-for-grabs

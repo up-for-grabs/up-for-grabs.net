@@ -1,13 +1,13 @@
----
+desc: .NET elasticsearch client
 name: NEST
-desc: ".NET elasticsearch client"
 site: https://github.com/elastic/elasticsearch-net
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - c#
 - elasticsearch
 - rest
 upforgrabs:
-  name: Up For Grabs
   link: https://github.com/elastic/elasticsearch-net/labels/Up%20For%20Grabs
-stats:
-  issue-count: 0
+  name: Up For Grabs

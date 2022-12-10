@@ -1,7 +1,10 @@
----
-name: CodenameOne
 desc: Cross-platform mobile app development framework for Java & Kotlin developers
+name: CodenameOne
 site: https://github.com/codenameone/CodenameOne
+stats:
+  fork-count: 0
+  issue-count: 11
+  last-updated: '2022-11-15T06:55:05Z'
 tags:
 - cross-platform
 - framework
@@ -9,8 +12,5 @@ tags:
 - kotlin
 - write-once-run-anywhere
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/codenameone/CodenameOne/labels/up-for-grabs
-stats:
-  issue-count: 11
-  last-updated: '2022-11-15T06:55:05Z'
+  name: up-for-grabs

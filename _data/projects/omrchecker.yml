@@ -1,7 +1,11 @@
----
+desc: "Grade exams fast and accurately using a scanner \U0001F5A8 or your phone \U0001F933\
+  ."
 name: OMRChecker
-desc: "Grade exams fast and accurately using a scanner \U0001F5A8 or your phone \U0001F933."
 site: https://github.com/Udayraj123/OMRChecker
+stats:
+  fork-count: 0
+  issue-count: 5
+  last-updated: '2022-10-22T19:14:49Z'
 tags:
 - opencv
 - python
@@ -24,8 +28,5 @@ tags:
 - template
 - tray-fed-scanner
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/Udayraj123/OMRChecker/labels/up-for-grabs
-stats:
-  issue-count: 5
-  last-updated: '2022-10-22T19:14:49Z'
+  name: up-for-grabs

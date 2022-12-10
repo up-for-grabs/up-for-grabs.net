@@ -1,14 +1,14 @@
----
-name: Octokit.NET
 desc: An async-based GitHub API client library for .NET
+name: Octokit.NET
 site: https://github.com/octokit/octokit.net
+stats:
+  fork-count: 0
+  issue-count: 9
+  last-updated: '2022-10-20T04:22:46Z'
 tags:
 - github
 - api
 - octokit
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/octokit/octokit.net/labels/up-for-grabs
-stats:
-  issue-count: 9
-  last-updated: '2022-10-20T04:22:46Z'
+  name: up-for-grabs

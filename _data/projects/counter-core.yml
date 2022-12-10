@@ -1,7 +1,10 @@
----
-name: Counter-Core
 desc: this repository resides the core script for a gambling website for CSGO.
+name: Counter-Core
 site: https://github.com/ColinMoulds/Counter-Core
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-03-14T15:59:45Z'
 tags:
 - php
 - web
@@ -9,8 +12,5 @@ tags:
 - css
 - node.js
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/ColinMoulds/Counter-Core/labels/up-for-grabs
-stats:
-  issue-count: 1
-  last-updated: '2022-03-14T15:59:45Z'
+  name: up-for-grabs

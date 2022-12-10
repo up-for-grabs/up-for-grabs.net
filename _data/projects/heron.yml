@@ -1,7 +1,10 @@
----
-name: Heron
 desc: An ergonomic physics API for 2d and 3d bevy games. (powered by rapier)
+name: Heron
 site: https://github.com/jcornaz/heron
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2022-05-19T15:33:00Z'
 tags:
 - rust
 - gamedev
@@ -9,8 +12,5 @@ tags:
 - rapier
 - bevy
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/jcornaz/heron/labels/up-for-grabs
-stats:
-  issue-count: 3
-  last-updated: '2022-05-19T15:33:00Z'
+  name: up-for-grabs

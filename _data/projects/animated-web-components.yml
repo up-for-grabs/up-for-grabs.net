@@ -1,15 +1,15 @@
----
-name: Animated Web Components
 desc: Basic periodic animations using a single tag with Web Components
+name: Animated Web Components
 site: https://github.com/edvilme/animated-web-components
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-10-09T06:08:20Z'
 tags:
 - javascript
 - webcomponents
 - animation
 - web
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/edvilme/animated-web-components/labels/up-for-grabs
-stats:
-  issue-count: 2
-  last-updated: '2022-10-09T06:08:20Z'
+  name: up-for-grabs

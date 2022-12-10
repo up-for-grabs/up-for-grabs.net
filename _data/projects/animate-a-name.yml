@@ -1,7 +1,9 @@
----
-name: Animate A Name
 desc: A Open Source Google Doodle made by Suriyaa
+name: Animate A Name
 site: https://github.com/SuriyaaKudoIsc/animate-a-name
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - oss
 - animate
@@ -10,7 +12,5 @@ tags:
 - javascript
 - web
 upforgrabs:
-  name: Great First Issue
   link: https://github.com/suriyaa/animate-a-name/labels/Great%20First%20Issue
-stats:
-  issue-count: 0
+  name: Great First Issue

@@ -1,7 +1,10 @@
----
-name: Raneto
 desc: Markdown powered Knowledgebase for Node.js
+name: Raneto
 site: https://github.com/gilbitron/Raneto
+stats:
+  fork-count: 0
+  issue-count: 6
+  last-updated: '2022-08-12T10:18:59Z'
 tags:
 - knowledgebase
 - wiki
@@ -9,8 +12,5 @@ tags:
 - markdown
 - node.js
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/ryanlelek/Raneto/labels/up-for-grabs
-stats:
-  issue-count: 6
-  last-updated: '2022-08-12T10:18:59Z'
+  name: up-for-grabs

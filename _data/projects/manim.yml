@@ -1,7 +1,10 @@
----
-name: Manim
 desc: Manim is a community-maintained Python library for creating mathematical animations.
+name: Manim
 site: https://www.manim.community/
+stats:
+  fork-count: 0
+  issue-count: 9
+  last-updated: '2022-11-13T12:26:50Z'
 tags:
 - python
 - glsl
@@ -11,8 +14,5 @@ tags:
 - graphics
 - animation
 upforgrabs:
-  name: good first issue
   link: https://github.com/ManimCommunity/manim/labels/good%20first%20issue
-stats:
-  issue-count: 9
-  last-updated: '2022-11-13T12:26:50Z'
+  name: good first issue

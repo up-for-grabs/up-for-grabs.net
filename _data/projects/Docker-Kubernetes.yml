@@ -1,7 +1,10 @@
----
-name: Docker-Kubernetes
 desc: Learn about Docker for containerization and Kubernetes for orchestration.
+name: Docker-Kubernetes
 site: https://github.com/NishkarshRaj/Docker-Kubernetes
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2020-08-27T13:11:41Z'
 tags:
 - docker
 - kubernetes
@@ -10,8 +13,5 @@ tags:
 - virtualization
 - devops
 upforgrabs:
-  name: Up-for-Grabs
   link: https://github.com/NishkarshRaj/Docker-Kubernetes/labels/Up-for-Grabs
-stats:
-  issue-count: 3
-  last-updated: '2020-08-27T13:11:41Z'
+  name: Up-for-Grabs

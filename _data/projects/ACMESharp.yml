@@ -1,16 +1,16 @@
----
+desc: .NET Library and PowerShell module for the ACME protocol used by Let's Encrypt
 name: ACMESharp
-desc: ".NET Library and PowerShell module for the ACME protocol used by Let's Encrypt"
 site: https://github.com/ebekker/ACMESharp
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
-- ".net"
+- .net
 - c#
 - powershell
 - security
 - aws
 - iis
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/ebekker/ACMESharp/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

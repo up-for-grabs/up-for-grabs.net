@@ -1,12 +1,12 @@
----
-name: Spotitude
 desc: Yet another Spotify user analytics visualizer
+name: Spotitude
 site: https://github.com/dtcrout/spotitude
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - python
 - spotify
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/dtcrout/spotitude/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

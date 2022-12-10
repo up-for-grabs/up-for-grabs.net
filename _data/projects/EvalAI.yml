@@ -1,9 +1,12 @@
----
+desc: EvalAI is an open source web application that helps researchers, students and
+  data-scientists to create, collaborate and participate in various AI challenges
+  organized round the globe.
 name: EvalAI
-desc: >-
-  EvalAI is an open source web application that helps researchers, students and data-scientists to create,
-  collaborate and participate in various AI challenges organized round the globe.
 site: https://evalai.cloudcv.org/
+stats:
+  fork-count: 0
+  issue-count: 21
+  last-updated: '2022-10-02T17:41:48Z'
 tags:
 - ai
 - ai-challenge
@@ -16,8 +19,5 @@ tags:
 - rabbitmq
 - reproducible-research
 upforgrabs:
-  name: easy_to_fix
   link: https://github.com/Cloud-CV/EvalAI/labels/easy_to_fix
-stats:
-  issue-count: 21
-  last-updated: '2022-10-02T17:41:48Z'
+  name: easy_to_fix

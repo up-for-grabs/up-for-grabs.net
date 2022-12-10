@@ -1,14 +1,15 @@
----
+desc: Super simple tool to help with orchestration of commands by waiting on networking
+  resources.
 name: wait-for
-desc: Super simple tool to help with orchestration of commands by waiting on networking resources.
 site: https://github.com/dnnrly/wait-for
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-04-02T16:56:26Z'
 tags:
 - go
 - cli
 - docker
 upforgrabs:
-  name: help wanted
   link: https://github.com/dnnrly/wait-for/labels/help%20wanted
-stats:
-  issue-count: 2
-  last-updated: '2022-04-02T16:56:26Z'
+  name: help wanted

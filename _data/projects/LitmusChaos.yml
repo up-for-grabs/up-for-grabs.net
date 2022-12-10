@@ -1,7 +1,10 @@
----
-name: LitmusChaos
 desc: Litmus is a toolset to do cloud-native chaos engineering
+name: LitmusChaos
 site: https://github.com/litmuschaos/litmus
+stats:
+  fork-count: 0
+  issue-count: 17
+  last-updated: '2022-10-10T04:36:41Z'
 tags:
 - devops
 - sre
@@ -13,8 +16,5 @@ tags:
 - docker
 - chaos-engineering
 upforgrabs:
-  name: good first issue
   link: https://github.com/litmuschaos/litmus/labels/good%20first%20issue
-stats:
-  issue-count: 17
-  last-updated: '2022-10-10T04:36:41Z'
+  name: good first issue

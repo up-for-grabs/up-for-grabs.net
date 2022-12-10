@@ -1,7 +1,10 @@
----
-name: TicTacToe
 desc: A simple web version Tic Tac Toe game using HTML, CSS, Javascript. Learn Together.
+name: TicTacToe
 site: https://github.com/yelynn1/tictactoe
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-11-02T04:01:55Z'
 tags:
 - html
 - css
@@ -9,8 +12,5 @@ tags:
 - tictactoe
 - game
 upforgrabs:
-  name: up for grabs
   link: https://github.com/yelynn1/tictactoe/labels/up%20for%20grabs
-stats:
-  issue-count: 2
-  last-updated: '2022-11-02T04:01:55Z'
+  name: up for grabs

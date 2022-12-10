@@ -1,7 +1,10 @@
----
-name: styled-components.com
 desc: The website and documentation of styled-components
+name: styled-components.com
 site: https://github.com/styled-components/styled-components-website
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-10-04T15:08:44Z'
 tags:
 - javascript
 - web
@@ -11,8 +14,5 @@ tags:
 - reactjs
 - node.js
 upforgrabs:
-  name: good first issue
   link: https://github.com/styled-components/styled-components-website/labels/good%20first%20issue
-stats:
-  issue-count: 1
-  last-updated: '2022-10-04T15:08:44Z'
+  name: good first issue

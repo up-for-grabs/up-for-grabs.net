@@ -1,14 +1,14 @@
----
-name: gngr
 desc: a cross-platform browser that champions privacy
+name: gngr
 site: https://github.com/UprootLabs/gngr
+stats:
+  fork-count: 0
+  issue-count: 10
+  last-updated: '2021-05-11T05:09:43Z'
 tags:
 - java
 - browser
 - privacy
 upforgrabs:
-  name: need-code
   link: https://github.com/gngrOrg/gngr/labels/need-code
-stats:
-  issue-count: 10
-  last-updated: '2021-05-11T05:09:43Z'
+  name: need-code

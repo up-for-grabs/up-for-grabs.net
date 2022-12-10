@@ -1,7 +1,9 @@
----
-name: populateG
 desc: A Web Application To Auto-Populate Google Docs Template using Google Sheets
+name: populateG
 site: https://github.com/Shivam010/populateG
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - oss
 - go
@@ -12,7 +14,5 @@ tags:
 - google-api
 - templating
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/Shivam010/populateG/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

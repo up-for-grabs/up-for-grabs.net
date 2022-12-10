@@ -1,13 +1,14 @@
----
+desc: Easy to use .NET library for data and time series manipulation and for scientific
+  programming
 name: Deedle
-desc: Easy to use .NET library for data and time series manipulation and for scientific programming
 site: https://github.com/fslaborg/Deedle
-tags:
-- f#
-- ".net"
-upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/fslaborg/Deedle/labels/up-for-grabs
 stats:
+  fork-count: 0
   issue-count: 10
   last-updated: '2019-11-14T21:25:55Z'
+tags:
+- f#
+- .net
+upforgrabs:
+  link: https://github.com/fslaborg/Deedle/labels/up-for-grabs
+  name: up-for-grabs

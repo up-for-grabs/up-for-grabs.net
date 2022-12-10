@@ -1,8 +1,10 @@
----
+desc: PingMe is a CLI tool which provides the ability to send messages or alerts to
+  multiple messaging platforms
 name: PingMe
-desc: >-
-  PingMe is a CLI tool which provides the ability to send messages or alerts to multiple messaging platforms
 site: https://pingme.lmno.pk
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - tags
 - go
@@ -14,7 +16,5 @@ tags:
 - alerts
 - cli
 upforgrabs:
-  name: up for grabs
   link: https://github.com/kha7iq/pingme/labels/up%20for%20grabs
-stats:
-  issue-count: 0
+  name: up for grabs

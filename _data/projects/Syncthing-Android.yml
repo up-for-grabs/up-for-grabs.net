@@ -1,10 +1,13 @@
----
+desc: Syncthing replaces proprietary sync and cloud services with something open,
+  trustworthy and decentralized. Your data is your data alone and you deserve to choose
+  where it is stored, if it is shared with some third party and how it's transmitted
+  over the Internet.
 name: Syncthing Android
-desc: >-
-  Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized.
-  Your data is your data alone and you deserve to choose where it is stored, if it is shared with some
-  third party and how it's transmitted over the Internet.
 site: https://github.com/syncthing/syncthing-android
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2018-07-07T06:01:16Z'
 tags:
 - java
 - android
@@ -12,8 +15,5 @@ tags:
 - mobile
 - go
 upforgrabs:
-  name: easy
   link: https://github.com/syncthing/syncthing-android/labels/easy
-stats:
-  issue-count: 2
-  last-updated: '2018-07-07T06:01:16Z'
+  name: easy

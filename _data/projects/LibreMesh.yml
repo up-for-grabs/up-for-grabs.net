@@ -1,7 +1,10 @@
----
-name: LibreMesh.org
 desc: OpenWrt packages composing LibreMesh meta-firmware for wireless mesh networking
+name: LibreMesh.org
 site: https://github.com/libremesh/lime-packages
+stats:
+  fork-count: 0
+  issue-count: 6
+  last-updated: '2021-03-26T19:26:12Z'
 tags:
 - lua
 - mesh
@@ -10,8 +13,5 @@ tags:
 - routing
 - wireless
 upforgrabs:
-  name: good first issue
   link: https://github.com/libremesh/lime-packages/labels/good%20first%20issue
-stats:
-  issue-count: 6
-  last-updated: '2021-03-26T19:26:12Z'
+  name: good first issue

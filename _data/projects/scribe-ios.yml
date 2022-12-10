@@ -1,7 +1,10 @@
----
-name: Scribe-iOS
 desc: Keyboards for language learners with translation, verb conjugation and more!
+name: Scribe-iOS
 site: https://github.com/scribe-org/Scribe-iOS
+stats:
+  fork-count: 0
+  issue-count: 16
+  last-updated: '2022-11-08T16:25:36Z'
 tags:
 - swift
 - ios
@@ -10,8 +13,5 @@ tags:
 - keyboard
 - grammar
 upforgrabs:
-  name: good first issue
   link: https://github.com/scribe-org/Scribe-iOS/labels/good%20first%20issue
-stats:
-  issue-count: 16
-  last-updated: '2022-11-08T16:25:36Z'
+  name: good first issue

@@ -1,17 +1,17 @@
----
-name: MarkPad by Code52
 desc: A visual Markdown editor (inspired by the Downmarker project)
+name: MarkPad by Code52
 site: https://github.com/Code52/DownmarkerWPF
+stats:
+  fork-count: 0
+  issue-count: 8
+  last-updated: '2015-05-14T04:36:27Z'
 tags:
 - markdown
-- ".net"
+- .net
 - c#
 - wpf
 - jekyll
 - metaweblog
 upforgrabs:
-  name: jump in
   link: https://github.com/Code52/DownmarkerWPF/labels/jump%20in
-stats:
-  issue-count: 8
-  last-updated: '2015-05-14T04:36:27Z'
+  name: jump in

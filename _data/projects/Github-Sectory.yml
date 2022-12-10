@@ -1,7 +1,10 @@
----
+desc: CLI for downloading sub-directory of any Github repository using Github Content
+  API!
 name: Github Sectory
-desc: CLI for downloading sub-directory of any Github repository using Github Content API!
 site: https://github.com/amarlearning/Github-Sectory
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - python
 - sub-directory
@@ -10,7 +13,5 @@ tags:
 - cli-app
 - demo
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/amarlearning/github-sectory/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

@@ -1,7 +1,10 @@
----
+desc: "Jupyter\u2019s Next-Generation Notebook Interface."
 name: JupyterLab
-desc: Jupyter’s Next-Generation Notebook Interface.
 site: https://github.com/jupyterlab/jupyterlab
+stats:
+  fork-count: 0
+  issue-count: 44
+  last-updated: '2022-11-17T12:51:29Z'
 tags:
 - jupyter
 - notebook
@@ -9,8 +12,5 @@ tags:
 - javascript
 - python
 upforgrabs:
-  name: good first issue
   link: https://github.com/jupyterlab/jupyterlab/labels/good%20first%20issue
-stats:
-  issue-count: 44
-  last-updated: '2022-11-17T12:51:29Z'
+  name: good first issue

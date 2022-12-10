@@ -1,14 +1,15 @@
----
+desc: The global community site for CoderDojo - a network of free computer programming
+  clubs for children
 name: CoderDojo Community Platform
-desc: The global community site for CoderDojo - a network of free computer programming clubs for children
 site: http://zen.coderdojo.com
+stats:
+  fork-count: 0
+  issue-count: 18
+  last-updated: '2022-06-25T04:16:54Z'
 tags:
 - node.js
 - mozilla
 - javascript
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/CoderDojo/community-platform/labels/up-for-grabs
-stats:
-  issue-count: 18
-  last-updated: '2022-06-25T04:16:54Z'
+  name: up-for-grabs

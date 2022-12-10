@@ -1,7 +1,10 @@
----
-name: computer_science
 desc: Computer Science Topics
+name: computer_science
 site: https://github.com/shhossain/computer_science
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-10-31T17:59:39Z'
 tags:
 - computer-science
 - computer-engineering
@@ -13,8 +16,5 @@ tags:
 - go
 - ruby
 upforgrabs:
-  name: good first issue
   link: https://github.com/shhossain/computer_science/labels/good%20first%20issue
-stats:
-  issue-count: 1
-  last-updated: '2022-10-31T17:59:39Z'
+  name: good first issue

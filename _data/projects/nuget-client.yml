@@ -1,16 +1,15 @@
----
+desc: The NuGet Client tools. Includes 'nuget.exe' and the NuGet extensions for Microsoft
+  Visual Studio and Microsoft WebMatrix
 name: NuGet client
-desc: >-
-  The NuGet Client tools. Includes 'nuget.exe' and the NuGet extensions for Microsoft Visual Studio and
-  Microsoft WebMatrix
 site: https://github.com/NuGet/Home
+stats:
+  fork-count: 0
+  issue-count: 90
+  last-updated: '2022-11-18T00:37:43Z'
 tags:
 - nuget
 - visualstudio
 - package
 upforgrabs:
-  name: help wanted
   link: https://github.com/NuGet/Home/labels/help%20wanted
-stats:
-  issue-count: 90
-  last-updated: '2022-11-18T00:37:43Z'
+  name: help wanted

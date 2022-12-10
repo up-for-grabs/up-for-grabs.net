@@ -1,7 +1,9 @@
----
-name: libertempo-api
 desc: API for the libertempo-web web app
+name: libertempo-api
 site: https://github.com/libertempo/api
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - php
 - refactoring
@@ -10,7 +12,5 @@ tags:
 - slimphp
 - beginner
 upforgrabs:
-  name: Help Wanted
   link: https://github.com/libertempo/api/labels/Help%20Wanted
-stats:
-  issue-count: 0
+  name: Help Wanted

@@ -1,14 +1,14 @@
----
-name: i-can-not-react
 desc: The Complete Book on Reactjs
+name: i-can-not-react
 site: https://github.com/KirankumarAmbati/I-can-not-REACT
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - reactjs
 - javascript
 - framework
 - es6
 upforgrabs:
-  name: good first issue
   link: https://github.com/KirankumarAmbati/I-can-not-REACT/labels/good%20first%20issue
-stats:
-  issue-count: 0
+  name: good first issue

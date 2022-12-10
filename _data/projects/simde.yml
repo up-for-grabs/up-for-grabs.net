@@ -1,7 +1,11 @@
----
+desc: Implementations of SIMD instruction sets for systems which do not natively support
+  them.
 name: SIMDe
-desc: Implementations of SIMD instruction sets for systems which do not natively support them.
 site: https://github.com/nemequ/simde
+stats:
+  fork-count: 0
+  issue-count: 8
+  last-updated: '2022-05-20T21:31:07Z'
 tags:
 - c
 - simd
@@ -10,8 +14,5 @@ tags:
 - portability
 - performance
 upforgrabs:
-  name: good first issue
   link: https://github.com/simd-everywhere/simde/labels/good%20first%20issue
-stats:
-  issue-count: 8
-  last-updated: '2022-05-20T21:31:07Z'
+  name: good first issue

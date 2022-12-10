@@ -1,13 +1,13 @@
-desc: .NET CLI template for Petabridge-style projects
+---
 name: petabridge-dotnet-new
+desc: ".NET CLI template for Petabridge-style projects"
 site: https://github.com/petabridge/petabridge-dotnet-new
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - f#
 - petabridge
-- .net
+- ".net"
 upforgrabs:
-  link: https://github.com/petabridge/petabridge-dotnet-new/labels/good%20for%20first%20time%20contributors
   name: good for first time contributors
+  link: https://github.com/petabridge/petabridge-dotnet-new/labels/good%20for%20first%20time%20contributors
+stats:
+  issue-count: 0

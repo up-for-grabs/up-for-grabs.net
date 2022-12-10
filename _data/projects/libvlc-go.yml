@@ -1,10 +1,7 @@
-desc: Golang bindings for libvlc 2.X/3.X/4.X used by the VLC media player
+---
 name: libvlc-go
+desc: Golang bindings for libvlc 2.X/3.X/4.X used by the VLC media player
 site: https://github.com/adrg/libvlc-go
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2021-10-22T02:28:12Z'
 tags:
 - go
 - vlc
@@ -12,5 +9,8 @@ tags:
 - sound
 - bindings
 upforgrabs:
-  link: https://github.com/adrg/libvlc-go/labels/help%20wanted
   name: help wanted
+  link: https://github.com/adrg/libvlc-go/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2021-10-22T02:28:12Z'

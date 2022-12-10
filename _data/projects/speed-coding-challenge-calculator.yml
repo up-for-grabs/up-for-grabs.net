@@ -1,14 +1,14 @@
-desc: Code a Calculator with React.js as fast as possible
+---
 name: Speed Coding Challenge
+desc: Code a Calculator with React.js as fast as possible
 site: https://github.com/Stewart86/speed-coding-challenge-calculator
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2022-10-08T17:17:32Z'
 tags:
 - speed-coding-challange
 - react.js
 - javascript
 upforgrabs:
-  link: https://github.com/Stewart86/speed-coding-challenge-calculator/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/Stewart86/speed-coding-challenge-calculator/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2022-10-08T17:17:32Z'

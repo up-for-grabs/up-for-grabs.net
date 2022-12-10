@@ -1,9 +1,7 @@
-desc: Production-Grade Container Storage for KUbernetes
+---
 name: OpenEBS
+desc: Production-Grade Container Storage for KUbernetes
 site: https://openebs.io/
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - go
 - rust
@@ -15,5 +13,7 @@ tags:
 - cns
 - csi
 upforgrabs:
-  link: https://github.com/openebs/openebs/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/openebs/openebs/labels/good%20first%20issue
+stats:
+  issue-count: 0

@@ -1,15 +1,15 @@
-desc: Desktop client for JIRA. Track time, upload worklogs without a hassle
+---
 name: Chronos
+desc: Desktop client for JIRA. Track time, upload worklogs without a hassle
 site: https://github.com/web-pal/chronos-timetracker
-stats:
-  fork-count: 0
-  issue-count: 9
-  last-updated: '2020-05-05T15:02:55Z'
 tags:
 - javascript
 - electron
 - jira
 - time-tracking
 upforgrabs:
-  link: https://github.com/web-pal/chronos-timetracker/labels/help%20wanted%20%3Aoctocat%3A
   name: 'help wanted :octocat:'
+  link: https://github.com/web-pal/chronos-timetracker/labels/help%20wanted%20%3Aoctocat%3A
+stats:
+  issue-count: 9
+  last-updated: '2020-05-05T15:02:55Z'

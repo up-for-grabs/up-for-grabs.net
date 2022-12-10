@@ -1,11 +1,9 @@
-desc: LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation,
-  to the managed world of .Net and Mono.
+---
 name: LibGit2Sharp
+desc: >-
+  LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed
+  world of .Net and Mono.
 site: https://github.com/libgit2/libgit2sharp
-stats:
-  fork-count: 0
-  issue-count: 34
-  last-updated: '2022-10-15T09:44:07Z'
 tags:
 - c#
 - libgit2
@@ -16,5 +14,8 @@ tags:
 - dvcs
 - vcs
 upforgrabs:
-  link: https://github.com/libgit2/libgit2sharp/labels/Up%20for%20grabs
   name: Up for grabs
+  link: https://github.com/libgit2/libgit2sharp/labels/Up%20for%20grabs
+stats:
+  issue-count: 34
+  last-updated: '2022-10-15T09:44:07Z'

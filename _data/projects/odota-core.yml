@@ -1,14 +1,14 @@
-desc: An open source Dota 2 data platform
+---
 name: OpenDota Core
+desc: An open source Dota 2 data platform
 site: https://www.opendota.com/
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - api
 - javascript
 - docker
 - node.js
 upforgrabs:
-  link: https://github.com/odota/core/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/odota/core/labels/good%20first%20issue
+stats:
+  issue-count: 0

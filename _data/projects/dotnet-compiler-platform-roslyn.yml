@@ -1,11 +1,9 @@
-desc: The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic
-  compilers with rich code analysis APIs.
+---
 name: .NET Compiler Platform ("Roslyn")
+desc: >-
+  The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code
+  analysis APIs.
 site: https://github.com/dotnet/roslyn
-stats:
-  fork-count: 0
-  issue-count: 1594
-  last-updated: '2022-11-18T11:16:11Z'
 tags:
 - roslyn
 - csx
@@ -14,5 +12,8 @@ tags:
 - c#
 - vb.net
 upforgrabs:
-  link: https://github.com/dotnet/roslyn/labels/help%20wanted
   name: help wanted
+  link: https://github.com/dotnet/roslyn/labels/help%20wanted
+stats:
+  issue-count: 1594
+  last-updated: '2022-11-18T11:16:11Z'

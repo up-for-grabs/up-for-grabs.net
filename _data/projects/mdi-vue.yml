@@ -1,13 +1,13 @@
-desc: material design icons for vue js
+---
 name: mdi-vue
+desc: material design icons for vue js
 site: https://github.com/therufa/mdi-vue
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - javascript
 - vue-js
 - icons
 upforgrabs:
-  link: https://github.com/therufa/mdi-vue/labels/help%20wanted
   name: help wanted
+  link: https://github.com/therufa/mdi-vue/labels/help%20wanted
+stats:
+  issue-count: 0

@@ -1,10 +1,7 @@
-desc: A small, simple and immutable ORM to manage relational data in your Redux store.
+---
 name: Redux-ORM
+desc: A small, simple and immutable ORM to manage relational data in your Redux store.
 site: https://github.com/redux-orm/redux-orm
-stats:
-  fork-count: 0
-  issue-count: 5
-  last-updated: '2021-06-05T20:12:35Z'
 tags:
 - redux
 - state
@@ -19,5 +16,8 @@ tags:
 - selectors
 - reselect
 upforgrabs:
-  link: https://github.com/redux-orm/redux-orm/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/redux-orm/redux-orm/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2021-06-05T20:12:35Z'

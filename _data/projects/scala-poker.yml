@@ -1,10 +1,9 @@
-desc: Scala Poker aims to be a whole online poker platform solution looking like attractive
-  stuff to serious online poker businesses.
+---
 name: Scala Poker
+desc: >-
+  Scala Poker aims to be a whole online poker platform solution looking like attractive stuff to serious
+  online poker businesses.
 site: https://github.com/rafanoronha/scala-poker
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - scala
 - java
@@ -12,5 +11,7 @@ tags:
 - networking
 - javascript
 upforgrabs:
-  link: https://github.com/rafanoronha/scala-poker/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/rafanoronha/scala-poker/labels/up-for-grabs
+stats:
+  issue-count: 0

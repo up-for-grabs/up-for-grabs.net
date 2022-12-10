@@ -1,11 +1,9 @@
-desc: PyTorch is an open source machine learning library based, used for applications
-  such as computer vision and NLP.
+---
 name: PyTorch
+desc: >-
+  PyTorch is an open source machine learning library based, used for applications such as computer vision
+  and NLP.
 site: https://pytorch.org/
-stats:
-  fork-count: 0
-  issue-count: 47
-  last-updated: '2022-11-12T05:16:28Z'
 tags:
 - neural-network
 - autograd
@@ -17,5 +15,8 @@ tags:
 - cuda
 - machine-learning
 upforgrabs:
-  link: https://github.com/pytorch/pytorch/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/pytorch/pytorch/labels/good%20first%20issue
+stats:
+  issue-count: 47
+  last-updated: '2022-11-12T05:16:28Z'

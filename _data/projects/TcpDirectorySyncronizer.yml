@@ -1,10 +1,7 @@
-desc: Syncronize files via TCP protocol.
+---
 name: TcpDirectorySyncronizer
+desc: Syncronize files via TCP protocol.
 site: https://github.com/Halozzee/TcpDirectorySyncronizer
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2020-12-26T16:39:47Z'
 tags:
 - open-source
 - networking
@@ -19,5 +16,8 @@ tags:
 - beginner-friendly
 - syncronizing-files
 upforgrabs:
-  link: https://github.com/Halozzee/QuikSync/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/Halozzee/QuikSync/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2020-12-26T16:39:47Z'

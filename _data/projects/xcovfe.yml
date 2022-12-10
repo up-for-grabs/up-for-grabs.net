@@ -1,9 +1,7 @@
-desc: CovidX frontend project
+---
 name: xcovfe
+desc: CovidX frontend project
 site: https://www.covidsos.net
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - covidx
 - xcov19
@@ -11,5 +9,7 @@ tags:
 - patient-mgmt
 - reactjs
 upforgrabs:
-  link: https://github.com/Xcov19/xcovfe/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/Xcov19/xcovfe/labels/up-for-grabs
+stats:
+  issue-count: 0

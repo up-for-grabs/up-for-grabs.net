@@ -1,14 +1,14 @@
-desc: Marquee - An open source Selenium based UI automation library inspired by canopy.
+---
 name: Marquee
+desc: Marquee - An open source Selenium based UI automation library inspired by canopy.
 site: https://github.com/JeremyBellows/Marquee
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2018-02-20T21:33:16Z'
 tags:
 - f#
 - selenium
-- .net
+- ".net"
 upforgrabs:
-  link: https://github.com/vbop9834/Marquee/labels/help%20wanted
   name: help wanted
+  link: https://github.com/vbop9834/Marquee/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2018-02-20T21:33:16Z'

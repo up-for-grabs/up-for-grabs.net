@@ -1,14 +1,14 @@
-desc: Open Web Component Recommendations
+---
 name: open-wc
+desc: Open Web Component Recommendations
 site: https://open-wc.org/
-stats:
-  fork-count: 0
-  issue-count: 15
-  last-updated: '2021-12-19T18:51:58Z'
 tags:
 - javascript
 - web-components
 - web
 upforgrabs:
-  link: https://github.com/open-wc/open-wc/labels/help%20wanted
   name: help wanted
+  link: https://github.com/open-wc/open-wc/labels/help%20wanted
+stats:
+  issue-count: 15
+  last-updated: '2021-12-19T18:51:58Z'

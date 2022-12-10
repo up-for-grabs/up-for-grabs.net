@@ -1,10 +1,7 @@
-desc: Simple yet powerful library for building modern web interfaces.
+---
 name: Vue.js
+desc: Simple yet powerful library for building modern web interfaces.
 site: http://vuejs.org
-stats:
-  fork-count: 0
-  issue-count: 10
-  last-updated: '2022-07-22T20:01:43Z'
 tags:
 - javascript
 - user-interface
@@ -12,5 +9,8 @@ tags:
 - templating
 - vuejs
 upforgrabs:
-  link: https://github.com/vuejs/vue/labels/contribution%20welcome
   name: contribution welcome
+  link: https://github.com/vuejs/vue/labels/contribution%20welcome
+stats:
+  issue-count: 10
+  last-updated: '2022-07-22T20:01:43Z'

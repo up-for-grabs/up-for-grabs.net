@@ -1,9 +1,7 @@
-desc: Java 8 combinatorics-related streams and other utilities
+---
 name: streamplify
+desc: Java 8 combinatorics-related streams and other utilities
 site: http://streamplify.beryx.org
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - java
 - streams
@@ -12,5 +10,7 @@ tags:
 - combinations
 - cartesian-product
 upforgrabs:
-  link: https://github.com/beryx/streamplify/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/beryx/streamplify/labels/up-for-grabs
+stats:
+  issue-count: 0

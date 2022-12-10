@@ -1,10 +1,9 @@
-desc: Squirrelly is a lightweight JS template engine supporting helpers, filters,
-  partials, custom tags, and more
+---
 name: squirrelly
+desc: >-
+  Squirrelly is a lightweight JS template engine supporting helpers, filters, partials, custom tags, and
+  more
 site: https://squirrelly.js.org
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - squirrelly
 - express
@@ -13,5 +12,7 @@ tags:
 - handlebars
 - javascript
 upforgrabs:
-  link: https://github.com/squirrellyjs/squirrelly/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/squirrellyjs/squirrelly/labels/up-for-grabs
+stats:
+  issue-count: 0

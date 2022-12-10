@@ -1,14 +1,14 @@
-desc: MessagePack implementation for F# msgpack.org
+---
 name: msgpack-fsharp
+desc: MessagePack implementation for F# msgpack.org
 site: https://github.com/Gab-km/msgpack-fsharp
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2014-07-24T21:33:37Z'
 tags:
 - f#
 - messagepack
-- .net
+- ".net"
 upforgrabs:
-  link: https://github.com/Gab-km/msgpack-fsharp/labels/help%20wanted
   name: help wanted
+  link: https://github.com/Gab-km/msgpack-fsharp/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2014-07-24T21:33:37Z'

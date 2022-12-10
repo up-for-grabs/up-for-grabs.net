@@ -1,14 +1,11 @@
-desc: A statistics collection and distributed tracing framework. Python implementation
-  of OpenCensus, a toolkit for collecting application performance and behavior monitoring
-  data. It allows to automatically collect incoming and outgoing calls information
-  from various frameworks and export this information to backend of your choice. Supports
-  django, pyramid, flask, grpc, MySQL, PostgreSQL, SQLAlchemy and other frameworks.
+---
 name: opencensus-python
+desc: >-
+  A statistics collection and distributed tracing framework. Python implementation of OpenCensus, a toolkit
+  for collecting application performance and behavior monitoring data. It allows to automatically collect
+  incoming and outgoing calls information from various frameworks and export this information to backend
+  of your choice. Supports django, pyramid, flask, grpc, MySQL, PostgreSQL, SQLAlchemy and other frameworks.
 site: https://opencensus.io
-stats:
-  fork-count: 0
-  issue-count: 16
-  last-updated: '2020-10-04T04:46:04Z'
 tags:
 - trace
 - python
@@ -26,5 +23,8 @@ tags:
 - signalfx
 - application-insights
 upforgrabs:
-  link: https://github.com/census-instrumentation/opencensus-python/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/census-instrumentation/opencensus-python/labels/up-for-grabs
+stats:
+  issue-count: 16
+  last-updated: '2020-10-04T04:46:04Z'

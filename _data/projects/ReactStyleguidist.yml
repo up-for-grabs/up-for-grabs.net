@@ -1,10 +1,7 @@
-desc: Isolated React component development environment with a living style guide
+---
 name: React Styleguidist
+desc: Isolated React component development environment with a living style guide
 site: https://react-styleguidist.js.org/
-stats:
-  fork-count: 0
-  issue-count: 10
-  last-updated: '2022-10-01T08:23:18Z'
 tags:
 - reactjs
 - styleguide
@@ -12,5 +9,8 @@ tags:
 - components
 - ui
 upforgrabs:
-  link: https://github.com/styleguidist/react-styleguidist/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/styleguidist/react-styleguidist/labels/good%20first%20issue
+stats:
+  issue-count: 10
+  last-updated: '2022-10-01T08:23:18Z'

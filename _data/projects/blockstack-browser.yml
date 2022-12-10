@@ -1,10 +1,7 @@
-desc: The Blockstack Browser allows you to explore the decentralized internet.
+---
 name: Blockstack Browser
+desc: The Blockstack Browser allows you to explore the decentralized internet.
 site: https://blockstack.org
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2022-02-16T19:52:08Z'
 tags:
 - reactjs
 - javascript
@@ -13,5 +10,8 @@ tags:
 - dapp
 - identity
 upforgrabs:
-  link: https://github.com/stacks-network/blockstack-browser/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/stacks-network/blockstack-browser/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2022-02-16T19:52:08Z'

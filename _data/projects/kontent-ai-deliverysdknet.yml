@@ -1,13 +1,10 @@
-desc: Kontent.ai Delivery .NET SDK
+---
 name: delivery-sdk-net
+desc: Kontent.ai Delivery .NET SDK
 site: https://github.com/kontent-ai/delivery-sdk-net
-stats:
-  fork-count: 0
-  issue-count: 8
-  last-updated: '2021-02-08T13:12:08Z'
 tags:
-- .net
-- .net-standard
+- ".net"
+- ".net-standard"
 - c#
 - sdk
 - kontent-ai
@@ -15,5 +12,8 @@ tags:
 - headless-cms
 - caas
 upforgrabs:
-  link: https://github.com/kontent-ai/delivery-sdk-net/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/kontent-ai/delivery-sdk-net/labels/up-for-grabs
+stats:
+  issue-count: 8
+  last-updated: '2021-02-08T13:12:08Z'

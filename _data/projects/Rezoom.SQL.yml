@@ -1,15 +1,14 @@
-desc: Statically typechecks a common SQL dialect and translates it to various RDBMS
-  backends
+---
 name: Rezoom.SQL
+desc: Statically typechecks a common SQL dialect and translates it to various RDBMS backends
 site: https://github.com/rspeele/Rezoom.SQL
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2021-05-20T16:42:55Z'
 tags:
 - f#
-- .net
+- ".net"
 - sql
 upforgrabs:
-  link: https://github.com/fsprojects/Rezoom.SQL/labels/help%20wanted
   name: help wanted
+  link: https://github.com/fsprojects/Rezoom.SQL/labels/help%20wanted
+stats:
+  issue-count: 3
+  last-updated: '2021-05-20T16:42:55Z'

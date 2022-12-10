@@ -1,10 +1,7 @@
-desc: A powerful cross-platform CLI project templating tool.
+---
 name: proji
+desc: A powerful cross-platform CLI project templating tool.
 site: https://github.com/nikoksr/proji
-stats:
-  fork-count: 0
-  issue-count: 5
-  last-updated: '2021-10-15T19:25:21Z'
 tags:
 - go
 - project
@@ -16,5 +13,8 @@ tags:
 - tool
 - command-line
 upforgrabs:
-  link: https://github.com/nikoksr/proji/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/nikoksr/proji/labels/up-for-grabs
+stats:
+  issue-count: 5
+  last-updated: '2021-10-15T19:25:21Z'

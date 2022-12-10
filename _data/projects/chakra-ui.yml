@@ -1,9 +1,7 @@
-desc: "\u26A1\uFE0F Simple, Modular & Accessible UI Components for your React Applications"
+---
 name: Chakra UI
+desc: "⚡️ Simple, Modular & Accessible UI Components for your React Applications"
 site: https://chakra-ui.com
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - reactjs
 - typescript
@@ -17,5 +15,7 @@ tags:
 - ui-library
 - chakra-ui
 upforgrabs:
-  link: https://github.com/chakra-ui/chakra-ui/labels/good%20first%20issue%20%F0%9F%91%8D
   name: "good first issue \U0001F44D"
+  link: https://github.com/chakra-ui/chakra-ui/labels/good%20first%20issue%20%F0%9F%91%8D
+stats:
+  issue-count: 0

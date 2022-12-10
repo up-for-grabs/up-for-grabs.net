@@ -1,10 +1,7 @@
-desc: an experiment to create a community driven language-learning platform
+---
 name: LibreLingo
+desc: an experiment to create a community driven language-learning platform
 site: https://github.com/kantord/LibreLingo
-stats:
-  fork-count: 0
-  issue-count: 9
-  last-updated: '2022-11-14T07:38:18Z'
 tags:
 - svelte
 - education
@@ -13,5 +10,8 @@ tags:
 - javascript
 - wiki
 upforgrabs:
-  link: https://github.com/LibreLingo/LibreLingo/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/LibreLingo/LibreLingo/labels/good%20first%20issue
+stats:
+  issue-count: 9
+  last-updated: '2022-11-14T07:38:18Z'

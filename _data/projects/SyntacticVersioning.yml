@@ -1,13 +1,13 @@
-desc: Helper tool to verify semantic version changes based on API surface area changes
+---
 name: SyntacticVersioning
+desc: Helper tool to verify semantic version changes based on API surface area changes
 site: https://github.com/fsprojects/SyntacticVersioning
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2018-02-07T19:45:20Z'
 tags:
 - f#
-- .net
+- ".net"
 upforgrabs:
-  link: https://github.com/fsprojects/SyntacticVersioning/labels/help%20wanted
   name: help wanted
+  link: https://github.com/fsprojects/SyntacticVersioning/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2018-02-07T19:45:20Z'

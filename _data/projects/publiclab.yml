@@ -1,14 +1,14 @@
-desc: An open source publishing platform for environmental projects.
+---
 name: PublicLab.org
+desc: An open source publishing platform for environmental projects.
 site: https://github.com/publiclab/plots2
-stats:
-  fork-count: 0
-  issue-count: 138
-  last-updated: '2022-10-22T22:25:38Z'
 tags:
 - javascript
 - ruby
 - rubyonrails
 upforgrabs:
-  link: https://github.com/publiclab/plots2/labels/help%20wanted
   name: help wanted
+  link: https://github.com/publiclab/plots2/labels/help%20wanted
+stats:
+  issue-count: 138
+  last-updated: '2022-10-22T22:25:38Z'

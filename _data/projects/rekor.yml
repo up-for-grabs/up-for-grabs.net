@@ -1,15 +1,16 @@
-desc: Rekor''s goals are to provide an immutable tamper resistant ledger of metadata
-  generated within a software projects supply chain.
+---
 name: Rekor
+desc: >-
+  Rekor''s goals are to provide an immutable tamper resistant ledger of metadata generated within a software
+  projects supply chain.
 site: https://sigstore.dev/
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - security
 - supply-chain
 - provenance
 - transparency-log
 upforgrabs:
-  link: https://github.com/sigstore/rekor/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/sigstore/rekor/labels/good%20first%20issue
+stats:
+  issue-count: 0

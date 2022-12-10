@@ -1,10 +1,7 @@
-desc: Kentico EMS extension marketplace.
+---
 name: ems-extension-marketplace
+desc: Kentico EMS extension marketplace.
 site: https://github.com/Kentico/ems-extension-marketplace
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2020-01-23T14:28:02Z'
 tags:
 - marketplace
 - javascript
@@ -13,5 +10,8 @@ tags:
 - kentico
 - kentico-ems
 upforgrabs:
-  link: https://github.com/Kentico/ems-extension-marketplace/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/Kentico/ems-extension-marketplace/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2020-01-23T14:28:02Z'

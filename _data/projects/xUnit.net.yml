@@ -1,18 +1,18 @@
-desc: A free, open source, community-focused unit testing tool for the .NET Framework.
+---
 name: xUnit.net
+desc: A free, open source, community-focused unit testing tool for the .NET Framework.
 site: https://xunit.github.io/
-stats:
-  fork-count: 0
-  issue-count: 79
-  last-updated: '2022-11-12T19:30:05Z'
 tags:
 - unit-testing
 - testing
 - tdd
-- .net
+- ".net"
 - c#
 - f#
 - vb.net
 upforgrabs:
-  link: https://github.com/xunit/xunit/labels/help%20wanted
   name: help wanted
+  link: https://github.com/xunit/xunit/labels/help%20wanted
+stats:
+  issue-count: 79
+  last-updated: '2022-11-12T19:30:05Z'

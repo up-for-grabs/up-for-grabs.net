@@ -1,15 +1,15 @@
-desc: A port of GitHub's Hubot to C# and ScriptCS.
+---
 name: mmbot
+desc: A port of GitHub's Hubot to C# and ScriptCS.
 site: https://github.com/mmbot/mmbot
-stats:
-  fork-count: 0
-  issue-count: 8
-  last-updated: '2014-08-28T21:08:37Z'
 tags:
-- .net
+- ".net"
 - hubot
 - chat
 - c#
 upforgrabs:
-  link: https://github.com/mmbot/mmbot/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/mmbot/mmbot/labels/up-for-grabs
+stats:
+  issue-count: 8
+  last-updated: '2014-08-28T21:08:37Z'

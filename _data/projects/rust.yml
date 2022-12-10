@@ -1,15 +1,15 @@
-desc: A systems programming language focused on safety, speed, and concurrency.
+---
 name: Rust
+desc: A systems programming language focused on safety, speed, and concurrency.
 site: https://www.rust-lang.org
-stats:
-  fork-count: 0
-  issue-count: 45
-  last-updated: '2022-11-17T19:04:43Z'
 tags:
 - oss
 - systems
 - rust
 - language
 upforgrabs:
-  link: https://github.com/rust-lang/rust/labels/E-easy
   name: E-easy
+  link: https://github.com/rust-lang/rust/labels/E-easy
+stats:
+  issue-count: 45
+  last-updated: '2022-11-17T19:04:43Z'

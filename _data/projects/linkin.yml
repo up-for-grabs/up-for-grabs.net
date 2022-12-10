@@ -1,10 +1,7 @@
-desc: Linkin is a customizable self hosted link tree platform
+---
 name: Linkin
+desc: Linkin is a customizable self hosted link tree platform
 site: http://linkindemo.vercel.app/
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2022-10-18T14:05:33Z'
 tags:
 - reactjs
 - nextjs
@@ -16,5 +13,8 @@ tags:
 - linktree-alternative
 - vercel
 upforgrabs:
-  link: https://github.com/RizkyRajitha/linkin/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/RizkyRajitha/linkin/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2022-10-18T14:05:33Z'

@@ -1,17 +1,17 @@
-desc: A bash prompt that displays information about the current git repository. In
-  particular the branch name, difference with remote branch, number of files staged,
-  changed, etc.
+---
 name: Bash Git prompt
+desc: >-
+  A bash prompt that displays information about the current git repository. In particular the branch name,
+  difference with remote branch, number of files staged, changed, etc.
 site: https://github.com/magicmonty/bash-git-prompt
-stats:
-  fork-count: 0
-  issue-count: 7
-  last-updated: '2022-07-11T22:14:04Z'
 tags:
 - shell
 - bash
 - git
 - prompt
 upforgrabs:
-  link: https://github.com/magicmonty/bash-git-prompt/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/magicmonty/bash-git-prompt/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2022-07-11T22:14:04Z'

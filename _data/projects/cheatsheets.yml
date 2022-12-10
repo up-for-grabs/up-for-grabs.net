@@ -1,9 +1,7 @@
-desc: A Repository for developers for different kinds of Programming Cheatsheets
+---
 name: CheatSheets
+desc: A Repository for developers for different kinds of Programming Cheatsheets
 site: https://github.com/darkmatter18/cheatsheet
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - cheatsheets
 - python
@@ -13,5 +11,7 @@ tags:
 - typescript
 - sql
 upforgrabs:
-  link: https://github.com/darkmatter18/cheatsheet/labels/up%20for%20grabs
   name: up for grabs
+  link: https://github.com/darkmatter18/cheatsheet/labels/up%20for%20grabs
+stats:
+  issue-count: 0

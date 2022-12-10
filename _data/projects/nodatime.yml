@@ -1,17 +1,17 @@
-desc: A better date/time API for .NET
+---
 name: Noda Time
+desc: A better date/time API for .NET
 site: https://github.com/nodatime/nodatime
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2020-10-12T06:29:22Z'
 tags:
-- .net
+- ".net"
 - c#
 - datetime
 - date
 - time
 - timezone
 upforgrabs:
-  link: https://github.com/nodatime/nodatime/labels/help%20wanted
   name: help wanted
+  link: https://github.com/nodatime/nodatime/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2020-10-12T06:29:22Z'

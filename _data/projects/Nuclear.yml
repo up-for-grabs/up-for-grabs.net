@@ -1,10 +1,7 @@
-desc: Desktop music player for streaming from free sources
+---
 name: Nuclear
+desc: Desktop music player for streaming from free sources
 site: https://nuclear.js.org
-stats:
-  fork-count: 0
-  issue-count: 17
-  last-updated: '2022-11-18T13:06:33Z'
 tags:
 - javascript
 - web
@@ -15,5 +12,8 @@ tags:
 - mac
 - windows
 upforgrabs:
-  link: https://github.com/nukeop/nuclear/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/nukeop/nuclear/labels/good%20first%20issue
+stats:
+  issue-count: 17
+  last-updated: '2022-11-18T13:06:33Z'

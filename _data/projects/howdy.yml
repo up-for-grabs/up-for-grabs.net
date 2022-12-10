@@ -1,10 +1,7 @@
-desc: Windows Hello style facial authentication for Linux
+---
 name: Howdy
+desc: Windows Hello style facial authentication for Linux
 site: https://github.com/boltgolt/howdy
-stats:
-  fork-count: 0
-  issue-count: 9
-  last-updated: '2022-11-17T00:11:29Z'
 tags:
 - authentication
 - python
@@ -15,5 +12,8 @@ tags:
 - pam
 - auth
 upforgrabs:
-  link: https://github.com/boltgolt/howdy/labels/help%20wanted
   name: help wanted
+  link: https://github.com/boltgolt/howdy/labels/help%20wanted
+stats:
+  issue-count: 9
+  last-updated: '2022-11-17T00:11:29Z'

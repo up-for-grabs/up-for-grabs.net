@@ -1,14 +1,11 @@
-desc: Documentation for Duality, a modular 2D game engine written entirely in C#
+---
 name: Duality Docs
+desc: Documentation for Duality, a modular 2D game engine written entirely in C#
 site: https://adamslair.github.io/duality-docs/pages/v3/Home.html
-stats:
-  fork-count: 0
-  issue-count: 7
-  last-updated: '2018-12-14T18:03:35Z'
 tags:
 - markdown
 - documentation
-- .net
+- ".net"
 - c#
 - opengl
 - gamedev
@@ -18,5 +15,8 @@ tags:
 - editor
 - framework
 upforgrabs:
-  link: https://github.com/AdamsLair/duality-docs/labels/Help%20Wanted
   name: Help Wanted
+  link: https://github.com/AdamsLair/duality-docs/labels/Help%20Wanted
+stats:
+  issue-count: 7
+  last-updated: '2018-12-14T18:03:35Z'

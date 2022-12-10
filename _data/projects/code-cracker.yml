@@ -1,16 +1,16 @@
-desc: An analyzer library for C# that uses Roslyn to produce refactorings, code analysis,
-  and other niceties.
+---
 name: Code Cracker
+desc: >-
+  An analyzer library for C# that uses Roslyn to produce refactorings, code analysis, and other niceties.
 site: https://github.com/code-cracker/code-cracker
-stats:
-  fork-count: 0
-  issue-count: 35
-  last-updated: '2019-10-02T16:31:57Z'
 tags:
 - roslyn
 - c#-analyzers
 - code-fix
 - c#
 upforgrabs:
-  link: https://github.com/code-cracker/code-cracker/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/code-cracker/code-cracker/labels/up-for-grabs
+stats:
+  issue-count: 35
+  last-updated: '2019-10-02T16:31:57Z'

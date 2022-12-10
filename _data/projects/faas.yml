@@ -1,14 +1,14 @@
-desc: Serverless Functions Made Simple
+---
 name: OpenFaaS
+desc: Serverless Functions Made Simple
 site: https://www.openfaas.com/
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - faas
 - docker
 - lambda
 - function-as-a-service
 upforgrabs:
-  link: https://github.com/openfaas/faas/labels/hacktoberfest
   name: hacktoberfest
+  link: https://github.com/openfaas/faas/labels/hacktoberfest
+stats:
+  issue-count: 0

@@ -1,10 +1,7 @@
-desc: Consumable Data Structures and Algorithms library in JavaScript
+---
 name: algorithms-js
+desc: Consumable Data Structures and Algorithms library in JavaScript
 site: https://github.com/manrajgrover/algorithms-js
-stats:
-  fork-count: 0
-  issue-count: 12
-  last-updated: '2022-10-10T18:06:31Z'
 tags:
 - javascript
 - algorithm
@@ -13,5 +10,8 @@ tags:
 - node.js
 - npm
 upforgrabs:
-  link: https://github.com/manrajgrover/algorithms-js/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/manrajgrover/algorithms-js/labels/good%20first%20issue
+stats:
+  issue-count: 12
+  last-updated: '2022-10-10T18:06:31Z'

@@ -1,10 +1,7 @@
-desc: Free and Open Source Reverse Engineering Platform powered by radare2
+---
 name: Cutter
+desc: Free and Open Source Reverse Engineering Platform powered by radare2
 site: https://cutter.re
-stats:
-  fork-count: 0
-  issue-count: 50
-  last-updated: '2022-11-15T16:07:51Z'
 tags:
 - reverse-engineering
 - security
@@ -12,5 +9,8 @@ tags:
 - qt
 - gui
 upforgrabs:
-  link: https://github.com/rizinorg/cutter/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/rizinorg/cutter/labels/good%20first%20issue
+stats:
+  issue-count: 50
+  last-updated: '2022-11-15T16:07:51Z'

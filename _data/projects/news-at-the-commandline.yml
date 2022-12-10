@@ -1,16 +1,16 @@
-desc: Now you don't need to visit each news portal website separately to read their
-  articles. Just use the tool and read the articles without even clicking a single
-  mouse button.
+---
 name: News-At-Command-Line
+desc: >-
+  Now you don't need to visit each news portal website separately to read their articles. Just use the
+  tool and read the articles without even clicking a single mouse button.
 site: https://github.com/Griffintaur/News-At-Command-Line
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - python
 - requests
 - yaml
 - beautiful-soup
 upforgrabs:
-  link: https://github.com/Griffintaur/News-At-Command-Line/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/Griffintaur/News-At-Command-Line/labels/up-for-grabs
+stats:
+  issue-count: 0

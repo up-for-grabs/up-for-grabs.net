@@ -1,10 +1,7 @@
-desc: A lightweight, fast and extensible game server for Minecraft
+---
 name: Cuberite
+desc: A lightweight, fast and extensible game server for Minecraft
 site: https://cuberite.org/
-stats:
-  fork-count: 0
-  issue-count: 10
-  last-updated: '2022-10-11T10:08:28Z'
 tags:
 - linux
 - c++
@@ -16,5 +13,8 @@ tags:
 - minecraft
 - raspberry-pi
 upforgrabs:
-  link: https://github.com/cuberite/cuberite/labels/effort%2Feasy
   name: effort/easy
+  link: https://github.com/cuberite/cuberite/labels/effort%2Feasy
+stats:
+  issue-count: 10
+  last-updated: '2022-10-11T10:08:28Z'

@@ -1,17 +1,18 @@
-desc: NuGet Package Explorer is a ClickOnce & Chocolatey application that makes it
-  easy to create and explore NuGet packages.
+---
 name: NuGet Package Explorer
+desc: >-
+  NuGet Package Explorer is a ClickOnce & Chocolatey application that makes it easy to create and explore
+  NuGet packages.
 site: https://github.com/NuGetPackageExplorer/NuGetPackageExplorer
-stats:
-  fork-count: 0
-  issue-count: 25
-  last-updated: '2022-10-08T17:23:53Z'
 tags:
 - c#
-- .net
+- ".net"
 - nuget
 - package
 - chocolatey
 upforgrabs:
-  link: https://github.com/NuGetPackageExplorer/NuGetPackageExplorer/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/NuGetPackageExplorer/NuGetPackageExplorer/labels/up-for-grabs
+stats:
+  issue-count: 25
+  last-updated: '2022-10-08T17:23:53Z'

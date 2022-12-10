@@ -1,16 +1,17 @@
-desc: Symfony is a PHP framework for web applications and a set of reusable PHP components.
-  Symfony is used by thousands of web applications and most of the popular PHP projects.
+---
 name: Symfony
+desc: >-
+  Symfony is a PHP framework for web applications and a set of reusable PHP components. Symfony is used
+  by thousands of web applications and most of the popular PHP projects.
 site: https://symfony.com
-stats:
-  fork-count: 0
-  issue-count: 6
-  last-updated: '2022-09-30T17:12:45Z'
 tags:
 - php
 - framework
 - components
 - web
 upforgrabs:
-  link: https://github.com/symfony/symfony/labels/Good%20first%20issue
   name: Good first issue
+  link: https://github.com/symfony/symfony/labels/Good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2022-09-30T17:12:45Z'

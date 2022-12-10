@@ -1,9 +1,7 @@
-desc: Universal (isomorphic) javascript support for Angular 2
+---
 name: Universal Angular 2
+desc: Universal (isomorphic) javascript support for Angular 2
 site: https://github.com/angular/universal
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - javascript
 - web
@@ -11,5 +9,7 @@ tags:
 - universal-javascript
 - isomorphic-javascript
 upforgrabs:
-  link: https://github.com/angular/universal/labels/hotlist%3A%20community-help
   name: 'hotlist: community-help'
+  link: https://github.com/angular/universal/labels/hotlist%3A%20community-help
+stats:
+  issue-count: 0

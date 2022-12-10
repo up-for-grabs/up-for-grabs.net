@@ -1,12 +1,9 @@
-desc: Easy-to-use, readable and comprehensive library for consuming TeamCity REST
-  API. Written using real scenarios in mind, enables variuos range of queries and
-  operation on TeamCity
+---
 name: FluentTc
+desc: >-
+  Easy-to-use, readable and comprehensive library for consuming TeamCity REST API. Written using real
+  scenarios in mind, enables variuos range of queries and operation on TeamCity
 site: https://github.com/QualiSystems/FluentTc
-stats:
-  fork-count: 0
-  issue-count: 12
-  last-updated: '2018-02-13T13:25:53Z'
 tags:
 - teamcity
 - api
@@ -14,8 +11,11 @@ tags:
 - http
 - fluent
 - c#
-- .net
+- ".net"
 - ci
 upforgrabs:
-  link: https://github.com/QualiSystems/FluentTc/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/QualiSystems/FluentTc/labels/up-for-grabs
+stats:
+  issue-count: 12
+  last-updated: '2018-02-13T13:25:53Z'

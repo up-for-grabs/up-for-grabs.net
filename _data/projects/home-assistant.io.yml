@@ -1,10 +1,7 @@
-desc: Home Assistant User documentation
+---
 name: home-assistant.io
+desc: Home Assistant User documentation
 site: https://github.com/home-assistant/home-assistant.io
-stats:
-  fork-count: 0
-  issue-count: 5
-  last-updated: '2022-03-23T00:29:42Z'
 tags:
 - documentation
 - jekyll
@@ -13,5 +10,8 @@ tags:
 - hassio
 - haos
 upforgrabs:
-  link: https://github.com/home-assistant/home-assistant.io/labels/help-wanted
   name: help-wanted
+  link: https://github.com/home-assistant/home-assistant.io/labels/help-wanted
+stats:
+  issue-count: 5
+  last-updated: '2022-03-23T00:29:42Z'

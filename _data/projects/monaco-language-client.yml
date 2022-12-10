@@ -1,9 +1,7 @@
-desc: NPM module to connect Monaco editor with language servers
+---
 name: Monaco language client
+desc: NPM module to connect Monaco editor with language servers
 site: https://github.com/TypeFox/monaco-languageclient
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - javascript
 - typescript
@@ -15,5 +13,7 @@ tags:
 - monaco-editor
 - monaco-language-client
 upforgrabs:
-  link: https://github.com/TypeFox/monaco-languageclient/labels/help%20wanted
   name: help wanted
+  link: https://github.com/TypeFox/monaco-languageclient/labels/help%20wanted
+stats:
+  issue-count: 0

@@ -1,10 +1,7 @@
-desc: Simple regex based PHP code formatter (beautifier) for Adobe Brackets. No PHP
-  server required
+---
 name: Brackets PHP Beautify
+desc: Simple regex based PHP code formatter (beautifier) for Adobe Brackets. No PHP server required
 site: https://github.com/OSS-Enthusiasts/brackets-php-beautify
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - php
 - regex
@@ -12,5 +9,7 @@ tags:
 - brackets
 - requirejs
 upforgrabs:
-  link: https://github.com/OSS-Enthusiasts/brackets-php-beautify/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/OSS-Enthusiasts/brackets-php-beautify/labels/up-for-grabs
+stats:
+  issue-count: 0

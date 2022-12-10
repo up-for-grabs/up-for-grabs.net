@@ -1,14 +1,15 @@
-desc: An example of using Azure Search to power a SAFE website for rapid searching
-  with support for facets and suggestions.
+---
 name: SAFE-Search
+desc: >-
+  An example of using Azure Search to power a SAFE website for rapid searching with support for facets
+  and suggestions.
 site: https://github.com/SAFE-Stack/SAFE-Search
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2018-01-27T10:14:45Z'
 tags:
 - f#
-- .net
+- ".net"
 upforgrabs:
-  link: https://github.com/SAFE-Stack/SAFE-Search/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/SAFE-Stack/SAFE-Search/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2018-01-27T10:14:45Z'

@@ -1,17 +1,17 @@
-desc: A fully featured C# client for the pinboard bookmarking service
+---
 name: pinboard.net
+desc: A fully featured C# client for the pinboard bookmarking service
 site: https://github.com/shrayasr/pinboard.net/
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2019-10-16T13:14:49Z'
 tags:
 - wrapper
 - api
 - client
 - pinboard
 - c#
-- .net
+- ".net"
 upforgrabs:
-  link: https://github.com/shrayasr/pinboard.net/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/shrayasr/pinboard.net/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2019-10-16T13:14:49Z'

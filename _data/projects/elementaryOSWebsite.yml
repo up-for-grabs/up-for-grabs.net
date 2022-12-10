@@ -1,11 +1,9 @@
-desc: The New elementary.io - A focused, minimum viable product (hence MVP) for a
-  website that accompanied the release of elementary OS Freya.
+---
 name: elementary OS Website
+desc: >-
+  The New elementary.io - A focused, minimum viable product (hence MVP) for a website that accompanied
+  the release of elementary OS Freya.
 site: https://github.com/elementary/website
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2022-08-04T23:00:48Z'
 tags:
 - elementary
 - web
@@ -18,5 +16,8 @@ tags:
 - sqlite
 - design
 upforgrabs:
-  link: https://github.com/elementary/website/labels/Bitesize
   name: Bitesize
+  link: https://github.com/elementary/website/labels/Bitesize
+stats:
+  issue-count: 1
+  last-updated: '2022-08-04T23:00:48Z'

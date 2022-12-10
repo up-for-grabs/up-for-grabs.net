@@ -1,13 +1,9 @@
-desc: Share and collaborate by syncing with any Git repository instantly. Linux, macOS,
-  and Windows
+---
 name: SparkleShare
+desc: Share and collaborate by syncing with any Git repository instantly. Linux, macOS, and Windows
 site: https://www.sparkleshare.org/
-stats:
-  fork-count: 0
-  issue-count: 12
-  last-updated: '2021-01-21T04:27:16Z'
 tags:
-- .net
+- ".net"
 - c#
 - sync
 - linux
@@ -33,5 +29,8 @@ tags:
 - cloud
 - encryption
 upforgrabs:
-  link: https://github.com/hbons/SparkleShare/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/hbons/SparkleShare/labels/up-for-grabs
+stats:
+  issue-count: 12
+  last-updated: '2021-01-21T04:27:16Z'

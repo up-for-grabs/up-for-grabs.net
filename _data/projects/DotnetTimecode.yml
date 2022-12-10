@@ -1,19 +1,19 @@
-desc: Dotnet Timecode is a single class c# library built to create an API for working
-  with SMPTE Timecodes.
+---
 name: Dotnet-Timecode
+desc: >-
+  Dotnet Timecode is a single class c# library built to create an API for working with SMPTE Timecodes.
 site: https://github.com/RasmusBroborg/dotnet-timecode
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - timecode
 - video
 - smpte-timecode
 - smpte
 - film
-- .net
-- .net6
+- ".net"
+- ".net6"
 - c#
 upforgrabs:
-  link: https://github.com/RasmusBroborg/DotnetTimecode/labels/up%20for%20grabs
   name: up for grabs
+  link: https://github.com/RasmusBroborg/DotnetTimecode/labels/up%20for%20grabs
+stats:
+  issue-count: 0

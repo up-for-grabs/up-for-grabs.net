@@ -1,10 +1,7 @@
-desc: a C logging library built for high performance and a rich feature set
+---
 name: stumpless
+desc: a C logging library built for high performance and a rich feature set
 site: https://github.com/goatshriek/stumpless
-stats:
-  fork-count: 0
-  issue-count: 10
-  last-updated: '2022-11-16T00:56:15Z'
 tags:
 - c
 - logging
@@ -14,5 +11,8 @@ tags:
 - windows
 - linux
 upforgrabs:
-  link: https://github.com/goatshriek/stumpless/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/goatshriek/stumpless/labels/good%20first%20issue
+stats:
+  issue-count: 10
+  last-updated: '2022-11-16T00:56:15Z'

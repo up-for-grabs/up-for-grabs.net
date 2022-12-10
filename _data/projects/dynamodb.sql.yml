@@ -1,16 +1,16 @@
-desc: SQL-like external DSL for querying and scanning Amazon DynamoDB
+---
 name: DynamoDb.SQL
+desc: SQL-like external DSL for querying and scanning Amazon DynamoDB
 site: https://fsprojects.github.io/DynamoDb.SQL/
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
-- .net
+- ".net"
 - dynamodb
 - nosql
 - aws
 - f#
 - c#
 upforgrabs:
-  link: https://github.com/fsprojects/DynamoDb.SQL/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/fsprojects/DynamoDb.SQL/labels/up-for-grabs
+stats:
+  issue-count: 0

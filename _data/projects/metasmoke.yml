@@ -1,10 +1,8 @@
-desc: Web dashboard and back end for SmokeDetector, a spam-detecting bot for Stack
-  Overflow / Stack Exchange
+---
 name: metasmoke
+desc: >-
+  Web dashboard and back end for SmokeDetector, a spam-detecting bot for Stack Overflow / Stack Exchange
 site: https://metasmoke.erwaysoftware.com/
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - ruby
 - ruby-on-rails
@@ -13,5 +11,7 @@ tags:
 - javascript
 - mysql
 upforgrabs:
-  link: https://github.com/Charcoal-SE/metasmoke/labels/type%3A%20up-for-grabs
   name: 'type: up-for-grabs'
+  link: https://github.com/Charcoal-SE/metasmoke/labels/type%3A%20up-for-grabs
+stats:
+  issue-count: 0

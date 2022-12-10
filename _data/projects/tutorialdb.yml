@@ -1,15 +1,15 @@
-desc: A search engine for programming/dev tutorials.
+---
 name: tutorialdb
+desc: A search engine for programming/dev tutorials.
 site: https://github.com/Bhupesh-V/tutorialdb
-stats:
-  fork-count: 0
-  issue-count: 14
-  last-updated: '2022-08-07T15:26:51Z'
 tags:
 - django
 - web
 - python3
 - javascript
 upforgrabs:
-  link: https://github.com/Bhupesh-V/tutorialdb/labels/help%20wanted%20%F0%9F%99%8C
   name: "help wanted \U0001F64C"
+  link: https://github.com/Bhupesh-V/tutorialdb/labels/help%20wanted%20%F0%9F%99%8C
+stats:
+  issue-count: 14
+  last-updated: '2022-08-07T15:26:51Z'

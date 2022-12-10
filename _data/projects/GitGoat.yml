@@ -1,11 +1,10 @@
-desc: GitGoat was built to enable DevOps and Engineering teams to design and implement
-  a sustainable misconfiguration prevention strategy. It can be used for proof-of-concept
-  projects, such as OpenSSF, that tend to identify security issues in code repositories.
+---
 name: GitGoat
+desc: >-
+  GitGoat was built to enable DevOps and Engineering teams to design and implement a sustainable misconfiguration
+  prevention strategy. It can be used for proof-of-concept projects, such as OpenSSF, that tend to identify
+  security issues in code repositories.
 site: https://github.com/arnica-ext/GitGoat
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - github
 - devops
@@ -14,5 +13,7 @@ tags:
 - source-control-management
 - security
 upforgrabs:
-  link: https://github.com/arnica-ext/GitGoat/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/arnica-ext/GitGoat/labels/up-for-grabs
+stats:
+  issue-count: 0

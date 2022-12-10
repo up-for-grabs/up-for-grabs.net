@@ -1,15 +1,14 @@
-desc: Python AFL (Australian Football League) library for collecting/analysing AFL
-  data
+---
 name: pyAFL
+desc: Python AFL (Australian Football League) library for collecting/analysing AFL data
 site: https://github.com/RamParameswaran/pyAFL
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2021-10-16T00:30:25Z'
 tags:
 - afl
 - australian-football-league
 - sports-analytics
 upforgrabs:
-  link: https://github.com/RamParameswaran/pyAFL/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/RamParameswaran/pyAFL/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2021-10-16T00:30:25Z'

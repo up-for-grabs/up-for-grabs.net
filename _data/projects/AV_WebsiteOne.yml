@@ -1,10 +1,8 @@
-desc: A website for AgileVentures.org - a platform for online collaboration and crowdsourced
-  project development.
+---
 name: AgileVentures WebsiteOne
+desc: >-
+  A website for AgileVentures.org - a platform for online collaboration and crowdsourced project development.
 site: https://github.com/AgileVentures/WebsiteOne
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - rails
 - ruby
@@ -14,5 +12,7 @@ tags:
 - css
 - javascript
 upforgrabs:
-  link: https://github.com/AgileVentures/WebsiteOne/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/AgileVentures/WebsiteOne/labels/up-for-grabs
+stats:
+  issue-count: 0

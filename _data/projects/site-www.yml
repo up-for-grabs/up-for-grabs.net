@@ -1,14 +1,15 @@
-desc: A website covering the Dart language and common libraries, for developers of
-  Dart libraries, web apps, server-side code, and mobile (Flutter) apps.
+---
 name: dart.dev
+desc: >-
+  A website covering the Dart language and common libraries, for developers of Dart libraries, web apps,
+  server-side code, and mobile (Flutter) apps.
 site: https://github.com/dart-lang/site-www
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - dart
 - javascript
 - website
 upforgrabs:
-  link: https://github.com/dart-lang/site-www/labels/beginner
   name: beginner
+  link: https://github.com/dart-lang/site-www/labels/beginner
+stats:
+  issue-count: 0

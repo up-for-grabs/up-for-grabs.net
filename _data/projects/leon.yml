@@ -1,10 +1,7 @@
-desc: Leon is your open-source personal assistant.
+---
 name: leon
+desc: Leon is your open-source personal assistant.
 site: https://getleon.ai
-stats:
-  fork-count: 0
-  issue-count: 9
-  last-updated: '2022-10-23T16:42:56Z'
 tags:
 - personal-assistant
 - node.js
@@ -13,5 +10,8 @@ tags:
 - chatbot
 - javascript
 upforgrabs:
-  link: https://github.com/leon-ai/leon/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/leon-ai/leon/labels/good%20first%20issue
+stats:
+  issue-count: 9
+  last-updated: '2022-10-23T16:42:56Z'

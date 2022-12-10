@@ -1,19 +1,20 @@
-desc: .NET MAUI is the .NET Multi-platform App UI, a framework for building native
-  device applications spanning mobile, tablet, and desktop.
-name: .NET MAUI
+---
+name: ".NET MAUI"
+desc: >-
+  .NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning
+  mobile, tablet, and desktop.
 site: https://github.com/dotnet/maui
-stats:
-  fork-count: 0
-  issue-count: 9
-  last-updated: '2022-11-18T08:59:39Z'
 tags:
 - maui
-- .net
+- ".net"
 - android
 - ios
 - macos
 - windows
 - blazor
 upforgrabs:
-  link: https://github.com/dotnet/maui/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
   name: help wanted
+  link: https://github.com/dotnet/maui/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
+stats:
+  issue-count: 9
+  last-updated: '2022-11-18T08:59:39Z'

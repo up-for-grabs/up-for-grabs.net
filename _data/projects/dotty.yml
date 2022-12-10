@@ -1,10 +1,7 @@
-desc: Next-generation Scala Compiler
+---
 name: Dotty
+desc: Next-generation Scala Compiler
 site: https://github.com/lampepfl/dotty
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2022-08-16T15:49:24Z'
 tags:
 - scala
 - language
@@ -13,5 +10,8 @@ tags:
 - ide
 - jvm
 upforgrabs:
-  link: https://github.com/lampepfl/dotty/labels/exp%3Anovice
   name: exp:novice
+  link: https://github.com/lampepfl/dotty/labels/exp%3Anovice
+stats:
+  issue-count: 1
+  last-updated: '2022-08-16T15:49:24Z'

@@ -1,11 +1,9 @@
-desc: A simple sound recording Android app implementing Material Design. The goal
-  of this project is to develop as stable as possible sound recorder application.
+---
 name: SoundRecorder
+desc: >-
+  A simple sound recording Android app implementing Material Design. The goal of this project is to develop
+  as stable as possible sound recorder application.
 site: https://github.com/naXa777/SoundRecorder
-stats:
-  fork-count: 0
-  issue-count: 6
-  last-updated: '2022-10-04T14:36:10Z'
 tags:
 - java
 - gradle
@@ -16,5 +14,8 @@ tags:
 - dictaphone
 - material-design
 upforgrabs:
-  link: https://github.com/naXa777/SoundRecorder/labels/help%20wanted
   name: help wanted
+  link: https://github.com/naXa777/SoundRecorder/labels/help%20wanted
+stats:
+  issue-count: 6
+  last-updated: '2022-10-04T14:36:10Z'

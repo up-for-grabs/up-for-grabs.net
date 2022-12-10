@@ -1,16 +1,13 @@
-desc: A cross-platform UI framework for .NET
+---
 name: Avalonia
+desc: A cross-platform UI framework for .NET
 site: https://avaloniaui.net/
-stats:
-  fork-count: 0
-  issue-count: 71
-  last-updated: '2022-11-16T12:54:19Z'
 tags:
 - cross-platform
 - gui
 - user-interface
 - xaml
-- .net
+- ".net"
 - windows
 - linux
 - macos
@@ -25,5 +22,8 @@ tags:
 - wpf
 - uwp
 upforgrabs:
-  link: https://github.com/AvaloniaUI/Avalonia/labels/help-wanted
   name: help-wanted
+  link: https://github.com/AvaloniaUI/Avalonia/labels/help-wanted
+stats:
+  issue-count: 71
+  last-updated: '2022-11-16T12:54:19Z'

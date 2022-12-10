@@ -1,17 +1,18 @@
-desc: An F# Azure Type Provider which can be used to explore Blob, Table and Queue
-  Azure Storage assets and easily apply CRUD operations on them.
+---
 name: AzureStorageTypeProvider
+desc: >-
+  An F# Azure Type Provider which can be used to explore Blob, Table and Queue Azure Storage assets and
+  easily apply CRUD operations on them.
 site: https://github.com/fsprojects/AzureStorageTypeProvider
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2019-04-29T12:20:37Z'
 tags:
 - f#
-- .net
+- ".net"
 - azure
 - azure-storage
 - type-provider
 upforgrabs:
-  link: https://github.com/fsprojects/AzureStorageTypeProvider/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/fsprojects/AzureStorageTypeProvider/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-04-29T12:20:37Z'

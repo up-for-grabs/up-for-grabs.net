@@ -1,13 +1,13 @@
-desc: A complete travel guide
+---
 name: Travel Mate
+desc: A complete travel guide
 site: https://github.com/project-travel-mate/Travel-Mate
-stats:
-  fork-count: 0
-  issue-count: 7
-  last-updated: '2022-10-04T07:10:24Z'
 tags:
 - java
 - android
 upforgrabs:
-  link: https://github.com/project-travel-mate/Travel-Mate/labels/help%20wanted
   name: help wanted
+  link: https://github.com/project-travel-mate/Travel-Mate/labels/help%20wanted
+stats:
+  issue-count: 7
+  last-updated: '2022-10-04T07:10:24Z'

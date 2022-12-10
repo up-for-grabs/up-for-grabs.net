@@ -1,9 +1,7 @@
-desc: The bridge between the words we speak and the code we write.
+---
 name: Legesher
+desc: The bridge between the words we speak and the code we write.
 site: https://github.com/legesher/legesher
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - html
 - css
@@ -11,5 +9,7 @@ tags:
 - python
 - javascript
 upforgrabs:
-  link: https://github.com/legesher/legesher/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/legesher/legesher/labels/good%20first%20issue
+stats:
+  issue-count: 0

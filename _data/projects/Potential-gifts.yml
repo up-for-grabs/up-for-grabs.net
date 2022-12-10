@@ -1,11 +1,9 @@
-desc: A MYSQL database for virtual gifts. It can be used as a model for games or even
-  for serious wishlist apps.
+---
 name: Potential gifts
+desc: >-
+  A MYSQL database for virtual gifts. It can be used as a model for games or even for serious wishlist
+  apps.
 site: https://github.com/bacloud14/potential_gifts
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2020-10-03T23:18:48Z'
 tags:
 - sql
 - mysql
@@ -13,5 +11,8 @@ tags:
 - assets
 - potential-gifts
 upforgrabs:
-  link: https://github.com/bacloud23/potential_gifts/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/bacloud23/potential_gifts/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2020-10-03T23:18:48Z'

@@ -1,10 +1,7 @@
-desc: Multiplayer browser based card game using a node backend server containing websocket
-  programming
+---
 name: Online Codenames
+desc: Multiplayer browser based card game using a node backend server containing websocket programming
 site: https://github.com/Kenford20/Kodo-Namaewas-Heroku
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - html
 - css
@@ -14,5 +11,7 @@ tags:
 - web
 - card-game
 upforgrabs:
-  link: https://github.com/Kenford20/Kodo-Namaewas-Heroku/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/Kenford20/Kodo-Namaewas-Heroku/labels/good%20first%20issue
+stats:
+  issue-count: 0

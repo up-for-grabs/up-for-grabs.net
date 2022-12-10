@@ -1,12 +1,10 @@
-desc: Scikit-learn is an open source machine learning library that supports supervised
-  and unsupervised learning.  It also provides various tools for model fitting, data
-  preprocessing, model selection and evaluation, and many other utilities.
+---
 name: Scikit-learn
+desc: >-
+  Scikit-learn is an open source machine learning library that supports supervised and unsupervised learning. 
+  It also provides various tools for model fitting, data preprocessing, model selection and evaluation,
+  and many other utilities.
 site: https://scikit-learn.org/
-stats:
-  fork-count: 0
-  issue-count: 10
-  last-updated: '2022-11-18T13:29:45Z'
 tags:
 - classification
 - regression
@@ -17,5 +15,8 @@ tags:
 - machine-learning
 - python
 upforgrabs:
-  link: https://github.com/scikit-learn/scikit-learn/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/scikit-learn/scikit-learn/labels/good%20first%20issue
+stats:
+  issue-count: 10
+  last-updated: '2022-11-18T13:29:45Z'

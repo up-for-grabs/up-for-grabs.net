@@ -1,17 +1,16 @@
-desc: The FSharp.Management project contains various type providers for the management
-  of the machine.
+---
 name: FSharp.Management
+desc: The FSharp.Management project contains various type providers for the management of the machine.
 site: https://github.com/fsprojects/FSharp.Management
-stats:
-  fork-count: 0
-  issue-count: 6
-  last-updated: '2022-04-25T21:53:37Z'
 tags:
-- .net
+- ".net"
 - f#
 - typeprovider
 - powershell
 - registry
 upforgrabs:
-  link: https://github.com/fsprojects/FSharp.Management/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/fsprojects/FSharp.Management/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2022-04-25T21:53:37Z'

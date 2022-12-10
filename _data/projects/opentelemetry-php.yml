@@ -1,13 +1,11 @@
-desc: PHP implementation of OpenTelemetry, a working name of a combined OpenCensus
-  and OpenTracing project. It provides a single set of APIs, libraries, agents, and
-  collector services to capture distributed traces and metrics from your application.
-  You can analyze them using Prometheus, Jaeger, and other observability tools.
+---
 name: opentelemetry-php
+desc: >-
+  PHP implementation of OpenTelemetry, a working name of a combined OpenCensus and OpenTracing project.
+  It provides a single set of APIs, libraries, agents, and collector services to capture distributed traces
+  and metrics from your application. You can analyze them using Prometheus, Jaeger, and other observability
+  tools.
 site: https://opentelemetry.io/
-stats:
-  fork-count: 0
-  issue-count: 15
-  last-updated: '2022-11-16T13:34:08Z'
 tags:
 - php
 - trace
@@ -23,5 +21,8 @@ tags:
 - jaeger
 - application-insights
 upforgrabs:
-  link: https://github.com/open-telemetry/opentelemetry-php/labels/help%20wanted
   name: help wanted
+  link: https://github.com/open-telemetry/opentelemetry-php/labels/help%20wanted
+stats:
+  issue-count: 15
+  last-updated: '2022-11-16T13:34:08Z'

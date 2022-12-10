@@ -1,12 +1,13 @@
-desc: Password manager that allows a user to have an almost infinite amount of passwords
-  while only using their main one.
+---
 name: MasterHash
+desc: >-
+  Password manager that allows a user to have an almost infinite amount of passwords while only using
+  their main one.
 site: https://github.com/MorrisB--/MasterHash
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - java
 upforgrabs:
-  link: https://github.com/MorrisB--/MasterHash/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/MorrisB--/MasterHash/labels/up-for-grabs
+stats:
+  issue-count: 0

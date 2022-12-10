@@ -1,15 +1,15 @@
-desc: A simple, Laravel-based school management platform
+---
 name: Academico
+desc: A simple, Laravel-based school management platform
 site: https://academico.site
-stats:
-  fork-count: 0
-  issue-count: 10
-  last-updated: '2022-10-22T04:46:29Z'
 tags:
 - laravel
 - php
 - lms
 - vuejs
 upforgrabs:
-  link: https://github.com/academico-sis/academico/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/academico-sis/academico/labels/up-for-grabs
+stats:
+  issue-count: 10
+  last-updated: '2022-10-22T04:46:29Z'

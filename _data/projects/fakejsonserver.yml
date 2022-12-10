@@ -1,21 +1,21 @@
-desc: Fake REST API for prototyping or as a CRUD Back End. No need to define types,
-  uses dynamic typing. Data is stored to a single JSON file. Has authentication, WebSocket
-  notifications, async long running operations, random generation for errors/delays
-  and experimental GraphQL support.
+---
 name: Fake JSON Server
+desc: >-
+  Fake REST API for prototyping or as a CRUD Back End. No need to define types, uses dynamic typing. Data
+  is stored to a single JSON file. Has authentication, WebSocket notifications, async long running operations,
+  random generation for errors/delays and experimental GraphQL support.
 site: https://github.com/ttu/dotnet-fake-json-server
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2018-10-18T05:34:43Z'
 tags:
 - c#
-- .net-core
+- ".net-core"
 - asp.net
 - asp.net-core
 - rest
 - graphql
 - web
 upforgrabs:
-  link: https://github.com/ttu/dotnet-fake-json-server/labels/help%20wanted
   name: help wanted
+  link: https://github.com/ttu/dotnet-fake-json-server/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2018-10-18T05:34:43Z'

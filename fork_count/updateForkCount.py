@@ -1,4 +1,4 @@
-import WebScrappingForkCount
+import WebScrapingForkCount
 import yaml
 import os
 
@@ -12,8 +12,11 @@ def updateForkCount(directory):
             data = yaml.load(f, Loader=yaml.FullLoader)
         # Try to update fork count if it exists
         try:
-            num = WebScrappingForkCount.scraping(data['upforgrabs']['link'])
+            num = WebScrapingForkCount.scraping(data['upforgrabs']['link'])
+            if (num == "-1"):
+                continue
             data['stats']['fork-count'] = num
+            print(num)
         # Otherwise try the next file
         except:
             continue

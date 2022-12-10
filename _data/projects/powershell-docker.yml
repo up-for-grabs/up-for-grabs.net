@@ -1,14 +1,14 @@
----
-name: PowerShell Docker Images
 desc: The docker images PowerShell releases, both official and community.
+name: PowerShell Docker Images
 site: https://github.com/powershell/powershell-docker
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2020-09-09T17:49:46Z'
 tags:
 - powershell
 - docker
 - oss
 upforgrabs:
-  name: Up-for-Grabs
   link: https://github.com/PowerShell/PowerShell-Docker/labels/Up-for-Grabs
-stats:
-  issue-count: 2
-  last-updated: '2020-09-09T17:49:46Z'
+  name: Up-for-Grabs

@@ -1,12 +1,12 @@
----
-name: bpython
 desc: A fancy interface to the Python interpreter
+name: bpython
 site: http://bpython-interpreter.org/
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-01-13T15:53:49Z'
 tags:
 - python
 upforgrabs:
-  name: bitesize
   link: https://github.com/bpython/bpython/labels/bitesize
-stats:
-  issue-count: 2
-  last-updated: '2022-01-13T15:53:49Z'
+  name: bitesize

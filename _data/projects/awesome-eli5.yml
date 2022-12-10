@@ -1,7 +1,10 @@
----
-name: awesome-eli5
 desc: "\U0001F476 Technical concepts explained in layman terms!"
+name: awesome-eli5
 site: https://github.com/swapagarwal/awesome-eli5
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2020-02-05T20:51:25Z'
 tags:
 - markdown
 - data
@@ -11,8 +14,5 @@ tags:
 - eli5
 - awesome
 upforgrabs:
-  name: good first issue
   link: https://github.com/swapagarwal/awesome-eli5/labels/good%20first%20issue
-stats:
-  issue-count: 1
-  last-updated: '2020-02-05T20:51:25Z'
+  name: good first issue

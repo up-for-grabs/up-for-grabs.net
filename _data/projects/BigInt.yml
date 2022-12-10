@@ -1,7 +1,10 @@
----
-name: BigInt
 desc: Arbitrary-sized integer class for C++
+name: BigInt
 site: https://github.com/faheel/BigInt
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2022-10-05T03:32:41Z'
 tags:
 - arbitrary-size
 - class
@@ -14,8 +17,5 @@ tags:
 - c++17
 - oss
 upforgrabs:
-  name: help wanted
   link: https://github.com/faheel/BigInt/labels/help%20wanted
-stats:
-  issue-count: 3
-  last-updated: '2022-10-05T03:32:41Z'
+  name: help wanted

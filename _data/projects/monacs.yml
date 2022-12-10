@@ -1,16 +1,16 @@
----
-name: Monacs
 desc: Collection of basic monads and functional extensions for C#
+name: Monacs
 site: https://monacslib.github.io/
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2018-06-18T08:03:50Z'
 tags:
 - c#
 - functional-programming
-- ".net"
+- .net
 - railway-oriented-programming
 - monad
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/MonacsLib/Monacs/labels/up-for-grabs
-stats:
-  issue-count: 2
-  last-updated: '2018-06-18T08:03:50Z'
+  name: up-for-grabs

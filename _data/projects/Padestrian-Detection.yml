@@ -1,13 +1,13 @@
----
-name: Padestrian-Detection
 desc: Padestrian Detection based on python and Opencv using HOG
+name: Padestrian-Detection
 site: https://github.com/Griffintaur/Padestrian-Detection
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-10-02T07:27:33Z'
 tags:
 - python
 - opencv
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/Griffintaur/Padestrian-Detection/labels/up-for-grabs
-stats:
-  issue-count: 1
-  last-updated: '2022-10-02T07:27:33Z'
+  name: up-for-grabs

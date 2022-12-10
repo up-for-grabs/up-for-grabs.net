@@ -1,9 +1,12 @@
----
-name: FluentMigrator
 desc: Fluent Migrations framework for .net
+name: FluentMigrator
 site: https://github.com/fluentmigrator/fluentmigrator
+stats:
+  fork-count: 0
+  issue-count: 6
+  last-updated: '2022-05-06T14:36:17Z'
 tags:
-- ".net"
+- .net
 - c#
 - mono
 - database
@@ -12,8 +15,5 @@ tags:
 - oracle
 - sqllite
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/fluentmigrator/fluentmigrator/labels/up-for-grabs
-stats:
-  issue-count: 6
-  last-updated: '2022-05-06T14:36:17Z'
+  name: up-for-grabs

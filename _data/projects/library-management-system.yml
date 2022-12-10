@@ -1,7 +1,10 @@
----
-name: Library Management System
 desc: An automated library management system developed in Laravel 4.2 PHP MVC Framework
+name: Library Management System
 site: https://github.com/prabhakar267/library-management-system
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-05-09T22:47:32Z'
 tags:
 - php
 - mysql
@@ -10,8 +13,5 @@ tags:
 - underscore-dot-js
 - jquery
 upforgrabs:
-  name: help wanted
   link: https://github.com/prabhakar267/library-management-system/labels/help%20wanted
-stats:
-  issue-count: 2
-  last-updated: '2022-05-09T22:47:32Z'
+  name: help wanted

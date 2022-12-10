@@ -1,7 +1,11 @@
----
+desc: A small C++ based commandline-tool which analyzes include statements in C/C++
+  code.
 name: Include Gardener
-desc: A small C++ based commandline-tool which analyzes include statements in C/C++ code.
 site: https://github.com/feddischson/include_gardener
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2020-01-09T09:29:38Z'
 tags:
 - c++
 - cpp
@@ -9,8 +13,5 @@ tags:
 - code-analysis
 - static-analysis
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/feddischson/include_gardener/labels/up-for-grabs
-stats:
-  issue-count: 2
-  last-updated: '2020-01-09T09:29:38Z'
+  name: up-for-grabs

@@ -1,15 +1,14 @@
----
+desc: SmallestDotNet.com is a single page site that does one thing. It tells you the
+  smallest, easiest download you'd need to get the .NET Framework on your system.
 name: SmallestDotNet
-desc: >-
-  SmallestDotNet.com is a single page site that does one thing. It tells you the smallest, easiest download
-  you'd need to get the .NET Framework on your system.
 site: https://github.com/shanselman/SmallestDotNet
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - javascript
 - c#
 - oss
 upforgrabs:
-  name: first-timers-only
   link: https://github.com/shanselman/SmallestDotNet/labels/first-timers-only
-stats:
-  issue-count: 0
+  name: first-timers-only

@@ -1,7 +1,10 @@
----
-name: Exiv2
 desc: Image metadata library and tools
+name: Exiv2
 site: https://github.com/Exiv2/exiv2
+stats:
+  fork-count: 0
+  issue-count: 8
+  last-updated: '2022-11-15T20:07:46Z'
 tags:
 - c++
 - c++11
@@ -12,8 +15,5 @@ tags:
 - xmp
 - cross-platform
 upforgrabs:
-  name: good first issue
   link: https://github.com/Exiv2/exiv2/labels/good%20first%20issue
-stats:
-  issue-count: 8
-  last-updated: '2022-11-15T20:07:46Z'
+  name: good first issue

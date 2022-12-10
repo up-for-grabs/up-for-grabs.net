@@ -1,14 +1,14 @@
----
-name: FancyShowCaseView
 desc: An easy-to-use customisable show case view with circular reveal animation.
+name: FancyShowCaseView
 site: https://github.com/faruktoptas/FancyShowCaseView
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - oss
 - android
 - libraries
 - java
 upforgrabs:
-  name: beginner
   link: https://github.com/faruktoptas/FancyShowCaseView/labels/beginner
-stats:
-  issue-count: 0
+  name: beginner

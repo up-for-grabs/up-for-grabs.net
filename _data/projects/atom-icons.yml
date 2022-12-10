@@ -1,7 +1,9 @@
----
-name: Atom Icons
 desc: Custom Atom Editor Icons
+name: Atom Icons
 site: https://github.com/HackeSta/atom-icons
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - atom
 - github
@@ -9,7 +11,5 @@ tags:
 - web
 - icons
 upforgrabs:
-  name: help wanted
   link: https://github.com/haideralipunjabi/atom-icons/labels/help%20wanted
-stats:
-  issue-count: 0
+  name: help wanted

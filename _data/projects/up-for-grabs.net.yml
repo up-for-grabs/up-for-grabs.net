@@ -1,15 +1,15 @@
----
-name: Up-For-Grabs.net
 desc: This site!
+name: Up-For-Grabs.net
 site: https://github.com/up-for-grabs/up-for-grabs.net
+stats:
+  fork-count: 0
+  issue-count: 16
+  last-updated: '2022-10-28T04:35:49Z'
 tags:
 - oss
 - web
 - jekyll
 - javascript
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/up-for-grabs/up-for-grabs.net/labels/up-for-grabs
-stats:
-  issue-count: 16
-  last-updated: '2022-10-28T04:35:49Z'
+  name: up-for-grabs

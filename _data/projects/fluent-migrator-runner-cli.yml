@@ -1,13 +1,13 @@
----
-name: FluentMigrator .NET CLI Runner
 desc: A .NET CLI runner for Fluent Migrator
+name: FluentMigrator .NET CLI Runner
 site: https://github.com/giggio/FluentMigrator.Runner.Cli
+stats:
+  fork-count: 0
+  issue-count: 8
+  last-updated: '2015-07-10T12:57:36Z'
 tags:
 - migration
 - dnx
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/giggio/FluentMigrator.Runner.Cli/labels/up-for-grabs
-stats:
-  issue-count: 8
-  last-updated: '2015-07-10T12:57:36Z'
+  name: up-for-grabs

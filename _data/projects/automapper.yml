@@ -1,12 +1,12 @@
----
-name: AutoMapper
 desc: A convention-based object-object mapper.
+name: AutoMapper
 site: https://github.com/AutoMapper/AutoMapper
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
-- ".net"
+- .net
 - conventions
 upforgrabs:
-  name: Up For Grabs
   link: https://github.com/AutoMapper/AutoMapper/labels/Up%20For%20Grabs
-stats:
-  issue-count: 0
+  name: Up For Grabs

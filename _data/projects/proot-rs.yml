@@ -1,7 +1,9 @@
----
-name: proot-rs
 desc: Rust implementation of PRoot, a ptrace-based sandbox
+name: proot-rs
 site: https://github.com/proot-me/proot-rs
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - rust
 - sandbox
@@ -17,7 +19,5 @@ tags:
 - rootless-containers
 - binfmt
 upforgrabs:
-  name: help wanted
   link: https://github.com/proot-me/proot-rs/labels/help%20wanted
-stats:
-  issue-count: 0
+  name: help wanted

@@ -1,9 +1,11 @@
----
+desc: A yearbook which records the precious memories of University students to add
+  their messages in their yearbook.
 name: Annual-Yearbook
-desc: >-
-  A yearbook which records the precious memories of University students to add their messages in their
-  yearbook.
 site: https://memories.ieeecsvitc.com
+stats:
+  fork-count: 0
+  issue-count: 5
+  last-updated: '2022-10-31T07:03:59Z'
 tags:
 - typescript
 - javascript
@@ -11,8 +13,5 @@ tags:
 - yearbook
 - hacktoberfest
 upforgrabs:
-  name: hacktoberfest
   link: https://github.com/ComputerSocietyVITC/Annual-Yearbook/labels/hacktoberfest
-stats:
-  issue-count: 5
-  last-updated: '2022-10-31T07:03:59Z'
+  name: hacktoberfest

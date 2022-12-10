@@ -1,7 +1,11 @@
----
+desc: An open source peer-to-peer poker platform with cryptocurrency integration written
+  in JavaScript.
 name: CypherPoker.JS
-desc: An open source peer-to-peer poker platform with cryptocurrency integration written in JavaScript.
 site: https://github.com/monicanagent/cypherpoker.js
+stats:
+  fork-count: 0
+  issue-count: 4
+  last-updated: '2019-08-23T18:59:00Z'
 tags:
 - javascript
 - open-source
@@ -24,8 +28,5 @@ tags:
 - smart
 - contract
 upforgrabs:
-  name: help wanted
   link: https://github.com/monicanagent/cypherpoker.js/labels/help%20wanted
-stats:
-  issue-count: 4
-  last-updated: '2019-08-23T18:59:00Z'
+  name: help wanted

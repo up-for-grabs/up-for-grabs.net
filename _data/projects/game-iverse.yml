@@ -1,13 +1,13 @@
----
-name: Game-iverse
 desc: A game library that supplies building blocks for games. (New project)
+name: Game-iverse
 site: https://github.com/wolffles/game-iverse
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2022-03-08T02:30:17Z'
 tags:
 - javascript
 - canvas-html5
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/wolffles/game-iverse/labels/up-for-grabs
-stats:
-  issue-count: 3
-  last-updated: '2022-03-08T02:30:17Z'
+  name: up-for-grabs

@@ -1,14 +1,14 @@
----
-name: FSharpRProvider
 desc: An F# Type Provider to interop with R
+name: FSharpRProvider
 site: https://github.com/fslaborg/RProvider
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - f#
-- ".net"
+- .net
 - r
 - type-provider
 upforgrabs:
-  name: good first issue
   link: https://github.com/fslaborg/RProvider/labels/good%20first%20issue
-stats:
-  issue-count: 0
+  name: good first issue

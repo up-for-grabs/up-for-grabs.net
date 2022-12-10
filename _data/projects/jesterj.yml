@@ -1,14 +1,14 @@
----
-name: JesterJ
 desc: Free Open Source Search focused Document Ingestion system.
+name: JesterJ
 site: http://www.jesterj.org/
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2019-04-02T19:38:05Z'
 tags:
 - search
 - etl
 - java
 upforgrabs:
-  name: up for grabs
   link: https://github.com/nsoft/jesterj/labels/up%20for%20grabs
-stats:
-  issue-count: 3
-  last-updated: '2019-04-02T19:38:05Z'
+  name: up for grabs

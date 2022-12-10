@@ -1,9 +1,12 @@
----
-name: Duality
 desc: A modular 2D game engine written entirely in C#
+name: Duality
 site: http://duality.adamslair.net/
+stats:
+  fork-count: 0
+  issue-count: 20
+  last-updated: '2020-05-16T08:15:16Z'
 tags:
-- ".net"
+- .net
 - mono
 - c#
 - opengl
@@ -15,8 +18,5 @@ tags:
 - editor
 - framework
 upforgrabs:
-  name: Help Wanted
   link: https://github.com/AdamsLair/duality/labels/Help%20Wanted
-stats:
-  issue-count: 20
-  last-updated: '2020-05-16T08:15:16Z'
+  name: Help Wanted

@@ -1,7 +1,10 @@
----
-name: sample-app-php
 desc: Dancing Goat sample site built with Kontent.ai and Laravel
+name: sample-app-php
 site: https://github.com/kontent-ai/sample-app-php
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-09-21T13:11:11Z'
 tags:
 - php
 - content-delivery
@@ -13,8 +16,5 @@ tags:
 - sample-application
 - caas
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/kontent-ai/sample-app-php/labels/up-for-grabs
-stats:
-  issue-count: 2
-  last-updated: '2022-09-21T13:11:11Z'
+  name: up-for-grabs

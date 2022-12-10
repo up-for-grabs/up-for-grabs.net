@@ -1,7 +1,10 @@
----
-name: in-toto
 desc: A software supply chain security framework
+name: in-toto
 site: https://in-toto.io/
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2022-11-10T18:31:17Z'
 tags:
 - python
 - security
@@ -9,8 +12,5 @@ tags:
 - continuous-integration
 - continuous-delivery
 upforgrabs:
-  name: Up for grabs
   link: https://github.com/in-toto/in-toto/labels/Up%20for%20grabs
-stats:
-  issue-count: 3
-  last-updated: '2022-11-10T18:31:17Z'
+  name: Up for grabs

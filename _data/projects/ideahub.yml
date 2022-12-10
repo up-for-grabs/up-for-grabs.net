@@ -1,7 +1,11 @@
----
+desc: "A collection of ideas and projects that contain from beginner to advance :octocat:\
+  \ \U0001F3AF\U0001F680"
 name: IdeaHub
-desc: "A collection of ideas and projects that contain from beginner to advance :octocat: \U0001F3AF\U0001F680"
 site: https://github.com/MakeContributions/ideahub
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-11-08T00:41:49Z'
 tags:
 - hub
 - ideas
@@ -9,8 +13,5 @@ tags:
 - vuejs
 - javascript
 upforgrabs:
-  name: help wanted
   link: https://github.com/MakeContributions/ideahub/labels/help%20wanted
-stats:
-  issue-count: 1
-  last-updated: '2022-11-08T00:41:49Z'
+  name: help wanted

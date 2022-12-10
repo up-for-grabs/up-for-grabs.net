@@ -1,14 +1,14 @@
----
-name: Chocolatey CLI
 desc: Chocolatey - like yum or apt-get, but for Windows
+name: Chocolatey CLI
 site: https://github.com/chocolatey/choco
+stats:
+  fork-count: 0
+  issue-count: 99
+  last-updated: '2022-11-11T16:52:03Z'
 tags:
 - chocolatey
 - c#
-- ".net"
+- .net
 upforgrabs:
-  name: Up For Grabs
   link: https://github.com/chocolatey/choco/labels/Up%20For%20Grabs
-stats:
-  issue-count: 99
-  last-updated: '2022-11-11T16:52:03Z'
+  name: Up For Grabs

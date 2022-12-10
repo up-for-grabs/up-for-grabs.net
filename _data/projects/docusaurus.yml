@@ -1,9 +1,11 @@
----
+desc: (Facebook Open Source) Easy to maintain open source documentation websites that
+  powers website of React Native, Prettier, WarriorJS and Jest
 name: Docusaurus
-desc: >-
-  (Facebook Open Source) Easy to maintain open source documentation websites that powers website of React
-  Native, Prettier, WarriorJS and Jest
 site: https://docusaurus.io
+stats:
+  fork-count: 0
+  issue-count: 8
+  last-updated: '2022-11-17T14:17:18Z'
 tags:
 - javascript
 - libraries
@@ -13,8 +15,5 @@ tags:
 - static-website-generator
 - facebook
 upforgrabs:
-  name: good first issue
   link: https://github.com/facebook/docusaurus/labels/good%20first%20issue
-stats:
-  issue-count: 8
-  last-updated: '2022-11-17T14:17:18Z'
+  name: good first issue

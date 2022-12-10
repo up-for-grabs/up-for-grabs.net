@@ -1,13 +1,13 @@
----
-name: Cobalt - JVM Programming Language
 desc: A new proposed JVM language
+name: Cobalt - JVM Programming Language
 site: https://github.com/Michael2109/Cobalt
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - scala
 - java
 - compiler
 upforgrabs:
-  name: help wanted
   link: https://github.com/Michael2109/cobalt/labels/help%20wanted
-stats:
-  issue-count: 0
+  name: help wanted

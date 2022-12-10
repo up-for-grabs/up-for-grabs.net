@@ -1,7 +1,10 @@
----
-name: Carto
 desc: A front end design for shopping cart website
+name: Carto
 site: https://github.com/JS-Knights/Carto/
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2022-10-08T17:47:02Z'
 tags:
 - html
 - html5
@@ -13,8 +16,5 @@ tags:
 - jquery
 - ajax
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/JS-Knights/Carto/labels/up-for-grabs
-stats:
-  issue-count: 3
-  last-updated: '2022-10-08T17:47:02Z'
+  name: up-for-grabs

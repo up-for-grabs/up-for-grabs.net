@@ -1,14 +1,14 @@
----
-name: League\CommonMark
 desc: Markdown parser for PHP based on the CommonMark spec
+name: League\CommonMark
 site: https://github.com/thephpleague/commonmark
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2021-11-07T17:31:11Z'
 tags:
 - php
 - commonmark
 - markdown
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/thephpleague/commonmark/labels/up-for-grabs
-stats:
-  issue-count: 1
-  last-updated: '2021-11-07T17:31:11Z'
+  name: up-for-grabs

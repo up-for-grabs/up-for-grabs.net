@@ -1,7 +1,10 @@
----
-name: etro
 desc: A typescript video-editing framework for the browser and Node
+name: etro
 site: https://etrojs.dev/
+stats:
+  fork-count: 0
+  issue-count: 14
+  last-updated: '2022-10-23T13:47:32Z'
 tags:
 - javascript
 - vanilla-javascript
@@ -9,8 +12,5 @@ tags:
 - video-editing
 - automation
 upforgrabs:
-  name: help wanted
   link: https://github.com/etro-js/etro/labels/help%20wanted
-stats:
-  issue-count: 14
-  last-updated: '2022-10-23T13:47:32Z'
+  name: help wanted

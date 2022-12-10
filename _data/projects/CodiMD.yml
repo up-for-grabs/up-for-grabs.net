@@ -1,7 +1,10 @@
----
-name: CodiMD
 desc: Realtime collaborative markdown notes
+name: CodiMD
 site: https://github.com/codimd/server
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-05-24T21:20:28Z'
 tags:
 - collaboration
 - markdown
@@ -13,8 +16,5 @@ tags:
 - html
 - javascript
 upforgrabs:
-  name: good first issue
   link: https://github.com/hedgedoc/hedgedoc/labels/good%20first%20issue
-stats:
-  issue-count: 2
-  last-updated: '2022-05-24T21:20:28Z'
+  name: good first issue

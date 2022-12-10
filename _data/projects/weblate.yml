@@ -1,7 +1,10 @@
----
-name: Weblate
 desc: Web based translation tool with tight version control integration.
+name: Weblate
 site: https://weblate.org/
+stats:
+  fork-count: 0
+  issue-count: 53
+  last-updated: '2022-11-16T08:47:07Z'
 tags:
 - javascript
 - web
@@ -13,8 +16,5 @@ tags:
 - git
 - vcs
 upforgrabs:
-  name: good first issue
   link: https://github.com/WeblateOrg/weblate/labels/good%20first%20issue
-stats:
-  issue-count: 53
-  last-updated: '2022-11-16T08:47:07Z'
+  name: good first issue

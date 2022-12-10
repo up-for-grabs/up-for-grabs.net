@@ -1,13 +1,13 @@
----
-name: elmish-react
 desc: Elmish React extensions for writing SPA and Native apps
+name: elmish-react
 site: https://github.com/elmish/react
-tags:
-- f#
-- ".net"
-upforgrabs:
-  name: help wanted
-  link: https://github.com/elmish/react/labels/help%20wanted
 stats:
+  fork-count: 0
   issue-count: 2
   last-updated: '2021-06-09T07:23:02Z'
+tags:
+- f#
+- .net
+upforgrabs:
+  link: https://github.com/elmish/react/labels/help%20wanted
+  name: help wanted

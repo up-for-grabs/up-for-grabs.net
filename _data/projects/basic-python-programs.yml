@@ -1,7 +1,10 @@
----
-name: Basic-Python-Programs
 desc: This repository contains basic python programming questions and their solutions.
+name: Basic-Python-Programs
 site: https://github.com/souravjain540/Basic-Python-Programs
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-11-15T19:52:36Z'
 tags:
 - python
 - hacktoberfest
@@ -9,8 +12,5 @@ tags:
 - good-first-pr
 - good-first-project
 upforgrabs:
-  name: good first issue
   link: https://github.com/souravjain540/Basic-Python-Programs/labels/good%20first%20issue
-stats:
-  issue-count: 1
-  last-updated: '2022-11-15T19:52:36Z'
+  name: good first issue

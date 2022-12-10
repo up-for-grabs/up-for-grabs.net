@@ -1,7 +1,11 @@
----
+desc: A text-based, persistent browser-based strategy game (PBBG) in a fantasy war
+  setting
 name: OpenDominion
-desc: A text-based, persistent browser-based strategy game (PBBG) in a fantasy war setting
 site: https://opendominion.net
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2021-01-26T23:39:05Z'
 tags:
 - php
 - laravel
@@ -10,8 +14,5 @@ tags:
 - browser-game
 - pbbg
 upforgrabs:
-  name: good first issue
   link: https://github.com/OpenDominion/OpenDominion/labels/good%20first%20issue
-stats:
-  issue-count: 3
-  last-updated: '2021-01-26T23:39:05Z'
+  name: good first issue

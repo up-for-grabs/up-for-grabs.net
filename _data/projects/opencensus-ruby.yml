@@ -1,11 +1,13 @@
----
+desc: A statistics collection and distributed tracing framework. Ruby implementation
+  of OpenCensus, a toolkit for collecting application performance and behavior monitoring
+  data. It allows to automatically collect incoming and outgoing calls information
+  from various frameworks and export this information to backend of your choice.
 name: opencensus-ruby
-desc: >-
-  A statistics collection and distributed tracing framework. Ruby implementation of OpenCensus, a toolkit
-  for collecting application performance and behavior monitoring data. It allows to automatically collect
-  incoming and outgoing calls information from various frameworks and export this information to backend
-  of your choice.
 site: https://opencensus.io
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2019-03-15T08:01:32Z'
 tags:
 - trace
 - ruby
@@ -23,8 +25,5 @@ tags:
 - signalfx
 - application-insights
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/census-instrumentation/opencensus-ruby/labels/up-for-grabs
-stats:
-  issue-count: 3
-  last-updated: '2019-03-15T08:01:32Z'
+  name: up-for-grabs

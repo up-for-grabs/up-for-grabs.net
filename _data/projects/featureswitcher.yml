@@ -1,13 +1,13 @@
----
-name: FeatureSwitcher
 desc: FeatureSwitcher is little library for feature switches/toggles.
+name: FeatureSwitcher
 site: https://github.com/mexx/FeatureSwitcher
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - feature
 - toggle
-- ".net"
+- .net
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/mexx/FeatureSwitcher/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

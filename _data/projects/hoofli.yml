@@ -1,13 +1,13 @@
----
-name: hoofli
 desc: Generate PlantUML diagrams from Chrome or Firefox network inspections
+name: hoofli
 site: https://github.com/dnnrly/hoofli
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-10-23T14:53:00Z'
 tags:
 - go
 - cli
 upforgrabs:
-  name: help wanted
   link: https://github.com/dnnrly/hoofli/labels/help%20wanted
-stats:
-  issue-count: 1
-  last-updated: '2022-10-23T14:53:00Z'
+  name: help wanted

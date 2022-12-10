@@ -1,14 +1,14 @@
----
-name: po4a
 desc: Maintain the translations of your documentation with ease (PO for anything)
+name: po4a
 site: https://po4a.org/
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2018-10-03T23:21:32Z'
 tags:
 - perl
 - localization
 - internationalization
 upforgrabs:
-  name: beginner friendly
   link: https://github.com/mquinson/po4a/labels/beginner%20friendly
-stats:
-  issue-count: 2
-  last-updated: '2018-10-03T23:21:32Z'
+  name: beginner friendly

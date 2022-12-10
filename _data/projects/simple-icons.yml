@@ -1,7 +1,10 @@
----
-name: Simple Icons
 desc: Free SVG icons for popular brands.
+name: Simple Icons
 site: https://simpleicons.org/
+stats:
+  fork-count: 0
+  issue-count: 27
+  last-updated: '2022-10-15T12:21:19Z'
 tags:
 - brands
 - icons
@@ -9,8 +12,5 @@ tags:
 - svg
 - brand-colors
 upforgrabs:
-  name: good first issue
   link: https://github.com/simple-icons/simple-icons/labels/good%20first%20issue
-stats:
-  issue-count: 27
-  last-updated: '2022-10-15T12:21:19Z'
+  name: good first issue

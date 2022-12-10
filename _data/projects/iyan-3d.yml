@@ -1,7 +1,9 @@
----
-name: Iyan 3D
 desc: 3D animation app for iOS & Android
+name: Iyan 3D
 site: https://github.com/codetiger/Iyan3d
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - 3d
 - animation
@@ -14,7 +16,5 @@ tags:
 - rendering
 - physics
 upforgrabs:
-  name: up for grabs
   link: https://github.com/codetiger/Iyan3d/labels/up%20for%20grabs
-stats:
-  issue-count: 0
+  name: up for grabs

@@ -1,16 +1,16 @@
----
-name: SabreCSG
 desc: Level design tools for Unity
+name: SabreCSG
 site: https://github.com/sabresaurus/SabreCSG
+stats:
+  fork-count: 0
+  issue-count: 4
+  last-updated: '2019-01-14T08:00:48Z'
 tags:
 - csg
 - bsp
 - unity
-- ".net"
+- .net
 - c#
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/sabresaurus/SabreCSG/labels/up-for-grabs
-stats:
-  issue-count: 4
-  last-updated: '2019-01-14T08:00:48Z'
+  name: up-for-grabs

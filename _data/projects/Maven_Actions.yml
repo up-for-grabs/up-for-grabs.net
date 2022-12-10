@@ -1,7 +1,10 @@
----
-name: Maven_Actions
 desc: Build automation on GitHub VCS using Apache Maven on GitHub Actions Docker container.
+name: Maven_Actions
 site: https://github.com/NishkarshRaj/Maven_Actions
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2020-10-14T12:26:10Z'
 tags:
 - maven
 - java
@@ -10,8 +13,5 @@ tags:
 - githubactions
 - automation
 upforgrabs:
-  name: Up-for-Grabs
   link: https://github.com/NishkarshRaj/Maven_Actions/labels/Up-for-Grabs
-stats:
-  issue-count: 2
-  last-updated: '2020-10-14T12:26:10Z'
+  name: Up-for-Grabs

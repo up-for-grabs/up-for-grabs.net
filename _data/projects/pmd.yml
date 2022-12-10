@@ -1,7 +1,10 @@
----
-name: PMD
 desc: An extensible cross-language static code analyzer.
+name: PMD
 site: https://pmd.github.io
+stats:
+  fork-count: 0
+  issue-count: 4
+  last-updated: '2022-11-03T18:48:03Z'
 tags:
 - code-analysis
 - code-quality
@@ -12,8 +15,5 @@ tags:
 - apex
 - plsql
 upforgrabs:
-  name: good first issue
   link: https://github.com/pmd/pmd/labels/good%20first%20issue
-stats:
-  issue-count: 4
-  last-updated: '2022-11-03T18:48:03Z'
+  name: good first issue

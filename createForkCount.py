@@ -9,17 +9,15 @@ def createForkCount(directory):
     # Loop through the files
     for file in files:
         # Open the file and do something with its contents
-        with open(os.path.join(directory, file), "r") as file:
-            data = yaml.load(file, Loader=yaml.FullLoader)
+        with open(os.path.join(directory, file), "r") as f:
+            data = yaml.load(f, Loader=yaml.FullLoader)
             # Add a new row to the field
         try:
             data['stats']['fork-count'] = 0
-            with open(os.path.join(directory, file), "w") as file:
-                yaml.dump(data, file)
         except:
             continue
+        with open(os.path.join(directory, file), "w") as file:
+            yaml.dump(data, file)
   
-    
-
 
 createForkCount("_data/projects")

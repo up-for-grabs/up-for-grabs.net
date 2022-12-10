@@ -1,16 +1,16 @@
----
-name: Elmish Templates
 desc: Templates to act as starter projects for working with Elmish
+name: Elmish Templates
 site: https://github.com/elmish/templates
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2020-03-17T13:52:46Z'
 tags:
 - f#
 - javascript
 - elmish
 - templates
-- ".net"
+- .net
 upforgrabs:
-  name: help wanted
   link: https://github.com/elmish/templates/labels/help%20wanted
-stats:
-  issue-count: 1
-  last-updated: '2020-03-17T13:52:46Z'
+  name: help wanted

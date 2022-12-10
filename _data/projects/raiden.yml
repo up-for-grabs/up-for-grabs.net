@@ -1,7 +1,11 @@
----
+desc: A proposed extension to Ethereum which scales-out asset transfer capacity in
+  the network.
 name: Raiden Network
-desc: A proposed extension to Ethereum which scales-out asset transfer capacity in the network.
 site: https://github.com/raiden-network/raiden/
+stats:
+  fork-count: 0
+  issue-count: 14
+  last-updated: '2022-04-07T11:53:17Z'
 tags:
 - blockchain
 - ethereum
@@ -9,8 +13,5 @@ tags:
 - microtransactions
 - state-channels
 upforgrabs:
-  name: Tag / Good First Issue
   link: https://github.com/raiden-network/raiden/labels/Tag%20%2F%20Good%20First%20Issue
-stats:
-  issue-count: 14
-  last-updated: '2022-04-07T11:53:17Z'
+  name: Tag / Good First Issue

@@ -1,7 +1,10 @@
----
-name: MyHome-Web application
 desc: App which helps people manage their apartment
+name: MyHome-Web application
 site: https://github.com/jmprathab/MyHome-Web
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-10-22T21:53:54Z'
 tags:
 - reactjs
 - web
@@ -9,8 +12,5 @@ tags:
 - jsx
 - css
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/jmprathab/MyHome-Web/labels/up-for-grabs
-stats:
-  issue-count: 1
-  last-updated: '2022-10-22T21:53:54Z'
+  name: up-for-grabs

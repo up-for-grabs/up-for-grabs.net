@@ -1,7 +1,10 @@
----
-name: UserFrosting
 desc: A secure, modern PHP user management application and framework.
+name: UserFrosting
 site: https://github.com/userfrosting/UserFrosting
+stats:
+  fork-count: 0
+  issue-count: 35
+  last-updated: '2022-09-14T21:17:47Z'
 tags:
 - web-framework
 - user-management
@@ -12,8 +15,5 @@ tags:
 - slimphp
 - twig
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/userfrosting/UserFrosting/labels/up-for-grabs
-stats:
-  issue-count: 35
-  last-updated: '2022-09-14T21:17:47Z'
+  name: up-for-grabs

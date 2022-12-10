@@ -1,15 +1,15 @@
----
-name: Flappy SVG
 desc: A Flappy Bird game based on Support Vector Grafics
+name: Flappy SVG
 site: https://fossasia.github.io/flappy-svg/
+stats:
+  fork-count: 0
+  issue-count: 4
+  last-updated: '2021-12-08T23:24:26Z'
 tags:
 - javascript
 - web
 - svg
 - game
 upforgrabs:
-  name: easy
   link: https://github.com/fossasia/flappy-svg/labels/easy
-stats:
-  issue-count: 4
-  last-updated: '2021-12-08T23:24:26Z'
+  name: easy

@@ -1,9 +1,12 @@
----
+desc: pretix is a conference ticket web shop that was started for MRMCD, a German
+  non-profit IT conference, and aims to be a very flexible and configurable ticket
+  setting solution.
 name: pretix
-desc: >-
-  pretix is a conference ticket web shop that was started for MRMCD, a German non-profit IT conference,
-  and aims to be a very flexible and configurable ticket setting solution.
 site: https://github.com/pretix/pretix
+stats:
+  fork-count: 0
+  issue-count: 1
+  last-updated: '2022-10-07T14:26:57Z'
 tags:
 - oss
 - web
@@ -11,8 +14,5 @@ tags:
 - django
 - javascript
 upforgrabs:
-  name: easy
   link: https://github.com/pretix/pretix/labels/easy
-stats:
-  issue-count: 1
-  last-updated: '2022-10-07T14:26:57Z'
+  name: easy

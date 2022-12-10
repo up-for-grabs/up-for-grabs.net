@@ -1,7 +1,10 @@
----
-name: Node Efficientnet
 desc: EfficientNet - image recognition model for node js
+name: Node Efficientnet
 site: https://github.com/ntedgi/node-efficientnet
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2022-10-17T04:41:17Z'
 tags:
 - typescript
 - javascript
@@ -14,8 +17,5 @@ tags:
 - image-recognition
 - efficientnet
 upforgrabs:
-  name: first-timers-only
   link: https://github.com/ntedgi/node-efficientnet/labels/first-timers-only
-stats:
-  issue-count: 3
-  last-updated: '2022-10-17T04:41:17Z'
+  name: first-timers-only

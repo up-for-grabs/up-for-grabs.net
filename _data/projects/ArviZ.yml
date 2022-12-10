@@ -1,7 +1,10 @@
----
-name: ArviZ
 desc: Exploratory analysis of Bayesian models with Python
+name: ArviZ
 site: https://github.com/arviz-devs/arviz
+stats:
+  fork-count: 0
+  issue-count: 5
+  last-updated: '2022-11-08T20:29:36Z'
 tags:
 - python
 - stats
@@ -11,8 +14,5 @@ tags:
 - bokeh
 - visualization
 upforgrabs:
-  name: Beginner
   link: https://github.com/arviz-devs/arviz/labels/Beginner
-stats:
-  issue-count: 5
-  last-updated: '2022-11-08T20:29:36Z'
+  name: Beginner

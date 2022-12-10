@@ -1,7 +1,10 @@
----
-name: ERAM
 desc: An open source RAM Disk driver
+name: ERAM
 site: https://github.com/Zero3K/ERAM
+stats:
+  fork-count: 0
+  issue-count: 3
+  last-updated: '2022-09-30T22:27:19Z'
 tags:
 - ramdisk
 - ram
@@ -12,8 +15,5 @@ tags:
 - files
 - c
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/Zero3K/ERAM/labels/up-for-grabs
-stats:
-  issue-count: 3
-  last-updated: '2022-09-30T22:27:19Z'
+  name: up-for-grabs

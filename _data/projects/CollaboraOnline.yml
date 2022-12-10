@@ -1,7 +1,10 @@
----
-name: Collabora Online
 desc: A collaborative online office suite based on LibreOffice technology
+name: Collabora Online
 site: https://collaboraonline.com
+stats:
+  fork-count: 0
+  issue-count: 25
+  last-updated: '2022-11-17T22:21:52Z'
 tags:
 - javascript
 - typescript
@@ -17,8 +20,5 @@ tags:
 - office
 - documents
 upforgrabs:
-  name: Easy Hack
   link: https://github.com/CollaboraOnline/online/labels/Easy%20Hack
-stats:
-  issue-count: 25
-  last-updated: '2022-11-17T22:21:52Z'
+  name: Easy Hack

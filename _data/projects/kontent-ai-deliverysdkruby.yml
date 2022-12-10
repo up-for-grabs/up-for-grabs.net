@@ -1,7 +1,9 @@
----
-name: delivery-sdk-ruby
 desc: Kontent.ai Ruby SDK for delivery API
+name: delivery-sdk-ruby
 site: https://github.com/kontent-ai/delivery-sdk-ruby/
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - ruby
 - sdk
@@ -11,7 +13,5 @@ tags:
 - headless-cms
 - caas
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/kontent-ai/delivery-sdk-ruby/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

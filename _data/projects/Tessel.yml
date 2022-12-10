@@ -1,10 +1,13 @@
----
+desc: The Tessel Project's mission is to create a fully open source hardware & software
+  platform that makes it easy and intuitive to develop Internet-connected devices.
+  Decisions are steered by open governance, an inclusive community, and the goal of
+  creating freely-licensed designs and tools.
 name: Tessel Project
-desc: >-
-  The Tessel Project's mission is to create a fully open source hardware & software platform that makes
-  it easy and intuitive to develop Internet-connected devices. Decisions are steered by open governance,
-  an inclusive community, and the goal of creating freely-licensed designs and tools.
 site: https://github.com/tessel/project
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2021-01-28T22:04:28Z'
 tags:
 - tessel
 - johnny-five
@@ -25,8 +28,5 @@ tags:
 - website
 - open-governance
 upforgrabs:
-  name: contribution-starter
   link: https://github.com/tessel/project/labels/contribution-starter
-stats:
-  issue-count: 2
-  last-updated: '2021-01-28T22:04:28Z'
+  name: contribution-starter

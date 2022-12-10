@@ -1,13 +1,13 @@
----
-name: Super Market Management
 desc: Easy C/C++ application to understand the object oriented concepts.
+name: Super Market Management
 site: https://github.com/jayskhatri/Super-Market-Management
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - c
 - c++
 - super-market-management
 upforgrabs:
-  name: help wanted
   link: https://github.com/jayskhatri/Super-Market-Management/labels/help%20wanted
-stats:
-  issue-count: 0
+  name: help wanted

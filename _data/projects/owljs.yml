@@ -1,14 +1,14 @@
----
-name: owljs
 desc: Backbone-like front-end MVC library without underscore.js and jQuery dependency
+name: owljs
 site: http://owljs.org/
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - javascript
 - web
 - mvc
 - rest
 upforgrabs:
-  name: up for grabs
   link: https://github.com/owljsorg/owljs/labels/up%20for%20grabs
-stats:
-  issue-count: 0
+  name: up for grabs

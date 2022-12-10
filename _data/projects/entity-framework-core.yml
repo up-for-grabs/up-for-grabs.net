@@ -1,9 +1,11 @@
----
+desc: Entity Framework Core is a lightweight and extensible version of the popular
+  Entity Framework data access technology.
 name: Entity Framework Core
-desc: >-
-  Entity Framework Core is a lightweight and extensible version of the popular Entity Framework data access
-  technology.
 site: https://github.com/aspnet/EntityFrameworkCore
+stats:
+  fork-count: 0
+  issue-count: 46
+  last-updated: '2022-11-17T02:50:46Z'
 tags:
 - microsoft
 - ef
@@ -13,8 +15,5 @@ tags:
 - ado.net
 - entity-framework
 upforgrabs:
-  name: good first issue
   link: https://github.com/dotnet/efcore/labels/good%20first%20issue
-stats:
-  issue-count: 46
-  last-updated: '2022-11-17T02:50:46Z'
+  name: good first issue

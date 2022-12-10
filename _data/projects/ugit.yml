@@ -1,7 +1,11 @@
----
+desc: ugit helps undo git commands. Your damage control git buddy. Undo from 19+ git
+  scenarios.
 name: ugit
-desc: ugit helps undo git commands. Your damage control git buddy. Undo from 19+ git scenarios.
 site: https://bhupesh.me/undo-your-last-git-mistake-with-ugit/
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-11-04T09:02:30Z'
 tags:
 - bash
 - git
@@ -9,8 +13,5 @@ tags:
 - cli-app
 - command-line
 upforgrabs:
-  name: up for grabs
   link: https://github.com/Bhupesh-V/ugit/labels/up%20for%20grabs
-stats:
-  issue-count: 2
-  last-updated: '2022-11-04T09:02:30Z'
+  name: up for grabs

@@ -1,15 +1,16 @@
----
+desc: Open Standard for Metadata. A Single place to Discover, Collaborate and Get
+  your data right.
 name: OpenMetadata
-desc: Open Standard for Metadata. A Single place to Discover, Collaborate and Get your data right.
 site: https://open-metadata.org/
+stats:
+  fork-count: 0
+  issue-count: 18
+  last-updated: '2022-11-10T13:42:38Z'
 tags:
 - python
 - typescript
 - java
 - docker
 upforgrabs:
-  name: good-first-issue
   link: https://github.com/open-metadata/OpenMetadata/labels/good-first-issue
-stats:
-  issue-count: 18
-  last-updated: '2022-11-10T13:42:38Z'
+  name: good-first-issue

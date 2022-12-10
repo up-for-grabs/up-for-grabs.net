@@ -1,8 +1,11 @@
----
+desc: Free online queue manager for easy and instant crowd control. [Contributing
+  Guidelines](https://github.com/SimplQ/simplQ-frontend#contributing)
 name: SimplQ
-desc: >-
-  Free online queue manager for easy and instant crowd control. [Contributing Guidelines](https://github.com/SimplQ/simplQ-frontend#contributing)
 site: https://simplq.me/
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-10-11T04:20:54Z'
 tags:
 - java
 - javascript
@@ -12,8 +15,5 @@ tags:
 - oss
 - web
 upforgrabs:
-  name: You Can Do This
   link: https://github.com/SimplQ/simplQ-frontend/labels/You%20Can%20Do%20This
-stats:
-  issue-count: 2
-  last-updated: '2022-10-11T04:20:54Z'
+  name: You Can Do This

@@ -1,15 +1,15 @@
----
-name: Mellium
 desc: An implementation of XMPP (Jabber) in Go.
+name: Mellium
 site: https://mellium.im
+stats:
+  fork-count: 0
+  issue-count: 13
+  last-updated: '2022-06-05T13:08:55Z'
 tags:
 - go
 - jabber
 - xmpp
 - im
 upforgrabs:
-  name: good first issue
   link: https://codeberg.org/mellium/xmpp/issues?labels=57316
-stats:
-  issue-count: 13
-  last-updated: '2022-06-05T13:08:55Z'
+  name: good first issue

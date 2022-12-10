@@ -1,14 +1,14 @@
----
-name: roadtaxTracker
 desc: CRUD operation for a fleet of vehicle in Singapore to ease roadtax renewal
+name: roadtaxTracker
 site: https://github.com/Stewart86/roadtaxTracker
+stats:
+  fork-count: 0
+  issue-count: 4
+  last-updated: '2021-11-24T07:46:01Z'
 tags:
 - python
 - tkinter
 - beginner
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/Stewart86/roadtaxTracker/labels/up-for-grabs
-stats:
-  issue-count: 4
-  last-updated: '2021-11-24T07:46:01Z'
+  name: up-for-grabs

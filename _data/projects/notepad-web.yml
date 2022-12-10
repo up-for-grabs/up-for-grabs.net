@@ -1,13 +1,13 @@
----
-name: Notepad
 desc: Windows notepad in web with additional features!
+name: Notepad
 site: https://rahif.me/Notepad
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - reactjs
 - typescript
 - web
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/Muhammed-Rahif/Notepad/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

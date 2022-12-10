@@ -1,15 +1,15 @@
----
-name: OrigoDB Core
 desc: In-memory database for .NET
+name: OrigoDB Core
 site: http://origodb.com
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2015-06-13T07:36:27Z'
 tags:
-- ".net"
+- .net
 - in-memory
 - database
 - c#
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/DevrexLabs/OrigoDB/labels/up-for-grabs
-stats:
-  issue-count: 2
-  last-updated: '2015-06-13T07:36:27Z'
+  name: up-for-grabs

@@ -1,7 +1,10 @@
----
-name: Godot Engine
 desc: Multi-platform 2D and 3D game engine
+name: Godot Engine
 site: https://godotengine.org
+stats:
+  fork-count: 0
+  issue-count: 25
+  last-updated: '2022-11-18T06:47:52Z'
 tags:
 - c++
 - cross-platform
@@ -10,8 +13,5 @@ tags:
 - 2d
 - 3d
 upforgrabs:
-  name: good first issue
   link: https://github.com/godotengine/godot/labels/good%20first%20issue
-stats:
-  issue-count: 25
-  last-updated: '2022-11-18T06:47:52Z'
+  name: good first issue

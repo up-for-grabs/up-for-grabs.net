@@ -1,9 +1,11 @@
----
+desc: The very popular (10M downloads!) assertions framework that allows you to more
+  naturally specify the expected outcome of TDD or BDD-style unit tests.
 name: FluentAssertions
-desc: >-
-  The very popular (10M downloads!) assertions framework that allows you to more naturally specify the
-  expected outcome of TDD or BDD-style unit tests.
 site: https://fluentassertions.com/
+stats:
+  fork-count: 0
+  issue-count: 20
+  last-updated: '2022-11-10T11:43:15Z'
 tags:
 - unit-testing
 - tdd
@@ -14,8 +16,5 @@ tags:
 - assertions
 - c-sharp
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/fluentassertions/fluentassertions/labels/up-for-grabs
-stats:
-  issue-count: 20
-  last-updated: '2022-11-10T11:43:15Z'
+  name: up-for-grabs

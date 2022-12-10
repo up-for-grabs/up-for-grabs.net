@@ -1,13 +1,13 @@
----
-name: AgoraKube
 desc: Kubernetes Ansible Based Distribution
+name: AgoraKube
 site: https://github.com/ilkilab/agorakube
+stats:
+  fork-count: 0
+  issue-count: 0
 tags:
 - containers
 - ansible
 - kubernetes
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/ilkilab/agorakube/labels/up-for-grabs
-stats:
-  issue-count: 0
+  name: up-for-grabs

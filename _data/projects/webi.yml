@@ -1,7 +1,10 @@
----
-name: Webi
 desc: Effortlessly install modern developer tools with easy-to-remember URLs.
+name: Webi
 site: https://webinstall.dev
+stats:
+  fork-count: 0
+  issue-count: 25
+  last-updated: '2022-11-05T18:43:01Z'
 tags:
 - javascript
 - node.js
@@ -16,8 +19,5 @@ tags:
 - windows
 - raspberrypi
 upforgrabs:
-  name: up-for-grabs
   link: https://github.com/webinstall/webi-installers/labels/up-for-grabs
-stats:
-  issue-count: 25
-  last-updated: '2022-11-05T18:43:01Z'
+  name: up-for-grabs

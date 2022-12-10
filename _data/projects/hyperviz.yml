@@ -1,15 +1,15 @@
----
-name: HyperViz
 desc: Analysing hyper-parameters made easy.
+name: HyperViz
 site: https://github.com/F1nnM/HyperViz
+stats:
+  fork-count: 0
+  issue-count: 2
+  last-updated: '2022-10-14T11:12:12Z'
 tags:
 - python
 - streamlit
 - web
 - machine-learning
 upforgrabs:
-  name: good first issue
   link: https://github.com/F1nnM/HyperViz/labels/good%20first%20issue
-stats:
-  issue-count: 2
-  last-updated: '2022-10-14T11:12:12Z'
+  name: good first issue

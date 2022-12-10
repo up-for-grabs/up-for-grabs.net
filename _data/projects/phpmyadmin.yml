@@ -1,15 +1,15 @@
-desc: phpMyAdmin Bringing MySQL to the web
+---
 name: phpMyAdmin
+desc: phpMyAdmin Bringing MySQL to the web
 site: https://www.phpmyadmin.net/
-stats:
-  fork-count: 0
-  issue-count: 21
-  last-updated: '2022-11-17T19:55:15Z'
 tags:
 - php
 - mysql
 - mariadb
 - web
 upforgrabs:
-  link: https://github.com/phpmyadmin/phpmyadmin/labels/newbie
   name: newbie
+  link: https://github.com/phpmyadmin/phpmyadmin/labels/newbie
+stats:
+  issue-count: 21
+  last-updated: '2022-11-17T19:55:15Z'

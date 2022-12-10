@@ -1,10 +1,7 @@
-desc: Express JS application meant for use with the Dancing Goat sample project within
-  Kontent.ai.
+---
 name: sample-app-express
+desc: Express JS application meant for use with the Dancing Goat sample project within Kontent.ai.
 site: https://github.com/kontent-ai/sample-app-express-js
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - javascript
 - kontent-ai
@@ -15,5 +12,7 @@ tags:
 - single-page-application
 - caas
 upforgrabs:
-  link: https://github.com/kontent-ai/sample-app-express-js/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/kontent-ai/sample-app-express-js/labels/up-for-grabs
+stats:
+  issue-count: 0

@@ -1,10 +1,7 @@
-desc: Open Source sci-fi fps puzzle-platformer
+---
 name: GlPortal
+desc: Open Source sci-fi fps puzzle-platformer
 site: https://github.com/GlPortal/glPortal
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2021-09-08T16:29:55Z'
 tags:
 - c++
 - python
@@ -14,5 +11,8 @@ tags:
 - physics
 - 2d
 upforgrabs:
-  link: https://github.com/GlPortal/glPortal/labels/simple%20task
   name: simple task
+  link: https://github.com/GlPortal/glPortal/labels/simple%20task
+stats:
+  issue-count: 2
+  last-updated: '2021-09-08T16:29:55Z'

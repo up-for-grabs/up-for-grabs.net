@@ -1,11 +1,7 @@
-desc: Test Redux Saga with an easy plan! Declarative APIs for unit testing and integration
-  testing sagas.
+---
 name: Redux Saga Test Plan
+desc: Test Redux Saga with an easy plan! Declarative APIs for unit testing and integration testing sagas.
 site: https://github.com/jfairbank/redux-saga-test-plan
-stats:
-  fork-count: 0
-  issue-count: 5
-  last-updated: '2020-11-25T21:01:31Z'
 tags:
 - javascript
 - redux-saga
@@ -16,5 +12,8 @@ tags:
 - unit-testing
 - integration-testing
 upforgrabs:
-  link: https://github.com/jfairbank/redux-saga-test-plan/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/jfairbank/redux-saga-test-plan/labels/up-for-grabs
+stats:
+  issue-count: 5
+  last-updated: '2020-11-25T21:01:31Z'

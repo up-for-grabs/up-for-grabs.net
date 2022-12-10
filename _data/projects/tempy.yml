@@ -1,9 +1,7 @@
-desc: HTML Object-Oriented Templating system
+---
 name: TemPy
+desc: HTML Object-Oriented Templating system
 site: https://github.com/Hrabal/TemPy
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - html
 - oop
@@ -11,5 +9,7 @@ tags:
 - tree
 - python
 upforgrabs:
-  link: https://github.com/Hrabal/TemPy/labels/low-hanging-fruit
   name: low-hanging-fruit
+  link: https://github.com/Hrabal/TemPy/labels/low-hanging-fruit
+stats:
+  issue-count: 0

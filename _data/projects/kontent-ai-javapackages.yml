@@ -1,11 +1,7 @@
-desc: Monorepo containing delivery SDK, model generators and other Java-related tools
-  for Kontent.ai
+---
 name: java-packages
+desc: Monorepo containing delivery SDK, model generators and other Java-related tools for Kontent.ai
 site: https://github.com/kontent-ai/java-packages
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2022-01-20T12:52:46Z'
 tags:
 - java
 - kontent-ai
@@ -14,5 +10,8 @@ tags:
 - headless-cms
 - caas
 upforgrabs:
-  link: https://github.com/kontent-ai/java-packages/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/kontent-ai/java-packages/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2022-01-20T12:52:46Z'

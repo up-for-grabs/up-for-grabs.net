@@ -1,13 +1,13 @@
-desc: Magento eCommerce Plaform
+---
 name: Magento
+desc: Magento eCommerce Plaform
 site: http://magento.com
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2020-11-30T21:07:00Z'
 tags:
 - php
 - ecommerce
 upforgrabs:
-  link: https://github.com/magento/magento2/labels/up%20for%20grabs
   name: up for grabs
+  link: https://github.com/magento/magento2/labels/up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2020-11-30T21:07:00Z'

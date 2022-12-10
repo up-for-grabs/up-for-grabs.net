@@ -1,10 +1,7 @@
-desc: A kitchen recipe manager for delicious foods written in Haskell
+---
 name: Herm-s
+desc: A kitchen recipe manager for delicious foods written in Haskell
 site: https://github.com/JackMiranda/herms
-stats:
-  fork-count: 0
-  issue-count: 4
-  last-updated: '2020-10-02T23:29:40Z'
 tags:
 - haskell
 - cli
@@ -16,5 +13,8 @@ tags:
 - linux
 - unix
 upforgrabs:
-  link: https://github.com/LuxMiranda/herms/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/LuxMiranda/herms/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2020-10-02T23:29:40Z'

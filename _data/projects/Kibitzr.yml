@@ -1,14 +1,14 @@
-desc: Personal Web Assistant
+---
 name: Kibitzr
+desc: Personal Web Assistant
 site: https://kibitzr.github.io/
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - web
 - assistant
 - python
 - automation
 upforgrabs:
-  link: https://github.com/kibitzr/kibitzr/labels/trivial
   name: trivial
+  link: https://github.com/kibitzr/kibitzr/labels/trivial
+stats:
+  issue-count: 0

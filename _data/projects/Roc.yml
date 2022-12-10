@@ -1,10 +1,7 @@
-desc: Roc is a toolkit for real-time audio streaming over the network.
+---
 name: Roc Toolkit
+desc: Roc is a toolkit for real-time audio streaming over the network.
 site: https://roc-streaming.org/
-stats:
-  fork-count: 0
-  issue-count: 65
-  last-updated: '2022-09-05T03:31:29Z'
 tags:
 - c++
 - audio
@@ -12,5 +9,8 @@ tags:
 - streaming
 - networking
 upforgrabs:
-  link: https://github.com/roc-streaming/roc-toolkit/labels/help%20wanted
   name: help wanted
+  link: https://github.com/roc-streaming/roc-toolkit/labels/help%20wanted
+stats:
+  issue-count: 65
+  last-updated: '2022-09-05T03:31:29Z'

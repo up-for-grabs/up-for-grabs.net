@@ -1,14 +1,15 @@
-desc: Quick Note is an open-source project for saving snippets of information to 'memory'
-  files from the command line
+---
 name: Quick Note
+desc: >-
+  Quick Note is an open-source project for saving snippets of information to 'memory' files from the command
+  line
 site: https://github.com/scamacho23/homebrew-quicknote
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2022-10-16T22:57:51Z'
 tags:
 - python
 - shell
 upforgrabs:
-  link: https://github.com/scamacho23/liszt/labels/help%20wanted
   name: help wanted
+  link: https://github.com/scamacho23/liszt/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2022-10-16T22:57:51Z'

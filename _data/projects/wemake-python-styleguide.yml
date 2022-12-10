@@ -1,10 +1,7 @@
-desc: The strictest and most opinionated python linter ever!
+---
 name: wemake-python-styleguide
+desc: The strictest and most opinionated python linter ever!
 site: https://github.com/wemake-services/wemake-python-styleguide
-stats:
-  fork-count: 0
-  issue-count: 18
-  last-updated: '2022-11-11T10:12:39Z'
 tags:
 - python
 - linter
@@ -12,5 +9,8 @@ tags:
 - code-quality
 - oss
 upforgrabs:
-  link: https://github.com/wemake-services/wemake-python-styleguide/labels/level%3Astarter
   name: level:starter
+  link: https://github.com/wemake-services/wemake-python-styleguide/labels/level%3Astarter
+stats:
+  issue-count: 18
+  last-updated: '2022-11-11T10:12:39Z'

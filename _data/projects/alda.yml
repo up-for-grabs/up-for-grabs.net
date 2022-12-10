@@ -1,10 +1,7 @@
-desc: A general-purpose, beginner-friendly music programming language
+---
 name: Alda
+desc: A general-purpose, beginner-friendly music programming language
 site: https://github.com/alda-lang/alda
-stats:
-  fork-count: 0
-  issue-count: 8
-  last-updated: '2022-11-16T14:12:40Z'
 tags:
 - music
 - language
@@ -12,5 +9,8 @@ tags:
 - java
 - zeromq
 upforgrabs:
-  link: https://github.com/alda-lang/alda/labels/low-hanging%20fruit
   name: low-hanging fruit
+  link: https://github.com/alda-lang/alda/labels/low-hanging%20fruit
+stats:
+  issue-count: 8
+  last-updated: '2022-11-16T14:12:40Z'

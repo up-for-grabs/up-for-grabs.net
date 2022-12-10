@@ -1,12 +1,9 @@
-desc: Yeoman generator for creating MEAN/SEAN stack applications, using ES6, MongoDB/SQL,
-  Express, AngularJS, and Node - lets you quickly set up a project following best
-  practices.
+---
 name: Angular Full-stack Generator
+desc: >-
+  Yeoman generator for creating MEAN/SEAN stack applications, using ES6, MongoDB/SQL, Express, AngularJS,
+  and Node - lets you quickly set up a project following best practices.
 site: https://github.com/angular-fullstack/generator-angular-fullstack
-stats:
-  fork-count: 0
-  issue-count: 45
-  last-updated: '2021-06-17T19:42:20Z'
 tags:
 - oss
 - web
@@ -20,5 +17,8 @@ tags:
 - express
 - node.js
 upforgrabs:
-  link: https://github.com/angular-fullstack/generator-angular-fullstack/labels/Help%20Wanted
   name: Help Wanted
+  link: https://github.com/angular-fullstack/generator-angular-fullstack/labels/Help%20Wanted
+stats:
+  issue-count: 45
+  last-updated: '2021-06-17T19:42:20Z'

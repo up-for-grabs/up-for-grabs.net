@@ -1,10 +1,7 @@
-desc: 'Community Patterns for the Decentralized Web: helping communities steward the
-  data they care about.'
+---
 name: Data Together
+desc: 'Community Patterns for the Decentralized Web: helping communities steward the data they care about.'
 site: https://github.com/datatogether/datatogether#readme
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - go
 - api
@@ -21,5 +18,7 @@ tags:
 - python
 - reactjs
 upforgrabs:
-  link: https://github.com/issues?q=is:open+org:datatogether+label:first-timers-only
   name: first-timers-only
+  link: https://github.com/issues?q=is:open+org:datatogether+label:first-timers-only
+stats:
+  issue-count: 0

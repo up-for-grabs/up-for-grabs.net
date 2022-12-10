@@ -1,10 +1,7 @@
-desc: Epic 2D Platformer video game made with Processing 3
+---
 name: Project 16x16
+desc: Epic 2D Platformer video game made with Processing 3
 site: https://github.com/Stephcraft/Project-16x16
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2022-10-03T23:38:01Z'
 tags:
 - 2d
 - java
@@ -14,5 +11,8 @@ tags:
 - platformer
 - pixel-art
 upforgrabs:
-  link: https://github.com/Stephcraft/Project-16x16/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/Stephcraft/Project-16x16/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2022-10-03T23:38:01Z'

@@ -1,10 +1,7 @@
-desc: Network abstraction layer written in Swift.
+---
 name: Moya
+desc: Network abstraction layer written in Swift.
 site: https://github.com/Moya/Moya
-stats:
-  fork-count: 0
-  issue-count: 5
-  last-updated: '2020-07-23T08:18:34Z'
 tags:
 - swift
 - moya
@@ -13,5 +10,8 @@ tags:
 - reactiveswift
 - alamofire
 upforgrabs:
-  link: https://github.com/Moya/Moya/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/Moya/Moya/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2020-07-23T08:18:34Z'

@@ -1,10 +1,9 @@
-desc: Blockstreet aims to become the go-to source for the explanation of complex topics
-  for users that are new to the blockchain ecosystem.
+---
 name: Blockstreet
+desc: >-
+  Blockstreet aims to become the go-to source for the explanation of complex topics for users that are
+  new to the blockchain ecosystem.
 site: https://blockstreet.io
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - javascript
 - vuejs
@@ -12,5 +11,7 @@ tags:
 - cryptocurrency
 - blockchain
 upforgrabs:
-  link: https://github.com/blockstreet/interface/labels/Status%3A%20Available
   name: 'Status: Available'
+  link: https://github.com/blockstreet/interface/labels/Status%3A%20Available
+stats:
+  issue-count: 0

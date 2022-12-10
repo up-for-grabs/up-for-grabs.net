@@ -1,17 +1,17 @@
-desc: Automating unittest asserts and ToString() coding.
+---
 name: StatePrinter
+desc: Automating unittest asserts and ToString() coding.
 site: https://github.com/kbilsted/StatePrinter
-stats:
-  fork-count: 0
-  issue-count: 11
-  last-updated: '2019-06-03T20:54:13Z'
 tags:
 - tdd
 - unit-testing
-- .net
+- ".net"
 - c#
 - tostring
 - debugging
 upforgrabs:
-  link: https://github.com/kbilsted/StatePrinter/labels/Help%20wanted
   name: Help wanted
+  link: https://github.com/kbilsted/StatePrinter/labels/Help%20wanted
+stats:
+  issue-count: 11
+  last-updated: '2019-06-03T20:54:13Z'

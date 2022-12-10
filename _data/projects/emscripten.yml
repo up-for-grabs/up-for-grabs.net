@@ -1,10 +1,7 @@
-desc: A compiler from C and C++ to JavaScript/asm.js
+---
 name: Emscripten
+desc: A compiler from C and C++ to JavaScript/asm.js
 site: http://emscripten.org
-stats:
-  fork-count: 0
-  issue-count: 70
-  last-updated: '2022-11-08T14:54:04Z'
 tags:
 - oss
 - compiler
@@ -13,5 +10,8 @@ tags:
 - c++
 - emscripten
 upforgrabs:
-  link: https://github.com/emscripten-core/emscripten/labels/good%20first%20bug
   name: good first bug
+  link: https://github.com/emscripten-core/emscripten/labels/good%20first%20bug
+stats:
+  issue-count: 70
+  last-updated: '2022-11-08T14:54:04Z'

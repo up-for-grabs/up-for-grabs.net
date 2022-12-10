@@ -1,13 +1,13 @@
-desc: Add frames and titles to your Google Play screenshots.
+---
 name: android-framer
+desc: Add frames and titles to your Google Play screenshots.
 site: https://github.com/faruktoptas/android-framer
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - oss
 - python
 - android
 upforgrabs:
-  link: https://github.com/faruktoptas/androidframer/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/faruktoptas/androidframer/labels/good%20first%20issue
+stats:
+  issue-count: 0

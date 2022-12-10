@@ -1,13 +1,13 @@
-desc: Convert a Python expression to a LaTeX formula
+---
 name: pytexit
+desc: Convert a Python expression to a LaTeX formula
 site: https://pytexit.readthedocs.io/
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2022-10-11T23:44:48Z'
 tags:
 - python
 - latex
 upforgrabs:
-  link: https://github.com/erwanp/pytexit/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/erwanp/pytexit/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2022-10-11T23:44:48Z'

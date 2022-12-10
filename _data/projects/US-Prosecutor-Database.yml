@@ -1,12 +1,9 @@
-desc: An open-source web app to help people hold prosecutors accountable for police
-  brutality. Filter through prosecutors by name, role, state, area. Find resources
-  like contact information &amp; relevant articles.
+---
 name: U.S. Prosecutor Database
+desc: >-
+  An open-source web app to help people hold prosecutors accountable for police brutality. Filter through
+  prosecutors by name, role, state, area. Find resources like contact information &amp; relevant articles.
 site: https://us-prosecutor-database.herokuapp.com
-stats:
-  fork-count: 0
-  issue-count: 21
-  last-updated: '2022-11-15T04:25:15Z'
 tags:
 - meteor
 - mongodb
@@ -27,5 +24,8 @@ tags:
 - open-data
 - open-government
 upforgrabs:
-  link: https://github.com/billimarie/prosecutor-database/labels/HELP-WANTED
   name: HELP-WANTED
+  link: https://github.com/billimarie/prosecutor-database/labels/HELP-WANTED
+stats:
+  issue-count: 21
+  last-updated: '2022-11-15T04:25:15Z'

@@ -1,10 +1,7 @@
-desc: Linux feed reader for GNOME/GTK
+---
 name: Liferea
+desc: Linux feed reader for GNOME/GTK
 site: https://lzone.de/liferea
-stats:
-  fork-count: 0
-  issue-count: 19
-  last-updated: '2022-10-24T20:57:39Z'
 tags:
 - c
 - gtk
@@ -14,5 +11,8 @@ tags:
 - atom
 - feed
 upforgrabs:
-  link: https://github.com/lwindolf/liferea/labels/help-wanted
   name: help-wanted
+  link: https://github.com/lwindolf/liferea/labels/help-wanted
+stats:
+  issue-count: 19
+  last-updated: '2022-10-24T20:57:39Z'

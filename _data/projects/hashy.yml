@@ -1,9 +1,7 @@
-desc: A program written in Golang to help with hashing strings and files!
+---
 name: Hashy
+desc: A program written in Golang to help with hashing strings and files!
 site: https://github.com/AstroOrbis/Hashy
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - hash
 - md5
@@ -12,5 +10,7 @@ tags:
 - sha512
 - go
 upforgrabs:
-  link: https://github.com/AstroOrbis/Hashy/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/AstroOrbis/Hashy/labels/up-for-grabs
+stats:
+  issue-count: 0

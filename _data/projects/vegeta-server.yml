@@ -1,10 +1,7 @@
-desc: A RESTful API server for vegeta, a load testing tool written in Go.
+---
 name: vegeta-server
+desc: A RESTful API server for vegeta, a load testing tool written in Go.
 site: https://github.com/nitishm/vegeta-server
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2020-06-29T19:53:13Z'
 tags:
 - oss
 - go
@@ -13,5 +10,8 @@ tags:
 - swagger
 - rest-api
 upforgrabs:
-  link: https://github.com/nitishm/vegeta-server/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/nitishm/vegeta-server/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2020-06-29T19:53:13Z'

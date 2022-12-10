@@ -1,11 +1,9 @@
-desc: Web application designed to help emergency services in registering and documenting
-  tasks to rescue lost people.
+---
 name: RescueApp
+desc: >-
+  Web application designed to help emergency services in registering and documenting tasks to rescue lost
+  people.
 site: https://github.com/eduayme/RescueApp
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2022-10-20T20:21:17Z'
 tags:
 - web
 - php
@@ -13,5 +11,8 @@ tags:
 - postgresql
 - community
 upforgrabs:
-  link: https://github.com/eduayme/RescueApp/labels/help%20wanted
   name: help wanted
+  link: https://github.com/eduayme/RescueApp/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2022-10-20T20:21:17Z'

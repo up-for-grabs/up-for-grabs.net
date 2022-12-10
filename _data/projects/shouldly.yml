@@ -1,14 +1,14 @@
-desc: Should testing for .net - the way Asserting *Should* be!
+---
 name: Shouldly
+desc: Should testing for .net - the way Asserting *Should* be!
 site: https://github.com/shouldly/shouldly
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - testing
 - assertions
-- .net
+- ".net"
 - c#
 upforgrabs:
-  link: https://github.com/shouldly/shouldly/labels/Jump-In
   name: Jump-In
+  link: https://github.com/shouldly/shouldly/labels/Jump-In
+stats:
+  issue-count: 0

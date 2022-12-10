@@ -1,14 +1,14 @@
-desc: My very first Capstone Project about Gym near my house
+---
 name: csp1
+desc: My very first Capstone Project about Gym near my house
 site: https://github.com/reviter/csp1
-stats:
-  fork-count: 0
-  issue-count: 4
-  last-updated: '2022-10-05T07:50:13Z'
 tags:
 - html
 - css
 - web
 upforgrabs:
-  link: https://github.com/reviter/csp1/labels/up%20for%20grabs
   name: up for grabs
+  link: https://github.com/reviter/csp1/labels/up%20for%20grabs
+stats:
+  issue-count: 4
+  last-updated: '2022-10-05T07:50:13Z'

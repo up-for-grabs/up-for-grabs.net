@@ -1,13 +1,13 @@
-desc: Abstraction library for data compression codecs.
+---
 name: Squash
+desc: Abstraction library for data compression codecs.
 site: https://quixdb.github.io/squash
-stats:
-  fork-count: 0
-  issue-count: 13
-  last-updated: '2022-01-03T17:16:23Z'
 tags:
 - c
 - compression
 upforgrabs:
-  link: https://github.com/quixdb/squash/labels/bite-sized
   name: bite-sized
+  link: https://github.com/quixdb/squash/labels/bite-sized
+stats:
+  issue-count: 13
+  last-updated: '2022-01-03T17:16:23Z'

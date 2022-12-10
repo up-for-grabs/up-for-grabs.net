@@ -1,13 +1,13 @@
-desc: OOP wrapper and library for working with PHP Sockets
+---
 name: PHP Sockets
+desc: OOP wrapper and library for working with PHP Sockets
 site: https://github.com/navarr/Sockets
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2019-10-01T15:35:26Z'
 tags:
 - sockets
 - php
 upforgrabs:
-  link: https://github.com/navarr/Sockets/labels/up%20for%20grabs
   name: up for grabs
+  link: https://github.com/navarr/Sockets/labels/up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-10-01T15:35:26Z'

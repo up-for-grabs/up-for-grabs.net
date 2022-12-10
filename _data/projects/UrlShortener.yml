@@ -1,9 +1,7 @@
-desc: Shortens long urls. Select from a list of available hosts.
+---
 name: UrlShortener
+desc: Shortens long urls. Select from a list of available hosts.
 site: https://github.com/p53ud0k0d3/UrlShortener
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - python
 - django
@@ -13,5 +11,7 @@ tags:
 - css
 - bootstrap
 upforgrabs:
-  link: https://github.com/p53ud0k0d3/UrlShortener/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/p53ud0k0d3/UrlShortener/labels/up-for-grabs
+stats:
+  issue-count: 0

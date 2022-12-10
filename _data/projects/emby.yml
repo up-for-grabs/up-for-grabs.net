@@ -1,12 +1,9 @@
-desc: The open media solution for your personal videos, music, photos, and Live TV.
+---
 name: Emby
+desc: The open media solution for your personal videos, music, photos, and Live TV.
 site: https://github.com/MediaBrowser/Emby
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2019-11-01T03:37:04Z'
 tags:
-- .net
+- ".net"
 - javascript
 - c#
 - ios
@@ -15,5 +12,8 @@ tags:
 - windows-10
 - roku
 upforgrabs:
-  link: https://github.com/MediaBrowser/Emby/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/MediaBrowser/Emby/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-11-01T03:37:04Z'

@@ -1,13 +1,13 @@
-desc: A generic forum engine for .NET
+---
 name: NForum
+desc: A generic forum engine for .NET
 site: https://github.com/steentottrup/NForum/issues
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
-- .net
+- ".net"
 - c#
 - forum
 upforgrabs:
-  link: https://github.com/steentottrup/NForum/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/steentottrup/NForum/labels/up-for-grabs
+stats:
+  issue-count: 0

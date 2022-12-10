@@ -1,14 +1,14 @@
-desc: A toolkit for creating Metro styled WPF apps
+---
 name: MahApps.Metro
+desc: A toolkit for creating Metro styled WPF apps
 site: https://github.com/MahApps/MahApps.Metro
-stats:
-  fork-count: 0
-  issue-count: 4
-  last-updated: '2022-03-04T14:17:22Z'
 tags:
-- .net
+- ".net"
 - c#
 - wpf
 upforgrabs:
-  link: https://github.com/MahApps/MahApps.Metro/labels/jump%20in
   name: jump in
+  link: https://github.com/MahApps/MahApps.Metro/labels/jump%20in
+stats:
+  issue-count: 4
+  last-updated: '2022-03-04T14:17:22Z'

@@ -1,10 +1,7 @@
-desc: A framework for building native apps with React.
+---
 name: React Native
+desc: A framework for building native apps with React.
 site: https://facebook.github.io/react-native/
-stats:
-  fork-count: 0
-  issue-count: 16
-  last-updated: '2022-11-18T06:19:07Z'
 tags:
 - reactjs
 - oss
@@ -18,5 +15,8 @@ tags:
 - android
 - ios
 upforgrabs:
-  link: https://github.com/facebook/react-native/labels/Good%20first%20issue
   name: Good first issue
+  link: https://github.com/facebook/react-native/labels/Good%20first%20issue
+stats:
+  issue-count: 16
+  last-updated: '2022-11-18T06:19:07Z'

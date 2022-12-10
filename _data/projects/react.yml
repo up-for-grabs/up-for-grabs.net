@@ -1,16 +1,15 @@
-desc: A declarative, efficient, and flexible JavaScript library for building user
-  interfaces.
+---
 name: React
+desc: A declarative, efficient, and flexible JavaScript library for building user interfaces.
 site: https://facebook.github.io/react/
-stats:
-  fork-count: 0
-  issue-count: 4
-  last-updated: '2022-10-13T11:08:28Z'
 tags:
 - reactjs
 - javascript
 - user-interface
 - ui
 upforgrabs:
-  link: https://github.com/facebook/react/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/facebook/react/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2022-10-13T11:08:28Z'

@@ -1,9 +1,7 @@
-desc: An easy to use and tasty web framework for node.js
+---
 name: StirFry
+desc: An easy to use and tasty web framework for node.js
 site: https://github.com/StirFry-js/stirfry
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - node.js
 - webframework
@@ -11,5 +9,7 @@ tags:
 - webserver
 - http
 upforgrabs:
-  link: https://github.com/StirFry-js/stirfry/labels/help%20wanted
   name: help wanted
+  link: https://github.com/StirFry-js/stirfry/labels/help%20wanted
+stats:
+  issue-count: 0

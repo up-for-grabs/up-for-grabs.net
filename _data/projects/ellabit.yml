@@ -1,10 +1,7 @@
-desc: Learn to code using Blockly and C# through interactive challenges
+---
 name: Ellabit
+desc: Learn to code using Blockly and C# through interactive challenges
 site: https://github.com/kevmoens/Ellabit
-stats:
-  fork-count: 0
-  issue-count: 8
-  last-updated: '2022-11-15T21:30:15Z'
 tags:
 - c#
 - blazor
@@ -14,5 +11,8 @@ tags:
 - hacktoberfest2022
 - learning
 upforgrabs:
-  link: https://github.com/kevmoens/Ellabit/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/kevmoens/Ellabit/labels/up-for-grabs
+stats:
+  issue-count: 8
+  last-updated: '2022-11-15T21:30:15Z'

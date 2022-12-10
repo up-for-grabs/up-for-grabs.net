@@ -1,14 +1,14 @@
-desc: The only TypeScript package you need when using Atom
+---
 name: atom-typescript
+desc: The only TypeScript package you need when using Atom
 site: https://github.com/typestrong/atom-typescript
-stats:
-  fork-count: 0
-  issue-count: 2
-  last-updated: '2020-10-01T20:00:18Z'
 tags:
 - typescript
 - atom
 - javascript
 upforgrabs:
-  link: https://github.com/TypeStrong/atom-typescript/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/TypeStrong/atom-typescript/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2020-10-01T20:00:18Z'

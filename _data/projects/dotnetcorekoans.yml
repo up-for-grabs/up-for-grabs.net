@@ -1,15 +1,15 @@
-desc: A set of Koans to teach the C# language on .NET Core.
+---
 name: DotNetCoreKoans
+desc: A set of Koans to teach the C# language on .NET Core.
 site: https://github.com/NotMyself/DotNetCoreKoans
-stats:
-  fork-count: 0
-  issue-count: 4
-  last-updated: '2022-10-29T19:16:14Z'
 tags:
 - c#
-- .net-core
+- ".net-core"
 - tdd
 - cross-platform
 upforgrabs:
-  link: https://github.com/NotMyself/DotNetCoreKoans/labels/Up%20for%20Grabs
   name: Up for Grabs
+  link: https://github.com/NotMyself/DotNetCoreKoans/labels/Up%20for%20Grabs
+stats:
+  issue-count: 4
+  last-updated: '2022-10-29T19:16:14Z'

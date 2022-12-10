@@ -1,15 +1,15 @@
-desc: A radio player which is a Java Exoplayer example
+---
 name: Radio Nostalgia Exoplayer example
+desc: A radio player which is a Java Exoplayer example
 site: https://endpoint.space/topic/9/radio-mixing-phone-application
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2022-07-24T15:21:08Z'
 tags:
 - android
 - ui
 - google
 - java
 upforgrabs:
-  link: https://github.com/bacloud23/radio-nostalgia-2/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/bacloud23/radio-nostalgia-2/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2022-07-24T15:21:08Z'

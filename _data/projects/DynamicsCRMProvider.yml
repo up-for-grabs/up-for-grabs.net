@@ -1,14 +1,14 @@
-desc: A type provider for Microsoft Dynamics CRM 2011.
+---
 name: DynamicsCRMProvider
+desc: A type provider for Microsoft Dynamics CRM 2011.
 site: https://github.com/fsprojects/DynamicsCRMProvider
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2014-01-26T12:08:14Z'
 tags:
 - f#
-- .net
+- ".net"
 - type-provider
 upforgrabs:
-  link: https://github.com/fsprojects/DynamicsCRMProvider/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/fsprojects/DynamicsCRMProvider/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2014-01-26T12:08:14Z'

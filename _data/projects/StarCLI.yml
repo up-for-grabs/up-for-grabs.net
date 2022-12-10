@@ -1,11 +1,9 @@
-desc: Browse trending projects on GitHub from your command-line, filter by languages,
-  stars, creation/pushed date, and more to come
+---
 name: StarCLI
+desc: >-
+  Browse trending projects on GitHub from your command-line, filter by languages, stars, creation/pushed
+  date, and more to come
 site: https://github.com/hedythedev/starcli
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2022-09-23T06:35:20Z'
 tags:
 - python
 - cli
@@ -14,5 +12,8 @@ tags:
 - terminal
 - github
 upforgrabs:
-  link: https://github.com/hedyhli/starcli/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/hedyhli/starcli/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2022-09-23T06:35:20Z'

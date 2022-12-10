@@ -1,16 +1,17 @@
-desc: hackIDE is an online code editor, compiler and interpreter based on Django,
-  powered by HackerEarth API! Go, hack it!
+---
 name: hackIDE
+desc: >-
+  hackIDE is an online code editor, compiler and interpreter based on Django, powered by HackerEarth API!
+  Go, hack it!
 site: https://github.com/sahildua2305/hackIDE
-stats:
-  fork-count: 0
-  issue-count: 4
-  last-updated: '2022-10-08T17:33:20Z'
 tags:
 - python
 - web
 - django
 - javascript
 upforgrabs:
-  link: https://github.com/sahildua2305/hackIDE/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/sahildua2305/hackIDE/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2022-10-08T17:33:20Z'

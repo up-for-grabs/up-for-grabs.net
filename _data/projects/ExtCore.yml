@@ -1,13 +1,13 @@
-desc: An extended core library for F#.
+---
 name: ExtCore
+desc: An extended core library for F#.
 site: https://github.com/jack-pappas/ExtCore
-stats:
-  fork-count: 0
-  issue-count: 6
-  last-updated: '2018-05-13T01:12:48Z'
 tags:
 - f#
-- .net
+- ".net"
 upforgrabs:
-  link: https://github.com/jack-pappas/ExtCore/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/jack-pappas/ExtCore/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2018-05-13T01:12:48Z'

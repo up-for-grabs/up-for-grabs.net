@@ -1,14 +1,13 @@
-desc: Hackerspace member applications, approval, and management software for Double
-  Union hackerspace
+---
 name: Arooo
+desc: Hackerspace member applications, approval, and management software for Double Union hackerspace
 site: https://github.com/doubleunion/arooo
-stats:
-  fork-count: 0
-  issue-count: 11
-  last-updated: '2022-10-21T15:10:55Z'
 tags:
 - ruby
 - rails
 upforgrabs:
-  link: https://github.com/doubleunion/arooo/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/doubleunion/arooo/labels/good%20first%20issue
+stats:
+  issue-count: 11
+  last-updated: '2022-10-21T15:10:55Z'

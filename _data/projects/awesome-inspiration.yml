@@ -1,11 +1,7 @@
-desc: "\U0001F525 A curated list of content worth sharing to help you get inspired!\
-  \ \u26A1\uFE0F"
+---
 name: awesome-inspiration
+desc: "\U0001F525 A curated list of content worth sharing to help you get inspired! ⚡️"
 site: https://github.com/swapagarwal/awesome-inspiration
-stats:
-  fork-count: 0
-  issue-count: 7
-  last-updated: '2022-10-27T15:22:09Z'
 tags:
 - markdown
 - data
@@ -14,5 +10,8 @@ tags:
 - inspiration
 - awesome
 upforgrabs:
-  link: https://github.com/swapagarwal/awesome-inspiration/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/swapagarwal/awesome-inspiration/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2022-10-27T15:22:09Z'

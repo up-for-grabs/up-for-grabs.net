@@ -1,15 +1,15 @@
-desc: NuGet program for sending coverage reports to coveralls.io
+---
 name: Coveralls.net
+desc: NuGet program for sending coverage reports to coveralls.io
 site: https://github.com/coveralls-net/coveralls.net
-stats:
-  fork-count: 0
-  issue-count: 5
-  last-updated: '2019-10-15T18:21:28Z'
 tags:
 - c#
-- .net
+- ".net"
 - coveralls
 - code-coverage
 upforgrabs:
-  link: https://github.com/coveralls-net/coveralls.net/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/coveralls-net/coveralls.net/labels/up-for-grabs
+stats:
+  issue-count: 5
+  last-updated: '2019-10-15T18:21:28Z'

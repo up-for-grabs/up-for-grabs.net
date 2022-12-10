@@ -1,10 +1,7 @@
-desc: Discover new music based on the Spotify playlists you know and love!
+---
 name: remixr
+desc: Discover new music based on the Spotify playlists you know and love!
 site: https://github.com/rtkg12/remixr
-stats:
-  fork-count: 0
-  issue-count: 5
-  last-updated: '2022-10-09T20:07:36Z'
 tags:
 - javascript
 - node.js
@@ -14,5 +11,8 @@ tags:
 - music
 - recommendations
 upforgrabs:
-  link: https://github.com/rtkg12/remixr/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/rtkg12/remixr/labels/up-for-grabs
+stats:
+  issue-count: 5
+  last-updated: '2022-10-09T20:07:36Z'

@@ -1,13 +1,13 @@
-desc: Community-maintained bot to detect spam on Stack Exchange and get it deleted
+---
 name: SmokeDetector
+desc: Community-maintained bot to detect spam on Stack Exchange and get it deleted
 site: https://charcoal-se.org/
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - python
 - stack-exchange
 - regex
 upforgrabs:
-  link: https://github.com/Charcoal-SE/SmokeDetector/labels/type%3A%20up-for-grabs
   name: 'type: up-for-grabs'
+  link: https://github.com/Charcoal-SE/SmokeDetector/labels/type%3A%20up-for-grabs
+stats:
+  issue-count: 0

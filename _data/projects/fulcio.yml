@@ -1,16 +1,16 @@
-desc: fulcio is a free Root-CA for code signing certs - issuing certificates based
-  on an OIDC email address.
+---
 name: Fulcio
+desc: >-
+  fulcio is a free Root-CA for code signing certs - issuing certificates based on an OIDC email address.
 site: https://github.com/sigstore/fulcio
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2021-06-03T07:31:14Z'
 tags:
 - security
 - certificate-authority
 - software-supply-chain
 - transparency-log
 upforgrabs:
-  link: https://github.com/sigstore/fulcio/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/sigstore/fulcio/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2021-06-03T07:31:14Z'

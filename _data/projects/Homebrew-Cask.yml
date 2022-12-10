@@ -1,10 +1,7 @@
-desc: A CLI workflow for the administration of Mac applications distributed as binaries
+---
 name: Homebrew-Cask
+desc: A CLI workflow for the administration of Mac applications distributed as binaries
 site: https://formulae.brew.sh/cask/
-stats:
-  fork-count: 0
-  issue-count: 5
-  last-updated: '2022-07-30T13:13:56Z'
 tags:
 - ruby
 - osx
@@ -12,5 +9,8 @@ tags:
 - terminal
 - packaging
 upforgrabs:
-  link: https://github.com/Homebrew/homebrew-cask/labels/ready%20to%20implement
   name: ready to implement
+  link: https://github.com/Homebrew/homebrew-cask/labels/ready%20to%20implement
+stats:
+  issue-count: 5
+  last-updated: '2022-07-30T13:13:56Z'

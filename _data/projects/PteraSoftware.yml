@@ -1,11 +1,7 @@
-desc: Ptera Software is a fast, easy-to-use, and open-source package for analyzing
-  flapping wing flight.
+---
 name: Ptera Software
+desc: Ptera Software is a fast, easy-to-use, and open-source package for analyzing flapping wing flight.
 site: https://github.com/camUrban/PteraSoftware
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2022-10-08T14:22:27Z'
 tags:
 - uav
 - aerospace
@@ -28,5 +24,8 @@ tags:
 - solvers
 - pyvista
 upforgrabs:
-  link: https://github.com/camUrban/PteraSoftware/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/camUrban/PteraSoftware/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2022-10-08T14:22:27Z'

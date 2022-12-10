@@ -1,9 +1,7 @@
-desc: Guides and tutorials on Linux, web servers, development, and more
+---
 name: Linode Docs
+desc: Guides and tutorials on Linux, web servers, development, and more
 site: https://github.com/linode/docs
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - linux
 - vps
@@ -12,5 +10,7 @@ tags:
 - automation
 - documentation
 upforgrabs:
-  link: https://github.com/linode/docs/labels/first-timers-only
   name: first-timers-only
+  link: https://github.com/linode/docs/labels/first-timers-only
+stats:
+  issue-count: 0

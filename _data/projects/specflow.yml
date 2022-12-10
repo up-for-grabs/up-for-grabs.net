@@ -1,16 +1,16 @@
-desc: SpecFlow is a pragmatic BDD solution for .NET
+---
 name: SpecFlow
+desc: SpecFlow is a pragmatic BDD solution for .NET
 site: http://www.specflow.org
-stats:
-  fork-count: 0
-  issue-count: 41
-  last-updated: '2022-11-08T12:12:26Z'
 tags:
 - bdd
 - testing
 - c#
-- .net
+- ".net"
 - oss
 upforgrabs:
-  link: https://github.com/SpecFlowOSS/SpecFlow/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/SpecFlowOSS/SpecFlow/labels/up-for-grabs
+stats:
+  issue-count: 41
+  last-updated: '2022-11-08T12:12:26Z'

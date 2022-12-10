@@ -1,10 +1,7 @@
-desc: Particles.js in typescript
+---
 name: tsParticles
+desc: Particles.js in typescript
 site: https://github.com/matteobruni/tsparticles
-stats:
-  fork-count: 0
-  issue-count: 11
-  last-updated: '2022-11-08T08:52:23Z'
 tags:
 - collaboration
 - javascript
@@ -23,5 +20,8 @@ tags:
 - particles
 - animations
 upforgrabs:
-  link: https://github.com/matteobruni/tsparticles/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/matteobruni/tsparticles/labels/up-for-grabs
+stats:
+  issue-count: 11
+  last-updated: '2022-11-08T08:52:23Z'

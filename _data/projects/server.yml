@@ -1,9 +1,7 @@
-desc: Modern, simple & flexible server for Node.js
+---
 name: server for Node.js
+desc: Modern, simple & flexible server for Node.js
 site: https://serverjs.io/
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - javascript
 - node.js
@@ -11,5 +9,7 @@ tags:
 - es6
 - es7
 upforgrabs:
-  link: https://github.com/franciscop/server/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/franciscop/server/labels/up-for-grabs
+stats:
+  issue-count: 0

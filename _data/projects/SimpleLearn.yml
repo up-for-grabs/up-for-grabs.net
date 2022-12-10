@@ -1,11 +1,9 @@
-desc: A python package meant to simplify the development of machine learning models.
-  This project aims to remove the necessity of math/stat knowledge when attempting
-  to develop the most accurate models.
+---
 name: SimpleLearn
+desc: >-
+  A python package meant to simplify the development of machine learning models. This project aims to
+  remove the necessity of math/stat knowledge when attempting to develop the most accurate models.
 site: https://github.com/skekre98/simple_learn
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - python
 - pip
@@ -13,5 +11,7 @@ tags:
 - scipy
 - sklearn
 upforgrabs:
-  link: https://github.com/skekre98/simple_learn/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/skekre98/simple_learn/labels/up-for-grabs
+stats:
+  issue-count: 0

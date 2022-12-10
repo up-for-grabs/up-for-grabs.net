@@ -1,13 +1,13 @@
-desc: A JavaScript media UI components framework
+---
 name: BetaJS Media Components
+desc: A JavaScript media UI components framework
 site: https://betajs.com
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2022-10-05T20:53:47Z'
 tags:
 - javascript
 - ui-components
 upforgrabs:
-  link: https://github.com/betajs/betajs-media-components/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/betajs/betajs-media-components/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2022-10-05T20:53:47Z'

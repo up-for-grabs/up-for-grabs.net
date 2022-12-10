@@ -1,9 +1,7 @@
-desc: A simple and free TypeScript-based HTML5 JavaScript game engine
+---
 name: Excalibur.js
+desc: A simple and free TypeScript-based HTML5 JavaScript game engine
 site: https://github.com/excaliburjs/Excalibur
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - oss
 - typescript
@@ -11,5 +9,7 @@ tags:
 - game
 - engine
 upforgrabs:
-  link: https://github.com/excaliburjs/Excalibur/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/excaliburjs/Excalibur/labels/good%20first%20issue
+stats:
+  issue-count: 0

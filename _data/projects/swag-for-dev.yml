@@ -1,10 +1,7 @@
-desc: "\U0001F60E swag opportunities for developers"
+---
 name: swag-for-dev
+desc: "\U0001F60E swag opportunities for developers"
 site: https://github.com/swapagarwal/swag-for-dev
-stats:
-  fork-count: 0
-  issue-count: 12
-  last-updated: '2022-10-09T16:29:57Z'
 tags:
 - javascript
 - web
@@ -14,5 +11,8 @@ tags:
 - swag
 - awesome
 upforgrabs:
-  link: https://github.com/swapagarwal/swag-for-dev/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/swapagarwal/swag-for-dev/labels/good%20first%20issue
+stats:
+  issue-count: 12
+  last-updated: '2022-10-09T16:29:57Z'

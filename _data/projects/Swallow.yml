@@ -1,14 +1,14 @@
-desc: An easy to use systems programming language with python like syntax. WIP
+---
 name: Swallow - System Programming Language
+desc: An easy to use systems programming language with python like syntax. WIP
 site: https://github.com/Swallow-lang/swallow
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - swallow
 - c
 - v
 - compiler
 upforgrabs:
-  link: https://github.com/peregrine-lang/Peregrine/labels/enhancement
   name: enhancement
+  link: https://github.com/peregrine-lang/Peregrine/labels/enhancement
+stats:
+  issue-count: 0

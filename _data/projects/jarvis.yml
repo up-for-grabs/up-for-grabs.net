@@ -1,11 +1,9 @@
-desc: A community-driven python bot that aims to be as simple as possible to serve
-  humans with their everyday tasks
+---
 name: J.A.R.V.I.S.
+desc: >-
+  A community-driven python bot that aims to be as simple as possible to serve humans with their everyday
+  tasks
 site: https://github.com/swapagarwal/JARVIS-on-Messenger
-stats:
-  fork-count: 0
-  issue-count: 9
-  last-updated: '2022-08-18T08:43:03Z'
 tags:
 - python
 - messenger
@@ -13,5 +11,8 @@ tags:
 - chat
 - assistant
 upforgrabs:
-  link: https://github.com/swapagarwal/JARVIS-on-Messenger/labels/Low-Hanging%20Fruit
   name: Low-Hanging Fruit
+  link: https://github.com/swapagarwal/JARVIS-on-Messenger/labels/Low-Hanging%20Fruit
+stats:
+  issue-count: 9
+  last-updated: '2022-08-18T08:43:03Z'

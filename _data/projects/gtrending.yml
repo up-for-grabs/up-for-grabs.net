@@ -1,9 +1,7 @@
-desc: Python Library for fetching trending repositories and developers on GitHub
+---
 name: gtrending
+desc: Python Library for fetching trending repositories and developers on GitHub
 site: https://github.com/hedythedev/gtrending
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - python
 - libraries
@@ -11,5 +9,7 @@ tags:
 - trending
 - github-trending
 upforgrabs:
-  link: https://github.com/hedyhli/gtrending/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/hedyhli/gtrending/labels/good%20first%20issue
+stats:
+  issue-count: 0

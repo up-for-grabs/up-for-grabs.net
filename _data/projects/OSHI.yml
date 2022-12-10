@@ -1,10 +1,7 @@
-desc: A JNA-based (native) Operating System and Hardware Information library for Java
+---
 name: Operating System and Hardware Information (OSHI)
+desc: A JNA-based (native) Operating System and Hardware Information library for Java
 site: https://github.com/oshi/oshi
-stats:
-  fork-count: 0
-  issue-count: 5
-  last-updated: '2022-11-18T08:01:29Z'
 tags:
 - java
 - jna
@@ -17,5 +14,8 @@ tags:
 - disk-utilization
 - process-list
 upforgrabs:
-  link: https://github.com/oshi/oshi/labels/up%20for%20grabs
   name: up for grabs
+  link: https://github.com/oshi/oshi/labels/up%20for%20grabs
+stats:
+  issue-count: 5
+  last-updated: '2022-11-18T08:01:29Z'

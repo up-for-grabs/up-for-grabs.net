@@ -1,14 +1,14 @@
-desc: Time zone add-on for moment.js
+---
 name: Moment-Timezone
+desc: Time zone add-on for moment.js
 site: http://momentjs.com/timezone
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2020-02-07T22:59:08Z'
 tags:
 - javascript
 - date
 - time
 upforgrabs:
-  link: https://github.com/moment/moment-timezone/labels/Up-For-Grabs
   name: Up-For-Grabs
+  link: https://github.com/moment/moment-timezone/labels/Up-For-Grabs
+stats:
+  issue-count: 3
+  last-updated: '2020-02-07T22:59:08Z'

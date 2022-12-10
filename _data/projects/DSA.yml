@@ -1,13 +1,13 @@
-desc: Data structure and Algorithm (DSA) contributions
+---
 name: DSA
+desc: Data structure and Algorithm (DSA) contributions
 site: https://github.com/MakeContributions/DSA
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2022-10-21T03:01:52Z'
 tags:
 - dsa
 - algorithm
 upforgrabs:
-  link: https://github.com/MakeContributions/DSA/labels/help%20wanted
   name: help wanted
+  link: https://github.com/MakeContributions/DSA/labels/help%20wanted
+stats:
+  issue-count: 3
+  last-updated: '2022-10-21T03:01:52Z'

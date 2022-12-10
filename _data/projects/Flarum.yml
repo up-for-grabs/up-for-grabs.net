@@ -1,15 +1,15 @@
-desc: Forums made simple.
+---
 name: Flarum
+desc: Forums made simple.
 site: http://flarum.org
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2022-11-15T13:39:59Z'
 tags:
 - web
 - php
 - forum
 - community
 upforgrabs:
-  link: https://github.com/flarum/framework/labels/Good%20first%20issue
   name: Good first issue
+  link: https://github.com/flarum/framework/labels/Good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2022-11-15T13:39:59Z'

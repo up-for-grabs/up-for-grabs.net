@@ -1,10 +1,7 @@
-desc: Web-based XMPP/Jabber chat client written in JavaScript
+---
 name: Converse
+desc: Web-based XMPP/Jabber chat client written in JavaScript
 site: https://conversejs.org/
-stats:
-  fork-count: 0
-  issue-count: 13
-  last-updated: '2022-11-13T18:18:22Z'
 tags:
 - javascript
 - web
@@ -13,5 +10,8 @@ tags:
 - css
 - design
 upforgrabs:
-  link: https://github.com/conversejs/converse.js/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/conversejs/converse.js/labels/good%20first%20issue
+stats:
+  issue-count: 13
+  last-updated: '2022-11-13T18:18:22Z'

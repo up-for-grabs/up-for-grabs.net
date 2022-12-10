@@ -1,11 +1,9 @@
-desc: An open source collection of animations, from loaders, to menus, and scroll
-  transitions, and anything in between
+---
 name: Animations
+desc: >-
+  An open source collection of animations, from loaders, to menus, and scroll transitions, and anything
+  in between
 site: https://animations.gq
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2022-10-17T05:56:23Z'
 tags:
 - css
 - animation
@@ -13,5 +11,8 @@ tags:
 - loader
 - transitions
 upforgrabs:
-  link: https://github.com/UsmanAhmadSaeed/Animations/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/UsmanAhmadSaeed/Animations/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2022-10-17T05:56:23Z'

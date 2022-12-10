@@ -1,10 +1,7 @@
-desc: A bot for Public Lab
+---
 name: plotsbot
+desc: A bot for Public Lab
 site: https://github.com/publiclab/plotsbot
-stats:
-  fork-count: 0
-  issue-count: 9
-  last-updated: '2019-10-15T02:24:21Z'
 tags:
 - javascript
 - oss
@@ -15,5 +12,8 @@ tags:
 - github
 - publiclab
 upforgrabs:
-  link: https://github.com/publiclab/plotsbot/labels/help%20wanted
   name: help wanted
+  link: https://github.com/publiclab/plotsbot/labels/help%20wanted
+stats:
+  issue-count: 9
+  last-updated: '2019-10-15T02:24:21Z'

@@ -1,10 +1,7 @@
-desc: A library for easy and efficient manipulation of tensor networks.
+---
 name: TensorNetwork
+desc: A library for easy and efficient manipulation of tensor networks.
 site: https://github.com/google/TensorNetwork
-stats:
-  fork-count: 0
-  issue-count: 15
-  last-updated: '2022-08-25T15:39:53Z'
 tags:
 - artificial-intelligence
 - deep-learning
@@ -13,5 +10,8 @@ tags:
 - deep-neural-networks
 - neural-network
 upforgrabs:
-  link: https://github.com/google/TensorNetwork/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/google/TensorNetwork/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2022-08-25T15:39:53Z'

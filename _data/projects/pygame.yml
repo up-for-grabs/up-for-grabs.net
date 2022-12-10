@@ -1,10 +1,7 @@
-desc: games, art, music and even sciencing with python.
+---
 name: pygame
+desc: games, art, music and even sciencing with python.
 site: https://pygame.org/
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2022-11-14T08:30:17Z'
 tags:
 - pygame
 - python
@@ -13,5 +10,8 @@ tags:
 - music
 - education
 upforgrabs:
-  link: https://github.com/pygame/pygame/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/pygame/pygame/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2022-11-14T08:30:17Z'

@@ -1,12 +1,12 @@
-desc: PHP Library for retrieving information about Minecraft users
+---
 name: MinecraftProfile
+desc: PHP Library for retrieving information about Minecraft users
 site: https://github.com/navarr/MinecraftProfile
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - php
 - minecraft
 upforgrabs:
-  link: https://github.com/navarr/MinecraftProfile/labels/up%20for%20grabs
   name: up for grabs
+  link: https://github.com/navarr/MinecraftProfile/labels/up%20for%20grabs
+stats:
+  issue-count: 0

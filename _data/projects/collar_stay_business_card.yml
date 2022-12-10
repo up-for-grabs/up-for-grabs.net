@@ -1,11 +1,7 @@
-desc: Parametric business card with built-in emergency collar stays. Optimized for
-  FDM/FFF 3D printing.
+---
 name: Collar Stay Business Card
+desc: Parametric business card with built-in emergency collar stays. Optimized for FDM/FFF 3D printing.
 site: https://github.com/reeserich/collar_stay_business_card
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2022-10-11T20:23:22Z'
 tags:
 - fdm
 - openscad
@@ -14,5 +10,8 @@ tags:
 - 3d-models
 - 3d-printing
 upforgrabs:
-  link: https://github.com/reeserich/collar_stay_business_card/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/reeserich/collar_stay_business_card/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2022-10-11T20:23:22Z'

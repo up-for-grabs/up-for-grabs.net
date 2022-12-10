@@ -1,10 +1,7 @@
-desc: Easy Semantic Versioning ([SemVer.org](http://semver.org)) for projects using
-  Git
+---
 name: GitVersion
+desc: Easy Semantic Versioning ([SemVer.org](http://semver.org)) for projects using Git
 site: https://github.com/GitTools/GitVersion
-stats:
-  fork-count: 0
-  issue-count: 0
 tags:
 - git
 - versioning
@@ -12,5 +9,7 @@ tags:
 - githubflow
 - gitflow
 upforgrabs:
-  link: https://github.com/GitTools/GitVersion/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/GitTools/GitVersion/labels/good%20first%20issue
+stats:
+  issue-count: 0

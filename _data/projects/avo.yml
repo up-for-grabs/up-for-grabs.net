@@ -1,10 +1,7 @@
-desc: Ruby on Rails application building framework
+---
 name: avo
+desc: Ruby on Rails application building framework
 site: https://github.com/avo-hq/avo
-stats:
-  fork-count: 0
-  issue-count: 10
-  last-updated: '2022-10-06T11:48:44Z'
 tags:
 - rubyonrails
 - ruby
@@ -13,5 +10,8 @@ tags:
 - low-code
 - rubygems
 upforgrabs:
-  link: https://github.com/avo-hq/avo/labels/Help%20wanted
   name: Help wanted
+  link: https://github.com/avo-hq/avo/labels/Help%20wanted
+stats:
+  issue-count: 10
+  last-updated: '2022-10-06T11:48:44Z'

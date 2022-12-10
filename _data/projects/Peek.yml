@@ -1,10 +1,7 @@
-desc: An animated GIF recorder
+---
 name: Peek
+desc: An animated GIF recorder
 site: https://github.com/phw/peek
-stats:
-  fork-count: 0
-  issue-count: 3
-  last-updated: '2022-10-07T18:34:09Z'
 tags:
 - vala
 - gtk3
@@ -13,5 +10,8 @@ tags:
 - screencast
 - animated-gifs
 upforgrabs:
-  link: https://github.com/phw/peek/labels/good%20first%20issue
   name: good first issue
+  link: https://github.com/phw/peek/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2022-10-07T18:34:09Z'

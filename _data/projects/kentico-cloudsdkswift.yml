@@ -1,11 +1,9 @@
-desc: The KenticoCloud iOS SDK is a library used for retrieving content. The repository
-  contains a sample app which demonstrates basic usage of the SDK.
+---
 name: cloud-sdk-swift
+desc: >-
+  The KenticoCloud iOS SDK is a library used for retrieving content. The repository contains a sample
+  app which demonstrates basic usage of the SDK.
 site: https://github.com/Kentico/cloud-sdk-swift
-stats:
-  fork-count: 0
-  issue-count: 1
-  last-updated: '2019-10-01T12:00:50Z'
 tags:
 - swift
 - ios
@@ -18,5 +16,8 @@ tags:
 - mobile
 - caas
 upforgrabs:
-  link: https://github.com/Kentico/kontent-delivery-sdk-swift/labels/up-for-grabs
   name: up-for-grabs
+  link: https://github.com/Kentico/kontent-delivery-sdk-swift/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2019-10-01T12:00:50Z'

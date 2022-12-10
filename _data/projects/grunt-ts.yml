@@ -1,14 +1,14 @@
-desc: A Grunt task to manage your complete TypeScript development to production workflow
+---
 name: grunt-ts
+desc: A Grunt task to manage your complete TypeScript development to production workflow
 site: https://github.com/typestrong/grunt-ts
-stats:
-  fork-count: 0
-  issue-count: 18
-  last-updated: '2019-04-29T16:07:05Z'
 tags:
 - typescript
 - grunt
 - gruntjs
 upforgrabs:
-  link: https://github.com/TypeStrong/grunt-ts/labels/Jump%20In
   name: Jump In
+  link: https://github.com/TypeStrong/grunt-ts/labels/Jump%20In
+stats:
+  issue-count: 18
+  last-updated: '2019-04-29T16:07:05Z'

@@ -1,15 +1,15 @@
-desc: The Solidity Contract-Oriented Programming Language
+---
 name: Solidity
+desc: The Solidity Contract-Oriented Programming Language
 site: http://github.com/ethereum/solidity
-stats:
-  fork-count: 0
-  issue-count: 12
-  last-updated: '2022-11-17T11:35:28Z'
 tags:
 - ethereum
 - solidity
 - c++
 - compiler
 upforgrabs:
-  link: https://github.com/ethereum/solidity/labels/help%20wanted
   name: help wanted
+  link: https://github.com/ethereum/solidity/labels/help%20wanted
+stats:
+  issue-count: 12
+  last-updated: '2022-11-17T11:35:28Z'

@@ -1,4 +1,3 @@
----
 name: check-it-out
 desc: A command line interface for Git Checkout
 site: http://checkit.club
@@ -17,3 +16,4 @@ upforgrabs:
   link: https://github.com/jwu910/check-it-out/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

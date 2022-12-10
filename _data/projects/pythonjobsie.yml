@@ -1,8 +1,6 @@
----
 name: pythonjobs.ie
-desc: >-
-  Python Jobs Ireland is a Django jobs board where Python related jobs available in Ireland can be found
-  or posted
+desc: Python Jobs Ireland is a Django jobs board where Python related jobs available
+  in Ireland can be found or posted
 site: https://github.com/kimeraapp/pythonjobs.ie
 tags:
 - python
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-06-09T11:23:01Z'
+  fork-count: 0

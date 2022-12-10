@@ -1,13 +1,12 @@
----
 name: ReactiveUI
-desc: >-
-  An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that
-  is inspired by functional reactive programming. ReactiveUI allows you to abstract mutable state away
-  from your user interfaces, express the idea around a feature in one readable place and improve the testability
-  of your application.
+desc: An advanced, composable, functional reactive model-view-viewmodel framework
+  for all .NET platforms that is inspired by functional reactive programming. ReactiveUI
+  allows you to abstract mutable state away from your user interfaces, express the
+  idea around a feature in one readable place and improve the testability of your
+  application.
 site: https://github.com/reactiveui/reactiveui
 tags:
-- ".net"
+- .net
 - c#
 - mvvm
 - reactiveui
@@ -27,3 +26,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-10-12T22:05:20Z'
+  fork-count: 0

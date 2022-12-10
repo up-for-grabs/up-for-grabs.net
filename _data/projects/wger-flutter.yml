@@ -1,7 +1,6 @@
----
 name: wger Workout Manager (flutter app)
-desc: "wger is a free, open source flutter application that manages and tracks/logs your exercises and
-  personal workouts, weight and diet plans. "
+desc: 'wger is a free, open source flutter application that manages and tracks/logs
+  your exercises and personal workouts, weight and diet plans. '
 site: https://github.com/wger-project/flutter
 tags:
 - flutter
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 9
   last-updated: '2022-10-31T12:55:04Z'
+  fork-count: 0

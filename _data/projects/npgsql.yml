@@ -1,9 +1,8 @@
----
 name: Npgsql
-desc: ".Net data provider for Postgresql"
+desc: .Net data provider for Postgresql
 site: https://github.com/npgsql/npgsql
 tags:
-- ".net"
+- .net
 - c#
 - mono
 - database
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 13
   last-updated: '2022-11-01T10:49:39Z'
+  fork-count: 0

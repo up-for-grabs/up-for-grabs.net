@@ -1,4 +1,3 @@
----
 name: Graphback
 desc: Generate a Node.js GraphQL API in seconds
 site: https://graphback.dev
@@ -10,3 +9,4 @@ upforgrabs:
   link: https://github.com/aerogear/graphback/labels/up%20for%20grabs
 stats:
   issue-count: 0
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: wattpad-scraper
 desc: Easy to use wattpad scraper
 site: https://github.com/shhossain/wattpad-scraper
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-10-19T12:28:20Z'
+  fork-count: 0

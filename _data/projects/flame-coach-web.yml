@@ -1,4 +1,3 @@
----
 name: Flame Coach
 desc: A simple way nutrition coaches track their client's progress!
 site: https://app.flamenutrition.co.uk/login
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-10-07T15:05:10Z'
+  fork-count: 0

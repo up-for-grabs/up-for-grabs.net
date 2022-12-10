@@ -1,7 +1,5 @@
----
-desc: >-
-  Assembly programming game: program the 8086-like microprocessor of a robot in a grid-based multiplayer
-  world
+desc: 'Assembly programming game: program the 8086-like microprocessor of a robot
+  in a grid-based multiplayer world'
 name: Much Assembly Required
 site: https://github.com/simon987/Much-Assembly-Required
 tags:
@@ -14,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 7
   last-updated: '2022-10-04T05:09:18Z'
+  fork-count: 0

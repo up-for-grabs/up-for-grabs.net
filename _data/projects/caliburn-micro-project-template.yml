@@ -1,9 +1,7 @@
----
 name: Caliburn.Micro Project Template
-desc: >-
-  This project template allows you to skip the installation of Caliburn.Micro and start coding directly.
-  The project will also contain tools and helpers which might help you, in the form of services that can
-  be included in your view models.
+desc: This project template allows you to skip the installation of Caliburn.Micro
+  and start coding directly. The project will also contain tools and helpers which
+  might help you, in the form of services that can be included in your view models.
 site: https://github.com/thewindev/CaliburnMicroProjectTemplate
 tags:
 - caliburn.micro
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2015-08-07T20:59:52Z'
+  fork-count: 0

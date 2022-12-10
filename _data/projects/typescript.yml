@@ -1,8 +1,6 @@
----
 name: TypeScript
-desc: >-
-  TypeScript is a superset of JavaScript that compiles to clean JavaScript. It adds static typing and
-  next-level ECMAScript features to JavaScript.
+desc: TypeScript is a superset of JavaScript that compiles to clean JavaScript. It
+  adds static typing and next-level ECMAScript features to JavaScript.
 site: https://github.com/microsoft/TypeScript
 tags:
 - javascript
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 799
   last-updated: '2022-11-18T08:06:41Z'
+  fork-count: 0

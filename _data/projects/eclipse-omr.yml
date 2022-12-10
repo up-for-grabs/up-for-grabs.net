@@ -1,4 +1,3 @@
----
 name: Eclipse OMR
 desc: Reliable components for building language runtimes
 site: https://www.eclipse.org/omr
@@ -19,3 +18,4 @@ upforgrabs:
 stats:
   issue-count: 56
   last-updated: '2022-10-19T20:02:58Z'
+  fork-count: 0

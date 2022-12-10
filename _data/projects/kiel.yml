@@ -1,4 +1,3 @@
----
 name: Kiel
 desc: "Kotlin way of building RecyclerView Adapter \U0001F9E9."
 site: https://ibrahimyilmaz.github.io/kiel/
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2020-08-16T18:22:18Z'
+  fork-count: 0

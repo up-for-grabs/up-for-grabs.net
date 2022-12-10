@@ -1,4 +1,3 @@
----
 name: contentjet-ui
 desc: Open source API-first content management system
 site: https://contentjet.github.io/
@@ -18,3 +17,4 @@ upforgrabs:
   link: https://github.com/contentjet/contentjet-ui/labels/up%20for%20grabs
 stats:
   issue-count: 0
+  fork-count: 0

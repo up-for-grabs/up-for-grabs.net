@@ -1,4 +1,3 @@
----
 name: Swallow - System Programming Language
 desc: An easy to use systems programming language with python like syntax. WIP
 site: https://github.com/Swallow-lang/swallow
@@ -12,3 +11,4 @@ upforgrabs:
   link: https://github.com/peregrine-lang/Peregrine/labels/enhancement
 stats:
   issue-count: 0
+  fork-count: 0

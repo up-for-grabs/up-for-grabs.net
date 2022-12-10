@@ -1,6 +1,6 @@
----
 name: The AMP Project (Accelerated Mobile Pages)
-desc: The AMP Project provides a web component library to make it easy to build fast web pages.
+desc: The AMP Project provides a web component library to make it easy to build fast
+  web pages.
 site: https://github.com/ampproject/amphtml/
 tags:
 - amp
@@ -15,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-11-16T20:57:54Z'
+  fork-count: 0

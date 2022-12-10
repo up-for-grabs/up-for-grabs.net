@@ -1,8 +1,6 @@
----
 name: Surface
-desc: >-
-  Surface is simple, light-weight, MVC based framework written in PHP to provide a faster, secure and
-  efficent way to build websites.
+desc: Surface is simple, light-weight, MVC based framework written in PHP to provide
+  a faster, secure and efficent way to build websites.
 site: https://github.com/feat7/Surface
 tags:
 - php
@@ -17,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-10-18T11:01:03Z'
+  fork-count: 0

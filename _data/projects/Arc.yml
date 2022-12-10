@@ -1,4 +1,3 @@
----
 name: Arc
 desc: Arc is a cross-platform, multi-format archive utility.
 site: https://github.com/mholt/archiver
@@ -12,3 +11,4 @@ upforgrabs:
   link: https://github.com/mholt/archiver/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

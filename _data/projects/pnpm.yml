@@ -1,4 +1,3 @@
----
 name: pnpm
 desc: Fast, disk space efficient package manager
 site: https://pnpm.js.org/
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 15
   last-updated: '2022-11-17T17:40:27Z'
+  fork-count: 0

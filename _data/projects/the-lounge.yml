@@ -1,4 +1,3 @@
----
 name: The Lounge
 desc: Modern web IRC client designed for self-hosting
 site: https://thelounge.chat
@@ -16,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 35
   last-updated: '2022-11-12T23:30:51Z'
+  fork-count: 0

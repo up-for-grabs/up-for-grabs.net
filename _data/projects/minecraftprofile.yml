@@ -1,4 +1,3 @@
----
 name: MinecraftProfile
 desc: PHP Library for retrieving information about Minecraft users
 site: https://github.com/navarr/MinecraftProfile
@@ -10,3 +9,4 @@ upforgrabs:
   link: https://github.com/navarr/MinecraftProfile/labels/up%20for%20grabs
 stats:
   issue-count: 0
+  fork-count: 0

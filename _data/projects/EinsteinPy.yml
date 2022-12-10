@@ -1,4 +1,3 @@
----
 name: EinsteinPy
 desc: A python library for numerical and symbolic relativity
 site: https://github.com/einsteinpy/einsteinpy
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 7
   last-updated: '2022-11-15T07:17:23Z'
+  fork-count: 0

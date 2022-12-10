@@ -1,13 +1,11 @@
----
 name: opentelemetry-dotnet
-desc: >-
-  .NET implementation of OpenTelemetry, a working name of a combined OpenCensus and OpenTracing project.
-  It provides a single set of APIs, libraries, agents, and collector services to capture distributed traces
-  and metrics from your application. You can analyze them using Prometheus, Jaeger, and other observability
-  tools.
+desc: .NET implementation of OpenTelemetry, a working name of a combined OpenCensus
+  and OpenTracing project. It provides a single set of APIs, libraries, agents, and
+  collector services to capture distributed traces and metrics from your application.
+  You can analyze them using Prometheus, Jaeger, and other observability tools.
 site: https://opentelemetry.io/
 tags:
-- ".net"
+- .net
 - trace
 - cloud
 - stats
@@ -26,3 +24,4 @@ upforgrabs:
 stats:
   issue-count: 32
   last-updated: '2022-11-16T16:56:17Z'
+  fork-count: 0

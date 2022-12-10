@@ -1,4 +1,3 @@
----
 name: vscode-ttcn3
 desc: Rich TTCN-3 language support for Visual Studio Code
 site: https://marketplace.visualstudio.com/items?itemName=Nokia.ttcn3
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2022-09-30T06:54:18Z'
+  fork-count: 0

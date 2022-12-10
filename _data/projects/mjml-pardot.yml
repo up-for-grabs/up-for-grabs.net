@@ -1,4 +1,3 @@
----
 name: mjml-pardot
 desc: Pardot compatible MJML v4 components
 site: https://github.com/Alexnortung/mjml-pardot
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-11-17T20:20:26Z'
+  fork-count: 0

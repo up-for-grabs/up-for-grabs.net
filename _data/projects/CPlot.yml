@@ -1,4 +1,3 @@
----
 name: CPlot
 desc: Function plotter, for 2D, 3D, vector fields and, especially, complex functions
 site: http://zoon.cc/cplot/
@@ -19,3 +18,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2018-11-21T17:33:40Z'
+  fork-count: 0

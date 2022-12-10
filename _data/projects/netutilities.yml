@@ -1,9 +1,8 @@
----
 name: Net Utilities
 desc: A bunch of utilities for .NET Developers
 site: https://github.com/JustNrik/NetUtilities
 tags:
-- ".net"
+- .net
 - c#
 - utilities
 upforgrabs:
@@ -12,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2021-11-07T23:26:34Z'
+  fork-count: 0

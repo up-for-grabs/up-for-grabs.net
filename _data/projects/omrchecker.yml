@@ -1,6 +1,6 @@
----
 name: OMRChecker
-desc: "Grade exams fast and accurately using a scanner \U0001F5A8 or your phone \U0001F933."
+desc: "Grade exams fast and accurately using a scanner \U0001F5A8 or your phone \U0001F933\
+  ."
 site: https://github.com/Udayraj123/OMRChecker
 tags:
 - opencv
@@ -29,3 +29,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2022-10-22T19:14:49Z'
+  fork-count: 0

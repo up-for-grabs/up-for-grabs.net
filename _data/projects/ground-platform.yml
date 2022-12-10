@@ -1,10 +1,9 @@
----
 name: Ground Platform
-desc: >-
-  Ground is an open-source, map-first data collection and analysis platform built to seamlessly connect
-  the offline world with cloud-based storage and computation. The platform consists of a web app for data
-  management and an Android app for offline data collection. Our goal is to provide a "just right" data
-  collection solution that meets the needs of community organizers, conservationists, humanitarian workers,
+desc: Ground is an open-source, map-first data collection and analysis platform built
+  to seamlessly connect the offline world with cloud-based storage and computation.
+  The platform consists of a web app for data management and an Android app for offline
+  data collection. Our goal is to provide a "just right" data collection solution
+  that meets the needs of community organizers, conservationists, humanitarian workers,
   and researchers addressing some of today's most pressing issues.
 site: https://github.com/google/ground-platform
 tags:
@@ -21,3 +20,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-08-30T14:33:34Z'
+  fork-count: 0

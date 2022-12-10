@@ -1,6 +1,6 @@
----
 name: Stickerify
-desc: Telegram bot to convert images in the format required to be used as Telegram stickers (512x512 PNGs)
+desc: Telegram bot to convert images in the format required to be used as Telegram
+  stickers (512x512 PNGs)
 site: https://github.com/rob93c/Stickerify
 tags:
 - telegram
@@ -13,3 +13,4 @@ upforgrabs:
   link: https://github.com/Stickerifier/Stickerify/labels/up%20for%20grabs
 stats:
   issue-count: 0
+  fork-count: 0

@@ -1,13 +1,12 @@
----
 name: Bitwarden Mobile
-desc: >-
-  Bitwarden is the easiest and safest way to store all of your logins and passwords while conveniently
-  keeping them synced between all of your devices. The Bitwarden mobile application is written in C# with
-  Xamarin Android, Xamarin iOS, and Xamarin Forms.
+desc: Bitwarden is the easiest and safest way to store all of your logins and passwords
+  while conveniently keeping them synced between all of your devices. The Bitwarden
+  mobile application is written in C# with Xamarin Android, Xamarin iOS, and Xamarin
+  Forms.
 site: https://github.com/bitwarden/mobile
 tags:
-- ".net"
-- ".net-core"
+- .net
+- .net-core
 - password-manager
 - c#
 - android
@@ -20,3 +19,4 @@ upforgrabs:
 stats:
   issue-count: 9
   last-updated: '2022-11-13T18:10:08Z'
+  fork-count: 0

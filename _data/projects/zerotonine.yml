@@ -1,9 +1,8 @@
----
 name: ZeroToNine
 desc: A tool for maintaining .NET Assembly versions across multiple source files.
 site: https://github.com/ploeh/ZeroToNine
 tags:
-- ".net"
+- .net
 - semantic-versioning
 - versioning
 - version
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2015-11-13T07:05:53Z'
+  fork-count: 0

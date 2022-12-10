@@ -1,4 +1,3 @@
----
 name: wp-calypso
 desc: The new JavaScript- and API-powered WordPress.com.
 site: https://developer.wordpress.com/calypso/
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 14
   last-updated: '2022-11-11T02:54:06Z'
+  fork-count: 0

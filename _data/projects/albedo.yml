@@ -1,12 +1,10 @@
----
 name: Albedo
-desc: >-
-  A .NET library targeted at making Reflection programming more consistent, using a common set of abstractions
-  and utilities.
+desc: A .NET library targeted at making Reflection programming more consistent, using
+  a common set of abstractions and utilities.
 site: https://github.com/AlbedoOrg/Albedo
 tags:
 - reflection
-- ".net"
+- .net
 - patterns
 - abstraction
 - interface
@@ -15,3 +13,4 @@ upforgrabs:
   link: https://github.com/AlbedoOrg/Albedo/labels/jump%20in
 stats:
   issue-count: 0
+  fork-count: 0

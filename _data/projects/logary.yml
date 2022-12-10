@@ -1,12 +1,10 @@
----
 name: logary
-desc: >-
-  Logary is a high performance, multi-target logging, metric and health-check library for mono and .Net.
-  Targets include: textwriter, console, debugger, nlog, zipkin, nimrod, riemann, logstash, sqlite, sql
-  server, graphite. Adapters for: suave.
+desc: 'Logary is a high performance, multi-target logging, metric and health-check
+  library for mono and .Net. Targets include: textwriter, console, debugger, nlog,
+  zipkin, nimrod, riemann, logstash, sqlite, sql server, graphite. Adapters for: suave.'
 site: https://github.com/logary/logary
 tags:
-- ".net"
+- .net
 - nlog
 - zipkin
 - console
@@ -22,3 +20,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2019-02-18T17:15:38Z'
+  fork-count: 0

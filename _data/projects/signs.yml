@@ -1,8 +1,6 @@
----
 name: Sinhala Fingerspelling Alphabet Learning Tool
-desc: >-
-  A hand pose based web application developed as a training tool for people learning the Sinhala (Sri
-  Lankan) fingerspelling alphabet
+desc: A hand pose based web application developed as a training tool for people learning
+  the Sinhala (Sri Lankan) fingerspelling alphabet
 site: https://example.org/your-project-link-here
 tags:
 - reactjs
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-11-14T23:27:30Z'
+  fork-count: 0

@@ -1,12 +1,10 @@
----
 name: FSharp.Data
-desc: >-
-  The F# Data library implements type providers for working with structured file formats (CSV, JSON and
-  XML) and for accessing the WorldBank and Freebase data. It also includes helpers for parsing JSON and
-  CSV files and for sending HTTP requests.
+desc: The F# Data library implements type providers for working with structured file
+  formats (CSV, JSON and XML) and for accessing the WorldBank and Freebase data. It
+  also includes helpers for parsing JSON and CSV files and for sending HTTP requests.
 site: https://github.com/fsharp/FSharp.Data
 tags:
-- ".net"
+- .net
 - f#
 - data
 - typeprovider
@@ -22,3 +20,4 @@ upforgrabs:
 stats:
   issue-count: 29
   last-updated: '2021-04-07T18:30:59Z'
+  fork-count: 0

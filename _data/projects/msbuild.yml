@@ -1,9 +1,9 @@
----
 name: MSBuild
-desc: The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio.
+desc: The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual
+  Studio.
 site: https://github.com/dotnet/msbuild
 tags:
-- ".net"
+- .net
 - build
 upforgrabs:
   name: help wanted
@@ -11,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 84
   last-updated: '2022-11-17T18:02:55Z'
+  fork-count: 0

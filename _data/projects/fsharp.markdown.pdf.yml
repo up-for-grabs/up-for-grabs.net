@@ -1,9 +1,8 @@
----
 name: FSharp.Markdown.Pdf
 desc: PDF formatting from FSharp.Markdown
 site: https://github.com/theburningmonk/FSharp.Markdown.Pdf
 tags:
-- ".net"
+- .net
 - f#
 - markdown
 - pdf
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2014-06-27T20:49:38Z'
+  fork-count: 0

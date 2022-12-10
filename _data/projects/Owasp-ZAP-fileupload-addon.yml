@@ -1,4 +1,3 @@
----
 name: Owasp ZAP Fileupload Addon
 desc: OWASP ZAP add-on for finding vulnerabilities in File Upload functionality.
 site: https://github.com/SasanLabs/owasp-zap-fileupload-addon
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2022-11-07T16:56:33Z'
+  fork-count: 0

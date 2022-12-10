@@ -1,13 +1,13 @@
----
 name: FsCMS
 desc: F# Based CMS
 site: https://github.com/FsCMS/FsCMS
 tags:
 - f#
-- ".net"
+- .net
 upforgrabs:
   name: help wanted
   link: https://github.com/FsCMS/FsCMS/labels/help%20wanted
 stats:
   issue-count: 1
   last-updated: '2018-03-30T18:39:01Z'
+  fork-count: 0

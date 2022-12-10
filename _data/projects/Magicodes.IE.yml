@@ -1,11 +1,9 @@
----
 name: Magicodes.IE
-desc: >-
-  Import and export general library, support Dto import and export, template export, fancy export and
-  dynamic export, support Excel, Csv, Word, Pdf and Html.
+desc: Import and export general library, support Dto import and export, template export,
+  fancy export and dynamic export, support Excel, Csv, Word, Pdf and Html.
 site: https://github.com/dotnetcore/Magicodes.IE
 tags:
-- ".net"
+- .net
 - html
 - pdf
 - csv
@@ -22,3 +20,4 @@ upforgrabs:
 stats:
   issue-count: 27
   last-updated: '2022-11-01T05:41:59Z'
+  fork-count: 0

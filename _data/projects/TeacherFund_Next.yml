@@ -1,8 +1,6 @@
----
 name: TeacherFund_Next
-desc: >-
-  A charity to support great teachers that go above and beyond to buy resources not funded by the school
-  curriculum. Currently under development.
+desc: A charity to support great teachers that go above and beyond to buy resources
+  not funded by the school curriculum. Currently under development.
 site: https://github.com/teacherfund/TeacherFund_next
 tags:
 - javascript
@@ -15,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-10-25T17:06:22Z'
+  fork-count: 0

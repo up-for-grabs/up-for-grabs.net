@@ -1,8 +1,6 @@
----
 name: WOSPM Checker
-desc: >-
-  A checker tool for open source project owners to measure if their open source project is a welcoming
-  project or not
+desc: A checker tool for open source project owners to measure if their open source
+  project is a welcoming project or not
 site: https://wospm.github.io/checker/
 tags:
 - php
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2020-10-05T08:28:16Z'
+  fork-count: 0

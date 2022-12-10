@@ -1,4 +1,3 @@
----
 name: seneca
 desc: A microservices toolkit for Node.js
 site: http://senecajs.org/
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 14
   last-updated: '2022-10-11T11:16:55Z'
+  fork-count: 0

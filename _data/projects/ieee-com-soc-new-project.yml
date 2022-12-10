@@ -1,8 +1,6 @@
----
 name: Annual-Yearbook
-desc: >-
-  A yearbook which records the precious memories of University students to add their messages in their
-  yearbook.
+desc: A yearbook which records the precious memories of University students to add
+  their messages in their yearbook.
 site: https://memories.ieeecsvitc.com
 tags:
 - typescript
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2022-10-31T07:03:59Z'
+  fork-count: 0

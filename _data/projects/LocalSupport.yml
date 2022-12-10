@@ -1,4 +1,3 @@
----
 name: LocalSupport
 desc: Directory of non-profits and volunteer opportunities
 site: https://github.com/AgileVentures/LocalSupport
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2019-10-15T16:35:49Z'
+  fork-count: 0

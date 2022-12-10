@@ -1,4 +1,3 @@
----
 name: tutorialdb
 desc: A search engine for programming/dev tutorials.
 site: https://github.com/Bhupesh-V/tutorialdb
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 14
   last-updated: '2022-08-07T15:26:51Z'
+  fork-count: 0

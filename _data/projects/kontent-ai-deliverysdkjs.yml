@@ -1,4 +1,3 @@
----
 name: delivery-sdk-js
 desc: JavaScript content delivery SDK for Kontent.ai
 site: https://github.com/kontent-ai/delivery-sdk-js
@@ -21,3 +20,4 @@ upforgrabs:
   link: https://github.com/kontent-ai/delivery-sdk-js/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

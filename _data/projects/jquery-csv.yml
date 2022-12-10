@@ -1,4 +1,3 @@
----
 name: jquery-csv
 desc: A jQuery CSV parser plugin. Battle Tested | Optimized | 100% IETF RFC 4180 Complete
 site: https://github.com/typeiii/jquery-csv
@@ -12,3 +11,4 @@ upforgrabs:
   link: https://github.com/evanplaice/jquery-csv/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

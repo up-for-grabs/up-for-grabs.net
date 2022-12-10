@@ -1,6 +1,6 @@
----
 name: React
-desc: A declarative, efficient, and flexible JavaScript library for building user interfaces.
+desc: A declarative, efficient, and flexible JavaScript library for building user
+  interfaces.
 site: https://facebook.github.io/react/
 tags:
 - reactjs
@@ -13,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-10-13T11:08:28Z'
+  fork-count: 0

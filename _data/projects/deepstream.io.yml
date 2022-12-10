@@ -1,4 +1,3 @@
----
 name: deepstream.io
 desc: A Scalable Server for Realtime Web Apps
 site: http://deepstream.io/
@@ -10,7 +9,7 @@ tags:
 - android
 - c
 - c++
-- ".net"
+- .net
 - c#
 - ruby
 - python
@@ -25,3 +24,4 @@ upforgrabs:
   link: https://github.com/deepstreamIO/deepstream.io/labels/help-wanted
 stats:
   issue-count: 0
+  fork-count: 0

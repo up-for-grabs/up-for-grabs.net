@@ -1,4 +1,3 @@
----
 name: mycovidconnect
 desc: Skip the Queue. Check-in to hospital faster! Automated 911 for Non-ER Patients.
 site: https://www.mycovidconnect.com
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 18
   last-updated: '2022-10-09T20:10:52Z'
+  fork-count: 0

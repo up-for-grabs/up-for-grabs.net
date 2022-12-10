@@ -1,4 +1,3 @@
----
 name: Nikola
 desc: A blog-aware static-site generator with incremental builds and batteries included
 site: https://getnikola.com/
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 9
   last-updated: '2022-03-26T11:30:07Z'
+  fork-count: 0

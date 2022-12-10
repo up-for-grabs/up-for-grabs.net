@@ -1,6 +1,6 @@
----
 name: Mumble
-desc: open source, low-latency, high quality voice chat software primarily intended for use while gaming
+desc: open source, low-latency, high quality voice chat software primarily intended
+  for use while gaming
 site: https://mumble.info/
 tags:
 - qt
@@ -12,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 32
   last-updated: '2022-11-14T15:47:55Z'
+  fork-count: 0

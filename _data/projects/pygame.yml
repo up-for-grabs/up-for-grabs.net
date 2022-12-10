@@ -1,4 +1,3 @@
----
 name: pygame
 desc: games, art, music and even sciencing with python.
 site: https://pygame.org/
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-11-14T08:30:17Z'
+  fork-count: 0

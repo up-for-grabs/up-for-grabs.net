@@ -1,6 +1,6 @@
----
 name: lakeFS
-desc: an open source layer that delivers resilience and manageability to object-storage based data lakes
+desc: an open source layer that delivers resilience and manageability to object-storage
+  based data lakes
 site: https://github.com/treeverse/lakeFS
 tags:
 - data
@@ -21,3 +21,4 @@ upforgrabs:
 stats:
   issue-count: 35
   last-updated: '2022-11-03T12:53:18Z'
+  fork-count: 0

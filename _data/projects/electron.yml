@@ -1,8 +1,6 @@
----
 name: electron
-desc: >-
-  The Electron framework lets you write cross-platform desktop applications using JavaScript, HTML and
-  CSS.
+desc: The Electron framework lets you write cross-platform desktop applications using
+  JavaScript, HTML and CSS.
 site: https://github.com/electron/electron
 tags:
 - electron
@@ -19,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 11
   last-updated: '2022-11-15T02:14:48Z'
+  fork-count: 0

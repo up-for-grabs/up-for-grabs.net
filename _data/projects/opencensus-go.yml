@@ -1,10 +1,8 @@
----
 name: opencensus-go
-desc: >-
-  A statistics collection and distributed tracing framework. Go language implementation of OpenCensus,
-  a toolkit for collecting application performance and behavior monitoring data. It allows to automatically
-  collect incoming and outgoing calls information from various frameworks and export this information
-  to backend of your choice.
+desc: A statistics collection and distributed tracing framework. Go language implementation
+  of OpenCensus, a toolkit for collecting application performance and behavior monitoring
+  data. It allows to automatically collect incoming and outgoing calls information
+  from various frameworks and export this information to backend of your choice.
 site: https://opencensus.io
 tags:
 - trace
@@ -28,3 +26,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-01-19T16:34:33Z'
+  fork-count: 0

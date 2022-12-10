@@ -1,4 +1,3 @@
----
 name: streamplify
 desc: Java 8 combinatorics-related streams and other utilities
 site: http://streamplify.beryx.org
@@ -14,3 +13,4 @@ upforgrabs:
   link: https://github.com/beryx/streamplify/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

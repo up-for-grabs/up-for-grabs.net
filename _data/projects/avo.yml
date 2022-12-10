@@ -1,4 +1,3 @@
----
 name: avo
 desc: Ruby on Rails application building framework
 site: https://github.com/avo-hq/avo
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2022-10-06T11:48:44Z'
+  fork-count: 0

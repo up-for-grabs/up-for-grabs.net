@@ -1,4 +1,3 @@
----
 name: proot-rs
 desc: Rust implementation of PRoot, a ptrace-based sandbox
 site: https://github.com/proot-me/proot-rs
@@ -21,3 +20,4 @@ upforgrabs:
   link: https://github.com/proot-me/proot-rs/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

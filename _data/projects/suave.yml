@@ -1,11 +1,9 @@
----
 name: Suave
-desc: >-
-  Suave is a simple web development F# library providing a lightweight web server and a set of combinators
-  to manipulate route flow and task composition.
+desc: Suave is a simple web development F# library providing a lightweight web server
+  and a set of combinators to manipulate route flow and task composition.
 site: https://github.com/SuaveIO/suave
 tags:
-- ".net"
+- .net
 - f#
 - web
 - server
@@ -15,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 11
   last-updated: '2018-10-19T17:06:33Z'
+  fork-count: 0

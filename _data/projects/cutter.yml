@@ -1,4 +1,3 @@
----
 name: Cutter
 desc: Free and Open Source Reverse Engineering Platform powered by radare2
 site: https://cutter.re
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 50
   last-updated: '2022-11-15T16:07:51Z'
+  fork-count: 0

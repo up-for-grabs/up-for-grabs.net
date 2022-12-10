@@ -1,4 +1,3 @@
----
 name: React Native
 desc: A framework for building native apps with React.
 site: https://facebook.github.io/react-native/
@@ -20,3 +19,4 @@ upforgrabs:
 stats:
   issue-count: 16
   last-updated: '2022-11-18T06:19:07Z'
+  fork-count: 0

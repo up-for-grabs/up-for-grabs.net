@@ -1,4 +1,3 @@
----
 name: Nuclear
 desc: Desktop music player for streaming from free sources
 site: https://nuclear.js.org
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 17
   last-updated: '2022-11-18T13:06:33Z'
+  fork-count: 0

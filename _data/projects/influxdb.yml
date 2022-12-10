@@ -1,4 +1,3 @@
----
 name: InfluxDB
 desc: InfluxDB is a time-series database
 site: https://influxdata.com/time-series-platform/influxdb/
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-06-09T19:40:20Z'
+  fork-count: 0

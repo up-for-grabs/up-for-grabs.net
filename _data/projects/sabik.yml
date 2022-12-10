@@ -1,8 +1,6 @@
----
 name: sabik
-desc: >-
-  Visualize source code complexity with Sabik. This tool is to find the bad smell code. I think your helpful
-  refactoring.
+desc: Visualize source code complexity with Sabik. This tool is to find the bad smell
+  code. I think your helpful refactoring.
 site: https://github.com/ytetsuro/sabik
 tags:
 - javascript
@@ -18,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-10-02T14:36:41Z'
+  fork-count: 0

@@ -1,8 +1,6 @@
----
 name: fibonacci-series
-desc: >-
-  This repository is to write program the famous Fibonacci series in as many different programming languages
-  as we can.
+desc: This repository is to write program the famous Fibonacci series in as many different
+  programming languages as we can.
 site: https://github.com/fharookshaik/fibonacci-series
 tags:
 - learn
@@ -17,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-11-08T23:19:53Z'
+  fork-count: 0

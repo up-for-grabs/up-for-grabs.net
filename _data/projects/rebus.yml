@@ -1,10 +1,9 @@
----
 name: Rebus
 desc: (Yet another) .NET durable messaging library, or "service bus" if you like
 site: https://github.com/rebus-org/Rebus
 tags:
 - c#
-- ".net"
+- .net
 - msmq
 - rabbitmq
 - azure
@@ -19,3 +18,4 @@ upforgrabs:
   link: https://github.com/rebus-org/Rebus/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

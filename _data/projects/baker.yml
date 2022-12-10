@@ -1,6 +1,6 @@
----
 name: Baker
-desc: Baker is a library that reduces the effort to orchestrate (micro)service-based process flows
+desc: Baker is a library that reduces the effort to orchestrate (micro)service-based
+  process flows
 site: https://ing-bank.github.io/baker/
 tags:
 - java
@@ -13,3 +13,4 @@ upforgrabs:
   link: https://github.com/ing-bank/baker/labels/Hacktoberfest
 stats:
   issue-count: 0
+  fork-count: 0

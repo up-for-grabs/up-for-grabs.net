@@ -1,8 +1,6 @@
----
 name: CPP
-desc: >-
-  CPP repository contains all algorithms, resources related to competitive programming as well as for
-  technical interviews.
+desc: CPP repository contains all algorithms, resources related to competitive programming
+  as well as for technical interviews.
 site: https://github.com/akshitagit/CPP
 tags:
 - cpp
@@ -13,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 80
   last-updated: '2022-10-23T14:34:20Z'
+  fork-count: 0

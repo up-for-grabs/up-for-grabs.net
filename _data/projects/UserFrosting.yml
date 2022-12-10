@@ -1,4 +1,3 @@
----
 name: UserFrosting
 desc: A secure, modern PHP user management application and framework.
 site: https://github.com/userfrosting/UserFrosting
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 35
   last-updated: '2022-09-14T21:17:47Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: StirFry
 desc: An easy to use and tasty web framework for node.js
 site: https://github.com/StirFry-js/stirfry
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/StirFry-js/stirfry/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

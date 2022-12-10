@@ -1,4 +1,3 @@
----
 name: CodiMD
 desc: Realtime collaborative markdown notes
 site: https://github.com/codimd/server
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-05-24T21:20:28Z'
+  fork-count: 0

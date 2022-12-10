@@ -1,4 +1,3 @@
----
 name: python-random-markdown-generator
 desc: A library to generate random markdown text.
 site: https://ignisda.github.io/python-random-markdown-generator
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/IgnisDa/python-random-markdown-generator/labels/Up%20for%20grabs
 stats:
   issue-count: 0
+  fork-count: 0

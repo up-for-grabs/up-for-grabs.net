@@ -1,4 +1,3 @@
----
 name: Weblate
 desc: Web based translation tool with tight version control integration.
 site: https://weblate.org/
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 53
   last-updated: '2022-11-16T08:47:07Z'
+  fork-count: 0

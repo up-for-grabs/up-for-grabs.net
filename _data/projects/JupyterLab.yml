@@ -1,6 +1,5 @@
----
 name: JupyterLab
-desc: Jupyter’s Next-Generation Notebook Interface.
+desc: "Jupyter\u2019s Next-Generation Notebook Interface."
 site: https://github.com/jupyterlab/jupyterlab
 tags:
 - jupyter
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 44
   last-updated: '2022-11-17T12:51:29Z'
+  fork-count: 0

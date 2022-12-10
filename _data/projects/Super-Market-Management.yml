@@ -1,4 +1,3 @@
----
 name: Super Market Management
 desc: Easy C/C++ application to understand the object oriented concepts.
 site: https://github.com/jayskhatri/Super-Market-Management
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/jayskhatri/Super-Market-Management/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

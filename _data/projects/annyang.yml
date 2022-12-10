@@ -1,4 +1,3 @@
----
 name: annyang
 desc: A popular JavaScript library for doing Speech Recognition
 site: https://www.talater.com/annyang/
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/TalAter/annyang/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

@@ -1,6 +1,6 @@
----
 name: Labforum
-desc: A lightweight, API powered forum engine that deploys quickly and have cross-platform support.
+desc: A lightweight, API powered forum engine that deploys quickly and have cross-platform
+  support.
 site: https://www.labstry.com
 tags:
 - php
@@ -13,3 +13,4 @@ upforgrabs:
   link: https://github.com/labstry-opensource/labforum/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

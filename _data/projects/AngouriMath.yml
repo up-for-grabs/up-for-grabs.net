@@ -1,9 +1,8 @@
----
 name: AngouriMath
 desc: Computer algebra library for .NET
 site: https://am.angouri.org
 tags:
-- ".net"
+- .net
 - math
 - computer-algebra
 - c#
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 11
   last-updated: '2022-11-17T03:11:10Z'
+  fork-count: 0

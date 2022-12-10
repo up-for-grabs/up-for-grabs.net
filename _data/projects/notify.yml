@@ -1,4 +1,3 @@
----
 name: notify
 desc: A dead simple Go library for sending notifications to various messaging services.
 site: https://github.com/nikoksr/notify
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 18
   last-updated: '2022-11-18T08:54:35Z'
+  fork-count: 0

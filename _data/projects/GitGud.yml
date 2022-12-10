@@ -1,4 +1,3 @@
----
 name: GitGud
 desc: A CLI git tool built using Ink, Node and React
 site: https://github.com/GitGud-org/GitGud
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-10-13T17:42:18Z'
+  fork-count: 0

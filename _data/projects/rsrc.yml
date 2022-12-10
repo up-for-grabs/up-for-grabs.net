@@ -1,4 +1,3 @@
----
 name: rsrc
 desc: Tool for embedding .ico & manifest resources in Go programs for Windows.
 site: https://github.com/akavel/rsrc
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2019-07-08T08:03:20Z'
+  fork-count: 0

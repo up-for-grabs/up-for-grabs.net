@@ -1,10 +1,9 @@
----
 name: Hammer
 desc: FHIR instance validator
 site: https://github.com/vadi2/Hammer
 tags:
 - oss
-- ".net"
+- .net
 - gui
 - c#
 - cross-platform
@@ -17,3 +16,4 @@ upforgrabs:
   link: https://github.com/vadi2/Hammer/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

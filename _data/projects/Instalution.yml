@@ -1,4 +1,3 @@
----
 name: Instalution
 desc: Instalution aims to be a revolutionary solution to Instagram.
 site: https://github.com/instalution/frontend
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-09-21T01:07:46Z'
+  fork-count: 0

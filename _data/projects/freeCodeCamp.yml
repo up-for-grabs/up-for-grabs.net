@@ -1,6 +1,6 @@
----
 name: freeCodeCamp
-desc: The http://freeCodeCamp.com open source codebase and curriculum. Learn to code and help nonprofits.
+desc: The http://freeCodeCamp.com open source codebase and curriculum. Learn to code
+  and help nonprofits.
 site: https://github.com/freecodecamp/freecodecamp
 tags:
 - javascript
@@ -14,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 41
   last-updated: '2022-11-17T08:45:37Z'
+  fork-count: 0

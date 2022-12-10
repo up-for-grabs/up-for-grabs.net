@@ -1,10 +1,9 @@
----
 name: boilerplate-net
 desc: Kontent.ai Boilerplate for development of ASP.NET Core MVC applications
 site: https://github.com/kontent-ai/boilerplate-net
 tags:
-- ".net"
-- ".net-core"
+- .net
+- .net-core
 - boilerplate
 - mvc
 - c#
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2021-09-30T07:31:40Z'
+  fork-count: 0

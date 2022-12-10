@@ -1,4 +1,3 @@
----
 name: buku
 desc: A private cmdline bookmark manager in Python3 and SQLite3
 site: https://github.com/jarun/Buku
@@ -9,3 +8,4 @@ upforgrabs:
   link: https://github.com/jarun/buku/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

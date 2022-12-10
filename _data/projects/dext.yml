@@ -1,4 +1,3 @@
----
 name: Dext
 desc: A smart launcher for Mac. Powered by JavaScript.
 site: https://github.com/DextApp/dext
@@ -9,9 +8,9 @@ tags:
 - reactjs
 - javascript
 upforgrabs:
-  name: "Type: help-wanted \U0001F481‍♂️"
-  link: >-
-    https://github.com/DextApp/dext/labels/Type%3A%20help-wanted%20%F0%9F%92%81%E2%80%8D%E2%99%82%EF%B8%8F
+  name: "Type: help-wanted \U0001F481\u200D\u2642\uFE0F"
+  link: https://github.com/DextApp/dext/labels/Type%3A%20help-wanted%20%F0%9F%92%81%E2%80%8D%E2%99%82%EF%B8%8F
 stats:
   issue-count: 4
   last-updated: '2018-04-16T23:46:35Z'
+  fork-count: 0

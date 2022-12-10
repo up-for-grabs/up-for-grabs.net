@@ -1,9 +1,8 @@
----
 name: opentelemetry-operator
-desc: >-
-  Kubernetes Operator for OpenTelemetry Collector. OpenTelemetry provides a single set of APIs, libraries,
-  agents, and collector services to capture distributed traces and metrics from your application. You
-  can analyze them using Prometheus, Jaeger, and other observability tools.
+desc: Kubernetes Operator for OpenTelemetry Collector. OpenTelemetry provides a single
+  set of APIs, libraries, agents, and collector services to capture distributed traces
+  and metrics from your application. You can analyze them using Prometheus, Jaeger,
+  and other observability tools.
 site: https://opentelemetry.io/
 tags:
 - operator
@@ -25,3 +24,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-09-29T11:37:31Z'
+  fork-count: 0

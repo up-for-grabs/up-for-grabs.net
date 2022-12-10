@@ -1,15 +1,13 @@
----
 name: Serilog
-desc: >-
-  Simple .NET logging with fully-structured events. Serilog combines the best features of traditional
-  and structured diagnostic logging in an easy-to-use package
+desc: Simple .NET logging with fully-structured events. Serilog combines the best
+  features of traditional and structured diagnostic logging in an easy-to-use package
 site: http://serilog.net
 tags:
 - logging
 - events
 - semantic
 - structured
-- ".net"
+- .net
 - c#
 upforgrabs:
   name: up-for-grabs
@@ -17,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 6
   last-updated: '2021-04-06T06:15:53Z'
+  fork-count: 0

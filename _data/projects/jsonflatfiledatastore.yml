@@ -1,10 +1,9 @@
----
 name: JsonFlatFileDataStore
 desc: Simple JSON flat file data store with support for typed and dynamic data.
 site: https://github.com/ttu/json-flatfile-datastore
 tags:
 - c#
-- ".net-standard"
+- .net-standard
 - json
 - flat-file
 - data-store
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2020-11-05T04:43:08Z'
+  fork-count: 0

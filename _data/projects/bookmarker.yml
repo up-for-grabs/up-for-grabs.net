@@ -1,4 +1,3 @@
----
 name: Bookmarker
 desc: Convert your Google Chrome's bookmarks into markdown files
 site: https://github.com/lubien/bookmarker
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2020-08-03T11:39:47Z'
+  fork-count: 0

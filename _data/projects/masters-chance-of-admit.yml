@@ -1,8 +1,6 @@
----
 name: Master - Chance of Admit
-desc: >-
-  A website that provides analytics on how different features contribute to your chances of getting into
-  a university of your choice.
+desc: A website that provides analytics on how different features contribute to your
+  chances of getting into a university of your choice.
 site: https://github.com/BBloggsbott/masters-chance-of-admit
 tags:
 - python
@@ -15,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-08-16T17:06:48Z'
+  fork-count: 0

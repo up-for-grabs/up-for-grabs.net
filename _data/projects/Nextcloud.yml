@@ -1,4 +1,3 @@
----
 name: Nextcloud
 desc: A safe home for all your data
 site: https://nextcloud.com
@@ -21,3 +20,4 @@ upforgrabs:
 stats:
   issue-count: 83
   last-updated: '2022-11-15T21:31:11Z'
+  fork-count: 0

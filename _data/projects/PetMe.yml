@@ -1,8 +1,6 @@
----
 name: PetMe
-desc: >-
-  PetMe is an all-in-one platform that allows animals to be adopted, donated to pet lovers, and provides
-  emergency medical care to stray animals in need.
+desc: PetMe is an all-in-one platform that allows animals to be adopted, donated to
+  pet lovers, and provides emergency medical care to stray animals in need.
 site: https://akshitagupta15june.github.io/PetMe/
 tags:
 - html
@@ -15,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-11-05T04:29:49Z'
+  fork-count: 0

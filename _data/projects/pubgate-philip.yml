@@ -1,4 +1,3 @@
----
 name: PubGate FE App
 desc: Minimalist blogging Fediverse client made with Svelte
 site: https://pubgate.autogestion.org/
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2020-04-23T14:51:39Z'
+  fork-count: 0

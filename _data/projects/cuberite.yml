@@ -1,4 +1,3 @@
----
 name: Cuberite
 desc: A lightweight, fast and extensible game server for Minecraft
 site: https://cuberite.org/
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2022-10-11T10:08:28Z'
+  fork-count: 0

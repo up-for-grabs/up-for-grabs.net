@@ -1,6 +1,5 @@
----
 name: Golem
-desc: Worldwide Supercomputer – global prosumer market for computing power.
+desc: "Worldwide Supercomputer \u2013 global prosumer market for computing power."
 site: https://golem.network
 tags:
 - golem
@@ -17,3 +16,4 @@ upforgrabs:
   link: https://github.com/golemfactory/golem/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

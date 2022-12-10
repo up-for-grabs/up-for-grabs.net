@@ -1,4 +1,3 @@
----
 name: Networking_In_Java
 desc: A repostiory which goes through implementation of networking protocols in java
 site: https://github.com/PrajjawalBanati/Networking_In_Java
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-06-09T13:18:07Z'
+  fork-count: 0

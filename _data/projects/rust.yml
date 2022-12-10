@@ -1,4 +1,3 @@
----
 name: Rust
 desc: A systems programming language focused on safety, speed, and concurrency.
 site: https://www.rust-lang.org
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 45
   last-updated: '2022-11-17T19:04:43Z'
+  fork-count: 0

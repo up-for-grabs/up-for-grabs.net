@@ -1,10 +1,9 @@
----
 name: ColorSharp
 desc: A .NET/Mono library to handle color spaces and light spectrums
 site: https://github.com/Litipk/ColorSharp
 tags:
 - c#
-- ".net"
+- .net
 - color
 - colorimetry
 upforgrabs:
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2015-03-11T15:02:34Z'
+  fork-count: 0

@@ -1,6 +1,6 @@
----
 name: IdeaHub
-desc: "A collection of ideas and projects that contain from beginner to advance :octocat: \U0001F3AF\U0001F680"
+desc: "A collection of ideas and projects that contain from beginner to advance :octocat:\
+  \ \U0001F3AF\U0001F680"
 site: https://github.com/MakeContributions/ideahub
 tags:
 - hub
@@ -14,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-11-08T00:41:49Z'
+  fork-count: 0

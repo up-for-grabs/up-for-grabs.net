@@ -1,8 +1,7 @@
----
 name: Wikimedia Commons Android App
-desc: >-
-  The Wikimedia Commons Android app allows users to upload pictures from their Android phone/tablet to
-  Wikimedia Commons. Initially started by the Wikimedia Foundation, this app is now maintained by volunteers.
+desc: The Wikimedia Commons Android app allows users to upload pictures from their
+  Android phone/tablet to Wikimedia Commons. Initially started by the Wikimedia Foundation,
+  this app is now maintained by volunteers.
 site: https://github.com/commons-app/apps-android-commons
 tags:
 - android
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 30
   last-updated: '2022-11-08T00:54:06Z'
+  fork-count: 0

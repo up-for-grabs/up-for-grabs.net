@@ -1,4 +1,3 @@
----
 name: foo_maloja
 desc: Scrobble your foobar2000 plays to your maloja server.
 site: https://github.com/ICTman1076/foo_maloja
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-09-30T20:42:24Z'
+  fork-count: 0

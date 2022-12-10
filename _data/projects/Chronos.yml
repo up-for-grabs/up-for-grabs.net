@@ -1,4 +1,3 @@
----
 name: Chronos
 desc: Desktop client for JIRA. Track time, upload worklogs without a hassle
 site: https://github.com/web-pal/chronos-timetracker
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 9
   last-updated: '2020-05-05T15:02:55Z'
+  fork-count: 0

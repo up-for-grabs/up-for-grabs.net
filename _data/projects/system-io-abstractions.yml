@@ -1,10 +1,9 @@
----
 name: System.IO.Abstractions
 desc: Just like System.Web.Abstractions, but for System.IO. Yay for testable IO access!
 site: https://github.com/TestableIO/System.IO.Abstractions
 tags:
 - c#
-- ".net"
+- .net
 - io
 - testing
 upforgrabs:
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-03-21T20:37:55Z'
+  fork-count: 0

@@ -1,10 +1,9 @@
----
 name: fsharp-hedgehog
 desc: Hedgehog will eat all your bugs.
 site: https://github.com/hedgehogqa/fsharp-hedgehog
 tags:
 - f#
-- ".net"
+- .net
 - testing
 upforgrabs:
   name: help wanted
@@ -12,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 6
   last-updated: '2021-09-21T16:49:20Z'
+  fork-count: 0

@@ -1,10 +1,9 @@
----
 name: dotnet-libyear
 desc: A simple measure of dependency freshness
 site: https://github.com/ecoAPM/dotnet-libyear
 tags:
 - c#
-- ".net"
+- .net
 - dependencies
 - cli
 - nuget
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/ecoAPM/dotnet-libyear/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

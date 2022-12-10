@@ -1,4 +1,3 @@
----
 name: Moya
 desc: Network abstraction layer written in Swift.
 site: https://github.com/Moya/Moya
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2020-07-23T08:18:34Z'
+  fork-count: 0

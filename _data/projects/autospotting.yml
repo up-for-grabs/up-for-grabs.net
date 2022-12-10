@@ -1,8 +1,6 @@
----
 name: AutoSpotting
-desc: >-
-  Automatically replace AWS EC2 instances in AutoScaling groups with identically configured but up to
-  90% cheaper spot instances
+desc: Automatically replace AWS EC2 instances in AutoScaling groups with identically
+  configured but up to 90% cheaper spot instances
 site: https://github.com/AutoSpotting/AutoSpotting
 tags:
 - aws
@@ -20,3 +18,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2020-01-30T02:36:52Z'
+  fork-count: 0

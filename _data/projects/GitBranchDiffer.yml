@@ -1,4 +1,3 @@
----
 name: Git Branch Differ
 desc: A brief description of the project
 site: https://marketplace.visualstudio.com/items?itemName=SajalVerma.GitBranchDiffer
@@ -10,3 +9,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2021-07-17T12:47:14Z'
+  fork-count: 0

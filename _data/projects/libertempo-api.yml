@@ -1,4 +1,3 @@
----
 name: libertempo-api
 desc: API for the libertempo-web web app
 site: https://github.com/libertempo/api
@@ -14,3 +13,4 @@ upforgrabs:
   link: https://github.com/libertempo/api/labels/Help%20Wanted
 stats:
   issue-count: 0
+  fork-count: 0

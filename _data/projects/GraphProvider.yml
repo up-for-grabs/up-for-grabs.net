@@ -1,10 +1,9 @@
----
 name: GraphProvider
 desc: A state machine type provider
 site: https://github.com/fsprojects/GraphProvider
 tags:
 - f#
-- ".net"
+- .net
 - graph
 - type-provider
 upforgrabs:
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2014-02-27T11:10:26Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: PSSlack
 desc: PowerShell module for simple Slack integration
 site: https://github.com/RamblingCookieMonster/PSSlack
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2021-04-24T21:13:54Z'
+  fork-count: 0

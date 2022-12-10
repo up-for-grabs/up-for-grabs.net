@@ -1,6 +1,6 @@
----
 name: Hostel-Pass-Management-Application
-desc: A platform independent application written in Java for management of Hostel Pass for students.
+desc: A platform independent application written in Java for management of Hostel
+  Pass for students.
 site: https://github.com/NishkarshRaj/Hostel-Pass-Management-Application
 tags:
 - java
@@ -16,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-09-16T14:11:53Z'
+  fork-count: 0

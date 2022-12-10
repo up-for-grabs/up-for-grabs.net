@@ -1,6 +1,6 @@
----
 name: Jumpy
-desc: Tactical 2D shooter in fishy pixels style. Made with Rust-lang and Macroquad crabhot_pepper
+desc: Tactical 2D shooter in fishy pixels style. Made with Rust-lang and Macroquad
+  crabhot_pepper
 site: https://fishfight.org/
 tags:
 - bevy
@@ -17,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-11-01T17:04:55Z'
+  fork-count: 0

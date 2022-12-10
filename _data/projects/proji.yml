@@ -1,4 +1,3 @@
----
 name: proji
 desc: A powerful cross-platform CLI project templating tool.
 site: https://github.com/nikoksr/proji
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2021-10-15T19:25:21Z'
+  fork-count: 0

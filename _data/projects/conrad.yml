@@ -1,4 +1,3 @@
----
 name: Conrad
 desc: Conrad (Conference Radar) helps you track conferences and meetups on your terminal.
 site: https://github.com/vinayak-mehta/conrad
@@ -10,3 +9,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2021-03-29T14:54:37Z'
+  fork-count: 0

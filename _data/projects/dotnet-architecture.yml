@@ -1,11 +1,10 @@
----
 name: dotnet-architecture
 desc: Code example that follows the Microsoft Architecture guidance.
 site: https://github.com/dotnet-architecture/eShopOnWeb
 tags:
 - web
 - razor-pages
-- ".net"
+- .net
 - docker
 - ef-core
 upforgrabs:
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/dotnet-architecture/eShopOnWeb/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

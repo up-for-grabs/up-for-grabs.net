@@ -1,4 +1,3 @@
----
 name: Atom Icons
 desc: Custom Atom Editor Icons
 site: https://github.com/HackeSta/atom-icons
@@ -13,3 +12,4 @@ upforgrabs:
   link: https://github.com/haideralipunjabi/atom-icons/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

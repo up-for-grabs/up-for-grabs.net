@@ -1,4 +1,3 @@
----
 name: Academico
 desc: A simple, Laravel-based school management platform
 site: https://academico.site
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2022-10-22T04:46:29Z'
+  fork-count: 0

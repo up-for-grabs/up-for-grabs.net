@@ -1,8 +1,6 @@
----
 name: Hearham.live Repeater-START app
-desc: >-
-  An open-source amateur radio map tool. The only open-source offline amateur radio app utilizing the
-  only open data repeaters project at hearham.com/repeaters.
+desc: An open-source amateur radio map tool. The only open-source offline amateur
+  radio app utilizing the only open data repeaters project at hearham.com/repeaters.
 site: https://hearham.com/repeaters/
 tags:
 - radio
@@ -19,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-10-23T14:56:49Z'
+  fork-count: 0

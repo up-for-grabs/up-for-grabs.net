@@ -1,4 +1,3 @@
----
 name: Owasp ZAP JWT Addon
 desc: OWASP ZAP add-on for finding vulnerabilities in JWT functionality.
 site: https://github.com/SasanLabs/owasp-zap-jwt-addon
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2022-11-07T16:56:24Z'
+  fork-count: 0

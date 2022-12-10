@@ -1,8 +1,7 @@
----
 name: loomio
-desc: >-
-  Loomio is a collaborative decision-making tool that makes it easy for anyone to participate in decisions
-  which affect them. If you'd like to find out more, check out Loomio.org.
+desc: Loomio is a collaborative decision-making tool that makes it easy for anyone
+  to participate in decisions which affect them. If you'd like to find out more, check
+  out Loomio.org.
 site: https://github.com/loomio/loomio
 tags:
 - ruby
@@ -16,3 +15,4 @@ upforgrabs:
   link: https://github.com/loomio/loomio/labels/Easy%20Win
 stats:
   issue-count: 0
+  fork-count: 0

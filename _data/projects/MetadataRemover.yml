@@ -1,8 +1,6 @@
----
 name: Metadata-Remover
-desc: >-
-  A simple Metadata Removal Tool for images , videos , audio and torrent files using exiftool, ffmpeg
-  and mat2 Python3 and C.
+desc: A simple Metadata Removal Tool for images , videos , audio and torrent files
+  using exiftool, ffmpeg and mat2 Python3 and C.
 site: https://github.com/Anish-M-code/Metadata-Remover
 tags:
 - python
@@ -17,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2022-11-10T01:53:54Z'
+  fork-count: 0

@@ -1,7 +1,6 @@
----
 name: Julia Language
-desc: >-
-  Julia is a high-level, high-performance dynamic programming language for technical computing. http://www.julialang.org
+desc: Julia is a high-level, high-performance dynamic programming language for technical
+  computing. http://www.julialang.org
 site: https://github.com/JuliaLang/julia
 tags:
 - julia
@@ -12,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 74
   last-updated: '2022-11-15T20:38:45Z'
+  fork-count: 0

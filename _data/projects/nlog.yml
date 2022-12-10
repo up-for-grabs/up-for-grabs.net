@@ -1,9 +1,8 @@
----
 name: NLog
 desc: NLog - Flexible and high performance logging framework for the .NET platforms
 site: https://github.com/NLog/NLog
 tags:
-- ".net"
+- .net
 - logging
 - structured
 - semantic
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 23
   last-updated: '2022-11-16T20:12:21Z'
+  fork-count: 0

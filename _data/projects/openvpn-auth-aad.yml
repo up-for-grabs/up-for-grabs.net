@@ -1,4 +1,3 @@
----
 name: openvpn-auth-aad
 desc: Azure Active Directory (AAD) OpenVPN Plugin.
 site: https://github.com/aad-for-linux/openvpn-auth-aad
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2021-11-03T03:46:44Z'
+  fork-count: 0

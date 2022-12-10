@@ -1,6 +1,6 @@
----
 name: AskQL
-desc: AskQL is a new query language that can express any data request using fully functional programs
+desc: AskQL is a new query language that can express any data request using fully
+  functional programs
 site: https://askql.org/
 tags:
 - language
@@ -18,3 +18,4 @@ upforgrabs:
 stats:
   issue-count: 14
   last-updated: '2020-12-04T14:30:49Z'
+  fork-count: 0

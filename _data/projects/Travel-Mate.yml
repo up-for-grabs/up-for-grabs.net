@@ -1,4 +1,3 @@
----
 name: Travel Mate
 desc: A complete travel guide
 site: https://github.com/project-travel-mate/Travel-Mate
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 7
   last-updated: '2022-10-04T07:10:24Z'
+  fork-count: 0

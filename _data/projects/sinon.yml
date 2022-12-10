@@ -1,4 +1,3 @@
----
 name: SinonJS
 desc: The worlds most popular stubbing library for javascript
 site: https://sinonjs.org
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 18
   last-updated: '2022-10-31T10:16:47Z'
+  fork-count: 0

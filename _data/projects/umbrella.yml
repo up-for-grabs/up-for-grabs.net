@@ -1,6 +1,6 @@
----
 name: Umbrella JS
-desc: A tiny javascript library to make your life easier. A jquery alternative; not a clone
+desc: A tiny javascript library to make your life easier. A jquery alternative; not
+  a clone
 site: https://github.com/franciscop/umbrella
 tags:
 - javascript
@@ -11,3 +11,4 @@ upforgrabs:
   link: https://github.com/franciscop/umbrella/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

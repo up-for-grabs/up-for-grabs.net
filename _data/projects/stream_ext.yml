@@ -1,4 +1,3 @@
----
 name: stream_ext
 desc: A port of the Rx functions to make Dart's Stream type even easier to use
 site: https://theburningmonk.github.io/stream_ext/
@@ -11,3 +10,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2014-06-27T20:51:30Z'
+  fork-count: 0

@@ -1,8 +1,7 @@
----
 name: React Bootstrap
-desc: >-
-  React-Bootstrap is a library of reuseable front-end components. You'll get the look-and-feel of Twitter
-  Bootstrap, but with much cleaner code, via Facebook's React.js framework.
+desc: React-Bootstrap is a library of reuseable front-end components. You'll get the
+  look-and-feel of Twitter Bootstrap, but with much cleaner code, via Facebook's React.js
+  framework.
 site: https://react-bootstrap.github.io/
 tags:
 - reactjs
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2021-11-17T10:45:08Z'
+  fork-count: 0

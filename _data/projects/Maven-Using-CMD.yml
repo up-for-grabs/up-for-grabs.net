@@ -1,8 +1,6 @@
----
 name: Maven-Using-CMD
-desc: >-
-  Creating a Hello World code project in Java using the Apache Maven build tool and automating it using
-  Jenkins.
+desc: Creating a Hello World code project in Java using the Apache Maven build tool
+  and automating it using Jenkins.
 site: https://github.com/NishkarshRaj/Maven-Using-CMD
 tags:
 - maven
@@ -16,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2019-10-24T11:30:11Z'
+  fork-count: 0

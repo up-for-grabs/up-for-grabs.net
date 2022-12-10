@@ -1,4 +1,3 @@
----
 name: JTerm
 desc: A cross-platform terminal written in Java.
 site: https://github.com/T145/JTerm
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/Sergix/JTerm/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

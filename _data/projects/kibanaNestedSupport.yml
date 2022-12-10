@@ -1,4 +1,3 @@
----
 name: KibanaNestedSupportPlugin
 desc: Kibana Support for nested objects
 site: https://github.com/ppadovani/KibanaNestedSupportPlugin
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2019-03-20T15:51:35Z'
+  fork-count: 0

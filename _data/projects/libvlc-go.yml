@@ -1,4 +1,3 @@
----
 name: libvlc-go
 desc: Golang bindings for libvlc 2.X/3.X/4.X used by the VLC media player
 site: https://github.com/adrg/libvlc-go
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2021-10-22T02:28:12Z'
+  fork-count: 0

@@ -1,4 +1,3 @@
----
 name: Gravtr
 desc: A simple package to generate a gravatar url
 site: https://github.com/gfabricio/gravtr
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/gfabricio/gravtr/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 0

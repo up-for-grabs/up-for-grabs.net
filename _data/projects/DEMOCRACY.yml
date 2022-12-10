@@ -1,8 +1,6 @@
----
 name: DEMOCRACY Deutschland
-desc: >-
-  Mobile & Desktop Application to display all procedures of the german parliament and let the user vote
-  like a virtual member of parliament
+desc: Mobile & Desktop Application to display all procedures of the german parliament
+  and let the user vote like a virtual member of parliament
 site: https://www.democracy-deutschland.de/
 tags:
 - javascript
@@ -25,3 +23,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-10-02T21:15:17Z'
+  fork-count: 0

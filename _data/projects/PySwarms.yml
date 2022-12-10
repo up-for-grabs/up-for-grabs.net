@@ -1,4 +1,3 @@
----
 name: PySwarms
 desc: A Particle Swarm Optimization (PSO) library in Python
 site: https://github.com/ljvmiranda921/pyswarms
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/ljvmiranda921/pyswarms/labels/help%20wanted
 stats:
   issue-count: 0
+  fork-count: 0

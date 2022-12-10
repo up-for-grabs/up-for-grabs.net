@@ -1,9 +1,8 @@
----
 name: mmbot
 desc: A port of GitHub's Hubot to C# and ScriptCS.
 site: https://github.com/mmbot/mmbot
 tags:
-- ".net"
+- .net
 - hubot
 - chat
 - c#
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 8
   last-updated: '2014-08-28T21:08:37Z'
+  fork-count: 0

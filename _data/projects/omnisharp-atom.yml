@@ -1,4 +1,3 @@
----
 name: OmniSharp Atom
 desc: Turns the Atom editor into a fully fledged C# IDE
 site: https://github.com/OmniSharp/omnisharp-atom
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 7
   last-updated: '2018-08-12T07:11:39Z'
+  fork-count: 0

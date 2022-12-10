@@ -1,4 +1,3 @@
----
 name: Fairlearn
 desc: A Python package to assess and improve fairness of machine learning models.
 site: https://github.com/fairlearn/fairlearn
@@ -18,3 +17,4 @@ upforgrabs:
 stats:
   issue-count: 62
   last-updated: '2022-08-11T15:36:18Z'
+  fork-count: 0

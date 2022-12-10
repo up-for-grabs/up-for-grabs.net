@@ -1,6 +1,6 @@
----
 name: OskiBot
-desc: An all-purpose chatbot for UC Berkeley students built on Cisco's Webex Teams messaging application
+desc: An all-purpose chatbot for UC Berkeley students built on Cisco's Webex Teams
+  messaging application
 site: https://github.com/mbzhu1/oskibot
 tags:
 - chatbot
@@ -12,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2019-10-29T07:31:46Z'
+  fork-count: 0

@@ -1,6 +1,6 @@
----
 name: ChakraCore
-desc: ChakraCore is the core part of the Chakra Javascript engine that powers Microsoft Edge
+desc: ChakraCore is the core part of the Chakra Javascript engine that powers Microsoft
+  Edge
 site: https://github.com/Microsoft/ChakraCore
 tags:
 - chakra
@@ -24,3 +24,4 @@ upforgrabs:
 stats:
   issue-count: 46
   last-updated: '2022-10-18T15:52:52Z'
+  fork-count: 0

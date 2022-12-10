@@ -1,4 +1,3 @@
----
 name: pam_aad
 desc: This PAM module aims to provide Azure Active Directory authentication for Linux.
 site: https://github.com/aad-for-linux/pam_aad
@@ -20,3 +19,4 @@ upforgrabs:
 stats:
   issue-count: 6
   last-updated: '2022-09-15T13:47:29Z'
+  fork-count: 0

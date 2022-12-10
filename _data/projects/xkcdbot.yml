@@ -1,4 +1,3 @@
----
 name: XKCD Bot
 desc: A reddit bot for /r/xkcd that posts detailed comments about xkcd comics.
 site: https://github.com/joeyvanlierop/xkcdbot
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2020-07-11T17:26:57Z'
+  fork-count: 0

@@ -1,9 +1,8 @@
----
 name: NUKE
 desc: Build Automation System for C#/.NET
 site: https://nuke.build
 tags:
-- ".net"
+- .net
 - c#
 - build
 - automation
@@ -14,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 9
   last-updated: '2022-10-20T00:08:53Z'
+  fork-count: 0

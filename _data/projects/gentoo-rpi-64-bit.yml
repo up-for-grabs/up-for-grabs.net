@@ -1,4 +1,3 @@
----
 name: gentoo-rpi-64-bit
 desc: Build a gentoo 64-bit system for Raspberry Pi 4
 site: https://github.com/mck-sbs/gentoo-rpi-64-bit
@@ -13,3 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2022-03-04T07:42:40Z'
+  fork-count: 0

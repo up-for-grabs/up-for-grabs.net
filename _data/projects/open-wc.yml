@@ -1,4 +1,3 @@
----
 name: open-wc
 desc: Open Web Component Recommendations
 site: https://open-wc.org/
@@ -12,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 15
   last-updated: '2021-12-19T18:51:58Z'
+  fork-count: 0

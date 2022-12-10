@@ -1,13 +1,13 @@
----
 name: FSharpLint
 desc: Lint tool for F#
 site: https://github.com/fsprojects/FSharpLint
 tags:
 - f#
-- ".net"
+- .net
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/FSharpLint/labels/up-for-grabs
 stats:
   issue-count: 3
   last-updated: '2020-06-15T09:34:17Z'
+  fork-count: 0

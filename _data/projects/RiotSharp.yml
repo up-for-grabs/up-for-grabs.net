@@ -1,13 +1,13 @@
----
 name: RiotSharp
 desc: C# Wrapper for the Riot Games API
 site: https://github.com/BenFradet/RiotSharp
 tags:
 - c#
-- ".net"
+- .net
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/BenFradet/RiotSharp/labels/up-for-grabs
 stats:
   issue-count: 10
   last-updated: '2018-03-01T13:59:21Z'
+  fork-count: 0

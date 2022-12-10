@@ -1,7 +1,6 @@
----
 name: YAWP
-desc: >-
-  Yet Another Web Playground is an online web Playground that lets you play with HTML CSS and JS in real-time
+desc: Yet Another Web Playground is an online web Playground that lets you play with
+  HTML CSS and JS in real-time
 site: https://github.com/josharsh/YAWP
 tags:
 - reactjs
@@ -15,3 +14,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2022-10-06T18:54:12Z'
+  fork-count: 0

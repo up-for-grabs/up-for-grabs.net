@@ -1,4 +1,3 @@
----
 name: delivery-sdk-php
 desc: Kontent.ai Delivery SDK for PHP
 site: https://github.com/kontent-ai/delivery-sdk-php/
@@ -17,3 +16,4 @@ upforgrabs:
 stats:
   issue-count: 6
   last-updated: '2021-09-30T06:41:40Z'
+  fork-count: 0

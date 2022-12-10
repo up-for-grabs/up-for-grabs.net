@@ -1,9 +1,8 @@
----
 name: LitJSON
 desc: JSON library for the .Net framework.
 site: https://litjson.net/
 tags:
-- ".net"
+- .net
 - c#
 - json
 upforgrabs:
@@ -12,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-03-15T13:50:12Z'
+  fork-count: 0

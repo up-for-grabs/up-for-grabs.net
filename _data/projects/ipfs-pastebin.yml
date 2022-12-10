@@ -1,4 +1,3 @@
----
 name: ipfs-pastebin
 desc: A text/code sharing pastebin based on IPFS
 site: https://ipfs-pastebin.herokuapp.com
@@ -11,3 +10,4 @@ upforgrabs:
   link: https://github.com/hrishibawane/ipfs-pastebin/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

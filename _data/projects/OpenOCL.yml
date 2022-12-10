@@ -1,8 +1,6 @@
----
 name: Open Optimal Control Library
-desc: >-
-  Using mathematical optimization to predict the behaviour of dynamical systems, robots, autonomous cars,
-  etc.
+desc: Using mathematical optimization to predict the behaviour of dynamical systems,
+  robots, autonomous cars, etc.
 site: https://openocl.org
 tags:
 - optimal-control
@@ -15,3 +13,4 @@ upforgrabs:
 stats:
   issue-count: 6
   last-updated: '2019-12-13T19:33:20Z'
+  fork-count: 0

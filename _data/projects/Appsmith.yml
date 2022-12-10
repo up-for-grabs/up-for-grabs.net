@@ -1,6 +1,6 @@
----
 name: Appsmith
-desc: Build custom CRUD apps that talk to any API or database. All without HTML or CSS.
+desc: Build custom CRUD apps that talk to any API or database. All without HTML or
+  CSS.
 site: https://appsmith.com/
 tags:
 - low-code
@@ -15,3 +15,4 @@ upforgrabs:
 stats:
   issue-count: 58
   last-updated: '2022-11-18T04:56:45Z'
+  fork-count: 0

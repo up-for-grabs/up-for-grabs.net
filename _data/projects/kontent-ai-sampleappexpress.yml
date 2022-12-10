@@ -3,7 +3,7 @@ desc: Express JS application meant for use with the Dancing Goat sample project 
 name: sample-app-express
 site: https://github.com/kontent-ai/sample-app-express-js
 stats:
-  fork-count: 0
+  fork-count: '3'
   issue-count: 0
 tags:
 - javascript

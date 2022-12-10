@@ -2,7 +2,7 @@ desc: search and download open satellite imagery from the Copernicus Sentinel mi
 name: Sentinelsat
 site: https://github.com/sentinelsat/sentinelsat
 stats:
-  fork-count: 0
+  fork-count: '225'
   issue-count: 2
   last-updated: '2021-08-10T14:50:57Z'
 tags:

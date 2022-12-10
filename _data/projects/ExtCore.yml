@@ -2,7 +2,7 @@ desc: An extended core library for F#.
 name: ExtCore
 site: https://github.com/jack-pappas/ExtCore
 stats:
-  fork-count: 0
+  fork-count: '38'
   issue-count: 6
   last-updated: '2018-05-13T01:12:48Z'
 tags:

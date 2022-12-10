@@ -4,7 +4,7 @@ desc: Write maintainable unit tests, faster. AutoFixture makes it easier for dev
 name: AutoFixture
 site: https://github.com/AutoFixture/AutoFixture
 stats:
-  fork-count: 0
+  fork-count: '332'
   issue-count: 5
   last-updated: '2019-03-17T21:19:13Z'
 tags:

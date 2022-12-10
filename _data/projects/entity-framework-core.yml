@@ -3,7 +3,7 @@ desc: Entity Framework Core is a lightweight and extensible version of the popul
 name: Entity Framework Core
 site: https://github.com/aspnet/EntityFrameworkCore
 stats:
-  fork-count: 0
+  fork-count: 2.9k
   issue-count: 46
   last-updated: '2022-11-17T02:50:46Z'
 tags:

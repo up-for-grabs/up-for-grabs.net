@@ -2,7 +2,7 @@ desc: A modular, multi-featured Discord bot.
 name: ghost2
 site: https://github.com/ghost2-discord/ghost2
 stats:
-  fork-count: 0
+  fork-count: ' '
   issue-count: 0
 tags:
 - java

@@ -5,7 +5,7 @@ desc: The OpenTelemetry website and documentation. OpenTelemetry provides a sing
 name: opentelemetry.io
 site: https://opentelemetry.io/
 stats:
-  fork-count: 0
+  fork-count: '496'
   issue-count: 10
   last-updated: '2022-11-16T15:58:08Z'
 tags:

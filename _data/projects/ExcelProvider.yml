@@ -2,7 +2,7 @@ desc: This library is for the .NET platform implementing a Excel type provider.
 name: ExcelProvider
 site: https://github.com/fsprojects/ExcelProvider
 stats:
-  fork-count: 0
+  fork-count: '45'
   issue-count: 1
   last-updated: '2021-09-04T15:10:26Z'
 tags:

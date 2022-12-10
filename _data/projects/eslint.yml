@@ -3,7 +3,7 @@ desc: ESLint is a tool for identifying and reporting on patterns found in ECMASc
 name: ESLint
 site: https://github.com/eslint/eslint
 stats:
-  fork-count: 0
+  fork-count: 4k
   issue-count: 0
 tags:
 - javascript

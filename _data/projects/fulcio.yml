@@ -3,7 +3,7 @@ desc: fulcio is a free Root-CA for code signing certs - issuing certificates bas
 name: Fulcio
 site: https://github.com/sigstore/fulcio
 stats:
-  fork-count: 0
+  fork-count: '81'
   issue-count: 1
   last-updated: '2021-06-03T07:31:14Z'
 tags:

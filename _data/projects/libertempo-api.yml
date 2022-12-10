@@ -2,7 +2,7 @@ desc: API for the libertempo-web web app
 name: libertempo-api
 site: https://github.com/libertempo/api
 stats:
-  fork-count: 0
+  fork-count: '1'
   issue-count: 0
 tags:
 - php

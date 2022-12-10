@@ -3,7 +3,7 @@ desc: Suave is a simple web development F# library providing a lightweight web s
 name: Suave
 site: https://github.com/SuaveIO/suave
 stats:
-  fork-count: 0
+  fork-count: '206'
   issue-count: 11
   last-updated: '2018-10-19T17:06:33Z'
 tags:

@@ -3,7 +3,7 @@ desc: ASP.NET Core middleware that adds Http cache headers to responses (Cache-C
 name: Http Cache Headers Middleware for ASP.NET Core
 site: https://github.com/KevinDockx/HttpCacheHeaders
 stats:
-  fork-count: 0
+  fork-count: '44'
   issue-count: 0
 tags:
 - cache

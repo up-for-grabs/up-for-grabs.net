@@ -4,7 +4,7 @@ desc: Odot (inverse of "To Do") is a task management tool. It allows the organiz
 name: Odot
 site: https://github.com/elgaspar/Odot
 stats:
-  fork-count: 0
+  fork-count: '4'
   issue-count: 0
 tags:
 - c#

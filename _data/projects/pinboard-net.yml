@@ -2,7 +2,7 @@ desc: A fully featured C# client for the pinboard bookmarking service
 name: pinboard.net
 site: https://github.com/shrayasr/pinboard.net/
 stats:
-  fork-count: 0
+  fork-count: '5'
   issue-count: 3
   last-updated: '2019-10-16T13:14:49Z'
 tags:

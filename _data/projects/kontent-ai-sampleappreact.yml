@@ -2,7 +2,7 @@ desc: Sample React SPA utilizing Kontent.ai delivery API to fetch content
 name: cloud-sample-app-react
 site: https://github.com/kontent-ai/sample-app-react
 stats:
-  fork-count: 0
+  fork-count: '67'
   issue-count: 1
   last-updated: '2021-10-18T15:07:04Z'
 tags:

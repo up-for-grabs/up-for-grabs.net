@@ -3,7 +3,7 @@ desc: This is a very simple React Js based weather application, that uses Weathe
 name: React Weather Application
 site: https://stellar-pie-6964b6.netlify.app/
 stats:
-  fork-count: 0
+  fork-count: '6'
   issue-count: 1
   last-updated: '2022-11-05T03:58:19Z'
 tags:

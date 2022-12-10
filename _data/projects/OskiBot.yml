@@ -3,7 +3,7 @@ desc: An all-purpose chatbot for UC Berkeley students built on Cisco's Webex Tea
 name: OskiBot
 site: https://github.com/mbzhu1/oskibot
 stats:
-  fork-count: 0
+  fork-count: '2'
   issue-count: 1
   last-updated: '2019-10-29T07:31:46Z'
 tags:

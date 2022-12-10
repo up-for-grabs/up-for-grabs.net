@@ -3,7 +3,7 @@ desc: Reviews is a terminal UI Dashboard for monitoring requests for code review
 name: Reviews
 site: https://github.com/apoclyps/reviews
 stats:
-  fork-count: 0
+  fork-count: '12'
   issue-count: 0
 tags:
 - python

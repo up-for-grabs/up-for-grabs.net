@@ -2,7 +2,7 @@ desc: Linux feed reader for GNOME/GTK
 name: Liferea
 site: https://lzone.de/liferea
 stats:
-  fork-count: 0
+  fork-count: '123'
   issue-count: 19
   last-updated: '2022-10-24T20:57:39Z'
 tags:

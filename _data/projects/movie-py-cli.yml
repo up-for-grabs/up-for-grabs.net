@@ -2,7 +2,7 @@ desc: A simple script for fetching movie details right from the terminal
 name: movie-py-cli
 site: https://github.com/prateekkalra/movie-py-cli
 stats:
-  fork-count: 0
+  fork-count: '16'
   issue-count: 1
   last-updated: '2020-05-13T13:49:11Z'
 tags:

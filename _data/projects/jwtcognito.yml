@@ -2,7 +2,7 @@ desc: Golang package to ease the use of AWS Cognito JWTs.
 name: gojwtcognito
 site: https://github.com/bruno-chavez/gojwtcognito
 stats:
-  fork-count: 0
+  fork-count: '3'
   issue-count: 1
   last-updated: '2020-10-01T12:33:56Z'
 tags:

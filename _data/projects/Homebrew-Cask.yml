@@ -2,7 +2,7 @@ desc: A CLI workflow for the administration of Mac applications distributed as b
 name: Homebrew-Cask
 site: https://formulae.brew.sh/cask/
 stats:
-  fork-count: 0
+  fork-count: 10.1k
   issue-count: 5
   last-updated: '2022-07-30T13:13:56Z'
 tags:

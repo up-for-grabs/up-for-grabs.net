@@ -2,7 +2,7 @@ desc: A demo to learn JWT by reverse engineering
 name: auth-jwt
 site: https://github.com/gitcommitshow/auth-jwt
 stats:
-  fork-count: 0
+  fork-count: '14'
   issue-count: 0
 tags:
 - jwt

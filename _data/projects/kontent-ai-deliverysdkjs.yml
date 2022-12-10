@@ -2,7 +2,7 @@ desc: JavaScript content delivery SDK for Kontent.ai
 name: delivery-sdk-js
 site: https://github.com/kontent-ai/delivery-sdk-js
 stats:
-  fork-count: 0
+  fork-count: '28'
   issue-count: 0
 tags:
 - javascript

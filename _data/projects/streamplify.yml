@@ -2,7 +2,7 @@ desc: Java 8 combinatorics-related streams and other utilities
 name: streamplify
 site: http://streamplify.beryx.org
 stats:
-  fork-count: 0
+  fork-count: '13'
   issue-count: 0
 tags:
 - java

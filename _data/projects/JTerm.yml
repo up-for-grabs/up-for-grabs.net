@@ -2,7 +2,7 @@ desc: A cross-platform terminal written in Java.
 name: JTerm
 site: https://github.com/T145/JTerm
 stats:
-  fork-count: 0
+  fork-count: '35'
   issue-count: 0
 tags:
 - java

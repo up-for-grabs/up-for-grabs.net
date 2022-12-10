@@ -2,7 +2,7 @@ desc: A native functional ASP.NET Core web framework for F# developers.
 name: Giraffe
 site: https://github.com/giraffe-fsharp/Giraffe
 stats:
-  fork-count: 0
+  fork-count: '240'
   issue-count: 5
   last-updated: '2021-11-11T23:21:34Z'
 tags:

@@ -4,7 +4,7 @@ desc: Semantic Analyzer is an on-device (offline) open-source library to find ou
 name: SentimentAnalyzer
 site: https://github.com/arafattehsin/SentimentAnalyzer
 stats:
-  fork-count: 0
+  fork-count: '2'
   issue-count: 1
   last-updated: '2022-10-09T00:12:48Z'
 tags:

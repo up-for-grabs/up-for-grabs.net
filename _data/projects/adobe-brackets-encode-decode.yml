@@ -3,7 +3,7 @@ desc: An extension for Adobe Brackets that lets you to convert text selections t
 name: Encode-Decode for Adobe Brackets
 site: https://github.com/nadchif/adobe-brackets-encode-decode
 stats:
-  fork-count: 0
+  fork-count: '15'
   issue-count: 0
 tags:
 - adobe

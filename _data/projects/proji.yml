@@ -2,7 +2,7 @@ desc: A powerful cross-platform CLI project templating tool.
 name: proji
 site: https://github.com/nikoksr/proji
 stats:
-  fork-count: 0
+  fork-count: '12'
   issue-count: 5
   last-updated: '2021-10-15T19:25:21Z'
 tags:

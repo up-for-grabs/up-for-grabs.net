@@ -3,7 +3,7 @@ desc: Python AFL (Australian Football League) library for collecting/analysing A
 name: pyAFL
 site: https://github.com/RamParameswaran/pyAFL
 stats:
-  fork-count: 0
+  fork-count: '5'
   issue-count: 2
   last-updated: '2021-10-16T00:30:25Z'
 tags:

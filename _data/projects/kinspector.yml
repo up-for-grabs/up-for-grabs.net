@@ -2,7 +2,7 @@ desc: Performance, health and security audit tool for Kentico.
 name: KInspector
 site: https://github.com/Kentico/KInspector
 stats:
-  fork-count: 0
+  fork-count: '58'
   issue-count: 2
   last-updated: '2019-08-06T15:25:13Z'
 tags:

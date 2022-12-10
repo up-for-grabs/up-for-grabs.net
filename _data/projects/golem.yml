@@ -2,7 +2,7 @@ desc: "Worldwide Supercomputer \u2013 global prosumer market for computing power
 name: Golem
 site: https://golem.network
 stats:
-  fork-count: 0
+  fork-count: '4'
   issue-count: 0
 tags:
 - golem

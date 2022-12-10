@@ -2,7 +2,7 @@ desc: An F# Type Provider to interop with R
 name: FSharpRProvider
 site: https://github.com/fslaborg/RProvider
 stats:
-  fork-count: 0
+  fork-count: '73'
   issue-count: 0
 tags:
 - f#

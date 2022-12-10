@@ -2,7 +2,7 @@ desc: .NET CLI template for Petabridge-style projects
 name: petabridge-dotnet-new
 site: https://github.com/petabridge/petabridge-dotnet-new
 stats:
-  fork-count: 0
+  fork-count: '10'
   issue-count: 0
 tags:
 - f#

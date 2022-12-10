@@ -2,7 +2,7 @@ desc: Sample AI Apps built with H2O Wave.
 name: H2O Wave Apps
 site: https://github.com/h2oai/wave-apps
 stats:
-  fork-count: 0
+  fork-count: ' '
   issue-count: 2
   last-updated: '2022-10-17T18:16:00Z'
 tags:

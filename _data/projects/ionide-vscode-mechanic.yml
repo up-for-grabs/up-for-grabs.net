@@ -2,7 +2,7 @@ desc: Mechanic plugin for VS Code
 name: ionide-vscode-mechanic
 site: https://github.com/ionide/ionide-vscode-mechanic
 stats:
-  fork-count: 0
+  fork-count: '3'
   issue-count: 1
   last-updated: '2018-03-26T07:35:16Z'
 tags:

@@ -2,7 +2,7 @@ desc: Arc is a cross-platform, multi-format archive utility.
 name: Arc
 site: https://github.com/mholt/archiver
 stats:
-  fork-count: 0
+  fork-count: '346'
   issue-count: 0
 tags:
 - go

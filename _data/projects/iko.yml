@@ -2,7 +2,7 @@ desc: A commandline based task runner
 name: Iko
 site: https://github.com/shrayasr/Iko/
 stats:
-  fork-count: 0
+  fork-count: '4'
   issue-count: 1
   last-updated: '2020-08-19T23:12:50Z'
 tags:

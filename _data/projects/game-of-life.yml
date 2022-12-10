@@ -2,7 +2,7 @@ desc: Conway's game of life web version!
 name: game-of-life
 site: https://github.com/TroyTae/game-of-life
 stats:
-  fork-count: 0
+  fork-count: '379'
   issue-count: 7
   last-updated: '2020-10-02T14:08:34Z'
 tags:

@@ -5,7 +5,7 @@ desc: QuickGraph provides generic directed/undirected graph datastructures and a
 name: QuickGraph
 site: https://github.com/YaccConstructor/QuickGraph
 stats:
-  fork-count: 0
+  fork-count: '165'
   issue-count: 2
   last-updated: '2019-02-07T13:21:37Z'
 tags:

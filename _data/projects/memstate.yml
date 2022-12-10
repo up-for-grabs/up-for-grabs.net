@@ -3,7 +3,7 @@ desc: a high-performance in-memory event-sourced replicated object graph engine 
 name: Memstate
 site: https://github.com/devrexlabs/memstate
 stats:
-  fork-count: 0
+  fork-count: '44'
   issue-count: 3
   last-updated: '2020-05-22T21:57:07Z'
 tags:

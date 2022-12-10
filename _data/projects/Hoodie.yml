@@ -2,7 +2,7 @@ desc: Backend for Offline First Applications
 name: Hoodie
 site: http://hood.ie
 stats:
-  fork-count: 0
+  fork-count: '60'
   issue-count: 0
 tags:
 - javascript

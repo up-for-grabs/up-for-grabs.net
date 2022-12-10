@@ -2,7 +2,7 @@ desc: Arbitrary-sized integer class for C++
 name: BigInt
 site: https://github.com/faheel/BigInt
 stats:
-  fork-count: 0
+  fork-count: '119'
   issue-count: 3
   last-updated: '2022-10-05T03:32:41Z'
 tags:

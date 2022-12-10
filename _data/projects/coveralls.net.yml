@@ -2,7 +2,7 @@ desc: NuGet program for sending coverage reports to coveralls.io
 name: Coveralls.net
 site: https://github.com/coveralls-net/coveralls.net
 stats:
-  fork-count: 0
+  fork-count: '37'
   issue-count: 5
   last-updated: '2019-10-15T18:21:28Z'
 tags:

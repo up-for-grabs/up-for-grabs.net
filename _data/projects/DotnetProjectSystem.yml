@@ -7,7 +7,7 @@ desc: This repository contains the .NET Project System for Visual Studio that is
 name: The .NET Project System for Visual Studio
 site: https://github.com/dotnet/project-system
 stats:
-  fork-count: 0
+  fork-count: '369'
   issue-count: 21
   last-updated: '2022-11-17T23:29:18Z'
 tags:

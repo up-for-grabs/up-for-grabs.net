@@ -2,7 +2,7 @@ desc: Shared Textmate Regex Style F# Language Grammar
 name: ionide-fsgrammar
 site: https://github.com/ionide/ionide-fsgrammar
 stats:
-  fork-count: 0
+  fork-count: '30'
   issue-count: 1
   last-updated: '2018-05-26T16:19:34Z'
 tags:

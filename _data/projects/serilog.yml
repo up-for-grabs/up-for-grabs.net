@@ -3,7 +3,7 @@ desc: Simple .NET logging with fully-structured events. Serilog combines the bes
 name: Serilog
 site: http://serilog.net
 stats:
-  fork-count: 0
+  fork-count: '730'
   issue-count: 6
   last-updated: '2021-04-06T06:15:53Z'
 tags:

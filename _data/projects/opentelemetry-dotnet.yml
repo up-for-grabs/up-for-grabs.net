@@ -5,7 +5,7 @@ desc: .NET implementation of OpenTelemetry, a working name of a combined OpenCen
 name: opentelemetry-dotnet
 site: https://opentelemetry.io/
 stats:
-  fork-count: 0
+  fork-count: '552'
   issue-count: 32
   last-updated: '2022-11-16T16:56:17Z'
 tags:

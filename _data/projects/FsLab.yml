@@ -2,7 +2,7 @@ desc: FsLab and FsLab.Runner packages and Journal template
 name: FsLab
 site: https://github.com/fslaborg/FsLab
 stats:
-  fork-count: 0
+  fork-count: '0'
   issue-count: 0
 tags:
 - f#

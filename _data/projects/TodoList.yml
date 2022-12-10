@@ -2,7 +2,7 @@ desc: Simple todo-list app built with asp.net core mvc
 name: TodoList
 site: https://github.com/amoraitis/TodoList
 stats:
-  fork-count: 0
+  fork-count: '106'
   issue-count: 8
   last-updated: '2022-10-15T09:40:20Z'
 tags:

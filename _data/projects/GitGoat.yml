@@ -4,7 +4,7 @@ desc: GitGoat was built to enable DevOps and Engineering teams to design and imp
 name: GitGoat
 site: https://github.com/arnica-ext/GitGoat
 stats:
-  fork-count: 0
+  fork-count: '12'
   issue-count: 0
 tags:
 - github

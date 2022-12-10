@@ -3,7 +3,7 @@ desc: Brighter is a CQRS framework for .NET supporting in-process and out-of-pro
 name: Brighter
 site: https://github.com/BrighterCommand/Brighter
 stats:
-  fork-count: 0
+  fork-count: '244'
   issue-count: 5
   last-updated: '2022-07-06T11:02:20Z'
 tags:

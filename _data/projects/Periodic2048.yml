@@ -2,7 +2,7 @@ desc: 2048 Game based on the periodic table elements
 name: Periodic2048
 site: https://github.com/Griffintaur/Periodic2048
 stats:
-  fork-count: 0
+  fork-count: '39'
   issue-count: 4
   last-updated: '2022-10-08T06:34:49Z'
 tags:

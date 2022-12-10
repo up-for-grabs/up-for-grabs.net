@@ -2,7 +2,7 @@ desc: Simple backup to S3
 name: s3backup
 site: https://github.com/dnnrly/s3backup
 stats:
-  fork-count: 0
+  fork-count: '3'
   issue-count: 5
   last-updated: '2022-10-23T14:57:54Z'
 tags:

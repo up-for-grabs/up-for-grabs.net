@@ -3,7 +3,7 @@ desc: The global community site for CoderDojo - a network of free computer progr
 name: CoderDojo Community Platform
 site: http://zen.coderdojo.com
 stats:
-  fork-count: 0
+  fork-count: '56'
   issue-count: 18
   last-updated: '2022-06-25T04:16:54Z'
 tags:

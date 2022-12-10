@@ -2,7 +2,7 @@ desc: A library to generate random markdown text.
 name: python-random-markdown-generator
 site: https://ignisda.github.io/python-random-markdown-generator
 stats:
-  fork-count: 0
+  fork-count: '7'
   issue-count: 0
 tags:
 - python

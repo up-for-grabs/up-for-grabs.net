@@ -2,7 +2,7 @@ desc: Exploratory analysis of Bayesian models with Python
 name: ArviZ
 site: https://github.com/arviz-devs/arviz
 stats:
-  fork-count: 0
+  fork-count: '313'
   issue-count: 5
   last-updated: '2022-11-08T20:29:36Z'
 tags:

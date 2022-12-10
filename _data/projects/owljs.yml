@@ -2,7 +2,7 @@ desc: Backbone-like front-end MVC library without underscore.js and jQuery depen
 name: owljs
 site: http://owljs.org/
 stats:
-  fork-count: 0
+  fork-count: '7'
   issue-count: 0
 tags:
 - javascript

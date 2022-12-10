@@ -2,7 +2,7 @@ desc: This repository contains official C libraries for Azure services.
 name: Microsoft Azure SDK for C
 site: https://github.com/Azure/azure-sdk-for-c
 stats:
-  fork-count: 0
+  fork-count: '107'
   issue-count: 12
   last-updated: '2021-08-02T16:26:03Z'
 tags:

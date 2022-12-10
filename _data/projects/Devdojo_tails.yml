@@ -3,7 +3,7 @@ desc: Tails is a (no-config) copy'n paste library of hand-crafted templates and 
 name: tails
 site: https://github.com/thedevdojo/tails
 stats:
-  fork-count: 0
+  fork-count: '7'
   issue-count: 0
 tags:
 - web

@@ -3,7 +3,7 @@ desc: A Chip8 emulator which runs in the browser along with tools to view the re
 name: Chip8
 site: https://github.com/chip8-net/chip8
 stats:
-  fork-count: 0
+  fork-count: '4'
   issue-count: 0
 tags:
 - javascript

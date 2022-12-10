@@ -2,7 +2,7 @@ desc: A search engine for programming/dev tutorials.
 name: tutorialdb
 site: https://github.com/Bhupesh-V/tutorialdb
 stats:
-  fork-count: 0
+  fork-count: '57'
   issue-count: 14
   last-updated: '2022-08-07T15:26:51Z'
 tags:

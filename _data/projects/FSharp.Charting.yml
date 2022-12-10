@@ -2,7 +2,7 @@ desc: Charting library suitable for interactive F# scripting
 name: FSharp.Charting
 site: https://github.com/fslaborg/FSharp.Charting
 stats:
-  fork-count: 0
+  fork-count: '67'
   issue-count: 11
   last-updated: '2018-12-01T19:04:30Z'
 tags:

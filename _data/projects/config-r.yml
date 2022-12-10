@@ -2,7 +2,7 @@ desc: Write your .NET configuration files in C#.
 name: ConfigR
 site: https://github.com/config-r/config-r
 stats:
-  fork-count: 0
+  fork-count: '47'
   issue-count: 2
   last-updated: '2018-03-25T09:00:14Z'
 tags:

@@ -2,7 +2,7 @@ desc: Fast, flexible, modern Perl web framework
 name: Dancer2
 site: http://www.perldancer.org/
 stats:
-  fork-count: 0
+  fork-count: '275'
   issue-count: 10
   last-updated: '2022-08-09T19:59:57Z'
 tags:

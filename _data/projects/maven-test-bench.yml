@@ -2,7 +2,7 @@ desc: Performance test bench for Apache Maven project.
 name: Maven performance test bench
 site: https://github.com/quick-perf/maven-test-bench
 stats:
-  fork-count: 0
+  fork-count: ' '
   issue-count: 0
 tags:
 - maven

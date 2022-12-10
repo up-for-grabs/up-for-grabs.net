@@ -2,7 +2,7 @@ desc: Convert a Python expression to a LaTeX formula
 name: pytexit
 site: https://pytexit.readthedocs.io/
 stats:
-  fork-count: 0
+  fork-count: '29'
   issue-count: 1
   last-updated: '2022-10-11T23:44:48Z'
 tags:

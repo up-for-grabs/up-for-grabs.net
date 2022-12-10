@@ -3,7 +3,7 @@ desc: TensorFlow Image Classifier that can be used to classify whether an image 
 name: Celestial-bodies-detection
 site: https://github.com/ritwik12/Celestial-bodies-detection
 stats:
-  fork-count: 0
+  fork-count: '52'
   issue-count: 9
   last-updated: '2022-11-12T20:16:39Z'
 tags:

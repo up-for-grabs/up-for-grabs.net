@@ -3,7 +3,7 @@ desc: The free and open source solution for automated video capture and distribu
 name: Opencast
 site: https://opencast.org/
 stats:
-  fork-count: 0
+  fork-count: '202'
   issue-count: 20
   last-updated: '2022-11-04T18:47:46Z'
 tags:

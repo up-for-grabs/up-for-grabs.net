@@ -3,7 +3,7 @@ desc: Python Jobs Ireland is a Django jobs board where Python related jobs avail
 name: pythonjobs.ie
 site: https://github.com/kimeraapp/pythonjobs.ie
 stats:
-  fork-count: 0
+  fork-count: '27'
   issue-count: 3
   last-updated: '2022-06-09T11:23:01Z'
 tags:

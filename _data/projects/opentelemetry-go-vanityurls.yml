@@ -5,7 +5,7 @@ desc: Vanityurls config for go.opentelemetry.io subdomain OpenTelemetry provides
 name: opentelemetry-go-vanityurls
 site: https://opentelemetry.io/
 stats:
-  fork-count: 0
+  fork-count: '6'
   issue-count: 0
 tags:
 - vanityurls

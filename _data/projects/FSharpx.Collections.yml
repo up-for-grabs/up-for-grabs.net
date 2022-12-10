@@ -2,7 +2,7 @@ desc: A collection of datastructures for use with F# and C#.
 name: FSharpx.Collections
 site: https://github.com/fsprojects/FSharpx.Collections
 stats:
-  fork-count: 0
+  fork-count: '79'
   issue-count: 3
   last-updated: '2020-02-29T17:30:22Z'
 tags:

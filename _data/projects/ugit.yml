@@ -3,7 +3,7 @@ desc: ugit helps undo git commands. Your damage control git buddy. Undo from 19+
 name: ugit
 site: https://bhupesh.me/undo-your-last-git-mistake-with-ugit/
 stats:
-  fork-count: 0
+  fork-count: '39'
   issue-count: 2
   last-updated: '2022-11-04T09:02:30Z'
 tags:

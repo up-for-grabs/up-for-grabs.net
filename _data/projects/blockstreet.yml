@@ -3,7 +3,7 @@ desc: Blockstreet aims to become the go-to source for the explanation of complex
 name: Blockstreet
 site: https://blockstreet.io
 stats:
-  fork-count: 0
+  fork-count: ' '
   issue-count: 0
 tags:
 - javascript

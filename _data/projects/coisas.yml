@@ -2,7 +2,7 @@ desc: a client-side CMS for static sites hosted on GitHub
 name: coisas
 site: https://github.com/fiatjaf/coisas
 stats:
-  fork-count: 0
+  fork-count: '26'
   issue-count: 0
 tags:
 - css

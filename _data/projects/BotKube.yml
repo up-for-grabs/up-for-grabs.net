@@ -3,7 +3,7 @@ desc: App that helps you monitor your Kubernetes cluster, debug critical deploym
 name: BotKube
 site: https://www.botkube.io/
 stats:
-  fork-count: 0
+  fork-count: '252'
   issue-count: 4
   last-updated: '2021-11-29T06:36:13Z'
 tags:

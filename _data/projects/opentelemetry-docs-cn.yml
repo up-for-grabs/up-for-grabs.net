@@ -3,7 +3,7 @@ desc: "OpenTelemetry\u4E2D\u6587\u8D44\u6599: \u6280\u672F\u6807\u51C6\u3001RFC\
 name: opentelemetry-docs-cn
 site: https://opentelemetry.io/
 stats:
-  fork-count: 0
+  fork-count: '79'
   issue-count: 0
 tags:
 - documentation

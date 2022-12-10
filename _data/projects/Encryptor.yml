@@ -2,7 +2,7 @@ desc: A password encryptor package for Linux
 name: Encryptor
 site: https://github.com/ScorchingShade/Encryptor
 stats:
-  fork-count: 0
+  fork-count: '15'
   issue-count: 1
   last-updated: '2022-10-02T07:37:16Z'
 tags:

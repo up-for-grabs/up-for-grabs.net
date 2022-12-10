@@ -2,7 +2,7 @@ desc: Python Library for fetching trending repositories and developers on GitHub
 name: gtrending
 site: https://github.com/hedythedev/gtrending
 stats:
-  fork-count: 0
+  fork-count: '17'
   issue-count: 0
 tags:
 - python

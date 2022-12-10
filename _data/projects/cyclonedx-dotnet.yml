@@ -2,7 +2,7 @@ desc: Creates CycloneDX Software Bill-of-Materials (SBOM) from .NET Projects
 name: CycloneDX .NET Implementation
 site: https://cyclonedx.org/
 stats:
-  fork-count: 0
+  fork-count: '48'
   issue-count: 0
 tags:
 - sbom

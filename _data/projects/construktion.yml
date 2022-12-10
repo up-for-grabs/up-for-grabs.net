@@ -3,7 +3,7 @@ desc: Simplifies the arrange part of your unit tests. Use Construktion to genera
 name: Construktion
 site: https://github.com/Construktion/Construktion
 stats:
-  fork-count: 0
+  fork-count: '4'
   issue-count: 2
   last-updated: '2020-08-17T22:51:59Z'
 tags:

@@ -5,7 +5,7 @@ desc: Kubernetes Operator for OpenTelemetry Collector. OpenTelemetry provides a 
 name: opentelemetry-operator
 site: https://opentelemetry.io/
 stats:
-  fork-count: 0
+  fork-count: '223'
   issue-count: 4
   last-updated: '2022-09-29T11:37:31Z'
 tags:

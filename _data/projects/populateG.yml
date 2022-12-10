@@ -2,7 +2,7 @@ desc: A Web Application To Auto-Populate Google Docs Template using Google Sheet
 name: populateG
 site: https://github.com/Shivam010/populateG
 stats:
-  fork-count: 0
+  fork-count: '2'
   issue-count: 0
 tags:
 - oss

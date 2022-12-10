@@ -2,7 +2,7 @@ desc: Functional Enum type / Sum type for javascript with simple pattern matchin
 name: EnumFP
 site: https://github.com/phenax/enum-fp
 stats:
-  fork-count: 0
+  fork-count: '3'
   issue-count: 2
   last-updated: '2019-04-01T07:47:48Z'
 tags:

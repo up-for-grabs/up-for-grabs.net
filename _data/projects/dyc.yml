@@ -4,7 +4,7 @@ desc: A Pure Python CLI Application that Auto Populates Docstrings under methods
 name: Document Your Code
 site: https://github.com/Zarad1993/dyc
 stats:
-  fork-count: 0
+  fork-count: '44'
   issue-count: 7
   last-updated: '2022-10-09T14:06:42Z'
 tags:

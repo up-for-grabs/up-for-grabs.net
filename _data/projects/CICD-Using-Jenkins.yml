@@ -3,7 +3,7 @@ desc: Set up a Continuous Integration and Continuous Delivery pipeline using Dev
 name: CICD-Using-Jenkins
 site: https://github.com/NishkarshRaj/CICD-Using-Jenkins
 stats:
-  fork-count: 0
+  fork-count: '26'
   issue-count: 2
   last-updated: '2020-10-12T02:45:56Z'
 tags:

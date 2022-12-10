@@ -2,7 +2,7 @@ desc: A compiler from C and C++ to JavaScript/asm.js
 name: Emscripten
 site: http://emscripten.org
 stats:
-  fork-count: 0
+  fork-count: 3k
   issue-count: 70
   last-updated: '2022-11-08T14:54:04Z'
 tags:

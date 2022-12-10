@@ -2,7 +2,7 @@ desc: Gatsby source plugin and React components for Kontent.ai.
 name: gatsby-packages
 site: https://github.com/kontent-ai/gatsby-packages
 stats:
-  fork-count: 0
+  fork-count: '23'
   issue-count: 4
   last-updated: '2021-05-27T09:22:16Z'
 tags:

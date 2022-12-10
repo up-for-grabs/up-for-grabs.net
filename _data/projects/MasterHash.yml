@@ -3,7 +3,7 @@ desc: Password manager that allows a user to have an almost infinite amount of p
 name: MasterHash
 site: https://github.com/MorrisB--/MasterHash
 stats:
-  fork-count: 0
+  fork-count: '42'
   issue-count: 0
 tags:
 - java

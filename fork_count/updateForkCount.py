@@ -16,7 +16,6 @@ def updateForkCount(directory):
             if (num == "-1"):
                 continue
             data['stats']['fork-count'] = num
-            print(num)
         # Otherwise try the next file
         except:
             continue

@@ -60,9 +60,9 @@
       <div>
         <div colspan="2" class="title">
            <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
-           <span class = "fork" style = "position:relative; left:280px;"><img src="forklogo.png" alt="Fork Icon" width="12" height="16"></span>
-           
-           
+           <% if (project.stats) { %>
+            <span class = "fork" style = "position:relative; left:280px;"><img src="forklogo.png" alt="Fork Icon" width="10" height="14"><%-"  "%><%-project.stats['issue-count']%></span>
+            <% } %>           
         </div>
     </div>
   <div>

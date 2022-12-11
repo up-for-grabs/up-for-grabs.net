@@ -1,0 +1,8 @@
+name: LynkHidr
+desc: Link hider & shortener
+site: https://lynkhidr.onrender.com
+tags:
+  - shortener
+upforgrabs:
+  name: help wanted
+  link: https://github.com/corruptzero-dev/LynkHidr/labels/help%20wanted

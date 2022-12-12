@@ -60,4 +60,4 @@ jobs:
           pip3 install pyyaml
           pip3 install requests
           pip3 install beautifulsoup4
-          python fork_count/testUpdateForkCount.py
+          python fork_count/test_update_fork_count.py

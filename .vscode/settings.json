@@ -12,5 +12,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "prettier.enable": true
+  "prettier.enable": true,
+  "python.analysis.extraPaths": [
+    "./fork_count"
+  ]
 }

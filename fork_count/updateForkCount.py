@@ -2,7 +2,7 @@ import WebScrapingForkCount
 import yaml
 import os
 
-def updateForkCount(directory = "../_data/projects"):
+def updateForkCount(directory = "_data/projects"):
     # Get a list of files in the directory
     files = os.listdir(directory)
     # Loop through the files

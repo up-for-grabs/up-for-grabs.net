@@ -2,7 +2,7 @@ import WebScrapingForkCount
 import yaml
 import os
 
-def updateForkCount(directory):
+def updateForkCount(directory = "../_data/projects"):
     # Get a list of files in the directory
     files = os.listdir(directory)
     # Loop through the files
@@ -15,6 +15,7 @@ def updateForkCount(directory):
             num = WebScrapingForkCount.scraping(data['upforgrabs']['link'])
             if (num == "-1"):
                 continue
+            print(num)
             data['stats']['fork-count'] = num
         # Otherwise try the next file
         except:
@@ -23,5 +24,7 @@ def updateForkCount(directory):
         with open(os.path.join(directory, file), "w") as file:
             yaml.dump(data, file, sort_keys=False)
 
-updateForkCount("../_data/projects")
+if __name__ == "__main__":
+    updateForkCount()
+
 

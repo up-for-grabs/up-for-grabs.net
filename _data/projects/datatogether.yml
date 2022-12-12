@@ -22,4 +22,4 @@ upforgrabs:
   link: https://github.com/issues?q=is:open+org:datatogether+label:first-timers-only
 stats:
   issue-count: 0
-  fork-count: 0
+  fork-count: '0'

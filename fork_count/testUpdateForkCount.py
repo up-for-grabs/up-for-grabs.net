@@ -8,7 +8,7 @@ def testFileForkCount(directory, file):
     return webNum == data['stats']['fork-count']
     
 def testForkCount():
-    directory = "tests_sample_projects"
+    directory = "fork_count/tests_sample_projects"
     updateForkCount.updateForkCount(directory)
     files = os.listdir(directory)
     # Loop through the files

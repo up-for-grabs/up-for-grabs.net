@@ -59,4 +59,5 @@ jobs:
         run: |
           pip3 install pyyaml
           pip3 install requests
+          pip3 install beautifulsoup4
           python fork_count/updateForkCount.py

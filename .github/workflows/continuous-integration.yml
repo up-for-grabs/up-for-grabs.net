@@ -58,4 +58,5 @@ jobs:
       - name: execute py script # run the run.py to get the latest data
         run: |
           pip3 install pyyaml
+          pip3 install requests
           python fork_count/updateForkCount.py

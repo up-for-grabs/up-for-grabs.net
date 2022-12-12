@@ -17,4 +17,4 @@ def testForkCount():
 
 if __name__ == "__main__":
     testForkCount()
-    print("All passed")
+    print("All tests passed")

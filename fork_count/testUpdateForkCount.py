@@ -1,5 +1,4 @@
-import sys, os, yaml
-sys.path.insert(0, '../../fork_count/')
+import yaml, os
 import updateForkCount, WebScrapingForkCount
 
 def testFileForkCount(directory, file):
@@ -9,7 +8,7 @@ def testFileForkCount(directory, file):
     return webNum == data['stats']['fork-count']
     
 def testForkCount():
-    directory = "sample_projects"
+    directory = "fork_count/tests_sample_projects"
     updateForkCount.updateForkCount(directory)
     files = os.listdir(directory)
     # Loop through the files
@@ -18,4 +17,4 @@ def testForkCount():
 
 if __name__ == "__main__":
     testForkCount()
-    print("All passed")
+    print("All tests passed")

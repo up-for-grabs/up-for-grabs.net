@@ -14,3 +14,18 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
         APPLY_CHANGES: 0
+  updateForkCount:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9 #install the python needed
+      - name: update fork count # run the run.py to get the latest data
+        run: |
+          pip3 install pyyaml
+          pip3 install requests
+          pip3 install beautifulsoup4
+          python fork_count/updateForkCount.py

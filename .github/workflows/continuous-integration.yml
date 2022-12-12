@@ -46,7 +46,7 @@ jobs:
           bundle exec jekyll build
           bundle exec ruby scripts/validate_data_files.rb
   
-  updateForkCount:
+  testForkCount:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
@@ -55,9 +55,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.9 #install the python needed
-      - name: execute py script # run the run.py to get the latest data
+      - name: test fork count # run the run.py to get the latest data
         run: |
           pip3 install pyyaml
-          pip3 install requests
-          pip3 install beautifulsoup4
-          python fork_count/updateForkCount.py
+          python fork_count/testUpdateForkCount.py

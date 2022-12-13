@@ -1,0 +1,13 @@
+name: Dapr JavaScript SDK
+desc: JavaScript SDK for writing applications using Dapr
+site: https://github.com/dapr/js-sdk
+tags:
+  - javascript
+  - microservices
+  - node
+  - typescript
+  - sdk
+  - oss
+upforgrabs:
+  name: good first issue
+  link: https://github.com/dapr/js-sdk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

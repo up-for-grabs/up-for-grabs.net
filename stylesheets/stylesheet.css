@@ -5,8 +5,8 @@ MeyerWeb Reset
 *******************************************************************************/
 #view-mode {
   position: fixed;
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   z-index: 999;
   margin-left: 10px;
 }

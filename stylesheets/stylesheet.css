@@ -27,7 +27,9 @@ MeyerWeb Reset
   --abs: #FFF;
   --view-mode: true;
   --heading-color: #005485;
-  --container-border: #dbdbdb;
+  --container-rgb: 219, 219, 219;
+  --container-border: rgb(var(--container-rgb));
+  --container-border-alt: #303030;
   --databox-bg: #fff;
   --databox-text: #2e7ba9;
 }
@@ -866,16 +868,40 @@ form {
   width: 16px;
 }
 
-.popular-tags li {
-  display: inline-block;
-  font-size: 18px;
-  padding-left: 0;
-  font-size: 16px;
+.popular-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em 0.5em;
 }
 
-.popular-tags li::before {
-  content: ' ';
-  margin-right: 12px;
+ul.popular-tags li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.popular-tags a {
+  display: inline-flex;
+  align-content: center;
+  padding: 0.5em 0.75em;
+  font-size: 15px;
+  border: 1px solid var(--container-border-alt, transparent);
+  border-radius: 1em;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.popular-tags a:hover,
+.popular-tags a:focus,
+.popular-tags a:focus-within {
+  background-color: rgba(var(--container-rgb), 0.2);
+  border-color: var(--databox-text);
+  color: var(--databox-text);
+}
+
+.popular-tags a span.popular-tags__frequency {
+  margin-left: 0.45em;
+  font-size: 10px;
+  color: var(--body-color);
 }
 
 @media (max-width: 768px) {

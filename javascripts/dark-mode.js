@@ -25,6 +25,7 @@ define([], () => {
     root.style.setProperty('--box-shadow-color', 'rgba(27, 30, 33, 0.5)');
     root.style.setProperty('--heading-color', '#7bc6f2');
     root.style.setProperty('--container-border', 'transparent');
+    root.style.setProperty('--container-border-alt', '#dbdbdb');
     root.style.setProperty('--databox-bg', '#32404d');
     root.style.setProperty('--databox-text', '#7bceff');
 

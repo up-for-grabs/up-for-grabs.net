@@ -10,4 +10,4 @@ tags:
   - oss
 upforgrabs:
   name: good first issue
-  link: https://github.com/dapr/js-sdk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+  link: https://github.com/dapr/js-sdk/labels/good%20first%20issue

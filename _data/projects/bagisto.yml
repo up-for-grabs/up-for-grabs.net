@@ -6,4 +6,4 @@ tags:
   - laravel-ecommerce
 upforgrabs:
   name: Easy
-  link: https://github.com/bagisto/bagisto/issues?q=is%3Aopen+is%3Aissue+label%3AEasy
+  link: https://github.com/bagisto/bagisto/labels/Easy

@@ -1,0 +1,88 @@
+
+en juego
+/
+disponible para agarrar.net
+Público
+Código
+Cuestiones
+42
+Solicitudes de extracción
+45
+Discusiones
+Comportamiento
+Proyectos
+Seguridad
+Perspectivas
+disponible para agarrar.net/.github/ CONTRIBUYENDO.md
+@tecla Shift
+documentos shiftkey y actualizaciones de dependencias para la cadena de herramientas ( #3025 )
+…
+ 1 colaborador
+125 líneas (88 sloc)  3.4KB
+Contribuyendo a Up for Grabs
+Esta guía lo ayudará a configurarlo para que pueda realizar cambios en el proyecto, verlos localmente y verificar que el sitio se implementará correctamente al abrir una solicitud de extracción.
+
+Configuración del proyecto
+Este repositorio contiene el contenido de las páginas de GitHub y algunas herramientas adicionales de Ruby y NodeJS para ayudar a verificar los cambios como parte de la publicación del sitio.
+
+Para obtener un clon local del repositorio:
+
+git clone https://github.com/up-for-grabs/up-for-grabs.net.git
+Si tiene una bifurcación del repositorio en GitHub, reemplace la primera up-for-grabs con su cuenta de GitHub.
+
+Requerimos Ruby 3, Bundler 2.2 y Node 16+ para probar el sitio. Puede verificar que estén presentes ejecutando estos comandos en una terminal:
+
+$ ruby -v
+ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-darwin18]
+$ bundle -v
+Bundler version 2.2.33
+$ node -v
+v16.13.1
+Probando el sitio
+Hay dos formas recomendadas de probar el sitio localmente, según el sistema operativo que esté utilizando actualmente:
+
+para colaboradores de macOS o Linux: cualquier enfoque está bien
+para colaboradores de Windows: se recomienda Docker porque Ruby en Windows tiene algunos problemas que necesitan familiarizarse con la cadena de herramientas para solucionarlos correctamente
+Pruebas sin Docker
+Dentro de su clon local del repositorio disponible, ejecute estos comandos para instalar las dependencias necesarias:
+
+bundle install
+Una vez que haya hecho eso, este comando construirá el sitio y lo pondrá a disposición para verlo usando un servidor de desarrollo local:
+
+bundle exec jekyll serve
+El sitio debe ser accesible en su navegador en localhost:4000.
+
+Probando con Docker
+Docker también se puede usar para crear y probar el sitio, para los colaboradores que no desean instalar las herramientas localmente. Consulte las instrucciones de configuración de su sistema operativo para obtener más información:
+
+Docker para Windows
+Docker para macOS
+Otras plataformas, incluidas las distribuciones de Linux
+Una vez que lo haya instalado, use el docker-composecomando para construir y ver el sitio:
+
+docker-compose up
+Si eso se completa sin error, abra su navegador localhost:4000para ver el sitio.
+
+Pruebas automatizadas
+Tenemos un conjunto de herramientas adicionales que se pueden ejecutar para verificar el contenido del repositorio. Estos se ejecutan como parte de cualquier solicitud de extracción o compilación en GitHub, y se recomienda ejecutarlos localmente antes de enviar cambios para ahorrar tiempo con las revisiones.
+
+Validar listados de proyectos
+Este script analiza todos los archivos de datos _data/projectspara verificar que se puedan analizar correctamente y que tengan definido el esquema esperado.
+
+$ bundle exec ruby scripts/validate_data_files.rb
+Si ejecuta esto e informa un error, verifique el archivo y corrija el error antes de continuar.
+
+Validar contenido de JavaScript
+Usamos jestpara probar los módulos de JavaScript en el proyecto:
+
+$ npm test
+Si este comando informa errores, es probable que la funcionalidad del sitio se haya visto afectada por un cambio. Investigue y solucione el problema antes de continuar.
+
+También usamos eslinty prettieren este proyecto para eliminar y aplicar un formato consistente a los módulos de JavaScript en el proyecto:
+
+$ npm run lint
+$ npm run prettier
+Ambas herramientas tienen opciones de "corrección automática", que pueden solucionar los problemas informados sin necesidad de trabajo manual:
+
+$ npm run lint-fix
+$ npm run prettier-fix

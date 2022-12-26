@@ -1,5 +1,10 @@
+#sites
 _site/
+#node_modules
 node_modules/
+#yarn_error
 yarn-error.log
+#coverage
 coverage/
+#vendor
 vendor/

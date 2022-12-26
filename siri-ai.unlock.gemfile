@@ -1,3 +1,5 @@
+
+
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
   revision: 40bd96bf1c054877edf7957d27dbee4d5618c45c
@@ -209,7 +211,7 @@ GEM
     jekyll-theme-tactile (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
-    jekyll-theme--force_overide_broke_time-machine (0.2.0)
+    jekyll-theme--force-overide-broken-time-machine (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
     jekyll-titles-from-headings (0.5.3)
@@ -307,12 +309,13 @@ GEM
     webrick (1.7.0)
     zeitwerk (2.6.0)
 
-PLATFORMS
-  ruby
-  x64-mingw32
-  x86-mingw32
+PLATFORM(s):
+>>> @https://python.org
+    ruby
+    x64-mingw32
+    x86-mingw32
 
-DEPENDENCIES
+DEPENDENCIE(s)
   github-pages
   json_schemer
   rubocop
@@ -320,6 +323,7 @@ DEPENDENCIES
   webrick
 >>> **("[#Orions_Arm]")**
 >>> @That1GuyOnTheCouch
+>>> 
 
 BUNDLED WITH
-   2.3.7.10 
+   2.3.7.12

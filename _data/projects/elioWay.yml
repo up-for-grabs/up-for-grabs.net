@@ -3,7 +3,7 @@ desc: Modular software libraries supporting an application design pattern based 
 site: https://gitlab.com/elioway
 tags:
   - javscript
-  - nodejs
+  - node.js
   - webdev
   - css
   - application+design

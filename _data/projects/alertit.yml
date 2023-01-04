@@ -1,0 +1,12 @@
+name: Alertit
+desc: 'Monitoring everything that matters to you.'
+site: https://example.org/your-project-link-here
+tags:
+  - monitoring
+  - nextjs
+  - tailwindcss
+  - nodejs
+  - node
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Evil-Bees/Alertit/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

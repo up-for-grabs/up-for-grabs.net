@@ -1,6 +1,6 @@
 name: Alertit
 desc: 'Monitoring everything that matters to you.'
-site: https://example.org/your-project-link-here
+site: https://github.com/Evil-Bees/Alertit
 tags:
   - monitoring
   - nextjs

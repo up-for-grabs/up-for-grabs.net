@@ -1,0 +1,9 @@
+name: Project Democracy
+desc: Democracy helps you be a better citizen by providing fair, unbiased coverage of elections. 🇺🇸
+site: https://projectdemocracy.app
+tags:
+- swift
+- python
+- flask
+- iOS
+- app

@@ -1,0 +1,15 @@
+---
+name: triplea
+desc: war game in java
+site: https://github.com/triplea-game/triplea
+tags:
+- collaboration
+- java
+- war
+- game
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/triplea-game/triplea/labels/up-for-grabs
+stats:
+  issue-count: 398
+  last-updated: '2023-01-11T09:52:23Z'

@@ -3,7 +3,7 @@ desc: Code Your Future's main Software Development Course, a PERN web developmen
 site: https://syllabus.codeyourfuture.io/
 tags:
   - javascript
-  - react
+  - react.js
   - postgres
   - sql
   - express

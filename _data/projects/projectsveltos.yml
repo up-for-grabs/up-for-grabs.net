@@ -11,4 +11,4 @@ tags:
   - clusterapi
 upforgrabs:
   name: help wanted
-  link: https://github.com/search?o=desc&q=org%3Aprojectsveltos&s=created&type=Issues
+  link: https://github.com/search?o=desc&q=org%3Aprojectsveltos&s=created&state=open&type=Issues

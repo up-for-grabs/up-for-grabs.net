@@ -38,10 +38,9 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0'
+          bundler-cache: true
       - name: Build and test Jekyll site
         run: |
-          gem install bundler
-          bundle install --jobs 4 --retry 3
           bundle exec rubocop
           bundle exec jekyll build
           bundle exec ruby scripts/validate_data_files.rb

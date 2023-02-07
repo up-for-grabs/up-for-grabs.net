@@ -2,8 +2,8 @@ name: krayincrm
 desc: Krayin CRM is a hand tailored CRM framework built on some of the hottest opensource technologies such as Laravel (a PHP framework) and Vue.js a progressive Javascript framework.
 site: https://krayincrm.com/
 tags:
-  - opensource-CRM
-  - laravel-CRM
+  - opensource-crm
+  - laravel-crm
 upforgrabs:
   name: help wanted
   link: https://github.com/krayin/laravel-crm/labels/help%20wanted

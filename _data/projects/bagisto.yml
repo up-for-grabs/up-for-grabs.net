@@ -1,0 +1,9 @@
+name: Bagisto
+desc: Bagisto is a hand-tailored E-Commerce framework built on some of the hottest open-source technologies such as Laravel (a PHP framework) and Vue.js a progressive Javascript framework.
+site: https://bagisto.com/
+tags:
+  - opensource-ecommerce-framework
+  - laravel-ecommerce
+upforgrabs:
+  name: Easy
+  link: https://github.com/bagisto/bagisto/labels/Easy

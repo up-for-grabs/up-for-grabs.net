@@ -1,0 +1,12 @@
+name: RateMyProfessors.com Selenium Scraper
+desc: A Python script that uses Selenium to scrape all professor ratings from RateMyProfessors.com provided a unique school ID.
+site: https://github.com/peter-w-bryant/RateMyProfessor.com-Web-Scraper
+tags:
+  - python
+  - selenium
+  - web-scraper
+  - command-line
+  
+upforgrabs:
+  name: good first issue
+  link: https://github.com/peter-w-bryant/RateMyProfessor.com-Web-Scraper/labels/good%20first%20issue

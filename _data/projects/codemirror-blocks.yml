@@ -1,0 +1,12 @@
+name: CodeMirror-Blocks
+desc: A Screenreader-Friendly, Language-Agnostic Toolit for building Block Language Plugins for CodeMirror
+site: https://github.com/bootstrapworld/codemirror-blocks/
+tags:
+  - accessibility
+  - a11y
+  - k12
+  - programming
+  - blocks
+upforgrabs:
+  name: code quality
+  link: https://github.com/bootstrapworld/codemirror-blocks/labels/code%20quality

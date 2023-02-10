@@ -36,7 +36,7 @@ def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
     project = r[:project]
     file = project.full_path
     FileUtils.rm_f(file)
-    list += " - \`#{project.relative_path}\` - '#{r[:reason]}'\n"
+    list += " - #{project.relative_path} - '#{r[:reason]}'\n"
   end
 
   clean = true

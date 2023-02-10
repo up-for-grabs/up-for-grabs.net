@@ -48,7 +48,9 @@
     <label class="filter-label" >Popular tags:</label>
     <ul class="popular-tags">
     <% _.each(popularTags, function(entry, key){ %>
-      <li><a><%-entry.name%></a> (<%-entry.frequency%>)</li>
+      <li>
+        <a title="Popular Tag: <%-entry.name%>" tabindex="0"><%-entry.name%> <span class="popular-tags__frequency">(<%-entry.frequency%>)</span></a>
+      </li>
     <% }) %>
     </ul>
   </div>

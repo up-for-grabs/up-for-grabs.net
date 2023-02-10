@@ -19,7 +19,7 @@ define([], () => {
    * @param {HTMLElement} viewModeAnchor
    * @param {HTMLElement} goBackHomeElement
    */
-  function setDarkMode(viewModeElement, viewModeAnchor,goBackHomeElement) {
+  function setDarkMode(viewModeElement, viewModeAnchor, goBackHomeElement) {
     root.style.setProperty('--body-back', '#1a2025');
     root.style.setProperty('--body-color', '#eeeded');
     root.style.setProperty('--abs', 'rgb(39, 47, 55)');
@@ -29,7 +29,7 @@ define([], () => {
     root.style.setProperty('--container-border-alt', '#dbdbdb');
     root.style.setProperty('--databox-bg', '#32404d');
     root.style.setProperty('--databox-text', '#7bceff');
-    
+
     goBackHomeElement.setAttribute('src', '/images/logo_dark_1.png');
     viewModeElement.setAttribute('src', '/images/sun-light.png');
     viewModeAnchor.title = 'light-mode';
@@ -42,7 +42,7 @@ define([], () => {
    * @param {HTMLElement} viewModeAnchor
    * @param {HTMLElement} goBackHomeElement
    */
-  function setLightMode(viewModeElement, viewModeAnchor,goBackHomeElement) {
+  function setLightMode(viewModeElement, viewModeAnchor, goBackHomeElement) {
     root.style.setProperty('--body-back', '#f9f9f9');
     root.style.setProperty('--body-color', '#303030');
     root.style.setProperty('--abs', '#FFF');
@@ -92,17 +92,16 @@ define([], () => {
       return;
     }
 
-
     if (!lightModeEnabled) {
-      setDarkMode(viewModeElement, viewModeAnchor,goBackHomeElement);
+      setDarkMode(viewModeElement, viewModeAnchor, goBackHomeElement);
     }
 
     viewModeAnchor.addEventListener('click', () => {
       if (lightModeEnabled) {
-        setDarkMode(viewModeElement, viewModeAnchor,goBackHomeElement);
+        setDarkMode(viewModeElement, viewModeAnchor, goBackHomeElement);
         updateValue('dark');
       } else {
-        setLightMode(viewModeElement, viewModeAnchor,goBackHomeElement);
+        setLightMode(viewModeElement, viewModeAnchor, goBackHomeElement);
         updateValue('light');
       }
     });

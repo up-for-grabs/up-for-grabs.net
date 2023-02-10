@@ -153,28 +153,25 @@ define([
         );
       });
 
-    projectsPanel
-      .find('ul.popular-tags')
-      .children()
-      .each((i, elem) => {
-        $(elem).on('click', function () {
-          selTags = $('.tags-filter').val() || [];
-          selectedTag = preparePopTagName($(this).text() || '');
-          if (selectedTag) {
-            tagID = allTags
-              .map((tag) => tag.name.toLowerCase())
-              .indexOf(selectedTag);
-            if (tagID !== -1) {
-              selTags.push(selectedTag);
-              location.href = updateQueryStringParameter(
-                getFilterUrl(),
-                'tags',
-                encodeURIComponent(selTags)
-              );
-            }
+    projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
+      $(elem).on('click', function () {
+        selTags = $('.tags-filter').val() || [];
+        selectedTag = preparePopTagName($(this).text() || '');
+        if (selectedTag) {
+          tagID = allTags
+            .map((tag) => tag.name.toLowerCase())
+            .indexOf(selectedTag);
+          if (tagID !== -1) {
+            selTags.push(selectedTag);
+            location.href = updateQueryStringParameter(
+              getFilterUrl(),
+              'tags',
+              encodeURIComponent(selTags)
+            );
           }
-        });
+        }
       });
+    });
   };
 
   /*

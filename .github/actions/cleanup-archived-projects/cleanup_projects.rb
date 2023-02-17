@@ -48,6 +48,8 @@ def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
     system('git config --global user.email "12331315+shiftbot@users.noreply.github.com"')
 
     system("git remote set-url origin 'https://x-access-token:#{token}@github.com/#{current_repo}.git'")
+    # Git now warns when the remote URL is changed, and we need to opt-in for continuing to work with this repository
+    system("git config --global --add safe.directory #{Dir.pwd}")
 
     clean = system('git diff --quiet > /dev/null')
 

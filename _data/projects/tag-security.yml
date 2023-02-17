@@ -1,10 +1,15 @@
 ---
 name: TAG-Security
-desc: CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!
+desc: >-
+  CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability
+  and more!
 site: https://www.cncf.io/projects/
 tags:
-  - security
-  - cloud
+- security
+- cloud
 upforgrabs:
   name: good first issue
   link: https://github.com/cncf/tag-security/labels/good%20first%20issue
+stats:
+  issue-count: 13
+  last-updated: '2023-01-07T14:48:57Z'

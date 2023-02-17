@@ -102,6 +102,8 @@ Dir.chdir(root_directory) do
   puts 'after setting git config changes'
 
   system("git remote set-url origin 'https://x-access-token:#{token}@github.com/#{current_repo}.git'")
+  # Git now warns when the remote URL is changed, and we need to opt-in for continuing to work with this repository
+  system("git config --global --add safe.directory #{Dir.pwd}")
 
   puts 'after changing git remote url'
 

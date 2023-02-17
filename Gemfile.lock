@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 42ae6fdf16b1272ef16800d654db12e6dec5e4a4
+  revision: 6dc9e2137fc7aaf88bb77b5dddd888dae73e23ef
   branch: main
   specs:
     up_for_grabs_tooling (0.1.0)
@@ -34,8 +34,8 @@ GEM
     faraday-net_http (3.0.2)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
-    google-protobuf (3.21.12-x86_64-linux)
-    graphql (2.0.16)
+    google-protobuf (3.22.0-x86_64-linux)
+    graphql (2.0.17)
     graphql-client (0.18.0)
       activesupport (>= 3.0)
       graphql
@@ -95,7 +95,7 @@ GEM
       ffi (~> 1.0)
     regexp_parser (2.7.0)
     rexml (3.2.5)
-    rouge (4.0.1)
+    rouge (4.1.0)
     rubocop (1.45.1)
       json (~> 2.3)
       parallel (~> 1.10)
@@ -106,12 +106,12 @@ GEM
       rubocop-ast (>= 1.24.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.24.1)
-      parser (>= 3.1.1.0)
+    rubocop-ast (1.26.0)
+      parser (>= 3.2.1.0)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.58.0)
+    sass-embedded (1.58.2)
       google-protobuf (~> 3.21)
       rake (>= 10.0.0)
     sawyer (0.9.2)

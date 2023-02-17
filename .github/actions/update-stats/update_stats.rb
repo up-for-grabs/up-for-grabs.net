@@ -79,7 +79,11 @@ end
 
 projects = Project.find_in_directory(root_directory)
 
+puts 'iterating on project updates'
+
 projects.each { |p| update(p, apply_changes: apply_changes) }
+
+puts 'completed iterating on project updates'
 
 unless apply_changes
   puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'
@@ -91,17 +95,27 @@ clean = true
 branch_name = Time.now.strftime('updated-stats-%Y%m%d')
 
 Dir.chdir(root_directory) do
+  puts 'before setting git config changes'
   system('git config --global user.name "shiftbot"')
   system('git config --global user.email "12331315+shiftbot@users.noreply.github.com"')
 
+  puts 'after setting git config changes'
+
   system("git remote set-url origin 'https://x-access-token:#{token}@github.com/#{current_repo}.git'")
+
+  puts 'after changing git remote url'
 
   clean = system('git diff --quiet > /dev/null')
 
+  puts 'after git diff'
+
   unless clean
     system("git checkout -b #{branch_name}")
+    puts 'after git checkout'
     system("git commit -am 'regenerated project stats'")
+    puts 'after git commit'
     system("git push origin #{branch_name}")
+    puts 'after git push'
   end
 end
 

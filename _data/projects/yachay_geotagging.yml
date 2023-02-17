@@ -1,12 +1,18 @@
+---
 name: Yachay AI - Geotagging
-desc: Yachay.ai open-sourced the solution to the text-based geolocation detection. We are sharing the infrastructure and the data sets to find better solutions to the problem.
+desc: >-
+  Yachay.ai open-sourced the solution to the text-based geolocation detection. We are sharing the infrastructure
+  and the data sets to find better solutions to the problem.
 site: https://www.yachay.ai/
 tags:
-  - nlp
-  - python3
-  - byt5
-  - geotagging
-  - bert
+- nlp
+- python3
+- byt5
+- geotagging
+- bert
 upforgrabs:
   name: good first issue
   link: https://github.com/1712n/yachay-public/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2023-01-06T14:39:00Z'

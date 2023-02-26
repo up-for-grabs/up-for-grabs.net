@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 6dc9e2137fc7aaf88bb77b5dddd888dae73e23ef
+  revision: d933ac38f17f5b2cf2d55d3f7ab44d9eb6802755
   branch: main
   specs:
     up_for_grabs_tooling (0.1.0)
@@ -21,7 +21,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     colorator (1.1.0)
-    concurrent-ruby (1.2.0)
+    concurrent-ruby (1.2.2)
     ecma-re-validator (0.4.0)
       regexp_parser (~> 2.2)
     em-websocket (0.5.3)
@@ -96,14 +96,14 @@ GEM
     regexp_parser (2.7.0)
     rexml (3.2.5)
     rouge (4.1.0)
-    rubocop (1.45.1)
+    rubocop (1.46.0)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.2.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml (>= 3.2.5, < 4.0)
-      rubocop-ast (>= 1.24.1, < 2.0)
+      rubocop-ast (>= 1.26.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.26.0)
@@ -111,7 +111,7 @@ GEM
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.58.2)
+    sass-embedded (1.58.3)
       google-protobuf (~> 3.21)
       rake (>= 10.0.0)
     sawyer (0.9.2)

@@ -8,6 +8,7 @@ jobs:
   cleanupArchivedProjects:
     name: Update project stats
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
     - uses: actions/checkout@main
     - uses: ./.github/actions/update-stats

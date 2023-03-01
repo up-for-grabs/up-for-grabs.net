@@ -1,6 +1,6 @@
 ---
 name: Roc Go
-desc: Go bindings for Roc Toolkit
+desc: Go bindings for Roc Toolkit (real-time audio streaming)
 site: https://github.com/roc-streaming/roc-go
 tags:
 - go

@@ -3,12 +3,12 @@ desc: A spatial indexing tool to manage spatial data in-memory.
 site: https://github.com/thegeekyasian/geo-assist
 tags:
   - geospatial
-  - open source
+  - open-source
   - java
   - gis
-  - geospatial indexing
+  - geospatial-indexing
   - index
-  - kd tree
+  - kd-tree
 upforgrabs:
   name: enhancements
   link: https://github.com/thegeekyasian/geo-assist/labels/enhancement

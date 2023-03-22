@@ -978,8 +978,9 @@ ul.popular-tags li {
   min-width: 90px;
   border-radius: 5px;
 }
+
 .radio-btn:hover {
-  box-shadow: 3px 3px 10px  rgba(54, 132, 248, 0.5) ;
+  box-shadow: 3px 3px 10px rgba(54, 132, 248, 0.5);
   transition-duration: .1s;
   transform: translateY(-1px);
 }
@@ -990,4 +991,42 @@ ul.popular-tags li {
 
 .filters-panel {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width : 670px) {
+  #view-mode {
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    z-index: 999;
+    margin-right: 10px;
+    right: 0;
+    top: 18px;
+  }
+
+  #back2Top {
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    right: 0;
+    bottom: 18px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #DDD;
+    color: #555;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    transition: 0.3s;
+  }
 }

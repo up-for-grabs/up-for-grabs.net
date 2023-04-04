@@ -12,6 +12,8 @@ require 'up_for_grabs_tooling'
 def update(project, apply_changes: false)
   return unless project.github_project?
 
+  puts "checking project: #{project.github_owner_name_pair}..."
+
   result = GitHubRepositoryLabelActiveCheck.run(project)
 
   if result[:rate_limited]

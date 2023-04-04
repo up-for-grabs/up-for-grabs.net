@@ -77,17 +77,17 @@ def verify_project(project)
     exit 78
   end
 
-  return { project: project, deprecated: true, reason: 'archived' } if result[:reason] == 'archived'
+  return { project:, deprecated: true, reason: 'archived' } if result[:reason] == 'archived'
 
-  return { project: project, deprecated: true, reason: 'missing' } if result[:reason] == 'missing'
+  return { project:, deprecated: true, reason: 'missing' } if result[:reason] == 'missing'
 
-  return { project: project, deprecated: false, reason: 'lack-of-activity', last_updated: result[:last_updated] } if result[:reason] == 'lack-of-activity'
+  return { project:, deprecated: false, reason: 'lack-of-activity', last_updated: result[:last_updated] } if result[:reason] == 'lack-of-activity'
 
-  return { project: project, deprecated: false, reason: 'redirect', old_location: result[:old_location], location: result[:location] } if result[:reason] == 'redirect'
+  return { project:, deprecated: false, reason: 'redirect', old_location: result[:old_location], location: result[:location] } if result[:reason] == 'redirect'
 
-  return { project: project, deprecated: false, reason: 'error', error: result[:error] } if result[:reason] == 'error'
+  return { project:, deprecated: false, reason: 'error', error: result[:error] } if result[:reason] == 'error'
 
-  { project: project, deprecated: false }
+  { project:, deprecated: false }
 end
 
 current_repo = ENV.fetch('GITHUB_REPOSITORY', nil)

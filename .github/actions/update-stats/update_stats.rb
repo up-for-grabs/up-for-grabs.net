@@ -81,7 +81,7 @@ projects = Project.find_in_directory(root_directory)
 
 puts 'iterating on project updates'
 
-projects.each { |p| update(p, apply_changes: apply_changes) }
+projects.each { |p| update(p, apply_changes:) }
 
 puts 'completed iterating on project updates'
 

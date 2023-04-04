@@ -34,10 +34,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Ruby 3.0
-        uses: ruby/setup-ruby@v1
+      - name: Set up Ruby 3.2
+        uses: ruby/setup-ruby@904f3fef85a9c80a3750cbe7d5159268fd5caa9f
         with:
-          ruby-version: '3.0'
+          ruby-version: '3.2'
       - name: Build and test Jekyll site
         run: |
           bundle install

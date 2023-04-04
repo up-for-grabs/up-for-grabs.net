@@ -1,13 +1,12 @@
 on:
   schedule:
     - cron: 0 14 * * *
-  workflow_dispatch:
-
-inputs:
-  apply-changes:
-    description: 'Whether workflow should generate a pull request for these changes'
-    required: false
-    default: 0
+  workflow_dispatch:    
+    inputs:
+      apply-changes:
+        description: 'Whether workflow should generate a pull request for these changes'
+        required: false
+        default: '0'
 
 name: Update project stats
 jobs:

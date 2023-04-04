@@ -127,9 +127,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  graphql-client
   jekyll
   json_schemer
+  octokit
   rubocop
+  safe_yaml
   up_for_grabs_tooling!
   webrick
 

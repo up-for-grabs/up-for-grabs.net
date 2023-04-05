@@ -12,18 +12,18 @@ require 'up_for_grabs_tooling'
 def update(project, apply_changes: false)
   return unless project.github_project?
 
-  puts "checking project: #{project.github_owner_name_pair}..."
+  warn "checking project: #{project.github_owner_name_pair}..."
 
   result = GitHubRepositoryLabelActiveCheck.run(project)
 
   if result[:rate_limited]
-    puts 'This script is currently rate-limited by the GitHub API'
-    puts 'Marking as inconclusive to indicate that no further work will be done here'
+    warn 'This script is currently rate-limited by the GitHub API'
+    warn 'Marking as inconclusive to indicate that no further work will be done here'
     exit 0
   end
 
   if result[:reason] == 'repository-missing'
-    puts "The GitHub repository '#{project.github_owner_name_pair}' cannot be found. Please confirm the location of the project."
+    warn "The GitHub repository '#{project.github_owner_name_pair}' cannot be found. Please confirm the location of the project."
     return
   end
 
@@ -31,7 +31,7 @@ def update(project, apply_changes: false)
   label = obj['upforgrabs']['name']
 
   if result[:reason] == 'missing'
-    puts "The label '#{label}' for GitHub repository '#{project.github_owner_name_pair}' could not be found. Please ensure this points to a valid label used in the project."
+    warn "The label '#{label}' for GitHub repository '#{project.github_owner_name_pair}' could not be found. Please ensure this points to a valid label used in the project."
     return
   end
 
@@ -43,7 +43,7 @@ def update(project, apply_changes: false)
 
   unless apply_changes
     if link_needs_rewriting
-      puts "The label link for '#{label}' in project '#{project.relative_path}' is out of sync with what is found in the 'upforgrabs' element. Ensure this is updated to '#{url}'"
+      warn "The label link for '#{label}' in project '#{project.relative_path}' is out of sync with what is found in the 'upforgrabs' element. Ensure this is updated to '#{url}'"
     end
     return
   end
@@ -61,7 +61,7 @@ end
 
 current_repo = ENV.fetch('GITHUB_REPOSITORY', nil)
 
-puts "Inspecting projects files for '#{current_repo}'"
+warn "Inspecting projects files for '#{current_repo}'"
 
 start = Time.now
 
@@ -75,20 +75,20 @@ prs = client.pulls current_repo
 found_pr = prs.find { |pr| pr.title == 'Updated project stats' && pr.user.login == 'shiftbot' }
 
 if found_pr
-  puts "There is a current PR open to update stats ##{found_pr.number} - review and merge that before we go again"
+  warn "There is a current PR open to update stats ##{found_pr.number} - review and merge that before we go again"
   exit 0
 end
 
 projects = Project.find_in_directory(root_directory)
 
-puts 'iterating on project updates'
+warn 'Iterating on project updates'
 
 projects.each { |p| update(p, apply_changes:) }
 
-puts 'completed iterating on project updates'
+warn 'Completed iterating on project updates'
 
 unless apply_changes
-  puts 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'
+  warn 'APPLY_CHANGES environment variable unset, exiting instead of making a new PR'
   exit 0
 end
 
@@ -97,29 +97,29 @@ clean = true
 branch_name = Time.now.strftime('updated-stats-%Y%m%d')
 
 Dir.chdir(root_directory) do
-  puts 'before setting git config changes'
+  warn 'before setting git config changes'
   system('git config --global user.name "shiftbot"')
   system('git config --global user.email "12331315+shiftbot@users.noreply.github.com"')
 
-  puts 'after setting git config changes'
+  warn 'after setting git config changes'
 
   system("git remote set-url origin 'https://x-access-token:#{token}@github.com/#{current_repo}.git'")
   # Git now warns when the remote URL is changed, and we need to opt-in for continuing to work with this repository
   system("git config --global --add safe.directory #{Dir.pwd}")
 
-  puts 'after changing git remote url'
+  warn 'after changing git remote url'
 
   clean = system('git diff --quiet > /dev/null')
 
-  puts 'after git diff'
+  warn 'after git diff'
 
   unless clean
     system("git checkout -b #{branch_name}")
-    puts 'after git checkout'
+    warn 'after git checkout'
     system("git commit -am 'regenerated project stats'")
-    puts 'after git commit'
+    warn 'after git commit'
     system("git push origin #{branch_name}")
-    puts 'after git push'
+    warn 'after git push'
   end
 end
 
@@ -132,6 +132,6 @@ end
 finish = Time.now
 delta = finish - start
 
-puts "Operation took #{delta}s"
+warn "Operation took #{delta}s"
 
 exit 0

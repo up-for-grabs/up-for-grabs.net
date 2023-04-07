@@ -26,3 +26,4 @@ jobs:
           BASE_SHA: ${{ github.event.pull_request.head.sha }}
           HEAD_SHA: ${{ github.event.pull_request.base.sha }}
           PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
+          GIT_REMOTE_URL: ${{ github.event.pull_request.head.repo.git_url }}

@@ -10,7 +10,7 @@ tags:
 - aws
 - iis
 upforgrabs:
-  name: up-for-grabs
+  name: something
   link: https://github.com/ebekker/ACMESharp/labels/up-for-grabs
 stats:
   issue-count: 0

@@ -9,8 +9,8 @@ tags:
 - automation
 - orchestration
 upforgrabs:
-  name: 'good first issue'
+  name: good first issue
   link: https://github.com/nuke-build/nuke/labels/good%20first%20issue
 stats:
-  issue-count: 9
-  last-updated: '2022-10-20T00:08:53Z'
+  issue-count: 6
+  last-updated: '2023-01-03T13:04:36Z'

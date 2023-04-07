@@ -12,6 +12,7 @@ name: Update project stats
 jobs:
   updateProjectStats:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v3

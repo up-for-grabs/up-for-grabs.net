@@ -31,30 +31,12 @@ dir = ENV.fetch('GITHUB_WORKSPACE', nil)
 
 range = "#{base_sha}...#{head_sha}"
 
-warn "Inspecting projects files that have changed for '#{range}' at '#{dir}' and remote '#{git_remote_url}"
+warn "Inspecting projects files that have changed for '#{range}' at '#{dir}' and remote '#{git_remote_url}'"
 
 if git_remote_url
   # fetching the fork repository so that our commits are in this repository
   # for processing and comparison with the base branch
   run "git -C '#{dir}' remote add fork #{git_remote_url} -f"
-end
-
-result = run "git -C '#{dir}' show #{base_sha}"
-if result[:exit_code].zero?
-  warn 'git show succeeded with base commit'
-  warn "stdout: #{result[:stdout]}"
-else
-  warn 'git show failed with base commit'
-  warn "stderr: #{result[:stderr]}"
-end
-
-result = run "git -C '#{dir}' show #{head_sha}"
-if result[:exit_code].zero?
-  warn 'git show succeeded with head commit'
-  warn "stdout: #{result[:stdout]}"
-else
-  warn 'git show failed with head commit'
-  warn "stderr: #{result[:stderr]}"
 end
 
 result = run "git -C '#{dir}' diff #{range} --name-only -- _data/projects/"

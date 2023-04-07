@@ -55,7 +55,8 @@ def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
 
     unless clean
       system("git checkout -b #{branch_name}")
-      system("git commit -am 'removed deprecated projects'")
+      system('git add _data/projects/')
+      system("git commit -a 'removed deprecated projects'")
       system("git push origin #{branch_name}") if apply_changes
     end
   end
@@ -80,6 +81,8 @@ def verify_project(project)
   return { project:, deprecated: true, reason: 'archived' } if result[:reason] == 'archived'
 
   return { project:, deprecated: true, reason: 'missing' } if result[:reason] == 'missing'
+
+  return { project:, deprecated: true, reason: 'issues-disabled' } if result[:reason] == 'issues-disabled'
 
   return { project:, deprecated: false, reason: 'lack-of-activity', last_updated: result[:last_updated] } if result[:reason] == 'lack-of-activity'
 

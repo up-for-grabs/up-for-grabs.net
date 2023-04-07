@@ -27,6 +27,11 @@ def update(project, apply_changes: false)
     return
   end
 
+  if result[:reason] == "issues-disabled"
+    warn "The GitHub repository '#{project.github_owner_name_pair}' has issues disabled, and should be cleaned up with the next deprecation run."
+    return
+  end
+
   if result[:reason] == 'error'
     warn "An error occurred: #{result[:error]}"
     return

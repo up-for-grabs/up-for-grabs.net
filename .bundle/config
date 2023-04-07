@@ -1,1 +1,4 @@
-BUNDLE_PATH: ./vendor/bundle
+---
+BUNDLE_PATH: "/home/runner/work/up-for-grabs.net/up-for-grabs.net/vendor/bundle"
+BUNDLE_DEPLOYMENT: "true"
+BUNDLE_JOBS: "4"

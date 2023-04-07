@@ -1,0 +1,27 @@
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+
+name: Review project changes
+jobs:
+  reviewProjectChanges:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout PR tip
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Run script to review changed projects
+        run: bundle exec ruby scripts/review_changes.rb
+        env:
+          BASE_SHA: ${{ github.event.pull_request.head.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.base.sha }}
+          PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}

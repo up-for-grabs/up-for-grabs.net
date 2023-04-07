@@ -12,9 +12,9 @@ require 'up_for_grabs_tooling'
 def update(project, apply_changes: false)
   return unless project.github_project?
 
-  warn "checking project: #{project.github_owner_name_pair}..."
-
   result = GitHubRepositoryLabelActiveCheck.run(project)
+
+  warn "Project: #{project.github_owner_name_pair} returned #{result.inspect}"
 
   if result[:rate_limited]
     warn 'This script is currently rate-limited by the GitHub API'
@@ -24,6 +24,11 @@ def update(project, apply_changes: false)
 
   if result[:reason] == 'repository-missing'
     warn "The GitHub repository '#{project.github_owner_name_pair}' cannot be found. Please confirm the location of the project."
+    return
+  end
+
+  if result[:reason] == 'error'
+    warn "An error occurred: #{result[:error]}"
     return
   end
 

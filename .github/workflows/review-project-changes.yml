@@ -2,16 +2,17 @@ on:
   pull_request_target:
     types: [opened, synchronize]
 
-name: Review project changes
+name: Review
 jobs:
   reviewProjectChanges:
+    name: Project Changes
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Checkout PR tip
+      - name: Checkout base branch
         uses: actions/checkout@v3
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: gh-pages
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf
         with:

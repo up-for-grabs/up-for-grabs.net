@@ -19,4 +19,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/google/ground-platform/labels/help%20wanted
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2023-02-28T22:07:31Z'

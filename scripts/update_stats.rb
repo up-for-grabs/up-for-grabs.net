@@ -63,7 +63,10 @@ def update(project, apply_changes: false)
   if result[:last_updated].nil?
     obj.store('stats', 'issue-count' => result[:count])
   else
-    obj.store('stats', 'issue-count' => result[:count], 'last-updated' => result[:last_updated])
+    obj.store('stats',
+              'issue-count' => result[:count],
+              'last-updated' => result[:last_updated],
+              'fork-count' => result[:fork_count])
   end
 
   project.write_yaml(obj)

@@ -11,4 +11,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/mholt/archiver/labels/help%20wanted
 stats:
-  issue-count: 0
+  issue-count: 2
+  last-updated: '2022-08-24T17:17:10Z'

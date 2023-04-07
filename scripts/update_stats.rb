@@ -126,7 +126,9 @@ Dir.chdir(root_directory) do
   unless clean
     system("git checkout -b #{branch_name}")
     warn 'after git checkout'
-    system("git commit -am 'regenerated project stats'")
+    system("git add _data/projects/")
+    warn 'after git add'
+    system("git commit -m 'regenerated project stats'")
     warn 'after git commit'
     system("git push origin #{branch_name}")
     warn 'after git push'

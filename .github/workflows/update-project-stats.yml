@@ -1,12 +1,12 @@
 on:
   schedule:
     - cron: 0 14 * * *
-  workflow_dispatch:    
+  workflow_dispatch:
     inputs:
       apply-changes:
         description: 'Whether workflow should generate a pull request for these changes'
         required: false
-        default: '0'
+        default: '1'
 
 name: Update project stats
 jobs:
@@ -22,8 +22,7 @@ jobs:
           bundler-cache: true
           cache-version: 0
       - name: Run script to update stats for all projects
-        # Outputs to the './_site' directory by default
         run: bundle exec ruby scripts/update_stats.rb
         env:
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
-          APPLY_CHANGES: 0
+          APPLY_CHANGES: ${{ inputs.apply-changes }}

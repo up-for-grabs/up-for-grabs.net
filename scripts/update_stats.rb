@@ -27,6 +27,11 @@ def update(project, apply_changes: false)
     return
   end
 
+  if result[:reason] == 'issues-disabled'
+    warn "The GitHub repository '#{project.github_owner_name_pair}' has issues disabled, and should be cleaned up with the next deprecation run."
+    return
+  end
+
   if result[:reason] == 'error'
     warn "An error occurred: #{result[:error]}"
     return
@@ -121,7 +126,9 @@ Dir.chdir(root_directory) do
   unless clean
     system("git checkout -b #{branch_name}")
     warn 'after git checkout'
-    system("git commit -am 'regenerated project stats'")
+    system('git add _data/projects/')
+    warn 'after git add'
+    system("git commit -m 'regenerated project stats'")
     warn 'after git commit'
     system("git push origin #{branch_name}")
     warn 'after git push'

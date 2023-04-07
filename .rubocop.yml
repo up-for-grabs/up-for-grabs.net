@@ -8,10 +8,10 @@ Layout/LineLength:
   Max: 186
 
 Metrics/CyclomaticComplexity:
-  Max: 11
+  Max: 12
 
 Metrics/PerceivedComplexity:
-  Max: 12
+  Max: 13
 
 Metrics/AbcSize:
   Max: 66

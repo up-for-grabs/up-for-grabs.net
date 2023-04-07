@@ -16,5 +16,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/litmuschaos/litmus/labels/good%20first%20issue
 stats:
-  issue-count: 17
-  last-updated: '2023-04-06T06:41:06Z'
+  issue-count: 18
+  last-updated: '2023-04-07T14:14:26Z'
+  fork-count: 558

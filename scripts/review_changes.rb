@@ -117,21 +117,13 @@ def repository_check(project)
     return nil
   end
 
-  if result[:reason] == 'archived'
-    return "The GitHub repository '#{project.github_owner_name_pair}' has been marked as archived, which suggests it is not active."
-  end
+  return "The GitHub repository '#{project.github_owner_name_pair}' has been marked as archived, which suggests it is not active." if result[:reason] == 'archived'
 
-  if result[:reason] == 'missing'
-    return "The GitHub repository '#{project.github_owner_name_pair}' cannot be found. Please confirm the location of the project."
-  end
+  return "The GitHub repository '#{project.github_owner_name_pair}' cannot be found. Please confirm the location of the project." if result[:reason] == 'missing'
 
-  if result[:reason] == 'redirect'
-    return "The GitHub repository '#{result[:old_location]}' is now at '#{result[:location]}'. Please update this project before this is merged."
-  end
+  return "The GitHub repository '#{result[:old_location]}' is now at '#{result[:location]}'. Please update this project before this is merged." if result[:reason] == 'redirect'
 
-  if result[:reason] == 'error'
-    return "The GitHub repository '#{project.github_owner_name_pair}' could not be confirmed. Error details: #{result[:error]}"
-  end
+  return "The GitHub repository '#{project.github_owner_name_pair}' could not be confirmed. Error details: #{result[:error]}" if result[:reason] == 'error'
 
   nil
 end
@@ -145,9 +137,7 @@ def label_check(project)
     return nil
   end
 
-  if result[:reason] == 'error'
-    return "An error occurred while querying for the project label. Details: #{result[:error].inspect}"
-  end
+  return "An error occurred while querying for the project label. Details: #{result[:error].inspect}" if result[:reason] == 'error'
 
   if result[:reason] == 'repository-missing'
     return "I couldn't find the GitHub repository '#{project.github_owner_name_pair}' that was used in the `upforgrabs.link` value. " \

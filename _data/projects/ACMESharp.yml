@@ -11,7 +11,7 @@ tags:
 - iis
 upforgrabs:
   name: something
-  link: https://github.com/ebekker/ACMESharp/labels/up-for-grabs
+  link: https://github.com/ebekker/ACMESharp/labels/something
 stats:
   issue-count: 0
   fork-count: 186

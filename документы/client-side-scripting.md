@@ -1,4 +1,4 @@
-# Client-side Scripting
+( Client-side Scripting)
 
 This document outlines the moving parts that make up how the JS modules are
 found and run in the app.

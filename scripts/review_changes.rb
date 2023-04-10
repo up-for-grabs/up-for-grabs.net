@@ -101,6 +101,10 @@ def generate_comment(dir, files, initial_message: true)
 end
 
 def review_project(project)
+  yaml = project.read_yaml
+
+  warn "project YAML: '#{yaml}'"
+
   validation_errors = SchemaValidator.validate(project)
 
   return { project:, kind: 'validation', validation_errors: } if validation_errors.any?
@@ -219,6 +223,12 @@ end
 result = run "git -C '#{dir}' diff #{range} --name-only -- _data/projects/"
 unless result[:exit_code].zero?
   warn "Unable to compute diff range: #{range}..."
+  warn "stderr: #{result[:stderr]}"
+end
+
+result = run "git -C '#{dir}' checkout #{head_sha}"
+unless result[:exit_code].zero?
+  warn "Unable to checkout HEAD commit: #{head_sha}..."
   warn "stderr: #{result[:stderr]}"
 end
 

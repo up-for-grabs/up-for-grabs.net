@@ -146,7 +146,7 @@ def label_check(project)
   end
 
   if result[:reason] == 'error'
-    return "An error occurred while querying for the project label. Details: #{result[:error]}"
+    return "An error occurred while querying for the project label. Details: #{result[:error].inspect}"
   end
 
   if result[:reason] == 'repository-missing'

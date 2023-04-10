@@ -198,7 +198,7 @@ def label_check(project)
   nil
 end
 
-PullRequestCommentsQuery = SWAPI::Client.parse <<-GRAPHQL
+PullRequestCommentsQuery = GraphQL::Client.parse <<-GRAPHQL
   query ($owner: String!, $name: String!, $number: Int!) {
     repository(owner: $owner, name: $name) {
       pullRequest(number: $number) {

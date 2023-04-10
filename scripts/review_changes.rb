@@ -198,6 +198,44 @@ def label_check(project)
   nil
 end
 
+def find_existing_comment(client, repo, pull_request_number)
+  pull_request_comments = client.parse(<<-GRAPHQL)
+    query ($owner: String!, $name: String!, $number: Int!) {
+      repository(owner: $owner, name: $name) {
+        pullRequest(number: $number) {
+          comments(first: 50) {
+            nodes {
+              id
+              body
+              author {
+                login
+                __typename
+              }
+            }
+          }
+        }
+      }
+    }
+  GRAPHQL
+
+  owner, name = repo.split('/')
+
+  variables = { owner:, name:, number: pull_request_number }
+
+  response = client.query(pull_request_comments, variables:)
+
+  pull_request = response.data.repository.pull_request
+  comments = pull_request.comments
+
+  return nil unless comments.nodes.any?
+
+  first_comment = comments.nodes.find { |node| node.author.login == 'shiftbot' && node.author.__typename == 'User' && node.body.include?(PREAMBLE_HEADER) }
+
+  return nil unless first_comment
+
+  first_comment.id
+end
+
 def valid_url?(url)
   uri = URI.parse(url)
   uri.is_a?(URI::HTTP) || uri.is_a?(URI::HTTPS)
@@ -205,12 +243,28 @@ rescue URI::InvalidURIError
   false
 end
 
+def create_client
+  http = GraphQL::Client::HTTP.new('https://api.github.com/graphql') do
+    def headers(_context)
+      {
+        'User-Agent': 'up-for-grabs-graphql-label-queries',
+        Authorization: "bearer #{ENV.fetch('GITHUB_TOKEN', 'unknown')}"
+      }
+    end
+  end
+
+  schema = GraphQL::Client.load_schema(http)
+
+  GraphQL::Client.new(schema:, execute: http)
+end
+
 start = Time.now
 
-base_sha = ENV.fetch('BASE_SHA', nil)
 head_sha = ENV.fetch('HEAD_SHA', nil)
+base_sha = ENV.fetch('BASE_SHA', nil)
 git_remote_url = ENV.fetch('GIT_REMOTE_URL', nil)
 dir = ENV.fetch('GITHUB_WORKSPACE', nil)
+pull_request_number = ENV.fetch('PULL_REQUEST_NUMBER', nil)
 
 range = "#{base_sha}...#{head_sha}"
 
@@ -248,6 +302,16 @@ warn "Found files in this PR to process: '#{files}'"
 markdown_body = generate_comment(dir, files, initial_message: true)
 
 warn "Comment to submit: #{markdown_body}"
+
+client = create_client
+
+existing_comment_id = find_existing_comment(client, 'up-for-grabs/up-for-grabs.net', pull_request_number)
+
+if existing_comment_id
+  warn "TODO: update comment #{existing_comment_id}"
+else
+  warn 'TODO: create new comment'
+end
 
 finish = Time.now
 delta = finish - start

@@ -212,7 +212,7 @@ end
 
 warn "Found files in this PR to process: '#{files}'"
 
-markdown_body = PullRequestValidator.generate_comment(dir, files, initial_message: true)
+markdown_body = generate_comment(dir, files, initial_message: true)
 
 warn "Comment to submit: #{markdown_body}"
 

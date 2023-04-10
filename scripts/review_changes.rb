@@ -111,7 +111,7 @@ def repository_check(project)
   # TODO: cleanup the GITHUB_TOKEN setting once this is decoupled from the environment variable
   result = GitHubRepositoryActiveCheck.run(project)
 
-  puts "repository_check returned result: #{result.inspect}"
+  warn "repository_check returned result: #{result.inspect}"
 
   if result[:rate_limited]
     # logger.info 'This script is currently rate-limited by the GitHub API'
@@ -133,7 +133,7 @@ end
 def label_check(project)
   result = GitHubRepositoryLabelActiveCheck.run(project)
 
-  puts "label_check returned result: #{result.inspect}"
+  warn "label_check returned result: #{result.inspect}"
 
   if result[:rate_limited]
     # logger.info 'This script is currently rate-limited by the GitHub API'

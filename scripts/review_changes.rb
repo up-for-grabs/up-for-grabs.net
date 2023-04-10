@@ -111,9 +111,7 @@ def repository_check(project)
   # TODO: cleanup the GITHUB_TOKEN setting once this is decoupled from the environment variable
   result = GitHubRepositoryActiveCheck.run(project)
 
-
   puts "repository_check returned result: #{result.inspect}"
-
 
   if result[:rate_limited]
     # logger.info 'This script is currently rate-limited by the GitHub API'
@@ -149,6 +147,8 @@ def label_check(project)
     return "I couldn't find the GitHub repository '#{project.github_owner_name_pair}' that was used in the `upforgrabs.link` value. " \
            "Please confirm this is correct or hasn't been mis-typed."
   end
+
+  return "I couldn't find the label that was used in the `upforgrabs.link` value. Please confirm this is correct or hasn't been mis-typed." if result[:reason] == 'missing'
 
   yaml = project.read_yaml
   label = yaml['upforgrabs']['name']

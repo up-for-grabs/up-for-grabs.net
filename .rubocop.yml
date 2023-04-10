@@ -18,3 +18,7 @@ Metrics/AbcSize:
 
 Metrics/MethodLength:
   Max: 59
+
+Lint/NestedMethodDefinition:
+  Exclude:
+    - 'scripts/review_changes.rb'

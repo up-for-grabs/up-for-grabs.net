@@ -199,7 +199,7 @@ def label_check(project)
 end
 
 def find_existing_comment(client, repo, pull_request_number)
-  const PullRequestComments = client.parse(<<-GRAPHQL)
+  pull_request_comments = client.parse(<<-GRAPHQL)
     query ($owner: String!, $name: String!, $number: Int!) {
       repository(owner: $owner, name: $name) {
         pullRequest(number: $number) {
@@ -222,7 +222,7 @@ def find_existing_comment(client, repo, pull_request_number)
 
   variables = { owner:, name:, number: pull_request_number }
 
-  response = client.query(PullRequestComments, variables:)
+  response = client.query(pull_request_comments, variables:)
 
   pull_request = response.data.repository.pull_request
   comments = pull_request.comments
@@ -260,8 +260,8 @@ end
 
 start = Time.now
 
-base_sha = ENV.fetch('BASE_SHA', nil)
 head_sha = ENV.fetch('HEAD_SHA', nil)
+base_sha = ENV.fetch('BASE_SHA', nil)
 git_remote_url = ENV.fetch('GIT_REMOTE_URL', nil)
 dir = ENV.fetch('GITHUB_WORKSPACE', nil)
 pull_request_number = ENV.fetch('PULL_REQUEST_NUMBER', nil)

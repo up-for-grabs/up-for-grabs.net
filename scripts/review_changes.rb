@@ -173,7 +173,7 @@ def label_check(project)
            "Please confirm this is correct or hasn't been mis-typed."
   end
 
-  return "I couldn't find the label that was used in the `upforgrabs.link` value. Please confirm this is correct or hasn't been mis-typed." if result[:reason] == 'missing'
+  return "I couldn't find the label that was used in the `upforgrabs.link` value: '#{result[:name]}'. Please update the configuration to match the right label in this repository." if result[:reason] == 'missing'
 
   yaml = project.read_yaml
   label = yaml['upforgrabs']['name']

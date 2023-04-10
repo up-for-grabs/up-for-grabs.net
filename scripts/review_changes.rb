@@ -226,12 +226,6 @@ unless result[:exit_code].zero?
   warn "stderr: #{result[:stderr]}"
 end
 
-result = run "git -C '#{dir}' checkout #{head_sha}"
-unless result[:exit_code].zero?
-  warn "Unable to checkout HEAD commit: #{head_sha}..."
-  warn "stderr: #{result[:stderr]}"
-end
-
 raw_files = result[:stdout].split("\n")
 
 files = raw_files.map(&:chomp)
@@ -239,6 +233,12 @@ files = raw_files.map(&:chomp)
 if files.empty?
   warn 'No project files have been included in this PR...'
   return
+end
+
+result = run "git -C '#{dir}' checkout #{head_sha} --force"
+unless result[:exit_code].zero?
+  warn "Unable to checkout HEAD commit: #{head_sha}..."
+  warn "stderr: #{result[:stderr]}"
 end
 
 warn "Found files in this PR to process: '#{files}'"

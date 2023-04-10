@@ -40,6 +40,27 @@ def get_header(initial_message)
   end
 end
 
+def get_validation_message(result)
+  path = result[:project].relative_path
+
+  case result[:kind]
+  when 'valid'
+    "#### `#{path}` :white_check_mark:\nNo problems found, everything should be good to merge!"
+  when 'validation'
+    message = result[:validation_errors].map { |e| "> - #{e}" }.join "\n"
+    "#### `#{path}` :x:\nI had some troubles parsing the project file, or there were fields that are missing that I need.\n\nHere's the details:\n#{message}"
+  when 'tags'
+    message = result[:tags_errors].map { |e| "> - #{e}" }.join "\n"
+    "#### `#{path}` :x:\nI have some suggestions about the tags used in the project:\n\n#{message}"
+  when 'link-url'
+    "#### `#{path}` :x:\nThe `upforgrabs.url` value #{result[:url]} is not a valid URL - please check and update the value."
+  when 'repository', 'label'
+    "#### `#{path}` :x:\n#{result[:message]}"
+  else
+    "#### `#{path}` :question:\nI got a result of type '#{result[:kind]}' that I don't know how to handle. I need to mention @shiftkey here as he might be able to fix it."
+  end
+end
+
 def generate_comment(dir, files, initial_message: true)
   projects = files.map do |f|
     full_path = File.join(dir, f)

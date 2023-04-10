@@ -198,31 +198,31 @@ def label_check(project)
   nil
 end
 
-PullRequestCommentsQuery = GraphQL.parse <<-GRAPHQL
-  query ($owner: String!, $name: String!, $number: Int!) {
-    repository(owner: $owner, name: $name) {
-      pullRequest(number: $number) {
-        comments(first: 50) {
-          nodes {
-            id
-            body
-            author {
-              login
-              __typename
+def find_existing_comment(client, repo, pull_request_number)
+  Object.const_set :PullRequestComments, client.parse(<<-GRAPHQL)
+    query ($owner: String!, $name: String!, $number: Int!) {
+      repository(owner: $owner, name: $name) {
+        pullRequest(number: $number) {
+          comments(first: 50) {
+            nodes {
+              id
+              body
+              author {
+                login
+                __typename
+              }
             }
           }
         }
       }
     }
-  }
-GRAPHQL
+  GRAPHQL
 
-def find_existing_comment(client, repo, pull_request_number)
   owner, name = repo.split('/')
 
   variables = { owner:, name:, number: pull_request_number }
 
-  response = client.query(PullRequestCommentsQuery, variables:)
+  response = client.query(:PullRequestCommentsQuery, variables:)
 
   pull_request = response.data.repository.pull_request
   comments = pull_request.comments

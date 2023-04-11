@@ -1,0 +1,13 @@
+---
+name: Cloud Download Manager
+desc: Cloud Download Manager is a useful tool for anyone who wants to store, access, and stream their digital content from the cloud.
+site: https://github.com/besoeasy/Cloud-Download-Manager
+tags:
+- torrent
+- cloud
+- aria2
+- telegram
+- downloader
+upforgrabs:
+  name: enhancement
+  link: https://github.com/besoeasy/Cloud-Download-Manager/labels/enhancement

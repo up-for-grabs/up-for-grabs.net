@@ -9,8 +9,8 @@ tags:
 - telegram
 - downloader
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/besoeasy/Cloud-Download-Manager/labels/up-for-grabs
+  name: enhancement
+  link: https://github.com/besoeasy/Cloud-Download-Manager/labels/enhancement
 stats:
   issue-count: 0
   last-updated: '2023-04-12T05:22:30Z'

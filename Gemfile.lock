@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 0cbb2009291a4ff30bf7ff7a1092d2f60d7135e0
+  revision: df787a746b60bf04b59fe7027c0ac1487e3348c5
   branch: main
   specs:
     up_for_grabs_tooling (0.1.0)
@@ -17,7 +17,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.3)
+    addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     colorator (1.1.0)

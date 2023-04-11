@@ -1,16 +1,19 @@
+---
 name: Counter For Messenger
-desc: Counter For Messenger is a free app for Messenger which provide many statistics for your message history.
+desc: >-
+  Counter For Messenger is a free app for Messenger which provide many statistics for your message history.
 site: https://github.com/Kubis10/CounterForMessenger
 tags:
-  - python
-  - tkinter
-  - counter
-  - statistics
-  - facebook
-  - messenger
+- python
+- tkinter
+- counter
+- statistics
+- facebook
+- messenger
 upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/Kubis10/CounterForMessenger/labels/Up-for-Grabs
 stats:
   issue-count: 5
-  last-updated: '2023-03-30T22:25:24Z'
+  last-updated: '2023-01-09T22:36:33Z'
+  fork-count: 1

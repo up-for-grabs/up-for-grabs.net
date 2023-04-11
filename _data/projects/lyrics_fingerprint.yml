@@ -1,0 +1,10 @@
+name: lyrics_fingerprint 
+desc: This processing sketch creates a pretty fingerprint for lyrics.
+site: https://github.com/tobiasfrck/lyrics_fingerprint
+tags:
+  - java
+  - processing
+  - graphics
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/tobiasfrck/lyrics_fingerprint/labels/up-for-grabs

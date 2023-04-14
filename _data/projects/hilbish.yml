@@ -3,7 +3,6 @@ desc: An extensible Lua-configured Unix shell
 site: https://rosettea.github.io/Hilbish
 tags:
   - shell
-  - golang
   - lua
   - go
   - cli

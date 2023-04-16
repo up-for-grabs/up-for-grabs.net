@@ -9,5 +9,5 @@ tags:
   - typescript
   - automated-testing
 upforgrabs:
-  name: good first issue
-  link: https://github.com/keploy/keploy/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22
+  name: Good First Issue
+  link: https://github.com/keploy/keploy/labels/Good%20First%20Issue

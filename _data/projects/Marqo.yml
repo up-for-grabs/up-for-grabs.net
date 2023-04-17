@@ -1,3 +1,4 @@
+---
 name: Marqo
 desc: >-
   A tensor-based search and analytics engine that seamlessly integrates with applications and websites. 
@@ -5,15 +6,19 @@ desc: >-
   in 3 lines of code.
 site: https://www.marqo.ai/
 tags:
-  - vectorstore
-  - search
-  - ai
-  - python
-  - vectordatabase
-  - machinelearning
-  - docker
-  - cloud
-  - tensorsearch
+- vectorstore
+- search
+- ai
+- python
+- vectordatabase
+- machinelearning
+- docker
+- cloud
+- tensorsearch
 upforgrabs:
   name: good first issue
   link: https://github.com/marqo-ai/marqo/labels/good%20first%20issue
+stats:
+  issue-count: 10
+  last-updated: '2022-10-15T23:44:50Z'
+  fork-count: 102

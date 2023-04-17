@@ -95,7 +95,7 @@ GEM
     regexp_parser (2.7.0)
     rexml (3.2.5)
     rouge (4.1.0)
-    rubocop (1.49.0)
+    rubocop (1.50.1)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.2.0.0)

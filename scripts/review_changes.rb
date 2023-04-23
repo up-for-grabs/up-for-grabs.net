@@ -22,12 +22,12 @@ def run(cmd)
 end
 
 FOUND_PROJECT_FILES_HEADER = ":wave: I'm a robot checking the state of this pull request to save the human reviewers time. " \
-                  "I noticed this PR added or modififed the data files under `_data/projects/` so I had a look at what's changed." \
-                  "\n\nAs you make changes to this pull request, I'll re-run these checks.\n\n"
+                             "I noticed this PR added or modififed the data files under `_data/projects/` so I had a look at what's changed." \
+                             "\n\nAs you make changes to this pull request, I'll re-run these checks.\n\n"
 
 SKIP_PULL_REQUEST_MESSAGE = ":wave: I'm a robot checking the state of this pull request to save the human reviewers time. " \
-                  "I don't see any changes under `_data/projects/` so I don't have any feedback here." \
-                  "\n\nAs you make changes to this pull request, I'll keep an eye out for changes.\n\n"
+                            "I don't see any changes under `_data/projects/` so I don't have any feedback here." \
+                            "\n\nAs you make changes to this pull request, I'll re-run these checks.\n\n"
 
 ALLOWED_EXTENSIONS = ['.yml'].freeze
 

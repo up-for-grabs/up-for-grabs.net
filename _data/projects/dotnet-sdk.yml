@@ -13,6 +13,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/sdk/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 stats:
-  issue-count: 17
-  last-updated: '2023-04-12T12:33:47Z'
-  fork-count: 935
+  issue-count: 18
+  last-updated: '2023-04-19T20:27:57Z'
+  fork-count: 936

@@ -216,10 +216,10 @@ end
 
 result = run "git -C '#{dir}' diff #{range} --name-only -- _data/projects/"
 unless result[:exit_code].zero?
-  puts "A problem occurred when reading the git directory"
+  puts 'A problem occurred when reading the git directory'
   return
-  #warn "Unable to compute diff range: #{range}..."
-  #warn "stderr: #{result[:stderr]}"
+  # warn "Unable to compute diff range: #{range}..."
+  # warn "stderr: #{result[:stderr]}"
 end
 
 raw_files = result[:stdout].split("\n")
@@ -230,10 +230,10 @@ return if files.empty?
 
 result = run "git -C '#{dir}' checkout #{head_sha} --force"
 unless result[:exit_code].zero?
-  puts "A problem occurred when trying to load this commit"
+  puts 'A problem occurred when trying to load this commit'
   return
-  #warn "Unable to checkout HEAD commit: #{head_sha}..."
-  #warn "stderr: #{result[:stderr]}"
+  # warn "Unable to checkout HEAD commit: #{head_sha}..."
+  # warn "stderr: #{result[:stderr]}"
 end
 
 markdown_body = generate_comment(dir, files, initial_message: true)

@@ -219,7 +219,10 @@ raw_files = result[:stdout].split("\n")
 
 files = raw_files.map(&:chomp)
 
-return if files.empty?
+if files.empty?
+  puts 'No project files found on branch, ignoring this pull request for now...'
+  return
+end
 
 result = run "git -C '#{dir}' checkout #{head_sha} --force"
 unless result[:exit_code].zero?

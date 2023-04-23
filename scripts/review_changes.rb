@@ -131,8 +131,6 @@ def repository_check(project)
   # TODO: cleanup the GITHUB_TOKEN setting once this is decoupled from the environment variable
   result = GitHubRepositoryActiveCheck.run(project)
 
-  warn "repository_check returned result: #{result.inspect}"
-
   if result[:rate_limited]
     # logger.info 'This script is currently rate-limited by the GitHub API'
     # logger.info 'Marking as inconclusive to indicate that no further work will be done here'
@@ -215,8 +213,6 @@ result = run "git -C '#{dir}' diff #{range} --name-only -- _data/projects/"
 unless result[:exit_code].zero?
   puts 'A problem occurred when reading the git directory'
   return
-  # warn "Unable to compute diff range: #{range}..."
-  # warn "stderr: #{result[:stderr]}"
 end
 
 raw_files = result[:stdout].split("\n")
@@ -229,8 +225,6 @@ result = run "git -C '#{dir}' checkout #{head_sha} --force"
 unless result[:exit_code].zero?
   puts 'A problem occurred when trying to load this commit'
   return
-  # warn "Unable to checkout HEAD commit: #{head_sha}..."
-  # warn "stderr: #{result[:stderr]}"
 end
 
 markdown_body = generate_comment(dir, files, initial_message: true)

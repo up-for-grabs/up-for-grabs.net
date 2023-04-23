@@ -100,8 +100,6 @@ def generate_comment(dir, files, initial_message: true)
 end
 
 def review_project(project)
-  yaml = project.read_yaml
-
   validation_errors = SchemaValidator.validate(project)
 
   return { project:, kind: 'validation', validation_errors: } if validation_errors.any?
@@ -204,7 +202,6 @@ head_sha = ENV.fetch('HEAD_SHA', nil)
 base_sha = ENV.fetch('BASE_SHA', nil)
 git_remote_url = ENV.fetch('GIT_REMOTE_URL', nil)
 dir = ENV.fetch('GITHUB_WORKSPACE', nil)
-pull_request_number = ENV.fetch('PULL_REQUEST_NUMBER', nil)
 
 range = "#{base_sha}...#{head_sha}"
 

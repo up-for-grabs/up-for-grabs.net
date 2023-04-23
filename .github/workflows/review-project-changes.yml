@@ -37,4 +37,5 @@ jobs:
       - uses: marocchino/sticky-pull-request-comment@f61b6cf21ef2fcc468f4345cdfcc9bda741d2343
         with:
           message: ${{ steps.run_script.outputs.message }}
+          GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
 

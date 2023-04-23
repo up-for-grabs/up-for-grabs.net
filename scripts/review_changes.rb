@@ -21,23 +21,15 @@ def run(cmd)
   }
 end
 
-PREAMBLE_HEADER = '<!-- PULL REQUEST ANALYZER GITHUB ACTION -->'
+FOUND_PROJECT_FILES_HEADER = ":wave: I'm a robot checking the state of this pull request to save the human reviewers time. " \
+                             "I noticed this PR added or modififed the data files under `_data/projects/` so I had a look at what's changed." \
+                             "\n\nAs you make changes to this pull request, I'll re-run these checks.\n\n"
 
-GREETING_HEADER = ":wave: I'm a robot checking the state of this pull request to save the human reviewers time. " \
-                  "I noticed this PR added or modififed the data files under `_data/projects/` so I had a look at what's changed." \
-                  "\n\nAs you make changes to this pull request, I'll re-run these checks."
-
-UPDATE_HEADER = 'Checking the latest changes to the pull request...'
+SKIP_PULL_REQUEST_MESSAGE = ":wave: I'm a robot checking the state of this pull request to save the human reviewers time. " \
+                            "I don't see any changes under `_data/projects/` so I don't have any feedback here." \
+                            "\n\nAs you make changes to this pull request, I'll re-run these checks.\n\n"
 
 ALLOWED_EXTENSIONS = ['.yml'].freeze
-
-def get_header(initial_message)
-  if initial_message
-    GREETING_HEADER
-  else
-    UPDATE_HEADER
-  end
-end
 
 def get_validation_message(result)
   path = result[:project].relative_path
@@ -60,7 +52,7 @@ def get_validation_message(result)
   end
 end
 
-def generate_comment(dir, files, initial_message: true)
+def generate_review_comment(dir, files)
   projects = files.map do |f|
     full_path = File.join(dir, f)
 
@@ -69,7 +61,7 @@ def generate_comment(dir, files, initial_message: true)
 
   projects.compact!
 
-  markdown_body = "#{PREAMBLE_HEADER}\n\n#{get_header(initial_message)}\n\n"
+  markdown_body = FOUND_PROJECT_FILES_HEADER
 
   projects_without_valid_extensions = projects.reject { |p| ALLOWED_EXTENSIONS.include? File.extname(p.relative_path) }
 
@@ -220,7 +212,7 @@ raw_files = result[:stdout].split("\n")
 files = raw_files.map(&:chomp)
 
 if files.empty?
-  puts 'No project files found on branch, ignoring this pull request for now...'
+  puts SKIP_PULL_REQUEST_MESSAGE
   return
 end
 
@@ -230,7 +222,7 @@ unless result[:exit_code].zero?
   return
 end
 
-markdown_body = generate_comment(dir, files, initial_message: true)
+markdown_body = generate_review_comment(dir, files)
 
 puts markdown_body
 

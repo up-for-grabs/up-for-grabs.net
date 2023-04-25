@@ -1,0 +1,10 @@
+name: Piano
+desc: Made a piano using Html, CSS and vanilla JavaScript,designed using vanilla CSS.You can play it both with mouse nad keyboard.
+site: https://github.com/jayk-gupta/Piano
+tags:
+  - html
+  - css
+  - javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/jayk-gupta/Piano/labels/good%20first%20issue

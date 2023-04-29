@@ -32,7 +32,6 @@ the [How it works](docs/how-it-works.md) document is a good overview.
 Thanks to these wonderful people who have improved the code and documentation to help this project grow. ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tbody>
@@ -65,8 +64,6 @@ Thanks to these wonderful people who have improved the code and documentation to
   </tfoot>
 </table>
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

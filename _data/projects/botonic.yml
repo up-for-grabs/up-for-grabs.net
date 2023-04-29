@@ -15,6 +15,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/hubtype/botonic/labels/up-for-grabs
 stats:
-  issue-count: 2
-  last-updated: '2023-02-13T02:41:11Z'
-  fork-count: 55
+  issue-count: 0
+  fork-count: 56

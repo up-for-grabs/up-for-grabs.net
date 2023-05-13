@@ -24,6 +24,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/opentelemetry-erlang/labels/help%20wanted
 stats:
-  issue-count: 7
-  last-updated: '2023-03-12T11:46:41Z'
+  issue-count: 8
+  last-updated: '2023-05-13T10:54:16Z'
   fork-count: 79

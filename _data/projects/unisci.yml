@@ -1,0 +1,11 @@
+name: UniSci
+desc: Deals with conversions and formulas in python. Needs more!
+site: https://pypi.org/project/unisci/
+tags:
+  - python3
+  - package
+  - conversions
+  - formulas
+upforgrabs:
+  name: unisci
+  link: https://github.com/vivaansinghvi07/unisci

@@ -1,0 +1,10 @@
+name: Pynterface
+desc: Simple terminal-based input and output tools
+site: https://pypi.org/project/pynterface/
+tags:
+  - python3
+  - terminal
+  - package
+upforgrabs:
+  name: pynterface
+  link: https://github.com/vivaansinghvi07/pynterface

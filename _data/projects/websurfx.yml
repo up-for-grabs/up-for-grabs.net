@@ -1,0 +1,20 @@
+---
+name: Websurfx
+desc: An open source alternative to searx which provides a modern-looking, lightning-fast, privacy-respecting, secure meta search engine written in Rust.
+site: https://github.com/neon-mmd/websurfx
+tags:
+- web-designing
+- foss
+- scraping
+- web
+- handlebars
+- css
+- actix-web
+- rust
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/neon-mmd/websurfx/labels/Up-for-Grabs
+stats:
+  issue-count: 2
+  last-updated: '2023-05-13T12:01:09Z'
+  fork-count: 1

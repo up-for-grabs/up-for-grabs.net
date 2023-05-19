@@ -1,3 +1,4 @@
+Hi there
 [up-for-grabs.net](https://up-for-grabs.net/)
 ![Continuous Integration status](https://github.com/up-for-grabs/up-for-grabs.net/workflows/Continuous%20Integration/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0ee7bf9f-1aed-465b-8e9e-01de009a8a7e/deploy-status)](https://app.netlify.com/sites/up-for-grabs-test-bench/deploys)

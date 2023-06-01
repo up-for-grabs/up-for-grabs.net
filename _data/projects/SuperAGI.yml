@@ -1,12 +1,12 @@
 name: SuperAGI
-desc: A brief description of the project
+desc: An open-source framework for developers to Build, manage & run Autonomous AI agents
 site: https://github.com/TransformerOptimus/SuperAGI
 tags:
-  - AGI
-  - Python
-  - AI
-  - Autonomous Agents
-  - NextJS
+  - agi
+  - python
+  - ai
+  - autonomous-agents
+  - nextjs
 upforgrabs:
   name: Looking for code contributors & testers
   link: https://github.com/TransformerOptimus/SuperAGI/issues

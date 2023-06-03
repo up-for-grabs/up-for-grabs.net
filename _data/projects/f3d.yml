@@ -1,0 +1,13 @@
+---
+name: F3D
+desc: Fast and minimalist 3D viewer
+site: https://f3d.app
+tags:
+- 3d-viewer
+- graphics
+- rendering
+- c++
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/f3d-app/f3d/labels/good%20first%20issue

@@ -17,6 +17,6 @@ upforgrabs:
   name: beginner friendly
   link: https://github.com/electron/electron/labels/beginner%20friendly
 stats:
-  issue-count: 10
+  issue-count: 8
   last-updated: '2023-05-22T10:54:26Z'
-  fork-count: 14692
+  fork-count: 14707

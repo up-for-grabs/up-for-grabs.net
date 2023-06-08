@@ -1,0 +1,14 @@
+name: Repo Reviews
+desc: Repo stars don't tell the whole story, so support the community with a helpful ❤️ repo review ❤️
+site: https://github.com/repo-reviews/repo-reviews.github.io
+tags:
+  - github
+  - ci
+  - actions
+  - jekyll
+  - markdown
+  - yaml
+  - reviews
+upforgrabs:
+  name: good first issue
+  link: https://github.com/repo-reviews/repo-reviews.github.io/labels/good%20first%20issue

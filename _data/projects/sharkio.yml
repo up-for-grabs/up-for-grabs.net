@@ -1,0 +1,10 @@
+name: Sharkio
+desc: Sharkio is an API proxy for you development environments. It records all the requests that are sent to your API. It allows you to replay the requests easily. Generate types, documentation, test suites, And interact with your API using AI.
+site: https://github.com/idodav/sharkio
+tags:
+  - help wanted
+  - good first issue
+  - enhancements
+upforgrabs:
+  name: good first issue
+  link: https://github.com/idodav/sharkio/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

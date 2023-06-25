@@ -953,6 +953,10 @@ ul.popular-tags li {
     right: 0;
     top: 0;
   }
+
+  select {
+    max-width: 100%;
+  }
 }
 
 .radio-btn-row {

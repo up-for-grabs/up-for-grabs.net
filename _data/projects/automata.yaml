@@ -1,0 +1,14 @@
+name: automata
+desc: A codebase dedicated to evolving into a fully autonomous, self-programming AI system.
+site: https://github.com/emrgnt-cmplxty/Automata
+tags:
+- python
+- ai
+- agi
+- llm
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/emrgnt-cmplxty/Automata/labels/up-for-grabs
+stats:
+  issue-count: 3
+  fork-count: 11

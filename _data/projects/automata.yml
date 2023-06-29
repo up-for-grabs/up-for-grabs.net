@@ -6,9 +6,11 @@ tags:
 - ai
 - agi
 - llm
+- autonomous-agents
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/emrgnt-cmplxty/Automata/labels/up-for-grabs
 stats:
-  issue-count: 3
+  issue-count: 14
   fork-count: 11
+  last-updated: '2023-06-29T07:06:08Z'

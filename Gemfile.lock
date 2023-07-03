@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: de99afb1bfd9c84bf74c07377eb185631c848915
+  revision: 2c586174f00c33934288d4ce044f3c01384be8b5
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -12,7 +12,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.5)
+    activesupport (7.0.6)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -28,14 +28,14 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.7.7)
+    faraday (2.7.9)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     google-protobuf (3.22.2-x86_64-linux)
-    graphql (2.0.23)
+    graphql (2.0.24)
     graphql-client (0.18.0)
       activesupport (>= 3.0)
       graphql

@@ -26,6 +26,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/opentelemetry-java-instrumentation/labels/help%20wanted
 stats:
-  issue-count: 30
-  last-updated: '2023-05-05T14:14:31Z'
-  fork-count: 588
+  issue-count: 32
+  last-updated: '2023-07-04T08:18:56Z'
+  fork-count: 608

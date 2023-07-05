@@ -17,6 +17,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/bitwarden/server/labels/good%20first%20issue
 stats:
-  issue-count: 2
-  last-updated: '2023-04-15T01:34:07Z'
-  fork-count: 1090
+  issue-count: 1
+  last-updated: '2023-04-09T07:34:00Z'
+  fork-count: 1104

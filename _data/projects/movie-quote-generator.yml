@@ -10,6 +10,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/kamiri-charles/movie-quote-generator/labels/help%20wanted
 stats:
-  issue-count: 2
-  last-updated: '2023-06-13T10:09:56Z'
-  fork-count: 27
+  issue-count: 0
+  fork-count: 32

@@ -16,5 +16,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/jwu910/check-it-out/labels/up-for-grabs
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2023-06-26T18:32:56Z'
   fork-count: 70

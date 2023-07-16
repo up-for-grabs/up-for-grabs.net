@@ -13,8 +13,8 @@ tags:
 - manage-topics
 upforgrabs:
   name: help wanted
-  link: https://github.com/consuldemocracy/consul/labels/help%20wanted
+  link: https://github.com/consuldemocracy/consuldemocracy/labels/help%20wanted
 stats:
   issue-count: 25
   last-updated: '2022-08-25T13:20:52Z'
-  fork-count: 1083
+  fork-count: 1082

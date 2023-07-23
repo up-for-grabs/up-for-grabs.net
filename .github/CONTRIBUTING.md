@@ -1,8 +1,7 @@
 # Contributing to Up for Grabs
 
 This guide will help you get set up so you can make changes to the project, view
-them locally and verify that the site will deploy correctly when opening a pull
-request.
+them locally and verify that the site will deploy correctly when opening a Pull Request.
 
 ## Project Setup
 
@@ -80,7 +79,7 @@ the site.
 ## Automated testing
 
 We have a suite of additional tooling that can be run to verify the contents of
-the repository. These are run as part of any pull request or build on GitHub,
+the repository. These are run as part of any Pull Request or build on GitHub,
 and it is recommended to run these locally before pushing changes to save time
 with reviews.
 

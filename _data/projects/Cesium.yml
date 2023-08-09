@@ -2,10 +2,10 @@ name: Cesium
 desc: C compiler for the CLI platform
 site: https://github.com/fornever/cesium
 tags:
-  - .net
-  - compiler
-  - с
-  - с#
+- .net
+- compiler
+- с
+- с#
 upforgrabs:
   name: up for grabs
   link: https://github.com/ForNeVeR/Cesium/labels/good-first-issue

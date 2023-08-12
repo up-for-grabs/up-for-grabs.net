@@ -1,0 +1,11 @@
+name: Layli
+desc: Draw pretty layout diagrams as code
+site: https://github.com/dnnrly/layli
+tags:
+- go
+- cli
+- svg
+- image
+upforgrabs:
+  name: help wanted
+  link: https://github.com/dnnrly/layli/labels/help%20wanted

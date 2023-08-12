@@ -17,8 +17,8 @@ jobs:
   javascript:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '16'
       - name: npm install, lint, and test
@@ -33,15 +33,14 @@ jobs:
   site:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Ruby 3.0
-        uses: actions/setup-ruby@v1
+      - uses: actions/checkout@v3
+      - name: Set up Ruby 3.2
+        uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939
         with:
-          ruby-version: 3.0.x
+          ruby-version: '3.2'
       - name: Build and test Jekyll site
         run: |
-          gem install bundler
-          bundle install --jobs 4 --retry 3
+          bundle install
           bundle exec rubocop
           bundle exec jekyll build
           bundle exec ruby scripts/validate_data_files.rb

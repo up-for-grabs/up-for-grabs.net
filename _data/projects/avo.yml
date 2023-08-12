@@ -1,0 +1,18 @@
+---
+name: avo
+desc: Ruby on Rails application building framework
+site: https://github.com/avo-hq/avo
+tags:
+- rubyonrails
+- ruby
+- rails
+- admin
+- low-code
+- rubygems
+upforgrabs:
+  name: Help wanted
+  link: https://github.com/avo-hq/avo/labels/Help%20wanted
+stats:
+  issue-count: 19
+  last-updated: '2023-07-31T13:03:50Z'
+  fork-count: 159

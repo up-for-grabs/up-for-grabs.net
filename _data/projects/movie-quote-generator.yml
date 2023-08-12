@@ -1,0 +1,14 @@
+---
+name: Movie Quote Generator
+desc: A simple web app that generates random movie quotes. Built with ReactJs.
+site: https://kamiri-charles.github.io/movie-quote-generator
+tags:
+- reactjs
+- webdesign
+- javascript
+upforgrabs:
+  name: help wanted
+  link: https://github.com/kamiri-charles/movie-quote-generator/labels/help%20wanted
+stats:
+  issue-count: 0
+  fork-count: 33

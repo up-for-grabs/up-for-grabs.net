@@ -1,0 +1,15 @@
+---
+name: File-Analysis-Tool
+desc: A simple File Analysis Tool for Kali Linux
+site: https://github.com/Anish-M-code/File-Analysis-Tool
+tags:
+- passwordcracker
+- metadata-analysis
+- virustotal
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Anish-M-code/File-Analysis-Tool/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2022-11-10T18:03:55Z'
+  fork-count: 3

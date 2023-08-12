@@ -1,0 +1,19 @@
+---
+name: LGBTQ-of-the-day-bot
+desc: Twitter bot tweeting fun goofy lgbtq things and queer history of the day
+site: https://github.com/VickiLanger/LGBTQ-of-the-day-bot/
+tags:
+- twitter
+- python
+- history
+- queer
+- lgbtqia+
+- lgbtq
+- lgbt
+upforgrabs:
+  name: help wanted
+  link: https://github.com/VickiLanger/LGBTQ-of-the-day-bot/labels/help%20wanted
+stats:
+  issue-count: 10
+  last-updated: '2023-04-27T23:32:17Z'
+  fork-count: 183

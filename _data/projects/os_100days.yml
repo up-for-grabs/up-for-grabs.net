@@ -1,0 +1,24 @@
+---
+name: OS_100days
+desc: >-
+  Ever do the 100daysofcode.com challenge and find yourself skipping, forgetting which day, etc? Well
+  this project aims to correct that with friendly reminders, a simple way to keep track of what day you
+  are on, and will allow you to tweet directly from it. (hopefully)
+site: https://discord.gg/AntJA73Qx2
+tags:
+- javascript
+- html5
+- css3
+- help-wanted
+- first-timers
+- up-for-grabs
+- hactoberfest
+- first-contributions
+- hacktoberfest2022
+upforgrabs:
+  name: coding with drew
+  link: https://github.com/drewlearns/OS_100days/labels/coding%20with%20drew
+stats:
+  issue-count: 6
+  last-updated: '2023-05-02T18:44:51Z'
+  fork-count: 17

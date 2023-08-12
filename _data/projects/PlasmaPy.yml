@@ -11,5 +11,6 @@ upforgrabs:
   name: Help wanted
   link: https://github.com/PlasmaPy/PlasmaPy/labels/Help%20wanted
 stats:
-  issue-count: 13
-  last-updated: '2022-07-07T03:11:12Z'
+  issue-count: 16
+  last-updated: '2023-05-13T01:51:36Z'
+  fork-count: 273

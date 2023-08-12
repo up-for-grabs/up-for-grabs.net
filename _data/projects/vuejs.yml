@@ -12,5 +12,6 @@ upforgrabs:
   name: contribution welcome
   link: https://github.com/vuejs/vue/labels/contribution%20welcome
 stats:
-  issue-count: 11
-  last-updated: '2022-07-22T20:01:43Z'
+  issue-count: 10
+  last-updated: '2023-07-11T20:04:43Z'
+  fork-count: 34222

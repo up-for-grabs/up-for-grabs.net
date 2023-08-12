@@ -1,0 +1,16 @@
+---
+name: Mautic
+desc: An open source marketing automation platform.
+site: https://www.mautic.org
+tags:
+- mautic
+- marketing
+- marketing-automation
+- php
+upforgrabs:
+  name: good first issue
+  link: https://github.com/mautic/mautic/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2023-07-26T18:24:06Z'
+  fork-count: 2217

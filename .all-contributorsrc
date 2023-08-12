@@ -131,6 +131,33 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "gewarren",
+      "name": "Genevieve Warren",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24882762?v=4",
+      "profile": "https://github.com/gewarren",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "SaadAnsari17",
+      "name": "Saad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94478736?v=4",
+      "profile": "https://github.com/SaadAnsari17",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JeetPatel1016",
+      "name": "Jeet Patel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60153965?v=4",
+      "profile": "https://github.com/JeetPatel1016",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

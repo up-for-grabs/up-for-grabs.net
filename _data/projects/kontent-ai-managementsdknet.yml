@@ -1,0 +1,21 @@
+---
+name: management-sdk-net
+desc: Kontent.ai Content Management .NET SDK
+site: https://github.com/kontent-ai/management-sdk-net
+tags:
+- ".net"
+- ".net-standard"
+- c#
+- content-management
+- sdk
+- kontent-ai
+- cms
+- headless-cms
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kontent-ai/management-sdk-net/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2018-09-11T08:11:11Z'
+  fork-count: 24

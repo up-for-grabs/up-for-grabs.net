@@ -1,0 +1,21 @@
+---
+name: gatsby-packages
+desc: Gatsby source plugin and React components for Kontent.ai.
+site: https://github.com/kontent-ai/gatsby-packages
+tags:
+- javascript
+- kontent-ai
+- headless-cms
+- headless
+- reactjs
+- gatsbyjs
+- static-site
+- gatsby-source-plugin
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kontent-ai/gatsby-packages/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2021-05-27T09:22:16Z'
+  fork-count: 23

@@ -14,5 +14,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/gavv/signal-estimator/labels/help%20wanted
 stats:
-  issue-count: 12
-  last-updated: '2022-06-04T11:25:38Z'
+  issue-count: 9
+  last-updated: '2023-05-18T07:32:57Z'
+  fork-count: 9

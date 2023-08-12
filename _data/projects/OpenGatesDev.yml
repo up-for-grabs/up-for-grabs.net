@@ -1,0 +1,19 @@
+---
+name: OpenGates.Dev
+desc: >-
+  Reference checklist of things to avoid gatekeeping in posts, articles, videos, talks, presentations,
+  podcasts, and in any other content.
+site: https://github.com/VickiLanger/OpenGates/
+tags:
+- markdown
+- translation
+- front-end
+- design
+- devrel
+upforgrabs:
+  name: help wanted
+  link: https://github.com/VickiLanger/OpenGates/labels/help%20wanted
+stats:
+  issue-count: 7
+  last-updated: '2022-01-25T02:53:50Z'
+  fork-count: 10

@@ -14,7 +14,9 @@ tags:
 - cross-platform
 - bitwarden
 upforgrabs:
-  name: help wanted
-  link: https://github.com/bitwarden/server/labels/help%20wanted
+  name: good first issue
+  link: https://github.com/bitwarden/server/labels/good%20first%20issue
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2023-04-09T07:34:00Z'
+  fork-count: 1116

@@ -10,7 +10,8 @@ tags:
 - cli
 upforgrabs:
   name: help wanted
-  link: https://github.com/Abdur-rahmaanJ/greenBerry/labels/help%20wanted
+  link: https://github.com/Abdur-rahmaanJ/greenberry/labels/help%20wanted
 stats:
   issue-count: 12
-  last-updated: '2022-07-08T05:05:10Z'
+  last-updated: '2022-10-11T06:18:16Z'
+  fork-count: 39

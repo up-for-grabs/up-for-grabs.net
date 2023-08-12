@@ -19,5 +19,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/twbs/bootstrap/labels/help%20wanted
 stats:
-  issue-count: 41
-  last-updated: '2022-07-07T08:32:15Z'
+  issue-count: 39
+  last-updated: '2023-07-20T14:16:04Z'
+  fork-count: 78743

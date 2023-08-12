@@ -13,5 +13,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/fission/fission/labels/help%20wanted
 stats:
-  issue-count: 12
-  last-updated: '2022-07-12T10:29:37Z'
+  issue-count: 14
+  last-updated: '2023-01-23T14:39:34Z'
+  fork-count: 762

@@ -1,0 +1,17 @@
+---
+name: Rock, Paper & Scissor
+desc: A simple fully responsive rock,paper and scissors game developed using HTML,CSS & JAVASCRIPT.
+site: https://rock-paper-scissors-game0302.netlify.app/
+tags:
+- hacktoberfest
+- javascript
+- up-for-grabs
+- front-end-development
+- open-source
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/zetabug/rock-paper-scissors-game/labels/hacktoberfest
+stats:
+  issue-count: 1
+  last-updated: '2023-02-08T20:00:44Z'
+  fork-count: 10

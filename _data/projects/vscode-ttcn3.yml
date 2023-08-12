@@ -1,0 +1,17 @@
+---
+name: vscode-ttcn3
+desc: Rich TTCN-3 language support for Visual Studio Code
+site: https://marketplace.visualstudio.com/items?itemName=Nokia.ttcn3
+tags:
+- vscode
+- extension
+- language
+- testing
+- ttcn3
+upforgrabs:
+  name: good first issue
+  link: https://github.com/nokia/vscode-ttcn3/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2022-09-30T06:54:18Z'
+  fork-count: 8

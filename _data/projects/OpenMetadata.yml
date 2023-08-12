@@ -1,0 +1,16 @@
+---
+name: OpenMetadata
+desc: Open Standard for Metadata. A Single place to Discover, Collaborate and Get your data right.
+site: https://open-metadata.org/
+tags:
+- python
+- typescript
+- java
+- docker
+upforgrabs:
+  name: good-first-issue
+  link: https://github.com/open-metadata/OpenMetadata/labels/good-first-issue
+stats:
+  issue-count: 10
+  last-updated: '2023-07-31T10:36:07Z'
+  fork-count: 561

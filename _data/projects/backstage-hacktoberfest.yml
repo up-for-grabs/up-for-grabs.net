@@ -1,0 +1,16 @@
+---
+name: Backstage
+desc: Backstage is a web app built to support an NFT marketplace for Hacktoberfest 2022.
+site: https://github.com/aryamankha/backstage-hacktoberfest
+tags:
+- reactjs
+- javascript
+- tailwind
+- nft
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/aryamankha/backstage-hacktoberfest/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2023-07-03T11:20:39Z'
+  fork-count: 18

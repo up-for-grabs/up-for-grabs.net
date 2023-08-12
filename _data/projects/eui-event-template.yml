@@ -1,0 +1,17 @@
+---
+name: React and Eui Event Template
+desc: >-
+  A React app to share information about an event or conference, such as speaker details, agenda, and
+  event actions
+site: https://eui-event.vercel.app/
+tags:
+- javascript
+- reactjs
+- beginner
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/brittanyjoiner15/eui-event-template/labels/up%20for%20grabs
+stats:
+  issue-count: 3
+  last-updated: '2023-05-27T20:40:07Z'
+  fork-count: 47

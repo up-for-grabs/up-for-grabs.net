@@ -1,0 +1,21 @@
+---
+name: sabik
+desc: >-
+  Visualize source code complexity with Sabik. This tool is to find the bad smell code. I think your helpful
+  refactoring.
+site: https://github.com/ytetsuro/sabik
+tags:
+- javascript
+- typescript
+- software+metrics
+- oss
+- halstead+metrics
+- cyclomatic+complexity
+- cognitive+complexity
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ytetsuro/sabik/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2022-10-02T14:36:41Z'
+  fork-count: 4

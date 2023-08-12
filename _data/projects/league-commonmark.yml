@@ -10,5 +10,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/thephpleague/commonmark/labels/up-for-grabs
 stats:
-  issue-count: 1
-  last-updated: '2021-11-07T17:31:11Z'
+  issue-count: 2
+  last-updated: '2023-03-22T12:54:34Z'
+  fork-count: 190

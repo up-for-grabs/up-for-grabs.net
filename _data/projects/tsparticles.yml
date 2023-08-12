@@ -23,5 +23,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/matteobruni/tsparticles/labels/up-for-grabs
 stats:
-  issue-count: 13
-  last-updated: '2022-07-22T22:15:10Z'
+  issue-count: 10
+  last-updated: '2023-05-17T12:48:23Z'
+  fork-count: 688

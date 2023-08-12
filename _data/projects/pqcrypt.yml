@@ -1,0 +1,15 @@
+---
+name: Pqcrypt
+desc: PQcrypt is a simple post-quantum cryptography tool for linux.
+site: https://github.com/Anish-M-code/pqcrypt
+tags:
+- post-quantum-cryptography
+- cryptography
+- cybersecurity
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Anish-M-code/pqcrypt/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2023-07-19T09:00:17Z'
+  fork-count: 4

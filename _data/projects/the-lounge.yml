@@ -14,5 +14,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/thelounge/thelounge/labels/help%20wanted
 stats:
-  issue-count: 35
-  last-updated: '2022-06-22T07:02:52Z'
+  issue-count: 37
+  last-updated: '2023-03-12T11:48:13Z'
+  fork-count: 653

@@ -1,0 +1,11 @@
+name: HTML-Validate
+desc: Offline HTML5 validator
+site: https://gitlab.com/html-validate/html-validate
+tags:
+  - html
+  - validator
+  - lint
+  - wcag
+upforgrabs:
+  name: good first issue
+  link: https://gitlab.com/html-validate/html-validate/-/issues/?label_name%5B%5D=good%20first%20issue

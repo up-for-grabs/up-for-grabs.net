@@ -1,0 +1,17 @@
+---
+name: Owncast
+desc: Your self-hosted live video streaming and chat server.
+site: https://owncast.online
+tags:
+- video
+- streaming
+- chat
+- livestream
+- go
+upforgrabs:
+  name: good first issue
+  link: https://github.com/owncast/owncast/labels/good%20first%20issue
+stats:
+  issue-count: 8
+  last-updated: '2023-08-06T21:08:51Z'
+  fork-count: 670

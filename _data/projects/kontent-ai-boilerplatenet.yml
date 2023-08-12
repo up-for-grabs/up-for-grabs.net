@@ -1,0 +1,21 @@
+---
+name: boilerplate-net
+desc: Kontent.ai Boilerplate for development of ASP.NET Core MVC applications
+site: https://github.com/kontent-ai/boilerplate-net
+tags:
+- ".net"
+- ".net-core"
+- boilerplate
+- mvc
+- c#
+- kontent-ai
+- cms
+- headless-cms
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kontent-ai/boilerplate-net/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2021-09-30T07:31:40Z'
+  fork-count: 32

@@ -1,0 +1,10 @@
+name: RapidMangaDL
+desc: Swiftly download manga from multiple sources (EPUB or PDF).
+site: https://github.com/Auto-Life/RapidMangaDL
+tags:
+  - python
+  - web-scraping
+  - selenium
+upforgrabs:
+  name: Add new sources
+  link: https://github.com/Auto-Life/RapidMangaDL/issues

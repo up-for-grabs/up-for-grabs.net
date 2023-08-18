@@ -1,0 +1,14 @@
+name: Photolab
+desc: Photolab  is a python package for feature engineering in computer vision
+site: https://github.com/bvks2020sameer/Photolab
+tags:
+  - Python
+  - feature engineering
+  - feature extraction
+  - Image Processing 
+  - Computer Vision
+  - image analaysis
+  - neural-networks
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/username/project/labels/up%20for%20grabs

@@ -24,7 +24,7 @@
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@types/jest": "^28.1.4",
-    "@babel/core": "^7.22.9",
+    "@babel/core": "^7.22.10",
     "@types/jest": "^29.5.3",
     "@types/underscore": "^1.11.6",
     "@types/showdown": "^2.0.1",
@@ -32,7 +32,7 @@
     "babel-jest": "^28.1.2",
     "@types/node": "^20",
     "babel-jest": "^29.6.1",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.0",

@@ -2,7 +2,7 @@ name: Before I Die Code
 desc: An open source project that simplifies and guides beginners in making their first contribution to open source projects. Developers can contribute by sharing their aspirations before they die.
 site: https://github.com/BeforeIDieCode/BeforeIDieAchievements
 tags:
-  - react
+  - react.js
   - javascript
   - community-driven
   - css

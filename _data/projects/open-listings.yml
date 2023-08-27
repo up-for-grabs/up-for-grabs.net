@@ -2,7 +2,7 @@ name: Open Listings
 desc: Open listings with maps and tags
 site: https://github.com/yanna92yar/open-listings
 tags:
-  - nodejs
+  - node.js
   - javascript
   - htmx
   - mongodb

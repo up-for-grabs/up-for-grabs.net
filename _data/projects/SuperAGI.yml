@@ -9,7 +9,7 @@ tags:
   - nextjs
 upforgrabs:
   name: help wanted
-  link: https://github.com/TransformerOptimus/SuperAGI/issues
+  link: https://github.com/TransformerOptimus/SuperAGI/labels/help%20wanted
 stats:
   issue-count: 73
   last-updated: '2023-05-30T07:06:08Z'

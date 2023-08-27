@@ -1,17 +1,21 @@
 ---
 name: GitLab
 desc: >-
-  GitLab is the first single application for the entire DevOps lifecycle.  Everyone can contribute to
+  GitLab is the most comprehensive AI-powered DevSecOps Platform. Everyone can contribute to
   GitLab
 site: https://about.gitlab.com
 tags:
-- oss
 - git
-- issues
 - ruby
 - rails
 - javascript
+- vuejs
 - web
+- go
+- terraform
+- devops
+- devsecops
+- ai
 upforgrabs:
-  name: Accepting merge requests
-  link: https://gitlab.com/groups/gitlab-org/-/issues?state=opened&label_name[]=Accepting%20merge%20requests
+  name: Seeking Community Contributions
+  link: https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=100

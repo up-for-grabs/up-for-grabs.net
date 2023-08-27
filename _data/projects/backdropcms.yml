@@ -13,5 +13,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/backdrop/backdrop-issues/labels/good%20first%20issue
 stats:
-  issue-count: 113
-  last-updated: '2022-10-07T11:06:38Z'
+  issue-count: 111
+  last-updated: '2023-06-07T20:04:45Z'
+  fork-count: 39

@@ -13,7 +13,8 @@ tags:
 - community-classroom
 upforgrabs:
   name: enhancement
-  link: https://github.com/commclassroom/roadmaps/labels/enhancement
+  link: https://github.com/WeMakeDevs/roadmaps/labels/enhancement
 stats:
-  issue-count: 12
-  last-updated: '2022-10-10T18:29:50Z'
+  issue-count: 9
+  last-updated: '2023-08-21T18:45:24Z'
+  fork-count: 1072

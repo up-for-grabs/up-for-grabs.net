@@ -12,5 +12,6 @@ upforgrabs:
   name: Help wanted
   link: https://github.com/matomo-org/matomo/labels/Help%20wanted
 stats:
-  issue-count: 111
-  last-updated: '2022-10-10T03:55:48Z'
+  issue-count: 114
+  last-updated: '2023-08-27T12:54:57Z'
+  fork-count: 2535

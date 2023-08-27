@@ -12,5 +12,6 @@ upforgrabs:
   name: up for grabs
   link: https://github.com/croma-app/croma/labels/up%20for%20grabs
 stats:
-  issue-count: 12
-  last-updated: '2022-10-02T16:24:49Z'
+  issue-count: 6
+  last-updated: '2023-05-27T10:46:55Z'
+  fork-count: 19

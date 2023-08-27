@@ -10,4 +10,6 @@ upforgrabs:
   name: E-easy
   link: https://github.com/servo/servo/labels/E-easy
 stats:
-  issue-count: 0
+  issue-count: 2
+  last-updated: '2023-08-25T07:50:24Z'
+  fork-count: 2752

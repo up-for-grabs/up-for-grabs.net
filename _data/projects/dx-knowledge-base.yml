@@ -10,5 +10,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/DXHeroes/knowledge-base-content/labels/help%20wanted
 stats:
-  issue-count: 60
-  last-updated: '2022-10-03T11:18:30Z'
+  issue-count: 58
+  last-updated: '2023-05-25T10:45:59Z'
+  fork-count: 67

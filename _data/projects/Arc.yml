@@ -8,7 +8,9 @@ tags:
 - zip
 - tar
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/mholt/archiver/labels/up-for-grabs
+  name: help wanted
+  link: https://github.com/mholt/archiver/labels/help%20wanted
 stats:
-  issue-count: 0
+  issue-count: 2
+  last-updated: '2022-08-24T17:17:10Z'
+  fork-count: 370

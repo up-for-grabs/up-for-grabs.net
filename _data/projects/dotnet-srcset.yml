@@ -8,7 +8,8 @@ tags:
 - responsive
 - cli
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/ecoAPM/SrcSet/labels/up-for-grabs
+  name: good first issue
+  link: https://github.com/ecoAPM/SrcSet/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 13

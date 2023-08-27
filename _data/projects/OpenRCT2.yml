@@ -12,5 +12,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/OpenRCT2/OpenRCT2/labels/good%20first%20issue
 stats:
-  issue-count: 45
-  last-updated: '2022-09-28T08:22:38Z'
+  issue-count: 27
+  last-updated: '2023-08-10T06:01:34Z'
+  fork-count: 1428

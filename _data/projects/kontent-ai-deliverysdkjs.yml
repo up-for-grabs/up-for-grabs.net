@@ -1,0 +1,24 @@
+---
+name: delivery-sdk-js
+desc: JavaScript content delivery SDK for Kontent.ai
+site: https://github.com/kontent-ai/delivery-sdk-js
+tags:
+- javascript
+- typescript
+- sdk
+- angular
+- kontent-ai
+- headless-cms
+- headless
+- single-page-application
+- command-line
+- node.js
+- content-management
+- content-delivery
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kontent-ai/delivery-sdk-js/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 34

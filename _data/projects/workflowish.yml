@@ -1,0 +1,14 @@
+---
+name: Workflowish
+desc: Open source Workflowy clone, written in React.
+site: https://acenturyandabit.github.io/workflowish
+tags:
+- typescript
+- productivity
+upforgrabs:
+  name: good first issue
+  link: https://github.com/acenturyandabit/workflowish/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2023-04-11T11:16:18Z'
+  fork-count: 1

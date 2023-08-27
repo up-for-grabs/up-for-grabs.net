@@ -12,5 +12,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/openSUSE/osem/labels/good%20first%20issue
 stats:
-  issue-count: 3
-  last-updated: '2022-10-08T08:52:47Z'
+  issue-count: 4
+  last-updated: '2023-07-18T16:16:10Z'
+  fork-count: 493

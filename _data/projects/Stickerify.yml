@@ -10,7 +10,7 @@ tags:
 - telegram-bot
 upforgrabs:
   name: up for grabs
-  link: https://github.com/rob93c/Stickerify/labels/up%20for%20grabs
+  link: https://github.com/Stickerifier/Stickerify/labels/up%20for%20grabs
 stats:
-  issue-count: 1
-  last-updated: '2022-10-09T07:08:20Z'
+  issue-count: 0
+  fork-count: 10

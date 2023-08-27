@@ -14,5 +14,6 @@ upforgrabs:
   name: Junior Jobs
   link: https://github.com/friendica/friendica/labels/Junior%20Jobs
 stats:
-  issue-count: 37
-  last-updated: '2022-09-11T06:24:18Z'
+  issue-count: 45
+  last-updated: '2023-08-12T06:33:54Z'
+  fork-count: 322

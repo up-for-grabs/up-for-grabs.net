@@ -1,0 +1,20 @@
+---
+name: cloud-sample-app-vue
+desc: >-
+  A sample website written in JavaScript and Vue utilizing the Kontent.ai Delivery API to retrieve content
+site: https://github.com/kontent-ai/sample-app-vue
+tags:
+- javascript
+- kontent-ai
+- headless-cms
+- headless
+- vue
+- single-page-application
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kontent-ai/sample-app-vue/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2021-09-30T07:48:38Z'
+  fork-count: 33

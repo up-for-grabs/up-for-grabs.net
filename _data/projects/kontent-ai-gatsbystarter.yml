@@ -1,0 +1,21 @@
+---
+name: gatsby-starter
+desc: Gatsby starter site with Kontent.ai
+site: https://github.com/kontent-ai/gatsby-starter
+tags:
+- javascript
+- kontent-ai
+- headless-cms
+- headless
+- reactjs
+- gatsbyjs
+- static-site
+- gatsby-starter-site
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kontent-ai/gatsby-starter/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2021-09-30T07:40:12Z'
+  fork-count: 23

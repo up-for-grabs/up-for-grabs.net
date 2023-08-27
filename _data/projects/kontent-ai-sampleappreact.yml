@@ -1,0 +1,19 @@
+---
+name: cloud-sample-app-react
+desc: Sample React SPA utilizing Kontent.ai delivery API to fetch content
+site: https://github.com/kontent-ai/sample-app-react
+tags:
+- javascript
+- kontent-ai
+- headless-cms
+- headless
+- reactjs
+- single-page-application
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kontent-ai/sample-app-react/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2021-10-18T15:07:04Z'
+  fork-count: 70

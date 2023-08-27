@@ -1,0 +1,12 @@
+---
+name: KCP-Edge
+desc: KCP-Edge is a subproject of kcp (a small, Kubernetes-like control plane for workloads on many clusters) focusing on concerns arising from edge multicloud use cases and the difficulties associated with using Kubernetes to address them.
+site: https://github.com/kcp-dev/edge-mc/
+tags:
+  - kubernetes
+  - container
+  - orchestration
+  - devops
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/kcp-dev/edge-mc/labels/good%20first%20issue

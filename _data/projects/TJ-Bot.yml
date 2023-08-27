@@ -11,5 +11,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/Together-Java/TJ-Bot/labels/help%20wanted
 stats:
-  issue-count: 6
-  last-updated: '2022-10-10T16:23:53Z'
+  issue-count: 2
+  last-updated: '2023-04-16T03:44:22Z'
+  fork-count: 61

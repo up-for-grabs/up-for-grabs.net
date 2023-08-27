@@ -1,0 +1,12 @@
+name: ente Authenticator 
+desc:  OSS alternative to Google Authenticator & Authy
+site: https://github.com/ente-io/auth
+tags:
+  - dart
+  - flutter
+  - 2fa
+  - encryption
+  - android
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ente-io/auth/labels/good%20first%20issue

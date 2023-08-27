@@ -1,0 +1,20 @@
+---
+name: delivery-sdk-php
+desc: Kontent.ai Delivery SDK for PHP
+site: https://github.com/kontent-ai/delivery-sdk-php/
+tags:
+- php
+- sdk
+- content-delivery
+- kontent-ai
+- cms
+- headless-cms
+- composer
+- caas
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kontent-ai/delivery-sdk-php/labels/up-for-grabs
+stats:
+  issue-count: 6
+  last-updated: '2021-09-30T06:41:40Z'
+  fork-count: 14

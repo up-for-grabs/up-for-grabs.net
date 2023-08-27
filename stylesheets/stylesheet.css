@@ -997,6 +997,22 @@ ul.popular-tags li {
   margin-bottom: 20px;
 }
 
+.projects .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fork-count {
+    display: flex;
+    margin-top: 10px;
+    height: max-content;
+}
+
+.fork-count-svg {
+    align-self: center;
+}
+
 @media screen and (max-width : 670px) {
   #view-mode {
     position: fixed;

@@ -1,0 +1,23 @@
+---
+name: DemoGPT
+desc: DemoGPT enables you to create quick demos by just using prompts.
+site: https://demogpt.io
+tags:
+- langchain
+- gpt-3
+- python
+- prompt
+- llm
+- automation
+- ai
+- artificial-intelligence
+- nlp
+- deep-learning
+- deep-neural-networks
+- streamlit
+upforgrabs:
+  name: good first issue
+  link: https://github.com/melih-unsal/DemoGPT/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 126

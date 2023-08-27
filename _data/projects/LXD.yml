@@ -8,8 +8,8 @@ tags:
 - go
 upforgrabs:
   name: Easy
-  link: https://github.com/lxc/lxd/labels/Easy
+  link: https://github.com/canonical/lxd/labels/Easy
 stats:
-  issue-count: 20
-  last-updated: '2023-06-13T08:41:42Z'
-  fork-count: 858
+  issue-count: 13
+  last-updated: '2023-08-25T17:48:37Z'
+  fork-count: 886

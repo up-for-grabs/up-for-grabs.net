@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 855a68e0198d6f36e6974ed1d46940ac1e27bf97
+  revision: 4a9d1223d6dddd9bbc6081d54e9cd3337cabdaeb
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -34,7 +34,7 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     google-protobuf (3.22.2-x86_64-linux)
-    graphql (2.0.24)
+    graphql (2.0.26)
     graphql-client (0.18.0)
       activesupport (>= 3.0)
       graphql

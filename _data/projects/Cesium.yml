@@ -4,8 +4,8 @@ site: https://github.com/fornever/cesium
 tags:
 - .net
 - compiler
-- с
-- с#
+- c
+- c#
 upforgrabs:
   name: up for grabs
   link: https://github.com/ForNeVeR/Cesium/labels/good-first-issue

@@ -27,7 +27,7 @@
     "@types/underscore": "^1.11.8",
     "@types/showdown": "^2.0.1",
     "@types/node": "^20",
-    "babel-jest": "^29.6.1",
+    "babel-jest": "^29.6.4",
     "eslint": "^8.48.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.0.0",

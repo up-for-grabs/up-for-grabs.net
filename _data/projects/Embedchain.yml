@@ -2,6 +2,7 @@ name: Embedchain
 desc: Framework to easily create LLM powered bots over any dataset
 site: https://github.com/embedchain/embedchain
 tags:
+  - python
   - ai
   - chatbot
   - llm

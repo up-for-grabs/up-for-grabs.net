@@ -1,46 +1,34 @@
 @import url(pygment_trac.css);
 
-/*******************************************************************************
-MeyerWeb Reset
-*******************************************************************************/
-#view-mode {
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  z-index: 999;
-  margin-left: 10px;
-}
-
-/* for light mode
---body-back: #f9f9f9;
-  --body-color:#303030;;
-  --abs:#FFF ; 
-  --heading-color: #005485;
-  --container-border: ##dbdbdb;
-  --databox-bg: #fff
-  --databox-text: #2e7ba9; */
+/* Default [Light Mode] */
 :root {
-  --body-back: #e9eaec;
+  --body-back: #f9f9f9;
   --body-color: #303030;
+  --abs: #fff;
   --box-shadow-color: rgba(0, 0, 0, 0.2);
-  --abs: #FFF;
-  --view-mode: true;
   --heading-color: #005485;
-  --container-rgb: 219, 219, 219;
-  --container-border: rgb(var(--container-rgb));
+  --container-border: #dbdbdb;
   --container-border-alt: #303030;
   --databox-bg: #fff;
   --databox-text: #2e7ba9;
 }
 
-/* for dark mode
+/* Dark Mode Preference has been selected */
+[data-theme-preference=dark]:root {
   --body-back: #1a2025;
-  --body-color:#eeeded;
-  --abs:rgb(38 45 49) ;
+  --body-color: #eeeded;
+  --abs: rgb(39 47 55);
+  --box-shadow-color: rgba(27, 30, 33, 0.5);
   --heading-color: #7bc6f2;
-  --container-border: transparent
-  --databox-bg: #32404d; 
-  --databox-text: #7bceff; */
+  --container-border: transparent;
+  --container-border-alt: #dbdbdb;
+  --databox-bg: #32404d;
+  --databox-text: #7bceff;
+}
+
+/*******************************************************************************
+MeyerWeb Reset
+*******************************************************************************/
 
 html,
 body,
@@ -238,7 +226,27 @@ img {
 }
 
 button {
-  border: none;
+  border-color: transparent;
+}
+
+.theme-selector {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  z-index: 999;
+  background: transparent;
+  cursor: pointer;
+}
+
+.theme-selector .visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 #go-back-home {
@@ -1030,23 +1038,21 @@ ul.popular-tags li {
 }
 
 .fork-count {
-    display: flex;
-    margin-top: 10px;
-    height: max-content;
-    cursor: pointer;
-    position: relative;
-}
-
-.fork-count:hover .tooltip{
-  visibility: visible;
   display: flex;
   margin-top: 10px;
   height: max-content;
+  cursor: pointer;
+  position: relative;
 }
+
+.fork-count:hover .tooltip {
+  visibility: visible;
+}
+
 
 .fork-count-svg {
   align-self: center;
-  fill: var(--fork-svg-fill);
+  fill: currentColor;
 }
 
 @media screen and (max-width : 670px) {

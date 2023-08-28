@@ -16,10 +16,14 @@ define([], () => {
    * Apply changes to document to put the page into "dark" mode
    *
    * @param {HTMLElement} viewModeElement
-   * @param {HTMLElement} viewModeAnchor
+   * @param {HTMLElement} viewModeToggleButton
    * @param {HTMLElement} goBackHomeElement
    */
-  function setDarkMode(viewModeElement, viewModeAnchor, goBackHomeElement) {
+  function setDarkMode(
+    viewModeElement,
+    viewModeToggleButton,
+    goBackHomeElement
+  ) {
     root.style.setProperty('--body-back', '#1a2025');
     root.style.setProperty('--body-color', '#eeeded');
     root.style.setProperty('--abs', 'rgb(39, 47, 55)');
@@ -33,17 +37,23 @@ define([], () => {
 
     goBackHomeElement.setAttribute('src', '/images/logo_dark_1.png');
     viewModeElement.setAttribute('src', '/images/sun-light.png');
-    viewModeAnchor.title = 'light-mode';
+    viewModeToggleButton.setAttribute('aria-pressed', 'true');
+
+    root.setAttribute('data-theme-preference', 'dark');
   }
 
   /**
    * Apply changes to document to put the page into "light" mode
    *
    * @param {HTMLElement} viewModeElement
-   * @param {HTMLElement} viewModeAnchor
+   * @param {HTMLElement} viewModeToggleButton
    * @param {HTMLElement} goBackHomeElement
    */
-  function setLightMode(viewModeElement, viewModeAnchor, goBackHomeElement) {
+  function setLightMode(
+    viewModeElement,
+    viewModeToggleButton,
+    goBackHomeElement
+  ) {
     root.style.setProperty('--body-back', '#f9f9f9');
     root.style.setProperty('--body-color', '#303030');
     root.style.setProperty('--abs', '#FFF');
@@ -56,7 +66,9 @@ define([], () => {
 
     goBackHomeElement.setAttribute('src', '/images/logo.png');
     viewModeElement.setAttribute('src', '/images/Dim-Night.png');
-    viewModeAnchor.title = 'dark-mode';
+    viewModeToggleButton.setAttribute('aria-pressed', 'false');
+
+    root.setAttribute('data-theme-preference', '');
   }
 
   /**
@@ -79,13 +91,8 @@ define([], () => {
       return;
     }
 
-    const viewModeAnchor = document.getElementById('view-mode-a');
-    if (!viewModeAnchor) {
-      return;
-    }
-
-    const goBackHomeAnchor = document.getElementById('go-back-home-a');
-    if (!goBackHomeAnchor) {
+    const viewModeToggleButton = document.getElementById('view-mode-toggle');
+    if (!viewModeToggleButton) {
       return;
     }
 
@@ -95,15 +102,15 @@ define([], () => {
     }
 
     if (!lightModeEnabled) {
-      setDarkMode(viewModeElement, viewModeAnchor, goBackHomeElement);
+      setDarkMode(viewModeElement, viewModeToggleButton, goBackHomeElement);
     }
 
-    viewModeAnchor.addEventListener('click', () => {
+    viewModeToggleButton.addEventListener('click', () => {
       if (lightModeEnabled) {
-        setDarkMode(viewModeElement, viewModeAnchor, goBackHomeElement);
+        setDarkMode(viewModeElement, viewModeToggleButton, goBackHomeElement);
         updateValue('dark');
       } else {
-        setLightMode(viewModeElement, viewModeAnchor, goBackHomeElement);
+        setLightMode(viewModeElement, viewModeToggleButton, goBackHomeElement);
         updateValue('light');
       }
     });

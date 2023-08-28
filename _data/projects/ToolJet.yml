@@ -6,7 +6,7 @@ site: https://tooljet.io/
 tags:
 - react-js
 - nest-js
-- node-js
+- node.js
 - javascript
 - typescript
 - web

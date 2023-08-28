@@ -19,7 +19,11 @@ define([], () => {
    * @param {HTMLElement} viewModeToggleButton
    * @param {HTMLElement} goBackHomeElement
    */
-  function setDarkMode(viewModeElement, viewModeToggleButton, goBackHomeElement) {
+  function setDarkMode(
+    viewModeElement,
+    viewModeToggleButton,
+    goBackHomeElement
+  ) {
     goBackHomeElement.setAttribute('src', '/images/logo_dark_1.png');
     viewModeElement.setAttribute('src', '/images/sun-light.png');
     viewModeToggleButton.setAttribute('aria-pressed', 'true');
@@ -34,7 +38,11 @@ define([], () => {
    * @param {HTMLElement} viewModeToggleButton
    * @param {HTMLElement} goBackHomeElement
    */
-  function setLightMode(viewModeElement, viewModeToggleButton, goBackHomeElement) {
+  function setLightMode(
+    viewModeElement,
+    viewModeToggleButton,
+    goBackHomeElement
+  ) {
     goBackHomeElement.setAttribute('src', '/images/logo.png');
     viewModeElement.setAttribute('src', '/images/Dim-Night.png');
     viewModeToggleButton.setAttribute('aria-pressed', 'false');

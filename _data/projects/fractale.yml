@@ -6,8 +6,8 @@ tags:
   - go
   - dgraph
   - graphql
-  - project management
-  - ticket management
+  - project-management
+  - ticket-management
   - kanban
 upforgrabs:
   name: help wanted

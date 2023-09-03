@@ -1,0 +1,9 @@
+name: Basic Car Maintenance
+desc: A brief description of the project
+site: https://github.com/mikaelacaron/Basic-Car-Maintenance
+tags:
+  - Swift
+  - Firebase
+upforgrabs:
+  name: good first issue
+  link: https://github.com/mikaelacaron/Basic-Car-Maintenance/issues?q=is:open+is:issue+label:%22good+first+issue%22

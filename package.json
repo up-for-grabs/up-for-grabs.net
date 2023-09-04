@@ -24,7 +24,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.11",
     "@types/jest": "^29.5.4",
-    "@types/underscore": "^1.11.8",
+    "@types/underscore": "^1.11.9",
     "@types/showdown": "^2.0.1",
     "@types/node": "^20",
     "babel-jest": "^29.6.4",

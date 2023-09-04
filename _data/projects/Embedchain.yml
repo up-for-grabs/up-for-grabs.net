@@ -1,12 +1,17 @@
+---
 name: Embedchain
 desc: Framework to easily create LLM powered bots over any dataset
 site: https://github.com/embedchain/embedchain
 tags:
-  - python
-  - ai
-  - chatbot
-  - llm
-  - chatgpt
+- python
+- ai
+- chatbot
+- llm
+- chatgpt
 upforgrabs:
   name: good first issue
   link: https://github.com/embedchain/embedchain/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2023-08-28T01:54:28Z'
+  fork-count: 835

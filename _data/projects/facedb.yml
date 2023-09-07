@@ -1,12 +1,12 @@
 name: FaceDB
-desc: A face database for large scale face recognition
+desc: A face database for large-scale face recognition
 site: https://github.com/shhossain/facedb
 tags:
 - python
 - machine-learning
 - deep-learning
-- face-recognation
+- face-recognition
 - vector-database
 upforgrabs:
-  name: hepl-wanted
+  name: help-wanted
   link: https://github.com/shhossain/facedb/labels/help%20wanted

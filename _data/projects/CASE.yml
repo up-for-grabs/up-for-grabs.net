@@ -1,0 +1,14 @@
+name: CASE
+desc: A frameworkless and Open Source tool to build CRUD applications as dashboards or admin panel.
+site: https://case.app
+tags:
+  - appbuilder
+  - typescript
+  - adminpanel
+  - CRUD
+  - frameworkless
+  - opensource
+  -lowcode
+upforgrabs:
+  name: CASE
+  link: https://github.com/casejs/CASE/issues

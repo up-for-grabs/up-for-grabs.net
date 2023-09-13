@@ -1,5 +1,5 @@
 name: Basic Car Maintenance
-desc: A brief description of the project
+desc: A basic app to track your car's maintenance events, like fixes, oil changes, etc.
 site: https://github.com/mikaelacaron/Basic-Car-Maintenance
 tags:
   - swift

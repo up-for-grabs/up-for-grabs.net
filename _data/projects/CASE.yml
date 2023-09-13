@@ -8,7 +8,7 @@ tags:
   - CRUD
   - frameworkless
   - opensource
-  -lowcode
+  - lowcode
 upforgrabs:
   name: CASE
   link: https://github.com/casejs/CASE/issues

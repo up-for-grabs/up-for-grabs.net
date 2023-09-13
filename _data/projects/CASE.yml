@@ -10,5 +10,5 @@ tags:
   - opensource
   - lowcode
 upforgrabs:
-  name: CASE
-  link: https://github.com/casejs/CASE/issues
+  name: good first issue
+  link: https://github.com/casejs/CASE/labels/good%20first%20issue

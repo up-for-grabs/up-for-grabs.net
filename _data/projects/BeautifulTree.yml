@@ -11,7 +11,3 @@ tags:
 upforgrabs:
   name: Good First Issue
   link: https://github.com/Coder-Spirit/beautiful-tree/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
-stats:
-  issue-count: 5
-  last-updated: '2023-09-15T23:01:00Z'
-  fork-count: 1

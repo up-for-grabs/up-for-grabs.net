@@ -32,7 +32,6 @@ the additional client-side resources:
   src="{{ site.github.url }}javascripts/lib/require.js"
   data-main="javascripts/app"
 ></script>
-
 ```
 
 The `data-main` attribute tells RequireJS what script to run after it is
@@ -66,7 +65,6 @@ requirejs.config({
 
 // after configuring require, load the main script
 requirejs(['main']);
-
 ```
 
 If you wish to consume a third-party dependency in the Up-For-Grabs client-side
@@ -89,7 +87,6 @@ define([
 ], ($, ProjectsService, _, sammy) => {
   // application code goes here
 });
-
 ```
 
 If you are adding functionality to the site you will need to follow this
@@ -127,5 +124,4 @@ Ensure your module defines this _before_ it uses a `define`:
 if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
-
 ```

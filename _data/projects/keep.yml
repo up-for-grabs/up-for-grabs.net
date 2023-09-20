@@ -9,4 +9,4 @@ tags:
   - automation
 upforgrabs:
   name: good first issues
-  link: https://github.com/keephq/keep/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  link: https://github.com/keephq/keep/issues?q=label%3A%22good%20first%20issue%22

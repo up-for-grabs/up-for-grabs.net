@@ -1,0 +1,11 @@
+name: DiaryVault
+desc: A FOSS, offline first personal diary application written in Flutter
+site: https://github.com/SankethBK/diaryvault
+tags:
+  - flutter
+  - dart
+  - mobile
+  - android
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/SankethBK/diaryvault/labels/good%20first%20issue

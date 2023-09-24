@@ -1,10 +1,11 @@
 name: FinFeed
 desc: A shark-themed twitter clone
+site: none
 tags:
-  - good first issue
-  - help wanted
+  - good-first-issue
+  - help-wanted
   - javascript
   - nodejs
 upforgrabs:
-  name: good first issue
+  name: FinFeed
   link: https://github.com/sharkpause/finfeed/labels/up%20for%20grabs

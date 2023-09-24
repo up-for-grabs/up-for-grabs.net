@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: d1be1586965d78811955c29308de55cf842f164a
+  revision: 8c599243fe40c82359dd0e3cff126db8257a17a5
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -27,7 +27,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.7.10)
+    faraday (2.7.11)
+      base64
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
@@ -96,7 +97,7 @@ GEM
     regexp_parser (2.8.1)
     rexml (3.2.6)
     rouge (4.1.0)
-    rubocop (1.56.2)
+    rubocop (1.56.3)
       base64 (~> 0.1.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)

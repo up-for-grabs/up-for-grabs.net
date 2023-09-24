@@ -1,0 +1,10 @@
+name: WEB_TEMPLATE_001
+desc: Cool Colurful Template for easy web development
+site: https://example.org/your-project-link-here
+tags:
+  - html
+  - web-development
+  - web-templates
+upforgrabs:
+  name: help wanted by a beginner
+  link: https://github.com/harry97sharma/WEB_TEMPLATE_001/issues?q=label%3A%22help+wanted%22+label%3A%22good+first+issue%22

@@ -13,5 +13,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/rubberduck-vba/Rubberduck/labels/up-for-grabs
 stats:
-  issue-count: 201
-  last-updated: '2022-10-25T18:07:33Z'
+  issue-count: 203
+  last-updated: '2023-07-20T06:50:08Z'
+  fork-count: 294

@@ -1,57 +1,61 @@
 <script type="text/html" id="projects-panel-template">
-  <div class="filters-panel cf">
-      <label class="filter-label" for="project">Filter by last updated:</label>
-      <div class="radio-btn-row">
-        <div class="radio-btn-wrapper">
-          <button id="1week" class="radio-btn" type="button">1 Week</button>
+  <menu> 
+    <div class="filters-panel cf">
+        <label class="filter-label" for="project">Filter by last updated:</label>
+        <div class="radio-btn-row">
+          <div class="radio-btn-wrapper">
+            <button id="1week" class="radio-btn" type="button">1 Week</button>
+          </div>
+          <div class="radio-btn-wrapper">
+            <button id="1month" class="radio-btn" type="button">1 Month</button>
+          </div>
+          <div class="radio-btn-wrapper">
+            <button id="6months" class="radio-btn" type="button">6 Months</button>
+          </div>
+          <div class="radio-btn-wrapper">
+            <button id="1year" class="radio-btn" type="button">1 Year</button>
+          </div>
+          <div class="radio-btn-wrapper">
+            <button id="2years" class="radio-btn" type="button">2 Years</button>
+          </div>
         </div>
-        <div class="radio-btn-wrapper">
-          <button id="1month" class="radio-btn" type="button">1 Month</button>
-        </div>
-        <div class="radio-btn-wrapper">
-          <button id="6months" class="radio-btn" type="button">6 Months</button>
-        </div>
-        <div class="radio-btn-wrapper">
-          <button id="1year" class="radio-btn" type="button">1 Year</button>
-        </div>
-        <div class="radio-btn-wrapper">
-          <button id="2years" class="radio-btn" type="button">2 Years</button>
-        </div>
-      </div>
-  </div>
+    </div>
 
-  <div class="filters-panel cf">
-    <label class="filter-label" for="project">Filter by name:</label>
-    <select class="names-filter" id="project" multiple data-placeholder="Select a project..." >
-      <% _.each(names, function(entry, key){ %>
+    <div class="filters-panel cf">
+      <label class="filter-label" for="project">Filter by name:</label>
+      <select class="names-filter" id="project" multiple data-placeholder="Select a project..." >
+        <% _.each(names, function(entry, key){ %>
+          <option value="<%-key%>"><%- entry.name%></option>
+        <% }) %>
+      </select>
+    </div>
+    <div class="filters-panel cf">
+      <label class="filter-label" for="label">Filter by label: </label>
+      <select class="labels-filter" id="label" multiple data-placeholder="Select a label..." >
+      <% _.each(labels, function(entry, key){ %>
         <option value="<%-key%>"><%- entry.name%></option>
       <% }) %>
-    </select>
-  </div>
-  <div class="filters-panel cf">
-    <label class="filter-label" for="label">Filter by label: </label>
-    <select class="labels-filter" id="label" multiple data-placeholder="Select a label..." >
-    <% _.each(labels, function(entry, key){ %>
-      <option value="<%-key%>"><%- entry.name%></option>
-    <% }) %>
-    </select>
-  </div>
-  <div class="filters-panel cf">
-    <label class="filter-label" for="tag">Filter by tags: </label>
-    <select class="tags-filter" id="tag" multiple data-placeholder="Select a tag..." >
-    <% _.each(tags, function(entry, key){ %>
-      <option value="<%-entry.name%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
-    <% }) %>
-    </select>
-  </div>
-  <div class="filters-panel cf">
-    <label class="filter-label" >Popular tags:</label>
-    <ul class="popular-tags">
-    <% _.each(popularTags, function(entry, key){ %>
-      <li><a><%-entry.name%></a> (<%-entry.frequency%>)</li>
-    <% }) %>
-    </ul>
-  </div>
+      </select>
+    </div>
+    <div class="filters-panel cf">
+      <label class="filter-label" for="tag">Filter by tags: </label>
+      <select class="tags-filter" id="tag" multiple data-placeholder="Select a tag..." >
+      <% _.each(tags, function(entry, key){ %>
+        <option value="<%-entry.name%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
+      <% }) %>
+      </select>
+    </div>
+    <div class="filters-panel cf">
+      <label class="filter-label" >Popular tags:</label>
+      <ul class="popular-tags">
+      <% _.each(popularTags, function(entry, key){ %>
+        <li>
+          <a title="Popular Tag: <%-entry.name%>" tabindex="0"><%-entry.name%> <span class="popular-tags__frequency">(<%-entry.frequency%>)</span></a>
+        </li>
+      <% }) %>
+      </ul>
+    </div>
+  </menu>
   <div class="projects">
     <% let count=0 %>
     <% _.each(projects, function(project) { %>
@@ -63,7 +67,7 @@
         </div>
     </div>
   <div>
-         <div class="details">
+        <div class="details stats">
         <p class="label">
           <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1">
             <%-project.upforgrabs.name %>
@@ -78,6 +82,14 @@
             <% } %>
           </a>
         </p>
+        <% if (project.stats) { %>
+            <div class="fork-count">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="fork-count-svg">
+                <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+              </svg>
+              <%-project.stats['fork-count']%>
+            </div>
+        <% } %>
       </div>
       <div class="details">
            <% if (project.desc) { %>

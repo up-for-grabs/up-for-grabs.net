@@ -12,5 +12,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/jupyterlab/jupyterlab/labels/good%20first%20issue
 stats:
-  issue-count: 45
-  last-updated: '2022-10-06T07:18:52Z'
+  issue-count: 54
+  last-updated: '2023-09-23T15:35:11Z'
+  fork-count: 2807

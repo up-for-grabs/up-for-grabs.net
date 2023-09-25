@@ -11,5 +11,6 @@ upforgrabs:
   name: good-first-issue
   link: https://github.com/open-metadata/OpenMetadata/labels/good-first-issue
 stats:
-  issue-count: 21
-  last-updated: '2022-10-25T09:51:18Z'
+  issue-count: 13
+  last-updated: '2023-09-17T19:46:31Z'
+  fork-count: 602

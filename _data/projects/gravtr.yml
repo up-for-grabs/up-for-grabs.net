@@ -8,6 +8,7 @@ tags:
 - package
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/gfabricio/gravtr/labels/up-for-grabs
+  link: https://github.com/gfabrizio/gravtr/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 2

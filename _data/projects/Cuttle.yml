@@ -1,0 +1,20 @@
+---
+name: Cuttle
+desc: >-
+  Open Source, full-stack pvp implementation of Cuttle, the oldest battle card game played with a standard
+  52-card deck.
+site: https://github.com/cuttle-cards/cuttle
+tags:
+- node.js
+- javascript
+- vue
+- full-stack
+- game
+- hacktoberfest
+upforgrabs:
+  name: good first issue
+  link: https://github.com/cuttle-cards/cuttle/labels/good%20first%20issue
+stats:
+  issue-count: 10
+  last-updated: '2023-09-06T23:41:24Z'
+  fork-count: 67

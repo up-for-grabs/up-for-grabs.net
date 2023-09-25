@@ -13,5 +13,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/boa-dev/boa/labels/good%20first%20issue
 stats:
-  issue-count: 5
-  last-updated: '2022-10-21T08:40:37Z'
+  issue-count: 9
+  last-updated: '2023-09-01T21:35:47Z'
+  fork-count: 361

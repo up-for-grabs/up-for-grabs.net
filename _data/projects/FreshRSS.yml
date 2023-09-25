@@ -17,5 +17,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/FreshRSS/FreshRSS/labels/good%20first%20issue
 stats:
-  issue-count: 22
-  last-updated: '2022-10-23T22:39:03Z'
+  issue-count: 25
+  last-updated: '2023-09-25T07:57:28Z'
+  fork-count: 671

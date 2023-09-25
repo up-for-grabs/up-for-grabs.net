@@ -1,0 +1,41 @@
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+
+name: Review
+jobs:
+  reviewProjectChanges:
+    name: Project Changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@52b8784594ec115fd17094752708121dc5dabb47
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Run script to review changed projects
+        id: run_script
+        run: |
+          MESSAGE=$(bundle exec ruby scripts/review_changes.rb) 
+          echo 'message<<EOF' >> "$GITHUB_OUTPUT"
+          echo "$MESSAGE" >> "$GITHUB_OUTPUT"
+          echo 'EOF' >> "$GITHUB_OUTPUT"
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
+          GIT_REMOTE_URL: ${{ github.event.pull_request.head.repo.clone_url }}
+          GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
+
+      - uses: marocchino/sticky-pull-request-comment@efaaab3fd41a9c3de579aba759d2552635e590fd
+        with:
+          message: ${{ steps.run_script.outputs.message }}
+          GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
+

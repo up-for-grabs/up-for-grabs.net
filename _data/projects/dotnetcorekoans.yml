@@ -9,7 +9,8 @@ tags:
 - cross-platform
 upforgrabs:
   name: Up for Grabs
-  link: https://github.com/NotMyself/DotNetCoreKoans/labels/Up%20for%20Grabs
+  link: https://github.com/DotNetKoans/DotNetKoans/labels/Up%20for%20Grabs
 stats:
-  issue-count: 1
-  last-updated: '2020-11-02T21:46:07Z'
+  issue-count: 4
+  last-updated: '2023-01-18T17:58:24Z'
+  fork-count: 238

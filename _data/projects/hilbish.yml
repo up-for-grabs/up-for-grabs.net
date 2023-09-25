@@ -1,0 +1,16 @@
+---
+name: Hilbish
+desc: An extensible Lua-configured Unix shell
+site: https://rosettea.github.io/Hilbish
+tags:
+- shell
+- lua
+- go
+- cli
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Rosettea/Hilbish/labels/up%20for%20grabs
+stats:
+  issue-count: 2
+  last-updated: '2023-04-14T01:36:22Z'
+  fork-count: 16

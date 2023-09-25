@@ -15,5 +15,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/dnnsoftware/Dnn.Platform/labels/help%20wanted
 stats:
-  issue-count: 24
-  last-updated: '2022-10-25T19:20:14Z'
+  issue-count: 23
+  last-updated: '2023-07-13T18:59:36Z'
+  fork-count: 741

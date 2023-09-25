@@ -216,7 +216,7 @@ unless result[:exit_code].zero?
   puts 'I was unable to perform the comparison due to a git error'
   puts 'Check the workflow run to see more information about this error'
 
-  warn "A git error occurred while trying to diff the two commits"
+  warn 'A git error occurred while trying to diff the two commits'
   warn
   warn "stderr: '#{result[:stderr]}'"
   warn

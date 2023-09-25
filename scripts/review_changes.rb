@@ -198,12 +198,29 @@ range = "#{base_sha}...#{head_sha}"
 if git_remote_url
   # fetching the fork repository so that our commits are in this repository
   # for processing and comparison with the base branch
-  run "git -C '#{dir}' remote add fork #{git_remote_url} -f"
+  fetch_result = run "git -C '#{dir}' remote add fork #{git_remote_url} -f"
+  unless fetch_result[:exit_code].zero?
+    warn "A git error occurred while trying to add the remote #{git_remote_url}"
+    warn
+    warn "exit code: #{fetch_result[:exit_code]}"
+    warn
+    warn "stderr: '#{result[:stderr]}'"
+    warn
+    warn "stdout: '#{result[:stdout]}'"
+    return
+  end
 end
 
 result = run "git -C '#{dir}' diff #{range} --name-only -- _data/projects/"
 unless result[:exit_code].zero?
-  puts 'A problem occurred when reading the git directory'
+  puts 'I was unable to perform the comparison due to a git error'
+  puts 'Check the workflow run to see more information about this error'
+
+  warn "A git error occurred while trying to diff the two commits"
+  warn
+  warn "stderr: '#{result[:stderr]}'"
+  warn
+  warn "stdout: '#{result[:stdout]}'"
   return
 end
 

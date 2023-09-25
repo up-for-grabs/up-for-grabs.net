@@ -1,9 +1,10 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 9da7d0ba8155244ac5202a307bbb96d872526165
+  revision: 26bf2886f1e6328d221496a8a3e96079dd96d802
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
+      graphql (~> 2.0.27)
       graphql-client (~> 0.18)
       json_schemer (>= 0.2, < 3.0)
       octokit (>= 5.6, < 8.0)
@@ -35,7 +36,7 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     google-protobuf (3.22.2-x86_64-linux)
-    graphql (2.1.0)
+    graphql (2.0.27)
     graphql-client (0.18.0)
       activesupport (>= 3.0)
       graphql
@@ -135,6 +136,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  graphql (~> 2.0.27)
   graphql-client
   jekyll
   json_schemer

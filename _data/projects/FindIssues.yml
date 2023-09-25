@@ -1,0 +1,13 @@
+---
+name: FindIssues
+desc: FindIssues aims to provide you access to the most recent & unassigned issues with different labels on github 🧑‍💻✨.
+site: https://findissues.vercel.app
+tags:
+- tailwindcss
+- reactjs
+- javascript
+- nextjs
+- beginner
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/anand346/findissues/labels/hacktoberfest

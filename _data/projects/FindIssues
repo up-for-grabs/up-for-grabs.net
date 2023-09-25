@@ -1,0 +1,17 @@
+---
+name: FindIssues
+desc: FindIssues aims to provide you access to the most recent & unassigned issues on github, with its advance search technique 🧑‍💻✨.
+site: https://github.com/anand346/findissues
+tags:
+- tailwindcss
+- reactjs
+- javascript
+- nextjs
+- beginner
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/aryamankha/airbnb-clone/labels/hacktoberfest
+stats:
+  issue-count: 2
+  last-updated: '2023-09-25T11:02:43Z'
+  fork-count: 8

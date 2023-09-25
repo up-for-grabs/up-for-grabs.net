@@ -11,7 +11,7 @@ tags:
   - code-search-engine
   - grep-like
   - vector-database
-  - vector-embeddings llm
+  - vector-embeddings-llm
   - python
 upforgrabs:
   name: up for grabs

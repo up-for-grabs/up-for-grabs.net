@@ -1,6 +1,7 @@
 ---
 name: FindIssues
-desc: FindIssues aims to provide you access to the most recent & unassigned issues with different labels on github 🧑‍💻✨.
+desc: "FindIssues aims to provide you access to the most recent & unassigned issues with different labels
+  on github \U0001F9D1‍\U0001F4BB✨."
 site: https://findissues.vercel.app
 tags:
 - tailwindcss
@@ -11,3 +12,7 @@ tags:
 upforgrabs:
   name: hacktoberfest
   link: https://github.com/anand346/findissues/labels/hacktoberfest
+stats:
+  issue-count: 3
+  last-updated: '2023-09-25T13:56:05Z'
+  fork-count: 10

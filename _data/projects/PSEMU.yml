@@ -1,3 +1,4 @@
+---
 name: PSEMU
 desc: An experimental PS1 Emulator made in c++ 20
 site: https://github.com/Cherrytree56567/PSEMU
@@ -23,3 +24,7 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Cherrytree56567/PSEMU/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2023-09-24T13:19:51Z'
+  fork-count: 2

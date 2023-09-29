@@ -1,0 +1,16 @@
+---
+name: Cesium
+desc: C compiler for the CLI platform
+site: https://github.com/fornever/cesium
+tags:
+- ".net"
+- compiler
+- c
+- c#
+upforgrabs:
+  name: good-first-issue
+  link: https://github.com/ForNeVeR/Cesium/labels/good-first-issue
+stats:
+  issue-count: 32
+  last-updated: '2023-07-15T11:30:58Z'
+  fork-count: 23

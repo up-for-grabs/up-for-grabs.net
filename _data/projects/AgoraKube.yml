@@ -1,5 +1,5 @@
 ---
-name: AgoraKube
+name: chardso
 desc: Kubernetes Ansible Based Distribution
 site: https://github.com/chardso/chardso
 tags:

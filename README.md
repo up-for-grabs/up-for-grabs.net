@@ -1,5 +1,5 @@
-[up-for-grabs.net](https://up-for-grabs.net/)
-![Continuous Integration status](https://github.com/up-for-grabs/up-for-grabs.net/workflows/Continuous%20Integration/badge.svg)
+[chardso](https://up-for-grabs.net/)
+[![Review](https://github.com/up-for-grabs/up-for-grabs.net/actions/workflows/review-project-changes.yml/badge.svg)](https://github.com/up-for-grabs/up-for-grabs.net/actions/workflows/review-project-changes.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0ee7bf9f-1aed-465b-8e9e-01de009a8a7e/deploy-status)](https://app.netlify.com/sites/up-for-grabs-test-bench/deploys)
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors)
 ================

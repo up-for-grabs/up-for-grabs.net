@@ -1,0 +1,15 @@
+---
+name: Calculator
+desc: An Online Calculator.
+site: https://github.com/DhanushNehru/calculator
+tags:
+- javascript
+- css
+- html
+- calculator
+- webdevelopment
+- good-practices
+- good-first-issue
+upforgrabs:
+  name: bug
+  link: https://github.com/DhanushNehru/calculator/labels/enhancement

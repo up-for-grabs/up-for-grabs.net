@@ -1,0 +1,14 @@
+name: Tailwind Inputs
+desc: This NPM package offers a range of reusable, customizable components designed on the solid foundation of Tailwind CSS.
+site: https://tailwind-inptus.vercel.app
+tags:
+  - javascript
+  - typescript
+  - nextjs
+  - tailwindcss
+  - tailwind
+  - components
+  - reactjs
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/k8pai/tailwind-inputs/labels/up%20for%20grabs

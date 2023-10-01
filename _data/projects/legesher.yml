@@ -3,9 +3,6 @@ name: Legesher
 desc: The bridge between the words we speak and the code we write.
 site: https://github.com/legesher/legesher
 tags:
-- html
-- css
-- ruby
 - python
 - javascript
 - translation

@@ -98,7 +98,7 @@ GEM
     regexp_parser (2.8.1)
     rexml (3.2.6)
     rouge (4.1.0)
-    rubocop (1.56.3)
+    rubocop (1.56.4)
       base64 (~> 0.1.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -129,7 +129,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
-    unicode-display_width (2.4.2)
+    unicode-display_width (2.5.0)
     webrick (1.8.1)
 
 PLATFORMS

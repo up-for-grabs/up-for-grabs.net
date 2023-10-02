@@ -1,5 +1,7 @@
 name: Config Tips
 desc: Config Tips is an open source and collaborative library of config tips and tricks. We want to create the most comprehensive directory of config tips regardless of the tool or the environment to enable developers to make the best of their config file and increase their efficiency.
+site: https://config.tips
+tags: 
   - config
   - yaml
   - git

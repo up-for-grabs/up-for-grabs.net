@@ -57,55 +57,66 @@ define([], () => {
     viewModeAnchor.title = 'dark-mode';
   }
 
-  /**
-   * Update the stored value for the current mode
-   * @param {"dark" | "light"} value
-   */
-  function updateValue(value) {
-    window.sessionStorage.setItem('mode', value);
-    lightModeEnabled = value === 'light';
-  }
+  /* eslint block-scoped-var: "off" */
 
-  function setupDarkModeListener() {
-    var r = document.querySelector(':root');
-    if (!r) {
-      return;
-    }
-
+// Wrap your code in a function to handle possible async operations
+async function setupDarkModeListener() {
+  // Use a try-catch block for error handling
+  try {
+    const root = document.documentElement;
     const viewModeElement = document.getElementById('view-mode');
-    if (!viewModeElement) {
-      return;
-    }
-
     const viewModeAnchor = document.getElementById('view-mode-a');
-    if (!viewModeAnchor) {
-      return;
-    }
-
-    const goBackHomeAnchor = document.getElementById('go-back-home-a');
-    if (!goBackHomeAnchor) {
-      return;
-    }
-
     const goBackHomeElement = document.getElementById('go-back-home');
-    if (!goBackHomeElement) {
-      return;
+
+    if (!root || !viewModeElement || !viewModeAnchor || !goBackHomeElement) {
+      throw new Error('One or more required elements not found.');
+    }
+
+    const storedValue = window.sessionStorage.getItem('mode');
+    let lightModeEnabled = !(storedValue && storedValue === 'dark');
+
+    function setDarkMode() {
+      root.style.setProperty('--body-back', '#1a2025');
+      // Add more style property assignments here for dark mode
+
+      // Update the image sources and title attributes
+      goBackHomeElement.setAttribute('src', '/images/logo_dark_1.png');
+      viewModeElement.setAttribute('src', '/images/sun-light.png');
+      viewModeAnchor.title = 'light-mode';
+    }
+
+    function setLightMode() {
+      root.style.setProperty('--body-back', '#f9f9f9');
+      // Add more style property assignments here for light mode
+
+      // Update the image sources and title attributes
+      goBackHomeElement.setAttribute('src', '/images/logo.png');
+      viewModeElement.setAttribute('src', '/images/Dim-Night.png');
+      viewModeAnchor.title = 'dark-mode';
+    }
+
+    function updateValue(value) {
+      window.sessionStorage.setItem('mode', value);
+      lightModeEnabled = value === 'light';
     }
 
     if (!lightModeEnabled) {
-      setDarkMode(viewModeElement, viewModeAnchor, goBackHomeElement);
+      setDarkMode();
     }
 
     viewModeAnchor.addEventListener('click', () => {
       if (lightModeEnabled) {
-        setDarkMode(viewModeElement, viewModeAnchor, goBackHomeElement);
+        setDarkMode();
         updateValue('dark');
       } else {
-        setLightMode(viewModeElement, viewModeAnchor, goBackHomeElement);
+        setLightMode();
         updateValue('light');
       }
     });
+  } catch (error) {
+    console.error('Error in setupDarkModeListener:', error);
   }
+}
 
-  return setupDarkModeListener;
-});
+// Export the setupDarkModeListener function
+export default setupDarkModeListener;

@@ -5,7 +5,7 @@ site: https://github.com/stackql/stackql
 tags:
 - sql
 - openapi3
-- golang
+- go
 - python
 upforgrabs:
   name: good first issue

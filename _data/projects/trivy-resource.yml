@@ -4,7 +4,7 @@ tags:
   - trivy-resource
   - trivy
   - concourse-resource
-  - vuln_scan
+  - vulnscan
 upforgrabs:
   name: up for grabs
   link: https://github.com/comcast/trivy-resource/labels/up%20for%20grabs

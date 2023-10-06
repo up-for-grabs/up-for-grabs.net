@@ -4,7 +4,8 @@ site: https://kedro.org/
 tags:
   - python
   - pydata
-  - data science
+  - data-science
+  - data-pipelines
 upforgrabs:
   name: good first issue
   link: https://github.com/kedro-org/kedro/labels/good%20first%20issue

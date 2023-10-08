@@ -113,9 +113,9 @@ def review_project(project)
 
   label_result = label_validation_message(project)
 
-  return { project:, kind: 'label', message: label_result[:message] } unless label_result[:reason].nil?
+  kind = label_result[:reason].present? ? 'label' : 'valid'
 
-  { project:, kind: 'valid', message: label_result[:message] }
+  { project:, kind:, message: label_result[:message] }
 end
 
 def repository_check(project)

@@ -1,0 +1,11 @@
+name: Kedro
+desc: Kedro is a Python toolbox for production-ready data science. It uses software engineering best practices to help you create data engineering and data science pipelines that are reproducible, maintainable, and modular.  
+site: https://kedro.org/
+tags:
+  - python
+  - pydata
+  - data-science
+  - data-pipelines
+upforgrabs:
+  name: good first issue
+  link: https://github.com/kedro-org/kedro/labels/good%20first%20issue

@@ -113,7 +113,7 @@ def review_project(project)
 
   label_result = label_validation_message(project)
 
-  return { project:, kind: 'label', message: label_error[:message] } unless label_result[:error].nil?
+  return { project:, kind: 'label', message: label_result[:message] } unless label_result[:reason].nil?
 
   { project:, kind: 'valid', message: label_result[:message] }
 end

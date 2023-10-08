@@ -13,4 +13,4 @@ tags:
   - openai
 upforgrabs:
   name: up for grabs
-  link: https://github.com/pezzolabs/pezzo/issues?q=is%3Aopen+is%3Aissue+label%3A%22up+for+grabs%22
+  link: https://github.com/pezzolabs/pezzo/labels/good%20first%20issue

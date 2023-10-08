@@ -2,7 +2,7 @@ FROM ruby:3.2-slim-buster
 
 RUN apt update \
   && apt install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev git \
-  && gem install bundler:2.4.6 \
+  && gem install bundler:2.4.20 \
   && mkdir -p /app
 
 WORKDIR /app

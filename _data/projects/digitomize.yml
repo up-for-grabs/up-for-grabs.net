@@ -1,5 +1,5 @@
 name: Digitomize
-desc: Platform that combines two main sections: Contests and User Profiles. It allows users to explore upcoming coding contests and dynamically create developer portfolios.
+desc: 'Platform that combines two main sections: Contests and User Profiles. It allows users to explore upcoming coding contests and dynamically create developer portfolios.'
 site: https://www.digitomize.com
 tags:
   - web

@@ -192,7 +192,7 @@ def label_validation_message(project)
   end
 
   if result[:reason] == 'found'
-    issue_with_suffix = result[:count] > 1 ? "issues" : "issue"
+    issue_with_suffix = result[:count] > 1 ? 'issues' : 'issue'
     return {
       message: "A label named '#{result[:name]}' been found at [this url](#{result[:url]}) and it currently contains #{result[:count]} #{issue_with_suffix} - this should be ready to merge!"
     }

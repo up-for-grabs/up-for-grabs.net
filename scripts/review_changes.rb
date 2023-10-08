@@ -192,10 +192,18 @@ def label_validation_message(project)
   end
 
   if result[:reason] == 'found'
-    issue_with_suffix = result[:count] == 1 ? 'issue' : 'issues'
-    return {
-      message: "A label named [#{result[:name]}](#{result[:url]}) has been found and it currently has #{result[:count]} #{issue_with_suffix} - this should be ready to merge!"
-    }
+    issue_count = result[:count]
+
+    if issue_count == 0
+      return {
+        message: "A label named [#{result[:name]}](#{result[:url]}) has been found on GitHub but it doesn't contain any open issues. This won't be listed on the site when this is merged but is otherwise fine to proceed."
+      }
+    else
+      issue_with_suffix = issue_count == 1 ? 'issue' : 'issues'
+      return {
+        message: "A label named [#{result[:name]}](#{result[:url]}) has been found on GitHub and it currently has #{issue_count} #{issue_with_suffix} - this should be ready to merge!"
+      }
+    end
   end
 
   {

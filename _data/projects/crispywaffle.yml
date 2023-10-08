@@ -1,0 +1,13 @@
+---
+name: Crispy Waffle
+desc: A toolkit for .NET projects
+site: https://github.com/guibranco/crispywaffle
+tags:
+- ".net"
+- c#
+- toolkit
+- mini-framework
+- framework
+upforgrabs:
+  name: help wanted
+  link: https://github.com/guibranco/CrispyWaffle/labels/help%20wanted

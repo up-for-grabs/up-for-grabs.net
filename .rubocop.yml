@@ -5,7 +5,7 @@ AllCops:
     - 'scripts/**/*.rb'
 
 Layout/LineLength:
-  Max: 186
+  Max: 220
 
 Metrics/CyclomaticComplexity:
   Max: 13

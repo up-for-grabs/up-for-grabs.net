@@ -12,5 +12,6 @@ upforgrabs:
   name: up for grabs
   link: https://github.com/Stickerifier/Stickerify/labels/up%20for%20grabs
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2023-10-08T19:14:47Z'
   fork-count: 11

@@ -113,7 +113,7 @@ def review_project(project)
 
   label_result = label_validation_message(project)
 
-  kind = label_result[:reason].present? ? 'label' : 'valid'
+  kind = label_result.key?(:reason) ? 'label' : 'valid'
 
   { project:, kind:, message: label_result[:message] }
 end

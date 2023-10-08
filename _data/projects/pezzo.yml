@@ -1,0 +1,16 @@
+name: Pezzo
+desc: LLMOps plaform for developers and teams
+site: https://github.com/pezzolabs/pezzo
+tags:
+  - node.js
+  - javascript
+  - typescript
+  - reactjs
+  - nestjs
+  - prisma
+  - graphql
+  - ai
+  - openai
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/pezzolabs/pezzo/labels/good%20first%20issue

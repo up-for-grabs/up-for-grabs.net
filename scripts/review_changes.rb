@@ -194,7 +194,7 @@ def label_validation_message(project)
   if result[:reason] == 'found'
     issue_count = result[:count]
 
-    if issue_count == 0
+    if issue_count.zero?
       return {
         message: "A label named [#{result[:name]}](#{result[:url]}) has been found on GitHub but it doesn't contain any open issues. This won't be listed on the site when this is merged but is otherwise fine to proceed."
       }

@@ -8,3 +8,7 @@ tags:
 upforgrabs:
   name: bug
   link: https://github.com/WeMakeDevs/wemakedevs/labels/bug
+stats:
+  issue-count: 2
+  last-updated: '2023-09-30T09:23:06Z'
+  fork-count: 321

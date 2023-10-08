@@ -222,6 +222,12 @@ if git_remote_url
   # fetching the fork repository so that our commits are in this repository
   # for processing and comparison with the base branch
   remote_result = run "git -C '#{dir}' remote add fork #{git_remote_url} -f"
+
+  if remote_result[:exit_code] == 3
+    run "git -C '#{dir}' remote rm fork"
+    remote_result = run "git -C '#{dir}' remote add fork #{git_remote_url} -f"
+  end
+
   unless remote_result[:exit_code].zero?
     warn "A git error occurred while trying to add the remote #{git_remote_url}"
     warn

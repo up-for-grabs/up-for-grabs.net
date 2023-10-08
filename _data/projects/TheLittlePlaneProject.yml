@@ -1,0 +1,12 @@
+name: The Little Plane Project
+desc: A basic JavaScript implementation of procedural generation with Perlin noise
+site: https://github.com/Glowstick0017/Little-Plane-Project
+tags:
+- proceduralgeneration
+- perlin
+- javascript
+- html
+- hacktoberfest
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Glowstick0017/Little-Plane-Project/labels/help%20wanted

@@ -3,7 +3,7 @@ name: WeMakeDevs
 desc: Community which provides free hands-on training in various fields of computer science.
 site: https://github.com/WeMakeDevs/wemakedevs
 tags:
-- react
+- reactjs
 - community
 upforgrabs:
   name: bug

@@ -1,0 +1,17 @@
+---
+name: Keep
+desc: Open-source alert management and workflow automation platform.
+site: https://www.keephq.dev
+tags:
+- monitoring
+- alerting
+- alerts
+- workflow-automation
+- automation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/keephq/keep/issues?q=label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 2
+  last-updated: '2023-10-02T10:21:49Z'
+  fork-count: 70

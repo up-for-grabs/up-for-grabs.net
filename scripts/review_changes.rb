@@ -36,7 +36,7 @@ def get_validation_message(result)
 
   case result[:kind]
   when 'valid'
-    "#### `#{path}` :white_check_mark:\nNo problems found, everything should be good to merge!"
+    "#### `#{path}` :white_check_mark:\n#{result[:message]}"
   when 'validation'
     message = result[:validation_errors].map { |e| "> - #{e}" }.join "\n"
     "#### `#{path}` :x:\nI had some troubles parsing the project file, or there were fields that are missing that I need.\n\nHere's the details:\n#{message}"
@@ -111,11 +111,11 @@ def review_project(project)
 
   return { project:, kind: 'repository', message: repository_error } unless repository_error.nil?
 
-  label_error = label_check(project)
+  label_result = label_validation_message(project)
 
-  return { project:, kind: 'label', message: label_error } unless label_error.nil?
+  kind = label_result.key?(:reason) ? 'label' : 'valid'
 
-  { project:, kind: 'valid' }
+  { project:, kind:, message: label_result[:message] }
 end
 
 def repository_check(project)
@@ -140,33 +140,42 @@ def repository_check(project)
   nil
 end
 
-def label_check(project)
+def label_validation_message(project)
   result = GitHubRepositoryLabelActiveCheck.run(project)
 
   if result[:rate_limited]
     # logger.info 'This script is currently rate-limited by the GitHub API'
     # logger.info 'Marking as inconclusive to indicate that no further work will be done here'
-    return nil
+    return { reason: :rate_limited }
   end
 
   return "An error occurred while querying for the project label. Details: #{result[:error].inspect}" if result[:reason] == 'error'
 
   if result[:reason] == 'repository-missing'
-    return "I couldn't find the GitHub repository '#{project.github_owner_name_pair}' that was used in the `upforgrabs.link` value. " \
-           "Please confirm this is correct or hasn't been mis-typed."
+    return {
+      reason: :error,
+      message: "I couldn't find the GitHub repository '#{project.github_owner_name_pair}' that was used in the `upforgrabs.link` value. " \
+               "Please confirm this is correct or hasn't been mis-typed."
+    }
   end
 
   if result[:reason] == 'missing'
-    return "I couldn't find the label that was used in the `upforgrabs.link` value: '#{result[:name]}'. Please update the configuration to match the right label in this repository."
+    return {
+      reason: :error,
+      message: "I couldn't find the label that was used in the `upforgrabs.link` value: '#{result[:name]}'. Please update the configuration to match the right label in this repository."
+    }
   end
 
   yaml = project.read_yaml
   label = yaml['upforgrabs']['name']
 
   if result[:reason] == 'missing'
-    return "The `upforgrabs.name` value '#{label}' isn't in use on the project in GitHub. " \
-           'This might just be a mistake due because of copy-pasting the reference template or be mis-typed. ' \
-           "Please check the list of labels at https://github.com/#{project.github_owner_name_pair}/labels and update the project file to use the correct label."
+    return {
+      reason: :error,
+      message: "The `upforgrabs.name` value '#{label}' isn't in use on the project in GitHub. " \
+               'This might just be a mistake due because of copy-pasting the reference template or be mis-typed. ' \
+               "Please check the list of labels at https://github.com/#{project.github_owner_name_pair}/labels and update the project file to use the correct label."
+    }
   end
 
   link = yaml['upforgrabs']['link']
@@ -175,10 +184,32 @@ def label_check(project)
   link_needs_rewriting = link != url && link.include?('/labels/')
 
   if link_needs_rewriting
-    return "The label '#{label}' for GitHub repository '#{project.github_owner_name_pair}' does not match the specified `upforgrabs.link` value. Please update it to `#{url}`."
+    # TODO: can we turn this into a PR suggestion?
+    return {
+      reason: :error,
+      message: "The label '#{label}' for GitHub repository '#{project.github_owner_name_pair}' does not match the specified `upforgrabs.link` value. Please update it to `#{url}`."
+    }
   end
 
-  nil
+  if result[:reason] == 'found'
+    issue_count = result[:count]
+
+    if issue_count.zero?
+      return {
+        message: "A label named [#{result[:name]}](#{result[:url]}) has been found on GitHub but it doesn't contain any open issues. This won't be listed on the site when this is merged but is otherwise fine to proceed."
+      }
+    else
+      issue_with_suffix = issue_count == 1 ? 'issue' : 'issues'
+      return {
+        message: "A label named [#{result[:name]}](#{result[:url]}) has been found on GitHub and it currently has #{issue_count} #{issue_with_suffix} - this should be ready to merge!"
+      }
+    end
+  end
+
+  {
+    reason: :error,
+    message: 'Unexpected result found, please review the logs to see more information'
+  }
 end
 
 def valid_url?(url)
@@ -198,12 +229,35 @@ range = "#{base_sha}...#{head_sha}"
 if git_remote_url
   # fetching the fork repository so that our commits are in this repository
   # for processing and comparison with the base branch
-  run "git -C '#{dir}' remote add fork #{git_remote_url} -f"
+  remote_result = run "git -C '#{dir}' remote add fork #{git_remote_url} -f"
+
+  if remote_result[:exit_code] == 3
+    run "git -C '#{dir}' remote rm fork"
+    remote_result = run "git -C '#{dir}' remote add fork #{git_remote_url} -f"
+  end
+
+  unless remote_result[:exit_code].zero?
+    warn "A git error occurred while trying to add the remote #{git_remote_url}"
+    warn
+    warn "exit code: #{remote_result[:exit_code]}"
+    warn
+    warn "stderr: '#{remote_result[:stderr]}'"
+    warn
+    warn "stdout: '#{remote_result[:stdout]}'"
+    return
+  end
 end
 
 result = run "git -C '#{dir}' diff #{range} --name-only -- _data/projects/"
 unless result[:exit_code].zero?
-  puts 'A problem occurred when reading the git directory'
+  puts 'I was unable to perform the comparison due to a git error'
+  puts 'Check the workflow run to see more information about this error'
+
+  warn 'A git error occurred while trying to diff the two commits'
+  warn
+  warn "stderr: '#{result[:stderr]}'"
+  warn
+  warn "stdout: '#{result[:stdout]}'"
   return
 end
 

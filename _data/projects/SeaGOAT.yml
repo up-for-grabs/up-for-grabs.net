@@ -1,18 +1,23 @@
+---
 name: SeaGOAT
 desc: local-first semantic code search engine
 site: https://github.com/kantord/SeaGOAT
 tags:
-  - ai
-  - regular-expression
-  - embeddings
-  - code-search
-  - grep
-  - ripgrep
-  - code-search-engine
-  - grep-like
-  - vector-database
-  - vector-embeddings-llm
-  - python
+- ai
+- regular-expression
+- embeddings
+- code-search
+- grep
+- ripgrep
+- code-search-engine
+- grep-like
+- vector-database
+- vector-embeddings-llm
+- python
 upforgrabs:
   name: up for grabs
   link: https://github.com/kantord/SeaGOAT/labels/up%20for%20grabs
+stats:
+  issue-count: 3
+  last-updated: '2023-09-30T06:56:03Z'
+  fork-count: 33

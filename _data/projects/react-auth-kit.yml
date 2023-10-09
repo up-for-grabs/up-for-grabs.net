@@ -14,5 +14,6 @@ upforgrabs:
   name: up for grabs
   link: https://github.com/react-auth-kit/react-auth-kit/labels/up%20for%20grabs
 stats:
-  issue-count: 0
-  fork-count: 64
+  issue-count: 1
+  last-updated: '2023-10-06T09:41:40Z'
+  fork-count: 65

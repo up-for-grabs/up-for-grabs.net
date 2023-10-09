@@ -1,7 +1,7 @@
 ---
 name: roadmaps
 desc: Curated list of communities and job portals you can join and apply to.
-site: https://github.com/commclassroom/roadmaps
+site: https://github.com/WeMakeDevs/roadmaps
 tags:
 - backend
 - frontend
@@ -10,11 +10,11 @@ tags:
 - open-source
 - devrel
 - roadmaps
-- community-classroom
+- community
 upforgrabs:
   name: enhancement
   link: https://github.com/WeMakeDevs/roadmaps/labels/enhancement
 stats:
-  issue-count: 10
-  last-updated: '2023-09-21T21:21:39Z'
-  fork-count: 1126
+  issue-count: 11
+  last-updated: '2023-10-03T11:37:09Z'
+  fork-count: 1140

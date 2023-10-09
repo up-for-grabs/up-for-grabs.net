@@ -11,5 +11,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/bokeh/bokeh/labels/good%20first%20issue
 stats:
-  issue-count: 0
-  fork-count: 4140
+  issue-count: 1
+  last-updated: '2023-09-28T17:58:26Z'
+  fork-count: 4151

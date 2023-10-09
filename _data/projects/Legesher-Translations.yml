@@ -1,6 +1,6 @@
 ---
 name: Legesher Translations
-desc: Translation database for written languages used in programming languages💻.
+desc: "Translation database for written languages used in programming languages\U0001F4BB."
 site: https://github.com/legesher/legesher-translations
 tags:
 - html
@@ -15,4 +15,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/legesher/legesher-translations/labels/good%20first%20issue
-
+stats:
+  issue-count: 0
+  fork-count: 112

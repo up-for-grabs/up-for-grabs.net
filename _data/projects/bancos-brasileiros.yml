@@ -13,3 +13,7 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/guibranco/BancosBrasileiros/labels/help%20wanted
+stats:
+  issue-count: 9
+  last-updated: '2023-10-08T06:13:50Z'
+  fork-count: 149

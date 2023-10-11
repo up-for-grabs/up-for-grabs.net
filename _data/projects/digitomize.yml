@@ -1,0 +1,20 @@
+---
+name: Digitomize
+desc: >-
+  Platform that combines two main sections: Contests and User Profiles. It allows users to explore upcoming
+  coding contests and dynamically create developer portfolios.
+site: https://www.digitomize.com
+tags:
+- web
+- javascript
+- platform
+- contests
+- profile
+- portfolio
+upforgrabs:
+  name: good first issue
+  link: https://github.com/digitomize/digitomize/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2023-10-09T06:52:31Z'
+  fork-count: 37

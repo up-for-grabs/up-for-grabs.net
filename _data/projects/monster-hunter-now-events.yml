@@ -1,15 +1,20 @@
+---
 name: Monster Hunter Now Events
 desc: A javascript powered calendar subscription for events that Monster Hunter Now is running.
 site: https://github.com/seriouslysean/monster-hunter-now-events
 tags:
-  - calendar-ics
-  - chatgpt-api
-  - hacktoberfest
-  - ics
-  - javascript
-  - monster-hunter-now
-  - monster-hunter
-  - node.js
+- calendar-ics
+- chatgpt-api
+- hacktoberfest
+- ics
+- javascript
+- monster-hunter-now
+- monster-hunter
+- node.js
 upforgrabs:
   name: good first issue
   link: https://github.com/seriouslysean/monster-hunter-now-events/labels/good%20first%20issue
+stats:
+  issue-count: 8
+  last-updated: '2023-10-13T13:43:15Z'
+  fork-count: 4

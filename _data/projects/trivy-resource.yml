@@ -1,5 +1,6 @@
 name: trivy-resource
 desc: Trivy resource for concourse - Vulnerability scanning of container base image
+site: https://github.com/Comcast/trivy-resource/
 tags:
   - trivy-resource
   - trivy

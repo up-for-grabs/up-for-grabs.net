@@ -1,0 +1,13 @@
+name: Spotlight
+desc: Interactively explore unstructured datasets from your dataframe.
+site: https://github.com/Renumics/spotlight
+tags:
+  - hacktoberfest
+  - python
+  - machine-learning
+  - typescript
+  - javascript
+audio machine-learning video computer-vision timeseries images exploratory-data-analysis data-visualization hacktoberfest meshes data-curation unstructured-data data-centric-ai 
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Renumics/spotlight/labels/good%20first%20issue

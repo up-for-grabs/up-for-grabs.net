@@ -1,0 +1,15 @@
+name: Icy-Tower
+desc: An interactive Icy Tower Game built with Java Script, html, and CSS
+site: https://github.com/chavi362/Icy-Tower
+tags:
+  - tags
+ - development
+- javascript
+- game
+- html
+- CSS
+- 
+upforgrabs:
+  name: good first issue
+  link:https://github.com/chavi362/Icy-Tower
+   issue-count: 5

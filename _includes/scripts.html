@@ -62,6 +62,7 @@
     <% count= count+1%>
     <div class="data-box" class="<% if ( project.stats ) { %>counted<% } %>">
       <div>
+      <div>
         <div colspan="2" class="title">
            <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
         </div>
@@ -95,14 +96,17 @@
            <% if (project.desc) { %>
            <span class="desc"><%=project.desc%></span>
            <% } %>
-           <% if (project.tags) { %>
-           <p class="tags">
-               <% _.each(project.tags, function(tag, i) { %>
-                   <a href="#/filters?tags=<%-encodeURIComponent(tag)%>" tabindex="-1"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
-               <% }) %>
-           </p>
-           <% } %>
           </div>
+        </div>
+      </div>
+        <div class="details-tags">
+          <% if (project.tags) { %>
+            <p class="tags">
+                <% _.each(project.tags, function(tag, i) { %>
+                    <a href="#/filters?tags=<%-encodeURIComponent(tag)%>" tabindex="-1"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
+                <% }) %>
+              </p>
+              <% } %>
         </div>
       </div>
    <% }) %>

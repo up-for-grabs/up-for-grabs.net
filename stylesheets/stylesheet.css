@@ -782,6 +782,9 @@ form {
   padding: 10px;
   border: 1px solid var(--container-border);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .projects,

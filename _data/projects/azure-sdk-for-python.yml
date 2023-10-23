@@ -12,6 +12,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/Azure/azure-sdk-for-python/labels/help%20wanted
 stats:
-  issue-count: 8
+  issue-count: 7
   last-updated: '2023-09-19T22:24:10Z'
-  fork-count: 2538
+  fork-count: 2545

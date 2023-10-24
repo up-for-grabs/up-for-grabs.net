@@ -1,0 +1,12 @@
+name: django import export
+desc: A Django application and library for importing and exporting data from a variety of formats. Includes Django Admin site integration.
+site: https://github.com/django-import-export/django-import-export
+tags:
+  - django
+  - postgres
+  - mysql
+  - import
+  - export
+upforgrabs:
+  name: "good first time issue" 
+  link: https://github.com/django-import-export/django-import-export/labels/good%20first%20time%20issue

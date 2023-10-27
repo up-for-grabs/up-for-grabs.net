@@ -1,0 +1,13 @@
+name: DynaCache
+desc: Effortlessly cache function responses in DynamoDB for lightning-fast, efficient data retrieval
+site: https://pypi.org/project/DynaCache/
+tags:
+  - hacktoberfest
+  - python
+  - api
+  - aws
+  - dynamodb
+  - caching
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/KushagraIndurkhya/DynaCache/labels/hacktoberfest

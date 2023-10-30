@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 37b78a2cf27db68aec7a5df926db76a8fe7eeafa
+  revision: 09a31c0a126c64f21dae1985bbde9737d68c6d69
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -13,7 +13,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.1.0)
+    activesupport (7.1.1)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)

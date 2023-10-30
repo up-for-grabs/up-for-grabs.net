@@ -1,0 +1,11 @@
+name: LinksHub
+desc: LinksHub is a Hub of ready-to-use tech resouces.
+site: https://linkshub.dev
+tags:
+  - nextjs
+  - typescript
+  - tailwindcss
+  - open-source
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/rupali-codes/LinksHub/labels/up%20for%20grabs

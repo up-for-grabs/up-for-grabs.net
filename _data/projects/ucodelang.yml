@@ -1,0 +1,15 @@
+name: UCodeLang
+desc: A fast new programming language made for Game Engines.
+site: https://github.com/LostbBlizzard/UCodeLang
+tags:
+- gamedev
+- Library
+- compiler
+- runtime
+- language
+- gameengine
+- cpp
+upforgrabs:
+name: up for grabs
+link: https://github.com/LostbBlizzard/UCodeLang/issues
+

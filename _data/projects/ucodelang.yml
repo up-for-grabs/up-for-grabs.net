@@ -3,7 +3,7 @@ desc: A fast new programming language made for Game Engines.
 site: https://github.com/LostbBlizzard/UCodeLang
 tags:
 - gamedev
-- Library
+- library
 - compiler
 - runtime
 - language

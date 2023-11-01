@@ -2,7 +2,7 @@ name: Minimalist Task Tracker
 desc: A Minimalist Task Tracker
 site: https://minimalist-task-tracker.netlify.app
 tags:
-  - react
+  - reactjs
   - javascript
   - scss
   - task-tracker

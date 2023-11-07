@@ -10,6 +10,6 @@ upforgrabs:
   name: Easy
   link: https://github.com/canonical/lxd/labels/Easy
 stats:
-  issue-count: 16
+  issue-count: 15
   last-updated: '2023-10-27T12:35:02Z'
-  fork-count: 897
+  fork-count: 899

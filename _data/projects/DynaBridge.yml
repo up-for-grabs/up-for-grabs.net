@@ -1,14 +1,21 @@
+---
 name: DynaBridge
-desc: An elegant DynamoDB Object-Relational Mapping (ORM) library for Python, simplifying database interactions and data modeling.
+desc: >-
+  An elegant DynamoDB Object-Relational Mapping (ORM) library for Python, simplifying database interactions
+  and data modeling.
 site: https://pypi.org/project/DynaBridge/
 tags:
-  - hacktoberfest
-  - python
-  - api
-  - aws
-  - dynamodb
-  - orm
-  - cloud
+- hacktoberfest
+- python
+- api
+- aws
+- dynamodb
+- orm
+- cloud
 upforgrabs:
   name: hacktoberfest
   link: https://github.com/KushagraIndurkhya/DynaBridge/labels/hacktoberfest
+stats:
+  issue-count: 1
+  last-updated: '2023-10-27T19:47:22Z'
+  fork-count: 0

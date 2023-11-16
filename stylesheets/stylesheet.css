@@ -1014,13 +1014,9 @@ ul.popular-tags li {
 
 .fork-count-svg {
     align-self: center;
+    fill: var(--fork-svg-fill);
 }
 
-@media (prefers-color-scheme: dark) {
-  .fork-count-svg {
-    fill: #7C8590;
-  }
-}
 @media screen and (max-width : 670px) {
   #view-mode {
     position: fixed;

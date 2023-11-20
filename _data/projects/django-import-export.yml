@@ -11,8 +11,8 @@ tags:
 - import
 - export
 upforgrabs:
-  name: good first time issue
-  link: https://github.com/django-import-export/django-import-export/labels/good%20first%20time%20issue
+  name: good first issue
+  link: https://github.com/django-import-export/django-import-export/labels/good%20first%20issue
 stats:
   issue-count: 4
   last-updated: '2023-11-08T18:51:30Z'

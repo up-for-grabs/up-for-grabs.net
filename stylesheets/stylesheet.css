@@ -1014,6 +1014,7 @@ ul.popular-tags li {
 
 .fork-count-svg {
     align-self: center;
+    fill: var(--fork-svg-fill);
 }
 
 @media screen and (max-width : 670px) {

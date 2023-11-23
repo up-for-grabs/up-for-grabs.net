@@ -275,8 +275,25 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
     };
 
     this.getLabels = function () {
-      return _.sortBy(labelsMap, (entry) => entry.name.toLowerCase());
+      const labelsArray = Object.values(labelsMap);
+    
+      // Sort labels based on whether they start with a letter or not
+      const sortedLabels = labelsArray.sort((a, b) => {
+        const aIsLetter = /^[a-zA-Z]/.test(a.name);
+        const bIsLetter = /^[a-zA-Z]/.test(b.name);
+    
+        if (aIsLetter && !bIsLetter) {
+          return -1; // a comes first
+        } else if (!aIsLetter && bIsLetter) {
+          return 1; // b comes first
+        } else {
+          return a.name.localeCompare(b.name); // default alphabetical sorting
+        }
+      });
+    
+      return sortedLabels;
     };
+    
 
     this.getPopularTags = function (popularTagCount) {
       return _.take(_.values(tagsMap), popularTagCount || 10);

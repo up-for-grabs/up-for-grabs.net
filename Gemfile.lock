@@ -1,19 +1,19 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: a479dffbb069b5dbc5b0dbe6e3e0e45f44ca36e3
+  revision: 89fed42d9f4570b3f5cd5b0ffbc5879ff18c9a2e
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
       graphql (~> 2.0.27)
       graphql-client (~> 0.18)
       json_schemer (>= 0.2, < 3.0)
-      octokit (>= 5.6, < 8.0)
+      octokit (>= 5.6, < 9.0)
       safe_yaml (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.1.1)
+    activesupport (7.1.2)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
@@ -26,18 +26,18 @@ GEM
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
-    base64 (0.1.1)
+    base64 (0.2.0)
     bigdecimal (3.1.4)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
-    drb (2.1.1)
+    drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.7.11)
+    faraday (2.7.12)
       base64
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
@@ -89,7 +89,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     minitest (5.20.0)
-    mutex_m (0.1.2)
+    mutex_m (0.2.0)
     octokit (7.2.0)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
@@ -99,7 +99,7 @@ GEM
       racc
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (5.0.3)
+    public_suffix (5.0.4)
     racc (1.7.1)
     rainbow (3.1.1)
     rb-fsevent (0.11.2)

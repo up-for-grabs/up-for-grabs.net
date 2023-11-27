@@ -25,7 +25,7 @@
     "@babel/core": "^7.23.3",
     "@types/jest": "^29.5.10",
     "@types/node": "^20",
-    "@types/showdown": "^2.0.4",
+    "@types/showdown": "^2.0.6",
     "@types/underscore": "^1.11.15",
     "babel-jest": "^29.7.0",
     "eslint": "^8.54.0",

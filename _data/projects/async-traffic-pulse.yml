@@ -1,0 +1,12 @@
+name: Async Traffic Pulse
+desc: A Python package for simulating web traffic using asyncio. Tailored for rapid HTTP request generation and handling, it's ideal for server load testing and API response analysis.
+site: https://pypi.org/project/async-traffic-pulse/
+tags:
+  - python
+  - asyncio
+  - aiohttp
+  - pypi
+  - traffic-simulation
+upforgrabs:
+  name: Async Traffic Pulse
+  link: https://github.com/peter-w-bryant/Async-Traffic-Pulse

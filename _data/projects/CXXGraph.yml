@@ -1,0 +1,17 @@
+---
+name: CXXGraph
+desc: Header-Only C++ Library for Graph Representation and Algorithms
+site: https://github.com/ZigRazor/CXXGraph
+tags:
+- c++
+- graph
+- algorithm
+- c++17
+- partitioning
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ZigRazor/CXXGraph/labels/good%20first%20issue
+stats:
+  issue-count: 20
+  last-updated: '2023-09-27T07:22:28Z'
+  fork-count: 83

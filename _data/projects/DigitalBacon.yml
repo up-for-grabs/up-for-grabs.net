@@ -1,6 +1,6 @@
 name: Digital Bacon
 desc: Create 3D websites easily that run on AR, VR, Desktop, and Mobile devices with Digital Bacon. No coding required, but supports an API to create plugins for advanced customizations
-site: https://example.org/your-project-link-here
+site: https://github.com/kalegd/DigitalBacon
 tags:
   - javascript
   - cms

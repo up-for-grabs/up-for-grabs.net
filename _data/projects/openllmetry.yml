@@ -1,6 +1,6 @@
 name: OpenLLMetry
 desc: Open-source observability for LLMs, based on OpenTelemetry
-site: https://www.opentelemetry.com
+site: https://www.openllmetry.com
 tags:
   - monitoring
   - opentelemetry

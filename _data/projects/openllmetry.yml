@@ -1,0 +1,12 @@
+name: OpenLLMetry
+desc: Open-source observability for LLMs, based on OpenTelemetry
+site: https://www.openllmetry.com
+tags:
+  - monitoring
+  - opentelemetry
+  - python
+  - ml
+  - mlops
+upforgrabs:
+  name: help wanted
+  link: https://github.com/traceloop/openllmetry/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

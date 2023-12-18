@@ -1,0 +1,9 @@
+name: Battleships
+desc: Strategy type guessing game 
+site: http://ec2-3-142-134-11.us-east-2.compute.amazonaws.com:3000/
+tags:
+  - typescript
+  - board-game
+upforgrabs:
+  name: help wanted
+  link: https://github.com/np25071984/battleships/labels/help%20wanted

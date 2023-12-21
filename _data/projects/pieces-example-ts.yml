@@ -1,0 +1,12 @@
+name: Pieces Example TS
+desc: This is an example project of getting started with Pieces OS ts package.
+site: https://github.com/pieces-app/example-ts
+tags:
+  - good first issue
+  - bug
+  - documentation
+  - community review
+  - design
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/pieces-app/example-ts/issues?q=is%3Aopen+is%3Aissue+label%3A%22up+for+grabs%22

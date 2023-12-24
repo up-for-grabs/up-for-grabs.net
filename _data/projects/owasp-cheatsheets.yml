@@ -10,6 +10,6 @@ upforgrabs:
   name: HELP_WANTED
   link: https://github.com/OWASP/CheatSheetSeries/labels/HELP_WANTED
 stats:
-  issue-count: 27
-  last-updated: '2023-12-06T14:23:51Z'
-  fork-count: 3607
+  issue-count: 25
+  last-updated: '2023-12-20T10:02:02Z'
+  fork-count: 3616

@@ -23,4 +23,4 @@
 
 	// open the port from the jekyll server here
 	"forwardPorts": [ 4000 ],
-}
+}"ghcr.io/devcontainers/features/aws-cli:1": {}

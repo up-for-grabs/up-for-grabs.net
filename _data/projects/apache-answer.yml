@@ -2,13 +2,13 @@ name: Apache Answer
 desc: A Q&A platform software for teams and enterprises to launch community forum, knowledge base, and help center at ease. 
 site: https://github.com/apache/incubator-answer
 tags:
-  -react 
-  -go 
-  -golang 
-  -typescript 
-  -community 
-  -forum 
-  -apache
+  - react 
+  - go 
+  - golang 
+  - typescript 
+  - community 
+  - forum 
+  - apache
 upforgrabs:
   name: good first issue
   link: https://github.com/apache/incubator-answer/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

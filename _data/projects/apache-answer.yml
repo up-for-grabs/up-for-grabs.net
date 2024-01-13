@@ -2,9 +2,8 @@ name: Apache Answer
 desc: A Q&A platform software for teams and enterprises to launch community forum, knowledge base, and help center at ease. 
 site: https://github.com/apache/incubator-answer
 tags:
-  - react 
+  - reactjs
   - go 
-  - golang 
   - typescript 
   - community 
   - forum 

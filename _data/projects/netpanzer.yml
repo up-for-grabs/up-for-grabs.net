@@ -1,3 +1,4 @@
+---
 name: NetPanzer
 desc: Online multiplayer tactical warfare game designed for fast-action combat
 site: https://github.com/netpanzer
@@ -10,3 +11,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/netpanzer/netpanzer/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2024-01-13T05:45:25Z'
+  fork-count: 2

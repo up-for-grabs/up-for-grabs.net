@@ -1,0 +1,12 @@
+name: Beginners Make A List Practice
+desc: A project to help new GitHub users learn to create a list in markdown. Easy first contribution
+site: https://github.com/meilynbear/beginnersmakelistpractice
+tags:
+  - beginner-friendly
+  - help-wanted
+  - good-first-issue
+  - contributions-welcome
+  - community
+upforgrabs:
+  name: easy
+  link: https://github.com/meilynbear/beginnersmakelistpractice/labels/easy

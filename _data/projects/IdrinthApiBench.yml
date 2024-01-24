@@ -1,4 +1,4 @@
-name: @idrinth/api-bench
+name: "@idrinth/api-bench"
 desc: "This repository contains an api testing tool, it's documentation website and their test suites"
 site: https://idrinth-api-ben.ch/
 tags:

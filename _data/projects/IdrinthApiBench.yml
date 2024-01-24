@@ -1,5 +1,5 @@
 name: "@idrinth/api-bench"
-desc: "This repository contains an api testing tool, it's documentation website and their test suites"
+desc: "This repository contains an api testing tool, it's documentation website and their test suites. Contributing is made easier by documented tooling and well maintained, automated checks as well as checklists for pull requests and templates for issues."
 site: https://idrinth-api-ben.ch/
 tags:
 - typescript

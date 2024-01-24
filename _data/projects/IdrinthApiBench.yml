@@ -3,12 +3,12 @@ desc: "This repository contains an api testing tool, it's documentation website 
 site: https://idrinth-api-ben.ch/
 tags:
 - typescript
-- react
+- reactjs
 - benchmark
 - rest
 - api
 - testing
-- nodejs
+- node.js
 - metrics
 - web
 - multilingual

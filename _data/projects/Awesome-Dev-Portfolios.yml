@@ -2,7 +2,7 @@ name: Awesome-Dev-Portfolios
 desc: This repo helps developers who wants to build portfolio by taking inspiration from already deployed Portfolios. For those who already built, Showcase your Awesome Portfolio to the world.
 site: https://awesome-dev-portfolios.vercel.app
 tags:
-  - react
+  - reactjs
   - tailwindcss
   - portfolio-website
   - developer-portfolio

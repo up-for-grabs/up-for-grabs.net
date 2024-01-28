@@ -1010,13 +1010,52 @@ ul.popular-tags li {
     display: flex;
     margin-top: 10px;
     height: max-content;
+    position: relative;
+    cursor: pointer;
 }
 
 .fork-count-svg {
     align-self: center;
     fill: var(--fork-svg-fill);
 }
-
+.fork-count::after{
+  content: "Forks";
+  z-index: -1;
+  position: absolute;
+  color:white;
+  font-size: 0.6rem;
+  background-color: #2E7BA9;
+  top:-30px;
+  left: calc(50% - 36.28px / 2);
+  padding:1px 6px;
+  border-radius: 4px;
+  transition: 150ms;
+  transform: scale(0);
+}
+.fork-count::before{
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #2E7BA9;
+  top: -8px;
+  left: calc(50% - 10px);
+  transition: 150ms;
+  transform: translateY(-10px);
+  opacity: 0;
+}
+.fork-count:hover::after {
+  z-index: 1;
+  transform: scale(1);
+}
+.fork-count:hover::before{
+  z-index: 1;
+  transform: translateY(0px);
+  opacity: 1;
+}
 @media screen and (max-width : 670px) {
   #view-mode {
     position: fixed;

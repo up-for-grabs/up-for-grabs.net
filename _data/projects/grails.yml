@@ -10,6 +10,5 @@ upforgrabs:
   name: 'info: up for grabs'
   link: https://github.com/grails/grails-core/labels/info%3A%20up%20for%20grabs
 stats:
-  issue-count: 1
-  last-updated: '2023-12-27T13:21:40Z'
-  fork-count: 960
+  issue-count: 0
+  fork-count: 961

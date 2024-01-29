@@ -1,0 +1,19 @@
+---
+name: Back In Time
+desc: An an easy-to-use backup tool for GNU Linux using rsync in the back.
+site: https://github.com/bit-team/backintime
+tags:
+- python
+- backup
+- qt
+- pyqt
+- rsync
+- testing
+- unittest
+upforgrabs:
+  name: GOOD FIRST ISSUE
+  link: https://github.com/bit-team/backintime/labels/GOOD%20FIRST%20ISSUE
+stats:
+  issue-count: 25
+  last-updated: '2024-01-26T10:44:24Z'
+  fork-count: 143

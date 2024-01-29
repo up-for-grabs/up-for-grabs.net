@@ -1,0 +1,12 @@
+name: A Soldiers To Do List
+desc: Simple web to do list with Js onclick functions
+site: https://codepen.io/Chardpeter10/pen/VwEpMrW
+tags:
+  - Javascript
+  - ToDoList
+  - Codepen
+  - Organise
+  - FirstTimeProject
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/username/project/labels/up%20for%20grabs

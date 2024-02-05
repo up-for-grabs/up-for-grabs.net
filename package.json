@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
-    "@types/jest": "^29.5.11",
+    "@types/jest": "^29.5.12",
     "@types/node": "^20",
     "@types/showdown": "^2.0.6",
     "@types/underscore": "^1.11.15",

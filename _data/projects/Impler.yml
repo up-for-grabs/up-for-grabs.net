@@ -10,6 +10,7 @@ tags:
 - pnpm
 - monorepo
 - mongodb
+- nextjs
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/implerhq/impler.io/labels/up-for-grabs

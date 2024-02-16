@@ -1,0 +1,15 @@
+name: Impler
+desc: "100% open source data import infrastructure with readymade CSV & Excel import widget 🚀"
+site: https://impler.io/
+tags:
+- typescript
+- reactjs
+- nestjs
+- javascript
+- node.js
+- pnpm
+- monorepo
+- mongodb
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/implerhq/impler.io/labels/up-for-grabs

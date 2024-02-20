@@ -1,0 +1,14 @@
+name: Go Chi OTEL
+desc: A tool to instrument go/chi router using opentelemetry. 
+site: https://github.com/thegeekyasian/go-chi-otel
+tags:
+  - go
+  - golang
+  - instrumentation
+  - tracing
+  - opentelemetry
+  - otel
+  - go-chi
+upforgrabs:
+  name: enhancements
+  link: https://github.com/thegeekyasian/go-chi-otel/labels/enhancement

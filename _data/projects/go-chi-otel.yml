@@ -3,7 +3,7 @@ desc: A tool to instrument go/chi router using opentelemetry.
 site: https://github.com/thegeekyasian/go-chi-otel
 tags:
   - go
-  - golang
+  - go-lang
   - instrumentation
   - tracing
   - opentelemetry

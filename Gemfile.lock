@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 29866ff04b7379efb712bcfa389b13a15e176f51
+  revision: 630a20d0a143f6a458adcf0408ad02f21d7d2469
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -87,7 +87,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    minitest (5.21.2)
+    minitest (5.22.2)
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri

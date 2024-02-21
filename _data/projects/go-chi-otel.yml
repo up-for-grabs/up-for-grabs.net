@@ -10,5 +10,5 @@ tags:
   - otel
   - go-chi
 upforgrabs:
-  name: enhancements
+  name: enhancement
   link: https://github.com/thegeekyasian/go-chi-otel/labels/enhancement

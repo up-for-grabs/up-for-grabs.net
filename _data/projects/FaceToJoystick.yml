@@ -2,16 +2,16 @@ name: FaceToJoystick
 desc: Mapping your head as a input to a virtual joystick for games
 site: https://github.com/PeaceNira/FaceToJoystick
 tags:
-  - python
-  - tracking
-  - opencv
-  - code
-  - gaming
-  - machine-learning
-  - image-processing
-  - tkinter
-  - algorithms
-  - math
+- python
+- tracking
+- opencv
+- code
+- gaming
+- machine-learning
+- image-processing
+- tkinter
+- algorithms
+- math
 upforgrabs:
   name: up for grabs
   link: https://github.com/PeaceNira/FaceToJoystick

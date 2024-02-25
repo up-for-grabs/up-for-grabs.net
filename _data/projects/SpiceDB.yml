@@ -1,0 +1,11 @@
+name: SpiceDB
+desc: SpiceDB is a graph database purpose-built for storing and evaluating access control data.
+site: https://github.com/authzed/spicedb
+tags:
+  - database
+  - authorization
+  - permissions
+  - go
+upforgrabs:
+  name: "hint/good first issue"
+  link: https://github.com/authzed/spicedb/labels/hint%2Fgood%20first%20issue

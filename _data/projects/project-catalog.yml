@@ -2,7 +2,9 @@ name: Project Catalog
 desc: Project-catalog is a web app created using next js. A place where university students can upload thier project info , images , markdown file and other users may search for projects as a reference.
 site: https://nextjs-project-manager-phi.vercel.app
 tags:
-  nextjs , mantine-ui , google analytics 4, 
+   - nextjs
+   - mantine-ui
+   - google-analytics
 upforgrabs:
   name: Project Catalog
   link: https://nextjs-project-manager-phi.vercel.app

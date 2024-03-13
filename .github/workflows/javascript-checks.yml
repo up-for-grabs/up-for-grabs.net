@@ -6,6 +6,7 @@ on:
       - ${{ github.event.repository.default_branch }}
 
 jobs:
+  cache: {}
   lint-and-test:
     name: Linting and Testing
     runs-on: ubuntu-latest

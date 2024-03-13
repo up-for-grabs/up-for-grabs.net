@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout Pull Request
-        uses: actions/jest
+        uses: stefanoeb/jest-action@1.0.3
         with:
           ref: ${{ github.event.pull_request.head.ref }}
 

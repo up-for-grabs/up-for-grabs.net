@@ -1,13 +1,13 @@
 ---
 name: ayosh
-desc: php mvc project 
-site: https://github.com/raulvillares/3sacrowd
+desc: php mvc project
+site: https://github.com/mohmmadAyesh/tc-php-mvc-core
 tags:
-- javascript
+  - javascript
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/mohmmadAyesh/tc-php-mvc-core/labels/up-for-grabs
 stats:
   issue-count: 2
-  last-updated: '2024-03-13T12:04:34'
+  last-updated: '2024-03-13T05:39:00Z'
   fork-count: 4515

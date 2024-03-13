@@ -106,6 +106,7 @@ GEM
     public_suffix (5.0.4)
     racc (1.7.3)
     rainbow (3.1.1)
+    rake (13.0.6)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -159,6 +160,7 @@ DEPENDENCIES
   jekyll
   json_schemer
   octokit
+  rake
   rubocop
   safe_yaml
   up_for_grabs_tooling!

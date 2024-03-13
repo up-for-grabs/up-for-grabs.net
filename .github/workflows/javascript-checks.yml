@@ -5,7 +5,6 @@ on:
     branches:
       - ${{ github.event.repository.default_branch }}
 
-cache: {}
 jobs:
   lint-and-test:
     name: Linting and Testing

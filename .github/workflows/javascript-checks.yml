@@ -3,7 +3,7 @@ name: JavaScript Checks
 on:
   pull_request:
     branches:
-      - main # Adjust the branch name as needed
+      - add-contributor-ayosh # Adjust the branch name as needed
 
 jobs:
   lint-and-test:

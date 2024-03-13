@@ -13,7 +13,7 @@ gem 'safe_yaml'
 gem 'graphql-client'
 gem 'graphql', '~> 2.0.27'
 gem 'up_for_grabs_tooling', :github => 'up-for-grabs/tooling', :branch => 'main'
-
+gem 'rake'
 gem 'rubocop', require: false
 
 if Gem.win_platform?

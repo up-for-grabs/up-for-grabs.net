@@ -12,7 +12,7 @@ gem 'octokit'
 gem 'safe_yaml'
 gem 'graphql-client'
 gem 'graphql', '~> 2.0.27'
-
+gem 'raka'
 gem 'up_for_grabs_tooling', :github => 'up-for-grabs/tooling', :branch => 'main'
 
 gem 'rubocop', require: false

@@ -43,7 +43,7 @@ GEM
       net-http
     ffi (1.16.3)
     forwardable-extended (2.6.0)
-    google-protobuf (3.25.1-x86_64-linux)
+    google-protobuf (3.25.1)
     graphql (2.0.27)
     graphql-client (0.18.0)
       activesupport (>= 3.0)
@@ -106,6 +106,9 @@ GEM
     public_suffix (5.0.4)
     racc (1.7.3)
     rainbow (3.1.1)
+    raka (0.3.18)
+      rake (~> 13.0.0)
+    rake (13.0.6)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -128,6 +131,8 @@ GEM
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
+    sass-embedded (1.69.6-x64-mingw-ucrt)
+      google-protobuf (~> 3.25)
     sass-embedded (1.69.6-x86_64-linux-gnu)
       google-protobuf (~> 3.25)
     sawyer (0.9.2)
@@ -144,9 +149,11 @@ GEM
     unf_ext (0.0.9.1)
     unicode-display_width (2.5.0)
     uri (0.13.0)
+    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
+  x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES
@@ -155,9 +162,11 @@ DEPENDENCIES
   jekyll
   json_schemer
   octokit
+  raka
   rubocop
   safe_yaml
   up_for_grabs_tooling!
+  wdm (>= 0.1.0)
   webrick
 
 RUBY VERSION

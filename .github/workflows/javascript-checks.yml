@@ -3,12 +3,14 @@ name: JavaScript Checks
 on:
   pull_request:
     branches:
-      - add-contributor-ayosh # Adjust the branch name as needed
+      - ${{ github.event.repository.default_branch }}
 
 jobs:
   lint-and-test:
     name: Linting and Testing
     runs-on: ubuntu-latest
+
+    if: github.event_name == 'pull_request'
 
     steps:
       - name: Checkout Pull Request
@@ -25,5 +27,3 @@ jobs:
       - name: Run Tests
         run: npm test # Adjust the command to run your tests
 
-
-      # You can add more steps as needed, such as building assets, deploying, etc.

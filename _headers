@@ -1,2 +1,3 @@
-X-Frame-Options: DENY
-Content-Security-Policy: default-src 'self'
+# Example header rule
+/path/to/page.html
+  X-Frame-Options: DENY

@@ -2,15 +2,15 @@ name: Taskorial
 desc: A web application to keep track of your tasks with more features coming soon
 site: https://taskorial.com/
 tags:
-  - react
-  - nodejs
+  - reactjs
+  - node.js
   - javascript
   - typescript
   - mongodb
   - jetbrains
   - monorepo
   - mern
-  - collaborate
+  - collaboration
   - task-management
   - mongodb-atlas
   - deepsource

@@ -27,7 +27,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     base64 (0.2.0)
-    bigdecimal (3.1.6)
+    bigdecimal (3.1.7)
     colorator (1.1.0)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
@@ -73,7 +73,7 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.7.1)
-    json_schemer (2.2.0)
+    json_schemer (2.2.1)
       base64
       bigdecimal
       hana (~> 1.3)

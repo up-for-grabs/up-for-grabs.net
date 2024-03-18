@@ -72,7 +72,7 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.7.1)
-    json_schemer (2.2.0)
+    json_schemer (2.2.1)
       base64
       bigdecimal
       hana (~> 1.3)

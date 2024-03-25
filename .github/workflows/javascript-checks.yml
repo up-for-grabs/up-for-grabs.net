@@ -1,0 +1,29 @@
+name: JavaScript Checks
+
+on:
+  pull_request:
+    branches:
+      - ${{ github.event.repository.default_branch }}
+
+jobs:
+  lint-and-test:
+    name: Linting and Testing
+    runs-on: ubuntu-latest
+
+    if: github.event_name == 'pull_request'
+
+    steps:
+      - name: Checkout Pull Request
+        uses: stefanoeb/jest-action@1.0.3
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Install Dependencies
+        run: npm install # Assuming you're using npm for managing dependencies
+
+      - name: Run Linter
+        run: npm run lint # Adjust the command to run your linter
+
+      - name: Run Tests
+        run: npm test # Adjust the command to run your tests
+

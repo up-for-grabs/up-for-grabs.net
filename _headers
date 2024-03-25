@@ -1,0 +1,3 @@
+# Example header rule
+/path/to/page.html
+  X-Frame-Options: DENY

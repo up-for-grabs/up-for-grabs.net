@@ -1,7 +1,7 @@
 ---
 name: Boa
 desc: Javascript Engine written in Rust
-site: https://github.com/jasonwilliams/boa
+site: https://github.com/boa-dev/boa
 tags:
 - rust
 - oss

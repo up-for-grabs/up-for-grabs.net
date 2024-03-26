@@ -785,6 +785,12 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: transform ease 0.2s;
+}
+
+.data-box:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
 }
 
 .projects,
@@ -1001,20 +1007,20 @@ ul.popular-tags li {
 }
 
 .projects .stats {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .fork-count {
-    display: flex;
-    margin-top: 10px;
-    height: max-content;
+  display: flex;
+  margin-top: 10px;
+  height: max-content;
 }
 
 .fork-count-svg {
-    align-self: center;
-    fill: var(--fork-svg-fill);
+  align-self: center;
+  fill: var(--fork-svg-fill);
 }
 
 @media screen and (max-width : 670px) {

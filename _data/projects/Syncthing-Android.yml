@@ -10,7 +10,6 @@ tags:
 - android
 - sync
 - mobile
-- go
 upforgrabs:
   name: easy
   link: https://github.com/syncthing/syncthing-android/labels/easy

@@ -1,0 +1,13 @@
+---
+name: landing-template
+desc: "Impress your visitors with a captivating landing page built using the latest web technologies. Our cutting-edge template combines the power of Nuxt.js, Vue.js, TypeScript, Tailwind CSS, and AOS (Animate On Scroll) library to create a visually stunning and highly interactive user experience."
+site: https://landinginnuxtfree.netlify.app/
+tags:
+- landing
+- web
+- vue
+- javascript
+- template
+upforgrabs:
+  name: landing template
+  link: https://github.com/hakimov-dev/landing-template

@@ -1,0 +1,17 @@
+---
+name: nefa-react
+desc: 'The NEFA Landing Template is a modern and sleek landing page template created using a combination of React, TypeScript, and Aos (Animate on Scroll) library. It offers a visually appealing and interactive design that is perfect for showcasing products, services, or any other promotional content.'
+site: https://hakimovdev.gumroad.com/l/epaty
+tags:
+- development
+- javascript
+- react
+- template
+- code
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/hakimov-dev/nefa-react
+stats:
+  issue-count: 0
+  last-updated: '2023-07-09'
+  fork-count: 3

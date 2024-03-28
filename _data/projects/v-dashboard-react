@@ -1,0 +1,12 @@
+---
+name: v-dashboard-react
+desc: "Dashboard starter template built with React and Tailwind CSS."
+site: https://v-dashboard-react.netlify.app/
+tags:
+- dashboard
+- web
+- react
+- javascript
+upforgrabs:
+  name: Dashboard template
+  link: https://github.com/hakimov-dev/v-dashboard-react

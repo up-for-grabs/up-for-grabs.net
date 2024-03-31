@@ -4,7 +4,7 @@ site: https://github.com/gudarzi/SaveHere
 tags:
   - c#
   - ".net"
-  - react
+  - reactjs
   - docker
   - nginx
   - self-hosted

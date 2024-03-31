@@ -1,0 +1,13 @@
+name: SaveHere
+desc: A Minimal Cloud File Manager
+site: https://github.com/gudarzi/SaveHere
+tags:
+  - c#
+  - ".net"
+  - react
+  - docker
+  - nginx
+  - self-hosted
+upforgrabs:
+  name: contribute
+  link: https://github.com/gudarzi/SaveHere?tab=readme-ov-file#how-to-contribute

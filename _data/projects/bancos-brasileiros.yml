@@ -1,0 +1,19 @@
+---
+name: Bancos Brasileiros
+desc: Brazilian commercial banks list
+site: https://github.com/guibranco/bancosbrasileiros
+tags:
+- ".net"
+- c#
+- awesome-list
+- awesome
+- banks
+- commercial-banks
+- banks-of-brazil
+upforgrabs:
+  name: help wanted
+  link: https://github.com/guibranco/BancosBrasileiros/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2024-03-04T09:28:25Z'
+  fork-count: 157

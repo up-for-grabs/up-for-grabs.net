@@ -11,6 +11,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/academico-sis/academico/labels/up-for-grabs
 stats:
-  issue-count: 10
-  last-updated: '2023-08-06T16:22:53Z'
-  fork-count: 98
+  issue-count: 0
+  fork-count: 104

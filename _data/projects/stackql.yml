@@ -1,0 +1,16 @@
+---
+name: StackQL
+desc: Query, provision and manage cloud, SaaS and identity resources using SQL.
+site: https://github.com/stackql/stackql
+tags:
+- sql
+- openapi3
+- go
+- python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/stackql/stackql/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+stats:
+  issue-count: 72
+  last-updated: '2023-12-30T16:38:55Z'
+  fork-count: 31

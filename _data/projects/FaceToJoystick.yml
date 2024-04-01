@@ -1,0 +1,22 @@
+---
+name: FaceToJoystick
+desc: Mapping your head as a input to a virtual joystick for games
+site: https://github.com/PeaceNira/FaceToJoystick
+tags:
+- python
+- tracking
+- opencv
+- code
+- gaming
+- machine-learning
+- image-processing
+- tkinter
+- algorithm
+- math
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/PeaceNira/FaceToJoystick/labels/up%20for%20grabs
+stats:
+  issue-count: 2
+  last-updated: '2024-02-21T17:16:50Z'
+  fork-count: 2

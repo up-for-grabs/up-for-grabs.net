@@ -11,8 +11,8 @@ tags:
 - jvm
 upforgrabs:
   name: exp:novice
-  link: https://github.com/lampepfl/dotty/labels/exp%3Anovice
+  link: https://github.com/scala/scala3/labels/exp%3Anovice
 stats:
   issue-count: 1
-  last-updated: '2022-08-16T15:49:24Z'
-  fork-count: 976
+  last-updated: '2024-01-30T16:10:41Z'
+  fork-count: 998

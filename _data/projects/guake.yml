@@ -1,0 +1,15 @@
+---
+name: Guake
+desc: The Guake drop-down terminal
+site: https://github.com/Guake/guake
+tags:
+- terminal
+- developer-tools
+- desktop-linux
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Guake/guake/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+stats:
+  issue-count: 14
+  last-updated: '2024-01-07T19:13:21Z'
+  fork-count: 572

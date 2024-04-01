@@ -11,8 +11,8 @@ tags:
 - github
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/nikohoffren/fork-commit-merge/labels/up-for-grabs
+  link: https://github.com/fork-commit-merge/fork-commit-merge/labels/up-for-grabs
 stats:
-  issue-count: 53
-  last-updated: '2023-09-25T14:14:37Z'
-  fork-count: 285
+  issue-count: 133
+  last-updated: '2024-02-22T09:38:21Z'
+  fork-count: 731

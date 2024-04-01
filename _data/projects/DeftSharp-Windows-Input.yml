@@ -1,0 +1,17 @@
+name: DeftSharp.Windows.Input
+desc: A simple keyboard/mouse event handler for Windows UI applications (WPF, MAUI, Avalonia)
+site: https://github.com/Empiree/DeftSharp.Windows.Input
+tags:
+  - c#
+  - .net
+  - .net-core
+  - wpf
+  - maui
+  - avalonia
+  - winapi
+  - windows
+  - ui
+  - input
+upforgrabs:
+  name: "good first issue"
+  link: https://github.com/Empiree/DeftSharp.Windows.Input/labels/good%20first%20issue

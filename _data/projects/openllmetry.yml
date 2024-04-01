@@ -12,6 +12,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/traceloop/openllmetry/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
 stats:
-  issue-count: 7
-  last-updated: '2024-02-26T08:28:40Z'
-  fork-count: 55
+  issue-count: 10
+  last-updated: '2024-03-21T16:55:47Z'
+  fork-count: 68

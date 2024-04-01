@@ -12,6 +12,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/Azure/azure-sdk-for-java/labels/help%20wanted
 stats:
-  issue-count: 13
-  last-updated: '2023-10-19T09:56:19Z'
-  fork-count: 1853
+  issue-count: 0
+  fork-count: 1866

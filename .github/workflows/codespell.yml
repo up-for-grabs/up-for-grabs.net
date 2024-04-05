@@ -1,0 +1,17 @@
+name: Codespell Check
+
+on:
+  pull_request:
+    branches:
+      - gh-pages
+
+jobs:
+  codespell:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install codespell
+        run: pip install codespell
+      - name: Run codespell
+        run: codespell

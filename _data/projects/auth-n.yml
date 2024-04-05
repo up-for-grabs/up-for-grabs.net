@@ -1,0 +1,35 @@
+name: Auth-N | Unlocking Security
+desc: Empower Your Security Journey with Auth-N - A Comprehensive Authentication Solution
+site: https://auth-n.nekonik.com
+tags:
+  - Authentication
+  - Security
+  - Innovation
+  - Cybersecurity
+  - Identity Management
+  - Access Control
+  - Multi-factor Authentication
+  - RBAC
+  - Password Policies
+  - JWT Token
+  - API Key Authentication
+  - Documentation
+  - Open Source
+  - Docker
+  - User Management
+  - Audit Logging
+  - Integration
+  - Digital Transformation
+  - Best Practices
+  - User-Centric Design
+  - Data Protection
+  - Continuous Improvement
+  - Community Engagement
+  - Feedback
+  - Self-Service
+  - Role-Based Access Control
+  - CSRF Protection
+  - Two-Factor Authentication
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Neko-Nik/Auth-N/labels/help%20wanted

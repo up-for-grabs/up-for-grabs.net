@@ -1,5 +1,5 @@
 name: Glasskube
-desc: An OSS package manager for Kubernetes made up of the following components: package controller, CLI and GUI as well as the docs.
+desc: An OSS package manager for Kubernetes made up of the following components, package controller, CLI and GUI as well as the docs.
 site: https://glasskube.dev/
 tags:
   - kubernetes

@@ -3,9 +3,8 @@ desc: The next-generation project management platform
 site: https://github.com/opcotech/elemo
 tags:
   - go
-  - golang
   - typescript
-  - react
+  - reactjs
   - issue-tracker
   - project-management
   - web

@@ -1,0 +1,21 @@
+name: zelthy3
+desc: Python web framework for building enterprise-ready apps. Higher level framework (built on top of Django), strives to handle all components of application logics that are needed for enterprise readiness at the framework level.
+site: https://www.zelthy.com/framework
+tags:
+  - python 
+  - django 
+  - framework 
+  - web-framework 
+  - crud-application 
+  - enterprise-ready 
+  - python-web-development 
+  - multi-tenant-applications 
+  - crm-platform
+  - crud-app
+  - enterprise-apps 
+  - python-web-framework 
+  - business-application-platform 
+  - low-code-no-code
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Healthlane-Technologies/zelthy3/labels/good%20first%20issue

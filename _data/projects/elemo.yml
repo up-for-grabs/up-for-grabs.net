@@ -1,0 +1,15 @@
+name: elemo
+desc: The next-generation project management platform
+site: https://github.com/opcotech/elemo
+tags:
+  - go
+  - typescript
+  - reactjs
+  - issue-tracker
+  - project-management
+  - web
+  - backend
+  - front-end
+upforgrabs:
+  name: good first issue
+  link: https://github.com/opcotech/elemo/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

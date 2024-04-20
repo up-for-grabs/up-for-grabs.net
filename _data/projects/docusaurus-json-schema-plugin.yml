@@ -1,0 +1,10 @@
+name: Docusaurus JSON Schema Plugin
+desc: JSON Schema plugin viewer in Docusaurus
+site: https://jy95.github.io/docusaurus-json-schema-plugin/
+tags:
+  - JSON
+  - schema
+  - Docusaurus
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/jy95/docusaurus-json-schema-plugin/discussions/categories/ideas

@@ -787,6 +787,13 @@ form {
   justify-content: space-between;
 }
 
+.data-box:hover {
+  box-shadow: 0px 10px 15px var(--box-shadow-color);
+  transition: 0.4s ease-out;
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
 .projects,
 .projects td {
   border: 0 none;
@@ -1001,20 +1008,20 @@ ul.popular-tags li {
 }
 
 .projects .stats {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .fork-count {
-    display: flex;
-    margin-top: 10px;
-    height: max-content;
+  display: flex;
+  margin-top: 10px;
+  height: max-content;
 }
 
 .fork-count-svg {
-    align-self: center;
-    fill: var(--fork-svg-fill);
+  align-self: center;
+  fill: var(--fork-svg-fill);
 }
 
 @media screen and (max-width : 670px) {

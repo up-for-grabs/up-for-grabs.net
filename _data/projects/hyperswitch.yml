@@ -17,7 +17,7 @@ upforgrabs:
     https://github.com/juspay/hyperswitch/issues?q=is%3Aopen+is%3Aissue+label%3Ahacktoberfest+no%3Aassignee
   name: "good first issue"
   link: >-
-    https://github.com/juspay/hyperswitch/issues?q=is%3Aissue+is%3Aopen+label%3Agood-first-issue
+    https://github.com/juspay/hyperswitch/issues/?q=is:open+is:issue+label:"good first issue"
 stats:
   issue-count: 27
   last-updated: '2024-04-02T07:46:07Z'

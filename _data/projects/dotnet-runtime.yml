@@ -9,6 +9,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/runtime/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 stats:
-  issue-count: 535
-  last-updated: '2024-05-14T14:01:12Z'
-  fork-count: 4449
+  issue-count: 534
+  last-updated: '2024-05-15T14:01:12Z'
+  fork-count: 4450

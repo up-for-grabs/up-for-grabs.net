@@ -1,0 +1,13 @@
+name: nadocast-ui
+desc: An unofficial user interface for the Nadocast Project.
+site: https://nadocast-ui.robswc.me/
+tags:
+  - python
+  - dash-plotly
+  - dash
+  - plotly
+  - forecasting
+  - weather
+upforgrabs:
+  name: enhancement
+  link: https://github.com/robswc/nadocast-ui/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement

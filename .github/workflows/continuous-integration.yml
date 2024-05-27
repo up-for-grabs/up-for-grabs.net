@@ -35,7 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up Ruby 3.2
-        uses: ruby/setup-ruby@6615b4b8a02c78c4d711c06df4b8a20aa685a45d
+        uses: ruby/setup-ruby@943103cae7d3f1bb1e4951d5fcc7928b40e4b742
         with:
           ruby-version: '3.2'
       - name: Build and test Jekyll site

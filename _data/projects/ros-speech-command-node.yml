@@ -1,5 +1,5 @@
 name: tell_your_motor_speed 
-desc: A ros1 node that uses a tensorflow model to recognize speech commands and then send a signal to Arduino which uses PID control to apply a corresponding speed to a DC motor
+desc: A ros1 node that uses a tensorflow model to recognize speech commands and send to Arduino which uses PID control to apply speed to a motor
 site: https://github.com/Abdallah-Hesham99/tell_your_motor_speed
 tags:
   - pid control

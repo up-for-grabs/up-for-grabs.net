@@ -43,7 +43,7 @@ GEM
     ffi (1.16.3)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.1-x86_64-linux)
-    graphql (2.0.30)
+    graphql (2.0.31)
       base64
     graphql-client (0.18.0)
       activesupport (>= 3.0)
@@ -146,7 +146,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  graphql (~> 2.0.30)
+  graphql (~> 2.0.31)
   graphql-client
   jekyll
   json_schemer

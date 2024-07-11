@@ -29,7 +29,6 @@ export default [...compat.extends("prettier", "plugin:jest/recommended"), {
         "no-useless-escape": "off",
         "no-restricted-globals": "off",
         "no-use-before-define": "off",
-        "global-require": "off",
-        "import/no-amd": "off",
+        "global-require": "off"
     },
 }];

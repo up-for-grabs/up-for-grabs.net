@@ -7,7 +7,7 @@ desc: >-
 site: https://opentelemetry.io/
 tags:
 - oteps
-- enhancments
+- enhancements
 - proposals
 - trace
 - cloud

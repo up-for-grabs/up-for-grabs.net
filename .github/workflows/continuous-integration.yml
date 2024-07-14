@@ -52,4 +52,4 @@ jobs:
       - uses: codespell-project/actions-codespell@v2
         with:
           skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
-          ignore_words_list: gnerate
+          ignore_words_list: gnerate,allready,hass,noice

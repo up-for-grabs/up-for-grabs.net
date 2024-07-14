@@ -10,8 +10,8 @@ tags:
 - chatgpt
 upforgrabs:
   name: good first issue
-  link: https://github.com/embedchain/embedchain/labels/good%20first%20issue
+  link: https://github.com/mem0ai/mem0/labels/good%20first%20issue
 stats:
-  issue-count: 22
-  last-updated: '2024-04-18T12:48:39Z'
-  fork-count: 1043
+  issue-count: 20
+  last-updated: '2024-07-11T06:36:36Z'
+  fork-count: 1138

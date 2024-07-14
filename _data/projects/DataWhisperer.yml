@@ -1,0 +1,16 @@
+name: DataWhisperer
+desc: A website that can automate the generation of ML pipelines for a dataset, and also generate fundamental insights from it.
+site: https://datawhisperer-k0mplex.streamlit.app
+tags:
+- machine-learning
+- python
+- streamlit
+- data-preprocessing
+- insight-generation
+upforgrabs:
+  name: enhancement
+  link: https://github.com/K0MPLEXWorksTogether/DataWhisperer/issues?q=label%3Aenhancement
+stats:
+  issue-count: 1
+  last-updated: '2024-07-15T00:06:24Z'
+  fork-count: 0

@@ -1,6 +1,6 @@
 name: TQUIC
 desc: A high-performance, lightweight, and cross-platform QUIC library
-site: https://github.com/tencent/tquic
+site: https://github.com/Tencent/tquic
 tags:
   - quic
   - http3
@@ -10,4 +10,4 @@ tags:
   - cross-platform
 upforgrabs:
   name: good first issue
-  link: https://github.com/tencent/tquic/labels/good%20first%20issue
+  link: https://github.com/Tencent/tquic/labels/good%20first%20issue

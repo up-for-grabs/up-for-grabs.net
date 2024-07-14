@@ -19,5 +19,6 @@ upforgrabs:
   name: beginner friendly
   link: https://github.com/ifmeorg/ifme/labels/beginner%20friendly
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2024-07-13T05:11:27Z'
   fork-count: 730

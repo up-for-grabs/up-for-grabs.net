@@ -50,3 +50,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: codespell-project/actions-codespell@v2
+        with:
+          skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'

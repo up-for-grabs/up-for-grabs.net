@@ -12,7 +12,7 @@ tags:
 - mysql
 - oracle
 - sql-server
-- sqllite
+- sqlite
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/SQLProvider/labels/up-for-grabs

@@ -2,7 +2,7 @@ name: elioWay
 desc: Modular software libraries supporting an application design pattern based on Schema.org types.
 site: https://gitlab.com/elioway
 tags:
-  - javscript
+  - javascript
   - node.js
   - webdev
   - css

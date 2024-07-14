@@ -2,7 +2,7 @@
 name: FluentTc
 desc: >-
   Easy-to-use, readable and comprehensive library for consuming TeamCity REST API. Written using real
-  scenarios in mind, enables variuos range of queries and operation on TeamCity
+  scenarios in mind, enables various range of queries and operation on TeamCity
 site: https://github.com/QualiSystems/FluentTc
 tags:
 - teamcity

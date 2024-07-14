@@ -10,7 +10,7 @@ tags:
 - postgresql
 - sqlserver
 - oracle
-- sqllite
+- sqlite
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fluentmigrator/fluentmigrator/labels/up-for-grabs

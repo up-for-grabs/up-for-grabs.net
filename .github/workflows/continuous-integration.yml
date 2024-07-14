@@ -44,3 +44,9 @@ jobs:
           bundle exec rubocop
           bundle exec jekyll build
           bundle exec ruby scripts/validate_data_files.rb
+
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: codespell-project/actions-codespell@v2

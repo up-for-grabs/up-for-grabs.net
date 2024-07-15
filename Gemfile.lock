@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 34c77a17188a55af16a35cfbf305caa5306f923d
+  revision: da24555e58837bf588a64791d50e2818b82fd555
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -36,8 +36,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.9.2)
+    faraday (2.10.0)
       faraday-net_http (>= 2.0, < 3.2)
+      logger
     faraday-net_http (3.1.0)
       net-http
     ffi (1.16.3)
@@ -87,8 +88,9 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.6.0)
     mercenary (0.4.0)
-    minitest (5.24.0)
+    minitest (5.24.1)
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri

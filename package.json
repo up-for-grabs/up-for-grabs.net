@@ -22,7 +22,7 @@
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.7",
+    "@babel/core": "^7.24.8",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.6.0",
     "@types/jest": "^29.5.12",
@@ -37,7 +37,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-fetch-mock": "^3.0.3",
     "jest-localstorage-mock": "^2.4.26",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "promise-polyfill": "^8.3.0",
     "typescript": "^5.5.3",
     "underscore": "^1.13.6",

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 34c77a17188a55af16a35cfbf305caa5306f923d
+  revision: da24555e58837bf588a64791d50e2818b82fd555
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -36,8 +36,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.9.2)
+    faraday (2.10.0)
       faraday-net_http (>= 2.0, < 3.2)
+      logger
     faraday-net_http (3.1.0)
       net-http
     ffi (1.16.3)
@@ -45,9 +46,9 @@ GEM
     google-protobuf (3.25.1-x86_64-linux)
     graphql (2.0.31)
       base64
-    graphql-client (0.18.0)
+    graphql-client (0.23.0)
       activesupport (>= 3.0)
-      graphql
+      graphql (>= 1.13.0)
     hana (1.3.7)
     http_parser.rb (0.8.0)
     i18n (1.14.5)
@@ -87,16 +88,17 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.6.0)
     mercenary (0.4.0)
-    minitest (5.24.0)
+    minitest (5.24.1)
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
     octokit (9.1.0)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
-    parallel (1.24.0)
-    parser (3.3.2.0)
+    parallel (1.25.1)
+    parser (3.3.4.0)
       ast (~> 2.4.1)
       racc
     pathutil (0.16.2)
@@ -108,16 +110,16 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.9.2)
-    rexml (3.2.8)
-      strscan (>= 3.0.9)
+    rexml (3.3.1)
+      strscan
     rouge (4.2.0)
-    rubocop (1.64.1)
+    rubocop (1.65.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
-      regexp_parser (>= 1.8, < 3.0)
+      regexp_parser (>= 2.4, < 3.0)
       rexml (>= 3.2.5, < 4.0)
       rubocop-ast (>= 1.31.1, < 2.0)
       ruby-progressbar (~> 1.7)

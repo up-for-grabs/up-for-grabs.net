@@ -2,7 +2,7 @@
 name: QuickGraph
 desc: >-
   QuickGraph provides generic directed/undirected graph datastructures and algorithms for .NET. QuickGraph
-  comes with algorithms such as depth first seach, breath first search, A* search, shortest path, k-shortest
+  comes with algorithms such as depth first search, breath first search, A* search, shortest path, k-shortest
   path, maximum flow, minimum spanning tree, etc...
 site: https://github.com/YaccConstructor/QuickGraph
 tags:

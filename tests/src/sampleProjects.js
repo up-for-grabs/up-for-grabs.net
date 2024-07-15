@@ -1,7 +1,7 @@
 module.exports = [
   {
     name: 'Glimpse',
-    desc: 'Glimpse is a web debugging and diagnostics tool used to gain a better understanding of whats happening inside of your ASP.NET application.',
+    desc: "Glimpse is a web debugging and diagnostics tool used to gain a better understanding of what's happening inside of your ASP.NET application.",
     site: 'https://github.com/Glimpse/Glimpse',
     tags: [
       'ASP.NET',

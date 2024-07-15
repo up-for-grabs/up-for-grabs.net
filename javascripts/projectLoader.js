@@ -24,7 +24,6 @@ define(['showdown', 'whatwg-fetch', 'promise-polyfill'], (
         }));
       })
       .catch((error) => {
-        // eslint-disable-next-line no-console
         console.error('Unable to load project files', error);
         return [];
       });

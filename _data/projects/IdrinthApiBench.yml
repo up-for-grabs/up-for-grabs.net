@@ -1,5 +1,5 @@
 ---
-name: "@idrinth/api-bench"
+name: idrinth-api-bench
 desc: >-
   This repository contains an api testing tool, it's documentation website and their test suites. Contributing
   is made easier by documented tooling and well maintained, automated checks as well as checklists for
@@ -19,8 +19,8 @@ tags:
 - cli
 upforgrabs:
   name: good first issue
-  link: https://github.com/Idrinth/api-bench/labels/good%20first%20issue
+  link: https://github.com/idrinth-api-bench/issues/labels/good%20first%20issue
 stats:
-  issue-count: 40
-  last-updated: '2024-04-18T17:47:13Z'
-  fork-count: 41
+  issue-count: 69
+  last-updated: '2024-07-13T20:40:50Z'
+  fork-count: 50

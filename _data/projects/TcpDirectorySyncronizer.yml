@@ -1,6 +1,6 @@
 ---
 name: TcpDirectorySyncronizer
-desc: Syncronize files via TCP protocol.
+desc: Synchronize files via TCP protocol.
 site: https://github.com/Halozzee/TcpDirectorySyncronizer
 tags:
 - open-source

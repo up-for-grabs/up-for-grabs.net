@@ -12,11 +12,11 @@ tags:
 - mysql
 - oracle
 - sql-server
-- sqllite
+- sqlite
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/SQLProvider/labels/up-for-grabs
 stats:
-  issue-count: 4
-  last-updated: '2024-04-12T07:02:24Z'
+  issue-count: 3
+  last-updated: '2024-04-21T19:56:37Z'
   fork-count: 144

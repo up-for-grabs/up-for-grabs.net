@@ -1,0 +1,13 @@
+---
+name: FalkorDB
+desc: >-
+  A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. 
+  Our goal is to provide the best Knowledge Graph for LLM (GraphRAG). 
+site: https://github.com/falkordb/falkordb
+tags:
+- c
+- rust
+- database
+upforgrabs:
+  name: good first issue
+  link: https://github.com/falkordb/falkordb/labels/good%20first%20issue

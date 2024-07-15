@@ -218,7 +218,7 @@ define([
   /**
    * This function adds a button to scroll to top
    * after navigating through a certain screen length
-   * Also has corresponding fade-in and fade-out fetaure
+   * Also has corresponding fade-in and fade-out feature
    */
   $(window).scroll(() => {
     const height = $(window).scrollTop();
@@ -240,7 +240,7 @@ define([
    * This is a helper method that prepares the chosen labels/tags/names
    * For HTML and helps display the selected values of each
    * @params String text - The text given, indices or names. As long as it is a string
-   * @return Array - Returns an array of splitted values if given a text. Otherwise undefined
+   * @return Array - Returns an array of split values if given a text. Otherwise undefined
    */
   const prepareForHTML = function (text) {
     return text ? text.toLowerCase().split(',') : text;

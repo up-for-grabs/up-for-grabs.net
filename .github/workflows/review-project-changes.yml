@@ -16,7 +16,6 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@161cd54b698f1fb3ea539faab2e036d409550e3c
         with:
-          ruby-version: '3.2'
           bundler-cache: true
           cache-version: 0
 

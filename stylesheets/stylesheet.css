@@ -778,14 +778,21 @@ form {
 
 .data-box {
   background-color: var(--databox-bg);
-  box-shadow: 0px 5px 10px var(--box-shadow-color);
   padding: 10px;
   border: 1px solid var(--container-border);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition-property: box-shadow, scale;
+  transition-duration: 300ms, 300ms;
+  transition-timing-function: ease-in-out, ease;
+  transition-delay: 50ms, 0s;
 }
+
+.data-box:hover {
+  box-shadow: 0px 5px 10px var(--box-shadow-color);
+  scale: 1.05;
 
 .projects,
 .projects td {

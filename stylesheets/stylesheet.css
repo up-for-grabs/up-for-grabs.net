@@ -793,6 +793,7 @@ form {
 .data-box:hover {
   box-shadow: 0px 5px 10px var(--box-shadow-color);
   scale: 1.05;
+}
 
 .projects,
 .projects td {

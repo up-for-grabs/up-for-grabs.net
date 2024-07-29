@@ -26,7 +26,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.6.0",
     "@types/jest": "^29.5.12",
-    "@types/node": "^20",
+    "@types/node": "^22",
     "@types/showdown": "^2.0.6",
     "@types/underscore": "^1.11.15",
     "babel-jest": "^29.7.0",

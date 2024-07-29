@@ -9,7 +9,7 @@ tags:
 - llm
 - security-tools
 upforgrabs:
-  name: 'Status: Up for grabs'
+  name: up-for-grabs
   link: https://github.com/codeintegrity-ai/mutahunter/issues
 stats:
   issue-count: 3

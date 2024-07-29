@@ -1,0 +1,17 @@
+---
+name: Mutahunter.ai
+desc: Using LLM agents to find and fix vulnerabilities in codebases.
+site: https://github.com/codeintegrity-ai/mutahunter
+tags:
+- github
+- automation
+- ai
+- llm
+- security-tools
+upforgrabs:
+  name: 'Status: Up for grabs'
+  link: https://github.com/codeintegrity-ai/mutahunter/issues
+stats:
+  issue-count: 3
+  last-updated: '2024-07-29T14:34:10Z.'
+  fork-count: 1

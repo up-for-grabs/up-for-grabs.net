@@ -1012,7 +1012,33 @@ ul.popular-tags li {
   justify-content: space-between;
 }
 
+.tooltip {
+  visibility: hidden;
+  width: max-content;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 4px;
+  font-size: x-small;
+
+  /* Position the tooltip */
+  position: absolute;
+  top: 13px;
+  right: -17px;
+  z-index: 1;
+}
+
 .fork-count {
+    display: flex;
+    margin-top: 10px;
+    height: max-content;
+    cursor: pointer;
+    position: relative;
+}
+
+.fork-count:hover .tooltip{
+  visibility: visible;
   display: flex;
   margin-top: 10px;
   height: max-content;

@@ -1,8 +1,8 @@
-FROM ruby:3.2-slim-buster
+FROM ruby:3.3-slim-bullseye
 
 RUN apt update \
   && apt install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev git \
-  && gem install bundler:2.4.20 \
+  && gem install bundler:2.5.17 \
   && mkdir -p /app
 
 WORKDIR /app

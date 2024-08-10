@@ -212,7 +212,6 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
     uri (0.13.0)
-    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
@@ -250,15 +249,13 @@ DEPENDENCIES
   jekyll
   json_schemer
   octokit
-  raka
   rubocop
   safe_yaml
   up_for_grabs_tooling!
-  wdm (>= 0.1.0)
   webrick
 
 RUBY VERSION
    ruby 3.3.3p89
 
 BUNDLED WITH
-   2.5.11
+   2.5.17

@@ -19,7 +19,6 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
         with:
-          ruby-version: '3.2'
           bundler-cache: true
           cache-version: 0
       - name: Run script to update stats for all projects

@@ -5,7 +5,7 @@ site: https://github.com/shhossain/computer_science
 tags:
 - computer-science
 - computer-engineering
-- documantation
+- documentation
 - python
 - javascript
 - cpp
@@ -17,5 +17,5 @@ upforgrabs:
   link: https://github.com/shhossain/computer_science/labels/good%20first%20issue
 stats:
   issue-count: 1
-  last-updated: '2023-04-28T01:24:11Z'
-  fork-count: 159
+  last-updated: '2024-05-11T18:29:28Z'
+  fork-count: 222

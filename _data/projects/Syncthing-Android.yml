@@ -10,11 +10,10 @@ tags:
 - android
 - sync
 - mobile
-- go
 upforgrabs:
   name: easy
   link: https://github.com/syncthing/syncthing-android/labels/easy
 stats:
   issue-count: 2
   last-updated: '2023-04-18T17:36:57Z'
-  fork-count: 345
+  fork-count: 372

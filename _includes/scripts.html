@@ -1,109 +1,120 @@
 <script type="text/html" id="projects-panel-template">
-  <div class="filters-panel cf">
-      <label class="filter-label" for="project">Filter by last updated:</label>
-      <div class="radio-btn-row">
-        <div class="radio-btn-wrapper">
-          <button id="1week" class="radio-btn" type="button">1 Week</button>
-        </div>
-        <div class="radio-btn-wrapper">
-          <button id="1month" class="radio-btn" type="button">1 Month</button>
-        </div>
-        <div class="radio-btn-wrapper">
-          <button id="6months" class="radio-btn" type="button">6 Months</button>
-        </div>
-        <div class="radio-btn-wrapper">
-          <button id="1year" class="radio-btn" type="button">1 Year</button>
-        </div>
-        <div class="radio-btn-wrapper">
-          <button id="2years" class="radio-btn" type="button">2 Years</button>
-        </div>
-      </div>
-  </div>
-
-  <div class="filters-panel cf">
-    <label class="filter-label" for="project">Filter by name:</label>
-    <select class="names-filter" id="project" multiple data-placeholder="Select a project..." >
-      <% _.each(names, function(entry, key){ %>
-        <option value="<%-key%>"><%- entry.name%></option>
-      <% }) %>
-    </select>
-  </div>
-  <div class="filters-panel cf">
-    <label class="filter-label" for="label">Filter by label: </label>
-    <select class="labels-filter" id="label" multiple data-placeholder="Select a label..." >
-    <% _.each(labels, function(entry, key){ %>
-      <option value="<%-key%>"><%- entry.name%></option>
-    <% }) %>
-    </select>
-  </div>
-  <div class="filters-panel cf">
-    <label class="filter-label" for="tag">Filter by tags: </label>
-    <select class="tags-filter" id="tag" multiple data-placeholder="Select a tag..." >
-    <% _.each(tags, function(entry, key){ %>
-      <option value="<%-entry.name%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
-    <% }) %>
-    </select>
-  </div>
-  <div class="filters-panel cf">
-    <label class="filter-label" >Popular tags:</label>
-    <ul class="popular-tags">
-    <% _.each(popularTags, function(entry, key){ %>
-      <li>
-        <a title="Popular Tag: <%-entry.name%>" tabindex="0"><%-entry.name%> <span class="popular-tags__frequency">(<%-entry.frequency%>)</span></a>
-      </li>
-    <% }) %>
-    </ul>
-  </div>
-  <div class="projects">
-    <% let count=0 %>
-    <% _.each(projects, function(project) { %>
-    <% count= count+1%>
-    <div class="data-box" class="<% if ( project.stats ) { %>counted<% } %>">
-      <div>
-        <div colspan="2" class="title">
-           <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
-        </div>
-    </div>
-  <div>
-        <div class="details stats">
-        <p class="label">
-          <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>" target="_blank" tabindex="-1">
-            <%-project.upforgrabs.name %>
-            <% if (project.stats && project.stats['last-updated']) {
-                const now = new Date();
-                let lastUpdated = new Date(project.stats['last-updated']);
-                let since = relativeTime(now, lastUpdated);
-              %>
-              <span class="count" title="Last updated <%- since %>"><%-project.stats['issue-count']%></span>
-              <% } else if (project.stats) { %>
-              <span class="count" title="No recent activity"><%-project.stats['issue-count']%></span>
-            <% } %>
-          </a>
-        </p>
-        <% if (project.stats) { %>
-            <div class="fork-count">
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="fork-count-svg">
-                <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
-              </svg>
-              <%-project.stats['fork-count']%>
-            </div>
-        <% } %>
-      </div>
-      <div class="details">
-           <% if (project.desc) { %>
-           <span class="desc"><%=project.desc%></span>
-           <% } %>
-           <% if (project.tags) { %>
-           <p class="tags">
-               <% _.each(project.tags, function(tag, i) { %>
-                   <a href="#/filters?tags=<%-encodeURIComponent(tag)%>" tabindex="-1"><%-tag%></a><%- i != project.tags.length-1 ? "," : "" %>
-               <% }) %>
-           </p>
-           <% } %>
+  <menu> 
+    <div class="filters-panel cf">
+        <label class="filter-label" for="project">Filter by last updated:</label>
+        <div class="radio-btn-row">
+          <div class="radio-btn-wrapper">
+            <button id="1week" class="radio-btn" type="button">1 Week</button>
+          </div>
+          <div class="radio-btn-wrapper">
+            <button id="1month" class="radio-btn" type="button">1 Month</button>
+          </div>
+          <div class="radio-btn-wrapper">
+            <button id="6months" class="radio-btn" type="button">6 Months</button>
+          </div>
+          <div class="radio-btn-wrapper">
+            <button id="1year" class="radio-btn" type="button">1 Year</button>
+          </div>
+          <div class="radio-btn-wrapper">
+            <button id="2years" class="radio-btn" type="button">2 Years</button>
           </div>
         </div>
-      </div>
-   <% }) %>
+    </div>
+
+    <div class="filters-panel cf">
+      <label class="filter-label" for="project">Filter by name:</label>
+      <select class="names-filter" id="project" multiple data-placeholder="Select a project..." >
+        <% _.each(names, function(entry, key){ %>
+          <option value="<%-key%>"><%- entry.name%></option>
+        <% }) %>
+      </select>
+    </div>
+    <div class="filters-panel cf">
+      <label class="filter-label" for="label">Filter by label: </label>
+      <select class="labels-filter" id="label" multiple data-placeholder="Select a label..." >
+      <% _.each(labels, function(entry, key){ %>
+        <option value="<%-key%>"><%- entry.name%></option>
+      <% }) %>
+      </select>
+    </div>
+    <div class="filters-panel cf">
+      <label class="filter-label" for="tag">Filter by tags: </label>
+      <select class="tags-filter" id="tag" multiple data-placeholder="Select a tag..." >
+      <% _.each(tags, function(entry, key){ %>
+        <option value="<%-entry.name%>"><%- entry.name%>  (<%-entry.frequency%>)</option>
+      <% }) %>
+      </select>
+    </div>
+    <div class="filters-panel cf">
+      <label class="filter-label" >Popular tags:</label>
+      <ul class="popular-tags">
+      <% _.each(popularTags, function(entry, key){ %>
+        <li>
+          <a title="Popular Tag: <%-entry.name%>" tabindex="0"><%-entry.name%> <span class="popular-tags__frequency">(<%-entry.frequency%>)</span></a>
+        </li>
+      <% }) %>
+      </ul>
+    </div>
+  </menu>
+  <div class="projects">
+    <% let count=0 %>
+      <% _.each(projects, function(project) { %>
+        <% count=count+1%>
+          <div class="data-box" class="<% if ( project.stats ) { %>counted<% } %>">
+            <div>
+              <div>
+                <div colspan="2" class="title">
+                  <span class="proj"><a href="<%-project.site %>" target="_blank"><%-project.name %></a></span>
+                </div>
+              </div>
+              <div>
+                <div class="details stats">
+                  <p class="label">
+                    <a href="<%- project.upforgrabs.link %>" title="View open issues for <%-project.name %>"
+                      target="_blank" tabindex="-1">
+                      <%-project.upforgrabs.name %>
+                      <% if (project.stats && project.stats['last-updated']) { 
+                          const now=new Date(); 
+                          let lastUpdated=new Date(project.stats['last-updated']); 
+                          let since=relativeTime(now, lastUpdated); %>
+                          <span class="count" title="Last updated <%- since %>"><%-project.stats['issue-count']%></span>
+                       <% } else if (project.stats) { %>
+                            <span class="count" title="No recent activity"><%-project.stats['issue-count']%></span>
+                       <% } %>
+                    </a>
+                  </p>
+                  <% if (project.stats) { %>
+                    <div class="fork-count" title="Number of forks">
+                      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                        data-view-component="true" class="fork-count-svg">
+                        <path
+                          d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z">
+                        </path>
+                      </svg>
+                      <%-project.stats['fork-count']%>
+                    </div>
+                    <% } %>
+                </div>
+                <div class="details">
+                  <% if (project.desc) { %>
+                    <span class="desc">
+                      <%=project.desc%>
+                    </span>
+                    <% } %>
+                </div>
+              </div>
+            </div>
+            <div class="details-tags">
+              <% if (project.tags) { %>
+                <p class="tags">
+                  <% _.each(project.tags, function(tag, i) { %>
+                    <a href="#/filters?tags=<%-encodeURIComponent(tag)%>" tabindex="-1"><%-tag%></a><%- i !=project.tags.length-1 ? "," : "" %>
+                      <% }) %>
+                </p>
+                <% } %>
+            </div>
+          </div>
+          <% }) %>
   </div>
    <% if(count==0) { %>
     <p style="font-size: 1.5em;font-weight: 600;line-height: 30px;">No projects found with this description...<p>
@@ -112,10 +123,12 @@
 <script src="{{ site.github.url }}javascripts/lib/require.js" data-main="javascripts/app"></script>
 <!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-45897756-1', 'auto');
   ga('send', 'pageview');

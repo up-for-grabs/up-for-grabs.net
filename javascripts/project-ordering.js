@@ -19,7 +19,6 @@
 
 // required for loading into a NodeJS context
 if (typeof define !== 'function') {
-  /* eslint-disable-next-line no-var */
   var define = require('amdefine')(module);
 }
 

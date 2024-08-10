@@ -1,0 +1,13 @@
+---
+name: WeMakeDevs
+desc: Community which provides free hands-on training in various fields of computer science.
+site: https://github.com/WeMakeDevs/wemakedevs
+tags:
+- reactjs
+- community
+upforgrabs:
+  name: bug
+  link: https://github.com/WeMakeDevs/wemakedevs/labels/bug
+stats:
+  issue-count: 0
+  fork-count: 325

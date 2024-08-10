@@ -1,0 +1,15 @@
+---
+name: trivy-resource
+desc: Trivy resource for concourse - Vulnerability scanning of container base image
+site: https://github.com/Comcast/trivy-resource/
+tags:
+- trivy-resource
+- trivy
+- concourse-resource
+- vulnscan
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Comcast/trivy-resource/labels/up%20for%20grabs
+stats:
+  issue-count: 0
+  fork-count: 4

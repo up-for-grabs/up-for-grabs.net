@@ -1,0 +1,17 @@
+---
+name: FastAPI
+desc: FastAPI framework, high performance, easy to learn, fast to code, ready for production
+site: https://github.com/tiangolo/fastapi
+tags:
+- python
+- fastapi
+- api
+- asyncio
+- starlette
+upforgrabs:
+  name: good first issue
+  link: https://github.com/fastapi/fastapi/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2024-05-16T09:12:54Z'
+  fork-count: 6269

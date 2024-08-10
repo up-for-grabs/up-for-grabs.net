@@ -10,7 +10,7 @@ tags:
 - smpte
 - film
 - ".net"
-- ".net6"
+- ".net-core"
 - c#
 upforgrabs:
   name: up for grabs

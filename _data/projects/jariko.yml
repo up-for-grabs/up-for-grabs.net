@@ -1,7 +1,7 @@
 ---
 name: JaRIKo
 desc: A JAva virtual machine Rpg Interpreter written in KOtlin
-site: hhttps://github.com/smeup/jariko
+site: https://github.com/smeup/jariko
 tags:
 - kotlin
 - rpg

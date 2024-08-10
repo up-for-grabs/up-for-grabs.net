@@ -782,6 +782,9 @@ form {
   padding: 10px;
   border: 1px solid var(--container-border);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .projects,
@@ -1011,6 +1014,7 @@ ul.popular-tags li {
 
 .fork-count-svg {
     align-self: center;
+    fill: var(--fork-svg-fill);
 }
 
 @media screen and (max-width : 670px) {

@@ -1,0 +1,20 @@
+---
+name: Data Science Flashcards
+desc: >-
+  A comprehensive collection of question - answers on Data Science and Machine Learning in the form of
+  flashcards that allows you to expand your knowledge of Machine Learning,  Data Analysis, Statistics
+  and other related topics. Coding dojo are also included.
+site: https://github.com/klaus78/Data-Science-Flashcards
+tags:
+- data-science
+- machine-learning
+- deep-learning
+- education
+- learning
+upforgrabs:
+  name: help wanted
+  link: https://github.com/klaus78/Data-Science-Flashcards/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2023-10-20T19:43:48Z'
+  fork-count: 20

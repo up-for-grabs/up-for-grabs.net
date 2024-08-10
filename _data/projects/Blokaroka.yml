@@ -1,6 +1,6 @@
 ---
 name: Blokaroka
-desc: Widgit for displaying blocks you can play with on your Windows desktop.
+desc: Widget for displaying blocks you can play with on your Windows desktop.
 site: https://blokaroka.com
 tags:
 - c++

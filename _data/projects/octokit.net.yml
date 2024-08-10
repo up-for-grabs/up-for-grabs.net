@@ -10,6 +10,6 @@ upforgrabs:
   name: 'Status: Up for grabs'
   link: https://github.com/octokit/octokit.net/labels/Status%3A%20Up%20for%20grabs
 stats:
-  issue-count: 38
-  last-updated: '2024-04-01T18:22:24Z'
-  fork-count: 1062
+  issue-count: 35
+  last-updated: '2024-07-02T18:20:02Z'
+  fork-count: 1074

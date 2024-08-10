@@ -1,0 +1,18 @@
+---
+name: QtSnake
+desc: A Simple educational python Snake game created with PySide6 and Qt framework
+site: https://github.com/gudarzi/QtSnake
+tags:
+- python
+- qt
+- pyside
+- game
+- gamedev
+- educational
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/gudarzi/QtSnake/labels/up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2024-04-22T05:37:57Z'
+  fork-count: 3

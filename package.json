@@ -15,8 +15,8 @@
     "test": "jest --config ./jest.config.js --verbose --coverage"
   },
   "engines": {
-    "node": ">=16",
-    "npm": ">=7"
+    "node": ">=20",
+    "npm": ">=9"
   },
   "dependencies": {
     "amdefine": ">=0.1.0"

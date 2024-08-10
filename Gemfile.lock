@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 4af18955b53c23cf3421fba9df80aede8e5d6753
+  revision: f25aaf27fd72c6c4970432f09a025fbe21f17524
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -36,10 +36,10 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.10.0)
+    faraday (2.10.1)
       faraday-net_http (>= 2.0, < 3.2)
       logger
-    faraday-net_http (3.1.0)
+    faraday-net_http (3.1.1)
       net-http
     ffi (1.17.0)
     ffi (1.17.0-aarch64-linux-gnu)
@@ -130,8 +130,8 @@ GEM
       racc
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (6.0.0)
-    racc (1.8.0)
+    public_suffix (6.0.1)
+    racc (1.8.1)
     rainbow (3.1.1)
     rake (13.2.1)
     rb-fsevent (0.11.2)

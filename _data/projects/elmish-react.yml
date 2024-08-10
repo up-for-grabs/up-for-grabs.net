@@ -9,5 +9,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/elmish/react/labels/help%20wanted
 stats:
-  issue-count: 2
-  last-updated: '2021-06-09T07:23:02Z'
+  issue-count: 3
+  last-updated: '2024-02-06T19:19:15Z'
+  fork-count: 21

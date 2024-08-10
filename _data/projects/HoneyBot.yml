@@ -10,5 +10,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/pyhoneybot/honeybot/labels/help%20wanted
 stats:
-  issue-count: 2
-  last-updated: '2022-10-04T01:57:22Z'
+  issue-count: 1
+  last-updated: '2023-02-10T08:15:12Z'
+  fork-count: 84

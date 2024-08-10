@@ -1,0 +1,16 @@
+---
+name: Console Weather App
+desc: A console-based weather application with python!
+site: https://github.com/Degamisu/Console-Weather-App
+tags:
+- console
+- open-meteo
+- weather
+- curses
+- python
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Degamisu/Console-Weather-App/labels/up%20for%20grabs
+stats:
+  issue-count: 0
+  fork-count: 0

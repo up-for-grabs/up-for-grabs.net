@@ -1,0 +1,17 @@
+---
+name: Roc Go
+desc: Go bindings for Roc Toolkit (real-time audio streaming)
+site: https://github.com/roc-streaming/roc-go
+tags:
+- go
+- bindings
+- audio
+- streaming
+- networking
+upforgrabs:
+  name: help wanted
+  link: https://github.com/roc-streaming/roc-go/labels/help%20wanted
+stats:
+  issue-count: 10
+  last-updated: '2024-06-17T17:47:40Z'
+  fork-count: 10

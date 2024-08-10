@@ -11,5 +11,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/coveralls-net/coveralls.net/labels/up-for-grabs
 stats:
-  issue-count: 5
-  last-updated: '2019-10-15T18:21:28Z'
+  issue-count: 6
+  last-updated: '2023-06-18T15:42:44Z'
+  fork-count: 31

@@ -1,0 +1,18 @@
+---
+name: Dapr JavaScript SDK
+desc: JavaScript SDK for writing applications using Dapr
+site: https://github.com/dapr/js-sdk
+tags:
+- javascript
+- microservices
+- node.js
+- typescript
+- sdk
+- oss
+upforgrabs:
+  name: good first issue
+  link: https://github.com/dapr/js-sdk/labels/good%20first%20issue
+stats:
+  issue-count: 11
+  last-updated: '2024-07-23T16:46:18Z'
+  fork-count: 80

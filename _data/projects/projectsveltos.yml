@@ -1,0 +1,14 @@
+name: Projectsveltos
+desc: >-
+  Sveltos is a lightweight application designed to manage hundreds of clusters. It does so by providing declarative APIs 
+  to deploy Kubernetes addons across multiple clusters.
+site: https://projectsveltos.github.io/sveltos
+tags:
+  - kubernetes
+  - add-ons
+  - helm
+  - helm-charts
+  - clusterapi
+upforgrabs:
+  name: help wanted
+  link: https://github.com/search?o=desc&q=org%3Aprojectsveltos&s=created&state=open&type=Issues

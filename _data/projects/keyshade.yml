@@ -1,0 +1,26 @@
+---
+name: keyshade
+desc: >-
+  Realtime secret and configuration management tool, with the best in class security and seamless integration
+  support
+site: https://keyshade.xyz
+tags:
+- javascript
+- typescript
+- reactjs
+- nextjs
+- nestjs
+- turbo
+- security
+- tool
+- devops
+- gitops
+- secret-manager
+- rust
+upforgrabs:
+  name: good first issue
+  link: https://github.com/keyshade-xyz/keyshade/labels/good%20first%20issue
+stats:
+  issue-count: 30
+  last-updated: '2024-08-10T08:23:18Z'
+  fork-count: 74

@@ -10,5 +10,6 @@ upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/PowerShell/PowerShell/labels/Up-for-Grabs
 stats:
-  issue-count: 254
-  last-updated: '2022-11-15T01:36:47Z'
+  issue-count: 56
+  last-updated: '2024-08-08T21:06:35Z'
+  fork-count: 7169

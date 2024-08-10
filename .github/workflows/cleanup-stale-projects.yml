@@ -1,16 +1,28 @@
 on:
   schedule:
-  - cron: 0 18 * * 0
+    - cron: 0 18 * * 0
   workflow_dispatch:
+    inputs:
+      apply-changes:
+        description: 'Whether workflow should generate a pull request for these changes'
+        required: false
+        default: '1'
 
 name: Cleanup stale projects
 jobs:
   cleanupArchivedProjects:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
-    - uses: actions/checkout@main
-    - name: Cleanup archived projects
-      uses: ./.github/actions/cleanup-archived-projects
-      env:
-        GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
-        APPLY_CHANGES: 0
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
+        with:
+          bundler-cache: true
+
+      - name: Run script to cleanup inactive projects
+        run: bundle exec ruby scripts/cleanup_projects.rb
+        env:
+          GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
+          APPLY_CHANGES: ${{ inputs.apply-changes }}

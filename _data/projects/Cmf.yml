@@ -1,0 +1,22 @@
+---
+name: Laravel CMF
+desc: >-
+  Laravel CMF is the flexible Content Management Framework for your next application. This software allows
+  for rapid creation of your Content Management System.
+site: https://github.com/reinvanoyen/cmf
+tags:
+- laravel
+- php
+- cms
+- cmf
+- contentmanagement
+- translation
+- translations
+- localization
+upforgrabs:
+  name: help wanted
+  link: https://github.com/reinvanoyen/cmf/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2023-08-29T07:49:36Z'
+  fork-count: 6

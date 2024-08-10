@@ -12,5 +12,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/etro-js/etro/labels/help%20wanted
 stats:
-  issue-count: 14
-  last-updated: '2022-10-23T13:47:32Z'
+  issue-count: 13
+  last-updated: '2024-07-20T20:27:34Z'
+  fork-count: 85

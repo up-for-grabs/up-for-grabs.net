@@ -21,5 +21,6 @@ upforgrabs:
   name: junior job
   link: https://github.com/owncloud/core/labels/junior%20job
 stats:
-  issue-count: 10
-  last-updated: '2022-10-08T21:31:59Z'
+  issue-count: 9
+  last-updated: '2023-11-16T09:49:56Z'
+  fork-count: 2057

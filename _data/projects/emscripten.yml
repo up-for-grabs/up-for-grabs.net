@@ -13,5 +13,6 @@ upforgrabs:
   name: good first bug
   link: https://github.com/emscripten-core/emscripten/labels/good%20first%20bug
 stats:
-  issue-count: 70
-  last-updated: '2022-11-08T14:54:04Z'
+  issue-count: 78
+  last-updated: '2024-08-10T00:03:36Z'
+  fork-count: 3260

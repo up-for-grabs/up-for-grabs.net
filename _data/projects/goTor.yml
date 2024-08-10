@@ -1,6 +1,6 @@
 ---
 name: goTor
-desc: This applicaiton allows you to easily use TorBot through a web app rather than using a CLI.
+desc: This application allows you to easily use TorBot through a web app rather than using a CLI.
 site: https://github.com/KingAkeem/goTor
 tags:
 - javascript
@@ -14,3 +14,4 @@ upforgrabs:
   link: https://github.com/DedSecInside/gotor/labels/Available
 stats:
   issue-count: 0
+  fork-count: 44

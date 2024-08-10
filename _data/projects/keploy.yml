@@ -1,0 +1,21 @@
+---
+name: Keploy
+desc: >-
+  Keploy is a functional testing toolkit for developers. It generates E2E tests for APIs (KTests) along
+  with mocks or stubs(KMocks) by recording real API calls. KTests can be imported as mocks for consumers
+  and vice-versa.
+site: https://keploy.io/
+tags:
+- api-testing
+- mock-generation
+- go
+- java
+- typescript
+- automated-testing
+upforgrabs:
+  name: Good First Issue
+  link: https://github.com/keploy/keploy/labels/Good%20First%20Issue
+stats:
+  issue-count: 20
+  last-updated: '2024-08-08T06:47:21Z'
+  fork-count: 419

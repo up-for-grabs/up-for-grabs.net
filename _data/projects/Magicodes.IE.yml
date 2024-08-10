@@ -20,5 +20,6 @@ upforgrabs:
   name: enhancement
   link: https://github.com/dotnetcore/Magicodes.IE/labels/enhancement
 stats:
-  issue-count: 27
-  last-updated: '2022-11-01T05:41:59Z'
+  issue-count: 25
+  last-updated: '2024-04-15T02:30:39Z'
+  fork-count: 473

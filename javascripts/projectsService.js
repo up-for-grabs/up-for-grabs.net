@@ -166,7 +166,7 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
       (entry) => entry && entry.replace(/^\s+|\s+$/g, '')
     );
 
-    // fallback if labels doesnt exist
+    // fallback if labels does not exist
     if (!labelIndices || !labelIndices.length || labels[0] == '') {
       return projects;
     }

@@ -1,0 +1,15 @@
+---
+name: Repo Reviews
+desc: Support the community with a helpful ❤️ repo review ❤️
+site: https://repo-reviews.github.io/
+tags:
+- ruby
+- jekyll
+- reviews
+upforgrabs:
+  name: good first issue
+  link: https://github.com/repo-reviews/repo-reviews.github.io/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2023-06-20T16:02:46Z'
+  fork-count: 29

@@ -15,5 +15,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/userfrosting/UserFrosting/labels/up-for-grabs
 stats:
-  issue-count: 35
-  last-updated: '2022-09-14T21:17:47Z'
+  issue-count: 11
+  last-updated: '2024-04-26T20:49:16Z'
+  fork-count: 370

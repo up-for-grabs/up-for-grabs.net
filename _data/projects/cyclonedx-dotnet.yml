@@ -5,10 +5,12 @@ site: https://cyclonedx.org/
 tags:
 - sbom
 - ".net"
-- ".netcore"
+- ".net-core"
 - cyclonedx
 upforgrabs:
   name: good first issue
   link: https://github.com/CycloneDX/cyclonedx-dotnet/labels/good%20first%20issue
 stats:
-  issue-count: 0
+  issue-count: 3
+  last-updated: '2024-01-08T12:54:16Z'
+  fork-count: 81

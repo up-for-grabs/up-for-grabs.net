@@ -13,5 +13,6 @@ upforgrabs:
   name: Good first issue
   link: https://github.com/symfony/symfony/labels/Good%20first%20issue
 stats:
-  issue-count: 6
-  last-updated: '2022-09-30T17:12:45Z'
+  issue-count: 41
+  last-updated: '2024-08-03T18:35:11Z'
+  fork-count: 9409

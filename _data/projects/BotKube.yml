@@ -17,5 +17,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/kubeshop/botkube/labels/help%20wanted
 stats:
-  issue-count: 4
-  last-updated: '2021-11-29T06:36:13Z'
+  issue-count: 3
+  last-updated: '2021-10-26T06:30:54Z'
+  fork-count: 289

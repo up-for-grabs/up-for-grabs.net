@@ -1,0 +1,18 @@
+---
+name: activist
+desc: An open-source, nonprofit activism network
+site: https://github.com/activist-org/activist
+tags:
+- nuxt
+- vue
+- activism
+- tailwind
+- javascript
+- typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/activist-org/activist/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2024-08-05T16:49:42Z'
+  fork-count: 182

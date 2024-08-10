@@ -10,5 +10,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/MoneyFox/MoneyFox/labels/up-for-grabs
 stats:
-  issue-count: 12
-  last-updated: '2022-11-18T09:37:50Z'
+  issue-count: 11
+  last-updated: '2024-01-19T11:34:00Z'
+  fork-count: 135

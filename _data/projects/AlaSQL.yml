@@ -13,5 +13,6 @@ upforgrabs:
   name: Help wanted
   link: https://github.com/AlaSQL/alasql/labels/Help%20wanted
 stats:
-  issue-count: 149
-  last-updated: '2022-11-13T03:01:06Z'
+  issue-count: 146
+  last-updated: '2024-08-04T11:28:17Z'
+  fork-count: 651

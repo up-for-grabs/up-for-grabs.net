@@ -12,5 +12,6 @@ upforgrabs:
   name: level:starter
   link: https://github.com/wemake-services/wemake-python-styleguide/labels/level%3Astarter
 stats:
-  issue-count: 18
-  last-updated: '2022-11-11T10:12:39Z'
+  issue-count: 16
+  last-updated: '2024-05-22T13:59:34Z'
+  fork-count: 381

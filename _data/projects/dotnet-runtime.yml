@@ -4,9 +4,11 @@ desc: ".NET is a cross-platform runtime and libraries for cloud, IoT, and deskto
 site: https://github.com/dotnet/runtime
 tags:
 - ".net"
+- c#
 upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/runtime/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 stats:
-  issue-count: 490
-  last-updated: '2022-11-18T00:32:04Z'
+  issue-count: 549
+  last-updated: '2024-08-10T17:00:45Z'
+  fork-count: 4596

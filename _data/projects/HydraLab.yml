@@ -1,0 +1,21 @@
+---
+name: Hydra Lab
+desc: >-
+  Hydra Lab is a framework opensourced by Microsoft which can help you easily build a cloud testing platform
+  utilizing the test devices/machines in hand. It enables dev team to quickly build a self-manageable
+  and intelligent cloud testing infrastructure. Please join us to make testing smarter together.
+site: https://github.com/microsoft/HydraLab
+tags:
+- testing
+- automation
+- ui-testing
+- testing-framework
+- spring-boot
+- microsoft
+upforgrabs:
+  name: help wanted
+  link: https://github.com/microsoft/HydraLab/labels/help%20wanted
+stats:
+  issue-count: 9
+  last-updated: '2023-11-28T09:41:13Z'
+  fork-count: 97

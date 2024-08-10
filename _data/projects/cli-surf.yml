@@ -1,0 +1,17 @@
+---
+name: cli-surf
+desc: cli-surf is a real time ocean data & forecasting service using the command line!
+site: https://github.com/ryansurf/cli-surf
+tags:
+- python
+- cli
+- docker
+- ocean
+- surf
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ryansurf/cli-surf/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2024-08-09T22:01:47Z'
+  fork-count: 21

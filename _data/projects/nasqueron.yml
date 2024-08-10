@@ -1,0 +1,17 @@
+---
+name: Nasqueron
+desc: Budding community of creative people, writers, developers and thinkers
+site: https://join.nasqueron.org/
+tags:
+- php
+- rust
+- python
+- javascript
+- node.js
+- docker
+- automation
+- devops
+- infrastructure
+upforgrabs:
+  name: good first issue
+  link: https://devcentral.nasqueron.org/tag/good-first-issue/

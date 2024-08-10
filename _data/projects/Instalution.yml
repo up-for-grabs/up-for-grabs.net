@@ -10,7 +10,8 @@ tags:
 - developer-network
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/instalution/frontend/labels/up-for-grabs
+  link: https://github.com/lipupini/frontend/labels/up-for-grabs
 stats:
   issue-count: 3
   last-updated: '2022-09-21T01:07:46Z'
+  fork-count: 2

@@ -1,6 +1,6 @@
 ---
 name: FractalZoo
-desc: An Android fractal vizualisation app
+desc: An Android fractal visualisation app
 site: https://github.com/comodoro/FractalZoo
 tags:
 - android
@@ -11,3 +11,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2018-06-08T15:11:46Z'
+  fork-count: 15

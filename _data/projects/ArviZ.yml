@@ -14,5 +14,6 @@ upforgrabs:
   name: Beginner
   link: https://github.com/arviz-devs/arviz/labels/Beginner
 stats:
-  issue-count: 5
-  last-updated: '2022-11-08T20:29:36Z'
+  issue-count: 2
+  last-updated: '2024-08-03T08:43:12Z'
+  fork-count: 389

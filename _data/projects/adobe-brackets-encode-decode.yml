@@ -9,7 +9,7 @@ tags:
 - ide
 - extension
 - javascript
-- convertors
+- converters
 - encode
 - decode
 - requirejs
@@ -18,3 +18,4 @@ upforgrabs:
   link: https://github.com/nadchif/adobe-brackets-encode-decode/labels/up-for-grabs
 stats:
   issue-count: 0
+  fork-count: 15

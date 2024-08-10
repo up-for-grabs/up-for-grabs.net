@@ -1,0 +1,17 @@
+---
+name: DB3 Network
+desc: >-
+  DB3 Network is an open source project in ethereum layer2, serves as decentralized Firestore alternative
+  database. A github star⭐️is welcome.
+site: https://db3.network/
+tags:
+- firestore
+- typescript
+- firebase
+- database
+upforgrabs:
+  name: good first issue
+  link: https://github.com/dbpunk-labs/db3/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 44

@@ -16,5 +16,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/opencast/opencast/labels/good%20first%20issue
 stats:
-  issue-count: 20
-  last-updated: '2022-11-04T18:47:46Z'
+  issue-count: 19
+  last-updated: '2024-06-27T14:57:00Z'
+  fork-count: 231

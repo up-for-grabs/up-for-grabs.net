@@ -1,0 +1,15 @@
+---
+name: TimelyDiff
+desc: >-
+  TimelyDiff is a JavaScript package that converts Unix timestamps into human-readable time differences.
+site: https://github.com/artisticLogicMK/timelydiff
+tags:
+- javascript
+upforgrabs:
+  name: help wanted
+  link: >-
+    https://github.com/artisticLogicMK/timelydiff/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+stats:
+  issue-count: 1
+  last-updated: '2023-09-15T06:53:01Z'
+  fork-count: 4

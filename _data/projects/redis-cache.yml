@@ -16,5 +16,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/rhubarbgroup/redis-cache/labels/help%20wanted
 stats:
-  issue-count: 3
-  last-updated: '2022-03-14T18:31:49Z'
+  issue-count: 1
+  last-updated: '2021-11-23T02:41:54Z'
+  fork-count: 148

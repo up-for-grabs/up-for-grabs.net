@@ -1,0 +1,17 @@
+---
+name: Learn JavaScript
+desc: A book that teaches JavaScript
+site: https://javascript.sumankunwar.com.np
+tags:
+- javascript
+- programming-language
+- learn-to-code
+- book
+- learn-javascript
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/sumn2u/learn-javascript/labels/up%20for%20grabs
+stats:
+  issue-count: 7
+  last-updated: '2024-06-24T03:34:53Z'
+  fork-count: 133

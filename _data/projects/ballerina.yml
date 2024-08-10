@@ -1,0 +1,17 @@
+---
+name: Ballerina
+desc: An open source, cloud-native programming language optimized for integration.
+site: https://ballerina.io/
+tags:
+- language
+- integration
+- ballerina
+- cloud-native
+- compiler
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ballerina-platform/ballerina-lang/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2024-08-01T18:54:57Z'
+  fork-count: 736

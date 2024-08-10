@@ -3,13 +3,14 @@ name: Legesher
 desc: The bridge between the words we speak and the code we write.
 site: https://github.com/legesher/legesher
 tags:
-- html
-- css
-- ruby
 - python
 - javascript
+- translation
+- devtools
+- legesher
 upforgrabs:
   name: good first issue
   link: https://github.com/legesher/legesher/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 19

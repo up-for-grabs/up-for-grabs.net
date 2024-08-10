@@ -1,0 +1,23 @@
+---
+name: Before I Die Code
+desc: >-
+  An open source project that simplifies and guides beginners in making their first contribution to open
+  source projects. Developers can contribute by sharing their aspirations before they die.
+site: https://github.com/BeforeIDieCode/BeforeIDieAchievements
+tags:
+- react.js
+- javascript
+- community-driven
+- css
+- collaboration
+- documentation
+- beginner-friendly
+- good-first-issue
+- first-contribution
+upforgrabs:
+  name: help wanted
+  link: https://github.com/BeforeIDieCode/BeforeIDieAchievements/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2023-11-28T16:02:33Z'
+  fork-count: 174

@@ -12,5 +12,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/sequelize/sequelize/labels/good%20first%20issue
 stats:
-  issue-count: 14
-  last-updated: '2022-11-04T12:02:40Z'
+  issue-count: 10
+  last-updated: '2024-08-01T02:21:19Z'
+  fork-count: 4250

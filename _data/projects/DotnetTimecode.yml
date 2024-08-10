@@ -10,10 +10,11 @@ tags:
 - smpte
 - film
 - ".net"
-- ".net6"
+- ".net-core"
 - c#
 upforgrabs:
   name: up for grabs
   link: https://github.com/RasmusBroborg/DotnetTimecode/labels/up%20for%20grabs
 stats:
   issue-count: 0
+  fork-count: 6

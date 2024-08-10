@@ -1,0 +1,17 @@
+---
+name: disgo
+desc: Create a Discord Bot in Go using this Discord API Wrapper.
+site: https://github.com/switchupcb/disgo
+tags:
+- discord
+- discord-bot
+- discord-api
+- bot
+- api
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/switchupcb/disgo/labels/up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2023-07-31T00:01:35Z'
+  fork-count: 2

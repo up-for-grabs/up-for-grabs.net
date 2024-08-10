@@ -2,7 +2,7 @@
 name: bulk-writer
 desc: >-
   Provides guidance for fast ETL jobs, an IDataReader implementation for SqlBulkCopy (or the MySql or
-  Oracle equivalents) that wraps an IEnumerable, and libraries for mapping entites to table columns.
+  Oracle equivalents) that wraps an IEnumerable, and libraries for mapping entities to table columns.
 site: https://github.com/HeadspringLabs/bulk-writer
 tags:
 - c#
@@ -14,3 +14,4 @@ upforgrabs:
   link: https://github.com/jbogard/bulk-writer/labels/please%20contribute
 stats:
   issue-count: 0
+  fork-count: 37

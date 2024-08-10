@@ -1,0 +1,26 @@
+---
+name: idrinth-api-bench
+desc: >-
+  This repository contains an api testing tool, it's documentation website and their test suites. Contributing
+  is made easier by documented tooling and well maintained, automated checks as well as checklists for
+  pull requests and templates for issues.
+site: https://idrinth-api-ben.ch/
+tags:
+- typescript
+- reactjs
+- benchmark
+- rest
+- api
+- testing
+- node.js
+- metrics
+- web
+- multilingual
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/idrinth-api-bench/issues/labels/good%20first%20issue
+stats:
+  issue-count: 75
+  last-updated: '2024-08-10T13:40:50Z'
+  fork-count: 51

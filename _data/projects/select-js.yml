@@ -1,7 +1,7 @@
 ---
 name: selection-js
 desc: >-
-  A lightweight javascipt library which provides users with a set of options in the form of a small popover
+  A lightweight javascript library which provides users with a set of options in the form of a small popover
   over the selected portion of text.
 site: https://github.com/prateekkalra/Selection-js
 tags:
@@ -20,4 +20,5 @@ upforgrabs:
   link: https://github.com/prateekkalra/Selection-js/labels/good%20first%20issue
 stats:
   issue-count: 3
-  last-updated: '2022-10-07T09:55:24Z'
+  last-updated: '2023-12-25T14:55:48Z'
+  fork-count: 61

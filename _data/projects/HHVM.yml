@@ -13,5 +13,6 @@ upforgrabs:
   name: probably easy
   link: https://github.com/facebook/hhvm/labels/probably%20easy
 stats:
-  issue-count: 64
-  last-updated: '2022-06-17T18:44:52Z'
+  issue-count: 55
+  last-updated: '2024-01-25T00:49:12Z'
+  fork-count: 2982

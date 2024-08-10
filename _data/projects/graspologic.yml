@@ -11,7 +11,7 @@ tags:
 - statistics
 upforgrabs:
   name: good first issue
-  link: https://github.com/microsoft/graspologic/labels/good%20first%20issue
+  link: https://github.com/graspologic-org/graspologic/labels/good%20first%20issue
 stats:
-  issue-count: 6
-  last-updated: '2022-06-06T20:35:43Z'
+  issue-count: 0
+  fork-count: 140

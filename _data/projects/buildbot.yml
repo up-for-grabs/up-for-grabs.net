@@ -10,5 +10,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/buildbot/buildbot/labels/good%20first%20issue
 stats:
-  issue-count: 11
-  last-updated: '2022-10-06T15:43:15Z'
+  issue-count: 9
+  last-updated: '2023-12-23T01:46:12Z'
+  fork-count: 1603

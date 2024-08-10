@@ -12,5 +12,6 @@ upforgrabs:
   name: low-hanging fruit
   link: https://github.com/alda-lang/alda/labels/low-hanging%20fruit
 stats:
-  issue-count: 8
-  last-updated: '2022-11-16T14:12:40Z'
+  issue-count: 9
+  last-updated: '2023-10-08T21:27:57Z'
+  fork-count: 284

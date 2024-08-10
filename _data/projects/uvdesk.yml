@@ -1,0 +1,17 @@
+---
+name: UVDesk
+desc: >-
+  Uvdesk community helpdesk Build on top of symfony and backbone.js, uvdesk community is a service oriented,
+  event driven extensible opensource helpdesk system that can be used by your organization to provide
+  efficient support to your clients effortlessly whichever way you imagine.
+site: https://www.uvdesk.com/en/
+tags:
+- opensource-helpdesk
+- ticketing-system
+upforgrabs:
+  name: Help Wanted
+  link: https://github.com/uvdesk/community-skeleton/labels/Help%20Wanted
+stats:
+  issue-count: 4
+  last-updated: '2024-06-14T09:50:09Z'
+  fork-count: 452

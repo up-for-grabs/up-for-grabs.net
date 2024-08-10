@@ -11,5 +11,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/mautic/mautic/labels/good%20first%20issue
 stats:
-  issue-count: 1
-  last-updated: '2022-09-30T16:56:10Z'
+  issue-count: 20
+  last-updated: '2024-08-08T10:06:19Z'
+  fork-count: 2534

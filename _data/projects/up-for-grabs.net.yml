@@ -11,5 +11,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/up-for-grabs/up-for-grabs.net/labels/up-for-grabs
 stats:
-  issue-count: 16
-  last-updated: '2022-10-28T04:35:49Z'
+  issue-count: 18
+  last-updated: '2024-07-30T10:38:29Z'
+  fork-count: 2008

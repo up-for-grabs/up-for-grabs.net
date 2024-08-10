@@ -14,5 +14,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/NuGetPackageExplorer/NuGetPackageExplorer/labels/up-for-grabs
 stats:
-  issue-count: 25
-  last-updated: '2022-10-08T17:23:53Z'
+  issue-count: 24
+  last-updated: '2023-11-03T18:19:40Z'
+  fork-count: 444

@@ -1,0 +1,13 @@
+---
+name: o11y.wiki
+desc: A glossary of all terms related to Observability, starting from A to Z!
+site: https://o11y.wiki
+tags:
+- observability
+- documentation
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/prathamesh-sonpatki/o11y-wiki/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 6

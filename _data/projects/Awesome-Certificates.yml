@@ -1,0 +1,17 @@
+---
+name: Awesome Certificates
+desc: List of IT, computer science and business courses with free certificates & badges.
+site: https://github.com/PanXProject/awesome-certificates
+tags:
+- certificate
+- career
+- courses
+- free
+- learn
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/PanXProject/awesome-certificates/labels/up%20for%20grabs
+stats:
+  issue-count: 21
+  last-updated: '2024-07-27T17:23:19Z'
+  fork-count: 145

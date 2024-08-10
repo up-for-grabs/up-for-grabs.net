@@ -9,8 +9,9 @@ tags:
 - automation
 - orchestration
 upforgrabs:
-  name: 'first-timers :hugs:'
-  link: https://github.com/nuke-build/nuke/labels/first-timers%20%3Ahugs%3A
+  name: good first issue
+  link: https://github.com/nuke-build/nuke/labels/good%20first%20issue
 stats:
-  issue-count: 9
-  last-updated: '2022-10-20T00:08:53Z'
+  issue-count: 3
+  last-updated: '2024-07-10T17:57:08Z'
+  fork-count: 349

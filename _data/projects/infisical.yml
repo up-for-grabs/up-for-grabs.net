@@ -1,0 +1,22 @@
+---
+name: Infisical
+desc: >-
+  Infisical is an open-source, E2EE tool to sync environment variables across your team and infrastructure.
+site: https://infisical.com/
+tags:
+- security
+- secret-management
+- environment-variables
+- end-to-end-encryption
+- cli
+- web
+- node.js
+- go
+- next.js
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Infisical/infisical/labels/help%20wanted
+stats:
+  issue-count: 48
+  last-updated: '2024-08-06T11:59:55Z'
+  fork-count: 752

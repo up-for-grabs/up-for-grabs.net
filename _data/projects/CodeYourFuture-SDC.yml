@@ -1,0 +1,22 @@
+---
+name: Code Your Future SDC
+desc: >-
+  Code Your Future's main Software Development Course, a PERN web development programme for refugees and
+  other people excluded from education
+site: https://syllabus.codeyourfuture.io/
+tags:
+- javascript
+- react.js
+- postgres
+- sql
+- express
+- node.js
+- html
+- css
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/CodeYourFuture/syllabus/labels/up%20for%20grabs
+stats:
+  issue-count: 11
+  last-updated: '2023-04-13T19:50:36Z'
+  fork-count: 124

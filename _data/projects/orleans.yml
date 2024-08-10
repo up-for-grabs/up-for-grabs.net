@@ -16,5 +16,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/orleans/labels/help%20wanted
 stats:
-  issue-count: 56
-  last-updated: '2022-10-27T18:22:11Z'
+  issue-count: 41
+  last-updated: '2024-05-30T13:44:28Z'
+  fork-count: 2022

@@ -12,5 +12,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/Homebrew/homebrew-core/labels/help%20wanted
 stats:
-  issue-count: 12
-  last-updated: '2022-11-18T10:58:14Z'
+  issue-count: 2
+  last-updated: '2024-08-10T01:28:35Z'
+  fork-count: 12246

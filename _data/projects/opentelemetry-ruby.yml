@@ -24,5 +24,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/opentelemetry-ruby/labels/help%20wanted
 stats:
-  issue-count: 8
-  last-updated: '2022-06-21T18:04:44Z'
+  issue-count: 2
+  last-updated: '2024-05-09T13:56:47Z'
+  fork-count: 232

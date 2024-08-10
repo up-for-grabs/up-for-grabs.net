@@ -9,7 +9,8 @@ tags:
 - irc-bot
 upforgrabs:
   name: good first issue
-  link: https://github.com/JohnMaguire/Cardinal/labels/good%20first%20issue
+  link: https://github.com/johnmaguire/Cardinal/labels/good%20first%20issue
 stats:
   issue-count: 2
   last-updated: '2022-06-07T06:02:09Z'
+  fork-count: 38

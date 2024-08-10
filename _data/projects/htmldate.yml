@@ -14,5 +14,6 @@ upforgrabs:
   name: up for grabs
   link: https://github.com/adbar/htmldate/issues?q=is%3Aissue+is%3Aopen+label%3A%22up+for+grabs%22
 stats:
-  issue-count: 2
-  last-updated: '2022-08-04T10:35:49Z'
+  issue-count: 4
+  last-updated: '2024-07-16T15:24:59Z'
+  fork-count: 26

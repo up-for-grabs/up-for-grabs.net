@@ -14,5 +14,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/storybookjs/storybook/labels/good%20first%20issue
 stats:
-  issue-count: 36
-  last-updated: '2022-11-18T07:05:46Z'
+  issue-count: 76
+  last-updated: '2024-08-09T00:05:43Z'
+  fork-count: 9170

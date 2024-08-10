@@ -12,5 +12,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/theupdateframework/python-tuf/labels/good%20first%20issue
 stats:
-  issue-count: 11
-  last-updated: '2022-11-18T08:31:12Z'
+  issue-count: 4
+  last-updated: '2024-05-27T06:27:05Z'
+  fork-count: 269

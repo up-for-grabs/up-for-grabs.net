@@ -1,0 +1,16 @@
+---
+name: scanner
+desc: Transform a photo of an A4 document to a pdf
+site: https://github.com/davide710/scanner
+tags:
+- python
+- opencv
+- computer-vision
+- scanner
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/davide710/scanner/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2024-06-16T20:47:38Z'
+  fork-count: 6

@@ -1,0 +1,15 @@
+---
+name: Turtle Projects
+desc: A repository containing creative projects built using the turtle library in python
+site: https://github.com/eskayML/turtle-projects
+tags:
+- python
+- turtle
+- beginner
+upforgrabs:
+  name: help wanted
+  link: https://github.com/eskayML/turtle-projects/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2024-02-25T19:50:30Z'
+  fork-count: 30

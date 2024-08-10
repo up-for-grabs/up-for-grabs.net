@@ -1,0 +1,15 @@
+---
+name: ZITADEL
+desc: An opensource identity and access management platform as an alternative to Auth0
+site: https://github.com/zitadel/zitadel
+tags:
+- go
+- angular
+- typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/zitadel/zitadel/labels/good%20first%20issue
+stats:
+  issue-count: 56
+  last-updated: '2024-08-09T13:55:15Z'
+  fork-count: 497

@@ -9,5 +9,6 @@ upforgrabs:
   name: up for grabs
   link: https://github.com/ionide/ionide-vscode-fsharp/labels/up%20for%20grabs
 stats:
-  issue-count: 15
-  last-updated: '2022-08-17T08:46:33Z'
+  issue-count: 19
+  last-updated: '2024-08-06T13:04:50Z'
+  fork-count: 277

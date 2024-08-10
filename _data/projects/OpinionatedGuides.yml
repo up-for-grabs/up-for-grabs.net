@@ -1,6 +1,6 @@
 ---
 name: Opinionated Guides
-desc: An open source book for Engieering, Music Production, and more
+desc: An open source book for Engineering, Music Production, and more
 site: https://opinionatedguide.github.io#/
 tags:
 - github-pages
@@ -13,3 +13,4 @@ upforgrabs:
   link: https://github.com/opinionatedguide/opinionatedguide.github.io/labels/good%20first%20issue
 stats:
   issue-count: 0
+  fork-count: 0

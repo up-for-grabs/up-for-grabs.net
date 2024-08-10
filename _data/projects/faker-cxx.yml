@@ -1,0 +1,21 @@
+---
+name: Faker C++
+desc: Faker library for generating fake (but realistic) data
+site: https://github.com/cieslarmichal/faker-cxx
+tags:
+- faker
+- fake
+- cpp
+- c++
+- c++20
+- data-generation
+- test-data
+- testing
+- unit-testing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/cieslarmichal/faker-cxx/labels/good%20first%20issue
+stats:
+  issue-count: 51
+  last-updated: '2024-07-24T20:51:24Z'
+  fork-count: 107

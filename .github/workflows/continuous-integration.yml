@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
       - name: npm install, lint, and test
         run: |
           npm ci
@@ -35,7 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up Ruby
-        uses: ruby/setup-ruby@161cd54b698f1fb3ea539faab2e036d409550e3c
+        uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
       - name: Build and test Jekyll site
         run: |
           bundle install

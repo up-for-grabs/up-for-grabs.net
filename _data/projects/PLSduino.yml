@@ -2,9 +2,9 @@ name: PLSduino
 desc: Partial least squares for Arduino and ESP32
 site: https://github.com/makkorjamal/PLSduino
 tags:
-  - Arduino
-  - C++
-  - Regression
+  - arduino
+  - c++
+  - regression
 upforgrabs:
   name: up for grabs
   link: https://github.com/makkorjamal/PLSduino/labels/upforgrabs

@@ -1,0 +1,12 @@
+name: PnS Connect
+desc: A simple student database
+site: https://github.com/Genius-Raptor/PnS-Connect
+tags:
+  - python
+  - flask
+  - webapp
+  - html
+  - css
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Genius-Raptor/PnS-Connect/labels/good%20first%20issue

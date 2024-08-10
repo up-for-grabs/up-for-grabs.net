@@ -6,12 +6,16 @@ desc: >-
 site: https://github.com/TreyWW/MyFinances
 tags:
 - django
-- html
 - python
+- html
+- beginner
+- finances
+- invoices
+- saas
 upforgrabs:
   name: good first issue
   link: https://github.com/TreyWW/MyFinances/labels/good%20first%20issue
 stats:
-  issue-count: 5
-  last-updated: '2024-03-20T10:56:28Z'
-  fork-count: 73
+  issue-count: 3
+  last-updated: '2024-07-14T14:03:08Z'
+  fork-count: 123

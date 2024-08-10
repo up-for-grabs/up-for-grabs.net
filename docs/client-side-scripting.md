@@ -35,7 +35,7 @@ the additional client-side resources:
 ```
 
 The `data-main` attribute tells RequireJS what script to run after it is
-initailized.
+initialized.
 
 ### Configure RequireJS
 

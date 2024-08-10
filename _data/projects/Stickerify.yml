@@ -1,6 +1,6 @@
 ---
 name: Stickerify
-desc: Telegram bot to convert medias in the format required to be used as Telegram stickers
+desc: Telegram bot to convert media in the format required to be used as Telegram stickers
 site: https://github.com/Stickerifier/Stickerify
 tags:
 - telegram

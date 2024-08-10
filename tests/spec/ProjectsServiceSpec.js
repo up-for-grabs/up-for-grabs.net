@@ -35,7 +35,7 @@ describe('ProjectsService', () => {
           expect(projects).toHaveLength(1);
 
           const projectNames = projects.map((p) => p.name);
-          expect(projectNames).toContain('LibGit2Sharp'); // Returns beacuse libGit2Sharp is missing stats attribute
+          expect(projectNames).toContain('LibGit2Sharp'); // Returns because libGit2Sharp is missing stats attribute
         });
 
         it('returns correct projects when date is set "all"', () => {
@@ -45,7 +45,7 @@ describe('ProjectsService', () => {
 
           const projectNames = projects.map((p) => p.name);
           expect(projectNames).toContain('Glimpse');
-          expect(projectNames).toContain('LibGit2Sharp'); // Returns beacuse libGit2Sharp is missing stats attribute
+          expect(projectNames).toContain('LibGit2Sharp'); // Returns because libGit2Sharp is missing stats attribute
         });
 
         it('all projects returned when given falsy values', () => {
@@ -63,7 +63,7 @@ describe('ProjectsService', () => {
           expect(projects).toHaveLength(1);
         });
 
-        it('array of tags searched using case-insensitve comparison', () => {
+        it('array of tags searched using case-insensitive comparison', () => {
           const projects = projectsService.get(['WEB']);
           expect(projects).toHaveLength(1);
         });

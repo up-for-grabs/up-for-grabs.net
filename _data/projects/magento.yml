@@ -1,6 +1,6 @@
 ---
 name: Magento
-desc: Magento eCommerce Plaform
+desc: Magento eCommerce Platform
 site: http://magento.com
 tags:
 - php
@@ -10,5 +10,5 @@ upforgrabs:
   link: https://github.com/magento/magento2/labels/up%20for%20grabs
 stats:
   issue-count: 1
-  last-updated: '2020-11-30T21:07:00Z'
-  fork-count: 9270
+  last-updated: '2024-05-29T13:01:20Z'
+  fork-count: 9289

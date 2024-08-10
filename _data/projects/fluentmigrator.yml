@@ -10,11 +10,11 @@ tags:
 - postgresql
 - sqlserver
 - oracle
-- sqllite
+- sqlite
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fluentmigrator/fluentmigrator/labels/up-for-grabs
 stats:
   issue-count: 5
   last-updated: '2024-03-16T23:25:13Z'
-  fork-count: 648
+  fork-count: 650

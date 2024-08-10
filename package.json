@@ -40,7 +40,7 @@
     "prettier": "^3.3.3",
     "promise-polyfill": "^8.3.0",
     "typescript": "^5.5.3",
-    "underscore": "^1.13.6",
+    "underscore": "^1.13.7",
     "whatwg-fetch": "^3.6.20"
   }
 }

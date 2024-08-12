@@ -17,7 +17,6 @@ jobs:
         uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
         with:
           bundler-cache: true
-          cache-version: 0
 
       - name: Run script to review changed projects
         id: run_script

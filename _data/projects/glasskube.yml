@@ -1,7 +1,6 @@
 ---
 name: Glasskube
-desc: >-
-  A package manager for Kubernetes clusters. It consists of a CLI, web UI and a Kubernetes operator.
+desc: A package manager for Kubernetes clusters. It consists of a CLI, web UI and a Kubernetes operator.
 site: https://glasskube.dev/
 tags:
 - kubernetes
@@ -19,5 +18,5 @@ upforgrabs:
   link: https://github.com/glasskube/glasskube/labels/good%20first%20issue
 stats:
   issue-count: 5
-  last-updated: '2024-08-05T20:33:16Z'
-  fork-count: 153
+  last-updated: '2024-08-13T13:07:28Z'
+  fork-count: 154

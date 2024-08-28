@@ -1,7 +1,8 @@
 ---
-name: .NET Aspire
+name: ".NET Aspire"
 desc: >-
-  .NET Aspire is an opinionated, cloud ready stack for building observable, production ready, distributed applications in .NET
+  .NET Aspire is an opinionated, cloud ready stack for building observable, production ready, distributed
+  applications in .NET
 site: https://github.com/dotnet/aspire
 tags:
 - asp.net
@@ -10,4 +11,7 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/aspire/labels/help%20wanted
-
+stats:
+  issue-count: 18
+  last-updated: '2024-08-21T05:29:27Z'
+  fork-count: 388

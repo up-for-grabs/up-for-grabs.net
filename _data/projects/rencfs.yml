@@ -1,0 +1,19 @@
+---
+name: rencfs
+desc: >-
+  An encrypted file system in Rust that mounts with FUSE on Linux. It can be used to create encrypted
+  directories.
+site: https://github.com/radumarias/rencfs
+tags:
+- filesystem
+- fuse
+- encryption
+- system
+- security
+upforgrabs:
+  name: good first issue
+  link: https://github.com/radumarias/rencfs/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+stats:
+  issue-count: 40
+  last-updated: '2024-08-21T11:45:34Z'
+  fork-count: 14

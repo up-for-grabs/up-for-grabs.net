@@ -1,7 +1,10 @@
 {
   "editor.formatOnSave": true,
   "eslint.alwaysShowStatus": true,
-  "eslint.validate": ["javascript", "html"],
+  "eslint.validate": [
+    "javascript",
+    "html"
+  ],
   "eslint.lintTask.enable": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

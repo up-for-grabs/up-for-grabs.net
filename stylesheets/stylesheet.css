@@ -911,6 +911,50 @@ ul.popular-tags li {
   color: var(--body-color);
 }
 
+.text-input-container {
+  width: 95%;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.text-input-container input[type="text"] {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 5px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #eee), color-stop(15%, #fff));
+  background-image: linear-gradient(#eee 1%, #fff 15%);
+  cursor: text;
+  margin: 1px 0;
+  height: 29px;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #222;
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: normal;
+  border-radius: 0;
+}
+
+.text-input-container input[type="text"]:active,
+.text-input-container input[type="text"]:focus {
+  border: 1px solid #5897fb;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
 @media (max-width: 768px) {
   body {
     padding: 0 0;

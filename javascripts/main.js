@@ -64,12 +64,28 @@ define([
     return `about ${Math.round(elapsed / msPerYear)} years ago`;
   }
 
-  const renderProjects = function (projectService, tags, names, labels, date) {
+  // TODO: refactor arguments to an options object?
+  const renderProjects = function (
+    projectService,
+    tags,
+    names,
+    labels,
+    date,
+    nameSearch,
+    descSearch
+  ) {
     const allTags = projectService.getTags();
 
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectService.get(tags, names, labels, date),
+        projects: projectService.get(
+          tags,
+          names,
+          labels,
+          date,
+          nameSearch,
+          descSearch
+        ),
         relativeTime,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
@@ -78,6 +94,8 @@ define([
         selectedNames: names,
         labels: projectService.getLabels(),
         selectedLabels: labels,
+        nameSearch: nameSearch,
+        descSearch: descSearch,
       })
     );
     date = date || 'invalid';
@@ -116,6 +134,61 @@ define([
           encodeURIComponent($(this).val() || '')
         );
       });
+
+    // Hide search container if any names are directly chosen
+    projectsPanel
+      .find('.name-search-container')
+      .css('display', names?.length ? 'none' : 'block');
+
+    let searchDebounce = null;
+    // local function to safely debounce name/description search inputs
+    function debounceNameDescSearch(elementId, delayMs = 1000) {
+      clearTimeout(searchDebounce);
+      searchDebounce = setTimeout(() => {
+        let newUrl = updateQueryStringParameter(
+          getFilterUrl(),
+          'name-search',
+          encodeURIComponent(
+            projectsPanel.find('input.name-search').val() || ''
+          )
+        );
+        newUrl = updateQueryStringParameter(
+          newUrl,
+          'desc-search',
+          encodeURIComponent(
+            projectsPanel.find('input.desc-search').val() || ''
+          )
+        );
+        location.href = updateQueryStringParameter(newUrl, 'focus', elementId);
+      }, delayMs);
+    }
+
+    projectsPanel
+      .find('input.name-search')
+      .val(nameSearch)
+      .on('change', function () {
+        debounceNameDescSearch('nameSearch', 0);
+      })
+      .on('input', function () {
+        debounceNameDescSearch('nameSearch');
+      });
+
+    projectsPanel
+      .find('input.desc-search')
+      .val(descSearch)
+      .on('change', function () {
+        debounceNameDescSearch('descSearch', 0);
+      })
+      .on('input', function () {
+        debounceNameDescSearch('descSearch');
+      });
+
+    // Logic for focusing input fields
+    const focus = getParameterByName('focus');
+    if (focus) {
+      projectsPanel.find(`input#${focus}`).focus();
+    }
+
     // Logic for checking/unchecking date-buttons
     projectsPanel.find('button.radio-btn').each(function () {
       $(this).click(function () {
@@ -336,7 +409,17 @@ define([
           const names = prepareForHTML(getParameterByName('names'));
           const tags = prepareForHTML(getParameterByName('tags'));
           const date = getParameterByName('date');
-          renderProjects(projectsSvc, tags, names, labels, date);
+          const nameSearch = getParameterByName('name-search');
+          const descSearch = getParameterByName('desc-search');
+          renderProjects(
+            projectsSvc,
+            tags,
+            names,
+            labels,
+            date,
+            nameSearch,
+            descSearch
+          );
         });
 
         this.get('/', () => {

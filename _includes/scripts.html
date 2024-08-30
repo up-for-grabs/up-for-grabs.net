@@ -29,6 +29,14 @@
         <% }) %>
       </select>
     </div>
+    <div class="filters-panel cf text-input-container name-search-container">
+      <label class="filter-label" for="nameSearch">Search in name:</label>
+      <input type="text" class="name-search" id="nameSearch" value="<%nameSearch%>" autocomplete="off" />
+    </div>
+    <div class="filters-panel cf text-input-container">
+      <label class="filter-label" for="descSearch">Search in description:</label>
+      <input type="text" class="desc-search" id="descSearch" value="<%descSearch%>" autocomplete="off" />
+    </div>
     <div class="filters-panel cf">
       <label class="filter-label" for="label">Filter by label: </label>
       <select class="labels-filter" id="label" multiple data-placeholder="Select a label..." >

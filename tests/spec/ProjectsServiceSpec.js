@@ -72,6 +72,65 @@ describe('ProjectsService', () => {
           const projects = projectsService.get(['oops']);
           expect(projects).toHaveLength(0);
         });
+
+        it('returns match when providing name search term', () => {
+          let projects = projectsService.get(null, null, null, null, 'Glimpse');
+          expect(projects).toHaveLength(1);
+          expect(projects[0].name).toBe('Glimpse');
+
+          projects = projectsService.get(null, null, null, null, 'Sha');
+          expect(projects).toHaveLength(1);
+          expect(projects[0].name).toBe('LibGit2Sharp');
+        });
+
+        it('trimmed and case-insensitive name search term', () => {
+          const projects = projectsService.get(
+            null,
+            null,
+            null,
+            null,
+            '  glimpse  '
+          );
+          expect(projects).toHaveLength(1);
+          expect(projects[0].name).toBe('Glimpse');
+        });
+
+        it('returns match when providing description search term', () => {
+          let projects = projectsService.get(
+            null,
+            null,
+            null,
+            null,
+            null,
+            'web debugging'
+          );
+          expect(projects).toHaveLength(1);
+          expect(projects[0].name).toBe('Glimpse');
+
+          projects = projectsService.get(
+            null,
+            null,
+            null,
+            null,
+            null,
+            'might and speed'
+          );
+          expect(projects).toHaveLength(1);
+          expect(projects[0].name).toBe('LibGit2Sharp');
+        });
+
+        it('trimmed and case-insensitive description search term', () => {
+          const projects = projectsService.get(
+            null,
+            null,
+            null,
+            null,
+            null,
+            '  asp.net  '
+          );
+          expect(projects).toHaveLength(1);
+          expect(projects[0].name).toBe('Glimpse');
+        });
       });
     });
 
@@ -169,8 +228,15 @@ describe('ProjectsService', () => {
         expect(projects.length).toBe(1);
       });
 
-      it('Should take all three filters and return a project', () => {
-        const projects = projectsService.get(['c#'], ['1'], ['1']);
+      it('Should take all filters and return a project', () => {
+        const projects = projectsService.get(
+          ['c#'],
+          ['1'],
+          ['1'],
+          null,
+          'Sharp',
+          'might and speed'
+        );
         expect(projects.length).toBe(1);
       });
     });

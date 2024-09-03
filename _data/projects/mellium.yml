@@ -8,8 +8,8 @@ tags:
 - xmpp
 - im
 upforgrabs:
-  name: good first issue
-  link: https://codeberg.org/mellium/xmpp/issues?labels=57316
+  name: Good First Issue
+  link: https://codeberg.org/mellium/xmpp/issues?labels=249347
 stats:
-  issue-count: 13
-  last-updated: '2022-06-05T13:08:55Z'
+  issue-count: 16
+  last-updated: '2024-09-02T07:08:55Z'

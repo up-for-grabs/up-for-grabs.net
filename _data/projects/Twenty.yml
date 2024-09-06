@@ -4,8 +4,8 @@ site: https://twenty.com
 tags:
   - crm
   - typescript
-  - react
-  - node
+  - reactjs
+  - node.js
 upforgrabs:
   name: good first issue
   link: https://github.com/twentyhq/twenty/labels/good%20first%20issue

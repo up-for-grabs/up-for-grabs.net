@@ -14,7 +14,7 @@ jobs:
         with:
           ref: gh-pages
       - name: Setup Ruby
-        uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
+        uses: ruby/setup-ruby@52753b7da854d5c07df37391a986c76ab4615999
         with:
           bundler-cache: true
 

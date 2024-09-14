@@ -1,0 +1,14 @@
+name: Golden ATC Tracking
+desc: A ATC tracking that tracks planes
+site: https://golden-atc-tracking.vercel.app/
+tags:
+  - Planes
+  - JavaScript
+  - OpenLayers
+  - Airport
+  - React JS
+  - Live ATC
+
+upforgrabs:
+  name: Golden ATC Tracking
+  link: https://github.com/GuiChambelPt/Golden-ATC-Tracking

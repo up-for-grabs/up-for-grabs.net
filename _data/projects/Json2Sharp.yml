@@ -1,0 +1,13 @@
+name: Json2Sharp
+desc: A tool to convert JSON objects to class definitions. 
+site: https://github.com/Kaoticz/Json2Sharp
+tags:
+  - .net
+  - .net-core
+  - .net-core-cli
+  - 'c#'
+  - libraries
+  - cli
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Kaoticz/Json2Sharp/labels/help%20wanted

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 4b054449a3f14615fbae4d9fb2b1beef814365cc
+  revision: 6a8de2152e15af9b47eee9946b7716c0fba7f054
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -81,7 +81,7 @@ GEM
       graphql (>= 1.13.0)
     hana (1.3.7)
     http_parser.rb (0.8.0)
-    i18n (1.14.5)
+    i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     jekyll (4.3.3)
       addressable (~> 2.4)

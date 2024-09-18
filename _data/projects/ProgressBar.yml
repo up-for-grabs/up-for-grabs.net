@@ -1,0 +1,13 @@
+---
+name: Progress Bar
+desc: Dynamically generates a progress bar
+site: https://github.com/guibranco/progressbar
+tags:
+- python
+- vercel
+- svg
+- fastapi
+- progressbar
+upforgrabs:
+  name: help wanted
+  link: https://github.com/guibranco/progressbar/labels/help%20wante

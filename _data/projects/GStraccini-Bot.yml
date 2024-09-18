@@ -6,8 +6,8 @@ tags:
 - php
 - github
 - bot
-- "github actions"
-- "github bot"
+- github-actions
+- github-bot
 upforgrabs:
   name: help wanted
   link: https://github.com/guibranco/gstraccini-bot/labels/help%20wanted

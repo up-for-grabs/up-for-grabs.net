@@ -1,0 +1,13 @@
+---
+name: GStraccini bot
+desc: A GitHub bot to automate repeateadly tasks
+site: https://github.com/guibranco/gstraccini-bot
+tags:
+- php
+- github
+- bot
+- "github actions"
+- "github bot"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/guibranco/gstraccini-bot/labels/help%20wante

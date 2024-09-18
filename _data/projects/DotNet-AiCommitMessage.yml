@@ -3,7 +3,7 @@ name: dotnet AI commit message
 desc: A .NET tool that generates commit messages using OpenAI API
 site: https://github.com/guibranco/dotnet-aicommitmessage
 tags:
-- .NET
+- ".net"
 - c#
 - dotnet-tool
 - openai

@@ -1,6 +1,6 @@
 ---
 name: GStraccini bot
-desc: A GitHub bot to automate repeateadly tasks
+desc: A GitHub bot to automate repeatedly tasks
 site: https://github.com/guibranco/gstraccini-bot
 tags:
 - php
@@ -10,4 +10,4 @@ tags:
 - "github bot"
 upforgrabs:
   name: help wanted
-  link: https://github.com/guibranco/gstraccini-bot/labels/help%20wante
+  link: https://github.com/guibranco/gstraccini-bot/labels/help%20wanted

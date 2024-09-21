@@ -25,7 +25,7 @@
     "@babel/core": "^7.25.2",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.10.0",
-    "@types/jest": "^29.5.12",
+    "@types/jest": "^29.5.13",
     "@types/node": "^22",
     "@types/showdown": "^2.0.6",
     "@types/underscore": "^1.11.15",
@@ -39,7 +39,7 @@
     "jest-localstorage-mock": "^2.4.26",
     "prettier": "^3.3.3",
     "promise-polyfill": "^8.3.0",
-    "typescript": "^5.5.4",
+    "typescript": "^5.6.2",
     "underscore": "^1.13.7",
     "whatwg-fetch": "^3.6.20"
   }

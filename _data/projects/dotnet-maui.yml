@@ -16,6 +16,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/maui/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 stats:
-  issue-count: 9
-  last-updated: '2024-08-05T06:20:40Z'
-  fork-count: 1692
+  issue-count: 8
+  last-updated: '2024-09-06T14:27:45Z'
+  fork-count: 1724

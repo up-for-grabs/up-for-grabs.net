@@ -1,0 +1,14 @@
+---
+name: Todo List
+desc: A simple task management tool built with HTML, CSS, and JavaScript.
+site: https://github.com/BinaryBrain45/todo-list
+tags:
+- javascript
+- html
+- css
+upforgrabs:
+  name: good first issue
+  link: https://github.com/BinaryBrain45/todo-list/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 2

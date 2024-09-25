@@ -1,0 +1,14 @@
+---
+name: Basic Car Maintenance
+desc: A basic app to track your car's maintenance events, like fixes, oil changes, etc.
+site: https://github.com/mikaelacaron/Basic-Car-Maintenance
+tags:
+- swift
+- firebase
+upforgrabs:
+  name: good first issue
+  link: https://github.com/mikaelacaron/Basic-Car-Maintenance/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2024-07-30T16:56:26Z'
+  fork-count: 123

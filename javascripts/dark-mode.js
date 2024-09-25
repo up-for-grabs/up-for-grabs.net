@@ -29,6 +29,7 @@ define([], () => {
     root.style.setProperty('--container-border-alt', '#dbdbdb');
     root.style.setProperty('--databox-bg', '#32404d');
     root.style.setProperty('--databox-text', '#7bceff');
+    root.style.setProperty('--fork-svg-fill', '#7c8590');
 
     goBackHomeElement.setAttribute('src', '/images/logo_dark_1.png');
     viewModeElement.setAttribute('src', '/images/sun-light.png');
@@ -51,6 +52,7 @@ define([], () => {
     root.style.setProperty('--container-border', '#eee');
     root.style.setProperty('--databox-bg', '#fff');
     root.style.setProperty('--databox-text', '#2e7ba9');
+    root.style.setProperty('--fork-svg-fill', '#000000');
 
     goBackHomeElement.setAttribute('src', '/images/logo.png');
     viewModeElement.setAttribute('src', '/images/Dim-Night.png');

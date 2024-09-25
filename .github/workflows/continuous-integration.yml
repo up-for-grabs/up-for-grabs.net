@@ -18,9 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
       - name: npm install, lint, and test
         run: |
           npm ci
@@ -34,13 +34,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Ruby 3.2
-        uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939
-        with:
-          ruby-version: '3.2'
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@52753b7da854d5c07df37391a986c76ab4615999
       - name: Build and test Jekyll site
         run: |
           bundle install
           bundle exec rubocop
           bundle exec jekyll build
           bundle exec ruby scripts/validate_data_files.rb
+
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: codespell-project/actions-codespell@v2
+        with:
+          skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
+          ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis

@@ -1,0 +1,19 @@
+---
+name: matrixLab
+desc: matrixLab is a compilation of C++ libraries to carry out fundamental matrix operations in C++
+site: https://github.com/bvks2020sameer/matrixLab
+tags:
+- c++
+- matrix
+- mathematical-engine
+- cmake
+- msvc-2022
+- cross-platform
+- calculation
+- machine-learning
+upforgrabs:
+  name: enhancement
+  link: https://github.com/bvks2020sameer/matrixLab/labels/enhancement
+stats:
+  issue-count: 0
+  fork-count: 1

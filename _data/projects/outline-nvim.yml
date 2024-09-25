@@ -1,0 +1,15 @@
+---
+name: Outline.nvim
+desc: Neovim code outline sidebar powered by LSP.
+site: https://github.com/hedyhli/outline.nvim
+tags:
+- neovim
+- plugin
+- lua
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/hedyhli/outline.nvim/labels/up%20for%20grabs
+stats:
+  issue-count: 7
+  last-updated: '2024-08-13T04:33:54Z'
+  fork-count: 17

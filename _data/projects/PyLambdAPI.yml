@@ -1,0 +1,22 @@
+---
+name: PyLambdAPI
+desc: A lightweight API framework for AWS Lambda
+site: https://pypi.org/project/PyLambdAPI/
+tags:
+- hacktoberfest
+- python
+- api
+- aws
+- lambda
+- cloud
+- rest
+- rest-api
+- apigateway
+- apigateway-lambda
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/KushagraIndurkhya/PyLambdAPI/labels/hacktoberfest
+stats:
+  issue-count: 3
+  last-updated: '2024-05-12T21:26:40Z'
+  fork-count: 5

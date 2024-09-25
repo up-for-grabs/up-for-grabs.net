@@ -1,0 +1,16 @@
+---
+name: Go-Fast CDN
+desc: A simple and fast CDN written in Go meant for beginner programmers to learn about docker and CDNs
+site: https://github.com/kevinanielsen/go-fast-cdn
+tags:
+- development
+- typescript
+- go
+- code
+upforgrabs:
+  name: good first issue
+  link: https://github.com/kevinanielsen/go-fast-cdn/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2024-08-16T06:18:19Z'
+  fork-count: 32

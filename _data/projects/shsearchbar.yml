@@ -1,0 +1,18 @@
+---
+name: SHSearchBar
+desc: A UIKit search bar implementation that is more powerful than the one from Apple.
+site: https://github.com/Blackjacx/SHSearchBar
+tags:
+- search
+- ios
+- cocoapods
+- carthage
+- spm
+- uisearchbar
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Blackjacx/SHSearchBar/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2023-10-10T09:55:20Z'
+  fork-count: 34

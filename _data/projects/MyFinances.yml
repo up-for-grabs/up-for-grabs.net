@@ -1,0 +1,21 @@
+---
+name: MyFinances
+desc: >-
+  MyFinances is a web application that can help you as an individual, or team manage your finances! It
+  utilizes the django framework for the backend.
+site: https://github.com/TreyWW/MyFinances
+tags:
+- django
+- python
+- html
+- beginner
+- finances
+- invoices
+- saas
+upforgrabs:
+  name: good first issue
+  link: https://github.com/TreyWW/MyFinances/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2024-09-19T19:50:52Z'
+  fork-count: 137

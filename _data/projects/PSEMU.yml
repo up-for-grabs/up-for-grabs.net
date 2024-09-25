@@ -1,0 +1,30 @@
+---
+name: PSEMU
+desc: An experimental PS1 Emulator made in c++ 20
+site: https://github.com/Cherrytree56567/PSEMU
+tags:
+- windows
+- emulator
+- cpu
+- cpp
+- custom
+- mips
+- gpu
+- sound
+- playstation
+- help-wanted
+- ps
+- bios
+- emu
+- visualstudio
+- good-first-issue
+- help-needed
+- soundchip
+- psemu
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Cherrytree56567/PSEMU/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2023-09-29T07:00:31Z'
+  fork-count: 5

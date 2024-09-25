@@ -1,0 +1,15 @@
+---
+name: asc
+desc: App Store Connect API access via CLI written in Swift
+site: https://github.com/Blackjacx/Assist
+tags:
+- swift
+- appstoreconnect
+- appstoreconnect-api
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Blackjacx/Assist/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2024-07-22T13:57:26Z'
+  fork-count: 2

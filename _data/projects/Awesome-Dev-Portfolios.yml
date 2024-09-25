@@ -1,0 +1,19 @@
+---
+name: Awesome-Dev-Portfolios
+desc: >-
+  This repo helps developers who wants to build portfolio by taking inspiration from already deployed
+  Portfolios. For those who already built, Showcase your Awesome Portfolio to the world.
+site: https://awesome-dev-portfolios.vercel.app
+tags:
+- reactjs
+- tailwindcss
+- portfolio-website
+- developer-portfolio
+- good-first-issue
+upforgrabs:
+  name: Portfolio Addition
+  link: https://github.com/Kiran1689/Awesome-Dev-Portfolios/labels/Portfolio%20Addition
+stats:
+  issue-count: 1
+  last-updated: '2024-02-06T05:59:52Z'
+  fork-count: 69

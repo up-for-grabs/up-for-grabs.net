@@ -1,0 +1,22 @@
+---
+name: IPFS-Desktop
+desc: An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux.
+site: https://docs.ipfs.tech/install/ipfs-desktop/
+tags:
+- ipfs
+- p2p
+- desktop
+- electron
+- menubar
+- protocol
+- dweb
+- ipfs-desktop
+- ipfs-gui
+upforgrabs:
+  name: good first issue
+  link: >-
+    https://github.com/ipfs/ipfs-desktop/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22
+stats:
+  issue-count: 19
+  last-updated: '2024-02-06T02:04:13Z'
+  fork-count: 858

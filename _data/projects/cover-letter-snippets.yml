@@ -1,6 +1,6 @@
 ---
 name: Cover Letter Snippets
-desc: A local appliation for parsing job descriptions and creating a customized, relevant cover letter
+desc: A local application for parsing job descriptions and creating a customized, relevant cover letter
 site: https://github.com/mattcheah/cover-letter-snippets
 tags:
 - node.js
@@ -19,4 +19,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2018-10-16T18:09:03Z'
-  fork-count: 30
+  fork-count: 31

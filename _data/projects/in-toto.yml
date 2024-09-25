@@ -12,6 +12,5 @@ upforgrabs:
   name: Up for grabs
   link: https://github.com/in-toto/in-toto/labels/Up%20for%20grabs
 stats:
-  issue-count: 2
-  last-updated: '2023-06-19T07:38:07Z'
-  fork-count: 129
+  issue-count: 0
+  fork-count: 137

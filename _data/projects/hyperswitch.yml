@@ -1,0 +1,21 @@
+---
+name: Hyperswitch
+desc: "\U0001F980 An open source payments switch to make Payments fast, reliable, and affordable."
+site: https://github.com/juspay/hyperswitch/
+tags:
+- rust
+- sdk
+- postgresql
+- payments
+- orchestration
+- redis
+- high-performance
+- beginner-friendly
+upforgrabs:
+  name: hacktoberfest
+  link: >-
+    https://github.com/juspay/hyperswitch/issues?q=is%3Aopen+is%3Aissue+label%3Ahacktoberfest+no%3Aassignee
+stats:
+  issue-count: 21
+  last-updated: '2024-09-20T12:37:13Z'
+  fork-count: 1231

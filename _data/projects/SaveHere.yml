@@ -1,0 +1,18 @@
+---
+name: SaveHere
+desc: A Minimal Cloud File Manager
+site: https://github.com/gudarzi/SaveHere
+tags:
+- c#
+- ".net"
+- reactjs
+- docker
+- nginx
+- self-hosted
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/gudarzi/SaveHere/labels/up%20for%20grabs
+stats:
+  issue-count: 16
+  last-updated: '2024-09-20T13:52:44Z'
+  fork-count: 6

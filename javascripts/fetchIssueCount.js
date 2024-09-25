@@ -110,7 +110,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
    *
    *  - cached values are used if re-requested within the next 24 hours
    *  - ETags are included on the request, if found in the cache
-   *  - Rate-limiting will report an error, and no further reqeuests will be
+   *  - Rate-limiting will report an error, and no further requests will be
    *    made until that has period has elapsed.
    *
    * @param {string} ownerAndName

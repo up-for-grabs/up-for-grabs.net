@@ -1,0 +1,17 @@
+---
+name: Wordview
+desc: A Python package for Exploratory Data Analysis (EDA) for text-based data.
+site: https://github.com/meghdadFar/wordview
+tags:
+- nlp
+- text-analysis
+- exploratory-data-analysis
+- multiword-expressions
+- anomalies
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/meghdadFar/wordview/labels/up%20for%20grabs
+stats:
+  issue-count: 5
+  last-updated: '2024-04-08T07:23:29Z'
+  fork-count: 1

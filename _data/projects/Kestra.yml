@@ -1,0 +1,11 @@
+name: Kestra
+desc: Orchestration and automation platform to execute millions of scheduled and event-driven workflows declaratively in code and from the UI
+site: https://kestra.io
+tags:
+  - workflow
+  - data
+  - orchestration
+  - java
+upforgrabs:
+  name: good first issue
+  link: https://github.com/kestra-io/kestra/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

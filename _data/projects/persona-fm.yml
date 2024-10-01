@@ -2,8 +2,8 @@ name: persona.fm
 desc: Persona FM uses the Last FM API and Google Gemini AI to create a weekly listener persona
 site: https://personafm.vercel.app/
 tags:
-  - react
-  - nodejs
+  - reactjs
+  - node.js
   - google
   - gemini
   - lastfm

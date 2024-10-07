@@ -1,0 +1,20 @@
+---
+name: persona.fm
+desc: Persona FM uses the Last FM API and Google Gemini AI to create a weekly listener persona
+site: https://personafm.vercel.app/
+tags:
+- reactjs
+- node.js
+- google
+- gemini
+- lastfm
+- drizzle
+- vercel
+- supabase
+upforgrabs:
+  name: good first issue
+  link: https://github.com/raspberri05/persona.fm/labels/good%20first%20issue
+stats:
+  issue-count: 13
+  last-updated: '2024-10-01T17:32:21Z'
+  fork-count: 2

@@ -1,0 +1,17 @@
+---
+name: dotnet AI commit message
+desc: A .NET tool that generates commit messages using OpenAI API
+site: https://github.com/guibranco/dotnet-aicommitmessage
+tags:
+- ".net"
+- c#
+- dotnet-tool
+- openai
+- ai
+- ai-api
+- commit-message
+- automation
+- git-hooks
+upforgrabs:
+  name: help wanted
+  link: https://github.com/guibranco/dotnet-aicommitmessage/labels/help%20wanted

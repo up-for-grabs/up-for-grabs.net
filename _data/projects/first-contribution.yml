@@ -1,0 +1,10 @@
+name: first-contribution
+desc: a repository where people new to open source can make their first contribution and learn about git and github
+site: https://github.com/raspberri05/first-contribution
+tags:
+  - tutorial
+  - beginner
+  - contributions-welcome
+upforgrabs:
+  name: good first issue
+  link: https://github.com/raspberri05/first-contribution/labels/good%20first%20issue

@@ -1,0 +1,13 @@
+---
+name: Pancake
+desc: A toolkit for PHP projects
+site: https://github.com/guibranco/pancake
+tags:
+- php
+- packagist
+- toolkit
+- mini-framework
+- framework
+upforgrabs:
+  name: help wanted
+  link: https://github.com/guibranco/pancake/labels/help%20wanted

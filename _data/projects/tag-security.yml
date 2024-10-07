@@ -11,5 +11,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/cncf/tag-security/labels/good%20first%20issue
 stats:
-  issue-count: 0
-  fork-count: 507
+  issue-count: 1
+  last-updated: '2024-09-20T17:46:02Z'
+  fork-count: 509

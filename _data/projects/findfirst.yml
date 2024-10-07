@@ -1,15 +1,20 @@
+---
 name: FindFirst
-desc: Organizing the information that matters to you and your teams. The knowledge of your world. 
+desc: Organizing the information that matters to you and your teams. The knowledge of your world.
 site: https://findfirst.dev
 tags:
-  - java
-  - spring-boot
-  - tags
-  - reactjs
-  - nextjs
-  - tagging
-  - bookmarks
-  - knowledge-base
+- java
+- spring-boot
+- tags
+- reactjs
+- nextjs
+- tagging
+- bookmarks
+- knowledge-base
 upforgrabs:
   name: good first issue
   link: https://github.com/R-Sandor/FindFirst/labels/good%20first%20issue
+stats:
+  issue-count: 8
+  last-updated: '2024-10-06T08:45:01Z'
+  fork-count: 4

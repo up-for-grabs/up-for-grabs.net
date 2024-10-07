@@ -1,0 +1,10 @@
+name: raspberri05.github.io
+desc: source code for my portfolio website
+site: https://nayasinghania.com/
+tags:
+  - jekyll
+  - portfolio
+  - portfolio-website
+upforgrabs:
+  name: good first issue
+  link: https://github.com/raspberri05/raspberri05.github.io/labels/good%20first%20issue

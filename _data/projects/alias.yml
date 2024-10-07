@@ -1,0 +1,11 @@
+name: alias
+desc: a collection of aliases to help speed up development
+site: https://alias-docs.onrender.com/
+tags:
+  - shell
+  - jekyll
+  - bash
+  - aliases
+upforgrabs:
+  name: good first issue
+  link: https://github.com/raspberri05/alias/labels/good%20first%20issue

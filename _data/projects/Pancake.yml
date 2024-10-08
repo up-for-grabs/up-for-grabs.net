@@ -11,3 +11,7 @@ tags:
 upforgrabs:
   name: help wanted
   link: https://github.com/guibranco/pancake/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2024-08-22T00:08:44Z'
+  fork-count: 1

@@ -1,15 +1,20 @@
+---
 name: Eclipse JKube
 desc: Build and deploy Java applications on Kubernetes
 site: https://eclipse.dev/jkube/
 tags:
-  - java
-  - kubernetes
-  - open-shift
-  - maven
-  - gradle
-  - containers
-  - docker
-  - jib
+- java
+- kubernetes
+- open-shift
+- maven
+- gradle
+- containers
+- docker
+- jib
 upforgrabs:
   name: first-timers-only
   link: https://github.com/eclipse-jkube/jkube/labels/first-timers-only
+stats:
+  issue-count: 16
+  last-updated: '2024-10-08T13:11:48Z'
+  fork-count: 499

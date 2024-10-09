@@ -13,5 +13,6 @@ upforgrabs:
   name: hacktoberfest
   link: https://github.com/anand346/findissues/labels/hacktoberfest
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2024-10-09T13:19:42Z'
   fork-count: 69

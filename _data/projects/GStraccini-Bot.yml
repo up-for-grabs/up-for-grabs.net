@@ -10,8 +10,8 @@ tags:
 - github-bot
 upforgrabs:
   name: help wanted
-  link: https://github.com/guibranco/gstraccini-bot/labels/help%20wanted
+  link: https://github.com/guibranco/gstraccini-bot-service/labels/help%20wanted
 stats:
-  issue-count: 7
-  last-updated: '2024-10-08T10:39:40Z'
+  issue-count: 31
+  last-updated: '2024-10-09T11:56:08Z'
   fork-count: 0

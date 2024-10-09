@@ -1,0 +1,19 @@
+---
+name: Ameliorate
+desc: A tool for analyzing debatable problems effectively, collaboratively, and with an open mind.
+site: https://ameliorate.app/
+tags:
+- javascript
+- typescript
+- reactjs
+- nextjs
+- tailwindcss
+- material-ui
+- critical-thinking
+upforgrabs:
+  name: good first issue
+  link: https://github.com/amelioro/ameliorate/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+stats:
+  issue-count: 6
+  last-updated: '2024-10-08T13:30:30Z'
+  fork-count: 6

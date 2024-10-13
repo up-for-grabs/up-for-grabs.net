@@ -1,13 +1,13 @@
 ---
-name: CASE
-desc: A frameworkless and Open Source tool to build CRUD applications as dashboards or admin panel.
-site: https://case.app
+name: Manifest
+desc: A complete backend that fits into a single YAML file.
+site: https://manifest.build
 tags:
 - appbuilder
 - typescript
 - adminpanel
 - crud
-- frameworkless
+- backend
 - opensource
 - lowcode
 upforgrabs:
@@ -15,5 +15,5 @@ upforgrabs:
   link: https://github.com/mnfst/manifest/labels/good%20first%20issue
 stats:
   issue-count: 28
-  last-updated: '2024-10-08T13:49:00Z'
-  fork-count: 41
+  last-updated: '2024-10-08T16:13:34Z'
+  fork-count: 42

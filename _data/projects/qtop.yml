@@ -2,9 +2,9 @@ name: qtop
 desc: qtop (pronounced queue-top) is a tool written in order to monitor the state of Queueing Systems, along with related information relevant on HPC & grid clusters. At present it supports **PBS, SGE & OAR** families but it is designed to be extendible. 
 site: https://github.com/qtop/qtop
 tags:
-  - HPC
+  - hpc
   - supercomputing
-  - PBS
+  - pbs
   - openpbs
   - sge
   - gridengine

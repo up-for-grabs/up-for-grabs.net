@@ -1,31 +1,32 @@
+---
 name: React Big Schedule
 desc: React Big Schedule is a powerful and intuitive scheduler and resource planning solution built with React. Seamlessly integrate this modern, browser-compatible component into your applications to effectively manage time, appointments, and resources. With drag-and-drop functionality, interactive UI, and granular views, react-big-schedule empowers users to effortlessly schedule and allocate resources with precision. Enhance productivity and streamline your workflow with this React-based solution, designed to optimize time management and simplify calendar-based operations. Perfect for applications requiring advanced scheduling capabilities, react-big-schedule offers a seamless and intuitive experience for managing appointments, resource allocation, and time slots.
 site: https://react-big-schedule.vercel.app
 tags:
-  - scheduling
-  - calendar
-  - react-component
-  - javascript-library
-  - open-source
-  - frontend
-  - UI-component
-  - time-management
-  - react-big-schedule
-  - react-big-scheduler
-  - react-scheduler
-  - react-calendar
-  - react-js
-  - scheduler-library
-  - drag-and-drop
-  - event-management
-  - timeline
-  - resource-scheduler
-  - day-view
-  - week-view
-  - month-view
-  - customizable
-  - theming
-  - responsive-design
+- scheduling
+- calendar
+- react-component
+- javascript-library
+- open-source
+- frontend
+- UI-component
+- time-management
+- react-big-schedule
+- react-big-scheduler
+- react-scheduler
+- react-calendar
+- react-js
+- scheduler-library
+- drag-and-drop
+- event-management
+- timeline
+- resource-scheduler
+- day-view
+- week-view
+- month-view
+- customizable
+- theming
+- responsive-design
 upforgrabs:
   name: good first issue
   link: https://github.com/react-scheduler/react-big-schedule

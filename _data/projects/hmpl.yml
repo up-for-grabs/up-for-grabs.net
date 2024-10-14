@@ -1,0 +1,14 @@
+---
+name: hmpl
+desc: Template language for displaying UI from server to client
+site: https://hmpl-lang.github.io/
+tags:
+- language
+- javascript
+- rest
+- fetch
+- hmpl
+- html
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hmpl-lang/hmpl/labels/good%20first%20issue

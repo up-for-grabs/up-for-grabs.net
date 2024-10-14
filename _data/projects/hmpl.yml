@@ -1,7 +1,7 @@
 ---
 name: hmpl
 desc: Template language for displaying UI from server to client
-site: https://hmpl-lang.github.io/
+site: https://hmpl-lang.github.io
 tags:
 - language
 - javascript

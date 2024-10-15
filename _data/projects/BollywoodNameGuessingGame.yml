@@ -1,0 +1,14 @@
+name: Bollywood Name Guessing Game
+desc: A web-based game where players guess consonants to reveal the name of a Bollywood movie.
+site: https://bollywood-name-guessing-game.vercel.app/
+tags:
+  - Bollywood
+  - guessing-game
+  - flask
+  - python
+  - fun
+  - movies
+  - web-app
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Saurav-IIITU/bollywoodNameGuessingGame/labels/help%20wanteds

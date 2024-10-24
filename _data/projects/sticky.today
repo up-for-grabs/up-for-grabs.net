@@ -1,0 +1,12 @@
+name: Sticky
+desc: Organize thoughts, collaborate in real-time, and access your ideas from anywhere!
+site: https://github.com/hamzasaleem2/sticky
+tags:
+  - productivity
+  - notes
+  - sticky notes
+  - collaboration
+  - utilities
+upforgrabs:
+  name: add docker support
+  link: https://github.com/hamzasaleem2/sticky/issues/2

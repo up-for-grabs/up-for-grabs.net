@@ -2,9 +2,9 @@ name: Noted
 desc: A to-do list application built in React and Electron.
 site: https://github.com/CosmoCreeper/noted
 tags:
-  - to-do list
+  - to-do-list
   - notes
-  - react
+  - reactjs
   - electron
   - windows
   - linux

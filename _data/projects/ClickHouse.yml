@@ -17,6 +17,6 @@ upforgrabs:
   name: easy task
   link: https://github.com/ClickHouse/ClickHouse/labels/easy%20task
 stats:
-  issue-count: 99
-  last-updated: '2024-10-15T18:57:19Z'
-  fork-count: 6850
+  issue-count: 100
+  last-updated: '2024-10-30T22:19:33Z'
+  fork-count: 6886

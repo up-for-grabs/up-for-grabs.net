@@ -1,7 +1,7 @@
 ---
 name: hmpl
-desc: Template language for displaying UI from server to client
-site: https://hmpl-lang.github.io
+desc: Server-oriented customizable templating for JavaScript
+site: https://hmpl-lang.dev
 tags:
 - language
 - javascript
@@ -11,8 +11,8 @@ tags:
 - html
 upforgrabs:
   name: help wanted
-  link: https://github.com/hmpl-lang/hmpl/labels/help%20wanted
+  link: https://github.com/hmpl-language/hmpl/labels/help%20wanted
 stats:
   issue-count: 4
-  last-updated: '2024-10-16T05:36:54Z'
-  fork-count: 11
+  last-updated: '2024-10-31T12:08:10Z'
+  fork-count: 14

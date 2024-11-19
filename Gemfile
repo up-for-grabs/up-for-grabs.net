@@ -11,7 +11,7 @@ gem 'json_schemer'
 gem 'octokit'
 gem 'safe_yaml'
 gem 'graphql-client'
-gem 'graphql', '~> 2.3.18'
+gem 'graphql', '~> 2.3.20'
 
 gem 'up_for_grabs_tooling', :github => 'up-for-grabs/tooling', :branch => 'main'
 

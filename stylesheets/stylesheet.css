@@ -759,6 +759,20 @@ form {
   border-width: 1em 1em 0 0;
 }
 
+#page-navigation h1 {
+  display: inline-block;
+} 
+
+#page-navigation * {
+  background: none;
+}
+
+#page-navigation ul,
+#page-navigation ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
 #downloads {
   position: absolute;
   width: 210px;
@@ -947,6 +961,12 @@ ul.popular-tags li {
 
   #main-container .block {
     padding: 20px;
+  }
+
+  #page-navigation h1,
+  #page-navigation ul,
+  #page-navigation ul li {
+    display: block;
   }
 
   table.projects td {

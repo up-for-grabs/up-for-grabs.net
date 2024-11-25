@@ -16,5 +16,6 @@ upforgrabs:
   link: >-
     https://github.com/apache/incubator-answer/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 stats:
-  issue-count: 0
-  fork-count: 1003
+  issue-count: 1
+  last-updated: '2024-11-25T04:16:48Z'
+  fork-count: 1006

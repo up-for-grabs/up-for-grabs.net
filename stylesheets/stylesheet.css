@@ -784,7 +784,7 @@ form {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
   transition: transform ease 0.2s;
 }
 

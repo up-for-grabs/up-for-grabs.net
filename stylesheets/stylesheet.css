@@ -875,18 +875,21 @@ form {
   width: 16px;
 }
 
-.popular-tags {
+.popular-tags,
+.tags {
   display: flex;
   flex-wrap: wrap;
   gap: 1em 0.5em;
 }
 
-ul.popular-tags li {
+ul.popular-tags li,
+ul.tags li {
   list-style: none;
   padding-left: 0;
 }
 
-.popular-tags a {
+.popular-tags a,
+.tags a {
   display: inline-flex;
   align-content: center;
   padding: 0.5em 0.75em;
@@ -899,7 +902,10 @@ ul.popular-tags li {
 
 .popular-tags a:hover,
 .popular-tags a:focus,
-.popular-tags a:focus-within {
+.popular-tags a:focus-within,
+.tags a:hover,
+.tags a:focus,
+.tags a:focus-within {
   background-color: rgba(var(--container-rgb), 0.2);
   border-color: var(--databox-text);
   color: var(--databox-text);

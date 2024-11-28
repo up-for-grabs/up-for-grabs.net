@@ -1,10 +1,10 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: 5f3f57294b6be42df19a138473c938b463669576
+  revision: e515105703e1a06b32b837a187570db4ad23565b
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
-      graphql (>= 2.1.12, < 2.4.0)
+      graphql (>= 2.1.12, < 2.5.0)
       graphql-client (~> 0.18)
       json_schemer (>= 0.2, < 3.0)
       octokit (>= 5.6, < 10.0)
@@ -40,12 +40,12 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.12.0)
-      faraday-net_http (>= 2.0, < 3.4)
+    faraday (2.12.1)
+      faraday-net_http (>= 2.0, < 3.5)
       json
       logger
-    faraday-net_http (3.3.0)
-      net-http
+    faraday-net_http (3.4.0)
+      net-http (>= 0.5.0)
     ffi (1.17.0)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
@@ -107,7 +107,7 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.7.5)
+    json (2.8.2)
     json_schemer (2.3.0)
       bigdecimal
       hana (~> 1.3)
@@ -124,8 +124,8 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.1)
     mercenary (0.4.0)
-    minitest (5.25.1)
-    net-http (0.4.1)
+    minitest (5.25.2)
+    net-http (0.5.0)
       uri
     octokit (9.2.0)
       faraday (>= 1, < 3)
@@ -215,7 +215,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
-    uri (0.13.1)
+    uri (1.0.2)
     webrick (1.9.0)
 
 PLATFORMS

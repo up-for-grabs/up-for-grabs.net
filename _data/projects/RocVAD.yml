@@ -1,0 +1,17 @@
+---
+name: Roc VAD
+desc: macOS Virtual Audio Device (VAD) for real-time audio streaming.
+site: https://github.com/roc-streaming/roc-vad
+tags:
+- c++
+- audio
+- coreaudio
+- streaming
+- networking
+upforgrabs:
+  name: help wanted
+  link: https://github.com/roc-streaming/roc-vad/labels/help%20wanted
+stats:
+  issue-count: 7
+  last-updated: '2024-10-09T09:50:47Z'
+  fork-count: 2

@@ -1,0 +1,18 @@
+---
+name: Noted
+desc: A to-do list application built in React and Electron.
+site: https://github.com/CosmoCreeper/noted
+tags:
+- to-do-list
+- notes
+- reactjs
+- electron
+- windows
+- linux
+upforgrabs:
+  name: help wanted
+  link: https://github.com/CosmoCreeper/noted/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2024-10-29T16:04:47Z'
+  fork-count: 0

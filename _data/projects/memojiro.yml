@@ -1,0 +1,15 @@
+---
+name: Memojiro
+desc: A minimalist note taking app to stop procastinating and free up the mind
+site: https://github.com/aawgit/memojiro
+tags:
+- notes
+- mind
+- productivity
+upforgrabs:
+  name: help wanted
+  link: https://github.com/aawgit/memojiro/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+stats:
+  issue-count: 2
+  last-updated: '2024-09-05T14:40:59Z'
+  fork-count: 0

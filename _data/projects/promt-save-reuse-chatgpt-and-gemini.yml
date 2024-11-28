@@ -1,0 +1,19 @@
+---
+name: 'Prompt Save Reuse: ChatGPT & Gemini'
+desc: >-
+  A Chrome extension to enhance productivity by saving and reusing prompts on AI platforms like ChatGPT
+  and Gemini.
+site: https://github.com/atj393/promt-save-reuse-chatgpt-and-gemini
+tags:
+- chrome
+- extension
+- productivity
+- chatgpt
+- gemini
+upforgrabs:
+  name: good first issue
+  link: https://github.com/atj393/promt-save-reuse-chatgpt-and-gemini/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2024-10-19T11:02:42Z'
+  fork-count: 15

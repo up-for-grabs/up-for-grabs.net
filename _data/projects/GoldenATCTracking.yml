@@ -1,0 +1,16 @@
+---
+name: Golden ATC Tracking
+desc: Track atc all around the globe
+site: https://golden-atc-tracking.vercel.app/
+tags:
+- atc
+- javascript
+- reactjs
+- maps
+- planes
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/GuiChambelPt/Golden-ATC-Tracking/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 0

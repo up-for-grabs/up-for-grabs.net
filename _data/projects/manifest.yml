@@ -1,0 +1,19 @@
+---
+name: Manifest
+desc: A complete backend that fits into a single YAML file.
+site: https://manifest.build
+tags:
+- appbuilder
+- typescript
+- adminpanel
+- crud
+- backend
+- opensource
+- lowcode
+upforgrabs:
+  name: good first issue
+  link: https://github.com/mnfst/manifest/labels/good%20first%20issue
+stats:
+  issue-count: 12
+  last-updated: '2024-11-25T03:51:20Z'
+  fork-count: 51

@@ -1,0 +1,16 @@
+---
+name: Qtcord
+desc: Lightweight Discord client written in Python and Qt.
+site: https://github.com/mak448a/Qtcord
+tags:
+- python
+- qt
+- pyside6
+- discord-client
+upforgrabs:
+  name: good first issue
+  link: https://github.com/mak448a/Qtcord/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2024-11-18T02:28:12Z'
+  fork-count: 4

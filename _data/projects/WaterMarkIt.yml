@@ -1,0 +1,18 @@
+---
+name: WaterMarkIt
+desc: A lightweight Java library for adding watermarks to various file types, including PDFs and images
+site: https://github.com/OlegCheban/WaterMarkIt
+tags:
+- watermarking
+- watermark
+- watermark-image
+- pdfbox
+- java
+- kotlin
+upforgrabs:
+  name: good first issue
+  link: https://github.com/OlegCheban/WaterMarkIt/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2024-11-20T12:20:48Z'
+  fork-count: 2

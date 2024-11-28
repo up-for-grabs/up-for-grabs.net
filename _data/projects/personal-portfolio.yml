@@ -1,0 +1,17 @@
+---
+name: Personal Portfolio
+desc: The only developer portfolio template you will ever need with modern UI/UX.
+site: https://parthmittal.netlify.app/
+tags:
+- javascript
+- reactjs
+- portfolio
+- web
+- ui-ux
+upforgrabs:
+  name: help wanted
+  link: https://github.com/mittal-parth/personal-portfolio/labels/help%20wanted
+stats:
+  issue-count: 3
+  last-updated: '2024-11-08T04:29:01Z'
+  fork-count: 66

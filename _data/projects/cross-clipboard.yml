@@ -1,0 +1,18 @@
+---
+name: Cross Clipboard
+desc: An open source cross-platform clipboard sharing.
+site: https://github.com/ntsd/cross-clipboard
+tags:
+- go
+- clipboard
+- p2p
+- hacktoberfest
+- libp2p
+- tview
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ntsd/cross-clipboard/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2024-10-19T18:37:31Z'
+  fork-count: 1

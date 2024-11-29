@@ -144,7 +144,7 @@
       </div>
       <div class="details-tags">
         <% if (project.tags) { %>
-        <ul class="tags">
+        <ul class="tags" aria-label="project tags">
           <% _.each(project.tags, function(tag, i) { %>
           <li>
             <a href="#/filters?tags=<%-encodeURIComponent(tag)%>" tabindex="-1"

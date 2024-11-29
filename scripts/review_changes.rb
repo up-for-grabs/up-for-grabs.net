@@ -7,6 +7,10 @@ require 'pathname'
 require 'graphql/client'
 require 'graphql/client/http'
 
+require 'i18n'
+# this clears the default paths, which are related to activesupport and unrelated to json_schemer
+I18n.load_path.clear
+
 require 'open3'
 
 require 'up_for_grabs_tooling'

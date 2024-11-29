@@ -1,0 +1,18 @@
+---
+name: Scribe-Android
+desc: Keyboards for language learners with translation, verb conjugation and more!
+site: https://github.com/scribe-org/Scribe-Android
+tags:
+- kotlin
+- android
+- language-learning
+- wikidata
+- keyboard
+- grammar
+upforgrabs:
+  name: good first issue
+  link: https://github.com/scribe-org/Scribe-Android/labels/good%20first%20issue
+stats:
+  issue-count: 12
+  last-updated: '2024-11-29T09:40:37Z'
+  fork-count: 42

@@ -56,8 +56,13 @@ def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
     unless clean
       system("git checkout -b #{branch_name}")
       system('git add _data/projects/')
-      system("git commit -m 'removed deprecated projects'")
-      system("git push origin #{branch_name}") if apply_changes
+      # Check if there are changes staged.
+      if system('git diff --cached --quiet')
+        puts 'No changes to commit.'
+      else
+        system("git commit -m 'removed deprecated projects'")
+        system("git push origin #{branch_name}") if apply_changes
+      end
     end
   end
 

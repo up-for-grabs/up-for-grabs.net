@@ -62,6 +62,7 @@ def cleanup_deprecated_projects(root, current_repo, projects, apply_changes)
       else
         system("git commit -m 'removed deprecated projects'")
         system("git push origin #{branch_name}") if apply_changes
+      end
     end
   end
 

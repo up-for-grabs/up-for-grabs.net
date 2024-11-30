@@ -1,0 +1,67 @@
+name: Update project stats (scheduled)
+
+on:
+  workflow_dispatch: 
+  schedule:
+    # runs at 1300 daily
+    - cron: '0 13 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@a2bbe5b1b236842c1cb7dd11e8e3b51e0a616acc
+        with:
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Update stats for all projects
+        run: bundle exec ruby scripts/update_stats_only.rb
+        env:
+          GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
+
+      - name: Preview git difference
+        run: |
+          git status
+          git diff _data/projects/
+
+      - name: Commit the changes (if any)
+        id: git_commit
+        run: |
+          echo 'BASE=$(git rev-parse HEAD)' >> "$GITHUB_OUTPUT"
+          git status
+          changes=$(git diff --name-only _data/projects/ | wc -l)
+          if [[ $changes -eq 0 ]]; then
+            echo "There are no changes to commit. Exiting..."
+            echo 'CHANGES=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo 'CHANGES=true' >> "$GITHUB_OUTPUT"
+
+          git config user.name "shiftbot"
+          git config user.email "12331315+shiftbot@users.noreply.github.com"
+
+          git add _data/projects/
+          git commit -m "Update project stats (`date`)"
+          echo 'HEAD=$(git rev-parse HEAD)' >> "$GITHUB_OUTPUT"
+
+      - name: Validate all changed projects
+        run: bundle exec ruby scripts/review_changes.rb
+        if: ${{ steps.git_commit.outputs.CHANGES }}
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
+
+      # TODO: git push
+      - name: Push the changes to the default branch (if any)
+        if: ${{ steps.git_commit.outputs.CHANGES }}
+        id: git_push
+        run: |
+          echo "TODO: push changes to default branch"

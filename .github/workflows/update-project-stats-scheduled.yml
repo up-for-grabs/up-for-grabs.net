@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SHIFTBOT_TOKEN }}
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@a2bbe5b1b236842c1cb7dd11e8e3b51e0a616acc
@@ -68,4 +70,4 @@ jobs:
         if: ${{ steps.git_commit.outputs.CHANGES && steps.validate.outputs.EXIT_CODE == 0 }}
         id: git_push
         run: |
-          echo "TODO: push changes to default branch"
+          git push

@@ -9,7 +9,7 @@ require 'graphql/client/http'
 
 require 'up_for_grabs_tooling'
 
-def update(project, apply_changes: true)
+def update(project, apply_changes: false)
   return unless project.github_project?
 
   result = GitHubRepositoryLabelActiveCheck.run(project)
@@ -74,6 +74,7 @@ end
 
 current_repo = ENV.fetch('GITHUB_REPOSITORY', nil)
 root_directory = ENV.fetch('GITHUB_WORKSPACE', nil)
+apply_changes = ENV.fetch('APPLY_CHANGES', false)
 
 warn "Inspecting projects files for '#{current_repo}'"
 
@@ -83,7 +84,7 @@ projects = Project.find_in_directory(root_directory)
 
 warn 'Iterating on project updates'
 
-projects.each { |p| update(p) }
+projects.each { |p| update(p, apply_changes:) }
 
 warn 'Completed iterating on project updates'
 

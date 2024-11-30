@@ -24,6 +24,7 @@ jobs:
         run: bundle exec ruby scripts/update_stats_only.rb
         env:
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
+          APPLY_CHANGES: true
 
       - name: Preview git difference
         run: |

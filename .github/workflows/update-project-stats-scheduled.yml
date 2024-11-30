@@ -53,8 +53,10 @@ jobs:
           echo 'HEAD=$(git rev-parse HEAD)' >> "$GITHUB_OUTPUT"
 
       - name: Validate all changed projects
+        id: validate
         run: |
           MESSAGE=$(bundle exec ruby scripts/review_changes.rb)
+          echo 'EXIT_CODE=$?' >> "$GITHUB_OUTPUT"
           echo $MESSAGE
         if: ${{ steps.git_commit.outputs.CHANGES }}
         env:
@@ -62,9 +64,8 @@ jobs:
           HEAD_SHA: ${{ steps.git_commit.outputs.HEAD }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
 
-      # TODO: git push
       - name: Push the changes to the default branch (if any)
-        if: ${{ steps.git_commit.outputs.CHANGES }}
+        if: ${{ steps.validate.outputs.EXIT_CODE == 0 }}
         id: git_push
         run: |
           echo "TODO: push changes to default branch"

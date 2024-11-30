@@ -225,7 +225,7 @@ end
 
 head_sha = ENV.fetch('HEAD_SHA', nil)
 base_sha = ENV.fetch('BASE_SHA', nil)
-git_remote_url = ENV.fetch('GIT_REMOTE_URL', nil)
+git_remote_url = ENV.fetch('GIT_REMOTE_URL', "https://github.com/up-for-grabs/up-for-grabs.net")
 dir = ENV.fetch('GITHUB_WORKSPACE', nil)
 
 range = "#{base_sha}...#{head_sha}"

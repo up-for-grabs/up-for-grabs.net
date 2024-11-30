@@ -15,6 +15,8 @@ require 'open3'
 
 require 'up_for_grabs_tooling'
 
+DEFAULT_REPOSITORY_URL ='https://github.com/up-for-grabs/up-for-grabs.net.git'
+
 def run(cmd)
   stdout, stderr, status = Open3.capture3(cmd)
 
@@ -40,19 +42,19 @@ def get_validation_message(result)
 
   case result[:kind]
   when 'valid'
-    "#### `#{path}` :white_check_mark:\n#{result[:message]}"
+    ["#### `#{path}` :white_check_mark:\n#{result[:message]}", true]
   when 'validation'
     message = result[:validation_errors].map { |e| "> - #{e}" }.join "\n"
-    "#### `#{path}` :x:\nI had some troubles parsing the project file, or there were fields that are missing that I need.\n\nHere's the details:\n#{message}"
+    ["#### `#{path}` :x:\nI had some troubles parsing the project file, or there were fields that are missing that I need.\n\nHere's the details:\n#{message}", false]
   when 'tags'
     message = result[:tags_errors].map { |e| "> - #{e}" }.join "\n"
-    "#### `#{path}` :x:\nI have some suggestions about the tags used in the project:\n\n#{message}"
+    ["#### `#{path}` :x:\nI have some suggestions about the tags used in the project:\n\n#{message}", false]
   when 'link-url'
-    "#### `#{path}` :x:\nThe `upforgrabs.url` value #{result[:url]} is not a valid URL - please check and update the value."
+    ["#### `#{path}` :x:\nThe `upforgrabs.url` value #{result[:url]} is not a valid URL - please check and update the value.", false]
   when 'repository', 'label'
-    "#### `#{path}` :x:\n#{result[:message]}"
+    ["#### `#{path}` :x:\n#{result[:message]}", false]
   else
-    "#### `#{path}` :question:\nI got a result of type '#{result[:kind]}' that I don't know how to handle. I need to mention @shiftkey here as he might be able to fix it."
+    ["#### `#{path}` :question:\nI got a result of type '#{result[:kind]}' that I don't know how to handle. I need to mention @shiftkey here as he might be able to fix it.", false]
   end
 end
 
@@ -70,6 +72,7 @@ def generate_review_comment(dir, files)
   projects_without_valid_extensions = projects.reject { |p| ALLOWED_EXTENSIONS.include? File.extname(p.relative_path) }
 
   if projects_without_valid_extensions.any?
+    success = false
     messages = ['#### Unexpected files found in project directory']
     projects_without_valid_extensions.each do |p|
       messages << " - `#{p.relative_path}`"
@@ -79,6 +82,8 @@ def generate_review_comment(dir, files)
     results = projects.map { |p| review_project(p) }
     valid_projects, projects_with_errors = results.partition { |r| r[:kind] == 'valid' }
 
+    success = projects_with_errors.empty?
+
     if projects_with_errors.empty?
       messages = [
         "#### **#{valid_projects.count}** projects without issues :white_check_mark:",
@@ -86,13 +91,27 @@ def generate_review_comment(dir, files)
       ]
     else
       messages = ["#### **#{valid_projects.count}** projects without issues :white_check_mark:"]
-      messages << projects_with_errors.map { |result| get_validation_message(result) }
+      messages << projects_with_errors.map do |result|
+        message, validation_success = get_validation_message(result)
+
+        success = false unless validation_success
+
+        message
+      end
     end
   else
-    messages = projects.map { |p| review_project(p) }.map { |r| get_validation_message(r) }
+    messages = projects.map { |p| review_project(p) }.map do |r|
+      message, validation_success = get_validation_message(r)
+
+      success = false unless validation_success
+
+      message
+    end
   end
 
-  markdown_body + messages.join("\n\n")
+  body = markdown_body + messages.join("\n\n")
+
+  [body, success]
 end
 
 def review_project(project)
@@ -225,12 +244,12 @@ end
 
 head_sha = ENV.fetch('HEAD_SHA', nil)
 base_sha = ENV.fetch('BASE_SHA', nil)
-git_remote_url = ENV.fetch('GIT_REMOTE_URL', 'https://github.com/up-for-grabs/up-for-grabs.net')
+git_remote_url = ENV.fetch('GIT_REMOTE_URL', DEFAULT_REPOSITORY_URL)
 dir = ENV.fetch('GITHUB_WORKSPACE', nil)
 
 range = "#{base_sha}...#{head_sha}"
 
-if git_remote_url
+if git_remote_url != DEFAULT_REPOSITORY_URL
   # fetching the fork repository so that our commits are in this repository
   # for processing and comparison with the base branch
   remote_result = run "git -C '#{dir}' remote add fork #{git_remote_url} -f"
@@ -248,7 +267,7 @@ if git_remote_url
     warn "stderr: '#{remote_result[:stderr]}'"
     warn
     warn "stdout: '#{remote_result[:stdout]}'"
-    return
+    exit 123
   end
 end
 
@@ -262,7 +281,7 @@ unless result[:exit_code].zero?
   warn "stderr: '#{result[:stderr]}'"
   warn
   warn "stdout: '#{result[:stdout]}'"
-  return
+  exit 123
 end
 
 raw_files = result[:stdout].split("\n")
@@ -277,11 +296,15 @@ end
 result = run "git -C '#{dir}' checkout #{head_sha} --force"
 unless result[:exit_code].zero?
   puts 'A problem occurred when trying to load this commit'
-  return
+  exit 123
 end
 
-markdown_body = generate_review_comment(dir, files)
+markdown_body, success = generate_review_comment(dir, files)
 
 puts markdown_body
 
-exit 0
+if success
+  exit 0
+else
+  exit 123
+end

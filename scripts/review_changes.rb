@@ -15,7 +15,7 @@ require 'open3'
 
 require 'up_for_grabs_tooling'
 
-DEFAULT_REPOSITORY_URL ='https://github.com/up-for-grabs/up-for-grabs.net.git'
+DEFAULT_REPOSITORY_URL = 'https://github.com/up-for-grabs/up-for-grabs.net.git'
 
 def run(cmd)
   stdout, stderr, status = Open3.capture3(cmd)

@@ -56,8 +56,8 @@ jobs:
         run: bundle exec ruby scripts/review_changes.rb
         if: ${{ steps.git_commit.outputs.CHANGES }}
         env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE_SHA: ${{ steps.git_commit.outputs.BASE }}
+          HEAD_SHA: ${{ steps.git_commit.outputs.HEAD }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
 
       # TODO: git push

@@ -7,8 +7,8 @@ tags:
 - browser
 - research
 upforgrabs:
-  name: E-easy
-  link: https://github.com/servo/servo/labels/E-easy
+  name: E-less-complex
+  link: https://github.com/servo/servo/labels/E-less-complex
 stats:
   issue-count: 2
   last-updated: '2024-03-14T07:00:28Z'

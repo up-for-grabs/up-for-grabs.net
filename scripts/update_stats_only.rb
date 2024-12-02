@@ -14,8 +14,6 @@ def update(project, apply_changes: false)
 
   result = GitHubRepositoryLabelActiveCheck.run(project)
 
-  warn "Project: #{project.github_owner_name_pair} returned #{result.inspect}"
-
   if result[:rate_limited]
     warn 'This script is currently rate-limited by the GitHub API'
     warn 'Marking as inconclusive to indicate that no further work will be done here'

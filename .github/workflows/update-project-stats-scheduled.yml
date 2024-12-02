@@ -69,7 +69,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
 
       - name: Push the changes to the default branch (if any)
-        if: ${{ steps.git_commit.outputs.CHANGES && steps.validate.outputs.EXIT_CODE == 0 }}
+        if: ${{ steps.git_commit.outputs.CHANGES && steps.validate.outputs.EXIT_CODE == '0' }}
         id: git_push
         run: |
           git push

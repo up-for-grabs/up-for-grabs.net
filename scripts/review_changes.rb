@@ -269,6 +269,21 @@ if git_remote_url && git_remote_url != DEFAULT_GIT_REMOTE
     warn "stdout: '#{remote_result[:stdout]}'"
     exit 123
   end
+else
+  # fetching the current repository so that our commits are in this repository
+  # for processing and comparison with the base branch
+  remote_result = run 'git fetch'
+
+  unless remote_result[:exit_code].zero?
+    warn 'A git error occurred while trying to fetch for the current repository'
+    warn
+    warn "exit code: #{remote_result[:exit_code]}"
+    warn
+    warn "stderr: '#{remote_result[:stderr]}'"
+    warn
+    warn "stdout: '#{remote_result[:stdout]}'"
+    exit 123
+  end
 end
 
 result = run "git -C '#{dir}' diff #{range} --name-only -- _data/projects/"

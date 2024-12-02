@@ -58,8 +58,10 @@ jobs:
         id: validate
         run: |
           MESSAGE=$(bundle exec ruby scripts/review_changes.rb)
-          echo 'EXIT_CODE=$?' >> "$GITHUB_OUTPUT"
-          echo $MESSAGE
+          EXIT_CODE=$?
+          echo "EXIT_CODE: '$EXIT_CODE'"
+          echo "MESSAGE: '$MESSAGE'"
+          echo 'EXIT_CODE=$EXIT_CODE' >> "$GITHUB_OUTPUT"
         if: ${{ steps.git_commit.outputs.CHANGES }}
         env:
           BASE_SHA: ${{ steps.git_commit.outputs.BASE }}

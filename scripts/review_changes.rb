@@ -15,6 +15,8 @@ require 'open3'
 
 require 'up_for_grabs_tooling'
 
+DEFAULT_GIT_REMOTE = 'https://github.com/up-for-grabs/up-for-grabs.net.git'
+
 def run(cmd)
   stdout, stderr, status = Open3.capture3(cmd)
 
@@ -247,7 +249,7 @@ dir = ENV.fetch('GITHUB_WORKSPACE', nil)
 
 range = "#{base_sha}...#{head_sha}"
 
-if git_remote_url
+if git_remote_url && git_remote_url != DEFAULT_GIT_REMOTE
   # fetching the fork repository so that our commits are in this repository
   # for processing and comparison with the base branch
   remote_result = run "git -C '#{dir}' remote add fork #{git_remote_url} -f"

@@ -74,10 +74,8 @@ jobs:
           HEAD_SHA: ${{ steps.git_commit.outputs.HEAD }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
 
-      - name: Push the changes to the default branch (if any)
+      - name: Push the changes to the default branch (if valid and present)
         id: git_push
         if: ${{ steps.git_commit.outputs.CHANGES && steps.validate.outputs.VALID }}
         run: |
-          echo "VALID: '${{ steps.validate.outputs.VALID }}'"
-          echo "CHANGES: '${{ steps.git_commit.outputs.CHANGES  }}'"
-          git show HEAD
+          git push

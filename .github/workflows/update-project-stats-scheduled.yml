@@ -68,7 +68,6 @@ jobs:
 
           echo 'VALID=false' >> "$GITHUB_OUTPUT"
           echo "MESSAGE: '$MESSAGE'"
-          echo 'EXIT_CODE=$EXIT_CODE' >> "$GITHUB_OUTPUT"
         if: ${{ steps.git_commit.outputs.CHANGES }}
         env:
           BASE_SHA: ${{ steps.git_commit.outputs.BASE }}
@@ -77,8 +76,8 @@ jobs:
 
       - name: Push the changes to the default branch (if any)
         id: git_push
+        if: ${{ steps.git_commit.outputs.CHANGES && steps.validate.outputs.VALID }}
         run: |
           echo "VALID: '${{ steps.validate.outputs.VALID }}'"
-          echo "EXIT_CODE: '${{ steps.validate.outputs.EXIT_CODE }}'"
           echo "CHANGES: '${{ steps.git_commit.outputs.CHANGES  }}'"
           git show HEAD

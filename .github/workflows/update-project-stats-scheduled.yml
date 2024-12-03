@@ -81,3 +81,4 @@ jobs:
           echo "VALID: '${{ steps.validate.outputs.VALID }}'"
           echo "EXIT_CODE: '${{ steps.validate.outputs.EXIT_CODE }}'"
           echo "CHANGES: '${{ steps.git_commit.outputs.CHANGES  }}'"
+          git show HEAD

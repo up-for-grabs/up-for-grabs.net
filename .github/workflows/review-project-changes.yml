@@ -23,6 +23,8 @@ jobs:
         continue-on-error: true
         run: |
           MESSAGE=$(bundle exec ruby scripts/review_changes.rb) 
+          echo "exit code: '$?'"
+          echo "message: '$MESSAGE'"
           echo 'message<<EOF' >> "$GITHUB_OUTPUT"
           echo "$MESSAGE" >> "$GITHUB_OUTPUT"
           echo 'EOF' >> "$GITHUB_OUTPUT"

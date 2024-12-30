@@ -20,21 +20,12 @@ requirejs.config({
 
 requirejs(['main']);
 
-// Add a function to handle pagination logic
-function paginateProjects(projects, page, limit) {
-  const offset = (page - 1) * limit;
-  return projects.slice(offset, offset + limit);
-}
-
-// Update the renderProjects function to render the correct page of projects
-const renderProjects = function (projectService, tags, names, labels, date, page = 1, limit = 15) {
+const renderProjects = function (projectService, tags, names, labels, date) {
   const allTags = projectService.getTags();
-  const projects = projectService.get(tags, names, labels, date);
-  const paginatedProjects = paginateProjects(projects, page, limit);
 
   projectsPanel.html(
     compiledtemplateFn({
-      projects: paginatedProjects,
+      projects: projectService.get(tags, names, labels, date),
       relativeTime,
       tags: allTags,
       popularTags: projectService.getPopularTags(6),
@@ -137,23 +128,4 @@ const renderProjects = function (projectService, tags, names, labels, date, page
       }
     });
   });
-
-  // Add pagination controls
-  const totalPages = Math.ceil(projects.length / limit);
-  $('#page-info').text(`Page ${page} of ${totalPages}`);
-  $('#prev-page').prop('disabled', page <= 1);
-  $('#next-page').prop('disabled', page >= totalPages);
 };
-
-// Add event listeners for pagination controls
-$(document).ready(function () {
-  $('#prev-page').click(function () {
-    const currentPage = parseInt($('#page-info').text().match(/Page (\d+)/)[1]);
-    renderProjects(projectService, tags, names, labels, date, currentPage - 1);
-  });
-
-  $('#next-page').click(function () {
-    const currentPage = parseInt($('#page-info').text().match(/Page (\d+)/)[1]);
-    renderProjects(projectService, tags, names, labels, date, currentPage + 1);
-  });
-});

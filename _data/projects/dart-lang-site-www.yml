@@ -9,8 +9,8 @@ tags:
 - javascript
 - website
 upforgrabs:
-  name: beginner
-  link: https://github.com/dart-lang/site-www/labels/beginner
+  name: co.help-wanted
+  link: https://github.com/dart-lang/site-www/labels/co.help-wanted
 stats:
   issue-count: 0
   fork-count: 654

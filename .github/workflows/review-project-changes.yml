@@ -22,7 +22,7 @@ jobs:
         id: run_script
         continue-on-error: true
         run: |
-          MESSAGE=$(bundle exec ruby scripts/review_changes.rb) 
+          MESSAGE=$(bundle exec ruby scripts/review_changes.rb --skip-exit-code)
           echo "exit code: '$?'"
           echo "message: '$MESSAGE'"
           echo 'message<<EOF' >> "$GITHUB_OUTPUT"
@@ -39,4 +39,3 @@ jobs:
         with:
           message: ${{ steps.run_script.outputs.message }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
-

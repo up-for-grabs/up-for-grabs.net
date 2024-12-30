@@ -20,12 +20,16 @@ requirejs.config({
 
 requirejs(['main']);
 
-const renderProjects = function (projectService, tags, names, labels, date) {
+const renderProjects = function (projectService, tags, names, labels, date, page = 1) {
   const allTags = projectService.getTags();
+  const projectsPerPage = 15;
+  const projects = projectService.get(tags, names, labels, date);
+  const totalPages = Math.ceil(projects.length / projectsPerPage);
+  const paginatedProjects = projects.slice((page - 1) * projectsPerPage, page * projectsPerPage);
 
   projectsPanel.html(
     compiledtemplateFn({
-      projects: projectService.get(tags, names, labels, date),
+      projects: paginatedProjects,
       relativeTime,
       tags: allTags,
       popularTags: projectService.getPopularTags(6),
@@ -127,5 +131,28 @@ const renderProjects = function (projectService, tags, names, labels, date) {
         }
       }
     });
+  });
+
+  $('#page-info').text(`Page ${page} of ${totalPages}`);
+  $('#prev-page').prop('disabled', page === 1);
+  $('#next-page').prop('disabled', page === totalPages);
+};
+
+const handlePagination = function (projectService, tags, names, labels, date) {
+  let currentPage = 1;
+
+  $('#prev-page').click(function () {
+    if (currentPage > 1) {
+      currentPage--;
+      renderProjects(projectService, tags, names, labels, date, currentPage);
+    }
+  });
+
+  $('#next-page').click(function () {
+    const totalPages = Math.ceil(projectService.get(tags, names, labels, date).length / 15);
+    if (currentPage < totalPages) {
+      currentPage++;
+      renderProjects(projectService, tags, names, labels, date, currentPage);
+    }
   });
 };

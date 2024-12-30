@@ -7,6 +7,7 @@ ruby '~> 3.4'
 gem 'jekyll'
 
 gem 'json_schemer'
+gem 'csv'
 
 gem 'graphql', '~> 2.4.4'
 gem 'graphql-client'

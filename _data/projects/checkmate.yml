@@ -1,0 +1,26 @@
+name: Checkmate
+desc: Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations.
+site: https://github.com/bluewave-labs/checkmate
+tags:
+  - infrastructure  
+  - statuspage  
+  - uptime-monitor  
+  - uptime  
+  - infrastructure-monitoring  
+  - server-monitoring  
+  - help-wanted  
+  - mui  
+  - incident  
+  - uptimerobot  
+  - server-monitor  
+  - good-first-issue  
+  - uptime-checker  
+  - good-first-project  
+  - uptime-monitoring  
+  - good-first-contribution  
+  - mui-material  
+  - uptime-status  
+  - server-monitoring-tools  
+upforgrabs:
+  name: help wanted
+  link: https://github.com/bluewave-labs/checkmate

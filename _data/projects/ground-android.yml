@@ -21,6 +21,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/google/ground-android/labels/help%20wanted
 stats:
-  issue-count: 1
-  last-updated: '2024-04-17T18:04:34Z'
-  fork-count: 119
+  issue-count: 0
+  fork-count: 121

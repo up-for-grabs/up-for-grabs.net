@@ -17,12 +17,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
-        uses: ruby/setup-ruby@a2bbe5b1b236842c1cb7dd11e8e3b51e0a616acc
+        uses: ruby/setup-ruby@bfefad842bb982ff05b233bcbc1571d97a87e69f
         with:
           bundler-cache: true
           cache-version: 0
       - name: Run script to update stats for all projects
-        run: bundle exec ruby scripts/update_stats.rb
+        run: bundle exec ruby scripts/update_stats_only.rb && bundle exec ruby scripts/publish_update_stats_branch.rb
         env:
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
           APPLY_CHANGES: ${{ inputs.apply-changes }}

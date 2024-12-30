@@ -12,6 +12,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/aspire/labels/help%20wanted
 stats:
-  issue-count: 6
+  issue-count: 4
   last-updated: '2024-11-28T09:00:32Z'
-  fork-count: 482
+  fork-count: 506

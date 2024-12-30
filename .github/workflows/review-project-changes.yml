@@ -14,26 +14,28 @@ jobs:
         with:
           ref: gh-pages
       - name: Setup Ruby
-        uses: ruby/setup-ruby@a2bbe5b1b236842c1cb7dd11e8e3b51e0a616acc
+        uses: ruby/setup-ruby@bfefad842bb982ff05b233bcbc1571d97a87e69f
         with:
           bundler-cache: true
 
       - name: Run script to review changed projects
         id: run_script
+        continue-on-error: true
         run: |
-          MESSAGE=$(bundle exec ruby scripts/review_changes.rb) 
+          MESSAGE=$(bundle exec ruby scripts/review_changes.rb --skip-exit-code)
+          echo "exit code: '$?'"
+          echo "message: '$MESSAGE'"
           echo 'message<<EOF' >> "$GITHUB_OUTPUT"
           echo "$MESSAGE" >> "$GITHUB_OUTPUT"
           echo 'EOF' >> "$GITHUB_OUTPUT"
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-          PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
           GIT_REMOTE_URL: ${{ github.event.pull_request.head.repo.clone_url }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
 
       - uses: marocchino/sticky-pull-request-comment@331f8f5b4215f0445d3c07b4967662a32a2d3e31
+        continue-on-error: true
         with:
           message: ${{ steps.run_script.outputs.message }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
-

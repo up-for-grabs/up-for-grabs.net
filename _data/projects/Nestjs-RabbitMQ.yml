@@ -1,0 +1,10 @@
+name: Nestjs-RabbitMQ
+desc: Custom RabbitMQ module for building NestJS microservices
+site: https://github.com/DIY0R/nestjs-rabbitmq
+tags:
+  - rabbitmq
+  - amqplib
+  - nestjs
+upforgrabs:
+  name: help wanted
+  link: https://github.com/DIY0R/nestjs-rabbitmq/labels/help%20wanted

@@ -1,0 +1,14 @@
+name: Telemedecine
+desc: This project is an open-source platform designed to facilitate secure, real-time text-based consultations between doctors and patients.
+site: https://bucolic-malabi-07ed64.netlify.app
+tags:
+  - mern
+  - node.js
+  - reactjs
+  - real-time
+  - chat
+  - firebase
+  - socket.io
+upforgrabs:
+  name: help wanted
+  link: https://github.com/aminezouari52/telemedecine-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

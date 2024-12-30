@@ -1,0 +1,12 @@
+name: Clipboard History
+desc: A browser extension for managing your clipboard history securely, efficiently, and effortlessly.
+site: https://www.clipboardhistory.io
+tags:
+  - typescript
+  - reactjs
+  - javascript
+  - node.js
+  - extension
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ayoung19/clipboard-history/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

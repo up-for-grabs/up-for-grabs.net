@@ -1,1 +1,54 @@
-* auto
+# Normalize line endings
+* text=auto
+
+# Markdown files
+*.md text
+*.markdown text
+
+# JSON files
+*.json text
+*.json diff=json
+
+# JavaScript files
+*.js text
+*.js diff=javascript
+
+# CSS files
+*.css text
+*.css diff=css
+
+# HTML files
+*.html text
+*.html diff=html
+
+# YAML files
+*.yml text
+*.yaml text
+
+# Images (binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+
+# Web fonts (binary)
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+
+# Lock files (text but not normalized)
+package-lock.json -text
+yarn.lock -text
+
+# Ignore minified files for diffs
+*.min.js binary
+*.min.css binary
+
+# Exclude certain directories from diff
+node_modules/ -diff
+dist/ -diff
+
+# Shell scripts
+*.sh text eol=lf

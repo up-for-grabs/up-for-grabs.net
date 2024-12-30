@@ -9,6 +9,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/np25071984/battleships/labels/help%20wanted
 stats:
-  issue-count: 1
-  last-updated: '2023-12-15T12:48:38Z'
-  fork-count: 2
+  issue-count: 0
+  fork-count: 3

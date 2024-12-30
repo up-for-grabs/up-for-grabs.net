@@ -8,5 +8,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/eslint/eslint/labels/good%20first%20issue
 stats:
-  issue-count: 0
-  fork-count: 4557
+  issue-count: 1
+  last-updated: '2024-12-17T18:49:38Z'
+  fork-count: 4601

@@ -40,6 +40,9 @@ jobs:
             }
             fs.writeFileSync(path.join(temp, 'pr_number.zip'), Buffer.from(download.data));
 
+      - name: 'Print directory outputs'
+        run: ls -l "${{ runner.temp }}/artifacts"
+
       - name: 'Unzip artifact'
         run: unzip pr_number.zip -d "${{ runner.temp }}/artifacts"
 

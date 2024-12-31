@@ -4,18 +4,15 @@ on:
     workflow_run:
       workflows: [Continuous Integration]
       types:
-        - requested
         - completed
 
 permissions:
     pull-requests: write
 
 jobs:
-  download:
+  review:
     if: github.event.workflow_run.event == 'pull_request'
     runs-on: ubuntu-latest
-    outputs:
-      number: ${{ steps.get-number.outputs.result }}
     steps:
       - name: 'Download artifact'
         uses: actions/github-script@v7
@@ -64,43 +61,17 @@ jobs:
         run: |
           echo 'got issue number "$ISSUE_NUMBER"'
 
-  requested:
-      runs-on: ubuntu-latest
-      needs: [download]
-      if: github.event.workflow_run.event == 'pull_request' && github.event.action == 'requested'
-      steps:
-          - name: "Emit workflow event"
-            env:
-              GITHUB_CONTEXT: ${{ toJson(github) }}
-            run: |
-              echo "$GITHUB_CONTEXT"
-          - name: "Output the issue number"
-            env:
-              ISSUE_NUMBER: ${{needs.download.outputs.number}}
-            run: |
-              echo "got a PR event for number $ISSUE_NUMBER"
-        #   - run: gh pr edit "$NUMBER" --remove-label "$LABELS"
-        #     env:
-        #       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        #       GH_REPO: ${{ github.repository }}
-        #       NUMBER: ${{ github.event.pull_request.number }}
-        #       LABELS: needs-work
+      - name: "Emit workflow event"
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo "$GITHUB_CONTEXT"
 
-  completed:
-      runs-on: ubuntu-latest
-      needs: [download]
-      if: github.event.workflow_run.event == 'pull_request' && github.event.action == 'completed'
-      steps:
-          - name: "Emit workflow event"
-            env:
-              GITHUB_CONTEXT: ${{ toJson(github) }}
-            run: |
-              echo "$GITHUB_CONTEXT"
-          - name: "Output the issue number"
-            env:
-              ISSUE_NUMBER: ${{needs.download.outputs.number}}
-            run: |
-              echo "got a PR event for number $ISSUE_NUMBER"
+      - name: "Output the issue number"
+        env:
+          ISSUE_NUMBER: ${{steps.get-number.outputs.result}}
+        run: |
+          echo "got a PR event for number $ISSUE_NUMBER"
 
       #   - run: gh pr edit "$NUMBER" --add-label "$LABELS"
       #     env:

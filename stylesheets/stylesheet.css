@@ -902,6 +902,7 @@ ul.tags li {
 
 .tags a {
   padding: 0.25em 0.5em;
+  font-size: 12px;
 }
 
 .popular-tags a:hover,

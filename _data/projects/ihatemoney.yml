@@ -8,8 +8,8 @@ tags:
 - budget
 - rest
 upforgrabs:
-  name: good first issue
-  link: https://github.com/spiral-project/ihatemoney/labels/good%20first%20issue
+  name: help wanted
+  link: https://github.com/spiral-project/ihatemoney/labels/help%20wanted
 stats:
   issue-count: 3
   last-updated: '2023-10-19T17:22:16Z'

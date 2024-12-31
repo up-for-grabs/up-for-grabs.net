@@ -7,6 +7,7 @@ on:
       - gh-pages
 
 jobs:
+
   docker:
     runs-on: ubuntu-latest
     steps:
@@ -35,7 +36,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up Ruby
-        uses: ruby/setup-ruby@a2bbe5b1b236842c1cb7dd11e8e3b51e0a616acc
+        uses: ruby/setup-ruby@bfefad842bb982ff05b233bcbc1571d97a87e69f
       - name: Build and test Jekyll site
         run: |
           bundle install
@@ -51,3 +52,18 @@ jobs:
         with:
           skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
           ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis
+
+  upload:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Save PR number
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          mkdir -p ./pr
+          echo $PR_NUMBER > ./pr/pr_number
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pr_number
+          path: pr/

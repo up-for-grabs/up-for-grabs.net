@@ -11,3 +11,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/despensa-app/despensa-web/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 14

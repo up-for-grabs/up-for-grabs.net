@@ -1,0 +1,14 @@
+---
+name: Launchit
+desc: The ultimate launcher for TVs and (maybe) tablets.
+site: https://hollowtechnology.github.io/Launchit/
+tags:
+- html
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/HollowTechnology/Launchit/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2024-12-30T16:13:41Z'
+  fork-count: 1

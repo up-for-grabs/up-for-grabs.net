@@ -8,8 +8,8 @@ tags:
 - opensource-ecommerce-framework
 - laravel-ecommerce
 upforgrabs:
-  name: Easy
-  link: https://github.com/bagisto/bagisto/labels/Easy
+  name: Good First Issue
+  link: https://github.com/bagisto/bagisto/labels/Good%20First%20Issue
 stats:
   issue-count: 1
   last-updated: '2022-11-26T12:46:29Z'

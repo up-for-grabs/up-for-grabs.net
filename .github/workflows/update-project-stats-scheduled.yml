@@ -1,0 +1,81 @@
+name: Update project stats (scheduled)
+
+on:
+  workflow_dispatch: 
+  schedule:
+    # runs at 1300 Monday/Wednesday/Friday
+    - cron: '0 13 * * 1,3,5'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SHIFTBOT_TOKEN }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@bfefad842bb982ff05b233bcbc1571d97a87e69f
+        with:
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Update stats for all projects
+        run: bundle exec ruby scripts/update_stats_only.rb
+        env:
+          GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
+          APPLY_CHANGES: true
+
+      - name: Preview git difference
+        run: |
+          git status
+          git diff _data/projects/
+
+      - name: Commit the changes (if any)
+        id: git_commit
+        run: |
+          echo 'BASE=$(git rev-parse HEAD)' >> "$GITHUB_OUTPUT"
+          git status
+          changes=$(git diff --name-only _data/projects/ | wc -l)
+          if [[ $changes -eq 0 ]]; then
+            echo "There are no changes to commit. Exiting..."
+            echo 'CHANGES=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo 'CHANGES=true' >> "$GITHUB_OUTPUT"
+
+          git config user.name "shiftbot"
+          git config user.email "12331315+shiftbot@users.noreply.github.com"
+
+          git add _data/projects/
+          git commit -m "Update project stats (`date`)"
+          echo 'HEAD=$(git rev-parse HEAD)' >> "$GITHUB_OUTPUT"
+
+      - name: Validate all changed projects
+        id: validate
+        run: |
+          MESSAGE=$(bundle exec ruby scripts/review_changes.rb)
+          EXIT_CODE=$?
+
+          echo "EXIT_CODE: '$EXIT_CODE'"
+          if [[ $EXIT_CODE -eq 0 ]]; then
+            echo 'VALID=true' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo 'VALID=false' >> "$GITHUB_OUTPUT"
+          echo "MESSAGE: '$MESSAGE'"
+        if: ${{ steps.git_commit.outputs.CHANGES }}
+        env:
+          BASE_SHA: ${{ steps.git_commit.outputs.BASE }}
+          HEAD_SHA: ${{ steps.git_commit.outputs.HEAD }}
+          GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
+
+      - name: Push the changes to the default branch (if valid and present)
+        id: git_push
+        if: ${{ steps.git_commit.outputs.CHANGES && steps.validate.outputs.VALID }}
+        run: |
+          git push

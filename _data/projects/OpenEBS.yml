@@ -13,8 +13,8 @@ tags:
 - cns
 - csi
 upforgrabs:
-  name: good first issue
-  link: https://github.com/openebs/openebs/labels/good%20first%20issue
+  name: help wanted
+  link: https://github.com/openebs/openebs/labels/help%20wanted
 stats:
   issue-count: 0
   fork-count: 926

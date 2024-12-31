@@ -1,6 +1,126 @@
+# EditorConfig helps developers define and maintain consistent coding styles.
+# More information: https://editorconfig.org
+
+# Root EditorConfig file
 root = true
 
+# Default settings for all files
 [*]
 insert_final_newline = true
 indent_style = space
 indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+
+# JSON files
+[*.json]
+indent_style = space
+indent_size = 2
+
+# YAML files
+[*.yml]
+indent_style = space
+indent_size = 2
+
+# JavaScript files
+[*.js]
+indent_style = space
+indent_size = 2
+
+# CSS files
+[*.css]
+indent_style = space
+indent_size = 2
+
+# HTML files
+[*.html]
+indent_style = space
+indent_size = 2
+
+# Minified files (skip styling)
+[*.min.js]
+indent_style = ignore
+
+[*.min.css]
+indent_style = ignore
+
+# Shell scripts
+[*.sh]
+indent_style = tab
+end_of_line = lf
+
+
+
+Here’s the updated `.editorconfig` file that incorporates your existing configuration (`insert_final_newline`, `indent_style`, `indent_size`) and expands upon it with additional rules for specific file types in the repository:
+
+```editorconfig
+# EditorConfig helps developers define and maintain consistent coding styles.
+# More information: https://editorconfig.org
+
+# Root EditorConfig file
+root = true
+
+# Default settings for all files
+[*]
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+
+# JSON files
+[*.json]
+indent_style = space
+indent_size = 2
+
+# YAML files
+[*.yml]
+indent_style = space
+indent_size = 2
+
+# JavaScript files
+[*.js]
+indent_style = space
+indent_size = 2
+
+# CSS files
+[*.css]
+indent_style = space
+indent_size = 2
+
+# HTML files
+[*.html]
+indent_style = space
+indent_size = 2
+
+# Minified files (skip styling)
+[*.min.js]
+indent_style = ignore
+
+[*.min.css]
+indent_style = ignore
+
+# Shell scripts
+[*.sh]
+indent_style = tab
+end_of_line = lf
+```
+
+### Key Changes Made:
+- **Added `end_of_line = lf` and `charset = utf-8`** to ensure consistent line endings and character encoding.
+- **Specific rules for file types** like `.md`, `.json`, `.yml`, `.js`, `.css`, and `.html`.
+- **Special handling for Markdown files** to retain trailing whitespace for formatting purposes.
+- **Exclusion of minified files (`*.min.js` and `*.min.css`)** from formatting enforcement.
+- **Shell scripts** configured to use tabs for indentation, which is common practice for scripts.
+
+You can replace the current `.editorconfig` file with this updated version, or merge the changes as needed.

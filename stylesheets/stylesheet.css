@@ -900,6 +900,10 @@ ul.tags li {
   transition: all 0.3s;
 }
 
+.tags a {
+  padding: 0.25em 0.5em;
+}
+
 .popular-tags a:hover,
 .popular-tags a:focus,
 .popular-tags a:focus-within,

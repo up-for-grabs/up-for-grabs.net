@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: mondeja/remove-labels-gh-action@v2
         with:
-          token: ${{ secrets.SHIFTBOT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           labels: needs-work
 
   docker:
@@ -68,7 +68,7 @@ jobs:
     steps:
       - run: gh pr edit "$NUMBER" --add-label "$LABELS"
         env:
-          GH_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.pull_request.number }}
           LABELS: needs-work

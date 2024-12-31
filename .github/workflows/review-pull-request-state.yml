@@ -17,9 +17,13 @@ jobs:
         steps:
             - name: "Emit workflow event"
               env:
-                GITHUB_CONTEXT: ${{ toJson(github.event) }}
+                GITHUB_CONTEXT: ${{ toJson(github) }}
               run: |
                 echo "$GITHUB_CONTEXT"
+            - name: "Do something else"
+              if: github.event.workflow_run.event == 'pull_request'
+              run: |
+                echo "got a PR event"
             # - uses: mondeja/remove-labels-gh-action@v2
             #   with:
             #     token: ${{ secrets.GITHUB_TOKEN }}
@@ -31,9 +35,13 @@ jobs:
         steps:
             - name: "Emit workflow event"
               env:
-                GITHUB_CONTEXT: ${{ toJson(github.event) }}
+                GITHUB_CONTEXT: ${{ toJson(github) }}
               run: |
                 echo "$GITHUB_CONTEXT"
+            - name: "Do something else"
+              if: github.event.workflow_run.event == 'pull_request'
+              run: |
+                echo "got a PR event"
         #   - run: gh pr edit "$NUMBER" --add-label "$LABELS"
         #     env:
         #       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

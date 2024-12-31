@@ -20,12 +20,17 @@ requirejs.config({
 
 requirejs(['main']);
 
-const renderProjects = function (projectService, tags, names, labels, date, page = 1) {
+// Add a function to handle pagination logic
+function paginateProjects(projects, page, limit) {
+  const offset = (page - 1) * limit;
+  return projects.slice(offset, offset + limit);
+}
+
+// Update the renderProjects function to render the correct page of projects
+const renderProjects = function (projectService, tags, names, labels, date, page = 1, limit = 15) {
   const allTags = projectService.getTags();
-  const projectsPerPage = 15;
   const projects = projectService.get(tags, names, labels, date);
-  const totalPages = Math.ceil(projects.length / projectsPerPage);
-  const paginatedProjects = projects.slice((page - 1) * projectsPerPage, page * projectsPerPage);
+  const paginatedProjects = paginateProjects(projects, page, limit);
 
   projectsPanel.html(
     compiledtemplateFn({
@@ -133,26 +138,20 @@ const renderProjects = function (projectService, tags, names, labels, date, page
     });
   });
 
+  // Add pagination controls
+  const totalPages = Math.ceil(projects.length / limit);
   $('#page-info').text(`Page ${page} of ${totalPages}`);
-  $('#prev-page').prop('disabled', page === 1);
-  $('#next-page').prop('disabled', page === totalPages);
 };
 
-const handlePagination = function (projectService, tags, names, labels, date) {
-  let currentPage = 1;
-
+// Add event listeners for pagination controls
+$(document).ready(function () {
   $('#prev-page').click(function () {
-    if (currentPage > 1) {
-      currentPage--;
-      renderProjects(projectService, tags, names, labels, date, currentPage);
-    }
+    const currentPage = parseInt($('#page-info').text().match(/Page (\d+)/)[1]);
+    renderProjects(projectService, tags, names, labels, date, currentPage - 1);
   });
 
   $('#next-page').click(function () {
-    const totalPages = Math.ceil(projectService.get(tags, names, labels, date).length / 15);
-    if (currentPage < totalPages) {
-      currentPage++;
-      renderProjects(projectService, tags, names, labels, date, currentPage);
-    }
+    const currentPage = parseInt($('#page-info').text().match(/Page (\d+)/)[1]);
+    renderProjects(projectService, tags, names, labels, date, currentPage + 1);
   });
-};
+});

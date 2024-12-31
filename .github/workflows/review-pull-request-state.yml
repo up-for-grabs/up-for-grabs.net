@@ -14,6 +14,12 @@ jobs:
     if: github.event.workflow_run.event == 'pull_request'
     runs-on: ubuntu-latest
     steps:
+      - name: "Emit workflow event"
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo "$GITHUB_CONTEXT"
+
       - name: 'Download artifact'
         uses: actions/github-script@v7
         with:
@@ -44,7 +50,10 @@ jobs:
         run: ls -l "${{ runner.temp }}/artifacts"
 
       - name: 'Unzip artifact'
-        run: unzip pr_number.zip -d "${{ runner.temp }}/artifacts"
+        run: |
+          pwd
+          cd "${{ runner.temp }}/artifacts"
+          unzip pr_number.zip -d "${{ runner.temp }}/artifacts"
 
       - name: 'Get issue number from file'
         uses: actions/github-script@v7
@@ -63,18 +72,6 @@ jobs:
             ISSUE_NUMBER: ${{ steps.get-number.outputs.result }}
         run: |
           echo 'got issue number "$ISSUE_NUMBER"'
-
-      - name: "Emit workflow event"
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: |
-          echo "$GITHUB_CONTEXT"
-
-      - name: "Output the issue number"
-        env:
-          ISSUE_NUMBER: ${{steps.get-number.outputs.result}}
-        run: |
-          echo "got a PR event for number $ISSUE_NUMBER"
 
       #   - run: gh pr edit "$NUMBER" --add-label "$LABELS"
       #     env:

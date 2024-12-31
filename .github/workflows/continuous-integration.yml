@@ -7,6 +7,7 @@ on:
       - gh-pages
 
 jobs:
+
   docker:
     runs-on: ubuntu-latest
     steps:
@@ -51,3 +52,18 @@ jobs:
         with:
           skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
           ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis
+
+  upload:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Save PR number
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          mkdir -p ./pr
+          echo $PR_NUMBER > ./pr/pr_number
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pr_number
+          path: pr/

@@ -1,3 +1,5 @@
+name: Review Pull Request
+
 on:
     workflow_run:
       workflows: [Continuous Integration]
@@ -15,7 +17,7 @@ jobs:
         steps:
             - name: "Emit workflow event"
               env:
-                GITHUB_CONTEXT: ${{ toJson(github.event.workflow_run) }}
+                GITHUB_CONTEXT: ${{ toJson(github.event) }}
               run: |
                 echo "$GITHUB_CONTEXT"
             # - uses: mondeja/remove-labels-gh-action@v2
@@ -29,7 +31,7 @@ jobs:
         steps:
             - name: "Emit workflow event"
               env:
-                GITHUB_CONTEXT: ${{ toJson(github.event.workflow_run) }}
+                GITHUB_CONTEXT: ${{ toJson(github.event) }}
               run: |
                 echo "$GITHUB_CONTEXT"
         #   - run: gh pr edit "$NUMBER" --add-label "$LABELS"

@@ -67,7 +67,6 @@ jobs:
         env:
             ISSUE_NUMBER: ${{ steps.get-number.outputs.result }}
         run: |
-          echo "got issue number ${{ steps.get-number.outputs.result }}"
           echo "got issue number $ISSUE_NUMBER"
 
       - name: 'Mark PR as needing work'
@@ -77,8 +76,10 @@ jobs:
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ steps.get-number.outputs.result }}
         run: |
-          echo 'TODO: remove label needs-review for PR $NUMBER (if set)'
-          echo 'TODO: set label needs-work for PR $NUMBER'
+          echo "TODO: remove label needs-review for PR $NUMBER (if set)"
+          gh pr edit "$NUMBER" --remove-label needs-review
+          echo "TODO: set label needs-work for PR $NUMBER"
+          gh pr edit "$NUMBER" --add-label needs-work
 
       - name: 'Mark PR as ready for review'
         if: github.event.workflow_run.conclusion != 'failure'
@@ -87,5 +88,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ steps.get-number.outputs.result }}
         run: |
-          echo 'TODO: remove label needs-work for PR $NUMBER (if set)'
-          echo 'TODO: set label needs-review for PR $NUMBER'
+          echo "TODO: remove label needs-work for PR $NUMBER (if set)"
+          gh pr edit "$NUMBER" --remove-label needs-work
+          echo "TODO: set label needs-review for PR $NUMBER"
+          gh pr edit "$NUMBER" --add-label needs-review

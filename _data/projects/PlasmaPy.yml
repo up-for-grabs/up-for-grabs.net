@@ -8,8 +8,8 @@ tags:
 - plasma
 - physics
 upforgrabs:
-  name: Help wanted
-  link: https://github.com/PlasmaPy/PlasmaPy/labels/Help%20wanted
+  name: help wanted
+  link: https://github.com/PlasmaPy/PlasmaPy/labels/help%20wanted
 stats:
   issue-count: 16
   last-updated: '2023-05-13T01:51:36Z'

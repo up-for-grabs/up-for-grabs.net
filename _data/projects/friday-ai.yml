@@ -9,8 +9,8 @@ tags:
 - python
 - automation
 upforgrabs:
-  name: good first issue
-  link: https://github.com/FreshRSS/FreshRSS/labels/good%20first%20issue
+  name: help wanted
+  link: https://github.com/yash373/friday/labels/help%20wanted
 stats:
   issue-count: 59
   last-updated: '2024-10-30T15:56:09Z'

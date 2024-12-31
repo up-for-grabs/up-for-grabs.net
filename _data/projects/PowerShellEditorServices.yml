@@ -6,8 +6,8 @@ tags:
 - powershell
 - c#
 upforgrabs:
-  name: Up-for-Grabs
-  link: https://github.com/PowerShell/PowerShellEditorServices/labels/Up-for-Grabs
+  name: Up for Grabs
+  link: https://github.com/PowerShell/PowerShellEditorServices/labels/Up%20for%20Grabs
 stats:
   issue-count: 7
   last-updated: '2023-07-30T18:32:05Z'

@@ -11,40 +11,100 @@ permissions:
     pull-requests: write
 
 jobs:
-    requested:
-        runs-on: ubuntu-latest
-        if: github.event.action == 'requested'
-        steps:
-            - name: "Emit workflow event"
-              env:
-                GITHUB_CONTEXT: ${{ toJson(github) }}
-              run: |
-                echo "$GITHUB_CONTEXT"
-            - name: "Do something else"
-              if: github.event.workflow_run.event == 'pull_request'
-              run: |
-                echo "got a PR event"
-            # - uses: mondeja/remove-labels-gh-action@v2
-            #   with:
-            #     token: ${{ secrets.GITHUB_TOKEN }}
-            #     labels: needs-work
+  download:
+    if: github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    outputs:
+      number: ${{ steps.get-number.outputs.result }}
+    steps:
+      - name: 'Download artifact'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            let allArtifacts = await github.rest.actions.listWorkflowRunArtifacts({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               run_id: context.payload.workflow_run.id,
+            });
+            let matchArtifact = allArtifacts.data.artifacts.filter((artifact) => {
+              return artifact.name == "pr_number"
+            })[0];
+            let download = await github.rest.actions.downloadArtifact({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               artifact_id: matchArtifact.id,
+               archive_format: 'zip',
+            });
+            const fs = require('fs');
+            const path = require('path');
+            const temp = '${{ runner.temp }}/artifacts';
+            if (!fs.existsSync(temp)){
+              fs.mkdirSync(temp);
+            }
+            fs.writeFileSync(path.join(temp, 'pr_number.zip'), Buffer.from(download.data));
 
-    completed:
-        runs-on: ubuntu-latest
-        if: github.event.action == 'completed'
-        steps:
-            - name: "Emit workflow event"
-              env:
-                GITHUB_CONTEXT: ${{ toJson(github) }}
-              run: |
-                echo "$GITHUB_CONTEXT"
-            - name: "Do something else"
-              if: github.event.workflow_run.event == 'pull_request'
-              run: |
-                echo "got a PR event"
-        #   - run: gh pr edit "$NUMBER" --add-label "$LABELS"
+      - name: 'Unzip artifact'
+        run: unzip pr_number.zip -d "${{ runner.temp }}/artifacts"
+
+      - name: 'Get issue number from file'
+        uses: actions/github-script@v7
+        id: get-number
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const temp = '${{ runner.temp }}/artifacts';
+            const issue_number = Number(fs.readFileSync(path.join(temp, 'pr_number')));
+            return issue_number;
+
+      - name: 'Write issue number as output'
+        env:
+            ISSUE_NUMBER: ${{ steps.get-number.outputs.result }}
+        run: |
+          echo 'got issue number "$ISSUE_NUMBER"'
+
+  requested:
+      runs-on: ubuntu-latest
+      needs: [download]
+      if: github.event.workflow_run.event == 'pull_request' && github.event.action == 'requested'
+      steps:
+          - name: "Emit workflow event"
+            env:
+              GITHUB_CONTEXT: ${{ toJson(github) }}
+            run: |
+              echo "$GITHUB_CONTEXT"
+          - name: "Output the issue number"
+            env:
+              ISSUE_NUMBER: ${{needs.download.outputs.number}}
+            run: |
+              echo "got a PR event for number $ISSUE_NUMBER"
+        #   - run: gh pr edit "$NUMBER" --remove-label "$LABELS"
         #     env:
         #       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         #       GH_REPO: ${{ github.repository }}
         #       NUMBER: ${{ github.event.pull_request.number }}
         #       LABELS: needs-work
+
+  completed:
+      runs-on: ubuntu-latest
+      needs: [download]
+      if: github.event.workflow_run.event == 'pull_request' && github.event.action == 'completed'
+      steps:
+          - name: "Emit workflow event"
+            env:
+              GITHUB_CONTEXT: ${{ toJson(github) }}
+            run: |
+              echo "$GITHUB_CONTEXT"
+          - name: "Output the issue number"
+            env:
+              ISSUE_NUMBER: ${{needs.download.outputs.number}}
+            run: |
+              echo "got a PR event for number $ISSUE_NUMBER"
+
+      #   - run: gh pr edit "$NUMBER" --add-label "$LABELS"
+      #     env:
+      #       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #       GH_REPO: ${{ github.repository }}
+      #       NUMBER: ${{ github.event.pull_request.number }}
+      #       LABELS: needs-work

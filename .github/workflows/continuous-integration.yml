@@ -7,16 +7,6 @@ on:
       - gh-pages
 
 jobs:
-  remove-existing-labels:
-    permissions:
-      pull-requests: write
-    if: ${{ github.event_name == 'pull_request' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: mondeja/remove-labels-gh-action@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          labels: needs-work
 
   docker:
     runs-on: ubuntu-latest
@@ -62,17 +52,3 @@ jobs:
         with:
           skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
           ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis
-
-  finalize:
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-    needs: [remove-existing-labels, docker, javascript, site, content]
-    if: always() && github.event_name == 'pull_request' && !cancelled() && contains(needs.*.result, 'failure')
-    steps:
-      - run: gh pr edit "$NUMBER" --add-label "$LABELS"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
-          NUMBER: ${{ github.event.pull_request.number }}
-          LABELS: needs-work

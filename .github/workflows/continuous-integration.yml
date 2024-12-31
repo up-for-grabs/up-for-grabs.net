@@ -6,6 +6,9 @@ on:
     branches:
       - gh-pages
 
+permissions:
+  pull-requests: write
+
 jobs:
   remove-existing-labels:
     if: ${{ github.event_name == 'pull_request' }}

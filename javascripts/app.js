@@ -141,6 +141,8 @@ const renderProjects = function (projectService, tags, names, labels, date, page
   // Add pagination controls
   const totalPages = Math.ceil(projects.length / limit);
   $('#page-info').text(`Page ${page} of ${totalPages}`);
+  $('#prev-page').prop('disabled', page <= 1);
+  $('#next-page').prop('disabled', page >= totalPages);
 };
 
 // Add event listeners for pagination controls
@@ -154,4 +156,20 @@ $(document).ready(function () {
     const currentPage = parseInt($('#page-info').text().match(/Page (\d+)/)[1]);
     renderProjects(projectService, tags, names, labels, date, currentPage + 1);
   });
+});
+
+// Add a function to validate pagination logic
+function validatePagination(projects, page, limit) {
+  const totalPages = Math.ceil(projects.length / limit);
+  return page > 0 && page <= totalPages;
+}
+
+// Add a function to ensure buttons functionality works properly
+function ensureButtonsFunctionality() {
+  $('#prev-page').prop('disabled', false);
+  $('#next-page').prop('disabled', false);
+}
+
+$(document).ready(function () {
+  ensureButtonsFunctionality();
 });

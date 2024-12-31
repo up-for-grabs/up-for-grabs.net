@@ -6,11 +6,10 @@ on:
     branches:
       - gh-pages
 
-permissions:
-  pull-requests: write
-
 jobs:
   remove-existing-labels:
+    permissions:
+      pull-requests: write
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
     steps:
@@ -66,6 +65,8 @@ jobs:
 
   finalize:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     needs: [remove-existing-labels, docker, javascript, site, content]
     if: always() && github.event_name == 'pull_request' && !cancelled() && contains(needs.*.result, 'failure')
     steps:

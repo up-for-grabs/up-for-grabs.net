@@ -11,7 +11,7 @@ jobs:
         with:
           repo-token: ${{ secrets.SHIFTBOT_TOKEN }}
           stale-pr-message: 'This pull request is stale because it has been open 30 days with no activity and requires further work. Remove the stale label or comment otherwise this will be closed in a week.'
-          only-pr-labels: 'needs-work,has-questions'
+          any-of-pr-labels: 'needs-work,has-questions'
           exempt-pr-labels: 'needs-review,needs-engineering-work'
           stale-pr-label: stale
           close-pr-message: 'This pull request was closed because it has been inactive for a week with no additional activity.'

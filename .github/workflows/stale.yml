@@ -16,5 +16,6 @@ jobs:
           stale-pr-label: stale
           close-pr-message: 'This pull request was closed because it has been inactive for a week with no additional activity.'
           days-before-stale: 30
+          days-before-issue-stale: -1 # do not mark inactive issues as stale
           days-before-close: 7
           days-before-issue-close: -1 # do not touch inactive issues 

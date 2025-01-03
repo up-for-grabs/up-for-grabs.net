@@ -192,8 +192,6 @@ h1 {
 .block h1 {
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5' height='5'%3E%3Crect width='5' height='5' fill='transparent'/%3E%3Cpath d='M0 5L5 0ZM6 4L4 6ZM-1 1L1 -1Z' stroke='%23888' stroke-width='1'/%3E%3C/svg%3E");
   text-align: center;
-  /* text-shadow:
-    1px 1px 0 #225B7D; */
 }
 
 .block h1 .header-inside {
@@ -421,12 +419,11 @@ footer * {
 }
 
 .container {
-  *zoom: 1;
+  zoom: 1;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 90%;
-  /* max-width: 750px; */
   margin: 0 auto 0;
   position: relative;
 }
@@ -467,8 +464,8 @@ footer * {
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
+  display: inline;
+  vertical-align: auto;
   padding: 2px 2px;
   margin-right: 12px;
   margin-bottom: 6px;
@@ -482,8 +479,8 @@ footer * {
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
+  display: inline;
+  vertical-align: auto;
   height: 20px;
   overflow: hidden;
 }
@@ -497,8 +494,8 @@ a,
   vertical-align: baseline;
   zoom: 1;
   cursor: pointer;
-  *display: inline;
-  *vertical-align: auto;
+  display: inline;
+  vertical-align: auto;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -ms-transition: color 0.3s;
@@ -630,8 +627,8 @@ code {
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
+  display: inline;
+  vertical-align: auto;
 }
 
 img {
@@ -993,10 +990,6 @@ ul.tags li {
   margin-bottom: 20px;
   flex-wrap: wrap;
   gap: 0.75rem;
-}
-
-.radio-btn-wrapper {
-  /* margin: 4px 4px; */
 }
 
 .radio-btn {

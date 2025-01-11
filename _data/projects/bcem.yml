@@ -3,8 +3,8 @@ desc: Black Chamber is tool designed to help IT teams detect unauthorized SaaS u
 site: https://github.com/Black-Chamber/BlackChamberEmailMonitor
 tags:
   - cybersecurity 
-  - security tooling
-  - systems administration
+  - security-tooling
+  - systems-administration
   - golang
 upforgrabs:
   name: up for grabs

@@ -5,7 +5,7 @@ tags:
   - cybersecurity 
   - security-tooling
   - systems-administration
-  - golang
+  - go
 upforgrabs:
   name: up for grabs
   link: https://github.com/Black-Chamber/BlackChamberEmailMonitor/issues?q=is%3Aissue+is%3Aopen+label%3A%22up+for+grabs%22

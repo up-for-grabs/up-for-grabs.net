@@ -1,0 +1,16 @@
+name: Universal Service Registration
+desc: The uregister library provides a single utility program that can install, check status of, or uninstall a service on OSX, Windows, or Linux, using native service workers. Provides commands "install, info, uninstall" and parameters for location of platform-relevant binary to register. 
+site: https://pypi.org/uregister
+tags:
+  - python
+  - pypi
+  - linux
+  - windows
+  - osx
+  - systemd
+  - openrc
+  - launchd
+  - svchost
+upforgrabs:
+  name: scope:small
+  link: https://github.com/username/project/labels/scope:small

@@ -122,7 +122,7 @@ GEM
     regexp_parser (2.10.0)
     rexml (3.4.0)
     rouge (4.5.1)
-    rubocop (1.69.2)
+    rubocop (1.70.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)

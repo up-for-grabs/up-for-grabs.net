@@ -1,0 +1,12 @@
+name: Deskime
+desc: Best Powerful Desktop-Customization App
+site: https://github.com/deskime/deskime_app
+tags:
+  - python
+  - pyqt
+  - desktop
+  - customization
+  - windows
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/deskime/deskime_app/labels/up%20for%20grabs

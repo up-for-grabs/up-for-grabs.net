@@ -1,0 +1,12 @@
+name: Deskime
+desc: Best desktop customization app
+site: https://github.com/deskime/deskime_app
+tags:
+  - python
+  - desktop
+  - pyqt
+  - famous
+  - windows
+upforgrabs:
+  name: wow
+  link: https://github.com/deskime/deskime_app/labels/wow

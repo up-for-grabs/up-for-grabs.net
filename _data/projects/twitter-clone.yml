@@ -4,11 +4,11 @@ site: https://github.com/Pajkic-lab/twitter-clone
 tags:
   - typescript
   - nx
-  - node
+  - node.js
   - nestjs
   - prisma
   - pg
-  - react
+  - reactjs
   - styledcomponents
   - reactquery
   - jest

@@ -1,246 +1,190 @@
-/* eslint global-require: "off" */
-/* eslint block-scoped-var: "off" */
+// Use ESM instead of AMD for modern JavaScript environments
+import 'whatwg-fetch';
+import 'promise-polyfill';
 
-/* eslint function-paren-newline: [ "off" ] */
-/* eslint implicit-arrow-linebreak: [ "off" ] */
+/**
+ * @typedef {Object} CacheEntry
+ * @property {number|string} count - The issue count
+ * @property {string} etag - The ETag from GitHub API
+ * @property {string} date - ISO string of when the entry was cached
+ */
 
-// @ts-nocheck
-
-// required for loading into a NodeJS context
-if (typeof define !== 'function') {
-  var define = require('amdefine')(module);
-}
-
-define(['whatwg-fetch', 'promise-polyfill'], () => {
-  const { localStorage, fetch } = window;
-
-  const RateLimitResetAtKey = 'Rate-Limit-Reset-At';
+class GitHubIssueCounter {
+  static RATE_LIMIT_RESET_KEY = 'github-rate-limit-reset-at';
+  static CACHE_DURATION_MS = 24 * 60 * 60 * 1000; // 24 hours
+  static PER_PAGE = 30;
 
   /**
-   * Read and deserialize a value from local storage.
-   *
+   * @private
    * @param {string} key
-   *
    * @returns {any | undefined}
    */
-  function getValue(key) {
-    if (typeof localStorage !== 'undefined') {
-      const result = localStorage.getItem(key);
-      if (result !== null) {
-        return JSON.parse(result);
-      }
-    }
-    return undefined;
-  }
-
-  /**
-   * Clear a value from local storage.
-   *
-   * @param {string} key
-   */
-  function clearValue(key) {
-    if (typeof localStorage !== 'undefined') {
-      localStorage.removeItem(key);
+  static getFromStorage(key) {
+    try {
+      const item = localStorage?.getItem(key);
+      return item ? JSON.parse(item) : undefined;
+    } catch {
+      return undefined;
     }
   }
 
   /**
-   * Update a key in local storage to a new value.
-   *
+   * @private
    * @param {string} key
    * @param {any} value
    */
-  function setValue(key, value) {
+  static setInStorage(key, value) {
     try {
-      if (typeof localStorage !== 'undefined') {
-        localStorage.setItem(key, JSON.stringify(value));
-      }
-    } catch (exception) {
-      if (
-        exception != QUOTA_EXCEEDED_ERR &&
-        exception != NS_ERROR_DOM_QUOTA_REACHED
-      ) {
-        throw exception;
+      localStorage?.setItem(key, JSON.stringify(value));
+    } catch (error) {
+      // Only ignore quota errors, throw others
+      if (!error.name?.includes('QuotaExceeded')) {
+        throw error;
       }
     }
   }
 
   /**
-   * Inspect the response from the GitHub API to see if was related to being
-   * rate-limited by the server.
-   *
+   * @private
+   * @param {string} key
+   */
+  static clearFromStorage(key) {
+    try {
+      localStorage?.removeItem(key);
+    } catch {
+      // Ignore errors when clearing storage
+    }
+  }
+
+  /**
+   * @private
    * @param {Response} response
-   *
    * @returns {Error | undefined}
    */
-  function inspectRateLimitError(response) {
-    const rateLimited = response.headers.get('X-RateLimit-Remaining') === '0';
-    const rateLimitReset = response.headers.get('X-RateLimit-Reset');
+  static checkRateLimit(response) {
+    const remaining = response.headers.get('X-RateLimit-Remaining');
+    const resetTime = response.headers.get('X-RateLimit-Reset');
 
-    if (rateLimited && rateLimitReset) {
-      const rateLimitResetAt = new Date(1000 * rateLimitReset);
-      setValue(RateLimitResetAtKey, rateLimitResetAt);
+    if (remaining === '0' && resetTime) {
+      const resetDate = new Date(Number(resetTime) * 1000);
+      this.setInStorage(this.RATE_LIMIT_RESET_KEY, resetDate.toISOString());
       return new Error(
-        `GitHub rate limit met. Reset at ${rateLimitResetAt.toLocaleTimeString()}`
+        `GitHub rate limit reached. Resets at ${resetDate.toLocaleTimeString()}`
       );
     }
-
-    return undefined;
   }
 
   /**
-   * Inspect the response from the GitHub API to return a helpful error message.
-   *
-   * @param {any} json
+   * @private
+   * @param {Object} json
    * @param {Response} response
-   *
    * @returns {Error}
    */
-  function inspectGenericError(json, response) {
-    const { message } = json;
-    const errorMessage = message || response.statusText;
-    return new Error(`Could not get issue count from GitHub: ${errorMessage}`);
+  static createError(json, response) {
+    return new Error(
+      `GitHub API Error: ${json.message || response.statusText}`
+    );
   }
 
   /**
-   * Fetch and cache the issue count for the requested repository using the
-   * GitHub API.
-   *
-   * This covers a whole bunch of scenarios:
-   *
-   *  - cached values are used if re-requested within the next 24 hours
-   *  - ETags are included on the request, if found in the cache
-   *  - Rate-limiting will report an error, and no further requests will be
-   *    made until that has period has elapsed.
-   *
-   * @param {string} ownerAndName
-   * @param {string} label
-   *
-   * @returns {number|string|null}
+   * Fetch issue count for a GitHub repository
+   * @param {string} ownerAndName - Format: "/owner/repo"
+   * @param {string} label - Issue label to filter by
+   * @returns {Promise<number|string>}
    */
-  function fetchIssueCount(ownerAndName, label) {
-    const cached = getValue(ownerAndName);
+  static async fetchIssueCount(ownerAndName, label) {
+    // Input validation
+    if (!ownerAndName?.match(/^\/[\w-]+\/[\w-]+$/)) {
+      throw new Error('Invalid repository format. Use "/owner/repo"');
+    }
+
+    // Check cache
+    const cached = this.getFromStorage(ownerAndName);
     const now = new Date();
-
-    const yesterday = now - 1000 * 60 * 60 * 24;
-
-    if (cached && cached.date && new Date(cached.date) >= yesterday) {
-      return Promise.resolve(cached.count);
+    
+    if (cached?.date && (new Date(cached.date).getTime() + this.CACHE_DURATION_MS > now.getTime())) {
+      return cached.count;
     }
 
-    const rateLimitResetAt = getValue(RateLimitResetAtKey);
-
-    if (rateLimitResetAt) {
-      const d = new Date(rateLimitResetAt);
-
-      if (d > now) {
-        return Promise.reject(
-          new Error(`GitHub rate limit met. Reset at ${d.toLocaleTimeString()}`)
-        );
-      }
-
-      clearValue(RateLimitResetAtKey);
+    // Check rate limiting
+    const rateLimitReset = this.getFromStorage(this.RATE_LIMIT_RESET_KEY);
+    if (rateLimitReset && new Date(rateLimitReset) > now) {
+      throw new Error(
+        `GitHub rate limit active. Resets at ${new Date(rateLimitReset).toLocaleTimeString()}`
+      );
     }
+    this.clearFromStorage(this.RATE_LIMIT_RESET_KEY);
 
-    const perPage = 30;
+    // Prepare request
+    const apiUrl = new URL(
+      `https://api.github.com/repos${ownerAndName}/issues`
+    );
+    apiUrl.searchParams.set('labels', label);
+    apiUrl.searchParams.set('per_page', String(this.PER_PAGE));
 
-    // TODO: we're not extracting the leading or trailing slash in
-    //       `ownerAndName` when the previous regex is passed in here. This
-    //       would be great to cleanup at some stage
-    const apiURL = `https://api.github.com/repos${ownerAndName}issues?labels=${label}&per_page=${perPage}`;
-
-    const settings = {
-      method: 'GET',
-      headers: {
-        Accept: 'application/json',
-      },
+    const headers = {
+      'Accept': 'application/json',
+      ...(cached?.etag && { 'If-None-Match': cached.etag })
     };
 
-    if (cached && cached.etag) {
-      settings.headers = {
-        ...settings,
-        'If-None-Match': cached.etag,
-      };
+    try {
+      const response = await fetch(apiUrl, { headers });
+
+      // Handle Not Modified (304)
+      if (response.status === 304 && cached) {
+        return cached.count;
+      }
+
+      // Handle errors
+      if (!response.ok) {
+        this.clearFromStorage(ownerAndName);
+        
+        const rateLimitError = this.checkRateLimit(response);
+        if (rateLimitError) throw rateLimitError;
+
+        const json = await response.json();
+        throw this.createError(json, response);
+      }
+
+      // Process successful response
+      const etag = response.headers.get('ETag');
+      const linkHeader = response.headers.get('Link');
+
+      // Check for pagination
+      const lastPageMatch = linkHeader?.match(/<[^<>]*?page=(\d+)>; rel="last"/);
+      if (lastPageMatch) {
+        const lastPage = Number(lastPageMatch[1]);
+        const baseCount = this.PER_PAGE * (lastPage - 1);
+        const count = `${baseCount}+`;
+
+        this.setInStorage(ownerAndName, {
+          count,
+          etag,
+          date: now.toISOString()
+        });
+
+        return count;
+      }
+
+      // Handle single page of results
+      const json = await response.json();
+      if (Array.isArray(json)) {
+        this.setInStorage(ownerAndName, {
+          count: json.length,
+          etag,
+          date: now.toISOString()
+        });
+
+        return json.length;
+      }
+
+      throw new Error('Unexpected response format from GitHub API');
+
+    } catch (error) {
+      if (error instanceof Error) throw error;
+      throw new Error('Network error while fetching GitHub issues');
     }
-
-    return new Promise((resolve, reject) => {
-      fetch(apiURL, settings).then(
-        (response) => {
-          if (!response.ok) {
-            if (response.status === 304) {
-              // no content is returned in the 304 Not Modified response body
-              const count = cached ? cached.count : 0;
-              resolve(count);
-              return;
-            }
-
-            clearValue(ownerAndName);
-
-            const rateLimitError = inspectRateLimitError(response);
-            if (rateLimitError) {
-              reject(rateLimitError);
-              return;
-            }
-
-            response.json().then(
-              (json) => {
-                reject(inspectGenericError(json, response));
-              },
-              (error) => {
-                reject(error);
-              }
-            );
-
-            return;
-          }
-
-          const etag = response.headers.get('ETag');
-          const linkHeader = response.headers.get('Link');
-
-          if (linkHeader) {
-            const lastPageMatch = /<([^<>]*?page=(\d*))>; rel="last"/g.exec(
-              linkHeader
-            );
-            if (lastPageMatch && lastPageMatch.length === 3) {
-              const lastPageCount = Number(lastPageMatch[2]);
-              const baseCount = perPage * (lastPageCount - 1);
-              const count = `${baseCount}+`;
-
-              setValue(ownerAndName, {
-                count,
-                etag,
-                date: new Date(),
-              });
-
-              resolve(count);
-              return;
-            }
-          }
-
-          response.json().then(
-            (json) => {
-              if (json && typeof json.length === 'number') {
-                const count = json.length;
-                setValue(ownerAndName, {
-                  count,
-                  etag,
-                  date: new Date(),
-                });
-
-                resolve(count);
-              }
-            },
-            (error) => {
-              reject(error);
-            }
-          );
-        },
-        (error) => {
-          reject(error);
-        }
-      );
-    });
   }
+}
 
-  return fetchIssueCount;
-});
+export default GitHubIssueCounter.fetchIssueCount;

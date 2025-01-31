@@ -4,7 +4,7 @@ desc: Automatically generates beautiful and easy-to-read ER diagrams from your d
 site: https://github.com/liam-hq/liam
 tags:
   - visualization
-  - nodejs
+  - node.js
   - documentation
   - typescript
   - sql

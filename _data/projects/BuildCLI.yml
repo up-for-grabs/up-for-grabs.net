@@ -1,0 +1,12 @@
+name: BuildCLI
+desc: BuildCLI is a command-line interface (CLI) tool for managing and automating common tasks in Java project development.
+site: https://github.com/wheslleyrimar/BuildCLI
+tags:
+  - java
+  - maven
+  - docker
+  - cli
+  - jvm
+upforgrabs:
+  name: good first issue
+  link: https://github.com/wheslleyrimar/BuildCLI/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

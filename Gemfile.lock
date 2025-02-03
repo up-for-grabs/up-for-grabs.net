@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/up-for-grabs/tooling.git
-  revision: ae3bfcfb967ad73a9226de3191d67cbc9ce0aeb1
+  revision: f80ba8323f2e0cad80c61ad1b766d5aebe48ee55
   branch: main
   specs:
     up_for_grabs_tooling (0.2.0)
@@ -34,7 +34,7 @@ GEM
     bigdecimal (3.1.9)
     colorator (1.1.0)
     concurrent-ruby (1.3.5)
-    connection_pool (2.4.1)
+    connection_pool (2.5.0)
     csv (3.3.2)
     drb (2.2.1)
     em-websocket (0.5.3)
@@ -105,7 +105,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.4)
+    logger (1.6.5)
     mercenary (0.4.0)
     minitest (5.25.4)
     net-http (0.6.0)

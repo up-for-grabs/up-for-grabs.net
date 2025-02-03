@@ -57,9 +57,10 @@ GEM
     google-protobuf (4.29.3-x86_64-linux)
       bigdecimal
       rake (>= 13)
-    graphql (2.4.8)
+    graphql (2.4.9)
       base64
       fiber-storage
+      logger
     graphql-client (0.25.0)
       activesupport (>= 3.0)
       graphql (>= 1.13.0)
@@ -194,7 +195,7 @@ PLATFORMS
 
 DEPENDENCIES
   csv
-  graphql (~> 2.4.4)
+  graphql (~> 2.4.9)
   graphql-client
   jekyll
   json_schemer

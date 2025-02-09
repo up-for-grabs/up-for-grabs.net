@@ -15,6 +15,6 @@ upforgrabs:
   name: first-timers-only
   link: https://github.com/eclipse-jkube/jkube/labels/first-timers-only
 stats:
-  issue-count: 4
+  issue-count: 3
   last-updated: '2025-01-15T10:14:02Z'
-  fork-count: 536
+  fork-count: 538

@@ -92,6 +92,49 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
 
   /*
    * The function here is used for front end filtering when given
+   * texts to match in project name or description.
+   * Then it fallsback to show all the projects.
+   * @param Array projects : An array having all the Projects in _data
+   * @param Array projectsNameSorted : This is another array showing all the
+   *              projects in a sorted order
+   * @param string nameSearch : text to find in project name
+   * @param string descSearch : text to find in project description
+   */
+  const applySearchFilter = function (
+    projects,
+    projectNamesSorted,
+    nameSearch,
+    descSearch
+  ) {
+    nameSearch = (nameSearch || '').trim().toLowerCase();
+    descSearch = (descSearch || '').trim().toLowerCase();
+
+    if (!nameSearch && !descSearch) {
+      return projects;
+    }
+
+    return _.filter(
+      _.map(projectNamesSorted, (entry) => {
+        // search in name and in html-escaped description
+        if (
+          (!nameSearch || entry.name.toLowerCase().includes(nameSearch)) &&
+          (!descSearch ||
+            entry.desc
+              .replace(/<[^>]*>/g, '')
+              .toLowerCase()
+              .includes(descSearch))
+        ) {
+          return entry;
+        }
+
+        return undefined;
+      }),
+      (entry) => entry || false
+    );
+  };
+
+  /*
+   * The function here is used for front end filtering when given
    * selecting certain projects. It ensures that only the selected projects
    * are returned. If none of the dates was added to the filter or the project.stats
    * does not contain the 'last-updated' stat
@@ -237,13 +280,22 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
       labelsMap[project.upforgrabs.name.toLowerCase()] = project.upforgrabs;
     });
 
-    this.get = function (tags, names, labels, date) {
+    // TODO: refactor arguments to an options object?
+    this.get = function (tags, names, labels, date, nameSearch, descSearch) {
       let filteredProjects = projects;
       if (names && names.length) {
         filteredProjects = applyNamesFilter(
           filteredProjects,
           this.getNames(),
           names
+        );
+      }
+      if (nameSearch || descSearch) {
+        filteredProjects = applySearchFilter(
+          filteredProjects,
+          this.getNames(),
+          names?.length ? null : nameSearch,
+          descSearch
         );
       }
       if (date) {

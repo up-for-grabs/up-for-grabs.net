@@ -17,7 +17,7 @@ jobs:
           token: ${{ secrets.SHIFTBOT_TOKEN }}
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@d781c1b4ed31764801bfae177617bb0446f5ef8d
+        uses: ruby/setup-ruby@32110d4e311bd8996b2a82bf2a43b714ccc91777
         with:
           bundler-cache: true
           cache-version: 0

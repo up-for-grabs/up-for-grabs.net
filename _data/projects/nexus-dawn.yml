@@ -2,7 +2,7 @@ name: Nexus Dawn
 desc: A Collectible Card Game inspired by Triple Triad
 site: https://github.com/dustinstacy/nexus-dawn.git
 tags:
-  - react
+  - reactjs
   - nextjs
   - typescript
   - sass

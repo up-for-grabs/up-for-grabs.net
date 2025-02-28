@@ -1,0 +1,8 @@
+name: HelloWorld
+desc: A collection of code to print out "Hello World!" in different languages. 
+site: https://github.com/R4356th/HelloWorld
+tags:
+  - hello-world
+  - beginner-friendly
+upforgrabs:
+  name: Add a file containing code that would print out/display "Hello World!" using any programming language that cannot be found in the repository yet

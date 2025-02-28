@@ -6,3 +6,4 @@ tags:
   - beginner-friendly
 upforgrabs:
   name: Add a file containing code that would print out/display "Hello World!" using any programming language that cannot be found in the repository yet
+  link: https://github.com/R4356th/HelloWorld/issues?q=state:open%20label%3A%22help%20wanted%22

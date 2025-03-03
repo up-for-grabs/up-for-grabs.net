@@ -1,0 +1,21 @@
+---
+name: Giselle
+desc: AI for Agentic Workflows. Human-AI Collaboration. Open Source.
+site: https://github.com/giselles-ai/giselle
+tags:
+- agent
+- workflow
+- typescript
+- ai
+- nextjs
+- openai
+- pnpm
+- no-code
+- vercel
+- ai-agent
+- generative-ai
+- genai
+- multi-ai-agent
+upforgrabs:
+  name: good first issue
+  link: https://github.com/giselles-ai/giselle/labels/good%20first%20issue

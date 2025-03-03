@@ -1,0 +1,13 @@
+name: Quick Meet
+desc: Tailored for organizations, a simple tool that can enhance productivity by minimizing the time spent finding and securing meeting rooms in google calendar
+site: https://github.com/Cefalo/quick-meet
+tags:
+  - typescript
+  - chrome-extension
+  - react
+  - nestjs
+  - monorepo
+  - googlecalenderapi
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Cefalo/quick-meet/labels/feature%20request

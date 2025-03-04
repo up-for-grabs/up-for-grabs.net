@@ -1,14 +1,19 @@
+---
 name: Nexus Dawn
 desc: A Collectible Card Game inspired by Triple Triad
 site: https://github.com/dustinstacy/nexus-dawn
 tags:
-  - reactjs
-  - nextjs
-  - typescript
-  - sass
-  - zustand
-  - card-game
-  - frontend
+- reactjs
+- nextjs
+- typescript
+- sass
+- zustand
+- card-game
+- frontend
 upforgrabs:
   name: up for grabs
   link: https://github.com/dustinstacy/nexus-dawn/labels/up%20for%20grabs
+stats:
+  issue-count: 11
+  last-updated: '2025-02-26T02:31:34Z'
+  fork-count: 0

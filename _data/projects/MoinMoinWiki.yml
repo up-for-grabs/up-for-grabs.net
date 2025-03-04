@@ -1,3 +1,4 @@
+---
 name: MoinMoin Wiki
 desc: MoinMoin is a lightweight open source wiki engine written in Python
 site: https://github.com/moinwiki/moin
@@ -12,3 +13,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/moinwiki/moin/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2025-02-26T21:04:32Z'
+  fork-count: 93

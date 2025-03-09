@@ -4,7 +4,7 @@ site: https://github.com/Cefalo/quick-meet
 tags:
   - typescript
   - chrome-extension
-  - react
+  - reactjs
   - nestjs
   - monorepo
   - googlecalenderapi

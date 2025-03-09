@@ -1,4 +1,4 @@
-# Contributing to Up for Grabs
+# https://github.com/up-for-grabs/up-for-grabs.net.gitContributing to Up for Grabs
 
 This guide will help you get set up so you can make changes to the project, view
 them locally and verify that the site will deploy correctly when opening a pull

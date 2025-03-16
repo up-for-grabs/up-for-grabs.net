@@ -91,7 +91,7 @@ GEM
       sass-embedded (~> 1.75)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.10.1)
+    json (2.10.2)
     json_schemer (2.4.0)
       bigdecimal
       hana (~> 1.3)

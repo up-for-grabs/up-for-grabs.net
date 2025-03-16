@@ -26,6 +26,6 @@ upforgrabs:
   name: contribution welcome
   link: https://github.com/open-telemetry/opentelemetry-java-instrumentation/labels/contribution%20welcome
 stats:
-  issue-count: 89
-  last-updated: '2025-02-26T02:09:41Z'
-  fork-count: 910
+  issue-count: 87
+  last-updated: '2025-03-14T11:01:31Z'
+  fork-count: 912

@@ -36,7 +36,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up Ruby
-        uses: ruby/setup-ruby@277ba2a127aba66d45bad0fa2dc56f80dbfedffa
+        uses: ruby/setup-ruby@922ebc4c5262cd14e07bb0e1db020984b6c064fe
       - name: Build and test Jekyll site
         run: |
           bundle install

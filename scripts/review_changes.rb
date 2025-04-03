@@ -37,6 +37,8 @@ SKIP_PULL_REQUEST_MESSAGE = ":wave: I'm a robot checking the state of this pull 
 
 ALLOWED_EXTENSIONS = ['.yml'].freeze
 
+SKIP_EXIT_CODE = ARGV.include?('--skip-exit-code')
+
 def get_validation_message(result)
   path = result[:project].relative_path
 
@@ -318,7 +320,7 @@ markdown_body, success = generate_review_comment(dir, files)
 
 puts markdown_body
 
-if success
+if success || SKIP_EXIT_CODE
   exit 0
 else
   exit 123

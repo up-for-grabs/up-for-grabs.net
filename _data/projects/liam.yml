@@ -1,0 +1,31 @@
+---
+name: Liam ERD
+desc: Automatically generates beautiful and easy-to-read ER diagrams from your database.
+site: https://github.com/liam-hq/liam
+tags:
+- visualization
+- node.js
+- documentation
+- typescript
+- sql
+- orm
+- database
+- reactjs
+- postgresql
+- webassembly
+- documentation-tool
+- data-visualization
+- erd
+- ruby-on-rails
+- database-schema
+- er-diagram
+- entity-relationship-diagram
+- tbls
+- prisma
+upforgrabs:
+  name: good first issue
+  link: https://github.com/liam-hq/liam/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2025-04-01T05:19:15Z'
+  fork-count: 61

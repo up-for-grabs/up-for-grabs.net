@@ -52,16 +52,3 @@ dist/ -diff
 
 # Shell scripts
 *.sh text eol=lf
-
-#Explanation of the Key Entries:
-
-text=auto: Ensures consistent end-of-line normalization (CRLF for Windows, LF for Unix-based systems).
-
-Language-specific diff settings: Helps Git understand how to better display differences for files like JSON, JavaScript, or CSS.
-
-Binary files: Ensures that image and font files are treated as binary, avoiding unintended modifications or corruption.
-
-Lock files: Prevents normalization of files like package-lock.json or yarn.lock which should remain as-is.
-
-Exclude directories: Prevents Git from processing changes in directories like node_modules or dist which contain generated files.
-

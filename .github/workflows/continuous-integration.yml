@@ -7,6 +7,7 @@ on:
       - gh-pages
 
 jobs:
+
   docker:
     runs-on: ubuntu-latest
     steps:
@@ -35,7 +36,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up Ruby
-        uses: ruby/setup-ruby@2a18b06812b0e15bb916e1df298d3e740422c47e
+        uses: ruby/setup-ruby@277ba2a127aba66d45bad0fa2dc56f80dbfedffa
       - name: Build and test Jekyll site
         run: |
           bundle install
@@ -50,4 +51,19 @@ jobs:
       - uses: codespell-project/actions-codespell@v2
         with:
           skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
-          ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis
+          ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis,Lins
+
+  upload:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Save PR number
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          mkdir -p ./pr
+          echo $PR_NUMBER > ./pr/pr_number
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pr_number
+          path: pr/

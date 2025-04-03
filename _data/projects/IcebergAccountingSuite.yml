@@ -1,0 +1,28 @@
+---
+name: Iceberg Accounting Suite
+desc: >-
+  Iceberg Accounting Suite is intended to be a full service accounting suite capable of running small
+  business applications such as invoicing, inventory, a cash drawer, card readers and POS compatibility,
+  website connectivity, and more. Written in Python using PySimpleGUI, Iceberg currently allows users
+  to create an encrypted database and journal transactions against a set of accounts with vendor tracking.
+site: https://github.com/josephmbasile/IcebergAccountingSuite
+tags:
+- accounting
+- bookkeeping
+- pos
+- kms
+- card
+- reader
+- register
+- inventory
+- vendor
+- customer
+- accounts
+- books
+upforgrabs:
+  name: help wanted
+  link: https://github.com/josephmbasile/IcebergAccountingSuite/labels/help%20wanted
+stats:
+  issue-count: 19
+  last-updated: '2025-01-05T13:41:28Z'
+  fork-count: 2

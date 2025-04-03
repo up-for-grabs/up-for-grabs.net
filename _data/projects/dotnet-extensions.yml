@@ -10,6 +10,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/extensions/labels/help%20wanted
 stats:
-  issue-count: 1
-  last-updated: '2024-11-11T04:32:45Z'
-  fork-count: 760
+  issue-count: 0
+  fork-count: 790

@@ -1,0 +1,19 @@
+---
+name: Frapp
+desc: >-
+  Frapp is a React Native app that provides video game giveaways and free games. Built with Expo and React
+  Native Paper.
+site: https://github.com/Brianali-codes/Frapp
+tags:
+- react-native
+- development
+- javascript
+- react-native-paper
+- expo
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Brianali-codes/Frapp/labels/up%20for%20grabs
+stats:
+  issue-count: 2
+  last-updated: '2025-01-03T10:49:35Z'
+  fork-count: 1

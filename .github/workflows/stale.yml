@@ -1,0 +1,21 @@
+name: 'Close stale PR'
+on:
+  schedule:
+    - cron: '30 1 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.SHIFTBOT_TOKEN }}
+          stale-pr-message: 'This pull request is stale because it has been open 30 days with no activity and requires further work. Remove the stale label or comment otherwise this will be closed in a week.'
+          any-of-pr-labels: 'needs-work,has-questions'
+          exempt-pr-labels: 'needs-review,needs-engineering-work'
+          stale-pr-label: stale
+          close-pr-message: 'This pull request was closed because it has been inactive for a week with no additional activity.'
+          days-before-stale: 30
+          days-before-issue-stale: -1 # do not mark inactive issues as stale
+          days-before-close: 7
+          days-before-issue-close: -1 # do not touch inactive issues 

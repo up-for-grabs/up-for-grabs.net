@@ -9,9 +9,9 @@ tags:
 - workflow-automation
 - automation
 upforgrabs:
-  name: good first issue
-  link: https://github.com/keephq/keep/issues?q=label%3A%22good%20first%20issue%22
+  name: Good First Issue
+  link: https://github.com/keephq/keep/labels/Good%20First%20Issue
 stats:
-  issue-count: 1
-  last-updated: '2023-11-13T13:49:10Z'
-  fork-count: 85
+  issue-count: 17
+  last-updated: '2025-03-29T20:05:17Z'
+  fork-count: 919

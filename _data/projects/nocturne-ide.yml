@@ -1,0 +1,11 @@
+project_name: Nocturne IDE
+description: Voice-powered IDE with AI assistant for blind and visually impaired developers.
+site: https://github.com/sapega89/eric7
+tags:
+  - ai
+  - voice
+  - ide
+  - accessibility
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sapega89/eric7/issues

@@ -3,13 +3,19 @@ desc: Internationalisation solution for React, Vue, Svelte etc. Integrate a Visu
 site: https://intlayer.org/
 tags:
   - i18n
-  - Developer Tools
-  - JavaScript
-  - Visual Editor
-  - React
-  - Vue
-  - Svelte
-  - Next.js
+  - internationalization
+  - l10n
+  - localization
+  - javascript
+  - visual 
+  - editor
+  - reactjs
+  - vue
+  - svelte
+  - angular
+  - preact
+  - solid
+  - next.js
 upforgrabs:
   name: good first issue
-  link: https://github.com/aypineau/intlayer/labels/good%20first%20issue
+  link: https://github.com/aymericzip/intlayer/labels/good%20first%20issue

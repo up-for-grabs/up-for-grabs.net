@@ -1,0 +1,27 @@
+---
+name: CocoIndex
+desc: High performance Data framework for AI, optimized for data freshness
+site: https://cocoindex.io
+tags:
+- python
+- rust
+- data
+- streaming
+- real-time
+- ai
+- pipeline
+- etl
+- data-engineering
+- indexing
+- knowledge-graph
+- dataflow
+- data-processing
+- data-infrastructure
+- rag
+- llm
+upforgrabs:
+  name: good first issue
+  link: https://github.com/cocoindex-io/cocoindex/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 40
+  fork-count: 55

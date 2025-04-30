@@ -85,11 +85,25 @@
       <div>
         <div>
           <div colspan="2" class="title">
-            <span class="proj"
-              ><a href="<%-project.site %>" target="_blank"
+            <span class="proj">
+              <a href="<%-project.site %>" target="_blank"
                 ><%-project.name %></a
-              ></span
-            >
+              >
+              <a
+                href="<%- project.upforgrabs.link.split('/').slice(0, 5).join('/') %>"
+                target="_blank"
+                title="View on GitHub"
+                style="margin-left: 8px;"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg"
+                  alt="GitHub"
+                  width="20"
+                  height="20"
+                  style="vertical-align: middle;"
+                />
+              </a>
+            </span>
           </div>
         </div>
         <div>

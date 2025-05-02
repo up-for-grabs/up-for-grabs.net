@@ -11,6 +11,11 @@
   --container-border-alt: #303030;
   --databox-bg: #fff;
   --databox-text: #2e7ba9;
+  --navbar-bg: #fff;
+  --navbar-text: #2e7ba9;
+  --navbar-active: #005485;
+  --navbar-hover: #2d7ba9;
+  --navbar-border: #dbdbdb;
 }
 
 /* Dark Mode Preference has been selected */
@@ -24,6 +29,11 @@
   --container-border-alt: #dbdbdb;
   --databox-bg: #32404d;
   --databox-text: #7bceff;
+  --navbar-bg: rgb(39 47 55);
+  --navbar-text: #7bceff;
+  --navbar-active: #7bc6f2;
+  --navbar-hover: #7bc6f2;
+  --navbar-border: transparent;
 }
 
 /*******************************************************************************
@@ -141,6 +151,137 @@ ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/*******************************************************************************
+Navbar Styles
+*******************************************************************************/
+
+.navbar {
+  background: var(--navbar-bg);
+  border-bottom: 1px solid var(--navbar-border);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 12px 20px;
+  color: var(--navbar-text);
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  min-height: 24px;
+  touch-action: manipulation;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--navbar-hover);
+  background-color: rgba(0, 0, 0, 0.05);
+  outline: none;
+}
+
+.nav-link:focus-visible {
+  box-shadow: 0 0 0 2px var(--navbar-active);
+}
+
+.nav-link.active {
+  color: var(--navbar-active);
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--navbar-active);
+  transition: transform 0.3s ease;
+  transform: scaleX(1);
+}
+
+.nav-link:not(.active)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--navbar-active);
+  transition: transform 0.3s ease;
+  transform: scaleX(0);
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nav-link {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  
+  /* Push content down to account for fixed navbar */
+  #main-container {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+    padding: 8px 5px;
+    font-size: 12px;
+  }
+  
+  .navbar .container {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .nav-links {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav-link {
+    padding: 8px 3px;
+    font-size: 11px;
+  }
 }
 
 /*******************************************************************************

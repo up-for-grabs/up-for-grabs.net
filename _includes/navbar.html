@@ -1,0 +1,104 @@
+<!-- Navigation Bar -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <ul class="nav-links" role="menubar">
+      <li role="none"><a href="#i-want-to-get-involved" class="nav-link" role="menuitem" aria-label="Navigate to Get Involved section">Get Involved</a></li>
+      <li role="none"><a href="#projects" class="nav-link" role="menuitem" aria-label="Navigate to Projects section">Projects</a></li>
+      <li role="none"><a href="#i-maintain-a-project" class="nav-link" role="menuitem" aria-label="Navigate to Maintain a Project section">Maintain a Project</a></li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    // Add smooth scrolling to all nav links
+    navLinks.forEach(link => {
+      // Use both click and touchend events for better mobile experience
+      ['click', 'touchend'].forEach(eventName => {
+        link.addEventListener(eventName, function(e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          const targetElement = document.querySelector(targetId);
+          
+          if (targetElement) {
+            // Get the navbar height to offset the scroll position
+            const navbarHeight = document.querySelector('.navbar').offsetHeight;
+            
+            // Calculate the target position
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+            
+            // Smooth scroll to target
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+            
+            // Update URL hash without jumping
+            history.pushState(null, null, targetId);
+            
+            // Set active state on the clicked link
+            navLinks.forEach(navLink => {
+              navLink.classList.remove('active');
+              navLink.setAttribute('aria-current', 'false');
+            });
+            
+            this.classList.add('active');
+            this.setAttribute('aria-current', 'page');
+          }
+        });
+      });
+    });
+    
+    // Set active class based on scroll position
+    function setActiveNavLink() {
+      const scrollPosition = window.scrollY;
+      
+      // Get all sections
+      const sections = document.querySelectorAll('section.block, article.block');
+      
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        const navbarHeight = document.querySelector('.navbar').offsetHeight;
+        
+        if (
+          scrollPosition >= sectionTop - navbarHeight - 10 && 
+          scrollPosition < sectionTop + sectionHeight - navbarHeight
+        ) {
+          const id = section.getAttribute('id');
+          
+          // Remove active class from all links
+          document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+            link.setAttribute('aria-current', 'false');
+          });
+          
+          // Add active class to corresponding link
+          const activeLink = document.querySelector(`.nav-link[href="#${id}"]`);
+          if (activeLink) {
+            activeLink.classList.add('active');
+            activeLink.setAttribute('aria-current', 'page');
+          }
+        }
+      });
+    }
+    
+    // Initial call to set active link
+    setActiveNavLink();
+    
+    // Set active link on scroll (debounced for performance)
+    let scrollTimeout;
+    window.addEventListener('scroll', function() {
+      if (scrollTimeout) {
+        window.cancelAnimationFrame(scrollTimeout);
+      }
+      
+      scrollTimeout = window.requestAnimationFrame(function() {
+        setActiveNavLink();
+      });
+    });
+  });
+</script> 

@@ -11,5 +11,6 @@ upforgrabs:
   link: https://github.com/Guake/guake/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 stats:
   issue-count: 16
+  total-issue-count: 411
   last-updated: '2024-10-08T22:50:15Z'
   fork-count: 579

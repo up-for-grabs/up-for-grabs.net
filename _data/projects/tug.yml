@@ -14,5 +14,6 @@ upforgrabs:
   link: https://github.com/PowerShellOrg/tug/labels/up-for-grabs
 stats:
   issue-count: 1
+  total-issue-count: 26
   last-updated: '2020-12-31T16:04:23Z'
   fork-count: 27

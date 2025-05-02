@@ -10,5 +10,6 @@ upforgrabs:
   link: https://github.com/PowerShell/vscode-powershell/labels/Up%20for%20Grabs
 stats:
   issue-count: 83
+  total-issue-count: 363
   last-updated: '2025-04-30T02:06:06Z'
   fork-count: 510

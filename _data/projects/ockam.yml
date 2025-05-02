@@ -18,5 +18,6 @@ upforgrabs:
   link: https://github.com/build-trust/ockam/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 stats:
   issue-count: 58
+  total-issue-count: 316
   last-updated: '2025-02-16T10:25:27Z'
   fork-count: 557

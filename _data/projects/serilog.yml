@@ -16,4 +16,5 @@ upforgrabs:
   link: https://github.com/serilog/serilog/labels/up-for-grabs
 stats:
   issue-count: 0
+  total-issue-count: 29
   fork-count: 807

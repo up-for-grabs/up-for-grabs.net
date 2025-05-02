@@ -11,5 +11,6 @@ upforgrabs:
   link: https://github.com/dotnet/aspnetcore/labels/help%20wanted
 stats:
   issue-count: 19
+  total-issue-count: 3599
   last-updated: '2025-04-30T09:28:42Z'
-  fork-count: 10311
+  fork-count: 10310

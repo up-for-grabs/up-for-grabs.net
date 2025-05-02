@@ -12,5 +12,6 @@ upforgrabs:
   link: https://github.com/yugabyte/yugabyte-db/labels/good%20first%20issue
 stats:
   issue-count: 148
+  total-issue-count: 6756
   last-updated: '2025-04-29T19:02:32Z'
   fork-count: 1126

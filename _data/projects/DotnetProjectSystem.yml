@@ -19,5 +19,6 @@ upforgrabs:
   link: https://github.com/dotnet/project-system/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue
 stats:
   issue-count: 20
+  total-issue-count: 605
   last-updated: '2025-01-16T23:59:00Z'
   fork-count: 395

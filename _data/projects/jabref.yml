@@ -20,6 +20,7 @@ upforgrabs:
   link: https://github.com/JabRef/jabref/labels/good%20first%20issue
 contribute: https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md
 stats:
-  issue-count: 32
-  last-updated: '2025-05-02T09:28:27Z'
+  issue-count: 33
+  total-issue-count: 554
+  last-updated: '2025-05-02T18:15:11Z'
   fork-count: 2793

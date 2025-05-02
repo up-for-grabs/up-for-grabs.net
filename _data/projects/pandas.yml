@@ -10,5 +10,6 @@ upforgrabs:
   link: https://github.com/pandas-dev/pandas/labels/good%20first%20issue
 stats:
   issue-count: 44
+  total-issue-count: 3630
   last-updated: '2025-05-01T19:41:50Z'
-  fork-count: 18466
+  fork-count: 18467

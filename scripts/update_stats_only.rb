@@ -59,10 +59,12 @@ def update(project, apply_changes: false)
   if result[:last_updated].nil?
     obj.store('stats',
               'issue-count' => result[:count],
+              'total-issue-count' => result[:total_issues_count],
               'fork-count' => result[:fork_count])
   else
     obj.store('stats',
               'issue-count' => result[:count],
+              'total-issue-count' => result[:total_issues_count],
               'last-updated' => result[:last_updated],
               'fork-count' => result[:fork_count])
   end

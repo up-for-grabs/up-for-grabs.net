@@ -11,4 +11,5 @@ upforgrabs:
   link: https://github.com/apache/grails-core/labels/info%3A%20up%20for%20grabs
 stats:
   issue-count: 0
+  total-issue-count: 836
   fork-count: 955

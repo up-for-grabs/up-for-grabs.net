@@ -14,5 +14,6 @@ upforgrabs:
   link: https://github.com/mysql-net/MySqlConnector/labels/up%20for%20grabs
 stats:
   issue-count: 2
+  total-issue-count: 90
   last-updated: '2024-11-30T18:20:31Z'
   fork-count: 342

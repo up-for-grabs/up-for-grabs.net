@@ -16,4 +16,5 @@ upforgrabs:
   link: https://github.com/esfiddle/api/labels/up-for-grabs
 stats:
   issue-count: 0
+  total-issue-count: 14
   fork-count: 5

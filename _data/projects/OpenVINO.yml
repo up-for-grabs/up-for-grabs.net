@@ -15,5 +15,6 @@ upforgrabs:
   link: https://github.com/openvinotoolkit/openvino/labels/good%20first%20issue
 stats:
   issue-count: 185
-  last-updated: '2025-05-02T03:36:30Z'
-  fork-count: 2586
+  total-issue-count: 325
+  last-updated: '2025-05-02T15:05:27Z'
+  fork-count: 2585

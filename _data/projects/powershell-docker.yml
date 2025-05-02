@@ -11,4 +11,5 @@ upforgrabs:
   link: https://github.com/PowerShell/PowerShell-Docker/labels/Up-for-Grabs
 stats:
   issue-count: 0
+  total-issue-count: 24
   fork-count: 155

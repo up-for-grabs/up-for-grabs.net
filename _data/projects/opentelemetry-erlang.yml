@@ -25,5 +25,6 @@ upforgrabs:
   link: https://github.com/open-telemetry/opentelemetry-erlang/labels/help%20wanted
 stats:
   issue-count: 9
+  total-issue-count: 99
   last-updated: '2024-04-03T11:32:26Z'
   fork-count: 115

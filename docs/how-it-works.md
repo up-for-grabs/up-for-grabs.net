@@ -22,6 +22,16 @@ some neat features of Jekyll along the way.
   render the list of projects and provide the UI for filtering based on label
   or tags
 
+## Site Navigation
+
+The site includes a navigation component that allows users to easily move between the main sections:
+
+- The navbar component is defined in [`_includes/navbar.html`](../_includes/navbar.html)
+- It provides smooth scrolling between the "Get Involved", "Projects", and "Maintain a Project" sections
+- It automatically highlights the active section as the user scrolls through the page
+- It's responsive and works well on all device sizes
+- For more details, see the [Navbar Component](navbar-component.md) documentation
+
 ## Project Infrastructure
 
 We've settled on some infrastructure choices that mean we don't need to worry

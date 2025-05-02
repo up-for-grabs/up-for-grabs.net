@@ -8,6 +8,15 @@
 
 This repository contains the content for the [Up-For-Grabs website](https://up-for-grabs.net/), a list of projects with curated tasks for new contributors.
 
+## Site Features
+
+- **Project Discovery** - Browse through hundreds of open source projects looking for contributors
+- **Tag-based Filtering** - Find projects based on programming languages or types of contributions needed
+- **Easy Navigation** - Use the navbar to quickly jump between the main sections of the site:
+  - "Get Involved" - Learn how to start contributing to open source
+  - "Projects" - Browse the list of available projects
+  - "Maintain a Project" - Information for project maintainers
+
 ## List your project
 
 If you know of or own a project that should be listed on Up for Grabs,

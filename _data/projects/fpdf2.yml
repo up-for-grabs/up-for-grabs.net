@@ -10,5 +10,6 @@ upforgrabs:
   link: https://github.com/py-pdf/fpdf2/labels/up-for-grabs
 stats:
   issue-count: 32
+  total-issue-count: 50
   last-updated: '2025-03-29T17:35:41Z'
-  fork-count: 272
+  fork-count: 273

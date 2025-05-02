@@ -11,5 +11,6 @@ upforgrabs:
   link: https://github.com/dotnet/fsharp/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 stats:
   issue-count: 57
+  total-issue-count: 1210
   last-updated: '2025-04-28T15:36:46Z'
   fork-count: 815

@@ -10,5 +10,6 @@ upforgrabs:
   link: https://github.com/dotnet/msbuild/labels/help%20wanted
 stats:
   issue-count: 86
+  total-issue-count: 1477
   last-updated: '2025-04-29T14:22:32Z'
-  fork-count: 1371
+  fork-count: 1372

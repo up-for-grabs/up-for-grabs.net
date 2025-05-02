@@ -16,5 +16,6 @@ upforgrabs:
   link: https://github.com/sigstore/cosign/labels/good%20first%20issue
 stats:
   issue-count: 8
+  total-issue-count: 241
   last-updated: '2025-04-10T16:53:34Z'
-  fork-count: 585
+  fork-count: 586

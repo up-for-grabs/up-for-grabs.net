@@ -18,6 +18,7 @@ upforgrabs:
   name: easy
   link: https://github.com/FreezingMoon/AncientBeast/labels/easy
 stats:
-  issue-count: 14
-  last-updated: '2025-04-28T19:51:34Z'
-  fork-count: 624
+  issue-count: 15
+  total-issue-count: 474
+  last-updated: '2025-05-02T13:58:42Z'
+  fork-count: 626

@@ -15,4 +15,5 @@ upforgrabs:
   link: https://github.com/django-import-export/django-import-export/labels/good%20first%20issue
 stats:
   issue-count: 0
+  total-issue-count: 22
   fork-count: 809

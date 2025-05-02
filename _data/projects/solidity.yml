@@ -12,5 +12,6 @@ upforgrabs:
   link: https://github.com/ethereum/solidity/labels/help%20wanted
 stats:
   issue-count: 2
+  total-issue-count: 519
   last-updated: '2024-12-24T07:06:24Z'
-  fork-count: 6064
+  fork-count: 6066

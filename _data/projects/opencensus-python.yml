@@ -27,5 +27,6 @@ upforgrabs:
   link: https://github.com/census-instrumentation/opencensus-python/labels/up-for-grabs
 stats:
   issue-count: 16
+  total-issue-count: 173
   last-updated: '2020-10-04T04:46:04Z'
   fork-count: 250

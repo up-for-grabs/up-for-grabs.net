@@ -14,4 +14,5 @@ upforgrabs:
   link: https://github.com/microsoft/ApplicationInsights-dotnet/labels/up-for-grabs
 stats:
   issue-count: 0
+  total-issue-count: 141
   fork-count: 296

@@ -18,5 +18,6 @@ upforgrabs:
   link: https://github.com/electron/electron/labels/beginner%20friendly
 stats:
   issue-count: 4
+  total-issue-count: 854
   last-updated: '2025-04-02T14:10:45Z'
-  fork-count: 16011
+  fork-count: 16010

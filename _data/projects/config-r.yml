@@ -14,5 +14,6 @@ upforgrabs:
   link: https://github.com/config-r/config-r/labels/up-for-grabs
 stats:
   issue-count: 2
+  total-issue-count: 20
   last-updated: '2018-03-25T09:00:14Z'
   fork-count: 45

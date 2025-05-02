@@ -14,5 +14,6 @@ upforgrabs:
   link: https://github.com/home-assistant/home-assistant.io/labels/help-wanted
 stats:
   issue-count: 3
+  total-issue-count: 617
   last-updated: '2025-04-13T23:28:45Z'
-  fork-count: 7637
+  fork-count: 7639

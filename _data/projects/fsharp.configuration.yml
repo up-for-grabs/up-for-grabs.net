@@ -14,5 +14,6 @@ upforgrabs:
   link: https://github.com/fsprojects/FSharp.Configuration/labels/up-for-grabs
 stats:
   issue-count: 2
+  total-issue-count: 45
   last-updated: '2022-10-04T19:50:49Z'
   fork-count: 63

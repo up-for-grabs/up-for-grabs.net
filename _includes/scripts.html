@@ -1,59 +1,62 @@
 <script type="text/html" id="projects-panel-template">
   <menu>
-    <div class="filters-panel cf">
-      <label class="filter-label" for="project">Filter by last updated:</label>
-      <div class="radio-btn-row">
+    <div class="filters-panel cf" role="group" aria-labelledby="time-filter-label">
+      <label id="time-filter-label" class="filter-label">Filter by last updated:</label>
+      <div class="radio-btn-row" role="toolbar" aria-label="Time filter options">
         <div class="radio-btn-wrapper">
-          <button id="1week" class="radio-btn" type="button">1 Week</button>
+          <button id="1week" class="radio-btn" type="button" aria-pressed="false">1 Week</button>
         </div>
         <div class="radio-btn-wrapper">
-          <button id="1month" class="radio-btn" type="button">1 Month</button>
+          <button id="1month" class="radio-btn" type="button" aria-pressed="false">1 Month</button>
         </div>
         <div class="radio-btn-wrapper">
-          <button id="6months" class="radio-btn" type="button">6 Months</button>
+          <button id="6months" class="radio-btn" type="button" aria-pressed="false">6 Months</button>
         </div>
         <div class="radio-btn-wrapper">
-          <button id="1year" class="radio-btn" type="button">1 Year</button>
+          <button id="1year" class="radio-btn" type="button" aria-pressed="false">1 Year</button>
         </div>
         <div class="radio-btn-wrapper">
-          <button id="2years" class="radio-btn" type="button">2 Years</button>
+          <button id="2years" class="radio-btn" type="button" aria-pressed="false">2 Years</button>
         </div>
       </div>
     </div>
 
-    <div class="filters-panel cf">
-      <label class="filter-label" for="project">Filter by name:</label>
+    <div class="filters-panel cf" role="group" aria-labelledby="name-filter-label">
+      <label id="name-filter-label" class="filter-label" for="project">Filter by name:</label>
       <select
         class="names-filter"
         id="project"
         multiple
         data-placeholder="Select a project..."
+        aria-label="Filter projects by name"
       >
         <% _.each(names, function(entry, key){ %>
         <option value="<%-key%>"><%- entry.name%></option>
         <% }) %>
       </select>
     </div>
-    <div class="filters-panel cf">
-      <label class="filter-label" for="label">Filter by label: </label>
+    <div class="filters-panel cf" role="group" aria-labelledby="label-filter-label">
+      <label id="label-filter-label" class="filter-label" for="label">Filter by label: </label>
       <select
         class="labels-filter"
         id="label"
         multiple
         data-placeholder="Select a label..."
+        aria-label="Filter projects by issue label"
       >
         <% _.each(labels, function(entry, key){ %>
         <option value="<%-key%>"><%- entry.name%></option>
         <% }) %>
       </select>
     </div>
-    <div class="filters-panel cf">
-      <label class="filter-label" for="tag">Filter by tags: </label>
+    <div class="filters-panel cf" role="group" aria-labelledby="tag-filter-label">
+      <label id="tag-filter-label" class="filter-label" for="tag">Filter by tags: </label>
       <select
         class="tags-filter"
         id="tag"
         multiple
         data-placeholder="Select a tag..."
+        aria-label="Filter projects by technology tags"
       >
         <% _.each(tags, function(entry, key){ %>
         <option value="<%-entry.name%>">
@@ -78,19 +81,19 @@
       </ul>
     </div>
   </menu>
-  <div class="projects">
+  <div class="projects" role="list" aria-label="Available open source projects">
     <% let count=0 %> <% _.each(projects, function(project) { %> <%
     count=count+1%>
-    <div class="data-box" class="<% if ( project.stats ) { %>counted<% } %>">
+    <article class="data-box <% if ( project.stats ) { %>counted<% } %>" role="listitem" tabindex="0" aria-labelledby="project-title-<%= count %>">
       <div>
         <div>
-          <div colspan="2" class="title">
-            <span class="proj"
-              ><a href="<%-project.site %>" target="_blank"
-                ><%-project.name %></a
-              ></span
-            >
-          </div>
+          <h3 class="title">
+            <span class="proj">
+              <a href="<%-project.site %>" target="_blank" id="project-title-<%= count %>" aria-label="<%-project.name %> project homepage">
+                <%-project.name %>
+              </a>
+            </span>
+          </h3>
         </div>
         <div>
           <div class="details stats">
@@ -99,24 +102,24 @@
                 href="<%- project.upforgrabs.link %>"
                 title="View open issues for <%-project.name %>"
                 target="_blank"
-                tabindex="-1"
+                aria-label="<%-project.upforgrabs.name %> issues for <%-project.name %>"
               >
                 <%-project.upforgrabs.name %> <% if (project.stats &&
                 project.stats['last-updated']) { const now=new Date(); let
                 lastUpdated=new Date(project.stats['last-updated']); let
                 since=relativeTime(now, lastUpdated); %>
-                <span class="count" title="Last updated <%- since %>"
+                <span class="count" aria-label="<%-project.stats['issue-count']%> issues, last updated <%- since %>"
                   ><%-project.stats['issue-count']%></span
                 >
                 <% } else if (project.stats) { %>
-                <span class="count" title="No recent activity"
+                <span class="count" aria-label="<%-project.stats['issue-count']%> issues with no recent activity"
                   ><%-project.stats['issue-count']%></span
                 >
                 <% } %>
               </a>
             </p>
             <% if (project.stats) { %>
-            <div class="fork-count" title="Number of forks">
+            <div class="fork-count" aria-label="<%- project.stats['fork-count'] %> project forks">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -124,20 +127,21 @@
                 version="1.1"
                 width="16"
                 data-view-component="true"
-                class="fork-count-svg"
+                class="octicon octicon-repo-forked"
               >
                 <path
-                  d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"
+                  fill="var(--fork-svg-fill, #6c757d)"
+                  fill-rule="evenodd"
+                  d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"
                 ></path>
               </svg>
-              <%-project.stats['fork-count']%>
-              <span class="tooltip">Forks</span>
+              <span><%-project.stats['fork-count']%></span>
             </div>
             <% } %>
           </div>
           <div class="details">
             <% if (project.desc) { %>
-            <span class="desc"> <%=project.desc%> </span>
+            <span class="desc" aria-label="Project description: <%=project.desc%>"><%=project.desc%></span>
             <% } %>
           </div>
         </div>
@@ -169,6 +173,7 @@
   data-main="javascripts/app"
 ></script>
 <script src="{{ site.github.url }}javascripts/dark-mode-debug.js"></script>
+<script src="{{ site.github.url }}javascripts/accessibility.js"></script>
 <!-- Google Analytics -->
 <script>
   (function (i, s, o, g, r, a, m) {

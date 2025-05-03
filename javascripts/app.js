@@ -13,6 +13,8 @@ requirejs.config({
     'promise-polyfill':
       '//cdn.jsdelivr.net/npm/promise-polyfill@8.1.3/dist/polyfill.min',
     'whatwg-fetch': '//cdn.jsdelivr.net/npm/whatwg-fetch@3.0.0/dist/fetch.umd',
+    'intersection-observer': 
+      '//cdn.jsdelivr.net/npm/intersection-observer@0.12.2/intersection-observer.min',
   },
   shim: {
     // chosen is not UMD-compatible, so we need to use this hook to ensure

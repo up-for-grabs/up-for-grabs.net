@@ -11,6 +11,10 @@ define([
   'sammy',
   // this will auto-run and apply the event listeners for dark mode checks
   'dark-mode',
+  // Add our performance optimizations module
+  'performance',
+  // Add IntersectionObserver polyfill for older browsers
+  'intersection-observer',
   // chosen is listed here as a dependency because it's used from a jQuery
   // selector, and needs to be ready before this code runs
   'chosen',
@@ -21,10 +25,15 @@ define([
   fetchIssueCount,
   _,
   sammy,
-  setupDarkModeListener
+  setupDarkModeListener,
+  Performance
 ) => {
   let compiledtemplateFn = null,
     projectsPanel = null;
+  
+  // Track current page for pagination
+  let currentPage = 1;
+  let allProjects = [];
 
   setupDarkModeListener();
 
@@ -66,10 +75,25 @@ define([
 
   const renderProjects = function (projectService, tags, names, labels, date) {
     const allTags = projectService.getTags();
-
+    
+    // Get filtered projects
+    allProjects = projectService.get(tags, names, labels, date);
+    
+    // Try to get page from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    currentPage = parseInt(urlParams.get('page')) || 1;
+    
+    // Paginate the projects
+    const totalPages = Performance.getTotalPages(allProjects);
+    const paginatedProjects = Performance.paginateProjects(allProjects, currentPage);
+    
+    // Store in cache for faster reloading
+    Performance.storeInCache(allProjects);
+    
+    // Render the projects with pagination
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectService.get(tags, names, labels, date),
+        projects: paginatedProjects,
         relativeTime,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
@@ -78,6 +102,8 @@ define([
         selectedNames: names,
         labels: projectService.getLabels(),
         selectedLabels: labels,
+        currentPage: currentPage,
+        totalPages: totalPages
       })
     );
     date = date || 'invalid';
@@ -129,8 +155,10 @@ define([
           id = '';
         }
 
+        // Reset to page 1 when filter changes
+        currentPage = 1;
         location.href = updateQueryStringParameter(
-          getFilterUrl(),
+          updateQueryStringParameter(getFilterUrl(), 'page', '1'),
           'date',
           encodeURIComponent(id || '')
         );
@@ -163,8 +191,9 @@ define([
             .indexOf(selectedTag);
           if (tagID !== -1) {
             selTags.push(selectedTag);
+            // Reset to page 1 when filter changes
             location.href = updateQueryStringParameter(
-              getFilterUrl(),
+              updateQueryStringParameter(getFilterUrl(), 'page', '1'),
               'tags',
               encodeURIComponent(selTags)
             );
@@ -172,6 +201,27 @@ define([
         }
       });
     });
+    
+    // Add pagination controls if needed
+    if (totalPages > 1) {
+      const $paginationContainer = $('<div class="pagination-container"></div>');
+      const $pagination = Performance.createPagination(currentPage, totalPages, function(newPage) {
+        // Update URL with new page and reload
+        window.location.href = updateQueryStringParameter(
+          window.location.href,
+          'page',
+          newPage.toString()
+        );
+      });
+      
+      $paginationContainer.append($pagination);
+      projectsPanel.append($paginationContainer);
+    }
+    
+    // Setup lazy loading of project stats
+    setTimeout(function() {
+      Performance.setupLazyLoading();
+    }, 100);
   };
 
   /*
@@ -322,30 +372,66 @@ define([
       window.location.href = `#/tags/${tagsString}`;
     });
 
-    loadProjects().then((p) => {
-      const projectsSvc = new ProjectsService(p);
-
-      const app = sammy(function () {
-        /*
-         * This is the route used to filter by tags/names/labels
-         * It ensures to read values from the URI query param and perform actions
-         * based on that. NOTE: It has major side effects on the browser.
-         */
-        this.get(/\#\/filters/, () => {
-          const labels = prepareForHTML(getParameterByName('labels'));
-          const names = prepareForHTML(getParameterByName('names'));
-          const tags = prepareForHTML(getParameterByName('tags'));
-          const date = getParameterByName('date');
-          renderProjects(projectsSvc, tags, names, labels, date);
+    // Setup projects loading with performance optimizations
+    const loadProjectsWithCache = function() {
+      // Try to get projects from cache first
+      const cachedProjects = Performance.getFromCache();
+      
+      if (cachedProjects) {
+        console.log(`Loaded ${cachedProjects.length} projects from cache`);
+        const projectsSvc = new ProjectsService(cachedProjects);
+        
+        // Setup Sammy.js routes
+        const app = sammy(function() {
+          this.get(/\#\/filters/, () => {
+            const labels = prepareForHTML(getParameterByName('labels'));
+            const names = prepareForHTML(getParameterByName('names'));
+            const tags = prepareForHTML(getParameterByName('tags'));
+            const date = getParameterByName('date');
+            renderProjects(projectsSvc, tags, names, labels, date);
+          });
+          
+          this.get('/', () => {
+            renderProjects(projectsSvc);
+          });
         });
-
-        this.get('/', () => {
-          renderProjects(projectsSvc);
+        
+        app.raise_errors = true;
+        app.run('#/');
+        
+        // Load fresh data in the background for next visit
+        loadProjects().then((projects) => {
+          console.log('Updated cache with fresh project data');
+          Performance.storeInCache(projects);
         });
-      });
-
-      app.raise_errors = true;
-      app.run('#/');
-    });
+      } else {
+        // No cache, load from scratch
+        loadProjects().then((projects) => {
+          console.log(`Loaded ${projects.length} projects`);
+          const projectsSvc = new ProjectsService(projects);
+          
+          // Setup Sammy.js routes
+          const app = sammy(function() {
+            this.get(/\#\/filters/, () => {
+              const labels = prepareForHTML(getParameterByName('labels'));
+              const names = prepareForHTML(getParameterByName('names'));
+              const tags = prepareForHTML(getParameterByName('tags'));
+              const date = getParameterByName('date');
+              renderProjects(projectsSvc, tags, names, labels, date);
+            });
+            
+            this.get('/', () => {
+              renderProjects(projectsSvc);
+            });
+          });
+          
+          app.raise_errors = true;
+          app.run('#/');
+        });
+      }
+    };
+    
+    // Start loading projects
+    loadProjectsWithCache();
   });
 });

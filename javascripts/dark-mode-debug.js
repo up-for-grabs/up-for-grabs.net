@@ -2,6 +2,21 @@
 document.addEventListener('DOMContentLoaded', function() {
   console.log('Dark mode debug script loaded');
   
+  // Find and remove any duplicate dark mode toggle buttons
+  const themeSelectors = document.querySelectorAll('.theme-selector');
+  
+  if (themeSelectors.length > 1) {
+    console.log('Found multiple theme selectors:', themeSelectors.length);
+    // Keep the one we added to header.html and remove others
+    themeSelectors.forEach((button, index) => {
+      // The one we want to keep should be near the top of the page (in header)
+      if (index > 0) {
+        console.log('Removing duplicate theme selector:', button);
+        button.remove();
+      }
+    });
+  }
+  
   // Check if dark mode toggle button exists
   const viewModeToggleButton = document.getElementById('view-mode-toggle');
   if (!viewModeToggleButton) {

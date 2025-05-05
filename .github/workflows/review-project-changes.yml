@@ -14,7 +14,7 @@ jobs:
         with:
           ref: gh-pages
       - name: Setup Ruby
-        uses: ruby/setup-ruby@277ba2a127aba66d45bad0fa2dc56f80dbfedffa
+        uses: ruby/setup-ruby@eaecf785f6a34567a6d97f686bbb7bccc1ac1e5c
         with:
           bundler-cache: true
 
@@ -32,7 +32,7 @@ jobs:
           GIT_REMOTE_URL: ${{ github.event.pull_request.head.repo.clone_url }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
 
-      - uses: marocchino/sticky-pull-request-comment@52423e01640425a022ef5fd42c6fb5f633a02728
+      - uses: marocchino/sticky-pull-request-comment@67d0dec7b07ed060a405f9b2a64b8ab319fdd7db
         with:
           message: ${{ steps.run_script.outputs.message }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}

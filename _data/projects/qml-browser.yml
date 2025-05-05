@@ -1,0 +1,11 @@
+name: QmlBrowser
+desc: QmlBrowser is the next generation Web 3.0 browser with QML support, enabling the creation of SDAPPS (serverless decentralized applications) and Hybrid Client
+site: https://github.com/Toorion/qml-browser
+tags:
+  - c++
+  - cpp
+  - qt
+  - qml
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Toorion/qml-browser/labels/help%20wanted

@@ -2,8 +2,8 @@ name: Meshery
 desc: Meshery enables collaborative design and operation of cloud and cloud native infrastructure. Meshery is an extensible, self-service engineering platform.
 site: https://meshery.io
 tags:
-  - golang
-  - react
+  - go
+  - reactjs
   - kubernetes
   - kanvas
   - cncf

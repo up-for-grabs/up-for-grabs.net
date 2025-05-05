@@ -1,0 +1,13 @@
+name: CodeWise
+desc: A free and open-source CS learning platform and curriculum for beginner to advanced learners
+site: https://codewise-cs.github.io/
+tags:
+  - cs-education
+  - education
+  - programming-languages
+  - web-development
+  - reactjs
+  - curriculum
+upforgrabs:
+  name: Good first issue
+  link: https://github.com/CodeWise-CS/codewise-cs.github.io/labels/Good%20first%20issue

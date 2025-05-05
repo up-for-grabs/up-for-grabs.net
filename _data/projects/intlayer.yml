@@ -1,0 +1,21 @@
+name: Intlayer
+desc: Internationalisation solution for React, Vue, Svelte etc. Integrate a Visual Editor for structured content.
+site: https://intlayer.org/
+tags:
+  - i18n
+  - internationalization
+  - l10n
+  - localization
+  - javascript
+  - visual 
+  - editor
+  - reactjs
+  - vue
+  - svelte
+  - angular
+  - preact
+  - solid
+  - next.js
+upforgrabs:
+  name: good first issue
+  link: https://github.com/aymericzip/intlayer/labels/good%20first%20issue

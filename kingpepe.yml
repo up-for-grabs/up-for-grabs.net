@@ -1,0 +1,16 @@
+---
+name: KingPepe
+desc: SHA-256 meme coin based on Bitcoin Core 25.0. Looking for developers to upgrade to Core 29.0
+site: https://pepe3.carrd.co
+tags:
+  - crypto
+  - bitcoin
+  - blockchain
+  - c++
+  - upgrade-needed
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/kingpepe2/Source-Code-branch-25.0/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: 2025-05-06

@@ -1,7 +1,8 @@
 ---
 name: Algebraic Effects
 desc: >-
-  Manage your effects in a pure and composable way using algebraic effects with multiple continuations for better control and flexibility.
+  Manage your effects in a pure and composable way using algebraic effects with multiple continuations
+  for better control and flexibility.
 site: https://github.com/phenax/algebraic-effects
 tags:
 - algebraic

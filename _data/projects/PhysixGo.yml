@@ -1,11 +1,16 @@
+---
 name: Physix.Go
 desc: A Particle based physics engine written in Go Language with simple setup, easy to use syntax ...
 site: https://www.github.com/rudransh61/Physix-go
 tags:
-  - gamedev
-  - physics
-  - maths
-  - go
+- gamedev
+- physics
+- maths
+- go
 upforgrabs:
   name: help wanted
   link: https://github.com/rudransh61/Physix-go/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2024-03-17T12:08:15Z'
+  fork-count: 4

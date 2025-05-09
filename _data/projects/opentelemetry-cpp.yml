@@ -24,6 +24,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/open-telemetry/opentelemetry-cpp/labels/good%20first%20issue
 stats:
-  issue-count: 24
+  issue-count: 23
   last-updated: '2025-04-29T15:18:33Z'
-  fork-count: 474
+  fork-count: 473

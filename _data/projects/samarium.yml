@@ -1,12 +1,16 @@
+---
 name: Samarium
 desc: Invoicing system, finance tracking system, CMS, ideal for business/organizations
 site: https://github.com/oitcode/samarium
 tags:
-  - php
-  - laravel
-  - livewire
-  - erp
-  - invoicing
+- php
+- laravel
+- livewire
+- erp
+- invoicing
 upforgrabs:
   name: good first issue
   link: https://github.com/oitcode/samarium/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 40

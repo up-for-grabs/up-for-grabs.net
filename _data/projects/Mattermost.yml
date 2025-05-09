@@ -11,6 +11,6 @@ upforgrabs:
   name: Up For Grabs
   link: https://github.com/mattermost/mattermost/labels/Up%20For%20Grabs
 stats:
-  issue-count: 132
+  issue-count: 129
   last-updated: '2025-04-30T09:21:58Z'
-  fork-count: 7749
+  fork-count: 7751

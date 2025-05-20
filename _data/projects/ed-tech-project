@@ -1,0 +1,12 @@
+---
+name: ed-tech-project
+desc: An interactive learning platform designed to make STEM education engaging through gamified lessons, quizzes, and simulations. Master complex concepts while tracking your progress and earning rewards.
+site: https://github.com/abdullahsadik00/Ed-Tech-Platform-frontend
+tags:
+- react
+- typescript
+- saas
+- javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/abdullahsadik00/Ed-Tech-Platform-frontend/issues

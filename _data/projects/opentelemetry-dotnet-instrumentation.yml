@@ -26,6 +26,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation/labels/help%20wanted
 stats:
-  issue-count: 4
-  last-updated: '2025-05-16T07:32:17Z'
+  issue-count: 3
+  last-updated: '2025-05-19T07:21:14Z'
   fork-count: 114

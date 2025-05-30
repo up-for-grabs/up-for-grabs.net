@@ -1,0 +1,12 @@
+name: Hackathon Starter
+desc: A Node.js boilerplate for quickly building and deploying web applications, ideal for hackathons, startups, and early-stage prototypes.
+site: https://github.com/sahat/hackathon-starter
+tags:
+  - nodejs
+  - oauth
+  - llm
+  - hackathons
+  - boilerplate
+upforgrabs:
+  name: PRs welcome
+  link: https://github.com/sahat/hackathon-starter/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22PRs%20welcome%22

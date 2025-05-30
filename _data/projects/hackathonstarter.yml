@@ -3,10 +3,15 @@ desc: A Node.js boilerplate for quickly building and deploying web applications,
 site: https://github.com/sahat/hackathon-starter
 tags:
   - node.js
+  - javascript
   - oauth
   - llm
+  - ai
   - hackathons
   - boilerplate
+  - login
+  - mongodb
+  - express
 upforgrabs:
   name: PRs welcome
   link: https://github.com/sahat/hackathon-starter/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22PRs%20welcome%22

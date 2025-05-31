@@ -7,7 +7,7 @@ tags:
   - web-app
   - api
   - vite
-  - react
+  - reactjs
 upforgrabs:
   name: good first issue
   link: https://github.com/EvalVis/QuotesFE/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

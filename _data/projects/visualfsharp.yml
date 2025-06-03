@@ -10,6 +10,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/fsharp/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 stats:
-  issue-count: 57
-  last-updated: '2025-05-21T12:11:00Z'
+  issue-count: 58
+  last-updated: '2025-06-02T08:14:54Z'
   fork-count: 822

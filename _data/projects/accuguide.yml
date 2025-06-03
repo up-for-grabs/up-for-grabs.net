@@ -3,7 +3,7 @@ desc: A web platform for disabled people to find and rate locations!
 site: https://accuguidee.org
 tags:
   - next
-  - react
+  - reactjs
   - postgres
   - tailwind
   - typescript

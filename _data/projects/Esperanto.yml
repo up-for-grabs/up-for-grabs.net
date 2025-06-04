@@ -8,6 +8,8 @@ tags:
   - embedding
   - text-to-speech
   - speech-to-test
+  - python
+  - langchain
 upforgrabs:
   name: help wanted
   link: https://github.com/lfnovo/esperanto/labels/help%20wanted

@@ -77,6 +77,16 @@
         <% }) %>
       </ul>
     </div>
+    <div class="filters-panel cf">
+      <label class="filter-label" >Popular platforms:</label>
+      <ul class="popular-platforms">
+      <% _.each(popularPlatforms, function(entry, key){ %>
+        <li>
+          <a title="Popular Platform: <%-entry.hostname%>" tabindex="0"><%-entry.hostname%> <span class="popular-platforms__frequency">(<%-entry.frequency%>)</span></a>
+        </li>
+      <% }) %>
+      </ul>
+    </div>
   </menu>
   <div class="projects">
     <% let count=0 %> <% _.each(projects, function(project) { %> <%

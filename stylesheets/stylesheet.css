@@ -880,20 +880,23 @@ form {
   width: 16px;
 }
 
-.popular-tags,
+.popular-tags, 
+.popular-platforms,
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 1em 0.5em;
 }
 
-ul.popular-tags li,
+ul.popular-tags li, 
+ul.popular-platforms li,
 ul.tags li {
   list-style: none;
   padding-left: 0;
 }
 
 .popular-tags a,
+.popular-platforms a,
 .tags a {
   display: inline-flex;
   align-content: center;
@@ -913,6 +916,7 @@ ul.tags li {
 .popular-tags a:hover,
 .popular-tags a:focus,
 .popular-tags a:focus-within,
+.popular-platforms a:hover,
 .tags a:hover,
 .tags a:focus,
 .tags a:focus-within {
@@ -921,10 +925,20 @@ ul.tags li {
   color: var(--databox-text);
 }
 
-.popular-tags a span.popular-tags__frequency {
+.popular-tags a span.popular-tags__frequency,
+.popular-platforms a span.popular-platforms__frequency {
   margin-left: 0.45em;
   font-size: 10px;
   color: var(--body-color);
+}
+
+.popular-platforms a.selected {
+  background-color: var(--databox-text);
+  color: var(--abs);
+}
+
+.popular-platforms a.selected span.popular-platforms__frequency {
+  color: var(--abs);
 }
 
 @media (max-width: 768px) {

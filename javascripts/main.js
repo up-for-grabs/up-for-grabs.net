@@ -64,12 +64,19 @@ define([
     return `about ${Math.round(elapsed / msPerYear)} years ago`;
   }
 
-  const renderProjects = function (projectService, tags, names, labels, date) {
+  const renderProjects = function (
+    projectService,
+    tags,
+    names,
+    labels,
+    date,
+    platforms
+  ) {
     const allTags = projectService.getTags();
 
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectService.get(tags, names, labels, date),
+        projects: projectService.get(tags, names, labels, date, platforms),
         relativeTime,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
@@ -78,6 +85,9 @@ define([
         selectedNames: names,
         labels: projectService.getLabels(),
         selectedLabels: labels,
+        platforms: projectService.getPlatforms(),
+        popularPlatforms: projectService.getPopularPlatforms(4),
+        selectedPlatforms: platforms,
       })
     );
     date = date || 'invalid';
@@ -172,6 +182,40 @@ define([
         }
       });
     });
+
+    projectsPanel.find('ul.popular-platforms li a').each((i, elem) => {
+      // add selected class on load
+      let selPlatforms = getParameterByName('platforms') || '';
+      if (selPlatforms) {
+        selPlatforms = selPlatforms.split(',');
+        for (let i = 0; i < selPlatforms.length; i++) {
+          $(`a:contains(${selPlatforms[i]})`).addClass('selected');
+        }
+      }
+
+      $(elem).on('click', function (e) {
+        e.preventDefault();
+
+        $(this).toggleClass('selected');
+
+        let curPlatform = $(this).text().split('(')[0].trim() || '';
+        let selPlatforms = getParameterByName('platforms') || '';
+        if (selPlatforms.indexOf(curPlatform) === -1) {
+          selPlatforms += selPlatforms ? `,${curPlatform}` : curPlatform;
+        } else {
+          selPlatforms = selPlatforms
+            .split(',')
+            .filter((platform) => platform !== curPlatform)
+            .join(',');
+        }
+
+        location.href = updateQueryStringParameter(
+          getFilterUrl(),
+          'platforms',
+          encodeURIComponent(selPlatforms)
+        );
+      });
+    });
   };
 
   /*
@@ -228,6 +272,7 @@ define([
       $('#back2Top').fadeOut();
     }
   });
+
   $(document).ready(() => {
     $('#back2Top').click((event) => {
       event.preventDefault();
@@ -335,8 +380,9 @@ define([
           const labels = prepareForHTML(getParameterByName('labels'));
           const names = prepareForHTML(getParameterByName('names'));
           const tags = prepareForHTML(getParameterByName('tags'));
+          const platforms = prepareForHTML(getParameterByName('platforms'));
           const date = getParameterByName('date');
-          renderProjects(projectsSvc, tags, names, labels, date);
+          renderProjects(projectsSvc, tags, names, labels, date, platforms);
         });
 
         this.get('/', () => {

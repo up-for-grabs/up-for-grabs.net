@@ -14,4 +14,4 @@ tags:
   - express
 upforgrabs:
   name: help wanted
-  link: https://github.com/sahat/hackathon-starter/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22PRs%20welcome%22
+  link: https://github.com/sahat/hackathon-starter/labels/help%20wanted

@@ -1,0 +1,12 @@
+name: Notakto
+desc: A Tic Tac Toe variant, board game, no ties, always a winner
+site: https://notakto-website.vercel.app/
+tags:
+  - bug
+  - hacktoberfest
+  - good-first-issue
+  - begginer-friendly
+  - level-2
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/Rakshitg600/notakto-website/issues?q=is%3Aissue%20state%3Aopen%20label%3Ahacktoberfest

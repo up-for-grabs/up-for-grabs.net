@@ -2,7 +2,7 @@ name: Techtonica-Curriculum
 desc: 'This repo contains the curriculum of Techtonica, a tech training program for women and non-binary adults with low incomes.'
 site: https://github.com/Techtonica/curriculum
 tags:
-  - react 
+  - reactjs
   - javascript 
   - python
   - first-timers 

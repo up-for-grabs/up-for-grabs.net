@@ -29,7 +29,7 @@
     "@types/node": "^22",
     "@types/showdown": "^2.0.6",
     "@types/underscore": "^1.13.0",
-    "babel-jest": "^29.7.0",
+    "babel-jest": "^30.0.2",
     "eslint": "^9.29.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-jest": "^29.0.1",

@@ -5,12 +5,15 @@ layout: none
 <html lang="en">
   {% include head.html %}
   <body>
+  <a href="#main-container" class="skip-to-content">Skip to content</a>
   {% include header.html %}
   <div id="main-container" class='container'>
     {{ content }}
   </div>
   {% include footer.html %}
   {% include scripts.html %}
-  <a id="back2Top" title="Scroll to top" href="#">&#10148;</a>
+  <button id="back2Top" aria-label="Scroll to top of page" class="back-to-top-button" type="button">
+    <span aria-hidden="true">&#10148;</span>
+  </button>
   </body>
 </html>

@@ -1,7 +1,46 @@
-<button id="view-mode-toggle" class="theme-selector" type="button" title="Toggle dark mode" aria-pressed="false">
+<button id="view-mode-toggle" class="theme-selector" type="button" title="Toggle dark mode" aria-pressed="false" style="position: fixed; top: 10px; right: 90px; z-index: 1000; background: transparent; border: 2px solid #ccc; border-radius: 50%; cursor: pointer; padding: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
     <span class="visually-hidden">Toggle dark mode</span>
-    <img id="view-mode" alt="" src="/images/Dim-Night.png"/>
+    <img id="view-mode" alt="Dark mode toggle" src="/images/Dim-Night.png" width="24" height="24"/>
 </button>
+
+<script>
+// Direct implementation of dark mode toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('view-mode-toggle');
+    const modeIcon = document.getElementById('view-mode');
+    const root = document.documentElement;
+    const logo = document.getElementById('go-back-home');
+    
+    // Check initial state
+    const currentMode = localStorage.getItem('mode') || 'light';
+    if (currentMode === 'dark') {
+        root.setAttribute('data-theme-preference', 'dark');
+        toggleButton.setAttribute('aria-pressed', 'true');
+        modeIcon.src = '/images/sun-light.png';
+        if (logo) logo.src = '/images/logo_dark_1.png';
+    }
+    
+    // Add click handler directly to button
+    toggleButton.addEventListener('click', function() {
+        const isDark = root.getAttribute('data-theme-preference') === 'dark';
+        
+        // Toggle theme
+        if (isDark) {
+            root.removeAttribute('data-theme-preference');
+            localStorage.setItem('mode', 'light');
+            toggleButton.setAttribute('aria-pressed', 'false');
+            modeIcon.src = '/images/Dim-Night.png';
+            if (logo) logo.src = '/images/logo.png';
+        } else {
+            root.setAttribute('data-theme-preference', 'dark');
+            localStorage.setItem('mode', 'dark');
+            toggleButton.setAttribute('aria-pressed', 'true');
+            modeIcon.src = '/images/sun-light.png';
+            if (logo) logo.src = '/images/logo_dark_1.png';
+        }
+    });
+});
+</script>
 
 <header role="banner">
     <a id="forkme_banner" href="https://github.com/up-for-grabs/up-for-grabs.net">View on GitHub</a>

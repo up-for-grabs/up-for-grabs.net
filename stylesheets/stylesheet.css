@@ -1,5 +1,10 @@
 @import url(pygment_trac.css);
 
+/* Add transitions for smooth theme changes */
+html, body, a, button, .data-box, header, footer, #main-container, .project-title {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
 /* Default [Light Mode] */
 :root {
   --body-back: #f9f9f9;

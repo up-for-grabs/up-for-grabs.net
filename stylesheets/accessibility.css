@@ -1,0 +1,106 @@
+/* Accessibility Improvements */
+
+/* Enhanced focus styles for better keyboard navigation */
+:focus {
+  outline: 3px solid #2E7BA9 !important;
+  outline-offset: 2px !important;
+  border-radius: 2px;
+}
+
+/* Make focus visible even in dark mode */
+[data-theme-preference=dark] :focus {
+  outline-color: #7bceff !important;
+}
+
+/* Back to top button styles */
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--databox-bg);
+  color: var(--databox-text);
+  border: 1px solid var(--container-border);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 36px;
+  cursor: pointer;
+  z-index: 1000;
+  transform: rotate(90deg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.back-to-top-button:hover,
+.back-to-top-button:focus {
+  background-color: var(--heading-color);
+  color: var(--abs);
+  transform: rotate(90deg) scale(1.1);
+}
+
+/* Improved project card styles for accessibility */
+.data-box {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.data-box:hover,
+.data-box:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a subtle outline when project card is focused */
+.data-box:focus-within {
+  outline: 2px solid var(--heading-color);
+  outline-offset: 4px;
+}
+
+/* Skip to content link for keyboard users */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  background: var(--body-back);
+  color: var(--body-color);
+  padding: 10px 15px;
+  z-index: 9999;
+  text-decoration: none;
+}
+
+.skip-to-content:focus {
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  outline: none;
+  border: 2px solid var(--heading-color);
+}
+
+/* Improve filter buttons visibility when focused or active */
+.radio-btn:focus,
+.radio-btn.selected {
+  outline: 2px solid var(--heading-color);
+  outline-offset: 2px;
+}
+
+/* Improve dropdown menus for keyboard navigation */
+select:focus {
+  border-color: var(--heading-color);
+  box-shadow: 0 0 0 2px rgba(46, 123, 169, 0.25);
+}
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+  :focus {
+    outline: 3px solid CanvasText !important;
+  }
+  
+  .data-box {
+    border: 1px solid CanvasText;
+  }
+}

@@ -1,0 +1,134 @@
+/* Pagination Styles */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.pagination-pages {
+  display: flex;
+  align-items: center;
+}
+
+.pagination button {
+  background-color: var(--databox-bg, #fff);
+  color: var(--container-text, #333);
+  border: 1px solid var(--container-border, #ddd);
+  padding: 0.5rem 0.8rem;
+  margin: 0 0.25rem;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+
+.pagination button:hover, 
+.pagination button:focus {
+  background-color: var(--heading-color, #0074D9);
+  color: var(--abs, #fff);
+  border-color: var(--heading-color, #0074D9);
+}
+
+.pagination button.current {
+  background-color: var(--heading-color, #0074D9);
+  color: var(--abs, #fff);
+  font-weight: bold;
+  cursor: default;
+}
+
+.pagination button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-prev, 
+.pagination-next {
+  font-weight: bold;
+}
+
+.pagination-ellipsis {
+  margin: 0 0.5rem;
+  color: var(--container-text, #333);
+}
+
+/* Loading indicator */
+.projects-loading {
+  text-align: center;
+  padding: 2rem;
+  color: var(--container-text, #333);
+}
+
+.projects-loading:after {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  border: 0.25rem solid var(--container-border, #ddd);
+  border-right-color: var(--heading-color, #0074D9);
+  border-radius: 50%;
+  animation: spinner 0.8s linear infinite;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Load more button alternative */
+.load-more-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.load-more-btn {
+  background-color: var(--heading-color, #0074D9);
+  color: var(--abs, #fff);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.load-more-btn:hover,
+.load-more-btn:focus {
+  background-color: var(--heading-color-darker, #0063ba);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.load-more-btn:disabled {
+  background-color: var(--container-border, #ddd);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .pagination button {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pagination-pages button:not(.current) {
+    display: none;
+  }
+  
+  .pagination-pages button.current {
+    margin: 0 0.5rem;
+  }
+  
+  .pagination-ellipsis {
+    display: none;
+  }
+}

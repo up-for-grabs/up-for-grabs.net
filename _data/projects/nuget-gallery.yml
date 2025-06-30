@@ -9,6 +9,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/NuGet/NuGetGallery/labels/help%20wanted
 stats:
-  issue-count: 17
+  issue-count: 16
   last-updated: '2025-06-02T23:59:30Z'
-  fork-count: 653
+  fork-count: 656

@@ -8,5 +8,5 @@ tags:
   - llms
   - aiagentframework
 upforgrabs:
-  name: good first issues
+  name: good first issue
   link: https://github.com/portiaAI/portia-sdk-python/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

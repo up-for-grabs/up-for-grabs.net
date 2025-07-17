@@ -1,5 +1,5 @@
 name: "FoodShare"
-description: "A MERN-based platform connecting food donors with NGOs and biogas agents to reduce waste and help the needy."
+desc: "A MERN-based platform connecting food donors with NGOs and biogas agents to reduce waste and help the needy."
 site: "https://foodshare-umber.vercel.app/login.html"
 tags:
   - javascript

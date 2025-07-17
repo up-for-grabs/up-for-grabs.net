@@ -1,29 +1,16 @@
-- name: "Up-For-Grabs.net"
-  description: "This site!"
-  site: "https://github.com/up-for-grabs/up-for-grabs.net"
-  tags:
-    - oss
-    - web
-    - jekyll
-    - javascript
-  upforgrabs:
-    name: "up-for-grabs"
-    link: "https://github.com/up-for-grabs/up-for-grabs.net/labels/up-for-grabs"
-  stats:
-    issue-count: 17
-    last-updated: '2025-03-24T10:05:33Z'
-    fork-count: 2202
-
-- name: "FoodShare"
-  description: "A MERN-based platform connecting food donors with NGOs and biogas agents to reduce waste and help the needy."
-  site: "https://foodshare-umber.vercel.app/login.html"
-  tags:
-    - javascript
-    - node
-    - express
-    - mongo
-    - tailwindcss
-    - open-source
-  upforgrabs:
-    name: "good first issue"
-    link: "https://github.com/Jaygautam04/FoodShare/issues"
+---
+name: Up-For-Grabs.net
+desc: This site!
+site: https://github.com/up-for-grabs/up-for-grabs.net
+tags:
+- oss
+- web
+- jekyll
+- javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/up-for-grabs/up-for-grabs.net/labels/up-for-grabs
+stats:
+  issue-count: 17
+  last-updated: '2025-03-24T10:05:33Z'
+  fork-count: 2202

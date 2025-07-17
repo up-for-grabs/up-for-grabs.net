@@ -3,7 +3,7 @@ desc: "A MERN-based platform connecting food donors with NGOs and biogas agents 
 site: "https://foodshare-umber.vercel.app/login.html"
 tags:
   - javascript
-  - node
+  - node.js
   - express
   - mongo
   - tailwindcss

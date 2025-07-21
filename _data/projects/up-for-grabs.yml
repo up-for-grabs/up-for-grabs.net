@@ -1,0 +1,13 @@
+- name: HospitalRun
+  description: A modern, open-source platform for managing hospitals in developing regions.
+  site: https://hospitalrun.io
+  tags:
+    - javascript
+    - nodejs
+    - react
+    - express
+    - couchdb
+    - healthcare
+  upforgrabs:
+    name: up-for-grabs
+    link: https://github.com/HospitalRun/hospitalrun-frontend/labels/up-for-grabs

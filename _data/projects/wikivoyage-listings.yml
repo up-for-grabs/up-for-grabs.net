@@ -1,0 +1,22 @@
+---
+name: Wikivoyage listings
+desc: >-
+  Extract museums/sights/restaurants/etc information from the online collaborative travel guide and transform
+  the data into SQL/JSON/etc
+site: https://github.com/baturin/wikivoyage-listings
+tags:
+- java
+- parsing
+- open-data
+- wiki
+- json
+- xml
+- sql
+- command-line
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/baturin/wikivoyage-listings/labels/up-for-grabs
+stats:
+  issue-count: 11
+  last-updated: '2020-04-24T22:05:02Z'
+  fork-count: 28

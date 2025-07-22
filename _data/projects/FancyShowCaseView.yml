@@ -1,3 +1,4 @@
+---
 name: FancyShowCaseView
 desc: An easy-to-use customisable show case view with circular reveal animation.
 site: https://github.com/faruktoptas/FancyShowCaseView
@@ -9,3 +10,6 @@ tags:
 upforgrabs:
   name: beginner
   link: https://github.com/faruktoptas/FancyShowCaseView/labels/beginner
+stats:
+  issue-count: 0
+  fork-count: 276

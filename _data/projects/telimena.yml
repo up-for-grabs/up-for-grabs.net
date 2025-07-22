@@ -1,0 +1,16 @@
+---
+name: Telimena
+desc: An application for simple app usage monitoring and app lifecycle management
+site: https://github.com/bartosz-jarmuz/Telimena
+tags:
+- c#
+- asp.net-mvc
+- productivity
+- business
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/bartosz-jarmuz/Telimena/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2024-09-30T20:09:30Z'
+  fork-count: 6

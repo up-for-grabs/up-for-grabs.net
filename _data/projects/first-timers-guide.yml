@@ -1,0 +1,16 @@
+---
+name: first-timers-guide
+desc: A collection of small guides for and by first-timers
+site: https://github.com/the-ethan-hunt/first-timers-guide
+tags:
+- markdown
+- documentation
+- easy
+- education
+upforgrabs:
+  name: good first issue
+  link: https://github.com/the-ethan-hunt/first-timers-guide/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2023-04-08T12:02:58Z'
+  fork-count: 201

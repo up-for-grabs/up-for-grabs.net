@@ -1,11 +1,14 @@
-name: Travel Mate 
+---
+name: Travel Mate
 desc: A complete travel guide
-site: https://github.com/Swati4star/Travel-Mate
+site: https://github.com/project-travel-mate/Travel-Mate
 tags:
 - java
 - android
-- php
-- mysql
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/Swati4star/Travel-Mate/labels/up-for-grabs
+  name: help wanted
+  link: https://github.com/project-travel-mate/Travel-Mate/labels/help%20wanted
+stats:
+  issue-count: 7
+  last-updated: '2022-10-04T07:10:24Z'
+  fork-count: 930

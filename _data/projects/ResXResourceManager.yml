@@ -1,0 +1,20 @@
+---
+name: ResXResourceManager
+desc: Manage localization of all ResX-Based resources in one central place
+site: https://github.com/tom-englert/ResXResourceManager
+tags:
+- localization
+- internationalization
+- i18n
+- c#
+- ".net"
+- visualstudio
+- wpf
+- mvvm
+upforgrabs:
+  name: Up for grabs
+  link: https://github.com/dotnet/ResXResourceManager/labels/Up%20for%20grabs
+stats:
+  issue-count: 69
+  last-updated: '2025-07-10T11:34:46Z'
+  fork-count: 233

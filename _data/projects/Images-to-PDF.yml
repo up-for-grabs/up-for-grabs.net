@@ -1,11 +1,16 @@
+---
 name: Images-to-PDF
 desc: An app to convert images to PDF file
 site: https://github.com/Swati4star/Images-to-PDF
 tags:
 - pdf
 - android
-- iTextG
-- Multimedia
+- itextg
+- multimedia
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Swati4star/Images-to-PDF/labels/up-for-grabs
+stats:
+  issue-count: 14
+  last-updated: '2024-10-26T11:04:23Z'
+  fork-count: 813

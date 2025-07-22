@@ -1,0 +1,18 @@
+---
+name: Owasp ZAP JWT Addon
+desc: OWASP ZAP add-on for finding vulnerabilities in JWT functionality.
+site: https://github.com/SasanLabs/owasp-zap-jwt-addon
+tags:
+- java
+- owasp-zap
+- dast
+- scan-rule
+- jwt
+- scanner
+upforgrabs:
+  name: good first issue
+  link: https://github.com/SasanLabs/owasp-zap-jwt-addon/labels/good%20first%20issue
+stats:
+  issue-count: 9
+  last-updated: '2025-03-25T13:51:05Z'
+  fork-count: 14

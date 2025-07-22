@@ -1,0 +1,17 @@
+---
+name: cz-customizable
+desc: Customizable Commitizen plugin to help achieve consistent commit messages
+site: https://github.com/leonardoanalista/cz-customizable
+tags:
+- javascript
+- git
+- commitizen
+- semantic-release
+- git-commit-consistency
+upforgrabs:
+  name: help wanted
+  link: https://github.com/leoforfree/cz-customizable/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2022-02-10T20:08:31Z'
+  fork-count: 205

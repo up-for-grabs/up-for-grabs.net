@@ -1,0 +1,17 @@
+---
+name: OpenRCT2
+desc: An Open Source Reimplementation of RollerCoaster Tycoon 2.
+site: https://OpenRCT2.io/
+tags:
+- c
+- c++
+- game
+- rollercoasters
+- 2d
+upforgrabs:
+  name: help wanted
+  link: https://github.com/OpenRCT2/OpenRCT2/labels/help%20wanted
+stats:
+  issue-count: 5
+  last-updated: '2022-12-08T21:13:03Z'
+  fork-count: 1660

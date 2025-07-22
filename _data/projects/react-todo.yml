@@ -1,0 +1,14 @@
+---
+name: react-todo
+desc: A react todo component created using matirail ui
+site: https://upnotes-io.github.io/react-todo/
+tags:
+- javascript
+- reactjs
+upforgrabs:
+  name: good first issue
+  link: https://github.com/upnotes-io/react-todo/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2025-03-18T08:36:54Z'
+  fork-count: 39

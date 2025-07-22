@@ -1,14 +1,19 @@
+---
 name: phpDocumentor
 desc: The documentation tool for PHP projects
 site: https://github.com/phpDocumentor/phpDocumentor2
 tags:
-- PHP
+- php
 - documentation
 - api
 - bootstrap
 - twig
-- apidocs
+- apidocumentation
 - phpdoc
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/phpDocumentor/phpDocumentor2/labels/Up-for-grabs
+  name: Up-for-grabs
+  link: https://github.com/phpDocumentor/phpDocumentor/labels/Up-for-grabs
+stats:
+  issue-count: 10
+  last-updated: '2024-04-10T18:33:20Z'
+  fork-count: 638

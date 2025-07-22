@@ -1,0 +1,28 @@
+---
+name: DEMOCRACY Deutschland
+desc: >-
+  Mobile & Desktop Application to display all procedures of the german parliament and let the user vote
+  like a virtual member of parliament
+site: https://www.democracy-deutschland.de/
+tags:
+- javascript
+- node.js
+- docker
+- web
+- website
+- android
+- ios
+- reactjs
+- reactnative
+- express
+- next
+- nextjs
+- graphql
+- mongodb
+upforgrabs:
+  name: "\U0001F3F8 Good First"
+  link: https://github.com/demokratie-live/democracy-client/labels/%F0%9F%8F%B8%20Good%20First
+stats:
+  issue-count: 3
+  last-updated: '2024-08-20T13:12:19Z'
+  fork-count: 27

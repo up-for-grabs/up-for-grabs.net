@@ -1,0 +1,22 @@
+---
+name: Data Science Notes
+desc: >-
+  Open-source project hosted at https://makeuseofdata.com to compile a robust collection of notes related
+  to data science (math, visualization, modeling, etc)
+site: https://github.com/wyattowalsh/data-science-notes
+tags:
+- data-science
+- machine-learning
+- jupyter-book
+- python
+- r
+- sql
+- markdown
+- jupyter-notebook
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/wyattowalsh/data-science-notes/labels/up%20for%20grabs
+stats:
+  issue-count: 3
+  last-updated: '2024-08-02T12:04:48Z'
+  fork-count: 69

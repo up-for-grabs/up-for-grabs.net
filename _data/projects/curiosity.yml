@@ -1,0 +1,18 @@
+---
+name: curiosity
+desc: Find amazing Github projects as a feed
+site: https://github.com/mubaris/curiosity
+tags:
+- easy
+- simple
+- noobs
+- javascript
+- webapp
+- frontend
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/mubaris/curiosity/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2024-03-17T11:51:24Z'
+  fork-count: 65

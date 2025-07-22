@@ -1,0 +1,24 @@
+AllCops:
+  NewCops: enable
+  Include:
+    - '.github/actions/**/*.rb'
+    - 'scripts/**/*.rb'
+
+Layout/LineLength:
+  Max: 220
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/PerceivedComplexity:
+  Max: 17
+
+Metrics/AbcSize:
+  Max: 66
+
+Metrics/MethodLength:
+  Max: 59
+
+Lint/NestedMethodDefinition:
+  Exclude:
+    - 'scripts/review_changes.rb'

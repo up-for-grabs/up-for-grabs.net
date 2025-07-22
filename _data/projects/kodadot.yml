@@ -1,0 +1,16 @@
+---
+name: KodaDot - Polkadot NFT marketplace
+desc: >-
+  open source implementation of nine NFT standards and growing to become multi-chain available nft marketplace
+site: http://github.com/kodadot/nft-gallery
+tags:
+- polkadot
+- vuejs
+- vue3
+upforgrabs:
+  name: good first issue
+  link: https://github.com/kodadot/nft-gallery/labels/good%20first%20issue
+stats:
+  issue-count: 9
+  last-updated: '2024-12-12T02:23:47Z'
+  fork-count: 367

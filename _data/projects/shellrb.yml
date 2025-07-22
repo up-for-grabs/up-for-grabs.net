@@ -1,0 +1,16 @@
+---
+name: ShellRB
+desc: Unix Shell commands using Ruby
+site: https://github.com/faraazahmad/shellrb
+tags:
+- ruby
+- unix
+- linux
+- shell
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/faraazahmad/shellrb/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2017-12-16T11:20:33Z'
+  fork-count: 22

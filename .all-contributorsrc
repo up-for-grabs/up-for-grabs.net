@@ -1,0 +1,169 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "filipe-gomes",
+      "name": "Filipe Magalhaes Gomes",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42053052?v=4",
+      "profile": "https://github.com/filipe-gomes",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "mkkhedawat",
+      "name": "Manish Kumar Khedawat",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5137374?v=4",
+      "profile": "https://mkkhedawat.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "SpaceEEC",
+      "name": "SpaceEEC",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24881032?v=4",
+      "profile": "https://github.com/SpaceEEC",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JoaoManoel",
+      "name": "João Manoel Lins",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6238111?v=4",
+      "profile": "http://www.joaomanoel.com.br",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "crystal-dawn",
+      "name": "Crystal Yungwirth",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/38540136?v=4",
+      "profile": "https://github.com/crystal-dawn",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "TeslaAdis",
+      "name": "Adis Talic",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20220542?v=4",
+      "profile": "https://github.com/TeslaAdis",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AstroBoogie",
+      "name": "Nathaniel Adams",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18710598?v=4",
+      "profile": "https://github.com/AstroBoogie",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ishansharma",
+      "name": "Ishan Sharma",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1873271?v=4",
+      "profile": "http://ishan.co",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "firfircelik",
+      "name": "Firat Celik",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/34511698?v=4",
+      "profile": "https://github.com/firfircelik",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "phncosta",
+      "name": "Paulo H. Costa",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47827714?v=4",
+      "profile": "https://github.com/phncosta",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "XxZhang2017",
+      "name": "XxZhang2017",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26696836?v=4",
+      "profile": "https://github.com/XxZhang2017",
+      "contributions": [
+        "content",
+        "code"
+      ]
+    },
+    {
+      "login": "chadwhitacre",
+      "name": "Chad Whitacre",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/134455?v=4",
+      "profile": "https://chadwhitacre.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Jai2305",
+      "name": "Jai ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47395196?v=4",
+      "profile": "https://github.com/Jai2305",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jalaniz1",
+      "name": "James Alaniz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1664815?v=4",
+      "profile": "https://github.com/jalaniz1",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "gewarren",
+      "name": "Genevieve Warren",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24882762?v=4",
+      "profile": "https://github.com/gewarren",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "SaadAnsari17",
+      "name": "Saad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94478736?v=4",
+      "profile": "https://github.com/SaadAnsari17",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JeetPatel1016",
+      "name": "Jeet Patel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60153965?v=4",
+      "profile": "https://github.com/JeetPatel1016",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "up-for-grabs.net",
+  "projectOwner": "up-for-grabs",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

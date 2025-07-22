@@ -1,0 +1,15 @@
+---
+name: Mermaid
+desc: Generation of diagram and flowchart from text in a similar manner as markdown
+site: https://github.com/mermaid-js/mermaid
+tags:
+- javascript
+- diagrams
+- charts
+upforgrabs:
+  name: Good first issue!
+  link: https://github.com/mermaid-js/mermaid/labels/Good%20first%20issue%21
+stats:
+  issue-count: 60
+  last-updated: '2025-07-21T04:58:09Z'
+  fork-count: 7807

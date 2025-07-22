@@ -1,0 +1,19 @@
+---
+name: Fractale.co
+desc: Self-organization for humans
+site: https://fractale.co
+tags:
+- elm
+- go
+- dgraph
+- graphql
+- project-management
+- ticket-management
+- kanban
+upforgrabs:
+  name: help wanted
+  link: https://github.com/fractal6/fractal6-ui.elm/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2023-01-07T16:25:34Z'
+  fork-count: 3

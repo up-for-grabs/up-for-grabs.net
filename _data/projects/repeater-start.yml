@@ -1,0 +1,22 @@
+---
+name: Hearham.live Repeater-START app
+desc: >-
+  An open-source amateur radio map tool. The only open-source offline amateur radio app utilizing the
+  only open data repeaters project at hearham.com/repeaters.
+site: https://hearham.com/repeaters/
+tags:
+- radio
+- mapping
+- ham-radio
+- amateur-radio
+- python
+- windows
+- linux
+- android
+upforgrabs:
+  name: help wanted
+  link: https://github.com/programmin1/Repeater-START/labels/help%20wanted
+stats:
+  issue-count: 5
+  last-updated: '2025-01-18T17:17:43Z'
+  fork-count: 7

@@ -1,0 +1,26 @@
+{
+	"name": "Custom Jekyll",
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"extensions": [
+		"ms-azuretools.vscode-docker",
+		"rebornix.Ruby"
+	],
+
+	// reuse our existing docker-compose setup
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+
+	// indicate the service we want to connect to
+	"service": "app",
+
+	// this is the default directory to use when connected
+	"workspaceFolder": "/workspace",
+
+	// open the port from the jekyll server here
+	"forwardPorts": [ 4000 ],
+}

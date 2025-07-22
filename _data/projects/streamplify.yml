@@ -1,8 +1,9 @@
+---
 name: streamplify
 desc: Java 8 combinatorics-related streams and other utilities
 site: http://streamplify.beryx.org
 tags:
-- Java
+- java
 - streams
 - combinatorics
 - permutations
@@ -11,3 +12,6 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/beryx/streamplify/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 14

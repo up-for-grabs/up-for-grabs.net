@@ -1,0 +1,17 @@
+---
+name: Linode Docs
+desc: Guides and tutorials on Linux, web servers, development, and more
+site: https://github.com/linode/docs
+tags:
+- linux
+- vps
+- cloud
+- devops
+- automation
+- documentation
+upforgrabs:
+  name: first-timers-only
+  link: https://github.com/linode/docs/labels/first-timers-only
+stats:
+  issue-count: 0
+  fork-count: 1217

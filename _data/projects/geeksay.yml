@@ -1,0 +1,19 @@
+---
+name: geeksay
+desc: "\U0001F913 geeks will ctrl+s the world!"
+site: https://github.com/swapagarwal/geeksay
+tags:
+- javascript
+- web
+- css
+- html
+- data
+- easy
+- collaboration
+upforgrabs:
+  name: good first issue
+  link: https://github.com/swapagarwal/geeksay/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2024-10-12T11:16:18Z'
+  fork-count: 315

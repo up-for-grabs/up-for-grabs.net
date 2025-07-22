@@ -1,0 +1,21 @@
+---
+name: ImgLab
+desc: >-
+  Label and landmark images online to feed in object detection tool. It can be integrated with open 3rd
+  party APIs.
+site: https://naturalintelligence.github.io/imglab/
+tags:
+- dlib
+- imglab
+- face++
+- label
+- landmark
+- javascript
+- html
+upforgrabs:
+  name: good first issue
+  link: https://github.com/NaturalIntelligence/imglab/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2023-12-25T00:27:06Z'
+  fork-count: 618

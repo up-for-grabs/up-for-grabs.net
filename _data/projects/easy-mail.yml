@@ -1,0 +1,13 @@
+---
+name: easy-mail
+desc: A wrapper for php's mail function that allows you to easily construct and send mails.
+site: https://github.com/pushkar-anand/easy-mail
+tags:
+- php
+- mail
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/pushkar-anand/easy-mail/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 2

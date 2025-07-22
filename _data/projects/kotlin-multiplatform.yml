@@ -1,0 +1,18 @@
+---
+name: Kotlin-Multiplatform
+desc: Scaffold for using Kotlin multiplatform for Android, iOS and JS
+site: https://github.com/josharsh/Kotlin-Multiplatform
+tags:
+- development
+- mobile
+- android
+- kotlin
+- kmm
+- ios
+upforgrabs:
+  name: good first issue
+  link: https://github.com/josharsh/kotlin-multiplatform/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2023-08-30T15:01:55Z'
+  fork-count: 0

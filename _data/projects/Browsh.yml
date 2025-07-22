@@ -1,0 +1,22 @@
+---
+name: Browsh
+desc: A fully-modern text-based browser, rendering to TTY and browsers
+site: https://github.com/browsh-org/browsh/
+tags:
+- browser
+- cli
+- text
+- firefox
+- remote
+- bandwidth
+- ssh
+- mosh
+- web
+- command-line
+upforgrabs:
+  name: help wanted
+  link: https://github.com/browsh-org/browsh/labels/help%20wanted
+stats:
+  issue-count: 22
+  last-updated: '2024-02-06T15:30:26Z'
+  fork-count: 440

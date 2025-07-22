@@ -1,3 +1,4 @@
+---
 name: loklak
 desc: Distributed search and analytics framework to collect, store, search, and analyze social media
 site: http://loklak.org/
@@ -5,15 +6,14 @@ tags:
 - loklak
 - twitter
 - api
-- search engine
+- search-engine
 - distributed
-- social media
-- Java
-- Ant
+- social-media
+- java
+- ant
 - docker
 - heroku
 - server
 upforgrabs:
   name: first-timers-only
   link: https://github.com/search?q=org%3Aloklak+is%3Aissue+is%3Aopen+label%3Afirst-timers-only
-

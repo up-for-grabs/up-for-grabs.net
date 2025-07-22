@@ -1,0 +1,18 @@
+---
+name: whs.js
+desc: 3D Javascript engine based on three.js and cannon.js
+site: https://github.com/WhitestormJS/whs.js
+tags:
+- webgl
+- threejs
+- cannonjs
+- javascript
+- 3d
+- wagnerjs
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/WhitestormJS/whs.js/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-01-22T15:23:54Z'
+  fork-count: 389

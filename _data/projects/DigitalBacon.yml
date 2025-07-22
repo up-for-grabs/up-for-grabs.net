@@ -1,0 +1,21 @@
+---
+name: Digital Bacon
+desc: >-
+  Create 3D websites easily that run on AR, VR, Desktop, and Mobile devices with Digital Bacon. No coding
+  required, but supports an API to create plugins for advanced customizations
+site: https://github.com/kalegd/DigitalBacon
+tags:
+- javascript
+- cms
+- webgl
+- threejs
+- ar
+- vr
+- 3d
+- webxr
+upforgrabs:
+  name: good first issue
+  link: https://github.com/kalegd/DigitalBacon/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 9

@@ -1,0 +1,17 @@
+---
+name: python_template
+desc: Collection of python snippets for different projects (e.g., webdev, devops, data science, etc.)
+site: https://github.com/pythoninthegrass/python_template
+tags:
+- python
+- linux
+- docker
+- fastapi
+- terraform
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/pythoninthegrass/python_template/labels/up%20for%20grabs
+stats:
+  issue-count: 5
+  last-updated: '2024-07-24T08:29:09Z'
+  fork-count: 7

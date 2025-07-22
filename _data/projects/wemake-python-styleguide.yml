@@ -1,0 +1,17 @@
+---
+name: wemake-python-styleguide
+desc: The strictest and most opinionated python linter ever!
+site: https://github.com/wemake-services/wemake-python-styleguide
+tags:
+- python
+- linter
+- flake8
+- code-quality
+- oss
+upforgrabs:
+  name: level:starter
+  link: https://github.com/wemake-services/wemake-python-styleguide/labels/level%3Astarter
+stats:
+  issue-count: 6
+  last-updated: '2025-07-21T12:35:02Z'
+  fork-count: 402

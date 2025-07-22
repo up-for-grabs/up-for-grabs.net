@@ -1,0 +1,21 @@
+---
+name: Arachnida
+desc: Simple web interface to pilot web-crawlers
+site: https://github.com/guillim/Arachnida
+tags:
+- javascript
+- meteor
+- crawler
+- scrapping
+- scrapper
+- upforgrabs
+- contributor
+- opensource
+- headlesschrome
+upforgrabs:
+  name: help wanted
+  link: https://github.com/guillim/Arachnida/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2025-03-19T13:14:30Z'
+  fork-count: 11

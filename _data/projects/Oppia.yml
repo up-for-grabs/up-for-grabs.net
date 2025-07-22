@@ -1,0 +1,23 @@
+---
+name: Oppia
+desc: Interactive learning platform using Python and Javascript with AngularJS
+site: https://github.com/oppia/oppia
+tags:
+- python
+- javascript
+- angularjs
+- html
+- appengine
+- web
+- interactive
+- tutor
+- education
+- learning
+- nonprofit
+upforgrabs:
+  name: good first issue
+  link: https://github.com/oppia/oppia/labels/good%20first%20issue
+stats:
+  issue-count: 47
+  last-updated: '2025-07-20T06:14:55Z'
+  fork-count: 4624

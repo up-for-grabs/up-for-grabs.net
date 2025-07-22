@@ -1,0 +1,14 @@
+---
+name: JTerm
+desc: A cross-platform terminal written in Java.
+site: https://github.com/T145/JTerm
+tags:
+- java
+- terminal
+- cross-platform
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Sergix/JTerm/labels/help%20wanted
+stats:
+  issue-count: 0
+  fork-count: 31

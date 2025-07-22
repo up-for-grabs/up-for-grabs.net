@@ -1,0 +1,18 @@
+---
+name: Medium Play
+desc: Listen to audio versions of medium stories.
+site: https://github.com/swapagarwal/medium-play
+tags:
+- javascript
+- chrome
+- firefox
+- web
+- oss
+- api
+upforgrabs:
+  name: good first issue
+  link: https://github.com/swapagarwal/medium-play/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2025-06-07T16:37:16Z'
+  fork-count: 14

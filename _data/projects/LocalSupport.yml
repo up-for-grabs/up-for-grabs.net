@@ -1,3 +1,4 @@
+---
 name: LocalSupport
 desc: Directory of non-profits and volunteer opportunities
 site: https://github.com/AgileVentures/LocalSupport
@@ -7,5 +8,9 @@ tags:
 - tdd
 - bdd
 upforgrabs:
-  name: LocalSupport
+  name: up-for-grabs
   link: https://github.com/AgileVentures/LocalSupport/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2019-10-15T16:35:49Z'
+  fork-count: 212

@@ -1,0 +1,16 @@
+---
+name: OrganiseDesktop
+desc: A small programme that organises icons on a desktop
+site: https://github.com/blavejr/OrganiseDesktop
+tags:
+- python
+- tkinter
+- gui
+- easy
+upforgrabs:
+  name: help wanted
+  link: https://github.com/blavejr/OrganiseDesktop/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2024-07-24T08:22:54Z'
+  fork-count: 80

@@ -1,16 +1,21 @@
+---
 name: AutoFixture
-desc: >
-  Write maintainable unit tests, faster. AutoFixture makes it easier for developers
-  to do Test-Driven Development by automating non-relevant Test Fixture Setup, allowing
-  the Test Developer to focus on the essentials of each test case.
+desc: >-
+  Write maintainable unit tests, faster. AutoFixture makes it easier for developers to do Test-Driven
+  Development by automating non-relevant Test Fixture Setup, allowing the Test Developer to focus on the
+  essentials of each test case.
 site: https://github.com/AutoFixture/AutoFixture
 tags:
-- TDD
-- Unit Testing
-- ".NET"
-- Auto-mocking
-- C#
-- F#
+- tdd
+- unit-testing
+- ".net"
+- auto-mocking
+- c#
+- f#
 upforgrabs:
-  name: jump in
-  link: https://github.com/AutoFixture/AutoFixture/labels/jump%20in
+  name: good first issue
+  link: https://github.com/AutoFixture/AutoFixture/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2025-03-05T11:30:10Z'
+  fork-count: 353

@@ -1,16 +1,21 @@
+---
 name: Orleans
 desc: Orleans - Distributed Actor Model
 site: https://github.com/dotnet/orleans
 tags:
-- ".NET"
-- C#
-- Microsoft
-- Azure
-- Cloud
-- Distributed
-- Actor
-- Programming
-- Model
+- ".net"
+- c#
+- microsoft
+- azure
+- cloud
+- distributed
+- actor
+- programming
+- model
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/dotnet/orleans/labels/up-for-grabs
+  name: help wanted
+  link: https://github.com/dotnet/orleans/labels/help%20wanted
+stats:
+  issue-count: 40
+  last-updated: '2025-02-25T16:00:24Z'
+  fork-count: 2092

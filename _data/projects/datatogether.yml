@@ -1,0 +1,24 @@
+---
+name: Data Together
+desc: 'Community Patterns for the Decentralized Web: helping communities steward the data they care about.'
+site: https://github.com/datatogether/datatogether#readme
+tags:
+- go
+- api
+- web-archiving
+- javascript
+- web-scraping
+- community
+- environmentalism
+- decentralization
+- data-collection
+- open-data
+- data-science
+- data
+- python
+- reactjs
+upforgrabs:
+  name: first-timers-only
+  link: https://github.com/issues?q=is:open+org:datatogether+label:first-timers-only
+stats:
+  issue-count: 0

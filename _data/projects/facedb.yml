@@ -1,0 +1,17 @@
+---
+name: FaceDB
+desc: A face database for large-scale face recognition
+site: https://github.com/shhossain/FaceDB
+tags:
+- python
+- machine-learning
+- deep-learning
+- face-recognition
+- vector-database
+upforgrabs:
+  name: help wanted
+  link: https://github.com/shhossain/FaceDB/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2024-12-16T20:13:53Z'
+  fork-count: 14

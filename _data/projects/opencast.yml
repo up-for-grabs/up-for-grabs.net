@@ -1,0 +1,21 @@
+---
+name: Opencast
+desc: The free and open source solution for automated video capture and distribution at scale.
+site: https://opencast.org/
+tags:
+- video
+- video-processing
+- recording
+- opencast
+- capture-screen
+- capture-video
+- video-management
+- video-publication
+- video-production
+upforgrabs:
+  name: good first issue
+  link: https://github.com/opencast/opencast/labels/good%20first%20issue
+stats:
+  issue-count: 19
+  last-updated: '2024-06-27T14:57:00Z'
+  fork-count: 237

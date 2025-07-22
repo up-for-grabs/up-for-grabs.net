@@ -1,10 +1,14 @@
+---
 name: Grails
 desc: Grails Web Framework
 site: http://grails.org/
 tags:
-- Grails
-- Groovy
-- Web
+- grails
+- groovy
+- web
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/grails/grails-core/labels/up-for-grabs
+  name: 'info: up for grabs'
+  link: https://github.com/apache/grails-core/labels/info%3A%20up%20for%20grabs
+stats:
+  issue-count: 0
+  fork-count: 962

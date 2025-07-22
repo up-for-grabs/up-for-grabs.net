@@ -1,0 +1,19 @@
+---
+name: Nextcloud Bookmarks
+desc: A selfhosted Bookmarks app for Nextcloud
+site: https://github.com/nextcloud/bookmarks
+tags:
+- bookmarks
+- bookmark
+- links
+- pocket
+- feed
+- browser
+- nextcloud
+upforgrabs:
+  name: good first issue
+  link: https://github.com/nextcloud/bookmarks/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2022-03-14T13:53:41Z'
+  fork-count: 174

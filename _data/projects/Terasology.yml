@@ -1,3 +1,4 @@
+---
 name: Terasology
 desc: Terasology - an open-source voxel world!
 site: https://github.com/MovingBlocks/Terasology
@@ -10,5 +11,9 @@ tags:
 - game
 - engine
 upforgrabs:
-  name: Bite-size
-  link: https://github.com/movingblocks/terasology/labels/Bite-size
+  name: Good First Issue
+  link: https://github.com/MovingBlocks/Terasology/labels/Good%20First%20Issue
+stats:
+  issue-count: 39
+  last-updated: '2024-08-19T15:28:26Z'
+  fork-count: 1349

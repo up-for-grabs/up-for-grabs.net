@@ -1,0 +1,14 @@
+---
+name: FsLexYacc
+desc: Lexer and parser generators for F#
+site: https://github.com/fsprojects/FsLexYacc
+tags:
+- f#
+- ".net"
+upforgrabs:
+  name: help wanted
+  link: https://github.com/fsprojects/FsLexYacc/labels/help%20wanted
+stats:
+  issue-count: 8
+  last-updated: '2023-05-18T23:55:03Z'
+  fork-count: 70

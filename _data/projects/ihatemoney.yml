@@ -1,0 +1,16 @@
+---
+name: I Hate Money
+desc: A simple shared budget manager web application
+site: https://github.com/spiral-project/ihatemoney
+tags:
+- python
+- flask
+- budget
+- rest
+upforgrabs:
+  name: help wanted
+  link: https://github.com/spiral-project/ihatemoney/labels/help%20wanted
+stats:
+  issue-count: 7
+  last-updated: '2025-01-05T14:33:09Z'
+  fork-count: 287

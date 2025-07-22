@@ -1,0 +1,16 @@
+---
+name: Feed the flames
+desc: Simple game concept made with CraftyJS
+site: https://github.com/matronator/feed-the-flames
+tags:
+- javascript
+- game
+- craftyjs
+- jquery
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/matronator/feed-the-flames/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2024-07-26T17:36:58Z'
+  fork-count: 18

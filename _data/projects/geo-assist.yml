@@ -1,0 +1,19 @@
+---
+name: Geo Assist
+desc: A spatial indexing tool to manage spatial data in-memory.
+site: https://github.com/thegeekyasian/geo-assist
+tags:
+- geospatial
+- open-source
+- java
+- gis
+- geospatial-indexing
+- index
+- kd-tree
+upforgrabs:
+  name: enhancement
+  link: https://github.com/thegeekyasian/geo-assist/labels/enhancement
+stats:
+  issue-count: 2
+  last-updated: '2025-01-26T22:39:42Z'
+  fork-count: 22

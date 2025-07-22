@@ -1,3 +1,4 @@
+---
 name: GlPortal
 desc: Open Source sci-fi fps puzzle-platformer
 site: https://github.com/GlPortal/glPortal
@@ -5,10 +6,14 @@ tags:
 - c++
 - python
 - javascript
-- Game
+- game
 - 3d
 - physics
 - 2d
 upforgrabs:
-  name: Simple Task
+  name: simple task
   link: https://github.com/GlPortal/glPortal/labels/simple%20task
+stats:
+  issue-count: 2
+  last-updated: '2024-01-08T13:10:10Z'
+  fork-count: 113

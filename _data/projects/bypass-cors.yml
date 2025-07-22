@@ -1,0 +1,18 @@
+---
+name: bypass-cors
+desc: A proxy server to bypass CORS (Cross-Origin Resource Sharing) enabled servers.
+site: https://github.com/Shivam010/bypass-cors
+tags:
+- oss
+- go
+- cors
+- rest-api
+- html
+- css
+- javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Shivam010/bypass-cors/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 20

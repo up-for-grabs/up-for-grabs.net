@@ -1,12 +1,18 @@
+---
 name: Pickles
-desc: The open source Living Documentation generator turns your feature files into a web site so that non-technical people can easily read the scenarios.
+desc: >-
+  The open source Living Documentation generator turns your feature files into a web site so that non-technical
+  people can easily read the scenarios.
 site: http://www.picklesdoc.com/
 tags:
-- C#
-- ".NET"
+- c#
+- ".net"
 - oss
-- JavaScript
-- BDD
+- javascript
+- bdd
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/picklesdoc/pickles/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 163

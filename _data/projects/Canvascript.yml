@@ -1,0 +1,20 @@
+---
+name: Canvascript
+desc: >-
+  Draw with your pointer on the HTML canvas, then get the code to render it. A no-code tool for web game
+  devs crafting mobile-friendly high-performance graphics.
+site: https://github.com/VBproDev/Canvascript
+tags:
+- javascript
+- performance
+- html5
+- mobile-first
+- canvas-api
+- no-code
+- web-game-dev
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/VBproDev/Canvascript/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 12

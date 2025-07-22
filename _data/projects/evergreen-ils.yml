@@ -1,0 +1,14 @@
+---
+name: Evergreen
+desc: >-
+  Highly-scalable software for libraries that helps library patrons find library materials, and helps
+  libraries manage, catalog, and circulate those materials.
+site: https://evergreen-ils.org/
+tags:
+- perl
+- angular
+- postgresql
+- asciidoc
+upforgrabs:
+  name: bitesize
+  link: https://bugs.launchpad.net/evergreen/+bugs?field.tag=bitesize

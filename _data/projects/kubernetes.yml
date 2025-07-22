@@ -1,0 +1,16 @@
+---
+name: Kubernetes
+desc: Production-Grade Container Scheduling and Management
+site: https://kubernetes.io/
+tags:
+- go
+- cncf
+- containers
+- kubernetes
+upforgrabs:
+  name: good first issue
+  link: https://github.com/kubernetes/kubernetes/labels/good%20first%20issue
+stats:
+  issue-count: 14
+  last-updated: '2025-07-20T22:11:50Z'
+  fork-count: 40976

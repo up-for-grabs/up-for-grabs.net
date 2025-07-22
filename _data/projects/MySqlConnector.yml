@@ -1,0 +1,18 @@
+---
+name: MySqlConnector
+desc: Async MySQL ADO.NET library for .NET and .NET Core
+site: https://github.com/mysql-net/MySqlConnector
+tags:
+- mysql
+- ado.net
+- ".net"
+- c#
+- async
+- sql
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/mysql-net/MySqlConnector/labels/up%20for%20grabs
+stats:
+  issue-count: 2
+  last-updated: '2024-11-30T18:20:31Z'
+  fork-count: 341

@@ -1,0 +1,20 @@
+---
+name: Eigengraus Essential Establishment Generator
+desc: A tabletop procedural generator that creates game ready text for DMs
+site: https://github.com/ryceg/Eigengrau-s-Essential-Establishment-Generator
+tags:
+- javascript
+- twine
+- sugarcube
+- dungeons-and-dragons
+- procedural-generation
+- random-generation
+- generation
+- tabletop
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ryceg/Eigengrau-s-Essential-Establishment-Generator/labels/help%20wanted
+stats:
+  issue-count: 11
+  last-updated: '2022-09-08T13:54:06Z'
+  fork-count: 156

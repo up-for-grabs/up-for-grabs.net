@@ -1,0 +1,17 @@
+---
+name: ConTabs
+desc: Simple yet flexible tables for console apps.
+site: https://github.com/tdwright/contabs
+tags:
+- c#
+- console
+- tables
+- ascii
+- ".net"
+- oss
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/tdwright/contabs/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 19

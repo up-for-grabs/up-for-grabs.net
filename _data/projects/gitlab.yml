@@ -1,14 +1,21 @@
-name: GitLab 
-desc: Code, test, and deploy together
+---
+name: GitLab
+desc: >-
+  GitLab is the most comprehensive AI-powered DevSecOps Platform. Everyone can contribute to
+  GitLab
 site: https://about.gitlab.com
 tags:
-- oss
 - git
-- issues
 - ruby
 - rails
 - javascript
+- vuejs
 - web
+- go
+- terraform
+- devops
+- devsecops
+- ai
 upforgrabs:
-  name: Accepting Merge Requests
-  link: https://gitlab.com/gitlab-org/gitlab-ce/issues?assignee_id=0&label_name[]=Accepting%20Merge%20Requests&sort=weight_asc
+  name: Seeking Community Contributions
+  link: https://gitlab.com/groups/gitlab-org/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=100

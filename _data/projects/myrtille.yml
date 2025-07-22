@@ -1,3 +1,4 @@
+---
 name: Myrtille
 desc: A native HTML4/5 Remote Desktop Protocol client, HTTP gateway written in C# for .NET
 site: https://github.com/cedrozor/myrtille
@@ -7,11 +8,14 @@ tags:
 - web
 - html4
 - html5
-- C#
+- c#
 - gateway
 - freerdp
-- C++
+- c++
 - webp
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/cedrozor/myrtille/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 385

@@ -1,10 +1,15 @@
+---
 name: Angular2
 desc: HTML enhanced for web apps
 site: https://angular.io
 tags:
-- JavaScript
+- javascript
 - web
-- Angular 2
+- angular-2
 upforgrabs:
-  name: "hotlist: community-help"
-  link: https://github.com/angular/angular/labels/hotlist%3A%20community-help
+  name: help wanted
+  link: https://github.com/angular/angular/labels/help%20wanted
+stats:
+  issue-count: 55
+  last-updated: '2025-07-14T13:48:18Z'
+  fork-count: 26434

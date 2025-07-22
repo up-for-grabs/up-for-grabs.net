@@ -1,0 +1,14 @@
+---
+name: reform
+desc: A better ORM for Go, based on non-empty interfaces and code generation.
+site: https://github.com/go-reform/reform
+tags:
+- go
+- orm
+upforgrabs:
+  name: help-wanted
+  link: https://github.com/go-reform/reform/labels/help-wanted
+stats:
+  issue-count: 20
+  last-updated: '2021-10-18T11:11:08Z'
+  fork-count: 74

@@ -1,0 +1,17 @@
+---
+name: NetPanzer
+desc: Online multiplayer tactical warfare game designed for fast-action combat
+site: https://github.com/netpanzer
+tags:
+- lua
+- cpp
+- sdl2
+- mesonbuild
+- wasm
+upforgrabs:
+  name: good first issue
+  link: https://github.com/netpanzer/netpanzer/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2025-02-17T09:21:26Z'
+  fork-count: 2

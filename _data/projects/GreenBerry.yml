@@ -1,0 +1,17 @@
+---
+name: GreenBerry
+desc: >-
+  One-line statement language. Contribute to the development of a new language written in pure python,
+  complete with ide. Propose new syntax or work as a core dev implementing support for them.
+site: https://abdur-rahmaanj.github.io/greenBerry/
+tags:
+- python
+- new-language
+- cli
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Abdur-rahmaanJ/greenberry/labels/help%20wanted
+stats:
+  issue-count: 11
+  last-updated: '2025-01-27T19:56:33Z'
+  fork-count: 41

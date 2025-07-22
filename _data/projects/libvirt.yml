@@ -1,3 +1,4 @@
+---
 name: libvirt
 desc: The virtualization API
 site: https://libvirt.org/
@@ -5,7 +6,7 @@ tags:
 - api
 - c
 - cross-platform
-- library
+- libraries
 - oss
 - virtualization
 upforgrabs:

@@ -1,0 +1,18 @@
+---
+name: Virtual Assistant
+desc: "A linux based Virtual assistant on Artificial Intelligence in C. \nFind restaurants in an area,
+  Fetch weather information of any place, send and read Emails, Google search, Youtube search, Play media
+  files, Show calendar, etc.  \n"
+site: https://github.com/ritwik12/Virtual-Assistant
+tags:
+- c
+- linux
+- artificial-intelligence
+- natural-language-processing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ritwik12/Virtual-Assistant/labels/good%20first%20issue
+stats:
+  issue-count: 12
+  last-updated: '2023-08-09T00:07:20Z'
+  fork-count: 93

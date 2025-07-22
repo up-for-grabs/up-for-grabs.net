@@ -1,0 +1,17 @@
+---
+name: AsyncMonolith
+desc: Facilitates simple asynchronous messaging in dotnet apps.
+site: https://github.com/Timmoth/AsyncMonolith
+tags:
+- messaging
+- scheduling
+- jobs
+- tasks
+- events
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Timmoth/AsyncMonolith/labels/help%20wanted
+stats:
+  issue-count: 9
+  last-updated: '2024-06-22T07:54:09Z'
+  fork-count: 5

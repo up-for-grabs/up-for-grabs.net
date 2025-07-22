@@ -1,0 +1,12 @@
+---
+name: ayosh
+desc: php mvc project
+site: https://github.com/mohmmadAyesh/tc-php-mvc-core
+tags:
+- javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/mohmmadAyesh/tc-php-mvc-core/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 0

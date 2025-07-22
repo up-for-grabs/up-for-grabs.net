@@ -1,0 +1,16 @@
+---
+desc: Web app that helps investors evaluate residential investment property opportunities
+name: Propalyzer
+site: https://github.com/toms3t/Propalyzer
+tags:
+- python
+- django
+- real-estate
+- investment
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/toms3t/Propalyzer/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2024-03-03T16:22:46Z'
+  fork-count: 26

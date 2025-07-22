@@ -1,0 +1,12 @@
+name: elioWay
+desc: Modular software libraries supporting an application design pattern based on Schema.org types.
+site: https://gitlab.com/elioway
+tags:
+  - javascript
+  - node.js
+  - webdev
+  - css
+  - application+design
+upforgrabs:
+  name: Help and learn
+  link: https://elioway.gitlab.io/contributing.html

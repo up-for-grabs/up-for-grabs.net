@@ -1,0 +1,17 @@
+---
+name: Backlog Notifier
+desc: Automatically comments on tickets connected to your PRs, with a custom message.
+site: https://github.com/Blackjacx/backlog-notifier
+tags:
+- issues
+- github
+- release
+- pull-request
+- release-automation
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Blackjacx/backlog-notifier/labels/help%20wanted
+stats:
+  issue-count: 4
+  last-updated: '2025-05-19T05:08:55Z'
+  fork-count: 3

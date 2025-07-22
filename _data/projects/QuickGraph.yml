@@ -1,19 +1,25 @@
+---
 name: QuickGraph
-desc: QuickGraph provides generic directed/undirected graph datastructures and algorithms for .NET. QuickGraph comes with algorithms such as depth first seach, breath first search, A* search, shortest path, k-shortest path, maximum flow, minimum spanning tree, etc...
+desc: >-
+  QuickGraph provides generic directed/undirected graph datastructures and algorithms for .NET. QuickGraph
+  comes with algorithms such as depth first search, breath first search, A* search, shortest path, k-shortest
+  path, maximum flow, minimum spanning tree, etc...
 site: https://github.com/YaccConstructor/QuickGraph
 tags:
-# Note those are tags categorizing your project, not issue labels.
-- C#
-- F#
-- ".NET"
+- c#
+- f#
+- ".net"
 - graph
-- QuickGraph
-- FSharp
+- quickgraph
 - algorithm
-- datastructure
+- data-structures
 - tree
-- DFS
-- BFS
+- dfs
+- bfs
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/YaccConstructor/QuickGraph/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2019-02-07T13:21:37Z'
+  fork-count: 200

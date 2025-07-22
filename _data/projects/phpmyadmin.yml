@@ -1,0 +1,16 @@
+---
+name: phpMyAdmin
+desc: phpMyAdmin Bringing MySQL to the web
+site: https://www.phpmyadmin.net/
+tags:
+- php
+- mysql
+- mariadb
+- web
+upforgrabs:
+  name: newbie
+  link: https://github.com/phpmyadmin/phpmyadmin/labels/newbie
+stats:
+  issue-count: 26
+  last-updated: '2025-04-26T11:15:48Z'
+  fork-count: 3485

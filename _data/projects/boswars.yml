@@ -1,0 +1,16 @@
+name: Bos Wars
+desc: A futuristic real time strategy game (RTS)
+site: https://boswars.org/
+tags:
+- html
+- css
+- lua
+- c
+- cpp
+- sdl2
+- graphics
+- sound
+- music
+upforgrabs:
+  name: good first issue
+  link: https://codeberg.org/boswars/boswars/issues?labels=125723

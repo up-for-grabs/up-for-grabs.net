@@ -1,0 +1,16 @@
+---
+name: Mixer Desktop
+desc: cross-platform desktop application for Mixer.com
+site: https://github.com/HydeInit/Mixer-Desktop
+tags:
+- electron
+- javascript
+- web
+- node.js
+upforgrabs:
+  name: help wanted
+  link: https://github.com/HydeInit/Mixer-Desktop/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2024-10-21T20:30:27Z'
+  fork-count: 17

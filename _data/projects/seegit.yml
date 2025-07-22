@@ -1,8 +1,13 @@
+---
 name: SeeGit
 desc: A beautiful Git repository visualizer useful for teaching Git
 site: https://github.com/haacked/seegit
 tags:
-- Git
+- git
 upforgrabs:
   name: easy-fix
   link: https://github.com/haacked/seegit/labels/easy-fix
+stats:
+  issue-count: 6
+  last-updated: '2021-09-13T17:48:58Z'
+  fork-count: 105

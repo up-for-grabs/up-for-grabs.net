@@ -1,0 +1,16 @@
+---
+name: Despensa-app - WEB
+desc: Despensa-app is an application that allows you to manage the products you buy on a regular basis.
+site: https://despensa-app.nmarulo.dev/
+tags:
+- typescript
+- angular
+- web
+- docker
+- jwt
+upforgrabs:
+  name: good first issue
+  link: https://github.com/despensa-app/despensa-web/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 14

@@ -1,0 +1,16 @@
+---
+name: Twenty
+desc: Open Source CRM
+site: https://twenty.com
+tags:
+- crm
+- typescript
+- reactjs
+- node.js
+upforgrabs:
+  name: good first issue
+  link: https://github.com/twentyhq/twenty/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2025-07-21T13:14:17Z'
+  fork-count: 3843

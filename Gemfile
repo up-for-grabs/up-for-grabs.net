@@ -1,7 +1,23 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+ruby '~> 3.4'
 
-gem 'github-pages', versions['github-pages']
+gem 'jekyll'
+
+gem 'json_schemer'
+gem 'csv'
+
+gem 'graphql', '~> 2.5.11'
+gem 'graphql-client'
+gem 'octokit'
+gem 'safe_yaml'
+
+gem 'up_for_grabs_tooling', github: 'up-for-grabs/tooling', branch: 'main'
+
+gem 'rubocop', require: false
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
+gem 'webrick'

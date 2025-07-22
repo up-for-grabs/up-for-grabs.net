@@ -1,5 +1,9 @@
+---
 name: Numbas editor
-desc: An editor for Numbas, an e-assessment system aimed at mathematical disciplines. The editor is written in Django, with knockout.js for the frontend. There's plenty for someone with a good knowledge of maths, or an interest in UX, to work on.
+desc: >-
+  An editor for Numbas, an e-assessment system aimed at mathematical disciplines. The editor is written
+  in Django, with knockout.js for the frontend. There's plenty for someone with a good knowledge of maths,
+  or an interest in UX, to work on.
 site: http://www.numbas.org.uk/contributing-to-numbas/
 tags:
 - python
@@ -9,12 +13,16 @@ tags:
 - e-assessment
 - math
 - web
-- HTML
-- CSS
+- html
+- css
 - html5
 - algebra
-- CAS
+- cas
 - quiz
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/numbas/editor/issues/labels/up-for-grabs
+  name: good first issue
+  link: https://github.com/numbas/editor/labels/good%20first%20issue
+stats:
+  issue-count: 8
+  last-updated: '2024-09-27T08:46:34Z'
+  fork-count: 63

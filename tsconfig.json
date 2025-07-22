@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "typeRoots": ["javascripts/@types/"]
+  },
+  "include": ["javascripts/*.js"],
+  "exclude": ["javascripts/libs/**/*.js"]
+}

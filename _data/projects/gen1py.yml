@@ -1,0 +1,19 @@
+---
+name: Gen1Py
+desc: >-
+  A (very) simple save editor for the generation 1 games of Pokemon. Made as a final project for CS50
+  and open for extra features.
+site: https://github.com/9x14S/Gen1Py-WebServer
+tags:
+- pokemon
+- reverse-engineering
+- easy
+- save-editor
+- gui-needed
+- help-needed
+upforgrabs:
+  name: good first issue
+  link: https://github.com/9x14S/Gen1Py-WebServer/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 1

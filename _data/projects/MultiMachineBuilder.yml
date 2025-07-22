@@ -1,0 +1,20 @@
+---
+name: MultiMachineBuilder
+desc: A voxel game about building an industrial empire in a finite world
+site: https://multimachinebuilder.github.io/
+tags:
+- game
+- java
+- desktop
+- industrial
+- industrial-automation
+- 2d
+- 2d-game
+- good-first-issue
+- tileworld
+upforgrabs:
+  name: good first issue
+  link: https://github.com/MultiMachineBuilder/MultiMachineBuilder/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 9

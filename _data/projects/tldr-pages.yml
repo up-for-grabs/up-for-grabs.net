@@ -1,6 +1,7 @@
+---
 name: tldr-pages
 desc: A community-curated collection of simplified and example-driven man pages.
-site: http://tldr-pages.github.io/
+site: https://tldr-pages.github.io/
 tags:
 - reference
 - documentation
@@ -14,5 +15,9 @@ tags:
 - shell
 - cli
 upforgrabs:
-  name: up for grabs
-  link: https://github.com/tldr-pages/tldr/labels/up%20for%20grabs
+  name: help wanted
+  link: https://github.com/tldr-pages/tldr/labels/help%20wanted
+stats:
+  issue-count: 149
+  last-updated: '2025-07-21T12:39:07Z'
+  fork-count: 4569

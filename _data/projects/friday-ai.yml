@@ -1,0 +1,16 @@
+---
+name: Friday AI
+desc: >-
+  Welcome to Friday, your personal AI assistant inspired by the Marvel Cinematic Universe! Friday is designed
+  to be your helpful companion on Windows, capable of opening URLs, launching applications, performing
+  web searches, conducting AI-powered research, and engaging in conversation.
+site: https://github.com/yash373/friday
+tags:
+- python
+- automation
+upforgrabs:
+  name: help wanted
+  link: https://github.com/yash373/friday/labels/help%20wanted
+stats:
+  issue-count: 0
+  fork-count: 0

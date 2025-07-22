@@ -1,0 +1,19 @@
+---
+name: Storybook
+desc: >-
+  Storybook is a development environment for UI components. It allows you to browse/develop/test a component
+  library based on React & React-Native.
+site: https://storybooks.js.org
+tags:
+- javascript
+- libraries
+- ui
+- reactjs
+- native
+upforgrabs:
+  name: good first issue
+  link: https://github.com/storybookjs/storybook/labels/good%20first%20issue
+stats:
+  issue-count: 63
+  last-updated: '2025-07-20T18:18:05Z'
+  fork-count: 9611

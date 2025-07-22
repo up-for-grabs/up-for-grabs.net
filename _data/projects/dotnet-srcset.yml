@@ -1,0 +1,15 @@
+---
+name: dotnet-srcset
+desc: CLI to create sets of responsive images for the web
+site: https://github.com/stevedesmond-ca/dotnet-srcset
+tags:
+- c#
+- ".net"
+- responsive
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ecoAPM/SrcSet/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 12

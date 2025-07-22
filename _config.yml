@@ -1,10 +1,32 @@
-title: up-for-grabs.net
-
 exclude:
-  - CNAME
-  - Gemfile*
-  - tests
   - README.md
-  - CODE_OF_CONDUCT.md
-  - scripts
-  - .travis.yml
+  - LICENSE
+  - .gitignore
+  - CNAME
+  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - script
+  - vendor
+  - node_modules
+  - netlify.toml
+
+markdown: kramdown
+highlighter: rouge
+permalink: none
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+plugins:
+  - jekyll-redirect-from

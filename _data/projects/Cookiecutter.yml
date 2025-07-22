@@ -1,8 +1,13 @@
+---
 name: Cookiecutter
 desc: A command-line utility that creates projects from cookiecutters.
-site: https://github.com/audreyr/cookiecutter
+site: https://github.com/cookiecutter/cookiecutter
 tags:
 - python
 upforgrabs:
   name: please-help
-  link: https://github.com/audreyr/cookiecutter/labels/please-help
+  link: https://github.com/cookiecutter/cookiecutter/labels/please-help
+stats:
+  issue-count: 9
+  last-updated: '2023-07-13T01:47:24Z'
+  fork-count: 2093

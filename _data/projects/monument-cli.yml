@@ -1,11 +1,15 @@
+---
 name: monument-cli
 desc: the CLI for rapid development with monument
 site: http://monument.ansble.com
 tags:
 - javascript
-- js
 - cli
-- node
+- node.js
 upforgrabs:
-  name: "first contribution"
+  name: first-contribution
   link: https://github.com/ansble/monument-cli/labels/first-contribution
+stats:
+  issue-count: 1
+  last-updated: '2024-10-12T21:42:44Z'
+  fork-count: 5

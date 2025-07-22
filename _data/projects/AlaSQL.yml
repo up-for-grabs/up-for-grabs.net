@@ -1,14 +1,18 @@
- 
+---
 name: AlaSQL
-desc: Javascript database for traditional SQL queries. Smaller and faster alternative to sql.js   
+desc: Javascript database for traditional SQL queries. Smaller and faster alternative to sql.js
 site: https://github.com/agershun/alasql
 tags:
-- Javascript
-- Database
-- SQL
-- JISON
-- Node
-- Meteor
+- javascript
+- database
+- sql
+- jison
+- node.js
+- meteor
 upforgrabs:
   name: Help wanted
-  link: https://github.com/agershun/alasql/labels/Help%20wanted
+  link: https://github.com/AlaSQL/alasql/labels/Help%20wanted
+stats:
+  issue-count: 153
+  last-updated: '2025-06-18T09:46:58Z'
+  fork-count: 681

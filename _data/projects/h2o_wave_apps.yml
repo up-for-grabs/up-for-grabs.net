@@ -1,0 +1,14 @@
+---
+name: H2O Wave Apps
+desc: Sample AI Apps built with H2O Wave.
+site: https://github.com/h2oai/wave-apps
+tags:
+- python
+- low-code
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/h2oai/wave-apps/labels/hacktoberfest
+stats:
+  issue-count: 2
+  last-updated: '2023-11-20T17:10:22Z'
+  fork-count: 56

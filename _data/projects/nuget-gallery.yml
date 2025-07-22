@@ -1,12 +1,14 @@
+---
 name: NuGet gallery
-desc: >
-  The NuGet Gallery. Powers the "NuGet.org" website, as well as
-  other NuGet package galleries.
+desc: The NuGet Gallery. Powers the "NuGet.org" website, as well as other NuGet package galleries.
 site: https://github.com/NuGet/NuGetGallery
 tags:
 - nuget
-- nuget.org
 - package
 upforgrabs:
-  name: Up For Grabs
-  link: https://github.com/NuGet/NuGetGallery/milestones/Up%20For%20Grabs
+  name: help wanted
+  link: https://github.com/NuGet/NuGetGallery/labels/help%20wanted
+stats:
+  issue-count: 13
+  last-updated: '2025-06-02T15:55:19Z'
+  fork-count: 654

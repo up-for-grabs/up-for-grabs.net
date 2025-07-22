@@ -1,0 +1,15 @@
+---
+name: Sukoon
+desc: The one step solution to get relief from your stress. Live a stress-free life by using our website.
+site: https://github.com/Susmita-Dey/Sukoon
+tags:
+- html
+- css
+- javascript
+upforgrabs:
+  name: enhancement
+  link: https://github.com/Susmita-Dey/Sukoon/labels/enhancement
+stats:
+  issue-count: 26
+  last-updated: '2025-03-27T12:47:35Z'
+  fork-count: 159

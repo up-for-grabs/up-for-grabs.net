@@ -1,11 +1,16 @@
+---
 name: Akka.NET
 desc: A .NET port of the popular Java/Scala Akka Toolkit.
 site: https://github.com/akkadotnet/akka.net
 tags:
-- ".NET"
+- ".net"
 - actormodel
 - akka
 - concurrency
 upforgrabs:
   name: up for grabs
   link: https://github.com/akkadotnet/akka.net/labels/up%20for%20grabs
+stats:
+  issue-count: 44
+  last-updated: '2025-07-17T15:25:09Z'
+  fork-count: 1052

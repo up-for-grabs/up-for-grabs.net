@@ -1,0 +1,22 @@
+---
+name: Eclipse OMR
+desc: Reliable components for building language runtimes
+site: https://www.eclipse.org/omr
+tags:
+- c++
+- c
+- interpreter
+- compiler
+- runtime
+- jvm
+- virtual-machine
+- jit
+- garbage-collector
+- gc
+upforgrabs:
+  name: good first issue
+  link: https://github.com/eclipse-omr/omr/labels/good%20first%20issue
+stats:
+  issue-count: 50
+  last-updated: '2024-11-11T13:47:52Z'
+  fork-count: 404

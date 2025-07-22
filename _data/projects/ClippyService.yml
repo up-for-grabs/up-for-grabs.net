@@ -1,3 +1,4 @@
+---
 name: Clippy Service
 desc: Rust Linting (with Clippy) as a Webservice
 site: http://clippy.bashy.io
@@ -7,5 +8,9 @@ tags:
 - linter
 - web
 upforgrabs:
-  name: help-wanted
-  link: https://github.com/ligthyear/clippy-service/labels/help%20wanted
+  name: help wanted
+  link: https://github.com/gnunicorn/clippy-service/labels/help%20wanted
+stats:
+  issue-count: 10
+  last-updated: '2020-10-06T17:19:25Z'
+  fork-count: 9

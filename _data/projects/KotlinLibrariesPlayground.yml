@@ -1,0 +1,17 @@
+---
+name: Kotlin Libraries Playground
+desc: >-
+  A playground to gain a wider and deeper knowledge of the libraries in the Kotlin ecosystem. Also the
+  official sample for gradle refreshVersions.
+site: https://github.com/LouisCAD/kotlin-libraries-playground
+tags:
+- kotlin
+- gradle
+- android
+upforgrabs:
+  name: good first issue
+  link: https://github.com/LouisCAD/kotlin-libraries-playground/labels/good%20first%20issue
+stats:
+  issue-count: 8
+  last-updated: '2024-10-21T03:30:11Z'
+  fork-count: 57

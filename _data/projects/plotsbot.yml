@@ -1,0 +1,20 @@
+---
+name: plotsbot
+desc: A bot for Public Lab
+site: https://github.com/publiclab/plotsbot
+tags:
+- javascript
+- oss
+- node.js
+- chatbot
+- irc
+- jasmine
+- github
+- publiclab
+upforgrabs:
+  name: help wanted
+  link: https://github.com/publiclab/plotsbot/labels/help%20wanted
+stats:
+  issue-count: 9
+  last-updated: '2019-10-15T02:24:21Z'
+  fork-count: 27

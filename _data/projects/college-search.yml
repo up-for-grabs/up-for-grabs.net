@@ -1,0 +1,17 @@
+---
+name: College Search [JoSAA Made Easy]
+desc: A powerful android app for searching and deciding the right engineering college for you in India.
+site: https://github.com/beradeep/CollegeSearch
+tags:
+- android
+- kotlin
+- jetpack-compose
+- college
+- jee
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/beradeep/CollegeSearch/labels/up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2025-06-19T16:50:17Z'
+  fork-count: 3

@@ -1,0 +1,69 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: Build Docker container
+        run: docker build .
+
+  javascript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: npm install, lint, and test
+        run: |
+          npm ci
+          npm run lint
+          npm run prettier
+          npm test
+        env:
+          CI: true
+
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@472790540115ce5bd69d399a020189a8c87d641f
+      - name: Build and test Jekyll site
+        run: |
+          bundle install
+          bundle exec rubocop
+          bundle exec jekyll build
+          bundle exec ruby scripts/validate_data_files.rb
+
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: codespell-project/actions-codespell@v2
+        with:
+          skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
+          ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis,Lins
+
+  upload:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Save PR number
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          mkdir -p ./pr
+          echo $PR_NUMBER > ./pr/pr_number
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pr_number
+          path: pr/

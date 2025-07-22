@@ -1,0 +1,16 @@
+---
+name: Aidre
+desc: "\U0001F40D \U0001F4DD Python Translation Help Station - The software for \U0001F4C4 .po file docs
+  handling. A tool to help with official py docs translations"
+site: https://github.com/Abdur-rahmaanJ/aidre
+tags:
+- python
+- po
+- gettext
+- py-docs
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Abdur-rahmaanJ/aidre/labels/help%20wanted
+stats:
+  issue-count: 0
+  fork-count: 2

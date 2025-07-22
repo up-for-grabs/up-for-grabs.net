@@ -1,10 +1,15 @@
+---
 name: Moment.js
 desc: Parse, validate, manipulate, and display dates in JavaScript.
 site: http://momentjs.com
 tags:
-- JavaScript
+- javascript
 - date
 - time
 upforgrabs:
   name: Up-For-Grabs
   link: https://github.com/moment/moment/labels/Up-For-Grabs
+stats:
+  issue-count: 12
+  last-updated: '2024-03-18T09:06:47Z'
+  fork-count: 7052

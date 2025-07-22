@@ -1,0 +1,19 @@
+---
+name: Retroshare
+desc: Cross-platform, friend-to-friend and secure decentralised communication platform.
+site: https://retroshare.cc/
+tags:
+- c++
+- qt
+- p2p
+- privacy
+- chat
+- forum
+- messaging
+upforgrabs:
+  name: help wanted
+  link: https://github.com/RetroShare/RetroShare/labels/help%20wanted
+stats:
+  issue-count: 25
+  last-updated: '2025-06-07T09:52:27Z'
+  fork-count: 287

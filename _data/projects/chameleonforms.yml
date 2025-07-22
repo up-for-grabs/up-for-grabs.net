@@ -1,14 +1,19 @@
+---
 name: ChameleonForms
 desc: Shape-shifting your forms experience in ASP.NET MVC.
 site: https://github.com/MRCollective/ChameleonForms
 tags:
-- ".NET"
+- ".net"
 - mvc
 - asp.net
 - forms
-- html helpers
+- html-helpers
 - template
 - bootstrap
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/MRCollective/ChameleonForms/labels/up-for-grabs
+stats:
+  issue-count: 13
+  last-updated: '2024-10-01T20:15:00Z'
+  fork-count: 56

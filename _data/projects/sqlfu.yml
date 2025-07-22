@@ -1,12 +1,16 @@
+---
 name: SqlFu
 desc: Fast and versatile .Net micro-orm
 site: https://github.com/sapiens/SqlFu
 tags:
-- ".Net"
-- C#
+- ".net"
+- c#
 - micro-orm
 - mapper
 - sql
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/sapiens/SqlFu/labels/up-for-grabs
+stats:
+  issue-count: 0
+  fork-count: 50

@@ -1,0 +1,15 @@
+---
+name: taliesin
+desc: OWIN routing middleware using F# Agents
+site: https://github.com/frank-fs/taliesin
+tags:
+- f#
+- owin
+- ".net"
+upforgrabs:
+  name: you-take-it
+  link: https://github.com/frank-fs/taliesin/labels/you-take-it
+stats:
+  issue-count: 4
+  last-updated: '2014-09-25T14:10:14Z'
+  fork-count: 3

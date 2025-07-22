@@ -1,0 +1,19 @@
+---
+name: Black Chamber Email Monitor
+desc: >-
+  Black Chamber is tool designed to help IT teams detect unauthorized SaaS usage within an organization.
+  The email monitor reads M365 message logs to determine if a users is using a SaaS application
+site: https://github.com/Black-Chamber/BlackChamberEmailMonitor
+tags:
+- cybersecurity
+- security-tooling
+- systems-administration
+- go
+upforgrabs:
+  name: up for grabs
+  link: >-
+    https://github.com/Black-Chamber/BlackChamberEmailMonitor/issues?q=is%3Aissue+is%3Aopen+label%3A%22up+for+grabs%22
+stats:
+  issue-count: 3
+  last-updated: '2025-01-14T13:21:01Z'
+  fork-count: 0

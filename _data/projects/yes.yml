@@ -1,8 +1,8 @@
-name: yes
+---
+name: 'yes'
 desc: Implementation of yes UNIX command in various languages
 site: https://github.com/mubaris/yes
 tags:
-# Note those are tags categorizing your project, not issue labels.
 - linux
 - commands
 - noobs
@@ -10,3 +10,7 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/mubaris/yes/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2025-06-21T18:04:14Z'
+  fork-count: 44

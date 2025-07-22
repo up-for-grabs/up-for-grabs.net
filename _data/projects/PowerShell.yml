@@ -1,10 +1,15 @@
+---
 name: PowerShell
-desc: PowerShell for every system! 
+desc: PowerShell for every system!
 site: https://github.com/powershell/powershell
 tags:
 - oss
 - powershell
-- C#
+- c#
 upforgrabs:
   name: Up-for-Grabs
   link: https://github.com/PowerShell/PowerShell/labels/Up-for-Grabs
+stats:
+  issue-count: 83
+  last-updated: '2025-07-18T05:31:58Z'
+  fork-count: 7729

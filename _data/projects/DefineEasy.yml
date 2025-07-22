@@ -1,0 +1,14 @@
+---
+name: DefineEasy
+desc: A simple Dictionary android app made with Jetpack Compose.
+site: https://github.com/rudradave1/DefineEasy
+tags:
+- kotlin
+- android
+- jetpack-compose
+upforgrabs:
+  name: help wanted
+  link: https://github.com/rudradave1/DefineEasy/labels/help%20wanted
+stats:
+  issue-count: 0
+  fork-count: 1

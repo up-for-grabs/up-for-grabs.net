@@ -1,3 +1,4 @@
+---
 name: Aton
 desc: Computer room administration made free
 site: http://camilosampedro.me/Aton
@@ -10,3 +11,7 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/camilosampedro/Aton/labels/up-for-grabs
+stats:
+  issue-count: 10
+  last-updated: '2024-01-23T08:39:32Z'
+  fork-count: 12

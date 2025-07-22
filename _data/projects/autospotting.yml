@@ -1,0 +1,23 @@
+---
+name: AutoSpotting
+desc: >-
+  Automatically replace AWS EC2 instances in AutoScaling groups with identically configured but up to
+  90% cheaper spot instances
+site: https://github.com/AutoSpotting/AutoSpotting
+tags:
+- aws
+- ec2
+- autoscaling
+- spot
+- automation
+- go
+- lambda
+- terraform
+- cloudformation
+upforgrabs:
+  name: 'Type: Good first issue'
+  link: https://github.com/LeanerCloud/AutoSpotting/labels/Type%3A%20Good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2023-09-21T04:41:06Z'
+  fork-count: 321

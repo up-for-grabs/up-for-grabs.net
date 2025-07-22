@@ -1,0 +1,17 @@
+---
+name: dart.dev
+desc: >-
+  A website covering the Dart language and common libraries, for developers of Dart libraries, web apps,
+  server-side code, and mobile (Flutter) apps.
+site: https://github.com/dart-lang/site-www
+tags:
+- dart
+- javascript
+- website
+upforgrabs:
+  name: co.help-wanted
+  link: https://github.com/dart-lang/site-www/labels/co.help-wanted
+stats:
+  issue-count: 2
+  last-updated: '2025-07-15T17:17:58Z'
+  fork-count: 723

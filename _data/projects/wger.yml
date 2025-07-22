@@ -1,14 +1,22 @@
+---
 name: wger Workout Manager
-desc: wger is a free, open source web application that manages and tracks/logs your exercises and personal workouts, weight and diet plans. It can also be used as a simple gym management utility and offers a REST API as well, for easy integration with other projects and tools. 
-site: https://github.com/rolandgeider/wger
+desc: >-
+  wger is a free, open source web application that manages and tracks/logs your exercises and personal
+  workouts, weight and diet plans. It can also be used as a simple gym management utility and offers a
+  REST API as well, for easy integration with other projects and tools.
+site: https://github.com/wger-project/wger
 tags:
 - python
 - django
-- REST
+- rest
 - web
 - workout
 - fitness
 - exercises
 upforgrabs:
-  name: bitesize
-  link: https://github.com/rolandgeider/wger/labels/bitesize 
+  name: good first issue
+  link: https://github.com/wger-project/wger/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2024-11-27T12:28:08Z'
+  fork-count: 713

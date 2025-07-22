@@ -1,0 +1,18 @@
+---
+name: Dockerfile Archive
+desc: A repository of all Dockerfiles in one place to make it easier to find.
+site: https://github.com/darkmatter18/dockerfile-archive
+tags:
+- docker
+- dockerfile
+- container
+- python
+- javascript
+- cloud
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/darkmatter18/dockerfile-archive/labels/up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2024-10-28T15:07:41Z'
+  fork-count: 15

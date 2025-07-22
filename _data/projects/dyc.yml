@@ -1,0 +1,18 @@
+---
+name: Document Your Code
+desc: >-
+  A Pure Python CLI Application that Auto Populates Docstrings under methods. Built to support all Programming
+  Languages and help make Development for all engineers as smooth as possible.
+site: https://github.com/Zarad1993/dyc
+tags:
+- python
+- documentation
+- docstrings
+- automation
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Zarad1993/dyc/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2022-10-09T14:06:42Z'
+  fork-count: 45

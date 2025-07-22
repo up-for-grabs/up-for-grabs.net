@@ -1,0 +1,18 @@
+---
+name: OpenDota UI
+desc: React web interface for the OpenDota platform
+site: https://www.opendota.com/
+tags:
+- visualization
+- ui
+- reactjs
+- redux
+- webpack
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/odota/web/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2025-07-20T21:45:57Z'
+  fork-count: 396

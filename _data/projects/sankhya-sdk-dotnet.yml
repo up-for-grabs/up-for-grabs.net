@@ -1,0 +1,17 @@
+---
+name: Sankhya SDK .NET
+desc: Sankhya ERP SDK for .NET projects
+site: https://github.com/guibranco/sankhya-sdk-dotnet
+tags:
+- ".net"
+- c#
+- sdk
+- sankhya
+- integration
+upforgrabs:
+  name: help wanted
+  link: https://github.com/guibranco/Sankhya-SDK-dotnet/labels/help%20wanted
+stats:
+  issue-count: 3
+  last-updated: '2024-10-11T19:43:26Z'
+  fork-count: 3

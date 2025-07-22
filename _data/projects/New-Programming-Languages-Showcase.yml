@@ -1,0 +1,25 @@
+---
+name: New-Programming-Languages-Showcase
+desc: >-
+  This repository is a collection of information and resources on various new programming languages. Here,
+  you can find descriptions, development details, advantages, usage examples, successful applications,
+  and future prospects of these languages. We hope that this repository will be a helpful resource for
+  developers looking to explore new programming languages.
+site: https://github.com/multikitty/New-Programming-Languages-Showcase
+tags:
+- programming-language
+- new-language
+- showcase
+- brief-history
+- development-details
+- future-technologies
+- supporter
+- advantages
+- news
+upforgrabs:
+  name: help wanted
+  link: https://github.com/multikitty/New-Programming-Languages-Showcase/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2024-07-26T06:00:32Z'
+  fork-count: 4

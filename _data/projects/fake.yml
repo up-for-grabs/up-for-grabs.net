@@ -1,12 +1,17 @@
+---
 name: FAKE
-desc: >
-  FAKE - F# Make - is a build automation tool for .NET. Tasks and
-  dependencies are specified in a DSL which is integrated in F#.
-site: https://github.com/fsharp/fake
+desc: >-
+  FAKE - F# Make - is a build automation tool for .NET. Tasks and dependencies are specified in a DSL
+  which is integrated in F#.
+site: https://github.com/fsharp/FAKE
 tags:
-- ".NET"
+- ".net"
 - build
-- F#
+- f#
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/fsharp/fake/labels/up-for-grabs
+  name: help wanted
+  link: https://github.com/fsprojects/FAKE/labels/help%20wanted
+stats:
+  issue-count: 3
+  last-updated: '2022-07-25T08:35:38Z'
+  fork-count: 590

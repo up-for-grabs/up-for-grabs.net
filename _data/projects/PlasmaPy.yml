@@ -1,0 +1,16 @@
+---
+name: PlasmaPy
+desc: An open source plasma physics package in Python
+site: https://github.com/PlasmaPy/PlasmaPy
+tags:
+- python
+- science
+- plasma
+- physics
+upforgrabs:
+  name: help wanted
+  link: https://github.com/PlasmaPy/PlasmaPy/labels/help%20wanted
+stats:
+  issue-count: 12
+  last-updated: '2024-09-28T03:09:21Z'
+  fork-count: 353

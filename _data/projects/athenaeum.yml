@@ -1,0 +1,12 @@
+---
+name: Athenaeum
+desc: A collection of various utility packages.
+site: https://aedart.github.io/athenaeum/
+tags:
+- php
+upforgrabs:
+  name: good first issue
+  link: https://github.com/aedart/athenaeum/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 4

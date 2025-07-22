@@ -1,11 +1,16 @@
+---
 name: DotNetCoreKoans
 desc: A set of Koans to teach the C# language on .NET Core.
 site: https://github.com/NotMyself/DotNetCoreKoans
 tags:
-- C#
-- ".NET Core"
-- TDD
-- "Cross Platform"
+- c#
+- ".net-core"
+- tdd
+- cross-platform
 upforgrabs:
-  name: up-for-grabs
-  link: https://github.com/NotMyself/DotNetCoreKoans/labels/Up%20for%20Grabs
+  name: Up for Grabs
+  link: https://github.com/DotNetKoans/DotNetKoans/labels/Up%20for%20Grabs
+stats:
+  issue-count: 4
+  last-updated: '2025-07-05T10:59:28Z'
+  fork-count: 262

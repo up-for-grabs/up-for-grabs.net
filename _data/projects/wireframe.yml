@@ -1,17 +1,19 @@
+---
 name: Wireframe
 desc: minimal wireframing css-framework
 site: https://github.com/agauniyal/wireframe
 tags:
 - sass
-- js
-- HTML
-- CSS
+- html
+- css
 - javascript
 - oss
 - gulp
-- node
-- nodejs
-
+- node.js
 upforgrabs:
   name: help wanted
   link: https://github.com/agauniyal/wireframe/labels/help%20wanted
+stats:
+  issue-count: 3
+  last-updated: '2023-09-03T06:11:14Z'
+  fork-count: 48

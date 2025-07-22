@@ -1,0 +1,17 @@
+---
+name: picow-keyboard
+desc: Turn your Pico W into an instant keyboard!
+site: https://github.com/Desperationis/picow-keyboard
+tags:
+- pico-w
+- pico
+- raspberry-pi-pico
+- raspberry
+- raspberry-pi
+upforgrabs:
+  name: easy addons
+  link: https://github.com/Desperationis/picow-keyboard/issues?q=label%3A%22easy+addons%22
+stats:
+  issue-count: 4
+  last-updated: '2024-08-24T10:34:35Z'
+  fork-count: 1

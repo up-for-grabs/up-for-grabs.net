@@ -1,17 +1,22 @@
+---
 name: SQLProvider
-desc: >
-  A general F# SQL database type provider, supporting LINQ queries,
-  schema exploration, individuals and much more besides.
+desc: >-
+  A general F# SQL database type provider, supporting LINQ queries, schema exploration, individuals and
+  much more besides.
 site: https://github.com/fsprojects/SQLProvider
 tags:
-- ".NET"
-- F#
+- ".net"
+- f#
 - typeprovider
-- SQL
-- MySQL
-- Oracle
-- SQL Server
-- SQLLite
+- sql
+- mysql
+- oracle
+- sql-server
+- sqlite
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/fsprojects/SQLProvider/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2024-04-21T19:56:37Z'
+  fork-count: 146

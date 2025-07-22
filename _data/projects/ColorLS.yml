@@ -1,0 +1,20 @@
+---
+name: ColorLS
+desc: A Ruby gem that beautifies the terminal ls command, with color and font-awesome icons
+site: https://github.com/athityakumar/colorls
+tags:
+- ruby
+- cli
+- color
+- gem
+- terminal
+- eye-candy
+- icons
+- ls
+upforgrabs:
+  name: Up-For-Grabs
+  link: https://github.com/athityakumar/colorls/labels/Up-For-Grabs
+stats:
+  issue-count: 19
+  last-updated: '2023-04-30T07:19:34Z'
+  fork-count: 393

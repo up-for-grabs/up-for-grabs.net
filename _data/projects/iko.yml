@@ -1,0 +1,17 @@
+---
+name: Iko
+desc: A commandline based task runner
+site: https://github.com/shrayasr/Iko/
+tags:
+- cli
+- windows
+- task-runner
+- c#
+- ".net"
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/shrayasr/Iko/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2020-08-19T23:12:50Z'
+  fork-count: 3

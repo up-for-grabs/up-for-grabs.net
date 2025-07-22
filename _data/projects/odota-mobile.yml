@@ -1,0 +1,15 @@
+---
+name: OpenDota Mobile
+desc: React Native apps for viewing Dota 2 data on Android/iOS
+site: https://www.opendota.com/
+tags:
+- react-native
+- android
+- mobile
+- ios
+upforgrabs:
+  name: help wanted
+  link: https://github.com/odota/mobile/labels/help%20wanted
+stats:
+  issue-count: 0
+  fork-count: 43

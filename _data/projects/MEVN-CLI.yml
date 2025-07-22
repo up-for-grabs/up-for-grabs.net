@@ -1,0 +1,31 @@
+---
+name: MEVN-CLI
+desc: Light speed setup for MEVN(Mongo Express Vue Node) Apps
+site: https://github.com/madlabsinc/mevn-cli
+tags:
+- node.js
+- javascript
+- mongodb
+- vue
+- vue.js
+- passport.js
+- vuetify
+- axios
+- vee-validate
+- express
+- vuex
+- boilerplate
+- mevn
+- nuxt.js
+- graphql
+- pwa
+- sfc
+- scaffolding
+- server-side-rendering
+upforgrabs:
+  name: help wanted
+  link: https://github.com/madlabsinc/mevn-cli/labels/help%20wanted
+stats:
+  issue-count: 6
+  last-updated: '2024-09-16T16:11:13Z'
+  fork-count: 153

@@ -1,0 +1,19 @@
+---
+name: ".NET Windows Forms"
+desc: >-
+  Windows Forms also provides one of the most productive ways to create desktop applications based on
+  the visual designer provided in Visual Studio. It enables drag-and-drop of visual controls and other
+  similar functionality that make it easy to build desktop applications.
+site: https://github.com/dotnet/winforms
+tags:
+- ".net"
+- c#
+- windows-forms
+- winforms
+upforgrabs:
+  name: help wanted
+  link: https://github.com/dotnet/winforms/labels/help%20wanted
+stats:
+  issue-count: 103
+  last-updated: '2025-07-18T18:57:13Z'
+  fork-count: 1046

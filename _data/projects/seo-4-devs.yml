@@ -1,0 +1,17 @@
+---
+name: SEO 4 DEVS
+desc: >-
+  A SEO generator tool for developers, focusing on metadata and HTML. Work hard on your next client instead
+site: https://github.com/neontomo/seo-4-devs
+tags:
+- seo
+- dev
+- developers
+- metatags
+- generator
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/neontomo/seo-4-devs/labels/up%20for%20grabs
+stats:
+  issue-count: 0
+  fork-count: 1

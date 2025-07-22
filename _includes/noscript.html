@@ -1,0 +1,70 @@
+<noscript>
+  <div class="warning">
+    You have disabled JavaScript on this site. As we rely on JavaScript for
+    important functionality on the site, we will fallback to instead render
+    a selection of available projects for you to explore.
+  </div>
+
+  {% comment %}
+    This stage enumerates the list of projects, which are grouped by the hash
+    (file name) and the value (parsed contents of file) and builds up an array
+    of projects that we can use in the next stage.
+  {% endcomment %}
+
+  {% assign projects_with_stats = site.emptyArray %}
+  {% for project_hash in site.data.projects %}
+    {% assign project = project_hash[1] %}
+    {% if project.stats != nil %}
+    {% assign projects_with_stats = projects_with_stats | push: project %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %}
+    This stage does some filtering on the array of projects so that we can
+    select a random sample of projects. This will change on each build, so we
+    don't need to worry about the same projects appearing each time.
+  {% endcomment %}
+  {% assign sampled_projects = projects_with_stats | where_exp: "item", "item.stats['issue-count'] > 0" | sample: 50 %}
+
+  <table class="projects">
+    {% for project in sampled_projects %}
+      {% if project.stats != nil %}
+      <tbody class="counted">
+      {% else %}
+      <tbody>
+      {% endif %}
+      <tr>
+        <td colspan="2" class="title">
+            <span class="proj"><a href="{{ project.site }}" target="_blank">{{ project.name }}</a></span>
+        </td>
+      </tr>
+      <tr>
+        <td class="details">
+          <p class="label">
+            <a href="{{ project.upforgrabs.link }}" title="View open issues for {{ project.name }}" target="_blank" tabindex="-1">
+            {{ project.upforgrabs.name }}
+            {% if project.stats != nil %}
+              <span class="count" title="Last updated {{ project.stats['last-updated'] | date_to_long_string: "ordinal" }}">{{ project.stats['issue-count'] }}</span>
+            {% else %}
+              <span class="count" title="Unknown count of open tasks">??</span>
+            {% endif %}
+            </a>
+          </p>
+        </td>
+        <td class="details">
+            {% if project.desc %}
+            <span class="desc">{{ project.desc }}</span>
+            {% endif %}
+            {% if project.tags %}
+            <p class="tags">
+            {% for tag in project.tags %}
+              {{ tag }}{% if forloop.index < project.tags.size %}, {% endif %}
+            {% endfor %}
+            </p>
+            {% endif %}
+        </td>
+      </tr>
+      </tbody>
+    {% endfor %}
+  </table>
+</noscript>

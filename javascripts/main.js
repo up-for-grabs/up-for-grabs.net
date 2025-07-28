@@ -156,7 +156,6 @@ define([
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
       $(elem).on('click', function () {
         const tagName = preparePopTagName($(this).text()) || '';
-        console.log(tagName);
 
         projectsPanel.find('select.tags-filter')
           .val(tagName)

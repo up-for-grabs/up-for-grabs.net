@@ -1,0 +1,13 @@
+{
+    "name": "Kajal Tools",
+    "desc": "A fun project that helps people contribute to open source.",
+    "site": "https://github.com/kaju2116/kajal-tools",
+    "tags": [
+        "beginner",
+        "python"
+    ],
+    "upforgrabs": {
+        "name": "good first issue",
+        "link": "https://github.com/kaju2116/kajal-tools/labels/good%20first%20issue"
+    }
+}

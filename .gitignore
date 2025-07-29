@@ -3,3 +3,6 @@ node_modules/
 yarn-error.log
 coverage/
 vendor/
+
+# Local Netlify folder
+.netlify

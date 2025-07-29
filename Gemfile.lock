@@ -48,10 +48,14 @@ GEM
     faraday-net_http (3.4.1)
       net-http (>= 0.5.0)
     ffi (1.17.1)
+    ffi (1.17.1-x64-mingw-ucrt)
     ffi (1.17.1-x86_64-linux-gnu)
     fiber-storage (1.0.1)
     forwardable-extended (2.6.0)
     google-protobuf (4.29.3)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.3-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.3-x86_64-linux)
@@ -164,6 +168,8 @@ GEM
       google-protobuf (~> 4.29)
     sass-embedded (1.83.4-riscv64-linux-musl)
       google-protobuf (~> 4.29)
+    sass-embedded (1.83.4-x64-mingw-ucrt)
+      google-protobuf (~> 4.29)
     sass-embedded (1.83.4-x86_64-cygwin)
       google-protobuf (~> 4.29)
     sass-embedded (1.83.4-x86_64-linux-android)
@@ -182,6 +188,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
     uri (1.0.3)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -192,6 +199,7 @@ PLATFORMS
   riscv64-linux-gnu
   riscv64-linux-musl
   ruby
+  x64-mingw-ucrt
   x86-cygwin
   x86-linux-android
   x86-mingw-ucrt
@@ -209,6 +217,7 @@ DEPENDENCIES
   rubocop
   safe_yaml
   up_for_grabs_tooling!
+  wdm (>= 0.1.0)
   webrick
 
 RUBY VERSION

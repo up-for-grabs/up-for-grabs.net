@@ -93,6 +93,7 @@ define([
       .val(tags)
       .trigger('chosen:updated')
       .change(function () {
+        console.log($(this).val()[0]);
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'tags',
@@ -155,21 +156,12 @@ define([
 
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
       $(elem).on('click', function () {
-        selTags = $('.tags-filter').val() || [];
-        selectedTag = preparePopTagName($(this).text() || '');
-        if (selectedTag) {
-          tagID = allTags
-            .map((tag) => tag.name.toLowerCase())
-            .indexOf(selectedTag);
-          if (tagID !== -1) {
-            selTags.push(selectedTag);
-            location.href = updateQueryStringParameter(
-              getFilterUrl(),
-              'tags',
-              encodeURIComponent(selTags)
-            );
-          }
-        }
+        const tagName = preparePopTagName($(this).text()) || '';
+
+        projectsPanel.find('select.tags-filter')
+          .val(tagName)
+          .trigger('chosen:updated')
+          .trigger('change');
       });
     });
   };
@@ -181,7 +173,7 @@ define([
   */
   let preparePopTagName = function (name) {
     if (name === '') return '';
-    return name.toLowerCase().split(' ')[0];
+    return name.toLowerCase().split(' ')[0].trimEnd();
   };
 
   /**

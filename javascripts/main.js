@@ -93,7 +93,6 @@ define([
       .val(tags)
       .trigger('chosen:updated')
       .change(function () {
-        console.log($(this).val()[0]);
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'tags',

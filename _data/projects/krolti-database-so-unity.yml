@@ -3,8 +3,9 @@ desc: A High-Performance ScriptableObject Database System for Unity (Unity Packa
 site: https://github.com/krolti/com.krolti.databaseso/
 tags:
   - unity
-  - csharp
-  - dotnet
+  - c#
+  - .net
+  - database
 upforgrabs:
   name: Help wanted in project
   link: https://github.com/krolti/com.krolti.databaseso/issues

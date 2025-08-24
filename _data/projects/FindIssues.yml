@@ -11,7 +11,7 @@ tags:
 - beginner
 upforgrabs:
   name: hacktoberfest
-  link: https://github.com/anand346/findissues/labels/hacktoberfest
+  link: https://github.com/anandraaj24/findissues/labels/hacktoberfest
 stats:
   issue-count: 1
   last-updated: '2025-07-15T12:15:29Z'

@@ -1,4 +1,4 @@
-<script type="text/html" id="projects-panel-template">
+<script id="projects-panel-template" type="text/html">
   <menu>
     <div class="filters-panel cf">
       <label class="filter-label" for="project">Filter by last updated:</label>
@@ -20,7 +20,6 @@
         </div>
       </div>
     </div>
-
     <div class="filters-panel cf">
       <label class="filter-label" for="project">Filter by name:</label>
       <select
@@ -79,8 +78,7 @@
     </div>
   </menu>
   <div class="projects">
-    <% let count=0 %> <% _.each(projects, function(project) { %> <%
-    count=count+1%>
+    <% let count=0 %> <% _.each(projects, function(project) { %> <% count=count+1%>
     <div class="data-box" class="<% if ( project.stats ) { %>counted<% } %>">
       <div>
         <div>
@@ -96,7 +94,14 @@
           <div class="details stats">
             <p class="label">
               <a
-                href="<%- project.upforgrabs.link %>"
+                href="<% 
+                  // Generate proper GitHub label URL with encoding for labels with spaces
+                  var labelName = project.upforgrabs.name;
+                  var encodedLabel = labelName.includes(' ') ? encodeURIComponent('"' + labelName + '"') : encodeURIComponent(labelName);
+                  var baseUrl = project.upforgrabs.link;
+                  // Replace the label part in the URL with the properly encoded label
+                  var finalUrl = baseUrl.replace(/\/labels\/[^?]*/, '/labels/' + encodedLabel);
+                %><%- finalUrl %>"
                 title="View open issues for <%-project.name %>"
                 target="_blank"
                 tabindex="-1"
@@ -147,7 +152,7 @@
         <ul class="tags" aria-label="project tags">
           <% _.each(project.tags, function(tag, i) { %>
           <li>
-            <a href="#/filters?tags=<%-encodeURIComponent(tag)%>" tabindex="-1"
+            <a href="#90c44dc1" tabindex="-1"
               ><%-tag%></a
             >
           </li>
@@ -164,10 +169,11 @@
   </p>
   <p><%} %></p>
 </script>
-<script
-  src="{{ site.github.url }}javascripts/lib/require.js"
+
+<script src="{{ site.github.url }}javascripts/lib/require.js"
   data-main="javascripts/app"
 ></script>
+
 <!-- Google Analytics -->
 <script>
   (function (i, s, o, g, r, a, m) {
@@ -189,7 +195,6 @@
     'https://www.google-analytics.com/analytics.js',
     'ga'
   );
-
   ga('create', 'UA-45897756-1', 'auto');
   ga('send', 'pageview');
 </script>

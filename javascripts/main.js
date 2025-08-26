@@ -1,7 +1,5 @@
 // @ts-nocheck
-
 /* eslint no-var: [ "error" ] */
-
 define([
   'jquery',
   'projectLoader',
@@ -25,15 +23,12 @@ define([
 ) => {
   let compiledtemplateFn = null,
     projectsPanel = null;
-
   setupDarkModeListener();
-
   const getFilterUrl = function () {
     return location.href.indexOf('/#/filters') > -1
       ? location.href
       : `${location.href}filters`;
   };
-
   // inspired by https://stackoverflow.com/a/6109105/1363815 until I have a better
   // idea of what we want to do here
   function relativeTime(current, previous) {
@@ -42,9 +37,7 @@ define([
     const msPerDay = msPerHour * 24;
     const msPerMonth = msPerDay * 30;
     const msPerYear = msPerDay * 365;
-
     const elapsed = current - previous;
-
     if (elapsed < msPerMinute) {
       return `${Math.round(elapsed / 1000)} seconds ago`;
     }
@@ -60,19 +53,17 @@ define([
     if (elapsed < msPerYear) {
       return `about ${Math.round(elapsed / msPerMonth)} months ago`;
     }
-
     return `about ${Math.round(elapsed / msPerYear)} years ago`;
   }
-
   const renderProjects = function (projectService, tags, names, labels, date) {
     const allTags = projectService.getTags();
-
+    const filteredProjects = projectService.get(tags, names, labels, date);
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectService.get(tags, names, labels, date),
+        projects: filteredProjects,
         relativeTime,
         tags: allTags,
-        popularTags: projectService.getPopularTags(6),
+        popularTags: projectService.getPopularTags(6, filteredProjects),
         selectedTags: tags,
         names: projectService.getNames(),
         selectedNames: names,
@@ -99,7 +90,6 @@ define([
           encodeURIComponent($(this).val() || '')
         );
       });
-
     projectsPanel
       .find('select.names-filter')
       .chosen({
@@ -123,12 +113,10 @@ define([
         const currentSelected = projectsPanel.find(
           'button.radio-btn-selected'
         )[0];
-
         // Uncheck
         if (currentSelected && currentSelected.id == id) {
           id = '';
         }
-
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'date',
@@ -136,7 +124,6 @@ define([
         );
       });
     });
-
     projectsPanel
       .find('select.labels-filter')
       .chosen({
@@ -152,7 +139,6 @@ define([
           encodeURIComponent($(this).val() || '')
         );
       });
-
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
       $(elem).on('click', function () {
         selTags = $('.tags-filter').val() || [];
@@ -173,7 +159,6 @@ define([
       });
     });
   };
-
   /*
     This is a utility method to help update a list items Name parameter to make
     it fit URL specification
@@ -183,7 +168,6 @@ define([
     if (name === '') return '';
     return name.toLowerCase().split(' ')[0];
   };
-
   /**
    * This is a utility method to help update URL Query Parameters
    * @return string - The value of the URL when adding/removing values to it.
@@ -194,10 +178,8 @@ define([
     if (uri.match(re)) {
       return uri.replace(re, `$1${key}=${value}$2`);
     }
-
     return `${uri + separator + key}=${value}`;
   };
-
   /**
    * This function help getting all params in url queryString
    * Taken from here
@@ -208,13 +190,12 @@ define([
   const getParameterByName = function (name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, '\\$&');
-    const regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`),
+    const regex = new RegExp(`[?&]${name}(=([^]*)|&|#|$)`),
       results = regex.exec(url);
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
   };
-
   /**
    * This function adds a button to scroll to top
    * after navigating through a certain screen length
@@ -235,7 +216,6 @@ define([
       return false;
     });
   });
-
   /*
    * This is a helper method that prepares the chosen labels/tags/names
    * For HTML and helps display the selected values of each
@@ -245,32 +225,26 @@ define([
   const prepareForHTML = function (text) {
     return text ? text.toLowerCase().split(',') : text;
   };
-
   const issueCount = function (project) {
     const a = $(project).find('.label a');
     const gh = a
       .attr('href')
       .match(/github.com(\/[^\/]+\/[^\/]+\/)(?:issues\/)?labels\/([^\/]+)$/);
     let count = a.find('.count');
-
     if (count.length) {
       return;
     }
-
     if (!gh) {
       count = $(
         '<span class="count" title="Issue count is only available for projects on GitHub.">?</span>'
       ).appendTo(a);
       return;
     }
-
     count = $(
-      '<span class="count"><img src="images/octocat-spinner-32.gif" /></span>'
+      '<span class="count"><img/></span>'
     ).appendTo(a);
-
     const ownerAndName = gh[1];
     const labelEncoded = gh[2];
-
     fetchIssueCount(ownerAndName, labelEncoded).then(
       (resultCount) => {
         count.html(resultCount);
@@ -282,7 +256,6 @@ define([
       }
     );
   };
-
   $(() => {
     const $window = $(window),
       onScreen = function onScreen($elem) {
@@ -295,7 +268,6 @@ define([
           (docViewTop <= elemBottom && elemBottom <= docViewBottom)
         );
       };
-
     $window.on('scroll chosen:updated', () => {
       $('.projects tbody:not(.counted)').each(function () {
         const project = $(this);
@@ -305,10 +277,8 @@ define([
         }
       });
     });
-
     compiledtemplateFn = _.template($('#projects-panel-template').html());
     projectsPanel = $('#projects-panel');
-
     projectsPanel.on('click', 'a.remove-tag', function (e) {
       e.preventDefault();
       const tags = [];
@@ -321,10 +291,8 @@ define([
       const tagsString = tags.join(',');
       window.location.href = `#/tags/${tagsString}`;
     });
-
     loadProjects().then((p) => {
       const projectsSvc = new ProjectsService(p);
-
       const app = sammy(function () {
         /*
          * This is the route used to filter by tags/names/labels
@@ -338,12 +306,10 @@ define([
           const date = getParameterByName('date');
           renderProjects(projectsSvc, tags, names, labels, date);
         });
-
         this.get('/', () => {
           renderProjects(projectsSvc);
         });
       });
-
       app.raise_errors = true;
       app.run('#/');
     });

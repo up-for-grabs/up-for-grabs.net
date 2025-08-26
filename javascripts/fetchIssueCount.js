@@ -1,21 +1,15 @@
 /* eslint global-require: "off" */
 /* eslint block-scoped-var: "off" */
-
 /* eslint function-paren-newline: [ "off" ] */
 /* eslint implicit-arrow-linebreak: [ "off" ] */
-
 // @ts-nocheck
-
 // required for loading into a NodeJS context
 if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
-
 define(['whatwg-fetch', 'promise-polyfill'], () => {
   const { localStorage, fetch } = window;
-
   const RateLimitResetAtKey = 'Rate-Limit-Reset-At';
-
   /**
    * Read and deserialize a value from local storage.
    *
@@ -32,7 +26,6 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
     }
     return undefined;
   }
-
   /**
    * Clear a value from local storage.
    *
@@ -43,7 +36,6 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
       localStorage.removeItem(key);
     }
   }
-
   /**
    * Update a key in local storage to a new value.
    *
@@ -64,7 +56,6 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
       }
     }
   }
-
   /**
    * Inspect the response from the GitHub API to see if was related to being
    * rate-limited by the server.
@@ -76,7 +67,6 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
   function inspectRateLimitError(response) {
     const rateLimited = response.headers.get('X-RateLimit-Remaining') === '0';
     const rateLimitReset = response.headers.get('X-RateLimit-Reset');
-
     if (rateLimited && rateLimitReset) {
       const rateLimitResetAt = new Date(1000 * rateLimitReset);
       setValue(RateLimitResetAtKey, rateLimitResetAt);
@@ -84,10 +74,8 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
         `GitHub rate limit met. Reset at ${rateLimitResetAt.toLocaleTimeString()}`
       );
     }
-
     return undefined;
   }
-
   /**
    * Inspect the response from the GitHub API to return a helpful error message.
    *
@@ -101,7 +89,6 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
     const errorMessage = message || response.statusText;
     return new Error(`Could not get issue count from GitHub: ${errorMessage}`);
   }
-
   /**
    * Fetch and cache the issue count for the requested repository using the
    * GitHub API.
@@ -121,48 +108,40 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
   function fetchIssueCount(ownerAndName, label) {
     const cached = getValue(ownerAndName);
     const now = new Date();
-
     const yesterday = now - 1000 * 60 * 60 * 24;
-
     if (cached && cached.date && new Date(cached.date) >= yesterday) {
       return Promise.resolve(cached.count);
     }
-
     const rateLimitResetAt = getValue(RateLimitResetAtKey);
-
     if (rateLimitResetAt) {
       const d = new Date(rateLimitResetAt);
-
       if (d > now) {
         return Promise.reject(
           new Error(`GitHub rate limit met. Reset at ${d.toLocaleTimeString()}`)
         );
       }
-
       clearValue(RateLimitResetAtKey);
     }
-
     const perPage = 30;
-
     // TODO: we're not extracting the leading or trailing slash in
     //       `ownerAndName` when the previous regex is passed in here. This
     //       would be great to cleanup at some stage
-    const apiURL = `https://api.github.com/repos${ownerAndName}issues?labels=${label}&per_page=${perPage}`;
-
+    
+    // Fix for labels with spaces - wrap in double quotes before URL encoding
+    const encodedLabel = label.includes(' ') ? encodeURIComponent(`"${label}"`) : encodeURIComponent(label);
+    const apiURL = `https://api.github.com/repos${ownerAndName}issues?labels=${encodedLabel}&per_page=${perPage}`;
     const settings = {
       method: 'GET',
       headers: {
         Accept: 'application/json',
       },
     };
-
     if (cached && cached.etag) {
       settings.headers = {
         ...settings,
         'If-None-Match': cached.etag,
       };
     }
-
     return new Promise((resolve, reject) => {
       fetch(apiURL, settings).then(
         (response) => {
@@ -173,15 +152,12 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
               resolve(count);
               return;
             }
-
             clearValue(ownerAndName);
-
             const rateLimitError = inspectRateLimitError(response);
             if (rateLimitError) {
               reject(rateLimitError);
               return;
             }
-
             response.json().then(
               (json) => {
                 reject(inspectGenericError(json, response));
@@ -190,13 +166,10 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
                 reject(error);
               }
             );
-
             return;
           }
-
           const etag = response.headers.get('ETag');
           const linkHeader = response.headers.get('Link');
-
           if (linkHeader) {
             const lastPageMatch = /<([^<>]*?page=(\d*))>; rel="last"/g.exec(
               linkHeader
@@ -205,18 +178,15 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
               const lastPageCount = Number(lastPageMatch[2]);
               const baseCount = perPage * (lastPageCount - 1);
               const count = `${baseCount}+`;
-
               setValue(ownerAndName, {
                 count,
                 etag,
                 date: new Date(),
               });
-
               resolve(count);
               return;
             }
           }
-
           response.json().then(
             (json) => {
               if (json && typeof json.length === 'number') {
@@ -226,7 +196,6 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
                   etag,
                   date: new Date(),
                 });
-
                 resolve(count);
               }
             },
@@ -241,6 +210,5 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
       );
     });
   }
-
   return fetchIssueCount;
 });

@@ -13,6 +13,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/NLog/NLog/labels/up-for-grabs
 stats:
-  issue-count: 14
-  last-updated: '2025-06-01T13:18:08Z'
-  fork-count: 1381
+  issue-count: 17
+  last-updated: '2025-08-23T08:08:45Z'
+  fork-count: 1378

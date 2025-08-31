@@ -2,8 +2,9 @@ name: VTS - Voice Typing Studio
 desc: Transform your voice into text instantly with the power of OpenAI, Groq, and Deepgram APIs. Say goodbye to macOS dictation limitations and hello to lightning-fast, accurate transcription! ⚡️
 site: https://github.com/j05u3/VTS
 tags:
-  - macOS app
-  - STT
+  - macos
+  - stt
+  - dictation
   - swift
 upforgrabs:
   name: good first issue

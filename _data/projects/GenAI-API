@@ -1,0 +1,17 @@
+name: GenAI-API
+desc: Supercharge Apple’s Shortcuts using Cloudflare Workers and Gemini within minutes (and for free, up to 1,500 requests per day) ☁️✨
+site: https://github.com/louisbrulenaudet/genai-api
+tags:
+  - API
+  - Cloudflare
+  - Workers
+  - Shortcuts
+  - Apple
+  - Hono
+  - Gemini
+  - GenAI
+  - AI
+  - LLM
+upforgrabs:
+  name: Good First Issue
+  link: https://github.com/louisbrulenaudet/genai-api/issues

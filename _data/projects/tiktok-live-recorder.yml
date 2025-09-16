@@ -13,8 +13,8 @@ tags:
   - tiktok-live-downloader
   - tiktok-recording
   - tiktok-recorder
-  - web scraping
-  - web reverse engineering
+  - web-scraping
+  - web-reverse-engineering
 upforgrabs:
   name: good first issue
   link: https://github.com/michele0303/tiktok-live-recorder/labels/good%20first%20issue

@@ -1,0 +1,11 @@
+name: Database SO
+desc: A High-Performance ScriptableObject Database System for Unity (Unity Package)
+site: https://github.com/krolti/com.krolti.databaseso/
+tags:
+  - unity
+  - c#
+  - .net
+  - database
+upforgrabs:
+  name: good first issue
+  link: https://github.com/krolti/com.krolti.databaseso/issues

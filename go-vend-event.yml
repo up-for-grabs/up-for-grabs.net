@@ -1,0 +1,10 @@
+name: govend
+desc: An app that connects festival vendors to events
+site: https://www.govend.ing/
+tags:
+  - Ruby
+  - Ruby on rails
+  - CSS
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/username/project/labels/up%20for%20grabs

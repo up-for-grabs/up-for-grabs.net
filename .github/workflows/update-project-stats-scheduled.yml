@@ -12,12 +12,12 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.SHIFTBOT_TOKEN }}
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@bb6434c747fa7022e12fa1cae2a0951fcffcff26
+        uses: ruby/setup-ruby@cf7216d52fba1017929b4d7162fabe2b30af5b49
         with:
           bundler-cache: true
           cache-version: 0

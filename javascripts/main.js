@@ -156,13 +156,24 @@ define([
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
       $(elem).on('click', function () {
         selTags = $('.tags-filter').val() || [];
-        selectedTag = preparePopTagName($(this).text() || '');
+        selectedTag = preparePopTagName(
+          Array.from(this.childNodes)
+            .find(
+              (node) =>
+                node.nodeType === Node.TEXT_NODE && node.textContent.trim()
+            )
+            ?.textContent?.trim() || ''
+        );
         if (selectedTag) {
           tagID = allTags
             .map((tag) => tag.name.toLowerCase())
             .indexOf(selectedTag);
           if (tagID !== -1) {
-            selTags.push(selectedTag);
+            if (selTags.includes(selectedTag)) {
+              selTags.splice(selTags.indexOf(selectedTag), 1);
+            } else {
+              selTags.push(selectedTag);
+            }
             location.href = updateQueryStringParameter(
               getFilterUrl(),
               'tags',
@@ -181,7 +192,7 @@ define([
   */
   let preparePopTagName = function (name) {
     if (name === '') return '';
-    return name.toLowerCase().split(' ')[0];
+    return name.toLowerCase();
   };
 
   /**

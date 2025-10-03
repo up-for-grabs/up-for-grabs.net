@@ -154,11 +154,14 @@ define([
       });
 
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
-      $(elem).on('click', function () {
-        selTags = $('.tags-filter').val() || [];
-        selectedTag = preparePopTagName($(this).text() || '');
+      $(elem).on('click', function (e) {
+        e.preventDefault();
+        const selTags = $('.tags-filter').val() || [];
+        const tagText = $(this).text().trim();
+        const selectedTag = tagText.split('(')[0].trim().toLowerCase();
+        
         if (selectedTag) {
-          tagID = allTags
+          const tagID = allTags
             .map((tag) => tag.name.toLowerCase())
             .indexOf(selectedTag);
           if (tagID !== -1) {

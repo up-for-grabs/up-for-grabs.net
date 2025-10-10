@@ -9,4 +9,4 @@ tags:
   - ai
 upforgrabs:
   name: up for grabs
-  link: https://github.com/skully-coder/shiksha-ai/issues?q=is%3Aissue%20state%3Aopen%20label%3Aup-for-grabs
+  link: https://github.com/skully-coder/shiksha-ai/issues?q=state%3Aopen%20label%3A%22up%20for%20grabs%22

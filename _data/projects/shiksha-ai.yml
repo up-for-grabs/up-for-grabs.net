@@ -1,6 +1,6 @@
 name: Shiksha AI
 desc: AI-powered teaching assistant for educators in low-resource environments. Automates lesson planning, content creation & more.
-site: shiksha-ai-xi.vercel.app
+site: https://shiksha-ai-xi.vercel.app/
 tags:
   - genai
   - typscript

@@ -1,0 +1,11 @@
+name: Pykitzoid
+desc: A Go Library wrapper for accessing ML support tools in Python . 
+site: https://github.com/IEEE-VIT/pykitzoid
+tags:
+  - Go
+  - Python Wrapper
+  - Machine learning Alogrithms
+  - Go Library
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/IEEE-VIT/pykitzoid

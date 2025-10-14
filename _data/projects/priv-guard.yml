@@ -1,0 +1,17 @@
+---
+name: PrivGuard
+desc: >-
+  PrivGuard is a mobile-first privacy analysis app built with Flutter and on-device AI to detect oversharing and PII risks in digital content.
+   Leveraging a fine-tuned DistilBERT NER model for text classification and TFLite inference for edge processing, it identifies sensitive entities such as names, dates, phone numbers, and financial details, generating a risk score (0–100) with contextual privacy suggestions. 
+  All analysis is performed locally with AES-encrypted storage, ensuring complete data privacy and zero cloud dependency.
+
+site: https://github.com/IEEE-VIT/priv-guard
+tags:
+  - Flutter
+  - Edge AI
+  - Natural Language Processing
+  - Privacy
+
+upforgrabs:
+  name: good first issue
+  link: https://github.com/IEEE-VIT/priv-guard/labels/good%20first%20issue

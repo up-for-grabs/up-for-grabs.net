@@ -7,5 +7,8 @@ tags:
   - machine-learning-alogrithms
   - go-library
 upforgrabs:
-  name: up for grabs
-  link: https://github.com/IEEE-VIT/pykitzoid
+  name: hacktoberfest
+  link: https://github.com/IEEE-VIT/pykitzoid/labels/hacktoberfest
+stats:
+  issue-count: 8
+  fork-count: 16

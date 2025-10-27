@@ -1,0 +1,17 @@
+name: Hiero
+desc: Hiero, a Linux Foundation Decentralized Trust project, is an open-source, vendor-neutral distributed ledger technology. Hiero is used to build the Hedera public ledger.
+site: https://hiero.org
+tags:
+  - hiero
+  - lfdt
+  - dlt
+  - web3
+  - blockchain
+  - hashgraph
+  - hedera
+  - crypto
+  - token
+  - nft
+upforgrabs:
+  name: Good First Issue
+  link: https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Ahiero-ledger+archived%3Afalse+label%3A%22good+first+issue%22+

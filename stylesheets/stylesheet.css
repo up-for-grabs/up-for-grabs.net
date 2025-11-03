@@ -1096,3 +1096,214 @@ ul.tags li {
     transition: 0.3s;
   }
 }
+
+/*******************************************************************************
+Navigation Bar Styles
+*******************************************************************************/
+
+#main-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--abs);
+  border-bottom: 2px solid var(--container-border);
+  box-shadow: 0 2px 8px var(--box-shadow-color);
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+#main-navbar.scrolled {
+  box-shadow: 0 4px 12px var(--box-shadow-color);
+}
+
+.navbar-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.navbar-item {
+  flex: 1;
+  min-width: 200px;
+  margin: 0;
+}
+
+.navbar-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  text-decoration: none;
+  color: var(--body-color);
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(46, 123, 169, 0.1) 0%, rgba(46, 123, 169, 0.05) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-link:hover::before,
+.navbar-link.active::before {
+  opacity: 1;
+}
+
+.navbar-link:hover {
+  color: var(--heading-color);
+  background-color: rgba(46, 123, 169, 0.08);
+  border-bottom-color: var(--heading-color);
+  transform: translateY(-2px);
+}
+
+.navbar-link.active {
+  color: var(--heading-color);
+  border-bottom-color: var(--heading-color);
+  background-color: rgba(46, 123, 169, 0.12);
+  font-weight: 700;
+}
+
+.navbar-icon {
+  font-size: 20px;
+  margin-right: 8px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.navbar-link:hover .navbar-icon,
+.navbar-link.active .navbar-icon {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.navbar-text {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+/* Dark mode adjustments for navbar */
+[data-theme-preference=dark]:root #main-navbar {
+  background: var(--abs);
+  border-bottom-color: var(--container-border-alt);
+}
+
+[data-theme-preference=dark]:root .navbar-link {
+  color: var(--body-color);
+}
+
+[data-theme-preference=dark]:root .navbar-link:hover,
+[data-theme-preference=dark]:root .navbar-link.active {
+  color: var(--heading-color);
+  background-color: rgba(123, 198, 242, 0.15);
+}
+
+/* Responsive design for navbar */
+@media (max-width: 768px) {
+  #main-navbar {
+    position: sticky;
+    top: 0;
+  }
+
+  .navbar-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .navbar-item {
+    width: 100%;
+    min-width: auto;
+    border-bottom: 1px solid var(--container-border);
+  }
+
+  .navbar-item:last-child {
+    border-bottom: none;
+  }
+
+  .navbar-link {
+    padding: 14px 20px;
+    font-size: 14px;
+    justify-content: flex-start;
+    border-bottom: none;
+    border-left: 3px solid transparent;
+  }
+
+  .navbar-link:hover,
+  .navbar-link.active {
+    border-left-color: var(--heading-color);
+    border-bottom-color: transparent;
+    transform: translateX(5px);
+  }
+
+  .navbar-icon {
+    font-size: 18px;
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-link {
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+
+  .navbar-text {
+    font-size: 13px;
+  }
+
+  .navbar-icon {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar animation on page load */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#main-navbar {
+  animation: slideDown 0.5s ease-out;
+}

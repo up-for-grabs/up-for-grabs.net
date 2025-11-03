@@ -1110,10 +1110,13 @@ Navigation Bar Styles
   box-shadow: 0 2px 8px var(--box-shadow-color);
   transition: all 0.3s ease;
   margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 #main-navbar.scrolled {
-  box-shadow: 0 4px 12px var(--box-shadow-color);
+  box-shadow: 0 4px 16px var(--box-shadow-color);
+  border-bottom-width: 3px;
 }
 
 .navbar-container {
@@ -1144,17 +1147,18 @@ Navigation Bar Styles
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px 24px;
+  padding: 18px 28px;
   text-decoration: none;
   color: var(--body-color);
   font-size: 15px;
   font-weight: 600;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border-bottom: 3px solid transparent;
   position: relative;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-family: 'Open Sans Condensed', sans-serif;
+  overflow: hidden;
 }
 
 .navbar-link::before {
@@ -1176,16 +1180,39 @@ Navigation Bar Styles
 
 .navbar-link:hover {
   color: var(--heading-color);
-  background-color: rgba(46, 123, 169, 0.08);
+  background-color: rgba(46, 123, 169, 0.1);
   border-bottom-color: var(--heading-color);
-  transform: translateY(-2px);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(46, 123, 169, 0.15);
 }
 
 .navbar-link.active {
   color: var(--heading-color);
   border-bottom-color: var(--heading-color);
-  background-color: rgba(46, 123, 169, 0.12);
+  background: linear-gradient(135deg, rgba(46, 123, 169, 0.15) 0%, rgba(46, 123, 169, 0.08) 100%);
   font-weight: 700;
+  box-shadow: inset 0 -2px 0 var(--heading-color);
+}
+
+.navbar-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--heading-color), transparent);
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
 }
 
 .navbar-icon {
@@ -1250,11 +1277,11 @@ Navigation Bar Styles
   }
 
   .navbar-link {
-    padding: 14px 20px;
+    padding: 16px 24px;
     font-size: 14px;
     justify-content: flex-start;
     border-bottom: none;
-    border-left: 3px solid transparent;
+    border-left: 4px solid transparent;
   }
 
   .navbar-link:hover,
@@ -1262,11 +1289,21 @@ Navigation Bar Styles
     border-left-color: var(--heading-color);
     border-bottom-color: transparent;
     transform: translateX(5px);
+    box-shadow: inset 4px 0 0 var(--heading-color);
+  }
+
+  .navbar-link.active::after {
+    display: none;
   }
 
   .navbar-icon {
     font-size: 18px;
     margin-right: 12px;
+  }
+
+  /* Adjust scrollbar positioning on mobile when navbar is visible */
+  #scrollbar-nav {
+    top: calc(50% + 60px);
   }
 }
 
@@ -1306,4 +1343,362 @@ html {
 
 #main-navbar {
   animation: slideDown 0.5s ease-out;
+}
+
+/*******************************************************************************
+Scrollbar Navigation Styles
+*******************************************************************************/
+
+#scrollbar-nav {
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 998;
+  width: 24px;
+  height: 450px;
+  max-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+}
+
+/* Ensure scrollbar doesn't overlap with back2top button */
+@media (min-width: 671px) {
+  #scrollbar-nav {
+    bottom: auto;
+  }
+
+  #back2Top {
+    right: 60px !important;
+  }
+}
+
+#scrollbar-nav:hover,
+#scrollbar-nav:focus-within {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(-50%) translateX(-3px);
+}
+
+#scrollbar-nav * {
+  pointer-events: auto;
+}
+
+.scrollbar-track {
+  position: relative;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(180deg,
+      rgba(46, 123, 169, 0.15) 0%,
+      rgba(46, 123, 169, 0.25) 50%,
+      rgba(46, 123, 169, 0.15) 100%);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  box-shadow: inset 0 0 8px rgba(46, 123, 169, 0.1);
+}
+
+.scrollbar-progress {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 0%;
+  background: linear-gradient(180deg,
+      var(--heading-color) 0%,
+      rgba(46, 123, 169, 0.9) 50%,
+      var(--databox-text) 100%);
+  border-radius: 3px;
+  transition: height 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  box-shadow: 0 0 12px rgba(46, 123, 169, 0.5),
+    0 0 24px rgba(46, 123, 169, 0.2);
+  position: relative;
+}
+
+.scrollbar-progress::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      transparent 100%);
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+.scrollbar-marker {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, var(--abs) 0%, var(--abs) 70%, rgba(46, 123, 169, 0.1) 100%);
+  border: 3px solid rgba(46, 123, 169, 0.5);
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-shadow: 0 3px 6px var(--box-shadow-color),
+    0 0 0 0 rgba(46, 123, 169, 0.4);
+}
+
+.scrollbar-marker:hover {
+  width: 22px;
+  height: 22px;
+  border-color: var(--heading-color);
+  border-width: 4px;
+  box-shadow: 0 6px 16px rgba(46, 123, 169, 0.7),
+    0 0 0 4px rgba(46, 123, 169, 0.2);
+  transform: scale(1.25);
+  background: radial-gradient(circle at 30% 30%,
+      rgba(255, 255, 255, 0.9) 0%,
+      var(--heading-color) 100%);
+}
+
+.scrollbar-marker:active {
+  transform: scale(0.9);
+  box-shadow: 0 2px 4px rgba(46, 123, 169, 0.5);
+}
+
+.scrollbar-marker.active {
+  background: radial-gradient(circle at 30% 30%,
+      var(--heading-color) 0%,
+      rgba(46, 123, 169, 0.9) 100%);
+  border-color: var(--heading-color);
+  border-width: 4px;
+  width: 22px;
+  height: 22px;
+  box-shadow: 0 0 16px rgba(46, 123, 169, 0.9),
+    0 0 32px rgba(46, 123, 169, 0.4),
+    0 0 0 3px rgba(46, 123, 169, 0.3);
+  animation: pulse 2.5s ease-in-out infinite;
+  transform: scale(1.15);
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 16px rgba(46, 123, 169, 0.9),
+      0 0 32px rgba(46, 123, 169, 0.4),
+      0 0 0 3px rgba(46, 123, 169, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 24px rgba(46, 123, 169, 1),
+      0 0 48px rgba(46, 123, 169, 0.6),
+      0 0 0 5px rgba(46, 123, 169, 0.4);
+  }
+}
+
+.scrollbar-tooltip {
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  transform: translateY(-50%) translateX(-10px);
+  background: linear-gradient(135deg, var(--body-color) 0%, rgba(46, 123, 169, 0.95) 100%);
+  color: var(--abs);
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 700;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.scrollbar-tooltip::after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid transparent;
+  border-left-color: var(--body-color);
+}
+
+.scrollbar-marker:hover .scrollbar-tooltip,
+.scrollbar-marker:focus .scrollbar-tooltip {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+/* Dark mode adjustments */
+[data-theme-preference=dark]:root .scrollbar-track {
+  background: linear-gradient(180deg,
+      rgba(123, 198, 242, 0.15) 0%,
+      rgba(123, 198, 242, 0.25) 50%,
+      rgba(123, 198, 242, 0.15) 100%);
+}
+
+[data-theme-preference=dark]:root .scrollbar-progress {
+  background: linear-gradient(180deg, var(--heading-color) 0%, var(--databox-text) 100%);
+  box-shadow: 0 0 8px rgba(123, 198, 242, 0.4);
+}
+
+[data-theme-preference=dark]:root .scrollbar-marker {
+  border-color: rgba(123, 198, 242, 0.4);
+  background-color: var(--abs);
+}
+
+[data-theme-preference=dark]:root .scrollbar-marker:hover {
+  border-color: var(--heading-color);
+  box-shadow: 0 4px 8px rgba(123, 198, 242, 0.6);
+}
+
+[data-theme-preference=dark]:root .scrollbar-marker.active {
+  background-color: var(--heading-color);
+  border-color: var(--heading-color);
+  box-shadow: 0 0 12px rgba(123, 198, 242, 0.8);
+}
+
+[data-theme-preference=dark]:root .scrollbar-tooltip {
+  background-color: var(--body-color);
+  color: var(--abs);
+}
+
+[data-theme-preference=dark]:root .scrollbar-tooltip::after {
+  border-left-color: var(--body-color);
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  #scrollbar-nav {
+    right: 20px;
+    width: 20px;
+    height: 380px;
+  }
+
+  .scrollbar-track {
+    width: 4px;
+  }
+
+  .scrollbar-progress {
+    width: 4px;
+  }
+
+  .scrollbar-marker {
+    width: 16px;
+    height: 16px;
+    border-width: 3px;
+  }
+
+  .scrollbar-marker:hover,
+  .scrollbar-marker.active {
+    width: 20px;
+    height: 20px;
+    border-width: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  #scrollbar-nav {
+    right: 15px;
+    width: 18px;
+    height: 320px;
+    opacity: 0.75;
+  }
+
+  .scrollbar-track {
+    width: 3.5px;
+    padding: 18px 0;
+  }
+
+  .scrollbar-progress {
+    width: 3.5px;
+  }
+
+  .scrollbar-marker {
+    width: 14px;
+    height: 14px;
+    border-width: 3px;
+  }
+
+  .scrollbar-marker:hover,
+  .scrollbar-marker.active {
+    width: 18px;
+    height: 18px;
+    border-width: 4px;
+  }
+
+  .scrollbar-tooltip {
+    font-size: 11px;
+    padding: 8px 12px;
+    right: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  #scrollbar-nav {
+    right: 12px;
+    width: 16px;
+    height: 280px;
+    opacity: 0.7;
+  }
+
+  .scrollbar-track {
+    width: 3px;
+    padding: 15px 0;
+  }
+
+  .scrollbar-progress {
+    width: 3px;
+  }
+
+  .scrollbar-marker {
+    width: 12px;
+    height: 12px;
+    border-width: 2.5px;
+  }
+
+  .scrollbar-marker:hover,
+  .scrollbar-marker.active {
+    width: 16px;
+    height: 16px;
+    border-width: 3px;
+  }
+
+  .scrollbar-tooltip {
+    display: none;
+  }
+}
+
+/* Hide scrollbar on very small screens or if user prefers reduced motion */
+@media (max-width: 360px) {
+  #scrollbar-nav {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .scrollbar-progress,
+  .scrollbar-marker,
+  .scrollbar-tooltip {
+    transition: none;
+  }
+
+  .scrollbar-marker.active {
+    animation: none;
+  }
 }

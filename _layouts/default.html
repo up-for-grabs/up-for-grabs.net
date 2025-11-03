@@ -6,6 +6,23 @@ layout: none
   {% include head.html %}
   <body>
   {% include header.html %}
+  
+  <!-- Scrollbar Navigation -->
+  <nav id="scrollbar-nav" role="navigation" aria-label="Section navigation scrollbar">
+    <div class="scrollbar-track">
+      <div class="scrollbar-progress" id="scrollbar-progress"></div>
+      <button class="scrollbar-marker" data-section="i-want-to-get-involved" aria-label="I want to get involved" title="I want to get involved">
+        <span class="scrollbar-tooltip">Get Involved</span>
+      </button>
+      <button class="scrollbar-marker" data-section="projects" aria-label="Projects" title="Projects">
+        <span class="scrollbar-tooltip">Projects</span>
+      </button>
+      <button class="scrollbar-marker" data-section="i-maintain-a-project" aria-label="I want to maintain a project" title="I want to maintain a project">
+        <span class="scrollbar-tooltip">Maintain Project</span>
+      </button>
+    </div>
+  </nav>
+  
   <div id="main-container" class='container'>
     {{ content }}
   </div>

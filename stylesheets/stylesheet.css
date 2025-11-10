@@ -237,7 +237,7 @@ button {
   height: 55px;
   z-index: 999;
   background: transparent;
-  cursor: pointer;
+  cursor: default;
 }
 
 .theme-selector .visually-hidden {
@@ -265,7 +265,7 @@ button {
   overflow: hidden;
   z-index: 999;
   display: none;
-  cursor: pointer;
+  cursor: default;
   -moz-transform: rotate(270deg);
   -webkit-transform: rotate(270deg);
   -o-transform: rotate(270deg);
@@ -286,7 +286,7 @@ button {
 #back2Top:hover {
   background-color: #2D7BA9;
   color: #ffffff;
-  cursor: pointer;
+  cursor: default;
 }
 
 #forkme_banner {
@@ -523,7 +523,7 @@ a,
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
-  cursor: pointer;
+  cursor: default;
   display: inline;
   vertical-align: auto;
   -webkit-transition: color 0.3s;
@@ -550,7 +550,7 @@ a.big-button,
   -o-transition: all, 0.2s;
   transition: all, 0.2s;
   color: #fff;
-  cursor: pointer;
+  cursor: default;
   font-size: 12px;
   line-height: 24px;
   padding: 8px 17px;
@@ -1061,7 +1061,7 @@ ul.tags li {
   padding: 0.25rem 1rem;
   line-height: 26px;
   outline: none;
-  cursor: pointer;
+  cursor: default;
   min-width: 90px;
   border-radius: 5px;
 }
@@ -1138,7 +1138,7 @@ ul.tags li {
     overflow: hidden;
     z-index: 999;
     display: none;
-    cursor: pointer;
+    cursor: default;
     -moz-transform: rotate(270deg);
     -webkit-transform: rotate(270deg);
     -o-transform: rotate(270deg);

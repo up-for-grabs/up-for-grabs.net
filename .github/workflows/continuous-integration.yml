@@ -18,8 +18,8 @@ jobs:
   javascript:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
         with:
           node-version: '22'
       - name: npm install, lint, and test
@@ -34,9 +34,9 @@ jobs:
   site:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Ruby
-        uses: ruby/setup-ruby@13e7a03dc3ac6c3798f4570bfead2aed4d96abfb
+        uses: ruby/setup-ruby@4ff6f3611a42bc75eee1e5138240eb1613f48c8f
       - name: Build and test Jekyll site
         run: |
           bundle install
@@ -47,7 +47,7 @@ jobs:
   content:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: codespell-project/actions-codespell@v2
         with:
           skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
@@ -63,7 +63,7 @@ jobs:
         run: |
           mkdir -p ./pr
           echo $PR_NUMBER > ./pr/pr_number
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: pr_number
           path: pr/

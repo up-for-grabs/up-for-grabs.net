@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup Ruby
-        uses: ruby/setup-ruby@13e7a03dc3ac6c3798f4570bfead2aed4d96abfb
+        uses: ruby/setup-ruby@4ff6f3611a42bc75eee1e5138240eb1613f48c8f
         with:
           bundler-cache: true
       - name: Setup Pages

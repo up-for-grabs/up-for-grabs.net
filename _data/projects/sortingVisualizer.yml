@@ -5,9 +5,9 @@ site: https://github.com/your-username/sorting-visualizer
 tags:
 - sorting
 - visualization
-- react
+- reactjs
 - javascript
-- algorithms
+- algorithm
 upforgrabs:
   name: good first issue
   link: https://github.com/Mr-G-D/Sorting-Visualizer/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

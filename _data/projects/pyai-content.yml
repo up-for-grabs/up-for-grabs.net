@@ -1,0 +1,14 @@
+name: pyai-content
+desc: Open-source repository containing structured Python and AI knowledge for the Py.AI website.
+site: https://github.com/cedsic/pyai-content
+tags:
+  - python
+  - ai
+  - machine-learning
+  - data-science
+  - knowledge-base
+  - community
+upforgrabs:
+  name: good first issue
+  link: https://github.com/cedsic/pyai-content/labels/good%20first%20issue
+

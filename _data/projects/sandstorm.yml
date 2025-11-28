@@ -1,0 +1,14 @@
+name: Sandstorm
+desc: Sandstorm is a self-hostable web productivity suite. It's implemented as a security-hardened web app package manager.
+site: https://github.com/sandstorm-io/sandstorm
+tags:
+  - decentralized
+  - self-hosted
+  - self-hosting
+  - seccomp
+  - capnproto
+  - sandstorm
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sandstorm-io/sandstorm/labels/good%20first%20issue
+

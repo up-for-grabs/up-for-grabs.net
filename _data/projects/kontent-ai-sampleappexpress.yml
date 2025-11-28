@@ -13,7 +13,7 @@ tags:
 - caas
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/kontent-ai/sample-app-express-js/labels/up-for-grabs
+  link: https://github.com/kontent-ai-bot/sample-app-express-js/labels/up-for-grabs
 stats:
   issue-count: 0
   fork-count: 2

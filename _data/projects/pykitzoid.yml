@@ -1,0 +1,16 @@
+---
+name: Pykitzoid
+desc: A Go Library wrapper for accessing ML support tools in Python .
+site: https://github.com/IEEE-VIT/pykitzoid
+tags:
+- go
+- python-wrapper
+- machine-learning-alogrithms
+- go-library
+upforgrabs:
+  name: hacktoberfest
+  link: https://github.com/IEEE-VIT/pykitzoid/labels/hacktoberfest
+stats:
+  issue-count: 2
+  last-updated: '2025-10-15T16:55:27Z'
+  fork-count: 19

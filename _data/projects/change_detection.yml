@@ -1,0 +1,12 @@
+name: change_detection
+desc: Change point detection with computer vision
+site: https://github.com/davide710/change_detection
+tags:
+  - computer-vision
+  - deep-learning
+  - pytorch
+  - yolo
+  - change-point-detection
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/davide710/change_detection/labels/up-for-grabs

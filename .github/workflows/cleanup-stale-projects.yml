@@ -15,9 +15,9 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Setup Ruby
-        uses: ruby/setup-ruby@277ba2a127aba66d45bad0fa2dc56f80dbfedffa
+        uses: ruby/setup-ruby@8aeb6ff8030dd539317f8e1769a044873b56ea71
         with:
           bundler-cache: true
 

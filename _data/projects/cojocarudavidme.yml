@@ -1,0 +1,17 @@
+---
+name: cojocarudavid.me
+desc: Blazing fast personal website built with Astro.js and styled with Tailwind CSS.
+site: https://cojocarudavid.me
+tags:
+- blog
+- typescript
+- portfolio
+- tailwind
+- astrojs
+upforgrabs:
+  name: enhancement
+  link: https://github.com/cojocaru-david/cojocarudavid.me/labels/enhancement
+stats:
+  issue-count: 1
+  last-updated: '2025-03-24T08:50:34Z'
+  fork-count: 18

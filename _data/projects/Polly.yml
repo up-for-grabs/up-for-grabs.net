@@ -13,5 +13,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/App-vNext/Polly/labels/up-for-grabs
 stats:
-  issue-count: 0
-  fork-count: 1244
+  issue-count: 1
+  last-updated: '2025-09-21T13:38:52Z'
+  fork-count: 1262

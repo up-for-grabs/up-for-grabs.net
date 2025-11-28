@@ -11,4 +11,4 @@ tags:
 - embedded
 upforgrabs:
   name: Help Wanted
-  link: https://tracker.mender.io/issues/?filter=11500
+  link: https://northerntech.atlassian.net/issues/?jql=Project%20%3D%20Mender%20AND%20labels%20in%20%28helpwanted%2C%20help_wanted%2C%20easy%2C%20Part%29%20AND%20status%20not%20in%20%28Done%2C%20Rejected%29%20ORDER%20BY%20key%20DESC

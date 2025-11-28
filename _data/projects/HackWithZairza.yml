@@ -1,0 +1,17 @@
+name: HackWithZairza
+desc: Contribute to open-source across multiple tech domains, including DSA, Web Dev, AI, DevOps, and Design.
+site: https://github.com/zairza-cetb/HackWithZairza
+tags:
+  - hacktoberfest
+  - beginner-friendly
+  - dsa
+  - web
+  - ai
+  - devops
+  - design
+  - cybersecurity
+  - automation
+  - learning
+upforgrabs:
+  name: good first issue
+  link: https://github.com/zairza-cetb/HackWithZairza/labels/good%20first%20issue

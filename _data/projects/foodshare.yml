@@ -1,0 +1,14 @@
+name: "FoodShare"
+desc: "A MERN-based platform connecting food donors with NGOs and biogas agents to reduce waste and help the needy."
+site: "https://foodshare-umber.vercel.app/login.html"
+repo: "https://github.com/cse22148/Foodshare"
+tags:
+  - javascript
+  - node.js
+  - express
+  - mongo
+  - tailwindcss
+  - open-source
+upforgrabs:
+  name: "good first issue"
+  link: "https://github.com/cse22148/Foodshare/issues"

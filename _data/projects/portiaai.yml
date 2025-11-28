@@ -1,0 +1,15 @@
+---
+name: Portia AI
+desc: An open-source SDK for building predictable, production-ready AI agents
+site: https://github.com/portiaAI/portia-sdk-python
+tags:
+- python
+- ai
+- ai-agent
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/portiaai/portia-sdk-python/issues?q=state%3Aopen%20label%3A%22up%20for%20grabs%22
+stats:
+  issue-count: 5
+  last-updated: '2025-08-04T09:13:25Z'
+  fork-count: 36

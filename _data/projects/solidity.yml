@@ -9,8 +9,8 @@ tags:
 - compiler
 upforgrabs:
   name: help wanted
-  link: https://github.com/ethereum/solidity/labels/help%20wanted
+  link: https://github.com/argotorg/solidity/labels/help%20wanted
 stats:
   issue-count: 2
   last-updated: '2025-06-22T10:34:38Z'
-  fork-count: 6133
+  fork-count: 6258

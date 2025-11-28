@@ -1,0 +1,22 @@
+---
+name: Prowler
+desc: >-
+  Open cloud security platform for AWS, Azure, GCP, Kubernetes, Github, M365 and more.
+  Prowler performs security assessments and compliance checks with hundreds of built-in controls
+  for security frameworks like CIS, NIST 800, NIST CSF, CISA, FedRAMP, PCI-DSS, GDPR, HIPAA, and more.
+site: https://github.com/prowler-cloud/prowler
+tags:
+- python
+- security
+- cloud
+- cloud-security
+- aws
+- azure
+- gcp
+- kubernetes
+- compliance
+- devsecops
+- cybersecurity
+upforgrabs:
+  name: good first issue
+  link: https://github.com/prowler-cloud/prowler/labels/good%20first%20issue

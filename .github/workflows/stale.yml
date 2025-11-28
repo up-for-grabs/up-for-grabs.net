@@ -7,7 +7,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v9
+      - uses: actions/stale@v10
         with:
           repo-token: ${{ secrets.SHIFTBOT_TOKEN }}
           stale-pr-message: 'This pull request is stale because it has been open 30 days with no activity and requires further work. Remove the stale label or comment otherwise this will be closed in a week.'

@@ -3,8 +3,8 @@ desc: A modern, open-source platform for managing hospitals in developing region
 site: https://hospitalrun.io
 tags:
   - javascript
-  - nodejs
-  - react
+  - node.js
+  - reactjs
   - express
   - couchdb
   - healthcare

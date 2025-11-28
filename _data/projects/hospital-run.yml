@@ -1,5 +1,5 @@
 name: HospitalRun
-description: A modern, open-source platform for managing hospitals in developing regions.
+desc: A modern, open-source platform for managing hospitals in developing regions.
 site: https://hospitalrun.io
 tags:
   - javascript

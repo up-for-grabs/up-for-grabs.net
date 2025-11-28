@@ -10,7 +10,8 @@ tags:
 - invoicing
 upforgrabs:
   name: good first issue
-  link: https://github.com/oitcode/samarium/labels/good%20first%20issue
+  link: https://github.com/shyamsitaula/samarium/labels/good%20first%20issue
 stats:
-  issue-count: 0
-  fork-count: 45
+  issue-count: 1
+  last-updated: '2025-07-03T03:25:23Z'
+  fork-count: 64

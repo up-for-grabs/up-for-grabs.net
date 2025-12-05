@@ -6,7 +6,7 @@ tags:
   - junit
   - testing
   - unit-test
-  - sociable test
+  - sociable-test
 upforgrabs:
   name: good first issue
   link: https://github.com/wouter-bauweraerts/UnitSocializer/issues?q=state%3Aopen%20label%3A%22good%20first%20issue%22

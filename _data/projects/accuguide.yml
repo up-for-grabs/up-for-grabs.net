@@ -1,7 +1,7 @@
 ---
 name: Accuguide
 desc: A web platform for disabled people to find and rate locations!
-site: https://accuguidee.org
+site: https://accuguide.org
 tags:
 - next
 - reactjs

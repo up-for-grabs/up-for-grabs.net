@@ -1,0 +1,12 @@
+name: NextDNS Blocker
+desc: Automated domain blocking with per-domain scheduling using NextDNS API. Cross-platform CLI tool for productivity and parental controls.
+site: https://github.com/aristeoibarra/nextdns-blocker
+tags:
+  - python
+  - cli
+  - dns
+  - automation
+  - productivity
+upforgrabs:
+  name: good first issue
+  link: https://github.com/aristeoibarra/nextdns-blocker/labels/good%20first%20issue

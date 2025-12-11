@@ -1,0 +1,10 @@
+---
+name: HashSmith
+desc: Fast & memory efficient hash tables for Java
+site: https://github.com/bluuewhale/HashSmith
+tags:
+- java
+- data structures
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/bluuewhale/HashSmith/up-for-grabs

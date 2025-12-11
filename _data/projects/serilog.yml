@@ -15,5 +15,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/serilog/serilog/labels/up-for-grabs
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2025-12-10T05:00:44Z'
   fork-count: 842

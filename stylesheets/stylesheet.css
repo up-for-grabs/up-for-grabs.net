@@ -280,7 +280,6 @@ button {
   font-size: 23px;
   text-decoration: none;
   transition: 0.3s;
-
 }
 
 #back2Top:hover {
@@ -377,7 +376,7 @@ strong {
 ul,
 ol,
 dl {
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
 
 ul li {
@@ -456,7 +455,7 @@ footer * {
 }
 
 #main-container .block:first-child,
-#main-container .block+.block {
+#main-container .block + .block {
   border-top: 0;
 }
 
@@ -703,7 +702,7 @@ form {
   padding: 20px;
 }
 
-/* https://css-tricks.com/snippets/css/ribbon/ */
+/* Ribbon */
 .ribbon {
   font-size: 28px !important;
   width: 40%;
@@ -777,6 +776,8 @@ form {
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
+
+/* Projects grid + cards */
 
 .projects {
   padding-block: 3em;
@@ -884,6 +885,8 @@ form {
   width: 16px;
 }
 
+/* Tag chips */
+
 .popular-tags,
 .tags {
   display: flex;
@@ -941,7 +944,7 @@ html {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: var(--body-back); /* White/Light in default, Dark in dark mode */
+  background-color: var(--body-back);
   border-bottom: 1px solid var(--container-border);
   padding: 1rem 0;
   display: flex;
@@ -951,7 +954,7 @@ html {
 
 .ufg-navbar a {
   text-decoration: none;
-  color: var(--heading-color); /* Blue in default */
+  color: var(--heading-color);
   font-weight: 500;
 }
 
@@ -965,6 +968,8 @@ html {
 #i-maintain-a-project {
   scroll-margin-top: 80px;
 }
+
+/* Responsive adjustments */
 
 @media (max-width: 768px) {
   body {
@@ -1023,6 +1028,8 @@ html {
   }
 }
 
+/* Filter button row */
+
 .radio-btn-row {
   display: flex;
   flex-direction: row;
@@ -1057,6 +1064,8 @@ html {
   margin-bottom: 20px;
 }
 
+/* Stats + tooltip */
+
 .projects .stats {
   display: flex;
   flex-direction: row;
@@ -1073,7 +1082,6 @@ html {
   padding: 2px 4px;
   font-size: x-small;
 
-  /* Position the tooltip */
   position: absolute;
   top: 13px;
   right: -17px;
@@ -1092,11 +1100,48 @@ html {
   visibility: visible;
 }
 
-
 .fork-count-svg {
   align-self: center;
   fill: currentColor;
 }
+
+/* Project pagination styles (friend's changes) */
+
+.hidden-project {
+  display: none !important;
+}
+
+.see-more-container {
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px 0;
+}
+
+.see-more-btn {
+  background-color: var(--heading-color);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px var(--box-shadow-color);
+}
+
+.see-more-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px var(--box-shadow-color);
+  opacity: 0.9;
+}
+
+.see-more-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 3px var(--box-shadow-color);
+}
+
+/* Mobile back-to-top & view-mode */
 
 @media screen and (max-width : 670px) {
   #view-mode {
@@ -1134,39 +1179,4 @@ html {
     font-size: 28px;
     transition: 0.3s;
   }
-}
-
-/* Navbar Feature */
-html {
-  scroll-behavior: smooth;
-}
-
-.ufg-navbar {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: var(--body-back);
-  border-bottom: 1px solid var(--container-border);
-  padding: 1rem 0;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.ufg-navbar a {
-  text-decoration: none;
-  color: var(--heading-color);
-  font-weight: 500;
-}
-
-.ufg-navbar a:hover,
-.ufg-navbar a:focus {
-  text-decoration: underline;
-}
-
-#i-want-to-get-involved,
-#projects,
-#i-maintain-a-project {
-  scroll-margin-top: 80px;
 }

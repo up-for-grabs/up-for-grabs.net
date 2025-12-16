@@ -154,20 +154,27 @@ define([
       });
 
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
-      $(elem).on('click', function () {
-        selTags = $('.tags-filter').val() || [];
-        selectedTag = preparePopTagName($(this).text() || '');
+      $(elem).on('click', function (e) {
+        e.preventDefault();
+        const selTags = $('.tags-filter').val() || [];
+        // Get the tag name from the title attribute which has the clean name
+        const titleText = $(this).attr('title') || '';
+        const selectedTag = titleText.replace('Popular Tag: ', '').trim();
+        
         if (selectedTag) {
-          tagID = allTags
-            .map((tag) => tag.name.toLowerCase())
-            .indexOf(selectedTag);
-          if (tagID !== -1) {
-            selTags.push(selectedTag);
-            location.href = updateQueryStringParameter(
-              getFilterUrl(),
-              'tags',
-              encodeURIComponent(selTags)
-            );
+          // Find the matching tag in allTags
+          const matchingTag = allTags.find(
+            (tag) => tag.name.toLowerCase() === selectedTag.toLowerCase()
+          );
+          
+          if (matchingTag) {
+            const actualTagName = matchingTag.name;
+            // Check if tag is not already selected
+            if (selTags.indexOf(actualTagName) === -1) {
+              selTags.push(actualTagName);
+            }
+            // Update the select element and trigger chosen update
+            $('.tags-filter').val(selTags).trigger('chosen:updated').change();
           }
         }
       });

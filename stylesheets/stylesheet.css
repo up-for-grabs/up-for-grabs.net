@@ -1059,6 +1059,41 @@ ul.tags li {
   fill: currentColor;
 }
 
+/* Project pagination styles */
+.hidden-project {
+  display: none !important;
+}
+
+.see-more-container {
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px 0;
+}
+
+.see-more-btn {
+  background-color: var(--heading-color);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px var(--box-shadow-color);
+}
+
+.see-more-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px var(--box-shadow-color);
+  opacity: 0.9;
+}
+
+.see-more-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 3px var(--box-shadow-color);
+}
+
 @media screen and (max-width : 670px) {
   #view-mode {
     position: fixed;

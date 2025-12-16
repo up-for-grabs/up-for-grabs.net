@@ -179,6 +179,22 @@ define([
         }
       });
     });
+
+    // Handle "See More" button functionality
+    projectsPanel.find('#see-more-btn').on('click', function () {
+      const hiddenProjects = projectsPanel.find('.project-card.hidden-project');
+      const projectsToShow = hiddenProjects.slice(0, 9);
+      
+      projectsToShow.removeClass('hidden-project');
+      
+      const remainingCount = hiddenProjects.length - projectsToShow.length;
+      
+      if (remainingCount <= 0) {
+        $(this).parent('.see-more-container').hide();
+      } else {
+        projectsPanel.find('#remaining-count').text(remainingCount);
+      }
+    });
   };
 
   /*

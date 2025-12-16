@@ -79,9 +79,9 @@
     </div>
   </menu>
   <div class="projects">
-    <% let count=0 %> <% _.each(projects, function(project) { %> <%
+    <% let count=0 %> <% _.each(projects, function(project, index) { %> <%
     count=count+1%>
-    <div class="data-box" class="<% if ( project.stats ) { %>counted<% } %>">
+    <div class="data-box project-card <%= index >= 9 ? 'hidden-project' : '' %>" class="<% if ( project.stats ) { %>counted<% } %>">
       <div>
         <div>
           <div colspan="2" class="title">
@@ -162,7 +162,14 @@
   <p style="font-size: 1.5em;font-weight: 600;line-height: 30px;">
     No projects found with this description...
   </p>
-  <p><%} %></p>
+  <% } else if(count > 9) { %>
+  <div class="see-more-container">
+    <button id="see-more-btn" class="see-more-btn">
+      See More (<span id="remaining-count"><%= count - 9 %></span> more projects)
+    </button>
+  </div>
+  <% } %>
+  <p></p>
 </script>
 <script
   src="{{ site.github.url }}javascripts/lib/require.js"

@@ -1,0 +1,16 @@
+name: Portbridge
+desc: A lightweight, user-friendly solution for managing WireGuard peers and port forwarding rules. It makes it easy to expose services running behind NAT (such as home networks or private servers) through a public VPS.
+site: https://github.com/nooblk-98/portbridge
+
+tags:
+  - wireguard
+  - networking
+  - vpn
+  - port-forwarding
+  - self-hosted
+  - python
+  - javascript
+
+upforgrabs:
+  name: help wanted
+  link: https://github.com/nooblk-98/portbridge/labels/help%20wanted

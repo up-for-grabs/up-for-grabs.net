@@ -26,6 +26,11 @@ define([
   let compiledtemplateFn = null,
     projectsPanel = null;
 
+  // Pagination variables
+  let currentPage = 1;
+  const ITEMS_PER_PAGE = 15;
+  let totalPages = 1;
+
   setupDarkModeListener();
 
   const getFilterUrl = function () {
@@ -64,12 +69,32 @@ define([
     return `about ${Math.round(elapsed / msPerYear)} years ago`;
   }
 
-  const renderProjects = function (projectService, tags, names, labels, date) {
+  const renderProjects = function (
+    projectService,
+    tags,
+    names,
+    labels,
+    date,
+    page = 1
+  ) {
     const allTags = projectService.getTags();
+
+    // Get all matching projects based on filters
+    const allProjects = projectService.get(tags, names, labels, date);
+
+    // Calculate pagination
+    const totalItems = allProjects.length;
+    totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE) || 1;
+    currentPage = Math.max(1, Math.min(page, totalPages));
+
+    // Slice projects for current page
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    const paginatedProjects = allProjects.slice(startIndex, endIndex);
 
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectService.get(tags, names, labels, date),
+        projects: paginatedProjects,
         relativeTime,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
@@ -78,8 +103,25 @@ define([
         selectedNames: names,
         labels: projectService.getLabels(),
         selectedLabels: labels,
+        // Add pagination data
+        pagination: {
+          currentPage: currentPage,
+          totalPages: totalPages,
+          totalItems: totalItems,
+          itemsPerPage: ITEMS_PER_PAGE,
+          hasPrevious: currentPage > 1,
+          hasNext: currentPage < totalPages,
+          startItem: totalItems > 0 ? startIndex + 1 : 0,
+          endItem: Math.min(endIndex, totalItems),
+        },
       })
     );
+
+    // Scroll to top when page changes (except for initial page load)
+    if (page > 1) {
+      $('html, body').animate({ scrollTop: 0 }, 'fast');
+    }
+
     date = date || 'invalid';
     projectsPanel
       .find(`button.radio-btn[id=${date}]`)
@@ -336,7 +378,9 @@ define([
           const names = prepareForHTML(getParameterByName('names'));
           const tags = prepareForHTML(getParameterByName('tags'));
           const date = getParameterByName('date');
-          renderProjects(projectsSvc, tags, names, labels, date);
+          const page = parseInt(getParameterByName('page')) || 1;
+
+          renderProjects(projectsSvc, tags, names, labels, date, page);
         });
 
         this.get('/', () => {

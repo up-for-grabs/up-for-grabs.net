@@ -158,11 +158,108 @@
     </div>
     <% }) %>
   </div>
-  <% if(count==0) { %>
+
+  <!-- Pagination Controls -->
+  <% if (pagination && pagination.totalItems > 0 && pagination.totalPages > 1) {
+  // Helper function to build filter parameters var buildFilterParams =
+  function() { var params = ''; if (selectedTags && selectedTags.length > 0) {
+  params += '&tags=' + encodeURIComponent(selectedTags.join(',')); } if
+  (selectedNames && selectedNames.length > 0) { params += '&names=' +
+  encodeURIComponent(selectedNames.join(',')); } if (selectedLabels &&
+  selectedLabels.length > 0) { params += '&labels=' +
+  encodeURIComponent(selectedLabels.join(',')); } return params; }; %>
+  <div class="pagination-container">
+    <div class="pagination-info">
+      Showing <%= pagination.startItem %>-<%= pagination.endItem %> of <%=
+      pagination.totalItems %> projects
+    </div>
+
+    <div class="pagination-controls">
+      <!-- Previous Button -->
+      <% if (pagination.hasPrevious) { %>
+      <a
+        href="#/filters?page=<%= pagination.currentPage - 1 %><%= buildFilterParams() %>"
+        class="pagination-btn pagination-prev"
+        aria-label="Previous page"
+      >
+        ← Previous
+      </a>
+      <% } else { %>
+      <span class="pagination-btn pagination-prev disabled" aria-disabled="true"
+        >← Previous</span
+      >
+      <% } %>
+
+      <!-- Page Numbers -->
+      <div class="pagination-pages">
+        <% // Show max 5 page numbers with current page in middle when possible
+        var startPage = Math.max(1, pagination.currentPage - 2); var endPage =
+        Math.min(pagination.totalPages, startPage + 4); // Adjust if we're near
+        the end if (endPage - startPage < 4) { startPage = Math.max(1, endPage -
+        4); } // First page + ellipsis if needed if (startPage > 1) { %>
+        <a
+          href="#/filters?page=1<%= buildFilterParams() %>"
+          class="pagination-page"
+          aria-label="Page 1"
+          >1</a
+        >
+        <% if (startPage > 2) { %>
+        <span class="pagination-ellipsis">...</span>
+        <% } %> <% } %>
+
+        <!-- Page number range -->
+        <% for (var i = startPage; i <= endPage; i++) { %> <% if (i ===
+        pagination.currentPage) { %>
+        <span
+          class="pagination-page active"
+          aria-current="page"
+          aria-label="Current page, page <%= i %>"
+          ><%= i %></span
+        >
+        <% } else { %>
+        <a
+          href="#/filters?page=<%= i %><%= buildFilterParams() %>"
+          class="pagination-page"
+          aria-label="Page <%= i %>"
+          ><%= i %></a
+        >
+        <% } %> <% } %>
+
+        <!-- Ellipsis + last page if needed -->
+        <% if (endPage < pagination.totalPages) { %> <% if (endPage <
+        pagination.totalPages - 1) { %>
+        <span class="pagination-ellipsis">...</span>
+        <% } %>
+        <a
+          href="#/filters?page=<%= pagination.totalPages %><%= buildFilterParams() %>"
+          class="pagination-page"
+          aria-label="Page <%= pagination.totalPages %>"
+          ><%= pagination.totalPages %></a
+        >
+        <% } %>
+      </div>
+
+      <!-- Next Button -->
+      <% if (pagination.hasNext) { %>
+      <a
+        href="#/filters?page=<%= pagination.currentPage + 1 %><%= buildFilterParams() %>"
+        class="pagination-btn pagination-next"
+        aria-label="Next page"
+      >
+        Next →
+      </a>
+      <% } else { %>
+      <span class="pagination-btn pagination-next disabled" aria-disabled="true"
+        >Next →</span
+      >
+      <% } %>
+    </div>
+  </div>
+  <% } %> <% if(count==0) { %>
   <p style="font-size: 1.5em;font-weight: 600;line-height: 30px;">
     No projects found with this description...
   </p>
-  <p><%} %></p>
+  <% } %>
 </script>
 <script
   src="{{ site.github.url }}javascripts/lib/require.js"
@@ -172,13 +269,13 @@
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
-    (i[r] =
+    ((i[r] =
       i[r] ||
       function () {
         (i[r].q = i[r].q || []).push(arguments);
       }),
-      (i[r].l = 1 * new Date());
-    (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      (i[r].l = 1 * new Date()));
+    ((a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]));
     a.async = 1;
     a.src = g;
     m.parentNode.insertBefore(a, m);

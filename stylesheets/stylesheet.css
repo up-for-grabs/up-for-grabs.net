@@ -981,7 +981,29 @@ ul.tags li {
 
   select {
     max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
   }
+
+  .filters-panel {
+    overflow: hidden;
+  }
+
+  .filter-label {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
+select {
+  box-sizing: border-box;
+}
+
+.names-filter,
+.labels-filter,
+.tags-filter {
+  width: 100%;
+  max-width: 100%;
 }
 
 .radio-btn-row {

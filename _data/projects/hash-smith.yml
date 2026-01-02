@@ -1,7 +1,7 @@
 ---
 name: HashSmith
 desc: Fast & memory efficient hash tables for Java
-site: https://github.com/bluuewhale/HashSmith
+site: https://github.com/bluuewhale/hash-smith
 tags:
 - java
 - data-structures

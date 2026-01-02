@@ -152,6 +152,10 @@ body {
   height: 100%;
 }
 
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 body {
   background: var(--body-back);
   color: var(--body-color);

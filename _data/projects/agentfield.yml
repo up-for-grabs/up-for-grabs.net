@@ -1,0 +1,16 @@
+---
+name: AgentField
+desc: Open-source infrastructure for AI backends. Kubernetes for orchestration, Okta for identity.
+site: https://agentfield.ai
+tags:
+- ai
+- agents
+- kubernetes
+- python
+- go
+- typescript
+- orchestration
+- cloud-native
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Agent-Field/agentfield/labels/good%20first%20issue

@@ -1,8 +1,8 @@
-FROM ruby:3.4-slim-bullseye
+FROM ruby:3.4.8-slim-trixie
 
 RUN apt update \
   && apt install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev git \
-  && gem install bundler:2.6.2 \
+  && gem install bundler:4.0.3 \
   && mkdir -p /app
 
 WORKDIR /app

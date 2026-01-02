@@ -1,0 +1,25 @@
+---
+name: The Guild
+desc: >-
+  A peer-run open-source network where developers earn verifiable reputation through contributions, peer
+  reviews, and on-chain attestations.
+site: https://theguild.dev
+tags:
+- open-source
+- web3
+- blockchain
+- developer-tools
+- reputation
+- attestations
+- eas
+- dao
+- mentoring
+- contributions
+upforgrabs:
+  name: good first issue
+  link: >-
+    https://github.com/TheSoftwareDevGuild/TheGuildGenesis/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 22
+  last-updated: '2025-12-26T15:56:37Z'
+  fork-count: 14

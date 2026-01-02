@@ -1,0 +1,22 @@
+---
+name: TripAi
+desc: >-
+  TripAi is a powerful AI-based travel planning web application that helps users effortlessly generate
+  customised trip itineraries. By leveraging Meta’s Llama 3.8B Instruct model and integrating real-time
+  data from Amadeus APIs, TripAi delivers intelligent and practical trip suggestions – including flights,
+  hotels, and personalised activities.
+site: https://tripai25.onrender.com/
+tags:
+- node.js
+- express
+- ejs
+- goodfirst
+- travel
+upforgrabs:
+  name: good first issue
+  link: >-
+    https://github.com/vcint/TripAi/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 2
+  last-updated: '2025-06-16T15:50:31Z'
+  fork-count: 1

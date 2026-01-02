@@ -1,0 +1,17 @@
+---
+name: Accuguide
+desc: A web platform for disabled people to find and rate locations!
+site: https://accuguide.org
+tags:
+- next
+- reactjs
+- postgres
+- tailwind
+- typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/accuguide/accuguide/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2026-01-02T11:40:13Z'
+  fork-count: 12

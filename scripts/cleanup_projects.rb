@@ -3,7 +3,6 @@
 require 'safe_yaml'
 require 'uri'
 require 'octokit'
-require 'pathname'
 
 require 'up_for_grabs_tooling'
 

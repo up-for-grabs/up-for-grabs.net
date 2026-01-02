@@ -1,0 +1,19 @@
+---
+name: Kalshi GenAI Trading Bot
+desc: >-
+  A vibe coded Generative AI prediction market trading bot. The goal of this experiment is to create a role prompt for an LLM (in this case Grok) to make it into a professional prediction market trader. Currently, v1 of this project only has a single bot, which takes new positions. Over time, I plan to add another both for re-evaluating and selling existing positions.
+site: https://github.com/ajwann/kalshi-genai-trading-bot
+tags:
+- python 
+- generative-ai 
+- genai 
+- grok
+- kalshi
+- prediction-markets
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ajwann/kalshi-genai-trading-bot/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2025-12-18T18:20:00Z'
+  fork-count: 0

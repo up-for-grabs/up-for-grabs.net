@@ -1,0 +1,18 @@
+---
+name: The Shit
+desc: >-
+  A command-line utility that automatically detects and fixes common mistakes in shell commands with a
+  focus on speed and usability.
+site: https://github.com/AsfhtgkDavid/theshit
+tags:
+- shell
+- command-line
+- fix
+- rust
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AsfhtgkDavid/theshit/issues?q=state%3Aopen%20label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 1
+  last-updated: '2025-12-05T11:22:21Z'
+  fork-count: 4

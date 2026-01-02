@@ -1,0 +1,23 @@
+---
+name: Kolibri Design System
+desc: >-
+  Design system for Kolibri Learning Platform (the offline app for universal education) and related projects
+site: https://github.com/learningequality/kolibri-design-system
+tags:
+- oss
+- non-profit
+- social-impact
+- education
+- offline-first
+- edtech
+- oer
+- sdg-4
+- javascript
+- vue
+- python
+upforgrabs:
+  name: help wanted
+  link: https://github.com/learningequality/kolibri-design-system/labels/help%20wanted
+stats:
+  issue-count: 0
+  fork-count: 108

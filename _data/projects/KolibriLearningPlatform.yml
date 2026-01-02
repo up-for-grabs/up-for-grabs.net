@@ -1,0 +1,22 @@
+---
+name: Kolibri Learning Platform
+desc: The offline app for universal education
+site: https://github.com/learningequality/kolibri
+tags:
+- oss
+- non-profit
+- social-impact
+- education
+- offline-first
+- edtech
+- oer
+- sdg-4
+- javascript
+- vue
+- python
+upforgrabs:
+  name: help wanted
+  link: https://github.com/learningequality/kolibri/labels/help%20wanted
+stats:
+  issue-count: 0
+  fork-count: 864

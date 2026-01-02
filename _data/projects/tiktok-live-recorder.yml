@@ -1,0 +1,26 @@
+---
+name: TikTok Live Recorder
+desc: "\U0001F3A5✨ A TikTok live streaming recorder tool written in Python. Capture and relive your favorite
+  TikTok moments effortlessly. \U0001F3A5✨"
+site: https://github.com/Michele0303/tiktok-live-recorder
+tags:
+- tiktok
+- tiktok-api
+- tiktok-download
+- tiktok-live
+- tiktok-bot
+- tiktok-scraping
+- tiktok-downloader
+- tiktok-livestream-bot
+- tiktok-live-downloader
+- tiktok-recording
+- tiktok-recorder
+- web-scraping
+- web-reverse-engineering
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Michele0303/tiktok-live-recorder/labels/good%20first%20issue
+stats:
+  issue-count: 17
+  last-updated: '2025-11-05T05:50:00Z'
+  fork-count: 170

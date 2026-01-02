@@ -1,0 +1,16 @@
+---
+name: WinYourBattle
+desc: An addiction tracker web app
+site: https://winyourbattle.ddns.net
+tags:
+- javascript
+- laravel
+- bootstrap
+- front-end
+upforgrabs:
+  name: Up-for-Grabs
+  link: https://github.com/sharkpause/WinYourBattle/labels/Up-for-Grabs
+stats:
+  issue-count: 1
+  last-updated: '2025-12-30T18:14:55Z'
+  fork-count: 0

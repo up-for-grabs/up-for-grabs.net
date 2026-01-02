@@ -1,0 +1,19 @@
+---
+name: Sorting Visualizer
+desc: >-
+  A web-based tool to visualize popular sorting algorithms with animations, built using React and Material-UI.
+site: https://github.com/your-username/sorting-visualizer
+tags:
+- sorting
+- visualization
+- reactjs
+- javascript
+- algorithm
+upforgrabs:
+  name: good first issue
+  link: >-
+    https://github.com/Mr-G-D/Sorting-Visualizer/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 1
+  last-updated: '2025-12-21T21:54:50Z'
+  fork-count: 0

@@ -1,0 +1,20 @@
+---
+name: Esperanto
+desc: A simple unified interface for various AI model providers (text, embedding, speech)
+site: https://github.com/lfnovo/esperanto
+tags:
+- llm
+- ai
+- vector-databases
+- embedding
+- text-to-speech
+- speech-to-test
+- python
+- langchain
+upforgrabs:
+  name: help wanted
+  link: https://github.com/lfnovo/esperanto/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2025-06-04T18:05:24Z'
+  fork-count: 18

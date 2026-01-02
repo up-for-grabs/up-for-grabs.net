@@ -1,0 +1,19 @@
+---
+name: DevDisplay
+desc: >-
+  DevDisplay is the First Global Platform for Developers to Fulfill All Their Tech Needs. A paradise for
+  developers, where they can Connect ▸ Collab ▸ Code ▸ Create ▸ Conquer — all in one place.
+site: https://www.devdisplay.org/
+tags:
+- javascript
+- ai
+- devtools
+- opensource
+- fullstack
+upforgrabs:
+  name: good first issue
+  link: https://github.com/codeaashu/DevDisplay/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-01-02T04:50:20Z'
+  fork-count: 476

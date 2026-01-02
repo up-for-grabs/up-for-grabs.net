@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Setup Ruby
-        uses: ruby/setup-ruby@28c4deda893d5a96a6b2d958c5b47fc18d65c9d3
+        uses: ruby/setup-ruby@ae195bbe749a7cef685ac729197124a48305c1cb
         with:
           bundler-cache: true
       - name: Setup Pages
@@ -34,7 +34,7 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
 
   # Deployment job
   deploy:

@@ -1,0 +1,12 @@
+name: UnitSocializer
+desc: Open-source library written in Java. Helps developers to simplify writing sociable tests with minimal effort!
+site: https://wouter-bauweraerts.github.io/UnitSocializer/
+tags:
+  - java
+  - junit
+  - testing
+  - unit-test
+  - sociable-test
+upforgrabs:
+  name: good first issue
+  link: https://github.com/wouter-bauweraerts/UnitSocializer/issues?q=state%3Aopen%20label%3A%22good%20first%20issue%22

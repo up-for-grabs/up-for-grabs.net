@@ -1,0 +1,20 @@
+---
+name: suricata-check
+desc: >-
+  suricata-check is a command line utility to provide feedback on Suricata rules. The tool can detect
+  various issues including those covering syntax validity, interpretability, rule specificity, rule coverage,
+  and efficiency.
+site: https://suricata-check.teuwen.net/
+tags:
+- suricata
+- security
+- linter
+- cli
+- python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Koen1999/suricata-check/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2025-11-07T14:32:41Z'
+  fork-count: 2

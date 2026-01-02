@@ -1,0 +1,19 @@
+---
+name: Quotes
+desc: Open-source Quotes app for viewing/saving/commenting on quotes. Contains a frontend and an API.
+site: https://quotes.programmersdiary.com/
+tags:
+- quotes
+- open-source
+- web-app
+- api
+- vite
+- reactjs
+upforgrabs:
+  name: good first issue
+  link: >-
+    https://github.com/EvalVis/QuotesFE/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 3
+  last-updated: '2025-05-29T17:06:19Z'
+  fork-count: 1

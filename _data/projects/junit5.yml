@@ -8,8 +8,7 @@ tags:
 - junit
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/junit-team/junit5/labels/up-for-grabs
+  link: https://github.com/junit-team/junit-framework/labels/up-for-grabs
 stats:
-  issue-count: 3
-  last-updated: '2025-01-28T14:07:54Z'
-  fork-count: 1517
+  issue-count: 0
+  fork-count: 1631

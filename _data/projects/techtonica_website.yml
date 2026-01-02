@@ -1,0 +1,23 @@
+---
+name: Techtonica-Website
+desc: >-
+  This repo is for the techtonica.org website for Techtonica, a nonprofit tech training program that helps
+  women and non-binary adults with low incomes overcome barriers into tech careers.
+site: https://github.com/Techtonica/techtonica.org
+tags:
+- javascript
+- python
+- scss
+- css
+- first-timers
+- non-profit
+- good-first-issue
+- tech-for-good
+upforgrabs:
+  name: good first issue
+  link: >-
+    https://github.com/Techtonica/techtonica.org/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 22
+  last-updated: '2025-10-24T15:50:44Z'
+  fork-count: 70

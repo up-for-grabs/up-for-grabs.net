@@ -1,0 +1,16 @@
+---
+name: Text Forge
+desc: Extensible and modular code editor with Godot 4.5
+site: https://text-forge.github.io/docs/
+tags:
+- code-editor
+- editor
+- godot
+- gdscript
+upforgrabs:
+  name: help wanted
+  link: https://github.com/text-forge/text-forge/labels/help%20wanted
+stats:
+  issue-count: 6
+  last-updated: '2025-12-29T08:53:21Z'
+  fork-count: 7

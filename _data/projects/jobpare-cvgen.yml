@@ -1,0 +1,17 @@
+---
+name: Jobpare-cvgen
+desc: >-
+  Local-first tool for creating professional resumes from JSON data and HTML templates. Features web editor,
+  CLI tool, role-specific guidance, and PDF output.
+site: https://github.com/jobpare/cvgen
+tags:
+- cv-builder
+- resume-template
+- json-resume-builder
+- job-hunting-tool
+upforgrabs:
+  name: help wanted
+  link: https://github.com/jobpare/cvgen/labels/help%20wanted
+stats:
+  issue-count: 0
+  fork-count: 36

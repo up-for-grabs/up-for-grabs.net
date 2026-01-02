@@ -205,7 +205,6 @@ DEPENDENCIES
   rubocop
   safe_yaml
   up_for_grabs_tooling!
-  wdm (>= 0.1.0)
   webrick
 
 CHECKSUMS

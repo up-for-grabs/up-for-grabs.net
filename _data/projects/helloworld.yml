@@ -1,0 +1,14 @@
+---
+name: HelloWorld
+desc: A collection of code to print out "Hello World!" in different languages.
+site: https://github.com/R4356th/HelloWorld
+tags:
+- hello-world
+- beginner-friendly
+upforgrabs:
+  name: help wanted
+  link: https://github.com/R4356th/HelloWorld/issues?q=state:open%20label%3A%22help%20wanted%22
+stats:
+  issue-count: 1
+  last-updated: '2025-04-21T11:30:59Z'
+  fork-count: 24

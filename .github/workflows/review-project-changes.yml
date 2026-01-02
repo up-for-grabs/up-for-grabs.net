@@ -10,11 +10,11 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout base branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: gh-pages
       - name: Setup Ruby
-        uses: ruby/setup-ruby@bb6434c747fa7022e12fa1cae2a0951fcffcff26
+        uses: ruby/setup-ruby@ae195bbe749a7cef685ac729197124a48305c1cb
         with:
           bundler-cache: true
 

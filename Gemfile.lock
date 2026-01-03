@@ -49,6 +49,7 @@ GEM
     ffi (1.17.3)
     ffi (1.17.3-arm-linux-gnu)
     ffi (1.17.3-arm-linux-musl)
+    ffi (1.17.3-x64-mingw-ucrt)
     ffi (1.17.3-x86_64-linux-gnu)
     fiber-storage (1.0.1)
     forwardable-extended (2.6.0)
@@ -164,6 +165,8 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.97.1-riscv64-linux-musl)
       google-protobuf (~> 4.31)
+    sass-embedded (1.97.1-x64-mingw-ucrt)
+      google-protobuf (~> 4.31)
     sass-embedded (1.97.1-x86_64-linux-android)
       google-protobuf (~> 4.31)
     sass-embedded (1.97.1-x86_64-linux-gnu)
@@ -179,6 +182,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
     uri (1.1.1)
+    wdm (0.2.0)
     webrick (1.9.2)
 
 PLATFORMS
@@ -191,7 +195,7 @@ PLATFORMS
   riscv64-linux-android
   riscv64-linux-gnu
   riscv64-linux-musl
-  ruby
+  x64-mingw-ucrt
   x86_64-linux
   x86_64-linux-android
 
@@ -205,6 +209,7 @@ DEPENDENCIES
   rubocop
   safe_yaml
   up_for_grabs_tooling!
+  wdm (>= 0.1.0)
   webrick
 
 CHECKSUMS
@@ -225,6 +230,7 @@ CHECKSUMS
   ffi (1.17.3) sha256=0e9f39f7bb3934f77ad6feab49662be77e87eedcdeb2a3f5c0234c2938563d4c
   ffi (1.17.3-arm-linux-gnu) sha256=5bd4cea83b68b5ec0037f99c57d5ce2dd5aa438f35decc5ef68a7d085c785668
   ffi (1.17.3-arm-linux-musl) sha256=0d7626bb96265f9af78afa33e267d71cfef9d9a8eb8f5525344f8da6c7d76053
+  ffi (1.17.3-x64-mingw-ucrt)
   ffi (1.17.3-x86_64-linux-gnu) sha256=3746b01f677aae7b16dc1acb7cb3cc17b3e35bdae7676a3f568153fb0e2c887f
   fiber-storage (1.0.1) sha256=f48e5b6d8b0be96dac486332b55cee82240057065dc761c1ea692b2e719240e1
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
@@ -275,6 +281,7 @@ CHECKSUMS
   sass-embedded (1.97.1-riscv64-linux-android) sha256=f5f4abc14a6ee0514fdc27b0926ad2b5dc2e363ab91b0d4887f04e3d83be35b0
   sass-embedded (1.97.1-riscv64-linux-gnu) sha256=baaa87895042b3b656c689fc74a7a2c11e64e19006f5d283cad1cd265857fcea
   sass-embedded (1.97.1-riscv64-linux-musl) sha256=a882358c8f8249ac7f336b4f214abe73aa45edb0a2ff4001ff13dbb4b5d0b5e7
+  sass-embedded (1.97.1-x64-mingw-ucrt)
   sass-embedded (1.97.1-x86_64-linux-android) sha256=d3283323c0a5e2a46d7891748f09ad5446fe840ae69a305379e9a99c4c079cff
   sass-embedded (1.97.1-x86_64-linux-gnu) sha256=9a294bb0acb1a539ed19f0e511098a9740b4aab4389e169585e8da1337fbd8b4
   sawyer (0.9.3) sha256=0d0f19298408047037638639fe62f4794483fb04320269169bd41af2bdcf5e41
@@ -285,6 +292,7 @@ CHECKSUMS
   unicode-display_width (2.6.0) sha256=12279874bba6d5e4d2728cef814b19197dbb10d7a7837a869bab65da943b7f5a
   up_for_grabs_tooling (0.3.0)
   uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
+  wdm (0.2.0)
   webrick (1.9.2) sha256=beb4a15fc474defed24a3bda4ffd88a490d517c9e4e6118c3edce59e45864131
 
 RUBY VERSION

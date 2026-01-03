@@ -157,7 +157,8 @@ define([
       $(elem).on('click', function () {
         const tagName = preparePopTagName($(this).text()) || '';
 
-        projectsPanel.find('select.tags-filter')
+        projectsPanel
+          .find('select.tags-filter')
           .val(tagName)
           .trigger('chosen:updated')
           .trigger('change');

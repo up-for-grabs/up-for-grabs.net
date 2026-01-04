@@ -40,7 +40,8 @@ let projects: ReadonlyArray<WebsiteProject>;
  */
 export const Init = async (lastUpdated: Date) => {
   if (!loaded) {
-    const response = await fetch(`/data.json`);
+    const dataUrl = `${import.meta.env.BASE_URL}/data.json`
+    const response = await fetch(dataUrl);
     if (response.ok) {
       const rawProjects = await response.json();
       if (Array.isArray(rawProjects)) {

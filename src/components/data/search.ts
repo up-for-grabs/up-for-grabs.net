@@ -33,7 +33,7 @@ export interface SearchResultsMessage {
 export type ResponseMessage = ErrorMessage|SearchResultsMessage;
 
 let loaded = false
-let projects: ReadonlyArray<WebsiteProject>;
+let allProjects: ReadonlyArray<WebsiteProject>;
 
 /**
  * split init into a separate method so we can call it directly
@@ -45,8 +45,10 @@ export const Init = async (lastUpdated: Date) => {
     if (response.ok) {
       const rawProjects = await response.json();
       if (Array.isArray(rawProjects)) {
-        projects = rawProjects
-          .map(parseProject)
+        allProjects = rawProjects.map(parseProject)
+        loaded = true;
+
+        return allProjects
           .filter((project) => {
             if (project.stats.lastUpdated && isBefore(project.stats.lastUpdated, lastUpdated)) {
               return false;
@@ -54,9 +56,6 @@ export const Init = async (lastUpdated: Date) => {
 
             return true;
         })
-
-        loaded = true;
-        return projects;
       }
     } 
     return new Error("oops")
@@ -78,7 +77,7 @@ export const SearchProjects = async (text: string, lastUpdated: Date): Promise<R
 
   const searchText = text.toLowerCase()
 
-  const list = projects.filter((project) => {
+  const list = allProjects.filter((project) => {
     if (project.stats.lastUpdated && isBefore(project.stats.lastUpdated, lastUpdated)) {
       return false
     }

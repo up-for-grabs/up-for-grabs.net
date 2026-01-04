@@ -18,7 +18,13 @@ const currentProjects = ref(props.projects)
 const searchText = ref('')
 const lastUpdated = ref(InitialDaysActive)
 
-const lastUpdatedDate = computed(() => subDays(new Date(), lastUpdated.value))
+const lastUpdatedDate = computed(() => { 
+  if (lastUpdated.value < 0) {
+    return new Date(2000, 0, 1)
+  }
+
+  return subDays(new Date(), lastUpdated.value)
+})
 
 onMounted(() => {
     Init(lastUpdatedDate.value).then(result => {

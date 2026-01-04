@@ -27,7 +27,7 @@
 </style>
 
 <template>
-  <div class="fork-count" title="Number of forks" v-if="forkCount && forkCount > 0">
+  <div class="fork-count" title="Number of forks" v-if="props.forkCount && props.forkCount > 0">
     <svg
       aria-hidden="true"
       height="16"

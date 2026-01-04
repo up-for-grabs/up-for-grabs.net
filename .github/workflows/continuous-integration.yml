@@ -10,7 +10,7 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v6
       - name: Build Docker container
         run: docker build .
 
@@ -24,7 +24,9 @@ jobs:
       - name: npm install, lint, and test
         run: |
           npm ci
+          npm run build
           npm run lint
+          npm run lint-new
           npm run prettier
           npm test
         env:

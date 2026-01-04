@@ -99,7 +99,7 @@
     <div class="description" x-if="project.desc">{{project.desc}}</div>
     
     <ul class="tags" x-if="project.tags" aria-label="project tags">
-        <li v-for="tag in project.tags">{{tag}}</li>
+        <li v-for="tag in project.tags" v-bind:key="tag">{{tag}}</li>
     </ul>
   </div>
 </template>

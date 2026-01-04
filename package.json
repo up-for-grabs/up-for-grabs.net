@@ -12,7 +12,8 @@
     "lint-fix": "eslint --fix javascripts/*.js tests/**/*.js",
     "prettier": "prettier --check javascripts/*.js tests/**/*.js docs/**/*.md .github/**/*.md",
     "prettier-fix": "prettier --write javascripts/*.js tests/**/*.js docs/**/*.md .github/**/*.md",
-    "test": "jest --config ./jest.config.js --verbose --coverage"
+    "test": "jest --config ./jest.config.js --verbose --coverage",
+    "build": ""
   },
   "engines": {
     "node": ">=24",

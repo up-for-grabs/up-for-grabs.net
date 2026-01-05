@@ -1,4 +1,4 @@
-FROM ruby:3.4.8-slim-trixie
+FROM ruby:4.0-slim-trixie
 
 RUN apt update \
   && apt install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev git \

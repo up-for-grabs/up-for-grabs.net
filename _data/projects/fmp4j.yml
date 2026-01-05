@@ -1,11 +1,16 @@
+---
 name: fmp4j
 desc: A lightweight Java SDK for accessing the Financial Modeling Prep (FMP) API
 site: https://github.com/marketdataapi/fmp4j
 tags:
-  - java
-  - sdk
-  - finance
-  - api
+- java
+- sdk
+- finance
+- api
 upforgrabs:
   name: good first issue
   link: https://github.com/marketdataapi/fmp4j/labels/good%20first%20issue
+stats:
+  issue-count: 11
+  last-updated: '2025-12-21T12:04:36Z'
+  fork-count: 14

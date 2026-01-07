@@ -47,3 +47,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+sha256:553cc1e7984278c1bbae1796f7b069296abfd4f07efa53f1064b6242504ae2a8

@@ -21,7 +21,8 @@ export const RawProjects : Array<Project> = projects.map(project => {
         id,
         ...project.data
     }
-});
+})
+  .sort((left, right) => left.name.localeCompare(right.name));
 
 const lastUpdated = subDays(new Date(), InitialDaysActive)
 

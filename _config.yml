@@ -19,6 +19,7 @@ exclude:
   - coverage
   - dist
   - eslint.config.mjs
+  - eslint-new.config.mjs
   - docker-compose.yml
   - Gemfile*
   - jest.config.js

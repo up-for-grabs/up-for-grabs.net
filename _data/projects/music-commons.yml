@@ -1,0 +1,10 @@
+name: music-commons
+desc: A modular, reactive Kotlin library for managing audio libraries, playlists, and waveform visualizations. Originally extracted from the Musicott desktop application to provide reusable core components for audio file management across multiple projects.
+site: https://github.com/octaviospain/music-commons
+tags:
+  - music
+  - kotlin
+  - audio
+upforgrabs:
+  name: good first issue
+  link: https://github.com/octaviospain/music-commons/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

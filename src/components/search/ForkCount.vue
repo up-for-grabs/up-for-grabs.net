@@ -1,7 +1,7 @@
 <script setup lang="ts">
-  const props = defineProps<{
-    forkCount?: number
-  }>()
+const props = defineProps<{
+  forkCount?: number;
+}>();
 </script>
 
 <style lang="css">
@@ -12,7 +12,7 @@
   position: relative;
 
   color: rgb(255, 255, 255);
-  background: #729CA6;
+  background: #729ca6;
   border-radius: 4px;
   white-space: nowrap;
   padding-block: 0.1rem;
@@ -27,7 +27,11 @@
 </style>
 
 <template>
-  <div class="fork-count" title="Number of forks" v-if="props.forkCount && props.forkCount > 0">
+  <div
+    class="fork-count"
+    title="Number of forks"
+    v-if="props.forkCount && props.forkCount > 0"
+  >
     <svg
       aria-hidden="true"
       height="16"
@@ -37,9 +41,10 @@
       data-view-component="true"
       class="fork-count-svg"
     >
-      <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z" />
+      <path
+        d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"
+      />
     </svg>
-    {{forkCount}}
+    {{ forkCount }}
   </div>
-
 </template>

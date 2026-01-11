@@ -1,1 +1,1 @@
-export const InitialDaysActive = 30
+export const InitialDaysActive = 30;

@@ -1,0 +1,12 @@
+name: Engene Game Engine
+desc: A new game engine in java based on LibGDX and ashley
+site: https://github.com/enegne/Engene
+tags:
+  - java
+  - game-engine
+  - ligbdx
+  - game
+  - 2d-game
+upforgrabs:
+  name: enhancement
+  link: https://github.com/enegne/Engene/labels/enhancement

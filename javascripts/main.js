@@ -326,6 +326,13 @@ define([
       const projectsSvc = new ProjectsService(p);
 
       const app = sammy(function () {
+        this.get('/beta/', (context, next) => {
+          const scheme = window.location.protocol;
+          const host = window.location.host;
+          const path = `${scheme}//${host}/beta/`;
+          window.location.href = path;
+        });
+
         /*
          * This is the route used to filter by tags/names/labels
          * It ensures to read values from the URI query param and perform actions

@@ -37,7 +37,7 @@
     "@types/node": "^25",
     "@types/showdown": "^2.0.6",
     "@types/underscore": "^1.13.0",
-    "@typescript-eslint/parser": "^8.51.0",
+    "@typescript-eslint/parser": "^8.53.1",
     "@vue/eslint-config-typescript": "^14.6.0",
     "astro": "^5.16.15",
     "babel-jest": "^30.2.0",

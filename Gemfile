@@ -9,7 +9,7 @@ gem 'jekyll'
 gem 'json_schemer'
 gem 'csv'
 
-gem 'graphql', '~> 2.5.16'
+gem 'graphql', '~> 2.5.18'
 gem 'graphql-client'
 gem 'octokit'
 gem 'safe_yaml'

@@ -5,21 +5,58 @@ import Header from '../components/Header.astro';
 
 <!doctype html>
 <html lang="en">
-  <Head />
+  <head>
+    <Head />
+    <style is:global>
+      :root[data-theme-preference='dark'] {
+        --body-back: #1a2025 !important;
+        --body-color: #e0e0e0 !important;
+        --abs: #272f37 !important;
+        --heading-color: #7bc6f2 !important;
+        --databox-bg: #32404d !important;
+        --databox-text: #a0d9ff !important;
+        --container-border: #444 !important;
+      }
+
+      html[data-theme-preference='dark'],
+      html[data-theme-preference='dark'] body {
+        background-color: #1a2025 !important;
+        color: #e0e0e0 !important;
+      }
+
+      html[data-theme-preference='dark'] a {
+        color: #7bc6f2 !important;
+      }
+    </style>
+    
+    <script is:inline>
+      const updateTheme = () => {
+        const saved = localStorage.getItem('theme-preference');
+        const theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme-preference', theme);
+      };
+
+      updateTheme();
+
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        if (!localStorage.getItem('theme-preference')) {
+          updateTheme();
+        }
+      });
+    </script>
+  </head>
 
   <body>
     <Header />
-
     <slot />
 
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         <p class="copyright">
-          Up For Grabs maintained by <a href="https://github.com/dahlbyk"
-            >dahlbyk</a
-          >, <a href="https://github.com/shiftkey">shiftkey</a>, <a
-            href="https://github.com/jrusbatch">jrusbatch</a
-          > &amp; <a href="https://github.com/ritwik12">ritwik12</a>
+          Up For Grabs maintained by <a href="https://github.com/dahlbyk">dahlbyk</a>, 
+          <a href="https://github.com/shiftkey">shiftkey</a>, 
+          <a href="https://github.com/jrusbatch">jrusbatch</a> &amp; 
+          <a href="https://github.com/ritwik12">ritwik12</a>
         </p>
         <p>
           Published with <a href="https://pages.github.com">GitHub Pages</a>

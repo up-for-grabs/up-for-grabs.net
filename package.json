@@ -39,7 +39,7 @@
     "@types/underscore": "^1.13.0",
     "@typescript-eslint/parser": "^8.53.1",
     "@vue/eslint-config-typescript": "^14.6.0",
-    "astro": "^5.16.15",
+    "astro": "^5.17.1",
     "babel-jest": "^30.2.0",
     "date-fns": "^4.1.0",
     "eslint": "^9.39.2",

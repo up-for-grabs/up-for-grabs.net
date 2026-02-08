@@ -16,8 +16,6 @@ export default [
   ...compat.extends(
     'prettier',
     'plugin:jest/recommended',
-    'plugin:astro/recommended',
-    'plugin:vue/recommended'
   ),
   {
     plugins: {

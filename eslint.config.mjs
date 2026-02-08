@@ -13,12 +13,7 @@ const compat = new FlatCompat({
 });
 
 export default [
-  ...compat.extends(
-    'prettier',
-    'plugin:jest/recommended',
-    'plugin:astro/recommended',
-    'plugin:vue/recommended'
-  ),
+  ...compat.extends('prettier', 'plugin:jest/recommended'),
   {
     plugins: {
       jest,

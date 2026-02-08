@@ -38,7 +38,7 @@ import Header from '../components/Header.astro';
 
       updateTheme();
 
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
         if (!localStorage.getItem('theme-preference')) {
           updateTheme();
         }

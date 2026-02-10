@@ -1,0 +1,13 @@
+name: OpenWorkflow
+desc: Open-source TypeScript framework for building durable, resumable workflows.
+site: https://openworkflow.dev
+tags:
+  - javascript
+  - typescript
+  - node.js
+  - bun
+  - postgresql
+  - sqlite
+upforgrabs:
+  name: good first issue
+  link: https://github.com/openworkflowdev/openworkflow/labels/good%20first%20issue

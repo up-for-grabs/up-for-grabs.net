@@ -4,7 +4,7 @@ desc: Cost-optimized AI agent orchestration with RTS nostalgia UI - run 88% of c
 site: https://github.com/mrdushidush/agent-battle-command-center
 tags:
 - typescript
-- react
+- reactjs
 - python
 - docker
 - ai

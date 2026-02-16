@@ -1,0 +1,13 @@
+---
+name: PCRE4J
+desc: Java binding for the PCRE2 library providing java.util.regex-compatible API, wrapper API, and direct PCRE2 API access with JNA and FFM backends.
+site: https://github.com/alexey-pelykh/pcre4j
+tags:
+- java
+- regex
+- pcre2
+- native
+- jni
+upforgrabs:
+  name: good first issue
+  link: https://github.com/alexey-pelykh/pcre4j/labels/good%20first%20issue

@@ -1,0 +1,14 @@
+---
+name: Agent Battle Command Center
+desc: Cost-optimized AI agent orchestration with RTS nostalgia UI - run 88% of coding tasks FREE on local Ollama, with Claude handling the rest
+site: https://github.com/mrdushidush/agent-battle-command-center
+tags:
+- typescript
+- reactjs
+- python
+- docker
+- ai
+- ollama
+upforgrabs:
+  name: good first issue
+  link: https://github.com/mrdushidush/agent-battle-command-center/labels/good%20first%20issue

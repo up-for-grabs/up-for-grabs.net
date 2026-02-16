@@ -56,7 +56,7 @@
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.54.0",
     "underscore": "^1.13.7",
-    "vue": "^3.5.27",
+    "vue": "^3.5.28",
     "whatwg-fetch": "^3.6.20"
   }
 }

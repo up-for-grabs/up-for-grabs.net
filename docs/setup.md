@@ -11,21 +11,21 @@ are helpful tools installed that require these to be available.
 
 With those tools installed, you can then install the packages required:
 
-```shellsession
+```bash
 $ yarn
 ```
 
 We use `prettier` to enforce a consistent format to the code, and at any time
 you can run this command to ensure your changes are formatted correctly:
 
-```shellsession
+```bash
 $ yarn prettify
 ```
 
 You should also ensure the code satisfies the rules defined in the `eslintrc.json`
 config file:
 
-```shellsession
+```bash
 $ yarn lint
 ```
 

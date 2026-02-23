@@ -42,7 +42,7 @@
     "astro": "^5.17.2",
     "babel-jest": "^30.2.0",
     "date-fns": "^4.1.0",
-    "eslint": "^9.39.2",
+    "eslint": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-astro": "^1.6.0",
     "eslint-plugin-jest": "^29.15.0",

@@ -55,7 +55,7 @@
     "promise-polyfill": "^8.3.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.56.0",
-    "underscore": "^1.13.7",
+    "underscore": "^1.13.8",
     "vue": "^3.5.28",
     "whatwg-fetch": "^3.6.20"
   }

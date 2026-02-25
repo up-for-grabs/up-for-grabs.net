@@ -8,6 +8,5 @@ tags:
   - orchestration
   - project
 upforgrabs:
-  name: good first issue
-  link: >-
-    https://github.com/orcbot/BuildCLI/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  name: up for grabs
+  link: https://github.com/fredabila/orcbot/labels/up%20for%20grabs

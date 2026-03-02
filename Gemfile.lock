@@ -55,7 +55,7 @@ GEM
     google-protobuf (4.33.2)
       bigdecimal
       rake (>= 13)
-    graphql (2.5.19)
+    graphql (2.5.20)
       base64
       fiber-storage
       logger
@@ -197,7 +197,7 @@ PLATFORMS
 
 DEPENDENCIES
   csv
-  graphql (~> 2.5.19)
+  graphql (~> 2.5.20)
   graphql-client
   jekyll
   json_schemer
@@ -229,7 +229,7 @@ CHECKSUMS
   fiber-storage (1.0.1) sha256=f48e5b6d8b0be96dac486332b55cee82240057065dc761c1ea692b2e719240e1
   forwardable-extended (2.6.0) sha256=1bec948c469bbddfadeb3bd90eb8c85f6e627a412a3e852acfd7eaedbac3ec97
   google-protobuf (4.33.2) sha256=748150d6c642fd655ef39efa23ecf2abe6d616020039a6d1c1764be1da530315
-  graphql (2.5.19) sha256=6c70cf41cbe7d02921fb679229689d181768a45a2a7cc2f39b240cdf3a5fa299
+  graphql (2.5.20) sha256=f5fe10d5cad95b50c73243ef18ee9a125a920a5a265dde637b410c3ce2014c32
   graphql-client (0.26.0) sha256=190b122707e0aa4937089229799ed4a6980092ef4cb9d8dc6042d07a85459cf1
   hana (1.3.7) sha256=5425db42d651fea08859811c29d20446f16af196308162894db208cac5ce9b0d
   http_parser.rb (0.8.1) sha256=9ae8df145b39aa5398b2f90090d651c67bd8e2ebfe4507c966579f641e11097a

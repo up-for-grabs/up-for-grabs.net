@@ -154,21 +154,30 @@ define([
       });
 
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
-      $(elem).on('click', function () {
-        selTags = $('.tags-filter').val() || [];
-        selectedTag = preparePopTagName($(this).text() || '');
-        if (selectedTag) {
-          tagID = allTags
-            .map((tag) => tag.name.toLowerCase())
-            .indexOf(selectedTag);
-          if (tagID !== -1) {
-            selTags.push(selectedTag);
-            location.href = updateQueryStringParameter(
-              getFilterUrl(),
-              'tags',
-              encodeURIComponent(selTags)
-            );
-          }
+      $(elem).on('click', function (event) {
+        event.preventDefault();
+
+        const selectedTags = $('.tags-filter').val() || [];
+        const selectedTag = preparePopTagName($(this));
+
+        if (!selectedTag) {
+          return;
+        }
+
+        const tagNames = allTags.map((tag) => tag.name.toLowerCase());
+        const tagID = tagNames.indexOf(selectedTag);
+
+        if (tagID !== -1) {
+          const canonicalTagName = allTags[tagID].name;
+          const tagsToApply = Array.from(
+            new Set([...selectedTags, canonicalTagName])
+          );
+
+          location.href = updateQueryStringParameter(
+            getFilterUrl(),
+            'tags',
+            encodeURIComponent(tagsToApply)
+          );
         }
       });
     });
@@ -179,9 +188,13 @@ define([
     it fit URL specification
     @return string - The value of the Name
   */
-  let preparePopTagName = function (name) {
-    if (name === '') return '';
-    return name.toLowerCase().split(' ')[0];
+  let preparePopTagName = function (elem) {
+    if (!elem || elem.length === 0) return '';
+
+    const text = elem.clone().children().remove().end().text().trim();
+
+    if (text === '') return '';
+    return text.toLowerCase();
   };
 
   /**

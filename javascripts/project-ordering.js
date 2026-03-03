@@ -35,37 +35,7 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
       project.stats ? project.stats['issue-count'] > 0 : true
     );
 
-    const canStoreOrdering =
-      JSON &&
-      window.sessionStorage &&
-      'getItem' in window.sessionStorage &&
-      'setItem' in window.sessionStorage;
-
-    if (!canStoreOrdering) {
-      return projects;
-    }
-
-    const projectsLength = projects.length;
-
-    /** @type {Array<number> | null} */
-    let ordering = null;
-
-    const orderingValue = window.sessionStorage.getItem('projectOrder');
-    if (orderingValue) {
-      ordering = JSON.parse(orderingValue);
-
-      // This prevents anyone's page from crashing if a project is removed
-      if (ordering && ordering.length !== projectsLength) {
-        ordering = null;
-      }
-    }
-
-    if (!ordering) {
-      ordering = computeOrder(projectsLength);
-      if (canStoreOrdering) {
-        window.sessionStorage.setItem('projectOrder', JSON.stringify(ordering));
-      }
-    }
+    const ordering = computeOrder(projects.length);
 
     return _.map(ordering, (i) => projects[i]);
   }

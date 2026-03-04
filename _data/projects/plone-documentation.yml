@@ -10,11 +10,13 @@ tags:
   - documentation
   - rest-api
   - sphinx
+  - myst
   - react
   - node.js
   - javascript
   - python
   - zope
+  - volto
   - cookiecutter
   - accessibility
   - community-driven

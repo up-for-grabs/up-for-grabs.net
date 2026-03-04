@@ -281,6 +281,11 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
     this.getPopularTags = function (popularTagCount) {
       return _.take(_.values(tagsMap), popularTagCount || 10);
     };
+
+    this.getPopularTagsForProjects = function (projectsToInspect, popularTagCount) {
+      const tags = extractTags(projectsToInspect || []);
+      return _.take(tags, popularTagCount || 10);
+    };
   };
 
   return ProjectsService;

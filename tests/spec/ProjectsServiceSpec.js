@@ -124,6 +124,30 @@ describe('ProjectsService', () => {
       });
     });
 
+
+    describe('getPopularTagsForProjects', () => {
+      it('returns popular tags based on the provided filtered projects', () => {
+        const filteredProjects = projectsService.get(['web']);
+
+        const tags = projectsService.getPopularTagsForProjects(filteredProjects, 3);
+
+        expect(tags).toHaveLength(3);
+        expect(tags).toContainEqual(
+          expect.objectContaining({
+            name: 'ASP.NET',
+            frequency: 1,
+            projects: ['Glimpse'],
+          })
+        );
+      });
+
+      it('returns an empty array when no projects match the filters', () => {
+        const filteredProjects = projectsService.get(['does-not-exist']);
+
+        expect(projectsService.getPopularTagsForProjects(filteredProjects, 6)).toEqual([]);
+      });
+    });
+
     describe('when get method is called with tags parameter as a string', () => {
       it('should return all projects associated with those tags', () => {
         const projects = projectsService.get('web');

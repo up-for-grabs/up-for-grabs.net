@@ -11,6 +11,9 @@ import { type WebsiteProject } from '../data/schema';
 
 import ProjectEntry from './ProjectEntry.vue';
 
+const QUERY_PARAM = 'q';
+const LAST_UPDATED_PARAM = 'lastUpdated';
+
 const props = defineProps<{
   initialProjects: Array<WebsiteProject>;
 }>();
@@ -21,6 +24,26 @@ const searchText = defineModel('searchText', { default: '' });
 const lastUpdatedDays = defineModel('lastUpdatedDays', {
   default: InitialDaysActive,
 });
+
+function updateQueryString() {
+  const params = new URLSearchParams(window.location.search);
+
+  const query = searchText.value.trim();
+  if (query.length > 0) {
+    params.set(QUERY_PARAM, query);
+  } else {
+    params.delete(QUERY_PARAM);
+  }
+
+  params.set(LAST_UPDATED_PARAM, String(lastUpdatedDays.value));
+
+  const queryString = params.toString();
+  const nextUrl = queryString
+    ? `${window.location.pathname}?${queryString}${window.location.hash}`
+    : `${window.location.pathname}${window.location.hash}`;
+
+  window.history.replaceState({}, '', nextUrl);
+}
 
 function parseLastUpdated(key: string | number): Date | Error {
   if (typeof key === 'number') {
@@ -59,10 +82,35 @@ const { data, error, isPending, isError, refetch } = useQuery({
   enabled: isMounted,
 });
 
-onMounted(() => (isMounted.value = true));
+onMounted(() => {
+  isMounted.value = true;
 
-watch(searchText, () => refetch());
-watch(lastUpdatedDays, () => refetch());
+  const params = new URLSearchParams(window.location.search);
+
+  const initialQuery = params.get(QUERY_PARAM);
+  if (initialQuery) {
+    searchText.value = initialQuery;
+  }
+
+  const lastUpdatedParam = params.get(LAST_UPDATED_PARAM);
+  if (lastUpdatedParam) {
+    const parsedValue = parseInt(lastUpdatedParam, 10);
+    if (!Number.isNaN(parsedValue)) {
+      lastUpdatedDays.value = parsedValue;
+    }
+  }
+  updateQueryString();
+});
+
+watch(searchText, () => {
+  updateQueryString();
+  refetch();
+});
+
+watch(lastUpdatedDays, () => {
+  updateQueryString();
+  refetch();
+});
 </script>
 
 <style>
@@ -131,8 +179,7 @@ menu {
 
         <select v-model="lastUpdatedDays" aria-labelledby="activity-filter">
           <option value="7">1 week</option>
-          <option selected value="30">1 month</option>
-          <!-- TODO: how to keep selected in sync with items? onMount? -->
+          <option value="30">1 month</option>
           <option value="180">6 months</option>
           <option value="365">1 year</option>
           <option value="730">2 years</option>

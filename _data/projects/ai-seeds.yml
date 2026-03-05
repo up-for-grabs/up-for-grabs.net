@@ -1,7 +1,7 @@
 ---
 name: AI Seeds
 desc: "Free, open-source, multilingual AI education platform. Learn AI from zero — no coding experience needed."
-site: https://ai-seeds.vercel.app
+site: https://open-ai-school.vercel.app
 tags:
 - ai
 - education

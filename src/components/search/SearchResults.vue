@@ -83,7 +83,7 @@ menu {
 
 .form-wrapper {
   overflow: hidden;
-  width: 600px;
+  width: min(100%, 600px);
 }
 
 .form-wrapper #search {
@@ -92,10 +92,11 @@ menu {
     0 1px 1px #ddd inset,
     0 1px 0 #fff;
   border-radius: 3px;
-  float: left;
-  height: 20px;
+  box-sizing: border-box;
+  display: block;
+  height: 42px;
   padding: 10px;
-  width: 560px;
+  width: 100%;
 }
 
 .form-wrapper #search:focus {
@@ -121,6 +122,16 @@ menu {
 
 .results-count {
   margin: 2em 0;
+}
+
+@media (max-width: 640px) {
+  .form-wrapper {
+    width: 100%;
+  }
+
+  .form-wrapper #search {
+    font-size: 16px;
+  }
 }
 </style>
 

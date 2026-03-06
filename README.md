@@ -6,11 +6,11 @@
 
 <a href="https://up-for-grabs.net/"><img width="814" src="https://user-images.githubusercontent.com/359239/67390578-50f83a00-f573-11e9-835d-02eb9e019afb.png"></a>
 
-This repository contains the content for the [Up-For-Grabs website](https://up-for-grabs.net/), a list of projects with curated tasks for new contributors.
+This repository contains the source content for the [Up-For-Grabs website](https://up-for-grabs.net/), a list of projects with curated tasks for new contributors.
 
 ## List your project
 
-If you know of or own a project that should be listed on Up for Grabs,
+If you know about or maintain project that should be listed on Up for Grabs,
 [follow the instructions to open a pull request](docs/list-a-project.md).
 
 ## Contributing

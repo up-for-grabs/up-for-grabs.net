@@ -1,6 +1,6 @@
 ---
 name: radis
-desc: A fast line-by-line code for high-resolution infrared molecular spectra
+desc: A fast line-by-line code for computing high-resolution infrared molecular spectra
 site: https://github.com/radis/radis
 tags:
 - python

@@ -47,6 +47,23 @@ describe('orderAllProjects', () => {
       expect(computeOrder).toHaveBeenCalled();
     });
 
+    it('will recover when stored order is malformed JSON', () => {
+      sessionStorage.setItem('projectOrder', '{oops');
+
+      const computeOrder = jest.fn().mockReturnValue([2, 1, 0]);
+
+      expect(orderAllProjects(input, computeOrder)).toMatchObject([
+        { id: 3 },
+        { id: 2 },
+        { id: 1 },
+      ]);
+
+      expect(computeOrder).toHaveBeenCalledTimes(1);
+      expect(window.sessionStorage.getItem('projectOrder')).toEqual(
+        JSON.stringify([2, 1, 0])
+      );
+    });
+
     it('will store order in session storage for future lookups', () => {
       const someOrderValue = [0, 2, 1];
       const computeOrder = jest.fn().mockReturnValue(someOrderValue);

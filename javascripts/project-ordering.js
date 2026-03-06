@@ -52,7 +52,11 @@ define(['underscore'], (/** @type {import('underscore')} */ _) => {
 
     const orderingValue = window.sessionStorage.getItem('projectOrder');
     if (orderingValue) {
-      ordering = JSON.parse(orderingValue);
+      try {
+        ordering = JSON.parse(orderingValue);
+      } catch {
+        ordering = null;
+      }
 
       // This prevents anyone's page from crashing if a project is removed
       if (ordering && ordering.length !== projectsLength) {

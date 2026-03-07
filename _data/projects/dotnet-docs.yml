@@ -1,7 +1,7 @@
 ---
 name: ".NET Docs"
 desc: Documentation for .NET
-site: http://github.com/dotnet/docs
+site: https://github.com/dotnet/docs
 tags:
 - ".net"
 - documentation

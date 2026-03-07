@@ -1,7 +1,7 @@
 ---
 name: ".NET API Docs"
 desc: API documentation for .NET
-site: http://github.com/dotnet/dotnet-api-docs
+site: https://github.com/dotnet/dotnet-api-docs
 tags:
 - ".net"
 - documentation

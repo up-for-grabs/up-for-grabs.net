@@ -1,7 +1,7 @@
 ---
 name: Babel
 desc: The compiler for writing next generation JavaScript.
-site: http://babeljs.io/
+site: https://babeljs.io/
 tags:
 - javascript
 - web

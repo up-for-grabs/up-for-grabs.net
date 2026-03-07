@@ -2,7 +2,7 @@
 name: Sorting Visualizer
 desc: >-
   A web-based tool to visualize popular sorting algorithms with animations, built using React and Material-UI.
-site: https://github.com/your-username/sorting-visualizer
+site: https://github.com/Mr-G-D/Sorting-Visualizer
 tags:
 - sorting
 - visualization

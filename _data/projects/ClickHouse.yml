@@ -1,7 +1,7 @@
 ---
 name: ClickHouse
 desc: ClickHouse is a fast open-source OLAP database management system
-site: https://clickhouse.tech/
+site: https://clickhouse.com
 tags:
 - sql
 - big-data

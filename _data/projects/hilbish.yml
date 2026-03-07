@@ -1,7 +1,7 @@
 ---
 name: Hilbish
 desc: An extensible Lua-configured Unix shell
-site: https://rosettea.github.io/Hilbish
+site: https://github.com/Rosettea/Hilbish
 tags:
 - shell
 - lua

@@ -1,7 +1,7 @@
 ---
 name: Open Live Writer
 desc: Open Live Writer makes it easy to write, preview, and post to your blog.
-site: http://openlivewriter.org/
+site: https://github.com/OpenLiveWriter/OpenLiveWriter
 tags:
 - c#
 - winforms

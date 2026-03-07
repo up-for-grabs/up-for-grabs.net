@@ -3,7 +3,7 @@ name: Horusec
 desc: >-
   Horusec is an open source tool that improves identification of vulnerabilities in your project with
   just one command.
-site: https://horusec.io
+site: https://github.com/ZupIT/horusec
 tags:
 - java
 - javascript

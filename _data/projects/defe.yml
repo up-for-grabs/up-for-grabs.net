@@ -1,7 +1,7 @@
 ---
 name: defe
 desc: A Tech feed Aggregator for Developers & Tech Enthusiasts
-site: https://defe-app.herokuapp.com/
+site: https://github.com/Bhupesh-V/defe
 tags:
 - python
 - javascript

@@ -66,13 +66,14 @@ define([
 
   const renderProjects = function (projectService, tags, names, labels, date) {
     const allTags = projectService.getTags();
+    const filteredProjects = projectService.get(tags, names, labels, date);
 
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectService.get(tags, names, labels, date),
+        projects: filteredProjects,
         relativeTime,
         tags: allTags,
-        popularTags: projectService.getPopularTags(6),
+        popularTags: projectService.getPopularTags(6, filteredProjects),
         selectedTags: tags,
         names: projectService.getNames(),
         selectedNames: names,

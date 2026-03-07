@@ -278,8 +278,39 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
       return _.sortBy(labelsMap, (entry) => entry.name.toLowerCase());
     };
 
-    this.getPopularTags = function (popularTagCount) {
-      return _.take(_.values(tagsMap), popularTagCount || 10);
+    this.getPopularTags = function (popularTagCount, filteredProjects) {
+      if (!filteredProjects || !filteredProjects.length) {
+        return _.take(_.values(tagsMap), popularTagCount || 10);
+      }
+
+      const filteredProjectNames = _.object(
+        _.map(filteredProjects, (project) => [project.name.toLowerCase(), true])
+      );
+
+      const filteredTags = _.chain(tagsMap)
+        .values()
+        .map((tag) => {
+          const matchingProjects = _.filter(
+            tag.projects,
+            (projectName) => filteredProjectNames[projectName.toLowerCase()]
+          );
+
+          if (!matchingProjects.length) {
+            return null;
+          }
+
+          return {
+            ...tag,
+            projects: matchingProjects,
+            frequency: matchingProjects.length,
+          };
+        })
+        .compact()
+        .sortBy((tag) => tag.name.toLowerCase())
+        .sortBy((tag) => -(tag.frequency || 0))
+        .value();
+
+      return _.take(filteredTags, popularTagCount || 10);
     };
   };
 

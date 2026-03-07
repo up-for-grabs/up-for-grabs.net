@@ -122,6 +122,22 @@ describe('ProjectsService', () => {
         const tags = projectsService.getTags();
         expect(projectsService.getPopularTags(99)).toHaveLength(tags.length);
       });
+
+      it('updates popular tags based on filtered projects', () => {
+        const filteredProjects = projectsService.get(['web']);
+        const tags = projectsService.getPopularTags(10, filteredProjects);
+
+        expect(tags).toContainEqual({
+          name: 'Web',
+          frequency: 1,
+          projects: ['Glimpse'],
+        });
+        expect(tags).not.toContainEqual(
+          expect.objectContaining({
+            name: 'API',
+          })
+        );
+      });
     });
 
     describe('when get method is called with tags parameter as a string', () => {

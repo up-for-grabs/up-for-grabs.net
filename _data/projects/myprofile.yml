@@ -1,0 +1,13 @@
+---
+name: bhagyashree
+desc: mini MERN stack app for product tag generator using ai integration
+site: https://github.com/bhagyashreepawar1618/EcoCommerce_AI
+tags:
+- express mongodb react javascript 
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/raulvillares/3sacrowd/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2026-03-7T09:13:25Z'
+  fork-count: 74

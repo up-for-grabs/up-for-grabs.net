@@ -14,5 +14,4 @@ tags:
 - node.js
 upforgrabs:
   name: good first issue
-  link: >-
-    https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+org%3Astanford-oval+archived%3Afalse+label%3A%22good+first+issue%22
+  link: https://github.com/stanford-oval/genie-toolkit/labels/good%20first%20issue

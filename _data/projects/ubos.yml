@@ -1,7 +1,7 @@
 ---
 name: UBOS
 desc: Linux distro for Personal Servers and indie IoT devices
-site: http://ubos.net/
+site: https://ubos.net/
 tags:
 - apache
 - apps
@@ -16,4 +16,4 @@ tags:
 - web
 upforgrabs:
   name: good first issue
-  link: http://ubos.net/community/starterissues.html
+  link: https://github.com/uboslinux/ubos-admin/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

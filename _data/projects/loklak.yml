@@ -16,4 +16,4 @@ tags:
 - server
 upforgrabs:
   name: first-timers-only
-  link: https://github.com/search?q=org%3Aloklak+is%3Aissue+is%3Aopen+label%3Afirst-timers-only
+  link: https://github.com/loklak/loklak_server/labels/first-timers-only

@@ -153,7 +153,8 @@ menu {
     </form>
   </menu>
   <div class="results-count" aria-live="polite">
-    {{ currentProjects.length }} projects found
+    <strong>{{ props.projects.length }}</strong> total projects available ·
+    <strong>{{ currentProjects.length }}</strong> projects found
   </div>
   <div class="projects">
     <ProjectEntry

@@ -1,7 +1,7 @@
 ---
 name: React Auth Kit
 desc: Easily handle authentication in React Js Apps
-site: https://authkit.arkadip.co
+site: https://github.com/react-auth-kit/react-auth-kit
 tags:
 - reactjs
 - auth

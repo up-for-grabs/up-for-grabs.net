@@ -1,7 +1,7 @@
 ---
 name: atvjs
 desc: Blazing fast Apple TV application development using pure JavaScript
-site: https://emadalam.github.io/atvjs
+site: https://github.com/emadalam/atvjs
 tags:
 - javascript
 - apple-tv

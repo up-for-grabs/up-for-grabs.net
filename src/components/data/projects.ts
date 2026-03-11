@@ -23,7 +23,14 @@ export const RawProjects: Array<Project> = projects
       ...project.data,
     };
   })
-  .sort((left, right) => left.name.localeCompare(right.name));
+  .sort((left, right) => {
+    const leftDate = left.stats?.['last-updated'];
+    const rightDate = right.stats?.['last-updated'];
+    if (!leftDate && !rightDate) return left.name.localeCompare(right.name);
+    if (!leftDate) return 1;
+    if (!rightDate) return -1;
+    return new Date(rightDate).getTime() - new Date(leftDate).getTime();
+  });
 
 const lastUpdated = subDays(new Date(), InitialDaysActive);
 

@@ -101,7 +101,12 @@ export const SearchProjects = async (
       return false;
     })
     .sort((left, right) => {
-      return left.name.localeCompare(right.name);
+      const leftDate = left.stats.lastUpdated;
+      const rightDate = right.stats.lastUpdated;
+      if (!leftDate && !rightDate) return left.name.localeCompare(right.name);
+      if (!leftDate) return 1;
+      if (!rightDate) return -1;
+      return rightDate.getTime() - leftDate.getTime();
     });
 
   const response: SearchResultsMessage = {

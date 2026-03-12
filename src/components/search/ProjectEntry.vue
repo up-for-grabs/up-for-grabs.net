@@ -50,12 +50,20 @@ const linkTitle = `View open issues for ${project.name}`;
   margin-bottom: 0;
 }
 
+.project .description {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .project .tags li {
   margin: 0.3em 0.3em;
   border: 1px solid black;
   border-radius: 5px;
   background: #bfd1d9;
   padding: 0.3em;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .label {

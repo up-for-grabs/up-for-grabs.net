@@ -115,5 +115,9 @@ export function filterProject(
     return true;
   }
 
+  if (project.tags.some((tag) => tag.toLowerCase().indexOf(searchText) > -1)) {
+    return true;
+  }
+
   return false;
 }

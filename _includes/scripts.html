@@ -67,7 +67,11 @@
       <ul class="popular-tags">
         <% _.each(popularTags, function(entry, key){ %>
         <li>
-          <a title="Popular Tag: <%-entry.name%>" tabindex="0"
+          <a
+            title="Popular Tag: <%-entry.name%>"
+            tabindex="0"
+            data-tag="<%-entry.name%>"
+            href="#/filters?tags=<%- encodeURIComponent(entry.name) %>"
             ><%-entry.name%>
             <span class="popular-tags__frequency"
               >(<%-entry.frequency%>)</span

@@ -154,22 +154,34 @@ define([
       });
 
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
-      $(elem).on('click', function () {
-        selTags = $('.tags-filter').val() || [];
-        selectedTag = preparePopTagName($(this).text() || '');
-        if (selectedTag) {
-          tagID = allTags
-            .map((tag) => tag.name.toLowerCase())
-            .indexOf(selectedTag);
-          if (tagID !== -1) {
-            selTags.push(selectedTag);
-            location.href = updateQueryStringParameter(
-              getFilterUrl(),
-              'tags',
-              encodeURIComponent(selTags)
-            );
-          }
+      $(elem).on('click', function (event) {
+        event.preventDefault();
+
+        const selectedTag = preparePopTagName(
+          $(this).data('tag') || $(this).text() || ''
+        );
+
+        if (!selectedTag) {
+          return;
         }
+
+        const allTagNames = allTags.map((tag) => tag.name.toLowerCase());
+        const tagID = allTagNames.indexOf(selectedTag);
+
+        if (tagID === -1) {
+          return;
+        }
+
+        const selectedTags = $('.tags-filter').val() || [];
+        if (selectedTags.indexOf(selectedTag) === -1) {
+          selectedTags.push(selectedTag);
+        }
+
+        location.href = updateQueryStringParameter(
+          getFilterUrl(),
+          'tags',
+          encodeURIComponent(selectedTags)
+        );
       });
     });
   };
@@ -181,7 +193,8 @@ define([
   */
   let preparePopTagName = function (name) {
     if (name === '') return '';
-    return name.toLowerCase().split(' ')[0];
+
+    return name.toLowerCase().trim();
   };
 
   /**

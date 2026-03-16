@@ -47,7 +47,7 @@
     "eslint-plugin-astro": "^1.6.0",
     "eslint-plugin-jest": "^29.15.0",
     "eslint-plugin-vue": "^10.8.0",
-    "jest": "^30.2.0",
+    "jest": "^30.3.0",
     "jest-environment-jsdom": "^30.3.0",
     "jest-fetch-mock": "^3.0.3",
     "jest-localstorage-mock": "^2.4.26",

@@ -1018,6 +1018,34 @@ ul.tags li {
   }
 }
 
+.chosen-choices {
+  border-radius: 5px;
+}
+
+.chosen-drop {
+  border-radius: 7px;
+}
+
+.active-result {
+  border-radius: 7px;
+}
+
+.search-choice {
+  border-radius: 10px !important;
+  color: #FFF !important;
+  background-color: #2E7BA9 !important;
+  background-image: none !important;
+  border: #2E7BA9 !important;
+  padding: 5px 22px 5px 10px !important;
+}
+
+.search-choice-close {
+  margin: 3px 2px 0 0;
+  -webkit-filter: drop-shadow(0px 0px 1px #054164);
+  filter: drop-shadow(0px 0px 1px #6fb1d7);
+  background: url(../images/chosen-sprite.png) -42px -11px no-repeat !important;
+}
+
 .radio-btn-row {
   display: flex;
   flex-direction: row;
@@ -1079,7 +1107,7 @@ ul.tags li {
   display: flex;
   margin-top: 10px;
   height: max-content;
-  cursor: pointer;
+  cursor: default;
   position: relative;
 }
 

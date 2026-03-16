@@ -125,9 +125,9 @@ const issueLabelLink = getIssueLabelLink(project.upforgrabs.link);
       </div>
     </div>
 
-    <div class="description" x-if="project.desc">{{ project.desc }}</div>
+    <div class="description" v-if="project.desc">{{ project.desc }}</div>
 
-    <ul class="tags" x-if="project.tags" aria-label="project tags">
+    <ul class="tags" v-if="project.tags" aria-label="project tags">
       <li v-for="tag in project.tags" v-bind:key="tag">{{ tag }}</li>
     </ul>
   </div>

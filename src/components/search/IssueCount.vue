@@ -9,7 +9,7 @@ const props = defineProps<{
 const now = new Date();
 
 const relativeLastUpdated = props.lastUpdated
-  ? `Last updated ${formatDistance(now, props.lastUpdated)}`
+  ? `Last updated ${formatDistance(now, props.lastUpdated, { addSuffix: true })}`
   : 'No recent activity';
 </script>
 

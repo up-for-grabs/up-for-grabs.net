@@ -5,7 +5,7 @@ desc: >-
   customised trip itineraries. By leveraging Meta’s Llama 3.8B Instruct model and integrating real-time
   data from Amadeus APIs, TripAi delivers intelligent and practical trip suggestions – including flights,
   hotels, and personalised activities.
-site: https://tripai25.onrender.com/
+site: https://github.com/vcint/TripAi
 tags:
 - node.js
 - express

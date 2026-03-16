@@ -158,7 +158,7 @@ define(['whatwg-fetch', 'promise-polyfill'], () => {
 
     if (cached && cached.etag) {
       settings.headers = {
-        ...settings,
+        ...settings.headers,
         'If-None-Match': cached.etag,
       };
     }

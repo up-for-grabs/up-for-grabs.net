@@ -1,7 +1,7 @@
 ---
 name: Human Connection
 desc: The free and open source social network for active citizenship.
-site: https://human-connection.org/en/in-nerds-we-trust/
+site: https://github.com/Human-Connection/Human-Connection
 tags:
 - javascript
 - vuejs

@@ -1,0 +1,25 @@
+name: Plone Documentation
+desc: Plone is a free and open source content management system that is used to create, edit, and manage digital content. Plone is an open source content management system that is used to create, edit, and manage digital content, like websites, intranets and custom solutions. It comes with over 20 years of growth, optimizations, and refinements. The result is a system trusted by governments, universities, businesses, and other organizations all over the world.
+site: https://docs.plone.org/
+tags:
+  - plone
+  - cms
+  - content-management
+  - content-management-system
+  - content-management-systems
+  - documentation
+  - rest-api
+  - sphinx
+  - myst
+  - reactjs
+  - node.js
+  - javascript
+  - python
+  - zope
+  - volto
+  - cookiecutter
+  - accessibility
+  - community-driven
+upforgrabs:
+  name: good first issue
+  link: https://github.com/plone/documentation/issues/?q=is%3Aissue%20state%3Aopen%20label%3A%2299%20tag%3A%20good%20first%20issue%22

@@ -1,7 +1,7 @@
 ---
 name: UBOS
 desc: Linux distro for Personal Servers and indie IoT devices
-site: http://ubos.net/
+site: https://ubos.net/
 tags:
 - apache
 - apps

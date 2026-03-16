@@ -1,7 +1,7 @@
 ---
 name: OrigoDB Core
 desc: In-memory database for .NET
-site: http://origodb.com
+site: https://origodb.com
 tags:
 - ".net"
 - in-memory

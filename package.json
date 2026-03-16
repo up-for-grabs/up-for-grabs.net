@@ -32,7 +32,7 @@
     "@astrojs/vue": "^5.1.4",
     "@babel/core": "^7.29.0",
     "@eslint/eslintrc": "^3.3.5",
-    "@eslint/js": "^9.39.2",
+    "@eslint/js": "^10.0.1",
     "@types/jest": "^30.0.0",
     "@types/node": "^25",
     "@types/showdown": "^2.0.6",

@@ -13,8 +13,13 @@ exclude:
   - .prettierrc.json
   - .rubocop.yml
   - .ruby-version
+  - astro.config.mjs
   - CNAME
   - Dockerfile
+  - coverage
+  - dist
+  - eslint.config.mjs
+  - eslint-new.config.mjs
   - docker-compose.yml
   - Gemfile*
   - jest.config.js
@@ -22,6 +27,7 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
+  - src
   - tsconfig.json
   - vendor
 
@@ -33,4 +39,3 @@ github: [metadata]
 # https://github.com/up-for-grabs/up-for-grabs.net/pull/1412 which explains what
 # this gives us.
 emptyArray: []
-

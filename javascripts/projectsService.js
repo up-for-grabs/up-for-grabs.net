@@ -156,7 +156,7 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
     // collect the names of all labels into a list
     const labelNames = _.collect(labels, (label) => label.name);
     // find all projects with the given labels via OR
-    results = _.map(labelNames, (name) =>
+    const results = _.map(labelNames, (name) =>
       _.filter(
         projects,
         (project) =>

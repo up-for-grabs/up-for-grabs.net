@@ -12,6 +12,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/codenameone/CodenameOne/labels/up-for-grabs
 stats:
-  issue-count: 10
-  last-updated: '2025-07-11T11:38:55Z'
-  fork-count: 425
+  issue-count: 0
+  fork-count: 436

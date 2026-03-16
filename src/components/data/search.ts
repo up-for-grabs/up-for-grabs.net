@@ -59,7 +59,7 @@ export const Init = async (lastUpdated: Date) => {
         });
       }
     }
-    return new Error('oops');
+    return new Error('Failed to load project data');
   }
 };
 

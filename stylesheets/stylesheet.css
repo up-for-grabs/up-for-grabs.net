@@ -1080,6 +1080,17 @@ ul.tags li {
   margin-bottom: 20px;
 }
 
+/* Keep Chosen multi-select filters responsive on narrow screens (issue #3495). */
+.filters-panel .chosen-container {
+  width: 100% !important;
+  max-width: 100%;
+}
+
+.filters-panel .chosen-container .chosen-choices {
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .projects .stats {
   display: flex;
   flex-direction: row;

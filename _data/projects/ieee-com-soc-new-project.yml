@@ -3,7 +3,7 @@ name: Annual-Yearbook
 desc: >-
   A yearbook which records the precious memories of University students to add their messages in their
   yearbook.
-site: https://memories.ieeecsvitc.com
+site: https://github.com/ComputerSocietyVITC/Annual-Yearbook
 tags:
 - typescript
 - javascript

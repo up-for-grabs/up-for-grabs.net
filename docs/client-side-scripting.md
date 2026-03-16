@@ -109,7 +109,7 @@ Up-For-Grabs now supports using `jest` to run tests inside a NodeJS context.
 It uses `babel-jest` which automagically transforms AMD modules into CommonJS
 modules.
 
-You can run these tests at any time using `yarn test` to ensure the
+You can run these tests at any time using `npm test` to ensure the
 functionality covered by tests is not affected by your local changes.
 
 ### Testing modules inside `jest`

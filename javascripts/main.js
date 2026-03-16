@@ -153,27 +153,35 @@ define([
         );
       });
 
+    /*
+      Adds popular tags to the tag search query when a popular tag element is clicked.
+    */
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
-      $(elem).on('click', function () {
-        selTags = $('.tags-filter').val() || [];
-        selectedTag = preparePopTagName($(this).text() || '');
-        if (selectedTag) {
-          tagID = allTags
-            .map((tag) => tag.name.toLowerCase())
-            .indexOf(selectedTag);
-          if (tagID !== -1) {
-            selTags.push(selectedTag);
-            location.href = updateQueryStringParameter(
-              getFilterUrl(),
-              'tags',
-              encodeURIComponent(selTags)
-            );
-          }
+      $(elem).on('click', function (e) {
+        const tags = prepareForHTML(getParameterByName('tags')) || [];
+        selectedTag = e.currentTarget.innerText.split('\n')[0] || '';
+        if (!tags.includes(selectedTag)) {
+          const component = $(`
+          <li class="search-choice">
+          <span>${selectedTag}</span>
+          <a class="search-choice-close" data-option-array-index="2"></a>
+          </li>
+          `);
+          projectsPanel
+            .find(
+              'select.tags-filter + .chosen-container .chosen-choices .search-field'
+            )
+            .prepend(component);
+          tags.push(selectedTag);
+          location.href = updateQueryStringParameter(
+            getFilterUrl(),
+            'tags',
+            encodeURIComponent(tags)
+          );
         }
       });
     });
   };
-
   /*
     This is a utility method to help update a list items Name parameter to make
     it fit URL specification
@@ -326,6 +334,13 @@ define([
       const projectsSvc = new ProjectsService(p);
 
       const app = sammy(function () {
+        this.get('/beta/', (context, next) => {
+          const scheme = window.location.protocol;
+          const host = window.location.host;
+          const path = `${scheme}//${host}/beta/`;
+          window.location.href = path;
+        });
+
         /*
          * This is the route used to filter by tags/names/labels
          * It ensures to read values from the URI query param and perform actions

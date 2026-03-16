@@ -256,7 +256,7 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
                 projects: []
               };
             }
-            filteredTagsMap[lowerTagName].frequency++;
+            filteredTagsMap[lowerTagName].frequency += 1;
             if (filteredTagsMap[lowerTagName].projects.indexOf(project.name) === -1) {
               filteredTagsMap[lowerTagName].projects.push(project.name);
             }

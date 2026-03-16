@@ -39,7 +39,9 @@ describe('projectLoader', () => {
 
   it('returns an empty list when project loading fails', async () => {
     fetch.mockRejectOnce(new Error('network down'));
-    const consoleSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const consoleSpy = jest
+      .spyOn(console, 'error')
+      .mockImplementation(() => {});
 
     const projects = await loadProjects();
 

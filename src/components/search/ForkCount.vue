@@ -8,7 +8,7 @@ const props = defineProps<{
 .fork-count {
   display: flex;
   height: max-content;
-  cursor: pointer;
+  cursor: default;
   position: relative;
 
   color: rgb(255, 255, 255);

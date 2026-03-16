@@ -1,0 +1,16 @@
+---
+name: Nocturne IDE
+desc: Voice-powered IDE with AI assistant for blind and visually impaired developers.
+site: https://github.com/sapega89/NocturneIDE
+tags:
+- ai
+- voice
+- ide
+- accessibility
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sapega89/NocturneIDE/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2025-05-15T03:44:57Z'
+  fork-count: 1

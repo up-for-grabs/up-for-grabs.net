@@ -1,0 +1,10 @@
+---
+name: Beacon Skill
+desc: Claude Code agent coordination skill for multi-agent task orchestration
+site: https://github.com/Scottcjn/beacon-skill
+tags:
+- python
+- ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Scottcjn/beacon-skill/labels/good%20first%20issue

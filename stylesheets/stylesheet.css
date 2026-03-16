@@ -293,6 +293,10 @@ body {
   height: 100%;
 }
 
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 body {
   background: var(--body-back);
   color: var(--body-color);
@@ -438,6 +442,32 @@ button {
   font-weight: 700;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
+}
+
+#beta_site_banner {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  top: 0;
+  right: 200px;
+  z-index: 10;
+  padding: 10px;
+  color: var(--abs);
+  background: #0d4e0d no-repeat 95% 50%;
+  font-weight: 700;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#beta_site_banner span {
+  flex-grow: 1;
+}
+
+#beta_site_banner .rocket {
+  flex-grow: 0;
+  padding-left: 0.3em;
+  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(198deg)
+    brightness(104%) contrast(102%);
 }
 
 .capitalize {
@@ -1077,6 +1107,10 @@ ul.tags li {
     display: none;
   }
 
+  #beta_site_banner {
+    display: none;
+  }
+
   header {
     text-align: center;
   }
@@ -1123,6 +1157,34 @@ ul.tags li {
   select {
     max-width: 100%;
   }
+}
+
+.chosen-choices {
+  border-radius: 5px;
+}
+
+.chosen-drop {
+  border-radius: 7px;
+}
+
+.active-result {
+  border-radius: 7px;
+}
+
+.search-choice {
+  border-radius: 10px !important;
+  color: #FFF !important;
+  background-color: #2E7BA9 !important;
+  background-image: none !important;
+  border: #2E7BA9 !important;
+  padding: 5px 22px 5px 10px !important;
+}
+
+.search-choice-close {
+  margin: 3px 2px 0 0;
+  -webkit-filter: drop-shadow(0px 0px 1px #054164);
+  filter: drop-shadow(0px 0px 1px #6fb1d7);
+  background: url(../images/chosen-sprite.png) -42px -11px no-repeat !important;
 }
 
 .radio-btn-row {
@@ -1186,7 +1248,7 @@ ul.tags li {
   display: flex;
   margin-top: 10px;
   height: max-content;
-  cursor: pointer;
+  cursor: default;
   position: relative;
 }
 

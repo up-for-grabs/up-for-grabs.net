@@ -1,7 +1,7 @@
 ---
 name: nadocast-ui
 desc: An unofficial user interface for the Nadocast Project.
-site: https://nadocast-ui.robswc.me/
+site: https://github.com/robswc/nadocast-ui
 tags:
 - python
 - dash-plotly
@@ -15,4 +15,4 @@ upforgrabs:
 stats:
   issue-count: 12
   last-updated: '2024-05-17T18:21:54Z'
-  fork-count: 3
+  fork-count: 4

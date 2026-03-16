@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+body {
+  background: var(--body-back);
+  color: var(--body-color);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  zoom: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto 0;
+  position: relative;
+}
+
+.container:before,
+.container:after {
+  content: ' ';
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+#main-container {
+  background: var(--abs);
+  border-radius: 7px;
+  margin: 0 auto 20px;
+  border: 1px solid var(--container-border);
+}
+
+#main-container .block {
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding: 30px 40px 24px;
+}
+
+#main-container .block:first-child,
+#main-container .block + .block {
+  border-top: 0;
+}
+
+#main-container .block:last-child {
+  border-bottom: 0;
+}
+
+.ribbon {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+ul.progress li {
+  list-style: none;
+}
+
+ul.progress li:before {
+  content: '□ ';
+}
+
+ul.progress li.done:before {
+  content: '✓ ';
+}

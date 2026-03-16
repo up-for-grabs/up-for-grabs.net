@@ -24,6 +24,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/open-telemetry/opentelemetry-collector-contrib/labels/help%20wanted
 stats:
-  issue-count: 55
-  last-updated: '2025-05-12T10:41:12Z'
-  fork-count: 2730
+  issue-count: 71
+  last-updated: '2026-03-13T05:02:54Z'
+  fork-count: 3420

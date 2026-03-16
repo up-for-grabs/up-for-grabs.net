@@ -1,7 +1,7 @@
 ---
 name: lecturesWWW
 desc: Web Programming Lectures of the UrFu Institute department IIT. On Russian language.
-site: http://lectures.uralbash.ru/
+site: https://github.com/ustu/lectures.www
 tags:
 - education
 - web
@@ -15,4 +15,4 @@ upforgrabs:
 stats:
   issue-count: 24
   last-updated: '2020-06-14T06:39:39Z'
-  fork-count: 15
+  fork-count: 14

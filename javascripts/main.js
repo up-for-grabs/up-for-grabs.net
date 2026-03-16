@@ -159,16 +159,19 @@ define([
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
       $(elem).on('click', function (e) {
         const tags = prepareForHTML(getParameterByName('tags')) || [];
-        selectedTag = (e.currentTarget.innerText).split("\n")[0] || '';
-        if(!tags.includes(selectedTag)) {
-        const component = $(`
+        selectedTag = e.currentTarget.innerText.split('\n')[0] || '';
+        if (!tags.includes(selectedTag)) {
+          const component = $(`
           <li class="search-choice">
           <span>${selectedTag}</span>
           <a class="search-choice-close" data-option-array-index="2"></a>
           </li>
-          `)
-        projectsPanel.find('select.tags-filter + .chosen-container .chosen-choices .search-field')
-        .prepend(component);
+          `);
+          projectsPanel
+            .find(
+              'select.tags-filter + .chosen-container .chosen-choices .search-field'
+            )
+            .prepend(component);
           tags.push(selectedTag);
           location.href = updateQueryStringParameter(
             getFilterUrl(),

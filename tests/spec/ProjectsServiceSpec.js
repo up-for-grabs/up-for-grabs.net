@@ -124,12 +124,14 @@ describe('ProjectsService', () => {
       });
     });
 
-
     describe('getPopularTagsForProjects', () => {
       it('returns popular tags based on the provided filtered projects', () => {
         const filteredProjects = projectsService.get(['web']);
 
-        const tags = projectsService.getPopularTagsForProjects(filteredProjects, 3);
+        const tags = projectsService.getPopularTagsForProjects(
+          filteredProjects,
+          3
+        );
 
         expect(tags).toHaveLength(3);
         expect(tags).toContainEqual(
@@ -144,7 +146,9 @@ describe('ProjectsService', () => {
       it('returns an empty array when no projects match the filters', () => {
         const filteredProjects = projectsService.get(['does-not-exist']);
 
-        expect(projectsService.getPopularTagsForProjects(filteredProjects, 6)).toEqual([]);
+        expect(
+          projectsService.getPopularTagsForProjects(filteredProjects, 6)
+        ).toEqual([]);
       });
     });
 

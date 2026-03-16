@@ -73,7 +73,10 @@ define([
         projects: filteredProjects,
         relativeTime,
         tags: allTags,
-        popularTags: projectService.getPopularTagsForProjects(filteredProjects, 6),
+        popularTags: projectService.getPopularTagsForProjects(
+          filteredProjects,
+          6
+        ),
         selectedTags: tags,
         names: projectService.getNames(),
         selectedNames: names,

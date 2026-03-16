@@ -1079,7 +1079,7 @@ ul.tags li {
   display: flex;
   margin-top: 10px;
   height: max-content;
-  cursor: pointer;
+  cursor: default;
   position: relative;
 }
 

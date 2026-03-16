@@ -1,0 +1,11 @@
+---
+name: RustChain
+desc: Proof-of-Antiquity blockchain with hardware attestation - rewards vintage hardware miners (PowerPC G4/G5, POWER8) with RTC tokens
+site: https://github.com/Scottcjn/Rustchain
+tags:
+- python
+- blockchain
+- cryptography
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Scottcjn/Rustchain/labels/good%20first%20issue

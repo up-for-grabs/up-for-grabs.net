@@ -1,7 +1,7 @@
 ---
 name: owljs
 desc: Backbone-like front-end MVC library without underscore.js and jQuery dependency
-site: http://owljs.org/
+site: https://github.com/owljsorg/owljs
 tags:
 - javascript
 - web

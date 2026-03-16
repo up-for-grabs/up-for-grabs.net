@@ -1,0 +1,12 @@
+name: Orcbot
+desc: Plan, execute, self-repair, and stay local. OrcBot is built for real operations — multi-agent, memory-aware, and always on your hardware.
+site: https://orcbot.vercel.app/
+tags:
+  - personal
+  - agents
+  - ai
+  - orchestration
+  - project
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/fredabila/orcbot/labels/up%20for%20grabs

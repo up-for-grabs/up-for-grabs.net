@@ -1,0 +1,16 @@
+---
+name: Shiori
+desc: A Beautiful and Feature-rich Wallpaper App with planned Cross-sharing support built in React-native.
+site: https://github.com/brianali-codes/shiori
+tags:
+- wallpapers
+- react-native
+- material-design
+- android
+- apk
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Brianali-codes/Shiori/labels/up%20for%20grabs
+stats:
+  issue-count: 0
+  fork-count: 3

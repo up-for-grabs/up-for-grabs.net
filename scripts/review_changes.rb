@@ -3,7 +3,6 @@
 require 'safe_yaml'
 require 'uri'
 require 'octokit'
-require 'pathname'
 require 'graphql/client'
 require 'graphql/client/http'
 

@@ -9,8 +9,8 @@ tags:
 - datascience
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/CSBiology/BioFSharp/labels/up-for-grabs
+  link: https://github.com/BioFSharp/BioFSharp/labels/up-for-grabs
 stats:
-  issue-count: 6
-  last-updated: '2020-07-21T10:33:15Z'
-  fork-count: 33
+  issue-count: 2
+  last-updated: '2025-10-02T07:58:04Z'
+  fork-count: 34

@@ -8,7 +8,7 @@ tags:
 - web
 upforgrabs:
   name: 'info: up for grabs'
-  link: https://github.com/grails/grails-core/labels/info%3A%20up%20for%20grabs
+  link: https://github.com/apache/grails-core/labels/info%3A%20up%20for%20grabs
 stats:
   issue-count: 0
-  fork-count: 954
+  fork-count: 969

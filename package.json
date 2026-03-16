@@ -28,7 +28,7 @@
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.6",
+    "@astrojs/check": "^0.9.7",
     "@astrojs/vue": "^5.1.4",
     "@babel/core": "^7.29.0",
     "@eslint/eslintrc": "^3.3.3",

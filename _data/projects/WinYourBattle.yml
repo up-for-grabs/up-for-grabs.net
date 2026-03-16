@@ -1,7 +1,7 @@
 ---
 name: WinYourBattle
 desc: An addiction tracker web app
-site: https://winyourbattle.ddns.net
+site: https://github.com/sharkpause/WinYourBattle
 tags:
 - javascript
 - laravel

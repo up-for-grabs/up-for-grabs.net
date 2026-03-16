@@ -1,7 +1,7 @@
 ---
 name: monument
 desc: event driven lightweight application framework for node
-site: http://monument.ansble.com
+site: https://monument.ansble.com
 tags:
 - javascript
 - server

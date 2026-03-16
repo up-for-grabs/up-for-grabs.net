@@ -1,6 +1,6 @@
 name: Apache DataFu
 desc: DataFu is a collection of libraries for working with large-scale data in Hadoop.
-site: http://datafu.apache.org/
+site: https://datafu.apache.org/
 tags:
 - scala
 - apache

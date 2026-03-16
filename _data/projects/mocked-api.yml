@@ -1,7 +1,7 @@
 ---
 name: Mocked-API
 desc: A set of FREE Api's that allow you to fill your application with mocked data
-site: https://mocked-api.dev/
+site: https://github.com/ageddesi/Mocked-API
 tags:
 - typescipt
 - api

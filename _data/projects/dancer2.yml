@@ -1,7 +1,7 @@
 ---
 name: Dancer2
 desc: Fast, flexible, modern Perl web framework
-site: http://www.perldancer.org/
+site: https://www.perldancer.org/
 tags:
 - perl
 - web

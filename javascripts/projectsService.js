@@ -242,7 +242,7 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
       if (!filteredProjects) {
         return _.take(_.values(tagsMap), popularTagCount || 10);
       }
-      
+
       // Recalculate tag frequencies based on the filtered projects
       const filteredTagsMap = {};
       _.each(filteredProjects, (project) => {
@@ -253,19 +253,25 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
               filteredTagsMap[lowerTagName] = {
                 name: tagName,
                 frequency: 0,
-                projects: []
+                projects: [],
               };
             }
             filteredTagsMap[lowerTagName].frequency += 1;
-            if (filteredTagsMap[lowerTagName].projects.indexOf(project.name) === -1) {
+            if (
+              filteredTagsMap[lowerTagName].projects.indexOf(project.name) ===
+              -1
+            ) {
               filteredTagsMap[lowerTagName].projects.push(project.name);
             }
           });
         }
       });
-      
+
       // Sort by frequency (descending) and return top N
-      const sortedTags = _.sortBy(_.values(filteredTagsMap), (tag) => -tag.frequency);
+      const sortedTags = _.sortBy(
+        _.values(filteredTagsMap),
+        (tag) => -tag.frequency
+      );
       return _.take(sortedTags, popularTagCount || 10);
     };
   };

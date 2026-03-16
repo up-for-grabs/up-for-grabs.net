@@ -250,9 +250,7 @@ define([
       ).appendTo(a);
       return;
     }
-    count = $(
-      '<span class="count"><img/></span>'
-    ).appendTo(a);
+    count = $('<span class="count"><img/></span>').appendTo(a);
     const ownerAndName = gh[1];
     const labelEncoded = gh[2];
     fetchIssueCount(ownerAndName, labelEncoded).then(

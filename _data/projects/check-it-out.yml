@@ -1,7 +1,7 @@
 ---
 name: check-it-out
 desc: A command line interface for Git Checkout
-site: http://checkit.club
+site: https://checkit.club
 tags:
 - git
 - github

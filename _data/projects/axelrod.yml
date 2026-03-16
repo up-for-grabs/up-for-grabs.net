@@ -1,7 +1,7 @@
 ---
 name: Axelrod-Python
 desc: A research tool to run Iterated Prisoner's Dilemma tournaments.
-site: http://axelrod.readthedocs.io/en/latest/
+site: https://axelrod.readthedocs.io/en/latest/
 tags:
 - oss
 - python
@@ -12,4 +12,4 @@ upforgrabs:
 stats:
   issue-count: 4
   last-updated: '2021-01-04T00:49:28Z'
-  fork-count: 283
+  fork-count: 285

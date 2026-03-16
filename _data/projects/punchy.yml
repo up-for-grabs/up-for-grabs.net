@@ -1,7 +1,7 @@
 ---
 name: Punchy
 desc: A 2.5D side-scroller beatemup, made in Bevy
-site: https://fishfolks.github.io/punchy/player/latest/
+site: https://github.com/fishfolk/punchy
 tags:
 - bevy
 - game
@@ -15,4 +15,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2024-07-24T23:03:08Z'
-  fork-count: 34
+  fork-count: 32

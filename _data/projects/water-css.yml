@@ -1,7 +1,7 @@
 ---
 name: water.css
 desc: A just-add-css collection of styles to make simple websites just a little nicer.
-site: https://watercss.netlify.com/
+site: https://watercss.kognise.dev/
 tags:
 - css
 - sass
@@ -13,5 +13,5 @@ upforgrabs:
   link: https://github.com/kognise/water.css/labels/help%20wanted
 stats:
   issue-count: 3
-  last-updated: '2024-10-02T07:32:07Z'
-  fork-count: 501
+  last-updated: '2026-02-24T12:54:50Z'
+  fork-count: 502

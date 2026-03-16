@@ -1,0 +1,23 @@
+---
+name: Data Research Analysis
+desc: >-
+  Stop Guessing. Start Dominating Your Market. The only data platform built for CMOs who need to prove
+  ROI, unite their team, and get home in time for dinner.
+site: https://github.com/Data-Research-Analysis/data-research-analysis-platform
+tags:
+- data-science
+- data-visualization
+- data-engineering
+- data-analytics
+- data-analysis
+- data-dashboard
+- marketing-analytics
+- data-modelling
+- data-modelling-and-data-design
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Data-Research-Analysis/data-research-analysis-platform/issues
+stats:
+  issue-count: 13
+  last-updated: '2026-03-08T22:59:14Z'
+  fork-count: 2

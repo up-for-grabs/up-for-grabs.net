@@ -3,7 +3,7 @@ name: Serilog
 desc: >-
   Simple .NET logging with fully-structured events. Serilog combines the best features of traditional
   and structured diagnostic logging in an easy-to-use package
-site: http://serilog.net
+site: https://serilog.net
 tags:
 - logging
 - events
@@ -15,6 +15,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/serilog/serilog/labels/up-for-grabs
 stats:
-  issue-count: 1
-  last-updated: '2025-12-15T21:47:18Z'
-  fork-count: 843
+  issue-count: 0
+  fork-count: 857

@@ -1,0 +1,10 @@
+---
+name: RAM Coffers
+desc: NUMA-aware weight banking for LLM inference on POWER8 with neuromorphic cognitive routing
+site: https://github.com/Scottcjn/ram-coffers
+tags:
+- c
+- machine-learning
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Scottcjn/ram-coffers/labels/good%20first%20issue

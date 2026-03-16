@@ -3,7 +3,7 @@ name: Quantum Electronics Design Automation!
 desc: >-
   QEDA allows you to design and build real, affordable, room-temperature stable, and scalable quantum
   hardware at home!
-site: https://www.spookymanufacturing.com/QEDA/
+site: https://github.com/Spooky-Manufacturing/QEDA
 tags:
 - quantum
 - electronics

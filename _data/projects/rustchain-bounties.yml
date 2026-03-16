@@ -1,0 +1,10 @@
+---
+name: RustChain Bounties
+desc: Community bounty board for RustChain ecosystem - earn RTC tokens for contributions
+site: https://github.com/Scottcjn/rustchain-bounties
+tags:
+- markdown
+- blockchain
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Scottcjn/rustchain-bounties/labels/good%20first%20issue

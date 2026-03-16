@@ -18,16 +18,16 @@ git clone https://github.com/up-for-grabs/up-for-grabs.net.git
 If you have a fork of the repository on GitHub, replace the first `up-for-grabs`
 with your GitHub account.
 
-We require Ruby 3, Bundler 2.2 and Node 16+ to test the site. You can check
+We require Ruby 4, Bundler 2.x and Node 24+ to test the site. You can check
 these are present by running these commands in a terminal:
 
 ```
 $ ruby -v
-ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-darwin18]
+ruby 4.0.0 [x86_64-darwin]
 $ bundle -v
-Bundler version 2.2.33
+Bundler version 2.x.x
 $ node -v
-v22.2.0
+v24.x.x
 ```
 
 ## Testing the site
@@ -63,9 +63,9 @@ The site should be accessible in your browser at `localhost:4000`.
 contributors who don't want to install the tooling locally. Check the setup
 instructions for your OS for more information:
 
-- [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
-- [Docker for macOS](https://docs.docker.com/docker-for-mac/install/)
-- [Other platforms, including Linux distros](https://docs.docker.com/v17.12/install/)
+- [Docker for Windows](https://docs.docker.com/desktop/install/windows-install/)
+- [Docker for macOS](https://docs.docker.com/desktop/install/mac-install/)
+- [Other platforms, including Linux distros](https://docs.docker.com/engine/install/)
 
 Once you have that installed, use the `docker-compose` command to build and
 view the site:

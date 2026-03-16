@@ -1,0 +1,16 @@
+---
+name: AI Seeds
+desc: "Free, open-source, multilingual AI education platform. Learn AI from zero — no coding experience needed."
+site: https://open-ai-school.vercel.app
+tags:
+- ai
+- education
+- nextjs
+- typescript
+- tensorflow
+- machine-learning
+- reactjs
+- opensource
+upforgrabs:
+  name: good first issue
+  link: https://github.com/open-ai-school/ai-seeds/labels/good%20first%20issue

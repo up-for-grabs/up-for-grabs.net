@@ -161,7 +161,7 @@ define([
         const tags = prepareForHTML(getParameterByName('tags')) || [];
         selectedTag = (e.currentTarget.innerText).split("\n")[0] || '';
         if(!tags.includes(selectedTag)) {
-        var component = $(`
+        const component = $(`
           <li class="search-choice">
           <span>${selectedTag}</span>
           <a class="search-choice-close" data-option-array-index="2"></a>

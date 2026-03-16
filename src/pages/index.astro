@@ -1,0 +1,19 @@
+---
+import SearchResults from '../components/search/SearchResults.vue';
+import Progress from '../components/Progress.astro';
+import Layout from '../layouts/Layout.astro';
+
+import { InitialProjects } from '../components/data/projects';
+---
+
+<Layout>
+  <div id="main-container" class="container">
+    <Progress />
+    <article id="projects" class="block">
+      <section class="block">
+        <h1>Projects</h1>
+        <SearchResults client:visible projects={InitialProjects} />
+      </section>
+    </article>
+  </div>
+</Layout>

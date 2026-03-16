@@ -1,6 +1,6 @@
 ---
 name: Project 16x16
-desc: Epic 2D Platformer video game made with Processing 3
+desc: Epic 2D Platformer video game made with Processing 3 - beginner-friendly
 site: https://github.com/Stephcraft/Project-16x16
 tags:
 - 2d
@@ -16,4 +16,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2024-12-27T01:06:56Z'
-  fork-count: 77
+  fork-count: 80

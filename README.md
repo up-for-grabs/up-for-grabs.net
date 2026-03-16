@@ -18,9 +18,9 @@ If you know of or own a project that should be listed on Up for Grabs,
 If you would like to get involved with the project, please read the
 [CONTRIBUTING.md](.github/CONTRIBUTING.md) file as it contains:
 
- - Instructions about getting your environment setup
- - Guidance for testing locally
- - Commands to run to verify changes
+- Instructions about getting your environment setup
+- Guidance for testing locally
+- Commands to run to verify changes
 
 ## How does the site work?
 
@@ -71,3 +71,16 @@ Thanks to these wonderful people who have improved the code and documentation to
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
+
+## 🧞 New beta site
+
+To work with the new beta site, you need to have a recent version of Node.js installed. Then you can run these command to interact with the new site:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./_site/beta/`    |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |

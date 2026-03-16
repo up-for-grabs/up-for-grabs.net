@@ -26,6 +26,10 @@ define([
   let compiledtemplateFn = null,
     projectsPanel = null;
 
+  // Pagination constants
+  const PROJECTS_PER_PAGE = 15;
+  let currentPage = 1;
+
   setupDarkModeListener();
 
   const getFilterUrl = function () {
@@ -66,10 +70,21 @@ define([
 
   const renderProjects = function (projectService, tags, names, labels, date) {
     const allTags = projectService.getTags();
+    const allFilteredProjects = projectService.get(tags, names, labels, date);
+    const totalProjects = allFilteredProjects.length;
+    const totalPages = Math.ceil(totalProjects / PROJECTS_PER_PAGE);
+
+    if (currentPage > totalPages) currentPage = 1;
+
+    // Slice projects to current page only
+    const pagedProjects = allFilteredProjects.slice(
+      (currentPage - 1) * PROJECTS_PER_PAGE,
+      currentPage * PROJECTS_PER_PAGE
+    );
 
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectService.get(tags, names, labels, date),
+        projects: pagedProjects, // [MODIFIED] was: projectService.get(tags, names, labels, date)
         relativeTime,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
@@ -93,6 +108,7 @@ define([
       .val(tags)
       .trigger('chosen:updated')
       .change(function () {
+        currentPage = 1;
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'tags',
@@ -110,6 +126,7 @@ define([
       .val(names)
       .trigger('chosen:updated')
       .change(function () {
+        currentPage = 1;
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'names',
@@ -129,6 +146,7 @@ define([
           id = '';
         }
 
+        currentPage = 1;
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'date',
@@ -146,6 +164,7 @@ define([
       .val(labels)
       .trigger('chosen:updated')
       .change(function () {
+        currentPage = 1;
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'labels',
@@ -178,9 +197,77 @@ define([
             'tags',
             encodeURIComponent(tags)
           );
+      $(elem).on('click', function () {
+        selTags = $('.tags-filter').val() || [];
+        selectedTag = preparePopTagName($(this).text() || '');
+        if (selectedTag) {
+          tagID = allTags
+            .map((tag) => tag.name.toLowerCase())
+            .indexOf(selectedTag);
+          if (tagID !== -1) {
+            selTags.push(selectedTag);
+            currentPage = 1;
+            location.href = updateQueryStringParameter(
+              getFilterUrl(),
+              'tags',
+              encodeURIComponent(selTags)
+            );
+          }
         }
       });
     });
+
+    // Render pagination controls
+    const paginationEl = projectsPanel.find('#pagination-controls');
+    paginationEl.empty();
+
+    if (totalPages > 1) {
+      if (currentPage > 1) {
+        paginationEl.append(
+          `<button class="radio-btn pagination-btn" id="prev-page">&#8592; Prev</button>`
+        );
+      }
+
+      for (let i = 1; i <= totalPages; i++) {
+        if (
+          i === 1 ||
+          i === totalPages ||
+          (i >= currentPage - 1 && i <= currentPage + 1)
+        ) {
+          paginationEl.append(
+            `<button class="radio-btn pagination-btn ${i === currentPage ? 'radio-btn-selected' : ''}" data-page="${i}">${i}</button>`
+          );
+        } else if (i === currentPage - 2 || i === currentPage + 2) {
+          paginationEl.append(
+            `<span class="pagination-ellipsis">&#8230;</span>`
+          );
+        }
+      }
+
+      if (currentPage < totalPages) {
+        paginationEl.append(
+          `<button class="radio-btn pagination-btn" id="next-page">Next &#8594;</button>`
+        );
+      }
+
+      paginationEl.find('#prev-page').on('click', () => {
+        currentPage -= 1;
+        renderProjects(projectService, tags, names, labels, date);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      paginationEl.find('#next-page').on('click', () => {
+        currentPage += 1;
+        renderProjects(projectService, tags, names, labels, date);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      paginationEl.find('.pagination-btn[data-page]').on('click', function () {
+        currentPage = parseInt($(this).data('page'));
+        renderProjects(projectService, tags, names, labels, date);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
   };
   /*
     This is a utility method to help update a list items Name parameter to make

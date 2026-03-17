@@ -83,7 +83,8 @@ menu {
 
 .form-wrapper {
   overflow: hidden;
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
 }
 
 .form-wrapper #search {
@@ -95,7 +96,8 @@ menu {
   float: left;
   height: 20px;
   padding: 10px;
-  width: 560px;
+  width: calc(100% - 120px);
+  min-width: 0;
 }
 
 .form-wrapper #search:focus {
@@ -121,6 +123,22 @@ menu {
 
 .results-count {
   margin: 2em 0;
+}
+
+@media (max-width: 640px) {
+  .form-wrapper #search {
+    float: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-wrapper #submit {
+    float: none;
+    display: block;
+    width: 100%;
+  }
 }
 </style>
 

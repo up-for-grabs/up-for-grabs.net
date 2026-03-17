@@ -1018,10 +1018,6 @@ ul.tags li {
     max-width: 100%;
   }
 
-  .filters-panel {
-    overflow: hidden;
-  }
-
   .filter-label {
     display: block;
   }

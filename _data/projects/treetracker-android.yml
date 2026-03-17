@@ -1,11 +1,16 @@
+---
 name: TreeTracker Android
 desc: Android application used to capture geotagged images of trees for ecosystem restoration projects.
 site: https://github.com/Greenstand/treetracker-android
 tags:
-  - android
-  - kotlin
-  - mobile
-  - climate
+- android
+- kotlin
+- mobile
+- climate
 upforgrabs:
   name: good first issue
   link: https://github.com/Greenstand/treetracker-android/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2026-03-10T07:14:07Z'
+  fork-count: 99

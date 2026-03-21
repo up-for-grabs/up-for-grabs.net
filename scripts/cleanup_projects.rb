@@ -111,8 +111,7 @@ return unless root
 return if existing_pull_request?(current_repo)
 
 projects = Project.find_in_directory(root)
-github_projects = projects.filter(&:github_project?)
-non_github_projects = projects.reject(&:github_project?)
+github_projects, non_github_projects = projects.partition(&:github_project?)
 
 results = github_projects.map { |p| verify_project(p) }
 

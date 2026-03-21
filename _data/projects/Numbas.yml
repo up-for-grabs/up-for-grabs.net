@@ -4,7 +4,7 @@ desc: >-
   An e-assessment system aimed at mathematical disciplines. It produces SCORM packages - everything happens
   on the client in JavaScript! The package compiler is written in Python. There's plenty for someone with
   a good knowledge of maths to work on.
-site: http://www.numbas.org.uk/contributing-to-numbas/
+site: https://www.numbas.org.uk/contributing-to-numbas/
 tags:
 - python
 - javascript
@@ -24,4 +24,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2025-04-01T08:22:39Z'
-  fork-count: 127
+  fork-count: 125

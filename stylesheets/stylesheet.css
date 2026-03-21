@@ -1013,8 +1013,6 @@ ul.tags li {
   }
 
   select {
-    box-sizing: border-box;
-    width: 100%;
     max-width: 100%;
   }
 
@@ -1083,6 +1081,16 @@ ul.tags li {
 
 .filters-panel {
   margin-bottom: 20px;
+}
+
+.filters-panel .chosen-container {
+  width: 100% !important;
+  max-width: 100%;
+}
+
+.filters-panel .chosen-container .chosen-choices {
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .projects .stats {

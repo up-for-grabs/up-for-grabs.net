@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitest/config';
 
+import vue from '@vitejs/plugin-vue';
+
 export default defineConfig({
   test: {
     // Jest-like globals
@@ -13,4 +15,5 @@ export default defineConfig({
     },
     setupFiles: ['vitest-localstorage-mock', 'tests/setupVitest.ts'],
   },
+  plugins: [vue()],
 });

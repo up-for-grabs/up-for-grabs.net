@@ -1,0 +1,12 @@
+name: Billionaire Smash
+desc: Facemash for the Forbes Real-Time Billionaires list. Compare two billionaires head-to-head and vote on who wins, with rankings updated based on votes.
+site: https://bsmash.app
+tags:
+  - nextjs
+  - typescript
+  - prisma
+  - tailwindcss
+  - voting
+upforgrabs:
+  name: good first issue
+  link: https://github.com/apoorvdarshan/billionaire-smash/labels/good%20first%20issue

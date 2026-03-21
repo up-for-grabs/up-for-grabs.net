@@ -1,7 +1,4 @@
-import { defineConfig } from 'vitest/config'
-
-import babel from 'vite-plugin-babel'
-import commonjs from 'vite-plugin-commonjs'
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   test: {
@@ -14,18 +11,6 @@ export default defineConfig({
       provider: 'v8', // or 'istanbul'
       reporter: ['text', 'json', 'html'],
     },
-    setupFiles: [
-        'vitest-localstorage-mock',
-        'tests/setupVitest.ts'
-    ],
+    setupFiles: ['vitest-localstorage-mock', 'tests/setupVitest.ts'],
   },
-//    plugins: [
-//         babel({
-//             babelConfig: {
-//                 plugins: ['transform-amd-to-commonjs'],
-//             },
-//             include: ['javascripts/*.js'],
-//         }),
-//         commonjs(),
-//     ],
-})
+});

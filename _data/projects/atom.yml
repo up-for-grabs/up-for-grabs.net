@@ -1,0 +1,23 @@
+---
+name: ATOM Platform
+desc: >-
+  The AI Workforce for Your Entire Business. Automate your workflows by talking to an AI — and let it
+  remember, search, and handle tasks like a real assistant.
+site: https://github.com/rush86999/atom
+tags:
+- ai
+- automation
+- python
+- nextjs
+- typescript
+- workflows
+- agents
+- llm
+- mcp
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/rush86999/atom/issues?q=is%3Aopen+is%3Aissue+label%3A%22up+for+grabs%22
+stats:
+  issue-count: 1
+  last-updated: '2026-01-11T14:29:43Z'
+  fork-count: 67

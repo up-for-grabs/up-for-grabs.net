@@ -6,9 +6,18 @@ if (typeof define !== 'function') {
 }
 
 define([], () => {
-  const storedValue = window.sessionStorage.getItem('mode');
-  // default to light mode if no stored value found, or stored value is anything else
-  let lightModeEnabled = !(storedValue && storedValue === 'dark');
+  const storedValue = window.localStorage.getItem('mode');
+
+  let lightModeEnabled = true;
+
+  if (storedValue) {
+    lightModeEnabled = storedValue === 'light';
+  } else {
+    // no stored theme - let's check user's preference
+    lightModeEnabled = !window.matchMedia('(prefers-color-scheme: dark)')
+      .matches;
+    window.localStorage.setItem('mode', lightModeEnabled ? 'light' : 'dark');
+  }
 
   const root = document.documentElement;
 
@@ -76,7 +85,7 @@ define([], () => {
    * @param {"dark" | "light"} value
    */
   function updateValue(value) {
-    window.sessionStorage.setItem('mode', value);
+    window.localStorage.setItem('mode', value);
     lightModeEnabled = value === 'light';
   }
 

@@ -1,0 +1,15 @@
+name: Hound MCP
+desc: Dependency security scanner for AI coding agents — scans vulnerabilities, licenses, typosquats in your project.
+site: https://github.com/tiluckdave/hound-mcp
+tags:
+  - typescript
+  - security
+  - mcp
+  - ai
+  - npm
+  - dependency-scanning
+  - supply-chain
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/tiluckdave/hound-mcp/labels/good%20first%20issue

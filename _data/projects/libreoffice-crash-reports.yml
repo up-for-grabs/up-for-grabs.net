@@ -1,7 +1,7 @@
 ---
 name: LibreOffice Crash Reports
 desc: Django-based website with statistics about LibreOffice crash reports
-site: http://crashreport.libreoffice.org/stats/
+site: https://crashreport.libreoffice.org/stats/
 tags:
 - libreoffice
 - office
@@ -20,4 +20,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2020-10-11T13:14:01Z'
-  fork-count: 21
+  fork-count: 20

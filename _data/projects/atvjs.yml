@@ -1,7 +1,7 @@
 ---
 name: atvjs
 desc: Blazing fast Apple TV application development using pure JavaScript
-site: https://emadalam.github.io/atvjs
+site: https://github.com/emadalam/atvjs
 tags:
 - javascript
 - apple-tv
@@ -16,4 +16,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2021-10-25T17:11:04Z'
-  fork-count: 49
+  fork-count: 47

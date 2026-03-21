@@ -12,6 +12,5 @@ upforgrabs:
   name: good first issue
   link: https://github.com/fastapi/fastapi/labels/good%20first%20issue
 stats:
-  issue-count: 2
-  last-updated: '2024-12-25T09:36:03Z'
-  fork-count: 6764
+  issue-count: 0
+  fork-count: 8899

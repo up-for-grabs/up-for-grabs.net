@@ -1,0 +1,17 @@
+---
+name: Markdown Reader
+desc: A simple markdown viewer built with Python, designed for desktop users to open `.md` files directly.
+site: https://github.com/petertzy/markdown-reader
+tags:
+- python
+- markdown
+- desktop
+- open-source
+repo: https://github.com/petertzy/markdown-reader
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/petertzy/markdown-reader/labels/up-for-grabs
+stats:
+  issue-count: 14
+  last-updated: '2026-03-20T09:35:10Z'
+  fork-count: 21

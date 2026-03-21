@@ -4,7 +4,7 @@ desc: >-
   Python web framework for building enterprise-ready apps. Higher level framework (built on top of Django),
   strives to handle all components of application logics that are needed for enterprise readiness at the
   framework level.
-site: https://www.zelthy.com/framework
+site: https://www.zelthy.com
 tags:
 - python
 - django
@@ -24,6 +24,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/Healthlane-Technologies/Zango/labels/good%20first%20issue
 stats:
-  issue-count: 5
-  last-updated: '2024-11-17T09:06:46Z'
-  fork-count: 55
+  issue-count: 2
+  last-updated: '2024-07-26T09:58:17Z'
+  fork-count: 67

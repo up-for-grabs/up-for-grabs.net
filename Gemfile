@@ -2,14 +2,14 @@
 
 source 'https://rubygems.org'
 
-ruby '~> 3.4'
+ruby '~> 4.0'
 
 gem 'jekyll'
 
 gem 'json_schemer'
 gem 'csv'
 
-gem 'graphql', '~> 2.4.4'
+gem 'graphql', '~> 2.5.21'
 gem 'graphql-client'
 gem 'octokit'
 gem 'safe_yaml'

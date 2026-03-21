@@ -1,7 +1,7 @@
 ---
 name: bpython
 desc: A fancy interface to the Python interpreter
-site: http://bpython-interpreter.org/
+site: https://bpython-interpreter.org/
 tags:
 - python
 upforgrabs:
@@ -10,4 +10,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2022-01-13T15:53:49Z'
-  fork-count: 241
+  fork-count: 252

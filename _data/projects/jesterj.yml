@@ -1,7 +1,7 @@
 ---
 name: JesterJ
 desc: Free Open Source Search focused Document Ingestion system.
-site: http://www.jesterj.org/
+site: https://www.jesterj.org/
 tags:
 - search
 - etl
@@ -12,4 +12,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2023-04-08T16:43:24Z'
-  fork-count: 33
+  fork-count: 32

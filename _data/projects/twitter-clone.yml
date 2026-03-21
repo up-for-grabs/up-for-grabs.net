@@ -1,0 +1,24 @@
+---
+name: twitter-clone
+desc: >-
+  TwClone is a Twitter replica designed to showcase cutting-edge technologies, foster knowledge sharing,
+  and cultivate a supportive developer community.
+site: https://github.com/Pajkic-lab/twitter-clone
+tags:
+- typescript
+- nx
+- node.js
+- nestjs
+- prisma
+- pg
+- reactjs
+- styledcomponents
+- reactquery
+- jest
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Pajkic-lab/twitter-clone/labels/good%20first%20issue
+stats:
+  issue-count: 11
+  last-updated: '2026-01-25T21:19:24Z'
+  fork-count: 11

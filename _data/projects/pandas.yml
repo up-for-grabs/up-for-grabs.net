@@ -1,7 +1,7 @@
 ---
 name: pandas
 desc: Powerful Python data analysis toolkit.
-site: http://pandas.pydata.org/
+site: https://pandas.pydata.org/
 tags:
 - python
 - data
@@ -9,6 +9,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/pandas-dev/pandas/labels/good%20first%20issue
 stats:
-  issue-count: 58
-  last-updated: '2024-12-30T07:41:29Z'
-  fork-count: 18096
+  issue-count: 32
+  last-updated: '2026-03-19T18:06:01Z'
+  fork-count: 19763

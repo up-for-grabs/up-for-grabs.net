@@ -1,7 +1,7 @@
 ---
 name: seneca
 desc: A microservices toolkit for Node.js
-site: http://senecajs.org/
+site: https://senecajs.org/
 tags:
 - javascript
 - node.js
@@ -13,4 +13,4 @@ upforgrabs:
 stats:
   issue-count: 13
   last-updated: '2022-10-11T11:16:55Z'
-  fork-count: 311
+  fork-count: 310

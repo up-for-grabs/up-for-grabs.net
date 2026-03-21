@@ -176,34 +176,15 @@ define([
       Adds popular tags to the tag search query when a popular tag element is clicked.
     */
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
-      $(elem).on('click', function (e) {
-        const tags = prepareForHTML(getParameterByName('tags')) || [];
-        selectedTag = e.currentTarget.innerText.split('\n')[0] || '';
-        if (!tags.includes(selectedTag)) {
-          const component = $(`
-          <li class="search-choice">
-          <span>${selectedTag}</span>
-          <a class="search-choice-close" data-option-array-index="2"></a>
-          </li>
-          `);
-          projectsPanel
-            .find(
-              'select.tags-filter + .chosen-container .chosen-choices .search-field'
-            )
-            .prepend(component);
-          tags.push(selectedTag);
-          location.href = updateQueryStringParameter(
-            getFilterUrl(),
-            'tags',
-            encodeURIComponent(tags)
-          );
       $(elem).on('click', function () {
-        selTags = $('.tags-filter').val() || [];
-        selectedTag = preparePopTagName($(this).text() || '');
+        let selTags = $('.tags-filter').val() || [];
+        let selectedTag = preparePopTagName($(this).text() || '');
+
         if (selectedTag) {
-          tagID = allTags
+          let tagID = allTags
             .map((tag) => tag.name.toLowerCase())
             .indexOf(selectedTag);
+
           if (tagID !== -1) {
             selTags.push(selectedTag);
             currentPage = 1;
@@ -216,59 +197,6 @@ define([
         }
       });
     });
-
-    // Render pagination controls
-    const paginationEl = projectsPanel.find('#pagination-controls');
-    paginationEl.empty();
-
-    if (totalPages > 1) {
-      if (currentPage > 1) {
-        paginationEl.append(
-          `<button class="radio-btn pagination-btn" id="prev-page">&#8592; Prev</button>`
-        );
-      }
-
-      for (let i = 1; i <= totalPages; i++) {
-        if (
-          i === 1 ||
-          i === totalPages ||
-          (i >= currentPage - 1 && i <= currentPage + 1)
-        ) {
-          paginationEl.append(
-            `<button class="radio-btn pagination-btn ${i === currentPage ? 'radio-btn-selected' : ''}" data-page="${i}">${i}</button>`
-          );
-        } else if (i === currentPage - 2 || i === currentPage + 2) {
-          paginationEl.append(
-            `<span class="pagination-ellipsis">&#8230;</span>`
-          );
-        }
-      }
-
-      if (currentPage < totalPages) {
-        paginationEl.append(
-          `<button class="radio-btn pagination-btn" id="next-page">Next &#8594;</button>`
-        );
-      }
-
-      paginationEl.find('#prev-page').on('click', () => {
-        currentPage -= 1;
-        renderProjects(projectService, tags, names, labels, date);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-
-      paginationEl.find('#next-page').on('click', () => {
-        currentPage += 1;
-        renderProjects(projectService, tags, names, labels, date);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-
-      paginationEl.find('.pagination-btn[data-page]').on('click', function () {
-        currentPage = parseInt($(this).data('page'));
-        renderProjects(projectService, tags, names, labels, date);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-    }
-  };
 
     // Render pagination controls
     const paginationEl = projectsPanel.find('#pagination-controls');

@@ -18,6 +18,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/eclipse-theia/theia/labels/help%20wanted
 stats:
-  issue-count: 256
-  last-updated: '2026-03-03T17:28:52Z'
-  fork-count: 2801
+  issue-count: 200
+  last-updated: '2026-03-18T16:46:40Z'
+  fork-count: 2808

@@ -1,7 +1,7 @@
 ---
 name: Hoodie
 desc: Backend for Offline First Applications
-site: http://hood.ie
+site: https://hood.ie
 tags:
 - javascript
 - web

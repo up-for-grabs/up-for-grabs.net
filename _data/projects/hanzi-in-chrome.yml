@@ -1,0 +1,14 @@
+---
+name: Hanzi
+desc: Give your AI agent a real browser. MCP server + Chrome extension for task-level browser automation.
+site: https://github.com/hanzili/hanzi-in-chrome
+tags:
+- javascript
+- typescript
+- chrome-extension
+- ai
+- browser-automation
+- mcp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hanzili/hanzi-in-chrome/labels/good%20first%20issue

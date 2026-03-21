@@ -1,7 +1,7 @@
 ---
 name: CiviWiki
 desc: Building a Better Democracy for the Internet Age
-site: https://civi.wiki
+site: https://github.com/CiviWiki/OpenCiviWiki
 tags:
 - python
 - django

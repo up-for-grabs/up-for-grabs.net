@@ -1,0 +1,11 @@
+name: Daxerly
+desc: Proof of work, formatted as a receipt — a daily work receipt generator with a price tag on it.
+site: https://daxerly.vercel.app
+tags:
+  - nextjs
+  - typescript
+  - prisma
+  - productivity
+upforgrabs:
+  name: good first issue
+  link: https://github.com/apoorvdarshan/daxerly/labels/good%20first%20issue

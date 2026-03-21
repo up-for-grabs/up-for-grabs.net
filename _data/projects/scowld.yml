@@ -1,0 +1,13 @@
+name: Scowld
+desc: An open-source AI companion app for iOS with a 3D anime avatar, hands-free voice chat, real-time vision, and persistent memory.
+site: https://scowld.vercel.app
+tags:
+  - swift
+  - swiftui
+  - ios
+  - ai
+  - three.js
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/apoorvdarshan/scowld/labels/good%20first%20issue

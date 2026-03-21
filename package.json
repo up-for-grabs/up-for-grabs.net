@@ -28,8 +28,8 @@
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.7",
-    "@astrojs/vue": "^6.0.0",
+    "@astrojs/check": "^0.9.8",
+    "@astrojs/vue": "^6.0.1",
     "@babel/core": "^7.29.0",
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^10.0.1",
@@ -39,7 +39,7 @@
     "@types/underscore": "^1.13.0",
     "@typescript-eslint/parser": "^8.56.0",
     "@vue/eslint-config-typescript": "^14.7.0",
-    "astro": "^6.0.4",
+    "astro": "^6.0.8",
     "babel-jest": "^30.3.0",
     "date-fns": "^4.1.0",
     "eslint": "^10.0.3",

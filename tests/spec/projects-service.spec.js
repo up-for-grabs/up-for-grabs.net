@@ -1,9 +1,13 @@
-/**
- * @jest-environment jsdom
- */
+const requirejs = require('requirejs');
+const path = require('path');
+
+requirejs.config({
+  baseUrl: path.join(__dirname, '../../javascripts/'),
+  nodeRequire: require,
+});
 
 const sampleProjects = require('../src/sampleProjects');
-const ProjectsService = require('../../javascripts/projectsService');
+const ProjectsService = requirejs('projectsService');
 
 describe('ProjectsService', () => {
   describe('simple project list', () => {

@@ -1,12 +1,16 @@
+---
 name: GitHub Readme Contribution Merger
 desc: Merge multiple GitHub users' contribution graphs into a single SVG heatmap for your readme.
 site: https://github-contribution-merger.vercel.app
 tags:
-  - github
-  - svg
-  - javascript
-  - contributions
-  - readme
+- github
+- svg
+- javascript
+- contributions
+- readme
 upforgrabs:
   name: good first issue
   link: https://github.com/apoorvdarshan/github-readme-contribution-merger/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 1

@@ -1,4 +1,3 @@
-import jest from 'eslint-plugin-jest';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import js from '@eslint/js';
@@ -13,12 +12,8 @@ const compat = new FlatCompat({
 });
 
 export default [
-  ...compat.extends('prettier', 'plugin:jest/recommended'),
+  ...compat.extends('prettier'),
   {
-    plugins: {
-      jest,
-    },
-
     rules: {
       'no-undef': 'off',
       'vars-on-top': 'off',

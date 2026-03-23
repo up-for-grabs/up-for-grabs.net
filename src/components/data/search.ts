@@ -79,27 +79,8 @@ export const SearchProjects = async (
     return response;
   }
 
-  const searchText = text.toLowerCase();
-
   const list = allProjects
-    .filter((project) => {
-      if (
-        project.stats.lastUpdated &&
-        isBefore(project.stats.lastUpdated, lastUpdated)
-      ) {
-        return false;
-      }
-
-      if (project.name.toLowerCase().indexOf(searchText) > -1) {
-        return true;
-      }
-
-      if (project.desc.toLowerCase().indexOf(searchText) > -1) {
-        return true;
-      }
-
-      return false;
-    })
+    .filter((project) => filterProject(project, text, lastUpdated))
     .sort((left, right) => {
       return left.name.localeCompare(right.name);
     });
@@ -111,3 +92,28 @@ export const SearchProjects = async (
 
   return response;
 };
+
+export function filterProject(
+  project: WebsiteProject,
+  searchText: string,
+  lastUpdated: Date
+): boolean {
+  const normalizedSearchText = searchText.toLowerCase();
+
+  if (
+    project.stats.lastUpdated &&
+    isBefore(project.stats.lastUpdated, lastUpdated)
+  ) {
+    return false;
+  }
+
+  if (project.name.toLowerCase().indexOf(normalizedSearchText) > -1) {
+    return true;
+  }
+
+  if (project.desc.toLowerCase().indexOf(normalizedSearchText) > -1) {
+    return true;
+  }
+
+  return false;
+}

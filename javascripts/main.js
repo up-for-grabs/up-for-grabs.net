@@ -234,16 +234,25 @@ define([
       paginationEl.find('#prev-page').on('click', () => {
         currentPage -= 1;
         renderProjects(projectService, tags, names, labels, date);
+        document
+          .querySelector('.projects')
+          .scrollIntoView({ behavior: 'smooth' });
       });
 
       paginationEl.find('#next-page').on('click', () => {
         currentPage += 1;
         renderProjects(projectService, tags, names, labels, date);
+        document
+          .querySelector('.projects')
+          .scrollIntoView({ behavior: 'smooth' });
       });
 
       paginationEl.find('.pagination-btn[data-page]').on('click', function () {
         currentPage = parseInt($(this).data('page'));
         renderProjects(projectService, tags, names, labels, date);
+        document
+          .querySelector('.projects')
+          .scrollIntoView({ behavior: 'smooth' });
       });
     }
   };

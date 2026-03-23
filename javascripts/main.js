@@ -231,6 +231,21 @@ define([
         );
       }
 
+      paginationEl.append(
+        `<div class="pagination-goto">
+          <input
+            type="number"
+            id="goto-page-input"
+            class="pagination-goto-input"
+            min="1"
+            max="${totalPages}"
+            placeholder="Go to"
+            aria-label="Go to page"
+          />
+          <button class="radio-btn pagination-btn" id="goto-page-btn">Go</button>
+        </div>`
+      );
+
       paginationEl.find('#prev-page').on('click', () => {
         currentPage -= 1;
         renderProjects(projectService, tags, names, labels, date);
@@ -253,6 +268,23 @@ define([
         document
           .querySelector('.projects')
           .scrollIntoView({ behavior: 'smooth' });
+      });
+
+      paginationEl.find('#goto-page-btn').on('click', () => {
+        const val = parseInt(paginationEl.find('#goto-page-input').val());
+        if (!isNaN(val) && val >= 1 && val <= totalPages) {
+          currentPage = val;
+          renderProjects(projectService, tags, names, labels, date);
+          document
+            .querySelector('.projects')
+            .scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+
+      paginationEl.find('#goto-page-input').on('keydown', function (e) {
+        if (e.key === 'Enter') {
+          paginationEl.find('#goto-page-btn').trigger('click');
+        }
       });
     }
   };

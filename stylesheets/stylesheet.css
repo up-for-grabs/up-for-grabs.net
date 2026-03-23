@@ -1121,6 +1121,22 @@ ul.tags li {
   fill: currentColor;
 }
 
+.pagination-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 2em 0;
+  align-items: center;
+}
+
+.pagination-ellipsis {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.25rem;
+  color: var(--body-color);
+}
+
 @media screen and (max-width : 670px) {
   #view-mode {
     position: fixed;

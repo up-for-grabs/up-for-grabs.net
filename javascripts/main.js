@@ -239,7 +239,7 @@ define([
             class="pagination-goto-input"
             min="1"
             max="${totalPages}"
-            placeholder="Go to"
+            placeholder="Enter page number"
             aria-label="Go to page"
           />
           <button class="radio-btn pagination-btn" id="goto-page-btn">Go</button>

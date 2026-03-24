@@ -1,7 +1,7 @@
 ---
 name: Bolt
 desc: A URL Shortener written in C# using ASP.NET Core
-site: https://bolturl.herokuapp.com
+site: https://github.com/monke8555/Bolt
 tags:
 - c#
 - ".net-core"

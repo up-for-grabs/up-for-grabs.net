@@ -1,7 +1,3 @@
-/**
- * @jest-environment jsdom
- */
-
 const fetchIssueCount = require('../../javascripts/fetchIssueCount');
 
 const defaultEtag = 'a00049ba79152d03380c34652f2cb612';
@@ -28,7 +24,7 @@ function stubFetchResult(items, etag) {
 }
 
 describe('fetchIssueCount', () => {
-  beforeEach(() => {
+  afterEach(() => {
     fetch.resetMocks();
     localStorage.clear();
   });
@@ -178,7 +174,7 @@ describe('fetchIssueCount', () => {
       );
 
       // ignore the JSON in the API response if a 304 is found
-      fetch.mockResponseOnce(JSON.stringify({}), {
+      fetch.mockResponseOnce(null, {
         status: 304,
         headers: [
           ['Content-Type', 'application/octet-stream'],
@@ -195,7 +191,7 @@ describe('fetchIssueCount', () => {
       const project = 'owner/project';
 
       // ignore the JSON in the API response if a 304 is found
-      fetch.mockResponseOnce(JSON.stringify({}), {
+      fetch.mockResponseOnce(null, {
         status: 304,
         headers: [
           ['Content-Type', 'application/octet-stream'],
@@ -204,6 +200,11 @@ describe('fetchIssueCount', () => {
       });
 
       const promise = fetchIssueCount(project, 'label');
+      try {
+        const result = await promise;
+      } catch (ex) {
+        console.log(`error`, ex);
+      }
 
       await expect(promise).resolves.toBe(0);
     });
@@ -340,6 +341,7 @@ describe('fetchIssueCount', () => {
     it('handles generic error', async () => {
       fetch.mockResponseOnce(JSON.stringify({}), {
         status: 404,
+        statusText: 'Not Found',
         headers: [['Content-Type', 'application/json']],
       });
 

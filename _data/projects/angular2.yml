@@ -10,6 +10,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/angular/angular/labels/help%20wanted
 stats:
-  issue-count: 40
-  last-updated: '2026-02-10T12:45:55Z'
-  fork-count: 27063
+  issue-count: 0
+  fork-count: 27135

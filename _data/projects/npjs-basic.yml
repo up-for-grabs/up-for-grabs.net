@@ -1,7 +1,7 @@
 ---
 name: npjs-basic
 desc: A numpy-like library for npm
-site: https://example.org/your-project-link-here
+site: https://github.com/hrishibawane/npjs-basic
 tags:
 - javascript
 - node.js

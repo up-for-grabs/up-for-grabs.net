@@ -38,7 +38,7 @@
     "@types/node": "^25",
     "@types/showdown": "^2.0.6",
     "@types/underscore": "^1.13.0",
-    "@typescript-eslint/parser": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.2",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vitest/coverage-v8": "^4.1.0",
     "@vue/eslint-config-typescript": "^14.7.0",

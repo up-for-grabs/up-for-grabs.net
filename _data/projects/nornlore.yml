@@ -1,0 +1,12 @@
+name: Nornlore
+desc: Discover what the universe was doing the day you were born — explore historical events, space missions, and cosmic phenomena by date.
+site: https://nornlore.vercel.app
+tags:
+  - nextjs
+  - typescript
+  - astronomy
+  - history
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/apoorvdarshan/nornlore/labels/good%20first%20issue

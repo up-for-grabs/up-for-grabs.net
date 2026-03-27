@@ -1,7 +1,7 @@
 ---
 name: Almond
 desc: The Open Source, Privacy Preserving Virtual Assistant
-site: https://almond.stanford.edu
+site: https://github.com/stanford-oval/genie-toolkit
 tags:
 - virtual-assistant
 - voice

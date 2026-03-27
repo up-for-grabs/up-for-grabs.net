@@ -1,7 +1,7 @@
 ---
 name: Babel
 desc: The compiler for writing next generation JavaScript.
-site: http://babeljs.io/
+site: https://babeljs.io/
 tags:
 - javascript
 - web
@@ -13,4 +13,4 @@ upforgrabs:
 stats:
   issue-count: 10
   last-updated: '2025-01-22T20:05:48Z'
-  fork-count: 5806
+  fork-count: 5819

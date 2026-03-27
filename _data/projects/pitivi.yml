@@ -1,7 +1,7 @@
 ---
 name: Pitivi
 desc: Simple and powerful video editor based on GStreamer
-site: http://pitivi.org
+site: https://pitivi.org
 tags:
 - python
 - video

@@ -1,7 +1,7 @@
 ---
 name: loklak
 desc: Distributed search and analytics framework to collect, store, search, and analyze social media
-site: http://loklak.org/
+site: https://github.com/loklak/loklak_server
 tags:
 - loklak
 - twitter

@@ -1,7 +1,7 @@
 ---
 name: nadocast-ui
 desc: An unofficial user interface for the Nadocast Project.
-site: https://nadocast-ui.robswc.me/
+site: https://github.com/robswc/nadocast-ui
 tags:
 - python
 - dash-plotly

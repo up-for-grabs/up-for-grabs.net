@@ -1,7 +1,7 @@
 ---
 name: Linkin
 desc: Linkin is a customizable self hosted link tree platform
-site: http://linkindemo.vercel.app/
+site: https://linkindemo.vercel.app/
 tags:
 - reactjs
 - nextjs

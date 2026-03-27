@@ -1,7 +1,7 @@
 ---
 name: defe
 desc: A Tech feed Aggregator for Developers & Tech Enthusiasts
-site: https://defe-app.herokuapp.com/
+site: https://github.com/Bhupesh-V/defe
 tags:
 - python
 - javascript
@@ -13,4 +13,4 @@ upforgrabs:
 stats:
   issue-count: 5
   last-updated: '2023-02-28T15:49:32Z'
-  fork-count: 17
+  fork-count: 18

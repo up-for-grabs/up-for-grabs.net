@@ -137,7 +137,7 @@ menu {
       />
       <div>
         <label id="activity-filter"
-          >Choose active projects active within the previous</label
+          >Choose projects active within the previous</label
         >
 
         <select v-on:change="onPeriodChanged" aria-labelledby="activity-filter">

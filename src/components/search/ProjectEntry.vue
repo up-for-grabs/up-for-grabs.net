@@ -23,14 +23,18 @@ const linkTitle = `View open issues for ${project.name}`;
 
 .project .header {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  gap: 0.5em;
   margin-bottom: 1em;
 }
 
 .project .title {
   font-weight: bold;
   flex-grow: 1;
+  min-width: 0;
   font-size: 1.5em;
+  overflow-wrap: anywhere;
 }
 
 .project .title a {
@@ -39,6 +43,11 @@ const linkTitle = `View open issues for ${project.name}`;
 
 .project .label {
   margin-left: 8px;
+}
+
+
+.project .description {
+  overflow-wrap: anywhere;
 }
 
 .project .tags {
@@ -56,6 +65,8 @@ const linkTitle = `View open issues for ${project.name}`;
   border-radius: 5px;
   background: #bfd1d9;
   padding: 0.3em;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .label {

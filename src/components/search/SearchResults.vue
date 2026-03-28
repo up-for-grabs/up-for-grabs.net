@@ -10,9 +10,9 @@ import { type WebsiteProject } from '../data/schema';
 import ProjectEntry from './ProjectEntry.vue';
 
 const props = defineProps<{
-    initialProjects: ReadonlyArray<WebsiteProject>
-    fetchProjects: (datetime: Date) => Promise<Array<WebsiteProject>>
-    filterProjects: (text: string, datetime: Date ) => Promise<ResponseMessage>
+  initialProjects: ReadonlyArray<WebsiteProject>;
+  fetchProjects: (datetime: Date) => Promise<Array<WebsiteProject>>;
+  filterProjects: (text: string, datetime: Date) => Promise<ResponseMessage>;
 }>();
 
 const currentProjects = ref(props.initialProjects);
@@ -76,7 +76,6 @@ async function onPeriodChanged(ev: Event) {
   lastUpdated.value = parsedValue;
   await search();
 }
-
 </script>
 
 <style>

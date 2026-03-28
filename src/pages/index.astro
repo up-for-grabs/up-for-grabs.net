@@ -4,7 +4,7 @@ import Progress from '../components/Progress.astro';
 import Layout from '../layouts/Layout.astro';
 
 import { InitialProjects } from '../components/data/projects';
-import { Init, SearchProjects } from '../components/data/search';
+import { SearchProjects } from '../components/data/search';
 ---
 
 <Layout>
@@ -16,7 +16,6 @@ import { Init, SearchProjects } from '../components/data/search';
         <SearchResults
           client:visible
           initialProjects={InitialProjects}
-          fetchProjects={Init}
           filterProjects={SearchProjects}
         />
       </section>

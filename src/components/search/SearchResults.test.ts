@@ -22,7 +22,6 @@ test('SearchResults displays count of initial projects when first rendered', asy
   const wrapper = mount(SearchResults, {
     props: {
       initialProjects: [projectWithoutStats],
-      fetchProjects: (date: Date) => Promise.resolve([]),
       filterProjects: (text: string, date: Date) =>
         Promise.resolve<ResponseMessage>({ type: 'search-results', list: [] }),
     },
@@ -56,9 +55,11 @@ test('SearchResults fetches and displays initial count of projects', async () =>
   const wrapper = mount(SearchResults, {
     props: {
       initialProjects: [],
-      fetchProjects: (date: Date) => Promise.resolve([projectWithStats]),
       filterProjects: (text: string, date: Date) =>
-        Promise.resolve<ResponseMessage>({ type: 'search-results', list: [] }),
+        Promise.resolve<ResponseMessage>({
+          type: 'search-results',
+          list: [projectWithStats],
+        }),
     },
   });
 
@@ -72,7 +73,6 @@ test('SearchResults updates UI when filter does not return results', async () =>
   const wrapper = mount(SearchResults, {
     props: {
       initialProjects: [projectWithoutStats],
-      fetchProjects: (date: Date) => Promise.resolve([]),
       filterProjects: (text: string, date: Date) =>
         Promise.resolve<ResponseMessage>({ type: 'search-results', list: [] }),
     },
@@ -116,11 +116,7 @@ test('SearchResults updates count when filter returns additional results', async
   const wrapper = mount(SearchResults, {
     props: {
       initialProjects: [projectWithoutStats],
-      fetchProjects: (date: Date) => Promise.resolve([]),
       filterProjects: (text: string, date: Date) => {
-        // assert the client send the text through
-        expect(text).toBe('foo');
-
         // return more results than expected
         return Promise.resolve<ResponseMessage>({
           type: 'search-results',

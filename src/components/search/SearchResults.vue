@@ -11,7 +11,6 @@ import ProjectEntry from './ProjectEntry.vue';
 
 const props = defineProps<{
   initialProjects: ReadonlyArray<WebsiteProject>;
-  fetchProjects: (datetime: Date) => Promise<Array<WebsiteProject>>;
   filterProjects: (text: string, datetime: Date) => Promise<ResponseMessage>;
 }>();
 
@@ -29,13 +28,15 @@ const lastUpdatedDate = computed(() => {
 });
 
 onMounted(() => {
-  props.fetchProjects(lastUpdatedDate.value).then((result) => {
-    if (result instanceof Error) {
-      console.error('error observed during init', result);
-    } else if (result) {
-      currentProjects.value = result;
-    }
-  });
+  props
+    .filterProjects(searchText.value, lastUpdatedDate.value)
+    .then((result) => {
+      if (result.type == 'search-error') {
+        console.error('error observed during init', result.message);
+      } else {
+        currentProjects.value = result.list;
+      }
+    });
 });
 
 async function search() {

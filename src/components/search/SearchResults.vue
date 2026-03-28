@@ -4,16 +4,18 @@ import { ref, onMounted, computed } from 'vue';
 import { subDays } from 'date-fns';
 
 import { InitialDaysActive } from '../data/config';
-import { Init, SearchProjects } from '../data/search';
+import { type ResponseMessage } from '../data/search';
 import { type WebsiteProject } from '../data/schema';
 
 import ProjectEntry from './ProjectEntry.vue';
 
 const props = defineProps<{
-  projects: ReadonlyArray<WebsiteProject>;
+    initialProjects: ReadonlyArray<WebsiteProject>
+    fetchProjects: (datetime: Date) => Promise<Array<WebsiteProject>>
+    filterProjects: (text: string, datetime: Date ) => Promise<ResponseMessage>
 }>();
 
-const currentProjects = ref(props.projects);
+const currentProjects = ref(props.initialProjects);
 
 const searchText = ref('');
 const lastUpdated = ref(InitialDaysActive);
@@ -27,7 +29,7 @@ const lastUpdatedDate = computed(() => {
 });
 
 onMounted(() => {
-  Init(lastUpdatedDate.value).then((result) => {
+  props.fetchProjects(lastUpdatedDate.value).then((result) => {
     if (result instanceof Error) {
       console.error('error observed during init', result);
     } else if (result) {
@@ -37,7 +39,7 @@ onMounted(() => {
 });
 
 async function search() {
-  const response = await SearchProjects(
+  const response = await props.filterProjects(
     searchText.value,
     lastUpdatedDate.value
   );
@@ -74,6 +76,7 @@ async function onPeriodChanged(ev: Event) {
   lastUpdated.value = parsedValue;
   await search();
 }
+
 </script>
 
 <style>

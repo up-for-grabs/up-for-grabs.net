@@ -4,7 +4,29 @@ updates:
     directory: '/'
     schedule:
       interval: weekly
+    groups:
+      astro:
+        patterns:
+          - "astro"
+          - "@astrojs/*"
+      eslint:
+        patterns:
+          - "eslint"
+          - "eslint-*"
+          - "@eslint/*"
+          - "@typescript-eslint/*"
     open-pull-requests-limit: 10
+    groups:
+      astro:
+        patterns:
+          - 'astro'
+          - '@astrojs/*'
+      eslint:
+        patterns:
+          - 'eslint'
+          - 'eslint-*'
+          - '@eslint/*'
+          - '@typescript-eslint/*'
   - package-ecosystem: bundler
     directory: '/'
     schedule:

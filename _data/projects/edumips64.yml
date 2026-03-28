@@ -1,7 +1,7 @@
 ---
 name: EduMIPS64
 desc: A cross-platform educational MIPS64 CPU simulator.
-site: http://www.edumips.org
+site: https://www.edumips.org
 tags:
 - java
 - simulator

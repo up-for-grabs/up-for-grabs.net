@@ -1,7 +1,7 @@
 ---
 name: Schul-Cloud
 desc: open-source software for schools in Germany
-site: https://schul-cloud.github.io
+site: https://github.com/hpi-schul-cloud
 tags:
 - oss
 - javascript

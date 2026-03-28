@@ -1,7 +1,7 @@
 ---
 name: ".NET WPF & WinForms Docs"
 desc: 'Documentation for .NET Desktop tehcnologies: Windows Forms and WPF'
-site: http://github.com/dotnet/docs-desktop
+site: https://github.com/dotnet/docs-desktop
 tags:
 - ".net"
 - documentation
@@ -13,4 +13,4 @@ upforgrabs:
 stats:
   issue-count: 1
   last-updated: '2025-06-18T17:25:07Z'
-  fork-count: 186
+  fork-count: 184

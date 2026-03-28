@@ -1,7 +1,7 @@
 ---
 name: seneca
 desc: A microservices toolkit for Node.js
-site: http://senecajs.org/
+site: https://senecajs.org/
 tags:
 - javascript
 - node.js

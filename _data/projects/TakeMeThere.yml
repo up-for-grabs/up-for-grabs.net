@@ -1,7 +1,7 @@
 ---
 name: Take Me There
 desc: A URL Shortening service powered by Google Apps Script
-site: https://tmt.pw
+site: https://github.com/choraria/gas-url-shortener
 tags:
 - google-apps-script
 - url-shortener

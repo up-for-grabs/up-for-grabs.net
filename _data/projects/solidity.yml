@@ -1,7 +1,7 @@
 ---
 name: Solidity
 desc: The Solidity Contract-Oriented Programming Language
-site: http://github.com/ethereum/solidity
+site: https://github.com/ethereum/solidity
 tags:
 - ethereum
 - solidity
@@ -13,4 +13,4 @@ upforgrabs:
 stats:
   issue-count: 2
   last-updated: '2026-03-01T07:36:53Z'
-  fork-count: 6099
+  fork-count: 6101

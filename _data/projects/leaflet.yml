@@ -1,7 +1,7 @@
 ---
 name: Leaflet
 desc: JavaScript library for mobile-friendly interactive maps
-site: http://leafletjs.com
+site: https://leafletjs.com
 tags:
 - javascript
 - maps
@@ -11,5 +11,5 @@ upforgrabs:
   link: https://github.com/Leaflet/Leaflet/labels/good%20first%20issue
 stats:
   issue-count: 6
-  last-updated: '2025-10-24T08:00:16Z'
-  fork-count: 6093
+  last-updated: '2026-03-20T08:20:01Z'
+  fork-count: 6105

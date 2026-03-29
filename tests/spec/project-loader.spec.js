@@ -1,24 +1,10 @@
-/**
- * @jest-environment jsdom
- */
-
-jest.mock(
-  'showdown',
-  () => ({
-    Converter: class {
-      makeHtml(input) {
-        return `<p>${input.replace('**Bold**', '<strong>Bold</strong>')}</p>`;
-      }
-    },
-  }),
-  { virtual: true }
-);
+import { afterEach } from 'vitest';
 
 const loadProjects = require('../../javascripts/projectLoader');
 
 describe('projectLoader', () => {
-  beforeEach(() => {
-    fetch.resetMocks();
+  afterEach(() => {
+    vi.clearAllMocks();
   });
 
   it('loads projects and renders markdown descriptions as HTML', async () => {
@@ -39,9 +25,8 @@ describe('projectLoader', () => {
 
   it('returns an empty list when project loading fails', async () => {
     fetch.mockRejectOnce(new Error('network down'));
-    const consoleSpy = jest
-      .spyOn(console, 'error')
-      .mockImplementation(() => {});
+
+    const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
 
     const projects = await loadProjects();
 

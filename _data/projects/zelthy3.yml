@@ -4,7 +4,7 @@ desc: >-
   Python web framework for building enterprise-ready apps. Higher level framework (built on top of Django),
   strives to handle all components of application logics that are needed for enterprise readiness at the
   framework level.
-site: https://www.zelthy.com/framework
+site: https://www.zelthy.com
 tags:
 - python
 - django

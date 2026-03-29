@@ -1,7 +1,7 @@
 ---
 name: mycovidconnect
 desc: Skip the Queue. Check-in to hospital faster! Automated 911 for Non-ER Patients.
-site: https://www.mycovidconnect.com
+site: https://github.com/Xcov19/mycovidconnect
 tags:
 - xcov19
 - pre-triage

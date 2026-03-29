@@ -1,7 +1,7 @@
 ---
 name: Quotes
 desc: Open-source Quotes app for viewing/saving/commenting on quotes. Contains a frontend and an API.
-site: https://quotes.programmersdiary.com/
+site: https://github.com/EvalVis/QuotesFE
 tags:
 - quotes
 - open-source

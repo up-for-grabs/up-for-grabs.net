@@ -26,6 +26,10 @@ define([
   let compiledtemplateFn = null,
     projectsPanel = null;
 
+  // Pagination constants
+  const PROJECTS_PER_PAGE = 15;
+  let currentPage = 1;
+
   setupDarkModeListener();
 
   const getFilterUrl = function () {
@@ -66,10 +70,21 @@ define([
 
   const renderProjects = function (projectService, tags, names, labels, date) {
     const allTags = projectService.getTags();
+    const allFilteredProjects = projectService.get(tags, names, labels, date);
+    const totalProjects = allFilteredProjects.length;
+    const totalPages = Math.ceil(totalProjects / PROJECTS_PER_PAGE);
+
+    if (currentPage > totalPages) currentPage = 1;
+
+    // Slice projects to current page only
+    const pagedProjects = allFilteredProjects.slice(
+      (currentPage - 1) * PROJECTS_PER_PAGE,
+      currentPage * PROJECTS_PER_PAGE
+    );
 
     projectsPanel.html(
       compiledtemplateFn({
-        projects: projectService.get(tags, names, labels, date),
+        projects: pagedProjects, // [MODIFIED] was: projectService.get(tags, names, labels, date)
         relativeTime,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
@@ -93,6 +108,7 @@ define([
       .val(tags)
       .trigger('chosen:updated')
       .change(function () {
+        currentPage = 1;
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'tags',
@@ -110,6 +126,7 @@ define([
       .val(names)
       .trigger('chosen:updated')
       .change(function () {
+        currentPage = 1;
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'names',
@@ -129,6 +146,7 @@ define([
           id = '';
         }
 
+        currentPage = 1;
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'date',
@@ -146,6 +164,7 @@ define([
       .val(labels)
       .trigger('chosen:updated')
       .change(function () {
+        currentPage = 1;
         location.href = updateQueryStringParameter(
           getFilterUrl(),
           'labels',
@@ -157,30 +176,117 @@ define([
       Adds popular tags to the tag search query when a popular tag element is clicked.
     */
     projectsPanel.find('ul.popular-tags li a').each((i, elem) => {
-      $(elem).on('click', function (e) {
-        const tags = prepareForHTML(getParameterByName('tags')) || [];
-        selectedTag = e.currentTarget.innerText.split('\n')[0] || '';
-        if (!tags.includes(selectedTag)) {
-          const component = $(`
-          <li class="search-choice">
-          <span>${selectedTag}</span>
-          <a class="search-choice-close" data-option-array-index="2"></a>
-          </li>
-          `);
-          projectsPanel
-            .find(
-              'select.tags-filter + .chosen-container .chosen-choices .search-field'
-            )
-            .prepend(component);
-          tags.push(selectedTag);
-          location.href = updateQueryStringParameter(
-            getFilterUrl(),
-            'tags',
-            encodeURIComponent(tags)
-          );
+      $(elem).on('click', function () {
+        let selTags = $('.tags-filter').val() || [];
+        let selectedTag = preparePopTagName($(this).text() || '');
+
+        if (selectedTag) {
+          let tagID = allTags
+            .map((tag) => tag.name.toLowerCase())
+            .indexOf(selectedTag);
+
+          if (tagID !== -1) {
+            selTags.push(selectedTag);
+            currentPage = 1;
+            location.href = updateQueryStringParameter(
+              getFilterUrl(),
+              'tags',
+              encodeURIComponent(selTags)
+            );
+          }
         }
       });
     });
+
+    // Render pagination controls
+    const paginationEl = projectsPanel.find('#pagination-controls');
+    paginationEl.empty();
+
+    if (totalPages > 1) {
+      if (currentPage > 1) {
+        paginationEl.append(
+          `<button class="radio-btn pagination-btn" id="prev-page">&#8592; Prev</button>`
+        );
+      }
+
+      for (let i = 1; i <= totalPages; i++) {
+        if (
+          i === 1 ||
+          i === totalPages ||
+          (i >= currentPage - 1 && i <= currentPage + 1)
+        ) {
+          paginationEl.append(
+            `<button class="radio-btn pagination-btn ${i === currentPage ? 'radio-btn-selected' : ''}" data-page="${i}">${i}</button>`
+          );
+        } else if (i === currentPage - 2 || i === currentPage + 2) {
+          paginationEl.append(
+            `<span class="pagination-ellipsis">&#8230;</span>`
+          );
+        }
+      }
+
+      if (currentPage < totalPages) {
+        paginationEl.append(
+          `<button class="radio-btn pagination-btn" id="next-page">Next &#8594;</button>`
+        );
+      }
+
+      paginationEl.append(
+        `<div class="pagination-goto">
+          <input
+            type="number"
+            id="goto-page-input"
+            class="pagination-goto-input"
+            min="1"
+            max="${totalPages}"
+            placeholder="Enter page number"
+            aria-label="Go to page"
+          />
+          <button class="radio-btn pagination-btn" id="goto-page-btn">Go</button>
+        </div>`
+      );
+
+      paginationEl.find('#prev-page').on('click', () => {
+        currentPage -= 1;
+        renderProjects(projectService, tags, names, labels, date);
+        document
+          .querySelector('.projects')
+          .scrollIntoView({ behavior: 'smooth' });
+      });
+
+      paginationEl.find('#next-page').on('click', () => {
+        currentPage += 1;
+        renderProjects(projectService, tags, names, labels, date);
+        document
+          .querySelector('.projects')
+          .scrollIntoView({ behavior: 'smooth' });
+      });
+
+      paginationEl.find('.pagination-btn[data-page]').on('click', function () {
+        currentPage = parseInt($(this).data('page'));
+        renderProjects(projectService, tags, names, labels, date);
+        document
+          .querySelector('.projects')
+          .scrollIntoView({ behavior: 'smooth' });
+      });
+
+      paginationEl.find('#goto-page-btn').on('click', () => {
+        const val = parseInt(paginationEl.find('#goto-page-input').val());
+        if (!isNaN(val) && val >= 1 && val <= totalPages) {
+          currentPage = val;
+          renderProjects(projectService, tags, names, labels, date);
+          document
+            .querySelector('.projects')
+            .scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+
+      paginationEl.find('#goto-page-input').on('keydown', function (e) {
+        if (e.key === 'Enter') {
+          paginationEl.find('#goto-page-btn').trigger('click');
+        }
+      });
+    }
   };
   /*
     This is a utility method to help update a list items Name parameter to make

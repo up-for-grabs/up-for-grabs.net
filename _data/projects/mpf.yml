@@ -5,7 +5,7 @@ desc: >-
   to run real pinball machines. It allows both casual builders and hard-core programmers to create the
   software to run their pinball machines—whether it’s new game code for an existing pinball machine, a
   “re-theme” of an old machine, or totally custom / homebrew machine built from scratch.
-site: http://missionpinball.org/
+site: https://missionpinball.org/
 tags:
 - python
 - pinball

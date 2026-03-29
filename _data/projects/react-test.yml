@@ -1,7 +1,7 @@
 ---
 name: React Test
 desc: An expressive testing library for React. This is not made by facebook/react team.
-site: http://react-test.dev/
+site: https://react-test.dev/
 tags:
 - reactjs
 - test

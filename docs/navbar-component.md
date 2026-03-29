@@ -5,6 +5,7 @@ This document explains the navbar component added to improve site navigation.
 ## Overview
 
 The navbar provides an easy way for users to navigate between the three main sections of the site:
+
 - "Get Involved" section
 - "Projects" section
 - "Maintain a Project" section
@@ -23,9 +24,19 @@ The navbar is structured as a simple navigation element with three anchor links 
 <nav class="navbar" role="navigation" aria-label="Main navigation">
   <div class="container">
     <ul class="nav-links" role="menubar">
-      <li role="none"><a href="#i-want-to-get-involved" class="nav-link" role="menuitem">Get Involved</a></li>
-      <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
-      <li role="none"><a href="#i-maintain-a-project" class="nav-link" role="menuitem">Maintain a Project</a></li>
+      <li role="none">
+        <a href="#i-want-to-get-involved" class="nav-link" role="menuitem"
+          >Get Involved</a
+        >
+      </li>
+      <li role="none">
+        <a href="#projects" class="nav-link" role="menuitem">Projects</a>
+      </li>
+      <li role="none">
+        <a href="#i-maintain-a-project" class="nav-link" role="menuitem"
+          >Maintain a Project</a
+        >
+      </li>
     </ul>
   </div>
 </nav>
@@ -80,4 +91,4 @@ A comprehensive test suite is included in `tests/test-navbar.js` to verify:
 2. Smooth scrolling functions correctly
 3. Active state changes based on scroll position
 4. Mobile responsiveness works as expected
-5. Dark/light mode compatibility is maintained 
+5. Dark/light mode compatibility is maintained

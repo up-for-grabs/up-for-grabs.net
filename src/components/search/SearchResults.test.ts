@@ -102,7 +102,7 @@ test('SearchResults fetches and displays initial count of projects', async () =>
   expect(resultsCount.text()).toBe('2 projects found');
 });
 
-test('SearchResults updates count when filter returns additional results', async () => {
+test('SearchResults updates count when filter returns additional results and text is in query string', async () => {
   const wrapper = mount(SearchResults, {
     props: {
       initialProjects: [projectWithoutStats],
@@ -119,4 +119,27 @@ test('SearchResults updates count when filter returns additional results', async
 
   const resultsCount = wrapper.find('.results-count');
   expect(resultsCount.text()).toBe('0 projects found');
+
+  expect(window.location.search).toContain('q=foo');
+});
+
+test('SearchResults updates count when filter returns additional results and text is in query string', async () => {
+  const wrapper = mount(SearchResults, {
+    props: {
+      initialProjects: [projectWithoutStats],
+    },
+    global: {
+      plugins: [VueQueryPlugin],
+    },
+  });
+
+  const textInput = wrapper.find('#last-updated');
+  await textInput.setValue('7');
+
+  await flushPromises();
+
+  const resultsCount = wrapper.find('.results-count');
+  expect(resultsCount.text()).toBe('0 projects found');
+
+  expect(window.location.search).toContain('lastUpdated=7');
 });

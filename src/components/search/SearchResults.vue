@@ -177,7 +177,11 @@ menu {
           >Choose projects active within the previous</label
         >
 
-        <select v-model="lastUpdatedDays" aria-labelledby="activity-filter">
+        <select
+          v-model="lastUpdatedDays"
+          id="last-updated"
+          aria-labelledby="activity-filter"
+        >
           <option value="7">1 week</option>
           <option value="30">1 month</option>
           <option value="180">6 months</option>

@@ -19,6 +19,6 @@ tags:
 - reactjs
 upforgrabs:
   name: first-timers-only
-  link: https://github.com/issues?q=is:open+org:datatogether+label:first-timers-only
+  link: https://github.com/datatogether/datatogether/labels/first-timers-only
 stats:
   issue-count: 0

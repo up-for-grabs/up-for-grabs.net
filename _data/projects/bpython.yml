@@ -1,7 +1,7 @@
 ---
 name: bpython
 desc: A fancy interface to the Python interpreter
-site: http://bpython-interpreter.org/
+site: https://bpython-interpreter.org/
 tags:
 - python
 upforgrabs:

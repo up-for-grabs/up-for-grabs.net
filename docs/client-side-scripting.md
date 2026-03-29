@@ -104,15 +104,12 @@ dependencies need to be explicitly defined like the snippet above.
 
 ## Testing Scripts
 
-Up-For-Grabs now supports using `jest` to run tests inside a NodeJS context.
-
-It uses `babel-jest` which automagically transforms AMD modules into CommonJS
-modules.
+Up-For-Grabs now supports using `vitest` to run tests inside a NodeJS context.
 
 You can run these tests at any time using `npm test` to ensure the
 functionality covered by tests is not affected by your local changes.
 
-### Testing modules inside `jest`
+### Testing modules inside `vitest`
 
 Because NodeJS only supports CommonJS modules, there's one extra step of setup
 if you are writing modules that you would like tested.
@@ -124,4 +121,16 @@ Ensure your module defines this _before_ it uses a `define`:
 if (typeof define !== 'function') {
   var define = require('amdefine')(module);
 }
+```
+
+Also ensure your test prefix is aware of where to find the required modules:
+
+```js
+const requirejs = require('requirejs');
+const path = require('path');
+
+requirejs.config({
+  baseUrl: path.join(__dirname, '../../javascripts/'),
+  nodeRequire: require,
+});
 ```

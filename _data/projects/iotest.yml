@@ -1,7 +1,7 @@
 ---
 name: test.io
 desc: Socket.io online test tool
-site: http://io-tester.herokuapp.com/
+site: https://github.com/yavrumian/test.io
 tags:
 - socket.io
 - test

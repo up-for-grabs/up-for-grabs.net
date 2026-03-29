@@ -4,7 +4,7 @@ desc: A system to manage mentor and mentee allocation, interactions, and generat
 site: https://github.com/Akhileshkulal/mentor-mentee-management-system
 tags:
 - javascript
-- react
+- reactjs
 - supabase
 - education
 upforgrabs:

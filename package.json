@@ -27,6 +27,7 @@
     "npm": ">=11"
   },
   "dependencies": {
+    "@tanstack/vue-query": "^5.95.2",
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
@@ -50,6 +51,7 @@
     "eslint-plugin-astro": "^1.6.0",
     "eslint-plugin-vue": "^10.8.0",
     "jsdom": "^29.0.1",
+    "msw": "^2.12.14",
     "prettier": "^3.8.0",
     "promise-polyfill": "^8.3.0",
     "requirejs": "^2.3.8",

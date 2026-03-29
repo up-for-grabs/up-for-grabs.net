@@ -53,7 +53,7 @@ jobs:
       - uses: codespell-project/actions-codespell@v2
         with:
           skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
-          ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis,Lins
+          ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis,Lins,afterAll
 
   upload:
     runs-on: ubuntu-latest

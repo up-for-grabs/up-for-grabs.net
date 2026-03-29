@@ -4,6 +4,7 @@ import Progress from '../components/Progress.astro';
 import Layout from '../layouts/Layout.astro';
 
 import { InitialProjects } from '../components/data/projects';
+import { Init, SearchProjects } from '../components/data/search';
 ---
 
 <Layout>
@@ -12,7 +13,12 @@ import { InitialProjects } from '../components/data/projects';
     <article id="projects" class="block">
       <section class="block">
         <h1>Projects</h1>
-        <SearchResults client:visible projects={InitialProjects} />
+        <SearchResults
+          client:visible
+          initialProjects={InitialProjects}
+          fetchProjects={Init}
+          filterProjects={SearchProjects}
+        />
       </section>
     </article>
   </div>

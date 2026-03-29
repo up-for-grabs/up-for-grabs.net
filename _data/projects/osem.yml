@@ -1,7 +1,7 @@
 ---
 name: Open Source Event Manager
 desc: Event Management App Tailored to Free Software Conferences
-site: http://osem.io/
+site: https://osem.io/
 tags:
 - ruby
 - rails

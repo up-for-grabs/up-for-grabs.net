@@ -13,6 +13,13 @@ const projects = await getCollection('projects', ({ data }) => {
   return false;
 });
 
+const BuildSeed = createHash('sha256')
+  .update(`${Date.now()}-${process.pid}`)
+  .digest('hex');
+
+const createBuildOrderWeight = (id: string) =>
+  createHash('sha256').update(`${BuildSeed}:${id}`).digest('hex');
+
 export const RawProjects: Array<Project> = projects
   .map((project) => {
     const hash = createHash('sha256');
@@ -23,7 +30,16 @@ export const RawProjects: Array<Project> = projects
       ...project.data,
     };
   })
-  .sort((left, right) => left.name.localeCompare(right.name));
+  .sort((left, right) => {
+    const leftWeight = createBuildOrderWeight(left.id);
+    const rightWeight = createBuildOrderWeight(right.id);
+
+    if (leftWeight === rightWeight) {
+      return left.name.localeCompare(right.name);
+    }
+
+    return leftWeight.localeCompare(rightWeight);
+  });
 
 const lastUpdated = subDays(new Date(), InitialDaysActive);
 

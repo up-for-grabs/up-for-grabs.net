@@ -1,7 +1,7 @@
 ---
 name: Homebrew
 desc: Homebrew is a package manager for OS X.
-site: http://brew.sh/
+site: https://brew.sh/
 tags:
 - ruby
 - osx
@@ -12,6 +12,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/Homebrew/brew/labels/help%20wanted
 stats:
-  issue-count: 5
-  last-updated: '2026-03-05T08:04:30Z'
-  fork-count: 10979
+  issue-count: 3
+  last-updated: '2026-03-18T12:18:34Z'
+  fork-count: 11031

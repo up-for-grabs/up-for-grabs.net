@@ -158,6 +158,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "TomSamwan",
+      "name": "Tom Samways",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114116342?v=4",
+      "profile": "https://github.com/TomSamwan",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

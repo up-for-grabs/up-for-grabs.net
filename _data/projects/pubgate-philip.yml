@@ -1,7 +1,7 @@
 ---
 name: PubGate FE App
 desc: Minimalist blogging Fediverse client made with Svelte
-site: https://pubgate.autogestion.org/
+site: https://github.com/autogestion/pubgate-philip
 tags:
 - svelte
 - activitypub

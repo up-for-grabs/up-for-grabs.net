@@ -7,5 +7,9 @@ import vue from '@astrojs/vue';
 export default defineConfig({
   base: '/beta',
   outDir: '_site/beta/',
-  integrations: [vue()],
+  integrations: [
+    vue({
+      appEntrypoint: '/src/pages/_app',
+    }),
+  ],
 });

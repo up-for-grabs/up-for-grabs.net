@@ -1,7 +1,7 @@
 ---
 name: Moment-Timezone
 desc: Time zone add-on for moment.js
-site: http://momentjs.com/timezone
+site: https://momentjs.com/timezone
 tags:
 - javascript
 - date
@@ -12,4 +12,4 @@ upforgrabs:
 stats:
   issue-count: 3
   last-updated: '2020-02-07T22:59:08Z'
-  fork-count: 835
+  fork-count: 838

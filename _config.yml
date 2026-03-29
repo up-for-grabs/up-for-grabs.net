@@ -22,7 +22,7 @@ exclude:
   - eslint-new.config.mjs
   - docker-compose.yml
   - Gemfile*
-  - jest.config.js
+  - vitest.config.ts
   - LICENSE
   - package.json
   - package-lock.json

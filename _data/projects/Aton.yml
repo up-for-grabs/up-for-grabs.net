@@ -1,7 +1,7 @@
 ---
 name: Aton
 desc: Computer room administration made free
-site: http://camilosampedro.me/Aton
+site: https://github.com/camilosampedro/Aton
 tags:
 - scala
 - play-framework

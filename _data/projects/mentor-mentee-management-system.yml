@@ -1,0 +1,12 @@
+---
+name: Mentor Mentee Management System
+desc: A system to manage mentor and mentee allocation, interactions, and generate reports for institutions.
+site: https://github.com/Akhileshkulal/mentor-mentee-management-system
+tags:
+- javascript
+- reactjs
+- supabase
+- education
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Akhileshkulal/mentor-mentee-management-system/labels/good%20first%20issue

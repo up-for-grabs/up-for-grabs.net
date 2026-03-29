@@ -1,0 +1,14 @@
+name: httpress
+desc: A http benchmarking library and cli tool built in rust
+site: https://github.com/GabrielTecuceanu/httpress
+tags:
+  - http
+  - benchmarking
+  - rust
+  - cli
+  - library
+  - tokio
+  - clap
+upforgrabs:
+  name: good first issue
+  link: https://github.com/GabrielTecuceanu/httpress/labels/good%20first%20issue

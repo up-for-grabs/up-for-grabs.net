@@ -122,6 +122,7 @@ menu {
 }
 
 .results-count {
+  font-weight: bold;
   margin: 2em 0;
 }
 </style>
@@ -155,7 +156,7 @@ menu {
     </form>
   </menu>
   <div class="results-count" aria-live="polite">
-    {{ currentProjects.length }} projects found
+    Total Projects Available: {{ currentProjects.length }}
   </div>
   <div class="projects">
     <ProjectEntry

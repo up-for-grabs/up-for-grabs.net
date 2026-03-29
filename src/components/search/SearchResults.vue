@@ -40,7 +40,7 @@ function parseLastUpdated(key: string | number): Date | Error {
   return new Error(`lastUpdated query token could not be parsed: ${key}`);
 }
 
-const { data, error, isPending, isError, refetch } = useQuery({
+const { data, error, isLoading, isError, refetch } = useQuery({
   queryKey: ['projects', searchText, lastUpdatedDays],
   queryFn: ({ queryKey }) => {
     const text = queryKey[1];
@@ -141,7 +141,7 @@ menu {
       </div>
     </form>
   </menu>
-  <span v-if="isPending">Loading...</span>
+  <span v-if="isLoading">Loading...</span>
   <span v-else-if="isError">Error: {{ error?.message }}</span>
   <!-- We can assume by this point that `isSuccess === true` -->
   <div v-else-if="data" class="results-count" aria-live="polite">

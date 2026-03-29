@@ -1,81 +1,68 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue';
+import { onMounted, ref, watch } from 'vue';
+
+import { useQuery } from '@tanstack/vue-query';
 
 import { subDays } from 'date-fns';
 
 import { InitialDaysActive } from '../data/config';
-import { type ResponseMessage } from '../data/search';
+import { fetchProjects } from '../data/search';
 import { type WebsiteProject } from '../data/schema';
 
 import ProjectEntry from './ProjectEntry.vue';
 
 const props = defineProps<{
-  initialProjects: ReadonlyArray<WebsiteProject>;
-  fetchProjects: (datetime: Date) => Promise<Array<WebsiteProject>>;
-  filterProjects: (text: string, datetime: Date) => Promise<ResponseMessage>;
+  initialProjects: Array<WebsiteProject>;
 }>();
 
-const currentProjects = ref(props.initialProjects);
+const isMounted = ref(false);
 
-const searchText = ref('');
-const lastUpdated = ref(InitialDaysActive);
-
-const lastUpdatedDate = computed(() => {
-  if (lastUpdated.value < 0) {
-    return new Date(2000, 0, 1);
-  }
-
-  return subDays(new Date(), lastUpdated.value);
+const searchText = defineModel('searchText', { default: '' });
+const lastUpdatedDays = defineModel('lastUpdatedDays', {
+  default: InitialDaysActive,
 });
 
-onMounted(() => {
-  props.fetchProjects(lastUpdatedDate.value).then((result) => {
-    if (result instanceof Error) {
-      console.error('error observed during init', result);
-    } else if (result) {
-      currentProjects.value = result;
+function parseLastUpdated(key: string | number): Date | Error {
+  if (typeof key === 'number') {
+    return subDays(new Date(), key);
+  }
+
+  if (typeof key === 'string') {
+    const intValue = parseInt(key, 10);
+
+    if (isNaN(intValue)) {
+      return new Date(2000, 0, 1);
     }
-  });
+
+    return subDays(new Date(), intValue);
+  }
+
+  return new Error(`lastUpdated query token could not be parsed: ${key}`);
+}
+
+const { data, error, isPending, isError, refetch } = useQuery({
+  queryKey: ['projects', searchText, lastUpdatedDays],
+  queryFn: ({ queryKey }) => {
+    const text = queryKey[1];
+    if (typeof text !== 'string') {
+      return Promise.reject(new Error('search text placeholder broken'));
+    }
+
+    const lastUpdated = parseLastUpdated(queryKey[2]);
+    if (lastUpdated instanceof Error) {
+      return Promise.reject(lastUpdated);
+    }
+
+    return fetchProjects(text, lastUpdated);
+  },
+  placeholderData: props.initialProjects,
+  enabled: isMounted,
 });
 
-async function search() {
-  const response = await props.filterProjects(
-    searchText.value,
-    lastUpdatedDate.value
-  );
+onMounted(() => (isMounted.value = true));
 
-  if (response.type == 'search-results') {
-    currentProjects.value = response.list;
-  } else {
-    console.error('error observed during search', response.message);
-  }
-}
-
-async function onTextChanged(ev: Event) {
-  const element = ev.target as HTMLInputElement;
-  if (!element) {
-    return;
-  }
-
-  const text = element.value;
-  searchText.value = text;
-  await search();
-}
-
-async function onPeriodChanged(ev: Event) {
-  const element = ev.target as HTMLSelectElement;
-  if (!element) {
-    return;
-  }
-
-  const text = element.value;
-  const parsedValue = parseInt(text, 10);
-  if (Number.isNaN(parsedValue)) {
-    return;
-  }
-  lastUpdated.value = parsedValue;
-  await search();
-}
+watch(searchText, () => refetch());
+watch(lastUpdatedDays, () => refetch());
 </script>
 
 <style>
@@ -134,7 +121,7 @@ menu {
         type="text"
         id="search"
         aria-labelledby="search-by-text"
-        v-on:input="onTextChanged"
+        v-model="searchText"
         placeholder="Enter text to filter projects..."
       />
       <div>
@@ -142,7 +129,7 @@ menu {
           >Choose projects active within the previous</label
         >
 
-        <select v-on:change="onPeriodChanged" aria-labelledby="activity-filter">
+        <select v-model="lastUpdatedDays" aria-labelledby="activity-filter">
           <option value="7">1 week</option>
           <option selected value="30">1 month</option>
           <!-- TODO: how to keep selected in sync with items? onMount? -->
@@ -154,12 +141,15 @@ menu {
       </div>
     </form>
   </menu>
-  <div class="results-count" aria-live="polite">
-    {{ currentProjects.length }} projects found
+  <span v-if="isPending">Loading...</span>
+  <span v-else-if="isError">Error: {{ error?.message }}</span>
+  <!-- We can assume by this point that `isSuccess === true` -->
+  <div v-else-if="data" class="results-count" aria-live="polite">
+    {{ data.length }} projects found
   </div>
-  <div class="projects">
+  <div v-if="data" class="projects">
     <ProjectEntry
-      v-for="project in currentProjects"
+      v-for="project in data"
       :key="project.id"
       :project="project"
     />

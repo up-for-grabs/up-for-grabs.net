@@ -8,3 +8,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/Scottcjn/beacon-skill/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-03-29T08:32:31Z'
+  fork-count: 60

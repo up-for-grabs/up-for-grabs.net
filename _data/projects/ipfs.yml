@@ -1,7 +1,7 @@
 ---
 name: IPFS
 desc: 'The InterPlanetary File System: The Permanent Web'
-site: https://ipfs.io
+site: https://ipfs.tech
 tags:
 - javascript
 - go

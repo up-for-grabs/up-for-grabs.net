@@ -1,0 +1,13 @@
+name: Cura System Optimizer
+desc: Cura is an open‑source system performance booster and optimizer for Windows that intelligently prioritizes core processes and manages resource usage, helping developers and power users run heavy workloads smoothly.
+site: https://github.com/its-ernest/cura
+tags:
+  - windows
+  - performance
+  - cli
+  - system-tool
+  - go
+  - resource-management
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/its-ernest/cura/labels/up%20for%20grabs

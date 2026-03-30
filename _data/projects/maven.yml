@@ -8,4 +8,4 @@ tags:
 - buildtool
 upforgrabs:
   name: up-for-grabs
-  link: https://s.apache.org/up-for-grabs_maven
+  link: https://issues.apache.org/jira/issues/?jql=project%20%3D%20MNG%20AND%20labels%20%3D%20up-for-grabs%20AND%20status%20%3D%20Open

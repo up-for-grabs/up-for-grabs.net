@@ -1,0 +1,10 @@
+name: Zeph
+desc: Beginner friendly repository for contributors
+site: https://github.com/sourav-tz/zeph
+tags:
+  - beginner
+  - open-source
+  - github
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sourav-tz/zeph/labels/good%20first%20issue

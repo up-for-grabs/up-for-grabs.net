@@ -1,10 +1,10 @@
-name: Zeph
-desc: Beginner friendly repository for contributors
-site: https://github.com/sourav-tz/zeph
+name: React
+desc: A JavaScript library for building user interfaces
+site: https://github.com/facebook/react
 tags:
+  - javascript
+  - frontend
   - beginner
-  - open-source
-  - github
 upforgrabs:
   name: good first issue
-  link: https://github.com/sourav-tz/zeph/labels/good%20first%20issue
+  link: https://github.com/facebook/react/labels/good%20first%20issue

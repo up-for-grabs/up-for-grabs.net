@@ -1,0 +1,10 @@
+name: SmartCityApp
+desc: A Java-based Smart City application for managing users and places. Beginner-friendly issues available.
+site: https://github.com/Rajath2005/SmartCityApp
+tags:
+  - java
+  - backend
+  - beginner-friendly
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Rajath2005/SmartCityApp/issues

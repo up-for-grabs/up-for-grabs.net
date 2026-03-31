@@ -73,7 +73,7 @@ function parseLastUpdated(key: string | number): Date | Error {
 }
 
 const { data, error, isPending, isError, refetch } = useQuery({
-  queryKey: ['projects', searchText.value, lastUpdatedDays.value, selectedTags.value],
+  queryKey: ['projects', searchText, lastUpdatedDays, selectedTags],
   queryFn: ({ queryKey }) => {
     const text = queryKey[1] as string;
     const days = queryKey[2] as number;
@@ -131,19 +131,15 @@ watch(selectedTags, () => {
   refetch();
 }, { deep: true });
 
-const popularTags = computed(() => {
-  if (!data.value) {
-    return [];
-  }
-  return calculatePopularTags(data.value, 6);
-});
+const initialPopularTags = computed(() =>
+  calculatePopularTags(props.initialProjects, 6)
+);
 
 function handleToggleTag(tagName: string) {
-  const index = selectedTags.value.indexOf(tagName);
-  if (index > -1) {
-    selectedTags.value.splice(index, 1);
+  if (selectedTags.value[0] === tagName) {
+    selectedTags.value = [];
   } else {
-    selectedTags.value.push(tagName);
+    selectedTags.value = [tagName];
   }
 }
 </script>
@@ -238,7 +234,7 @@ menu {
       </div>
     </form>
     <PopularTags
-      :tags="popularTags"
+      :tags="initialPopularTags"
       :selectedTags="selectedTags"
       @toggle-tag="handleToggleTag"
     />

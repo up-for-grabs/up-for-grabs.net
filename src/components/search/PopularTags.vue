@@ -13,7 +13,7 @@ defineEmits<{
 
 <template>
   <div v-if="tags.length > 0">
-    <label class="filter-label">Filter by tags:</label>
+    <label class="filter-label">Filter by popular tags:</label>
     <div class="radio-btn-row">
       <button
         v-for="tag in tags"

@@ -69,13 +69,18 @@ export function calculatePopularTags(
     .slice(0, count);
 }
 
-function filterByTags(project: WebsiteProject, selectedTags: string[]): boolean {
+function filterByTags(
+  project: WebsiteProject,
+  selectedTags: string[]
+): boolean {
   if (selectedTags.length === 0) {
     return true;
   }
   // All selected tags must be in project tags
   const projectTagsLower = project.tags.map((t) => t.toLowerCase());
-  return selectedTags.every((tag) => projectTagsLower.includes(tag.toLowerCase()));
+  return selectedTags.every((tag) =>
+    projectTagsLower.includes(tag.toLowerCase())
+  );
 }
 
 export const fetchProjects = async (

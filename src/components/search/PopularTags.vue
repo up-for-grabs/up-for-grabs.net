@@ -18,7 +18,10 @@ defineEmits<{
       <button
         v-for="tag in tags"
         :key="tag.name"
-        :class="['radio-btn', { 'radio-btn-selected': selectedTags.includes(tag.name) }]"
+        :class="[
+          'radio-btn',
+          { 'radio-btn-selected': selectedTags.includes(tag.name) },
+        ]"
         type="button"
         @click="$emit('toggleTag', tag.name)"
       >

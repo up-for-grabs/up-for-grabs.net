@@ -126,10 +126,14 @@ watch(lastUpdatedDays, () => {
   refetch();
 });
 
-watch(selectedTags, () => {
-  updateQueryString();
-  refetch();
-}, { deep: true });
+watch(
+  selectedTags,
+  () => {
+    updateQueryString();
+    refetch();
+  },
+  { deep: true }
+);
 
 const initialPopularTags = computed(() =>
   calculatePopularTags(props.initialProjects, 6)

@@ -1,0 +1,13 @@
+name: Fud AI
+desc: An AI-powered nutrition tracker for iOS with voice input, Gemini food analysis, and on-device speech recognition.
+site: https://github.com/apoorvdarshan/fud-ai
+tags:
+  - swift
+  - swiftui
+  - ios
+  - ai
+  - health
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/apoorvdarshan/fud-ai/labels/good%20first%20issue

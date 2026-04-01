@@ -1,10 +1,4 @@
-/**
- * @jest-environment jsdom
- */
-
 const orderAllProjects = require('../../javascripts/project-ordering');
-
-const { sessionStorage: originalSessionStorage } = globalThis;
 
 describe('orderAllProjects', () => {
   beforeEach(() => {
@@ -19,7 +13,7 @@ describe('orderAllProjects', () => {
     const input = [{ id: 1 }, { id: 2 }, { id: 3 }];
 
     it('will return items in different order when nothing in storage', () => {
-      const computeOrder = jest.fn().mockReturnValue([0, 2, 1]);
+      const computeOrder = vi.fn().mockReturnValue([0, 2, 1]);
 
       expect(orderAllProjects(input, computeOrder)).not.toMatchObject(input);
 
@@ -30,7 +24,7 @@ describe('orderAllProjects', () => {
     it('will return items in matching order when stored order is same length', () => {
       sessionStorage.setItem('projectOrder', JSON.stringify([0, 1, 2]));
 
-      const computeOrder = jest.fn();
+      const computeOrder = vi.fn();
 
       expect(orderAllProjects(input, computeOrder)).toMatchObject(input);
 
@@ -40,7 +34,7 @@ describe('orderAllProjects', () => {
     it('will return items in different order when stored order is different length', () => {
       sessionStorage.setItem('projectOrder', JSON.stringify([0, 1]));
 
-      const computeOrder = jest.fn().mockReturnValue([0, 2, 1]);
+      const computeOrder = vi.fn().mockReturnValue([0, 2, 1]);
 
       expect(orderAllProjects(input, computeOrder)).not.toMatchObject(input);
 
@@ -49,7 +43,7 @@ describe('orderAllProjects', () => {
 
     it('will store order in session storage for future lookups', () => {
       const someOrderValue = [0, 2, 1];
-      const computeOrder = jest.fn().mockReturnValue(someOrderValue);
+      const computeOrder = vi.fn().mockReturnValue(someOrderValue);
 
       orderAllProjects(input, computeOrder);
 
@@ -94,14 +88,10 @@ describe('orderAllProjects', () => {
       });
     });
 
-    afterEach(() => {
-      globalThis.sessionStorage = originalSessionStorage;
-    });
-
     it('will return items in same order', () => {
       const input = [{ id: 1 }, { id: 2 }];
 
-      const computeOrder = jest.fn();
+      const computeOrder = vi.fn();
 
       expect(orderAllProjects(input, computeOrder)).toMatchObject(input);
 

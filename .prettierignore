@@ -10,5 +10,4 @@ index.html
 javascripts/lib/require.js
 javascripts/projects.json
 stylesheets/
-jest.config.js
 tsconfig.json

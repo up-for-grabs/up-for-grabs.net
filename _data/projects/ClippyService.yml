@@ -1,7 +1,7 @@
 ---
 name: Clippy Service
 desc: Rust Linting (with Clippy) as a Webservice
-site: http://clippy.bashy.io
+site: https://github.com/gnunicorn/clippy-service
 tags:
 - rust
 - compiler

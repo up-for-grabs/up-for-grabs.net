@@ -27,7 +27,7 @@
     "npm": ">=11"
   },
   "dependencies": {
-    "@tanstack/vue-query": "^5.95.2",
+    "@tanstack/vue-query": "^5.96.1",
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
 ---
 name: LibreOffice Crash Reports
 desc: Django-based website with statistics about LibreOffice crash reports
-site: http://crashreport.libreoffice.org/stats/
+site: https://crashreport.libreoffice.org/stats/
 tags:
 - libreoffice
 - office

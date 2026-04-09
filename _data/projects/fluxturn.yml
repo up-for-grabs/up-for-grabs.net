@@ -4,7 +4,7 @@ desc: "Open-source, AI-native workflow automation platform — a self-hosted alt
 site: https://fluxturn.com
 tags:                                                                                                                                               
     - typescript                                                  
-    - react
+    - reactjs
     - nestjs
     - langchain
     - ai

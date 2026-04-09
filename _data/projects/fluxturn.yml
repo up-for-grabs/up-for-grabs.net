@@ -1,7 +1,7 @@
-name: FluxTurn                                                                                                                                      
-  desc: Open-source, AI-native workflow automation platform — a self-hosted alternative to Zapier and n8n. Describe a workflow in plain English and
-  our AI builds it; refine it visually with a ReactFlow node editor. Ships with 120+ connectors. Built with React 19, NestJS, LangChain, and Qdrant.  
-  site: https://fluxturn.com/                     
+name: FluxTurn                                                  
+desc: "Open-source, AI-native workflow automation platform — a self-hosted alternative to Zapier and n8n. Describe a workflow in plain English and 
+       our AI builds it, refine it visually with a ReactFlow node editor. Ships with 120+ connectors. Built with React 19, NestJS, LangChain, and Qdrant." 
+site: https://github.com/fluxturn/fluxturn
   tags:                                                                                                                                               
     - typescript                                                  
     - react
@@ -16,7 +16,7 @@ name: FluxTurn
     - postgresql
     - redis
     - qdrant
-    - docker                                                                                                                                          
-  upforgrabs:
-    name: good first issue                                                                                                                            
-    link: https://github.com/fluxturn/fluxturn/labels/good%20first%20issue
+    - docker
+upforgrabs:
+  name: good first issue                                                                                                                            
+  ink: https://github.com/fluxturn/fluxturn/labels/good%20first%20issue

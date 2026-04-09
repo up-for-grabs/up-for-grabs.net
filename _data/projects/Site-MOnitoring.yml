@@ -3,8 +3,8 @@ desc: Self-hosted website uptime monitor with real-time analytics, interactive c
 site: https://pingbot.yogender1.me/
 tags:
   - javascript
-  - react
-  - nodejs
+  - reactjs
+  - node.js
   - postgresql
   - self-hosted
   - monitoring

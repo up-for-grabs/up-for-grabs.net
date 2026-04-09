@@ -1,6 +1,5 @@
   name: Studyield                             
-  desc: An open-source AI-powered learning platform with intelligent tutoring, adaptive assessments, and personalized study  
-  tools. Full-stack application with NestJS backend, React frontend, and Flutter mobile app.
+  desc: An open-source AI-powered learning platform with intelligent tutoring, adaptive assessments, and personalized study tools. Full-stack application with NestJS backend, React frontend, and Flutter mobile app.
   site: https://studyield.com                                                                                                
   tags:                               
   - oss                                                                                                                      

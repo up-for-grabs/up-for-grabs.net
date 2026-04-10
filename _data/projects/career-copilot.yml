@@ -1,0 +1,14 @@
+name: career-copilot
+desc: AI-powered job search pipeline built on GitHub Copilot CLI. Evaluate offers, generate tailored CVs, scan portals, track applications — all from your terminal.
+site: https://github.com/RajjjAryan/career-copilot
+tags:
+  - javascript
+  - nodejs
+  - golang
+  - ai
+  - cli
+  - career
+  - automation
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/RajjjAryan/career-copilot/labels/up-for-grabs

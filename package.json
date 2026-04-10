@@ -51,7 +51,7 @@
     "eslint-plugin-astro": "^1.6.0",
     "eslint-plugin-vue": "^10.8.0",
     "jsdom": "^29.0.1",
-    "msw": "^2.12.14",
+    "msw": "^2.13.2",
     "prettier": "^3.8.0",
     "promise-polyfill": "^8.3.0",
     "requirejs": "^2.3.8",

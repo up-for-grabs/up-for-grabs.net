@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
       - name: Setup Ruby
-        uses: ruby/setup-ruby@4dc28cf14d77b0afa6832d9765ac422dbf0dfedd
+        uses: ruby/setup-ruby@e65c17d16e57e481586a6a5a0282698790062f92
         with:
           bundler-cache: true
       - name: Setup Node
@@ -30,7 +30,7 @@ jobs:
           node-version-file: '.node-version'
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"

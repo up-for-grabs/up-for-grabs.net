@@ -21,7 +21,7 @@ jobs:
           echo "$GITHUB_CONTEXT"
 
       - name: 'Download artifact'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             let allArtifacts = await github.rest.actions.listWorkflowRunArtifacts({
@@ -52,7 +52,7 @@ jobs:
           unzip pr_number.zip -d "${{ runner.temp }}/artifacts"
 
       - name: 'Get issue number from file'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         id: get-number
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}

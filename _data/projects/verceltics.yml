@@ -1,0 +1,16 @@
+---
+name: Verceltics
+desc: A third-party iOS app to view your Vercel web analytics.
+site: https://verceltics.site
+tags:
+- swift
+- swiftui
+- ios
+- vercel
+- analytics
+upforgrabs:
+  name: good first issue
+  link: https://github.com/apoorvdarshan/verceltics/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 0

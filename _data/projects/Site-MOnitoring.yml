@@ -1,0 +1,20 @@
+---
+name: Site-MOnitoring
+desc: >-
+  Self-hosted website uptime monitor with real-time analytics, interactive charts & anti-sleep engine.
+  No UptimeRobot needed.
+site: https://pingbot.yogender1.me/
+tags:
+- javascript
+- reactjs
+- node.js
+- postgresql
+- self-hosted
+- monitoring
+upforgrabs:
+  name: help wanted
+  link: https://github.com/yogender-ai/Site-MOnitoring/issues
+stats:
+  issue-count: 5
+  last-updated: '2026-04-09T18:50:33Z'
+  fork-count: 4

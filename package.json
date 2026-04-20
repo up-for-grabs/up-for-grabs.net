@@ -46,7 +46,7 @@
     "@vue/test-utils": "^2.4.6",
     "astro": "^6.1.7",
     "date-fns": "^4.1.0",
-    "eslint": "^10.2.0",
+    "eslint": "^10.2.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-astro": "^1.7.0",
     "eslint-plugin-vue": "^10.8.0",

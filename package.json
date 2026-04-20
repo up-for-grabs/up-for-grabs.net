@@ -52,7 +52,7 @@
     "eslint-plugin-vue": "^10.8.0",
     "jsdom": "^29.0.2",
     "msw": "^2.13.4",
-    "prettier": "^3.8.0",
+    "prettier": "^3.8.3",
     "promise-polyfill": "^8.3.0",
     "requirejs": "^2.3.8",
     "showdown": "^2.1.0",

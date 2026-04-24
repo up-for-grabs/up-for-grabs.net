@@ -57,7 +57,7 @@
     "requirejs": "^2.3.8",
     "showdown": "^2.1.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.58.2",
+    "typescript-eslint": "^8.59.0",
     "underscore": "^1.13.8",
     "vite-plugin-babel": "^1.6.0",
     "vite-plugin-commonjs": "^0.10.4",

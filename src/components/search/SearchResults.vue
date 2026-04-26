@@ -214,6 +214,7 @@ menu {
       v-for="project in data"
       :key="project.id"
       :project="project"
+      @tag-selected="(tag) => { searchText = tag }"
     />
   </div>
 </template>

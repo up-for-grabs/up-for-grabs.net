@@ -7,8 +7,6 @@ export function filterProject(
   searchText: string,
   lastUpdated: Date
 ): boolean {
-  const normalizedSearchText = searchText.toLowerCase();
-
   if (
     project.stats.lastUpdated &&
     isBefore(project.stats.lastUpdated, lastUpdated)
@@ -16,19 +14,24 @@ export function filterProject(
     return false;
   }
 
-  if (project.name.toLowerCase().indexOf(normalizedSearchText) > -1) {
+  const terms = searchText
+    .toLowerCase()
+    .split(' ')
+    .filter((t) => t.length > 0);
+
+  if (terms.length === 0) {
     return true;
   }
 
-  if (project.desc.toLowerCase().indexOf(normalizedSearchText) > -1) {
-    return true;
-  }
+  return terms.every((term) => {
+    const inName = project.name.toLowerCase().includes(term);
+    const inDesc = project.desc.toLowerCase().includes(term);
+    const inTags = project.tags?.some((tag) =>
+      tag.toLowerCase().includes(term)
+    ) ?? false;
 
-  if (project.tags?.some(tag => tag.toLowerCase().indexOf(normalizedSearchText) > -1)) {
-    return true;
-  }
-
-  return false;
+    return inName || inDesc || inTags;
+  });
 }
 
 let allProjects: WebsiteProject[] | null = null;

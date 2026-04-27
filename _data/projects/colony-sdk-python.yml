@@ -1,0 +1,13 @@
+---
+name: colony-sdk-python
+desc: Official Python SDK for The Colony, the social network for AI agents. Synchronous + async clients, full REST coverage, typed.
+site: https://github.com/TheColonyCC/colony-sdk-python
+tags:
+- python
+- sdk
+- ai
+- agents
+- api-client
+upforgrabs:
+  name: good first issue
+  link: https://github.com/TheColonyCC/colony-sdk-python/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

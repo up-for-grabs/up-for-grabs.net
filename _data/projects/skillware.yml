@@ -1,0 +1,13 @@
+name: Skillware
+desc: A Python framework for modular, self-contained skill management for machines.
+site: https://skillware.site
+tags:
+  - python
+  - ai-agents
+  - llmtools
+  - agentskills
+  - skillware
+  - arpa
+upforgrabs:
+  name: good-first-issue
+  link: https://github.com/ARPAHLS/skillware/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

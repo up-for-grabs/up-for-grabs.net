@@ -31,7 +31,7 @@
     "amdefine": ">=0.1.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.8",
+    "@astrojs/check": "^0.9.9",
     "@astrojs/vue": "^6.0.1",
     "@babel/core": "^7.29.0",
     "@eslint/eslintrc": "^3.3.5",
@@ -44,7 +44,7 @@
     "@vitest/coverage-v8": "^4.1.5",
     "@vue/eslint-config-typescript": "^14.7.0",
     "@vue/test-utils": "^2.4.6",
-    "astro": "^6.1.9",
+    "astro": "^6.2.1",
     "date-fns": "^4.1.0",
     "eslint": "^10.2.1",
     "eslint-config-prettier": "^10.1.8",

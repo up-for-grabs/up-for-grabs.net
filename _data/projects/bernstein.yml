@@ -1,0 +1,15 @@
+---
+name: Bernstein
+desc: "Deterministic orchestrator for 30+ CLI AI coding agents (Claude Code, Codex, Aider, Cursor, Goose, etc.). Git worktree isolation, HMAC audit trail, MCP server mode."
+site: https://github.com/sipyourdrink-ltd/bernstein
+tags:
+- python
+- cli
+- ai
+- agents
+- mcp
+- orchestration
+- developer-tools
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/sipyourdrink-ltd/bernstein/labels/up-for-grabs

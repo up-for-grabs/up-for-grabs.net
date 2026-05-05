@@ -7,7 +7,7 @@ tags:
   - llm
   - chatbot
   - typescript
-  - nodejs
+  - node.js
   - express
   - qdrant
   - mongodb

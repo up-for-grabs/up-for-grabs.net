@@ -3,7 +3,6 @@ desc: Production-ready RAG (Retrieval-Augmented Generation) backend built with N
 site: https://github.com/open-loft/ragify
 tags:
   - rag
-  - ai
   - llm
   - chatbot
   - typescript

@@ -56,7 +56,7 @@
     "promise-polyfill": "^8.3.0",
     "requirejs": "^2.3.8",
     "showdown": "^2.1.0",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.2",
     "underscore": "^1.13.8",
     "vite-plugin-babel": "^1.6.0",

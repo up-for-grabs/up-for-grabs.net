@@ -1,0 +1,12 @@
+name: zukunft.com
+desc: An open-source project aimed at solving global societal problems through a data-driven approach. It uses the Giant Global Graph and a calculation of "Happy Time Points" (htp) to transparently evaluate and simulate the impact of political decisions.
+site: https://github.com/zukunft/zukunft.com
+tags:
+  - php
+  - semantic-web
+  - linked-data
+  - democracy
+  - civic-tech
+upforgrabs:
+  name: help wanted
+  link: https://github.com/zukunft/zukunft.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

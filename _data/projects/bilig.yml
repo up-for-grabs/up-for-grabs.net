@@ -1,0 +1,16 @@
+---
+name: Bilig
+desc: Headless TypeScript spreadsheet engine for formulas, WorkPaper persistence, agents, and Node services
+site: https://github.com/proompteng/bilig
+tags:
+- typescript
+- node.js
+- spreadsheet
+- excel
+- formula-engine
+- automation
+- ai-agents
+- workbook
+upforgrabs:
+  name: first-timers-only
+  link: https://github.com/proompteng/bilig/labels/first-timers-only

@@ -1093,10 +1093,52 @@ ul.tags li {
   width: 100%;
 }
 
+.sort-filter {
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #2E7BA9;
+  background: var(--databox-bg);
+  color: var(--body-color);
+  font-size: 14px;
+  width: 100%;
+}
+
 .projects .stats {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.activity-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.activity-indicator.active {
+  background-color: #28a745;
+}
+
+.activity-indicator.stale {
+  background-color: #ffc107;
+}
+
+.activity-indicator.inactive {
+  background-color: #dc3545;
+}
+
+.activity-text {
+  font-size: 12px;
+  color: var(--body-color);
+  opacity: 0.8;
 }
 
 .tooltip {

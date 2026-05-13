@@ -1,7 +1,7 @@
 ---
 name: Bilig
 desc: >-
-  Headless spreadsheet engine for Node.js services, workbook automation, coding agents, and formula-heavy imports.
+  Headless TypeScript spreadsheet engine for Node.js services, coding agents, and workbook automation.
 site: https://github.com/proompteng/bilig
 tags:
   - typescript
@@ -12,7 +12,8 @@ tags:
   - headless-spreadsheet
   - workbook-automation
   - ai-agents
+  - mcp
   - open-source
 upforgrabs:
-  name: first-timers-only
-  link: https://github.com/proompteng/bilig/labels/first-timers-only
+  name: good first issue
+  link: https://github.com/proompteng/bilig/labels/good%20first%20issue

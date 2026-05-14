@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "upForGrabs": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "link": { "type": "string" }
+      },
+      "required": ["name", "link"]
+    }
+  },
+  "required": ["name", "description", "tags", "upForGrabs"]
+}

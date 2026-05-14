@@ -1,61 +1,77 @@
-<template>
-  <div class="search-results">
-    <div class="filters">
-      <!-- Filter UI components -->
-    </div>
-    
-    <div class="popular-tags">
-      <span v-for="tag in popularTags" :key="tag.name">
-        {{ tag.name }} ({{ tag.count }})
-      </span>
-    </div>
-
-    <div class="results">
-      <ProjectEntry 
-        v-for="project in filteredProjects" 
-        :key="project.id" 
-        :project="project" 
-      />
-    </div>
-  </div>
-</template>
-
 <script setup lang="ts">
-import { computed, ref } from 'vue';
-import ProjectEntry from './ProjectEntry.vue';
+import { computed, ref, watch } from 'vue';
+import type { Project } from '../../types';
+import { filterProjects } from './search';
+import IssueCount from './IssueCount.vue';
 
-// Assuming projects and filters are provided via props or composables
 const props = defineProps<{
-  allProjects: any[];
-  selectedFilters: string[];
+  projects: Project[];
 }>();
 
-/**
- * Filters projects based on selected criteria.
- */
+const searchQuery = ref('');
+const selectedTags = ref<string[]>([]);
+
 const filteredProjects = computed(() => {
-  if (props.selectedFilters.length === 0) return props.allProjects;
-  return props.allProjects.filter(project => 
-    props.selectedFilters.every(filter => project.tags.includes(filter))
-  );
+  return filterProjects(props.projects, searchQuery.value, selectedTags.value);
 });
 
 /**
- * Calculates tag counts dynamically based on the current filtered project list.
- * This ensures the counts reflect only the projects matching the active filters.
+ * Computes popular tags based on the current filtered project list.
+ * This ensures that when filters are applied, the tag counts reflect
+ * the remaining projects.
  */
 const popularTags = computed(() => {
   const tagCounts: Record<string, number> = {};
   
-  filteredProjects.value.forEach(project => {
-    project.tags.forEach((tag: string) => {
+  filteredProjects.value.forEach((project) => {
+    project.tags.forEach((tag) => {
       tagCounts[tag] = (tagCounts[tag] || 0) + 1;
     });
   });
 
   return Object.entries(tagCounts)
-    .map(([name, count]) => ({ name, count }))
-    .sort((a, b) => b.count - a.count)
-    .slice(0, 10); // Return top 10 popular tags
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([tag, count]) => ({ tag, count }));
 });
+
+const toggleTag = (tag: string) => {
+  const index = selectedTags.value.indexOf(tag);
+  if (index > -1) {
+    selectedTags.value.splice(index, 1);
+  } else {
+    selectedTags.value.push(tag);
+  }
+};
 </script>
+
+<template>
+  <div class="search-container">
+    <input v-model="searchQuery" placeholder="Search projects..." />
+    
+    <div class="popular-tags">
+      <h3>Popular Tags</h3>
+      <button 
+        v-for="item in popularTags" 
+        :key="item.tag"
+        @click="toggleTag(item.tag)"
+        :class="{ active: selectedTags.includes(item.tag) }"
+      >
+        {{ item.tag }} ({{ item.count }})
+      </button>
+    </div>
+
+    <div class="results">
+      <div v-for="project in filteredProjects" :key="project.id">
+        {{ project.name }}
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.popular-tags button.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+</style>

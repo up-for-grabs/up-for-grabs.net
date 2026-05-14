@@ -1,46 +1,61 @@
 <template>
   <div class="search-results">
-    <!-- Filter UI components would be here -->
-    <div class="popular-tags">
-      <span v-for="(count, tag) in filteredTagCounts" :key="tag">
-        {{ tag }} ({{ count }})
-      </span>
+    <div class="filters">
+      <!-- Filter UI components -->
     </div>
     
-    <div class="results-list">
-      <ProjectEntry v-for="project in filteredProjects" :key="project.id" :project="project" />
+    <div class="popular-tags">
+      <span v-for="tag in popularTags" :key="tag.name">
+        {{ tag.name }} ({{ tag.count }})
+      </span>
+    </div>
+
+    <div class="results">
+      <ProjectEntry 
+        v-for="project in filteredProjects" 
+        :key="project.id" 
+        :project="project" 
+      />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import ProjectEntry from './ProjectEntry.vue';
-import { useSearchStore } from '../data/search';
 
-const searchStore = useSearchStore();
-
-/**
- * Computed property to get the list of projects currently matching the filters.
- */
-const filteredProjects = computed(() => searchStore.filteredProjects);
+// Assuming projects and filters are provided via props or composables
+const props = defineProps<{
+  allProjects: any[];
+  selectedFilters: string[];
+}>();
 
 /**
- * Computed property to dynamically calculate tag counts based on the currently filtered projects.
- * This ensures that when a user selects a filter, the tag counts reflect the subset of projects.
+ * Filters projects based on selected criteria.
  */
-const filteredTagCounts = computed(() => {
-  const counts: Record<string, number> = {};
+const filteredProjects = computed(() => {
+  if (props.selectedFilters.length === 0) return props.allProjects;
+  return props.allProjects.filter(project => 
+    props.selectedFilters.every(filter => project.tags.includes(filter))
+  );
+});
+
+/**
+ * Calculates tag counts dynamically based on the current filtered project list.
+ * This ensures the counts reflect only the projects matching the active filters.
+ */
+const popularTags = computed(() => {
+  const tagCounts: Record<string, number> = {};
   
-  filteredProjects.value.forEach((project) => {
+  filteredProjects.value.forEach(project => {
     project.tags.forEach((tag: string) => {
-      counts[tag] = (counts[tag] || 0) + 1;
+      tagCounts[tag] = (tagCounts[tag] || 0) + 1;
     });
   });
 
-  // Sort tags by frequency descending
-  return Object.fromEntries(
-    Object.entries(counts).sort(([, a], [, b]) => b - a)
-  );
+  return Object.entries(tagCounts)
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 10); // Return top 10 popular tags
 });
 </script>

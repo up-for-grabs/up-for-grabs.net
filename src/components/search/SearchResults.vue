@@ -1,33 +1,53 @@
 <template>
   <div class="search-results">
-    <!-- Filter UI components would trigger updateFilteredProjects -->
-    <div v-for="tag in popularTags" :key="tag.name">
-      {{ tag.name }} ({{ tag.count }})
+    <div class="popular-tags">
+      <h3>Popular Tags</h3>
+      <ul>
+        <li v-for="(count, tag) in popularTags" :key="tag">
+          {{ tag }} ({{ count }})
+        </li>
+      </ul>
     </div>
-    
-    <div v-for="project in filteredProjects" :key="project.name">
-      {{ project.name }}
+    <div class="projects">
+      <ProjectEntry
+        v-for="project in filteredProjects"
+        :key="project.id"
+        :project="project"
+      />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue';
-import { filterProjects, getTagCounts, type Project } from '../data/search';
+import { computed } from 'vue';
+import ProjectEntry from './ProjectEntry.vue';
 
-const props = defineProps<{ projects: Project[] }>();
-const selectedTags = ref<string[]>([]);
+interface Project {
+  id: string;
+  tags: string[];
+  // ... other properties
+}
 
-// Reactive filtered projects
-const filteredProjects = computed(() => 
-  filterProjects(props.projects, selectedTags.value)
-);
+const props = defineProps<{
+  filteredProjects: Project[];
+}>();
 
-// Reactive tag counts based on the current filtered results
+/**
+ * Computes the frequency of tags based on the currently filtered projects.
+ * This ensures the popular tags count updates dynamically when filters change.
+ */
 const popularTags = computed(() => {
-  const counts = getTagCounts(filteredProjects.value);
-  return Object.entries(counts)
-    .map(([name, count]) => ({ name, count }))
-    .sort((a, b) => b.count - a.count);
+  const tagCounts: Record<string, number> = {};
+  
+  props.filteredProjects.forEach((project) => {
+    project.tags.forEach((tag) => {
+      tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+    });
+  });
+
+  // Sort tags by frequency descending
+  return Object.fromEntries(
+    Object.entries(tagCounts).sort(([, a], [, b]) => b - a)
+  );
 });
 </script>

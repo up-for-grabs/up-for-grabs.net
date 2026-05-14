@@ -1,70 +1,20 @@
 {
-  "name": "up-for-grabs.net",
+  "name": "up-for-grabs-tools",
   "version": "1.0.0",
+  "description": "Tools for managing up-for-grabs.net projects",
   "main": "index.js",
-  "description": "Tooling for up-for-grabs.net development",
-  "repository": "https://github.com/up-for-grabs/up-for-grabs.net",
-  "license": "MIT",
   "scripts": {
-    "check": "tsc",
-    "eslint-check": "eslint --print-config javascripts/main.js | eslint-config-prettier-check",
-    "lint": "eslint javascripts/*.js tests/**/*.js",
-    "lint-fix": "eslint --fix javascripts/*.js tests/**/*.js",
-    "lint-new": "eslint -c eslint-new.config.mjs src/**/*.astro src/**/*.vue *.mjs src/**/*.ts",
-    "lint-new-fix": "eslint  -c eslint-new.config.mjs --fix src/**/*.astro src/**/*.vue *.mjs src/**/*.ts",
-    "prettier": "prettier --check .",
-    "prettier-fix": "prettier --write .",
-    "test": "vitest run",
-    "test:watch": "vitest watch",
-    "test:coverage": "vitest run --coverage",
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "add-project": "node scripts/add-project.js"
   },
-  "engines": {
-    "node": ">=24",
-    "npm": ">=11"
-  },
+  "keywords": [
+    "up-for-grabs",
+    "generator",
+    "project"
+  ],
+  "author": "Up-For-Grabs Contributors",
+  "license": "MIT",
   "dependencies": {
-    "@tanstack/vue-query": "^5.100.6",
-    "amdefine": ">=0.1.0"
-  },
-  "devDependencies": {
-    "@astrojs/check": "^0.9.9",
-    "@astrojs/vue": "^6.0.1",
-    "@babel/core": "^7.29.0",
-    "@eslint/eslintrc": "^3.3.5",
-    "@eslint/js": "^10.0.1",
-    "@types/node": "^25",
-    "@types/showdown": "^2.0.6",
-    "@types/underscore": "^1.13.0",
-    "@typescript-eslint/parser": "^8.59.0",
-    "@vitejs/plugin-vue": "^6.0.6",
-    "@vitest/coverage-v8": "^4.1.5",
-    "@vue/eslint-config-typescript": "^14.7.0",
-    "@vue/test-utils": "^2.4.10",
-    "astro": "^6.2.1",
-    "date-fns": "^4.1.0",
-    "eslint": "^10.3.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-astro": "^1.7.0",
-    "eslint-plugin-vue": "^10.9.1",
-    "jsdom": "^29.1.1",
-    "msw": "^2.14.2",
-    "prettier": "^3.8.3",
-    "promise-polyfill": "^8.3.0",
-    "requirejs": "^2.3.8",
-    "showdown": "^2.1.0",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.2",
-    "underscore": "^1.13.8",
-    "vite-plugin-babel": "^1.6.0",
-    "vite-plugin-commonjs": "^0.10.4",
-    "vitest": "^4.1.5",
-    "vitest-fetch-mock": "^0.4.5",
-    "vitest-localstorage-mock": "^0.1.2",
-    "vue": "^3.5.33",
-    "whatwg-fetch": "^3.6.20"
+    "inquirer": "^9.0.0",
+    "js-yaml": "^4.1.0"
   }
 }

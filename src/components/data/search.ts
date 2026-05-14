@@ -1,33 +1,39 @@
-import { ref, computed } from 'vue';
+/**
+ * Core filtering logic for projects.
+ * Calculates filtered projects and updates tag counts dynamically.
+ */
 
-// Mocking the structure based on project requirements
 export interface Project {
-  id: string;
   name: string;
   tags: string[];
+  // ... other properties
 }
 
-const allProjects = ref<Project[]>([]);
-const searchQuery = ref('');
-const selectedTags = ref<string[]>([]);
+/**
+ * Calculates the frequency of tags based on a provided list of projects.
+ * This is used to update the "Popular Tags" section dynamically.
+ */
+export function getTagCounts(projects: Project[]): Record<string, number> {
+  const counts: Record<string, number> = {};
+
+  projects.forEach((project) => {
+    project.tags.forEach((tag) => {
+      counts[tag] = (counts[tag] || 0) + 1;
+    });
+  });
+
+  return counts;
+}
 
 /**
- * Core filtering logic.
- * Returns projects that match the search query and selected tags.
+ * Filters projects based on selected tags and returns the filtered list.
  */
-export const filteredProjects = computed(() => {
-  return allProjects.value.filter((project) => {
-    const matchesQuery = project.name.toLowerCase().includes(searchQuery.value.toLowerCase());
-    const matchesTags = selectedTags.value.every((tag) => project.tags.includes(tag));
-    return matchesQuery && matchesTags;
-  });
-});
+export function filterProjects(projects: Project[], selectedTags: string[]): Project[] {
+  if (selectedTags.length === 0) {
+    return projects;
+  }
 
-export function useSearch() {
-  return {
-    allProjects,
-    searchQuery,
-    selectedTags,
-    filteredProjects,
-  };
+  return projects.filter((project) =>
+    selectedTags.every((tag) => project.tags.includes(tag))
+  );
 }

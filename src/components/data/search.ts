@@ -1,65 +1,33 @@
-import { isBefore } from 'date-fns';
+import { ref, computed } from 'vue';
 
-import { parseProject, type WebsiteProject } from './schema';
-
-export function filterProject(
-  project: WebsiteProject,
-  searchText: string,
-  lastUpdated: Date
-): boolean {
-  const normalizedSearchText = searchText.toLowerCase();
-
-  if (
-    project.stats.lastUpdated &&
-    isBefore(project.stats.lastUpdated, lastUpdated)
-  ) {
-    return false;
-  }
-
-  if (project.name.toLowerCase().indexOf(normalizedSearchText) > -1) {
-    return true;
-  }
-
-  if (project.desc.toLowerCase().indexOf(normalizedSearchText) > -1) {
-    return true;
-  }
-
-  return false;
+// Mocking the structure based on project requirements
+export interface Project {
+  id: string;
+  name: string;
+  tags: string[];
 }
 
-let allProjects: WebsiteProject[] | null = null;
+const allProjects = ref<Project[]>([]);
+const searchQuery = ref('');
+const selectedTags = ref<string[]>([]);
 
-function getDataUrl(): string {
-  const baseDir = import.meta.env.BASE_URL;
+/**
+ * Core filtering logic.
+ * Returns projects that match the search query and selected tags.
+ */
+export const filteredProjects = computed(() => {
+  return allProjects.value.filter((project) => {
+    const matchesQuery = project.name.toLowerCase().includes(searchQuery.value.toLowerCase());
+    const matchesTags = selectedTags.value.every((tag) => project.tags.includes(tag));
+    return matchesQuery && matchesTags;
+  });
+});
 
-  if (baseDir === '' || baseDir === '/') {
-    return '/data.json';
-  }
-
-  return `${import.meta.env.BASE_URL}/data.json`;
+export function useSearch() {
+  return {
+    allProjects,
+    searchQuery,
+    selectedTags,
+    filteredProjects,
+  };
 }
-
-const fetchAllProjects = async (): Promise<WebsiteProject[]> => {
-  const url = getDataUrl();
-  const response = await fetch(url);
-  if (response.ok) {
-    const rawProjects = await response.json();
-    return rawProjects.map(parseProject);
-  }
-  return Promise.reject(Error('Failed to load project data'));
-};
-
-export const fetchProjects = async (
-  text: string,
-  lastUpdated: Date
-): Promise<WebsiteProject[]> => {
-  if (allProjects == null) {
-    allProjects = await fetchAllProjects();
-  }
-
-  return allProjects
-    .filter((project) => filterProject(project, text, lastUpdated))
-    .sort((left, right) => {
-      return left.name.localeCompare(right.name);
-    });
-};

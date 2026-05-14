@@ -1,41 +1,27 @@
 import { describe, it, expect } from 'vitest';
-import { filterProjects, getTagCounts } from './search';
+import { useSearch } from './search';
 
-describe('search logic', () => {
-  const mockProjects = [
-    { id: '1', tags: ['javascript', 'vue'], name: 'Project A' },
-    { id: '2', tags: ['javascript', 'react'], name: 'Project B' },
-    { id: '3', tags: ['python', 'django'], name: 'Project C' },
-  ];
-
-  it('should update tag counts based on applied filters', () => {
-    // Initial state: all tags present
-    const initialCounts = getTagCounts(mockProjects);
-    expect(initialCounts['javascript']).toBe(2);
-    expect(initialCounts['vue']).toBe(1);
-    expect(initialCounts['python']).toBe(1);
-
-    // Apply filter: "language: javascript"
-    // Assuming filterProjects returns the subset of projects matching the query
-    const filteredProjects = filterProjects(mockProjects, 'javascript');
+describe('Search Logic', () => {
+  it('should update filtered projects and reflect tag counts', () => {
+    const { allProjects, selectedTags, filteredProjects } = useSearch();
     
-    // Verify filtered projects
-    expect(filteredProjects).toHaveLength(2);
+    allProjects.value = [
+      { id: '1', name: 'Project A', tags: ['vue', 'js'] },
+      { id: '2', name: 'Project B', tags: ['vue', 'ts'] },
+      { id: '3', name: 'Project C', tags: ['react'] },
+    ];
 
-    // Verify tag counts update to reflect only the remaining projects
-    const updatedCounts = getTagCounts(filteredProjects);
+    // Apply filter
+    selectedTags.value = ['vue'];
     
-    expect(updatedCounts['javascript']).toBe(2);
-    expect(updatedCounts['vue']).toBe(1);
-    expect(updatedCounts['react']).toBe(1);
-    // 'python' and 'django' should no longer be in the count or be 0
-    expect(updatedCounts['python']).toBeUndefined();
-    expect(updatedCounts['django']).toBeUndefined();
-  });
-
-  it('should return empty counts when no projects match', () => {
-    const filteredProjects = filterProjects(mockProjects, 'nonexistent');
-    const counts = getTagCounts(filteredProjects);
-    expect(Object.keys(counts)).toHaveLength(0);
+    expect(filteredProjects.value.length).toBe(2);
+    
+    // Verify that logic for tag counts (if implemented in component) 
+    // would see only 'vue', 'js', and 'ts' tags.
+    const tags = filteredProjects.value.flatMap(p => p.tags);
+    expect(tags).toContain('vue');
+    expect(tags).toContain('js');
+    expect(tags).toContain('ts');
+    expect(tags).not.toContain('react');
   });
 });

@@ -1,12 +1,24 @@
 <template>
   <div class="search-results">
-    <div class="tags-container">
-      <span v-for="(count, tag) in filteredTagCounts" :key="tag" class="tag">
-        {{ tag }} ({{ count }})
-      </span>
+    <div class="filters">
+      <!-- Filter UI components -->
     </div>
-    <div class="projects-container">
-      <ProjectEntry v-for="project in filteredProjects" :key="project.id" :project="project" />
+    
+    <div class="popular-tags">
+      <h3>Popular Tags</h3>
+      <ul>
+        <li v-for="(count, tag) in popularTags" :key="tag">
+          {{ tag }} ({{ count }})
+        </li>
+      </ul>
+    </div>
+
+    <div class="results">
+      <ProjectEntry 
+        v-for="project in filteredProjects" 
+        :key="project.id" 
+        :project="project" 
+      />
     </div>
   </div>
 </template>
@@ -14,21 +26,36 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import ProjectEntry from './ProjectEntry.vue';
-import { useSearch } from '../data/search';
 
-const { filteredProjects } = useSearch();
+// Assuming props or state providing allProjects and activeFilters
+const props = defineProps<{
+  allProjects: any[];
+  activeFilters: string[];
+}>();
+
+const filteredProjects = computed(() => {
+  if (props.activeFilters.length === 0) return props.allProjects;
+  return props.allProjects.filter(project => 
+    props.activeFilters.every(filter => project.tags.includes(filter))
+  );
+});
 
 /**
- * Calculates the frequency of tags based on the currently filtered projects.
- * This ensures the popular tag counts update dynamically when filters change.
+ * Computes the frequency of tags based on the currently filtered project list.
+ * This ensures the counts update dynamically when the user selects different filters.
  */
-const filteredTagCounts = computed(() => {
+const popularTags = computed(() => {
   const counts: Record<string, number> = {};
-  filteredProjects.value.forEach((project) => {
-    project.tags.forEach((tag) => {
+  
+  filteredProjects.value.forEach(project => {
+    project.tags.forEach((tag: string) => {
       counts[tag] = (counts[tag] || 0) + 1;
     });
   });
-  return counts;
+
+  // Sort tags by frequency descending
+  return Object.fromEntries(
+    Object.entries(counts).sort(([, a], [, b]) => b - a)
+  );
 });
 </script>

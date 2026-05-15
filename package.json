@@ -59,7 +59,7 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.2",
     "underscore": "^1.13.8",
-    "vite-plugin-babel": "^1.6.0",
+    "vite-plugin-babel": "^1.7.0",
     "vite-plugin-commonjs": "^0.10.4",
     "vitest": "^4.1.5",
     "vitest-fetch-mock": "^0.4.5",

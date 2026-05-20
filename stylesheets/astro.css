@@ -3,11 +3,13 @@ body {
   height: 100%;
 }
 
-html {
+
+  html {
   transition:
     background-color 0.3s ease,
     color 0.3s ease;
 }
+
 
 body {
   background: var(--body-back);
@@ -22,12 +24,11 @@ body {
 
 .container {
   zoom: 1;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 90%;
-  margin: 0 auto 0;
+  width: min(90%, 1200px);
+  margin: 0 auto;
   position: relative;
+  padding: 0 16px;
 }
 
 .container:before,
@@ -48,9 +49,8 @@ body {
 }
 
 #main-container .block {
-  border-top: 1px solid #efefef;
-  border-bottom: 1px solid #efefef;
-  padding: 30px 40px 24px;
+  border-top: 1px solid var(--container-border);
+  border-bottom: 1px solid var(--container-border);
 }
 
 #main-container .block:first-child,

@@ -1,0 +1,22 @@
+name: D&D Book
+desc: Free open-source tool for managing D&D campaigns, lore centered
+site: https://github.com/grimimirg/dndbook
+tags:
+  - dnd
+  - ttrpg
+  - rpg
+  - dungeons-and-dragons
+  - campaign-manager
+  - lore-management
+  - dungeon-master
+  - self-hosted
+  - docker
+  - docker-compose
+  - privacy-focused
+  - help-wanted
+  - python
+  - vue
+  - vuejs
+upforgrabs:
+  name: Good first issue
+  link: https://github.com/grimimirg/dndbook/labels/good-first-issue

@@ -15,6 +15,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/microsoft/vscode/labels/help%20wanted
 stats:
-  issue-count: 500
+  issue-count: 499
   last-updated: '2026-05-22T19:21:00Z'
-  fork-count: 40116
+  fork-count: 40225

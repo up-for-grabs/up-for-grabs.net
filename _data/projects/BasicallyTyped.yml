@@ -1,0 +1,13 @@
+name: BasicallyTyped
+desc: A type-safe BASIC language implementation in Zig featuring a full pipeline including lexical analysis, parsing, static type checking, and AST-based interpretation.
+site: https://github.com/iamdaven/BasicallyTyped
+tags:
+  - zig
+  - compiler
+  - interpreter
+  - basic
+  - static-analysis
+  - parser
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/iamdaven/BasicallyTyped/labels/up-for-grabs

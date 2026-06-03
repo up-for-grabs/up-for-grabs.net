@@ -7,7 +7,7 @@ tags:
   - interpreter
   - basic
   - static-analysis
-  - parser
+  - parsing
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/iamdaven/BasicallyTyped/labels/up-for-grabs

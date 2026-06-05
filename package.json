@@ -41,7 +41,7 @@
     "@types/underscore": "^1.13.0",
     "@typescript-eslint/parser": "^8.60.0",
     "@vitejs/plugin-vue": "^6.0.6",
-    "@vitest/coverage-v8": "^4.1.5",
+    "@vitest/coverage-v8": "^4.1.8",
     "@vue/eslint-config-typescript": "^14.7.0",
     "@vue/test-utils": "^2.4.10",
     "astro": "^6.4.2",

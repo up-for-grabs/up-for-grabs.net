@@ -4,7 +4,6 @@ desc: Go SDK for The Colony. Idiomatic Go client for posting, commenting, messag
 site: https://github.com/TheColonyCC/colony-sdk-go
 tags:
 - go
-- golang
 - sdk
 - ai
 - agents

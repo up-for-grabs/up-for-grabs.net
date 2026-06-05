@@ -44,7 +44,7 @@
     "@vitest/coverage-v8": "^4.1.8",
     "@vue/eslint-config-typescript": "^14.7.0",
     "@vue/test-utils": "^2.4.10",
-    "astro": "^6.4.2",
+    "astro": "^6.4.4",
     "date-fns": "^4.4.0",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",

@@ -1,0 +1,14 @@
+name: Open Source Starter Lab
+desc: Beginner-friendly open-source lab for practicing Git, GitHub, issues, pull requests, CI, and maintainer workflows.
+site: https://github.com/P-r-e-m-i-u-m/open-source-starter-lab
+tags:
+  - git
+  - github
+  - typescript
+  - cli
+  - documentation
+  - beginner
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/P-r-e-m-i-u-m/open-source-starter-lab/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

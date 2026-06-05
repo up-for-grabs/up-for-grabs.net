@@ -14,6 +14,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/elastic/kibana/labels/good%20first%20issue
 stats:
-  issue-count: 150
-  last-updated: '2026-05-01T16:54:05Z'
-  fork-count: 8568
+  issue-count: 133
+  last-updated: '2026-05-27T23:30:03Z'
+  fork-count: 8587

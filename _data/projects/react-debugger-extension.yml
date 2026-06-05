@@ -1,0 +1,17 @@
+---
+name: React Debugger
+desc: Chrome DevTools extension that unifies React render timeline, performance, memory-leak detection, useEffect audit, CLS monitoring, Redux state inspection, and AI analysis into one panel.
+site: https://github.com/hoainho/react-debugger-extension
+tags:
+  - reactjs
+  - typescript
+  - javascript
+  - chrome-extension
+  - devtools
+  - debugging
+  - performance
+  - redux
+  - core-web-vitals
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hoainho/react-debugger-extension/labels/good%20first%20issue

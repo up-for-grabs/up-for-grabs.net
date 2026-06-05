@@ -1,0 +1,16 @@
+name: Backend Failure Lab
+desc: Learn production backend engineering through runnable failure cases with broken code, failing tests, fixes, and production notes.
+site: https://github.com/mxm-mrz/backend_failure_lab
+tags:
+  - python
+  - fastapi
+  - backend
+  - pytest
+  - sqlalchemy
+  - debugging
+  - testing
+  - education
+  - open-source
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/mxm-mrz/backend_failure_lab/issues?q=is%3Aissue%20is%3Aopen%20label%3Aup-for-grabs

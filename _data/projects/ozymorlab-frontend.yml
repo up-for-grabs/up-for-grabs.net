@@ -1,0 +1,24 @@
+name: OzymorLab
+desc: Open-source AI-powered education infrastructure platform for assessment, grading, OCR, analytics, and learning intelligence.
+site: https://github.com/OzymorLab/OzymorLab-Frontend
+
+tags:
+  - edtech
+  - education
+  - ai
+  - education-ai
+  - assessment
+  - grading
+  - ocr
+  - computer-vision
+  - document-ai
+  - multimodal-ai
+  - llm
+  - fastapi
+  - python
+  - reactjs
+  - open-source
+
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/OzymorLab/OzymorLab-Frontend/labels/up-for-grabs

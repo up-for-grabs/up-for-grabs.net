@@ -1,0 +1,13 @@
+name: Email Blast Tool
+desc: Open source email marketing and campaign management platform built with Next.js and TypeScript.
+site: https://github.com/nikhilt101/email-blast-tool
+
+tags:
+  - nextjs
+  - typescript
+  - email
+  - saas
+
+upforgrabs:
+  name: good first issue
+  link: https://github.com/nikhilt101/email-blast-tool/labels/good%20first%20issue

@@ -43,7 +43,7 @@
     "@vitejs/plugin-vue": "^6.0.7",
     "@vitest/coverage-v8": "^4.1.8",
     "@vue/eslint-config-typescript": "^14.8.0",
-    "@vue/test-utils": "^2.4.10",
+    "@vue/test-utils": "^2.4.11",
     "astro": "^6.4.4",
     "date-fns": "^4.4.0",
     "eslint": "^10.4.1",

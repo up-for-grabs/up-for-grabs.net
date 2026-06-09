@@ -11,7 +11,6 @@ tags:
   - indexeddb
   - crud
   - storage
-  - open source
   - open-source
   - js
   - javascript
@@ -19,7 +18,7 @@ tags:
   - frontend
   - reflect
   - runtime
-  - compile time
+  - compiletime
 upforgrabs:
   name: Good first issue
   link: https://github.com/maifeeulasad/idb-ts/issues?q=state%3Aopen%20label%3A%22good%20first%20issue%22

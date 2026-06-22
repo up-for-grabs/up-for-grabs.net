@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Setup Ruby
-        uses: ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f
+        uses: ruby/setup-ruby@89f90524b88a01fe6e0b732220432cc6142926af
         with:
           bundler-cache: true
       - name: Setup Node

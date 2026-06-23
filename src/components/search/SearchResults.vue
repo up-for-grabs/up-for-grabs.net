@@ -210,10 +210,12 @@ menu {
     {{ data.length }} projects found
   </div>
   <div v-if="data" class="projects">
+    <!-- Student note: we listen for the tagClick event from the child and update our search text box -->
     <ProjectEntry
       v-for="project in data"
       :key="project.id"
       :project="project"
+      @tag-click="(tag) => (searchText = tag)"
     />
   </div>
 </template>

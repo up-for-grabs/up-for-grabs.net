@@ -1,4 +1,4 @@
-import { expect, test, vi, afterEach, beforeAll, afterAll } from 'vitest';
+import { expect, test, afterEach, beforeAll, afterAll } from 'vitest';
 import { mount, flushPromises } from '@vue/test-utils';
 
 import { setupServer } from 'msw/node';

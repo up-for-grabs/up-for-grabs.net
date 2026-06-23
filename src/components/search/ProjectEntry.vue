@@ -7,6 +7,11 @@ const props = defineProps<{
   project: WebsiteProject;
 }>();
 
+// Student note: we define an event here so we can tell the parent component when a tag is clicked
+const emit = defineEmits<{
+  (e: 'tagClick', tag: string): void;
+}>();
+
 const { project } = props;
 const stats = project.stats;
 
@@ -56,6 +61,13 @@ const linkTitle = `View open issues for ${project.name}`;
   border-radius: 5px;
   background: #bfd1d9;
   padding: 0.3em;
+  /* Student note: added cursor pointer so users know they can click the tags */
+  cursor: pointer;
+}
+
+/* Student note: added a simple hover effect to make it look better when hovering over a tag */
+.project .tags li:hover {
+  background: #a9c2ce;
 }
 
 .label {
@@ -99,7 +111,14 @@ const linkTitle = `View open issues for ${project.name}`;
     <div class="description" v-if="project.desc">{{ project.desc }}</div>
 
     <ul class="tags" v-if="project.tags" aria-label="project tags">
-      <li v-for="tag in project.tags" v-bind:key="tag">{{ tag }}</li>
+      <!-- Student note: when a tag is clicked, we emit the tagClick event and send the tag text to the parent -->
+      <li
+        v-for="tag in project.tags"
+        v-bind:key="tag"
+        @click="emit('tagClick', tag)"
+      >
+        {{ tag }}
+      </li>
     </ul>
   </div>
 </template>

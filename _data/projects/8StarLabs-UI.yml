@@ -1,7 +1,7 @@
 ---
 name: 8StarLabs UI
 desc: A component library built on top of shadcn/ui offering niche, high-utility UI elements you won't find in standard libraries
-site: https://ui.8starlabs.com/
+site: https://ui.8starlabs.com/?utm_source=up-for-grabs&utm_medium=referral&utm_campaign=directory_listing
 tags:
 - reactjs
 - nextjs

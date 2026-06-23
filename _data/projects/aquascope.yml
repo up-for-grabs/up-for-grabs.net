@@ -1,0 +1,16 @@
+---
+name: AquaScope
+desc: 'Open-source Python toolkit for water data, hydrology, and agricultural water management. Unifies 15 global water-data sources behind one schema, with Bulletin 17C flood frequency, baseflow separation, FAO-56 crop water requirements, and an AI methodology recommender. Issues are scoped with clear acceptance criteria and a first-issue to second-issue to area-owner contributor ladder.'
+site: https://github.com/Rekin226/aquascope
+tags:
+- python
+- hydrology
+- water
+- open-data
+- scientific-computing
+- environmental-science
+- data-science
+- agriculture
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Rekin226/aquascope/labels/good%20first%20issue

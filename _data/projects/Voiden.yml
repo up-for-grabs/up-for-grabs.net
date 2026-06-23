@@ -1,0 +1,19 @@
+---
+name: Voiden
+desc: Design, Test and Document APIs in plain Markdown. Compose Requests with API blocks. Reuse, Replace & Version everything just like code. Offline, Truly Git Native, No Lock-in.
+site: https://voiden.md
+tags:
+- typescript
+- api
+- markdown
+- http-client
+- rest-api
+- testing
+- openapi
+- graphql
+- websocket
+- cli
+- offline-first
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/VoidenHQ/voiden/labels/up-for-grabs

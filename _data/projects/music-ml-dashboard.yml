@@ -4,7 +4,7 @@ desc: >-
   A high-performance full-stack application that analyzes your music listening history using offline PyTorch Machine Learning and the Gemini API to visualize your auditory emotional journey.
 site: https://github.com/iamp1000/music-ml-dashboard
 tags:
-- react
+- reactjs
 - python
 - machine-learning
 - typescript

@@ -42,7 +42,7 @@
     "@typescript-eslint/parser": "^8.61.1",
     "@vitejs/plugin-vue": "^6.0.7",
     "@vitest/coverage-v8": "^4.1.9",
-    "@vue/eslint-config-typescript": "^14.8.0",
+    "@vue/eslint-config-typescript": "^14.9.0",
     "@vue/test-utils": "^2.4.11",
     "astro": "^7.0.0",
     "date-fns": "^4.4.0",

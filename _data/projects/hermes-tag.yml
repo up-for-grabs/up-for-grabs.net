@@ -1,0 +1,14 @@
+---
+name: Hermes Tag
+desc: "A Claude-Tag-style context-selection layer for the Hermes agent framework: @-mention it in a Feishu/Lark or Slack group and it replies in-thread from bounded per-chat memory."
+site: https://github.com/DanielLi202/hermes-tag
+tags:
+- python
+- feishu
+- lark
+- slack
+- agents
+- llm
+upforgrabs:
+  name: help wanted
+  link: https://github.com/DanielLi202/hermes-tag/labels/help%20wanted

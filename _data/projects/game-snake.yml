@@ -4,7 +4,7 @@ site: https://game-snake-modern.vercel.app/
 tags:
   - javascript
   - typescript
-  - react
+  - reactjs
   - vite
   - canvas
   - game

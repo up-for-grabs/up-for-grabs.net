@@ -36,7 +36,7 @@
     "@babel/core": "^7.29.7",
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^10.0.1",
-    "@types/node": "^25",
+    "@types/node": "^26",
     "@types/showdown": "^2.0.6",
     "@types/underscore": "^1.13.0",
     "@typescript-eslint/parser": "^8.61.1",

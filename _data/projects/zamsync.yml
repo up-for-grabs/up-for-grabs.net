@@ -1,0 +1,14 @@
+name: ZamSync
+desc: Offline-first sync engine in Rust for clinics in low-connectivity environments (2G, power outages). Built on an encrypted write-ahead log, version vectors, hybrid logical clocks, and mTLS. Under 10 MB RAM on Raspberry Pi 3.
+site: https://github.com/Etoile-Bleu/ZamSync
+tags:
+  - rust
+  - distributed-systems
+  - offline-first
+  - healthcare
+  - embedded
+  - networking
+  - raspberry-pi
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Etoile-Bleu/ZamSync/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

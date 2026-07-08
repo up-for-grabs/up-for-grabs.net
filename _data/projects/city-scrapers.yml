@@ -1,7 +1,7 @@
 ---
 name: City Scrapers
 desc: Scrape public meetings to increase access and transparency around local government.
-site: https://cityscrapers.org/
+site:  https://city-scrapers.org/
 tags:
 - python
 - web-scraping

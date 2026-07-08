@@ -3,7 +3,7 @@ desc: An intelligent system designed to streamline e-library operations, manage 
 site: https://github.com/bundlab/smart-library-assistant
 tags:
   - typescript
-  - node-js
+  - node.js
   - machine-learning
   - artificial-intelligence
   - e-library

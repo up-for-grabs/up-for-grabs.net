@@ -6,7 +6,7 @@ tags:
 - python
 - api  
 - open-source  
-- devops events  
+- devops-events  
 - awesome  
 - devtools 
 - conferences  
@@ -20,10 +20,11 @@ tags:
 - tech-conferences 
 - platform-engineering 
 - developer-marketing 
+- developer-relations
 upforgrabs:
   name: good-first-issue help-wanted
   link: https://github.com/Infrasity-Labs/awesome-developer-conferences/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22%20label%3A%22help%20wanted%22
 stats:
   issue-count: 3
   fork-count: 1
-  last-updated: Thu, 09 Jul 2026 04:15:41 GMT
+  last-updated: 2026-07-09T04:15:41Z

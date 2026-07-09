@@ -1,0 +1,14 @@
+name: Finance Coach
+desc: An AI-powered personal finance coach built in Java using Maven and CSV data persistence to help users track and optimize their budget.
+site: https://github.com/bundlab/finance-coach
+tags:
+  - java
+  - maven
+  - ai
+  - finance
+  - budget
+  - personal-finance
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bundlab/finance-coach/issues?q=is%3Aopen+is%3Aissue+label%3A"good+first+issue"

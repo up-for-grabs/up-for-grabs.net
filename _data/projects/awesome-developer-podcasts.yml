@@ -1,7 +1,7 @@
 ---
 name: Awesome Developer Podcasts
 desc: A curated directory of developer podcasts for software engineering teams. It is an open-source collection of podcasts that covers system architecture, cloud-native, DevOps, B2B SaaS, AI/ML, and engineering leadership.
-site: https://github.com/Infrasity-Labs/awesome-tech-newsletter
+site: https://github.com/Infrasity-Labs/awesome-developer-podcasts
 tags:
 - open-source  
 - devtools  

@@ -1,0 +1,12 @@
+name: Nika
+desc: 'Intent-as-code for AI workflows: author a reviewable DAG in YAML, audit cost/permits before running, keep tamper-evident traces after. Rust, AGPL.'
+site: https://nika.sh
+tags:
+- rust
+- ai
+- workflow-engine
+- cli
+- automation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/supernovae-st/nika/labels/good%20first%20issue

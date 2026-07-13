@@ -1,0 +1,14 @@
+---
+name: Kakunin TypeScript SDK
+desc: Official TypeScript SDK for the Kakunin AI Agent KYC platform — issues X.509 certificates to AI agents, verifies scopes, and enforces them via drop-in middleware.
+site: https://github.com/kakunin-ai/kakunin-sdk-typescript
+tags:
+  - typescript
+  - ai-agents
+  - compliance
+  - security
+  - x509
+  - sdk
+upforgrabs:
+  name: good first issue
+  link: https://github.com/kakunin-ai/kakunin-sdk-typescript/labels/good%20first%20issue

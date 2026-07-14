@@ -1,0 +1,13 @@
+name: ReductStore
+desc: High Performance Data Backbone for Robotics and Industrial IoT
+site: https://github.com/reductstore/reductstore
+tags:
+  - storage
+  - time-series
+  - iot
+  - robotics
+  - ai
+  - etl
+upforgrabs:
+  name: help wanted
+  link: https://github.com/reductstore/reductstore/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22

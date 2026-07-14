@@ -1,0 +1,20 @@
+---
+name: Awesome Tech Newsletter
+desc: A curated, community-driven list of the best tech, software engineering, and developer marketing newsletters. Stay up-to-date with top-tier insights across AI, DevOps, Frontend, and more.
+site: https://github.com/Infrasity-Labs/awesome-tech-newsletter
+tags:
+- open-source  
+- devtools  
+- newsletter
+- awesome-list
+- software-engineering 
+- software-development 
+- dev-environment  
+- devrel  
+- developer-community 
+- developer-advocacy 
+- developer-marketing 
+- tech-news
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Infrasity-Labs/awesome-tech-newsletter/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

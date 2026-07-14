@@ -1,0 +1,12 @@
+---
+name: FirstCommit
+desc: A beginner-friendly open source learning lab with a DevOps glossary that helps newcomers make their first real open source contribution.
+site: https://github.com/Ayushmore1214/FirstCommit
+tags:
+- beginner-friendly
+- javascript
+- html
+- css
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Ayushmore1214/FirstCommit/labels/good%20first%20issue

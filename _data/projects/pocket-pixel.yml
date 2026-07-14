@@ -1,0 +1,12 @@
+name: Pocket Pixel
+desc: A retro RPG themed expense tracker for managing income, expenses, savings, and recurring finances
+site: https://pocketpixel.aliahnaf.fun/
+tags:
+  - nextjs
+  - expressjs
+  - monorepo
+  - typescript
+  - typeorm
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/ali-ahnaf/pocket_pixel/labels/up%20for%20grabs

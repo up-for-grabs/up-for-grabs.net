@@ -1,0 +1,16 @@
+name: AI Language Partner
+desc: Local-first Japanese speaking practice app for Korean learners with Expo, FastAPI, and local STT/TTS.
+site: https://github.com/duct-tape2/ai-language-partner
+tags:
+- react-native
+- expo
+- fastapi
+- typescript
+- python
+- education
+- language-learning
+- local-first
+- accessibility
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/duct-tape2/ai-language-partner/labels/up-for-grabs

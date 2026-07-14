@@ -1,0 +1,17 @@
+---
+name: kdm-cli
+desc: Kubernetes and Docker monitoring CLI for real-time workload, health, and log visibility
+site: https://github.com/KDM-cli/kdm-cli
+tags:
+- kubernetes
+- docker
+- monitoring
+- cli
+- devops
+upforgrabs:
+  name: good first issue
+  link: https://github.com/KDM-cli/kdm-cli/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2026-05-29T07:35:30Z'
+  fork-count: 7

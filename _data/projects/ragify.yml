@@ -1,0 +1,28 @@
+---
+name: Ragify
+desc: >-
+  Production-ready RAG (Retrieval-Augmented Generation) backend built with Node.js, Express, and TypeScript.
+  Features async ingestion (BullMQ), vector search with Qdrant, streaming responses (SSE), and a scalable,
+  self-hostable architecture for building real-world AI applications.
+site: https://github.com/open-loft/ragify
+tags:
+- rag
+- llm
+- chatbot
+- typescript
+- node.js
+- express
+- qdrant
+- mongodb
+- redis
+- bullmq
+- vector-search
+- backend
+- developer-tools
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/open-loft/ragify/labels/up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2026-05-05T22:55:54Z'
+  fork-count: 1

@@ -1,0 +1,16 @@
+---
+name: 8StarLabs UI
+desc: A component library built on top of shadcn/ui offering niche, high-utility UI elements you won't find in standard libraries
+site: https://ui.8starlabs.com/?utm_source=up-for-grabs&utm_medium=referral&utm_campaign=directory_listing
+tags:
+- reactjs
+- nextjs
+- typescript
+- ui
+- components
+- shadcn
+- tailwindcss
+- design-system
+upforgrabs:
+  name: help wanted
+  link: https://github.com/8starlabs/ui/labels/help%20wanted

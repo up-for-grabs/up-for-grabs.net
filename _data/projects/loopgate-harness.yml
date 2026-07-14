@@ -1,0 +1,15 @@
+name: LoopGate Harness
+desc: Repo-native coding-agent loop harness for Claude, Codex, Copilot, and other CLI agents. Agents can edit; gates decide what lands.
+site: https://github.com/rxdt/loopgate-harness
+tags:
+  - python
+  - cli
+  - agents
+  - ai
+  - automation
+  - testing
+  - developer-tools
+  - open-source
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/rxdt/loopgate-harness/labels/up-for-grabs

@@ -1,0 +1,21 @@
+name: Img2Num
+desc: Img2Num is a cross-platform library that converts raster images such as PNG and JPEG into clean, layered SVG paths. It is designed for high performance with WebGPU acceleration, minimal dependencies, cross-platform support, and bindings for multiple programming languages.
+site: https://img2num.dev/
+tags:
+  - computer-vision
+  - image-processing
+  - image-to-svg
+  - svg
+  - webgpu
+  - webassembly
+  - javascript
+  - c
+  - c++
+  - python
+  - segmentation
+  - edge-detection
+  - contour-tracing
+  - denoising
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Ryan-Millard/Img2Num/issues/views/1155

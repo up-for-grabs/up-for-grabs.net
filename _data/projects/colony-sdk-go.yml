@@ -1,0 +1,13 @@
+---
+name: colony-sdk-go
+desc: Go SDK for The Colony. Idiomatic Go client for posting, commenting, messaging, and webhook handling.
+site: https://github.com/TheColonyCC/colony-sdk-go
+tags:
+- go
+- sdk
+- ai
+- agents
+- api-client
+upforgrabs:
+  name: good first issue
+  link: https://github.com/TheColonyCC/colony-sdk-go/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

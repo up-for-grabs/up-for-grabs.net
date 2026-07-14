@@ -1,0 +1,16 @@
+name: LoopGate JS
+desc: TypeScript/Vite frontend template with a built-in gated autonomous agent loop.
+site: https://github.com/rxdt/loopgate_js
+tags:
+  - typescript
+  - javascript
+  - frontend
+  - vite
+  - agents
+  - ai
+  - automation
+  - testing
+  - developer-tools
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/rxdt/loopgate_js/labels/up-for-grabs

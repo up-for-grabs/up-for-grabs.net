@@ -1,0 +1,17 @@
+---
+name: Nora
+desc: Self-hosted control plane to deploy, monitor, and operate OpenClaw and Hermes AI agents on Docker or Kubernetes.
+site: https://github.com/solomon2773/nora
+tags:
+- typescript
+- nextjs
+- node.js
+- docker
+- kubernetes
+- ai-agents
+- openclaw
+- hermes
+- mcp
+upforgrabs:
+  name: help wanted
+  link: https://github.com/solomon2773/nora/labels/help%20wanted

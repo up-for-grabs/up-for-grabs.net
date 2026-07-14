@@ -1,0 +1,14 @@
+name: Payload Components
+desc: MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects.
+site: https://github.com/Ducksss/payload-components
+tags:
+  - typescript
+  - nextjs
+  - reactjs
+  - payload-cms
+  - cms
+  - shadcn
+  - tailwindcss
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Ducksss/payload-components/labels/good%20first%20issue

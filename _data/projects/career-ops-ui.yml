@@ -1,0 +1,13 @@
+name: career-ops-ui
+desc: Local-first, CRM-style web UI on top of the career-ops job-search pipeline — runs on 127.0.0.1, no cloud, no telemetry, no auto-submit. Vanilla HTML/CSS/JS.
+site: https://github.com/Fighter90/career-ops-ui
+tags:
+  - javascript
+  - html
+  - css
+  - job-search
+  - local-first
+  - self-hosted
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Fighter90/career-ops-ui/labels/help%20wanted

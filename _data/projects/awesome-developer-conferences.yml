@@ -1,0 +1,20 @@
+---
+name: Awesome Developer Conferences
+desc: A daily-updated community curated directory of developer events taking place all over the world. It covers SaaS, DevOps, and AI events with dates, location, and registration links.
+site: https://github.com/Infrasity-Labs/awesome-developer-conferences
+tags:
+- open-source  
+- devops-events  
+- awesome  
+- devtools 
+- conferences  
+- awesome-list 
+- cloud-native  
+- call-for-papers  
+- devrel  
+- tech-conferences 
+- developer-marketing 
+- developer-relations
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Infrasity-Labs/awesome-developer-conferences/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

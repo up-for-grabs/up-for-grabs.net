@@ -1,0 +1,15 @@
+---
+name: music-ml-dashboard
+desc: >-
+  A high-performance full-stack application that analyzes your music listening history using offline PyTorch Machine Learning and the Gemini API to visualize your auditory emotional journey.
+site: https://github.com/iamp1000/music-ml-dashboard
+tags:
+- reactjs
+- python
+- machine-learning
+- typescript
+- nextjs
+- pytorch
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/iamp1000/music-ml-dashboard/labels/up-for-grabs

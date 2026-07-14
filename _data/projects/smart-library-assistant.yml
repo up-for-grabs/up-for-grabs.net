@@ -1,0 +1,17 @@
+name: Smart Library Assistant
+desc: An intelligent system designed to streamline e-library operations, manage digital resources, and assist students efficiently.
+site: https://github.com/bundlab/smart-library-assistant
+tags:
+  - typescript
+  - node.js
+  - machine-learning
+  - artificial-intelligence
+  - e-library
+  - vector-search
+  - ai-tools
+  - education
+  - automation
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bundlab/smart-library-assistant/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug%20label%3Adocumentation%20label%3Aduplicate%20label%3Aenhancement%20label%3A%22good%20first%20issue%22%20label%3A%22help%20wanted%22%20author%3Abundlab"good+first+issue"

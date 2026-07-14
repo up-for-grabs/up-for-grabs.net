@@ -1,0 +1,13 @@
+---
+name: Sifty
+desc: Open-source Windows maintenance CLI and TUI. Dry-run by default, Recycle Bin only, fully undoable.
+site: https://sifty.tech
+tags:
+- oss
+- windows
+- cli
+- python
+- tui
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Vortrix5/sifty/labels/good%20first%20issue

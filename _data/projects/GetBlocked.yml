@@ -1,14 +1,21 @@
+---
 name: GetBlocked!
-desc: A lightweight, local-only Chrome extension that reduces common third-party website tracking by blocking known tracker requests, cleaning tracking links, and explaining tracking attempts.
+desc: >-
+  A lightweight, local-only Chrome extension that reduces common third-party website tracking by blocking
+  known tracker requests, cleaning tracking links, and explaining tracking attempts.
 site: https://github.com/alex-w-developer/GetBlocked
 tags:
-  - chrome-extension
-  - browser-extension
-  - privacy
-  - javascript
-  - manifest-v3
-  - tracking-protection
-  - beginner-friendly
+- chrome-extension
+- browser-extension
+- privacy
+- javascript
+- manifest-v3
+- tracking-protection
+- beginner-friendly
 upforgrabs:
   name: good first issue
   link: https://github.com/alex-w-developer/GetBlocked/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-07-09T08:30:14Z'
+  fork-count: 5

@@ -1,14 +1,21 @@
+---
 name: CloudCertPrep
-desc: Free, open-source AWS certification practice exams (CLF-C02 and AIF-C01) with explained answers, timed mock exams, and domain practice. No signup, no ads, MIT licensed.
+desc: >-
+  Free, open-source AWS certification practice exams (CLF-C02 and AIF-C01) with explained answers, timed
+  mock exams, and domain practice. No signup, no ads, MIT licensed.
 site: https://www.cloudcertprep.io
 tags:
-  - aws
-  - aws-certification
-  - certification
-  - education
-  - typescript
-  - astro
-  - reactjs
+- aws
+- aws-certification
+- certification
+- education
+- typescript
+- astro
+- reactjs
 upforgrabs:
   name: good first issue
   link: https://github.com/nastaso/cloudcertprep/labels/good%20first%20issue
+stats:
+  issue-count: 27
+  last-updated: '2026-07-12T16:17:37Z'
+  fork-count: 18

@@ -1,6 +1,8 @@
 ---
 name: tapflow
-desc: Self-hosted iOS & Android simulator streaming so the whole team can test mobile apps directly from a browser, using the Mac you already own with no external cloud.
+desc: >-
+  Self-hosted iOS & Android simulator streaming so the whole team can test mobile apps directly from a
+  browser, using the Mac you already own with no external cloud.
 site: https://www.tapflow.dev
 tags:
 - typescript
@@ -14,3 +16,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/jo-duchan/tapflow/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-07-07T12:11:24Z'
+  fork-count: 20

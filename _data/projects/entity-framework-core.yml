@@ -16,6 +16,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/dotnet/efcore/labels/good%20first%20issue
 stats:
-  issue-count: 4
-  last-updated: '2026-05-31T04:38:51Z'
-  fork-count: 3382
+  issue-count: 3
+  last-updated: '2026-06-26T08:16:17Z'
+  fork-count: 3395

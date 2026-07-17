@@ -1,6 +1,8 @@
 ---
 name: Clarvia
-desc: Free, multilingual bereavement compliance checklist for families in Europe. Open-source data and web service.
+desc: >-
+  Free, multilingual bereavement compliance checklist for families in Europe. Open-source data and web
+  service.
 site: https://clarvia.org
 tags:
 - typescript
@@ -14,3 +16,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/clarvia-org/clarvia-graph/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-06-16T05:41:50Z'
+  fork-count: 2

@@ -1,15 +1,20 @@
+---
 name: The Serpent Kingdom
 desc: An epic, browser-based roguelite survival game built with React, Vite, and HTML5 Canvas.
 site: https://game-snake-modern.vercel.app/
 tags:
-  - javascript
-  - typescript
-  - reactjs
-  - vite
-  - canvas
-  - game
-  - snake
-  - roguelite
+- javascript
+- typescript
+- reactjs
+- vite
+- canvas
+- game
+- snake
+- roguelite
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/Rajath2005/game-snake/issues?q=is%3Aopen+is%3Aissue+label%3Aup-for-grabs
+stats:
+  issue-count: 23
+  last-updated: '2026-06-28T16:22:34Z'
+  fork-count: 1

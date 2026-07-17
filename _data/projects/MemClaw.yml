@@ -1,26 +1,29 @@
+---
 name: MemClaw
-desc: 'Governed shared memory for AI agent fleets — multi-agent, multi-tenant, MCP-native. Trust tiers, keystone policies, audit trails, knowledge graph, self-improving retrieval. Apache 2.0.'
+desc: >-
+  Governed shared memory for AI agent fleets — multi-agent, multi-tenant, MCP-native. Trust tiers, keystone
+  policies, audit trails, knowledge graph, self-improving retrieval. Apache 2.0.
 site: https://github.com/caura-ai/caura-memclaw
 tags:
-  - mcp 
-  - knowledge-graph 
-  - openai 
-  - memory-management 
-  - multi-agent-systems 
-  - ai-agents 
-  - claude 
-  - rag 
-  - fastapi 
-  - pgvector 
-  - llm-memory 
-  - agentic-ai
-  - ai-infrastructure
-  - mcp-server
-  - agent-memory
+- mcp
+- knowledge-graph
+- openai
+- memory-management
+- multi-agent-systems
+- ai-agents
+- claude
+- rag
+- fastapi
+- pgvector
+- llm-memory
+- agentic-ai
+- ai-infrastructure
+- mcp-server
+- agent-memory
 upforgrabs:
   name: good first issue
   link: https://github.com/caura-ai/caura-memclaw/labels/good%20first%20issue
 stats:
-  issue-count: 7
-  last-updated: '2026-07-08T06:44:59Z'
-  fork-count: 32
+  issue-count: 11
+  last-updated: '2026-07-15T09:31:48Z'
+  fork-count: 42

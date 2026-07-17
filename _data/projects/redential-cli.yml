@@ -1,0 +1,11 @@
+name: Redential CLI
+desc: Open-source CLI that turns private git history into an NDA-safe skill credential. Metadata only, the code never leaves the machine. Many starter issues are one-line additions to a JSON signature database, no code required.
+site: https://github.com/Redential/redential-cli
+tags:
+- typescript
+- cli
+- privacy
+- developer-tools
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Redential/redential-cli/labels/up-for-grabs

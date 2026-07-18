@@ -1,0 +1,11 @@
+name: FaultPlane
+desc: An open-source Go runtime that provides zero-code-intrusion state resilience for long-running AI agent workloads.
+site: https://github.com/devloperdevesh/FaultPlane
+tags:
+  - go
+  - ai-agents
+  - service-mesh
+  - devops
+upforgrabs:
+  name: good-first-issue
+  link: https://github.com

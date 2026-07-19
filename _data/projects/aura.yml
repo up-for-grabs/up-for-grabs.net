@@ -1,0 +1,13 @@
+---
+name: Aura
+desc: Open-source VCS layer for reviewing AI-agent code changes with semantic diffs and provenance.
+site: https://github.com/Naridon-Inc/aura
+tags:
+- rust
+- git
+- developer-tools
+- ai-agents
+- code-review
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Naridon-Inc/aura/labels/up-for-grabs

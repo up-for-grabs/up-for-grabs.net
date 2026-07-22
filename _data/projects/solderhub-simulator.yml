@@ -3,7 +3,7 @@ desc: An open-source, browser-based circuit simulator for Arduino and ESP32 — 
 site: https://simulator.solderhub.com
 tags:
 - typescript
-- react
+- reactjs
 - nextjs
 - arduino
 - esp32

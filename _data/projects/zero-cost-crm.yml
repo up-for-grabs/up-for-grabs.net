@@ -1,14 +1,14 @@
 name: Zero Cost CRM
-desc: Open source pipeline CRM for founder-led sales teams with 1-10 SDRs. Self-hosted, 13-stage pipeline, SDR activity tracking, and call recordings.
+desc: The CRM we wished existed - pipeline ops, follow-up discipline, and SDR visibility without enterprise pricing. React + Express + PostgreSQL.
 site: https://github.com/ConvoBrains/zero-cost-crm
 tags:
   - crm
   - sales
   - typescript
-  - react
+  - reactjs
   - express
   - postgresql
-  - nodejs
+  - node.js
   - self-hosted
   - b2b
   - docker

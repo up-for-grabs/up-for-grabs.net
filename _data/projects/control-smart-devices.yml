@@ -1,0 +1,21 @@
+name: Control Smart Devices
+desc: An enterprise-grade IoT smart home platform built with FastAPI, PostgreSQL, MQTT, and Kivy, enabling real-time device control, sensor monitoring, automation, and mobile management.
+site: https://github.com/bundlab/control-smart-devices
+tags:
+  - python
+  - fastapi
+  - kivy
+  - postgresql
+  - mqtt
+  - websocket
+  - iot
+  - smart-home
+  - automation
+  - sensors
+  - mobile
+  - api
+  - docker
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bundlab/control-smart-devices/issues?q=is%3Aopen+is%3Aissue+label%3A"good+first+issue"

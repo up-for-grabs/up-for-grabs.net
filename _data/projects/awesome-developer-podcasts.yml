@@ -1,0 +1,28 @@
+---
+name: Awesome Developer Podcasts
+desc: >-
+  A curated directory of developer podcasts for software engineering teams. It is an open-source collection
+  of podcasts that covers system architecture, cloud-native, DevOps, B2B SaaS, AI/ML, and engineering
+  leadership.
+site: https://github.com/Infrasity-Labs/awesome-developer-podcasts
+tags:
+- open-source
+- devtools
+- podcasts
+- awesome-list
+- software-engineering
+- software-development
+- dev-environment
+- devrel
+- developer-community
+- developer-advocacy
+- developer-marketing
+- dveloper-podcasts
+upforgrabs:
+  name: good first issue
+  link: >-
+    https://github.com/Infrasity-Labs/awesome-developer-podcasts/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 4
+  last-updated: '2026-07-24T11:27:18Z'
+  fork-count: 5

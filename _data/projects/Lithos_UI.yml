@@ -1,0 +1,18 @@
+---
+name: Lithos UI
+desc: >-
+  A neo-brutalist React component library built with Tailwind CSS, featuring zero-gap layout logic, automated
+  YIQ contrast calculation, and high structural stability.
+site: https://lithos-ui.vercel.app
+tags:
+- foss
+- reactjs
+- tailwindcss
+- neo-brutalism
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/lithosui/Lithos_UI/labels/up-for-grabs
+stats:
+  issue-count: 3
+  last-updated: '2026-07-26T17:01:00Z'
+  fork-count: 3

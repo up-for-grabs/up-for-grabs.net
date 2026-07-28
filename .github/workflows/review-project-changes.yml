@@ -10,11 +10,11 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout base branch
-        uses: actions/checkout@v6
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: gh-pages
       - name: Setup Ruby
-        uses: ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f
+        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b # v1.321.0
         with:
           bundler-cache: true
 
@@ -32,7 +32,7 @@ jobs:
           GIT_REMOTE_URL: ${{ github.event.pull_request.head.repo.clone_url }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}
 
-      - uses: marocchino/sticky-pull-request-comment@0ea0beb66eb9baf113663a64ec522f60e49231c0
+      - uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88
         with:
           message: ${{ steps.run_script.outputs.message }}
           GITHUB_TOKEN: ${{ secrets.SHIFTBOT_TOKEN }}

@@ -1,0 +1,18 @@
+---
+name: YazSes
+desc: 'Offline, hold-to-talk voice dictation for Linux, macOS and Windows — hold a key, speak, release, and it types into any focused app. On-device faster-whisper speech-to-text plus voice commands and macros. No cloud, no API key.'
+site: https://github.com/MSKazemi/yazses
+tags:
+- python
+- speech-to-text
+- voice
+- dictation
+- accessibility
+- linux
+- macos
+- windows
+- offline
+- whisper
+upforgrabs:
+  name: good first issue
+  link: https://github.com/MSKazemi/yazses/labels/good%20first%20issue

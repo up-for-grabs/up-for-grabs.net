@@ -1,0 +1,16 @@
+---
+name: DLL Injection Lab
+desc: >-
+  Safe, deterministic Python lab for testing DLL-injection correlation logic with synthetic events and controls.
+site: https://github.com/bsmensah-ctrl/DLL-Injection-Lab
+tags:
+- python
+- cybersecurity
+- detection-engineering
+- testing
+- sarif
+- cli
+- education
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bsmensah-ctrl/DLL-Injection-Lab/labels/good%20first%20issue

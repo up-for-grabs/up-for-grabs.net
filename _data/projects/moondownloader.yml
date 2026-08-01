@@ -1,6 +1,6 @@
 ---
 name: Moon Downloader
-desc: A bulk file downloader for datanodes.to and fuckingfast.co, with a WebView2 GUI and a headless CLI.
+desc: A bulk file downloader for Windows: real-Chrome extraction over CDP, aiohttp streaming, a WebView2 GUI and a headless CLI.
 site: https://github.com/LeyckerS/moondownloader
 tags:
 - python

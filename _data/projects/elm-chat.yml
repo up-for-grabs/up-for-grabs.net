@@ -4,7 +4,7 @@ desc: Open-source, account-free, disposable encrypted chat rooms with single-use
 site: https://github.com/shawnbure/elm-chat
 tags:
 - typescript
-- react
+- reactjs
 - cloudflare
 - privacy
 - cryptography

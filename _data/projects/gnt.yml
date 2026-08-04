@@ -1,0 +1,12 @@
+name: gnt
+desc: git-native rules layer for AI agents. Every rule is a file, reviewed and merged like code
+site: https://gntai.dev
+tags:
+- ai-agents
+- ai-safety
+- governance
+- mcp
+- policy-as-code
+upforgrabs:
+  name: help wanted
+  link: https://github.com/gnt-ai/gnt/labels/help%20wanted

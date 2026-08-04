@@ -11,4 +11,4 @@ tags:
   - javascript
 upforgrabs:
   name: up for grabs
-  link: https://github.com/shreyashpatel5506/gitcricket/issues
+  link: https://github.com/shreyashpatel5506/gitcricket/issues?q=is%3Aissue%20state%3Aopen%20label%3Aupforgrabs

@@ -7,13 +7,38 @@ import { InitialProjects } from '../components/data/projects';
 ---
 
 <Layout>
-  <div id="main-container" class="container">
+  <main id="main-container" class="min-h-screen bg-slate-950 text-white">
     <Progress />
-    <article id="projects" class="block">
-      <section class="block">
-        <h1>Projects</h1>
-        <SearchResults client:visible initialProjects={InitialProjects} />
-      </section>
-    </article>
-  </div>
+
+    <section class="mx-auto max-w-7xl px-6 py-16">
+
+      <!-- Hero -->
+      <div class="mb-14 text-center">
+        <span class="inline-flex items-center rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-1 text-sm font-medium text-cyan-400">
+          🚀 Portfolio
+        </span>
+
+        <h1 class="mt-6 text-5xl font-extrabold tracking-tight">
+          Featured
+          <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            Projects
+          </span>
+        </h1>
+
+        <p class="mx-auto mt-5 max-w-2xl text-lg text-slate-400">
+          Explore my latest projects built with modern technologies including
+          React, Astro, Next.js, Vue, Tailwind CSS, and full-stack development.
+        </p>
+      </div>
+
+      <!-- Projects Card -->
+      <article class="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-2xl backdrop-blur-xl">
+        <SearchResults
+          client:visible
+          initialProjects={InitialProjects}
+        />
+      </article>
+
+    </section>
+  </main>
 </Layout>

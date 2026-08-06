@@ -1,0 +1,13 @@
+---
+name: SeatSniper
+desc: >-
+  Discord bot that watches BookMyShow and DMs you the moment tickets open. Self-hosted with one command, no API keys.
+site: https://github.com/Ishannaik/seatsniper
+tags:
+- discord
+- bun
+- typescript
+- sqlite
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Ishannaik/seatsniper/labels/good%20first%20issue

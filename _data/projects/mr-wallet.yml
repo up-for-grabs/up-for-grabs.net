@@ -1,0 +1,29 @@
+---
+name: Mr Wallet
+desc: Personal finance management app. Track expenses, budgets, debts & forecasts. Free PWA, zero ads, open source.
+site: https://github.com/Grey-Workers-Togo/mr-wallet
+tags:
+- budget-tracker
+- expense-tracker
+- expenses
+- finance
+- finance-app
+- financial-app
+- money
+- money-management
+- multilingual
+- nestjs
+- nextjs
+- open-source
+- personal-finance
+- personal-finance-manager
+- pwa
+- reconciliation
+- typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Grey-Workers-Togo/mr-wallet/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2026-08-07T00:25:28Z'
+  fork-count: 1

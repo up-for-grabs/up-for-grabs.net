@@ -173,9 +173,9 @@ menu {
 </style>
 
 <template>
-  <menu>
-    <form class="form-wrapper">
-      <label id="search-by-text"> Search projects by text... </label>
+  <section aria-label="Project search filters">
+    <form class="form-wrapper" role="search">
+      <label for="search"> Search projects by text... </label>
       <input
         type="text"
         id="search"
@@ -184,7 +184,7 @@ menu {
         placeholder="Enter text to filter projects..."
       />
       <div>
-        <label id="activity-filter"
+        <label for="last-updated"
           >Choose projects active within the previous</label
         >
 
@@ -202,7 +202,7 @@ menu {
         </select>
       </div>
     </form>
-  </menu>
+  </section>
   <span v-if="isPending">Loading...</span>
   <span v-else-if="isError">Error: {{ error?.message }}</span>
   <!-- We can assume by this point that `isSuccess === true` -->

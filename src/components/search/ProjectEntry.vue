@@ -7,6 +7,8 @@ const props = defineProps<{
   project: WebsiteProject;
 }>();
 
+const emit = defineEmits<{ 'tag-selected': [tag: string] }>();
+
 const { project } = props;
 const stats = project.stats;
 
@@ -58,6 +60,15 @@ const linkTitle = `View open issues for ${project.name}`;
   padding: 0.3em;
 }
 
+.project .tags li button.tag-filter {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+
 .label {
   color: rgb(255, 255, 255);
   background: #4c6c73;
@@ -99,7 +110,11 @@ const linkTitle = `View open issues for ${project.name}`;
     <div class="description" v-if="project.desc">{{ project.desc }}</div>
 
     <ul class="tags" v-if="project.tags" aria-label="project tags">
-      <li v-for="tag in project.tags" v-bind:key="tag">{{ tag }}</li>
+      <li v-for="tag in project.tags" v-bind:key="tag">
+        <button class="tag-filter" @click="emit('tag-selected', tag)" :aria-label="`Filter by tag: ${tag}`">
+          {{ tag }}
+        </button>
+      </li>
     </ul>
   </div>
 </template>

@@ -1,0 +1,12 @@
+---
+name: LoopTroop
+desc: Local-first AI coding orchestrator powered by LLM Council planning, Ralph Loops, and atomic git worktrees.
+site: https://github.com/looptroop-ai/LoopTroop
+tags:
+- ai
+- developer-tools
+- typescript
+- agentic-ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/looptroop-ai/LoopTroop/labels/good%20first%20issue

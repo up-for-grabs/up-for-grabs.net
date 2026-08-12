@@ -1,0 +1,13 @@
+name: Ditto
+desc: Execution-grounded semantic (Type-4) clone detection for JS/TS — finds functions that behave the same but are written differently, then runs them in a sandbox to prove which one is wrong.
+site: https://github.com/Kartik8Dwivedi/Ditto
+tags:
+- javascript
+- typescript
+- node.js
+- static-analysis
+- developer-tools
+- code-quality
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Kartik8Dwivedi/Ditto/labels/good%20first%20issue

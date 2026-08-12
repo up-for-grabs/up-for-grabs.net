@@ -17,6 +17,6 @@ upforgrabs:
   link: >-
     https://github.com/ipfs/ipfs-desktop/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22
 stats:
-  issue-count: 20
+  issue-count: 18
   last-updated: '2025-08-15T08:47:06Z'
   fork-count: 902

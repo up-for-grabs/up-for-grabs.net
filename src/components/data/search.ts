@@ -24,6 +24,10 @@ export function filterProject(
     return true;
   }
 
+  if (project.tags?.some(tag => tag.toLowerCase().indexOf(normalizedSearchText) > -1)) {
+    return true;
+  }
+
   return false;
 }
 

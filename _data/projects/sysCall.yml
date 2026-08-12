@@ -2,7 +2,7 @@ name: sysCall
 desc: A C-inspired language for interaction with the shell.
 site: https://github.com/Mher-DeLight/sysCall
 tags:
-  - C
+  - cpp
   - compiler
   - tokenizer
   - parser

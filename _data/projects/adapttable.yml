@@ -1,0 +1,12 @@
+---
+name: AdaptTable
+desc: A headless React data table with batteries-included adapters for Mantine, MUI, Chakra UI, Ant Design, Radix, Base UI and shadcn/ui, plus an unstyled path for Tailwind. Tables become mobile cards automatically.
+site: https://github.com/orwa-mahmoud/adapttable
+tags:
+- reactjs
+- typescript
+- ui
+- headless
+upforgrabs:
+  name: good first issue
+  link: https://github.com/orwa-mahmoud/adapttable/labels/good%20first%20issue

@@ -1,0 +1,15 @@
+---
+name: BitFun
+desc: Cross-platform desktop AI agent for coding, documents, and desktop work, built around a Rust runtime.
+site: https://openbitfun.com/
+tags:
+- ai
+- agent
+- desktop
+- developer-tools
+- rust
+- tauri
+- typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/GCWing/BitFun/labels/good%20first%20issue

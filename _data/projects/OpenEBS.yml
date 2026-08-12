@@ -16,6 +16,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/openebs/openebs/labels/help%20wanted
 stats:
-  issue-count: 1
-  last-updated: '2026-07-09T06:13:32Z'
+  issue-count: 0
   fork-count: 987

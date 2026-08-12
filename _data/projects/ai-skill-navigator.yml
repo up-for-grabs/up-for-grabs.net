@@ -1,0 +1,13 @@
+name: AI Skill Navigator
+desc: AI-powered Moodle plugin for tutoring, quizzes, mind maps, RAG course materials and beginner-friendly open source contributions.
+site: https://github.com/Berserk-hub150/moodle-ai-skill-navigator
+tags:
+  - php
+  - moodle
+  - ai
+  - rag
+  - edtech
+  - education
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Berserk-hub150/moodle-ai-skill-navigator/labels/good%20first%20issue

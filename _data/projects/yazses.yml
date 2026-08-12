@@ -1,0 +1,19 @@
+---
+name: YazSes
+desc: 'Free, open-source voice dictation and speech-to-text for Linux, macOS and Windows — hold a key, speak, release, and the text is typed into whatever window has focus. Runs on the CPU with faster-whisper; nothing leaves the machine by default. Also transcribes recordings and captures meetings with speaker labels. No cloud, no API key.'
+site: https://github.com/MSKazemi/yazses
+tags:
+- python
+- speech-to-text
+- voice
+- dictation
+- transcription
+- accessibility
+- linux
+- macos
+- windows
+- offline
+- whisper
+upforgrabs:
+  name: good first issue
+  link: https://github.com/MSKazemi/yazses/labels/good%20first%20issue

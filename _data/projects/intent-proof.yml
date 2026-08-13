@@ -1,0 +1,15 @@
+---
+name: IntentProof
+desc: A local-first Solana transaction policy firewall and tamper-evident receipt ledger for AI agents.
+site: https://github.com/FeeeeelixWong/intent-proof
+tags:
+- ai-agents
+- solana
+- typescript
+- reactjs
+- web3
+- security
+- wallet
+upforgrabs:
+  name: agent-task
+  link: https://github.com/FeeeeelixWong/intent-proof/labels/agent-task

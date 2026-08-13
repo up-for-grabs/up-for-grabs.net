@@ -1,16 +1,18 @@
 ---
 name: Zero Cost CRM
-desc: Self-hosted open-source CRM for founder-led sales teams — React 19, Express, PostgreSQL. Maintainers actively mentor first-time contributors.
+desc: The CRM we wished existed - pipeline ops, follow-up discipline, and SDR visibility without enterprise pricing. React + Express + PostgreSQL.
 site: https://github.com/ConvoBrains/zero-cost-crm
 tags:
-- javascript
-- typescript
-- reactjs
-- express
-- postgresql
-- crm
-- self-hosted
-- sales
+  - crm
+  - sales
+  - typescript
+  - reactjs
+  - express
+  - postgresql
+  - node.js
+  - self-hosted
+  - b2b
+  - docker
 upforgrabs:
   name: good first issue
   link: https://github.com/ConvoBrains/zero-cost-crm/labels/good%20first%20issue

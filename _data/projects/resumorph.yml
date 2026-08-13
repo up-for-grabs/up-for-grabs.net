@@ -1,0 +1,20 @@
+---
+name: ResuMorph
+desc: >-
+  Browser extension and self-hosted FastAPI backend that tailor a resume and cover letter to a job
+  posting using your own OpenAI, Claude or Gemini API key
+site: https://github.com/hannibalevit/resumorph
+tags:
+- python
+- typescript
+- reactjs
+- fastapi
+- chrome-extension
+- docker
+- llm
+- ai
+- privacy
+- self-hosted
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hannibalevit/resumorph/labels/good%20first%20issue

@@ -3,7 +3,7 @@ desc: Open-source AI-powered canvas for creating fully editable App Store screen
 site: https://github.com/realZachi/frameflow
 tags:
   - typescript
-  - react
+  - reactjs
   - ai
   - canvas
   - design-tools

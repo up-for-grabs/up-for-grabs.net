@@ -1,0 +1,17 @@
+---
+name: AOBench
+desc: 'A role-aware, permission-enforced benchmark for evaluating AI agents that operate HPC systems — SLURM job control, telemetry inspection, RBAC, documentation and facility tasks. Runs are trace-based and reproducible against deterministic environment snapshots, and a permission violation hard-fails the task rather than being scored as a near miss. Some environments are grounded in telemetry from a real production supercomputer.'
+site: https://github.com/MSKazemi/AOBench
+tags:
+- python
+- benchmark
+- evaluation
+- llm
+- ai-agents
+- hpc
+- slurm
+- documentation
+- testing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/MSKazemi/aobench/labels/good%20first%20issue

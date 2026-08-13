@@ -1,6 +1,6 @@
 name: AI-Powered Crop Recommendation System with Explainable AI and Economic Analysis
 desc: A machine learning system that recommends optimal crops based on soil and weather metrics, featuring local SHAP explainability and interactive market profitability risk profiling.
-site: https://github.com/x-neon-nexus-o/ai-powered-crop-recommendation-system-with-explainable-ai-and-economic-analysis
+site: https://github.com/x-neon-nexus-o/AI-Powered-Crop-Recommendation-System-with-Explainable-AI-and-Economic-Analysis
 tags:
   - machine-learning
   - explainable-ai

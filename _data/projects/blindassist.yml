@@ -1,0 +1,19 @@
+---
+name: BlindAssist
+desc: >-
+  An open-source Android prototype for on-device assistive perception,
+  reproducible evaluation, and evidence-bounded accessibility research.
+site: https://github.com/violetljj/blind-assist
+tags:
+- android
+- kotlin
+- accessibility
+- assistive-technology
+- on-device-ml
+- computer-vision
+- tflite
+- reproducible-research
+- social-impact
+upforgrabs:
+  name: good first issue
+  link: https://github.com/violetljj/blind-assist/labels/good%20first%20issue

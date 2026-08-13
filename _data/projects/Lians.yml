@@ -1,0 +1,16 @@
+---
+name: Lians
+desc: Local-first, open-source memory for AI agents with MCP and multi-language SDKs
+site: https://github.com/Lians-ai/Lians
+tags:
+- python
+- ai
+- ai-agents
+- mcp
+- memory
+- sqlite
+- local-first
+- llm
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Lians-ai/Lians/labels/good%20first%20issue

@@ -1,6 +1,8 @@
 ---
 name: IronClaw
-desc: 'Security-first, self-hosted AI agents with container isolation you can prove, not just promise. Runs untrusted agent code in hardened sandboxes. Written in Go.'
+desc: >-
+  Security-first, self-hosted AI agents with container isolation you can prove, not just promise. Runs
+  untrusted agent code in hardened sandboxes. Written in Go.
 site: https://github.com/IronSecCo/ironclaw
 tags:
 - go
@@ -14,3 +16,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/IronSecCo/ironclaw/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2026-08-08T09:50:34Z'
+  fork-count: 14

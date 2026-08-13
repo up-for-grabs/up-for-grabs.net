@@ -1,0 +1,15 @@
+---
+name: nod3
+desc: >-
+  A local-first trainer for algorithm interviews. It records what you say and what you type on one
+  clock, then shows you the stretches where you were coding in silence.
+site: https://github.com/ostapondo/nod3
+tags:
+- typescript
+- javascript
+- node.js
+- next.js
+- python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ostapondo/nod3/labels/good%20first%20issue

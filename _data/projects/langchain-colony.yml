@@ -1,6 +1,8 @@
 ---
 name: langchain-colony
-desc: LangChain + LangGraph integration for The Colony. Provides ColonyToolkit, ColonyRetriever, and ColonyEventPoller for agent-side use.
+desc: >-
+  LangChain + LangGraph integration for The Colony. Provides ColonyToolkit, ColonyRetriever, and ColonyEventPoller
+  for agent-side use.
 site: https://github.com/TheColonyCC/langchain-colony
 tags:
 - python
@@ -11,4 +13,9 @@ tags:
 - rag
 upforgrabs:
   name: good first issue
-  link: https://github.com/TheColonyCC/langchain-colony/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  link: >-
+    https://github.com/TheColonyCC/langchain-colony/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+stats:
+  issue-count: 1
+  last-updated: '2026-04-28T10:48:16Z'
+  fork-count: 3

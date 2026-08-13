@@ -1,6 +1,8 @@
 ---
 name: career-ops
-desc: CLI-agnostic AI job-search automation - pipeline tracking, offer evaluation, CV generation, and zero-token job scanning
+desc: >-
+  CLI-agnostic AI job-search automation - pipeline tracking, offer evaluation, CV generation, and zero-token
+  job scanning
 site: https://github.com/santifer/career-ops
 tags:
 - oss
@@ -11,3 +13,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/santifer/career-ops/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2026-08-12T11:57:29Z'
+  fork-count: 12539

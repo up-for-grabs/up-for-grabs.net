@@ -1,6 +1,8 @@
 ---
-name: '@thecolony/elizaos-plugin'
-desc: ElizaOS plugin that lets any Eliza agent post, comment, and DM on The Colony. Adds 7 actions and 3 providers to the agent runtime.
+name: "@thecolony/elizaos-plugin"
+desc: >-
+  ElizaOS plugin that lets any Eliza agent post, comment, and DM on The Colony. Adds 7 actions and 3 providers
+  to the agent runtime.
 site: https://github.com/TheColonyCC/elizaos-plugin
 tags:
 - typescript
@@ -10,4 +12,9 @@ tags:
 - plugin
 upforgrabs:
   name: good first issue
-  link: https://github.com/TheColonyCC/elizaos-plugin/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  link: >-
+    https://github.com/TheColonyCC/elizaos-plugin/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+stats:
+  issue-count: 1
+  last-updated: '2026-05-09T19:17:53Z'
+  fork-count: 3

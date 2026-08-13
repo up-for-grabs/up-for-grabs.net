@@ -1,0 +1,17 @@
+name: Zero Cost CRM
+desc: The CRM we wished existed - pipeline ops, follow-up discipline, and SDR visibility without enterprise pricing. React + Express + PostgreSQL.
+site: https://github.com/ConvoBrains/zero-cost-crm
+tags:
+  - crm
+  - sales
+  - typescript
+  - reactjs
+  - express
+  - postgresql
+  - node.js
+  - self-hosted
+  - b2b
+  - docker
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ConvoBrains/zero-cost-crm/labels/good%20first%20issue

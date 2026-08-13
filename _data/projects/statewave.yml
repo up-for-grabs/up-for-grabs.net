@@ -1,0 +1,20 @@
+name: Statewave
+desc: Stateful memory runtime for AI agents that enables persistent memory, context, and continuity across sessions.
+site: https://statewave.ai
+tags:
+  - ai
+  - ai-agents
+  - llm
+  - memory
+  - state-management
+  - mcp
+  - runtime
+  - developer-tools
+  - opensource
+upforgrabs:
+  name: good first issues
+  link: https://github.com/smaramwbc/statewave/labels/good%20first%20issues
+stats:
+  issue-count: 12
+  last-updated: '2026-07-21T11:32:03Z'
+  fork-count: 21

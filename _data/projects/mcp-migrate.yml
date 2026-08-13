@@ -1,0 +1,14 @@
+---
+name: mcp-migrate
+desc: 'Finds and mechanically fixes what the MCP 2026-07-28 spec revision breaks in your server. 21 rules, 5 autofixers, and a graded board of real servers.'
+site: https://github.com/dheerajjha/mcp-migrate
+tags:
+- python
+- typescript
+- cli
+- linter
+- static-analysis
+- ai
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dheerajjha/mcp-migrate/labels/up-for-grabs

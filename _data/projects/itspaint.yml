@@ -2,8 +2,9 @@
 name: ItsPaint
 desc: >-
   A native macOS paint app in Swift. The raster engine, PaintKit, is a UI-free
-  SwiftPM package with 275 tests that builds and tests from a fresh clone with
-  the command-line toolchain alone, so contributors do not need Xcode.
+  SwiftPM package with 321 tests and no third-party dependencies, which builds and
+  tests from a fresh clone with the command-line toolchain alone, so contributors do
+  not need Xcode.
 site: https://github.com/joshlin2201/itspaint
 tags:
 - swift

@@ -1,0 +1,14 @@
+name: GitCric
+desc: Transform your boring GitHub contribution grid into high-performance, shareable Cricket Player Cards! GitCric maps your developer activity (commits, pull requests, issues, streaks, and languages) into dynamic cricket ratings, custom specialties, and career statistics.
+site: https://www.gitcric.me/
+tags:
+  - cricket
+  - nextjs
+  - raectjs
+  - github
+  - githubgraphql
+  - supabase
+  - javascript
+upforgrabs:
+  name: upforgrabs
+  link: https://github.com/shreyashpatel5506/gitcricket/issues?q=is%3Aissue%20state%3Aopen%20label%3Aupforgrabs

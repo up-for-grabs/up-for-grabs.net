@@ -1,0 +1,14 @@
+---
+name: Moon Downloader
+desc: A bulk file downloader for Windows, with real-Chrome extraction over CDP, aiohttp streaming, a WebView2 GUI and a headless CLI.
+site: https://github.com/LeyckerS/moondownloader
+tags:
+- python
+- windows
+- aiohttp
+- playwright
+- documentation
+- ci
+upforgrabs:
+  name: good first issue
+  link: https://github.com/LeyckerS/moondownloader/labels/good%20first%20issue

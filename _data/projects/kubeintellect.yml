@@ -1,0 +1,17 @@
+---
+name: KubeIntellect
+desc: 'KubeIntellect lets operators ask Kubernetes questions in plain English, gathers live evidence from cluster tools such as kubectl, Prometheus and Loki, and pauses for explicit human approval before destructive operations. It is a research system rather than a production-certified product: synthesized tools are validated and approval-gated, but currently execute in-process rather than in an isolated container. Python, FastAPI and LangGraph; AGPL-3.0.'
+site: https://github.com/MSKazemi/kubeintellect
+tags:
+- python
+- kubernetes
+- devops
+- sre
+- observability
+- llm
+- ai-agents
+- fastapi
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/MSKazemi/kubeintellect/labels/good%20first%20issue

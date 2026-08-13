@@ -1,0 +1,12 @@
+name: ArgueWithCpp
+desc: A C++ argument parser with Grammar files.
+site: https://www.github.com/Mher-DeLight/ArgueWithCpp
+tags:
+  - parsing
+  - cpp
+  - argument
+  - tokenizer
+  - easy
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Mher-DeLight/ArgueWithCpp/labels/up%20for%20grabs

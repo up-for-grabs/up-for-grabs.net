@@ -5,7 +5,7 @@ site: https://github.com/ConvoBrains/zero-cost-crm
 tags:
 - javascript
 - typescript
-- react
+- reactjs
 - express
 - postgresql
 - crm

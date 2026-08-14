@@ -1,0 +1,21 @@
+---
+name: Nightshift
+desc: >-
+  An open-source plugin for accountable long-running Codex and Claude Code shifts, with persistent
+  punch lists, mechanical completion gates, recovery, safety rules, and reviewable run history.
+site: https://github.com/orwa-mahmoud/nightshift
+tags:
+- ai
+- ai-agents
+- agents
+- llm
+- automation
+- developer-tools
+- cli
+- bash
+- plugin
+- codex
+- claude-code
+upforgrabs:
+  name: good first issue
+  link: https://github.com/orwa-mahmoud/nightshift/labels/good%20first%20issue

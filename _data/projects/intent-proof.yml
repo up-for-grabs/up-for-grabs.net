@@ -13,3 +13,7 @@ tags:
 upforgrabs:
   name: agent-task
   link: https://github.com/FeeeeelixWong/intent-proof/labels/agent-task
+stats:
+  issue-count: 3
+  last-updated: '2026-08-09T00:38:41Z'
+  fork-count: 6

@@ -1,6 +1,8 @@
 ---
 name: elm.chat
-desc: Open-source, account-free, disposable encrypted chat rooms with single-use invites and no persisted server-side transcript.
+desc: >-
+  Open-source, account-free, disposable encrypted chat rooms with single-use invites and no persisted
+  server-side transcript.
 site: https://github.com/shawnbure/elm-chat
 tags:
 - typescript
@@ -13,3 +15,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/shawnbure/elm-chat/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 2

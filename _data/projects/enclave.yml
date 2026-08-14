@@ -1,14 +1,21 @@
+---
 name: enclave
-desc: Security-first, brain-agnostic self-hosted sandboxed runtime for building and operating cost-efficient autonomous agents (Apache-2.0).
+desc: >-
+  Security-first, brain-agnostic self-hosted sandboxed runtime for building and operating cost-efficient
+  autonomous agents (Apache-2.0).
 site: https://github.com/wartzar-bee/enclave
 tags:
-  - sandbox
-  - agents
-  - ai
-  - runtime
-  - docker
-  - python
-  - security
+- sandbox
+- agents
+- ai
+- runtime
+- docker
+- python
+- security
 upforgrabs:
   name: help wanted
   link: https://github.com/wartzar-bee/enclave/labels/help%20wanted
+stats:
+  issue-count: 2
+  last-updated: '2026-07-23T07:10:08Z'
+  fork-count: 0

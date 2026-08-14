@@ -1,8 +1,8 @@
 ---
 name: BlindAssist
 desc: >-
-  An open-source Android prototype for on-device assistive perception,
-  reproducible evaluation, and evidence-bounded accessibility research.
+  An open-source Android prototype for on-device assistive perception, reproducible evaluation, and evidence-bounded
+  accessibility research.
 site: https://github.com/violetljj/blind-assist
 tags:
 - android
@@ -17,3 +17,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/violetljj/blind-assist/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-08-12T15:56:13Z'
+  fork-count: 7

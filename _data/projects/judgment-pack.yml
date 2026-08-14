@@ -1,15 +1,22 @@
+---
 name: Judgment Pack
-desc: An open specification and runtime for representing, testing, and auditing the evidence, rules, exceptions, uncertainty, and escalation criteria behind AI-agent decisions.
+desc: >-
+  An open specification and runtime for representing, testing, and auditing the evidence, rules, exceptions,
+  uncertainty, and escalation criteria behind AI-agent decisions.
 site: https://judgmentpack.org
 tags:
-  - ai
-  - agents
-  - evaluation
-  - governance
-  - go
-  - mcp
-  - policy
-  - testing
+- ai
+- agents
+- evaluation
+- governance
+- go
+- mcp
+- policy
+- testing
 upforgrabs:
   name: good first issue
   link: https://github.com/Judgment-Pack/judgment-pack-spec/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2026-08-07T16:07:42Z'
+  fork-count: 2

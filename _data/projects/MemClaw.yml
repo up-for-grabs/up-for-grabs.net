@@ -22,7 +22,7 @@ tags:
 - agent-memory
 upforgrabs:
   name: good first issue
-  link: https://github.com/caura-ai/caura-memclaw/labels/good%20first%20issue
+  link: https://github.com/caura-ai/caura/labels/good%20first%20issue
 stats:
   issue-count: 6
   last-updated: '2026-08-05T07:35:32Z'

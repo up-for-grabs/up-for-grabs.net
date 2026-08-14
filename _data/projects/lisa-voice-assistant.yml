@@ -1,14 +1,22 @@
+---
 name: Lisa - Smart Voice Assistant
-desc: A modern, AI-powered full-stack voice assistant built for 2026. Lisa combines real-time speech recognition, intelligent LLM responses, live web search, browser geolocation, cloud memory, and natural neural voice synthesis into a seamless conversational experience.
+desc: >-
+  A modern, AI-powered full-stack voice assistant built for 2026. Lisa combines real-time speech recognition,
+  intelligent LLM responses, live web search, browser geolocation, cloud memory, and natural neural voice
+  synthesis into a seamless conversational experience.
 site: https://github.com/hariprasad2512/lisa-v2
 tags:
-  - reactjs
-  - python
-  - voice-assistant
-  - ai-integration
-  - tailwindcss
-  - supabase
-  - groq
+- reactjs
+- python
+- voice-assistant
+- ai-integration
+- tailwindcss
+- supabase
+- groq
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/hariprasad2512/lisa-v2/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2026-08-01T13:12:22Z'
+  fork-count: 0

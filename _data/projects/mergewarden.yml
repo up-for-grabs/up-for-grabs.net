@@ -1,9 +1,8 @@
 ---
 name: MergeWarden
 desc: >-
-  GitHub Action that reports when a pull request edits the files coding agents
-  read as instructions (CLAUDE.md, AGENTS.md, .mcp.json), plus workflow
-  permission changes. It comments only and never closes anything.
+  GitHub Action that reports when a pull request edits the files coding agents read as instructions (CLAUDE.md,
+  AGENTS.md, .mcp.json), plus workflow permission changes. It comments only and never closes anything.
 site: https://github.com/sjh9714/mergewarden
 tags:
 - typescript
@@ -14,3 +13,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/sjh9714/mergewarden/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2026-07-24T15:38:42Z'
+  fork-count: 6

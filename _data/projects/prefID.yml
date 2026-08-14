@@ -1,9 +1,17 @@
+---
 name: prefID
-desc: Short, unique IDs that carry a prefix telling you what they belong to — user_a1b2c3, order_9f8e7d. Readable, secure, and typed — for TypeScript and JavaScript alike.
+desc: >-
+  Short, unique IDs that carry a prefix telling you what they belong to — user_a1b2c3, order_9f8e7d. Readable,
+  secure, and typed — for TypeScript and JavaScript alike.
 site: https://github.com/suhailopensource/prefID
 tags:
-  - typescript
-  - javascript
+- typescript
+- javascript
 upforgrabs:
   name: up for grabs
-  link: https://github.com/suhailopensource/prefID/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22up%20for%20grabs%22
+  link: >-
+    https://github.com/suhailopensource/prefID/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22up%20for%20grabs%22
+stats:
+  issue-count: 4
+  last-updated: '2026-08-14T10:16:37Z'
+  fork-count: 4

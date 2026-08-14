@@ -1,7 +1,6 @@
 ---
 name: Warp
-desc: >-
-  Send files directly between devices over encrypted, serverless P2P WebRTC. No uploads, no signup.
+desc: Send files directly between devices over encrypted, serverless P2P WebRTC. No uploads, no signup.
 site: https://github.com/Ishannaik/warp
 tags:
 - webrtc
@@ -12,3 +11,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/Ishannaik/warp/labels/good%20first%20issue
+stats:
+  issue-count: 37
+  last-updated: '2026-08-09T03:37:26Z'
+  fork-count: 15

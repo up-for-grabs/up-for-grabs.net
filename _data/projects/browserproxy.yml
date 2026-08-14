@@ -1,12 +1,19 @@
+---
 name: BrowserProxy
-desc: A lightweight macOS native app that intercepts URL clicks and forwards them to the right browser based on running state and power source
+desc: >-
+  A lightweight macOS native app that intercepts URL clicks and forwards them to the right browser based
+  on running state and power source
 site: https://github.com/lvchenjia/BrowserProxy
 tags:
-  - swift
-  - macos
-  - swiftui
-  - browser
-  - utility
+- swift
+- macos
+- swiftui
+- browser
+- utility
 upforgrabs:
   name: good first issue
   link: https://github.com/lvchenjia/BrowserProxy/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2026-08-12T09:07:55Z'
+  fork-count: 1

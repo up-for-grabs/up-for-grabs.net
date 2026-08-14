@@ -1,6 +1,9 @@
 ---
 name: organic-os
-desc: An always-on organic growth loop for your website, as a free Claude plugin. It watches search and AI-answer performance, proposes work with the reasoning attached, applies approved changes to WordPress, verifies they landed, and learns from the outcome. Every write is gated on a recorded human approval.
+desc: >-
+  An always-on organic growth loop for your website, as a free Claude plugin. It watches search and AI-answer
+  performance, proposes work with the reasoning attached, applies approved changes to WordPress, verifies
+  they landed, and learns from the outcome. Every write is gated on a recorded human approval.
 site: https://organicos.shivaatripathi.com
 tags:
 - python
@@ -11,3 +14,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/shalintripathi/organic-os/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2026-07-21T20:26:33Z'
+  fork-count: 3

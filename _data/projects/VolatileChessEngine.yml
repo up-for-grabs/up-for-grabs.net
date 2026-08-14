@@ -1,18 +1,26 @@
+---
 name: Volatile Chess Engine
-desc: Volatile is a high-performance, UCI-compatible C++ chess engine built from scratch, currently playing at a 2200-2400 Elo. We are looking for contributors
-  of all skill levels to help us bridge the gap to top-tier engines. This project serves as a fantastic, beginner-friendly learning ground for modern C++  
-  systems programming, clean architecture (SOLID principles), and game AI. Current high-priority tasks include integrating Efficiently Updatable Neural    
-  Networks (NNUE), implementing Monte-Carlo Tree Search (MCTS), optimizing time-management algorithms, and improving our testing and CI/CD infrastructure. 
-  Whether you are making your first open-source contribution or you are an expert eager to tackle complex optimization problems, your ideas are warmly
-  welcomed here!
+desc: >-
+  Volatile is a high-performance, UCI-compatible C++ chess engine built from scratch, currently playing
+  at a 2200-2400 Elo. We are looking for contributors of all skill levels to help us bridge the gap to
+  top-tier engines. This project serves as a fantastic, beginner-friendly learning ground for modern C++
+  systems programming, clean architecture (SOLID principles), and game AI. Current high-priority tasks
+  include integrating Efficiently Updatable Neural Networks (NNUE), implementing Monte-Carlo Tree Search
+  (MCTS), optimizing time-management algorithms, and improving our testing and CI/CD infrastructure. Whether
+  you are making your first open-source contribution or you are an expert eager to tackle complex optimization
+  problems, your ideas are warmly welcomed here!
 site: https://github.com/PriyojitRoy/Volatile
 tags:
-  - chess-engine
-  - hce
-  - nnue
-  - good-first-issue
-  - c
-  - cpp
+- chess-engine
+- hce
+- nnue
+- good-first-issue
+- c
+- cpp
 upforgrabs:
   name: help wanted
   link: https://github.com/PriyojitRoy/Volatile/labels/help%20wanted
+stats:
+  issue-count: 5
+  last-updated: '2026-08-14T05:59:32Z'
+  fork-count: 1

@@ -1,6 +1,8 @@
 ---
 name: PatchRail
-desc: Local-first CLI that classifies CI failure logs by root cause and suggests a fix, running fully offline so no data leaves your machine.
+desc: >-
+  Local-first CLI that classifies CI failure logs by root cause and suggests a fix, running fully offline
+  so no data leaves your machine.
 site: https://github.com/patchrail/patchrail
 tags:
 - python
@@ -11,3 +13,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/patchrail/patchrail/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-07-15T11:57:20Z'
+  fork-count: 3

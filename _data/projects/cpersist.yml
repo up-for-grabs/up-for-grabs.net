@@ -1,15 +1,20 @@
+---
 name: cpersist
 desc: cpersist is a C++ data persistence and serialization library.
 site: https://github.com/Mher-DeLight/cpersist
 tags:
-  - c-plus-plus
-  - data
-  - cpp
-  - serialization
-  - save
-  - beginner-friendly
-  - io
-  - load
+- c-plus-plus
+- data
+- cpp
+- serialization
+- save
+- beginner-friendly
+- io
+- load
 upforgrabs:
   name: up for grabs
   link: https://github.com/Mher-DeLight/cpersist/issues?q=state%3Aopen%20label%3A%22up%20for%20grabs%22
+stats:
+  issue-count: 2
+  last-updated: '2026-07-20T12:26:25Z'
+  fork-count: 0

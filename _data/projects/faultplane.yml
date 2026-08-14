@@ -1,12 +1,19 @@
+---
 name: FaultPlane
-desc: An open-source transport-layer data proxy providing zero-code-intrusion state checkpoints and instant kernel failovers for long-running AI agent workloads.
+desc: >-
+  An open-source transport-layer data proxy providing zero-code-intrusion state checkpoints and instant
+  kernel failovers for long-running AI agent workloads.
 site: https://github.com/devloperdevesh/FaultPlane
 tags:
-  - go
-  - ebpf
-  - nextjs
-  - tailwindcss
-  - infrastructure
+- go
+- ebpf
+- nextjs
+- tailwindcss
+- infrastructure
 upforgrabs:
   name: good first issue
   link: https://github.com/devloperdevesh/FaultPlane/labels/good%20first%20issue
+stats:
+  issue-count: 118
+  last-updated: '2026-08-13T14:01:46Z'
+  fork-count: 1

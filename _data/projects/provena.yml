@@ -1,14 +1,19 @@
+---
 name: Provena
 desc: Context governance for agentic AI — tamper-evident audit trails for LLM context inputs
 site: https://github.com/rajfirke/provena
 tags:
-  - python
-  - ai
-  - llm
-  - governance
-  - security
-  - eu-ai-act
-  - owasp
+- python
+- ai
+- llm
+- governance
+- security
+- eu-ai-act
+- owasp
 upforgrabs:
   name: good first issue
   link: https://github.com/rajfirke/provena/labels/good%20first%20issue
+stats:
+  issue-count: 26
+  last-updated: '2026-08-11T16:57:38Z'
+  fork-count: 21

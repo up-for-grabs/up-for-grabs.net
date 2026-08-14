@@ -1,13 +1,22 @@
+---
 name: Clippy Vision
-desc: Fully local AI assistant that watches your screen (windows, clipboard, screenshots) so you can query your own activity history instead of re-explaining context to an LLM every time. Runs on Ollama + a local vision model, nothing leaves your machine.
+desc: >-
+  Fully local AI assistant that watches your screen (windows, clipboard, screenshots) so you can query
+  your own activity history instead of re-explaining context to an LLM every time. Runs on Ollama + a
+  local vision model, nothing leaves your machine.
 site: https://github.com/protocorn/clippy-vision
 tags:
-  - python
-  - javascript
-  - electron
-  - ollama
-  - local-ai
-  - privacy
+- python
+- javascript
+- electron
+- ollama
+- local-ai
+- privacy
 upforgrabs:
   name: good first issue
-  link: https://github.com/protocorn/clippy-vision/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  link: >-
+    https://github.com/protocorn/clippy-vision/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+stats:
+  issue-count: 3
+  last-updated: '2026-08-08T17:45:37Z'
+  fork-count: 6

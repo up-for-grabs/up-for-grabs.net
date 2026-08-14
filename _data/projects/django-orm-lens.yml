@@ -1,6 +1,9 @@
 ---
 name: Django ORM Lens
-desc: Static analysis for Django models (VS Code extension + Python CLI + MCP server for AI agents). Zero database, zero Django boot, zero credentials — just parse models.py. Translations, docs, small CLI fixes, and golden fixtures all welcome as first contributions.
+desc: >-
+  Static analysis for Django models (VS Code extension + Python CLI + MCP server for AI agents). Zero
+  database, zero Django boot, zero credentials — just parse models.py. Translations, docs, small CLI fixes,
+  and golden fixtures all welcome as first contributions.
 site: https://github.com/FROWNINGdev/django-orm-lens
 tags:
 - python
@@ -13,3 +16,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/FROWNINGdev/django-orm-lens/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-08-01T12:54:35Z'
+  fork-count: 10

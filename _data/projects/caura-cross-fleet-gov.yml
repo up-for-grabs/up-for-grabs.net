@@ -1,0 +1,14 @@
+name: Caura Cross-Fleet Governed Memory
+desc: A multi-agent governance demo showing Caura (formerly MemClaw) enforcing fleet-scoped memory boundaries across three OpenClaw agents (sales, legal, admin) sharing one memory backend
+site: https://github.com/caura-ai/caura-cross-fleet-gov
+tags:
+  - ai-agents
+  - llm
+  - multi-agent
+  - memory
+  - governance
+  - typescript
+  - docker
+upforgrabs:
+  name: good first issue
+  link: https://github.com/caura-ai/caura-cross-fleet-gov/labels/good%20first%20issue

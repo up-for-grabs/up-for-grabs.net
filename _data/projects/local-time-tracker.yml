@@ -1,0 +1,16 @@
+name: Local Time Tracker
+desc: A private Windows time tracker for applications and browser tabs with local-only storage, no account, and no telemetry.
+site: https://github.com/HafidIdrissi/Time-Tracker
+tags:
+  - python
+  - windows
+  - sqlite
+  - tkinter
+  - privacy
+  - productivity
+  - desktop
+upforgrabs:
+  name: good first issue
+  link: https://github.com/HafidIdrissi/Time-Tracker/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+
+

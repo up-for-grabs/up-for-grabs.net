@@ -1,0 +1,12 @@
+name: Southend Community Open Data
+desc: Evidence-led, open-source tools and datasets for Southend-on-Sea civic data, accessibility, heritage and education.
+site: https://southendonsea.city
+tags:
+  - civic-tech
+  - open-data
+  - accessibility
+  - education
+  - javascript
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/maxelliotmingail-afk/southend-community-open-data/labels/up-for-grabs

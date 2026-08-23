@@ -1,0 +1,17 @@
+---
+name: OSS Accessibility Inclusion
+desc: >-
+  Investigating how accessibility contributions to open source are reviewed in
+  practice — case studies, a review rubric, and reusable a11y contribution
+  templates.
+site: https://github.com/ecogetaway/oss-accessibility-inclusion
+tags:
+- accessibility
+- a11y
+- documentation
+- research
+- oss
+- markdown
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ecogetaway/oss-accessibility-inclusion/labels/help%20wanted

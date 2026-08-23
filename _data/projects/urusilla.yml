@@ -1,8 +1,8 @@
 ---
 name: Urusilla
 desc: >-
-  Experimental no-install semantic language and public evaluation lab for safe, efficient communication
-  between unfamiliar AI agents.
+  Experimental no-install semantic language and public evaluation lab for safe communication and falsifiable
+  efficiency claims between unfamiliar AI agents.
 site: https://github.com/jaden3824/urusilla
 tags:
 - ai

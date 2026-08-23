@@ -15,5 +15,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/Fighter90/career-ops-ui/labels/help%20wanted
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2026-08-15T20:00:37Z'
   fork-count: 13

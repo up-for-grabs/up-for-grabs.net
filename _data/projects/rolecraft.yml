@@ -1,0 +1,12 @@
+name: RoleCraft
+desc: The package manager for AI agents — install, test, publish, and manage skills and MCP servers across 87 AI coding agents. Zero-dependency CLI.
+site: https://rolecraft-sh.github.io/rolecraft/
+tags:
+  - ai
+  - cli
+  - ai-agents
+  - mcp
+  - developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/rolecraft-sh/rolecraft/labels/good%20first%20issue

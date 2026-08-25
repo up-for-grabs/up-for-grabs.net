@@ -1,0 +1,18 @@
+---
+name: Plonk
+desc: >-
+  A window manager for macOS. Draw the zones you want on each monitor, then drop windows into them
+  with a drag, a shortcut or by saying so out loud. It keeps Rectangle's shortcuts, puts apps back on
+  the right monitor when a display comes back, and runs on-device.
+site: https://ostapondo.github.io/Plonk/
+tags:
+- swift
+- swiftui
+- macos
+- window-manager
+- menubar
+- accessibility
+- mcp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ostapondo/Plonk/labels/good%20first%20issue

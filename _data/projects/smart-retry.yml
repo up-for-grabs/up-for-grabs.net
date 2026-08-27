@@ -1,0 +1,13 @@
+name: smart-retry
+desc: A TypeScript retry library for HTTP requests with exponential/linear backoff, Axios and Fetch integrations, and automatic failure logging for later replay.
+site: https://github.com/AubaidFarrukh/smart-retry
+tags:
+  - typescript
+  - javascript
+  - nodejs
+  - http
+  - retry
+  - resilience
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AubaidFarrukh/smart-retry/labels/good%20first%20issue

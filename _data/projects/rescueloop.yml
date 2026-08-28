@@ -1,0 +1,13 @@
+name: RescueLoop
+desc: A local-first recovery agent that catches failures, gathers evidence, and proposes safe repairs.
+site: https://github.com/ostapondo/rescueloop
+tags:
+- rust
+- observability
+- devtools
+- cli
+- windows
+- macos
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ostapondo/rescueloop/labels/good%20first%20issue

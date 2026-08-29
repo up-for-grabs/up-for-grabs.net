@@ -1,0 +1,14 @@
+name: graphlib
+desc: A lightweight, header-only competitor to the BGL
+site: https://github.com/randomfnp/graphlib
+tags:
+- graphlib
+- DAG
+- C++20
+- C++23
+- Fast
+- Header-only
+- GL
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/username/project/labels/up%20for%20grabs

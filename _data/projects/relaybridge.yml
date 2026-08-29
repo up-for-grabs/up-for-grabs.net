@@ -3,7 +3,7 @@ desc: Local-first SMTP bridge for legacy devices and applications that need to s
 site: https://getrelaybridge.com
 tags:
   - c#
-  - dotnet
+  - .net
   - windows
   - smtp
   - email

@@ -1,0 +1,12 @@
+name: fastdocparse
+desc: Extract structured data from documents using any OpenAI-compatible LLM, with per-field grounding and confidence.
+site: https://github.com/pranjalparmar/fastdocparse
+tags:
+- python
+- llm
+- document-processing
+- pdf
+- ocr
+upforgrabs:
+  name: good first issue
+  link: https://github.com/pranjalparmar/fastdocparse/labels/good%20first%20issue

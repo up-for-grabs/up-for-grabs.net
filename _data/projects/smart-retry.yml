@@ -4,7 +4,7 @@ site: https://github.com/AubaidFarrukh/smart-retry
 tags:
   - typescript
   - javascript
-  - nodejs
+  - node.js
   - http
   - retry
   - resilience

@@ -1,8 +1,8 @@
 ---
 name: Bernstein
 desc: >-
-  Deterministic orchestrator for 30+ CLI AI coding agents (Claude Code, Codex, Aider, Cursor, Goose, etc.).
-  Git worktree isolation, HMAC audit trail, MCP server mode.
+  Open-source governance layer for AI agents (Claude Code, Codex, Gemini CLI, Cursor, Aider, and 40 more).
+  Deterministic scheduling, git worktree isolation, HMAC audit trail, MCP server mode.
 site: https://github.com/sipyourdrink-ltd/bernstein
 tags:
 - python

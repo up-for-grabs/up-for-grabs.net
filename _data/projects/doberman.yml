@@ -1,0 +1,12 @@
+---
+name: Doberman
+desc: Gives every AI-agent tool call an allow/authenticate/block verdict from a local policy engine
+site: https://github.com/DobermanCore/Doberman-Core
+tags:
+- python
+- security
+- ai
+- llm
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DobermanCore/Doberman-Core/labels/good%20first%20issue

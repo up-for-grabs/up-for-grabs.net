@@ -1,0 +1,14 @@
+---
+name: SDP (Social Daily Poster)
+desc: Self-hosted daily social poster. It reads your Claude Code or Codex sessions, screenshots and messages at the end of the day, drafts a LinkedIn or X post from what you actually did, and sends it to a private Telegram bot for approval before anything publishes.
+site: https://github.com/dimamak/sdp
+tags:
+- python
+- linkedin
+- telegram
+- ai
+- self-hosted
+- automation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/dimamak/sdp/labels/good%20first%20issue

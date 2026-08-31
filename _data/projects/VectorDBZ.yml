@@ -15,6 +15,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/vectordbz/vectordbz/labels/up-for-grabs
 stats:
-  issue-count: 1
-  last-updated: '2026-06-08T15:42:41Z'
-  fork-count: 17
+  issue-count: 0
+  fork-count: 18

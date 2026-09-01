@@ -1,0 +1,17 @@
+name: HFlow
+desc: >-
+  HFlow is an open-source Python SDK for building observable data pipelines for robotics and physical AI.
+  It stamps each processed episode with provenance, visualizes the pipeline as an Airflow graph, and lets
+  you query metadata and quality evidence without loading the underlying recordings.
+site: https://github.com/Hebbian-Robotics/hflow
+tags:
+- python
+- robotics
+- physical-ai
+- data-engineering
+- airflow
+- mcap
+- parquet
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Hebbian-Robotics/hflow/labels/good%20first%20issue

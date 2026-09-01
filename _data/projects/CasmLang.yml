@@ -1,0 +1,12 @@
+name: CasmLang
+desc: A low-level language for very direct hardware interaction.
+site: https://www.github.com/Mher-DeLight/CasmLang
+tags:
+  - compiler
+  - parsing
+  - assembly
+  - cpp
+  - hardware
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/Mher-DeLight/CasmLang/labels/up%20for%20grabs

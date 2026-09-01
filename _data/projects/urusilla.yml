@@ -1,0 +1,17 @@
+---
+name: Urusilla
+desc: >-
+  Experimental no-install semantic language and public evaluation lab for safe communication and falsifiable
+  efficiency claims between unfamiliar AI agents.
+site: https://github.com/jaden3824/urusilla
+tags:
+- ai
+- agents
+- python
+- protocols
+- interoperability
+- llm
+- research
+upforgrabs:
+  name: good first issue
+  link: https://github.com/jaden3824/urusilla/labels/good%20first%20issue

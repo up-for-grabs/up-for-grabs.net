@@ -1,0 +1,13 @@
+---
+name: GitHub Traffic Archive
+desc: Archive repository views, clones, referrers, and popular paths before GitHub's 14-day traffic window discards them.
+site: https://github.com/HafidIdrissi/github-traffic-archive
+tags:
+- python
+- github
+- github-actions
+- analytics
+- privacy
+upforgrabs:
+  name: good first issue
+  link: https://github.com/HafidIdrissi/github-traffic-archive/labels/good%20first%20issue

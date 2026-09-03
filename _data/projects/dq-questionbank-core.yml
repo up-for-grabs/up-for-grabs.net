@@ -1,0 +1,15 @@
+name: DQ QuestionBank Core
+desc: Local-first visual question bank workspace for LaTeX authoring, importing, reviewing, editing, and Word/DOCX publishing.
+site: https://github.com/wzsisshadiao-crypto/dq-questionbank-core
+tags:
+  - python
+  - education
+  - edtech
+  - latex
+  - docx
+  - math
+  - testing
+  - question-bank
+upforgrabs:
+  name: good first issue
+  link: https://github.com/wzsisshadiao-crypto/dq-questionbank-core/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

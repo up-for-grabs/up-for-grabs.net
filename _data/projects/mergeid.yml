@@ -1,0 +1,18 @@
+---
+name: MergeID
+desc: >-
+  Discord bot that securely links and verifies GitHub accounts with Discord accounts, with org/repo/team
+  verification and automatic role sync.
+site: https://github.com/Ishannaik/mergeid
+tags:
+- discord
+- github
+- oauth
+- typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Ishannaik/mergeid/labels/good%20first%20issue
+stats:
+  issue-count: 13
+  last-updated: '2026-09-03T10:54:02Z'
+  fork-count: 5

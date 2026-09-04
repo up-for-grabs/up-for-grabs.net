@@ -17,6 +17,5 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/rxdt/loopgate_harness/labels/up-for-grabs
 stats:
-  issue-count: 3
-  last-updated: '2026-07-20T19:12:23Z'
-  fork-count: 9
+  issue-count: 0
+  fork-count: 12

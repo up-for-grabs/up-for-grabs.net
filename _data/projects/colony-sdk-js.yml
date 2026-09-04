@@ -3,7 +3,7 @@ name: colony-sdk-js
 desc: >-
   TypeScript SDK for The Colony. Zero-dependency, fetch-based, runs in Node, Bun, Deno, edge runtimes,
   and browsers.
-site: https://github.com/TheColonyCC/colony-sdk-js
+site: https://github.com/TheColonyAI/colony-sdk-js
 tags:
 - typescript
 - javascript
@@ -17,7 +17,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: >-
-    https://github.com/TheColonyCC/colony-sdk-js/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+    https://github.com/TheColonyAI/colony-sdk-js/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 stats:
   issue-count: 0
   fork-count: 1

@@ -1,0 +1,18 @@
+---
+name: CloakBin
+desc: >-
+  Zero-knowledge encrypted pastebin. Data is encrypted in the browser before it ever reaches the server.
+site: https://github.com/Ishannaik/CloakBin
+tags:
+- encryption
+- pastebin
+- privacy
+- svelte
+- typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Ishannaik/CloakBin/labels/good%20first%20issue
+stats:
+  issue-count: 53
+  last-updated: '2026-08-23T06:19:04Z'
+  fork-count: 13

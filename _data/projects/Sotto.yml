@@ -1,0 +1,12 @@
+name: Sotto
+desc: End-to-end encrypted secret sync for developer teams - one Rust crypto core shared by the native CLI and the browser via WebAssembly, while the server only ever sees ciphertext.
+site: https://github.com/getsotto/sotto
+tags:
+  - rust
+  - cli
+  - webassembly
+  - encryption
+  - typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/getsotto/sotto/labels/good%20first%20issue

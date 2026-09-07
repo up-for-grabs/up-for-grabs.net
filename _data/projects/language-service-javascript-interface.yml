@@ -1,0 +1,12 @@
+name: Language Service JavaScript Interface
+desc: Language Service JavaScript Interface — Antigravity-level agentic autonomy meets the ultimate simplicity of self-hosting.
+site: https://lsji.ryopc.org/
+tags:
+  - "javascript"
+  - "typescript"
+  - "tooling"
+  - "api"
+  - "infrastructure"
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ryotagtagtag-wq/LSJI/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

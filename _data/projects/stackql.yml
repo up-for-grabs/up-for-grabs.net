@@ -11,6 +11,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/stackql/stackql/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
 stats:
-  issue-count: 58
+  issue-count: 57
   last-updated: '2026-07-30T12:38:50Z'
-  fork-count: 83
+  fork-count: 84

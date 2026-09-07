@@ -13,8 +13,8 @@ tags:
 - typescript
 upforgrabs:
   name: good first issue
-  link: https://github.com/GCWing/BitFun/labels/good%20first%20issue
+  link: https://github.com/GCWing/OpenBitFun/labels/good%20first%20issue
 stats:
-  issue-count: 3
+  issue-count: 2
   last-updated: '2026-08-19T06:43:24Z'
-  fork-count: 217
+  fork-count: 220

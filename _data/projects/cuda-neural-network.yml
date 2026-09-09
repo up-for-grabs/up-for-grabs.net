@@ -1,0 +1,17 @@
+name: cuda-neural-network
+desc: A GPU-accelerated neural network framework built from scratch in C++ and CUDA, featuring forward propagation, backpropagation, and modular deep learning components.
+site: https://github.com/bundlab/cuda-neural-network
+tags:
+  - cpp
+  - c++
+  - cuda
+  - deep-learning
+  - neural-network
+  - gpu
+  - open-source
+  - cmake
+  - algorithm
+  - machine-learning
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/bundlab/cuda-neural-network/labels/up-for-grabs

@@ -1,0 +1,12 @@
+name: Graphlib
+desc: A lightweight and fast competitor to the BGL
+site: https://github.com/RANDOMFNP/Graphlib
+tags:
+  - cpp20
+  - cpp23
+  - headerlib
+  - fast
+  - lightweight
+upforgrabs:
+  name: good first issue
+  link: https://github.com/RANDOMFNP/Graphlib/labels/good%20first%20issue

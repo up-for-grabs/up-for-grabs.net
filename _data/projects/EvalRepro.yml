@@ -1,0 +1,13 @@
+name: EvalRepro
+desc: Detect semantic drift in AI evaluation inputs and contracts before benchmark results silently change.
+site: https://github.com/seva9523/EvalRepro
+tags:
+  - python
+  - ai
+  - machine-learning
+  - testing
+  - reproducibility
+  - github-actions
+upforgrabs:
+  name: good first issue
+  link: https://github.com/seva9523/EvalRepro/labels/good%20first%20issue

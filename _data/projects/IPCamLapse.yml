@@ -1,0 +1,15 @@
+---
+name: IPCamLapse
+desc: Local-first .NET app that captures IP camera snapshots and creates H.264 timelapse videos.
+site: https://github.com/KalyteraSystems/IPCamLapse
+tags:
+- c#
+- ".net"
+- asp.net-core
+- ffmpeg
+- docker
+- self-hosted
+- video
+upforgrabs:
+  name: good first issue
+  link: https://github.com/KalyteraSystems/IPCamLapse/labels/good%20first%20issue

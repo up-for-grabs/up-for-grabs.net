@@ -1,0 +1,13 @@
+name: Scriptura
+desc: an IDE built with C++/QT , Rust , and later typescript AI layer
+site: https://github.com/jason1015-coder/scriptura
+tags:
+  - dev-tool 
+  - ai
+  - rust
+  - c++
+  - ts
+  - ide
+upforgrabs:
+  name: up for grabs
+  link: https://github.com/jason1015-coder/scriptura/labels/good%20first%20issue

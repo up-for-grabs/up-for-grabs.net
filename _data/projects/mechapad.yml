@@ -1,0 +1,15 @@
+---
+name: Mechapad
+desc: Lightweight terminal diff workbench and native MCP server for Claude Code, Cursor, and multi-model agent workflows.
+site: https://github.com/EugeneFinch/mechapad-cli
+tags:
+- typescript
+- cli
+- terminal
+- mcp
+- claude
+- llm
+- developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/EugeneFinch/mechapad-cli/labels/good%20first%20issue

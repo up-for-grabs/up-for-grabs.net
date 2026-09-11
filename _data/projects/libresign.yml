@@ -1,0 +1,12 @@
+name: LibreSign
+desc: Digital document signature application for individuals and enterprises.
+site: https://github.com/LibreSign/libresign
+tags:
+  - php
+  - javascript
+  - vuejs
+  - pdf
+  - signature
+upforgrabs:
+  name: good first issue
+  link: https://github.com/LibreSign/libresign/labels/good%20first%20issue

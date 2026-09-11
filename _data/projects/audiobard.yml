@@ -1,0 +1,13 @@
+---
+name: audiobard
+desc: Multi-voice audiobooks from public-domain books with a local LLM and TTS
+site: https://github.com/oscarbol09/audiobard
+tags:
+  - python
+  - llm
+  - tts
+  - audiobook
+  - cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/oscarbol09/audiobard/labels/good%20first%20issue

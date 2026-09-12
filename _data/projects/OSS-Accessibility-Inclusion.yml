@@ -1,0 +1,16 @@
+---
+name: OSS Accessibility Inclusion
+desc: Research into how accessibility contributions to open source are reviewed
+  in practice - scored case studies, a public review rubric, and reusable a11y
+  contribution templates. Tasks are evidence and documentation work, not
+  feature code.
+site: https://github.com/ecogetaway/oss-accessibility-inclusion
+tags:
+- accessibility
+- a11y
+- documentation
+- research
+- oss
+upforgrabs:
+  name: tier-a
+  link: https://github.com/ecogetaway/oss-accessibility-inclusion/labels/tier-a

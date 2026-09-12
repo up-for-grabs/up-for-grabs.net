@@ -1,0 +1,16 @@
+---
+name: Launchloom
+desc: 'Turns one product brief and a real recording of your product into a film, a vertical cut, a landing page and reviewable social drafts — from the same plan, on your own machine.'
+site: https://github.com/FORIFOR/Launchloom
+tags:
+- python
+- fastapi
+- ffmpeg
+- playwright
+- video
+- marketing
+- devtools
+- self-hosted
+upforgrabs:
+  name: good first issue
+  link: https://github.com/FORIFOR/Launchloom/labels/good%20first%20issue

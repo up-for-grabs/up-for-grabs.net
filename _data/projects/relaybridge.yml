@@ -1,0 +1,15 @@
+name: RelayBridge
+desc: Local-first SMTP bridge for legacy devices and applications that need to send through Microsoft 365 using modern authentication.
+site: https://getrelaybridge.com
+tags:
+  - c#
+  - .net
+  - windows
+  - smtp
+  - email
+  - microsoft-365
+  - oauth
+  - exchange-online
+upforgrabs:
+  name: good first issue
+  link: https://github.com/getrelaybridge/relaybridge/labels/good%20first%20issue

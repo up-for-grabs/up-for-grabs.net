@@ -1,0 +1,14 @@
+name: Frameflow
+desc: Open-source AI-powered canvas for creating fully editable App Store screenshot designs.
+site: https://github.com/realZachi/frameflow
+tags:
+  - typescript
+  - reactjs
+  - ai
+  - canvas
+  - design-tools
+  - app-store
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/realZachi/frameflow/labels/good%20first%20issue

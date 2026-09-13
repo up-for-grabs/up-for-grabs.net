@@ -14,5 +14,6 @@ upforgrabs:
   link: >-
     https://github.com/reductstore/reductstore/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2026-09-11T09:52:40Z'
   fork-count: 44

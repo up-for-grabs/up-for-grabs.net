@@ -1,7 +1,7 @@
 ---
 name: PipesHub
 desc: >-
-  Open-source workplace AI. Connect Slack, Google Drive, Microsoft 365 and 50+
+  Open-source workplace AI platform. Connect Slack, Google Drive, Microsoft 365 and 50+
   other systems, then search with citations or give the same permission-aware
   context to agents via APIs, SDKs and MCP.
 site: https://github.com/pipeshub-ai/pipeshub-ai

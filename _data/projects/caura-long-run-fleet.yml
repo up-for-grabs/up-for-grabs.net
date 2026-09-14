@@ -1,0 +1,16 @@
+name: Caura Long-Run Fleet
+desc: A reference implementation showing how Caura (open-source multi-agent memory for AI agent fleets) manages shared memory across a continuously running fleet of three agents over 14 simulated days, with automatic contradiction resolution and governed recall.
+site: https://github.com/caura-ai/caura-long-run-fleet
+tags:
+  - ai
+  - agents
+  - memory
+  - multi-agent
+  - llm
+  - python
+  - mcp
+  - openclaw
+  - caura
+upforgrabs:
+  name: help wanted
+  link:  https://github.com/caura-ai/caura-long-run-fleet/labels/good%20first%20issue

@@ -6,7 +6,11 @@ import { useQuery } from '@tanstack/vue-query';
 import { subDays } from 'date-fns';
 
 import { InitialDaysActive } from '../data/config';
-import { fetchProjects } from '../data/search';
+import {
+  fetchPopularTags,
+  fetchProjects,
+  type TagWithFrequency,
+} from '../data/search';
 import { type WebsiteProject } from '../data/schema';
 
 import ProjectEntry from './ProjectEntry.vue';
@@ -24,6 +28,9 @@ const searchText = defineModel('searchText', { default: '' });
 const lastUpdatedDays = defineModel('lastUpdatedDays', {
   default: InitialDaysActive,
 });
+
+const selectedTags = ref<Array<string>>([]);
+const popularTags = ref<TagWithFrequency[]>([]);
 
 function updateQueryString() {
   const params = new URLSearchParams(window.location.search);
@@ -64,7 +71,7 @@ function parseLastUpdated(key: string | number): Date | Error {
 }
 
 const { data, error, isPending, isError, refetch } = useQuery({
-  queryKey: ['projects', searchText, lastUpdatedDays],
+  queryKey: ['projects', searchText, lastUpdatedDays, selectedTags],
   queryFn: ({ queryKey }) => {
     const text = queryKey[1];
     if (typeof text !== 'string') {
@@ -76,11 +83,22 @@ const { data, error, isPending, isError, refetch } = useQuery({
       return Promise.reject(lastUpdated);
     }
 
-    return fetchProjects(text, lastUpdated);
+    const tags = queryKey[3];
+    const tagList = Array.isArray(tags) ? tags : [];
+
+    return fetchProjects(text, lastUpdated, tagList);
   },
   placeholderData: props.initialProjects,
   enabled: isMounted,
 });
+
+async function loadPopularTags() {
+  const lastUpdated = parseLastUpdated(lastUpdatedDays.value);
+  if (lastUpdated instanceof Error) {
+    return;
+  }
+  popularTags.value = await fetchPopularTags(lastUpdated, 10);
+}
 
 onMounted(() => {
   isMounted.value = true;
@@ -100,6 +118,7 @@ onMounted(() => {
     }
   }
   updateQueryString();
+  loadPopularTags();
 });
 
 watch(searchText, () => {
@@ -110,7 +129,21 @@ watch(searchText, () => {
 watch(lastUpdatedDays, () => {
   updateQueryString();
   refetch();
+  loadPopularTags();
 });
+
+function addTag(tag: string) {
+  const tagLower = tag.toLowerCase();
+  if (!selectedTags.value.includes(tagLower)) {
+    selectedTags.value = [...selectedTags.value, tagLower];
+  }
+}
+
+function removeTag(tag: string) {
+  selectedTags.value = selectedTags.value.filter(
+    (t) => t !== tag.toLowerCase()
+  );
+}
 </script>
 
 <style>
@@ -161,6 +194,73 @@ menu {
   margin: 2em 0;
 }
 
+.tag-filter-section,
+.selected-tags-section {
+  margin-top: 1em;
+  clear: both;
+}
+
+.filter-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.popular-tags,
+.selected-tags {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.tag-button {
+  cursor: pointer;
+  border: 1px solid #4c6c73;
+  border-radius: 4px;
+  background: #bfd1d9;
+  padding: 0.3em 0.6em;
+  font-size: 0.9em;
+}
+
+.tag-button:hover {
+  background: #4c6c73;
+  color: white;
+}
+
+.tag-frequency {
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+
+.selected-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+  background: #4c6c73;
+  color: white;
+  border-radius: 4px;
+  padding: 0.2em 0.5em;
+  font-size: 0.9em;
+}
+
+.remove-tag {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  line-height: 1;
+  padding: 0 0.2em;
+}
+
+.remove-tag:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 640px) {
   .form-wrapper {
     width: 100%;
@@ -201,6 +301,42 @@ menu {
           <option value="-1">forever</option>
         </select>
       </div>
+      <div v-if="popularTags.length > 0" class="tag-filter-section">
+        <label id="tag-filter-label" class="filter-label"
+          >Filter by tag (click to add):</label
+        >
+        <ul class="popular-tags" aria-labelledby="tag-filter-label">
+          <li v-for="tag in popularTags" :key="tag.name">
+            <button
+              type="button"
+              class="tag-button"
+              :title="`Filter by ${tag.name} (${tag.frequency} projects)`"
+              @click="addTag(tag.name)"
+            >
+              {{ tag.name }}
+              <span class="tag-frequency">({{ tag.frequency }})</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div v-if="selectedTags.length > 0" class="selected-tags-section">
+        <span class="filter-label">Active tag filters:</span>
+        <ul class="selected-tags">
+          <li v-for="tag in selectedTags" :key="tag">
+            <span class="selected-tag">
+              {{ tag }}
+              <button
+                type="button"
+                class="remove-tag"
+                :aria-label="`Remove ${tag} filter`"
+                @click="removeTag(tag)"
+              >
+                ×
+              </button>
+            </span>
+          </li>
+        </ul>
+      </div>
     </form>
   </menu>
   <span v-if="isPending">Loading...</span>
@@ -214,6 +350,7 @@ menu {
       v-for="project in data"
       :key="project.id"
       :project="project"
+      @add-tag="addTag"
     />
   </div>
 </template>

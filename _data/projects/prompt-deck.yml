@@ -2,7 +2,7 @@ name: prompt-deck
 desc: Local, offline benchmarking studio for Local AI models — built with Tauri + React
 site: https://github.com/Cadman021/prompt-deck
 tags:
-  - react
+  - reactjs
   - typescript
   - open-source
   - tauri

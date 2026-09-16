@@ -68,9 +68,35 @@ define([
     return `about ${Math.round(elapsed / msPerYear)} years ago`;
   }
 
-  const renderProjects = function (projectService, tags, names, labels, date) {
+  function getActivityClass(lastUpdatedStr) {
+    if (!lastUpdatedStr) return 'unknown';
+    const lastUpdated = new Date(lastUpdatedStr);
+    const now = new Date();
+    const diffMs = now - lastUpdated;
+    const msPerMonth = 1000 * 60 * 60 * 24 * 30;
+    const diffMonths = diffMs / msPerMonth;
+
+    if (diffMonths < 3) return 'active';
+    if (diffMonths < 12) return 'stale';
+    return 'inactive';
+  }
+
+  const renderProjects = function (
+    projectService,
+    tags,
+    names,
+    labels,
+    date,
+    sort
+  ) {
     const allTags = projectService.getTags();
-    const allFilteredProjects = projectService.get(tags, names, labels, date);
+    const allFilteredProjects = projectService.get(
+      tags,
+      names,
+      labels,
+      date,
+      sort
+    );
     const totalProjects = allFilteredProjects.length;
     const totalPages = Math.ceil(totalProjects / PROJECTS_PER_PAGE);
 
@@ -86,6 +112,7 @@ define([
       compiledtemplateFn({
         projects: pagedProjects, // [MODIFIED] was: projectService.get(tags, names, labels, date)
         relativeTime,
+        getActivityClass,
         tags: allTags,
         popularTags: projectService.getPopularTags(6),
         selectedTags: tags,
@@ -93,12 +120,24 @@ define([
         selectedNames: names,
         labels: projectService.getLabels(),
         selectedLabels: labels,
+        sort,
       })
     );
     date = date || 'invalid';
     projectsPanel
       .find(`button.radio-btn[id=${date}]`)
       .addClass('radio-btn-selected');
+
+    projectsPanel.find('select.sort-filter').val(sort || 'random');
+    projectsPanel.find('select.sort-filter').change(function () {
+      currentPage = 1;
+      location.href = updateQueryStringParameter(
+        getFilterUrl(),
+        'sort',
+        encodeURIComponent($(this).val() || '')
+      );
+    });
+
     projectsPanel
       .find('select.tags-filter')
       .chosen({
@@ -457,7 +496,8 @@ define([
           const names = prepareForHTML(getParameterByName('names'));
           const tags = prepareForHTML(getParameterByName('tags'));
           const date = getParameterByName('date');
-          renderProjects(projectsSvc, tags, names, labels, date);
+          const sort = getParameterByName('sort');
+          renderProjects(projectsSvc, tags, names, labels, date, sort);
         });
 
         this.get('/', () => {

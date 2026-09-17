@@ -1,0 +1,15 @@
+name: LLMVault
+desc: A deliberately vulnerable, CTF-style training range for the OWASP Top 10 for LLM Applications. 25 labs across core, advanced and expert tiers, running entirely offline in Docker with no API keys required.
+site: https://github.com/CyberSunil/LLMVault
+tags:
+  - python
+  - docker
+  - security
+  - ctf
+  - llm
+  - flask
+  - ai-security
+  - owasp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/CyberSunil/LLMVault/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

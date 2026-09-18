@@ -1,0 +1,17 @@
+---
+name: OSS Language Inclusion
+desc: >-
+  Evidence on how Indic and other under-served locales get reviewed
+  upstream, plus i18n tooling including a translated-string security
+  linter. Tasks are bounded localization and documentation work.
+site: https://github.com/ecogetaway/oss-language-inclusion
+tags:
+- i18n
+- l10n
+- localization
+- documentation
+- research
+- oss
+upforgrabs:
+  name: tier-a
+  link: https://github.com/ecogetaway/oss-language-inclusion/labels/tier-a

@@ -1,0 +1,17 @@
+---
+name: gwp-basis-check
+desc: A linter that checks whether a greenhouse-gas warming potential value matches the IPCC assessment report the code claims it came from.
+site: https://github.com/greencalculus/gwp-basis-check
+tags:
+- python
+- linter
+- static-analysis
+- climate
+- open-data
+- data-quality
+- cli
+- pre-commit
+- good-first-issue
+upforgrabs:
+  name: good first issue
+  link: https://github.com/greencalculus/gwp-basis-check/labels/good%20first%20issue

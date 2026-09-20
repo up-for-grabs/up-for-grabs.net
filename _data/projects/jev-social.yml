@@ -1,0 +1,16 @@
+---
+name: Jev Social
+desc: >-
+  A local-first social research agent where Jev chooses typed operations and
+  socai captures browser evidence from Instagram, TikTok, and LinkedIn.
+site: https://github.com/socai-io/jev-social
+tags:
+- javascript
+- node.js
+- ai
+- browser-automation
+- social-media
+- osint
+upforgrabs:
+  name: good first issue
+  link: https://github.com/socai-io/jev-social/labels/good%20first%20issue

@@ -1,0 +1,17 @@
+name: OffPDF
+desc: Open-source, offline-first desktop PDF tools for editing, organizing, converting, compressing, securing, and OCR without uploading files.
+site: https://github.com/McanKul/offpdf
+tags:
+  - rust
+  - tauri
+  - typescript
+  - reactjs
+  - pdf
+  - desktop
+  - offline
+  - privacy
+  - macos
+  - windows
+upforgrabs:
+  name: good first issue
+  link: https://github.com/McanKul/offpdf/labels/good%20first%20issue

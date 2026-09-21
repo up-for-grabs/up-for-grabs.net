@@ -1,0 +1,18 @@
+---
+name: LibreDB Studio
+desc: Web-based SQL IDE for 16 database engines (PostgreSQL, MySQL, MongoDB, Redis, ClickHouse, DuckDB and more) with optional AI query assistance, shipped as one container next to your databases.
+site: https://github.com/libredb/libredb-studio
+tags:
+- typescript
+- reactjs
+- nextjs
+- sql
+- database
+- postgresql
+- mysql
+- mongodb
+- docker
+- kubernetes
+upforgrabs:
+  name: good first issue
+  link: https://github.com/libredb/libredb-studio/labels/good%20first%20issue

@@ -1,13 +1,18 @@
+---
 name: sysCall
 desc: A C-inspired language for interaction with the shell.
 site: https://github.com/Mher-DeLight/sysCall
 tags:
-  - cpp
-  - compiler
-  - tokenizer
-  - parsing
-  - bash
-  - shell
+- cpp
+- compiler
+- tokenizer
+- parsing
+- bash
+- shell
 upforgrabs:
   name: up for grabs
   link: https://github.com/Mher-DeLight/sysCall/labels/up%20for%20grabs
+stats:
+  issue-count: 1
+  last-updated: '2026-08-12T20:14:33Z'
+  fork-count: 0

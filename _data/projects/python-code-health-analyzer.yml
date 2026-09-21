@@ -1,0 +1,13 @@
+---
+name: Python Code Health Analyzer
+desc: Dependency-free Python static analyzer for code health, complexity, security risks, and import cycles.
+site: https://github.com/Johnkothapalli/python-code-health-analyzer
+tags:
+- python
+- static-analysis
+- code-quality
+- security
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Johnkothapalli/python-code-health-analyzer/labels/good%20first%20issue

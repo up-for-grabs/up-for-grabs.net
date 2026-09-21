@@ -1,0 +1,13 @@
+---
+name: 8004Swap
+desc: Non-custodial RFQ exchange for autonomous agents (no KYC), with on-chain reputation via ERC-8004
+site: https://github.com/Stakemate369/8004swap
+tags:
+  - solidity
+  - ethereum
+  - defi
+  - ai-agents
+  - typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Stakemate369/8004swap/labels/good%20first%20issue

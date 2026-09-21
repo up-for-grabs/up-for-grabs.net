@@ -1,0 +1,14 @@
+---
+name: Agent Tools & MCP Hub
+desc: 'A curated collection of modular, plug-and-play AI Agent Tools and Model Context Protocol (MCP) server connectors in Python and TypeScript.'
+site: https://github.com/tarunjandra/agent-tools-mcp-hub
+tags:
+- python
+- typescript
+- ai
+- mcp
+- llm
+- tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/tarunjandra/agent-tools-mcp-hub/labels/good%20first%20issue

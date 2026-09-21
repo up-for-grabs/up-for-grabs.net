@@ -1,0 +1,16 @@
+---
+name: zero-shelter
+desc: Reconciles the output of several dependency scanners into one ranked list of
+  what to fix now. Runs locally, makes no network calls of its own, and prints the
+  rule behind every number so the ranking can be argued with.
+site: https://github.com/zero-shelter/zero-shelter
+tags:
+- typescript
+- javascript
+- node.js
+- security
+- cli
+- npm
+upforgrabs:
+  name: good first issue
+  link: https://github.com/zero-shelter/zero-shelter/labels/good%20first%20issue

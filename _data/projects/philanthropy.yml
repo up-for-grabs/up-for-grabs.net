@@ -1,0 +1,20 @@
+---
+name: PhilanthroPy
+desc: >-
+  PhilanthroPy is a scikit-learn native toolkit for nonprofit and academic-medical-center
+  fundraising analytics. It provides pipeline-safe, leakage-safe estimators and transformers
+  for donor propensity, lapse prediction, planned-giving intent, wealth-screening imputation,
+  and walk-forward fiscal-year cross-validation. Every estimator passes scikit-learn's
+  check_estimator battery, and the library sends no data anywhere.
+site: https://philanthropy-project.github.io/PhilanthroPy/
+tags:
+- python
+- machine-learning
+- scikit-learn
+- data-science
+- preprocessing
+- model-selection
+- nonprofit
+upforgrabs:
+  name: good first issue
+  link: https://github.com/PhilanthroPy-Project/PhilanthroPy/labels/good%20first%20issue

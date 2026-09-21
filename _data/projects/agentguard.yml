@@ -1,0 +1,21 @@
+---
+name: AgentGuard
+desc: >-
+  Scans AI coding agent extensions (skills, plugins, hooks and MCP server configs) for unsafe
+  patterns, including prompt injection, exposed credentials and unpinned supply chain sources.
+  Ships as a CLI and a GitHub Action. Every rule is a single YAML file with two example
+  fixtures, so adding one needs no TypeScript.
+site: https://github.com/tainguyen091994/agentguard
+tags:
+- security
+- static-analysis
+- supply-chain
+- typescript
+- node.js
+- cli
+- ai
+- llm
+- mcp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/tainguyen091994/agentguard/labels/good%20first%20issue

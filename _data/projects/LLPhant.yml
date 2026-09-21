@@ -2,9 +2,9 @@ name: LLPhant
 desc: The PHP library for Gen AI and Vector Databases
 site: https://github.com/LLPhant/LLPhant
 tags:
-  - PHP
-  - AI
-  - LLM
+  - php
+  - ai
+  - llm
   - vector-database
   - openai
 upforgrabs:

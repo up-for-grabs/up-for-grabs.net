@@ -1,0 +1,17 @@
+---
+name: Authier
+desc: >-
+  An open-source, browser-first password manager and TOTP vault with client-side encrypted sync and trusted-device
+  approval.
+site: https://www.authier.pm/
+tags:
+- typescript
+- password-manager
+- browser-extension
+- security
+- privacy
+- totp
+- web
+upforgrabs:
+  name: good first issue
+  link: https://github.com/authier-pm/authier/labels/good%20first%20issue

@@ -1,0 +1,13 @@
+name: SysKnife
+desc: A Linux sysadmin co-pilot that runs as an MCP server and accepts typed actions only, with out-of-band terminal approval and an Ed25519-signed audit chain.
+site: https://lacs-project.github.io/sysknife/
+tags:
+- rust
+- linux
+- mcp
+- security
+- devops
+- sysadmin
+upforgrabs:
+  name: good first issue
+  link: https://github.com/lacs-project/sysknife/labels/good%20first%20issue

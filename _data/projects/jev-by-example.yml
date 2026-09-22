@@ -1,0 +1,12 @@
+---
+name: jev-by-example
+desc: Ten runnable JavaScript examples of agent decisions (memory conflicts, tool-result checks, retry-or-reconcile, context budgeting, handoffs), each pairing one typed Jev question with plain code that owns thresholds. Zero dependencies, no API key needed for the default path.
+site: https://github.com/ReallyArtificial/jev-by-example
+tags:
+- javascript
+- ai
+- agents
+- examples
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ReallyArtificial/jev-by-example/labels/good%20first%20issue

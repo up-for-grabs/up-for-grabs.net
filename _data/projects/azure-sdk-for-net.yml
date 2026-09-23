@@ -13,6 +13,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/Azure/azure-sdk-for-net/labels/help%20wanted
 stats:
-  issue-count: 3
+  issue-count: 2
   last-updated: '2026-04-13T16:31:46Z'
-  fork-count: 5195
+  fork-count: 5197

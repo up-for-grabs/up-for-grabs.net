@@ -1,0 +1,20 @@
+---
+name: Caura Build Fleet
+desc: >-
+  A 5-agent pipeline (Frontend → Performance → SEO → Code Review → Manager) that uses the Caura MCP server
+  as shared memory, letting agents recall, write, and audit decisions across the fleet.
+site: https://github.com/caura-ai/caura-build-fleet
+tags:
+- ai-agents
+- mcp
+- llm
+- multi-agent
+- memory
+- python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/caura-ai/caura-build-fleet/labels/good%20first%20issue
+stats:
+  issue-count: 17
+  last-updated: '2026-09-14T13:35:13Z'
+  fork-count: 11

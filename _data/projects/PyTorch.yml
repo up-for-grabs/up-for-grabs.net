@@ -18,6 +18,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/pytorch/pytorch/labels/good%20first%20issue
 stats:
-  issue-count: 53
-  last-updated: '2026-09-16T06:20:47Z'
-  fork-count: 29457
+  issue-count: 48
+  last-updated: '2026-09-23T08:48:06Z'
+  fork-count: 30044

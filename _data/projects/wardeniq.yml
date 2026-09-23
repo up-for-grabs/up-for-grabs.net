@@ -5,7 +5,7 @@ site: https://github.com/adlerqa/wardeniq
 tags:
 - python
 - javascript
-- react
+- reactjs
 - docker
 - mongodb
 - testing

@@ -1,18 +1,25 @@
+---
 name: HackRadar
-desc: A global discovery engine for hackathons that aggregates public hackathon listings into one searchable and filterable platform.
+desc: >-
+  A global discovery engine for hackathons that aggregates public hackathon listings into one searchable
+  and filterable platform.
 site: https://github.com/ZainabTravadi/HackRadar
 tags:
-  - typescript
-  - javascript
-  - reactjs
-  - node.js
-  - backend
-  - frontend
-  - web
-  - crawler
-  - postgresql
-  - playwright
-  - open-source
+- typescript
+- javascript
+- reactjs
+- node.js
+- backend
+- frontend
+- web
+- crawler
+- postgresql
+- playwright
+- open-source
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/ZainabTravadi/HackRadar/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2026-08-16T06:28:30Z'
+  fork-count: 4

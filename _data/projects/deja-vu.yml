@@ -1,6 +1,8 @@
 ---
 name: deja-vu
-desc: 'Memory for coding agents, built from the session files they already write to disk: search, MCP recall and automatic recall across twenty agents, with no LLM and no embeddings.'
+desc: >-
+  Memory for coding agents, built from the session files they already write to disk: search, MCP recall
+  and automatic recall across twenty agents, with no LLM and no embeddings.
 site: https://github.com/vshulcz/deja-vu
 tags:
 - go
@@ -12,3 +14,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/vshulcz/deja-vu/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2026-09-23T11:56:25Z'
+  fork-count: 90

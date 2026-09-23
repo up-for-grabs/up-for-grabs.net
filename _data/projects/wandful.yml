@@ -1,8 +1,8 @@
 ---
 name: Wandful
 desc: >-
-  Mouse gestures that fire keyboard shortcuts on macOS and Windows. Draw a shape you can repeat,
-  and the shortcut you bound to it is typed into the app you were already using.
+  Mouse gestures that fire keyboard shortcuts on macOS and Windows. Draw a shape you can repeat, and the
+  shortcut you bound to it is typed into the app you were already using.
 site: https://github.com/ostapondo/wandful
 tags:
 - rust
@@ -15,3 +15,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/ostapondo/wandful/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-08-18T19:22:25Z'
+  fork-count: 0

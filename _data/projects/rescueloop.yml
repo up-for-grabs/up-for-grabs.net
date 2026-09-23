@@ -1,3 +1,4 @@
+---
 name: RescueLoop
 desc: A local-first recovery agent that catches failures, gathers evidence, and proposes safe repairs.
 site: https://github.com/ostapondo/rescueloop
@@ -11,3 +12,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/ostapondo/rescueloop/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-08-28T01:32:26Z'
+  fork-count: 1

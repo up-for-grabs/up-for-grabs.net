@@ -2,15 +2,20 @@
 layout: default
 ---
 
-<section id="i-want-to-get-involved" class="block">
+<section id="i-want-to-get-involved" class="block" aria-label="Get involved">
   {% include before.html %}
 </section>
+
 <article id="projects" class="block">
-  <h1><span class="header-inside">Projects</span></h1>
-  <div id="projects-panel">
+  <header>
+    <h1>Projects</h1>
+  </header>
+
+  <div id="projects-panel" role="region" aria-live="polite">
     {% include noscript.html %}
   </div>
 </article>
-<section id="i-maintain-a-project" class="block">
+
+<section id="i-maintain-a-project" class="block" aria-label="Maintain a project">
   {% include after.html %}
 </section>

@@ -1,0 +1,14 @@
+name: OpenLivery
+desc: Self-hosted WhatsApp AI agents with separate client workspaces for agencies
+site: https://github.com/sarrazola/openlivery
+tags:
+  - python
+  - typescript
+  - go
+  - fastapi
+  - nextjs
+  - self-hosted
+  - whatsapp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sarrazola/openlivery/labels/good%20first%20issue

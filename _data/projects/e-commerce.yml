@@ -1,0 +1,18 @@
+name: Kivy E-Commerce Mobile App
+desc: A modern open-source e-commerce mobile application built with Python, Kivy, and KivyMD, featuring a Material Design interface, modular architecture, product catalog, shopping cart foundation, and Android support through Buildozer.
+site: https://github.com/bundlab/e-commerce
+tags:
+  - python
+  - kivy
+  - kivymd
+  - ecommerce
+  - shopping-app
+  - mobile-app
+  - android
+  - buildozer
+  - sqlite
+  - material-design
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bundlab/e-commerce/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug%20label%3Adocumentation%20label%3Aduplicate%20label%3Aenhancement%20label%3A%22good%20first%20issue%22%20label%3A%22help%20wanted%22%20label%3Ainvalid%20label%3Aquestion%20label%3Awontfix%20author%3Abundlab

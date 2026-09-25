@@ -1,0 +1,12 @@
+name: Swift Learning Roadmap
+desc: A Swift learning roadmap with Turkish resources and an English index.
+site: https://github.com/asimcanyagiz/Swift-Roadmap
+tags:
+  - swift
+  - ios
+  - education
+  - documentation
+  - markdown
+upforgrabs:
+  name: good first issue
+  link: https://github.com/asimcanyagiz/Swift-Roadmap/labels/good%20first%20issue

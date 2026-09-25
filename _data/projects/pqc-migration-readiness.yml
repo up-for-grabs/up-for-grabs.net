@@ -1,0 +1,16 @@
+name: PQC Migration Readiness
+desc: >-
+  A static auditor that estimates how much work a post-quantum cryptography
+  migration will take for a Java codebase. It finds quantum-vulnerable JCA usage
+  and structural fragility, ranks the hotspots, and produces an ordered migration
+  plan with an engineer-time estimate, as JSON, Markdown, and SARIF.
+site: https://github.com/Arpan0995/pqc-migration-readiness
+tags:
+- java
+- cryptography
+- post-quantum-cryptography
+- static-analysis
+- security
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Arpan0995/pqc-migration-readiness/labels/good%20first%20issue

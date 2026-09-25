@@ -1,0 +1,13 @@
+---
+name: Voting System
+desc: A web-based voting system built with Python, JavaScript, HTML, and CSS.
+site: https://github.com/Habishake005/voting-system
+tags:
+  - python
+  - javascript
+  - css
+  - html
+  - docker
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Habishake005/voting-system/labels/up-for-grabs

@@ -1,0 +1,13 @@
+---
+name: DevShelf
+desc: 'Curated crowdsourced developer directory of verified free APIs, dev tools, and AI agents with zero paywalls.'
+site: https://ritualdev-lab.github.io/DevShelf
+tags:
+- typescript
+- developer-tools
+- free-apis
+- cli
+- open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/RitualDev-Lab/DevShelf/labels/good%20first%20issue

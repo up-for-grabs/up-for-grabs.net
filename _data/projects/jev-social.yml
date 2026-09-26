@@ -1,8 +1,8 @@
 ---
 name: Jev Social
 desc: >-
-  A local-first social research agent where Jev chooses typed operations and
-  socai captures browser evidence from Instagram, TikTok, and LinkedIn.
+  A read-only social research app where Jev chooses bounded operations and the
+  local socai CLI captures Instagram, TikTok, and LinkedIn evidence in Chrome.
 site: https://github.com/socai-io/jev-social
 tags:
 - javascript

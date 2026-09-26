@@ -24,6 +24,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/open-telemetry/opentelemetry-js/labels/up-for-grabs
 stats:
-  issue-count: 9
+  issue-count: 8
   last-updated: '2026-09-23T13:09:47Z'
-  fork-count: 1165
+  fork-count: 1167

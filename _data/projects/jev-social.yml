@@ -1,0 +1,16 @@
+---
+name: Jev Social
+desc: >-
+  A read-only social research app where Jev chooses bounded operations and the
+  local socai CLI captures Instagram, TikTok, and LinkedIn evidence in Chrome.
+site: https://github.com/socai-io/jev-social
+tags:
+- javascript
+- node.js
+- ai
+- browser-automation
+- social-media
+- osint
+upforgrabs:
+  name: good first issue
+  link: https://github.com/socai-io/jev-social/labels/good%20first%20issue

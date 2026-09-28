@@ -1,0 +1,16 @@
+name: Cogeto
+desc: Verified institutional memory for your documents. Reads document sets, verifies every fact against its source, reports contradictions, and produces a signed findings report. Self hosted, AGPLv3.
+site: https://github.com/Cogeto/cogeto
+tags:
+  - ai
+  - llm
+  - rag
+  - memory
+  - ai-memory
+  - typescript
+  - reactjs
+  - node.js
+  - postgresql
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Cogeto/cogeto/labels/help%20wanted

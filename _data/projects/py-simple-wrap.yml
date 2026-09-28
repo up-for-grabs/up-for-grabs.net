@@ -1,0 +1,15 @@
+---
+name: py-simple-wrap
+desc: A beginner-friendly Python toolbox that removes boilerplate for common tasks
+site: https://github.com/sara-czasak/py-simple-wrap
+tags:
+- python
+- beginner-friendly
+- education
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sara-czasak/py-simple-wrap/labels/good%20first%20issue
+stats:
+  issue-count: 20
+  last-updated: '2026-09-22T13:47:38Z'
+  fork-count: 65

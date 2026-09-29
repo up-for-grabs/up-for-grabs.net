@@ -4,7 +4,7 @@ site: https://github.com/Kayforkind/NavigatorsLab-PDF-Studio
 tags:
 - pdf
 - typescript
-- react
+- reactjs
 - privacy
 - wasm
 - ocr

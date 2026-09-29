@@ -1,0 +1,16 @@
+---
+name: PACT OS
+desc: 'An open-source, local-first discipline and accountability operating system featuring a financial engine, focus timers, and habit streak tracking.'
+site: https://pact-os.vercel.app
+tags:
+- typescript
+- react
+- nextjs
+- tailwindcss
+- supabase
+- local-first
+- accountability
+- productivity
+upforgrabs:
+  name: good first issue
+  link: https://github.com/TheVicky1/Pact_OS/labels/good%20first%20issue

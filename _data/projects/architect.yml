@@ -1,0 +1,18 @@
+---
+name: Architect
+desc: >-
+  An Electron canvas for your architecture, with an MCP gate that blocks an AI agent's change until
+  you approve it.
+site: https://github.com/abhiramshaji-cyber/Architect
+tags:
+- electron
+- typescript
+- javascript
+- desktop
+- mcp
+- architecture
+- node.js
+- vite
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/abhiramshaji-cyber/Architect/labels/up-for-grabs

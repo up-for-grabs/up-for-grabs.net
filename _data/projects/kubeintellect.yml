@@ -1,11 +1,11 @@
 ---
 name: KubeIntellect
 desc: >-
-  KubeIntellect lets operators ask Kubernetes questions in plain English, gathers live evidence from cluster
-  tools such as kubectl, Prometheus and Loki, and pauses for explicit human approval before destructive
-  operations. It is a research system rather than a production-certified product: synthesized tools are
-  validated and approval-gated, but currently execute in-process rather than in an isolated container.
-  Python, FastAPI and LangGraph; AGPL-3.0.
+  KubeIntellect answers Kubernetes questions in plain English: it investigates a live cluster with
+  real tools - kubectl, Prometheus (PromQL) and Loki (LogQL) - correlates the evidence, and explains
+  the root cause. Any change to the cluster pauses for explicit human approval, gated by role-based
+  access control. Python, FastAPI and LangGraph; peer-reviewed in the Journal of Grid Computing
+  (2026); AGPL-3.0. Good first issues are curated, and CONTRIBUTING.md walks one end to end.
 site: https://github.com/MSKazemi/kubeintellect
 tags:
 - python

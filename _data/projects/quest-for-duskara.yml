@@ -1,0 +1,13 @@
+---
+name: Quest for Duskara
+desc: A single-player island strategy game for macOS, built with SwiftUI, RealityKit, and Metal.
+site: https://github.com/Dbhardwaj99/Quest-For-Duskara
+tags:
+- swift
+- swiftui
+- macos
+- realitykit
+- game
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Dbhardwaj99/Quest-For-Duskara/labels/good%20first%20issue

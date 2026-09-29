@@ -1,0 +1,20 @@
+---
+name: crapkit
+desc: >-
+  Per-function CRAP scores (complexity times uncovered risk) for Python and JavaScript repos, with a CLI,
+  a GitHub Action and an MCP server.
+site: https://github.com/JeanFrancoisGagne/crapkit
+tags:
+- python
+- javascript
+- testing
+- code-quality
+- coverage
+- mcp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/JeanFrancoisGagne/crapkit/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-09-02T02:46:19Z'
+  fork-count: 1

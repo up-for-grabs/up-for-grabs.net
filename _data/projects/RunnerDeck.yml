@@ -1,0 +1,13 @@
+---
+name: RunnerDeck
+desc: A small, local-only web UI for managing a pool of self-hosted GitHub Actions runners on a single machine.
+site: https://github.com/AnikethTS/RunnerDeck
+tags:
+- php
+- github-actions
+- self-hosted-runners
+- dashboard
+- devops
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/AnikethTS/RunnerDeck/labels/up-for-grabs

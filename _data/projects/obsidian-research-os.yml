@@ -1,0 +1,13 @@
+name: Obsidian Research OS
+desc: A command-line companion for Obsidian daily notes, tasks, research, and reviews.
+site: https://github.com/AbhayKabdwal/obsidian-research-os
+tags:
+  - obsidian
+  - cli
+  - bash
+  - python
+  - productivity
+  - knowledge-management
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AbhayKabdwal/obsidian-research-os/labels/good%20first%20issue

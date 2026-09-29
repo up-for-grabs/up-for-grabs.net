@@ -2,10 +2,12 @@
 name: Unified AI System
 desc: >-
   Terminal-first, self-hosted AI gateway with provider-free prompt enhancement, a credential-free local
-  demo, and nine governed MCP tools for Codex and other hosts.
+  demo, and governed MCP tools for Codex and other hosts: virtual keys with token budgets, response
+  caching and an audit trail. Runs end to end with no API key required.
 site: https://github.com/happy520ai/unified-ai-system
 tags:
 - javascript
+- typescript
 - node.js
 - docker
 - ai

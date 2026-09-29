@@ -1,0 +1,13 @@
+name: Rexial
+description: Real-time quiz hosting platform
+site: https://github.com/TheCodeHeist-Coder/Rexial
+tags:
+  - typescript
+  - react
+  - node
+  - express
+  - websocket
+  - postgresql
+  - prisma
+  - redis
+  - docker

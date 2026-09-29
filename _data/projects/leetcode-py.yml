@@ -1,0 +1,14 @@
+---
+name: leetcode-py
+desc: Generates local LeetCode practice environments with problem READMEs, typed stubs and parametrized pytest suites. [Contribution guide](https://github.com/wislertt/leetcode-py/blob/main/CONTRIBUTING.md)
+site: https://github.com/wislertt/leetcode-py
+tags:
+- python
+- leetcode
+- algorithm
+- data-structures
+- pytest
+- education
+upforgrabs:
+  name: good first issue
+  link: https://github.com/wislertt/leetcode-py/labels/good%20first%20issue

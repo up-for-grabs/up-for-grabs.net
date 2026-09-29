@@ -1,0 +1,16 @@
+---
+name: Provena Agent Memory
+desc: >-
+  An evidence-backed memory layer that gives AI agents persistent, explainable, scoped, and auditable context.
+site: https://github.com/admiralpunk/Provena
+tags:
+- ai
+- agents
+- memory
+- mcp
+- python
+- postgresql
+- provenance
+upforgrabs:
+  name: good first issue
+  link: https://github.com/admiralpunk/Provena/labels/good%20first%20issue

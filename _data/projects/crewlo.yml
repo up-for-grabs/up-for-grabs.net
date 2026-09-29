@@ -5,7 +5,7 @@ desc: >-
 site: https://github.com/HafidIdrissi/Crewlo
 tags:
 - typescript
-- react
+- reactjs
 - electron
 - desktop
 - ai

@@ -1,0 +1,14 @@
+---
+name: Crewlo
+desc: >-
+  A voxel desktop workspace for coding-agent CLIs, with missions, terminals, and agent replies.
+site: https://github.com/HafidIdrissi/Crewlo
+tags:
+- typescript
+- react
+- electron
+- desktop
+- ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/HafidIdrissi/Crewlo/labels/good%20first%20issue

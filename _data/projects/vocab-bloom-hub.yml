@@ -1,0 +1,18 @@
+---
+name: Vocab Bloom Hub
+desc: >-
+  A self-hosted English dictionary — 300 000 entries with meanings, examples, forms and translations behind a public read-only API, an admin UI, Node.js and Python SDKs and a website
+site: https://github.com/Fristail27/vocab-bloom-hub
+tags:
+- typescript
+- nestjs
+- nextjs
+- python
+- dictionary
+- api
+- self-hosted
+- translation
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Fristail27/vocab-bloom-hub/labels/good%20first%20issue

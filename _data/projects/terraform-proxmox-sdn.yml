@@ -1,0 +1,13 @@
+name: Terraform Proxmox SDN
+desc: A Terraform module for Proxmox VE SDN zones, VNets, subnets, routing, NAT, and DHCP.
+site: https://github.com/hybridops-tech/terraform-proxmox-sdn
+tags:
+  - terraform
+  - proxmox
+  - networking
+  - infrastructure
+  - devops
+  - infrastructure-as-code
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hybridops-tech/terraform-proxmox-sdn/labels/good%20first%20issue

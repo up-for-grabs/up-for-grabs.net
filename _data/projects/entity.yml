@@ -1,0 +1,16 @@
+name: ENTITY
+desc: Open infrastructure for sovereign digital authority, verifiable claims, data rights, continuous provenance and portable economic state.
+site: https://github.com/blackmore-technology-group/ENTITY
+tags:
+  - python
+  - security
+  - provenance
+  - identity
+  - protocol
+  - cryptography
+  - data-rights
+  - interoperability
+  - developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blackmore-technology-group/ENTITY/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22

@@ -1,15 +1,22 @@
+---
 name: deepLocal
-desc: A local-first AI workbench for downloading, managing, chatting with, and serving GGUF models on your own computer.
+desc: >-
+  A local-first AI workbench for downloading, managing, chatting with, and serving GGUF models on your
+  own computer.
 site: https://github.com/petertzy/deepLocal
 tags:
-  - rust
-  - reactjs
-  - typescript
-  - ai
-  - local-ai
-  - gguf
-  - llama-cpp
-  - desktop
+- rust
+- reactjs
+- typescript
+- ai
+- local-ai
+- gguf
+- llama-cpp
+- desktop
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/petertzy/deepLocal/labels/up-for-grabs
+stats:
+  issue-count: 9
+  last-updated: '2026-09-29T14:43:07Z'
+  fork-count: 2

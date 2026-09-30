@@ -1,10 +1,10 @@
 ---
 name: Podiom
 desc: >-
-  Podiom is a thin orchestration layer for local LLM agents. It gives agents durable sessions,
-  profiles and memory on your own machine, plus scheduling and native MCP, tool and skill
-  integration, so several named agents can collaborate on the same projects through a shared
-  ledger. Runs as a local daemon with a web UI, a CLI and a Home Assistant add-on.
+  Podiom is a thin orchestration layer for local LLM agents. It gives agents durable sessions, profiles
+  and memory on your own machine, plus scheduling and native MCP, tool and skill integration, so several
+  named agents can collaborate on the same projects through a shared ledger. Runs as a local daemon with
+  a web UI, a CLI and a Home Assistant add-on.
 site: https://github.com/Podiom/Podiom
 tags:
 - go
@@ -24,3 +24,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/Podiom/Podiom/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2026-09-30T11:33:48Z'
+  fork-count: 33

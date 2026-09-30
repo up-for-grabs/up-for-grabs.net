@@ -1,5 +1,8 @@
+---
 name: AIQuotaBar
-desc: macOS menu bar app that shows live Claude, ChatGPT, Cursor and GitHub Copilot usage limits, with reset countdowns and pace warnings.
+desc: >-
+  macOS menu bar app that shows live Claude, ChatGPT, Cursor and GitHub Copilot usage limits, with reset
+  countdowns and pace warnings.
 site: https://github.com/yagcioglutoprak/AIQuotaBar
 tags:
 - python
@@ -11,3 +14,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/yagcioglutoprak/AIQuotaBar/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2026-09-27T20:55:46Z'
+  fork-count: 9

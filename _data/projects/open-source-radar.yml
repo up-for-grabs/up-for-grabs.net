@@ -1,0 +1,14 @@
+---
+name: Open Source Radar
+desc: Finds open, unclaimed, beginner-friendly issues in active open source projects, refreshed twice a day, and flags each project's CLA, DCO and AI contribution rules. Includes a practical guide to a first contribution.
+site: https://github.com/TanbirRamim/open-source-radar
+tags:
+  - python
+  - javascript
+  - github-actions
+  - beginner
+  - documentation
+  - hacktoberfest
+upforgrabs:
+  name: good first issue
+  link: https://github.com/TanbirRamim/open-source-radar/labels/good%20first%20issue

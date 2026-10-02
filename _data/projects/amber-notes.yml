@@ -1,0 +1,15 @@
+name: Amber Notes
+desc: A free, open-source notes app for iPhone and Mac that ChatGPT and Claude can read and edit, through an MCP server. Swift and SwiftUI for the app, TypeScript for the server and website.
+site: https://github.com/amber-notes/amber-notes
+tags:
+- swift
+- swiftui
+- ios
+- macos
+- typescript
+- mcp
+- notes
+- ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/amber-notes/amber-notes/labels/good%20first%20issue

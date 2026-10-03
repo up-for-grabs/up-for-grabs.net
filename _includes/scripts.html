@@ -63,6 +63,13 @@
       </select>
     </div>
     <div class="filters-panel cf">
+      <label class="filter-label" for="sort">Sort by: </label>
+      <select class="sort-filter" id="sort">
+        <option value="random">Random</option>
+        <option value="last-updated">Recently Updated</option>
+      </select>
+    </div>
+    <div class="filters-panel cf">
       <label class="filter-label">Popular tags:</label>
       <ul class="popular-tags">
         <% _.each(popularTags, function(entry, key){ %>
@@ -140,6 +147,17 @@
             <span class="desc"> <%=project.desc%> </span>
             <% } %>
           </div>
+          <% if (project.stats && project.stats['last-updated']) {
+             const now = new Date();
+             let lastUpdated = new Date(project.stats['last-updated']);
+             let since = relativeTime(now, lastUpdated);
+             let activity = getActivityClass(project.stats['last-updated']);
+          %>
+          <div class="details activity" title="Last commit: <%- since %>">
+            <span class="activity-indicator <%- activity %>"></span>
+            <span class="activity-text">Last commit: <%- since %></span>
+          </div>
+          <% } %>
         </div>
       </div>
       <div class="details-tags">

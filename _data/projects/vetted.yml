@@ -3,7 +3,7 @@ desc: Agent skills tested with and without them on current models, plus skill-ve
 site: https://github.com/nadirali1350/vetted
 tags:
   - javascript
-  - nodejs
+  - node.js
   - cli
   - security
   - ai

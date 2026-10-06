@@ -1,0 +1,14 @@
+name: vetted
+desc: Agent skills tested with and without them on current models, plus skill-vet, a zero-dependency scanner that checks AI agent skills (SKILL.md files) for security and spec problems before you install them.
+site: https://github.com/nadirali1350/vetted
+tags:
+  - javascript
+  - node.js
+  - cli
+  - security
+  - ai
+  - agent-skills
+  - claude-code
+upforgrabs:
+  name: good first issue
+  link: https://github.com/nadirali1350/vetted/labels/good%20first%20issue

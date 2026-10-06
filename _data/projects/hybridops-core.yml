@@ -1,13 +1,20 @@
+---
 name: HybridOps Core
-desc: A Python runtime for validating, executing, and recording infrastructure operations across on-prem and cloud environments.
+desc: >-
+  A Python runtime for validating, executing, and recording infrastructure operations across on-prem and
+  cloud environments.
 site: https://github.com/hybridops-tech/hybridops-core
 tags:
-  - python
-  - devops
-  - infrastructure
-  - automation
-  - platform-engineering
-  - cloud
+- python
+- devops
+- infrastructure
+- automation
+- platform-engineering
+- cloud
 upforgrabs:
   name: good first issue
   link: https://github.com/hybridops-tech/hybridops-core/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-09-23T09:32:00Z'
+  fork-count: 321

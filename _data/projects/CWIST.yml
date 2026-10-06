@@ -1,6 +1,8 @@
 ---
 name: CWIST
-desc: A C17 web framework and application server with HTTP/1.1, HTTP/2, HTTP/3, WebSocket, WebTransport and post-quantum TLS.
+desc: >-
+  A C17 web framework and application server with HTTP/1.1, HTTP/2, HTTP/3, WebSocket, WebTransport and
+  post-quantum TLS.
 site: https://github.com/c4punks/CWIST
 tags:
 - c
@@ -13,6 +15,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/c4punks/CWIST/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 stats:
-  issue-count: 5
-  last-updated: '2026-09-25T11:09:18Z'
-  fork-count: 0
+  issue-count: 4
+  last-updated: '2026-09-25T10:44:11Z'
+  fork-count: 7

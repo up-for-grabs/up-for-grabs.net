@@ -1,6 +1,8 @@
 ---
 name: Launchloom
-desc: 'Turns one product brief and a real recording of your product into a film, a vertical cut, a landing page and reviewable social drafts — from the same plan, on your own machine.'
+desc: >-
+  Turns one product brief and a real recording of your product into a film, a vertical cut, a landing
+  page and reviewable social drafts — from the same plan, on your own machine.
 site: https://github.com/FORIFOR/Launchloom
 tags:
 - python
@@ -14,3 +16,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/FORIFOR/Launchloom/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2026-09-12T15:52:46Z'
+  fork-count: 0

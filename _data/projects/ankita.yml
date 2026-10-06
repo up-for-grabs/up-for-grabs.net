@@ -1,12 +1,20 @@
+---
 name: A.N.K.I.T.A
-desc: Free, open-source desktop AI assistant — terminal + Electron app, plugin/skill system, local-first, zero runtime dependencies.
+desc: >-
+  Free, open-source desktop AI assistant — terminal + Electron app, plugin/skill system, local-first,
+  zero runtime dependencies.
 site: https://github.com/akyourowngames/A.N.K.I.T.A
 tags:
-  - node.js
-  - electron
-  - ai
-  - reactjs
-  - javascript
+- node.js
+- electron
+- ai
+- reactjs
+- javascript
 upforgrabs:
   name: good first issue
-  link: https://github.com/akyourowngames/A.N.K.I.T.A/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+  link: >-
+    https://github.com/akyourowngames/A.N.K.I.T.A/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+stats:
+  issue-count: 2
+  last-updated: '2026-09-27T16:18:45Z'
+  fork-count: 0

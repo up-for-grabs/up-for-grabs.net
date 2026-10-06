@@ -1,13 +1,20 @@
+---
 name: Helicon
-desc: Open-source desktop and web app for the Muse Code CLI, built with Tauri, React and TypeScript. A demo mode runs the whole UI without a Muse subscription.
+desc: >-
+  Open-source desktop and web app for the Muse Code CLI, built with Tauri, React and TypeScript. A demo
+  mode runs the whole UI without a Muse subscription.
 site: https://github.com/HarjjotSinghh/helicon
 tags:
-  - typescript
-  - reactjs
-  - tauri
-  - rust
-  - desktop
-  - accessibility
+- typescript
+- reactjs
+- tauri
+- rust
+- desktop
+- accessibility
 upforgrabs:
   name: good first issue
   link: https://github.com/HarjjotSinghh/helicon/labels/good%20first%20issue
+stats:
+  issue-count: 12
+  last-updated: '2026-10-02T17:00:33Z'
+  fork-count: 11

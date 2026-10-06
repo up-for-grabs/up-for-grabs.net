@@ -1,0 +1,14 @@
+name: PRISM
+desc: Self-hosted OSINT platform. Point it at a domain, IP, email, phone or username and 26 modules run in parallel, with one dashboard, an entity graph and HTML and PDF reports.
+site: https://github.com/NovaCode37/Prism-platform
+tags:
+  - python
+  - fastapi
+  - nextjs
+  - typescript
+  - osint
+  - security
+  - docker
+upforgrabs:
+  name: good first issue
+  link: https://github.com/NovaCode37/Prism-platform/labels/good%20first%20issue

@@ -1,11 +1,11 @@
 ---
 name: KubeIntellect
 desc: >-
-  KubeIntellect answers Kubernetes questions in plain English: it investigates a live cluster with
-  real tools - kubectl, Prometheus (PromQL) and Loki (LogQL) - correlates the evidence, and explains
-  the root cause. Any change to the cluster pauses for explicit human approval, gated by role-based
-  access control. Python, FastAPI and LangGraph; peer-reviewed in the Journal of Grid Computing
-  (2026); AGPL-3.0. Good first issues are curated, and CONTRIBUTING.md walks one end to end.
+  KubeIntellect answers Kubernetes questions in plain English: it investigates a live cluster with real
+  tools - kubectl, Prometheus (PromQL) and Loki (LogQL) - correlates the evidence, and explains the root
+  cause. Any change to the cluster pauses for explicit human approval, gated by role-based access control.
+  Python, FastAPI and LangGraph; peer-reviewed in the Journal of Grid Computing (2026); AGPL-3.0. Good
+  first issues are curated, and CONTRIBUTING.md walks one end to end.
 site: https://github.com/MSKazemi/kubeintellect
 tags:
 - python
@@ -22,5 +22,5 @@ upforgrabs:
   link: https://github.com/MSKazemi/kubeintellect/labels/good%20first%20issue
 stats:
   issue-count: 4
-  last-updated: '2026-09-27T16:08:13Z'
-  fork-count: 16
+  last-updated: '2026-10-03T17:46:01Z'
+  fork-count: 18

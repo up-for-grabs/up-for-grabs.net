@@ -1,14 +1,20 @@
+---
 name: prompt-deck
 desc: Local, offline benchmarking studio for Local AI models — built with Tauri + React
 site: https://github.com/Cadman021/prompt-deck
 tags:
-  - reactjs
-  - typescript
-  - open-source
-  - tauri
-  - local
-  - ai
-  - ollama
+- reactjs
+- typescript
+- open-source
+- tauri
+- local
+- ai
+- ollama
 upforgrabs:
   name: good first issue
-  link: https://github.com/Cadman021/prompt-deck/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+  link: >-
+    https://github.com/Cadman021/prompt-deck/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
+stats:
+  issue-count: 9
+  last-updated: '2026-10-05T13:26:32Z'
+  fork-count: 4

@@ -1,12 +1,17 @@
+---
 name: LLPhant
 desc: The PHP library for Gen AI and Vector Databases
 site: https://github.com/LLPhant/LLPhant
 tags:
-  - php
-  - ai
-  - llm
-  - vector-database
-  - openai
+- php
+- ai
+- llm
+- vector-database
+- openai
 upforgrabs:
   name: help wanted
   link: https://github.com/LLPhant/LLPhant/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22
+stats:
+  issue-count: 4
+  last-updated: '2026-09-16T21:29:47Z'
+  fork-count: 172

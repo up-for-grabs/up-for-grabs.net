@@ -1,0 +1,17 @@
+name: RedoSan Authenticity
+desc: Open-source digital authenticity toolkit - image, audio and document watermarking, 21 fingerprint hashes, C2PA provenance, DIDs, certificates and forensic analysis.
+site: https://redo-san.github.io/RedoSan-Authenticity/
+tags:
+  - javascript
+  - watermarking
+  - steganography
+  - forensics
+  - security
+  - c2pa
+  - digital-signature
+  - image-processing
+  - audio-processing
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Redo-San/RedoSan-Authenticity/labels/good%20first%20issue

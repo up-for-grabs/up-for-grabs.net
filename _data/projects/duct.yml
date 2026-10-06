@@ -1,0 +1,18 @@
+name: Duct
+desc: AI marketing agent that reads Google Ads, GA4, Search Console and Stripe together and works out why a number moved. Python/FastAPI, Next.js, Tauri. Agent-written PRs welcome, as long as you can explain them.
+site: https://github.com/5hirish/duct
+tags:
+  - python
+  - javascript
+  - fastapi
+  - nextjs
+  - tauri
+  - rust
+  - ai
+  - llm
+  - ai-agents
+  - marketing
+  - documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/5hirish/duct/labels/good%20first%20issue

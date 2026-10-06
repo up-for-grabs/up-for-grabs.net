@@ -1,0 +1,12 @@
+name: DIP
+desc: Local-first project memory, task coordination and verification evidence for coding agents.
+site: https://github.com/vxu-labs/dip
+tags:
+  - javascript
+  - node.js
+  - developer-tools
+  - ai
+  - mcp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/vxu-labs/dip/labels/good%20first%20issue

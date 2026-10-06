@@ -1,0 +1,12 @@
+name: BloodLink
+desc: Emergency blood donor matching for Pakistan - find compatible donors nearby and alert them instantly. Android, iOS and Web from one Expo + TypeScript codebase. Frontend v1 complete; Firebase backend and matching engine open for contributors.
+site: https://github.com/hussnainahmedd/bloodlink
+tags:
+- typescript
+- react-native
+- expo
+- firebase
+- healthcare
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hussnainahmedd/bloodlink/labels/good%20first%20issue

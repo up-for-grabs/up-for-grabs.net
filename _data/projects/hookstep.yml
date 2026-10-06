@@ -1,0 +1,13 @@
+---
+name: HookStep
+desc: Hiring platform for tech talent built with Next.js. Small tasks in SEO, tests and docs.
+site: https://github.com/jatinder14/hookstep
+tags:
+- typescript
+- nextjs
+- seo
+- testing
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/jatinder14/hookstep/labels/good%20first%20issue

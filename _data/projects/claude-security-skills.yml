@@ -1,0 +1,12 @@
+name: claude-security-skills
+desc: Eight security tools for Claude Code that also run from the command line and in CI, standard library only. Secret scanning, Python SAST, prompt-injection testing, HTTP, JWT, Dockerfile, CORS and dependency checks.
+site: https://github.com/NovaCode37/claude-security-skills
+tags:
+  - python
+  - security
+  - appsec
+  - sast
+  - claude
+upforgrabs:
+  name: good first issue
+  link: https://github.com/NovaCode37/claude-security-skills/labels/good%20first%20issue

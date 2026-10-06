@@ -1,0 +1,15 @@
+---
+name: bilibili-spider
+desc: Bilibili uploader video-stats scraper and data-volume report, pure Python stdlib with zero runtime dependencies
+site: https://github.com/AyaseEli-Bing/bilibili-spider
+tags:
+- python
+- bilibili
+- scraper
+- spider
+- csv
+- excel
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AyaseEli-Bing/bilibili-spider/labels/good%20first%20issue

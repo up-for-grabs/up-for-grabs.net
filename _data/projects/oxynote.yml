@@ -1,0 +1,15 @@
+name: Oxynote
+desc: Self-hosted documentation workspace with live Prometheus charts inside pages, real-time collaboration and pull-request-style reviews for docs.
+site: https://github.com/oxynote/oxynote
+tags:
+  - go
+  - vue
+  - nuxt
+  - typescript
+  - yjs
+  - documentation
+  - self-hosted
+  - prometheus
+upforgrabs:
+  name: good first issue
+  link: https://github.com/oxynote/oxynote/labels/good%20first%20issue

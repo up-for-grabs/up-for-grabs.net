@@ -1,0 +1,15 @@
+name: Backend Roadmap
+desc: A free, open-source curriculum for backend engineering, system design, DevOps and GenAI. Plain-markdown modules to write, review and improve, plus a React + Cloudflare learning app.
+site: https://github.com/TapanKumarBarik/Backend-roadmap
+tags:
+  - documentation
+  - education
+  - markdown
+  - react
+  - javascript
+  - devops
+  - backend
+  - ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/TapanKumarBarik/Backend-roadmap/labels/good%20first%20issue

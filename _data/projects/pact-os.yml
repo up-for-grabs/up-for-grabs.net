@@ -4,7 +4,7 @@ desc: 'An open-source, local-first discipline and accountability operating syste
 site: https://pact-os.vercel.app
 tags:
 - typescript
-- react
+- react-js
 - nextjs
 - tailwindcss
 - supabase

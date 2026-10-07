@@ -1,0 +1,15 @@
+---
+name: xnumeter
+desc: Zero-dependency macOS system monitor in Swift, a terminal TUI plus a menu-bar dashboard reading XNU kernel stats directly
+site: https://github.com/AyaseEli-Bing/xnumeter
+tags:
+- swift
+- macos
+- monitoring
+- system-monitor
+- tui
+- menu-bar
+- xnu
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AyaseEli-Bing/xnumeter/labels/good%20first%20issue

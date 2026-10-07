@@ -1,0 +1,15 @@
+---
+name: Mac-Arch-Installer
+desc: Scripted Arch Linux ARM installer for Apple Silicon Macs running Parallels Desktop, since the official ISO only boots x86_64
+site: https://github.com/AyaseEli-Bing/Mac-Arch-Installer
+tags:
+- macos
+- arch-linux
+- apple-silicon
+- virtualization
+- parallels-desktop
+- shell-script
+- installer
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AyaseEli-Bing/Mac-Arch-Installer/labels/good%20first%20issue

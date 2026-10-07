@@ -1,0 +1,15 @@
+---
+name: heatpeek
+desc: Zero-dependency macOS menu bar readout of SoC temperature, GPU utilization, GPU power and fan speed, read straight from IOKit in Swift
+site: https://github.com/AyaseEli-Bing/heatpeek
+tags:
+- swift
+- macos
+- monitoring
+- menu-bar
+- temperature
+- gpu
+- iokit
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AyaseEli-Bing/heatpeek/labels/good%20first%20issue

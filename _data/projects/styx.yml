@@ -1,0 +1,17 @@
+---
+name: Styx
+desc: >-
+  A desktop app (Electron + React, TypeScript) that runs coding agents such as Claude Code, Codex and Gemini CLI on
+  many projects at once, each task on its own git branch, and makes them ask before they touch production.
+  Good first issues include adding a new agent or deploy target, each with a step-by-step guide.
+site: https://github.com/NicholasFlemmer/styx-app
+tags:
+- typescript
+- electron
+- react
+- ai
+- developer-tools
+- git
+upforgrabs:
+  name: good first issue
+  link: https://github.com/NicholasFlemmer/styx-app/labels/good%20first%20issue

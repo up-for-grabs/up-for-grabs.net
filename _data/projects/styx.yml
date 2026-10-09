@@ -8,7 +8,7 @@ site: https://github.com/NicholasFlemmer/styx-app
 tags:
 - typescript
 - electron
-- react
+- reactjs
 - ai
 - developer-tools
 - git

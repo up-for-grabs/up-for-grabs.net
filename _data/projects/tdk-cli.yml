@@ -1,0 +1,14 @@
+name: TDK CLI
+desc: Starts your services on your laptop. Write one service.json per service, then run tdk up to get a local Docker and Tilt stack with live reload.
+site: https://github.com/tdk-landscape/tdk-cli-core
+tags:
+- cli
+- typescript
+- docker
+- tilt
+- developer-tools
+- local-development
+- hacktoberfest
+upforgrabs:
+  name: good first issue
+  link: https://github.com/tdk-landscape/tdk-cli-core/labels/good%20first%20issue

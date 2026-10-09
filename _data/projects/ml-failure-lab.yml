@@ -1,0 +1,11 @@
+name: ML Failure Lab
+desc: Small Python experiments that explain misleading ML results, test corrections, and welcome contributions of new cases.
+site: https://github.com/sricharanreddycheruku/ml-failure-lab
+tags:
+  - python
+  - machine-learning
+  - education
+  - testing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sricharanreddycheruku/ml-failure-lab/labels/good%20first%20issue

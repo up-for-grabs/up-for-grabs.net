@@ -1,0 +1,16 @@
+---
+name: Tablamigo
+desc: Free app for solo travellers to meet people nearby (React Native, Fastify, PostGIS) with a static site of city guides. Small tasks in tests, i18n, accessibility, docs and sourced city content.
+site: https://github.com/jatinder14/tablamigo
+tags:
+- typescript
+- react-native
+- expo
+- fastify
+- postgis
+- travel
+- i18n
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/jatinder14/tablamigo/labels/good%20first%20issue

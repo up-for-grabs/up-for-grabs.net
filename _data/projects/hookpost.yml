@@ -1,0 +1,16 @@
+---
+name: Hookpost
+desc: Open-source social media scheduler with an MCP server for AI agents (NestJS, Next.js). Small tasks in tests, i18n, accessibility, docs, guides and integrations.
+site: https://github.com/jatinder14/hookpost
+tags:
+- typescript
+- nestjs
+- nextjs
+- social-media
+- mcp
+- i18n
+- accessibility
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/jatinder14/hookpost/labels/good%20first%20issue

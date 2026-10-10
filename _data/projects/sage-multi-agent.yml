@@ -1,0 +1,8 @@
+name: Sage Multi-Agent Framework
+desc: A multi-agent system framework for complex tasks.
+site: https://github.com/ZHangZHengEric/Sage
+tags:
+  - python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ZHangZHengEric/Sage/labels/good%20first%20issue

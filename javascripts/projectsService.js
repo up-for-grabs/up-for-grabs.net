@@ -237,7 +237,7 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
       labelsMap[project.upforgrabs.name.toLowerCase()] = project.upforgrabs;
     });
 
-    this.get = function (tags, names, labels, date) {
+    this.get = function (tags, names, labels, date, sort) {
       let filteredProjects = projects;
       if (names && names.length) {
         filteredProjects = applyNamesFilter(
@@ -263,6 +263,16 @@ define(['underscore', 'tag-builder', 'project-ordering'], (
           tags
         );
       }
+
+      if (sort === 'last-updated') {
+        filteredProjects = _.sortBy(filteredProjects, (project) => {
+          if (project.stats && project.stats['last-updated']) {
+            return -new Date(project.stats['last-updated']).getTime();
+          }
+          return 0;
+        });
+      }
+
       return filteredProjects;
     };
 

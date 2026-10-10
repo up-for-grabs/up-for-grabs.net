@@ -177,6 +177,21 @@ describe('ProjectsService', () => {
         const projects = projectsService.get(['c#'], ['1'], ['1']);
         expect(projects.length).toBe(1);
       });
+
+      it('Should sort by last-updated when sort parameter is provided', () => {
+        const projects = projectsService.get(
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          'last-updated'
+        );
+        expect(projects.length).toBe(2);
+        // LibGit2Sharp has no stats in sampleProjects, so it should be second
+        // Glimpse has last-updated: '2015-08-20T21:26:00Z'
+        expect(projects[0].name).toBe('Glimpse');
+        expect(projects[1].name).toBe('LibGit2Sharp');
+      });
     });
   });
 });

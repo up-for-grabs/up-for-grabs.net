@@ -1,0 +1,14 @@
+name: Sirgal
+desc: Open-source, self-hosted scanner that finds sensitive files overshared in Google Drive, using rules and a local PII model. Read-only, and nothing leaves your machine.
+site: https://github.com/bilalkumrani/sirgal
+tags:
+  - python
+  - security
+  - privacy
+  - dspm
+  - pii
+  - google-drive
+  - cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bilalkumrani/sirgal/labels/good%20first%20issue

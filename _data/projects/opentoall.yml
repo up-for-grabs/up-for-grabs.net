@@ -1,0 +1,10 @@
+name: OpenToAll
+desc: Find an open source issue you can actually clone and finish, with language and repo-weight filters.
+site: https://opentoall.onrender.com
+tags:
+  - python
+  - django
+  - beginners
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Ymax27/opentoall/labels/good%20first%20issue

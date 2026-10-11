@@ -1,0 +1,15 @@
+---
+name: Portable Hermes Agent
+desc: A portable Windows desktop AI agent (GUI build of Hermes Agent) with local models via LM Studio, TTS, music and ComfyUI tools. No install, Docker or admin rights.
+site: https://github.com/aivrar/portable-hermes-agent
+tags:
+- python
+- ai
+- llm
+- tkinter
+- windows
+- i18n
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/aivrar/portable-hermes-agent/labels/good%20first%20issue

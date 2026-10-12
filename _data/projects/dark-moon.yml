@@ -1,8 +1,9 @@
 ---
 name: Dark Moon
 desc: >-
-  Open source (GPL-3.0) autonomous AI penetration testing platform: an LLM orchestrates specialist agents and
-  offensive tools, runs on a local model, and proves each finding with a real exploit. CLI with SARIF and JSON output.
+  Open source (GPL-3.0) autonomous AI penetration testing platform: an LLM orchestrates specialist agents
+  and offensive tools, runs on a local model, and proves each finding with a real exploit. CLI with SARIF
+  and JSON output.
 site: https://github.com/ASCIT31/Dark-Moon
 tags:
 - security
@@ -15,3 +16,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/ASCIT31/Dark-Moon/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-10-05T09:44:15Z'
+  fork-count: 174

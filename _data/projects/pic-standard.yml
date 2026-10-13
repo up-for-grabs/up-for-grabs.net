@@ -1,0 +1,14 @@
+---
+name: PIC Standard
+desc: Open, local-first protocol that blocks high-impact AI agent actions unless intent, provenance and evidence verify. Python reference implementation and a TypeScript verifier share a conformance corpus. First tasks are small, single-file documentation walkthroughs of real examples.
+site: https://github.com/pic-standard/pic-standard
+tags:
+- python
+- typescript
+- ai-agents
+- security
+- mcp
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/pic-standard/pic-standard/labels/good%20first%20issue

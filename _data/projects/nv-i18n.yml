@@ -1,0 +1,13 @@
+name: nv-i18n
+desc: Type-safe Java enums for ISO country, language, script and currency codes (ISO 3166, 639, 15924 and 4217).
+site: https://github.com/foundationsedge/nv-i18n
+tags:
+  - java
+  - i18n
+  - iso-3166
+  - iso-639
+  - iso-4217
+  - iso-15924
+upforgrabs:
+  name: good first issue
+  link: https://github.com/foundationsedge/nv-i18n/labels/good%20first%20issue

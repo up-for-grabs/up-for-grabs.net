@@ -1,0 +1,13 @@
+---
+name: Pragma Chess
+desc: An open source chess database for studying, training and playing, with an engine that explains its evaluation on the board. C++ and Qt 6, Windows, macOS and Linux; translations, file formats and small UI tasks welcome.
+site: https://github.com/francescobianco/pragma-chess
+tags:
+- cpp
+- qt
+- chess
+- desktop
+- translation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/francescobianco/pragma-chess/labels/good%20first%20issue

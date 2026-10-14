@@ -1,6 +1,8 @@
 ---
 name: GreenCalculus Emission Factor Benchmark
-desc: An open benchmark measuring how accurately LLMs recall greenhouse-gas emission factors, with every question, raw model answer and scorer published.
+desc: >-
+  An open benchmark measuring how accurately LLMs recall greenhouse-gas emission factors, with every question,
+  raw model answer and scorer published.
 site: https://github.com/greencalculus/greencalculus-benchmark
 tags:
 - python
@@ -15,3 +17,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/greencalculus/greencalculus-benchmark/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-09-19T16:01:27Z'
+  fork-count: 2

@@ -1,6 +1,8 @@
 ---
 name: HeaderProof
-desc: Evidence-first HTTP security scanner focused on conservative, reproducible findings and low false-positive output.
+desc: >-
+  Evidence-first HTTP security scanner focused on conservative, reproducible findings and low false-positive
+  output.
 site: https://github.com/tayfuryldz/headerproof
 tags:
 - python
@@ -12,3 +14,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/tayfuryldz/headerproof/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-09-29T18:51:45Z'
+  fork-count: 4

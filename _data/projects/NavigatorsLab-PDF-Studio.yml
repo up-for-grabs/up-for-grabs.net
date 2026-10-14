@@ -1,0 +1,14 @@
+name: NavigatorsLab PDF Studio
+desc: 'Free, MIT-licensed PDF editor that runs 100% in the browser — real content-stream text editing, forms, burned-in redaction, on-device OCR, revision diffs. No uploads, no accounts, no watermarks.'
+site: https://github.com/Kayforkind/NavigatorsLab-PDF-Studio
+tags:
+- pdf
+- typescript
+- reactjs
+- privacy
+- wasm
+- ocr
+- web
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Kayforkind/NavigatorsLab-PDF-Studio/labels/good%20first%20issue

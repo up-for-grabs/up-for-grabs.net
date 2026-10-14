@@ -1,0 +1,15 @@
+name: Enterprise AI Architecture
+desc: Production-ready Enterprise AI Architecture in Modern C++ with modular design, REST API, Python AI integration, CMake build system, CI/CD, and scalable microservice-ready structure.
+site: https://github.com/bundlab/enterprise-ai-architecture
+tags:
+  - c-plus-plus
+  - python
+  - ai
+  - rest-api
+  - cmake
+  - architecture
+  - microservices
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bundlab/enterprise-ai-architecture/issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue"

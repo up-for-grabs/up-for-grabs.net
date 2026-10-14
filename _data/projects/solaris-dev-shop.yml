@@ -1,0 +1,10 @@
+name: Solaris Dev Shop
+desc: Free MIT skill library with a deterministic intake router.
+site: https://github.com/Shaisolaris/solaris-dev-shop
+tags:
+  - skill
+  - agent
+  - router
+upforgrabs:
+  name: help wanted
+  link: https://github.com/Shaisolaris/solaris-dev-shop/labels/help%20wanted

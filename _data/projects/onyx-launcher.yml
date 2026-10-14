@@ -1,5 +1,8 @@
+---
 name: Onyx Launcher
-desc: Open-source desktop Minecraft launcher for Windows and Linux with isolated instances, Modrinth, automatic Java, diagnostics, and safe backups.
+desc: >-
+  Open-source desktop Minecraft launcher for Windows and Linux with isolated instances, Modrinth, automatic
+  Java, diagnostics, and safe backups.
 site: https://lonestill.github.io
 tags:
 - electron
@@ -10,4 +13,8 @@ tags:
 - windows
 upforgrabs:
   name: up for grabs
-  link: https://github.com/lonestill/onyx-launcher/labels/up%20for%20grabs
+  link: https://github.com/lonestill/scope-launcher/labels/up%20for%20grabs
+stats:
+  issue-count: 4
+  last-updated: '2026-10-07T19:50:07Z'
+  fork-count: 7

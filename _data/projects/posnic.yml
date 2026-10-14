@@ -1,0 +1,23 @@
+---
+name: Posnic
+desc: >-
+  Offline-first open source POS and billing software for retail shops and restaurants, built with Electron,
+  JavaScript, Node.js, and MongoDB.
+site: https://github.com/Posnic/POS
+tags:
+- pos
+- billing-software
+- offline-pos
+- retail
+- restaurant
+- electron
+- javascript
+- node.js
+- mongodb
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Posnic/POS/labels/good%20first%20issue
+stats:
+  issue-count: 177
+  last-updated: '2026-10-06T15:11:29Z'
+  fork-count: 16

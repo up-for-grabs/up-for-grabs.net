@@ -1,14 +1,20 @@
+---
 name: AI Powered DevTools
-desc: Next-generation code quality, performance, and security analysis engine for TypeScript and JavaScript with actionable remediation advice.
+desc: >-
+  Next-generation code quality, performance, and security analysis engine for TypeScript and JavaScript
+  with actionable remediation advice.
 site: https://github.com/bundlab/devtools
 tags:
-  - typescript
-  - devtools
-  - static-analysis
-  - security
-  - performance
-  - code-quality
-  - open-source
+- typescript
+- devtools
+- static-analysis
+- security
+- performance
+- code-quality
+- open-source
 upforgrabs:
   name: good first issue
   link: https://github.com/bundlab/devtools/issues?q=is%3Aopen+is%3Aissue+label%3A"good+first+issue"
+stats:
+  issue-count: 0
+  fork-count: 0

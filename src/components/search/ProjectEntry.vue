@@ -7,6 +7,10 @@ const props = defineProps<{
   project: WebsiteProject;
 }>();
 
+const emit = defineEmits<{
+  (e: 'addTag', tag: string): void;
+}>();
+
 const { project } = props;
 const stats = project.stats;
 
@@ -52,10 +56,21 @@ const linkTitle = `View open issues for ${project.name}`;
 
 .project .tags li {
   margin: 0.3em 0.3em;
+}
+
+.tag-link {
   border: 1px solid black;
   border-radius: 5px;
   background: #bfd1d9;
   padding: 0.3em;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.tag-link:hover {
+  background: #4c6c73;
+  color: white;
+  border-color: #4c6c73;
 }
 
 .label {
@@ -99,7 +114,11 @@ const linkTitle = `View open issues for ${project.name}`;
     <div class="description" v-if="project.desc">{{ project.desc }}</div>
 
     <ul class="tags" v-if="project.tags" aria-label="project tags">
-      <li v-for="tag in project.tags" v-bind:key="tag">{{ tag }}</li>
+      <li v-for="tag in project.tags" :key="tag">
+        <button type="button" class="tag-link" @click="emit('addTag', tag)">
+          {{ tag }}
+        </button>
+      </li>
     </ul>
   </div>
 </template>

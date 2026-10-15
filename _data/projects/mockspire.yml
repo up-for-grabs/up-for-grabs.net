@@ -1,0 +1,14 @@
+name: mockspire
+desc: An AI-powered mock interview platform built with the MERN stack.
+site: https://github.com/anujsharma8d/mockspire
+tags:
+  - react
+  - javascript
+  - nodejs
+  - expressjs
+  - mongodb
+  - ai
+  - tailwindcss
+upforgrabs:
+  name: good first issue
+  link: https://github.com/anujsharma8d/mockspire/labels/good%20first%20issue

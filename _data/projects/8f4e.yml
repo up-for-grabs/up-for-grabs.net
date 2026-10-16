@@ -1,0 +1,13 @@
+---
+name: 8f4e
+desc: Experimental stack-oriented language and semi-visual live editor for music and generative art.
+site: https://github.com/andorthehood/8f4e
+tags:
+  - typescript
+  - webassembly
+  - compiler
+  - live-coding
+  - music
+upforgrabs:
+  name: good first issue
+  link: https://github.com/andorthehood/8f4e/labels/good%20first%20issue

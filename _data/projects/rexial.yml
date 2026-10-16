@@ -11,3 +11,6 @@ tags:
   - prisma
   - redis
   - docker
+upforgrabs:
+  name: good first issue
+  link: https://github.com/TheCodeHeist-Coder/Rexial/labels/good%20first%20issue

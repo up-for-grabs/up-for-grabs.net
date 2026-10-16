@@ -3,8 +3,8 @@ desc: Real-time quiz hosting platform
 site: https://github.com/TheCodeHeist-Coder/Rexial
 tags:
   - typescript
-  - react
-  - node
+  - reactjs
+  - node.js
   - express
   - websocket
   - postgresql

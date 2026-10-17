@@ -11,7 +11,7 @@ tags:
 - job-hunting-tool
 upforgrabs:
   name: help wanted
-  link: https://github.com/jobpare/cvgen/labels/help%20wanted
+  link: https://github.com/CymbolTech/cvgen/labels/help%20wanted
 stats:
   issue-count: 0
-  fork-count: 38
+  fork-count: 35

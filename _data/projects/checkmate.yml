@@ -28,6 +28,5 @@ upforgrabs:
   name: help wanted
   link: https://github.com/bluewave-labs/checkmate
 stats:
-  issue-count: 1
-  last-updated: '2025-10-20T03:11:17Z'
-  fork-count: 692
+  issue-count: 0
+  fork-count: 1228

@@ -6,7 +6,7 @@ desc: >-
 site: https://github.com/dheerajjha/reviewer
 tags:
 - javascript
-- nodejs
+- node.js
 - git
 - code-review
 - ai

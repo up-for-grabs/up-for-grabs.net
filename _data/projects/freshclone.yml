@@ -4,7 +4,7 @@ desc: Tests marked README setup commands in Docker for Node.js projects.
 site: https://github.com/ergishasani/freshclone
 tags:
   - typescript
-  - nodejs
+  - node.js
   - cli
   - docker
   - testing

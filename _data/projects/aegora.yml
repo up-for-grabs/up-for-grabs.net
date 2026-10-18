@@ -1,0 +1,10 @@
+name: Aegora
+desc: Go Layer 7 reliability gateway: adaptive rate limiting, circuit breaking, multi-tier caching, and AIMD load shedding for upstream services
+site: https://github.com/syncronix-labs/aegora
+tags:
+  - go
+  - api-gateway
+  - distributed-systems
+upforgrabs:
+  name: good first issue
+  link: https://github.com/syncronix-labs/aegora/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

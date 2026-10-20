@@ -1,0 +1,20 @@
+---
+name: Market Data Sanity Checker
+desc: >-
+  CLI, TypeScript SDK and GitHub Action that catch bad market data (stale prices, unadjusted splits, gaps,
+  outliers). Entry issues are small CLI features, docs and real-case test fixtures.
+site: https://github.com/pacocartones/market-data-sanity-checker
+tags:
+- typescript
+- cli
+- finance
+- data-quality
+- github-actions
+- testing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/pacocartones/market-data-sanity-checker/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-10-18T03:31:14Z'
+  fork-count: 7

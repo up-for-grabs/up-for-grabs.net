@@ -1,0 +1,20 @@
+---
+name: Lemma
+desc: >-
+  A free, open-source macOS PDF reader for mathematics textbooks and papers, built with SwiftUI, AppKit
+  and PDFKit.
+site: https://github.com/fus3r/lemma
+tags:
+- swift
+- swiftui
+- macos
+- appkit
+- pdfkit
+- mathematics
+upforgrabs:
+  name: good first issue
+  link: https://github.com/fus3r/lemma/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2026-10-14T12:12:55Z'
+  fork-count: 1

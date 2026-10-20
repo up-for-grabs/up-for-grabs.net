@@ -1,0 +1,15 @@
+---
+name: Synaplan
+desc: Open-source, self-hosted AI platform for chat, document search, and an embeddable widget.
+site: https://github.com/metadist/synaplan
+tags:
+  - php
+  - symfony
+  - vue
+  - docker
+  - ai
+  - rag
+  - self-hosted
+upforgrabs:
+  name: good first issue
+  link: https://github.com/metadist/synaplan/labels/good%20first%20issue

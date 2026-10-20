@@ -1,0 +1,18 @@
+---
+name: Telar
+desc: >-
+  An open-source Kotlin Multiplatform library for AI agents and workflows as small typed graphs:
+  loops, parallel steps, streaming, saved progress and human approval, on Android, iOS, the JVM
+  and in the browser.
+site: https://github.com/deeptelar/telar
+tags:
+- kotlin
+- kotlin-multiplatform
+- android
+- ios
+- ai
+- llm
+- agents
+upforgrabs:
+  name: good first issue
+  link: https://github.com/deeptelar/telar/labels/good%20first%20issue

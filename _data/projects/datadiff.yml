@@ -1,0 +1,13 @@
+name: datadiff
+desc: Semantic diff for JSON, YAML, CSV, TOML and XML that plugs into git diff and kubectl diff
+site: https://github.com/dimanovikov/datadiff
+tags:
+  - rust
+  - cli
+  - diff
+  - json
+  - yaml
+  - kubernetes
+upforgrabs:
+  name: good first issue
+  link: https://github.com/dimanovikov/datadiff/labels/good%20first%20issue

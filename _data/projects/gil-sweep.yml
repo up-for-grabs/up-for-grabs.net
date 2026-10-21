@@ -1,0 +1,14 @@
+---
+name: Gil Sweep
+desc: A Windows desktop app that tells FINAL FANTASY XIV gatherers what to farm for gil right now, from live market data.
+site: https://github.com/hazeliscoding/gil-sweep
+tags:
+- c#
+- ".net"
+- avalonia
+- windows
+- desktop
+- ffxiv
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hazeliscoding/gil-sweep/labels/good%20first%20issue

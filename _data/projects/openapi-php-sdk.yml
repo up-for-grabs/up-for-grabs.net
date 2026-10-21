@@ -1,15 +1,22 @@
+---
 name: Openapi PHP SDK
-desc: Minimal, framework-agnostic PHP client for Openapi services (OAuth tokens and HTTP primitives). Help with framework integrations (Laravel, Symfony, WordPress), tooling and docs.
+desc: >-
+  Minimal, framework-agnostic PHP client for Openapi services (OAuth tokens and HTTP primitives). Help
+  with framework integrations (Laravel, Symfony, WordPress), tooling and docs.
 site: https://github.com/openapi/openapi-php-sdk
 tags:
-  - php
-  - sdk
-  - api-client
-  - rest-api
-  - laravel
-  - symfony
-  - wordpress
-  - hacktoberfest
+- php
+- sdk
+- api-client
+- rest-api
+- laravel
+- symfony
+- wordpress
+- hacktoberfest
 upforgrabs:
   name: help wanted
   link: https://github.com/openapi/openapi-php-sdk/labels/help%20wanted
+stats:
+  issue-count: 11
+  last-updated: '2026-10-15T13:45:46Z'
+  fork-count: 3

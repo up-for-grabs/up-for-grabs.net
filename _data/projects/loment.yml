@@ -12,8 +12,8 @@ tags:
 - rust
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/Loment-Lang/loment/labels/up-for-grabs
+  link: https://github.com/Loment-Lang/Loment/labels/up-for-grabs
 stats:
-  issue-count: 9
-  last-updated: '2026-10-18T14:00:18Z'
+  issue-count: 2
+  last-updated: '2026-10-20T18:27:13Z'
   fork-count: 6

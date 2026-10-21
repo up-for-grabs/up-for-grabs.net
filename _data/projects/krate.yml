@@ -1,13 +1,20 @@
+---
 name: Krate
-desc: Ship a desktop app as one .krate file that runs natively on macOS, Windows and Linux. Open-source Rust runtime on Wasmtime with on-device sandboxing and explicit permissions.
+desc: >-
+  Ship a desktop app as one .krate file that runs natively on macOS, Windows and Linux. Open-source Rust
+  runtime on Wasmtime with on-device sandboxing and explicit permissions.
 site: https://github.com/incyashraj/krate
 tags:
-  - rust
-  - wasm
-  - wasmtime
-  - desktop
-  - sandbox
-  - cross-platform
+- rust
+- wasm
+- wasmtime
+- desktop
+- sandbox
+- cross-platform
 upforgrabs:
   name: good first issue
   link: https://github.com/incyashraj/krate/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2026-10-18T13:03:41Z'
+  fork-count: 5

@@ -1,0 +1,17 @@
+---
+name: FreshClone
+desc: Tests marked README setup commands in Docker for Node.js projects.
+site: https://github.com/ergishasani/freshclone
+tags:
+- typescript
+- node.js
+- cli
+- docker
+- testing
+upforgrabs:
+  name: help wanted
+  link: https://github.com/ergishasani/freshclone/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2026-10-18T11:45:59Z'
+  fork-count: 0

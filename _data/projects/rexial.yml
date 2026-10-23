@@ -1,0 +1,21 @@
+---
+name: Rexial
+desc: Real-time quiz hosting platform
+site: https://github.com/TheCodeHeist-Coder/Rexial
+tags:
+- typescript
+- reactjs
+- node.js
+- express
+- websocket
+- postgresql
+- prisma
+- redis
+- docker
+upforgrabs:
+  name: good first issue
+  link: https://github.com/TheCodeHeist-Coder/Rexial/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2026-10-21T12:29:12Z'
+  fork-count: 9

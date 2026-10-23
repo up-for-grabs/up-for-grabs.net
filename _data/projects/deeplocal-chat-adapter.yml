@@ -1,0 +1,20 @@
+---
+name: deeplocal-chat-adapter
+desc: >-
+  A VS Code extension that connects local OpenAI-compatible DeepLocal models to the VS Code chat model
+  picker and sidebar chat.
+site: https://github.com/petertzy/deeplocal-chat-adapter
+tags:
+- typescript
+- vscode
+- ai
+- local-ai
+- chat
+- extension
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/petertzy/deeplocal-chat-adapter/labels/up-for-grabs
+stats:
+  issue-count: 20
+  last-updated: '2026-10-21T13:02:18Z'
+  fork-count: 2

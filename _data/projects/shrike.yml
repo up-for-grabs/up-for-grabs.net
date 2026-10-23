@@ -1,0 +1,23 @@
+---
+name: Shrike
+desc: >-
+  Open source debugger for web apps built with AI. Click the thing that breaks, Shrike records the whole
+  trip from the button to the database, and your own coding agent fixes the real line through MCP tools.
+site: https://github.com/SumantxD/shrike
+tags:
+- typescript
+- javascript
+- python
+- electron
+- node.js
+- debugging
+- developer-tools
+- mcp
+- ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/SumantxD/shrike/labels/good%20first%20issue
+stats:
+  issue-count: 22
+  last-updated: '2026-10-18T08:29:50Z'
+  fork-count: 17

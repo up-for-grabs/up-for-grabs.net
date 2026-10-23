@@ -1,0 +1,21 @@
+---
+name: fastapi-security-headers
+desc: >-
+  The missing security headers middleware for FastAPI and Starlette. Pure-ASGI, zero dependencies, OWASP
+  secure-by-default.
+site: https://github.com/aletgdev/fastapi-security-headers
+tags:
+- security
+- python
+- fastapi
+- starlette
+- asgi
+- middleware
+- owasp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/aletgdev/fastapi-security-headers/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2026-10-14T08:57:10Z'
+  fork-count: 2

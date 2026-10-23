@@ -1,0 +1,17 @@
+---
+name: Gooo Go Ports
+desc: >-
+  Go library functions implemented in experimental Gooo, with runnable examples and independent Go verification.
+site: https://github.com/kimjooyoon/gooo-go-ports
+tags:
+- go
+- programming-language
+- graphics
+- testing
+upforgrabs:
+  name: help wanted
+  link: https://github.com/kimjooyoon/gooo-go-ports/labels/help%20wanted
+stats:
+  issue-count: 1
+  last-updated: '2026-10-18T01:50:39Z'
+  fork-count: 1

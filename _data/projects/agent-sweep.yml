@@ -1,0 +1,17 @@
+---
+name: Agent Sweep
+desc: Find and redact secrets that leak into AI coding agent histories, such as Claude Code sessions.
+site: https://github.com/Ishannaik/agent-sweep
+tags:
+- security
+- secrets-detection
+- cli
+- python
+- llm
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Ishannaik/agent-sweep/labels/good%20first%20issue
+stats:
+  issue-count: 8
+  last-updated: '2026-10-18T17:52:11Z'
+  fork-count: 51

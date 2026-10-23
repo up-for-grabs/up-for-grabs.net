@@ -1,0 +1,16 @@
+---
+name: AgentsKit
+desc: Provider-independent JavaScript toolkit for building, shipping, and governing AI agents
+site: https://www.agentskit.io/
+tags:
+- javascript
+- typescript
+- ai
+- ai-agents
+- mcp
+- developer-tools
+- open-source
+- chat
+upforgrabs:
+  name: good first issue
+  link: https://github.com/search?q=org%3AAgentsKit-io+is%3Aissue+is%3Aopen+archived%3Afalse+label%3A%22good+first+issue%22&type=issues

@@ -1,0 +1,21 @@
+---
+name: Watcher
+desc: >-
+  A self-hosted daemon that reads your application logs, notices crashes on its own, and explains them
+  with a small local model.
+site: https://github.com/shaheeranser/watcher
+tags:
+- go
+- observability
+- self-hosted
+- logs
+- llm
+- ollama
+- sre
+upforgrabs:
+  name: good first issue
+  link: https://github.com/shaheeranser/watcher/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-10-16T14:11:20Z'
+  fork-count: 1

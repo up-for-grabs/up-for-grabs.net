@@ -1,0 +1,11 @@
+---
+name: costdecade
+desc: Cost-per-decade ranking for anything with a price and a lifespan
+site: https://durablepicks.com
+tags:
+  - python
+  - budgeting
+  - durability
+upforgrabs:
+  name: good first issue
+  link: https://github.com/scrapertweeter3-prog/costdecade/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

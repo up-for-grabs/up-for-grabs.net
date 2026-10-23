@@ -1,0 +1,11 @@
+---
+name: saunacost
+desc: Dollars-per-session math for a home sauna or cold plunge
+site: https://hackedself.com
+tags:
+  - r
+  - sauna
+  - budgeting
+upforgrabs:
+  name: good first issue
+  link: https://github.com/scrapertweeter3-prog/saunacost-r/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

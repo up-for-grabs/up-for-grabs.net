@@ -1,0 +1,11 @@
+---
+name: flatratemath MCP server
+desc: A Model Context Protocol server that prices fixed bids, hires, and flat subscriptions as one number, cost per delivered request.
+site: https://www.poketdev.com
+tags:
+  - python
+  - mcp
+  - json-rpc
+upforgrabs:
+  name: good first issue
+  link: https://github.com/scrapertweeter3-prog/mcp-flatratemath/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

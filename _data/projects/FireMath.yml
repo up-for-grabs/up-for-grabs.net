@@ -1,0 +1,11 @@
+---
+name: firemath R package
+desc: Withdrawal-rate survival and savings-rate arithmetic for early retirement
+site: https://firenomics.com
+tags:
+  - r
+  - fire
+  - retirement
+upforgrabs:
+  name: good first issue
+  link: https://github.com/scrapertweeter3-prog/firemath-r/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

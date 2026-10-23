@@ -1,0 +1,11 @@
+---
+name: evaldrift R package
+desc: Paraphrase-drift scoring for LLM eval sets: three similarities, one blended drift score
+site: https://pastagi.com
+tags:
+  - r
+  - eval
+  - paraphrase
+upforgrabs:
+  name: good first issue
+  link: https://github.com/scrapertweeter3-prog/evaldrift-r/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

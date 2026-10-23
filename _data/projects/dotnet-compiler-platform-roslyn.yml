@@ -15,6 +15,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/dotnet/roslyn/labels/help%20wanted
 stats:
-  issue-count: 629
+  issue-count: 628
   last-updated: '2026-10-19T09:34:01Z'
-  fork-count: 4353
+  fork-count: 4357

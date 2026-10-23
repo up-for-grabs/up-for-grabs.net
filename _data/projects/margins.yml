@@ -1,8 +1,8 @@
+---
 name: margins
 desc: >-
-  Open any folder of markdown in your browser, from the terminal. A file tree,
-  wikilinks and backlinks, editing with live preview, and search, with no vault
-  and no config.
+  Open any folder of markdown in your browser, from the terminal. A file tree, wikilinks and backlinks,
+  editing with live preview, and search, with no vault and no config.
 site: https://github.com/dheerajjha/margins
 tags:
 - javascript
@@ -13,3 +13,7 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/dheerajjha/margins/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2026-10-18T16:56:50Z'
+  fork-count: 2

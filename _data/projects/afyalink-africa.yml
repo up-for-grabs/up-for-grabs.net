@@ -1,0 +1,12 @@
+name: AfyaLink Africa
+desc: Open-source Laravel platform for community health in Africa, starting with a searchable health facility directory in English and Kiswahili.
+site: https://github.com/AfyaLinkAfrica/afyalink-web
+tags:
+  - laravel
+  - php
+  - mysql
+  - healthcare
+  - accessibility
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AfyaLinkAfrica/afyalink-web/labels/good%20first%20issue

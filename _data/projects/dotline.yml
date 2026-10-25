@@ -1,0 +1,12 @@
+---
+name: dotline
+desc: A small Python HTTP mailbox with send, claim, reply, and readback commands.
+site: https://github.com/Grit-77/dotline
+tags:
+  - python
+  - cli
+  - http
+  - developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Grit-77/dotline/labels/good%20first%20issue

@@ -1,0 +1,13 @@
+---
+name: Express Email OTP Login
+desc: Passwordless login for Express with email one-time codes and magic links, sent via the Mailtrap Email API
+site: https://github.com/manishgupta412/express-email-otp-login
+tags:
+- typescript
+- express
+- authentication
+- sqlite
+- email
+upforgrabs:
+  name: good first issue
+  link: https://github.com/manishgupta412/express-email-otp-login/labels/good%20first%20issue

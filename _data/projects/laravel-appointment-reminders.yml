@@ -1,0 +1,12 @@
+---
+name: Laravel Appointment Reminders
+desc: Laravel appointment booking with confirmation emails, calendar invites and automatic reminder emails
+site: https://github.com/jy7lsna/laravel-appointment-reminders
+tags:
+- php
+- laravel
+- email
+- scheduling
+upforgrabs:
+  name: good first issue
+  link: https://github.com/jy7lsna/laravel-appointment-reminders/labels/good%20first%20issue

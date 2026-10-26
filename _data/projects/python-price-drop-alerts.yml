@@ -1,0 +1,12 @@
+---
+name: Python Price Drop Alerts
+desc: Price-drop and back-in-stock email alerts in Python, run on a GitHub Actions schedule, with a local price-history dashboard
+site: https://github.com/manishgupta412/python-price-drop-alerts
+tags:
+- python
+- github-actions
+- email
+- price-tracker
+upforgrabs:
+  name: good first issue
+  link: https://github.com/manishgupta412/python-price-drop-alerts/labels/good%20first%20issue

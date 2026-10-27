@@ -13,8 +13,8 @@ tags:
 - fp
 upforgrabs:
   name: good first issue
-  link: https://github.com/clio-lang/clio/labels/good%20first%20issue
+  link: https://github.com/kalandra-lang/kalandra/labels/good%20first%20issue
 stats:
   issue-count: 3
   last-updated: '2024-09-18T03:15:29Z'
-  fork-count: 29
+  fork-count: 28

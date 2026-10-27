@@ -1,0 +1,22 @@
+---
+name: gknowledge
+desc: >-
+  A native GNOME app that turns your documents into a linked, AI-maintained wiki (Karpathy's LLM Wiki
+  pattern), offline-first with optional models and an MCP server. Python, GTK 4 and Libadwaita; docs,
+  parsers and small UI tasks welcome.
+site: https://github.com/openapi/gknowledge
+tags:
+- python
+- gtk
+- gnome
+- linux
+- desktop
+- ai
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/openapi/gknowledge/labels/good%20first%20issue
+stats:
+  issue-count: 23
+  last-updated: '2026-10-20T07:39:15Z'
+  fork-count: 6

@@ -1,0 +1,20 @@
+---
+name: ENTITY
+desc: >-
+  Open infrastructure for sovereign digital authority, verifiable provenance, data rights, evidence, interoperability
+  and portable economic state.
+site: https://github.com/blackmore-technology-group/ENTITY
+tags:
+- python
+- security
+- cryptography
+- provenance
+- data-lineage
+- developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blackmore-technology-group/ENTITY/labels/good%20first%20issue
+stats:
+  issue-count: 16
+  last-updated: '2026-10-11T13:58:13Z'
+  fork-count: 5

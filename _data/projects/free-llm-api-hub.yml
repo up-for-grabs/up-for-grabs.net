@@ -1,0 +1,20 @@
+---
+name: Free LLM API Hub
+desc: >-
+  A continuously verified dataset of free-tier and trial-credit LLM APIs. Most entry issues are one sourced
+  fact (read a provider's terms, change one field), no code needed.
+site: https://github.com/pacocartones/free-llm-api-hub
+tags:
+- llm
+- ai
+- api
+- dataset
+- open-data
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/pacocartones/free-llm-api-hub/labels/good%20first%20issue
+stats:
+  issue-count: 9
+  last-updated: '2026-10-20T00:26:32Z'
+  fork-count: 48

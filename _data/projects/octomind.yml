@@ -1,0 +1,20 @@
+---
+name: Octomind
+desc: >-
+  Open-source AI coding agent and agent runtime in Rust. One binary, any model, MCP-native. Runs in the
+  terminal, in CI, or as a daemon.
+site: https://github.com/Muvon/octomind
+tags:
+- rust
+- ai
+- cli
+- mcp
+- ai-agents
+- developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Muvon/octomind/labels/good%20first%20issue
+stats:
+  issue-count: 12
+  last-updated: '2026-10-20T11:14:49Z'
+  fork-count: 33

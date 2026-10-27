@@ -1,0 +1,18 @@
+---
+name: Crisis Connect
+desc: >-
+  Android and iOS crisis-communication app with Bluetooth messaging; beginner documentation tasks welcome.
+site: https://github.com/emirhan-duman/Crisis-Connect
+tags:
+- android
+- ios
+- kotlin
+- swift
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/emirhan-duman/Crisis-Connect/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-10-10T19:36:03Z'
+  fork-count: 2

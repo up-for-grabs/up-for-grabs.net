@@ -1,0 +1,20 @@
+---
+name: show-your-work
+desc: >-
+  A Claude Code plugin that checks a coding agent's final message against what actually ran in the session,
+  so "all tests pass" comes with the check behind it. Also a skill for Codex, Cursor, Copilot and other
+  agents.
+site: https://github.com/dheerajjha/show-your-work
+tags:
+- javascript
+- node.js
+- ai
+- claude-code
+- testing
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dheerajjha/show-your-work/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2026-10-18T16:56:10Z'
+  fork-count: 2

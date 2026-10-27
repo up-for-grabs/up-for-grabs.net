@@ -1,0 +1,22 @@
+---
+name: Pinto Notes
+desc: >-
+  A free, open-source notes app for iPhone and Mac that ChatGPT and Claude can read and edit, through
+  an MCP server. Swift and SwiftUI for the app, TypeScript for the server and website.
+site: https://github.com/pinto-notes/pinto-notes
+tags:
+- swift
+- swiftui
+- ios
+- macos
+- typescript
+- mcp
+- notes
+- ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/pinto-notes/pinto-notes/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2026-10-02T19:00:21Z'
+  fork-count: 3

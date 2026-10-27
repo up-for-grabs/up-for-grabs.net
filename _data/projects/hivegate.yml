@@ -1,0 +1,23 @@
+---
+name: HiveGate
+desc: >-
+  Open-source, self-hosted production runtime for AI agents - REST API, multi-agent teams, MCP and OAuth
+  integrations. Built on Agno.
+site: https://github.com/hivegate-ai/hivegate
+tags:
+- python
+- ai
+- ai-agents
+- llm
+- fastapi
+- mcp
+- multi-agent
+- rest-api
+- self-hosted
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hivegate-ai/hivegate/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2026-10-10T22:53:58Z'
+  fork-count: 5

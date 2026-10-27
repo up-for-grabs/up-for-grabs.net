@@ -1,0 +1,12 @@
+name: XAD
+desc: Fast, comprehensive automatic differentiation (AAD) for C++ and Python, with forward and adjoint modes.
+site: https://github.com/auto-differentiation/xad
+tags:
+  - c++
+  - python
+  - automatic-differentiation
+  - scientific-computing
+  - quantitative-finance
+upforgrabs:
+  name: good first issue
+  link: https://github.com/auto-differentiation/xad/labels/good%20first%20issue

@@ -1,13 +1,12 @@
 name: Koto
-desc: Experimental local-first model selection for Codex, with separately opted-in history and learning.
+desc: Experimental Node.js orchestration core and CLI for task graphs and external commands.
 site: https://github.com/mehrdadxzaker/Koto
 tags:
-  - python
+  - javascript
+  - nodejs
   - cli
-  - codex
-  - llm
-  - local-first
-  - agent-skills
+  - orchestration
+  - agents
 upforgrabs:
   name: good first issue
   link: https://github.com/mehrdadxzaker/Koto/labels/good%20first%20issue

@@ -11,6 +11,35 @@ const { project } = props;
 const stats = project.stats;
 
 const linkTitle = `View open issues for ${project.name}`;
+
+const getIssueLabelLink = (link: string): string => {
+  try {
+    const url = new URL(link);
+
+    if (url.hostname !== 'github.com') {
+      return link;
+    }
+
+    const match = url.pathname.match(/^(\/[^/]+\/[^/]+\/labels\/)([^/]+)$/);
+    if (!match) {
+      return link;
+    }
+
+    const encodedLabel = match[2];
+    const decodedLabel = decodeURIComponent(encodedLabel);
+
+    if (!decodedLabel.includes(' ') || /^".*"$/.test(decodedLabel)) {
+      return link;
+    }
+
+    url.pathname = `${match[1]}${encodeURIComponent(`"${decodedLabel}"`)}`;
+    return url.toString();
+  } catch {
+    return link;
+  }
+};
+
+const issueLabelLink = getIssueLabelLink(project.upforgrabs.link);
 </script>
 
 <style lang="css">
@@ -82,7 +111,7 @@ const linkTitle = `View open issues for ${project.name}`;
 
       <div class="label">
         <a
-          v-bind:href="project.upforgrabs.link"
+          v-bind:href="issueLabelLink"
           v-bind:title="linkTitle"
           target="_blank"
           tabindex="-1"

@@ -1,0 +1,15 @@
+---
+name: MarketMirror
+desc: Open-source marketing simulation for AI agents. Tests ads, prices and sales pitches on LLM-simulated buyers in an OASIS social simulation; runs as an MCP server.
+site: https://github.com/DarkWorldCoder/market-mirror
+tags:
+- python
+- ai
+- llm
+- mcp
+- simulation
+- marketing
+- agents
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DarkWorldCoder/market-mirror/labels/good%20first%20issue

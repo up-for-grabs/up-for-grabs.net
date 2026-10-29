@@ -1,0 +1,19 @@
+---
+name: ForgeLM
+desc: >-
+  Config-driven LLM fine-tuning toolkit: one validated YAML file drives SFT, DPO, SimPO, KTO, ORPO and GRPO,
+  with dataset auditing, safety evaluation, evaluation gates, human approval and EU AI Act documentation.
+  The first steps run on a laptop without a GPU.
+site: https://hodetech.github.io/ForgeLM/
+tags:
+- python
+- machine-learning
+- llm
+- fine-tuning
+- huggingface
+- mlops
+- ai-safety
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/HodeTech/ForgeLM/labels/good%20first%20issue

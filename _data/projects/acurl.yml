@@ -4,7 +4,6 @@ desc: A Go CLI that checks how AI agents and crawlers see a website, and shows t
 site: https://github.com/tragent-io/acurl
 tags:
 - go
-- golang
 - cli
 - ai
 - llm

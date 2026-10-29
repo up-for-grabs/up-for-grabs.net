@@ -1,0 +1,14 @@
+---
+name: proxy-scraper
+desc: 'Collects free HTTP, SOCKS4 and SOCKS5 proxies and records what every check found: passed, failed, unavailable or skipped, with a reason code and a timestamp. CLI, Python API and MCP server.'
+site: https://github.com/maximilianfeix/proxy-scraper
+tags:
+- python
+- cli
+- networking
+- web-scraping
+- asyncio
+- mcp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/maximilianfeix/proxy-scraper/labels/good%20first%20issue

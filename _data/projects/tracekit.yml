@@ -1,5 +1,5 @@
 name: Tracekit
-desc: Tamper-evident tracing for AI agents: every tool call is checked against a policy before it runs and signed into a log the agent can't edit.
+desc: "Tamper-evident tracing for AI agents: every tool call is checked against a policy before it runs and signed into a log the agent can't edit."
 site: https://github.com/Cygnux-Labs/Tracekit
 tags:
 - python

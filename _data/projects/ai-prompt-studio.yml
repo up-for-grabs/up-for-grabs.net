@@ -1,5 +1,5 @@
-name: AI Prompt Studio
 desc: Full-stack AI Prompt Studio with FastAPI backend, React/Vite frontend, PostgreSQL, Docker Compose, and modern CI/CD.
+name: AI Prompt Studio
 site: https://github.com/bundlab/ai-prompt-studio
 tags:
   - python
@@ -10,5 +10,5 @@ tags:
   - docker
   - ai
 upforgrabs:
-  name: good first issue
   link: https://github.com/bundlab/ai-prompt-studio/labels/good%20first%20issue
+  name: good first issue

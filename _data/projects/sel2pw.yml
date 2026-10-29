@@ -4,7 +4,7 @@ site: https://github.com/javvadivijayprasad/sel2pw
 tags:
   - typescript
   - javascript
-  - nodejs
+  - node.js
   - selenium
   - playwright
   - testing

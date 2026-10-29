@@ -33,7 +33,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.11",
     "@astrojs/vue": "^7.1.1",
-    "@babel/core": "^7.29.7",
+    "@babel/core": "^8.0.9",
     "@eslint/eslintrc": "^3.3.7",
     "@eslint/js": "^10.0.1",
     "@types/node": "^26",

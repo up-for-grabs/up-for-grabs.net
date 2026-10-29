@@ -3,7 +3,7 @@ desc: Experimental Node.js orchestration core and CLI for task graphs and extern
 site: https://github.com/mehrdadxzaker/Koto
 tags:
   - javascript
-  - nodejs
+  - node.js
   - cli
   - orchestration
   - agents

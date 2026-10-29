@@ -4,7 +4,7 @@ desc: Play a finished motion-graphics ad over the frame-synced drafts it grew fr
 site: https://github.com/blixvip/NullMotion
 tags:
 - javascript
-- nodejs
+- node.js
 - gsap
 - webcodecs
 - video

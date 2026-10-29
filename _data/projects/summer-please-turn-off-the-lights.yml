@@ -1,7 +1,7 @@
 ---
 name: summer-please-turn-off-the-lights
 desc: A blazing-fast local desktop controller and music-reactive pipeline for TP-Link Tapo smart lights
-site: https://github.com/iamp1000/summer-please-turn-off-the-lights
+site: https://github.com/iamp1000/iamp1000/summer-turn-the-light-off-
 tags:
   - python
   - iot
@@ -10,4 +10,4 @@ tags:
   - desktop
 upforgrabs:
   name: good first issue
-  link: https://github.com/iamp1000/summer-please-turn-off-the-lights/labels/good%20first%20issue
+  link: https://github.com/iamp1000/iamp1000/summer-turn-the-light-off-/labels/good%20first%20issue

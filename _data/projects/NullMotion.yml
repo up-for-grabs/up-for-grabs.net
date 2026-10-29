@@ -1,0 +1,14 @@
+---
+name: Null Motion
+desc: Play a finished motion-graphics ad over the frame-synced drafts it grew from, and export the breakdown as an MP4. Node + browser, zero dependencies.
+site: https://github.com/blixvip/NullMotion
+tags:
+- javascript
+- node.js
+- gsap
+- webcodecs
+- video
+- motion-graphics
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/NullMotion/labels/good%20first%20issue

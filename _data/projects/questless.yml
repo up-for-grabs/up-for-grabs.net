@@ -1,0 +1,13 @@
+name: Questless
+desc: A deterministic quest-economy engine for MMO-style worlds. NPC economies create funded quests that can prove why they exist, with an open roadmap for future MMO systems.
+site: https://github.com/Adiezc/questless
+tags:
+  - python
+  - simulation
+  - game-development
+  - game-economy
+  - mmorpg
+  - agent-based-modeling
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Adiezc/questless/labels/good%20first%20issue

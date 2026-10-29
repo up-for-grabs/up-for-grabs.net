@@ -3,7 +3,7 @@ desc: One algorithm, every programming language. Implement the Italian Fiscal Co
 site: https://github.com/openapi/every-language-fiscal-code
 tags:
   - polyglot
-  - algorithms
+  - algorithm
   - programming-languages
   - docker
   - hacktoberfest

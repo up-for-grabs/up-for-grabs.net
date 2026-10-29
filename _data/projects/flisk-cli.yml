@@ -1,0 +1,23 @@
+---
+name: Flisk CLI
+desc: >-
+  Generate and run your whole tech stack without the setup pain. Write one service.json per service,
+  then run flisk up to get a local Docker and Tilt stack with live reload.
+site: https://github.com/flisk-sh/flisk
+tags:
+- cli
+- typescript
+- docker
+- tilt
+- developer-tools
+- local-development
+- hacktoberfest
+- ai-agents
+- microservices
+upforgrabs:
+  name: good first issue
+  link: https://github.com/flisk-sh/flisk/labels/good%20first%20issue
+stats:
+  issue-count: 149
+  last-updated: '2026-10-22T00:00:00Z'
+  fork-count: 34

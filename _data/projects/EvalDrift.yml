@@ -1,6 +1,6 @@
 ---
 name: evaldrift R package
-desc: Paraphrase-drift scoring for LLM eval sets: three similarities, one blended drift score
+desc: "Paraphrase-drift scoring for LLM eval sets: three similarities, one blended drift score"
 site: https://pastagi.com
 tags:
   - r

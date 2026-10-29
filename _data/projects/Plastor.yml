@@ -1,7 +1,7 @@
 ---
-name: ModelerHarness
+name: Plastor
 desc: A free, local harness that lets an LLM build 3D creature models from drawings like a skilled modeler. Rust tools measure, and only checks that actually ran can pass work. Human and AI-agent contributors welcome.
-site: https://github.com/endlessGold/ModelerHarness
+site: https://github.com/endlessGold/Plastor
 tags:
 - rust
 - blender
@@ -11,4 +11,4 @@ tags:
 - ai-agents
 upforgrabs:
   name: good first issue
-  link: https://github.com/endlessGold/ModelerHarness/labels/good%20first%20issue
+  link: https://github.com/endlessGold/Plastor/labels/good%20first%20issue

@@ -1,14 +1,19 @@
+---
 name: VirtoMir
 desc: Single-binary web control panel for KVM, QEMU, and libvirt with direct domain XML management.
 site: https://github.com/onurbaydas/VirtoMir
 tags:
-  - go
-  - svelte
-  - virtualization
-  - kvm
-  - qemu
-  - libvirt
-  - linux
+- go
+- svelte
+- virtualization
+- kvm
+- qemu
+- libvirt
+- linux
 upforgrabs:
   name: good first issue
   link: https://github.com/onurbaydas/VirtoMir/labels/good%20first%20issue
+stats:
+  issue-count: 17
+  last-updated: '2026-10-19T22:36:17Z'
+  fork-count: 1

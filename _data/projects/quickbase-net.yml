@@ -1,6 +1,8 @@
 ---
 name: QuickbaseNet
-desc: A .NET library that wraps Quickbase's JSON API in fluent query and command builders and returns results instead of throwing exceptions.
+desc: >-
+  A .NET library that wraps Quickbase's JSON API in fluent query and command builders and returns results
+  instead of throwing exceptions.
 site: https://github.com/hazeliscoding/quickbase-net
 tags:
 - c#
@@ -11,3 +13,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/hazeliscoding/quickbase-net/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-10-21T13:15:21Z'
+  fork-count: 2

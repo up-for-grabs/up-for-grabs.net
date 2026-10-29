@@ -1,8 +1,8 @@
+---
 name: reviewer
 desc: >-
-  Review your coding agent's changes like a pull request, locally in the
-  browser, with inline comments and threaded follow-ups, then hand the
-  marked-up review back to the agent.
+  Review your coding agent's changes like a pull request, locally in the browser, with inline comments
+  and threaded follow-ups, then hand the marked-up review back to the agent.
 site: https://github.com/dheerajjha/reviewer
 tags:
 - javascript
@@ -13,3 +13,7 @@ tags:
 upforgrabs:
   name: up-for-grabs
   link: https://github.com/dheerajjha/reviewer/labels/up-for-grabs
+stats:
+  issue-count: 7
+  last-updated: '2026-10-21T12:46:35Z'
+  fork-count: 6

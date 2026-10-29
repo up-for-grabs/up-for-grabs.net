@@ -1,6 +1,8 @@
 ---
 name: ConAtlas TX
-desc: A free, open-source calendar of every anime convention in Texas, with dates checked against each organizer's own site.
+desc: >-
+  A free, open-source calendar of every anime convention in Texas, with dates checked against each organizer's
+  own site.
 site: https://github.com/hazeliscoding/conatlas-tx
 tags:
 - astro
@@ -12,3 +14,6 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/hazeliscoding/conatlas-tx/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 1

@@ -1,3 +1,4 @@
+---
 name: Fizzdoc
 desc: Privacy-first PDF, image and audio tools that run 100% in the browser (TypeScript, WebAssembly)
 site: https://github.com/kingrishabdugar/fizzdoc
@@ -10,3 +11,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/kingrishabdugar/fizzdoc/labels/good%20first%20issue
+stats:
+  issue-count: 8
+  last-updated: '2026-10-09T11:31:11Z'
+  fork-count: 2

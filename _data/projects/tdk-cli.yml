@@ -14,8 +14,8 @@ tags:
 - hacktoberfest
 upforgrabs:
   name: good first issue
-  link: https://github.com/tdk-landscape/tdk-cli-core/labels/good%20first%20issue
+  link: https://github.com/flisk-sh/flisk/labels/good%20first%20issue
 stats:
-  issue-count: 167
-  last-updated: '2026-10-19T13:04:39Z'
-  fork-count: 29
+  issue-count: 141
+  last-updated: '2026-10-21T00:21:26Z'
+  fork-count: 33

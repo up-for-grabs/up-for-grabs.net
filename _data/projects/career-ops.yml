@@ -1,12 +1,13 @@
 ---
 name: career-ops
 desc: >-
-  CLI-agnostic AI job-search automation - pipeline tracking, offer evaluation, CV generation, and zero-token
-  job scanning
-site: https://github.com/santifer/career-ops
+  Open-source AI job search agent that runs locally in your AI coding CLI: scans job boards, scores each
+  job against your CV and tailors an ATS-friendly resume.
+site: https://github.com/career-ops-hq/career-ops
 tags:
 - oss
 - javascript
+- node.js
 - cli
 - job-search
 - ai

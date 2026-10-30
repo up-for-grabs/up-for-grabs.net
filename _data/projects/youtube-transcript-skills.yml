@@ -1,0 +1,16 @@
+---
+name: YouTube Transcript Skills
+desc: >-
+  An Agent Skill and MCP tooling that let Claude Code, Cursor, Codex and other AI agents fetch
+  YouTube transcripts, search YouTube and browse channels and playlists. Shell scripts plus Markdown.
+site: https://github.com/tubeagentkit/youtube-transcript-skills
+tags:
+- shell
+- bash
+- ai
+- mcp
+- agent-skills
+- youtube
+upforgrabs:
+  name: good first issue
+  link: https://github.com/tubeagentkit/youtube-transcript-skills/labels/good%20first%20issue

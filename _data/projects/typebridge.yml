@@ -1,0 +1,15 @@
+---
+name: TypeBridge
+desc: Universal schema compiler to synchronize types across TypeScript, Python, Rust, Go, and JSON Schema
+site: https://github.com/DHEENA0007/typebridge
+tags:
+  - typescript
+  - python
+  - rust
+  - golang
+  - json-schema
+  - codegen
+  - developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DHEENA0007/typebridge/labels/good%20first%20issue

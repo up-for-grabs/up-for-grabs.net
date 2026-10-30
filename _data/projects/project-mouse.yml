@@ -4,7 +4,7 @@ site: https://github.com/kalanadidulanga/project-mouse
 tags:
   - rust
   - tauri
-  - react
+  - reactjs
   - typescript
   - windows
   - desktop

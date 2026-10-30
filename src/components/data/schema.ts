@@ -44,6 +44,11 @@ export type WebsiteProject = z.infer<typeof WebsiteProjectSchema> & {
   id: string;
 };
 
+export interface PopularTag {
+  name: string;
+  frequency: number;
+}
+
 export function parseProject(input: Project): WebsiteProject {
   let parsedDate: Date | undefined;
 

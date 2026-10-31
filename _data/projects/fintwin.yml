@@ -1,0 +1,13 @@
+name: FinTwin
+desc: Open-source digital twin of 390+ US public companies' finances, built from SEC XBRL filings, with Monte Carlo stress tests in a React dashboard and an out-of-sample research paper.
+site: https://github.com/SpiliosDimakopoulos/fintwin
+tags:
+  - python
+  - typescript
+  - react.js
+  - finance
+  - data-science
+  - monte-carlo
+upforgrabs:
+  name: good first issue
+  link: https://github.com/SpiliosDimakopoulos/fintwin/labels/good%20first%20issue

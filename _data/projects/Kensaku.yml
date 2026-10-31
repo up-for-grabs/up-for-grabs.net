@@ -1,0 +1,14 @@
+---
+name: Kensaku
+desc: 'Local-first file search that reads inside your files — documents, code, logs, and the text in your screenshots. Search by name, content, meaning, and natural-language time. Free, MIT, open source.'
+site: https://github.com/yjid/kensaku
+tags:
+- rust
+- tauri
+- search
+- desktop
+- privacy
+- ocr
+upforgrabs:
+  name: good first issue
+  link: https://github.com/yjid/kensaku/labels/good%20first%20issue

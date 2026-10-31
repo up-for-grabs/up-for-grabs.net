@@ -1,0 +1,12 @@
+name: Koto
+desc: Experimental Node.js orchestration core and CLI for task graphs and external commands.
+site: https://github.com/mehrdadxzaker/Koto
+tags:
+  - javascript
+  - node.js
+  - cli
+  - orchestration
+  - agents
+upforgrabs:
+  name: good first issue
+  link: https://github.com/mehrdadxzaker/Koto/labels/good%20first%20issue

@@ -1,0 +1,14 @@
+---
+name: DrDXT
+desc: Free, open-source PC gaming optimizer for Windows (C#, .NET 10, WPF). It measures real matches with PresentMon, can A/B-test a setting before keeping it, and every write goes through a small elevated helper with a closed list of bounded operations.
+site: https://github.com/ablanchard-dev/drdxt
+tags:
+- c#
+- ".net"
+- wpf
+- windows
+- gaming
+- performance
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ablanchard-dev/drdxt/labels/good%20first%20issue

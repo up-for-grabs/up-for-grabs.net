@@ -1,0 +1,13 @@
+---
+name: SciProof
+desc: Local-first computational experiment verification and LaTeX macro export for research reproducibility.
+site: https://hayagrivai-labs.github.io/sciproof/
+tags:
+- python
+- cli
+- testing
+- reproducible-research
+- science
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/hayagrivai-labs/sciproof/labels/up-for-grabs

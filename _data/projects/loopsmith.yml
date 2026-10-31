@@ -1,0 +1,13 @@
+name: loopsmith
+desc: 'Rust CLI that turns a repeatable task into a self-correcting agent loop: a deterministic gate, not the AI, decides when it is done. Website: https://bitphill.github.io/loopsmith/'
+site: https://github.com/bitphill/loopsmith
+tags:
+- rust
+- cli
+- ai
+- agents
+- automation
+- mcp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/bitphill/loopsmith/labels/good%20first%20issue

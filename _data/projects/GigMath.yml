@@ -1,0 +1,11 @@
+---
+name: gigmath R package
+desc: True hourly rate for gig-work offers after fees, mileage, taxes, and unpaid time
+site: https://extrahustles.com
+tags:
+  - r
+  - calculator
+  - gig-economy
+upforgrabs:
+  name: good first issue
+  link: https://github.com/scrapertweeter3-prog/gigmath-r/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

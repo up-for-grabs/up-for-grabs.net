@@ -1,0 +1,23 @@
+name: Every Language Fiscal Code
+desc: One algorithm, every programming language. Implement the Italian Fiscal Code in a language not yet on the board and get it verified by a shared Dockerized test suite of 87 vectors.
+site: https://github.com/openapi/every-language-fiscal-code
+tags:
+  - polyglot
+  - algorithm
+  - programming-languages
+  - docker
+  - hacktoberfest
+  - beginner-friendly
+  - kotlin
+  - c#
+  - lua
+  - haskell
+  - elixir
+  - erlang
+  - ocaml
+  - prolog
+  - cobol
+  - fortran
+upforgrabs:
+  name: help wanted
+  link: https://github.com/openapi/every-language-fiscal-code/labels/help%20wanted

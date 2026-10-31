@@ -1,0 +1,14 @@
+name: usagecontract
+desc: Usage-aware contract testing for OpenAPI APIs — it records which response fields each consumer actually reads from your existing tests, then fails CI only when a provider spec change breaks a consumer that truly depends on the changed field. No DSL, no broker.
+site: https://github.com/javvadivijayprasad/usagecontract
+tags:
+  - javascript
+  - nodejs
+  - openapi
+  - contract-testing
+  - api-testing
+  - cli
+  - testing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/javvadivijayprasad/usagecontract/labels/good%20first%20issue

@@ -1,0 +1,13 @@
+name: aiset
+desc: An AI coding team for Claude Code. A project manager agent, engineer agents per repository, QA and an integration checker, plus a code map (teammap) that answers "where is X and who uses it" in one call.
+site: https://github.com/JamshidS/aiset
+tags:
+  - python
+  - ai
+  - llm
+  - claude
+  - developer-tools
+  - cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/JamshidS/aiset/labels/good%20first%20issue

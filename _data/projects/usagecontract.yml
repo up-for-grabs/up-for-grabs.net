@@ -3,7 +3,7 @@ desc: Usage-aware contract testing for OpenAPI APIs — it records which respons
 site: https://github.com/javvadivijayprasad/usagecontract
 tags:
   - javascript
-  - nodejs
+  - node.js
   - openapi
   - contract-testing
   - api-testing

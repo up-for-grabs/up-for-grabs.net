@@ -1,0 +1,13 @@
+---
+name: BootForm form-styles
+desc: Copy-paste Tailwind CSS for forms, covering input types, states, layouts and full sections.
+site: https://github.com/BootForm/form-styles
+tags:
+- css
+- tailwindcss
+- html
+- forms
+- accessibility
+upforgrabs:
+  name: good first issue
+  link: https://github.com/BootForm/form-styles/labels/good%20first%20issue

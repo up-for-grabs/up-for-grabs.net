@@ -1,0 +1,15 @@
+name: Tracedown
+desc: Open-source debugger for AI agents. Finds the step that caused a failed run, shows the evidence and replays the run with a fix. Python and TypeScript SDKs, 13 framework integrations.
+site: https://github.com/nbn07/agent-tracedown
+tags:
+  - python
+  - typescript
+  - ai
+  - llm
+  - ai-agents
+  - debugging
+  - observability
+  - opentelemetry
+upforgrabs:
+  name: good first issue
+  link: https://github.com/nbn07/agent-tracedown/labels/good%20first%20issue

@@ -1,0 +1,13 @@
+---
+name: Kana Dojo
+desc: Aesthetic, minimalist platform for learning Japanese inspired by Duolingo and Monkeytype, built with Next.js
+site: https://kanadojo.com
+tags:
+  - japanese
+  - nextjs
+  - react
+  - language-learning
+  - beginner-friendly
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/lingdojo/kana-dojo/labels/up-for-grabs

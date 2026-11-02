@@ -1,0 +1,14 @@
+---
+name: Friday
+desc: 'Desktop app that runs Claude Code, Codex, Cursor, Gemini CLI and other coding agents side by side on your own computer, with a shared task board, a git worktree per agent and diff review. MIT, TypeScript, macOS, Windows and Linux.'
+site: https://github.com/splashxmoon/friday
+tags:
+- typescript
+- electron
+- ai
+- coding-agents
+- developer-tools
+- desktop
+upforgrabs:
+  name: good first issue
+  link: https://github.com/splashxmoon/friday/labels/good%20first%20issue

@@ -1,14 +1,17 @@
+---
 name: Context Attachment Manager
 desc: Manage image history in Codex desktop and Claude Desktop Code sessions.
 site: https://github.com/chipfighter/context-attachment-manager
 tags:
-  - typescript
-  - javascript
-  - node.js
-  - mcp
-  - images
-  - developer-tools
+- typescript
+- javascript
+- node.js
+- mcp
+- images
+- developer-tools
 upforgrabs:
   name: good first issue
   link: https://github.com/chipfighter/context-attachment-manager/labels/good%20first%20issue
-
+stats:
+  issue-count: 0
+  fork-count: 68

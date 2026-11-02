@@ -1,11 +1,17 @@
+---
 name: Bash Fighter
-desc: Open-source browser platform fighter for 20-player free-for-all matches (TypeScript, deterministic simulation)
+desc: >-
+  Open-source browser platform fighter for 20-player free-for-all matches (TypeScript, deterministic simulation)
 site: https://github.com/Bash-Entertainment/bash-fighter
 tags:
-  - typescript
-  - game-development
-  - webgl
-  - node.js
+- typescript
+- game-development
+- webgl
+- node.js
 upforgrabs:
   name: good-first-issue
   link: https://github.com/Bash-Entertainment/bash-fighter/labels/good-first-issue
+stats:
+  issue-count: 10
+  last-updated: '2026-10-28T16:27:55Z'
+  fork-count: 4

@@ -1,6 +1,8 @@
 ---
 name: Kensaku
-desc: 'Local-first file search that reads inside your files — documents, code, logs, and the text in your screenshots. Search by name, content, meaning, and natural-language time. Free, MIT, open source.'
+desc: >-
+  Local-first file search that reads inside your files — documents, code, logs, and the text in your screenshots.
+  Search by name, content, meaning, and natural-language time. Free, MIT, open source.
 site: https://github.com/yjid/kensaku
 tags:
 - rust
@@ -12,3 +14,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/yjid/kensaku/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2026-11-01T10:12:25Z'
+  fork-count: 36

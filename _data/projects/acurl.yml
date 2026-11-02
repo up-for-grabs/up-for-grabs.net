@@ -1,6 +1,8 @@
 ---
 name: acurl
-desc: A Go CLI that checks how AI agents and crawlers see a website, and shows the API traffic of AI coding CLIs.
+desc: >-
+  A Go CLI that checks how AI agents and crawlers see a website, and shows the API traffic of AI coding
+  CLIs.
 site: https://github.com/tragent-io/acurl
 tags:
 - go
@@ -12,3 +14,7 @@ tags:
 upforgrabs:
   name: up for grabs
   link: https://github.com/tragent-io/acurl/labels/up%20for%20grabs
+stats:
+  issue-count: 7
+  last-updated: '2026-11-02T09:01:12Z'
+  fork-count: 6

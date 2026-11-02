@@ -13,5 +13,6 @@ upforgrabs:
   link: >-
     https://github.com/barddoo/zedis/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22
 stats:
-  issue-count: 0
+  issue-count: 1
+  last-updated: '2026-10-23T16:04:16Z'
   fork-count: 13

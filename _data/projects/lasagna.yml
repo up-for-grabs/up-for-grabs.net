@@ -1,0 +1,14 @@
+---
+name: Lasagna
+desc: Build RAG pipelines from swappable components and compare them fairly, with significance tests and a check that two arms differ only in what they declare.
+site: https://github.com/dolev31/lasagna
+tags:
+- python
+- rag
+- machine-learning
+- information-retrieval
+- llm
+- benchmark
+upforgrabs:
+  name: good first issue
+  link: https://github.com/dolev31/lasagna/labels/good%20first%20issue

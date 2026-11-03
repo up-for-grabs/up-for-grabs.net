@@ -1,0 +1,14 @@
+---
+name: zanadir
+desc: A CLI that reads a repository's CI configuration, reports which security and quality checks are missing, and whether the ones present can actually fail the build.
+site: https://github.com/MustacheCase/zanadir
+tags:
+- go
+- cli
+- ci
+- devsecops
+- security
+- github-actions
+upforgrabs:
+  name: good first issue
+  link: https://github.com/MustacheCase/zanadir/labels/good%20first%20issue

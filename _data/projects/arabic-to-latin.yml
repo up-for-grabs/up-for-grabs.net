@@ -1,0 +1,13 @@
+---
+name: Arabic to Latin
+desc: WordPress plugin that turns Arabic, Persian and Urdu slugs and permalinks into readable Latin letters.
+site: https://github.com/khusamalfas/Arabic-to-latin
+tags:
+- wordpress
+- php
+- arabic
+- transliteration
+- i18n
+upforgrabs:
+  name: good first issue
+  link: https://github.com/khusamalfas/Arabic-to-latin/labels/good%20first%20issue

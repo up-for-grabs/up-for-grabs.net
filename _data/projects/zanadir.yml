@@ -1,6 +1,8 @@
 ---
 name: zanadir
-desc: A CLI that reads a repository's CI configuration, reports which security and quality checks are missing, and whether the ones present can actually fail the build.
+desc: >-
+  A CLI that reads a repository's CI configuration, reports which security and quality checks are missing,
+  and whether the ones present can actually fail the build.
 site: https://github.com/MustacheCase/zanadir
 tags:
 - go
@@ -12,3 +14,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/MustacheCase/zanadir/labels/good%20first%20issue
+stats:
+  issue-count: 31
+  last-updated: '2026-11-03T16:19:44Z'
+  fork-count: 21

@@ -1,6 +1,8 @@
 ---
 name: Lasagna
-desc: Build RAG pipelines from swappable components and compare them fairly, with significance tests and a check that two arms differ only in what they declare.
+desc: >-
+  Build RAG pipelines from swappable components and compare them fairly, with significance tests and a
+  check that two arms differ only in what they declare.
 site: https://github.com/dolev31/lasagna
 tags:
 - python
@@ -12,3 +14,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/dolev31/lasagna/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-11-04T11:07:25Z'
+  fork-count: 12

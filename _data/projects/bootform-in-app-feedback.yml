@@ -1,6 +1,8 @@
 ---
 name: BootForm in-app-feedback
-desc: A feedback screen for Android (Jetpack Compose) and Flutter apps with no backend of your own, with device info, an offline queue and an optional screenshot.
+desc: >-
+  A feedback screen for Android (Jetpack Compose) and Flutter apps with no backend of your own, with device
+  info, an offline queue and an optional screenshot.
 site: https://github.com/BootForm/in-app-feedback
 tags:
 - android
@@ -12,3 +14,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/BootForm/in-app-feedback/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-11-01T07:32:53Z'
+  fork-count: 4

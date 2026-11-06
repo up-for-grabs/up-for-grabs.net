@@ -3,7 +3,7 @@ desc: Free open-source app for shared flats (WGs) - expenses, cleaning rota, sho
 site: https://manawg.com/en
 tags:
   - nextjs
-  - react
+  - reactjs
   - typescript
   - postgresql
   - supabase

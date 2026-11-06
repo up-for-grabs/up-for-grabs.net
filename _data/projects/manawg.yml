@@ -1,0 +1,16 @@
+name: ManaWG
+desc: Free open-source app for shared flats (WGs) - expenses, cleaning rota, shopping list, calendar and chat. Self-hostable with Docker.
+site: https://manawg.com/en
+tags:
+  - nextjs
+  - react
+  - typescript
+  - postgresql
+  - supabase
+  - tailwindcss
+  - pwa
+  - docker
+  - self-hosted
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Abuarchiv/manawg/labels/good%20first%20issue

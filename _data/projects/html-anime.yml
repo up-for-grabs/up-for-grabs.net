@@ -1,0 +1,13 @@
+---
+name: html-anime
+desc: Turn a scene prompt into a shot sheet, then have a coding agent draw the film in HTML. No video model involved.
+site: https://github.com/blixvip/html-anime
+tags:
+  - javascript
+  - html
+  - css
+  - animation
+  - node.js
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/html-anime/labels/good%20first%20issue

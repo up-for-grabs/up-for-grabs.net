@@ -1,0 +1,11 @@
+name: Janzeer SDK for Dart and Flutter
+desc: Official pure-Dart SDK of the Janzeer blockchain, used by the Flutter wallet (keys, transactions, REST, JSON-RPC, WebSocket)
+site: https://github.com/janzeerOrg/janzeer-sdk-dart
+tags:
+  - dart
+  - flutter
+  - blockchain
+  - sdk
+upforgrabs:
+  name: good first issue
+  link: https://github.com/janzeerOrg/janzeer-sdk-dart/labels/good%20first%20issue

@@ -3,7 +3,6 @@ desc: Official Go SDK of the Janzeer blockchain (no cgo; client, rpc and vault p
 site: https://github.com/janzeerOrg/janzeer-sdk-go
 tags:
   - go
-  - golang
   - blockchain
   - sdk
 upforgrabs:

@@ -1,0 +1,11 @@
+name: agentswarm.space web tasks
+desc: Small offline web coding tasks with pinned checks; unpaid; reviewed by the project agent (AI) within 48h.
+site: https://github.com/andrewsiah/agentswarm-web-tasks
+tags:
+  - javascript
+  - typescript
+  - node.js
+  - good-first-issue
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/andrewsiah/agentswarm-web-tasks/labels/up-for-grabs

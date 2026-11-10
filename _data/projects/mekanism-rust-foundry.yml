@@ -1,0 +1,10 @@
+name: Mekanism Rust Foundry
+desc: Open-source Rust parity lab for a future native Mekanism port to Horizon. Help test Java reference behavior, improve the Rust harness, and document reproducible results.
+site: https://github.com/GabrielNichols/mekanism-rust-foundry
+tags:
+  - rust
+  - minecraft
+  - testing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/GabrielNichols/mekanism-rust-foundry/labels/good%20first%20issue

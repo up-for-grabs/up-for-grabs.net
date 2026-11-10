@@ -1,0 +1,12 @@
+name: Janzeer SDK for Kotlin, JVM and Android
+desc: Official Kotlin/JVM/Android SDK of the Janzeer blockchain on Maven Central (core crypto + OkHttp client, coroutines, Java-friendly API)
+site: https://github.com/janzeerOrg/janzeer-sdk-kotlin
+tags:
+  - kotlin
+  - java
+  - android
+  - blockchain
+  - sdk
+upforgrabs:
+  name: good first issue
+  link: https://github.com/janzeerOrg/janzeer-sdk-kotlin/labels/good%20first%20issue

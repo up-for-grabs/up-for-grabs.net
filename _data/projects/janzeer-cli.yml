@@ -1,0 +1,12 @@
+name: jz — Janzeer command-line client
+desc: Command-line client of the Janzeer blockchain (chain reads, live watch, local encrypted wallets, sends, node operations); Kotlin, GraalVM native image
+site: https://github.com/janzeerOrg/janzeer-cli
+tags:
+  - kotlin
+  - cli
+  - graalvm
+  - blockchain
+  - packaging
+upforgrabs:
+  name: good first issue
+  link: https://github.com/janzeerOrg/janzeer-cli/labels/good%20first%20issue

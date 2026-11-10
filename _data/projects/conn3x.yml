@@ -1,0 +1,15 @@
+---
+name: Conn3x
+desc: Provision your cloud and configure its servers in one plan. An OpenTofu fork that adds server configuration to the same plan and state.
+site: https://conn3x.org
+tags:
+- go
+- infrastructure-as-code
+- configuration-management
+- opentofu
+- terraform
+- devops
+- linux
+upforgrabs:
+  name: good first issue
+  link: https://github.com/conn3xorg/conn3x/labels/good%20first%20issue

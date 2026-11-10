@@ -1,0 +1,14 @@
+---
+name: OpenSketch
+desc: An open-source, SketchUp-style push/pull 3D modeler written in Rust (egui + OpenGL)
+site: https://github.com/Khaldoun-Baz/opensketch
+tags:
+  - rust
+  - cad
+  - 3d
+  - egui
+  - opengl
+  - beginner-friendly
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Khaldoun-Baz/opensketch/labels/good%20first%20issue

@@ -1,0 +1,11 @@
+name: ounce-core
+desc: ARM64 verification lab in safe Rust. Runs programs on three CPU engines and checks the results against real hardware.
+site: https://github.com/hffgzktbcc-blip/ounce-core
+tags:
+- rust
+- arm64
+- emulator
+- testing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hffgzktbcc-blip/ounce-core/labels/good%20first%20issue

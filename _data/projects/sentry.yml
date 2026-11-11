@@ -12,6 +12,6 @@ upforgrabs:
   name: Good First Issue
   link: https://github.com/getsentry/sentry-dotnet/labels/Good%20First%20Issue
 stats:
-  issue-count: 13
+  issue-count: 12
   last-updated: '2026-10-28T03:14:47Z'
-  fork-count: 256
+  fork-count: 259

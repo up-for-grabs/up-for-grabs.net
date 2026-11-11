@@ -1,13 +1,20 @@
+---
 name: Murmury
-desc: Open-source Mac app that listens to the other side of a video call and shows answers from your own documents, in a window hidden from screen sharing.
+desc: >-
+  Open-source Mac app that listens to the other side of a video call and shows answers from your own documents,
+  in a window hidden from screen sharing.
 site: https://github.com/GianlucaBave/murmury
 tags:
-  - python
-  - swift
-  - macos
-  - pyside6
-  - ai
-  - whisper
+- python
+- swift
+- macos
+- pyside6
+- ai
+- whisper
 upforgrabs:
   name: good first issue
   link: https://github.com/GianlucaBave/murmury/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2026-11-11T10:48:12Z'
+  fork-count: 16

@@ -1,9 +1,9 @@
 ---
 name: ECX (everything-claude-codex)
 desc: >-
-  A setup that makes Claude Code and OpenAI Codex work as one team: shared memory,
-  each agent sees the other's latest turns, safety hooks, skills and vault search.
-  Beginner issues name the exact files to touch.
+  A setup that makes Claude Code and OpenAI Codex work as one team: shared memory, each agent sees the
+  other's latest turns, safety hooks, skills and vault search. Beginner issues name the exact files to
+  touch.
 site: https://github.com/saksham10arora-dotcom/everything-claude-codex
 tags:
 - python
@@ -15,3 +15,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/saksham10arora-dotcom/everything-claude-codex/labels/good%20first%20issue
+stats:
+  issue-count: 14
+  last-updated: '2026-11-11T13:04:08Z'
+  fork-count: 3

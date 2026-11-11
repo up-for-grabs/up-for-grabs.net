@@ -1,8 +1,9 @@
+---
 name: wheelgap
 desc: >-
-  Finds the Python dependencies in a lockfile (uv.lock, poetry.lock, pylock.toml, requirements.txt)
-  that have no prebuilt wheel for your target platform, such as ARM, Alpine, Windows on ARM or
-  free-threaded Python, before your Docker build compiles them from source.
+  Finds the Python dependencies in a lockfile (uv.lock, poetry.lock, pylock.toml, requirements.txt) that
+  have no prebuilt wheel for your target platform, such as ARM, Alpine, Windows on ARM or free-threaded
+  Python, before your Docker build compiles them from source.
 site: https://github.com/patrickballard/wheelgap
 tags:
 - python
@@ -14,4 +15,8 @@ tags:
 - wheels
 upforgrabs:
   name: good first issue
-  link: https://github.com/patrickballard/wheelgap/labels/good%20first%20issue
+  link: https://github.com/wheelgap/wheelgap/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-11-11T10:22:28Z'
+  fork-count: 27

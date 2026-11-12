@@ -1,0 +1,15 @@
+---
+name: Velloo
+desc: Local design canvas for coding agents. The agent composes screens from your app's own components (shadcn/ui, MUI, Mantine or your own), you compare and comment on them side by side, and the chosen screen goes back to the agent as framework-native code.
+site: https://github.com/velloo-design/velloo
+tags:
+- typescript
+- react
+- design-tools
+- mcp
+- ai-agents
+- bun
+- tailwindcss
+upforgrabs:
+  name: good first issue
+  link: https://github.com/velloo-design/velloo/labels/good%20first%20issue

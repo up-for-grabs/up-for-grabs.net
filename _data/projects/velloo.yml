@@ -4,7 +4,7 @@ desc: Local design canvas for coding agents. The agent composes screens from you
 site: https://github.com/velloo-design/velloo
 tags:
 - typescript
-- react
+- reactjs
 - design-tools
 - mcp
 - ai-agents

@@ -3,7 +3,6 @@ desc: Git-style branching, time travel and reviewed merges for MongoDB, built fo
 site: https://github.com/argon-lab/argon
 tags:
   - go
-  - golang
   - mongodb
   - database
   - cli

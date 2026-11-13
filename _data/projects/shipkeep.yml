@@ -1,0 +1,23 @@
+---
+name: Shipkeep
+desc: >-
+  Self-hosted platform that deploys applications, databases and services to servers you own, with an outbound-only
+  agent, configuration in the repository and multi-node failover without Kubernetes.
+site: https://github.com/shipkeepdev/shipkeep
+tags:
+- go
+- typescript
+- nestjs
+- angular
+- self-hosted
+- paas
+- devops
+- docker
+- wireguard
+upforgrabs:
+  name: good first issue
+  link: https://github.com/shipkeepdev/shipkeep/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2026-11-12T00:10:23Z'
+  fork-count: 1

@@ -9,8 +9,8 @@ tags:
 - rfc5545
 upforgrabs:
   name: good first issue
-  link: https://github.com/collective/icalendar/labels/good%20first%20issue
+  link: https://github.com/PyCalendar/icalendar/labels/good%20first%20issue
 stats:
-  issue-count: 32
-  last-updated: '2026-11-06T07:45:36Z'
-  fork-count: 518
+  issue-count: 30
+  last-updated: '2026-11-13T04:19:04Z'
+  fork-count: 527

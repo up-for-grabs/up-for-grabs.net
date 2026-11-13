@@ -1,0 +1,22 @@
+---
+name: GSlider Blocks
+desc: >-
+  Modern WordPress Gutenberg Carousel & Slider Blocks built with React, Swiper.js, and PSR-4 PHP architecture.
+site: https://github.com/noruzzamans/gslider-blocks
+tags:
+- wordpress
+- gutenberg
+- reactjs
+- javascript
+- php
+- slider
+- carousel
+- swiper
+- blocks
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/noruzzamans/gslider-blocks/labels/up-for-grabs
+stats:
+  issue-count: 90
+  last-updated: '2026-11-13T08:51:35Z'
+  fork-count: 28

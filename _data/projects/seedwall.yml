@@ -1,0 +1,20 @@
+---
+name: Seedwall
+desc: >-
+  Generative desktop and phone wallpapers. Every look is one pure TypeScript function that turns params
+  and a seed into an SVG, so adding a new generator is a single-file PR.
+site: https://github.com/Suryansh-Codes2209/Seedwall
+tags:
+- typescript
+- nextjs
+- svg
+- generative-art
+- creative-coding
+- web
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Suryansh-Codes2209/Seedwall/labels/good%20first%20issue
+stats:
+  issue-count: 9
+  last-updated: '2026-11-09T20:18:04Z'
+  fork-count: 1

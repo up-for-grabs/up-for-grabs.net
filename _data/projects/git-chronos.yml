@@ -1,0 +1,13 @@
+---
+name: Git-Chronos
+desc: Local-first CLI that turns git commit history into billable hours and styled terminal/Excel invoices for freelancers.
+site: https://github.com/KokosP/git-chronos
+tags:
+- python
+- cli
+- git
+- time-tracking
+- freelance
+upforgrabs:
+  name: good first issue
+  link: https://github.com/KokosP/git-chronos/labels/good%20first%20issue

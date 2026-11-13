@@ -1,0 +1,19 @@
+---
+name: FCaptcha
+desc: >-
+  Self-hosted CAPTCHA for detecting AI agents operating browsers, with proof of work and browser signals.
+site: https://webdecoy.com/product/fcaptcha/
+tags:
+- javascript
+- go
+- python
+- security
+- captcha
+- i18n
+upforgrabs:
+  name: good first issue
+  link: https://github.com/WebDecoy/FCaptcha/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2026-10-13T14:25:53Z'
+  fork-count: 27

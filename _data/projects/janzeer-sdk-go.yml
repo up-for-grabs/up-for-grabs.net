@@ -1,0 +1,16 @@
+---
+name: Janzeer SDK for Go
+desc: >-
+  Official Go SDK of the Janzeer blockchain (no cgo; client, rpc and vault packages, WebSocket subscriptions)
+site: https://github.com/janzeerOrg/janzeer-sdk-go
+tags:
+- go
+- blockchain
+- sdk
+upforgrabs:
+  name: good first issue
+  link: https://github.com/janzeerOrg/janzeer-sdk-go/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-11-12T22:16:16Z'
+  fork-count: 1

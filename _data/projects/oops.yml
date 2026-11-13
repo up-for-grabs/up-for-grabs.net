@@ -1,0 +1,23 @@
+---
+name: oops
+desc: >-
+  Command-line tool that copies the last shell command, its output and the exit code to the clipboard
+  as a Markdown block, with tokens and keys masked, ready to paste into an issue or a chat. MIT, Ruby,
+  zsh, bash and fish on macOS and Linux.
+site: https://github.com/ysb3996-blip/oops
+tags:
+- ruby
+- cli
+- shell
+- terminal
+- zsh
+- bash
+- fish
+- developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/ysb3996-blip/oops/labels/good%20first%20issue
+stats:
+  issue-count: 15
+  last-updated: '2026-11-13T10:18:01Z'
+  fork-count: 9

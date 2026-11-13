@@ -1,0 +1,20 @@
+---
+name: OpenBench AI
+desc: >-
+  Statistically sound LLM benchmarking in Python: repeated runs, paired model comparison with confidence
+  intervals and exact tests, blinded human preference evaluation and dataset quality audits
+site: https://github.com/lakshaychhaba0001-sys/openbench-ai
+tags:
+- python
+- machine-learning
+- llm
+- evaluation
+- statistics
+- benchmarking
+upforgrabs:
+  name: good first issue
+  link: https://github.com/lakshaychhaba0001-sys/openbench-ai/labels/good%20first%20issue
+stats:
+  issue-count: 10
+  last-updated: '2026-11-13T12:52:21Z'
+  fork-count: 5

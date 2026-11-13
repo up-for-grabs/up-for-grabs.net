@@ -1,0 +1,19 @@
+---
+name: Klicky
+desc: Mechanical keyboard sounds for Linux, macOS and Windows, built with Rust.
+site: https://klicky.muneer320.tech
+tags:
+- rust
+- audio
+- keyboard
+- desktop
+- linux
+- macos
+- windows
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Muneer320/klicky/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2026-11-09T20:56:39Z'
+  fork-count: 2

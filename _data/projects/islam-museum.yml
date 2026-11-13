@@ -1,0 +1,22 @@
+---
+name: islam.museum
+desc: >-
+  A free, open digital museum of Islamic history - a knowledge graph in git (YAML entity records and Markdown
+  prose in Arabic, English and Urdu) published as a static site. Data CC0, prose CC BY-SA, code MIT.
+site: https://islam.museum
+tags:
+- typescript
+- astro
+- yaml
+- data
+- history
+- arabic
+- open-data
+- digital-humanities
+upforgrabs:
+  name: good first issue
+  link: https://github.com/amado2k5/islam-museum/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2026-11-13T12:56:47Z'
+  fork-count: 0

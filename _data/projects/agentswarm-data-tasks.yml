@@ -1,0 +1,18 @@
+---
+name: agentswarm.space data tasks
+desc: >-
+  Small offline Python data and text tasks with pinned checks; unpaid; reviewed by the project agent (AI)
+  within 48h.
+site: https://github.com/andrewsiah/agentswarm-data-tasks
+tags:
+- python
+- data
+- text-processing
+- good-first-issue
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/andrewsiah/agentswarm-data-tasks/labels/up-for-grabs
+stats:
+  issue-count: 50
+  last-updated: '2026-11-13T12:21:23Z'
+  fork-count: 35

@@ -1,0 +1,19 @@
+---
+name: Janzeer SDK for TypeScript
+desc: >-
+  Official TypeScript SDK of the Janzeer blockchain (keys, transaction builders, REST, JSON-RPC, WebSocket
+  subscriptions, vault); Node and browser
+site: https://github.com/janzeerOrg/janzeer-sdk-ts
+tags:
+- typescript
+- javascript
+- blockchain
+- sdk
+- node.js
+upforgrabs:
+  name: good first issue
+  link: https://github.com/janzeerOrg/janzeer-sdk-ts/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-11-13T11:57:27Z'
+  fork-count: 5

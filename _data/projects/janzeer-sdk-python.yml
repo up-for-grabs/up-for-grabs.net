@@ -1,0 +1,17 @@
+---
+name: Janzeer SDK for Python
+desc: >-
+  Official Python SDK of the Janzeer blockchain (blocking and asyncio clients, WebSocket subscriptions,
+  typed errors, no floats for money)
+site: https://github.com/janzeerOrg/janzeer-sdk-python
+tags:
+- python
+- asyncio
+- blockchain
+- sdk
+upforgrabs:
+  name: good first issue
+  link: https://github.com/janzeerOrg/janzeer-sdk-python/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 2

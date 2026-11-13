@@ -50,8 +50,11 @@ const searchResults: Array<WebsiteProject> = [
   },
 ];
 
-// Start server before all tests
-beforeAll(() => server.listen({ onUnhandledRequest: 'error' }));
+// Start server before all tests, with the real fetch restored so MSW can intercept it
+beforeAll(() => {
+  fetchMock.disableMocks();
+  server.listen({ onUnhandledFrame: 'error' });
+});
 
 // Close server after all tests
 afterAll(() => server.close());

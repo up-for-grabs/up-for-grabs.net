@@ -1,0 +1,12 @@
+---
+name: BlendClone
+desc: Turn a reference video into an editable Blender project, with scene analysis, a declarative compiler and side-by-side fidelity scoring.
+site: https://github.com/blixvip/BlendClone
+tags:
+  - python
+  - blender
+  - 3d
+  - computer-vision
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/BlendClone/labels/good%20first%20issue

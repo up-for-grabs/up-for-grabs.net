@@ -1,0 +1,14 @@
+name: Argon
+desc: Git-style branching, time travel and reviewed merges for MongoDB, built for AI agents
+site: https://github.com/argon-lab/argon
+tags:
+  - go
+  - mongodb
+  - database
+  - cli
+  - mcp
+  - ai-agents
+  - devtools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/argon-lab/argon/labels/good%20first%20issue

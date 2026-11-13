@@ -1,0 +1,13 @@
+---
+name: MotionClone
+desc: Rebuild a reference video as an editable motion-graphics project, score the match against the original, and export an MP4.
+site: https://github.com/blixvip/MotionClone
+tags:
+  - python
+  - javascript
+  - video
+  - animation
+  - computer-vision
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/MotionClone/labels/good%20first%20issue

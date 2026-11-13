@@ -1,0 +1,14 @@
+---
+name: MotionClone
+desc: >-
+  Rebuild a reference video as an editable HyperFrames project, compare the match against the original, and export an MP4.
+site: https://github.com/blixvip/MotionClone
+tags:
+- python
+- video
+- motion-graphics
+- ffmpeg
+- ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/MotionClone/labels/good%20first%20issue

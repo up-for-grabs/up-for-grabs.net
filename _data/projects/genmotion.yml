@@ -1,0 +1,14 @@
+---
+name: GenMotion
+desc: >-
+  Type an idea, get a finished motion-graphics video using image models with your own API keys.
+site: https://github.com/blixvip/GenMotion
+tags:
+- javascript
+- motion-graphics
+- video
+- ai
+- animation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/GenMotion/labels/good%20first%20issue

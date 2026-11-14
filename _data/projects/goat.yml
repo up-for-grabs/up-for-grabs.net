@@ -1,0 +1,16 @@
+---
+name: goat
+desc: A self-hosted data fabric. WireGuard mesh, brokerless Zenoh pub/sub and identity-based access control for networks with unreliable links.
+site: https://github.com/USAREUR-AF/goatcore
+tags:
+- rust
+- go
+- python
+- ansible
+- networking
+- wireguard
+- security
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/USAREUR-AF/goatcore/labels/good%20first%20issue

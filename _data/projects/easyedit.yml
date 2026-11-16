@@ -1,12 +1,16 @@
 ---
 name: easyedit
-desc: "Type a movie name and get a fan edit: a captioned speech cut, then a montage cut to the beat."
+desc: 'Type a movie name and get a fan edit: a captioned speech cut, then a montage cut to the beat.'
 site: https://github.com/blixvip/easyedit
 tags:
-  - python
-  - video
-  - cli
-  - audio
+- python
+- video
+- cli
+- audio
 upforgrabs:
   name: good first issue
   link: https://github.com/blixvip/easyedit/labels/good%20first%20issue
+stats:
+  issue-count: 10
+  last-updated: '2026-11-15T23:56:38Z'
+  fork-count: 30

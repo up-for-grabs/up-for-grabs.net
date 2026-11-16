@@ -1,14 +1,19 @@
+---
 name: LocalMind
 desc: Local-first desktop AI chat with document search and visual explanations.
 site: https://github.com/Swarneil1905/LocalMind
 tags:
-  - typescript
-  - reactjs
-  - rust
-  - python
-  - tauri
-  - ai
-  - local-first
+- typescript
+- reactjs
+- rust
+- python
+- tauri
+- ai
+- local-first
 upforgrabs:
   name: good first issue
   link: https://github.com/Swarneil1905/LocalMind/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-11-12T15:32:57Z'
+  fork-count: 6

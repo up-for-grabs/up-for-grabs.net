@@ -1,0 +1,16 @@
+---
+name: MacGet
+desc: A native macOS download manager with adaptive multi-threaded downloads, BitTorrent, and a browser capture extension. SwiftUI app with an actor-based engine; the browser extension is plain JavaScript.
+site: https://github.com/Suryansh-Codes2209/Macget
+tags:
+- swift
+- swiftui
+- macos
+- javascript
+- browser-extension
+- download-manager
+- accessibility
+- testing
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Suryansh-Codes2209/Macget/labels/good%20first%20issue

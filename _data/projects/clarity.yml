@@ -1,0 +1,14 @@
+name: Clarity
+desc: Student mental-wellbeing platform — AI-guided support, mood tracking, peer community, crisis resources. Built for Smart India Hackathon 2025.
+site: https://github.com/AdityaxDeore/Clarity-Mental-Health-AI-assistance
+tags:
+  - javascript
+  - typescript
+  - reactjs
+  - node.js
+  - express
+  - mental-health
+  - hackathon
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AdityaxDeore/Clarity-Mental-Health-AI-assistance/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22

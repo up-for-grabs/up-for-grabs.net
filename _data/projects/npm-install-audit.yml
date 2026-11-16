@@ -1,0 +1,12 @@
+---
+name: npm-install-audit
+desc: Zero-dependency Node.js CLI for reviewing untrusted repositories before npm install.
+site: https://github.com/cryptostrapon/npm-install-audit
+tags:
+- javascript
+- node.js
+- security
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/cryptostrapon/npm-install-audit/labels/good%20first%20issue

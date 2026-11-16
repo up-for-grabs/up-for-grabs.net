@@ -4,8 +4,8 @@ site: https://github.com/AdityaxDeore/Clarity-Mental-Health-AI-assistance
 tags:
   - javascript
   - typescript
-  - react
-  - node
+  - reactjs
+  - node.js
   - express
   - mental-health
   - hackathon

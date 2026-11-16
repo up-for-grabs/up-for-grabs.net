@@ -1,0 +1,15 @@
+---
+name: Keyboard Cheat Codes
+desc: Interactive 3D mechanical keyboard playground, procedural Web Audio switch synthesizer, and developer shortcut trainer.
+site: https://github.com/techkayacodes/keyboard-cheat-codes
+tags:
+- javascript
+- html
+- css
+- web-audio
+- keyboard
+- shortcuts
+- developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/techkayacodes/keyboard-cheat-codes/labels/good%20first%20issue

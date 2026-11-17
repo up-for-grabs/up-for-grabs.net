@@ -1,0 +1,15 @@
+---
+name: solana-ws-keepalive
+desc: >-
+  Solana WebSocket subscriptions that detect a dead feed, reconnect with backoff and resubscribe on their own. Zero dependencies.
+site: https://github.com/blixvip/solana-ws-keepalive
+tags:
+- javascript
+- nodejs
+- solana
+- blockchain
+- websocket
+- realtime
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/solana-ws-keepalive/labels/good%20first%20issue

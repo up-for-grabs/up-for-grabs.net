@@ -1,0 +1,15 @@
+---
+name: solana-swap-parser
+desc: >-
+  Parse any Solana swap transaction into who traded, what was sold and bought, the price and the DEX. Zero dependencies.
+site: https://github.com/blixvip/solana-swap-parser
+tags:
+- javascript
+- nodejs
+- solana
+- blockchain
+- crypto
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/solana-swap-parser/labels/good%20first%20issue

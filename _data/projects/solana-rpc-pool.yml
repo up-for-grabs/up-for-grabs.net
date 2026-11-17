@@ -1,0 +1,15 @@
+---
+name: solana-rpc-pool
+desc: >-
+  A Solana RPC load balancer for Node.js: several endpoints or API keys, each rate limit respected, failover on 429s. Zero dependencies.
+site: https://github.com/blixvip/solana-rpc-pool
+tags:
+- javascript
+- nodejs
+- solana
+- blockchain
+- rpc
+- load-balancer
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/solana-rpc-pool/labels/good%20first%20issue

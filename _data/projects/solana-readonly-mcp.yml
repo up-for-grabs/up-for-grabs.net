@@ -1,0 +1,15 @@
+---
+name: solana-readonly-mcp
+desc: >-
+  Read-only Solana MCP server for Claude, Cursor and other AI agents. Holds no keys, cannot sign. Zero dependencies.
+site: https://github.com/blixvip/solana-readonly-mcp
+tags:
+- javascript
+- nodejs
+- solana
+- mcp
+- ai
+- blockchain
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/solana-readonly-mcp/labels/good%20first%20issue

@@ -1,0 +1,15 @@
+---
+name: solana-rpc-bench
+desc: >-
+  Compare Solana RPC endpoints: latency, slot lag, refused methods and WebSocket start time. Zero dependencies.
+site: https://github.com/blixvip/solana-rpc-bench
+tags:
+- javascript
+- nodejs
+- solana
+- blockchain
+- benchmark
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/solana-rpc-bench/labels/good%20first%20issue

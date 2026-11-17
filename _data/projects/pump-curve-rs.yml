@@ -1,0 +1,14 @@
+---
+name: pump-curve-rs
+desc: >-
+  pump.fun bonding curve math in Rust: decode curves and quote buys and sells exactly. Zero dependencies, no_std.
+site: https://github.com/blixvip/pump-curve-rs
+tags:
+- rust
+- solana
+- blockchain
+- crypto
+- no-std
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/pump-curve-rs/labels/good%20first%20issue

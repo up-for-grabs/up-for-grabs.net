@@ -1,0 +1,15 @@
+---
+name: solana-priority-fee
+desc: >-
+  Solana priority fee estimator from any RPC, scoped to the accounts your transaction writes, plus Compute Budget instruction bytes. Zero dependencies.
+site: https://github.com/blixvip/solana-priority-fee
+tags:
+- javascript
+- nodejs
+- solana
+- blockchain
+- crypto
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/solana-priority-fee/labels/good%20first%20issue

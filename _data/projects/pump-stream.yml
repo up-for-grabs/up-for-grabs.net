@@ -1,0 +1,15 @@
+---
+name: pump-stream
+desc: >-
+  Live pump.fun launches and trades decoded from Solana logs over one WebSocket. No API key, zero dependencies.
+site: https://github.com/blixvip/pump-stream
+tags:
+- javascript
+- nodejs
+- solana
+- blockchain
+- websocket
+- realtime
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixvip/pump-stream/labels/good%20first%20issue

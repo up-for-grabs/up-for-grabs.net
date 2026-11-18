@@ -5,7 +5,7 @@ site: https://github.com/emreocell/Praxi-Bot
 tags:
 - rust
 - tauri
-- react
+- reactjs
 - typescript
 - ai
 - automation

@@ -1,0 +1,12 @@
+---
+name: CodeFusion
+desc: A Windows-oriented launcher and workspace for the Fusion superproject, with a registry-driven desktop shell for its project components.
+site: https://github.com/origin-labs-ai/code
+tags:
+  - ai
+  - electron
+  - ide
+  - typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/origin-labs-ai/code/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

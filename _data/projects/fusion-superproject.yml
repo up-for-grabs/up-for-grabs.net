@@ -1,0 +1,15 @@
+---
+name: Fusion Superproject
+desc: The umbrella superproject unifying Transformers-Fusion, a C++20 quantization engine, and CodeFusion, its Windows launcher and workspace.
+site: https://github.com/origin-labs-ai/fusion
+tags:
+  - c++
+  - cpp
+  - deep-learning
+  - inference
+  - llm
+  - machine-learning
+  - quantization
+upforgrabs:
+  name: good first issue
+  link: https://github.com/origin-labs-ai/fusion/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

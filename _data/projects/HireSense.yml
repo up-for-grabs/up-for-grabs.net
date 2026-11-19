@@ -1,0 +1,12 @@
+name: HireSense
+desc: AI recruitment helper - upload a resume, get AI feedback on how well it matches a job. React + Express + Gemini, no database, no login.
+site: https://github.com/khizzcr7/HireSense
+tags:
+  - javascript
+  - react
+  - node
+  - express
+  - ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/khizzcr7/HireSense/labels/good%20first%20issue

@@ -1,0 +1,16 @@
+---
+name: Solana Wallet Tracker
+desc: >-
+  Follow any Solana wallets and see every token buy and sell they make, decoded from their on-chain transactions, with optional Discord alerts.
+site: https://github.com/blixtrade/solana-wallet-tracker
+tags:
+- solana
+- blockchain
+- cryptocurrency
+- javascript
+- nodejs
+- cli
+- discord
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixtrade/solana-wallet-tracker/labels/good%20first%20issue

@@ -1,0 +1,14 @@
+name: kidvo
+desc: Free, open-source browser games that help children aged 7 to 13 use AI wisely and keep thinking for themselves. Plain HTML and JavaScript with no build step; translations need no coding.
+site: https://github.com/AlparKacso/kidvo
+tags:
+  - javascript
+  - html
+  - education
+  - game
+  - children
+  - translation
+  - ai-literacy
+upforgrabs:
+  name: good first issue
+  link: https://github.com/AlparKacso/kidvo/labels/good%20first%20issue

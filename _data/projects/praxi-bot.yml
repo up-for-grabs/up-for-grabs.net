@@ -1,0 +1,28 @@
+name: Praxi-Bot
+desc: Local-first AI agent platform in Rust and Tauri, with permission-gated desktop automation and local or cloud LLMs.
+site: https://github.com/emreocell/Praxi-Bot
+tags:
+  - rust
+  - tauri
+  - typescript
+  - ai
+  - llm
+  - local-first
+  - desktop
+  - automation
+  - self-hosted
+upforgrabs:
+  name: good first issue
+  link: https://github.com/emreocell/Praxi-Bot/labels/good%20first%20issue
+
+
+
+
+
+
+
+
+
+
+
+

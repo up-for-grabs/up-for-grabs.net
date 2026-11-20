@@ -1,0 +1,14 @@
+name: One Meal Forward
+desc: An open-source initiative building accessible technology to support food security, community volunteering, and collaboration.
+site: https://gsel001.github.io/one-meal-forward/
+tags:
+  - javascript
+  - html
+  - css
+  - accessibility
+  - food-security
+  - volunteering
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/gsel001/one-meal-forward/labels/good%20first%20issue

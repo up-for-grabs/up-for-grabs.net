@@ -23,6 +23,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/open-telemetry/opentelemetry-operator/labels/good%20first%20issue
 stats:
-  issue-count: 7
-  last-updated: '2026-11-12T20:55:55Z'
-  fork-count: 697
+  issue-count: 6
+  last-updated: '2026-11-12T20:55:52Z'
+  fork-count: 700

@@ -1,0 +1,27 @@
+name: mnema
+desc: The decision record for AI coding agents. Append-only and signed in the repository, and checkable by anyone.
+site: https://github.com/mnema-work/mnema
+tags:
+- adr
+- agent-governance
+- agent-memory
+- ai-governance
+- append-only
+- architecture-decision-records
+- audit-trail
+- claude-code
+- claude-code-plugin
+- codex
+- coding-agents
+- decision-records
+- gemini-cli
+- github-copilot
+- guardrails
+- hash-chain
+- mcp
+- mcp-server
+- opencode
+- tamper-evident
+upforgrabs:
+  name: good first issue
+  link: https://github.com/mnema-work/mnema/labels/good%20first%20issue

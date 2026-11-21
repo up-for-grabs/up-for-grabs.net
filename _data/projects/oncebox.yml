@@ -1,0 +1,22 @@
+---
+name: oncebox
+desc: >-
+  Spring Boot outbox and inbox starter for Kafka and RabbitMQ on PostgreSQL, MySQL and Oracle - reliable
+  event publishing and deduplication of redelivered messages
+site: https://github.com/dmitriy-iliyov/oncebox
+tags:
+- java
+- spring-boot
+- kafka
+- rabbitmq
+- transactional-outbox
+- outbox-pattern
+- microservices
+- event-driven
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dmitriy-iliyov/oncebox/labels/up-for-grabs
+stats:
+  issue-count: 1
+  last-updated: '2026-11-15T16:52:07Z'
+  fork-count: 7

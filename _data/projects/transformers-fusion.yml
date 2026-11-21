@@ -1,0 +1,21 @@
+---
+name: TransFormers-Fusion
+desc: An experimental C++20 engine for language-model training, fine-tuning, quantization, and inference.
+site: https://github.com/origin-labs-ai/transformers-fusion
+tags:
+- c++
+- cpp
+- deep-learning
+- inference
+- llm
+- machine-learning
+- quantization
+- training
+upforgrabs:
+  name: good first issue
+  link: >-
+    https://github.com/origin-labs-ai/transformers-fusion/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+stats:
+  issue-count: 4
+  last-updated: '2026-11-04T13:56:36Z'
+  fork-count: 0

@@ -1,0 +1,19 @@
+---
+name: payband-mcp
+desc: >-
+  An MCP server that reads published salary bands off public job boards (Greenhouse, Ashby, Lever, SmartRecruiters,
+  Workday), per seniority and per currency, so an assistant can say what a role actually pays.
+site: https://github.com/dheerajjha/payband-mcp
+tags:
+- python
+- mcp
+- ai
+- api
+- salary
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/dheerajjha/payband-mcp/labels/up-for-grabs
+stats:
+  issue-count: 4
+  last-updated: '2026-11-08T13:41:17Z'
+  fork-count: 6

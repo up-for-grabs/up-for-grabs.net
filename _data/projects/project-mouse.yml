@@ -1,0 +1,20 @@
+---
+name: project-mouse
+desc: >-
+  A Windows tray app in Rust and Tauri that keeps the PC awake and nudges the mouse after idle time. An
+  open alternative to Move Mouse.
+site: https://github.com/kalanadidulanga/project-mouse
+tags:
+- rust
+- tauri
+- reactjs
+- typescript
+- windows
+- desktop
+upforgrabs:
+  name: good first issue
+  link: https://github.com/kalanadidulanga/project-mouse/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2026-10-31T09:30:55Z'
+  fork-count: 0

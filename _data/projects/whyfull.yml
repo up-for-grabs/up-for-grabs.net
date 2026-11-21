@@ -1,0 +1,22 @@
+---
+name: whyfull
+desc: >-
+  Finds out why a Linux disk is full and prints the command that frees each thing it finds. Each check
+  is one small Python file, tested against a fake filesystem, so new contributors can add one without
+  needing a full disk.
+site: https://github.com/amlaban65/whyfull
+tags:
+- python
+- linux
+- cli
+- sysadmin
+- devops
+- docker
+- kubernetes
+upforgrabs:
+  name: good first issue
+  link: https://github.com/amlaban65/whyfull/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-11-03T21:11:07Z'
+  fork-count: 8

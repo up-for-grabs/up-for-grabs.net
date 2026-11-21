@@ -1,0 +1,21 @@
+---
+name: Alchemist Coder
+desc: >-
+  A free, open-source desktop app (Electron, TypeScript, React) for coding agents like Claude Code, Codex
+  and Gemini CLI, with a searchable local history of their sessions. Ships in 11 languages.
+site: https://github.com/Alekla0126/alchemist-coder
+tags:
+- typescript
+- electron
+- reactjs
+- desktop
+- ai
+- i18n
+- accessibility
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Alekla0126/alchemist-coder/labels/good%20first%20issue
+stats:
+  issue-count: 5
+  last-updated: '2026-10-16T04:12:07Z'
+  fork-count: 0

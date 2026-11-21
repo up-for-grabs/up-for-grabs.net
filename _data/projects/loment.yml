@@ -1,0 +1,19 @@
+---
+name: Loment
+desc: >-
+  A systems programming language targeting bare-metal x86-64 with no runtime and no libc, whose compiler
+  driver is written in the language itself.
+site: https://fujojtop.github.io/loment-site/
+tags:
+- oss
+- systems
+- language
+- compiler
+- rust
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/Loment-Lang/Loment/labels/up-for-grabs
+stats:
+  issue-count: 2
+  last-updated: '2026-10-20T18:27:13Z'
+  fork-count: 6

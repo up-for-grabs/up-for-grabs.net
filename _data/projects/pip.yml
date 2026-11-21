@@ -1,0 +1,22 @@
+---
+name: Pip
+desc: >-
+  Single-player Texas Hold'em in the browser: a poker engine, an AI opponent and a PWA, all in TypeScript.
+  Play money only, no ads, no accounts required. The engine is pure and unit-tested, so a rules change
+  is a test change.
+site: https://playpip.io
+tags:
+- typescript
+- javascript
+- reactjs
+- nextjs
+- game
+- pwa
+- poker
+upforgrabs:
+  name: good first issue
+  link: https://github.com/playpip/pip-web/labels/good%20first%20issue
+stats:
+  issue-count: 2
+  last-updated: '2026-07-25T11:07:44Z'
+  fork-count: 13

@@ -27,6 +27,10 @@ updates:
           - 'eslint-*'
           - '@eslint/*'
           - '@typescript-eslint/*'
+      vitest:
+        patterns:
+          - 'vitest'
+          - '@vitest/*'
   - package-ecosystem: bundler
     directory: '/'
     schedule:

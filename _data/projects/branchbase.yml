@@ -1,0 +1,20 @@
+---
+name: BranchBase
+desc: Zero-config, Git-native local database branching for PostgreSQL, MySQL, and SQLite.
+site: https://github.com/oscarbol09/branchbase
+tags:
+- go
+- database
+- postgres
+- sqlite
+- docker
+- git
+- cli
+- developer-tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/oscarbol09/branchbase/labels/good%20first%20issue
+stats:
+  issue-count: 10
+  last-updated: '2026-11-14T21:06:31Z'
+  fork-count: 17

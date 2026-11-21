@@ -1,0 +1,21 @@
+---
+name: ZENOS
+desc: >-
+  Open-source desktop OS (Debian 13 + KDE Plasma) that aims to keep information and data from leaking
+  by building the protection into the OS itself. Its access and data-flow decisions are proved in Lean
+  4. Unaudited developer preview; good first issues are documentation tasks.
+site: https://github.com/zenos-org/zenos
+tags:
+- operating-system
+- linux
+- lean4
+- formal-verification
+- privacy
+- python
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/zenos-org/zenos/labels/good%20first%20issue
+stats:
+  issue-count: 0
+  fork-count: 10

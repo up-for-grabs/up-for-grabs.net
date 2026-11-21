@@ -1,0 +1,19 @@
+---
+name: FindingGPT
+desc: >-
+  Open-source browser prototype for missing-person search training, with synthetic evidence intake, public
+  maps, and tabletop exercises.
+site: https://github.com/beingarjun/finding-gpt
+tags:
+- javascript
+- html
+- css
+- accessibility
+- civic-tech
+upforgrabs:
+  name: good first issue
+  link: https://github.com/beingarjun/finding-gpt/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-11-14T21:41:17Z'
+  fork-count: 0

@@ -1,0 +1,27 @@
+
+---
+name: GLAFIRA AI Hub
+desc: >-
+  An open-source personal AI platform connecting Android and Windows around
+  an owner-controlled assistant. GLAFIRA is being built to coordinate tasks
+  across devices, integrate multiple AI providers, and provide reliable local
+  memory, secure device pairing, and recoverable personal data. We welcome
+  contributors interested in Kotlin, Android, Windows, distributed systems,
+  AI integrations, databases, and security. Small, well-scoped contributions
+  are available, with maintainers ready to review pull requests and help new
+  contributors get started.
+site: https://github.com/micronizationlab/glafira-ai-hub
+tags:
+- ai
+- android
+- kotlin
+- windows
+- csharp
+- agents
+- security
+- sqlite
+- distributed-systems
+- open-source
+upforgrabs:
+  name: help wanted
+  link: https://github.com/micronizationlab/glafira-ai-hub/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22

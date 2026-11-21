@@ -1,0 +1,14 @@
+name: Nexy
+desc: Python web framework built on FastAPI and Vite, with file-based routes, layouts and islands in React, Vue, Svelte, Solid or Preact
+site: https://github.com/NexyPy/nexy
+tags:
+  - python
+  - fastapi
+  - vite
+  - web-framework
+  - react
+  - vue
+  - svelte
+upforgrabs:
+  name: good first issue
+  link: https://github.com/NexyPy/nexy/labels/good%20first%20issue

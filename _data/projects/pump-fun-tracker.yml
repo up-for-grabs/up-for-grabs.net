@@ -1,0 +1,16 @@
+---
+name: pump.fun Tracker
+desc: >-
+  Live terminal feed of every new pump.fun token launch on Solana as it is created, with the developer's own buy, market cap and name filters, over a free websocket.
+site: https://github.com/blixtrade/pump-fun-tracker
+tags:
+- solana
+- blockchain
+- cryptocurrency
+- javascript
+- node.js
+- cli
+- websocket
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixtrade/pump-fun-tracker/labels/good%20first%20issue

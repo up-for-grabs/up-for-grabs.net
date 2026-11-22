@@ -9,4 +9,4 @@ tags:
   - mcp
 upforgrabs:
   name: good first issue
-  link: https://github.com/ClickHouse/loom/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22%20no%3Aassignee
+  link: https://github.com/ClickHouse/loom/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22%20no%3Aassignee%20-linked%3Apr

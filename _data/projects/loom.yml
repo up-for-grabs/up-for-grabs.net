@@ -1,0 +1,12 @@
+name: Loom
+desc: Memory, document search and code evidence for AI agents, built on ClickHouse.
+site: https://github.com/ClickHouse/loom
+tags:
+  - python
+  - typescript
+  - clickhouse
+  - ai-agents
+  - mcp
+upforgrabs:
+  name: up-for-grabs
+  link: https://github.com/ClickHouse/loom/issues?q=is%3Aissue%20is%3Aopen%20label%3Aup-for-grabs%20no%3Aassignee

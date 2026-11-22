@@ -1,0 +1,8 @@
+name: TypeCoach
+desc: A browser-based typing trainer with WPM, accuracy and error tracking.
+site: https://github.com/DhanushNehru/TypeCoach
+tags:
+- typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/TypeCoach/labels/good%20first%20issue

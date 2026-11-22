@@ -1,0 +1,8 @@
+name: TetraChess
+desc: A real-time four-player chess variant for the web.
+site: https://github.com/DhanushNehru/TetraChess
+tags:
+- typescript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/TetraChess/labels/good%20first%20issue

@@ -1,0 +1,8 @@
+name: focus-feed
+desc: A single blog for multiple topics.
+site: https://github.com/DhanushNehru/focus-feed
+tags:
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/focus-feed/labels/good%20first%20issue

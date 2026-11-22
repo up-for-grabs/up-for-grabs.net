@@ -1,0 +1,8 @@
+name: ciraft
+desc: An AI-powered CI/CD pipeline generator.
+site: https://github.com/DhanushNehru/ciraft
+tags:
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/ciraft/labels/good%20first%20issue

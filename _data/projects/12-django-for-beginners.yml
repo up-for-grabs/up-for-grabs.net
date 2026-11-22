@@ -1,0 +1,8 @@
+name: Django-for-Beginners
+desc: A collection of introductory Django projects.
+site: https://github.com/DhanushNehru/Django-for-Beginners
+tags:
+- python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/Django-for-Beginners/labels/good%20first%20issue

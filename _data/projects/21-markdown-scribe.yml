@@ -1,0 +1,8 @@
+name: markdown-scribe
+desc: A Markdown renderer and editor written in Rust.
+site: https://github.com/DhanushNehru/markdown-scribe
+tags:
+- rust
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/markdown-scribe/labels/good%20first%20issue

@@ -1,0 +1,8 @@
+name: relay
+desc: A reverse proxy written in Zig.
+site: https://github.com/DhanushNehru/relay
+tags:
+- zig
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/relay/labels/good%20first%20issue

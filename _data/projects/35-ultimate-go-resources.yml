@@ -1,0 +1,8 @@
+name: Ultimate-Go-Resources
+desc: A collection of Go projects and learning resources.
+site: https://github.com/DhanushNehru/Ultimate-Go-Resources
+tags:
+- go
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/Ultimate-Go-Resources/labels/good%20first%20issue

@@ -1,0 +1,8 @@
+name: find_hash
+desc: Identify possible hash types.
+site: https://github.com/DhanushNehru/find_hash
+tags:
+- rust
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/find_hash/labels/good%20first%20issue

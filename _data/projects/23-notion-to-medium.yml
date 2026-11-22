@@ -1,0 +1,8 @@
+name: notion-to-medium
+desc: Convert Notion pages to Medium blog posts.
+site: https://github.com/DhanushNehru/notion-to-medium
+tags:
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/notion-to-medium/labels/good%20first%20issue

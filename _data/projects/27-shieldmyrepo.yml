@@ -1,0 +1,8 @@
+name: ShieldMyRepo
+desc: Scan GitHub repositories for security issues.
+site: https://github.com/DhanushNehru/ShieldMyRepo
+tags:
+- python
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/ShieldMyRepo/labels/good%20first%20issue

@@ -1,0 +1,8 @@
+name: jev-sec-audit
+desc: An AI supply-chain security auditor for detecting suspicious packages and scripts.
+site: https://github.com/DhanushNehru/jev-sec-audit
+tags:
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/jev-sec-audit/labels/good%20first%20issue

@@ -1,0 +1,8 @@
+name: CustomCodeEditor
+desc: A web-based editor for writing, testing and executing code in multiple languages.
+site: https://github.com/DhanushNehru/CustomCodeEditor
+tags:
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/CustomCodeEditor/labels/good%20first%20issue

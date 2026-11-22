@@ -1,0 +1,13 @@
+---
+name: API Cupboard
+desc: A local cupboard for API keys. Store each key once in the OS keychain and use it in any project through env injection or a localhost proxy, with no .env files. Go, single binary, Windows and Linux.
+site: https://github.com/The-Pulse-Engine/API-Cupboard
+tags:
+- go
+- security
+- cli
+- windows
+- linux
+upforgrabs:
+  name: good first issue
+  link: https://github.com/The-Pulse-Engine/API-Cupboard/labels/good%20first%20issue

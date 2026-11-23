@@ -1,0 +1,15 @@
+---
+name: Memecoin Paper Trading
+desc: >-
+  Practise Solana token trading with fake SOL at real prices: buys and sells are filled at live Jupiter quotes, including price impact, and the portfolio is kept on disk.
+site: https://github.com/blixtrade/memecoin-paper-trading
+tags:
+- solana
+- blockchain
+- cryptocurrency
+- javascript
+- node.js
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixtrade/memecoin-paper-trading/labels/good%20first%20issue

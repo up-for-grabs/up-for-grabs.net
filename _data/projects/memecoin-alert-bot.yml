@@ -1,0 +1,17 @@
+---
+name: Memecoin Alert Bot
+desc: >-
+  Telegram and Discord alerts for new pump.fun launches and bonding-curve graduations on Solana, filtered by developer buy and name and checked for holder concentration first.
+site: https://github.com/blixtrade/memecoin-alert-bot
+tags:
+- solana
+- blockchain
+- cryptocurrency
+- javascript
+- node.js
+- telegram
+- discord
+- bot
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixtrade/memecoin-alert-bot/labels/good%20first%20issue

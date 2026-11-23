@@ -1,0 +1,16 @@
+---
+name: pump.fun MCP Server
+desc: >-
+  A Model Context Protocol server giving Claude, Cursor and other AI assistants six read-only Solana token research tools: token info, rug check, top holders, a screener, whale trades and wallet trades.
+site: https://github.com/blixtrade/pump-fun-mcp
+tags:
+- solana
+- blockchain
+- cryptocurrency
+- javascript
+- node.js
+- mcp
+- ai
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixtrade/pump-fun-mcp/labels/good%20first%20issue

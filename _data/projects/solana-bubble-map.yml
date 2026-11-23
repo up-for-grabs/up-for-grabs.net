@@ -1,0 +1,16 @@
+---
+name: Solana Bubble Map
+desc: >-
+  Holder bubble map for any Solana or pump.fun token: the top holders sized by share of supply, with wallets that share a funder grouped and coloured together, written out as a self-contained interactive HTML page.
+site: https://github.com/blixtrade/solana-bubble-map
+tags:
+- solana
+- blockchain
+- cryptocurrency
+- javascript
+- node.js
+- cli
+- data-visualization
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixtrade/solana-bubble-map/labels/good%20first%20issue

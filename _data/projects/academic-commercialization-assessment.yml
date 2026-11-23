@@ -1,0 +1,15 @@
+name: Academic Commercialization Assessment
+desc: AI multi-agent tool that turns a research paper into a cited commercialization assessment (TRL, patent landscape, market and risks). Python, CrewAI and FastAPI, with a reproducible benchmark.
+site: https://github.com/shuxiachai/academic-commercialization-agent
+tags:
+  - python
+  - ai
+  - ai-agents
+  - multi-agent
+  - llm
+  - fastapi
+  - crewai
+  - research
+upforgrabs:
+  name: good first issue
+  link: https://github.com/shuxiachai/academic-commercialization-agent/labels/good%20first%20issue

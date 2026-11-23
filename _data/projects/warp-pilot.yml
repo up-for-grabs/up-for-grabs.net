@@ -1,0 +1,12 @@
+name: Warp Pilot
+desc: An open, verified search for positive-energy warp metrics — help independently re-run the energy-condition audits of two verified warp shells, reproduce the quantum-inequality ledger, or attack two open research problems (the beta=0.1 tail wall, a background-re-solved shell).
+site: https://github.com/RakTikoo/warp-pilot
+tags:
+- physics
+- general-relativity
+- python
+- numpy
+- verification
+upforgrabs:
+  name: help wanted
+  link: https://github.com/RakTikoo/warp-pilot/labels/help%20wanted

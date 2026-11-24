@@ -3,8 +3,8 @@ desc: AI recruitment helper - upload a resume, get AI feedback on how well it ma
 site: https://github.com/khizzcr7/HireSense
 tags:
   - javascript
-  - react
-  - node
+  - reactjs
+  - node.js
   - express
   - ai
 upforgrabs:

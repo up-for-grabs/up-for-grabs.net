@@ -1,0 +1,19 @@
+---
+name: Tailor-test
+desc: >-
+  Free, open-source PWA to practise multiple-choice exams on any subject (civil service exams, aptitude
+  tests, languages). React + TypeScript, offline-first. UI in Spanish; beginner-friendly tasks, including
+  no-code ones (question banks, translations).
+site: https://github.com/Crustaxis/Exam_producer
+tags:
+- javascript
+- typescript
+- react
+- pwa
+- education
+- quiz
+- spanish
+- beginner
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Crustaxis/Exam_producer/labels/good%20first%20issue

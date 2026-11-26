@@ -1,0 +1,12 @@
+name: Zelo
+desc: Multi-tenant SaaS foundation built with TypeScript, NestJS and React, with pluggable business modules.
+site: https://github.com/JinPen-G/Zelo
+tags:
+  - typescript
+  - nestjs
+  - react
+  - saas
+  - documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/JinPen-G/Zelo/labels/good%20first%20issue

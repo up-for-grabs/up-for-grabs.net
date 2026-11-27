@@ -1,0 +1,13 @@
+---
+name: env-saaf
+desc: 'Zero-dependency .env validator for Node.js: typed values, all errors at once, code-vs-.env.example diff CLI, secret masking.'
+site: https://github.com/abhi478jeetur-rgb/env-saaf
+tags:
+- javascript
+- node.js
+- cli
+- dotenv
+- validation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/abhi478jeetur-rgb/env-saaf/labels/good%20first%20issue

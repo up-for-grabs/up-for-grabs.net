@@ -1,6 +1,8 @@
 ---
 name: Praxi-Bot
-desc: A local-first, self-hosted AI agent platform for desktop automation, workflows, and local or cloud LLMs, built with Rust and Tauri.
+desc: >-
+  A local-first, self-hosted AI agent platform for desktop automation, workflows, and local or cloud LLMs,
+  built with Rust and Tauri.
 site: https://github.com/emreocell/Praxi-Bot
 tags:
 - rust
@@ -14,3 +16,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/emreocell/Praxi-Bot/labels/good%20first%20issue
+stats:
+  issue-count: 14
+  last-updated: '2026-11-24T15:20:50Z'
+  fork-count: 33

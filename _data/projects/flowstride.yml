@@ -1,13 +1,19 @@
 ---
 name: Flowstride
-desc: Write browser and API tests in readable .flow files, run them locally or in CI, and follow execution in a live dashboard.
+desc: >-
+  Write browser and API tests in readable .flow files, run them locally or in CI, and follow execution
+  in a live dashboard.
 site: https://github.com/heroamogs/flowstride
 tags:
-  - typescript
-  - javascript
-  - testing
-  - test-automation
-  - playwright
+- typescript
+- javascript
+- testing
+- test-automation
+- playwright
 upforgrabs:
   name: good first issue
   link: https://github.com/heroamogs/flowstride/labels/good%20first%20issue
+stats:
+  issue-count: 1
+  last-updated: '2026-11-20T13:14:57Z'
+  fork-count: 2

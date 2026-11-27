@@ -1,6 +1,8 @@
 ---
 name: Logos
-desc: 'A prefix-form language for AI readers: every allocation, fallible call and release is visible in the source, and logosc compiles it to native Linux binaries with machine-readable diagnostics.'
+desc: >-
+  A prefix-form language for AI readers: every allocation, fallible call and release is visible in the
+  source, and logosc compiles it to native Linux binaries with machine-readable diagnostics.
 site: https://github.com/abaddon/logos
 tags:
 - ai
@@ -11,3 +13,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/abaddon/logos/labels/good%20first%20issue
+stats:
+  issue-count: 14
+  last-updated: '2026-11-19T08:39:36Z'
+  fork-count: 2

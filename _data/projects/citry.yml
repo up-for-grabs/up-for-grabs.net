@@ -1,15 +1,22 @@
+---
 name: Citry
-desc: Safe, fast, and smart Python frontend - typed components with server events and Vue. Works with Django, FastAPI and Flask.
+desc: >-
+  Safe, fast, and smart Python frontend - typed components with server events and Vue. Works with Django,
+  FastAPI and Flask.
 site: https://github.com/citry-dev/citry
 tags:
-  - python
-  - rust
-  - vue
-  - django
-  - fastapi
-  - flask
-  - frontend
-  - web
+- python
+- rust
+- vue
+- django
+- fastapi
+- flask
+- frontend
+- web
 upforgrabs:
   name: good first issue
   link: https://github.com/citry-dev/citry/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-11-22T21:44:24Z'
+  fork-count: 2

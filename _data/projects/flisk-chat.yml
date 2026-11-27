@@ -1,7 +1,8 @@
+---
 name: Flisk Chat
 desc: >-
-  Ask for a task or a website in plain words. A free model plans it and a computer from the Flisk fleet does it.
-  A Cloudflare Worker with a browser page, written in JavaScript.
+  Ask for a task or a website in plain words. A free model plans it and a computer from the Flisk fleet
+  does it. A Cloudflare Worker with a browser page, written in JavaScript.
 site: https://github.com/flisk-sh/chat
 tags:
 - javascript
@@ -12,3 +13,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/flisk-sh/chat/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2026-11-22T01:51:11Z'
+  fork-count: 5

@@ -1,8 +1,8 @@
 ---
 name: Turnloom
 desc: >-
-  A small coding agent for the terminal whose context you can inspect. Folded tool output stays
-  recoverable, edits are diffs you approve and can undo. Python, standard library plus one dependency.
+  A small coding agent for the terminal whose context you can inspect. Folded tool output stays recoverable,
+  edits are diffs you approve and can undo. Python, standard library plus one dependency.
 site: https://github.com/bhaskargurram-ai/turnloom
 tags:
 - python
@@ -13,3 +13,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/bhaskargurram-ai/turnloom/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2026-11-19T17:19:21Z'
+  fork-count: 2

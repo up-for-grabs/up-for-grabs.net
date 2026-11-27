@@ -1,0 +1,22 @@
+---
+name: AppBridge
+desc: >-
+  A Rust-powered universal application portability engine for running, converting and managing software
+  across Linux, Windows and macOS.
+site: https://github.com/Kolgrim33/appbridge
+tags:
+- rust
+- linux
+- windows
+- macos
+- cli
+- package-manager
+- virtualization
+- systems-programming
+upforgrabs:
+  name: good first issue
+  link: https://github.com/Kolgrim33/appbridge/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-11-21T01:20:05Z'
+  fork-count: 1

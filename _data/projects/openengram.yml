@@ -1,12 +1,19 @@
+---
 name: OpenEngram
-desc: Open-source, community-built research on dementia (EEG, tau spread, drug repurposing, speech). Research only, not a medical device.
+desc: >-
+  Open-source, community-built research on dementia (EEG, tau spread, drug repurposing, speech). Research
+  only, not a medical device.
 site: https://github.com/LorDave1/openengram
 tags:
-  - python
-  - machine-learning
-  - neuroscience
-  - healthcare
-  - research
+- python
+- machine-learning
+- neuroscience
+- healthcare
+- research
 upforgrabs:
   name: good first issue
   link: https://github.com/LorDave1/openengram/labels/good%20first%20issue
+stats:
+  issue-count: 6
+  last-updated: '2026-11-16T13:02:38Z'
+  fork-count: 0

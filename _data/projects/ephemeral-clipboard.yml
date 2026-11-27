@@ -1,0 +1,19 @@
+---
+name: Ephemeral Clipboard
+desc: >-
+  Send a secret from one computer to another. End-to-end encrypted, read once, then gone. Short word codes
+  secured by SPAKE2, a RAM-only relay, and auto-clear of the clipboard. Python, Windows and Linux.
+site: https://github.com/The-Pulse-Engine/Ephemeral-clipboard
+tags:
+- python
+- security
+- encryption
+- cli
+- cryptography
+upforgrabs:
+  name: good first issue
+  link: https://github.com/The-Pulse-Engine/Ephemeral-clipboard/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-11-22T10:09:02Z'
+  fork-count: 1

@@ -1,0 +1,21 @@
+---
+name: Trina AX
+desc: >-
+  Self-hosted team workspace that runs Claude Code and Codex on shared company files and team skills,
+  with per-person folder permissions
+site: https://github.com/trina-app/trina-ax
+tags:
+- typescript
+- claude-code
+- codex
+- mcp
+- self-hosted
+- accessibility
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/trina-app/trina-ax/labels/good%20first%20issue
+stats:
+  issue-count: 7
+  last-updated: '2026-11-24T23:09:27Z'
+  fork-count: 37

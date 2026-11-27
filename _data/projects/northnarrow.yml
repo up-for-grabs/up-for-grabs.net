@@ -1,0 +1,15 @@
+---
+name: NorthNarrow
+desc: An open-source endpoint detection and response (EDR) agent for Linux, written in Rust with eBPF and BPF-LSM. Its first alpha is observe-only; good first issues include walking through the tester guide on a fresh VM and testing the .rpm on RPM-based distributions.
+site: https://github.com/northnarrow/northnarrow-new
+tags:
+- rust
+- linux
+- ebpf
+- security
+- edr
+- testing
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/northnarrow/northnarrow-new/labels/good%20first%20issue

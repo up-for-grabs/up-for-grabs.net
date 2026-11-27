@@ -1,0 +1,20 @@
+---
+name: PQ-Proof
+desc: >-
+  Offline check that a post-quantum cryptography migration is finished, with evidence anyone can recompute.
+  Small tasks include mapping reviews that need PQC experience but no code.
+site: https://github.com/g1mn/pqproof
+tags:
+- python
+- security
+- cryptography
+- post-quantum
+- cbom
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/g1mn/pqproof/labels/good%20first%20issue
+stats:
+  issue-count: 12
+  last-updated: '2026-11-26T07:29:03Z'
+  fork-count: 3

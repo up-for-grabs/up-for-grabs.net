@@ -1,0 +1,19 @@
+---
+name: OnlyRead
+desc: >-
+  Read-only mode for AI browser agents - a Chrome extension that refuses write requests (send, post, edit,
+  delete) on guarded sites before they leave the browser
+site: https://github.com/onlyreadai/onlyread
+tags:
+- browser-extension
+- chrome
+- typescript
+- ai-agents
+- security
+upforgrabs:
+  name: good first issue
+  link: https://github.com/onlyreadai/onlyread/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-11-26T22:32:49Z'
+  fork-count: 16

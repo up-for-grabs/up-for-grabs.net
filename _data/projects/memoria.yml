@@ -1,0 +1,25 @@
+---
+name: Memoria
+desc: >-
+  Local-first memory for AI coding tools. Captures Claude Code, Codex, Gemini CLI, Copilot and Cursor
+  sessions and serves recall, per-file context and a session resume block over MCP. Beginner tasks include
+  CLI polish, translations and English comments for older files.
+site: https://github.com/xinzzu/Memoria
+tags:
+- typescript
+- javascript
+- node.js
+- electron
+- sqlite
+- mcp
+- ai
+- developer-tools
+- translation
+- documentation
+upforgrabs:
+  name: good first issue
+  link: https://github.com/xinzzu/Memoria/labels/good%20first%20issue
+stats:
+  issue-count: 4
+  last-updated: '2026-11-27T10:37:17Z'
+  fork-count: 4

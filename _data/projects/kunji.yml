@@ -1,5 +1,9 @@
+---
 name: Kunji
-desc: Chat with any AI model (OpenAI, Claude, Gemini, Groq, Ollama and more) from one terminal using your own API keys, with a live cost meter for every answer. Python CLI with a friendly codebase, mentored good first issues in tests, docs, new providers and UI, and fast reviews.
+desc: >-
+  Chat with any AI model (OpenAI, Claude, Gemini, Groq, Ollama and more) from one terminal using your
+  own API keys, with a live cost meter for every answer. Python CLI with a friendly codebase, mentored
+  good first issues in tests, docs, new providers and UI, and fast reviews.
 site: https://github.com/testwithsuraj/kunji
 tags:
 - python
@@ -15,3 +19,7 @@ tags:
 upforgrabs:
   name: good first issue
   link: https://github.com/testwithsuraj/kunji/labels/good%20first%20issue
+stats:
+  issue-count: 36
+  last-updated: '2026-11-10T17:37:56Z'
+  fork-count: 6

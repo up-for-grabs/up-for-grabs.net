@@ -11,5 +11,6 @@ upforgrabs:
   name: good starter task
   link: https://github.com/helmetjs/helmet/labels/good%20starter%20task
 stats:
-  issue-count: 0
-  fork-count: 413
+  issue-count: 1
+  last-updated: '2026-11-23T14:31:11Z'
+  fork-count: 417

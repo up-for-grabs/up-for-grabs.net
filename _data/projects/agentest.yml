@@ -1,0 +1,23 @@
+---
+name: AiEnsured agentest
+desc: >-
+  AiEnsured agentest is an Agentic AI Testing platform. It checks what an AI agent actually did, not only
+  what it said, by reading recorded OpenTelemetry traces. The checks are deterministic and run offline
+  (pass, fail or n/a, with no model calls and no API keys). Each check is a small Python rule with a passing
+  and a failing example trace, so a first contribution is often one rule or one fixture.
+site: https://github.com/srpadmanabhuni/agentest
+tags:
+- python
+- ai
+- ai-agents
+- testing
+- llm
+- opentelemetry
+- mcp
+upforgrabs:
+  name: good first issue
+  link: https://github.com/srpadmanabhuni/agentest/labels/good%20first%20issue
+stats:
+  issue-count: 19
+  last-updated: '2026-11-27T09:22:34Z'
+  fork-count: 34

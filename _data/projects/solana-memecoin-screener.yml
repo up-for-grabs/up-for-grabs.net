@@ -1,0 +1,20 @@
+---
+name: Solana Memecoin Screener
+desc: >-
+  Screen trending, new and boosted Solana tokens from the terminal, filtered by liquidity, market cap,
+  volume, age and buyer count.
+site: https://github.com/blixtrade/solana-memecoin-screener
+tags:
+- solana
+- blockchain
+- cryptocurrency
+- javascript
+- node.js
+- cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/blixtrade/solana-memecoin-screener/labels/good%20first%20issue
+stats:
+  issue-count: 3
+  last-updated: '2026-11-24T22:19:27Z'
+  fork-count: 3

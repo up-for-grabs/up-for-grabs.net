@@ -18,5 +18,6 @@ upforgrabs:
   name: good first issue
   link: https://github.com/scikit-learn/scikit-learn/labels/good%20first%20issue
 stats:
-  issue-count: 0
-  fork-count: 27682
+  issue-count: 1
+  last-updated: '2026-11-27T11:00:56Z'
+  fork-count: 27707

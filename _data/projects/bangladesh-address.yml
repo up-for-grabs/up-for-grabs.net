@@ -1,0 +1,16 @@
+name: Bangladesh Address
+desc: >-
+  Divisions, districts, upazilas and thanas of Bangladesh as a typed npm package and as SQL and MongoDB dumps.
+  Beginner tasks are mostly data work, such as adding Bengali names, with the file to edit named in each issue.
+site: https://github.com/rajuAhmed1705/bangladesh-address
+tags:
+- typescript
+- javascript
+- npm
+- node.js
+- bangladesh
+- dataset
+- localization
+upforgrabs:
+  name: good first issue
+  link: https://github.com/rajuAhmed1705/bangladesh-address/labels/good%20first%20issue

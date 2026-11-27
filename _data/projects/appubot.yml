@@ -1,0 +1,13 @@
+name: AppuBot
+desc: An open source team of AI bots, each with its own job, that hand tasks to each other and work in the apps on your own computer. A desktop app for Mac, Windows and Linux, written in TypeScript with Electron and React.
+site: https://github.com/sarthakguptadev/AppuBot
+tags:
+  - typescript
+  - electron
+  - reactjs
+  - desktop
+  - ai-agents
+  - multi-agent
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sarthakguptadev/AppuBot/labels/good%20first%20issue

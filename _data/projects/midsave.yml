@@ -1,0 +1,10 @@
+name: midsave
+desc: Crash-test your app's data. Kills your app mid-save and tells you if data broke.
+site: https://github.com/sharanyashetty013-droid/midsave
+tags:
+  - go
+  - testing
+  - cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/sharanyashetty013-droid/midsave/labels/good%20first%20issue

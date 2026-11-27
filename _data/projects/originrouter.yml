@@ -1,0 +1,13 @@
+---
+name: OriginRouter
+desc: A local-first AI routing gateway and dashboard that connects compatible developer tools to a broad provider registry, with OAuth and API-key connections, model routing, fallback, streaming translation, and usage management.
+site: https://github.com/origin-labs-ai/origin-router-suite
+tags:
+  - ai
+  - llm
+  - node.js
+  - typescript
+  - tools
+upforgrabs:
+  name: good first issue
+  link: https://github.com/origin-labs-ai/origin-router-suite/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22

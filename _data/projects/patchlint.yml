@@ -1,0 +1,14 @@
+---
+name: patchlint
+desc: Beginner-friendly security linter for Dockerfiles, GitHub Actions workflows and docker-compose files. Every finding explains why it matters and how to fix it.
+site: https://github.com/RubahAnomali/patchlint
+tags:
+- python
+- security
+- linter
+- docker
+- github-actions
+- devsecops
+upforgrabs:
+  name: good first issue
+  link: https://github.com/RubahAnomali/patchlint/labels/good%20first%20issue

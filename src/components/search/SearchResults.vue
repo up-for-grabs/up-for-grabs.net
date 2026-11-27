@@ -1,18 +1,20 @@
 <script setup lang="ts">
-import { onMounted, ref, watch } from 'vue';
+import { onMounted, ref, watch, computed } from 'vue';
 
 import { useQuery } from '@tanstack/vue-query';
 
 import { subDays } from 'date-fns';
 
 import { InitialDaysActive } from '../data/config';
-import { fetchProjects } from '../data/search';
+import { fetchProjects, calculatePopularTags } from '../data/search';
 import { type WebsiteProject } from '../data/schema';
 
 import ProjectEntry from './ProjectEntry.vue';
+import PopularTags from './PopularTags.vue';
 
 const QUERY_PARAM = 'q';
 const LAST_UPDATED_PARAM = 'lastUpdated';
+const TAGS_PARAM = 'tags';
 
 const props = defineProps<{
   initialProjects: Array<WebsiteProject>;
@@ -24,6 +26,7 @@ const searchText = defineModel('searchText', { default: '' });
 const lastUpdatedDays = defineModel('lastUpdatedDays', {
   default: InitialDaysActive,
 });
+const selectedTags = ref<string[]>([]);
 
 function updateQueryString() {
   const params = new URLSearchParams(window.location.search);
@@ -36,6 +39,12 @@ function updateQueryString() {
   }
 
   params.set(LAST_UPDATED_PARAM, String(lastUpdatedDays.value));
+
+  if (selectedTags.value.length > 0) {
+    params.set(TAGS_PARAM, selectedTags.value.join(','));
+  } else {
+    params.delete(TAGS_PARAM);
+  }
 
   const queryString = params.toString();
   const nextUrl = queryString
@@ -64,19 +73,18 @@ function parseLastUpdated(key: string | number): Date | Error {
 }
 
 const { data, error, isPending, isError, refetch } = useQuery({
-  queryKey: ['projects', searchText, lastUpdatedDays],
+  queryKey: ['projects', searchText, lastUpdatedDays, selectedTags],
   queryFn: ({ queryKey }) => {
-    const text = queryKey[1];
-    if (typeof text !== 'string') {
-      return Promise.reject(new Error('search text placeholder broken'));
-    }
+    const text = queryKey[1] as string;
+    const days = queryKey[2] as number;
+    const tags = queryKey[3] as string[];
 
-    const lastUpdated = parseLastUpdated(queryKey[2]);
+    const lastUpdated = parseLastUpdated(days);
     if (lastUpdated instanceof Error) {
       return Promise.reject(lastUpdated);
     }
 
-    return fetchProjects(text, lastUpdated);
+    return fetchProjects(text, lastUpdated, tags.length > 0 ? tags : undefined);
   },
   placeholderData: props.initialProjects,
   enabled: isMounted,
@@ -99,6 +107,12 @@ onMounted(() => {
       lastUpdatedDays.value = parsedValue;
     }
   }
+
+  const tagsParam = params.get(TAGS_PARAM);
+  if (tagsParam) {
+    selectedTags.value = tagsParam.split(',').filter((t) => t.length > 0);
+  }
+
   updateQueryString();
 });
 
@@ -111,6 +125,27 @@ watch(lastUpdatedDays, () => {
   updateQueryString();
   refetch();
 });
+
+watch(
+  selectedTags,
+  () => {
+    updateQueryString();
+    refetch();
+  },
+  { deep: true }
+);
+
+const initialPopularTags = computed(() =>
+  calculatePopularTags(props.initialProjects, 6)
+);
+
+function handleToggleTag(tagName: string) {
+  if (selectedTags.value[0] === tagName) {
+    selectedTags.value = [];
+  } else {
+    selectedTags.value = [tagName];
+  }
+}
 </script>
 
 <style>
@@ -202,6 +237,11 @@ menu {
         </select>
       </div>
     </form>
+    <PopularTags
+      :tags="initialPopularTags"
+      :selectedTags="selectedTags"
+      @toggle-tag="handleToggleTag"
+    />
   </menu>
   <span v-if="isPending">Loading...</span>
   <span v-else-if="isError">Error: {{ error?.message }}</span>

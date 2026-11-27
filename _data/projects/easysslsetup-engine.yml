@@ -1,0 +1,12 @@
+name: EasySSLSetup-Engine
+desc: Experimental open-source PHP engine for free Let's Encrypt SSL automation on cPanel-style shared hosting — unfinished, seeking developers to continue it
+site: https://github.com/mrosenthal9127-glitch/EasySSLSetup-Engine
+tags:
+- php
+- letsencrypt
+- ssl
+- cpanel
+- acme
+upforgrabs:
+  name: help wanted
+  link: https://github.com/mrosenthal9127-glitch/EasySSLSetup-Engine/labels/help%20wanted

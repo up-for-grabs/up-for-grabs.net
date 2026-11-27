@@ -1,0 +1,17 @@
+---
+name: sentinel-lint
+desc: Zero-dependency security policy linter for repositories, GitHub Actions workflows and MCP configurations, with terminal, JSON and SARIF output.
+site: https://github.com/draarivpatel-ui/sentinel-lint
+tags:
+- javascript
+- node.js
+- cli
+- security
+- linter
+- static-analysis
+- github-actions
+- mcp
+- supply-chain
+upforgrabs:
+  name: good first issue
+  link: https://github.com/draarivpatel-ui/sentinel-lint/labels/good%20first%20issue

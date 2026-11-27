@@ -39,7 +39,7 @@
     "@types/node": "^26",
     "@types/showdown": "^2.0.6",
     "@types/underscore": "^1.13.0",
-    "@typescript-eslint/parser": "^8.72.2",
+    "@typescript-eslint/parser": "^8.74.0",
     "@vitejs/plugin-vue": "^6.0.11",
     "@vitest/coverage-v8": "^5.1.0",
     "@vue/eslint-config-typescript": "^14.9.0",

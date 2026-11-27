@@ -1,0 +1,13 @@
+---
+name: tcpcat
+desc: Network scanner that shows what your servers expose, with an offline AI that explains each open port. Teaching the AI a service is one YAML entry and needs no Go.
+site: https://github.com/NycolazSec/tcpcat
+tags:
+- go
+- security
+- networking
+- cli
+- yaml
+upforgrabs:
+  name: good first issue
+  link: https://github.com/NycolazSec/tcpcat/labels/good%20first%20issue

@@ -1,8 +1,0 @@
-name: Ultimate-Kubernetes-Resources
-desc: A collection of Kubernetes resources.
-site: https://github.com/DhanushNehru/Ultimate-Kubernetes-Resources
-tags:
-- documentation
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/Ultimate-Kubernetes-Resources/labels/good%20first%20issue

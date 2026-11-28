@@ -1,8 +1,0 @@
-name: agentcheck
-desc: Scan AI coding-agent configuration files for hidden prompt-injection attacks.
-site: https://github.com/DhanushNehru/agentcheck
-tags:
-- javascript
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/agentcheck/labels/good%20first%20issue

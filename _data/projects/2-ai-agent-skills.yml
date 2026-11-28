@@ -1,8 +1,0 @@
-name: ai-agent-skills
-desc: Reusable AI agent skills for application development.
-site: https://github.com/DevelopersGlobal/ai-agent-skills
-tags:
-- python
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DevelopersGlobal/ai-agent-skills/labels/good%20first%20issue

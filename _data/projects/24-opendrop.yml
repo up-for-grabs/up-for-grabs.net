@@ -1,0 +1,8 @@
+name: OpenDrop
+desc: Transfer files across a local network using WebRTC.
+site: https://github.com/DhanushNehru/OpenDrop
+tags:
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/OpenDrop/labels/good%20first%20issue

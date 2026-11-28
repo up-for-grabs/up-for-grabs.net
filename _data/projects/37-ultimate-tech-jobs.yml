@@ -1,0 +1,8 @@
+name: Ultimate-Tech-Jobs
+desc: A curated list of job sites and resources for people in technology.
+site: https://github.com/DhanushNehru/Ultimate-Tech-Jobs
+tags:
+- javascript
+upforgrabs:
+  name: good first issue
+  link: https://github.com/DhanushNehru/Ultimate-Tech-Jobs/labels/good%20first%20issue

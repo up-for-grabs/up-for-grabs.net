@@ -1,0 +1,15 @@
+name: Casama
+desc: >-
+  AI teammates with their own computers. The apps, computerd, SDKs, CLI, MCP
+  server and safety rules are open source; the engine is closed.
+site: https://github.com/casama-ai/casama
+tags:
+  - dart
+  - flutter
+  - typescript
+  - javascript
+  - ai
+  - cli
+upforgrabs:
+  name: good first issue
+  link: https://github.com/casama-ai/casama/labels/good%20first%20issue

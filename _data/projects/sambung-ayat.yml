@@ -1,0 +1,14 @@
+name: Sambung Ayat
+desc: 'Free Quran memorization quiz (web, PWA and Android) with 12 interface languages. Astro, React, TypeScript; good first issues include UI translation reviews.'
+site: https://github.com/afdaliable/sambungayat
+tags:
+- typescript
+- astro
+- reactjs
+- tailwindcss
+- i18n
+- accessibility
+- pwa
+upforgrabs:
+  name: good first issue
+  link: https://github.com/afdaliable/sambungayat/labels/good%20first%20issue

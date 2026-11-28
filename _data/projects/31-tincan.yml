@@ -1,8 +1,0 @@
-name: tincan
-desc: End-to-end encrypted WebRTC collaboration between AI coding agents.
-site: https://github.com/DhanushNehru/tincan
-tags:
-- typescript
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/tincan/labels/good%20first%20issue

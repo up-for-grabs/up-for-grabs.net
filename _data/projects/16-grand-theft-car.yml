@@ -1,8 +1,0 @@
-name: grand-theft-car
-desc: An original open-city driving game that runs in the browser.
-site: https://github.com/DhanushNehru/grand-theft-car
-tags:
-- javascript
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/grand-theft-car/labels/good%20first%20issue

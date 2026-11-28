@@ -1,8 +1,0 @@
-name: chess-win-analyzer
-desc: Analyze chess.com games.
-site: https://github.com/DhanushNehru/chess-win-analyzer
-tags:
-- typescript
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/chess-win-analyzer/labels/good%20first%20issue

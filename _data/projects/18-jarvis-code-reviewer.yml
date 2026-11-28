@@ -1,8 +1,0 @@
-name: jarvis-code-reviewer
-desc: An AI-assisted code review tool.
-site: https://github.com/DhanushNehru/jarvis-code-reviewer
-tags:
-- javascript
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/jarvis-code-reviewer/labels/good%20first%20issue

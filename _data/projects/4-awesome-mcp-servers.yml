@@ -1,8 +1,0 @@
-name: awesome-mcp-servers
-desc: A curated list of Model Context Protocol servers, tools, SDKs and resources.
-site: https://github.com/DhanushNehru/awesome-mcp-servers
-tags:
-- documentation
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/awesome-mcp-servers/labels/good%20first%20issue

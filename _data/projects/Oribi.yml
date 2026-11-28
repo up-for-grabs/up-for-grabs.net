@@ -1,0 +1,12 @@
+name: Oribi
+desc: A Python library that profiles pandas DataFrames to infer what each row represents, identify column roles and relationships, and generate analytical context.
+site: https://github.com/samhoon000/Oribi
+tags:
+  - python
+  - pandas
+  - data-analysis
+  - data-science
+  - open-source
+upforgrabs:
+  name: good first issue
+  link: https://github.com/samhoon000/Oribi/labels/good%20first%20issue

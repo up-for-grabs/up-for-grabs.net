@@ -1,8 +1,0 @@
-name: how-it-works
-desc: Plain-English explanations of how applications work, linked to supporting evidence.
-site: https://github.com/DevelopersGlobal/how-it-works
-tags:
-- documentation
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DevelopersGlobal/how-it-works/labels/good%20first%20issue

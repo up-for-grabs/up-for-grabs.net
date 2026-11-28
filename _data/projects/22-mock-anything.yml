@@ -1,8 +1,0 @@
-name: mock-anything
-desc: Record API traffic, replay it as a local mock server and verify tests offline.
-site: https://github.com/DhanushNehru/mock-anything
-tags:
-- javascript
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/mock-anything/labels/good%20first%20issue

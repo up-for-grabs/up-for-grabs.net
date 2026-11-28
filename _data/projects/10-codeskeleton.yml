@@ -1,8 +1,0 @@
-name: codeskeleton
-desc: Turn source code, documentation and assets into a queryable knowledge graph.
-site: https://github.com/DhanushNehru/codeskeleton
-tags:
-- rust
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/codeskeleton/labels/good%20first%20issue

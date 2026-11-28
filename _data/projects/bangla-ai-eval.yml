@@ -1,0 +1,15 @@
+name: bangla-ai-eval
+desc: Open benchmark of how well AI models handle Bangla. Contribute by adding questions (dialects, proverbs, riddles, grammar), with step-by-step guides in Bangla and English. No coding needed.
+site: https://github.com/hossainbuilds/bangla-ai-eval
+tags:
+  - python
+  - bangla
+  - bengali
+  - nlp
+  - llm
+  - benchmark
+  - dataset
+  - beginner-friendly
+upforgrabs:
+  name: good first issue
+  link: https://github.com/hossainbuilds/bangla-ai-eval/labels/good%20first%20issue

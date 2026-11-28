@@ -1,8 +1,0 @@
-name: tachyroute
-desc: An AI decision engine for explainable zero-shot classification.
-site: https://github.com/DhanushNehru/tachyroute
-tags:
-- python
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/tachyroute/labels/good%20first%20issue

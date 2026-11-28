@@ -4,7 +4,7 @@ site: https://github.com/afdaliable/sambungayat
 tags:
 - typescript
 - astro
-- react
+- reactjs
 - tailwindcss
 - i18n
 - accessibility

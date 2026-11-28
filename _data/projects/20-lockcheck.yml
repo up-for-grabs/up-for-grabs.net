@@ -1,8 +1,0 @@
-name: lockcheck
-desc: A Node.js CLI that scans package-lock files for supply-chain risks.
-site: https://github.com/DhanushNehru/lockcheck
-tags:
-- javascript
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/lockcheck/labels/good%20first%20issue

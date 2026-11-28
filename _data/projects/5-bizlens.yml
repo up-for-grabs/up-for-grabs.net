@@ -1,8 +1,0 @@
-name: bizlens
-desc: Analyze how a business works using its website and public sources.
-site: https://github.com/DevelopersGlobal/bizlens
-tags:
-- typescript
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DevelopersGlobal/bizlens/labels/good%20first%20issue

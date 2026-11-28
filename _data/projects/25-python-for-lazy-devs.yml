@@ -1,8 +1,0 @@
-name: python-for-lazy-devs
-desc: A collection of Python libraries, automation scripts and resources.
-site: https://github.com/DhanushNehru/python-for-lazy-devs
-tags:
-- python
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/python-for-lazy-devs/labels/good%20first%20issue

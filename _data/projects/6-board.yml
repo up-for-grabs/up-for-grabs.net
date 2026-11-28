@@ -1,8 +1,0 @@
-name: board
-desc: A browser-based blackboard for writing and displaying content.
-site: https://github.com/DhanushNehru/board
-tags:
-- javascript
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/board/labels/good%20first%20issue

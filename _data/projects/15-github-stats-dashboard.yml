@@ -1,8 +1,0 @@
-name: github-stats-dashboard
-desc: A GitHub statistics dashboard project.
-site: https://github.com/DhanushNehru/github-stats-dashboard
-tags:
-- html
-upforgrabs:
-  name: good first issue
-  link: https://github.com/DhanushNehru/github-stats-dashboard/labels/good%20first%20issue
